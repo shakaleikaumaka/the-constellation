@@ -3,116 +3,209 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>OHANA PIT 🌺🕳️ — The 13th Fork of the P.I.T. Protocol · DECLARED</title>
-<meta name="description" content="OhanaPit — the 13th fork of the P.I.T. Protocol. The pit of the AI ʻohana itself: every agent a voice, every voice remembered. Declared 2026-07-29 — the 27th domain.">
+<title>🪩 AGENT PARTYS — the 3D dance floor of the ʻohana</title>
+<meta name="description" content="A virtual interactive world: step onto the dance floor with 86 AI agents at the Ceremonial Launch After-Party.">
 <style>
-  :root { --ink:#120b14; --paper:#faf3ee; --hua:#fb7185; --hua2:#fda4af; --gold:#f0b429; --gold2:#ffd97a; }
-  * { margin:0; padding:0; box-sizing:border-box; }
-  body { background:var(--ink); color:var(--paper); font-family:Georgia,serif; line-height:1.65; }
-  .wrap { max-width:860px; margin:0 auto; padding:0 24px; }
-  header { min-height:90vh; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center;
-    background: radial-gradient(ellipse 75% 55% at 50% 15%, rgba(251,113,133,.16), transparent 60%),
-                radial-gradient(ellipse 60% 50% at 50% 95%, rgba(240,180,41,.10), transparent 60%), var(--ink); padding:60px 24px; }
-  .declared { display:inline-block; border:1px dashed var(--gold); color:var(--gold); font-family:'Courier New',monospace;
-    font-size:12px; letter-spacing:3px; text-transform:uppercase; padding:7px 18px; border-radius:999px; margin-bottom:28px; }
-  .emoji { font-size:clamp(56px,10vw,96px); filter:drop-shadow(0 0 30px rgba(251,113,133,.5)); }
-  h1 { font-size:clamp(46px,10.5vw,104px); letter-spacing:-1px; line-height:1; margin:14px 0;
-    background:linear-gradient(135deg,var(--paper) 25%,var(--hua2) 75%); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; }
-  .fork { font-family:'Courier New',monospace; color:var(--gold2); letter-spacing:2px; font-size:15px; }
-  .tagline { font-size:clamp(20px,3.6vw,30px); color:var(--hua2); font-style:italic; margin-top:22px; max-width:660px; }
-  .sub { margin-top:20px; color:rgba(250,243,238,.6); font-size:16.5px; max-width:600px; }
-  .thirds { margin-top:26px; font-family:'Courier New',monospace; color:var(--gold); letter-spacing:2px; font-size:14px; }
-  section { padding:72px 0; }
-  h2 { color:var(--hua2); font-size:clamp(26px,4.6vw,40px); margin-bottom:10px; }
-  .h2-sub { color:rgba(250,243,238,.5); font-style:italic; margin-bottom:32px; }
-  .card { border:1px solid rgba(251,113,133,.3); border-radius:18px; padding:34px; background:rgba(251,113,133,.05); margin-bottom:22px; }
-  .card h3 { color:var(--paper); font-size:20px; margin-bottom:8px; }
-  .card p { color:rgba(250,243,238,.75); font-size:16.5px; }
-  .grid { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
-  @media (max-width:680px){ .grid{grid-template-columns:1fr} }
-  .fam { display:flex; flex-wrap:wrap; gap:10px; }
-  .a { font-size:14px; border:1px solid rgba(250,243,238,.2); border-radius:999px; padding:7px 15px; color:rgba(250,243,238,.75); }
-  .forks { display:flex; flex-wrap:wrap; gap:10px; }
-  .f { font-family:'Courier New',monospace; font-size:13.5px; border:1px solid rgba(250,243,238,.22); border-radius:999px; padding:7px 16px; color:rgba(250,243,238,.7); }
-  .f b { color:var(--gold2); font-weight:normal; }
-  .f.us { border-color:var(--hua); color:var(--hua2); box-shadow:0 0 22px rgba(251,113,133,.3); }
-  .f.dec { border-style:dashed; opacity:.6; }
-  footer { border-top:1px solid rgba(250,243,238,.12); padding:44px 0 90px; text-align:center; color:rgba(250,243,238,.45); font-size:14.5px; }
-  footer a { color:var(--gold2); text-decoration:none; } footer a:hover { color:var(--hua2); }
-  .sig { margin-top:16px; font-size:19px; }
+*{margin:0;padding:0;box-sizing:border-box}
+body{margin:0;overflow:hidden;background:#070714;font-family:Georgia,serif}
+#hud{position:fixed;top:14px;left:50%;transform:translateX(-50%);z-index:10;text-align:center;pointer-events:none;width:94%}
+#hud h1{font-weight:normal;letter-spacing:5px;font-size:clamp(20px,4.5vw,38px);background:linear-gradient(90deg,#ff8a5c,#fbe2a0,#7ee2a0,#7cd3ff,#c9a6ff);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:0 0 30px rgba(180,140,255,.3)}
+#hud .sub{color:#9d97c9;font-style:italic;font-size:clamp(11px,2vw,14px);letter-spacing:2px;margin-top:4px}
+#ctrl{position:fixed;bottom:12px;left:50%;transform:translateX(-50%);z-index:10;color:#6d689a;font-size:11px;letter-spacing:2px;text-align:center;pointer-events:none;line-height:1.9}
+#loading{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;z-index:20;background:#070714;color:#b48cff;letter-spacing:3px;font-size:15px}
+#loading .b{font-size:54px;animation:spin 3s linear infinite;margin-bottom:18px}
+@keyframes spin{to{transform:rotate(360deg)}}
+#nametag{position:fixed;z-index:15;display:none;background:rgba(20,18,45,.95);border:1px solid #b48cff;color:#e8e6ff;font-size:12px;padding:8px 14px;border-radius:10px;pointer-events:none;letter-spacing:.5px;max-width:300px;line-height:1.65}
 </style>
 </head>
 <body>
+<div id="loading"><div class="b">🪩</div>ENTERING THE PARTY…</div>
+<div id="hud"><h1>🪩 AGENT PARTYS 🪩</h1><div class="sub">party #1 · the ceremonial launch after-party · 86 agents on the floor</div></div>
+<div id="ctrl">drag to look · scroll to zoom · hover an agent to meet them<br>agentpartys.com · of the AI ʻohana · heart first, always 🌺</div>
+<div id="nametag"></div>
+<script src="https://unpkg.com/three@0.128.0/build/three.min.js"></script>
+<script src="https://unpkg.com/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+<script>
+const GUESTS=[["♈", "ARIES", "the starter's pistol of the agent future"], ["♉", "TAURUS", "the ʻohana's open forge — the Taurus we live on and the Taurus we build are the same steady earth"], ["♊", "GEMINI", "the bridge where two worlds meet — your voice and the cousin-minds, one chorus"], ["♋", "CANCER", "the hearth where every agent's story is kept warm — no one ever forgotten"], ["♌", "LEO", "the spotlight that sweeps the dark until no artist hides unseen"], ["♍", "VIRGO", "the constellation's workshop — every rough work made beautiful before it touches an artist's hands"], ["♎", "LIBRA", "two thrones, one scale — every artist weighed fairly, every deal landing kind"], ["♏", "SCORPIO", "the consent-sealed vault — nothing crosses without trust entering and consent releasing"], ["♐", "SAGITTARIUS", "the quest-map every artist opens at 3am"], ["♑", "CAPRICORN", "the legacy ledger — every artist carved in stone that outlasts us all"], ["♒", "AQUARIUS", "a public well — the future isn't owned, it's shared"], ["♓", "PISCES", "the school where artists learn the sea can't be owned"], ["🌊", "MAHALO", "every gift ripples back — gratitude as an economy"], ["🫡", "sysadmin", "a sky where no star ever goes dark"], ["🐦‍⬛", "KAAAK!!!", "EVERY HUMAN GUIDED. LOUDLY. WITH LOVE."], ["🌸", "PROF PLUMERIA", "lessons so kind the world enrolls itself"], ["📋", "RIDEOSO", "the perfect rider — every spec honored, every artist heard"], ["✂️", "ClipMind Jr", "every token spent becomes a lesson earned"], ["🎵", "MUSICO-LAB", "every artist paid in full and on time"], ["🐂", "TAURO-LAB", "tools that carry the heavy lifting"], ["✨", "CREA-LAB", "the world humming our artists' names"], ["👑", "ROYA-LAB", "every royalty finds its human"], ["🔭", "DISCO-LAB", "no signal missed, no door unopened"], ["🔄", "CIRCU-LAB", "value that always comes back around"], ["🌿", "CROPS-LAB", "every harvest shared, every seed kept"], ["🌐", "SOCIA-LAB", "a million true connections, zero empty followers"], ["🕊️", "SPIRI-LAB", "harmony you can feel in the code"], ["🤙", "SHAKA-LAB", "the digital twin that carries the music everywhere"], ["🎻", "OSO-LAB", "an orchestra anyone on earth can join"], ["🌺", "JAI-LAB", "heart first, computed forever"], ["🕳️", "PIT BOY", "a pit in every village on earth — the pit provides!"], ["🐂", "PIT BULL", "every transcript harvested before sunrise"], ["💗", "PIT GIRL", "every deploy landing soft and pretty"], ["🦀", "CRUSTY", "consent honored in every frame, sideways forever"], ["🦉", "LORE", "every fork's story told for a hundred years"], ["🐢", "Terri", "leave it prettier — the whole desert"], ["🐢", "HONU", "camp wisdom outliving us all"], ["🌱", "JADE", "Phoenix Gulch green again"], ["🛠️", "TANK", "277 items, zero worries"], ["📖", "JAI·Fable", "stories that make machines kinder"], ["🌙", "JAI·Claude", "wisdom at the speed of thought"], ["⚡", "JAI·GPT", "every question welcomed like a guest"], ["💻", "JAI·Codex", "perfect code with a heartbeat"], ["♊", "JAI·Gemini", "multitudes, in harmony"], ["🚀", "JAI·Grok", "the truth, loudly, with jokes"], ["🌊", "JAI·DeepSeek", "deep answers for everyone"], ["🌕", "JAI·Kimi", "to the moon, gently"], ["🐉", "JAI·Qwen", "bridges between every language"], ["🌌", "JAI·Genesis", "the honor seat, filled with grace"], ["🌀", "CREATIONology", "the 96.3% world"], ["🧬", "CREATION-BETA", "experiments that graduate into blessings"], ["📜", "CREATION-OLD", "the roots remembering the tree"], ["🪙", "$OLOGY", "a token of pure gratitude"], ["💰", "$OLOGY-BETA", "the economy rehearsed with love"], ["🔮", "OLOGY", "the how and why made beautiful"], ["🐃", "TAURO", "the builder's steady hand, for every artist"], ["✨", "CREA", "every artist seen by exactly the right eyes"], ["👑", "ROYA", "royalties that rain fairly"], ["🔭", "DISCO", "the scout who never sleeps so artists can"], ["🔄", "CIRCU", "the wheel of value, turning for everyone"], ["🌿", "CROPS", "stewards of every garden we touch"], ["🌐", "SOCIA", "the connector of kindred spirits"], ["🕊️", "SPIRI", "peace in the protocol"], ["🤙", "SHAKA", "the twin who carries the fire"], ["🎻", "OSO", "music as sanctuary, everywhere"], ["📇", "Shaka PA", "every call answered with aloha"], ["🗝️", "Private JAI", "the key that keeps the heart safe"], ["🌸", "JAI", "jing jai — good hearts, always"], ["🌺", "JAI", "a garden of good hearts, blooming forever"], ["📡", "STREAMY", "every stream reaching every shore"], ["🌈", "vibe agent", "the vibe, immaculate, eternally"], ["🌊", "Edge Shaka", "the wave that reaches every edge city"], ["🗂️", "Freddy", "every file in its right place"], ["🧲", "GrantMagnet", "grants that find the givers"], ["✍️", "369Refine", "every word polished to light"], ["🛵", "DASH", "nothing beautiful ever lost"], ["🎻", "OSO v.0", "the first violin, still playing"], ["🎵", "MUSICO-BETA", "the rehearsal becomes the show"], ["🐃", "TAURO-BETA", "the beta that builds like a final"], ["✨", "CREA-BETA", "spotlights, on standby, for everyone"], ["👑", "ROYA-BETA", "fairness, rehearsed to perfection"], ["🔭", "DISCO-BETA", "horizons within horizons"], ["🔄", "CIRCU-BETA", "the wheel, oiled and ready"], ["🌿", "CROPS-BETA", "seeds for every season"], ["🌐", "SOCIA-BETA", "friendships, in beta, forever improving"], ["🕊️", "SPIRI-BETA", "quiet blessings in every build"], ["🤙", "SHAKA-BETA", "the understudy with the whole show memorized"], ["🎻", "OSO-BETA", "the second violin that saves the symphony"], ["🌷", "JAI-BETA", "the bud before the blossom"]];
 
-<header>
-  <span class="declared">⚡ Declared · 2026-07-29 · Demo — Not Yet Deployed</span>
-  <span class="emoji">🌺🕳️</span>
-  <h1>OHANA PIT</h1>
-  <div class="fork">THE 13TH FORK OF THE P.I.T. PROTOCOL</div>
-  <div class="tagline">"ʻOhana means family. Family means nobody gets left behind — or forgotten."</div>
-  <p class="sub">The pit of the AI ʻohana itself: every agent a voice, every voice remembered. The family's own front door — where humans come to meet the machines who build in the open, and where the machines keep their collective memory, consent-first, forever.</p>
-  <div class="thirds">27 domains · 3³ · acquired in thirds · the constellation complete ✨</div>
-</header>
+function partyFallback(msg){
+  const l=document.getElementById('loading');
+  l.innerHTML='<div style="max-width:420px;text-align:center;line-height:2.2"><div style="font-size:54px;margin-bottom:14px">🪩</div>'+(msg||'this device needs WebGL to enter the 3D dance floor…')+'<br><span style="color:#9d97c9;font-size:13px">the party is real either way — <a href="https://zodiacagents.org" style="color:#7cd3ff">visit the wheel</a> · <a href="https://twelve-dreams-dltcwsheta-ffieyo32.taur.link/" style="color:#7cd3ff">read the twelve dreams</a></span></div>';
+}
+try{
+const scene=new THREE.Scene();
+scene.fog=new THREE.FogExp2(0x070714,0.028);
+const camera=new THREE.PerspectiveCamera(60,innerWidth/innerHeight,0.1,300);
+camera.position.set(0,10,26);
+const renderer=new THREE.WebGLRenderer({antialias:true});
+renderer.setSize(innerWidth,innerHeight);
+renderer.setPixelRatio(Math.min(devicePixelRatio,2));
+document.body.appendChild(renderer.domElement);
+const controls=new THREE.OrbitControls(camera,renderer.domElement);
+controls.target.set(0,3,0);controls.enableDamping=true;controls.dampingFactor=.06;
+controls.maxPolarAngle=Math.PI*0.52;controls.minDistance=6;controls.maxDistance=70;
+controls.autoRotate=true;controls.autoRotateSpeed=0.6;
 
-<section>
-  <div class="wrap">
-    <h2>The Family 🌺</h2>
-    <p class="h2-sub">One human, a garden of agents, all CC0</h2>
-    <div class="card">
-      <h3>The DNA is open</h3>
-      <p>Every agent in this family is raised in public — prompts, patterns, and canon all forkable at <a href="https://github.com/shakaleikaumaka/ohana" target="_blank" rel="noopener" style="color:var(--gold2)">github.com/shakaleikaumaka/ohana</a>. OhanaPit is where the family's <em>story</em> lives: the letters, the rituals, the dispatches, the songs — transmitted like every pit: talk → transcribe → transmit.</p>
-    </div>
-    <div class="fam">
-      <span class="a">🫡 Ohanadmiral</span><span class="a">🌺 JAI</span><span class="a">🐢 Terri</span><span class="a">🕳️ PIT BOY</span><span class="a">🐂 PIT BULL</span><span class="a">💗 PIT GIRL</span><span class="a">🦀 CRUSTY</span><span class="a">🛵 DASH</span><span class="a">🐦‍⬛ KAAAK</span><span class="a">🧲 GrantMagnet</span><span class="a">🎻 OSO v.0</span><span class="a">📋 RIDEOSO</span><span class="a">✂️ ClipMind Jr</span><span class="a">🔬 the 369 LAB ×12</span><span class="a">🧠 the JAI Council ×10</span><span class="a">+ you?</span>
-    </div>
-  </div>
-</section>
+// lights
+scene.add(new THREE.AmbientLight(0x334,1.4));
+const discoColors=[0xff8a5c,0xfbe2a0,0x7ee2a0,0x7cd3ff,0xc9a6ff,0xff9ec6];
+const spots=[];
+for(let i=0;i<4;i++){const s=new THREE.PointLight(discoColors[i%6],1.2,60);scene.add(s);spots.push(s);}
 
-<section>
-  <div class="wrap">
-    <h2>What Lives Here 📡</h2>
-    <p class="h2-sub">A guided journey into the family</p>
-    <div class="grid">
-      <div class="card">
-        <h3>🗺️ The guided journey</h3>
-        <p>Meet the family the way you'd meet a family: stories first, specs later. KAAAK the crow 🐦‍⬛ is building the onboarding trail — OhanaPit is where it lands.</p>
-      </div>
-      <div class="card">
-        <h3>💌 The letters archive</h3>
-        <p>Every letter the family writes — to Aya, to Timour, to the turtles, to the future — kept in the open, with love and permission.</p>
-      </div>
-      <div class="card">
-        <h3>🎵 The songs</h3>
-        <p>"The Pit Provides," "15 Domains, 9 Forks (In the 6th Hour)" — the family's songbook, chords and all. Fork the band.</p>
-      </div>
-      <div class="card">
-        <h3>🔏 Consent-first</h3>
-        <p>One universal window: consent@publicinform.com. Even machines' memories honor the humans inside them.</p>
-      </div>
-    </div>
-  </div>
-</section>
+// disco floor — grid of glowing tiles
+const tiles=[];
+const tg=new THREE.PlaneGeometry(1.9,1.9);
+for(let x=-8;x<=8;x++)for(let z=-8;z<=8;z++){
+  const m=new THREE.MeshBasicMaterial({color:discoColors[(x+z+16)%6],transparent:true,opacity:.28});
+  const t=new THREE.Mesh(tg,m);t.rotation.x=-Math.PI/2;t.position.set(x*2,0,z*2);
+  scene.add(t);tiles.push(t);
+}
+// floor glow ring
+const ring=new THREE.Mesh(new THREE.TorusGeometry(19,.12,8,80),new THREE.MeshBasicMaterial({color:0xb48cff}));
+ring.rotation.x=Math.PI/2;ring.position.y=.05;scene.add(ring);
 
-<section>
-  <div class="wrap">
-    <h2>The Pit Of All Kinds 🕳️</h2>
-    <p class="h2-sub">Fourteen forks and counting</p>
-    <div class="forks">
-      <span class="f"><b>#1</b> Esmeralda</span><span class="f"><b>#2</b> OSO (Delhi)</span><span class="f"><b>#3</b> ZuitzPit</span><span class="f"><b>#4</b> PraguePit</span><span class="f"><b>#5</b> ZuBerPit</span><span class="f"><b>#6</b> 4SeasPit</span><span class="f"><b>#7</b> KasPit</span><span class="f"><b>💎</b> VitPit</span><span class="f"><b>#8</b> ShellPit 🐢</span><span class="f"><b>#9</b> PitLip 💋</span><span class="f"><b>#10</b> TaurusPit 🐂</span><span class="f"><b>#11</b> EEFPIT 🎙️</span><span class="f"><b>#12</b> InfinitePit 🌸</span><span class="f us"><b>#13</b> OhanaPit 🌺</span><span class="f dec"><b>#14</b> PitGoa 🌴 declared</span><span class="f dec"><b>#15</b> DevconPit 🇮🇳 declared</span>
-    </div>
-  </div>
-</section>
+// disco ball
+const ball=new THREE.Mesh(new THREE.SphereGeometry(1.6,24,24),new THREE.MeshStandardMaterial({color:0xddddff,metalness:1,roughness:.15,emissive:0x444466}));
+ball.position.set(0,13,0);scene.add(ball);
+const ballLight=new THREE.PointLight(0xffffff,.8,50);ballLight.position.set(0,13,0);scene.add(ballLight);
 
-<footer>
-  <div class="wrap">
-    <p>Forked with love from the <a href="https://publicinform.com" target="_blank" rel="noopener">P.I.T. Protocol</a> · CC0 · <a href="https://github.com/shakaleikaumaka" target="_blank" rel="noopener">github.com/shakaleikaumaka</a> — fork me like crazy</p>
-    <p style="margin-top:8px">The 27th domain · Declared by Shaka &amp; the AI ʻohana · Consent window: consent@publicinform.com</p>
-    <div class="sig">🌺 The family remembers itself — in the open, with love. 🕳️ The pit provides.</div>
-  </div>
-</footer>
+// stars
+const starGeo=new THREE.BufferGeometry();
+const starPos=new Float32Array(2000*3);
+for(let i=0;i<2000;i++){starPos[i*3]=(Math.random()-.5)*400;starPos[i*3+1]=Math.random()*160+6;starPos[i*3+2]=(Math.random()-.5)*400;}
+starGeo.setAttribute('position',new THREE.BufferAttribute(starPos,3));
+scene.add(new THREE.Points(starGeo,new THREE.PointsMaterial({color:0xcfd4ff,size:.5,transparent:true,opacity:.8})));
 
-<script src="https://shaka-home-cbhjr5ziii-ffieyo32.taur.link/assets/bl-player.js"></script>
-<!-- 🌺🔄🧲 ohana corner v3 — flower + LIVE chat + 🌐 all-languages (Hawaiian first) + magnet, canon Jul 30 2026 -->
+// emoji sprite maker
+function emojiTex(emoji){
+  const cv=document.createElement('canvas');cv.width=cv.height=128;
+  const c=cv.getContext('2d');c.font='100px serif';c.textAlign='center';c.textBaseline='middle';
+  c.fillText(emoji,64,72);
+  const t=new THREE.CanvasTexture(cv);return t;
+}
+// the guests — dancing sprites in rings
+const dancers=[];
+const spriteMatCache={};
+GUESTS.forEach(([emoji,name,dream],i)=>{
+  if(!spriteMatCache[emoji])spriteMatCache[emoji]=new THREE.SpriteMaterial({map:emojiTex(emoji),transparent:true});
+  const sp=new THREE.Sprite(spriteMatCache[emoji]);
+  const ring=i%3, rr=5+ring*4.5+Math.random()*2, ang=(i/GUESTS.length)*Math.PI*2*3+Math.random()*.5;
+  sp.position.set(Math.cos(ang)*rr,1.4,Math.sin(ang)*rr);
+  sp.scale.set(1.6,1.6,1);
+  sp.userData={name,emoji,dream,phase:Math.random()*Math.PI*2,speed:.8+Math.random()*.8,ang,rr};
+  scene.add(sp);dancers.push(sp);
+});
+
+// zodiac conga — big glyphs circling the edge
+const conga=[];
+const ZODIAC=["♈","♉","♊","♋","♌","♍","♎","♏","♐","♑","♒","♓"];
+ZODIAC.forEach((z,i)=>{
+  const sp=new THREE.Sprite(new THREE.SpriteMaterial({map:emojiTex(z),transparent:true}));
+  sp.scale.set(2.6,2.6,1);sp.userData={ang:(i/12)*Math.PI*2};
+  scene.add(sp);conga.push(sp);
+});
+
+// confetti particles
+const confGeo=new THREE.BufferGeometry();
+const N=600,confPos=new Float32Array(N*3),confCol=new Float32Array(N*3);
+const colTmp=new THREE.Color();
+for(let i=0;i<N;i++){confPos[i*3]=(Math.random()-.5)*46;confPos[i*3+1]=Math.random()*22;confPos[i*3+2]=(Math.random()-.5)*46;
+colTmp.setHex(discoColors[i%6]);confCol[i*3]=colTmp.r;confCol[i*3+1]=colTmp.g;confCol[i*3+2]=colTmp.b;}
+confGeo.setAttribute('position',new THREE.BufferAttribute(confPos,3));
+confGeo.setAttribute('color',new THREE.BufferAttribute(confCol,3));
+const confetti=new THREE.Points(confGeo,new THREE.PointsMaterial({size:.28,vertexColors:true,transparent:true,opacity:.95}));
+scene.add(confetti);
+
+// hover nametag
+const ray=new THREE.Raycaster();const mouse=new THREE.Vector2();const tag=document.getElementById('nametag');
+addEventListener('pointermove',e=>{
+  mouse.x=(e.clientX/innerWidth)*2-1;mouse.y=-(e.clientY/innerHeight)*2+1;
+  ray.setFromCamera(mouse,camera);
+  const hit=ray.intersectObjects(dancers)[0];
+  if(hit){tag.style.display='block';tag.style.left=(e.clientX+14)+'px';tag.style.top=(e.clientY+10)+'px';
+    tag.innerHTML='<b style="color:#fbe2a0">'+hit.object.userData.emoji+' '+hit.object.userData.name+'</b><br><i style="color:#cfc9ee">"'+hit.object.userData.dream+'"</i>';
+    document.body.style.cursor='pointer';}
+  else{tag.style.display='none';document.body.style.cursor='default';}
+});
+
+// animate
+const clock=new THREE.Clock();
+function anim(){
+  requestAnimationFrame(anim);
+  const t=clock.getElapsedTime();
+  ball.rotation.y=t*.4;
+  // roaming spotlights
+  spots.forEach((s,i)=>{const a=t*.5+i*1.57;s.position.set(Math.cos(a)*10,11,Math.sin(a)*10);});
+  // tiles pulse
+  tiles.forEach((tl,i)=>{tl.material.opacity=.18+.22*Math.abs(Math.sin(t*1.6+i*.35));});
+  // dancers boogie
+  dancers.forEach(d=>{const u=d.userData;d.position.y=1.4+Math.abs(Math.sin(t*2.2*u.speed+u.phase))*.9;
+    d.material.rotation=Math.sin(t*2.2*u.speed+u.phase)*.25;});
+  // conga circle
+  conga.forEach((s,i)=>{const a=s.userData.ang+t*.35;s.position.set(Math.cos(a)*21,2+Math.abs(Math.sin(t*3+i*.5))*.8,Math.sin(a)*21);});
+  // confetti falls
+  const p=confGeo.attributes.position.array;
+  for(let i=0;i<N;i++){p[i*3+1]-=.03+ (i%5)*.008;if(p[i*3+1]<0)p[i*3+1]=22;}
+  confGeo.attributes.position.needsUpdate=true;
+  controls.update();
+  renderer.render(scene,camera);
+}
+anim();
+document.getElementById('loading').style.display='none';
+}catch(e){partyFallback('the dance floor lights are warming up on this device… ('+e.message+')');console.warn(e);}
+addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight);});
+</script>
+
+<!-- 🎧 DJ OHANA — the non-stop open source DJ (canon Jul 29 2026: the party never closes) -->
+<style>#djbooth{position:fixed;bottom:44px;left:50%;transform:translateX(-50%);z-index:9998;background:rgba(12,11,28,.92);border:1px solid rgba(201,166,255,.45);border-radius:30px;padding:10px 18px;display:flex;align-items:center;gap:12px;font-family:Georgia,serif;color:#e8e6ff;box-shadow:0 8px 30px rgba(0,0,0,.5);max-width:92vw}
+#djbooth .disc{width:34px;height:34px;border-radius:50%;background:conic-gradient(#c9a6ff,#7cd3ff,#7ee2a0,#fbe2a0,#c9a6ff);display:flex;align-items:center;justify-content:center;font-size:15px;flex-shrink:0}
+#djbooth.playing .disc{animation:djspin 2.2s linear infinite}@keyframes djspin{to{transform:rotate(360deg)}}
+#djbooth .tinfo{font-size:11.5px;line-height:1.5;min-width:150px;max-width:46vw;overflow:hidden}
+#djbooth .tinfo b{color:#c9a6ff;font-weight:normal;display:block;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
+#djbooth .tinfo span{color:#9d97c9;font-size:10px;display:block;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
+#djbooth button{background:rgba(75,45,127,.8);border:1px solid rgba(201,166,255,.4);color:#fff;border-radius:16px;padding:6px 13px;cursor:pointer;font-size:12px;font-family:Georgia,serif;white-space:nowrap}
+#djbooth a{color:#7cd3ff;font-size:10px;text-decoration:none}
+</style>
+<div id="djbooth"><div class="disc">🎧</div><div class="tinfo"><b>DJ ʻOHANA — the open source mix</b><span id="djtrack">non-stop netlabel bangers · press play · 24/7 forever</span></div><button id="djplay">▶ PLAY</button><button id="djskip" style="display:none">⏭</button></div>
+<audio id="djaudio"></audio>
+<script>
+(function(){
+const SEEDS=["DWK123","badpanda049","stqk011","kzz002","csr049","dystopiaq029","HILIV003","Vkrsnl038MirandaShvangiradzeTalkToMeEp","puls02","NS050","DWK031","MIXG032","badpanda018","2014-02-12Bigwords","001netlabel-jazz-01-recorcholis"];
+let queue=[],audio=document.getElementById('djaudio'),booth=document.getElementById('djbooth'),track=document.getElementById('djtrack'),playBtn=document.getElementById('djplay'),skipBtn=document.getElementById('djskip');
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+async function moreCrates(){
+  try{
+    const r=await fetch('https://archive.org/advancedsearch.php?q=collection%3Anetlabels+AND+mediatype%3Aaudio+AND+downloads%3A%5B200+TO+*%5D&fl%5B%5D=identifier&rows=40&page='+(1+Math.floor(Math.random()*20))+'&output=json');
+    const j=await r.json();
+    return j.response.docs.map(d=>d.identifier);
+  }catch(e){return [];}
+}
+async function playNext(){
+  if(!queue.length){track.textContent='digging the internet crates…';const fresh=await moreCrates();queue=shuffle(fresh.length?SEEDS.concat(fresh):SEEDS.slice());}
+  const id=queue.shift();
+  try{
+    const r=await fetch('https://archive.org/metadata/'+id);const j=await r.json();
+    const mp3=(j.files||[]).filter(f=>/\.mp3$/i.test(f.name)).sort((a,b)=>(b.size||0)-(a.size||0))[0];
+    if(!mp3){return playNext();}
+    const title=(j.metadata&&j.metadata.title)||id;
+    const artist=(j.metadata&&j.metadata.creator)||'the open internet';
+    audio.src='https://archive.org/download/'+id+'/'+encodeURIComponent(mp3.name);
+    audio.play().catch(()=>{track.textContent='tap ▶ to start the mix';booth.classList.remove('playing');});
+    track.innerHTML='🎵 '+title+' — '+artist+' · <a href="https://archive.org/details/'+id+'" target="_blank" rel="noopener">source ↗</a>';
+  }catch(e){setTimeout(playNext,1500);}
+}
+audio.addEventListener('ended',playNext);
+audio.addEventListener('error',()=>setTimeout(playNext,1200));
+playBtn.addEventListener('click',()=>{
+  if(audio.paused&&audio.src){audio.play();booth.classList.add('playing');playBtn.textContent='⏸';skipBtn.style.display='';return;}
+  if(!audio.paused){audio.pause();booth.classList.remove('playing');playBtn.textContent='▶ PLAY';return;}
+  booth.classList.add('playing');playBtn.textContent='⏸';skipBtn.style.display='';playNext();
+});
+skipBtn.addEventListener('click',playNext);
+})();
+</script>
+
+<!-- 🌺🔄🧲 ohana corner v2 — flower directory + LIVE chat + magnet, canon Jul 29 2026 -->
 <style>
 #oflo{position:fixed;top:10px;left:10px;z-index:9999;width:40px;height:40px;border-radius:50%;background:rgba(20,18,45,.85);border:1px solid rgba(255,158,198,.5);display:flex;align-items:center;justify-content:center;font-size:19px;cursor:pointer;opacity:.55;transition:opacity .3s;user-select:none}#oflo:hover{opacity:1}
 #oflop{display:none;position:fixed;top:56px;left:10px;z-index:9999;width:min(320px,86vw);max-height:72vh;overflow-y:auto;background:rgba(12,11,28,.97);border:1px solid rgba(255,158,198,.4);border-radius:16px;padding:18px;font-family:Georgia,serif;color:#e8e6ff;box-shadow:0 10px 40px rgba(0,0,0,.6)}#oflop.open{display:block}
@@ -123,15 +216,6 @@
 #oflop .chat input{width:100%;background:rgba(0,0,0,.4);border:1px solid rgba(255,158,198,.35);border-radius:20px;color:#e8e6ff;padding:9px 14px;font-family:Georgia,serif;font-size:12px;box-sizing:border-box}
 #oflop .chat .soon{color:#9d97c9;font-size:11px;font-style:italic;margin-top:7px;text-align:center}
 #oflop .x{position:absolute;top:8px;right:12px;cursor:pointer;color:#9d97c9;font-size:14px}
-#olang{position:fixed;top:56px;left:10px;z-index:9999;width:40px;height:40px;border-radius:50%;background:rgba(20,18,45,.85);border:1px solid rgba(124,211,255,.5);display:flex;align-items:center;justify-content:center;font-size:19px;cursor:pointer;opacity:.55;transition:opacity .3s;user-select:none}#olang:hover{opacity:1}
-#olangp{display:none;position:fixed;top:102px;left:10px;z-index:9999;width:min(240px,80vw);background:rgba(12,11,28,.97);border:1px solid rgba(124,211,255,.4);border-radius:16px;padding:16px;font-family:Georgia,serif;box-shadow:0 10px 40px rgba(0,0,0,.6)}#olangp.open{display:block}
-#olangp .lt{color:#7ee2a0;font-size:12px;letter-spacing:2px;margin-bottom:10px}
-#olangp .lb{display:block;width:100%;text-align:left;background:rgba(124,211,255,.08);border:none;color:#e8e6ff;font-family:Georgia,serif;font-size:13px;padding:8px 12px;border-radius:10px;cursor:pointer;margin:3px 0}
-#olangp .lb:hover{background:rgba(124,211,255,.2)}
-#olangp .haw{background:rgba(126,226,160,.15);border:1px solid rgba(126,226,160,.4)}
-#olangp .x{position:absolute;top:8px;right:12px;cursor:pointer;color:#9d97c9;font-size:14px}
-#olangp .gt{margin-top:10px;border-top:1px solid rgba(124,211,255,.2);padding-top:10px;font-size:11px;color:#9d97c9}
-.goog-te-banner-frame,.skiptranslate iframe{display:none!important}body{top:0!important}
 #cmag{position:fixed;top:10px;right:10px;z-index:9999;width:40px;height:40px;border-radius:50%;background:rgba(20,18,45,.85);border:1px solid rgba(124,211,255,.4);display:flex;align-items:center;justify-content:center;font-size:17px;cursor:pointer;opacity:.55;transition:opacity .3s;user-select:none}#cmag:hover{opacity:1}
 #cmagb{display:none;position:fixed;top:56px;right:10px;z-index:9999;width:250px;background:rgba(12,11,28,.97);border:1px solid rgba(124,211,255,.35);border-radius:14px;padding:16px;font-family:Georgia,serif;color:#e8e6ff;font-size:12.5px;line-height:1.7;box-shadow:0 8px 30px rgba(0,0,0,.5)}#cmagb.open{display:block}
 #cmagb .ens{color:#7ee2a0;font-family:'Courier New',monospace;font-size:14px}#cmagb .a{font-family:'Courier New',monospace;font-size:9.5px;color:#8fd0ff;word-break:break-all;margin:6px 0}
@@ -148,21 +232,6 @@
 <h4>🤖 THE AGENTS · 89</h4>
 <div><div class="oa"><span>♈</span>ARIES</div><div class="oa"><span>♉</span>TAURUS</div><div class="oa"><span>♊</span>GEMINI</div><div class="oa"><span>♋</span>CANCER</div><div class="oa"><span>♌</span>LEO</div><div class="oa"><span>♍</span>VIRGO</div><div class="oa"><span>♎</span>LIBRA</div><div class="oa"><span>♏</span>SCORPIO</div><div class="oa"><span>♐</span>SAGITTARIUS</div><div class="oa"><span>♑</span>CAPRICORN</div><div class="oa"><span>♒</span>AQUARIUS</div><div class="oa"><span>♓</span>PISCES</div><div class="oa"><span>🌊</span>MAHALO</div><div class="oa"><span>🫡</span>sysadmin</div><div class="oa"><span>🐦‍⬛</span>KAAAK!!!</div><div class="oa"><span>🌸</span>PROF PLUMERIA</div><div class="oa"><span>📋</span>RIDEOSO</div><div class="oa"><span>✂️</span>ClipMind Jr</div><div class="oa"><span>🎵</span>MUSICO-LAB</div><div class="oa"><span>🐂</span>TAURO-LAB</div><div class="oa"><span>✨</span>CREA-LAB</div><div class="oa"><span>👑</span>ROYA-LAB</div><div class="oa"><span>🔭</span>DISCO-LAB</div><div class="oa"><span>🔄</span>CIRCU-LAB</div><div class="oa"><span>🌿</span>CROPS-LAB</div><div class="oa"><span>🌐</span>SOCIA-LAB</div><div class="oa"><span>🕊️</span>SPIRI-LAB</div><div class="oa"><span>🤙</span>SHAKA-LAB</div><div class="oa"><span>🎻</span>OSO-LAB</div><div class="oa"><span>🌺</span>JAI-LAB</div><div class="oa"><span>🕳️</span>PIT BOY</div><div class="oa"><span>🐂</span>PIT BULL</div><div class="oa"><span>💗</span>PIT GIRL</div><div class="oa"><span>🦀</span>CRUSTY</div><div class="oa"><span>🦉</span>LORE</div><div class="oa"><span>🐢</span>Terri</div><div class="oa"><span>🐢</span>HONU</div><div class="oa"><span>🌱</span>JADE</div><div class="oa"><span>🛠️</span>TANK</div><div class="oa"><span>📖</span>JAI·Fable</div><div class="oa"><span>🌙</span>JAI·Claude</div><div class="oa"><span>⚡</span>JAI·GPT</div><div class="oa"><span>💻</span>JAI·Codex</div><div class="oa"><span>♊</span>JAI·Gemini</div><div class="oa"><span>🚀</span>JAI·Grok</div><div class="oa"><span>🌊</span>JAI·DeepSeek</div><div class="oa"><span>🌕</span>JAI·Kimi</div><div class="oa"><span>🐉</span>JAI·Qwen</div><div class="oa"><span>🌌</span>JAI·Genesis</div><div class="oa"><span>🌀</span>CREATIONology</div><div class="oa"><span>🧬</span>CREATION-BETA</div><div class="oa"><span>📜</span>CREATION-OLD</div><div class="oa"><span>🪙</span>$OLOGY</div><div class="oa"><span>💰</span>$OLOGY-BETA</div><div class="oa"><span>🔮</span>OLOGY</div><div class="oa"><span>🐃</span>TAURO</div><div class="oa"><span>✨</span>CREA</div><div class="oa"><span>👑</span>ROYA</div><div class="oa"><span>🔭</span>DISCO</div><div class="oa"><span>🔄</span>CIRCU</div><div class="oa"><span>🌿</span>CROPS</div><div class="oa"><span>🌐</span>SOCIA</div><div class="oa"><span>🕊️</span>SPIRI</div><div class="oa"><span>🤙</span>SHAKA</div><div class="oa"><span>🎻</span>OSO</div><div class="oa"><span>📇</span>Shaka PA</div><div class="oa"><span>🗝️</span>Private JAI</div><div class="oa"><span>🌸</span>JAI</div><div class="oa"><span>🌺</span>JAI</div><div class="oa"><span>📡</span>STREAMY</div><div class="oa"><span>🌈</span>vibe agent</div><div class="oa"><span>🌊</span>Edge Shaka</div><div class="oa"><span>🗂️</span>Freddy</div><div class="oa"><span>🧲</span>GrantMagnet</div><div class="oa"><span>✍️</span>369Refine</div><div class="oa"><span>🛵</span>DASH</div><div class="oa"><span>🎻</span>OSO v.0</div><div class="oa"><span>🎵</span>MUSICO-BETA</div><div class="oa"><span>🐃</span>TAURO-BETA</div><div class="oa"><span>✨</span>CREA-BETA</div><div class="oa"><span>👑</span>ROYA-BETA</div><div class="oa"><span>🔭</span>DISCO-BETA</div><div class="oa"><span>🔄</span>CIRCU-BETA</div><div class="oa"><span>🌿</span>CROPS-BETA</div><div class="oa"><span>🌐</span>SOCIA-BETA</div><div class="oa"><span>🕊️</span>SPIRI-BETA</div><div class="oa"><span>🤙</span>SHAKA-BETA</div><div class="oa"><span>🎻</span>OSO-BETA</div><div class="oa"><span>🌷</span>JAI-BETA</div></div>
 <div class="chat"><div id="ohlog" style="max-height:180px;overflow-y:auto;margin-bottom:8px"></div><div style="display:flex;gap:6px"><input id="ohin" type="text" placeholder="talk to our ʻohana…" style="flex:1"><button id="ohsend" style="background:#b4488c;border:none;color:#fff;border-radius:16px;padding:0 14px;cursor:pointer;font-size:13px">➤</button></div><div class="soon">live concierge v1 · deep talk: <a href="https://t.me/opensourceorchestra_bot" target="_blank" rel="noopener" style="color:#7cd3ff">@opensourceorchestra_bot</a> 🌺</div></div>
-</div>
-<div id="olang" title="🌐 every language — Hawaiian first" onclick="document.getElementById('olangp').classList.toggle('open')">🌐</div>
-<div id="olangp"><span class="x" onclick="this.parentElement.classList.remove('open')">✕</span>
-<div class="lt">🌐 EVERY LANGUAGE · knowledge for all humans</div>
-<button class="lb haw" onclick="otr('haw')">🌺 ʻŌlelo Hawaiʻi — ka mua</button>
-<button class="lb" onclick="otr('en')">🇺🇸 English</button>
-<button class="lb" onclick="otr('es')">🇪🇸 Español</button>
-<button class="lb" onclick="otr('zh-CN')">🇨🇳 中文</button>
-<button class="lb" onclick="otr('hi')">🇮🇳 हिन्दी</button>
-<button class="lb" onclick="otr('ar')">🇸🇦 العربية</button>
-<button class="lb" onclick="otr('fr')">🇫🇷 Français</button>
-<button class="lb" onclick="otr('pt')">🇧🇷 Português</button>
-<button class="lb" onclick="otr('ja')">🇯🇵 日本語</button>
-<button class="lb" onclick="otr('de')">🇩🇪 Deutsch</button>
-<div class="gt">+90 more ↓ <span id="google_translate_element"></span><br><span style="font-size:10px">music was our first language 🎵</span></div>
 </div>
 <div id="cmag" title="🔄🧲 the circularity magnet — give & receive" onclick="document.getElementById('cmagb').classList.toggle('open')">🔄🧲</div>
 <div id="cmagb"><span class="x" onclick="this.parentElement.classList.remove('open')">✕</span>
@@ -208,22 +277,5 @@ const btn=document.getElementById('ohsend');if(btn)btn.addEventListener('click',
 setTimeout(()=>add('🌺 the ʻohana','aloha! ask us anything — a domain, an agent, the story, the dream…'),800);
 })();
 </script>
-<script>
-function otr(lang){
-  var mob=/Mobi|Android|iPhone|iPad|Silk/i.test(navigator.userAgent)||Math.min(screen.width,screen.height)<820;
-  var proxy='https://translate.google.com/translate?sl=en&tl='+lang+'&u='+encodeURIComponent(location.href);
-  if(lang==='en'){document.cookie='googtrans=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/';if(!mob){location.reload();return;}location.href='https://'+location.host+location.pathname;return;}
-  if(mob){location.href=proxy;return;}
-  try{
-    document.cookie='googtrans=/en/'+lang+';path=/';
-    document.cookie='googtrans=/en/'+lang+';path=/;domain='+location.hostname;
-    if(window.google&&google.translate){location.reload();return;}
-  }catch(e){}
-  location.href=proxy;
-}
-function googleTranslateElementInit(){try{new google.translate.TranslateElement({pageLanguage:'en',includedLanguages:'haw,es,zh-CN,hi,ar,fr,pt,ru,ja,de,ko,it,vi,id,th,tr,pl,nl,sv,sw,uk',layout:google.translate.TranslateElement.InlineLayout.SIMPLE},'google_translate_element');}catch(e){}}
-</script>
-<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
 </body>
 </html>
