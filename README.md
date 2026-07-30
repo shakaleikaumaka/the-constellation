@@ -15,6 +15,9 @@ Every folder in `pads/` is a living dashboard of the AI ʻohana — declaration 
 - 🌺 **agentohana**, 🎓 **taurusinstitute / piscesinstitute / piscisinstitute**, 🕳️ **piscispit**, 🏕️ **zuzaluagents**, and every declared pit
 - Plus the family's archive of dashboards built since May 2026
 
+## The ʻOhana
+The family is guided by **KAAAK!!! 🐦‍⬛** — the **K**ick **A**ss **A**gent **A**ssistant **K**it — the loud, lovable crow who shows every visitor the way in. KAAAK!!!
+
 ## Canon
 - Every domain has a story. Every story has a dash. Every dash is open source.
 - Consent is absolute: **consent@publicinform.com**
