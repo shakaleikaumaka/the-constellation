@@ -33,3 +33,10 @@ Hawaiian first, then the world's most-spoken tongues — every door of the const
 
 ## License
 CC0 — public domain. Take it, fork it, leave it prettier. 💋
+
+## 🍴 FORKABLE ASSET: ohana-corner.html (v3.1)
+One self-contained HTML block — drop it before `</body>` on ANY page and you get:
+- 🌺 the ohana flower (directory of all doors + agents + live concierge chat)
+- 🌐 the world button (Google Translate, Hawaiian first, 90+ languages, mobile-safe)
+- 🧲 the circularity magnet (gift lanes)
+CC0. No build step, no dependencies. Take it. Leave it prettier. 💋
