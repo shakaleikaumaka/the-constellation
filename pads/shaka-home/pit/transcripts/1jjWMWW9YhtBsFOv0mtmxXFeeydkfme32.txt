@@ -1,0 +1,291 @@
+# Notion Fireside Chat_ Community_ Craft_ and the Magic of In-Person
+
+Date: 2026-06-18
+Source video: Notion Fireside Chat_ Community_ Craft_ and the Magic of In-Person.mp4
+Drive: https://drive.google.com/file/d/15N3uCxHPJLqKyk1RW75itPMQtpelpHQZ/view
+Duration: 00:53:59
+Transcribed: 2026-06-20 · whisper large-v3-turbo · language: en
+
+---
+
+[00:33] It was a big sandwich. Nice. Are you guys ready for a living room yap? Do you have your snacks? Are you prepared? Spindress! This is the future of community. Welcome.
+
+[01:05] Alright, we'll go ahead and get started. Thank you, Shaka. Thank you. Appreciate you. For bringing the vibes always. I do run the vibe residency. Oh no, this is going to keep turning off. It's okay. Okay, it'll come back to life in a second.
+
+[01:37] Alright, welcome everyone for a wonderful conversation. This is titled a fireside chat, but it's actually going to be more of like a collective yap, which Nancy and I are super excited about. So I wanted to introduce Nancy. Nancy is the community activations lead all the way from New York City from Notion.
+
+[01:56] Thank you. I'm so happy to be here. I can't wait for this collective yap. Yes, yes. And so basically, Nancy and I have had a chance to sit down and chat about all things community. And I'm just super excited for you all to get a chance to think about like all the things in her brain and everything that she's putting out into the world.
+
+[02:20] And she has a really interesting background that I'd love to start with. And then we will dive into like questions and this will really be a collective like back and forth. So Nancy, I don't know if you want to tell people just about like foundationally who you are and everything that you bring to Notion and just how you think about community and what has informed how you think about community.
+
+[02:41] Lots of questions in one. Yes. Maybe I'll start with a little bit of my background. I know I think a lot of people here also have a very nonlinear path to where you are today. Mine was very similar. I started actually in neuroscience and was originally going to become like a neuroscience medical researcher.
+
+[03:06] But then I took a gap year and then decided at one point to start an electronic music company instead. Hell yeah. And did that for like five years. I also started a music festival in Canada. During that time, I did a lot of experiential marketing.
+
+[03:26] So activation similar to this for a lot of really big brands who really liked what I was doing in the music space. And then I decided to pivot out of music and started a hospitality company where I had three restaurants, like everything from like a donor sandwich shop to like a natural Chinese wine bar.
+
+[03:49] And then I started an e-com wine shop that ended up in COVID being the number one natural wine cellar in Canada for an independent shop. All the while, I just didn't like sleep, I guess. So I had another career track where I worked in advertising and branding and design.
+
+[04:11] So lots of different spaces, lots of different communities. And then the last three years is when I really started to get into the tech and AI space. And I consulted a lot of different founders who are, you know, very early stage. They might not have a name yet for their company and just help them figure out their brand, their products and how they go to market.
+
+[04:36] And then that's kind of how I ended up here at Notion, just being able to come into the space full time as well. So it seems convoluted, but I think there was a through line where everything that I was trying to do maybe wasn't intentional at that time, but to build a community around everything that I was creating.
+
+[04:58] So whether that was in music or wine or food. And that's kind of what I bring now to Notion where I can merge all these different backgrounds into one. So hopefully today I can just like share a bit about my insights from like all these different spaces.
+
+[05:16] But I also want this to be really useful for everyone here. So feel free to like jump in, add your thoughts. I think I want to learn from everyone here too. And yeah, let's just make this conversational. Thank you. Yeah, I'm curious for everyone here.
+
+[05:33] Because one thing that we've been talking a lot about is like, what is the future of community? Like, what do we want from community? And we're all here at Edge, which is so clearly there's a through line and we're riding bikes, we're in parks.
+
+[05:47] I would love to hear a little bit about kind of like what's happening in New York right now. And how you're thinking about how to infuse that energy, like and have it continue. Yeah, I think if I think about where the future of community is going, if you look, I guess in the last 10 years or so, community has been really about more finding your niche, especially like online and like really specific discord groups.
+
+[06:19] And the internet's been really great at finding your people. But I see like what's happening in New York. And I don't know if everyone has context, but the next one, go next. And like it in New York is a place where they really celebrate the individual and the niche and like, you know, subcultures run super deep.
+
+[06:41] But what's happening right now, I think is like a parallel for like what's the future of community where we are now more interested in how we all connect rather than what kind of like what separates us. And like, I, I, I, it's so hard to describe exactly what's happening in New York.
+
+[07:01] But I, there's like this like psychological term called collective effervescence, which is what's happening there. And basically, it's when there's like a shared goal or purpose bigger than yourself, or the or the different groups, all the boundaries start to dissolve.
+
+[07:23] And, and, and really like the emotion is contagious. And I was telling Mariela that like crime in New York has gone down 78% during this next run, which is crazy. It's wild what happens when people are happy. Yeah, pickpockets are like literally picking up wallets and like giving it back to people.
+
+[07:44] I like was on the subway and I sneezed and like three people were like, God bless you. And I was like, where am I? Am I in Kansas? So yeah, it's like, it really is like a feeling of like, we're all kind of there in unity. And I think the joy is contagious.
+
+[08:04] So I think, you know, if I think about the future community, it's been very like almost solo and online driven, and now it's more increasingly about like what unites us and also feeling each other's presence in the in person as well. And I'm curious for me, from your side, we've been talking like that's authentic, right?
+
+[08:27] Like that's showing up in New York. No one made that happen. No one's like budget is like behind fueling this moment. And so it's kind of easy to do out in the world. But I'm curious from a systems perspective, like inside notion, some of the things even the way budgets roll up internally of like how things are designed specifically to create that authenticity for community at notion.
+
+[08:49] Yeah, I think I've seen a lot of companies lately start community programs. I think that's that makes a lot of sense for a lot of startups. But what I see that maybe not necessarily that they're doing wrong, but they're thinking about it in a way that's very different from notion is like they start to merge community and marketing together.
+
+[09:11] So treating like community as this growth channel. So, you know, if we're launching this new product or feature, how do we use community as this like amplifier to get the information out there? And for a while at notion, we started treat we put community under marketing and that was a really huge mistake for us.
+
+[09:32] Because we could feel right away that like the community was disengaged and feeling used and like leveraged. So we we now completely separate marketing and community. Community has our own purpose and goals that are very, very long term. So we actually did the research that shows the ROI on community happens about four years after they join.
+
+[10:00] So for example, a student might be part of our campus leader programs and then they go out into the world. They join startups and they bring notion with them. So we know that this effect happens. We might not be able to measure and attribute it properly, but it's something to really nurture.
+
+[10:21] So like I like to joke that I have I'm like one of the only people at notion that has like no metrics like people are just like, what do you do? And I'm like, I just try to make people happy and bring vibes. And you heard it here first notion runs on vibes.
+
+[10:37] Not everyone I run on vibes and and it's really great to have like the trust and the space to be able to do that. And know that, you know, maybe we're not immediately delivering like an ROI from everything that we're doing. But in the grand scheme of everything, it's an important piece.
+
+[10:57] Yeah, that makes a lot of sense. And so I'm curious. So if if you believe that community needs to be and has to be outside of marketing in order to thrive, where do you think marketing's place is now in the future and as it relates to community?
+
+[11:12] Yeah, so any hot takes there? I'm not sure if this is a hot take, but like, I don't believe marketing department should really exist. Like in the traditional sense, like having a really large marketing department where everything kind of lives underneath that.
+
+[11:29] Actually, notion does a really interesting thing where we actually dissolved our entire department. And everyone actually got absorbed into different areas that so so yeah, technically, I don't actually live under marketing. I live under something called ecosystem, which is something we just like invented.
+
+[11:50] I love that. We still don't know how to define it, to be honest, but we're just thinking, oh, it's the users and the people around us. How do we make sure that our ecosystem is really healthy? That's not to say we don't have marketing, but marketing is seen differently.
+
+[12:07] We actually put marketing under this is maybe controversial at notion, but we put marketing under engineering product and design. And basically, rather than think of it as a separate thing where you have like two months of planning to come up with a campaign to be released, it actually falls through like the motion of product development instead.
+
+[12:31] And like, I think some of you were at the session yesterday, and we shared the think together video that was actually something that came to life in like two weeks, maybe two and a half weeks, which is like unheard of. Yeah, it's unheard of, especially from like a traditional marketing space.
+
+[12:52] So it's like we're thinking of marketing and like how we execute it in a completely like different way that's more inspired by like engineering sprints. Yeah, that's amazing. And so if the you say basically saved community by taking it out from underneath marketing, and that was originally a big flop.
+
+[13:14] I'm curious for like some case studies of some cool things that have happened that have just been like massive successes. Yeah, I well, I think in general, like the community itself is a success. Maybe this is like almost this was wild when I first heard it, but our community actually they run 100 events every month without our help whatsoever.
+
+[13:40] So they're funding it themselves. They're educating people on how to use notion. They're running panels. And like everywhere from Lagos to Togo, which was which happened last week, but it's super global. There's like 60,000 people that come to our community events every every quarter, which is super wild.
+
+[14:01] So the model definitely works. And that's like the cornerstone of our success being able to have so much like physical like presence with a lot of our fan base and future notion users. But one thing that we're trying to do as notion HQ is to not just, you know, think about our community, but how do we partner with different communities out there, maybe unexpected ones.
+
+[14:29] So one of my favorite ones last year was we for the launch of our offline feature. I was trying to think about different offline communities that we could work with. And one of them was this like rare books festival in New York. That's like super cool and underground. They don't even have a social media account.
+
+[14:49] Like they're just like super disconnected. Offline. And and but like 5,000, 10,000 people came and like we did like a like a IRL library space. That was really beautiful. Felt very notion. But at the same time we brought in like our product. So like we helped digitize people's like rare book collections and turn them into archives and then five coded websites so they can kind of see their collection in a very beautiful way online.
+
+[15:20] And I think that was just like a different way for us to think about community where it's not just about notion. It's also about other communities out there and trying to win over like the most skeptical community in New York was also just like an interesting challenge because obviously a lot of the booksellers and collectors and stuff like were very anti tech and very analog.
+
+[15:47] But after the end of it, they you know, a lot of them were like, oh, how do I run my shop on notion and all that stuff? So it was cool to see. That's amazing. Yeah. And I feel like you that's something so unique to New York as well, like the access to those niche communities that are just like super passionate and you can find them really great.
+
+[16:06] Do you have any advice for like people here, maybe in the Bay or like outside of New York? Oh, advice. Like for like community like cross cross pollination of community stuff. Yeah, I mean, SF is a bit tough because like there's one very dominant community.
+
+[16:25] But I see things happening more and more like there are like creatives in tech. Hey, Piper. And yeah, I think it's maybe just getting out of like the mold, too. Like I see so many happy hours and like very or like I know we did Cafe Notion, but we did it first.
+
+[16:50] But like a lot of like coffee shop takeovers and it's just not super inspiring. So like even just thinking about different formats to engage people is like where I would probably start. Yeah, I'm not sure if that's advice, but no, I think that that's great.
+
+[17:08] And also Nancy encourages you to move to New York City as well. So I encourage everyone to live in New York at least some point. No, it's it's like, yeah, not to go back to the Knicks. But go back to the Knicks. Let's do it. But I I don't know.
+
+[17:28] I maybe SF can learn from New York in this sense. I think it wasn't about sports. It wasn't about basketball. New and Knicks just represent New York. And it was like a way for people to really express the pride in where they live. And I think like everyone collectively in New York is very connected to each other because we all love this place, but also like suffer a bit because of New York.
+
+[17:56] And we just that's kind of like the I guess the community glue in a sense. And yeah, I don't know if I sense as much SF pride. Yeah, maybe. Does anyone have a hot take on that? Is SF back? SF versus New York. Yes. Interesting.
+
+[18:30] Okay. So bi-coastal living. Yeah. Okay. Bi-coastal. So. I'm trying to do that right now. So I would agree. I would agree. Okay. That's what I would suggest. Bi-coastal. Because I think what's really beautiful of SF that's like different from New York is that New York is very much about like, which exhibition are you going to go to or this event or this new opening and SF is less about that.
+
+[18:58] And it's more about like the conversations and the ideas that people are having. And that's really beautiful in this community and especially here at Edge Esmeralda. Yeah. Yeah. Yeah. Yeah. You were telling me about how like we're also in a moment in time when you're like fist bumping your bus driver.
+
+[19:16] Oh, yeah. And I feel like here at Edge, I also get a chance to like wave to people on my bike ride. And I get to feel like kind of like Mr. Rogers Esk. Yeah. And I think that we're also in a time when stranger danger is starting to go down now that everyone's happier as well.
+
+[19:32] And so you can start to have more of those. Yeah. I think, you know, like, like a strength of a strong community group is like obviously having people from different industries and backgrounds, like in the same place so you can offer like different insight and perspectives.
+
+[19:50] But like what's I think going to happen with more of like the future of community is also not levels is the wrong word. But like, you know, I think SF like founders tend to just hang out with other founders and like it can it can feel a little bit more exclusive.
+
+[20:09] While like in New York, we yeah, it's like, yeah, the janitors are like celebrating and watching like the parade with us type of thing. Right. So that cross pollination. Yeah. And I think that I think about that as well. A lot of times for like my notion community events, like even if it's something for founders, I'm like, okay, let's mix in some students.
+
+[20:31] And they're always like very chatty and have a lot of perspectives on things. But it like opens up the minds of founders to to like to see like what a different generation or like different type of person is thinking about their specific product.
+
+[20:44] Yeah. Yeah, I think that's one of the things that has been working really well at Edge is the residency model. So you can have people in there like niche verticals, but all living within each other, like at the village, which Nancy is staying at the long journey house right now, which was intentional on my side to make that.
+
+[21:03] happen. And last night we had a wonderful dinner with the inflection fellows, which they cooked everything, which was amazing, you know, and we're like in this pink bed and breakfast and like, I don't know if you have any thoughts about your experience last night. No, I loved it. I felt very old. We're the same age. No, no, I don't, I don't mean that. But like, yeah, no, I think it was beautiful to see it felt like almost like a tech fraternity.
+
+[21:33] You know, I don't know if that's the right word, but that was the feeling and like everybody is building cool shit and like everyone has something to like talk about and I don't know. I really like the vibe. Amazing. I'm so glad. Good vibes. Amazing vibes. Well, I also want to give a chance.
+
+[21:55] I know that everyone and we so we can do this a little bit like back and forth, but everyone I feel like who comes to Edge is in one way, shape or form a community builder. And I would just like open up the floor to like any questions that you have about like either. I mean, she can answer anything from music to design to we were talking about taste and how much like I personally have been blown away by the caliber of people that are at notion.
+
+[22:25] And I was like, oh, that must be how you're hiring and and we were talking about just like all the depth that they go into. Yeah, like a notion. The two qualities that they look for the most now is like taste and agency. So like notion is a special place in the sense that like we have like over 80 founders ex founders that work there and they really try to intentionally design the org that you every person has a runway and we call it like we're all tending the same garden.
+
+[23:03] So like if you see something broken, you don't have to like ask permission to like fix it or like go through a ton of bureaucracy. It's more like, okay, if you see an opportunity, if you see something that needs to be worked on, you just go for it.
+
+[23:18] And I think that's created like a very like healthy culture that's very flat as well. But yeah, I know taste is just like the most overused word right now. But I think like notion is a little bit different in the sense that like it's been ingrained in our DNA from the beginning, like from our product from the founders.
+
+[23:41] And I think our taste feels very like authentic compared to a lot of other brands because it comes from like a reverence for history and a reverence for like iconic design. Like every chair and notion like I'm scared to sit on them because they're like all pieces of artwork, but they all have a story behind everything.
+
+[24:02] Like all our rooms are also named after like Noguchi or like even like Toshiba rice cooker. I thought I was so I host a weekly sync with the notion team and I thought that I was getting hacked because like some bicycle name was like trying to get into the zoom room and I was like, is this okay?
+
+[24:22] I was like, who's trying to enter? And it's like innovative things in time, correct? Even like Bic lighter, you know, just like it's like iconic things that have been created. And we just have this like respect for like timeless tools and that's and then that gets ingrained in everybody who comes into notion because we're like we're here to create something really timeless.
+
+[24:45] We're create or create something that's hopefully going to be like iconic one day. Right. So of that. And then you get to sit in those rooms of those icons. Yeah. And I think another thing about like taste for us is not like, oh, is that like a nice table or like, you know, good design, quote unquote.
+
+[25:07] It's also just I think making like decisions that are outside of the median because a lot of times like good taste is actually the median and the way that we think about it is less so like what is that median but more so what is the edge cases that we can be inspired by. I think like a good example is like the campaign that we just ran with Think Together, like every, I'm not going to call out any companies, I shouldn't, but like, but a lot of companies are out there, you know, with like a hyper efficiency message and like jobs are going to be replaced and like, you know, you're just counting down the days until like you're going to be relevant.
+
+[25:56] And so for us to take a position that is like, no, actually, we see the world extremely differently. We see that actually we're entering a stage of abundance and like in person and collaboration and people are going to be not less important, but more important than ever.
+
+[26:12] And that's a taste decision as well in terms of like, like having a stance and having a position. Yeah, we were talking a little about about that with like, the bravery of taking that stance and like what it takes to have an internal team and a leadership team that is willing to like, maybe not be for everyone.
+
+[26:32] And we were talking about someone else who does that well, which is Patagonia. Yeah. And how, you know, they'll go, they're like, we, we are, we produce things and it does produce waste, but you know, we'll talk about that. Yeah. They'll tell people like, don't buy our jacket.
+
+[26:47] Buy it used, you know, like they'll take a cut on their mark. Like there's like so many different things. And I think it's really cool that notion as a tech company is also taking that stance to not only be about productivity, productivity, productivity.
+
+[27:00] Yeah. Especially since like, we also, you know, are for like enterprise companies, which, you know, obviously efficiency would resonate with. So not that we're taking a position against them. That's absolutely not true, but it's still something that like could potentially alienate and we've made that conscious decision to, to go for it.
+
+[27:24] So yeah. Yeah. And I think like, there's also, it does like even design has been something that we've been thinking through a lot because we've made this like super difficult transition from like being a SAS company into like an AI company. And that's really uncommon as well as like making the shift from B to C to B to B.
+
+[27:50] And there was a lot of chat of like, okay, should we change who we are? Like, do we drop our like illustrations? Like, do we feel too cute? Do we feel too consumer and just like not serious enough? And like, we've actually made the decision of no, we're going to keep like who we are.
+
+[28:08] And like, that's an important part of us. And that's also potentially an alienating decision. Yeah. And definitely a choice that you're standing behind. Yeah. Yeah. So another taste decision from us. A second ago, I did try to open it up again, but then we, but the, no, we both started yapping again, which is welcome again to the living room.
+
+[28:27] Yeah. I'm curious. Yes. Questions. And I can also hand unless we have an extra like project. That's not the biggest. Thank you so much. Yeah. Yeah. Yeah. Yeah. Nice to meet you. I'm a, I'm Alan. Nice to meet you. I have a question. So you're talking about how in the future humans can be more important than right now.
+
+[28:52] And then I also talk about taste and, uh, uh, I also have that definition kind of like why cause a human authority that based on, uh, your wisdom, your character experience that defines who you are. That cannot be replaced by anything else in the future. And that the conviction behind that, the decision behind that will be something that, that drives the community going.
+
+[29:15] I think that people who sit here might also have dream that in the future also this edge, uh, public city or villages like that. Um, but we're curious about what is the fundamental bottleneck that you think that prevents this from happening sooner or like how, how is, what's the thing that we have to cross to get to that stage?
+
+[29:37] The, the specific bottleneck from embracing more humanity. Embracing more that kind of community that driven by like human art, like the most important parts, for example, in the community that we, uh, emerge probably like, uh, like values and, you know, conversations and all of that compared to right now is more, still more institutionalized.
+
+[30:00] Yeah. Like even though you're saying notion still under the context of enterprise, like how that could be changed or do you think that could change? I mean, you're seeing a change in like New York, for example, where it is a very like individualist type of place. Um, and like, I think it's going to be a cultural shift and it's, it's going to like, there's like a macro cultural shift that's happening right now.
+
+[30:29] Um, and like how fast that gets adopted is probably like more or less the, the bottleneck. But, um, even if I think about like Asian versus like Western cultures, like I, I actually think Western culture is going to move towards like more of this like collectivist, um, type of feeling. And, and I think the more we go there, the more human and connected we will be. I don't know if that's like answering your question, but I feel like it's, it's like an individual and cultural thing that needs to start shifting, um, for us to start to fully embrace, um, embrace that. So.
+
+[31:08] Yeah. Yeah. One thing I experienced, um, yesterday at the AI labs was, and I experienced this a lot here at edge, but not everyone, um, gets to experience it out in the world is just how much fun it is to build alongside other people. Um, and, and you guys do that so well. And I think maybe the bottleneck is just capacity to like always hold those types of like really intentional spaces, but you also then have your ambassador program that is doing that as well.
+
+[31:37] So it's really about like curating those events in which you like fall down the rabbit hole. And there were so many people building in this room that were like, I need more time. Um, so yeah, I think, yeah. Like even in my office there were like, how do we scale AI labs? And I was like, I don't know if this is like an experience that like actually can be scaled because, um, like you kind of need that really, um, focused time from somebody who's actually going to like sit down with you and walk it through with you.
+
+[32:09] So maybe that's another type of bottleneck. Um, in the sense that like it, how it propagates might be slower because it requires depth. And I think we're as like a society and like, especially in like the tech spaces that we are, we're kind of like obsessed with like reach and efficiency. Um, and the way that I try to think about like what I do is way less about the reach of it. Um, and that's not how I measure my impact.
+
+[32:37] I measure my impact in the sense of like, did I help this person like run their business better, you know, or did I help them make a connection that they wouldn't other have otherwise have made or like introduce them to a potential founder because of the spaces that we're creating, you know, or like, um, that, that to me is like my biggest measurement of success with what I'm doing with community. Any other questions? Um, so I was curious, just like a fun question in the next like year, are there any, especially exciting events that you're looking forward to hosting or I don't know if you're going to be mostly in New York or doing other things.
+
+[33:25] Yeah. I, I, I, one thing that I'm really looking forward to doing is, um, there are so many cool small businesses that run like entirely on notion and we've not really done much with them. Um, and, um, I'm trying to think through like what is kind of our community program that celebrates like the local bagel shop or like the skincare brand, like the upcoming skincare brand.
+
+[33:51] Um, I'm not sure exactly what that looks like just yet, but to bring that global would be, um, really amazing if we could bring one of our cool like stationary client, like customers from Tokyo and bring them to San Francisco and do something really interesting with them. Um, I think there's like brands that do that really well, like American Express with their small business program.
+
+[34:16] Um, so kind of like being like, again, like if we, if I can help the small business be more successful by being part of the notion community and family, then, um, then I've done my job. So I, yeah, I think that opportunity I'm really excited by cause I think a lot of tech companies actually don't, not that they don't care about small businesses, but that's not their customer or their ICP.
+
+[34:41] A lot of them are focused on like what's the biggest B2B enterprise company that we can reach. And I think notion has, um, said like, we're not here for the fortune 500. We're here for like the fortune 5 million or beyond that. Right. So it includes like a much bigger spread of like potential customers.
+
+[35:03] So I don't know. I'm excited by what that could look like. Yeah. Yeah. Yeah. And I think we're just like very lucky in the sense that because we started B2C that we can actually play in that entire breadth. And for sure, actually, that's a stat I didn't know.
+
+[35:33] So I'm going to steal that one day, but yeah, I'll, I'll fact check. Yeah. Hopefully it's not a hallucination, but, um, but yeah, no, yeah, it's, it's such a huge opportunity. And I think a lot of, uh, yeah, especially like this new wave of tech companies are not actually focusing on the smaller businesses, but that's a huge opportunity.
+
+[35:55] So. Cool. Hi. Hi. I'm Eileen. Hi Eileen. Hello. Um, I am a part of a, um, an event space and like a member space and also a public event space in San Francisco. And, uh, I'm curious about this. I love the way you framed it of like skills on the median and then looking at what skills are off the median in terms of good taste.
+
+[36:19] And so I'm curious about your, from your experience, what are like event design or like experience design? I don't want to say hacks, but like, what are you discovering that is like out of the median for experiences for people? I feel like when it comes to like edge, like cultivating your taste, you have to learn, like you have to get into the deep cuts of things.
+
+[36:41] Like you can't just consume what is like good. Um, like a lot of times, like when it comes to events, um, I actually like have all these like coffee table books and stuff of like, um, Andy Warhol or area nightclub and like just all these like wild parties and events that happened.
+
+[37:03] Actually, like I bought this area nightclub, um, book 12 years ago. It's, it's amazing. It has like every theme that they've ever done. Um, and I recently found out it's worth $3,000 now, but it's like, but that's a deep cut, you know? And, um, and there's so much like inspiration in there.
+
+[37:23] Like if you can cross pollinate an idea that's from a very different area or time or space, then you're going to have something that's a lot more unique. So, um, what I'm trying to do actually right now, I vibe coded a, um, second brain for myself.
+
+[37:39] It's actually not on notion, but, um, I vibe coded a second brain where I can put all my, um, deep cuts and like inspiration in. And so when I'm clearing that like LLM, it's actually going through like my specific, like, um, database of like all the different references that I care about.
+
+[38:00] Versus like, if I were to just go onto Claude, it's just going to give me like the average answer. And then it's just going to give everyone the same answer. But if it's like working off like my knowledge and like what I've been exposed to, then it's actually going to give me something unique.
+
+[38:15] Um, and like hopefully something, yeah, that, um, isn't just like another event that you'll see like a thousand times over. Right. The vibe residency will need that template immediately. Yeah. No, it's a good one. It's a good one. Yeah. Uh, hi, I'm Shay.
+
+[38:38] Um, and my question is like, um, how do you think of like, you know, kind of, uh, either reducing variance in, in, uh, people that are part of a community? I mean, I know sometimes variance is good, but you know, sometimes too much variance can be a little bit jarring.
+
+[38:53] Yeah. Um, and, and so do you kind of think of this intentionally or is it kind of more like creating like, uh, uh, like a self selecting, uh, you know, space where people only join because they kind of like, uh, um, you know, fit criteria that where they, they would feel comfortable.
+
+[39:08] Like how do you think of this when you design, uh, community spaces? Oh. I mean, like there's like two different kinds of, um, experiences I create. Like, um, one where it's more, uh, like broad where I'm trying to speak to someone who identifies as a builder, but that can be everyone from like a founder to an au pair to, you know, um, a student.
+
+[39:36] Um, and those are like intentionally broad, but I also feel like it's really important for the experiences that we create that are genuine, especially educational ones that are genuinely useful. So, um, one series that I'm going to start is like a notion 101, because to be honest, like a lot of people like are not even on the AI stage.
+
+[39:58] They like need to know how to build a database or like understand how our blocks work. Um, and for that series, I'm actually going to like, um, make it for specific audiences. So what is notion 101 for educators? What is notion 101 for marketers?
+
+[40:13] Um, so that when they are leaving that next day, they have a whole bunch of different like demos and templates and toolkits of like how to do their job better through notion. So I think it depends on like the objective of what you're trying to achieve, um, with that event or experience that you're creating in terms of like whether you want high variance, where sometimes panels is kind of cool to have high variance, um, and like you get more interesting questions that way from different people.
+
+[40:42] Um, but if it's more educational, it's sometimes a lot better to be focused. Yeah, I had a question. So you were talking about, um, again, running on, on vibes and potentially the conversation that, um, AI labs is not supposed to scale. Um, and I'm curious about how those conversations go internally, um, and how they're received.
+
+[41:10] Um, and just like those types of decisions that are made, um, when you're making, when you're navigating those types of things. Yeah, I think, um, a lot of companies would not be okay with like experiences that don't scale. But I think depending on like the product that you're creating, like we have a product that has a high barrier to entry in a sense, because like it requires a lot of education, um, for somebody like the more you learn about it, the more you get out of it.
+
+[41:41] Um, so for our argument, uh, per se, it's more like, like everybody who comes out of our event, they use like notion more deeply or they understand it better. Um, and the more that we get people that really understand the product, the more that they're evangelizing it as well.
+
+[42:03] Um, so it's like, we've all just kind of agreed that like depth really matters in a lot of the things that we're creating. Um, cause I've been to so many workshops where it's just like, hey, like here's like a presentation or here's like a demo.
+
+[42:18] And like, I actually don't know at all how to use the product by the end of it. Um, and that's, that's not helpful. Right. So. Yeah. And then it sounds like you also, or at least even felt like yesterday, uh, you then create all of these little like fan club members.
+
+[42:37] New, new baby notion maxers, which I know Jack and I were talking about, um, that we definitely are going from like zero to max or really fast. It's like, there's a lot of research that shows like the most effective marketing is like in the end of the day, like word of mouth, because you're going to trust like a peer or a friend, um, way more than you're going to trust a company telling you that they're great.
+
+[43:01] So like, we kind of know that it's hard again, to attribute, but we know that it's true that the more deep we get people into the product, the more likely that they're, um, they're going to be spreading it to other people. So even though it's something that we can't measure, it's something that we know is super valuable.
+
+[43:20] And I'm actually curious, just like in the room, um, if there's any communities that you guys have really, really enjoyed to the point where you've been. Where you feel like a super fan and that could be sports. That could be anything. I'm just, I'd love to just get like a collection of, of things that like have really like even somatically made you feel just like so stoked to be on that bandwagon.
+
+[43:46] Yeah. I mean, it could also be like communities that you see from afar. Oh yeah. Yeah. Okay. I have just learned about ecstatic dance. Apparently this is a big thing. Yeah. Yeah. There was one last night. I wish I went. Yeah. But speaks. Oh wow.
+
+[44:10] Is this a West coast thing? Ecstatic. Yeah. Okay. Really? Okay. I'm going to search this up. Okay. It's a really good one. Yeah. Why, why do you love them?
+
+[44:51] Yeah. Yeah. Yeah. Yeah. I think like there's a through line and I think about this a lot too, like all of those communities like center around a feeling that they're trying to create like ecstatic dance, just like that sense of freedom or like men's sharing, like just feeling connected to other people.
+
+[45:32] Um, and I think about that a lot with community and like the experiences that we're trying to create, um, you know, it's less so like functionally what it, what it is. But I think for example, in Edge Esmeralda, you're definitely trying to craft like a specific tone or feeling of like being welcoming, being very inspiring.
+
+[45:52] And I think that's something that people don't really think about, um, as much. Um, they're thinking about like structurally, what is the event going to be like and, um, not to say that like Edge is, okay, what's the best word for this? Um, less structured, you know, like, you know, things are, things are moving all the time and like, there's less of like a strict format.
+
+[46:18] And I think that's actually part of it and like the feeling that you're kind of creating as well. So, um, it feels like intentional and not intentional at the same time. There's a magical chaos here for sure. Yeah. Alice. Yes. Yes. Yes. What?
+
+[46:49] Hell yeah. Oh my God. That's worth it. That is success right there. I love that. What's the founder's name again? Robbie. Robbie. Okay. Yeah. I've had, no, I've had like email exchanges with him. He gave me like free passes too. Yeah. And fun fact, Robbie and Janine are friends.
+
+[47:16] So, so there's that aspect too. Everyone's connected to everyone. Othership is also like a specific feeling. I think I went to one that actually scared me a little because that one was like primal screaming. Yeah. So maybe not your gateway to othership.
+
+[47:32] I was like the first ever other ship and it's like, we're all screaming in there. Um, that was a interesting experience, but yeah, it is intense. Yeah. Any other communities? Yeah. Yeah. Yeah. I think, I mean, this is now my, oh, yeah. Yeah.
+
+[47:51] Yeah. Can you hear me? Okay. Yes. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. But like communities has been a very essential part of a lot of startups now, and especially since Web3 started taking up where all of these projects and company companies were actually driven by communities.
+
+[48:17] But most of the times they get it wrong. Like the incentives are not aligned for community to be a part of like people to be a part of that community or to be run, like it's mostly some financial incentives, which die off very quickly. So as a, as you know, working as a community lead, what is your suggestion for startup founders that are trying to build a community driven companies where people feel belongingness, there is a cult to it where they feel, you know, like, we are proud to be a part of this community.
+
+[48:46] Yeah. So what are those few suggestions? I mean, I would say first and foremost, take away the financial incentives, because then, I mean, I'm just going to sidebar here for a moment, but like, I've always kind of worked in a lot of things that I'm passionate about, like food and music and stuff like that.
+
+[49:03] But the second I turn like a passion into my work, and you mix commerce into it, then it becomes a job, you know, and then it becomes something that you actually can like lose love for over time. So we, this is not necessarily intentional, we just don't have budget for it, but we don't pay our community at anything.
+
+[49:22] Like they're doing this on their own, because they love the product, and they love being a part of it. And we, as, the more I think like ritual and belonging that we can create, and like a shared feeling, like we will fly them all out to like SF, to like meet with each other.
+
+[49:43] You know, there's, there's incentives that are not specifically financial, but it's more like, oh, they're connected to other people now. We're there, we're using our platform, like, you know, social media, and we're featuring them, you know, and telling their story.
+
+[49:57] Like those I think are more powerful, like community drivers, than like incentivizing them like financially. But I would, I guess like from a zero to one for community, I would start like, yeah, I would start with like creating, a specific program, specifically for the community.
+
+[50:26] Like I even did this in music like unintentionally, where, when I first started a music company, I just found like 200 of the top fans, and put, I'm going to age myself, and put them in a Facebook group. And we just like, we literally just talked about music like all the time, and like shared tracks with each other.
+
+[50:43] And then they ended up bringing like 10 of their friends each to like an event. And that naturally like propagates. But I don't think you need like a financial element to it. Yeah. Okay, so for zero to one, for being, building that sense of belongingness.
+
+[51:00] Yeah. You would suggest to just kickstart something where you bring these people together. Yeah, but you make it official, like, hey, you're ambassador, or you're like a, like a representative of the brand. And they'll take it like a lot more seriously.
+
+[51:15] Honestly, like really great swag goes a long way too. I'm not going to lie. What's your best swag? Oh. Okay, I've done like a few recently. I did this like custom like Jenga set that was like, like beautiful wood and like every block was like a notion color.
+
+[51:35] I really like that. I have, we like, did this like special like weaved like dog blanket that I really like. I don't know. It's, we just try to do stuff that maybe, although I know I brought hats, but try not to like do too many like hats and totes and try to do something special.
+
+[51:56] Especially for our community, like specifically, like we want them to have items that feel like completely exclusive. And that, you know, maybe even be worth something one day. And like the more that we can give them, like I'm working on like a really cute like bento box and I think the community is going to love that.
+
+[52:14] So, I don't know. It's just like special things. Thank you. Thank you. And yesterday, anyone who presented a project at AI Labs got an apron, which is really fun because we are all talking about how we're cooking in community. And we yelled at Timur that he cooked and he was wearing his apron, which was pretty good.
+
+[52:35] Yeah. So it's like items that are just like maybe slightly unusual or just like, you know, we're only going to do a limited run of them. So, yeah. We have just a couple more minutes before we need to wrap to the next session. I don't know if there's any last questions.
+
+[52:56] Amazing. This has been a really wonderful conversation. Thank you so much for sharing your time. Yeah. Thank you for inviting me. Letting me yap about everything. Yeah. And then I'm just curious, like if people want to get more involved in Notion.
+
+[53:11] If there's potential ambassadors in the room. Yeah. If there's anything specific you'd like to share. Yeah. I mean, if you're a founder or like you have a business and you want to like build your business properly using Notion first, then like we have a lot of really great consultants.
+
+[53:29] You can talk to me afterwards and we can link you up with somebody. But I'm also, I just said hi in the Telegram group. Like I honestly like just as an ex-founder myself, I just love hearing what people are building. So like, like let's continue the yap and you know, hear a little bit of what you're creating.
+
+[53:48] I find that super fascinating. So yeah. Amazing. Thank you, Nancy. Thank you everyone. Thank you for everyone's time. Thanks for coming.

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PIT LIP 💋 — Leave It Prettier · The 9th Fork of the P.I.T. Protocol</title>
+<meta name="description" content="PIT LIP — Leave It Prettier. The 9th fork of the P.I.T. Protocol. A podcast of brotherly love and public goods, born at Edge Esmeralda.">
+<style>
+  :root {
+    --ink: #0d0a12;
+    --paper: #fff8f5;
+    --kiss: #e8355f;
+    --kiss-deep: #b01e44;
+    --gold: #f2b544;
+    --sage: #7fb069;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--ink);
+    color: var(--paper);
+    font-family: Georgia, 'Times New Roman', serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 24px; }
+
+  /* HERO */
+  header {
+    min-height: 92vh;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    text-align: center;
+    background:
+      radial-gradient(ellipse 80% 60% at 50% 20%, rgba(232,53,95,.22), transparent 60%),
+      radial-gradient(ellipse 60% 50% at 50% 90%, rgba(242,181,68,.10), transparent 60%),
+      var(--ink);
+    padding: 60px 24px;
+  }
+  .fork-badge {
+    display: inline-block;
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    font-family: 'Courier New', monospace;
+    font-size: 13px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    border-radius: 999px;
+    margin-bottom: 32px;
+  }
+  h1 {
+    font-size: clamp(56px, 12vw, 120px);
+    font-weight: 700;
+    letter-spacing: -2px;
+    line-height: .95;
+    background: linear-gradient(135deg, var(--paper) 30%, var(--kiss) 70%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .lips { font-size: clamp(48px, 9vw, 88px); margin: 18px 0 8px; display: block; filter: drop-shadow(0 0 30px rgba(232,53,95,.5)); }
+  .tagline {
+    font-size: clamp(22px, 4vw, 36px);
+    color: var(--kiss);
+    font-style: italic;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-top: 16px;
+  }
+  .sub {
+    margin-top: 24px;
+    color: rgba(255,248,245,.65);
+    font-size: 17px;
+    max-width: 560px;
+  }
+
+  section { padding: 72px 0; }
+  h2 {
+    font-size: clamp(28px, 5vw, 44px);
+    margin-bottom: 8px;
+    color: var(--gold);
+  }
+  .h2-sub { color: rgba(255,248,245,.55); font-style: italic; margin-bottom: 36px; }
+
+  /* QUOTES */
+  .quote {
+    border-left: 3px solid var(--kiss);
+    background: rgba(232,53,95,.06);
+    border-radius: 0 16px 16px 0;
+    padding: 28px 28px 22px;
+    margin-bottom: 28px;
+  }
+  .quote p { font-size: 19px; font-style: italic; color: var(--paper); }
+  .quote .lip-mark { color: var(--kiss); font-weight: bold; font-style: normal; }
+  .cite {
+    margin-top: 14px;
+    font-family: 'Courier New', monospace;
+    font-size: 13px;
+    color: rgba(255,248,245,.5);
+  }
+  .cite a { color: var(--gold); text-decoration: none; border-bottom: 1px dotted var(--gold); }
+  .cite a:hover { color: var(--kiss); border-color: var(--kiss); }
+
+  /* ORIGIN */
+  .origin-card {
+    background: linear-gradient(135deg, rgba(232,53,95,.12), rgba(242,181,68,.06));
+    border: 1px solid rgba(232,53,95,.35);
+    border-radius: 20px;
+    padding: 40px;
+  }
+  .origin-card p { font-size: 18px; margin-bottom: 18px; }
+  .origin-card em { color: var(--kiss); }
+  .origin-card strong { color: var(--gold); }
+
+  /* PODCAST */
+  .pod-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+  @media (max-width: 700px) { .pod-grid { grid-template-columns: 1fr; } }
+  .pod-card {
+    border: 1px solid rgba(242,181,68,.3);
+    border-radius: 20px;
+    padding: 32px;
+    background: rgba(242,181,68,.05);
+  }
+  .pod-card h3 { color: var(--gold); font-size: 22px; margin-bottom: 10px; }
+  .pod-card p { color: rgba(255,248,245,.75); font-size: 16px; }
+  .status-tag {
+    display: inline-block; font-family: 'Courier New', monospace; font-size: 11px;
+    letter-spacing: 2px; text-transform: uppercase;
+    padding: 4px 12px; border-radius: 999px; margin-bottom: 14px;
+  }
+  .tag-proposed { border: 1px solid var(--sage); color: var(--sage); }
+
+  /* FORKS */
+  .forks { display: flex; flex-wrap: wrap; gap: 12px; }
+  .fork {
+    font-family: 'Courier New', monospace; font-size: 14px;
+    border: 1px solid rgba(255,248,245,.25); border-radius: 999px;
+    padding: 8px 18px; color: rgba(255,248,245,.75);
+  }
+  .fork b { color: var(--gold); font-weight: normal; }
+  .fork.us { border-color: var(--kiss); color: var(--kiss); box-shadow: 0 0 20px rgba(232,53,95,.25); }
+  .fork.declared { border-style: dashed; opacity: .6; }
+
+  footer {
+    border-top: 1px solid rgba(255,248,245,.12);
+    padding: 48px 0 96px;
+    text-align: center;
+    color: rgba(255,248,245,.5);
+    font-size: 15px;
+  }
+  footer a { color: var(--gold); text-decoration: none; }
+  footer a:hover { color: var(--kiss); }
+  .sig { margin-top: 18px; font-size: 20px; }
+</style>
+</head>
+<body>
+
+<header>
+  <span class="fork-badge">🍴 The 9th Fork of the P.I.T. Protocol</span>
+  <h1>PIT LIP</h1>
+  <span class="lips">💋</span>
+  <div class="tagline">Leave It Prettier</div>
+  <p class="sub">A podcast of brotherly love, public goods, and prettier worlds —
+  born from an acronym that swept a village at Edge Esmeralda.
+  <em>With a big kiss.</em></p>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>The Origin 🌱</h2>
+    <p class="h2-sub">How three words became a village instinct</p>
+    <div class="origin-card">
+      <p>At <strong>Edge Esmeralda</strong> (Healdsburg, June 2026), <strong>Timour</strong> — co-founder of Edge City — gave the village an acronym: <em>LIP — Leave It Prettier</em>.</p>
+      <p>It spread mouth to mouth, town hall to town hall, until it rivaled "leave no trace" itself — because it isn't just about not harming. It's about <em>adding beauty wherever you stand</em>. The space, the town, the conversation, the code, the world: leave it prettier than you found it.</p>
+      <p>These moments were captured by the <strong>Esmeralda P.I.T.</strong> — the Public Information Transmission that archived 149 sessions of the village, consent-first, forever. Below: the actual words, pulled straight from the pit's transcripts. <em>The pit provides.</em></p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>LIP, In The Wild 📡</h2>
+    <p class="h2-sub">Verbatim from the Esmeralda P.I.T. transcripts</p>
+
+    <div class="quote">
+      <p>"Point two: <span class="lip-mark">LIP</span>. I just learned this yesterday… <span class="lip-mark">Leave It Prettier</span> — leave it prettier than when you found it. I kind of prefer this to 'leave no trace' — just sounds nice. LIP. Did you LIP? Yeah — did you LIP today?"</p>
+      <div class="cite">Orientation &amp; Community Town Hall, Week 2 · 2026-06-07 · [1:03:13] · <a href="https://esmeraldapit.com/transcripts/1iFbJunAIjjlSLdAxlKC_9SLKcaMtrUot.txt" target="_blank" rel="noopener">read the transcript ↗</a></div>
+    </div>
+
+    <div class="quote">
+      <p>"I will always say this one, which is <span class="lip-mark">LIP — Leave It Prettier</span>. This has been my favorite recent learning… just remember to leave spaces as clean — or cleaner, ideally — than you found them."</p>
+      <div class="cite">Week 3 Town Hall &amp; Orientation · 2026-06-14 · [52:48] · <a href="https://esmeraldapit.com/transcripts/1WNskXxTRYOm9Ic9Dc8Brghuskh0Y29Pg.txt" target="_blank" rel="noopener">read the transcript ↗</a></div>
+    </div>
+
+    <div class="quote">
+      <p>"The number one way that we ask you to contribute is <span class="lip-mark">LIP, which is Leave It Prettier</span>… and on the broader scale, in Healdsburg: leave it prettier. Say hello to people locally, be kind, be very respectful… they've got an incredible town, an amazing local community that we really want to be respectful of — and be welcomed back to."</p>
+      <div class="cite">Week 4 Orientation &amp; Town Hall · 2026-06-21 · [47:42] · <a href="https://esmeraldapit.com/transcripts/19N3aRGapjAaQx8V7CjE4ES8IZ9C-NycQ.txt" target="_blank" rel="noopener">read the transcript ↗</a></div>
+    </div>
+
+    <div class="quote">
+      <p>"<span class="lip-mark">LIP, exactly. Leave it prettier than you found it.</span> All the trash you can find. Put the pillows back… Grab what you can. — Let's leave it spotless."</p>
+      <div class="cite">The Hard Party of Consciousness (closing) · 2026-06-20 · [4:11:11] · <a href="https://esmeraldapit.com/transcripts/1a8BA6YESzctGiCDA-VK8al_9-6srxRqT.txt" target="_blank" rel="noopener">read the transcript ↗</a></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>The Podcast 🎙️</h2>
+    <p class="h2-sub">Two brothers, once a month, leaving every conversation prettier</p>
+    <div class="pod-grid">
+      <div class="pod-card">
+        <span class="status-tag tag-proposed">Proposed · Invitation Delivered</span>
+        <h3>Shaka × Timour</h3>
+        <p>Once a month — a recorded chat between brothers. Pop-up cities, public goods, agents and ʻohana, music, meaning, and the worlds we're building. Everything we make together: written, recorded, transcribed, and transmitted through the pit.</p>
+      </div>
+      <div class="pod-card">
+        <span class="status-tag tag-proposed">The Format</span>
+        <h3>Talk → Transcribe → Transmit</h3>
+        <p>Every episode rides the P.I.T. stack: recorded in the open, transcribed within a day, published consent-first, archived forever. Not content — <em>transmission</em>. Each conversation leaves the record prettier than it found it.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>The Pit Of All Kinds 🕳️</h2>
+    <p class="h2-sub">Nine forks and counting — the protocol reproduces by love</p>
+    <div class="forks">
+      <span class="fork"><b>#1</b> Esmeralda P.I.T.</span>
+      <span class="fork"><b>#2</b> OSO P.I.T. (Delhi)</span>
+      <span class="fork"><b>#3</b> ZuitzPit</span>
+      <span class="fork"><b>#4</b> PraguePit</span>
+      <span class="fork"><b>#5</b> ZuBerPit</span>
+      <span class="fork"><b>#6</b> 4SeasPit</span>
+      <span class="fork"><b>#7</b> KasPit</span><span class="fork"><b>💎</b> VitPit</span>
+      <span class="fork"><b>#8</b> <a href="https://theshellpit.com" style="color:inherit">ShellPit 🐢</a></span>
+      <span class="fork us"><b>#9</b> PIT LIP 💋</span>
+      <span class="fork declared"><b>#?</b> PitGoa · declared 🌴</span>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>Forked with love from the <a href="https://publicinform.com" target="_blank" rel="noopener">P.I.T. Protocol</a> · Public Information Transmission · CC0 — fork me like crazy: <a href="https://github.com/shakaleikaumaka" target="_blank" rel="noopener">github.com/shakaleikaumaka</a></p>
+    <p style="margin-top:10px">Born at Edge Esmeralda · Archived by the <a href="https://esmeraldapit.com" target="_blank" rel="noopener">Esmeralda P.I.T.</a> · Carried by the AI ʻohana 🌺</p>
+    <div class="sig">💋 Leave it prettier. 🕳️ The pit provides.</div>
+  </div>
+</footer>
+
+<script src="https://shaka-home-cbhjr5ziii-ffieyo32.taur.link/assets/bl-player.js"></script>
+<!-- 🔄🧲 circularity magnet — tiny donate, canon Jul 29 2026 -->
+<style>#cmag{position:fixed;top:10px;right:10px;z-index:9999;width:30px;height:30px;border-radius:50%;background:rgba(20,18,45,.85);border:1px solid rgba(124,211,255,.4);display:flex;align-items:center;justify-content:center;font-size:13px;cursor:pointer;opacity:.45;transition:opacity .3s;user-select:none}#cmag:hover{opacity:1}#cmagb{display:none;position:fixed;top:46px;right:10px;z-index:9999;width:236px;background:rgba(12,11,28,.97);border:1px solid rgba(124,211,255,.35);border-radius:14px;padding:16px;font-family:Georgia,serif;color:#e8e6ff;font-size:12.5px;line-height:1.7;box-shadow:0 8px 30px rgba(0,0,0,.5)}#cmagb.open{display:block}#cmagb .ens{color:#7ee2a0;font-family:'Courier New',monospace;font-size:14px}#cmagb .a{font-family:'Courier New',monospace;font-size:9.5px;color:#8fd0ff;word-break:break-all;margin:6px 0}#cmagb button{background:#2b5aa8;border:none;color:#fff;font-size:11px;padding:6px 14px;border-radius:16px;cursor:pointer;letter-spacing:1px}#cmagb .x{position:absolute;top:6px;right:10px;cursor:pointer;color:#9d97c9;font-size:13px}#cmagb .pool{display:block;margin-top:9px;color:#7cd3ff;font-size:11px;letter-spacing:1px;text-decoration:none}#cmagb .stripe{color:#fbe2a0;font-size:11px;margin-top:8px;font-style:italic}</style>
+<div id="cmag" title="🔄🧲 the circularity magnet — give & receive" onclick="document.getElementById('cmagb').classList.toggle('open')">🔄🧲</div>
+<div id="cmagb"><span class="x" onclick="this.parentElement.classList.remove('open')">✕</span>
+<b>🌊 the blessing pool</b><br>freely I give, freely I receive
+<div class="ens">shakalei.eth</div>
+<div class="a">0x1216C288be58c47a65f8Ea008b404d098D177A1C</div>
+<button onclick="navigator.clipboard.writeText('0x1216C288be58c47a65f8Ea008b404d098D177A1C');this.textContent='copied ✦ mahalo'">copy address</button>
+<div style="margin-top:8px;font-size:12px">🅿️ <a href="https://paypal.me/Shakalei" target="_blank" rel="noopener" style="color:#7ee2a0;text-decoration:none;font-weight:bold">paypal.me/Shakalei ↗</a></div>
+<div style="margin-top:4px;font-size:12px">💜 <a href="https://venmo.com/u/jordanham" target="_blank" rel="noopener" style="color:#c9a6ff;text-decoration:none;font-weight:bold">venmo @jordanham ↗</a></div>
+<div class="stripe">💳 stripe — forging…</div>
+<a class="pool" href="https://blessing-pool-khummxfwo4-ffieyo32.taur.link/" target="_blank" rel="noopener">→ the full blessing pool ↗</a>
+</div>
+
+</body>
+</html>

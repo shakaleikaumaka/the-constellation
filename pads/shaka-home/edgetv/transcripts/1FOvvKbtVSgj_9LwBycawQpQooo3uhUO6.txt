@@ -1,0 +1,269 @@
+# Vertical Farming _ Brian _ Grand Frontier Farms
+
+Date: 2026-06-24
+Source video: Vertical Farming _ Brian _ Grand Frontier Farms.mp4
+Drive: https://drive.google.com/file/d/10BaL_jhNvj4F0HxcC7TTjMd2L2cdee7C/view
+Duration: 00:32:54
+Transcribed: 2026-06-25 · whisper large-v3-turbo · language: en
+
+---
+
+[00:00] Cool, and are you okay with recording, or do you want me to go? Oh, that's fine, yeah. Great. Awesome. That's great. Okay, hello. Special. All right, if everyone's ready, we'll jump right in because there is a lot that we're going to try and cover here in a very short period of time.
+
+[00:27] We've got a lot of topics. I think and hope you'll find them interesting, and I want to say thank you for everyone coming out to listen to this today. Oh, it's okay, there we go. That better? All right. So first off, today we're going to be talking about modern agriculture, and specifically open source vertical aquaponic farming systems.
+
+[00:47] So as a very quick way of background, who am I and what am I doing up here? My name is Brian Leo, and I'm one of the co-founders of an organization called Grand Frontier Farms. What is Grand Frontier Farms? Grand Frontier Farms more than anything else is a research organization.
+
+[01:01] We are a small team of nine friends. Some of us have known each other for more than 20 years, working together to solve very challenging problems. We come from a lot of different disciplines and a lot of different backgrounds, but the one thing that we all have in common is we believe that radical change is possible in agricultural systems and technology.
+
+[01:17] And so we're working together to try and figure out what can be done around agriculture and specifically our version of what we call modern agriculture. So I've used this term a number of times, and I'm going to talk a little bit about what it is.
+
+[01:30] Sorry about that. We'll talk a little bit about what it is here. So modern agriculture is what we see is a missing branch of the agricultural system. When we came into agriculture, I had no background in it whatsoever. So we came in very open-minded with a very simple goal.
+
+[01:47] How do we grow the most food per square foot at the lowest price? So we went out and we looked at all the different systems. So starting from one side, we've got field farming. So field farming is great because you get the sun and the rain for free.
+
+[01:58] The downside of it is you get the sun and the rain. So if that doesn't work out, you're in a lot of trouble. It's also not very space efficient. For every square foot of canopy, you need at least one square foot of land. Field farming is great.
+
+[02:08] There's great applications for it, but it has some real downsides, especially when it comes to density. Next we've got greenhouse farming. So greenhouse is a step away from having to deal with the sun and the rain, but you're still at the window when it comes to sun.
+
+[02:21] And it's not the best for all environments because it still takes up a lot of space. However, advanced greenhouse technology is awesome. And if you've had a tiny tomato, chances are it probably came from a greenhouse in Mexico or perhaps Canada.
+
+[02:33] Then we're going to jump over to plant factories. So this is, if you've seen a picture of a modern vertical farm, it probably looks like a big white clean room filled with racks. These are interesting insofar as to how impractical they are.
+
+[02:48] If you imagine that you're building a big clean room, you spend an enormous amount of time and money to remove nature from the process of growing crops, and then you fill it full of AI and robots. The idea that you would ever, ever sell enough lettuce to pay for any of that is patently absurd.
+
+[03:03] So, however these are getting funded, it doesn't make a lot of sense to me, probably in justifying some kind of technology. The challenge here is that there's a lot of good things that come with that density. So what we want is we want to use modern technology.
+
+[03:15] We want to be able to have high density production. We want it to be climate independent, resilient. We also want it to be cheap, effective, practical, and open. So we see this as a missing place in between the current technologies. So this brings us to modern agriculture.
+
+[03:30] What exactly is modern agriculture as we see it and how does it fit in? So modern agriculture has a few components that are pretty important. The first one is we use living ecosystems. So the system we'll be talking about today is an aquaponic system.
+
+[03:42] And aquaponic systems means growing with fish and water, and we'll get a little bit more into that, but we don't really think of ourselves as an aquaponic farming company. We think of ourselves as an organization that is trying to learn how to design with ecosystems.
+
+[03:55] So when we look at our tools to design a farming system, we don't only look at technological or mechanical components. We also look at living organisms. Can we use a bacteria for this? Can we use a whole ecosystem? Is there a plant or animal that we can use in this that provides a better outcome at a cheaper price?
+
+[04:11] Additionally, living ecosystems are incredibly resilient. If you imagine a yard, you're constantly trying to get weeds out of it. But a forest has no weeds because everything in that ecosystem has a functional place, has a home, and all of the energy is being converted into activity and some format.
+
+[04:28] There's no room for bacteria, something bad, a foreign invader to get in. That's one of the big problems with the modern plant factory or clean room style farming. In that kind of farming, any kind of contamination spreads rapidly because of the sterile environment.
+
+[04:41] It is a lawn. Next, our metric is the highest yield and the lowest cost per square foot. So a lot of the technology that we see developed has different parameters. Sometimes the goal is to raise another round or to build a model for something or whatever that happens to be.
+
+[04:58] But we're really focused on making this work anywhere, especially dense urban environments. So our metric always has to be, how can we produce square foot at the lowest cost? And then we want to do that in an open way. We want to use commodity parts that can be sourced anywhere.
+
+[05:12] 3D printing is a great example of one of these technologies. But we want to use off-the-shelf parts that you can get from any hardware store. We want that to be open. We want that to be accessible. We want farmers to be able to build, upgrade, improve, and repair their own products.
+
+[05:26] And finally, and most importantly perhaps, it has to be open source. So open source is worth talking about here because farming is a very unique candidate for open source. In fact, we passionately believe it should be the foundational human open source technology.
+
+[05:43] Farming is very interesting because not only does it benefit you to be good at farming, it benefits you if your community is fed, and it also benefits you if your neighboring community is not starving. Starving neighbors have classically not been great neighbors to have.
+
+[05:55] We all benefit from better farming technology. Farming is also incredibly multi-faceted, especially when we get into modern farming. Water science, plumbing, plant science, electronics, you name it. The whole stack. There are so many facets in which people can work on and contribute to one and building the first farming system is very difficult, but once it's there, it's very easy to see ways it can be improved.
+
+[06:18] So that's what we want. We want there to be a Linux for farming, a standard place where everyone can start. When we were first looking at getting into this space, we talked to a lot of farmers, and we toured a lot of farms, and we met a lot of smart people, but the thing that we learned is that most of them had made a very similar set of a thousand mistakes, and it had gotten them to a place where their farm was working, but so many people made the same thousand mistakes.
+
+[06:40] And so we asked ourselves, isn't this the perfect opportunity for an open source solution? So now instead of making these mistakes in parallel, we can make them in sequence, and we can actually start to get somewhere. What if we can stack up all these learnings, one on top of each other, and see how far we can get when everyone is contributing to the same technology.
+
+[06:56] Okay. So to jump into it, we're going to be looking at specifically the system that we're going to be talking about as an aquaponics system. So what is aquaponics? Aquaponics is a pretty big thing, so we're going to keep it light and quick today.
+
+[07:08] This is your crash course. So aquaponics is a combination of two things, aquaculture, which is raising fish, and hydroponics, which is growing plants with water. So how does this work in practice? There's an aquaponic loop. If you imagine water flowing continuously in a cycle, it goes between all of these elements.
+
+[07:25] We feed the fish, the fish produced waste. Now that we have that fish waste, there's two things that need to happen. First we need to remove the solids from the water through a process we call mechanical filtration. This is essentially just running it through some kind of big filter.
+
+[07:38] Then the second part of that is to then convert all of the ammonia in the waste into nitrates and then nitrates, which can be taken up by the plant, filtering the water and growing the plants. This is a naturally occurring bacteria, and so you just make home for it through something called a bioreactor, we'll talk about more later.
+
+[07:55] But essentially, this is the whole process. This is a living ecosystem in which all things work together to provide each other nutrients, to balance out toxins, some toxic to one thing is food for another, and when you have everything working together, it works really, really well.
+
+[08:09] So that's the general loop we'll be looking at. Okay, so we've talked a lot about modern farming, we've talked a lot about aquaponics, somewhat about aquaponics, but let's get practical. What are we actually talking about here? What does this look like in practice?
+
+[08:22] So we see the open source modern farm as a vertical aquaponic farm built from common parts and open source designs that can scale from 500 to 500,000 square feet. That's our goal here, is that we don't want to be prescriptive in the types of farms that are created with this.
+
+[08:38] We simply want a better farming technology that can be applied at a community level for a diversity of crops or at a factory level for a specialty crop that's necessary. The farming technology should be flexible. All right, so let's jump into this.
+
+[08:52] I'm going to be taking you through our real-life honest experience of building this first system, the mistakes we made along the way and kind of where we've gotten to today. So a disclaimer for it is this is still the very first aquaponic system we've ever made, and though I may sound confident about parts of it, I'm learning many, many lessons all the time and often the hard way.
+
+[09:10] So please take that with a grain of salt. All right, so our story begins here in Long Island City, New York. We have two farms and our primary research farm is actually in Queens, New York. For those of you unfamiliar with it, we're one stop away from Manhattan.
+
+[09:23] This is very central. It is a very interesting place for a farm for quite a few reasons. One is it's the most expensive place you can possibly have a farm, so that's helpful. And then, two, there's a lot of other challenges in terms of finding and outfitting space.
+
+[09:39] So this right here is where we started our vertical farm, and when we saw this, we couldn't believe it. We thought this was the most beautiful place we've ever seen for a farm, what an incredible spot. Looking at this a couple of years later, I now realize that that was insane.
+
+[09:51] That was an insane thing to say for a lot of reasons. One, all those windows means that the building cooks. Two, there's no floor drains. Three, even if there were, our neighbors to the side and below is one of the finest, the highest-end fine art print photography studios in the world, so they weren't super thrilled about the amount of water we brought in.
+
+[10:10] It's filled with columns and ductwork, and the ductwork connects to an HVAC system that has, on more than one occasion, actually worked, so live and learn. It was great. We were very excited, but we've made it work in there, which helps us prove you can make it work kind of anywhere.
+
+[10:25] So you can see here, this is the honest-God first version of our design. This is what the design document looked like, and this is what we started building from. The idea is pretty simple. We stack up the aquaponic farm vertically, and then we just make that really good.
+
+[10:41] So you can see here as we're starting to build it out, we're trying to block it out, and really the core of the system that we were looking at was using industrial pallet racks. Industrial pallet racks cost close to their commodity parts, and they're available everywhere in the world in great quantity.
+
+[10:53] So we're like, okay, let's start with these. Let's use these as a basic framework, and let's see how far we can get in terms of building up density. So this, you can see, is it's starting to come together. So each one of those white trays would hold about six inches of water, and then on top of it, in which the plants sit in, the two black ones over there, those are filled with media.
+
+[11:12] So you imagine a little bunch of clay pebbles, and that's for plants that need roots to establish themselves to live longer. And then basically water flows from the top to the bottom. All the fish water just flows through all of this, and we fill them up with plants.
+
+[11:24] So this is what it looks like as it starts to come alive. It's doing pretty well. This is a fun one on the left here is that we're experimenting with everything. We really believe that this is a system that can be used to grow any crop. So these are all trees.
+
+[11:37] So we're working on a wide variety of exotic fruit trees because trees actually tend to do better in these systems. One of the advantages of using a living system is the longer the plant is alive, the more developed the ecosystem around its roots become.
+
+[11:50] So something like a tree actually releases compounds that attracts certain organisms that help build that environment. So the longer the organism lives, the stronger it works, and the stronger the ecosystem is around it, the faster they grow.
+
+[12:01] This is a system that's very well suited, but completely unstudied when it comes to tree production. You can see now as it's coming in. So this is kind of an example of you can see the rafts floating there, all of the different produce coming in.
+
+[12:13] These are a lot of our very earliest test crops. We're just throwing anything at the system, seeing if we can get something to grow. OK, so version one was great. Time for version two. So we learned a lot about version. We learned a lot about version one.
+
+[12:29] One of the interesting things about this is that we're usually not trying to dream up some new molecule or invent a way to do something. The problems are incredibly obvious. We have too much fish poop over here. We need it over here. And there's too much water on the floor, what it needs to be in the tanks.
+
+[12:44] So how do we solve those? It's usually there's six or seven right answers, and it's just a lot of work pulling it all together. So version two, we tried to take everything we learned from version one, and this is where we really leaned into the commodity components.
+
+[12:58] So if you saw the previous one, we had these hard plastic trays that were there. They typically come from one or two vendors ever. They often cross borders. They're very expensive and heavy to shift and require a dual power rack. So what we did is we re-engineered them.
+
+[13:11] We went to Japan, and we looked at the plant factors that they have there, and we said, what are the best practices that we can borrow from this in terms of efficiency and density? And then let's go build it out of parts at Home Depot and 3D printing.
+
+[13:21] So these are using electrical conduit for the railing, and then we use vinyl liner for the container on the inside, and then we hold it all together with 3D printed clamps. What this lets us do is allow us to source the materials from anywhere if you had to ship them.
+
+[13:33] They're very small and easy to ship, and you can build it to any size. However high you want it to be, however long you want it to be, that's a customized thing that you can do during the build. So now we've taken an expensive, hard to ship, limited component and turned it into something that is highly configurable, can be built anywhere, and can be done out of commodity parts.
+
+[13:50] And so the idea is to just keep doing this for every component of the system until the system is both highly performant and able to be built from anything. So you can see this is kind of the second version of the system, we're continuing to have some great growth.
+
+[14:05] We're learning a lot of stuff about density. Honestly, here we're still really finding our ways. We're still pretty far from a production farm, but we're very encouraged because we're seeing a lot, a lot of growth here. Okay, so now we're on to version 3.
+
+[14:18] You'll notice we're very proud of this. Version 3, not only is it a three-dimensional design instead of two-dimensional, we're using computers instead of markers now. So this is, you can really tell how quickly we're advancing. So the trick with version 3 is we're moving into something that's more of a modular design.
+
+[14:34] And I've said that before, but the idea behind this is we want this system to be commercially effective at essentially any scale from smaller farm on up. So using these pallet racks where you're working with a standard module size of about 4 feet wide, 7 feet tall, every 7 feet you have a catwalk, and 11 feet long, which gives you about a foot for plumbing and then 10 feet for rafts.
+
+[14:54] So using these, you can design any size facility with a piece of graph paper. There's a ratio between the three core modules, fish modules, which generate your waste and bioproductivity. Then you've got a filtration module. And then you have the actual grow modules, which are configured based on height and density, depending on the crops you're trying to grow.
+
+[15:12] But the math to figure this out is actually relatively straightforward. So you can design an entire facility. And if you need more than a single system can handle for its modules, you just duplicate it. You stack them, you go to the left, you go to the right.
+
+[15:23] What we found touring some of the largest and most expensive vertical farms that were built is that they very quickly went to industrial sized pumps, industrial sized tubing, which requires engineers and astronomically more money to build and service.
+
+[15:36] And so we did the math and we said, look, it is a million times easier and better to just use the largest practical size of commodity hardware and then duplicate it. You've got bio-isolation, you've got redundancy, you've got much cheaper costs and anyone can work on it.
+
+[15:49] You can call your local plumber instead of calling a specialist engineer to fly out. So you can kind of see here as the system's evolved, we've increased the density of the crops. We've increased the crop mix. And we're moving towards this more modular design.
+
+[16:06] The other thing that we do with the modular design is we built something that we have called a STREM or mineralization and filtration system. So what this allows us to do is it allows us to take all of the down into a sludge, then take that sludge and through a series of bacterial digesters, actually turn it back into usable nutrients.
+
+[16:25] So this system produces no waste whatsoever. And in fact, we can take waste from our harvests like roots and bad leaves, blend them up and throw them back into the digester going out of the system. Okay, so we're going to talk a little bit about the two metrics that we have for system success.
+
+[16:45] So one of them is overall production. We're trying to produce the most at the cheapest square footage or the cheapest dollar per square foot. The other thing that we're trying to do is trying to grow as many different crops as possible. Ultimately, our goal is for it to be profitable for a local community farm to exist and to grow products.
+
+[17:03] In order to do that, you need both high efficiency, low costs and low operating costs, but you also need to grow a great diversity of crops. If you look traditionally at how small farms stay in existence, it is not lettuce and tomatoes. It's secondary products and it's a diversity of crops that serves their local community well.
+
+[17:19] And if we look at a lot of community food and agricultural programs, what's often missing is a connection between the crops that are grown in the actual communities in which the farms exist. So we wanted to set out to prove that this system can really grow anything.
+
+[17:31] So we've been working on production numbers. Production numbers are going pretty well so far. As a reference for sheer productivity, the 10-foot system that we were just seeing here, this right now, and it's still like a preliminary number, but we produce about 185 times that of a field farm per square foot, and that's continuous year-round production.
+
+[17:51] So at those kind of numbers, we believe that there are profitable options, and these systems scale vertically very quickly. So you can imagine with a 3,000-square-foot farm, now you're doing a few acres of production out of season constantly, and that starts to open up some very interesting opportunities for communities.
+
+[18:07] So variety, what can we grow in this system? Let's take a look. We can grow leafy greens. We can grow herbs, just about every kind of herb. We can grow microgreens, delicious. We can also grow marshmallow. We started growing marshmallow plants.
+
+[18:22] Did incredibly well. Didn't know, but they have a delicious flower. We've got passion fruit growing in the system at the same time, and these are all coexisting, same system right now. This is a new guy. Pineapple. So we recently started growing some pineapples in the system as well.
+
+[18:37] It's our first cycle with those, but they seem to be taking off quite well. In fact, we can kind of grow anything in the system. So this is, we've probably grown a couple hundred varieties of crops in the system very successfully, including mango, avocado, rubber trees, tobacco, indigo, cotton, moringa, and just about everything else you can name.
+
+[18:56] So with this system, we really, really wanted to prove it, though. This wasn't enough for us growing all these different crops. We thought we can grow literally anything. So we chose what we thought was the hardest crop to grow, and we've really done a pretty good job with it, I will say.
+
+[19:09] And I do think that we have some of the densest in the highest quality production of wasabi anywhere. So we've actually the same system that's growing everything else is growing true wasabi. We went and studied the farms and managed to create the Japanese mountain stream, and we're actually doing a research experiment right now looking at how you actually grow wasabi effectively and densely in vertical systems because we think that there's a lot of mythology around growing wasabi that doesn't actually translate into practice.
+
+[19:35] So anyway, that's kind of the point of this is you can grow anything in these systems, whatever you can imagine, whatever you need, whether it's for food, whether it's material, pharmaceutical, or otherwise. We just think of this as a generalized system for producing plants and fish.
+
+[19:48] And then if you can figure out what to do with those plants and fish, you can have an incredible opportunity to do whatever. Okay, so that's a lot of stuff here. Two things that we'll wrap up with before we get into questions if we have time.
+
+[20:02] So the first one is something that we don't, this is only the second time we've spoken outside of the farm about the work that we're doing. And this is something that we haven't shared, but we thought it was appropriate for this community especially.
+
+[20:15] We get asked a lot why we did this. And the reason is there's three reasons. So the first reason is anger. I've been very angry at the world and the people in it that have gotten us to this place. There's so much talent and resources out there.
+
+[20:28] And these are fundamentally solvable problems that are going unsolved. I want to show people that it's possible to solve problems by just working on the actual hard thing and doing it. And sometimes it takes a long time and it's not very sexy and it's just being covered in a bunch of fish water for a long time.
+
+[20:42] But you can make amazing progress. The second reason is we really believe in distributed communities. I worked in decentralized design for many, many years, and I really believe in distributed resilient communities as being the future. In order to have those, if we really want those to exist and we want them to be permanent, and we want them to have the diversity that's important for them, and we need to build bootstrapping technologies so that those communities can persist and establish themselves.
+
+[21:06] And we see food as a fundamental part of that. The third one, however, is the one that really overrides the other two. And this was an interesting phenomenon that we encountered in the organization where a number of came to the same realization and then tried to articulate to the other person.
+
+[21:20] And what we realized was is that for each of us, there was this point in time where we couldn't not do this idea, where it could do us that we had to do it. And so we tried to find a way to describe it. And so we described it as the Eden Threshold.
+
+[21:33] And that's the idea is that there are some ideas of a particular impact that once possible are necessary. And as soon as any of us realized this might work, not 100%, but even there was a small chance that this might work, that was it. We had to do it.
+
+[21:48] To walk away from that possibility would be so grotesque that we could never do it. So now, regardless of whether I want to do this or not, and I do like the work quite a bit and I'm passionate about it, but I, in all honesty, cannot do anything else until we see this through because now, I don't believe, I know, based on the evidence that we've gathered, that this will work.
+
+[22:06] But there's an enormous amount of execution still to come. Okay, and then last one, one last one, what comes next? So, we have an exciting project that we're working on right now. And when I leave Edge, I'm going to be flying up to Harbor Springs, Michigan, where we are building a 38-acre research campus for modern agriculture.
+
+[22:28] So, we've got two projects that we're working on right now. The first one will be a template farm. The idea is we take all this technology, all this research, and we build out a 5,000-square-foot barn as cheaply as possible, and then we build out a module for dining and kitchen.
+
+[22:42] We build out one for a farm stand, utilities, and workshop, and then we build out another one for the farm floor itself. We open source the whole thing. You can come train on the facility. You can see these numbers in production in real life.
+
+[22:52] It's not a spreadsheet. You can see what it produces, what it makes, how it works. You can come out and see if it works for you. And if it works for you, you've got everything from the operating procedures down to the blueprints itself in order to build it.
+
+[23:02] So, that's the goal. Find a place where we can build something that can really be a center for this to be developed. Make these technologies practical and effective so that the people who need them and want to use them have a starting place.
+
+[23:13] And once people have a starting place, they can build and contribute from there. But we've realized it's not about executing this. It's about getting to a place where you can actually work from. There's something that if you want to invest in and run, you can rely that it will be successful.
+
+[23:27] So, we've got two projects. So, we've got that one. And then this one right here is actually not that farm. This is our second project, which is an experimental research farm. We really want to show people the technology and of the future. We want to inspire people to go in and do this kind of work themselves and implement those ideas.
+
+[23:46] So, we're building a second farm. And the idea behind this one is it's not just a farm, but it has a small data center underneath it. And we use the waste heat from the data center to heat the farm, as well as geothermal and environmental conditions.
+
+[23:56] And so, we build something where we can bring people in and we can really show them what's possible. So, farm, data center, hospitality, and bringing people in and showing them, here's how these technologies work, here's how they can be applied.
+
+[24:09] There are many, many novel ways to apply farming technology once you have reliable, effective, and open systems. So, with that, I'll leave you with this. This is the goal of farming every community operated by someone who lives there. It is absolutely possible, and more than possible, it is necessary, and it's necessary now.
+
+[24:29] These are things that we have to solve. We don't have time. They can be solved, but they must be done. So, with that, thank you very much. I know there's a lot to get through, but appreciate it. Like, what are the main sort of, like, hurdles that you have left?
+
+[24:57] Like, what's, like, the kind of, between where you are now and that you have, like, what still has to be figured out? Yeah, it's a great question. I mean, there's two things, right? This is expensive, so this money is always a thing, and we're bootstrapping this.
+
+[25:10] We cashed in our retirement to do this because we really believed in it. But the other thing is just my business partner and I had a user experience firm for a number of years. So, we know that it's not just about the technology works, is that we're working with enough researchers, technology far and away works, but we have to build a full production system.
+
+[25:28] So, it's one thing to do this, but it's another thing to have 3,000 square feet that are nice and laid out, all the piping straight, everything clean, it's all standard components, all that kind of stuff. And so, we're just all aware of the execution that it takes to do this.
+
+[25:38] So, the next, I would say, like, six to nine months is just a really big push to stand up the template facility, create all the documentation, and then I think from there, there's a pretty much enormous opportunity to go out and start implementing these in different places.
+
+[25:50] We've had a lot of interest in it, but for us, it's like, we're not trying to sell a dream to anyone. What we want to do is we want to prove this, and then we want to go build something that we know works, and the next step for that is this template farm.
+
+[26:03] Hi. My question is, could you tell us a little bit more about the fish? Oh, yes. We heard a lot about the plants, but I'm curious about the fish. Yes, yes, yes. Okay, yes. That's a great question, yeah. So, the fish are great. I don't talk much about the fish because I'm a little bit jaded.
+
+[26:16] When we first studied aquaponics, the message to everyone was, is that fish, fish, fish, fish are awesome, and everyone builds a business plan around selling fish, and if you do that in America, you will go out of business because nobody wants a whole tilapia.
+
+[26:27] You cannot sell a whole tilapia, and it's very difficult to process your own fish in the U.S. So, we've really focused on the plant production side, but if you are in a place where you can use whole fish, it generates an incredible protein supply.
+
+[26:38] We're actually doing some experiments running three kinds, four kinds of fish in the system. We're running koi in Shubunkan, which is like a miniature koi, because it's a very dirty fish, and they're very resilient. So, they're great. If you just want a generator, it's going to live there forever.
+
+[26:51] They're going to be happy. They're going to swim around. They're going to create waste. They're pretty great for that. Then, we're growing what's called a ranchu, and this is kind of like a pug goldfish. It's very silly. It's missing its top fin. It kind of tumbles around.
+
+[27:03] It's the gentlest goldfish, but we don't really want to kill all these fish that we're farming with, and so we like the idea of raising them because they're so much more valuable than a tilapia, and then we can sell them to a pet store. So, we're like, okay, again, you just have to take a step back and say, I'm a farmer, but ultimately, I can produce any plant, and I can produce any fish.
+
+[27:17] Which one is going to make me the most money? And then, our third one is a hybrid striped bass, and that would be our eaten fish. And so, we're going to see about that one, but it's pretty hardy and more interesting than tilapia. What's the short version of how you get to 185x yield relative to, I guess?
+
+[27:34] Yeah. Yeah. It's actually pretty straight. So, there's two things. One, we have six levels on that. So, we're taking a production number, multiplying it by six, and you can just keep going up there. It's one of the things that makes comparing the yields of any commercial vertical farm very hard because they're all secret heights, and so you're like, okay, it's like 40 feet tall.
+
+[27:50] You know, all right. That's not very impressive. And then, the other thing is just getting optimal conditions. So, when they're in that natural environment, they grow very well. We're putting CO2 into the areas up there. We spend a lot of time working on the lighting, on the nutrient balancing, on airflow, all that kind of stuff.
+
+[28:05] Once you get all those parameters in, you can maintain it very easily, but it's just a lot of getting that dialed in. And then, that's the nice thing about growing indoors. You have optimal temperatures. Leafy greens grow very quickly, so you can harvest them fast, but you're getting many, many harvests.
+
+[28:18] Instead of outdoors, you get one or two harvests, and here, we're getting a harvest every 30 to 40 days, depending on the crop. Some leafy greens are in the 20s. Are you doing anything that requires pollination, and how do you think about that in a CEA space?
+
+[28:35] Awesome. Yeah, I think about bees. Pollination's a really awesome point, because it gets to the heart of why we're designing with natural systems. If you look at, let's say, you were a very fancy strawberry company, and you were growing all your strawberries in a clean room, somehow you've totally ignored the idea of terroir.
+
+[28:50] You're trying to use robots for everything, but even robots or a team of scientists with little Q-tips still cannot pollinate strawberries as good as a couple of bees. So the most advanced farms in the world, they're using robots for everything else, still use a couple of bees, because nature is a ruthless optimizer, and anytime you can use a natural system, instead of an engineered one, it's probably going to be a million times better.
+
+[29:13] So that's how we think about it. We would use bees. Bees inside? Yeah, they actually have a little, you buy them in a container, and they have a little door that opens up automatically, and lets out like one bee at a time, so you can track how many bees are out in the thing.
+
+[29:27] It's a whole industry. They're very expensive, yeah. This is really cool. Thank you. You're on V3 now, and I'm just curious what the productivity increase has been from V1 to V3, and how much you're tracking costs now, and how much have the costs actually gone down from V1 to V3?
+
+[29:43] Yeah, that's a great question. The productivity has gone up. We don't really know what we're doing most of the time. We immediately tore it down and rebuilt it. So even now, the system is like, the car doesn't even have all its pieces on yet.
+
+[29:57] We still haven't even taken it out for a full lap, so to speak. So we've had some pretty dramatic increases there. The costs we're really not sure about. It's like we could figure out the cost of components on it, but there's this another step where we translate it into a production design where there will be more costs there, and that's one of those, we could come up with a number now, but if we throw out a number with something we want to be very confident about, like the 185X, we've been working with a researcher, and we've been doing measurements for many, many months where we're like, okay, we're moving up.
+
+[30:22] We feel very confident about that. So we'll have, and that's the idea, we'll have the full build cost torn down by section, so you can look at, okay, here, this is great. These are these components. I can get them cheaper myself, whatever that happens to be.
+
+[30:33] Some of it is also the balancing cost of labor, though, that because some of these things, like the design that I showed you for those trays, they may be much cheaper in a lot of other ways, but they're more labor intensive than something that's already constructed.
+
+[30:45] So some of these, there's these decision points to say, like, all right, what kind of labor do you have? What kind of cost do you have? There are kind of a tree of decisions you can make about what you source for where. If this system is spread, if you think about years in the future where everyone is adopting and everyone is growing this in the neighborhood, what do you see possible for our environment and societal change that this can spread?
+
+[31:12] Yeah, I think it's pretty dramatic. I mean, I think the ability that, the food that comes out of this is so dramatically better for you than probably even the organic stuff you find at a grocery store. There's been studies of whether organic has more value and it tends to correlate more with the size of the farm than anything else because you have a healthier soil environment.
+
+[31:28] You're not just strip farming stuff. So I think you could change outcomes, health outcomes out of this, as well as providing a whole bunch of secondary crops that allow for local businesses. I think it's pretty dramatic. This is also an incredibly regenerative process.
+
+[31:40] One of the byproducts you produce from this is essentially the fish water waste. You can just bleed that off. And so then there's been a lot of discussion about using these for restorative projects. You can go somewhere where the environment is heavily damaged, set up one of these farms, and then it is constantly creating the best fertilizer that you can buy, and then you can use that to start building out around it.
+
+[31:57] So in terms of doing something where we're doing ecological restoration or at a community level where we're changing health and food outcomes, we're doing this not because we believe that green is better or natural is better. We're doing this because we think objectively it is a better way to grow plants.
+
+[32:13] And once you can do that, once you can open up that to people, there's a million different ways you can apply it. And that's what we want to see. We want to see the myriad of businesses and projects and ideas that are possible once people can reliably grow food.
+
+[32:26] We think growing food and fish should be as easy as power electricity. You're building a building, you say I need this much power, I need this much water, here's a plan. You hire someone that's certified and can do that. There is no reason why it should not be that same way for plant production.
+
+[32:39] We've got AI, rock ships to the moon, totally insane where we are with food. This is literally plumbing. We can do some plumbing and we can do much more. Awesome, thank you so much. Round of applause for Brian, everybody.

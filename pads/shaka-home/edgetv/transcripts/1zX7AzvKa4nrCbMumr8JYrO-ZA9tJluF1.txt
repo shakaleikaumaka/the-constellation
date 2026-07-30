@@ -1,0 +1,267 @@
+# AI Keynote_ Supercooperation_ Speculative Visions of AI-Powered Collaboration
+
+Date: 2026-06-08
+Source video: AI Keynote_ Supercooperation_ Speculative Visions of AI-Powered Collaboration.mp4
+Drive: https://drive.google.com/file/d/1Yg-fO2mDtLIfX6TbDTd_QsSfIoAKkbzR/view
+Duration: 00:41:05
+Transcribed: 2026-06-10 · whisper large-v3-turbo · language: en
+
+---
+
+[00:00] All right. If you are still in conversation, you can take it outside or come and grab a seat. We have about 10 seats up here at the front. If you're at the back, you can slowly come and follow my voice. And then I have my Enforcer Telemon at the back.
+
+[00:26] Amazing. All right. Thank you all so much for being here. We are excited to kick off week two with an amazing talk. We're going to have a program this whole week. We'll have a talk every day here at 1 p.m. And then afterwards, we'll have kind of a free jam, a free session.
+
+[00:46] There'll be different things happening, and I'll share about that more at around 1.30. And today, it is my pleasure to introduce Ivan. Ivan has spent time at Google Research, Anthropic, and more recently, Mid Journey on their Collective Intelligence team.
+
+[01:03] And he'll be talking to us about the concept of super cooperation. Please give a round of applause for Ivan. Hi, everyone. Does this work? Can everyone hear me? Great. Excellent. Perfect. Yeah. So this is going to be a pretty high-level abstract talk.
+
+[01:39] I'm really trying to kind of expand the possibility space, try to figure out kind of what is possible in the limit of intelligence. But feel free to ask me more questions about kind of more concrete applications. Yeah. So this is broadly like what situation are we in?
+
+[01:56] And I think the sense I have is like basically we figured out how to produce intelligence on tap. Like you just put enough data and compute into a data center, and it like produces this raw thinky stuff that we can then reshape using RLHF into basically whatever we want.
+
+[02:13] Into coding agents, into personal assistants, whatever. And so the real question before us is like, okay, what do we do with all this thinky stuff? You know, we used to be really constrained on the thinky stuff. We used to really need a lot of smart people around doing the thinky stuff.
+
+[02:26] Now we can mass produce it. So what do we do with all this intelligence? And there's a lot of sort of like predestination narratives around. And maybe what I want to emphasize is like, no, no, no, like we actually get to decide how we shape it and what kind of society we want to live in.
+
+[02:44] Like we could, as a lot of people say, you know, we could create a, you know, godlike super intelligence that replaces us all or enslaves us or kills us or whatever. You know, makes us all go insane. A recommender system, we could use it to build a recommender system that kind of sits in your ear and tells you exactly what to do next.
+
+[03:01] And it's always better than what you would have predicted, but then your neocortex atrophies. We could also burn down all the data centers and salt the earth. I think this is actually pretty important to add. Like I do think AI is moving too fast.
+
+[03:15] Too fast is a strong statement. I think we're going to lose a lot because of the speed of this transition. And if I could slow it down, I would. I don't really see a realistic way to do it. But yeah, feel free to talk to me after about it. Yeah, and then the main positive vision I see, at least like outside of spaces like this, is that we'll use the AI to build like a really good employee or a really good personal assistant or secretary, maybe a tutor.
+
+[03:44] And these visions are great, but they're sort of inherently atomizing. Like if we do this really well, that we'll be in a world where like everyone is glued to their screen even more than they currently are and probably has even fewer meaningful human relationships than they already do.
+
+[04:05] Because like, you know, if we can put all the thinky stuff to work, making really good girlfriends or really good teachers or whatever. Well, it's like, why would you need a human teacher or a human girlfriend or a human partner? Yeah, and so my best answer for what we should be shaping this thinky stuff into is kind of a new internet, like a new, like an intelligent social fabric or information router.
+
+[04:29] Maybe a different cut at the same problem is at the same description is like, in the last 10 years, we've sort of unblocked this pipeline from data and compute to raw intelligence. And now, I think the most important thing to build is a pipeline from intelligence to trust.
+
+[04:45] And people have different definitions of trust. The closest definition I have is something like our ability to predict each other and cooperate at scale. Yeah, so we're going to talk about a few different visions of how, of what this would look like.
+
+[05:01] Like, what are the ways to use this thinky stuff to like enhance human cooperation? We'll see how many, how many we get through. I'm sure I might skip a couple of the last ones. But first, let's talk about humans. So some, I think it's helpful to know, like, given that we're trying to build a human-centered future, what are the kind of, what seem to be the constraints of the human mind?
+
+[05:25] And the most famous number here is the Dunbar number, right? So this is roughly the, a number of trust relationships that you can just maintain in your, in your subconscious. Yeah, I think it comes from, like, Dunbar says this, comes from, like, monkey grooming dynamics, but I don't think we quite know.
+
+[05:42] The other Dunbar number that people don't talk about a lot, but you probably heard me mention, if you've hung out with me at the conference, is four, which is the maximum number of human mental states that you can track at once. And this is why, if you'll, you'll never find me at this conference in a conversation of larger than four, I will, I will, I will try to split, split out.
+
+[06:03] This seems like, it just seems like, almost like we, humans have hardware acceleration for, like, modeling about four mental states at once, where I can, like, figure out what Timor thinks than I think that Telamon thinks, but not, like, but I can't do that with more than four, for some people five. Um, and so, you'll notice, if you pay attention, I think that, uh, conversation quality declines dramatically as the number of people scales roughly at that, like, three, four, five mark.
+
+[06:35] And then, the last constraint, um, uh, and probably the most, the most, the most important one, from my perspective, is the, is, yeah, 40 bits per second, which is the maximum bandwidth of human spoken language. And actually, this is universal across reading, speech, and hearing, this is universal across languages, and, uh, yeah, unfortunately, it is the limit of how much I can communicate to you right now.
+
+[06:59] I mean, minus some facial expressions, and, like, emotional tonality, that probably adds a few more bits, but not too many. Um, yeah, so, I see bandwidth as this, like, keystone variable. Um, there's a human cultural universal, there's anthropologist Donald Brown, who has, like, who studies, like, what are the things that all known human societies have in common?
+
+[07:20] And one of them is, uh, we give people who are very good at speaking prestige, or status, and, hence, resources, and, sort of, um, control over, um, uh, resources and people. And I suspect this is because in the ancestral environment, human tribes were incredibly bottlenecked on communication bandwidth.
+
+[07:39] Just, like, how well we can sync together all the, like, we're all perceiving so much of the world. How well can we sync up about what the most important things in our environments are? And so, if you find someone who is really good at talking, you put them in charge, because you put them as, kind of, the routing node of your community.
+
+[07:56] Um, so, yeah, as I said, human language is 40 bits per second, but we're seeing this crazy explosion of bandwidth, right? Like, a $3 ethernet cable that I can buy is a gigabit per second, right? That's, uh, what, 20, that's, uh, 25 million human voices, like, speaking in parallel?
+
+[08:13] That's insane. Um, and then, of course, a transatlantic cable is, like, 360 terabits per second, and they're building even bigger ones now. So, I kind of see, like, human communities are, like, yeah, these, like, deep sea, this is a photo of a deep sea anglerfish, um, which, like, generally lives thousands of meters under the sea, but it showed up off the coast of Portugal for some reason a couple years ago, um, and it just, kind of, was totally confused and disoriented because it's never seen that much light, and that's, kind of, how I see human communities now, is, like, where we evolved in this incredibly dark environment
+
+[08:44] where we could, like, barely communicate anything about what was going on with us, and now, suddenly, we're, like, coming to the surface, flopping around. We have no idea what to do with all this bandwidth, with all this, like, light. Um, yeah, so, going into, kind of, the concrete visions, um, and this is, like, kind of, what would it look like if we tried to maximize the communication bandwidth of just this group, right?
+
+[09:08] Like, right now, the communication bandwidth of this group is roughly 40 bits per second, because I'm speaking and you're all listening. Um, but, of course, you're all having thoughts, you all have a lot to share, so what would it look like to, like, maximize the communication bandwidth of this group?
+
+[09:20] I think it would look something like every one of us has a microphone, maybe it's one of those, like, whispering microphones, um, and we would all be just, like, speaking as fast. As humanly possible, just, like, our internal monologue directly narrating, it would be a very strange experience.
+
+[09:33] And then, in terms of the, that's the output, but then the input, of course, we have much more, um, capacious input channels, in particular, the visual cortex. So, what a hive mind would probably look like is, like, yeah, some visual representation of what all 100 other people in this room are saying.
+
+[09:50] Um, and, uh, I don't really know what, like, what exactly would the pixels even be looking, uh, what would the pixels look like? What would that video feed look like of 100 people speaking at once? I suspect that, like, we're very good at recognizing, our visual cortex is differentially really good at recognizing the details of faces.
+
+[10:09] So, probably, it would look like a video of, like, a few characters, which sort of represent, sort of, the archetypes, or, like, the gods, or the spirits of this group interacting in some way. Because that's kind of what we're really good at recognizing.
+
+[10:22] So, yeah, anyway, very trippy experience. If you want to help me build this, get in touch. Um, another example is, uh, something I'm calling computational karma, um, and I don't really understand the, uh, Buddhist notion of karma, please teach me.
+
+[10:38] But, uh, my sense is, like, yeah, everyone eventually gets what they're due, and money is basically our best 1D compression of karma, right? It's just, like, if I do something and people give me money for it, that must mean it's roughly good, right?
+
+[10:51] And, like, that is surprisingly true. Um, it's built most of the, you know, it's this, like, one-dimensional compression of karma has built most of the things we enjoy in industrial civilization. Um, but we have so much more compute and so much more bandwidth now, we can, sort of, compute value in much higher dimensionality.
+
+[11:08] And so, I imagine there'll be, like, new, sort of, currencies, or I'm not even sure if currencies is the right word, but it's, like, you know, I just record in the natural language database. It's, like, I let Timur borrow my car, Timur attests to this, we store this in some ledger, and then everyone just, like, stores this all the time, like, little bits of gratitude, uh, requests, just, like, memories of things that other people did for you.
+
+[11:31] And then we have, like, the swarms of agents that constantly process these transactions and, sort of, figure out who's been contributing, who's a free rider locally and globally. And then, uh, yeah, sort of imagine this, like, kind of utopian or maybe dystopian world if you implement it wrong, uh, where, like, you're just wandering around freely giving and freely receiving of the world.
+
+[11:55] And there's, like, agents in the back end figuring out that everyone is getting their due approximately in the end. Um, yeah, another fun example is deletable diplomats. I think there's been a bit of academic work on this recently. But basically, yeah, cooperation is often bottlenecked on private information.
+
+[12:12] Like, two people have a secret and want to know if it's the same secret, but, like, they don't want to be the first to reveal it, because what if it's not? Um, or, you know, all the way, and this is, this goes from, like, you know, whatever, uh, sexual preference surveys, uh, that maybe people here have done to, like, you know, U.S.-China negotiations of, like, if the U.S. builds a super weapon that would lead it, would give it a decisive strategic advantage in a war against China, could it reveal that to China, preventing a war, without China reverse engineering the technology?
+
+[12:42] Um, and, yeah, I mean, in the past, you could have, I guess you could have done this by, like, having a diplomat that you then shoot, um, after, after, after you've revealed the secret. But, uh, with language models, we have the affordance of, like, running intelligence and then deleting it.
+
+[12:58] And so you can imagine two parties sharing their data with a language model, um, uh, their private data with a language model. The language model runs some computation and outputs, like, oh, there's no deal possible here. And then it just deletes all the data.
+
+[13:10] Uh, and then, and we delete the language model. And that means you can be much more vulnerable. You can reveal much more information and thus find many more, uh, possible deals. Um, yeah, then you can sort of expand this out to, like, the entirety of market, the entirety of the market economy.
+
+[13:28] Um, uh, like, markets are really good at sort of finding, if you think of markets as kind of information technology, they're really good at finding a producer and a consumer that, uh, basically, uh, yeah, produce someone that produces a standardized product that you can, like, describe easily and then a consumer that wants that product.
+
+[13:48] Um, and, you know, information, what happens, basically, what's easy in information space is what becomes reality. Um, and so, in fact, we have a society that's, like, distorted towards transactional relationships and consumerism, which is not even what people want.
+
+[14:01] It's not even what people would be willing to pay for. And I think what language models and general allows us to do is just go beyond the price system, go beyond these commodity market or consumer markets and search for sort of general contracts between people.
+
+[14:15] Right. So, I imagine sort of everyone opens up their phone, records, like, a little voice memo with whatever it is they actually want in natural language, including their, like, relational, attachment, emotional wants, et cetera. And then language model exchanges can sort of search over the space of all possible contracts, including multi-person contracts.
+
+[14:33] Like, you know, these six people should meet in this person's house for an Aristotle book club or for a jam or something. Um, and then, you know, these three people should start a company with these roles, et cetera. A lot of these deals, I think, is really, really hard for these multi-party deals to clear.
+
+[14:47] I think it basically always requires an entrepreneur who, like, puts a ton of risk, uh, who, like, risks a bunch to basically set up this nexus of contracts. Um, and, yeah, our society is incredibly bottlenecked on entrepreneurs, and this is one way to sort of reduce, reduce that pressure.
+
+[15:03] Um, and you can imagine combining this with deletable diplomats in the sense that, like, a lot of this stuff that, a lot of these deals don't happen because people are scared of revealing what it is they actually want. Because that can be used against you.
+
+[15:13] Um, so, again, you can use these sort of deletable diplomats type, style tech to, um, uh, sort of remove the risk. Um, do you want to talk about this? Uh, yeah, I guess this is, in a way, a different, a different frame on all these, all these visions, which is just, like, you know, why is my laptop not just talking to Timur's laptop right now?
+
+[15:36] Again, why are we talking, why am I talking to Timur at 40 bits, 40 bits per second when, like, I have so much data on my computer that I'm sure might be useful to Timur, and Timur has a lot of data on his computer that would be useful for me. So why isn't this inter, interchange just happening?
+
+[15:48] Um, and it can happen, you know, directly peer-to-peer between us, also mediated by some, like, community servers, um, that store sort of collective, collective data. Um, yeah, I think the, the main, the main reason this isn't happening is we haven't figured out kind of the privacy story, um, of, like.
+
+[16:06] Um, it's, yeah, it's really scary to share all your data, um, and I think there are, there's a lot of room for protocols that basically handle this, like, slow revealing of information in the way that, like, a human conversation does, where you, like, start with small talk and then you, like, lead on to, like, much more vulnerable, scary things. Um, more generally, if I had to articulate my, like, utopia or something, I would call it, like, this is the, the Kosian singularity or periodotopia, which is this, like, hypothetical state of the world in which all positive bargains of all sentient beings are struck as soon as they're discovered.
+
+[16:41] Um, I don't know if that this is equivalent to the, uh, bodhisattva vow of, like, making all beings be free from suffering, but I think it's pretty close and it's, uh, yeah, easier to implement in a digital substrate, so it's kind of the, the, the vector that I'm trying to move towards. Um, and it's certainly better, I don't think I have to convince people here that it's much better than a, uh, uh, friendly AI or singleton, like, the superintelligence that, like, guides us along, um, our path, because it sort of centers the human and, uh, deals between humans and other sentient agents, other sentient beings, um, rather than this, like, AI god.
+
+[17:19] Um, yeah, I think, this is more businessy, I guess, yeah, like, I think someone will build this intelligent infrared or it's already being built, um, but, um, it's already being built, um, but there is, none of the incumbents are very well positioned to capture it, um, like, the kind of attention, the old school attention economy companies are sort of trapped in the marginal user attention optimization, so they're, like, trying to grab as much mindshare as possible, um, and then OpenAI and Anthropic are sort of, like, they just need to build the biggest model and have the best model and sell the most tokens, and no one's really going after this, like, um, Pareto-topia, like, how to get multiple people's,
+
+[17:58] agents to talk, multiple people's AIs to talk to each other, or how to get AI to intermediate communication between multiple people. There's very few multi-person AI products even in the market. Um, yeah, um, one other point about this, and I feel like, because I feel like this is something, um, kind of, people in tech, people in tech often get wrong.
+
+[18:20] So, yeah, I, I, I, at least see that most human value resides not in individual, but in various groups they're a part of. At this point was made in the previous talk. Um, and by default, it seems like the way we're building AI is either serving individuals or, like, large corporations, large bureaucracies, whether they be corporate or non-, whether they be for-profit or non-profit.
+
+[18:41] Um, and Tocqueville has this interesting argument in democracy in America that, like, serving the individ-, empowering individuals is actually the same as empowering the state. In a sense, individuals are just not, they can't, they're too small to hold agency. And so, if you're just maximally empowering individuals, what you're doing is you're empowering large corporations and large bureaucracies.
+
+[19:03] Because they're the ones that can sort of contain the power. And so, I think the future we want is one that, like, is more subsidiary, where it's, like, it empowers not just individuals, but, like, families, meso-scale community, like, Dunbar-scale communities, um, and then, like, Dunbar, of Dunbar, kind of, like, tribe, tribe or village level, or town-level communities. Um, and more generally, I think, as, like, as, like, a philosophy of technology, it's kind of, um, you want to unlock this, like, human political genius.
+
+[19:37] You want to unlock, uh, it's like, even if, like, no matter how brilliant I am, I'll never be able to decide how to, how information should be routed between millions of people I don't know. Like, no one should be in that position, basically. Um, we should be building, kind of, one, general protocols that people can use.
+
+[20:00] And, two, like, small, kind of, homegrown social networks for our friends and family, because that's where we, like, know how the information is flowing and we know what's doing harm and what isn't. Um, and so, yeah, my vision is, like, I guess, yeah, if this works, I'm hoping that it's not, like, there's gonna be one big company that, like, runs the intelligent internet or, like, AI social media.
+
+[20:20] But rather that, like, every one of you has their own kind of social media, uh, run, is basically their own social media founder. And then, like, all our social medias can, like, interoperate in some way. Um, and, uh, yeah, I think, like, we've got really good headwinds for this, because software costs are dropping dramatically.
+
+[20:38] They'll probably drop another 1,000x in the next five years. Um, and so, yeah, it should be just, like, when you hear about, I don't know, nonviolent communication or Robert's Rules of Order, it should just be, like, NPM installed that into my family group chat.
+
+[20:50] And now, like, you know, talking with my dad is, is it tolerable again? Um, yeah, I don't wanna talk about business strategy. Not really, ask me about it later. Um, yeah, maybe I'll end on this, like, unblocking flow. So, I don't know if people have seen, like, I think this is Dario on Dworkesh's podcast.
+
+[21:12] But he quotes Elias Sutsukover saying, like, the models, they just wanna learn. This is kind of the core insight, in a way, of the last, like, ten years of AI research, the Toronto School of Deep Learning. It's just, like, the model wants to learn, you just have to get out of its way.
+
+[21:25] You just have to make sure, kind of, the information that's absorbed, collect a massive pool of data, do all sorts of crazy stuff to get that data. But once you've gotten the data, um, just, like, the information from the data should just, like, flow in this laminar way towards the weights, or through the weights of the model.
+
+[21:42] Um, and I sort of think of super cooperation as kind of applying that lesson to society as a whole. It's like, if we unblock all the flows inside the data centers, but don't unblock the flows inside us, inside human communities, then, like, the data centers are gonna be in charge.
+
+[21:58] Um, and so, there's a sense in which, like, there's a weird, I don't know, woo way of, like, there's nothing to do here. Like, the people already wanna cooperate. The only thing for us to do is, like, pay attention to the way they already want to cooperate.
+
+[22:11] And, like, notice what's getting in their way and remove that. Um, um, yeah, in the same way that, like, classical liberalism sort of did for 19th century society with the articulation of the rights of, the rights of the individual. And, like, people just wanna do good things and they wanna help each other.
+
+[22:25] You just have to get out of their way. Um, and, uh, yeah, we need, kind of, new philosophy and new educational institutions, um, to, kind of, make this possible. Uh, yeah, the liberal arts are a good example of this, where it's, like, liberal arts, right, liberal, originally means, like, the arts that liberate you.
+
+[22:43] Like, they're not supposed to, they're not adding anything. They're, like, letting you achieve your potential. They're letting you do whatever it is you wanna do in the world. I think there's something similar between people and AI and also between, between people as it is.
+
+[22:56] Um, yeah. And then, yeah, that's basically the conclusion. I think the message I wanna send is, like, yeah. Uh, human and AI coexistence is totally up for grabs. Uh, like, don't, do not settle for any kind of doomer or predestination narratives.
+
+[23:10] Like, you are in control of this. And we are in a, I think, in a window of opportunity to create this, like, intelligent social fabric. And I wanna work with, with all of you here to build it. Um, and yeah, the main way you can, one big way you can help, Timur will talk about this a bit.
+
+[23:25] But, like, yeah, play with your edge, uh, with your agent, uh, with your edge agent. Ask it for what you really want, even if you think it can't give it to you. Um, just see what happens. Uh, and then, yeah, make a new skill for it, share, share it.
+
+[23:37] Um, and give us feedback in the telegram, I think. That's it. Question over here. Question over here. We have a few questions. Yeah. All right. I'll kick things off. Thanks for that insightful talk. Really interesting concepts. Um, I have a few, uh, inputs there.
+
+[23:57] As a neuroscientist, uh, I think 40 bits per second is actually on the right side of language, but not on the right side of the thoughts. So, one barrier there is thoughts to language. And, um, in fact, I'll give a talk at the Nuriam event at the Hub at 2 to 4 PM today.
+
+[24:16] I plan to go last. And the concept I'll be talking about is exact same, this topic, which is how can we go beyond that, uh, limitation of 40 bits per second by translating thoughts to actions. And we have a new technology. We will be talking about it.
+
+[24:32] In fact, I'll lead some of those discussions. I'd be very happy to have you and some other interest people in this group come, uh, come over and, you know, help us with this conversation. What I was going to say is once we are beyond the language barrier, um, AI agents picking up on your thoughts, turning those into valuable input, communicate with other AI agents, uh, mediating your interdependent issues and, you know, challenges, which leads to more empathy could be a concept high minds could, you know, uh, tap into.
+
+[25:06] So happy to talk more, but just want to give me, give you a little bit of a background from my end. Yeah, let's talk. Awesome. Yeah, Robert. Hi. Okay. Good. It's working. Hey, so first of all, Ivan, hi. Good to see you again. I had dinner with him yesterday and AI safety dinner.
+
+[25:24] I first have to say that when you talk about your stuff last night, you know, you sounded so modest about it. And I feel like you were just like, yeah, you know, computers are going to help us coordinate and dah, dah, dah. I'm like, you need to say something like we're figuring out how to create infinite positive sum games.
+
+[25:38] You know, like this is the most important technology we need right now. Anyway. Um, so really, really, uh, very excited. I'm looking at all of this. I know you skipped over the kind of commercialization slide, um, which is fine. And some of us who are interested to talk about that later.
+
+[25:55] Um, I did just kind of wonder though, like, you know, is this something where we just need to get a core group of like the first million, very kind of like high value or high interest humans onto this platform. And then we'll get the N squared or whatever, you know, growth of the network or like, you know, or do we need to actually have some kind of, uh, you know, monetization strategy that just like pushes it out to people so that they start spending time on this versus tick tock or other kind of doom scrolling.
+
+[26:23] Like, I'm just, it sounds really important to try to push it out. Or maybe you're just saying, think about that next year. Once you've got it developed more, just wanted to hear about that. Yeah. Thanks for the question. I know I, I do think the business, the business strategy or like the incentive compatibility of it is super important.
+
+[26:41] Like I think a lot of the problems and kind of the previous attempt to do this, right? It was like with social media and recommender systems. And I think a lot of what went wrong is like they didn't, the founders did not think about the business strategy.
+
+[26:54] They were just like, Oh, we'll just provide value to people and connect them. And then we'll find a way to make money. And that way to make money is always advertising. Um, so I think in a way I almost, I feel like the current moment is almost better for this because people are getting used to paying.
+
+[27:10] Or like inference is actually expensive. And so it's reasonable to have business models like, um, help people run inference over multiple parties, private data, and then charge a 10% markup or 5% markup or something. So more of like a stripe business model than a Facebook or Google business model, which I think is much more aligned, um, with the user's interests.
+
+[27:32] Um, but, uh, yeah, honestly, I haven't, I haven't figured out the, like the business strategy. I do think something like getting the million kind of early adopters, um, who are willing to experiment with new technology, maybe like suffer some privacy leaks in the meantime while the kinks are being figured out.
+
+[27:52] Um, much like the early internet is probably the way this will develop. Yeah. Could you just talk about point one and two here? Cause I think they're also interesting to touch on. Uh, sure. Yeah. Yeah. So for the longest time, I mean, yeah, maybe it was like 10 years ago, I was working in, uh, recommender system optimization at Google.
+
+[28:10] Um, and I was like, damn, I guess we really do have to just like optimize for wasting as much of people's time as possible. Otherwise, like TikTok, we'll take, we'll take our, we'll take our bacon. Um, and I'm like, okay, well, I could start my own social network.
+
+[28:24] And it's like, well, it's really hard because of network effects. And network effects are kind of one of the most, um, uh, I don't know, one of kind of the enemies that I've been seeing over and over again over the last 10 years. Um, but I think, yeah, there's a few, there's a few convergence things.
+
+[28:42] One is, yeah, the fact that, uh, this is my, there's more point two, but yeah, the fact that inference actually costs real money. And so to provide a really good AI social experience, you actually might need to charge people something like a hundred or thousands of dollars a month.
+
+[28:56] Um, and that allows you to produce, to create a really, really good experience that, and then you like just ride the decline of costs. Cause, cause intelligent cost of intelligence is dropping by something like five, 10 X every year. So something that will be quite exclusive and only available to like, uh, fairly wealthy people will be available to a mass audience in like two, literally two or three years.
+
+[29:17] So kind of writing that, writing that curve is, is really good. And then, uh, yeah, I mean, just like point on, on, on point one, just having an agent that kind of can ingest anything, you know, the way you can point your edge agent to just like, I pointed it to like my website.
+
+[29:32] I'm like, read my website, read my blog, summarize what's going on there. That's like way easier than spending a year, uh, you know, tweeting about, you know, slowly kind of collecting content about who I am on a platform like Twitter. So it has to learn who I am.
+
+[29:45] So it's much, much easier to onboard onto a new social network, which is also why I'm not like, Hey guys, I'm starting a social network. Everyone join me. I'm like, no, no, everyone here should be starting a social network. Like a lot of us here will be starting social networks and just like join as many as you can.
+
+[29:58] And like, they'll all interact with each other in some crazy ways. Um, hi, thank you for the talk. And I feel like every slide can literally go into a different like eight hour conversation. But I really liked, um, how you framed it as we have a really unique, um, opportunity to build it to really intelligent.
+
+[30:23] But in doing so, what do you think are the obvious and important parameters or metrics that we can track and optimize for? Um, so that we at least know that we're going for that direction versus like ended up being that, um, just measuring the overall society development, human flourishing as a whole.
+
+[30:40] Because then, then it will be same as before. And, or if we start with more like a more elite focused first 1 million thingy, then we won't mind overpower or overweight the elite world. It's like a smaller bubble, even though there are individuals.
+
+[30:54] So yeah. Are there any, if, let's say there's like a loss function and we're, or the parameters are, yeah, going in that direction. Yeah, this is really interesting. Um, I mean, I've been in a lot of the conversations at like these social media companies where, you know, there's a, you know, we decide like, should we launch this feature or not?
+
+[31:16] And people do, people don't just pick the, like, the option that maximizes attention, that maximizes time in app. They do look at a bunch of other metrics. The problem is there are no, there's like not really any other good metrics, right? It's just like, okay, like, did they like it?
+
+[31:34] Did they click it? Did they like come back two days later? It's just like, we don't really have metrics to capture this stuff. Um, I guess I have two answers. One, the simple answer is something like, this is why decentralization is so important.
+
+[31:51] Not necessarily in the sort of maximally high security sort of Satoshi sense of like, you're, you know, you can resist a government actor. But more in the sense of like, provide the maximum space for people to follow their own kind of judgment of wholesomeness.
+
+[32:08] So it's more like, I imagine sort of the, and I don't know if this, you can capture this in a metric, but there's something like, you know, if each of us has social, if each of us has our own social media agent, and we just talk to it and we're like, huh, this is the way I felt about my like social media consumption today, or this is the way I feel about people in my life right now.
+
+[32:26] And this is what I would like. I feel like a system that follows that gradient is much better than like some central, in a way, like metrics are mistaken ideology. Because metrics, metrics assume that there's like some guy somewhere who's like optimizing the information flows for a million people.
+
+[32:43] And we just like shouldn't be doing that basically. That being said, there is one metric that I think could be fine. It's a little bit hard to describe. It's like from complexity theory, but it's something like causal power is equally distributed across the hierarchy.
+
+[33:01] Of if you think of like, I'm an agent, I'm composed of multiple sub agents, which are like my competing desires emotions and above me are a bunch of agents, my family or my country or like, the edge community, all these other communities, and they each exert some causal power, that you can sort of measure in the information flows. So there's something about like, probably good organic biological systems have like, this like, they don't, there's no like pinches in terms of causal power.
+
+[33:29] There's no like, node at which, which exerts so much power over the rest of the hierarchy that it sort of gets unbalanced. So sort of imagine kind of this kind of like fractal geometry or fractal uniform decomposition of causal power. I don't know if that made any sense. I don't really have the equation for this, but that's the closest I've been able to find to like the metric that we should optimize.
+
+[33:50] Hi there. You referenced Hayek and one of the things he points out is that people don't actually know what they want. It's through their interactions on the market that they discover the values. And I think of when groups of people try to do something together, a lot of it hinges on the ability of one person to paint a vision.
+
+[34:18] And I'm worried about the ability of these agents to get to articulate that, because that's still going to go through those 40 bits a second. And I'm one, I don't know if that's like another slide in the thought or if you have in the deck or if you had any thoughts about that already.
+
+[34:38] Shared vision is hard. Yeah, I do think, yeah, this this talk has been very kind of economics brained. And I think there might be a deeper layer, a deeper cut here, which is more at the kind of mytho poetic level. Which is like, and I kind of, I slightly touched on this in hive minds, right?
+
+[35:00] Where it's just like, what does the hive mind actually look like? It probably would look like something like a religious narrative or like kind of a poem or like a play or something like that, where you have like the god of war competing with like the goddess of love for like your attention or something, for the group's attention or something like that.
+
+[35:15] I definitely think it's possible that like the real thing to do is like build technology that augments our imagination, especially our collective imagination of like what path, what paths are possible. I think, and that might be a deeper frame than economics, but I don't have a great, I don't have a great lens on it now.
+
+[35:35] Hey, that was a great talk. Thanks. I particularly like the idea of thinking of it as like an intelligent social fabric. I think that's a, that's a great frame. I wanted to kind of push you a bit on one part that I thought was a little bit sus, which is like the positive sum game thing just kind of seemed to sneak in.
+
+[35:59] It's not immediately obvious to me that if coordination is easier, cooperation like globally becomes like the thing that'll happen. So just to maybe paint a little bit of an example, I think kind of what's going on is this notion that I want to hang out with my friends a bunch.
+
+[36:13] I want them to do well. My friend group also will coordinate with other groups and it kind of recursively goes. But I don't understand why this would be the case rather than like I want to coordinate with my friends a bunch, but actually I hate this one guy.
+
+[36:27] And I want, I want to kind of screw him over and the friend group kind of similarly there. So what's the, what's the intuition that you have behind more coordination, more cooperation? Yeah, that's a really good, that's a really good question.
+
+[36:42] I mean, the last time we had like a really big core improvement in tech coordination technology. Well, you could say the internet, but I would, I would say the printing press is maybe a little bit closer to what we're going through right now.
+
+[36:54] And it's like, yeah, like I think it killed like a third of Germany in like the ensuing conflict conflict. So yeah, I agree that I agree that this is all a bit sus maybe where I'm just like, yeah, actually a lot of what people want to do if they can coordinate well is like become predatory towards other human groups that are less coordinated.
+
+[37:16] Um, yeah, um, I don't have, yeah, I don't have a great answer. Um, I think there is some like paradotopian, I do have a kind of paradotopian ideal of like, it's unlikely that what we want in the final analysis is to like hurt and extract from others.
+
+[37:42] In most cases, it's because we can't find a good deal with this other group that we like choose to colonize or extract from them. Um, especially given the moment we're at of like rapid technological growth and therefore like growing kind of resource or growing like abundance of most of the things that people care about.
+
+[37:59] Um, but there definitely is another maybe like Straussian reading of this talk, which is like, hey guys, like there's like a, like there's a evolution selects very strongly for cooperation and coordination and like, uh, join or create a group that is highly coordinated. Because like otherwise you'll be eaten.
+
+[38:20] Hey, uh, amazing talk. Um, we're part of the team at geo and we're building what we sometimes refer to as like the coordination layer of the internet. Our, uh, take is that we kind of start at the very base layer, which is the knowledge layer.
+
+[38:42] And, you know, re, um, kind of changing a bit the information layer by using knowledge graphs and building like a global knowledge graph that pulls in, you know, um, all of like publicly available data structuring it so that it can be composable, verifiable. And so that there's like a better anchor of truth for, for AI systems.
+
+[39:02] What are your thoughts on how the current, uh, information systems, you know, uh, and kind of database and everything that that like, do you think a bit of that is broken? And what are your, what is your stance on like knowledge graphs with the emergence of, you know, personal and public knowledge graphs these days?
+
+[39:19] Yeah. Yeah. Thanks. And thanks for all the work you're doing to support agent village, by the way. Um, yeah, maybe the lens I'll add, I love this book, uh, this social history of truth, um, about the early English, uh, like the early modern English scientific revolution.
+
+[39:39] And what he talks about is like truth is always a social, um, phenomenon. It's like it emerges from this like network of trust. So it's really like, there are no, there are no facts without society. It's really facts are grounded on who you choose to trust and why you choose to trust them.
+
+[39:59] And like, what are kind of the norms that we have around truth telling and like whether you can tell the truth, whether, whether you can expect certain people can tell the truth or not. Um, and so my sense is like a lot of the knowledge graphs I see sort of don't, including the really big ones like Wikipedia, let's say, don't really do a great job of integrating with the like actual kind of trust network of the world.
+
+[40:24] Right? They use approximations like, oh, did a reputable newspaper publish this? But like what I really want to know is like, did someone I trust like check this information? Um, or where did this information come from? And what were the incentives operating on the person who provided this information to the system?
+
+[40:41] And I think if we could somehow, it's, it's one of those things where it's like, if you don't model it, everything gets kind of kinked up. And if you do model it, I think it unblocks a ton of, a ton of cooperative flow. Um, yeah, but we should take it offline.
+
+[41:01] Awesome. All right. Thank you so much, Ivan.

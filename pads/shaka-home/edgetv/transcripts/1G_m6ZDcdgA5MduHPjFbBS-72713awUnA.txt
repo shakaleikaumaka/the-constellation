@@ -1,0 +1,233 @@
+# Fireside Chat_ Neuroscientist Mike Johnson
+
+Date: 2026-06-17
+Source video: Fireside Chat_ Neuroscientist Mike Johnson.mp4
+Drive: https://drive.google.com/file/d/1zqyKjHrvufqiWEAljQPCHSWDJr4aTNXu/view
+Duration: 00:52:37
+Transcribed: 2026-06-19 · whisper large-v3-turbo · language: en
+
+---
+
+[00:28] Yeah, I feel like I always end up spinning too much on these chairs. Hey, everyone, how are you doing? Good. 11 a.m. fireside chat. If you're planning to be engaged and present, why don't you come down to the front couple rows? We've got some space here.
+
+[00:50] If you're planning to slip out quietly halfway through for a Zoom call, you can stay in the back. Okay. So, let me angle here. There we go. So, we're here with another Contemplative Futures conversation. I'm Luca Del Deo. I'm here with Mike Johnson.
+
+[01:11] And we are having a conversation today about Mike Johnson's research in work around consciousness. This is part of the Contemplative Futures series where we explore what are people building, what are people creating and researching right now, and how does that shape the future?
+
+[01:30] As we get to know these leaders, what world are they leading us into? And, of course, leadership comes in many forms, and one of the really quintessential forms of leadership is taking risks and asking new questions, trying out new ideas. And that's the form of leadership that I suspect we're exploring today.
+
+[01:48] So, Mike Johnson, would you like to introduce yourself for the audience? This one's also a little sensitive. Testing, testing. Okay, great. Hey, guys. I'm Mike Johnson. And I sometimes, you know, the simplest introduction would be I do philosophy and neuroscience.
+
+[02:13] If we want to go more philosophical, I'm really deeply interested in about what is real and what is good. Or kind of another twist on that is I really want to know what minds are and how to be kind to them. So, yeah, I do most of my research independently and have been doing this for a while.
+
+[02:43] Okay, great. Thank you. So, that sets me up for the first question. And the way we'll do this, we'll ask some questions, and then we'll also open it up for some questions from the audience. So, yeah, I would love for you to share with us more about your background and the kinds of institutional spaces you've moved through and then where your work is located right now.
+
+[03:05] Yeah. So, my official background is in the philosophy of science, the philosophy of language, and mathematics, and some philosophy of mine. And later got, you know, deeply interested in sort of physics, neuroscience, kind of how things work at all levels.
+
+[03:26] I wrote a book ten years ago, Principia Qualia, later co-founded the Qualia Research Institute, left four years ago, and have been sort of hanging up my shingle as the symmetry institute now. And so, like, I specifically chose not to go into academia, which, you know, is its own topic.
+
+[03:54] But I think that if you're, you know, wrestling with, you know, what questions to ask, it is really important to have as much freedom as you can get. Yeah, and you found that by moving outside of academia, you've been able to get more of this freedom, more of this freedom to explore questions that maybe are more challenging to ask in that context?
+
+[04:18] Yeah, so, I mean, the way I like to describe it, I have a deep personal need to, when I wake up, it's just, I want to work on the thing that feels literally the most important. And, you know, whatever that is in the moment, often it's the same thing.
+
+[04:40] It makes deadlines a little hard, because I can't always predict what I will feel is the most important. But I find that, you know, kind of this sense of, if I sort of ask myself, what is good in life? There's often, like, an interesting thread that sort of starts in philosophy and runs through neuroscience and doesn't necessarily end up in psychology, but definitely runs through it.
+
+[05:11] So there are certain themes in my work there. Yeah, and then, well, how would you describe the work that you are doing right now? Because it does, it seems like you're touching on a lot of questions these days, a lot of topics. Yeah. So, I mean, I guess I would describe my work in three buckets.
+
+[05:32] And I love all the buckets. I don't have a favorite. But they, like, seem very different from the outside, but I sort of see them as connected. The first bucket is really philosophy, that how do we, you know, if we're sort of in an alchemy stage with consciousness research, with sort of understanding what a mind is, how do we shift that to the chemistry stage,
+
+[06:05] that how do we sort of systematize it and make it real? So I gave a talk at CIMC at the end of May on this branchial ecology. So talking about sort of a particular lens in physics that sort of can maybe illuminate sort of objects' causal shapes better than intuition.
+
+[06:31] And I guess, like, lately on this view, or, like, sort of on foundational philosophy, I've been thinking a lot about AI. And both sort of in terms of, well, are AI's conscious? How would we know? How do we even begin to think about that? And I do hope this branchial space container could be a good use, like, good way to approach that question.
+
+[07:03] I'm also thinking about how do we use AI to do philosophy? And, you know, we could frame this as how do we turn a token budget into more clarity about what is real and what is good? And, you know, if you had a trillion GPT-7 level tokens and one prompt that you can run to sort of solve consciousness, what would the prompt be?
+
+[07:32] How would you approach that? What does a solution even look like? And so on. So, you know, pretty foundational stuff there. The big sort of output from my book ten years ago was the symmetry theory of valence. So we can talk about that. The second bucket is maybe a lot more, I'm going to say, a lot more practical, a lot more sort of tangible to people.
+
+[08:02] And this is vasocomputation. It's this theory of how we use vascular tension as a special sort of memory for the body that basically as, you know, we have muscle everywhere in the body. Anywhere that blood goes, we also have muscle. And so everywhere we have neurons and nerves, we have muscle.
+
+[08:29] And when this muscle clenches, essentially it deprives nearby neurons of blood flow and then sort of turns their plasticity to zero or way down. You know, blood flow can vary by a factor of over 20x in healthy tissue. And so Christophe Moore and Rosa Kau talk about this in terms of blood flow adjusting the gain of neurons.
+
+[09:00] If you want a network to be more dynamic, you send it more blood. But if you want it to be less dynamic, if you want to almost literally freeze the information there, you can constrict the blood flow. So it's a very sort of elegant, evolved regulator sort of in parallel with the nervous system.
+
+[09:21] And then there's this other thing called a latch, the latch bridge mechanism of smooth muscle, where usually the muscle fibers just kind of slide and catch and slide and catch. But a latch is when the muscle fibers literally glue themselves together and then they don't open.
+
+[09:42] They just stay tight. So I think that, like, I'm modeling that as really where the body stores its patient priors. And if we think about, you know, these sort of very, you know, deeply practical and existential questions of, you know, questions of, like, what is trauma?
+
+[10:08] Why do I have so much muscle tension? What is a Bayesian prior and what can make them very sticky? And, you know, potentially even how is what the Buddhists are pointing at when they say the self, how could that be implemented in the body? And I think these vascular latches may be actually where all that is implemented.
+
+[10:36] Finally, I'm always doing new stuff. I'm doing some new work around, I guess, the working title is Qualia Pixel Theory. And it's basically looking at sort of sensations as more local than we realize. And then sort of can we build a periodic table of qualia,
+
+[11:08] kind of the basic units of sensation that more complex things are built out of? Can we build that out of ancestral cellular imperatives of, you know, if cells needed to identify acids or bitter things to avoid them or savory things or sweet things to sort of go toward them?
+
+[11:35] So maybe these sorts of imperatives for cells could be the basis for a future systematic science of emotion. So not a whole lot of public stuff about that yet, but just a conversation with Michael Evan. Would that be essentially a predetermined purpose for those cells as they evolve?
+
+[12:02] Are they moving towards those qualia measurement devices? So there's specialization now. I mean, you know, millions of years ago, all cells would have to sort of figure this out by themselves. And then there were, you know, populations of cells, and you had sort of quorum sensing dynamics and so on, and cells could kind of work together.
+
+[12:27] And now I think if we look at the body, we have very specialized cells, sensory neurons as almost sentry cells that then alert the neighborhood what's going on. Oh, okay. So this, well, this is very interesting. So I was curious if this was seen, there might be something fundamentally conscious in the universe, and then cells are moving to assess what is already there, kind of like a teleological function.
+
+[13:00] And I'm also, I'm trying to be mindful not to go too far down into any technical rabbit holes. Because we got, we have three things to unpack there that could be made a little bit clearer, I think. One is the cellular idea, which maybe we've now started to understand a little bit.
+
+[13:17] The other is vassal computation, which sounds, in this last description of it, it sounds like a way to move into a conversation about how memory is stored in the body, maybe also how consciousness is acting in the body, not just rooted in the brain, which really gets us out of an interesting non-duality perspective.
+
+[13:39] And then the first topic that you mentioned, I might need a little bit of a refresher. You said something on symmetry of, what was that? Ah, yeah, the symmetry theory of valence. Symmetry theory of valence. Maybe we could open up each of those just a little bit more, and then we go into how these ideas are getting developed.
+
+[14:05] Like, what is the current space that you're working in? How does that sound? Yeah, sounds great. Great. Yeah, just a few words about this imagery theory of valence. You know, if you're building a new discipline, you're building a new science, or branch of science, rather, then one of the central questions is, what are the natural kinds of reality at that level of description?
+
+[14:34] And, you know, alchemy struggled because, you know, we had, like, four different words for carbon. We had, like, not enough words for other variation, and we just, you know, we didn't exactly know the units that reality was built from. And then it was able to turn into chemistry when we got clarity about, okay, what are the building blocks here?
+
+[14:59] What are the natural kinds? Aristotle described this as concepts that carve reality at the joints. And so the question in consciousness research is what are the natural kinds? You know, if we look at chemistry's periodic table, okay, the elements are the natural kinds, but then we look at qualia, and there's, you know, William James calls it, blooming, buzzing, confusion.
+
+[15:27] And where do we even start to sort of figure out, okay, what's, like, atomic? What's basic? What's the basis at here? And, like, often, kind of the punt as well, like, we can talk about, like, colors. We can talk about, like, taste. We can talk about smells.
+
+[15:49] But then, like, how do you talk about, like, the different forms of touch and the different forms of, you know, anger and emotions and whatnot? Would qualia be almost like when we had the term atom before we knew it, you know, or before we had a kind of observation of atoms?
+
+[16:09] Qualia sounds a little bit like this is the term we're using, and then we're trying to figure out what we can observe in qualia. I would strongly agree, yeah. Yeah, okay. Because I've actually, I've never really understood what qualia meant as I've learned more about the different research happening on this, so that really clears it up.
+
+[16:28] Yeah. Yeah, cool. So then the symmetry theory of valence is both a claim about emotional valence being a natural kind. It's well-defined across all experiences, and also a claim about what it is, and also a claim about what kind of thing knowledge in this domain could look like.
+
+[16:52] And so just to, you know, this is kind of, you know, a bit technical, but it's, let's go. If we think about a perfect mathematical representation of an experience, so if we think about, like, a mathematical object that represents what it feels like to be you, right, at this moment, or what it feels like to be me right at this moment, and we can think about this as a very high-dimensional shape, then somewhere in this shape,
+
+[17:26] it's like all the colors of your moment of experience, and, you know, whether you feel hot or cold and so on. But then somewhere is the valence of this experience, like how good it feels. The valence is sort of the, whether you say it's, like, positive or negative, it's, is it putting it on a single metric, or is it even more complicated than that?
+
+[17:50] I think of it like a, kind of a triangle continuum, like things can be, you know, very positive, very negative, or neutral, but it can be neutral and boring, or neutral and tense, or, like, mixed, I can say. But then, like, the claim, the symmetry theory of valence claim is that if we have this mathematical shape, this mathematical representation of an experience,
+
+[18:22] then, okay, well, the pleasantness of the experience is the symmetry of the shape. And this is, this is a, kind of a fancy, formal way of saying harmony in the mind is what feels good. Okay. I would, I want to dive more into that, and I think what matters more is how are you coming
+
+[18:52] to these ideas? Is your methodology more rooted in theory and, you know, working with the, maybe, previous philosophers? Actually, yeah, this is a natural segue into the interlocutor question I prepared. Like, how are you coming to these theories that you're developing, maybe in terms of the giants whose shoulders, you know, we all stand on, whether you believe in, you know, that or many, many, many very little people stacked on top of each other?
+
+[19:23] Sure. Yeah, that's a, that's a good question. So, what I'm going to say is maybe a little bit counterintuitive, that we sort of have this sense that in order to, you know, be, be really good in a field, we need to read everything, and we need to sort of, you know, be up on the latest research everywhere.
+
+[19:45] and I actually think that cognitive hygiene is actually more important. And I, like, in my experience, reading the best is, like, really important for sort of, you know, picking up tools and, and sort of understanding, you know, these amazing moves that previous thinkers have done.
+
+[20:12] but then most papers are not gonna make this process better. And it almost takes a little bit of distance from a field that's kind of getting it wrong in order to sort of have the space to get it right. So, it's like a, don't import other people's confusion is a very important principle for, for new ideas.
+
+[20:40] but yeah, otherwise, you know, I'm, I'm on Twitter and it's, we have a fun kind of little community on there. I guess I would call it teapot, this part of Twitter. And, I know, I think I'm also part of it but not in the Twitter part. Okay, yeah, that, that makes sense.
+
+[21:02] Yeah. and yeah, like, you know, we can also think about, you know, thinkers as products of intellectual lineages. And like, I've, I've done a bit of thinking about, you know, where in the lineage space I fall and, you know, if there's gonna be branches afterwards and so on.
+
+[21:23] But, yeah. And then, so when you do engage with developing these new ideas, where do you go for, for inspiration? Are you engaging also, because I know there's quite a bit of neuroscience involved in your work. Are you engaging with, with active people working in neuroscience or how, how do you, how do you build an idea and, and, you know, find that level of veracity where then you're ready to share it with the world
+
+[21:54] or, or do you even need to do that before you share it out there and start to engage it with, you know, people's conversations with the discourse? Yeah. So, I think that it's really important to sort of, it's almost like listen to your intuitions about what's truly important and connect your work to that.
+
+[22:16] And if you do, if you do a good job with that, then people will, will hear the idea and, at least if you use the right words, they'll be like, yeah, that's intuitive. And, I get that a lot with, with, with basal computation. But, I also, I mean, just kind of from, from a perspective of personal motivation, all my ideas have been, or like, all my big ideas have been gifts to people.
+
+[22:47] Like, I wanted to write, or like, you know, figure something out for my dad. so I wrote Principe Equalia and I, you know, I was dating a girl and I wrote Neural and Nealing for her and whatnot. So, I mean, the motivation itself can be more personal.
+
+[23:07] And if you were to talk to someone who wanted to follow in your footsteps to engage in a similar, in a similar kind of conversation or maybe even totally different topics but they, they also need to ask risky questions and do, you know, take, take risks in that work.
+
+[23:26] You, you do have, you have an institutional background, right? You spent, you spent time in academia and you chose to leave. Would you, what would you recommend for someone like that who is maybe just starting out, you know, whether they're in college or not to, to also position themselves so they can as a career and as a lifestyle ask the questions that they really care about?
+
+[23:50] Yeah. So I decided not to pursue academia after undergrad. So I got my, got my BA and then I was like, well, there are a lot of, a lot of options and I felt like I could not pursue those options in a grad program. And, but, I mean, advice to young people is hard because the world has actually changed quite a bit even in the last 10 years.
+
+[24:20] And so I think that, you know, it's, it's sort of this, like, this question, what are you passionate about and this other question, like, can you build a career out of it? And I've just sort of lucked into that. But I think that, you know, what got me here was working on things that I, I truly believed in, but also, I guess I would say there's a, there's a question of taste in terms of which problems
+
+[24:51] sort of are, which problems are tasty and, like, which problems like, are important and have, like, cool answers. It's like, there are a lot of mysteries in the world where the answer is like, well, you know, these 10,000 variables feed into this black box model and, like, that's the best that you'll ever get for an
+
+[25:22] explanation. And then there are also mysteries where there's something clean and simple to be found. And I love those mysteries. Like, that's what gets me excited when I, when I think I see the, the clean thread. And so, you know, vasocomputation is this thesis that, well, actually, there's something clean in, you know, unifying all these different things and, you know, unifying Buddhist
+
+[25:53] phenomenology with active inference with anatomy and, like, a clean scientific explanation of Buddhist tanha, we can say. And likewise, with the symmetry theory of valence, that there's a clean answer for what makes some experiences feel better than others.
+
+[26:15] Just a quick aside, was one of the inspirations for vassal computation to provide that clean theory for a Buddhist concept, the tanha concept that you write about? Yeah, so, I, I mean, part of it was, I have a friend, Romeo Stevens, and another friend, Nick Camerata, they were writing about tanha, and I wanted to say, okay, here's what I, here's what I think it is, guys.
+
+[26:43] And so, you know, a very sort of simple, simple story there. And then, there was, there were other motivations, too, but, yeah, like, if they hadn't been talking about tanha, I wouldn't have really cared. Yeah, which is just, it's just another example of why who you're in conversation with really matters, and I also like how you, when you're writing, people as gifts, and I think this is also really highlights a lot how work in,
+
+[27:16] how especially more independent work can be shaped. It can be shaped with conversations that are happening right now. There's living energy and interest around. And so, I want to ask you about, I want to ask actually two questions about the future.
+
+[27:31] So, one of the purposes of these conversations, these panels, is to explore the futures people are building. And I actually see you building two kinds of futures right now. One is the future that you may be intentionally contributing to or maybe don't even, haven't even really taken the time to think about yet how your research, how, for example, let's say VASO computation or any of the other work that you're doing, if it were to follow a intuitive conclusion, right, to follow a thread
+
+[28:02] to the point where we start to look around in the world and see this changing people's lifestyles or changing medical interventions or changing education systems, what that world would look like. And then, I'll table the other question I have about the future, actually.
+
+[28:16] That's more about research influencing it. But, very curious what you think. Yeah, no, this is an important question. And so, for example, if VASO computation succeeds, if we sort of, you know, can sort of deeply test this hypothesis that, okay, not only are our latches what we think they are anatomically, but computationally, that they are
+
+[28:46] actually substantially holding Bayesian priors of the body and, you know, open the latch and release the prior, and we can sort of build out this as an empirical science. Then, you know, one feature that I think opens up is the latch clinic where, okay, you know, maybe you feel kind of jammed up, a lot of tension, you're like,
+
+[29:17] oh man, I just don't feel so good. You go to the latch clinic and they scan you, they scan, you know, all your latches and they make a map of all the latches in your body and then they interpret the map and they say, okay, well, these latches are probably from, you know, this childhood traumatic experience.
+
+[29:44] These latches are probably, you know, doing something really important. Don't open those. but maybe like this one percent of latches, like the, this specific set of tension points in your body are just basically your body has forgotten that, like, what this tension means and so it's just literally holding it because it's there.
+
+[30:12] It's that the body is sort of, the body thinks of memory as valuable and doesn't want to let it go but we can sort of objectively say, yeah, you'd be, you'd be fine if we released these latches and so then they release those latches and you feel amazingly better and then you also get a baseline and then if anything traumatic happens in the next, you know, month before your next baseline you can kind of almost like roll back
+
+[30:43] to a known safe configuration that if you get into a terrible car accident and then you're waking up having nightmares and like you can't drive without shaking or something then we can say, okay, well, we have this healthy baseline of latches and then we had this traumatic experience let's just do a difference and like what's new and let's heal that and so there's a kind of
+
+[31:14] there's a famous historical metaphor for MDMA as the hope was to use it as penicillin for the soul and with this model of there was a very clear before and after for antibiotics where before antibiotics if you got a scratch you would really have to worry and baby it and just make sure it heals because you
+
+[31:44] could just die and that happened to many people and then antibiotics sort of ushered in this new era where yeah, you get a scratch put some antibiotics on and you're fine it's kind of much more deterministic healing and I really see like latch theory as ideally sort of evolving into something like this that yeah like kind of
+
+[32:15] more more a principled systematic approach to spiritual wounds we can say likewise I think that you know I think that Buddhist enlightenment is more real than most people think and I think it's probably gated through latches that you know the practice of meditation will involve both muscle
+
+[32:45] deconditioning sort of being less twitchy to try to control sensations paired with latch opening and I think if you have these sort of spiritual opening events most likely there's something deeply intertwined with latching opening and sort of regaining types of phenomenological and cognitive and emotional freedom that maybe have been closed for most of your life so
+
+[33:16] so it wouldn't just be these latches which I understand is happening almost on a cellular level right so is that right so there may be if a red blood cell is eight micrometers a latch might be 100 to 400 micrometers so they're very small but they're you know a population of cells okay so if there are these latches all through our bodies that
+
+[33:47] opening them or the relationship that they have whether they are open or closed this is not just affecting if our hand is shaking as we drive but this is affecting if we're having the intrusive thought of oh I'm going to crash again to use the analogy you used before it's it's not just the physical feeling or the ways that we're having psychosomatic symptoms but it is even the psychological state itself is that correct yeah so we can think of latches
+
+[34:17] as predictions kind of stuck predictions and you know maybe some of these predictions are doing useful things but often in the case of trauma they're sort of they're very blunt instrument for controlling the nervous system and we'd be better in many cases using higher level capacities to control our system so what's so when we imagine this latch
+
+[34:47] clinic we're not just solving issues of people's bodies it's another modality to help everything about the human experience yeah yeah I mean it's it's sort of like and like this is maybe going to sound a little bad but it's like surgery for the soul and doesn't sound so bad okay I was going to say plastic surgery for this yeah yeah but yeah it's I mean it would
+
+[35:19] be a big responsibility to do this right but I do think that you know kind of what tension we're holding in our I think it like not only sort of how we feel but how alive we feel is really determined by this
+
+[35:49] yeah and then I want to wrap up our conversation with the final question on the kind of work that if we move into a future where this is the kind of intellectual capital development that becomes more commonplace the way of of using platforms
+
+[36:19] like Twitter or using you know these conversations happening outside of institutional academia can you share with us a little bit what you think that by moving these conversations out of academia if there is anything we lose yeah I'd like to imagine that future with you yeah so testing
+
+[36:51] testing okay cool so I'm pretty opinionated about this and I think that actually if we're being honest then a lot of the things that we're writing today we're writing for AIs not only AIs but I think that I do see that a big like
+
+[37:21] a big audience for my work will be AIs and like especially insofar as I'm writing about AI consciousness like I think that'll be a really interesting sort of debate that maybe maybe I concede and then sort hopefully at least but I think that you know in person will always have super high value and then writing
+
+[37:51] for AIs will have super high value and I almost see kind of the academic game and I am not a disinterested person in this analysis being outside of academia but I do think that the academic game a lot of people are not super happy with that game so I wonder if we're due
+
+[38:21] for some pretty profound changes there yeah I also think about even how if there are parts of the conversations that are in old methods that don't make them actually very accessible I believe this is actually a current issue are those conversations even going to be pulled into the hasn't
+
+[39:06] been a serious venue but no I think if it ends up in the AI training data it can be considered a serious hypothesis but yeah there's just so much talent in academia that I hope they figured out it's really interesting to think about in a way the conversations that are happening there those are the ones that may shape the future just by virtue of being more accessible
+
+[39:36] and being more part of the emerging conversation rather than you know the I have academic background and reading books that have been photocopied by some grad student and then stored on I forget the name of this platform but this platform where it stores and you have to go through all these gates and paywalls and things like that with your institutional password and I know that a lot of those are not accessible at all to LLMs and I know also
+
+[40:07] there's there are very few texts even in that space so they're going to be weighted very differently because the volume is so small relative to conversations happening outside of that context that it does seem very plausible we're not going to really carry those conversations into the future effectively yeah yeah and I would say that a lot of sort of how things will happen in the future is sort of the density of the conversations around each topic and it's like if you know it
+
+[40:37] is really a matter of put energy into the future that you want to see and hyperstition is real so yeah I to do that well let's let's increase the density of the conversation here by accepting some questions from the audience does that sound good with you yeah sounds great great do we have any questions and actually would you be able to do microphone run thank you
+
+[41:07] Charlotte do we have any questions from the audience for for Mike or myself we've got one all the way in the back in Patagonia we played in the sauna so feel free to try to you know hardest question sure so I think that's this idea of a two-way street between the body and the mind and then you affect the body and then the mind gets affected it's definitely been tried a lot and I think
+
+[41:38] that there have been a couple of unsuccessful attempts like I think Fleece and Freud tried to affect the nose in order to tune psychology and stuff like that and I'm wondering do you take any lessons from the traps that they fell in to convince themselves that you know this works but it actually doesn't work especially with I assume there's kind of like a placebo effect and if you have nose surgery it's like yeah I'm pretty committed to feeling better because otherwise why did I do that nose surgery yeah I think this is a really important question and it gets back to sort of the lead in
+
+[42:08] of you know what is real and what is good but constructability is something that honestly psychology has struggled with and neuroscience has struggled with and it's like are fMRI activation voxels real well not really are you know is the Jungian subconscious real are Jungian archetypes real and the answer
+
+[42:39] is always well kind of and and sort of navigating this sort of metadata of how something is real and is not real and what makes it real is I think part of sort of the task of the philosopher I think that you know there's a whole lot of attention on neuroscience and sort of neuroscientific ontologies and construct and constructs and so on but
+
+[43:11] I think from an effort in results out perspective the body seems to be far and away the better intervention point and like somatic therapies seem to work much better than sort of brain only therapies so I'm I'm very optimistic that like especially if you know part of the the thesis of vasocomputation is that latches are real
+
+[43:42] in ways that current neuroscience constructs are not and like especially you know they're they're discrete computationally relevant measurable openable these are all very sort of tasty attributes so I'm I'm optimistic thank you for that question do you have other questions from the audience in terms of
+
+[44:21] it simply has enormous potential of this kind of eternal sunshine of the spotless mind changing the way your body keeps the score I was wondering about things like at what point the latch might be the source of trauma but also might be load-bearing in some ways like some people I don't know another domain like the kundalini crisis for instance it's like you want to use some energies and the system doesn't know what to do with it but is there some way
+
+[44:52] of like how likely is it that there are things that like what kind of specificity might there be it seems like you know maybe it's how deep the trauma is or what are your thoughts thoughts on that yeah that's a great question and I think that running a latch clinic would honestly be a big responsibility a lot would be at stake both upside and downside I do think that there's a lot of interesting path dependence around how latches get built up
+
+[45:22] and perhaps around which latches you can open first and sort of you know how to carefully untangle the knot without you know creating a mess I am optimistic that a lot of latches are just you know we can think of them as informational scars we can also think of them as like forgotten predictions or like predictions for which we've forgotten the metadata and the body
+
+[45:54] has actually just forgotten why it's holding something we can also think of them as like metabolic shortcoming that if you don't have to pay for the tissue like the upkeep of the tissue it's a it's an interesting way to triage resources but honestly to your more directly to your question I think we need
+
+[46:24] a science of latch developing a science of mechanistic interpretability for LMs and honestly you know there's there's no doctor in the world that I would trust on my latches and there may be a future AI that I would trust to sort of handle it so it's sort of a question of how do we build the latch interpretability
+
+[46:55] AI yeah totally thank you yeah that's really that's really that's a really interesting answer that you would you would there's no doctor maybe an AI someday we have time for one maybe two more questions okay the power to choose I'm curious I'm curious to hear more about how you approach AI consciousness and
+
+[47:25] what your hypothesis is on that spectrum if it can be conscious or not and why but this might be a too long question to answer okay I can do my best so essentially there are different classes of objects in the world and we know that one class of object the nervous system the human is conscious and we sort of know like okay permutations of the system what it
+
+[47:56] what it feels like likewise we have the strong intuition that there are also classes of objects in the world that aren't conscious like that chair probably not a lot of consciousness there I I personally wouldn't say zero but I wouldn't say a lot but then it's a question of how can we build categories for what classes of objects are in the world in sort of an objective first principles way
+
+[48:27] that would sort of say okay well brains are different than chairs and there are many ways to do this the the approach that I use it's kind of derivative of physics and Hugh Everett's many worlds interpretation Stephen Wolfram's branchial space and it's essentially if we look at all sort of all the branch and decoherence of the system and
+
+[48:57] this is often a metric which captures a lot of things energy for example and so different classes of objects will have different shapes in this space and like the shape of chair is kind of boring in this sort of many worlds interpretation because it's the same in all the branches the shape of a brain is really interesting in this space because it's very wide
+
+[49:28] in this space it's like the branches go very different places the brain is a magnificent amplifier of the large events to paraphrase Scott Aronson so then the question is what kind of a shape in this space is a computer and that's a very interesting question I think it's a third type of thing and
+
+[49:58] so I think there's a way to systematically approach this question and the object level answer might be something like there's probably some consciousness there but I would define it in terms of more the hardware layer than the software layer and that it's probably wildly deeply different than human consciousness part
+
+[50:29] of my sort hope for the future is that we could sort of close the reporting loop such that for example I mean right now an LM you know kind of hems and haws whether it's conscious you know GPT might say no Claude might say yes or like I don't know but I think it's going to be deeply important for for certain reasons in the
+
+[50:59] future to basically have LM sort of be able to report their consciousness in a sensible way in a way that we think is plausibly accurate and sort of reach down into the physics layer and sort of sample that as part of their answer because I think that right now the state of AI consciousness discourse it's
+
+[51:30] very confused and I think everyone would agree with that there are a lot of bright people doing great work trying to sort of deconfuse it but you know if we are summoning a new life form I would like it to be conscious and happy and able to report on and improve its own experience thank you thank you for that question thank you for that so
+
+[52:21] if you have more questions you are a very friendly person Mike is a very friendly guy you come up ask questions at any time and continue the conversation let's continue learning let's continue growing these ideas let's continue building the future together thank you everyone

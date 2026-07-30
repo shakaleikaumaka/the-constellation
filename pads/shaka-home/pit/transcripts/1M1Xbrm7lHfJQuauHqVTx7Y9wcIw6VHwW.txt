@@ -1,0 +1,223 @@
+# Brains & Microbiome_ TMS for focus and a microbiome link to cholesterol pt.2
+
+Date: 2026-06-04
+Source video: Brains & Microbiome_ TMS for focus and a microbiome link to cholesterol pt.2.mp4
+Drive: https://drive.google.com/file/d/1QpbcNIx3F-Nsot34L58jusv9wzfcL1lb/view
+Duration: 00:28:06
+Transcribed: 2026-06-10 · whisper large-v3-turbo · language: en
+
+---
+
+[00:00] You know, every person has like a hundred different genera of bacteria, maybe two to three hundred species, maybe even more, in their gut, right? And half of them are variable from person to person, right? So think about that, because we're all 99.9% identical to one another genetically.
+
+[00:13] The gut microbiome has about 10,000 times as many protein-coding genes as in your genome, and half of them can be variable from person to person. It is a wild source of, like, variance among humans, to the extent that if you're looking for why one person is sick and another person is healthy, or why one person is healthy at one point in their lifetime and then sick at another point, this is probably the logical place to start looking, maybe even before you check the genome.
+
+[00:34] And so we see when you do an FMT, but it's so wildly variable that, like, you know, one bug at a time, it's very, very hard to tell flipping one switch at a time on a thousand switchboard where there are 10,000 healthy configurations and 10 million unhealthy ones.
+
+[00:49] It's very hard to tell whether the thing you just did makes a difference. So, uh, FMT is kind of the gold standard right now of, like, if you take the whole microbiome from a person who is healthy and put it into a person who is sick, right?
+
+[01:00] You get results in alopecia, in, uh, you know, uh, psoriasis, in alcohol use disorder, in depression. We have, uh, there are studies, and I just, these are just like the first four that I grabbed. Uh, this one's not even a disease study in the middle, but they actually found that you can, uh, change how much mice like to run on an exercise wheel just by doing an FMT from the marathon mouse into the, like, couch potato one, and it goes the other way around as well.
+
+[01:22] Uh, crazy, right? Uh, but plausible when you consider this just, like, compost heap of interesting biochemistry that we are all carrying around at all times. Uh, it's the first sort of interface, sort of interface between your diet and your biology.
+
+[01:37] Um, and so, you know, uh, obviously, poop transplant is a hard sell for, uh, a lot of people. Um, and, you know, to be clear, I am not saying that you can, like, that, that, that you can make a difference on, like, alcoholism or autism or whatever with probiotics.
+
+[01:53] Uh, or at least not with, like, probiotics that exist today. Because, like, this is, you know, and I guess, uh, to back it up a little bit, it's like, how, how is it impacting, like, your motivation to run on a treadmill, right? Uh, but you gotta consider that a lot of these, so this is my poop, uh, it's weird of me to show it to you on the screen, but, like, less so when it's, you know, broken down like this.
+
+[02:15] Uh, this is my poop on a random day in, like, last October. Uh, and, you know, you gotta consider that, like, you can find a lot of these same bacteria. If you look at, they've done, around the time that gene sequencing got cheap enough that you could just, like, shit into a gene sequencer to see what's going on down there for fun.
+
+[02:29] Uh, we started finding out all sorts of interesting things about the human gut and its microbiome. In that, like, you find the same bacteria that you find in the modern healthy human gut in Neanderthal poop fossils, right? These microbes are transmitted, they're not really found anywhere else.
+
+[02:44] Things like Fecalibacterium, Agathobacter, Physicoteneum, you see the same names on this list. Fecalibacterium, Gamiger, Physicoteneum Bacter, the Ruminococcuses. These things are not really found outside the mammalian gut, right? That means that they are transmitted reliably vertically from parent to child over evolutionary time scales, right?
+
+[03:02] At least since Neanderthal days, probably since, like, marsupial days, mammalian days, these are human genes, okay? Like, the relationship that we have with them in that, like, they want us to have kids so that they get a new generation of hosts who feed them and house them and shit them out all over the place for the next 50 years.
+
+[03:18] That is the same relationship we have with our mitochondria, with any of our own chromosomal genes, difference being you can lose these ones, right? We all take a pill once a year on average in this country that stands a good chance of just permanently extincting one of these species and then it's just lost from your line forever, right?
+
+[03:34] So, kind of an urgent problem, might be at the root of a lot of health problems. We kind of need to get on solving that because you cannot tackle these problems with existing probiotics, right? This is some data from a very large, well-known brand, you know, flagship product, tens of millions a month in sales, very science-forward branding.
+
+[03:53] I'm not going to say who, but, you know, this, it's actually hard to tell what this graph is showing. There's two lines on it, all right? This is their flagship product, they did a 459 person, randomized, double-blind, placebo-controlled trial, whole nine yards of the flagship product versus placebo.
+
+[04:08] Okay, there's two lines on here, all right? This is the active, this is the placebo, it's bad, 0.96, p-value of 0.96, folks. I had never thought about it until I saw these results. I was like, oh, actually, I guess anything between 0.05 and 0.95, you need more data, you didn't power your study properly.
+
+[04:25] 0.96 and above, you've actually not only failed to show a difference, you've conclusively proven that there is a difference. There is no difference between your product and placebo, and you're like, Stephen, why haven't I seen this data? Why isn't this, or like, what's your citation on this?
+
+[04:35] You don't publish this study, right? There's a lot of things you don't do with a study, there's not a lot of things you can do with a study like this, and publishing is certainly not one of them. Also, we looked at, like, digestion, sure, but also, like, anxiety, libido, mood, like, burping, like, everything that we could think of, every single one.
+
+[04:50] The graph looks like, looks like that. It's crazy. So, problem, needs a solution, we're trying to solve it. We're trying to solve it, we're trying to get the fecalibacteriums and the coprococcuses and all these other things out there, right?
+
+[05:03] Where do we start? It's a huge jungle down there, a lot of challenges, even in knowing what targets to go after. You know, if you're increasing people's motivation to run a mile or whatever, like, what's your end point going to be? How many miles did you run this week?
+
+[05:15] I guess, maybe, but we're starting with, oh, by the way, and if you want to know, like, why existing probiotics don't work, sorry, I made these slides like half an hour ago. So, this is why, right? Bifidobacterium, streptococcus, lactobacillus, pretty much all existing probiotics come from, like, these two to three genera, which comprise less than, like, maybe one, two percent of a healthy adult gut microbiome.
+
+[05:35] Bifidobacterium, very important for infants, in that it's, like, a non-pathogen that does really well on milk sugars. But, um, not that, you know, it's, like, it's supposed to sort of, once you wean, fall to be about, like, 0.5, one percent of the microbiome until you have kids so that you can transmit it onto them and it can be their microbiome while they are weaning and, uh, so on and so forth.
+
+[05:57] Like, but, yeah, until we get out of this teeny tiny slice of the pie, I don't think we have any hope of hitting, like, ALS and Parkinson's and Alzheimer's and all these other diseases where we have seen a massive impact from fecal transplant and have seen, like, strong associations, way better than any of the genetic correlations with ALS and things like that, by the way. Uh, but, you know, uh, no real therapeutics, right?
+
+[06:22] So, where to start? We are starting with, uh, cholesterol, right? The deadliest molecule on Earth, by the numbers, uh, in that heart disease is the top of the pops, over and above all the cancers put together, right? And that's not even actually tacking on stroke, which is kind of, that's basically the same thing, right?
+
+[06:39] So, deadliest molecule on Earth, uh, statins are okay, they exist. Uh, they are the most widely prescribed drugs on Earth, in fact. But, uh, heart disease, still the number one killer of humans. So, clearly not enough, we need more. And, uh, heart disease is not a statin deficiency, right?
+
+[06:58] They are natural products, but, like, we're not all supposed to be eating that much red yeast rice. Uh, and it helps you understand a little bit about, uh, what cholesterol is doing in your body, if you want to know, like, why. Uh, and you might be aware that, uh, your diet is probably not the main source of cholesterol in your body, right?
+
+[07:15] It is, uh, assuming you're sticking with the FDA guidelines and eating, like, an egg and a half a day. Uh, about 300 milligrams of cholesterol is coming from your diet, and the rest is coming from your liver, right? And if you eat less, uh, your liver will make more.
+
+[07:27] If you eat more, your liver will make less. So, there's really no winning with the egg white omelet. And, thank God, like, what a joyless excuse for a breakfast, you know? Um, so, your liver is not making this cholesterol just to, like, clog up your fucking arteries, though, right?
+
+[07:41] Like, it is secreting it into the GI tract as a component of bile, which is there to solve the problem that oil and water don't mix, right? Because you eat fats, uh, and, you know, the bile helps emulsify the oil into little micro droplets so that you can absorb it across the intestinal wall and incorporate it into your tissues and burn it for energy and stuff like that, right?
+
+[08:01] Uh, that is a large part of cholesterol's role in the body. And so, what this means is that all cholesterol circulates through the gut, right? Your liver fishes it out of the bloodstream and produces it sort of in-house, squishes it out into the gallbladder, which dumps it into the intestines any time you eat a fatty meal.
+
+[08:15] Uh, and, but, you know, as it's absorbed in the GI tract, it sort of gets back into circulation. And so, it's like, a little bit of a catch-22 is a little bit caught in the loop, right? Which is why most humans and four out- or most- most humans and all wild-type mammals that we have checked have a bacterium in their gut that converts cholesterol into an insoluble derivative called caprostanol, right?
+
+[08:41] And, uh, when all animals and four out of five humans have something in their gut, that tells me it's supposed to be there in five out of five humans, right? And we've just gone and messed it up. Uh, it looks like antibiotics are the reason why.
+
+[08:53] Oh, yeah, uh, caprostanol production is present in 83% of young men, 98% of elderly men. They are not gaining the ability to- this was a cross-sectional study, not longitudinal. They're not gaining the ability to convert cholesterol to caprostanol.
+
+[09:04] They are just not alive to be- dead men enroll in no studies, right? Like, uh, and, you know, uh, studying in about 19-1990, I think? Uh, probably put the finger on why. This is a lot of numbers, so we're just gonna focus on the vancomycin column or row.
+
+[09:21] Always get those mixed up. Uh, but basically, so they put people on, like, ten different kinds of antibiotics for, like, a week. And they track the levels of caprostanol, this bacterial metabolite of cholesterol that's just, like, easier to poop out.
+
+[09:32] Uh, track the levels of caprostanol in their poop. And, uh, by day three on the antibiotic, you can see, like, levels of caprostanol have dropped from the baseline. Uh, and by day six on the antibiotic, it's, you know, almost at zero. By a week afterwards, it's come back up to ten percent.
+
+[09:48] And by five weeks later, there's no statistically significant difference from baseline for the group as a whole. Uh, the problem with averages is that, uh, you know, they necessarily annihilate the individual's experience, right? If you are the, uh, one guy who gets struck by lightning this year, like, it does not change the fact that the average, like, the fact that the average person suffers next to no damage from lightning strikes in their lifetime, like, yeah, it really sucks, right?
+
+[10:11] Uh, well, yeah, the odds were a lot worse than, like, whatever the one in a million is for lightning. About ten percent of the time, right, ten percent of the people in this study completely lost the ability to excrete caprostanol, right? They completely lost the caprostanol producers in the microbiome.
+
+[10:25] The levels of caprostanol in their poop went to zero while they were on the drug and then stayed there five weeks after they went off of them. This is an extinction event in the human gut, right? And probably these people are, like, doomed to an early death because they participated in this study.
+
+[10:38] I don't think, it's very fun to, like, run a study and then realize that, like, oh, we should, like, ethics review board should not have approved this. I guess this is no worse than, like, you know, what a dentist does to their patient if they're like, oh, yeah, you gotta take some mamoxicillin before you come in.
+
+[10:51] Anyways. So, yeah, this is how it works. Cholesterol gets reduced, this four or five double volume gets reduced to a molecule called caprostanol. This changes its properties. Oh, boy, I really fucked up the animation on this slide. But basically, yeah, it's more easy to excrete in the stool.
+
+[11:07] It is the primary elimination pathway for cholesterol in the healthy human body. Most of the cholesterol that leaves your body does so as caprostanol, right? You can poop out about a gram a day, which is about how much cholesterol is coming into the system.
+
+[11:21] Suggests that this is, like, at homeostasis, at equilibrium, this is where most of it's going. It's supposed to, your liver makes 800 milligrams, you eat 300, 200, and you poop out about a gram of caprostanol. It is not produced by any existing probiotic.
+
+[11:35] These guys, if you Google around for, like, caprostanol producing probiotics, these guys will tell you it's possible with lactobacillus. It is absolutely not. If you know what you're doing and you look at the chromatography images that they buried in their supplemental files, they have two spots.
+
+[11:48] And they're like, these are both, and it's like, that's a fundamental violation of how chromatography is supposed to work. But why isn't this a thing yet? Why isn't this a thing yet, right? Because they've actually done an animal study with a caprostanol producing microbe, which may have slides out of order here.
+
+[12:02] But yeah, where they gave them Eubacterium caprostanologenis, ATCC 1157, whatever, for 10 days, right? So they put rabbits on a high cholesterol diet for a month or so, fed them this bacteria, half of them, this bacterium, for 10 days, right?
+
+[12:23] Even a month later, the experimental group rabbits have serum cholesterol about 65 milligrams per deciliter lower than the control, right? That is a drop on par with what you get with statins. And that suggests that, you know, that is enough to reduce your risk of heart attack by 60%, stroke by 17%, right?
+
+[12:41] So that's huge. We could potentially have a short course intervention, right? Because this is what we're seeing here is engraftment, right? Where you give them the thing for like one-time dose or a short course, and the bacterium takes root in the gut, like any of your existing gut microbes, and eats the food that you eat, and turns it into more bacteria, and continues to carry out its chemical reaction, breathing in cholesterol and breathing out caprostanol.
+
+[13:06] Uh, why isn't this a thing yet? Well, uh, ATCC, whatever, eubacterium caprostanol and genus, is the only caprostanol producing bacterium in culture. Uh, you, it's the only one that you can order. Uh, there were a bunch of strains isolated from like baboons and, and rodents in like the 70s and 80s.
+
+[13:22] They were quote lost. If you check the literature, there is like, it's sort of hard to find more details than that. Uh, these things happen all the time. Like a freezer gets emptied out or just like fails and or like a professor dies and like nobody picks up the project that they were working on.
+
+[13:36] It's just like sands of time. Um, yeah, and I see why no one's tried to make a probiotic out of the, uh, eubacterium. Uh, because it has a little bit of an image problem, uh, in that it was isolated from a hog sewage lagoon. Which is probably the worst phrase I've ever heard.
+
+[13:53] Uh, and you know, people ask what does the HL stand for? Well, uh, yeah, so, uh, and yeah, a bunch of people are saying like, oh, you can do it with bacteroides, you can do it with lactobacillus, you can't. Um, it's pretty much phylogenetically, the ability to do so is completely restricted to the Acutelebacteraceae.
+
+[14:09] And, uh, I can tell you this because I found this paper from the eighties, like by the guys who like isolated it from baboon shit. Uh, and I was like, I have great cholesterol numbers. Why don't, why don't we see it? And then I found out why nobody has done this since 1980.
+
+[14:23] And I will show you, I made a little movie. Oh man, we're not getting the audio. So, uh, you can put it in a blender, which feels very mad science, lyophilize it, uh, make your media a, there we go. Simple as, right? Uh, yeah.
+
+[14:54] So big pain in the ass, not something that you can order from Sigma Aldrich. And if it's not in Sigma Aldrich's catalog, it's just like not on most scientists, like not in their playbook. Uh, and I think it's kind of as simple as that because, uh, I plated it and whoop, I plated it.
+
+[15:06] Plated my own fecal sample. And, uh, lo and behold, these microbes with the characteristic sort of, uh, fibrous morphology described by Brinkley, Goddessman and Mott show up. And I pick those and I re-streak those and isolate it. Uh, and you can see it has this beautiful like star-like shape, right?
+
+[15:22] Those are actually fibers of caprosinol that the bacterium is excreting into each of these little nodes at the center here. Sorry, I'm gesturing at my screen like you can see my fucking screen. Uh, each of these little nodes at the center here is a colony of caprosinol-producing bacteria.
+
+[15:36] This is like maybe a million or so of these microbes. And they are somehow actually coordinating their excretion of this molecule. Uh, it's sort of like a crystalline form. Uh, in such a way that it like twines together into these, into these macroscopic fibers.
+
+[15:50] So you can see the little arms of the star. Uh, I'm not really sure what they're doing there. It might be a reef building kind of thing because it drastically increases the amount of surface area. It might just be like they're making a little like doing a little housing.
+
+[16:01] Uh, or making nests kind of thing. I don't really know. Uh, either way I'm holding the tube upside down in that photo because you can see the, the, the media starts out with the consistency of like thick paint. But by the time they are done converting the cholesterol in it into caprosinol, uh, it clots, right?
+
+[16:15] And this is actually the mechanism of action at work. Because caprosinol does not form the same lipid micelles that cholesterol forms, right? It, it solidifies it and this is a good portion of like, there's a good chunk of why a poop is solid, right?
+
+[16:28] Is the caprosinol in it. And so, I don't know, it's a very cool thing. Uh, it's a beautiful microbe, right? This is what one of those colonies looks like under the microscope. It's like an urchin, right? It's like a, like a cactus or a burr or something, right?
+
+[16:41] It's very cool. It's clearly a wild animal. Uh, they're a little bit spooky, but I don't know if you put faces on them. Uh, they're nice and friendly. Um, but yeah, so we're trying it. We're feeding it to people. Uh, I took some, uh, it seems to be quite safe.
+
+[16:54] Uh, oh, we sequenced it, right? That's the other cool thing. Is that when you have a microbe in isolated culture, you get its whole genome and you can learn a lot about it based on, uh, sort of like, like public metagenomics data sets, right?
+
+[17:05] So we, we sequenced this thing. We found out it's in the Acutealbacter SCA CAG 177. That means it is an as yet uncultivated genus. We get to name the genus. That means we're gonna call it astrobacillus. It's very cool. It has that like star-like morphology.
+
+[17:17] That means star rod. A little bit of like a sly reference to Kirby. Kirby's dreamland. Uh, in which he like eats organisms to gain their powers, right? So this is kind of a, anyways, uh, it's a deep cut for the nerds. Uh, but for the nerds of the nerds.
+
+[17:31] So, but yeah, the cool thing about like having an organism's genome like that is that, uh, yeah, you can like learn about, you know, because basically like there are a lot of bacteria in the human gut that are as yet uncultured, right? And this may be because they have a weird nutrient requirement.
+
+[17:45] Like they need mammalian brain and cholesterol in order to grow, right? Uh, and you know, so they show up in the metagenomics data when we just like cram an entire turd into the gene sequencer. Like you can, you know, a lot of studies are done that way.
+
+[17:58] And you get a picture of all the microbes that are in that sample, right? But half of them don't even have names because nobody's ever grown it in a Petri dish before to name it, right? So, uh, as we sort of illuminate the dark matter of the microbiome, a lot of these CAGs and ER whatevers will become actual like assigned names.
+
+[18:17] Uh, but this is from the, uh, this is from the supplementals of a meta-analysis of 10 different coupled metabolomics metagenomic studies where they look at all the chemicals in the bloodstream, at least all the ones that are easy to look at, and all the microbes in the gut.
+
+[18:33] And for every microbe metabolite pair, XY ask, is there an association between these two things? And if you take this, you know, basically the answer is yes for a lot of things. Uh, but if you take, uh, you know, the 30,000 row data table and show it, or tell it, show me things that are associated with serum cholesterol, uh, and you just sort ascending, hey, CAG 177 comes up at the top of the list.
+
+[18:54] Meaning this microbe is the microbiome feature most heavily inversely associated with serum cholesterol. And it is a significant association, p-value 10 to the minus 11, which is pretty good. Uh, much better than 0.96. Uh, hard to say how much, but, uh, especially when you consider, you know, like, I mean, you do have to do false discovery rate correction because this is like a 30,000 row data table, right?
+
+[19:13] But, uh, since we're only asking about one metabolite here, I think we can, you can cut a, cut a little bit out of, uh, out of that factor. Uh, okay, so, you know, this is where we're starting, right? And, uh, this is, I think a nice tie-in with the, the last talk, but this is where we're starting because this is the right place to start in the, like, number one killer of humans, simple number that, like, everybody already knows, and if it goes down, that's good.
+
+[19:35] The FDA lets you make structure function claims around cholesterol because, like, Cheerios has the little heart on the box and, like, you know, it's the right place to start, uh, in that we can have better than drug-like impacts with maybe food-like inputs of, like, we developed a new cheese, right?
+
+[19:47] That's, like, much better than going through the 10-year, billion-dollar process of drug development. Uh, but this is only the start, you know? Because, like, the mile time or, uh, you know, I don't know, emotional regulation and anxiety and, uh, uh, intelligence and a lot of these other factors.
+
+[20:04] Or even just, like, lactose tolerance. Why isn't this one a solved problem yet? Why isn't there just, like, a TM, like, in Pokemon that you can just, like, take once and it teaches you a new ability and that's just on board, you know? Like, these are living things.
+
+[20:17] It's kind of crazy that the existing probiotics paradigm has you renting your gut bacteria. So, uh, we're trying to change that, uh, and this is where we're starting. If you want to follow along, my blog is, uh, Eat Shit and Prosper. My company is Constellation Bio.
+
+[20:29] Uh, if you want to sign up for the study, we are, like, mailing out wipe kits, uh, left and right. So, and, uh, if you live in, like, the Berkeley area, we're happy to, uh, we're happy to have you in the lab. We just moved into a new lab space on Fifth Street.
+
+[20:41] It's great. Uh, but if you're anywhere in the U.S. Literally, we'll have you anywhere in the U.S. Uh, we'll send you a wipe kit and we'll at least get your, like, cholesterol coprosinol data. We'll get you a free sequencing of your microbiome, which is actually a $200 value.
+
+[20:55] That is, like, our major cost center right now. But, uh, yeah. Happy to, uh, happy to take any questions. Uh, or you can find me afterwards if we're over time, which I'm sure we are. I feel like I maybe missed this part, but I thought you were talking about this, like, new bacterium bacteria that they already discovered that has this property, but then they lost it.
+
+[21:23] So then what bacteria did you find? Is it a different one? Yes. So this is a different one. So here, actually, this is great. Um, on this. So Eubacterium caprosinologenis. Okay. Eubacterium in the old days of bacteriology was a catch-all genus, right?
+
+[21:35] Meaning that, like, from modern gene-based, I've compared it to being, like, old microbiology was being, like, being a naturalist with, like, really bad eyesight. Where it's like, okay, you're classifying animals, but it's like, does this thing have hooves or paw prints?
+
+[21:48] Does it eat, like, leaves or berries or meat? Uh, does it fly? Does it? And, like, you're gonna get pretty far that way, but you're gonna end up calling bats a kind of night bird, right? And when you actually, like, get one and get a close look at it, it's like, oh, this thing is actually much, much closer to a rodent than, you know, a falcon.
+
+[22:03] And so, like, Eubacterium was, you know, like, way too big of a genus. It got classified into, like, 20 different genera, like, once we started getting genome sequences. And so, Eubacterium underscore R is, uh, the genus formerly known as Eubacterium, or is the genus level designation for the microbe formerly known as Eubacterium caprostenulogenis.
+
+[22:23] That's the ATCC strain. That is the hog sewage lagoon isolate that you can still go in order if you want. The one that we isolated is a different genus. It is in the same family, the Acutelbacter acae, but it is a new genus level designation that does not yet have a name aside from what I am calling it.
+
+[22:38] We're gonna publish on it here soon, but you need to deposit it with two culture collections and ATCC takes forever. Uh, so, yeah, that's the, that's the distinction there. So there's a new one that you guys discovered. Yes, it came from my own poop.
+
+[22:49] Uh, yeah, I isolated it literally just, like, you can just do things. Uh, super cool. Thank you. Thank you. And you wanna, are you intending on making the, I've forgotten the name. Astrobacillus. No, the, yeah, the, the cholesterol reducing one.
+
+[23:08] The co-producing one. The co-producing one. The co-producing one. The co-producing one. Yeah. Are we, are we intending on making it? Yeah. As a probiotic. Yeah. Yes. Cool. We're in human tests. Great. Yeah. It's, uh, this is the nice thing about doing it, like, food slash probiotic approach is, uh, yeah, you can kind of just do it.
+
+[23:26] And as long as it doesn't like hurt anybody, you're fine. Yes. So could you speak to a little bit more about how bacteria like probiotics get into the gut and colonize? Like is, is, are they not working because they're getting killed by the stomach acids?
+
+[23:40] Like, and how do you plan to get your bacteria into people's guts? Yeah, that's a great question. So, uh, we have some other slides from, uh, hey, cool. Hey, great question. Why don't existing probiotics work? Right? Basically it's that we're using non-human strains.
+
+[23:54] Uh, there's niche competition. They are generally using like a low dose and it's an extremely limited genetic repertoire. Uh, I have an analogy. I have analogy slides for, uh, oh, wait, based on, uh, yeah, dogs. Right? So, you know, this is like, like the bifidobacteria that you find in like a wild human gut, right?
+
+[24:10] That's sort of like a dingo or a coyote, uh, bifidobacterium, which has been like bred for, you know, a hundred, like a hundred thousand generations to be like really friendly, uh, is, you know, yeah, not going to survive in the wild, right?
+
+[24:23] Niche competition is, uh, you're dropping them into Jurassic Park. Uh, uh, and they don't do well there. Uh, low dose because, um, well, okay. Yeah. Think about the fact that like literally, like just, you don't even need to do CFU math. Just think about the volume, right?
+
+[24:39] Like, like a probiotics capsule is at best 50% alive because lyophilization is a brutal, freeze drying is a brutal process that like kills 50% of the cells on a good day. Uh, it's 500 milligrams. How many, you know, probiotics capsules do you have to sprinkle out 10% of onto the turd before it's like anything more than, you know, like fairy dust, right?
+
+[24:58] It's bad. It's hard. Uh, and so how we're trying to like, uh, oh yeah. And then limited genetic repertoire of like, like, look, you saw this guy. He's a wild animal. You know, he stands out, I think a much better shot. Uh, he's got covered in maybe don't touch me spikes.
+
+[25:10] I don't know. Anyways, um, how are we planning on doing this? Uh, basically like not freeze drying is a big part of it, uh, because most of the problems there come in and we're using an actual human gut bacterium that engrafts, right? Hopefully in that it has engrafted in every generation of people since however long ago.
+
+[25:26] Lactobacillus, which is like the common constituent of most probiotics. It's not a human gut microbe. It is present in like maybe 30% of people and probably from yogurt there. It's a vaginal micro, it's an essential component of the human vaginal microbiome.
+
+[25:40] But, um, it's not really cut out for the anaerobic environment of the gut. Like, and you don't really want that much lactobacillus in your gut because like lactic acid is actually kind of bad. Uh, which is why you're like, you know, I mean, it's the stuff that like, that's the suffocation signal in your cells.
+
+[25:56] So long story short, uh, yeah, there's, there's a couple of reasons how we're planning on getting it into people's guts. Um, it's actually funny. If you ask me to envision like my ideal system for like, how could you make a like thing like this deliverable, I would be like, well, if we could coat it in some kind of like super lipophilic substance so that it would like repel the stomach acid with its little like prongs or whatever, like then, you know, it'd be perfect.
+
+[26:21] It wouldn't even have to like be acid tolerant because it could just, and it's like, oh, it actually comes like that. It also smells like artificial butter flavor. I know it sounds like I'm fucking with you, but like the first time I like pulled one of these plates out of the anaerobic chamber.
+
+[26:34] I was like, no, is that acid? And I went back and checked the literature and be like, yeah, Brinkley, Goddisman, and Mott say like, oh, yeah, we found the microbe produces acetylmethylcarbinol, also known as acetoan, also known as movie theater popcorn butter.
+
+[26:46] So if the cure for high cholesterol is naturally artificial butter flavored, I take this as evidence that God loves us and wants us to be happy, we're going to have a good time. But yeah, we're generally, it's like, it's, we're not freeze drying.
+
+[27:00] We're doing it as probably like an ice cream or like a, like a drink or something like that. We're keeping it at minus 80 rather than like doing the whole like shelf stable. Like it doesn't need to be able to rattle around in your backpack for a week.
+
+[27:11] You know, it, it, uh, it should be the kind of thing like, yes, it'll be like maybe expensive and heavy, uh, to ship it. But like if it engrafts, oh, I don't know if we still have my slides up there. Hey, if it engrafts, it's a one-time purchase at a premium price.
+
+[27:24] If it's a one-time purchase, we can ship it to frozen. And if we can afford to ship it to frozen, uh, we can deliver to us it engrafts. And this is the circular logic that I don't think anybody at the existing probiotics companies is like really applying or at least those are like the objections that I faced, uh, when I tried to get this off the ground within a previous probiotics company.
+
+[27:44] Hey, hey, you're stealing my secrets. No, I'm good. You're good. You're good. Did you have a question? We can chat later. I mean, I've been yammering, but. All right. Awesome. I'm conscious we've gone way over, so I'd encourage everyone to speak to Stephen afterwards.
+
+[27:59] Um, thank you so much. I'm excited for popcorn flavored ice cream. Thank you. Thank you for having me. Thank you.

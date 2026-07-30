@@ -1,0 +1,337 @@
+# Consciousness Across Substrates_ Engineered Minds and Embodied Practice
+
+Date: 2026-06-02
+Source video: Consciousness Across Substrates_ Engineered Minds and Embodied Practice.mp4
+Drive: https://drive.google.com/file/d/1-3D7SkFnb1rsdS1sjTWcjM7QUKjlvIbp/view
+Duration: 01:04:11
+Transcribed: 2026-06-10 · whisper large-v3-turbo · language: en
+
+---
+
+[00:01] Or maybe perhaps a moment of the void. That was good. Yeah, instantaneous and also lasts forever. We've got two talks today scheduled. We will be having talks Monday through Thursday from a wide variety of members of the Consciousness Residency plus some friends.
+
+[00:26] This spans researchers, builders, meditators, all living in one house a few blocks from here, the Calderwood Inn. There will be some events held at the Calderwood Inn over the course of the month. But this is our prime time. We have the lunch hour for the next four days, and so we would like to introduce you to some of the work that people in the residency are undertaking here and elsewhere in the world to bring the field of consciousness research into the fold of empiricism and action
+
+[00:59] and more part of the meaningful conversations that we're all having everywhere across the world. Briefly, before we get started with the talk, I'd like to introduce Chris here from the Consciousness Foundation, who's just going to give you guys a little background on that.
+
+[01:15] Thank you. Thank you very much. Hi, everyone. So I'm Chris Percy. I won't take more than a couple of minutes of your time. I just want to tell you a little bit about the Consciousness Foundation, which is a new grant maker in the space of consciousness science.
+
+[01:28] It got going last year. And sort of the founding principle here is that smart strategic capital can catalyze breakthrough insights in this space because by some measures, we've got billions of dollars floating around in consciousness. If you look over decades, the U.S. brain project was about $3 billion.
+
+[01:45] The EU human brain project was about a billion euros. So there's chunks of money floating around and it can feel like, you know, how could small amounts make a nudge difference there? Well, we think there are lots of areas where smart, strategic, modest sums of capital can actually make quite a catalytic difference there.
+
+[02:03] One of those, the first round of grants that are being announced shortly, it's cofo.org, by the way, check it out, is all around academic neuroscience for awakening, for journeys towards enlightenment. So think about Buddhist enlightenment, jhana pathways, trying to understand what happens in the brain when people are in some of these states and ultimately how we can help more people reach those states.
+
+[02:26] cofo.org, also interested in body-mind healing, also interested, and the bit that I help with, is fundamental consciousness research. So what are the theories of consciousness? How can we test them better? How can we refine them better? And ultimately, how can we use them to answer questions we care about?
+
+[02:42] Questions about machine consciousness, questions about our own consciousness, and really the fact that, probably for the last few decades, lots of consciousness researchers have had to do something else and call it consciousness research. They've had to do sleep research, they've had to do anesthesia research, they've had to do attention research.
+
+[03:01] Well, even just by having consciousness in the name, we want to make it possible for people to bid for grants and proudly call themselves consciousness researchers. And I think things like what EDGE are doing here are part of this journey as well.
+
+[03:14] I'll stop there. Thank you. Thank you, Chris. Easiest thing at the moment is just take a look at the website and sign up for the Substack and stay in touch, right? So it's cofo.org. There will be requests for proposals that come out periodically.
+
+[03:33] There isn't one live at the moment, but that's, you know, it's a grant maker in this space, so stay in touch. Thank you, Chris. I think we all resonate with the work you guys are doing. That's what we're all trying to bring to the forefront.
+
+[03:47] Our first speaker will be Angie Normandale, and I thought maybe I'll just ask Angie some questions as she comes up here and gets ready for her presentation. We've got two mics, so we don't need to pass it back and forth, but maybe we do need to lower that.
+
+[04:00] Are we awake? We are. Are we awake? She was asking her computer, which is actually pretty apropos for her presentation. Okay. Okay, we are awake. So, Angie, you're joining us from the UK, Antelope, and the California Institute for Machine Consciousness.
+
+[04:18] Right. How close do we have to be? Okay. Yes. Hello. Yes. I flew in from London last week. Great. And you brought your collaborators and conspirators here. Joel, who will be joining on stage in just a bit, as well as Chris, who both are taking off very shortly on their flight back across the pond, so we've got minimal time to really enjoy the fruits of all of the work that you guys have done.
+
+[04:41] Can you tell us just briefly about your background and what you'll be presenting on today? Sure. Yes. So, I started off my life, well, I did my undergrad in experimental psychology, and I studied attention, in fact, the nature of attention and working memory.
+
+[04:56] And it seemed very obvious to me that we were studying consciousness, but I remember asking my tutor, oh, we study neural basis of decision making. Is this relevant for free will? And he goes, go to the philosophers. And I thought, okay, I see, I see.
+
+[05:12] There's a pressure not to talk about the nature of this work. Fine. Anyway, I stopped being a neuroscientist. I became a lawyer. Then I ran a board games company, and then I started doing project management in AI safety research. where I ended up meeting Joel on the Catalyze Impact program for AI safety entrepreneurship.
+
+[05:32] And I joined as an operational co-founder with my startup experience and realized, oh, yeah, I really, I want to be a researcher too. And started doing my master's in computer science, which I now mostly ignore, but occasionally still study.
+
+[05:47] And, yeah, we got a grant from the very newly formed California Institute of Machine Consciousness. It's now a year old. And they then offered me a job directly with them, which I will be starting soon here in the Bay, where I will be building the field of machine consciousness.
+
+[06:05] So not just managing my team, but all of the other grantees, figuring out what kind of research we need to do to really accelerate the knowledge about consciousness and understand what decisions we need to make about AI, about AGI. This particular project is sort of like a microcosm of that.
+
+[06:24] It was a kind of short six months. We're sort of four months in. We really started our experiments maybe only a couple weeks ago. So you're going to get a tiny flavor about what empirical consciousness research might look like. And then when you hear from me again during EDGE, it will be about ideating what is a world with conscious machines?
+
+[06:46] What is a good world? You know, there's plenty of art and design about a bad world. really not enough about what a beautiful, wonderful world could look like next and that's why I want to pick all your brains. But also, all of your knowledge about how to grow something from the ground up and how to actually spark and catalyze it.
+
+[07:05] And I want to learn from the people here and take some of those learnings away and use them to really build the infrastructure that brings in more machine learning researchers like Joel, more philosophers, more people from other fields who've not called themselves consciousness researchers to encourage them to actually do the work that changes things.
+
+[07:28] So, yes, without further ado, I'll get started. Yep, that sounds great. So this particular presentation, once again, is going to be about a really specific aspect of consciousness from neuroscience and how we turn that into a machine learning project in a very short time.
+
+[07:43] Specifically, attention self-modeling in collaborative agents. So, we'll talk about antelopes later. Let's start with, ooh, okay, cool, sorted. Let's talk about a little kind of agent that I think that you all recognize. The little soots from Spirited Away.
+
+[08:05] I like them because they're like a black box, but they're also a great example of what a good AGI might look like. They notice and detect what you need. They collaborate. They are creative. They're responsive and they're also beautiful and not scary.
+
+[08:21] I think when it comes to the behaviors that we uniquely associate with consciousness, we do know it when we see it. But I am concerned that in our frontier systems, we're building incredible, interesting AI that's doing all sorts of cool stuff, but we're also building a black box.
+
+[08:41] We don't know why things do what they do and an explanation of consciousness that's just based on behavior leaves us in the dark and feeling a bit helpless. Do we really know whether this behavior matters or is it kind of random and came out of nowhere?
+
+[08:58] And so, in order to try and disambiguate that, the goal of my team is to take a theory of consciousness from neuroscience, break it down, instantiate it, say, right, what are the predictions? How could this theory actually cash out in an AI system?
+
+[09:16] What does it predict about behavior? And does the architecture match the behavior? And so, to do that, we take the most, and in fact, I'll go for the next slide. So, we take this theory, we say, right, how is it implemented? How could it be implemented on a different substrate?
+
+[09:31] How is the behavior facilitated? How do the different cogs and wheels work together to actually cause it? And then detection, we test something and say, okay, is it doing what we think it does for the reasons that we think it does? In our case, we take this idea of attention self-modeling, so you have a predictive system.
+
+[09:51] Any predictive system, if it's capable enough, it needs to have attention, it needs to be able to select what information it's using from all of the inputs in order to be adaptable. And any large enough predictive system will not only create models of the world to predict, but also models of the self, of how inflammation flows within the self.
+
+[10:11] And the thinking is that under predictive processing, this is like the most abstract possible information you can have at any given time. And so, we'd simply expect it to emerge. The theory from neuroscience is that we have this attention self-model just like you have a body model and that the properties of this model actually explain the phenomena that we think of as consciousness.
+
+[10:34] This is the theory. So, quick intro to the team. I already told you all about me. We've got Dr. Joel Puker who is from the University of Helsinki that is a PhD in computer science. We've got Professor Rasmus Harlow at the University of Copenhagen and Sabah Afshania who's my junior who's wonderful who's not here today.
+
+[10:54] Cool. Okay, so now I'm going to quickly run through slides that were somebody else's slides so that we can get to the real interesting bit in my opinion. We decided to go from a biological approach. This was my neuroscientist slides where we basically take these tests around consciousness in animals.
+
+[11:14] So, he's an animal expert and then we say, okay, what are the tests? What are the predictions? What are the results? So, we talked about neuro test, the idea of can you recognize yourself when you see yourself outside? Do you understand that the stimulus isn't just a stimulus?
+
+[11:29] It's me. Metacognition, the ability to make judgments about your own thinking and this is something I think important to people here. Motivational trade-off, being able to take these different ideas and say, hmm, what's important to me? How can I choose?
+
+[11:47] And then perceptual masking. I like this image. We've got a line in the front, we've got an antelope here and then we've got some buffalo running and the idea was that you have all of this noise and all the stimulus and you have to be able to choose.
+
+[12:01] So, what attention does for us is it's a capability, essentially. It allows us to be robustly flexible, to have this identity that can stay the same whilst our behavior and our environment changes. And the thinking here is that this kind of flexibility is essential for social behavior, the most complex behavior that we have, the ability to collaborate, to build things that are greater than ourselves whilst holding some individual identity.
+
+[12:29] Cool. Okay. So, neural correlates, not going to talk about neural correlates very much. Let's go straight into the framework we created. It's something called a grid world. Anyone know anything about grid worlds? Is this familiar? No? Okay, great.
+
+[12:43] So, very, very simple, tiny, tiny agencies or tiny AI systems that can run on your laptop, doesn't have any compute cost, yay. Good for researchers who don't have access to the resources that a lab has where we can't just like work with a giant model.
+
+[12:59] The thinking about attention research in the frontier large language models is that the small ones are not doing very interesting stuff. The biggest, newest ones are doing quite interesting stuff. Getting access to them isn't that easy, so field building people can talk about that later.
+
+[13:16] In the meantime, reinforcement learning and kind of multi-agent research allows us to implement this cognitive architecture and test it in these tiny, tiny environments. So, we've got our agent, our little AI system, reward obstacles, da-da-da.
+
+[13:31] The thing that's exciting here is what's called the ROI, the region of interest, movable area of the world. Our agent, as an action, it can move around. Right, move here, eat food, run away from predator, whatever. But it also gets this movable area of this otherwise noisy world which becomes sharper when it moves it.
+
+[13:52] Right? And this is how your precision works with your visual working memory. This is directly analogous to neuroscience. Cool. And yes, the nice thing actually going back to the movable area of the world is that we can then look at what this neural network has learned and how it's learned to orient its attention which is something that we can do in human research but we don't really have an AI right now.
+
+[14:17] So, exciting. Cool. Okay. Then Sabah talked a lot about the different theories of consciousness. I'm not going to go super into detail. The main point here was that we went through several theories and picked this thing called attention schema theory.
+
+[14:29] It's not very popular. It's quite technical precisely because it had actual predictions about behavior and what's important which just wasn't really the case for the others. They were quite descriptive and that was more boring to me. Cool. So, yes.
+
+[14:48] We're not going to go through this. It's not very interesting. The main point here was that we came up with a list from this theory of neuroscience. We sit there. We go through all these papers and we say, okay, right. what would an AI system that implements this consciousness according to this theory of consciousness need to have?
+
+[15:07] What is the minimum set of processes, software, that it will need to do? And it's this list of things. So, we have recurrent information flow, working memory, sustained activity, some explicit representation of our own attention. So, yeah, current AI systems don't have this just to be clear.
+
+[15:24] Explicit representation of attention or state. You have these kind of phase shift states, weakness, alertness. Being able to understand your behavioral consequences. So, we've got memory, planning consequences. Right? So, you've got the process of the attention of being able to change things around.
+
+[15:42] Then, you've got the I'm learning about and monitoring my attention consequences. Cool. Okay. This is about why we decided to do things in an order. So, we go through like simple behavior to more complex behavior. Again, I thought this was less interesting.
+
+[15:58] And then, we go from a simple kind of AI model with the simplest representation into the more complex. Yeah. Is this your bit? No, it's still Rasmus. Okay, that's fine. Yeah. So, then Rasmus went through the kind of different tests that we did.
+
+[16:14] Again, very, very simple. We're sort of taking these like perceptual tests from animals and we're saying, hmm, we start with a single agent scenario because short time. And we say, okay, is it able to do this kind of motivational trade-off?
+
+[16:27] We have like a little bush and then the bush either has a reward in it or it has a predator in it and it has to like be able to wait to see if it's one or the other. And this kind of tells us whether the attentional orienting that we're trying to implement basically is what we wanted to do.
+
+[16:43] So, simple, simple test to start with. Okay. This was our overall plan is to look at something called the neural manifold trajectory. Again, this comes from our neuroscientists and the idea is we talked about this attention orienting, you know, that you have this monitoring of yourself, you're learning about how you're having information flow and you can think of this as like a set of different shapes or patterns and in fact in neuroscience we model this as a manifold trajectory but we can model this in other systems very easily and the interesting
+
+[17:14] thing about this is that maybe there are cognitive patterns that are common across different substrates, different people or that lead to more important behavior or different kinds of behavior and maybe there are not. Cool. Okay. So, yes, we're not going to go super into this.
+
+[17:33] We have a long-term short-term module. We look at different internal representations which is kind of clusters of information and how they change. Yeah. Okay. We don't need to do this either. Cool. And then it is your turn. Oh, yeah. Okay. Hmm.
+
+[17:54] Ah, I see. Okay. Yeah, so this is a little bit about how we implemented them and kind of different algorithms that we put in to say, okay, is attention doing the things that we wanted it to do? Cool. There you go. Thank you, Angie. Yeah, so as you could see also from like a meta-presentation perspective, there were four of us on the stage and this is why I'm now jumping in.
+
+[18:18] So we had kind of like equal slices for all of our presentations but that's not the most relevant part right now. Nonetheless, so what we wanted to do is we wanted to be super scientifically rigorous. We really wanted to figure this out in a like a basically like A-B testing for reinforcement learning.
+
+[18:38] We really wanted to make it like take one step at a time, lock down whatever was like the scientific like foundation of that particular step and then move on like to the next one. So we created a platform for it and the idea is for this like sustainable long-term like platform was that like we want to be able to exchange the agents, we want to exchange the scenarios and we want to exchange the analytics at each possible stage
+
+[19:08] where they need to be exchanged. Yeah, similarly so this was about like how do we set up the experiments themselves so we do also curriculum learning which is that we take the same agent we put it into different scenarios and teach it one thing at a time.
+
+[19:26] First it had to learn for example to simply rummage through the bushes so that it is able to figure out what's inside of them. After that it also has to do a decision like did it find a predator or did it find food in the bush and then it has to like commit to the other but not the other for example and so also our like scientific ensemble of analytics we had several different types so we have like very classical
+
+[19:57] reinforcement learning like just like success, return, reward so we are able to like follow the literature like very precisely on whatever their like metrics have been but we also created some of our own metrics these were for example like larger behavioral like macro event like longer chains of like these like actions that the agents were taking and we were looking for very specific things for example was the agent able to stop by the bush
+
+[20:28] and like use its ROI region of interest to actually search through the bush before it commits so did it learn patience basically this was one of the essential questions that we wanted to answer here and then there's even like optimality which is about nothing too interesting right here now but yeah so where we started we started from like one of the baselines
+
+[20:58] of reinforcement learning like literature around these like solutions it was DQN deep Q learning networks and as you can see there's on the left side there's this architecture that we wanted to then like keep building one block at a time so now as I like switch to these sides that present our like experiments you will see that we add one extra component that is supposed to be neurologically inspired and it's
+
+[21:28] supposed to help the agent to learn more and more complex tasks so next this was really quick oh the animation is missing here it's not working it doesn't matter nonetheless we added LSTM component to it which is basically memory long short term memory which was essential for the experiments to come yeah now we have the
+
+[21:58] animation again then we added the ROI so this was exactly what we previously talked about Angie already mentioned it's the region of interest it's basically the kind of like the foviatic like visual attention that wherever you are looking the yellow cube or the yellow region is going to be the region of sharp like information and everywhere else it is the peripheral vision for the agent next
+
+[22:30] we made gaze action aware so we fed back back so the action that the agent itself was doing we fed it back into the whole system so that it was aware of what it was actually doing itself there's many things that we can basically root back into the system so it becomes self aware about more and more different kinds of details that it is and
+
+[23:05] this is like we are stepping closer to attention schema theory here but not quite yet but like we have a separate attentional mechanism that the agent is able to utilize to separately move its attention as well as separately body so basically it's able to turn its head like separately from its body then some extra like exploration rewards so we gave it curiosity so
+
+[23:35] that it is actually getting some like signal that like alright I'm actually finding out more about my environment like it became curious to find out what's inside the bush basically and then we took the problem a notch up so we gave it spend spend several
+
+[24:05] steps searching through the bush so this was just kind of like a robustness test that can we actually push the limits of this system or not and indeed what's next so this is basically my final slide I'm giving back to Angie in a moment so next we want to just increase the reliability of these tests we want to do next multi-agent scenarios so we are like having them collaborate or even like compete against each other and extend analytics
+
+[24:35] into Macinturps so basically like opening up the neural network itself as well as before we move on I want to take a beat to recognize the process of this work it involved sitting down and deciding to do it even when there was no money
+
+[25:05] or desire from the world necessarily and a lot of academic pressure not to then it involved finding people to forensically look at the theory behind what we actually think consciousness is this very quickly showed it's totally incomplete contradictory there are no good boundary conditions where does something start and stop the theories haven't really decided that like at all and that's okay how which of these are actually relevant to AI how would we know what
+
+[25:36] do we do about this this took a lot of work to and night coding and creating a system an architecture that doesn't exist yet and then a system to test the architecture that doesn't exist yet and then a system to test whether the architecture that doesn't exist yet is any good and then a system to tell everyone how to use it work
+
+[26:21] and acknowledge how hard it is oddly enough to do fundamental consciousness research and like what components are needed and then talk a little bit about those next steps both for the experiments themselves and for the wider team in the field because this is the other thing I so far
+
+[26:52] we haven't done anything that seems kind of relevant for like welfare but fear not the reason we gave the agent the explicit model of self is because of theory of mind people know what theory of mind is someone want to explain what theory of mind is you all nodded someone nodded at the back no okay theory theory of personhood something
+
+[27:24] from neuroscience back in the day the three conditions according to Reese Ward are agency self awareness theory of mind theory of mind is the ability to model the mental states of others right you can model your own mental state you can model the mental states of ability to model others and in fact we might even use
+
+[27:55] the same architecture and so what's really cool about this is that it's a fundamental link between intelligence between capability and between our social and group intelligence it makes sense they evolve together we would think that they might be the same thing it goes against this orthogonality thesis that your AGI will be of course it doesn't mean that we necessarily care about what
+
+[28:25] we've learned about others that's a whole different thing but anyway going back to the research the explicit representation of own attention means that we can look inside our model our teeny weeny model and say okay are you using your own model of attention to model the other agent does this affect your collaborative social behavior can we find a minimal model of machine theory of mind so we are fundraising hopefully we will get our next grant hopefully I'll be able to afford to keep doing the work hooray and
+
+[28:57] then we'll be able to get to machine theory of mind in a year experiment which I'm very excited about cool so before we finish the talk what will I be doing edge as edge esmeralda yeah very excited to be here and meet you all please come and talk to me I'll be talking about the future of all of the research and consciousness I'll be talking about CIMC's goals and hopefully about all of yours thanks thank you
+
+[29:28] Angie keep the applause going either of these three there
+
+[30:15] is in fact there is a categorization of different theories of consciousness if you want to chat to me about that some theories look at say the world they believe that you know consciousness is a property of the world not of an individual system of a brain if that's the case looking at brains is kind if you take the starting point that consciousness
+
+[30:45] exists in an individual system and that's it's worth looking at it and might exist differently in that to elsewhere then you need something that has predictions about the system not just about the world does that make sense was that in fact your question yeah two questions if I can get them one one is a really tiny one so I'll just ask that first which is so long short term memory obviously that was like pulled out with transformers and you know created LLM
+
+[31:15] do you think that at some point you're going to look to do that as well or does LSTM work pretty well for this type of problem yeah exactly so what we are doing is we they are also much more like you are much easier to study them and what we try to do with all of this experience
+
+[31:46] why they are so small basically toy models is we try to restrict the noise out of it we try to like basically remove any interference out of the data and out of the system and like figure out what is the least amount of confounding factors which we block if we need to change it but yes it is a very simple system yeah and that makes sense I mean as long as the gradients are progressing
+
+[32:16] through them and learns that's fine the other bigger question for you is you know language and internal thought you biology and like neuro inspired things what we want to first of course try to do is like very simple like signaling and
+
+[32:46] this is like like the antelopes can give out warning cries or they can give out cries about like hey I found food or something similar so if we are looking towards language and communication it's going to Bon Voyage Joel and Chris will take good care of Angie for the next month all right
+
+[33:17] so on one end of the spectrum we're looking at a machine consciousness but we are all here embodying potentially embodied consciousness of course and our next speaker will be talking to us from that other end of the spectrum here please welcome Raven who's coming at us from sleep awake so
+
+[33:50] just a quick intro here Raven joined sleep awake as their lead curriculum developer as well as a facilitator right Raven that's right and sleep awake started when 2022 by as I know Jeff Lieberman and Kat Tweedy and you guys lead retreats that's right yeah yeah personal transformation containers for people ages 22 to 35 when I asked Raven what how
+
+[34:21] we could introduce sleep awake she said a lot of wellness is focused on feeling good but sleep awake has other aspects of how we can approach our well-being and disconnection is a source of potential reconnection based on their group based practices and utilizing your whole body and the experience in connection with others and yourself right yeah
+
+[34:51] wonderful well Raven we'll let you have the floor for let me let me say a few words about sleep awake and I'll start by saying
+
+[35:21] when I was told that I was going to give a talk I've never given a talk on sleep awake I've done I just want to talk about my thing you know so that's what I'm going to be doing there's
+
+[35:55] two co-founders to sleep awake Jeff and Kat Tweedy Jeff was he's in his mid forties he was sitting around one day I guess the year would have been 2021 and he was thinking man some of the stuff I I'll just I'm just going to do it I'm just going to make a container for people in their twenties and we're going to teach the best most cutting edge tech for being
+
+[36:48] mean to ourselves living in disconnection and not being sure why why do I feel so disconnected why am I not feeling more grounded connected why can't I feel my body sometimes we don't even know that there's a lack but there's just this feeling like something's the matter I was including
+
+[37:20] a month long stint in a Burmese monastery you name it it was great I did not have that haircut then long hair but that would have been a vibe and I was into psychedelics loved psychedelics psychedelics and meditation the end all be all as far as I in
+
+[37:52] relationship to others there's something that just can't happen when you're journaling or on the meditation cushion or with a therapist something relational something that happens when you look into someone else's eyes and you show yourself and you are either received or not received they have shitty early
+
+[38:22] life stuff that I could not repattern on the pillow and I'll just give like a little just one of many things that happened to me on that weekend there was this guy there I got there and there was this guy and I I was like
+
+[38:52] gross I liked to think of myself as a very composed person back then this guy is a mess there were three touch points on that weekend for like a dyad connection thing hour long and the first time that they said okay find a partner I was like oh man I hope I don't get paired up with this guy you know like this gross person I did the work that was done over that weekend the kind of work that we do at sleep awake I'll say more in
+
+[39:22] a bit the second time that we were supposed to pair up with someone I noticed I had myself like what happened like what had me go through in 48 hours
+
+[39:52] from nah to leaning in and I told this story just to give an example of what happens when you do this kind of work the world seems friendlier the world's more interesting it's less hostile there's more potential I wasn't the workshop wasn't about liking someone that you didn't like before that wasn't even the topic there was an offshoot of other stuff that I was doing that
+
+[40:22] weekend and it was so powerful and transformative I can just all all time
+
+[40:53] what a piece of shit I am and how lazy I am and it's not okay and why am I not this that or the other like a year or two year into doing this kind of work and
+
+[41:36] it doesn't happen in a week it doesn't happen in the one week that we do at sleep awake people come out transformed and it's the beginning of a journey or for some people it's the continuation of a journey but it's such a lovely such a lovely thing to do to take a chance on can this life be sweeter can connection be more available to me what are my patterns and which one of those can I just put down and bit
+
+[42:07] by bit choose a different life for myself I'll read out I'll name our two co-founders Kat and Jeff between them have five PhDs from MIT so we have a very robust data study that goes out to participants it's really important to them that the stuff we do is it would be the easiest thing in the you
+
+[42:58] so this can't do the thing to you know I don't treat myself like shit half as much as I used to and it sneaks up on you Some things are fast, and some things really sneak up on you. It's a joy. Anyway, the data survey, data study. Oh gosh, it clicked out of it.
+
+[43:28] There it is. So we do these surveys. We do an incoming, outgoing, one month later and four months later. And we're just now starting to do like a... We've only existed for four years, so we want to do like a longer term study is coming up. Like two years out, three years out, what does that look like?
+
+[43:48] So using a clinical scale, a DASS 21, two statistics that I can tell you guys. 83% of participants report reduced depression four months out. 100% reduced anxiety. That's pretty good. I think the latest we had was something like 33% of participants reported that it was the most transformational experience of their lives.
+
+[44:14] That's a pretty sweet... I have a pretty sweet gig. This is a good job. You might be wondering, okay, that's great. What actually happens? What are you guys up to? So people sign up, and the first thing that happens is they put their phone in a box.
+
+[44:32] And we take really good care of these phones. And you have a cohort of between 30 and 36 people. There's a morning session, afternoon session, and an evening session. And what you do during that time is you investigate your emotional and relational landscape.
+
+[44:48] What am I doing internally and externally? How am I with myself? I'll give a slightly more concrete example. I'm in charge of mostly two things at Sleep Awake. I'm in charge of getting in touch with your wants, and I'm in charge of anger. I'm the anger lady.
+
+[45:09] And I told someone this yesterday when we were chatting at the opening ceremony, and they said, they said, well, but anger is violence. And I get that. I get that. I grew up with a rageaholic mom. You bet your bottom dollar. I know what it means to think that anger means violence.
+
+[45:31] That's why I do this work. Part of why I do this work is the discovery that it doesn't have to be. What would it mean to go someplace and feel that your anger and other people's anger is not only safe, it's a beautiful part of your life force that can be celebrated, that's giving you a clear compass for something that wants to happen in this world, and giving you the fuel to make that a reality.
+
+[46:02] It absolutely does not have to be violent. In fact, it mostly needs to come out as violence for the most part in our society because we're resisting it. It's kind of a twisty thing. But then you find out that you can be so angry, so angry, so angry, so angry, so angry, and you open your eyes, and you've got a group of people smiling, shining at you.
+
+[46:29] You were all so scared. You were so scared. Ten minutes ago, you were all terrified. And now everybody's, it's just a party. Same for grief. What would it mean to be with your grief and see it as a beautiful thing? You're not, this isn't a punishment.
+
+[46:50] The way that we build the curriculum, like I said, is we track for the best stuff, the best technology in human flourishing that can happen in the emotional and relational fields. And so I've collated some fun insights about the three so-called negative emotions, anger, sadness, and fear.
+
+[47:14] I'll share those. It's how we hold them. Anger unresisted gives rise to clarity and determination and tells you what needs to be stopped. Sadness unresisted gives rise to tenderness and slowness and tells you what needs to be let go of. Fear.
+
+[47:45] That's a good one. Fear unresisted gives rise to excitement and tells you what you need to pay attention to. So none of this is gospel and we don't teach it as such. But if you try that on, why would you ever turn away from any of these? Why would you ever turn away from anger, grief, or fear if they give rise to these very important aspects of your human life?
+
+[48:13] So people wake up in the morning without their phones. And they get to the room and they don't know what the day is going to be about. And then we say something like, today is anger day, bitches. And they're like, ah, no, anger, the bad thing.
+
+[48:30] And by the end of the day, they're like, oh, my God. Anger's dope. Anger's sick. What? Getting in touch with what I want and asking for it and being told no creates more safety in my experience? Are you kidding me? Are you kidding me that I didn't break into a million pieces and fell down and died because I asked for something I wanted and someone said no?
+
+[49:01] That's the sort of stuff that happens this week. And you get to practice again and again and again with your cohort and find out that a bunch of stuff that you thought would be the end of the world, that you shouldn't show, that you should hide, can be received with love and acceptance and enthusiasm, brings the energy of the room up, and that some people 100%, 100% will judge you for and have a problem with.
+
+[49:28] And it's not the end of the world. It's actually fine. And it's a better trade off than holding all that stuff in. 70% of the room thinks you're a badass and 30% are figuring their own shit out. And it's fine. So it's very much type two fun for the most part.
+
+[49:53] The evenings are more type one fun, nourishing fun, singing, dancing, cuddling, tribe, tribe stuff. And it feels like a tribe by the end. I guess I could say more, but time is time. How much time feels good to you before I go for a Q&A?
+
+[50:30] Let's see. I guess there's only one more thing that I feel called to share. I don't know why I feel called to share this specific thing out of everything. There's always a moment at the end. You know, we're bringing people, we're bringing out the box with the phones.
+
+[51:00] And people are always bummed. They're like, no one wants their phone back. And we tell them, you know, be gentle with yourself. It's a moment. It's a moment to have everything flood back in. One of the pieces of feedback that we get the most kind of like the classic feedback we get is some version of, I did more in one week for my growth and transformation than X years of therapy.
+
+[51:33] Four years of therapy, 11 years of therapy, however much therapy this person is doing. I did more this week than years and years and years of therapy. And it goes back to that piece. Like you can't, you can't repattern this stuff with a therapist.
+
+[51:49] That's a person you're paying. You can do amazing stuff with a therapist. If having a therapist works for you, it's really good for certain things. The relational piece needs to heal in relation to other people. The phones are a useful and beautiful tactic.
+
+[52:13] But it's just that. Ultimately, you need to give people a reason to connect. You need to give them something to connect around. Otherwise, they'll just read the back of shampoo bottles. You remember doing that? Who's old enough to remember doing that?
+
+[52:24] Yeah. I'm seeing some nods. Yeah. We've had people come on the retreat who are getting over substance abuse issues, stuff like that. They say, I don't want, I don't want to smoke here. I don't want to vape here. They just don't need it. And it's a, it's a sad and beautiful thing to create like a little bubble of a week.
+
+[52:48] Because the world doesn't look this way, but it can look a little bit this way. A little bit this way. If it's modeled that it can. My life looks a little bit more this way, the more I do this work. And it takes time, but it's a beautiful first step.
+
+[53:07] To have one week that feels that way. Where you're present and you're real. And you touch on some really hard things. And then you go to dinner and everything feels absolutely fine. You learn how resilient you are. And how beautiful other people can be and you get that much more curious about the world.
+
+[53:28] So that's how I felt called to use these four minutes. Thank you, Wyatt. Thank you, Raven. We do have, we'll take a few moments for some questions and I can walk around the microphone. If anyone has them. And I would like to do something short afterwards to try to bridge these two topics together.
+
+[53:50] But first, some questions. Sleep awake was originally conceived as a month long. And so it was called sleep awake camp as a kind of play on words. And it's also an allusion to Tibetan Buddhism. Which is one of the influences on our retreat.
+
+[54:20] There's like a concept of waking up from a deep slumber into yourself. Now that we're a week long, the play on words doesn't exist as much. But we're not going to change our name. So sleep awake. Yeah. Yeah, Tony. Yeah, we run these. Thank you.
+
+[54:41] We run these four times a year. Mostly in California, exclusively in California these days. This year we're going to have our first level two for graduates. We had our first over 35 retreat. Like I said, we're specifically aiming to offer this to people in their early life.
+
+[54:57] But you know, we've had people who are like 36 and it's fine. You know, like a 38 year old. It's like, okay, we'll sneak you in. And we have been getting so much interest from people who are older. So we've opened these up for older people.
+
+[55:10] And we'll probably have one for older crowd every year going forward. Yeah. If you're in California, you can consider it. Any other questions? Yeah, you will.
+
+[55:48] I don't want to go too much into the theory of it in this moment. Like I said, therapy offers a very specific thing. Meditation offers a very specific thing. Psychedelics offer a very specific thing. They're distinct. What's unique about containers like sleep awake is that we're doing it all in a group setting.
+
+[56:06] Big groups, small groups, sometimes in diets, and you're coming in and out of that relational field. The wider relational field. Hey, Winslow. Wow. Okay. Sorry. Good friend. And that, that is something that you don't get from those other modalities.
+
+[56:22] And so some of the healing that happens in relationship can happen in that context. One more. All right. I sort of think I know the answer to this question, but, you know, compared to you, I probably have no idea. So I'm just going to ask it anyway.
+
+[56:43] When you're talking about therapy, you've been talking pretty much about soul therapy, you know, just one-on-one with therapists. I think I can hear from what you're saying all the things that are missing in conventional group therapy. But I just wanted to hear from you how sleep away is different from, you know, what people do in group therapy sessions.
+
+[57:03] That's beautiful. I think the main difference would be that it is a residential retreat. So it's less like I came to a room and I'm there for an hour or two hours or three hours or however long the therapy session is, and I go out into my life.
+
+[57:13] That actually has benefits like coming in and out and weaving any kind of treatment that you do, weaving it in and out of your life. There's great, tremendous benefit there. There's something different that happens when I'm like, I'm with you now and I'm with you on the line to eat dinner and I'm, and we dance together.
+
+[57:28] And you're also like my housemate. And the next day, and there's like a depth that can happen that really builds. And by the end of the week, the field is very supercharged with the level of connection that has happened. And that's, that's the major difference.
+
+[57:42] All right. Thank you. Yeah. Is that what you thought that I would say? I thought you were going to be even more negative on group therapy. Oh gosh. So you were saying sort of group therapy is fine, but you know, the residential part is the other part.
+
+[57:55] I, you know, don't have a lot of experience with group therapy, but it feels very much like one person, you know, my, my image or what I have had is that everybody kind of listens to one person talk and then another person talks and there isn't this type, you know, these dyads and then grouping different dyads that you spoke about.
+
+[58:13] So that seemed to me like a big difference. It is. And yeah, I, I personally agree that a room like that would feel kind of stale to me where I'm just like needing to listen to one person talk at a time. There's something that happens in the dynamism of a room that feels really permissioned where everything about everyone's experiences is actually part of the field.
+
+[58:35] And we're not negating that. Thank you. Yeah. Thank you for the questions, everybody. And just because I forgot to say, if you want to experience this, because this is a highly experiential container, I'm running things every day at three. If you search on the calendar, friendship 201, that's the, that's the brand that we picked for this thing.
+
+[58:56] Friendship 201 every day at three. It's a different room every time. So please pay attention to the room. I'm also going to be putting out some posters that you can see. So if you want to come and see what's this lady talking about, like if you're feeling a little perked up, please come and experience them.
+
+[59:11] This is absolutely, there's gonna be very little talking. It's, it's really just about doing these activities and living them. Yeah. Thank you. Thank you, Raven. And real quick before you leave the stage and thank you for bringing your unmasked presence to everybody.
+
+[59:30] It was really wonderful. There's a bridge between these two talks. And Andy, could you come up for one second and talk about how, how what you're doing and what Raven's offering are self reinforcing for each other and the clear connection? Yes.
+
+[59:49] So I talked a little bit about this, this theory of consciousness called attention schema. So I come from a Hindu family. I was raised by my grandparents who are priests. And I spent a lot of time in, in meditation and like going to, I don't know, weekend stuff and like camp and whatever as a kid.
+
+[1:00:14] It was just sort of like a normal, a normal part of what was expected of me and like how to engage with the world. But yes, consciousness studies often, often talks to this, you know, you learn a lot about consciousness, right? In Hinduism and the, yeah, conscious ideas about consciousness is sort of central to how you're supposed to live your life and like relate to other people.
+
+[1:00:38] And one of the things you learn about in meditation is this kind of self awareness, starting to look at how you're thinking about yourself, your cognition about your cognition. What things are arising, what's coming in and out and what you let go of.
+
+[1:00:55] And when I was looking at these different theories of consciousness, I quite liked this kind of description, description that took all these different elements, you know, really categorized them like an ordered list of, okay, here's the different kinds of inputs and here's the kinds of relationships between them. And it just sort of resonated with my past experience.
+
+[1:01:14] I guess, why, why is this relevant to Raven's talk? So, all right, I'll go out on a limb. All right, I'll be brave. Why not? Let me, let me say something wild. Fuck yeah. Yeah. So, okay. Let us say hypothetically that this thing is consciousness, that your consciousness is made of a bunch of stuff and some relationships between them, right?
+
+[1:01:35] Could you be more conscious? Definitely, right? You could be more aware of these patterns. You could have different patterns. You could learn some from other people. Maybe it's the case that doing things like dance, music, art, learning different languages enhances the kinds of cognitive experiences that you're capable of having.
+
+[1:01:56] You know, I think it, it seemed pretty clear to me from study that doing things like the tutorial method, Oxford, enhanced my capability of thinking because it made me adjust, monitor and adjust these patterns, right? Maybe your emotional state at the time is necessary for you to be able to form new ideas or embed them in certain ways.
+
+[1:02:21] Yeah. I, I can, I can see where the evidence from this work might come from. I'm skeptical about the idea of a short term intervention. I can see why that, that's all. But I'm certainly curious to have a look at the papers, find the work. Please do.
+
+[1:02:39] And, and yeah, it's, it's fascinating how you can see this theoretical thing start to cash out in different ways. And then I wonder, okay, how would we do this with AIs? Yeah. One, one bridge I was connecting was your AIs are getting trained, right?
+
+[1:02:57] This is a trainer who knows a lot of embodied dynamics between things. And as you yourself are the person deciding the rules and the training that goes into testing and training conscious systems, there is a lot of insight because these tools are a reflection of your own relatability and consciousness and what you value and find important in some ways.
+
+[1:03:19] And so to have people in the room who are expert facilitators at these current agents that we're operating and learning and relating in the actual simulations and merging the, the deep knowledge that both of you guys have to kind of meet in the middle in that way. I absolutely do not.
+
+[1:03:39] But that's not, that's not how my mind works. All right. Hands together. This was the first of the consciousness talk tracks, everybody. One little note, if you did get your blood drawn, your time has come again. I was told if you'd part of the NVIDA blood draws.
+
+[1:04:05] So you'll have to head over and do that once more to the vampires. All right, everybody. Thank you. That's it. Thank you.

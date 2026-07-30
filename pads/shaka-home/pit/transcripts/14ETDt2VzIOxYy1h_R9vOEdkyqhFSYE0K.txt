@@ -1,0 +1,159 @@
+# Do More With Agents_ Inside My Productivity Agent Stack by dcbuilder_eth
+
+Date: 2026-06-17
+Source video: Do More With Agents_ Inside My Productivity Agent Stack by dcbuilder_eth.mp4
+Drive: https://drive.google.com/file/d/1diDQ5BBR8EW4rHFcwDHK5d2XcaqwlTkV/view
+Duration: 00:21:24
+Transcribed: 2026-06-18 · whisper large-v3-turbo · language: en
+
+---
+
+[00:11] Okay, hello everyone. Okay, so hello. So for those of you who don't know me, my name is Dominic, also known as DC Builder on the internet. I'm a research engineer at the World Foundation. Maybe I can sense, since this is like a very improvised talk that's not prepared, it's just like me freestyling, talking about some things I've been doing.
+
+[00:34] I work at World where we're building like the real human network, proof of humanity on the internet. But today, I had a talk on like World and some of the things that we were building. Today it's a little bit different. It's more of like things that I use myself to sort of deal better with life.
+
+[00:53] It's like a lot of complexities whether it's work or you know like health, your finances, there's like a lot of things going on. And there's this whole advent of AI tooling. And it's quite overwhelming to like keep up with like all the latest trends and everything.
+
+[01:08] So I hope to at least like distill some of the things that I've been doing over the last couple months. And how sort of you can map the learnings that I have gotten since to your own workflows and sort of your own AI use as well. So let me start with a brief introduction of how I got to the point where I am.
+
+[01:28] So day-to-day life, right? Like you have your work, you have your things you want to get done, you have your hobbies, and eventually like if you start doing more and more, a lot of the things that you do scale linearly and your time doesn't scale linearly, you still have 24 hours a day.
+
+[01:47] And if you don't want to cut back on some of the things, you can sort of like start building automation. So this was like the original sort of forcing function for me. I essentially was forced to stop doing some of the things I really want to do.
+
+[01:59] And it sort of became like a big sort of anxiety inducing thing where I don't want to stop doing the things I want to do. And at the same time, I want to get more work done and I want to be more productive and I want to help more people and do more things.
+
+[02:13] So to start, I guess one concept that is really useful is this notion of ontology. I can just Google the definition because I always butcher it when I have to freestyle the definition. It's the philosophical study of being, existence and reality and computer science and information theory refers to structured machine readable framework that categorizes concepts, their properties and relationships within a specific domain.
+
+[02:40] And so in the context of AI, there's different kinds of things that you might want to feed the AI for building like a personal operating system, right? You might have health data, you might have financial data, you might have work data, work streams, priorities, tasks, calendars, emails.
+
+[02:58] And so I don't know if maybe you've seen like this auto research thing or LLM wiki concept from Carpathia and some other people on X and other places, but in general, there's different ways that you can represent data so that the AI can make better actionable decisions on it and actually work with it in a more functional manner so that it scales and is more maintainable.
+
+[03:19] And so this is sort of the process that I started applying to my own self. One of the companies, I love them or hate them that I personally believe that like is the best that doing this is Palantir. They're like really good at mapping essentially AI models to specific, oops, to specific structured data and making the data have the structure that the eyes can use to the best extent to make actionable decisions on it.
+
+[03:45] And also you can represent the data in different ways to make actionable decisions on them. So I'm gonna like walk you through sort of like a custom front end that I built for my personal self because not all data is made equal and you want to see different kinds of data represented in different ways.
+
+[04:02] So here I start with my sleep data. It's like the simplest thing that I can show. These are exports from WHOOP and eight sleep. So I have like my WHOOP data all the way up to June 4th which was the last export I did. You can see like heart thing.
+
+[04:15] This is like a mockup of the UI that WHOOP has. You can see like all the different things that I have even like a simple calendar UI thing where I can switch to previous days. Also like a simple graph and weighted averages over those periods of time.
+
+[04:30] This is sort of like an introduction to this, right? Like you can export data from all of the different platforms that you have and you can visualize it in ways that can help you reason about it better. And since there's lots of things going on, you don't really want to maintain it yourself.
+
+[04:43] You want the AI to maintain it for you. You can notice here there's no like edit button here. Like the way that I interact with these things is using an AI agent called Runner. Full disclosure, I'm an investor in the company that builds Runner.
+
+[04:57] But essentially it's very similar to what Codex or Cloud Cowork or ChatGPT allow you to do is like pretty much the same thing. You can connect these harnesses to different kinds of connectors. So if I open Runner on my local computer, here you can see like all the different connected apps that I have, right?
+
+[05:17] I have a, maybe you don't see it very well. Let me try and increase the, can I increase? Let me change to US. Right, now it should be more visible, right? You can see like all my different email, Slack, Superbase, Telegram X, like all the different kinds of connectors.
+
+[05:38] But it can also like run things on your computer, right? It's built on the Anthropics agents SDK. So it can run things on your local computer. It can access your file system. It can interact with your browser. It can run like con jobs or automations that run periodically.
+
+[05:52] So this tool is really useful for me to interact with this UI, right? Like instead of me like manually doing all of these things, I have the AI go to the browser, run an export from Whip or Hsleep periodically. It automatically then waits until it receives an email with the export, downloads the zip file, and actually processes the CSV and uploads it into the thing.
+
+[06:14] So it renders automatically. Like it's not me doing it manually. And this is sort of one of the things. Another one which was kind of hard for me, it was like managing my finances because I've angel invested quite a bit in several companies.
+
+[06:25] So like tracking, like all the portfolio companies now will just trigger a privacy filter, but essentially like tracking like all the investments that I've made, you know, which valuations and who does what and managing investor updates, things like this.
+
+[06:39] There's like a lot of these things scale linearly for every company you manage. It's like another set of legal documents, another set of updates, another set of valuations, another set of everything. And essentially like increases the demand on your time linearly and the complexity of managing the taxes and accounting for all these things, how to liquidate these assets, price feeds, et cetera.
+
+[06:58] It just gets very complicated. You may not have this specific need, but I'm sure that you guys went really deep into different aspects that interest you. And in general, like the really interesting way that this can apply to you is the same thing of like applying this process of ontology to your own data sets and then working on top of it.
+
+[07:17] One question you might be having is like, okay, like this currently I'm using like models like Claude and Codex for it. So maybe it's not as privacy-preserving. This is flagship LLMs, but I'm also working on like a way where you can like use regular inference, like local reasons.
+
+[07:35] This is like a concern that I've gotten from a few folks. But yeah, I also like to show like some other ways that I use it. I export all my content from like Instagram, Facebook, LinkedIn, you know, like you have so many people you end up meeting, whether it's at city and other things.
+
+[07:52] And sometimes I just like forget people I meet because I just meet too many of them. And you forget the context of like, what did they do? Who they know? What skills do they have? I'm currently like in the process of enriching this data set.
+
+[08:03] But all of this, like these 17,000 contacts, all of them is like live in a SQL database that I can query and you have columns. So I can do like relational queries. I can say like who is in a specific location and it has a specific role on a specific company or has a specific skill set.
+
+[08:19] So all of these things I think like are very useful to essentially like accelerate the pace of anything, right? Like a lot of the things that I do, for example, I have my personal website, dcbuilder.dev and I have like 50 portfolio companies and a lot of them have like, they're trying to hire talent, right?
+
+[08:36] So I also build like a hiring page or like a jobs page. You can filter by company, whether it's portfolio or like friends companies and vice versa. So if you're a candidate and you wanna like find a job and if you're a friend of mine, I can list you on my website.
+
+[08:49] And this is like one of the things, right? Like how I can be useful. I can help my portfolio companies because I index all my contacts. I can help them find essentially like good talent and I can help my friends find good job opportunities based on the market and of people that I know.
+
+[09:05] And the thing that where I add value is the sort of trust. You know, like I know this company, I know this founder, I know this contributor to this like interesting project. I also built a news letter. So you can like, I retweet like all the different things that I like around like tech, AI, cryptography, blockchain stuff.
+
+[09:27] So one of the concepts that is also useful is like, there's data you wanna have private. There's data you wanna have public. And there's data you wanna have like semi-private. As in like, I can for example, like for example, Josh who's in the audience, he is at the World Foundation with me.
+
+[09:45] I can for example, share things that I know about World, like who is working on what. And I can only share it with him specifically, for example. Like I can build, like since my personal data thing, like my portal is like just databases and APIs.
+
+[10:02] I built APIs over these databases and anyone can interact with that API and I can gatekeep it with logins for example, right? And so now I can give selective access to Josh to specific subsets of the data that I have so that Josh can be more productive in his work.
+
+[10:17] And sure like now with AIs, the good thing is that we don't need to really use UIs anymore. Like I'm not like trying to get Josh to use my personal UI. Like the UI is like very tailored to myself. The good thing is that now that you have an API, you can build a CLI over it or an MCP over it and give selective access to people through that MCP and you can connect that MCP to your agent.
+
+[10:40] And now you can for example, like hook MCPs for all your different friends if they like were to use this sort of thing. And you can just ask your LLM that you interact with every day to ask things like this, right? Like Josh could ask like, hey, who is someone that at world is currently working on like world chain, right?
+
+[10:57] Because like maybe like there's some reshuffling of like resources and people working on different things. I don't wanna get like the latest digest from your point of view. So these are sort of the workflows that I feel like everyone is gonna converge towards in the near future.
+
+[11:11] Many people like even like many years ago, like the obsidian folks were trying to create like a second brain kind of structure or like your second virtual self or whatever. But I feel like now with modern AI, it's actually maintainable and it's actually scaling you.
+
+[11:26] It's no longer like a bottleneck to like, have to like journal everything that you know manually and update all the data points and do all these things manually. Because again, that's like a linear demand. It's now with AI, I can have a cron job that automatically indexes data and knowledge base.
+
+[11:43] Like it builds a knowledge base for everything from just internet data, my own personal interactions, my own messages and everything. And I store it locally and I can host it in a whole media server and I can do everything like this. So this is the general introduction to the concept.
+
+[11:57] For example, I can also show you like my travel, like places I've been to, trips. Like I can, you can export all sorts of things like YouTube videos, books I wanna read. Like it has like automatically indexes transcripts for every video that I have in my watch later tab every day.
+
+[12:11] So the like, I can like prioritize which thing to watch based on interest, books, video games, notes. There's a lot of these pages are not done yet. Mostly because I went like by priority, like fitness. I like calisthenics tracks, like the workouts that I wanna learn or like exercises I wanna learn.
+
+[12:26] So in general, like I didn't have a general direction for the talk, so I was hoping if you guys have any questions we can make it more interactive. So I can maybe help you apply it to yourself or like if you have any questions around that. Okay, Robert, yeah?
+
+[12:51] Okay, yeah, this is really amazing. Did you say, maybe I missed in the beginning, LifeOS, this is on GitHub, you can just grab it or? Not yet. It's currently very unpolished. It's like a custom UI over my own Obsidian vault. So this is like my own personal Obsidian vault, right?
+
+[13:08] This is like DC, like a DC folder in my core, like home. And it has like newsletters, knowledge, investing, has a wiki, it auto indexes, knowledge is on everything. So it's just like a custom UI that just directly maps to the file structure of this.
+
+[13:22] In order for me to make it open sourceable, there would have to be like an onboarding thing where you can directly map it to your own vault, right? Like there would have to be a thing of like, what are the things you wanna do and everything.
+
+[13:33] But it's like not everyone is gonna care about like angel investing, for example, right? So my hope with this is to build an open set of components, whether it's like graphs, styles, like an open platform, you can like style easily with your agent, or essentially you can go through like a set of questions so that it can create this similar layout for the things that you care about.
+
+[13:53] And with codex or cloud code, you can like change the UI to your wants. Because like I built this UI with codex in like two weeks. And a lot of these spaces are not built yet because I still need to apply them. There is one side of this, is the data and operating system side, which takes a while to build.
+
+[14:09] And the other one is just the UI, which you can like easily change and adapt to visualize the things in that knowledge base that you have. Because not everything is well visualized in text, in interactions with chat GPT. And I really believe in the idea of like generative UIs, where you can build UIs that customize to the specific ontology of your system that you want to do and what you want to do.
+
+[14:31] Like everyone will build it like their own Jarvis, quote unquote, and different ways of interacting with it. Currently, I just built a web client. I also built here, you can see like a desktop, an electron app version, but I also like want to build like a phone client, you know, like, and all of this would be surf over like tail scale over SSH.
+
+[14:49] So all of it's like private encrypted and shared across all my devices immediately across any client for any device that I use. But for something open sourceable like this would be like, built a set of examples of how to use it, built a general set of custom UI elements that people can map easily so that you don't have to be really technical to like talk with codecs like, hey, this UI element is like bricked, whatever.
+
+[15:10] If you like someone who's built like backend systems or someone doesn't know like how Docker works and SQLite and how to do all these things, it's not really gonna be like off the shelf. So you have to be an engineer to use it. My goal is to build it at least to a point where with cloud code and codecs, someone who is not technical can manage just like with natural language and nothing more.
+
+[15:32] Okay, yeah, that makes a lot of sense. Is your intention eventually that this is gonna be on DC, it should be on dcbuilder.dev? Yeah. Okay. Yeah, so. That's neat. So I built this like public site, right? There's the, I think you wanted to ask a question.
+
+[15:49] You can pass the mic. Yeah. Yeah, so you can essentially, as I mentioned, like there's gonna be things that are private to me, which is this dashboard, right? Like that's why I have a privacy filter so I can demo to people like the thing without showing like my net worth and stuff.
+
+[16:05] But yeah, essentially like there's gonna be things that are private to me. There's gonna be things that are public and there's gonna be things that are like access controlled gated, right? Like I can share with you things that are like crypto news, but maybe like just my own opinion about them that I don't wanna share publicly or things like this.
+
+[16:22] And it's not just gonna be a UI, but I want to turn all of this into an actual API and like do like an open API spec and feed it to an MCP. And then when your agent interact with that MCP, with your specific login credentials, you can ask a question and have access so I can approve things like based on your own request for things so that you can interact with natural language or with your own UI and you can custom like connect and plug and play and you can like build like your separate internet of agents, right?
+
+[16:52] Like my agent talks to your agent with all the different access controls and like plethora of things that I have, like that I wanna share or could share with you in my own home server and such and such. And I think like this is the direction where a lot of these AI systems are actually going because this is saving me like 30 hours a week, which is like really insane for like filing my expenses for all the travel, like being here, like I take Ubers or I rent a car or I'm at a hotel and I buy a snack or whatever.
+
+[17:17] Like just uploading all the receipts, I don't have to do it anymore. I just take a picture and then my agent automatically goes to photos.google.com, searches receipts, automatically downloads them, uploads them to Expensify files, like all these things.
+
+[17:29] Yeah, we're having an AI. Yep, totally, totally. One of the initiatives that we're having with a few friends of mine are that ever since the US government export controls on Mythos, we got eight B200s in Europe and a server among a few friends and we're hosting open models on them.
+
+[17:56] And so we can also like share inference like together with friends like this because eventually you want to have sovereignty over the intelligence, right? Like I don't want to suddenly have to work 30 extra hours a week because OpenAI and Anthropic were forced to stop giving me tokens, right?
+
+[18:13] So intelligence sovereignty is going to be really important. And this is finally a reason that like if someone really were to like stop me from being, like I would feel dumb if I don't have access to Codex right now, like it literally like heavily imposes on my personal life and like my work and everything.
+
+[18:28] So that creates like a big incentive for me to actually have sovereignty at the level of intelligence. And I feel like this is going to be a big movement. The reason why it hasn't happened before is one export controls weren't really a thing and people weren't worried and the LLMs weren't good enough, right?
+
+[18:43] For them to even want to be export controlled. Now that intelligence is actually important and actually can do really good stuff for you, I feel like it's going to be much more important to actually have like some kind of sovereignty of your own personal on work intelligence because it just defines everything that like how capable you can be as a human.
+
+[18:59] Yeah. I absolutely love this and I have so many questions. I'm curious how much you interact with this on mobile and how much is like really routine? Like every day are you hitting fitness trackers? Yeah. What is more like maybe weekly or monthly or annual like uploading blood work or connecting to like fitness device?
+
+[19:18] Yeah. I'd also love to know how much you think you've spent both in time and tokens on where you got to so far. Yeah, totally. Yeah. I also like do like half a year like biomarker tests and stuff. Yeah. No, like the goal is right now, I only do it through my computer, but that's mostly a limitation of runner, the agent.
+
+[19:35] They don't have a mobile app just yet. Once they release it, I could probably do it too. Or you can just use codex, like instead of runner using the API, the only reason why I use runner is because it has all the other context connected and chat GPT, for example, you only can limit like one account per plugin.
+
+[19:49] You don't have like one email connected with Gmail. You can have like three or four or five because I have work, personal and other other ones. And so, yeah, like the idea would be you have clients anywhere and you can interact with AI from any client anywhere, right?
+
+[20:02] But you have to have an AI client for the service that's interacting with the local API over tail scale locally as well, which is going to take like a month or two. But the goal is like, I just do a workout. I in natural language talk to my phone, like what I did, like, Hey, I did 30 seconds of a front lever in this set.
+
+[20:16] I did 30 seconds of like, I don't know, I did 10 muscle ups in like whatever. And like it automatically calls the API after it like transcribes and the LLM figures out how to call the API based on the text that I wrote it with the prompt. And so this is sort of like how it's going to look like.
+
+[20:29] You can talk to it and like show it a video. Like with like Gemini has like video based things. You can talk to it, you can type with it from any client, any desktop, any whatever device you have. I feel like this is sort of like also like what the AI devices are going to be like.
+
+[20:42] You know, like the teaser of like the open AI device that they're building. I think it's like sort of like this is what it's going to look like, like their vision of it. Yeah. But I think we have to end it here, right? It's like one minute more.
+
+[20:54] Shame, because I feel like I personally have so many questions. Thank you so much. That was epic. Thank you for this, everyone. Give a hand. Thank you. Thank you. What we're going to do now is have a really quick turnaround of the room before Notion Labs.
+
+[21:09] Just as a quick shout out, this is a closed door event. So if you're a part of the Notion group on Telegram, please stay, stick around. If you're not, I would kindly ask you to explore the other programming happening in the hub and elsewhere.
+
+[21:23] Alrighty. Thank you so much.

@@ -1,0 +1,353 @@
+# Making Self-Sustaining Villages Come True with James Ehrlich _keynote_ demo _ Q&A_
+
+Date: 2026-06-23
+Source video: Making Self-Sustaining Villages Come True with James Ehrlich _keynote_ demo _ Q&A_.mp4
+Drive: https://drive.google.com/file/d/1yStDvmkU_oVT6A-auwiSOTNtxDuR8ZYt/view
+Duration: 01:01:49
+Transcribed: 2026-06-25 · whisper large-v3-turbo · language: en
+
+---
+
+[02:47] It depends on where you are, if you're on time, south or slower, European south. Hi, everyone, and welcome to today's session, where we're going to talk about how to make regenerative living, regenerative villages come true.
+
+[03:57] And, yeah, just to introduce, I've been hosting a few sessions here at Edge on the philosophy of the future track. I am the founder of a company called Futurist, where philosophy meets the future, where I am, amongst other things, hosting a podcast called Unbox Your World, where I am exploring topics at the intersection of philosophy, science, technology, future, and the future of living.
+
+[04:24] So, and my observation, really, from having run this podcast for six years, is that there exist so many amazing genius ideas out there to build a brighter future, but, oftentimes, they need to get mainstream. So, these days, I focus on making these ideas accessible to a wider audience.
+
+[04:49] So, packaging and translating them and communicating them to a wider audience. And I do that in my podcast, but also, if anyone happens to need a communicator, then send them to me. So, speaking of the podcast, James was actually the very first guest that I hosted six years ago.
+
+[05:08] And I just remember it very vividly, when James was walking me through a day in the village. I was kind of like, almost closing your eyes, and then, yeah, it was very vivid. And since that day, I, yeah, I just wanted to live like that myself.
+
+[05:22] So, and you have done a lot of cool things before what you've built. When you go to show us soon, you have been working for the Obama administration on the regenerative infrastructure. You have been producing a TV series on organic living. You've reached 35 million homes, which is quite impressive.
+
+[05:41] And you've done work for NASA, Singularity, Stanford. And this is just a fraction of the things that you've done. So, but leading up to this work, and I'm really looking forward to showing what you've built, because it's really amazing. So, thank you so much for being here.
+
+[05:58] Thank you so much. This is actually my second visit here to Edge Esmeralda and to Edge City. So, really grateful for the invitation and the hospitality. So, I'm James Erlich. I'm a director of Compassionate Sustainability at the Stanford University School of Medicine at the Center for Compassion, Altruism, Research, and Education.
+
+[06:24] But, I'm originally from New York. How you doing? Got to throw that in there. Hey, De Niro. Oh. But it kicks in very quickly. But my undergrad was in computer science and back then media technology. I started a software company with some friends.
+
+[06:43] We were working with George Lucas, Industrial Light and Magic. This was like the sort of the transition moment from analog to digital special effects. Also, I'm an OG video game designer. Atari, Nintendo, Sega, and my software company back then was doing all those different things.
+
+[07:01] But interestingly enough, I was immersed in nature. I was living north of the Golden Gate Bridge in a western Marin, which is semi-rural. People were riding horses into town for their morning latte. A little adjustment there. Coming from New York, I just have to say, with the hitching posts and things like this.
+
+[07:20] But I was really, really inspired by farm-to-table neighborhoods and communities. And going to these meals, I was just feeling really healthy and really happy. And this spurred about 16 years of case study research traveling around the world, visiting eco-villages, intentional communities, co-housing, co-living.
+
+[07:40] I'd like to say my research is inspired by my stomach because I love to eat. I love to cook. And that spurred, as Maria was saying, actually a national public television cooking show called Organic Living. And we had a sister show called The Hippie Gourmet, just to kind of be edgy.
+
+[07:58] And we reached 35 million homes a week and it had a best-selling companion cookbook. But it was really the study of permaculture and soil health that was the most kind of intriguing for me. So we stand on these broad shoulders of Rudolf Steiner, Buckminster Fuller, Bill Mollison, you know, all these like amazing minds.
+
+[08:20] This is an example of an eco-village about 100 kilometers southeast of Chennai called Oroville. Now, you have to understand that when this small group of people, about 55 people, came to this place, it was completely arid, completely denudered land.
+
+[08:38] And using permaculture, now that they restore this place for 3,000 residents and half a million visitors a year, fully sustainable food, water, energy, waste to resource management. But you note that the wider regional area reinvigorated the microclimate.
+
+[08:57] I was so inspired by this. Jeff Lawton's work, amazing permaculturist from Australia. And this is Wadi Rum. This isn't exactly the example I'm speaking about. So you have this idea of this five-hectare parcel. It's not a very big piece of land, which was reimagined using animal waste, biomass, organic fertilizer inputs, even some micelle network inoculations, some drought-resistant planting.
+
+[09:24] And over a period of, you know, one to five years, and then eventually 10 years, you see literally the rebuilding of soil profiles. And also note the regional area has also been re-greened from this five-hectare parcel. This is something a lot of people don't know about.
+
+[09:41] This is a community that 3,000 years predates Mesopotamia. They're called Troupillians. And the Troupillians, it's posited that their main religion was soil health, that they had these communities, like 15,000 circular communities in the pods, that were, like, massive in terms of community size, and that spanned from Moldova through Ukraine.
+
+[10:07] Where is the richest soil in the world right now? It's in this corridor, right? Arguably one of the things that's so valuable to people who are looking to take that over. But basically, they had animals for scat and dairy. They didn't really do much slaughter except for sort of festivals.
+
+[10:25] Otherwise, it was sort of small plot farming, and then they were bartering or brokering between each other. This is a really interesting model. Anyway, I came to Stanford in 2012, armed with this primary thesis coming from a tech background.
+
+[10:41] Could we create a software relationship to nature, to the natural world? Could we use, eventually, machine learning software, AI, robotics? Again, this was back in 2012, sort of Star Trek thinking, if you will, back then. But I got involved in what's called the Solar Decathlon.
+
+[11:00] This was a single family house competition. 20 universities have 18 months of design, but only two weeks to build this flat pack, energy-positive home in a designated location somewhere around the world. And I went to the PI, the professors at the time, and I said, it occurs to me that a smart house inside of a dumb neighborhood doesn't make much sense.
+
+[11:23] And fortunately, there were right professors who said, this is a really interesting design challenge. Let's do it. So I self-funded research, both on campus and off campus, called Regen Villages. And it was a wonderful idea that we started to express, to integrate these energy-positive homes, but then around it with permaculture.
+
+[11:47] So food, water, energy generation, microgrids, waste-to-resource management. But in other words, it's a network effect. But also, there's an amortization effect in terms of costs. So we started to build out this Village OS software. And the thing about the Village OS is that it's, I think, quietly sort of unique in the sense that we're focused on mycelial networks.
+
+[12:10] That's the kernel of the software. Mycelial networks are the inoculation of fungal threads into root systems. And it's literally the Ethernet communicator of the Earth. And they are a transit system, a broker of carbon, phosphorus, nutrients, sugars, even water allotments over vast distances.
+
+[12:31] And it's really, really beautiful and really, really elegant and very low energy, low power. It's electrochemically signaled. The plants say, I have this, I need this. And the mycelial network acts as the broker. Takes a small piece of sugar for the commission, if you will.
+
+[12:49] So I said, okay, could we now imagine a digital mycelial network? Wouldn't that be cool? Could we not imagine that the output of one system becomes the input of another? And that was the kernel of this whole idea of a digital broker for a neighborhood, for a new-build neighborhood.
+
+[13:08] And also, eventually, someday retrofits. But also, how do we do something really unique? How can we start to create a dialogue between previously siloed infrastructure pieces? In other words, imagine an energy system, which is siloed, doesn't think of anything except itself, can start to have empathy, if you will.
+
+[13:29] I don't mean to put skin on zeros and ones. But essentially, some empathy for the water system, for the waste system, for the food system, and things like this. So, very quickly, I'll give you a demo of the Village US software, but just an overview summary.
+
+[13:43] This is a typical fallow, 60-acre, 25-hectare parcel of land. It's been over-farmed. It's basically over-ranched. And it's at the urban edge. So it's highly valuable land, but it is handcuffed ag-only. So what can we do to reimagine that land and say, gosh, wouldn't it be great if we could have the food basket, your water, your energy, your waste of resource management, passive home typologies based with earthen building materials, and this interconnection of systems and services?
+
+[14:22] What you're seeing here, really, is a self-sustaining village, neighborhood, township complex. So we take that 60 acres, and we actually can imagine about 400 homes, apartments, townhomes, row houses, some villas for market rate. But most importantly, is a two-third, one-third relationship, which I'll also show you when I demo the Village US software.
+
+[14:44] Getting to the topic that's really near and dear to my heart is food, and delicious food, and hyper-locally sourced food, and that tells a story. Recipes tell a story of where we came from, of who we are, of ancestry, of indigenous wisdom and values.
+
+[15:05] And it's yummy, and it's delicious, and it empowers. We argue that in-situ food production, full menu, is more bioavailable nutrition, okay? And that it just feels better. You feel better when you eat it. When you take a tomato that has even been harvested from your balcony, and it smells all the oils.
+
+[15:26] When you go to Whole Foods, even, it smells like nothing. So what does that mean? It means that the transit is causing that issue to happen. We also have been looking at, and been doing this research for a long time, on aquaponic and aeroponic, different from hydroponic.
+
+[15:40] So these systems, essentially embedded fish tanks, you can see there. The waste is ammonia that gets converted from nitrites to nitrates. With a low-energy water pump, it fills those lattices with gravity. The water comes back to the fish tanks purified, but along the way, it provides the nutrients to all the cultivars.
+
+[15:59] So this is an effluent-based ag system. But in our research, we've been able to get one-third increased yield, 85% less water consumption. This is really remarkable. So this can be in lots of different climate zones around the world, by the way.
+
+[16:16] So we have year-round thinking on this. Another thing you have to do is think about circularity around waste. So these are lovely biodigesters. Black soldier fly larvae, aquatic red worms. These little critters eat their own weight every day in food and animal waste.
+
+[16:32] But they're the perfect nutritional input for fish, for chickens, live larvae, with high omega-3, calcium, fat. And they digest so much all the time that there's a recurring circularity with the waste resource management. Shifting over to the built environment, it's how do we create social affordable design and development.
+
+[16:56] And this is something really important to spend a little bit of time with. Because we're looking at prefab construction. So this is both component and what's called volumetric construction. What this does is it shaves off almost one-third the cost for the build of a house.
+
+[17:13] Okay? And we're looking at some other technologies now that are shaving off 90% of the cost per square meter of a house. And what they're doing really is, with precision construction, data-driven construction, they're able to bring to a location, sometimes even building at location, these forms which pop up, you know, even residential towers made of timber in a matter of a week or two.
+
+[17:36] You've probably seen the Chinese have been really, really great at building railroad stations and apartment complexes and hospitals in a matter of hours or days. But it's about living within nature, as Maria was talking about, this whole idea of storytelling and this idea that you wake up and you smell the fresh bread being baked and the coffee brewing and this idea of cafe interconnections and this whole celebration of local food and piazza kitchens
+
+[18:06] and, you know, that also that there's this natural proclivity to wanting to kind of be involved somehow, to garden. I think the Blue Zone research is really interesting, where people living past 110 years old, it kind of parallels my research at Stanford.
+
+[18:24] But really what's super interesting is the soil microbes under the fingernails. When you have healthy soil that you're gardening and farming and then you eat something, that affects and goes into your gut biome. So this is my personal thesis about why people are living past 100 years old.
+
+[18:40] But it's also about engagement, multi-generational communities. This whole idea of putting seniors away someplace or people with children being pariahs, it's anathema to It Takes a Village, right? So, again, it's this whole idea of communities and engagement, walkable, bikeable, edible landscapes.
+
+[19:00] I love this idea of a story arc, right? So communities that I've visited around the world in this lovely vignette. When you go into the community center, there are these sort of message boards. And it says birth announcements, life celebrations, and then going forward, there's, you know, graduations, retirement, hospice care, and death notices.
+
+[19:20] So you're not afraid. You're living in this whole window of life that the children are exposed to, where things come from and where they go. So shifting gears, literally, smart mobility is coming. You've probably seen the Waymos, the robo-taxis.
+
+[19:38] It's nascent, but it's coming to a place near you. We don't need garages. We don't need driveways. It's really, really doesn't make any sense that a vehicle should take up more room than a master bedroom, let's say. Also, and I'll speak about this quite a bit in the talk, but it's this idea of local regional supply chain security, which has to do first and foremost with this emergent robotics.
+
+[20:03] We're kind of in the Henry Ford moment right now with robots, if you will. But this whole idea that as the community that I'll show you starts to evolve and get better and improve over time, that what happens is we can start to export locally, regionally, using these drone vehicles and drone taxis and things like this to have local regional supply chain security.
+
+[20:29] And that's a really big topic for where we're going. We have a lot of amazing partners working on the research and the development of the Village OS, and now I'm going to show you a demo of the Village OS. So I'm going to stop the share there, and I will get the connection to the server.
+
+[20:53] While I'm doing that, maybe anybody might have some questions. So I'll just have to log in here. So we've been helping landowners around the world already, even as we're still developing the stack. I'll just make sure I get my email correct, my password.
+
+[21:30] And yeah, so this is a really exciting project, one of multiple and different climate zones that we've been working on. This is a black African, South African landowner. I'd like to say he's the one black pixel on the white page of white landowners in South Africa.
+
+[21:46] He's a farmer, and he also teaches young Africans organic, biodynamic, polyculture farming with financial feasibility. So he's quite a remarkable guy. So this is his 200-hectare parcel of land, which is roughly almost about 500 acres. I don't know.
+
+[22:03] My math might be off a little bit. But anyway, so when we select the land, what we've been doing is we've been building an open API, application program interface, that can connect to and aggregate everything in terms of topo maps, protected habitat, ground temperature, air temperature, relative humidity, sky coverage, illumination range.
+
+[22:24] It's all relevant to solar panels and solar rays. We look at wind speed, wind direction, and this is all annualized data for wind breaks for ag, but also for comfort and for wind turbines. Precipitation, when it does rain, how do we channel that water?
+
+[22:40] Every drop is precious. Soil mapping, highly variable. It's a big design challenge, but we're working on that one. Wildlife corridors, census data, traffic patterns, property values. It's a cornucopia, a smorgasbord of amazing data, but it lives in many places, and we need to first aggregate it and then synthesize it.
+
+[23:03] And the first thing that I wanted to do, coming from a game design background, was to democratize the whole platform and make it easy for an aging farmer to be able to look at their land and understand what's possible. So the first thing we do is we extrude the land, we bring it into this 3D game engine so we can actually see the contour map and understand also where the placement of the land is relative to the urban edge and to Pretoria, which is about 15 kilometers away, which is not far away, so it makes this land completely economically viable from a business case perspective.
+
+[23:36] But what we also do is we triangulate topo map, geospatial data, climate weather data, to start to cycle through these key analysis. So the first thing we start with is permaculture design. We want to focus on hydrology. We start with water flow.
+
+[23:52] And what we do here is we get the suggested values of where best we would imagine water reservoirs for potable water, aquaculture for fish ponds, living machines for digesting effluent, environment, but also the kind of, based on time of the year, water resiliency.
+
+[24:09] We can also now start to connect to both small and large language models. And this becomes really, really interesting. Imagine to give the land a voice. What does the land want? What is the land capable of? How can we have indigenous wisdom finally speak to the landowner and the developer and the government in a really meaningful way?
+
+[24:31] And that all has to do with this natural resource capacity and flows. But we can also show different kinds of system service providers in each of the categories. For instance, in water, there's purification, irrigation, fire suppression, desal, wherever it may be.
+
+[24:49] They can model their local installer, service, software, system, product, whatever it is, and be a likely candidate then for RFP, you know, for when the developer is interested in working with them. So it's a thankful open source platform, in other words, for all the different stakeholders.
+
+[25:07] When we get to the next level, nutrition, this is informed by the fluid dynamics, which typically starts to tell us about soil sediment and geological formations. So here we start to get a snapshot, a cursory view to start with on where best to place the most high value full menu cultivars.
+
+[25:31] So it's also about restoring soil profiles, so animal waste, biomass, organic fertilizer inputs. But the design challenge is so interesting. How much full menu protein, nutrition, could we derive at the neighborhood scale? So high protein cultivars, beans, legumes, stunted grains, quinoa, amaranth, millet, small protein, chicken, egg, turkey, grazing animals, just primarily for dairy, going back to the true pilliness.
+
+[26:01] And soil health, aquaculture for fish ponds, and also aquaponics systems as well, going back to that deck. But what we've done here already, just so you know, from a financial perspective, is we've helped this landowner leapfrog the zoning on ag-only land.
+
+[26:20] We've given them an economic lever, okay, to say, now all of a sudden, the two-thirds of this land is conserved for bioavailable polyculture, local nutrition, for local supply chain support. So now, he's able to start to actually model the built environment, right?
+
+[26:40] And that's exciting, because then we sort of bring in this SimCity-like thinking a bit, going back to sort of the game design front. But it's a modeling of where we would put first responders like clinical health, mobility hubs. These are generic values, essentially composed of the demographic data.
+
+[26:58] But also, we can start to, based on the local earthen building materials and prefab constructors in the area, what is the best-in-class, lowest-cost, best, really, in terms of dignified housing solutions, that we can start to model sort of the baseline architecture for this community.
+
+[27:20] You can see, as I'm toggling the different forms, we're getting real-time per square meter, per square foot ratios, which can also then lead to the costs and the IRR, right? We can also look at ingesting the rule books, which is one of the things we're doing now, too.
+
+[27:38] And that's really important. For instance, this part of South Africa has a three-floor height restriction. So what can we do with those extra two floors in terms of really getting to social affordable access, right? But it's also how much food we can grow on rooftop gardens, the interstitial spaces, fruit trees, nut trees, berries.
+
+[27:59] Every square meter is edible from our perspective, right? And resilient at that point. In addition to, let's say, the two to three baskets of healthy food that they'd be getting from the wider farm connected to the community. Once we understand the built side, 8 to 1,200 families, we zoom over to what do we need to empower this community in terms of renewable energy and microgrids.
+
+[28:24] So it's a mixed bag. Rooftop solar, what's called agrivoltaics. If you're not familiar with agrivoltaics, these are solar panels that are out in the fields, but they don't compromise the ag because we have shade crops and grazing animals that get underneath them.
+
+[28:38] Well, residential scale wind turbines and these amazing biodigesters, so biomass and biogas literally are digesting tons every day of food, animal, human waste as a replacement for diesel and gas power generators. So it's a really exciting model for now, all of a sudden, you start to see this diorama come to life of South Africa's first real self-reliant, self-sustainable township.
+
+[29:09] Once we get the diorama kind of noodled the way we like it, we can start to apply physics. And I think this is really cool because this is an expansive world in terms of new models, in terms of world models. So basically, we're able to put particle systems and start to model what happens when, right, sort of those Godzilla moments.
+
+[29:30] So when there's torrential rains, atmospheric rivers, what can we do to see how the aquifer cisterns are behaving? We want to make sure we're not getting puddling, flooding, and really putting the diorama through all its paces. Conversely, during drought, how are we dealing with, we're calling the water for irrigation, fire suppression, potable needs.
+
+[29:52] This part of South Africa typically gets a light frost, a dusting, but what happens when there's some level of accumulation? So we want to understand this positive feedback loop, right? We test the model and test the model until we bring it to a point.
+
+[30:06] And I think what's super cool on the design side of the Village OS is start to modeling ESG, environmental social governance, SDG, the colorful tiles for sustainable development goals, and carbon sequestration models. So basically, what we're doing is we're showing sovereign wealth, pension, institutional and insurance companies and reinsurance companies, blended finance, that these communities are a good bet.
+
+[30:35] They're an investable stack. Why? Because over a period of time, they will be risk resilient, and they will avoid damages, right? But moreover, we can start to show the local community, the NIMBYs, if you've never heard that term, not my backyard folks, lots of them everywhere, how this new-build community is actually an oasis, how it can provide a place for them to charge their devices, to grab a meal, to grab a meal, a cultural event, take a class, be really engaged, very much like this Edge City group, in the future of these communities going forward.
+
+[31:09] And so this opportunity to really understand how, in aggregate, these communities start to contribute to supply chain security, locally, regionally. And then finally, once the Village OS is done modeling, and this community has been approved to break ground, we will return and model what's called an Edge AI, TinyML, Small Language Model Sensor Network.
+
+[31:35] And it's really not that complicated. It's just essentially not dealing with the cloud or big data centers. It's low-energy intelligence, where we need it the most, for human planetary health at the neighborhood scale. So what are these systems behaving?
+
+[31:53] How are they improving? How are we mitigating risk? And it's really focusing on food, water, energy, waste and resource management, not spying on people and their behaviors. So it's this whole idea of resiliency at the beginning, the middle, and the end of these communities.
+
+[32:11] And as they evolve and grow, that we can be using the technologies that emerge, that are especially becoming more and more open source, free and affordable. So everything we're showing here is an open source stack, open science. We're planning on, once we get to the next level, is releasing the Village OS natively to the world.
+
+[32:32] And then, at the same time, we're working in the UAE and Saudi Arabia to try to build, and also in Switzerland, to try to build this new asset class for risk resilience and disaster avoidance. So this open source tool becomes the communication protocol for this big funding, where the money can actually come from to get these communities built.
+
+[32:53] So, in any case, the Village OS is my life, and RegenVillages is my life. I have been so blessed to be on this journey now for 15 years at Stanford. I just entered my 15th year, 16 years before that on the research, a lot of other years just traveling around, eating delicious food, and exploring, like we all are here, what's next, and what's needed, and what's hoped for a better world.
+
+[33:25] So I want to thank you so much for inviting me here, and I'm happy to take any questions. Thanks so much. Thank you so much. Is this working? Yes, it is. Perfect. So yeah, we will get to the questions in a bit. Thank you. Yeah, Tamina, when you were showing this, this was really like a conditioner to my soul.
+
+[33:49] I think it's pretty amazing. Thank you. And I think, I'm just going to do a few quick questions and then hand it over to the audience. So I think, the first one I just wanted you to share with the audience is, my first, my question to you six years ago in my podcast was, can you explain a day in a village?
+
+[34:09] Yeah, I think I started to do that a little bit during the deck, which is, it's all visceral, right? You wake up in the morning, you're living, you know, in a community which is a dignified, passive house. So the house itself is generating more energy than you and your family need.
+
+[34:22] Start with that. But it's beautiful with earthen building materials, whether it's cross-limiting timber, maintenance, mass timber, or adobe, earthen building materials, hemp, those kinds of things. And that you're, you know, when you walk out the door that you see where your food is coming from, and where your water is coming from, and your energy is being generated.
+
+[34:41] And then you smell the food being cooked in the piazza kitchens, or the bread being baked, and that these are all these amazing visceral connections. Also, you know, my experience is, like, coming into the garden areas and seeing somebody, you know, aging with a walker, meeting, you know, the families with the prams.
+
+[34:58] You know, and there's this just interface between different generations. Yeah. And then we don't forsake that wisdom, because it's really important. Yeah. I remember one of those things you also were talking about. Instead of having cars, you will pass by tomato plants.
+
+[35:12] And I was like, oh, that sounds so great. How would you define a regenerative village? Because there's a lot of projects, there's a lot of, yeah. How would, what would your definition be? Well, I think this is one great example. We've helped this landowner now get to final planning approvals for this townships.
+
+[35:33] We've accelerated the planning conditions. That's amazing to use technology to help a landowner, especially a farmer, to do that. But regenerative for us means that it's circular, that it is being able to take the output of one system to make the input of another, and that we're really maximizing our efficiencies.
+
+[35:50] It's about energy efficiency, and it's about productivity, but it's also about health. The health of the soil and our health. That's regenerative. Yeah. And I think the audience might be curious also. So you have worked on regenerative infrastructure under the Obama White House administration?
+
+[36:08] That's correct. Would you like to share a little bit about that? That is not under NDA. Yeah. Yeah, no problem. This was never under NDA. It's public knowledge. Yeah, so when I came to Stanford and I was involved in this microgrid definition on the solar decathlon, which I shared a little bit about, it occurred to me that we needed to extend the definition of a microgrid to include food and water and ways to resource management and smart mobility and sort of full stack thinking.
+
+[36:39] And fortunately back then, there were a group of people who thought that was a really cool idea. So yeah, I was happy and blessed to be part of the Obama administration in terms of OSTP, which is the Office of Science and Technology and Policy.
+
+[36:54] And, and of course, we've suffered a bit since then. So I was joined them back again, a little bit under Biden Harris, but things had been different, you know, because of COVID. And what would you say are the biggest obstacles to making this a reality?
+
+[37:16] And what would you like to see the builders here do to solve this? Well, we're trying to crack. You know, in terms of leapfrogging the process, because we're all battling, dealing with rules, regulations, easement issues, zoning, and also dealing with the cabals, if you will, utility scale infrastructure does not want people to be independent from fill in the blank.
+
+[37:44] Big auto doesn't want that. Big ag doesn't want that. Big pharma doesn't want that. There's lots of not wanting that, as it turns out. At the same time, we've had this amazing interest from all around the world. So we've had this amazing press coverage since 2016.
+
+[38:02] So BBC, Guardian, South China Morning Post, New York Times feature articles. So there's this weird dichotomy because we know there's this giant palpable demand. And yet at the same time, there are forces that are pushing against. So you can't deny that there are headwinds.
+
+[38:20] We have to come together and figure out what we can do to overcome that. And like it or not, Elon did something with the electric drive train, which proved, because it was always the most efficient drive train, but he just made it sexy. And he made it something that he could bring forward into the world.
+
+[38:39] I don't agree with his politics at this point, but for the most part, that was a monumental change in the mindset. So we have to do something similar with these kinds of communities, making them look really appealing and easy, but also financially viable.
+
+[38:55] And that's one of the things we're also working on with this new asset class. That's actually one of the, another founder of what is building a self-sustaining city in Sweden called Hubbell. And that's what he was saying. How can you, the whole fear, the fear propaganda of climate hasn't really worked so far.
+
+[39:14] How can you instead make people feel like you're upgrading to a better life? Would you agree on that? Absolutely. We've always tried to imagine a turnkey solution. Right? For people who, you know, like had headaches just trying to imagine buying a piece of land, like a parcel, and then dealing with the ground up organic, even eco village communities.
+
+[39:34] And it's really complicated and really expensive and challenging. So how do you kind of design these communities where people could just move right in? And, and that's exciting. And that's really what, what we've been feeling about this whole idea of, of especially precision construction, you know, the current work that we're doing at Stanford is really in data driven, cost effective, um, construction methods.
+
+[39:57] So that's why, um, we think that this is a perfect fit for that. You have the technology that can help plan the land and grease the planks. And then you have technology that can help get it built faster. Questions from the audience. Oh yeah. Okay. Um, do we need a third microphone maybe?
+
+[40:16] If you have one, you can start. Yeah. Hello. Uh, so exciting. Yeah. Thank you for being here and sharing this. Um, I have a question. Maybe you, you can't share on the record or not. Uh, I'm just very curious if you've talked with you on and California forever about, you know, incorporating these ideas into their project.
+
+[40:37] Yeah. So, um, it's a great question. We actually have met, uh, at California forever and walk the land. Um, and we're just kind of waiting for their environmental study to be finished. Um, we tried to sort of engage ourselves a little bit earlier on that, but they were nonetheless had their own thinking. Um, the hope is that we will be doing something like this for them and showing kind of the external suburbs at least, um, for California forever that this could be.
+
+[41:05] Also with, with, with Esmeralda, you know, we would love it to be able to be involved. Um, this, this kind of our, our thought process is new build, green field development that really especially tries to smooth the rhetoric with the local community.
+
+[41:20] Yeah. This is not something to be afraid of. This is cool. It's going to be farmer's markets and classes and place for you to feel. It's not a gated community in other words, but great question. Thank you. Hmm. Thanks Marina for facilitating.
+
+[41:39] Thank you. That was so inspiring. I think my brain is still just processing the awesome. I mean, is that really real? Like, is that, um, I guess just like a very maybe tactical question. Like we are doing a regenerative land project in upstate New York.
+
+[41:57] Um, would this work for that potentially? Or are there certain limits of like what you need in terms of size? Or like one thing we've always wondered about is like we're mostly, uh, we're 830 acres, but we're mostly forest and about 70 acres of lake.
+
+[42:15] We have like one meadow that's about like 25 acres. Hmm. So I kind of always assumed, you know, we could do some farming, but like we wouldn't really be able to maybe generate enough food. But I'm curious, like from what I'm looking at here, it looks like you can actually maybe generate quite a lot of food.
+
+[42:31] So like when you're hearing all this, are you kind of like this would work for you and you would even be able to, it would work for you and generate your own food and yeah. Yeah. Yeah. I mean, I mean, you know, um, you know, the self-sustaining, you know, being a hundred percent, uh, off grid in terms of food is a challenge in a developed economic area.
+
+[42:49] Unless people have sort of a commitment to vegan vegetarian diets for the most part, right? Um, we think we can get probably 60 to 75% of your daily nutritional needs, uh, met and, and, you know, the, the research and the effort in, um, in sort of small plot organic biodynamic polyculture is remarkable.
+
+[43:10] How many, how much tons of food that you can produce every year and upstate New York, you would mix that and with, with also with, um, controlled environment. Um, controlled environment, aquaponic aeroponic systems. So there's lots of different ways to continuously, um, produce nutrition, even in the harshest winter.
+
+[43:28] Something we've been working at and looking at in Sweden as well. So was it like in the Hudson Valley? Uh, it's a little further, um, west. It's not as fertile. We're, we're closer, like we're up in the Catskills. Okay. Got it. Yeah. Yeah. Nice. Yeah.
+
+[43:44] It's, it's definitely an interesting area for me. And, uh, my roots, my New York roots are calling me to say, yes, what can I do? How can I help you? I'll come find you. What can I help you with? Thank you so much. Yeah, no problem. Is it possible to come and have a look at the tool afterwards?
+
+[43:59] Sure. Yeah. Um, yes. Yeah. Terrific. Um, a question and a comment. Um, one is this South African project, uh, what's the approximate timeline for that? And the other just comment is, before you answer it, and that is that I just see that locally, I'm a, I'm a local, so I live in this area and I've seen in this area, um, the vineyards going out of business simply because there's a, there's a downturn in the wine industry that's probably permanent.
+
+[44:28] Um, and I can see that this can be applied to repurposing some of the massive acreage of vineyard that we've got in this area that's now going fallow. So just a comment. Uh, it's amazing. Yeah. So a couple of things we have submitted for the, uh, final planning approvals for a township, which is pretty amazing ahead of the schedule that we had.
+
+[44:48] That's normally the case. Um, there's still some, let's say traditional timelines that have to go through, which is probably 18 months before the breaking ground can happen. However, we were able to, by analyzing the rule books, right, and, and crawling through the local, regional, national rule books, we were able to find an exception.
+
+[45:10] And he could break ground in the first 200 homes. Why? Farm worker housing. All you need is one person, eight hours a day, sorry, eight hours a week, which is not a lot of time, to garden, farm, or do administration. And that, with that parcel of the, um, hectare of land, two thirds, which is, which is act-based, and plus the systems and services, there's plenty enough opportunity for the 200 homes to be approved.
+
+[45:37] So he's breaking ground right now on, on those, on those homes. So that was a freedom, uh, both in terms of the zoning, and then now he has the freedom to start to get some early revenue in from the farming, the permaculture, but also from, uh, some of the housing developments.
+
+[45:54] And it's a great idea, by the way. I, I see the vineyards here, and I see the fallow land as well. And there's, there's tremendous opportunities. Yes. Chris? Uh, this is super cool. Um, we're actually raising funds to build just this. In fact, I was late to Edge City, because we were bidding on a property in Vermont that we unsuccessfully bid on.
+
+[46:18] Uh-huh. Um, but I, I had a question just around, um, some of the design ethos around the building. Um, I visited 30 land projects in the last 18 months, and I've noticed, like, the ones that are truly off-grid have also reimagined lifestyles.
+
+[46:31] So, for instance, we think of, like, the modern fridge, which is a huge energy suck, um, super inefficient, um, and we think of even, like, modern environmentalism, which is, like, you know, you were talking about, like, electric cars earlier, but it doesn't really always solve for, like, you know, the other 90%.
+
+[46:48] Um, the building models that you use here, is it assuming that people are doing drastic lifestyle changes, like, maybe taking showers with, like, solar heated water at certain times of the day, or are you trying to maintain, like, the American lifestyle?
+
+[47:02] Well, it's, I mean, it's a really great question, and, and we're, we're not moving at this moment, um, towards, kind of, compost toilets and, um, and fully, I'd say, um, full circularity when it comes to plumbing, because there's a lot of issues with those systems currently in terms of being vacuum-based.
+
+[47:22] So, there's a lot of cascading failures that can happen in terms of if something breaks, you have to shut the whole system down. That's something that's sort of antithetical to our thinking in terms of that we want to have, um, redundant systems and not have a domino effect.
+
+[47:36] But also, in terms of, um, social contracts, we would like people to imagine, um, living with, without a car, or with, uh, EV on demand, and so that's one aspect, uh, for sort of social thinking. The other would be really just that you can't pour something down the drain, like nail polish remover, or paint remover, or whatever it may be, because that would affect the circularity of some of the systems.
+
+[48:04] So, there's certain rules and regulations based on, um, social contract, if you will, that people move into, but we're not really trying to so radically change how people live. Um, there are systems and services right now that, that are really viable that can be done at a much more affordable cost.
+
+[48:23] And that's, that's one of the big challenges that we're focusing on right now in terms of design. So, like, would your systems, like, I saw some, like, modular housing with, like, timber frame, um, would that assume that you'd still, like, be running air conditioning, and, um, or would you be using, like, more geothermal?
+
+[48:40] I guess I'm just curious how... So, geothermal, this is a great question. So, low-bore geothermal, which is, um, which is, uh, less than 10 meters down. So, it's very low bore. Um, and you bring that up, and you get a temperature constant. Depending upon where you are in the world, of course.
+
+[48:57] Saudi Arabia, other places, we have to go a bit deeper, right? But for the most part, we get this temperature constant. And that is air circulating or, um, um, water pump circulating. But most importantly, the passive house design and context is we don't need, with that delta, we don't need more, kind of, um, excessive cooling or excessive heating.
+
+[49:18] And that's really the whole idea. It's just comfort. You know, where you're living in a house is comfortable. Dignified, earthen-building materials, and focusing on those things. But great questions. Thank you. What time is it? I think it will be left.
+
+[49:31] Nine minutes left. So, how many people want to ask questions? Raise your hand. One, two. Just to make sure everyone... Okay, great. Yes. You had mentioned earlier in the presentation that there were some models for, like, through the modular housing, potentially being able to reduce housing costs by as much as 90%.
+
+[49:54] And I was just curious to hear a little bit more about that. Oh, yeah. It's great. So, Tehran Robotics is a group in Austin, Texas. I just learned about maybe about three or four months ago. And they have a robot. It costs less than $100,000, which is amazing.
+
+[50:10] But it can build two to three homes a week. What it's doing is it's gathering clay and mixing straw, which can be different kinds of medium. It can be hemp. It can be rice husks. It can be other kinds of farm waste. Basically, you get the tensile strength.
+
+[50:26] Bamboo, for instance. And then it puts that into...it's not extruding it, but it's slabbing it into shape and putting it into these Adobe structures. And it's amazing. And basically, they're able to shave off almost 90% of the built cost. That's a huge...that's game-changing.
+
+[50:46] We can start to get to, you know, per square foot, per square meter cost, that's just 10%. Then we have more money to do the other kinds of planning and infrastructure. So, I think it's just...there's things to be optimistic about. It's my life.
+
+[51:03] It's focused on what's possible and not to be pessimistic. We're surrounded, almost drowning in, you know, sort of doom scrolling. You know what I mean? And I want to, like, live in a more optimistic way. So, my son is 15, turning 16. I like to say he's the chairman of the board of directors.
+
+[51:23] But basically, it's a world that's possible, you know, where we can go and what we need to do to get there. And that's why everything that I'm focusing on is, okay, how do we move faster? How do we...where's the big money coming from? How do we answer those problems and those questions?
+
+[51:44] And just make it easier and democratized. So, yeah. Thanks. Thanks for your presentation. Sure. I want to talk to the big money component of this. Inshallah, as they say. Because the design and innovation seems like it's outrun the imagination and the constraints that capital have right now.
+
+[52:07] And I'm...I work with large institutional capital allocators, large family offices, particularly on their food and ag investments. And there's a huge gap in actual fluency, particularly when you get to multi-asset class, how do you actually invest and proxy an entire food value chain?
+
+[52:27] They invest in silos into individual asset classes. So, I was hoping you could speak. What have you seen in those fluency gaps? How is your software enabling, you know, defensible cases towards an institutional IC? Wow. Amazing. I'm so glad you're here.
+
+[52:44] I'm so glad you asked that question. Especially because I've spent the last four years or so traversing GCC. So, UAE, Saudi Arabia, Qatar, and speaking at sort of major conferences and events. Royal families. We've been engaging with a royal family in Dubai, for instance.
+
+[53:04] And also in the Kingdom of Saudi Arabia. And we do a lot of work, you know, as it is between Stanford. And I kind of juggle between Stanford and this sort of impact for profit company. Because Regen Villages, I founded as a Dutch holding company in 2016.
+
+[53:19] We've raised about 2 million euro from family offices, mostly in Europe. Norway, Denmark, UK, Germany, et cetera. One Saudi prince. And this new asset class that we're trying to tease out is really specifically focused on, imagine you have a portfolio of these land investments like South Africa, Mexico, Puerto Rico, Saudi Arabia, UAE, all over the world, heritage scale township village developments.
+
+[53:49] They have a rate of return that's predictive, right, over a period of time. And that's sort of pension fund modeling. So it's smaller rates of return but over many, many years. Long time horizons. Long time horizons, number one. So that's one thing.
+
+[54:05] The other is this wonderful bet. It's kind of like Polymarket, if you will, means insurance, reinsurance. So in other words, we have a neighborhood like this one in South Africa. You make this bet now. In 10 years, you will not only get your premium back but interest.
+
+[54:23] Or if there's some damage, which we doubt there would be because we've designed against that, then that's where the insurance policy would kick in to a certain extent. But the whole point really is that it's an investable stack in terms of making bets on these communities that are going to be resilient from damages, from climate anomalies, and most importantly, and this is the key thing, talking to those big sovereign wealth pension insurance companies, is brokering more peaceful, healthy, happier local regional areas.
+
+[54:58] That in the aggregate, each one of these communities starts to have public goodwill radius. Because it's overproducing, abundant surplus. So this is a really, really hot topic right now with this, whatever they call it, excursion. That's not quite solved yet in that region but also for the world.
+
+[55:20] Every nation state government is hunkering down and holding back because they have to protect their populace. That means the global supply chains are now, the wheels are coming off. So this is a, really speaks to that. So I would love to talk to you further, especially your family offices and others that would be interested in the next round of investment into what we're doing.
+
+[55:42] It's time for one or maximum two more questions. And you had a question over there. Anyone else? You have one? Thanks again for all these amazing questions, by the way. I'm really grateful to be here and to answer. I'm wondering if you can speak more to the insurance play you're seeing here.
+
+[55:59] Are you seeing this as like uncorrelated to current flood-prone Miami kind of a thing? Or what do you mean, what's the insurance? Yeah, exactly. So for instance, great question. The whole model community is a place called Babcock Ranch in Fort Myers, Florida.
+
+[56:21] Babcock Ranch, the developer, built 2,000 homes. But he did it in a Dutch way. He dug out a flood plain. He raised the homes up several meters. He had low profile roofs. He buried all the systems and services. Low profile solar arrays. Rounded edges wherever he could.
+
+[56:38] What happened with Hurricane Ian? It leveled Fort Myers. Destroyed the whole area. Except for Babcock Ranch. There was zero reinsurance. There was zero claims. Not a single roof. Not a single panel. Not a car was lost. They had no uninterrupted power or internet connection.
+
+[57:01] It's pretty amazing, actually. This is what we're talking about. I call it Amish tech, by the way. When the power goes out in Pennsylvania, for the Amish it's Tuesday. You know what I mean? In other words, it doesn't matter. And they're so resilient.
+
+[57:16] So the joke finally hit you. But anyway. But this is actually a viable design platform and desirable thinking. You know? How do we think about each of these systems and services that are redundant and resilient and that don't actually, that they can't be brittle and fall apart?
+
+[57:35] And there's a little bit more cost. I'm not going to say there isn't on the upfront. Maybe 15, 20% cost. But you also have people who would pay a little bit extra to live in those communities because of that resiliency. I think there's time for one last question unless there's a session starting at 3 p.m.
+
+[57:52] here. Okay. So the last one. There's actually a piggyback to the economic question. I'm not sure where our- I hope you didn't leave. You didn't leave, did you? No, you did. Perfect. So in the beginning you talked a lot about, you know, like community based agriculture, people growing the things, maybe just a few of the housing units being subsidized.
+
+[58:18] Then you're also talking about a like pension fund grade return. So I guess like what, when you model this economically, what are you thinking? Like are there hired people who are staff who like manage all these gardens? Because, you know, a lot of what I saw there is like, you know, probably like 50 people.
+
+[58:40] Is it people who live there who are like contributing or is this like fully automated gay space luxury communism? I guess like, yeah. Luxury communism. Wow. My wife's originally from Eastern Europe. I have to throw that term by her to see how it resonates.
+
+[59:00] So here's the thing, right? We're living in the current economic milieu where we have to speak the language of pension funds, sovereign wealth, insurance, and other kinds of folks. So we're trying to get to a patient rate of return. So pension funds usually get one, 2% annualized, but it's 20, 30, 50 years out.
+
+[59:21] So they just get this very patient rate of return. Normally it's around what's called REITs. So those are rental properties, right? But there can also be, based on the infrastructure and leasing and other kinds of things where the land is, that that kind of rate can also happen.
+
+[59:36] From the built side, we're trying to really crack the nut on costs. So if we can get on that side to get the cost super low, dealing with hopefully non-extractive developers who are not looking for 18, 25% IRR, okay, rate of return, that's also one of the reasons why everything's so expensive.
+
+[59:56] Because people are being extractive. It's greed. It's a greed-based industry, okay? So at the same time, maybe you've heard that employment is not what it used to be. People are graduating Stanford right now with advanced degrees, and they don't have opportunities, even entry-level positions.
+
+[1:00:15] And so AI machine learning robotics is going to shave off some swath of employment over the next 10 years, depending on who you talk to. And so we need to think about these neighborhoods standing up a certain amount of people's daily human needs, right?
+
+[1:00:34] And then all of a sudden it becomes more of a government investment. They're investing in the long-term health of their communities by helping these communities get built faster, by helping to underwrite some of the merchant bank-level private equity MES finance.
+
+[1:00:51] But most importantly, that it's about people living in a community where they feel like they're living in dignified housing. People would be very willing and happy to do different kinds of tasks for a few hours a week, right? And that kind of contributes to how some of these systems and services can be managed.
+
+[1:01:12] Also dealing with, in a place where maybe you don't have the ability to pay people like that. But people can live kind of off of that. So this is one of the thinking that we have, or threads that we have going forward. So I don't want to call it communism. I don't want to call it socialism.
+
+[1:01:29] I come from a compassion institute at Stanford. I'm calling it compassionism. If that's okay. What a great way to end this talk. Thank you so much. I have my card. If anybody wants to, if you want my card and to meet me and talk to me, happy to stay in touch.
+
+[1:01:47] Thanks again. Thank you. Especially with some viewers around the world to include the

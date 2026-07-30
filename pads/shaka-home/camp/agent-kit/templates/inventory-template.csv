@@ -1,0 +1,11 @@
+Item,Domain,Category,Description/Spec,Qty Needed,Procurement Status,Owner,Priority,Est Total $,Preferred Vendor,Weight lbs,Order-by Date,Notes
+Dual propane burner,Kitchen,Cooking,"High-output dual burner, ~150k BTU/hr, comes with regulator + hose",2,Received,Jordan,HIGH,340,Restaurant supply,60,2026-07-01,One per cook station
+20 lb propane tank,Kitchen,Fuel,"Standard 20 lb tank, filled",6,Not Bought,Jordan,HIGH,300,Local propane exchange,38,2026-08-10,Size up to 40/100 lb if cook line grows
+Chest freezer,Kitchen,Cold chain,"~20 cu ft, manual defrost, 120V, Energy Star",1,Ordered,Sam,HIGH,750,Big-box appliance,180,2026-07-20,Bulk cold reserve; fridges handle daily use
+2-compartment sink,Kitchen,Cleaning,"Commercial stainless w/ drainboards",1,Received,Sam,MED,420,Webstaurant-type,95,2026-06-15,Handwash station is SEPARATE — food safety
+Aluminet shade cloth 52x52,Shade,Fabric,"70% Aluminet knitted shade panel",2,Ordered,Alex,HIGH,1100,Greenhouse supplier,45,2026-07-05,Roof panels for living area
+Concrete stakes,Shade,Anchoring,"3/4 in concrete stakes, tops painted orange",80,Not Bought,Alex,MED,240,Hardware store,120,2026-08-01,Rate anchoring for 70+ mph gusts
+IBC tote 275 gal,Water,Storage,"Food-grade 275 gal IBC, cage intact",3,Received,Riley,HIGH,450,Local reseller,140,2026-06-30,1 for shower + 2 for camp water
+Float switch,Shower,Greywater,"Self-weighted float switch for pump trigger",3,FLAG,Riley,MED,60,Plumbing supply,2,2026-08-05,Design pending — practice before playa!
+First aid kit,Health & Safety,Medical,"Full camp kit incl. burn dressing + eye wash",1,Received,Casey,HIGH,85,Pharmacy,6,2026-07-15,Lives in kitchen; second small kit in ops bin
+Generator (backup),Power,Generation,"2200W inverter generator, quiet type",1,Borrow,Alex,LOW,0,Borrowed from neighbor camp,47,2026-08-20,Freezer backup only — no electric heat appliances

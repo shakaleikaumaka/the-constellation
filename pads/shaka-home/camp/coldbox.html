@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cold Box Proposal 🥶 | Turtle Ops — Terrible Turtle Camp</title>
+<meta name="description" content="Proposal: wood-framed XPS vegetable cold box with dual AC cooling — design, cut list, costs, and build plan for Terrible Turtle Camp.">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+  :root {
+    --tt-orange:#eb5833; --tt-coral:#fd6844; --tt-amber:#db9840; --tt-gold:#e5a14b;
+    --tt-red:#cc272e; --night:#030915; --night-2:#071123; --card:#0b1628; --card-2:#111b28;
+    --border:#1f2a38; --cream:#f7f0eb; --cream-dim:#ddd6d1; --sand:#8a7d75;
+    --radius:12px; --radius-lg:20px; --ok:#69db7c; --warn:#ffd43b; --bad:#ff8787; --ice:#4dd4e8;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{font-family:'Rajdhani',sans-serif;background:var(--night);color:var(--cream);line-height:1.6;font-size:18px;}
+  .container{max-width:880px;margin:0 auto;padding:20px;}
+  a{color:var(--tt-orange);}
+  .topnav{padding:18px 0;font-weight:600;}
+  .topnav a{text-decoration:none;color:var(--tt-coral);}
+  .hero{text-align:center;padding:28px 10px 22px;}
+  .hero .icon{font-size:3rem;display:block;margin-bottom:8px;}
+  .hero h1{font-size:clamp(1.9rem,6.5vw,3.1rem);font-weight:700;text-transform:uppercase;letter-spacing:.02em;
+    background:linear-gradient(135deg,var(--cream) 20%,var(--ice),var(--tt-orange));
+    -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:8px;}
+  .hero .sub{color:var(--cream-dim);font-size:1.12rem;max-width:660px;margin:0 auto;}
+  .badge{display:inline-block;padding:4px 14px;background:rgba(255,212,59,.12);color:var(--warn);
+    border:1px solid rgba(255,212,59,.4);border-radius:16px;font-size:.75rem;font-weight:700;
+    letter-spacing:.14em;text-transform:uppercase;margin-top:12px;}
+  section{padding:18px 0;}
+  h2{font-size:1.5rem;text-transform:uppercase;letter-spacing:.03em;margin-bottom:12px;color:var(--tt-gold);}
+  h3{font-size:1.15rem;margin:14px 0 6px;color:var(--cream);}
+  .panel{background:var(--card);border:1px solid var(--border);border-radius:var(--radius-lg);padding:24px;position:relative;overflow:hidden;margin-bottom:14px;}
+  .panel::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--ice),var(--tt-gold),var(--tt-orange));}
+  .panel p{color:var(--cream-dim);margin-bottom:11px;}
+  .panel p:last-child{margin-bottom:0;}
+  .panel ul,.panel ol{color:var(--cream-dim);margin:0 0 11px 22px;}
+  .panel li{margin-bottom:7px;}
+  .panel strong{color:var(--cream);}
+  table.t{width:100%;border-collapse:collapse;font-size:.93rem;margin:10px 0;}
+  table.t th{color:var(--tt-amber);text-transform:uppercase;font-size:.72rem;letter-spacing:.1em;text-align:left;padding:7px;border-bottom:1px solid var(--border);}
+  table.t td{padding:7px;border-bottom:1px solid var(--border);color:var(--cream-dim);vertical-align:top;}
+  table.t td:first-child{color:var(--cream);font-weight:600;}
+  .callout{border-left:3px solid var(--ice);background:var(--card-2);border-radius:0 var(--radius) var(--radius) 0;padding:13px 17px;margin:13px 0;color:var(--cream-dim);}
+  .callout.safety{border-left-color:var(--bad);}
+  .callout.win{border-left-color:var(--ok);}
+  .callout strong{color:var(--cream);}
+  .diagram{background:var(--night-2);border:1px solid var(--border);border-radius:var(--radius);padding:16px;margin:12px 0;overflow-x:auto;}
+  .diagram pre{font-family:'JetBrains Mono',monospace;font-size:.72rem;line-height:1.35;color:var(--ice);white-space:pre;}
+  .diagram .cap{font-size:.85rem;color:var(--sand);margin-top:8px;text-align:center;}
+  .vs{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:12px 0;}
+  .vs .col{background:var(--card-2);border:1px solid var(--border);border-radius:var(--radius);padding:16px;}
+  .vs h4{font-size:1rem;text-transform:uppercase;letter-spacing:.05em;margin-bottom:8px;}
+  .vs .col.win h4{color:var(--ok);}
+  .vs .col.lose h4{color:var(--sand);}
+  .vs ul{margin-left:18px;color:var(--cream-dim);font-size:.92rem;}
+  .vs li{margin-bottom:5px;}
+  .footer{text-align:center;padding:36px 20px;border-top:1px solid var(--border);color:var(--sand);font-size:.95rem;margin-top:26px;}
+  .footer a{text-decoration:none;}
+  @media(max-width:640px){body{font-size:16px;}.container{padding:14px;}.panel{padding:18px;}.vs{grid-template-columns:1fr;}}
+</style>
+<link rel="stylesheet" href="assets/turtle-cursor.css">
+</head>
+<body>
+<div class="container">
+
+  <nav class="topnav"><a href="./">← Back to Turtle Ops</a> · <a href="kitchen.html">🍳 Kitchen</a> · <a href="inventory.html">📦 Inventory</a></nav>
+
+  <header class="hero">
+    <span class="icon">🥶</span>
+    <h1>The Veggie Cold Box</h1>
+    <p class="sub">Proposal: a wood-framed, XPS-insulated walk-in cold box with dual AC cooling — built like a real cold room, reusable for years.</p>
+    <span class="badge" style="background:rgba(105,219,124,.12);color:#69db7c;border-color:rgba(105,219,124,.4);">✅ APPROVED · doing both: fridges + box · <a href="coffin-build.html" style="color:#69db7c;">12-step visual build guide →</a></span>
+  </header>
+
+  <!-- TLDR -->
+  <section>
+    <h2>TL;DR</h2>
+    <div class="panel">
+      <p><strong>Build a plywood box with XPS foam glued + screwed inside</strong> — structural skin outside, insulation inside, exactly how commercial walk-in coolers are made. Our two 5,000 BTU ACs mount in wood-framed openings instead of hanging in tape-sealed foam holes. Real door with hinges and a latch. Rides to BRC fully assembled in the semi.</p>
+      <p><strong>Cost: ~$320 over the foam-only build · ~1 build day at the Gulch · reusable for future burns.</strong></p>
+      <div class="callout win"><strong>Why change?</strong> The original tape-hinge folding design existed to fold flat for transport. We now have a 53' semi — transport volume is a non-issue. That frees us to build the stronger, more usable, more durable version.</div>
+    </div>
+  </section>
+
+  <!-- DESIGN -->
+  <section>
+    <h2>1 · The Design</h2>
+    <div class="panel">
+      <div class="diagram">
+<pre>            ~8' 6" (outer)
+  ┌──────────────────────────────┐
+  │  ply roof, slight slope, white│   SIDE VIEW
+  ├──────────────────────────────┤
+  │ ╔══════════════════════════╗ │
+  │ ║ 3" XPS in every wall bay ║ │  ~4' 6"
+  │ ║                          ║ │  outer
+  │ ║ [AC LOW]        [AC HIGH]║ │  height
+  │ ╚══════════════════════════╝ │
+  ├──────────────────────────────┤
+  │ 2×4 skid base — air gap under │
+  └──┬────┬────────────┬────┬───┘
+     ▓▓   ▓▓           ▓▓   ▓▓   ← skids on blocks
+
+
+       TOP VIEW (~8'6" × 4'6" outer / 8'0" × 4'0" inner)
+  ┌───────────────────────────────┐
+  │ ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒│ ▒ = 3" XPS
+  │ ▒                           ▒ │
+  │ ▒   wire shelving + crates  ▒ │◄─ DOOR (end wall,
+  │ ▒                           ▒ │   hinged ply+XPS)
+  │ ▒▒▒▒▒▒▒[AC1]▒▒▒▒▒▒[AC2]▒▒▒▒▒▒│
+  └───────────────────────────────┘
+        ACs on the SHADED long side</pre>
+        <div class="cap">Footprint ~8'6"×4'6", interior ~8'×4'×4' high (≈128 cu ft usable). Same footprint as the original plan.</div>
+      </div>
+      <ul>
+        <li><strong>Frame:</strong> 2×4 skid base + 2×2 wall studs at corners and AC openings. Everything screws into wood, not foam.</li>
+        <li><strong>Skin:</strong> ½" CDX plywood outside (¾" for the floor deck). Painted white / roof wrapped in spare Aluminet.</li>
+        <li><strong>Insulation:</strong> the 3" Dow Scoreboard XPS we already own — friction-fit into bays, foam-safe adhesive + screws with fender washers. R-15 walls.</li>
+        <li><strong>Cooling:</strong> 2× COWSAR 5,000 BTU 115V window ACs (✅ received, manual controls per David) in framed, flashed openings — one mounted LOW, one HIGH for circulation. Both on the shaded side.</li>
+        <li><strong>Door:</strong> ply + XPS sandwich on gate hinges, foam weatherstrip, gate latch + pull handle. Opens outward.</li>
+        <li><strong>Base:</strong> raised on skids → air gap kills ground heat-soak, and the box can be dragged/forklifted.</li>
+        <li><strong>Target temp:</strong> ~50°F for produce (not a fridge — a produce room). Min/max thermometer inside, logged at kitchen open.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- WHY -->
+  <section>
+    <h2>2 · Why Wood + XPS Beats the Tape Yurt</h2>
+    <div class="panel">
+      <div class="vs">
+        <div class="col win">
+          <h4>✅ Wood + XPS box (proposed)</h4>
+          <ul>
+            <li>AC bolts into a <strong>wood-framed opening</strong> — what window ACs are designed for</li>
+            <li>Screws + glue survive playa heat; no adhesive failure mode</li>
+            <li><strong>Real door</strong> — opens 20×/day during kitchen service without re-taping</li>
+            <li>XPS fire + UV weaknesses hidden behind plywood</li>
+            <li><strong>Reusable</strong> — burns 2027, 2028… or gulch cold storage off-season</li>
+            <li>Rides assembled in the semi (8'6"×4'6" is nothing in a 53' trailer)</li>
+          </ul>
+        </div>
+        <div class="col lose">
+          <h4>Tape-hinge foam yurt (original)</h4>
+          <ul>
+            <li>60 lb vibrating AC hangs in a foam hole held by tape — weakest point of the whole build</li>
+            <li>Tape adhesive degrades fast in heat + UV + dust</li>
+            <li>Door = taped foam flap, re-sealed constantly</li>
+            <li>Bare XPS: flammable + UV-degrades</li>
+            <li>One-burn structure</li>
+            <li>Only advantage was folding flat — <strong>solved by the semi</strong></li>
+          </ul>
+        </div>
+      </div>
+      <div class="callout"><strong>Context:</strong> we also evaluated a 12V compressor fridge grid (3× ICECO + solar generator): ~$5,400 for only ~10 cu ft. This box gives ~128 cu ft for ~$920 all-in, ~$620 of which is already bought. Walk-in wins on volume-per-dollar by ~70×.</div>
+    </div>
+  </section>
+
+  <!-- MATERIALS -->
+  <section>
+    <h2>3 · Materials &amp; Cost</h2>
+    <div class="panel">
+      <h3>Already owned ✅</h3>
+      <table class="t">
+        <tr><th>Item</th><th>Qty</th><th>Status</th></tr>
+        <tr><td>Dow Scoreboard XPS 3"×4'×8' (IBDBGR348-SB)</td><td>4 (confirm)</td><td>✅ Picked up 7/11</td></tr>
+        <tr><td>COWSAR 5,000 BTU 115V window AC (manual controls)</td><td>2</td><td>✅ Received</td></tr>
+        <tr><td>PT-15 shrink-wrap tape 6" + BOMEI bifilament tape</td><td>2+2 rolls</td><td>✅ Received — now used for seam sealing, not structure</td></tr>
+        <tr><td>ROMECH hot knife (foam cutting)</td><td>1</td><td>✅ Received</td></tr>
+      </table>
+      <h3>To buy (one Home Depot run, ~$320)</h3>
+      <table class="t">
+        <tr><th>Item</th><th>Qty</th><th>Est.</th><th>Notes</th></tr>
+        <tr><td>½" CDX plywood 4×8</td><td>5</td><td>~$200</td><td>Walls ×3, roof ×1, door + AC frames ×1</td></tr>
+        <tr><td>¾" CDX plywood 4×8 (floor)</td><td>1</td><td>~$55</td><td>Or double up ½" if cheaper</td></tr>
+        <tr><td>2×4×8' (skids + floor frame)</td><td>4</td><td>~$16</td><td></td></tr>
+        <tr><td>2×2×8' (wall studs, AC + door framing)</td><td>8</td><td>~$28</td><td></td></tr>
+        <tr><td>Loctite PL 300 Foamboard adhesive</td><td>4 tubes</td><td>~$24</td><td><strong>MUST be foam-rated — regular PL melts XPS</strong></td></tr>
+        <tr><td>Deck screws 2½" + 1¼" + fender washers</td><td>boxes</td><td>~$30</td><td></td></tr>
+        <tr><td>Gate hinges ×2, gate latch, pull handle</td><td>1 set</td><td>~$25</td><td>Door hardware</td></tr>
+        <tr><td>Foam weatherstrip + white exterior paint (1 gal)</td><td>1+1</td><td>~$40</td><td>Door seal + solar reflection</td></tr>
+        <tr><td>Min/max thermometer</td><td>1</td><td>~$12</td><td>Food-safety temp logging</td></tr>
+      </table>
+      <p><strong>Total new spend: ~$320–350 · Total project: ~$920 (vs ~$5,400 for the fridge-grid alternative)</strong></p>
+      <div class="callout"><strong>Panel check:</strong> if we have 4× 3" XPS sheets: floor 1 + long walls 2 + ends/door 1 = exactly 4, with the <em>roof</em> uninsulated ply. Grab <strong>1 more XPS sheet (~$60)</strong> on the same run for a properly insulated roof — the roof is the biggest heat gain surface.</div>
+    </div>
+  </section>
+
+  <!-- CUT LIST -->
+  <section>
+    <h2>4 · Cut List &amp; Assembly Order</h2>
+    <div class="panel">
+      <h3>Cut list (interior 8'×4'×4')</h3>
+      <table class="t">
+        <tr><th>Part</th><th>Ply</th><th>XPS</th></tr>
+        <tr><td>Floor</td><td>1× ¾" full sheet on 2×4 frame</td><td>1× full sheet (under-deck, between skids)</td></tr>
+        <tr><td>Long walls ×2</td><td>2× ½" full sheets</td><td>2× full sheets (cut height to 4')</td></tr>
+        <tr><td>End wall (solid)</td><td>½ sheet ½"</td><td>½ sheet</td></tr>
+        <tr><td>End wall (door end) + door</td><td>½ sheet ½" + door blank ~30"×45"</td><td>matching pieces</td></tr>
+        <tr><td>Roof</td><td>1× ½" full sheet, ½" slope shims</td><td>1× extra sheet (recommended buy)</td></tr>
+        <tr><td>AC openings ×2</td><td colspan="2">Cut per COWSAR chassis dims + 2×2 frame around each; one low, one high, shaded side</td></tr>
+      </table>
+      <h3>Assembly order (1 build day, 2–3 turtles)</h3>
+      <ol>
+        <li>Build 2×4 skid base + floor frame → screw down ¾" deck → XPS between skids.</li>
+        <li>Frame corners + AC + door openings with 2×2s on the deck.</li>
+        <li>Skin walls with ply (screws into frame). Cut AC openings with jigsaw <em>before</em> standing walls.</li>
+        <li>Hot-knife XPS to fit each bay → PL 300 + press → screws w/ fender washers, 16" grid.</li>
+        <li>Roof: XPS then ply lid with slope shims, screwed to wall tops.</li>
+        <li>Hang door (XPS+ply sandwich), weatherstrip, latch, handle.</li>
+        <li>Mount ACs in framed openings — foam gasket + PT-15 flashing tape around chassis (the tapes finally shine here). Condensate drains slope OUTWARD.</li>
+        <li>Paint white / wrap roof in spare Aluminet. Thermometer inside. Run test: pull-down to 50°F, check seams by feel.</li>
+      </ol>
+      <div class="callout safety"><strong>⚠️ Safety notes:</strong> XPS is combustible — it stays fully enclosed in ply, the box lives away from the cook line, wiring passes through grommeted holes only. ACs on a GFCI-protected circuit. This is our documented plan — David reviews before build (7/16).</div>
+    </div>
+  </section>
+
+  <!-- POWER + QUESTIONS -->
+  <section>
+    <h2>5 · Power &amp; Open Questions</h2>
+    <div class="panel">
+      <ul>
+        <li><strong>Power draw unchanged:</strong> same 2 ACs as the original plan — ~4A each, already in the camp power budget.</li>
+        <li><strong>Runtime:</strong> R-15 walls + white skin + shade + raised base should mean low duty cycle at 50°F setpoint. The insulated roof upgrade matters most here.</li>
+      </ul>
+      <h3>For David / the team (7/16 call)</h3>
+      <ol>
+        <li>Blessing on the wood+XPS approach (transport constraint gone — semi arrived ✅)</li>
+        <li>Panel swap FYI: Dow Scoreboard XPS instead of R-Max PolyIso (less MOOP when cutting, hot-knife compatible; UV/fire managed by ply skin)</li>
+        <li>Anchoring: rigid ~300 lb box — stakes + ratchet straps over the roof, or is skid weight enough?</li>
+        <li>Buy 1 extra XPS sheet for the roof — any objection?</li>
+        <li>Condensate: drip pans / drain lines to greywater, or evaporate-in-place acceptable?</li>
+      </ol>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>🐢 <a href="./">Turtle Ops</a> · Terrible Turtle Camp · proposal drafted by Terri with Shaka · <a href="https://terribleturtle.camp/" target="_blank">terribleturtle.camp</a></p>
+    <p style="margin-top:6px;color:var(--tt-amber);">Move Slow &amp; Bite Things.</p>
+  </footer>
+
+</div>
+<script src="assets/turtle-cursor.js" defer></script>
+</body>
+</html>

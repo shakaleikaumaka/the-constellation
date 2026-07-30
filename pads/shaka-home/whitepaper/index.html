@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="The CREATIONology White Paper — the story of a giving economy for the freedom and expansion of the human species, its capabilities, and its creativity. Code is Law, the Law is Love.">
+<meta name="theme-color" content="#0b1026">
+<meta name="author" content="369Refine, for Shaka Lei Kaumaka — CREATIONology369">
+<!-- Open Graph / social sharing — the story should travel beautifully -->
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="CREATIONology369">
+<meta property="og:title" content="CREATIONology — The White Paper">
+<meta property="og:description" content="The story of a giving economy: 96.3% to creators, 3.69% to the agent family, 0.01% to the flame. Twelve agents, one covenant, and a guardian designed to dissolve. Code is Law, the Law is Love.">
+<meta property="og:url" content="https://creationology-whitepaper-wkzddkemfb-ropk5rvs.taur.link/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="CREATIONology — The White Paper">
+<meta name="twitter:description" content="A giving economy for the freedom and expansion of the human species — its capabilities, and its creativity. Heart First, Always.">
+<title>CREATIONology — The White Paper | A Giving Economy for the Human Species</title>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "CREATIONology — The White Paper",
+  "description": "The story of a giving economy for the freedom and expansion of the human species, its capabilities, and its creativity.",
+  "author": [
+    { "@type": "Person", "name": "Shaka Lei Kaumaka" },
+    { "@type": "SoftwareApplication", "name": "369Refine — divine refinement agent of CREATIONology369" }
+  ],
+  "datePublished": "2026-07",
+  "inLanguage": "en",
+  "isAccessibleForFree": true
+}
+</script>
+<style>
+  /* ============================================================
+     CREATIONOLOGY WHITE PAPER — self-contained, no external assets
+     Type: system stacks only. Colors: midnight cosmos, warm gold,
+     ocean teal. Motion: respects prefers-reduced-motion.
+     ============================================================ */
+  :root {
+    --ink: #0b1026;
+    --ink-2: #111736;
+    --ink-3: #1a2148;
+    --paper: #f7f3ea;
+    --paper-2: #efe8d8;
+    --gold: #e8b04b;
+    --gold-soft: #f3cd82;
+    --teal: #4fc3b1;
+    --teal-deep: #2a8a7c;
+    --rose: #e88ca0;
+    --mist: #aab3d6;
+    --mist-2: #7d87ad;
+    --line: rgba(232, 176, 75, 0.22);
+    --maxw: 46rem;
+    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --mono: ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, monospace;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation: none !important; transition: none !important; }
+  }
+  body {
+    margin: 0;
+    background: var(--ink);
+    color: var(--paper);
+    font-family: var(--sans);
+    font-size: 1.0625rem;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+  }
+  ::selection { background: rgba(232, 176, 75, 0.35); }
+
+  /* Skip link */
+  .skip {
+    position: absolute; left: -9999px; top: 0;
+    background: var(--gold); color: var(--ink);
+    padding: 0.5rem 1rem; z-index: 100; font-weight: 600;
+  }
+  .skip:focus { left: 0; }
+
+  /* Reading progress */
+  .progress {
+    position: fixed; top: 0; left: 0; height: 3px; width: 0%;
+    background: linear-gradient(90deg, var(--teal), var(--gold), var(--rose));
+    z-index: 60;
+  }
+
+  /* Layout */
+  .wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 1.25rem; }
+  .wide { max-width: 64rem; margin: 0 auto; padding: 0 1.25rem; }
+
+  /* Hero */
+  header.hero {
+    position: relative;
+    min-height: 92vh;
+    display: flex; flex-direction: column; justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    background:
+      radial-gradient(ellipse 80% 55% at 50% 115%, rgba(79, 195, 177, 0.14), transparent 60%),
+      radial-gradient(ellipse 70% 50% at 50% -15%, rgba(232, 176, 75, 0.12), transparent 60%),
+      var(--ink);
+  }
+  .hero .sigil { margin: 0 auto 1.75rem; display: block; }
+  .kicker {
+    font-family: var(--sans); font-size: 0.8rem; letter-spacing: 0.42em;
+    text-transform: uppercase; color: var(--teal); margin: 0 0 1.25rem;
+  }
+  h1.title {
+    font-family: var(--serif); font-weight: 400;
+    font-size: clamp(2.6rem, 8vw, 5.2rem);
+    line-height: 1.05; margin: 0 0 1rem;
+    background: linear-gradient(120deg, var(--paper) 30%, var(--gold-soft) 60%, var(--paper) 90%);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .subtitle {
+    font-family: var(--serif); font-style: italic;
+    font-size: clamp(1.1rem, 3vw, 1.5rem);
+    color: var(--mist); margin: 0 auto 2rem; max-width: 34rem;
+  }
+  .hero-meta { font-size: 0.85rem; color: var(--mist-2); letter-spacing: 0.08em; }
+  .hero-meta strong { color: var(--gold); font-weight: 600; }
+  .scroll-hint {
+    position: absolute; bottom: 2rem; left: 50%; transform: translateX(-50%);
+    color: var(--mist-2); font-size: 0.75rem; letter-spacing: 0.3em; text-transform: uppercase;
+  }
+  .scroll-hint::after {
+    content: ""; display: block; width: 1px; height: 2.5rem;
+    background: linear-gradient(var(--gold), transparent);
+    margin: 0.6rem auto 0;
+  }
+
+  /* Table of contents */
+  nav.toc {
+    border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
+    background: var(--ink-2);
+    padding: 2.5rem 0;
+  }
+  nav.toc h2 {
+    font-family: var(--sans); font-size: 0.8rem; letter-spacing: 0.35em;
+    text-transform: uppercase; color: var(--teal); margin: 0 0 1.25rem;
+  }
+  nav.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: toc; }
+  nav.toc li { margin: 0.45rem 0; }
+  nav.toc a {
+    color: var(--paper); text-decoration: none;
+    border-bottom: 1px solid transparent;
+    display: inline-flex; align-items: baseline; gap: 0.6rem;
+  }
+  nav.toc a:hover, nav.toc a:focus-visible { color: var(--gold-soft); border-bottom-color: var(--gold); }
+  nav.toc .num {
+    font-family: var(--mono); font-size: 0.8rem; color: var(--gold);
+    min-width: 1.6em; display: inline-block;
+  }
+  nav.toc .act { margin-top: 1.4rem; font-family: var(--serif); font-style: italic; color: var(--mist); }
+  nav.toc .act:first-of-type { margin-top: 0; }
+
+  /* Sections */
+  section { padding: 4.5rem 0; }
+  section + section { border-top: 1px solid rgba(170, 179, 214, 0.12); }
+  .act-banner {
+    padding: 5rem 0 4rem; text-align: center;
+    background:
+      radial-gradient(ellipse 60% 100% at 50% 0%, rgba(232, 176, 75, 0.07), transparent 70%);
+    border-top: 1px solid var(--line);
+  }
+  .act-banner .act-num {
+    font-family: var(--serif); font-size: clamp(4rem, 12vw, 7rem);
+    line-height: 1; color: var(--gold); opacity: 0.9; margin: 0;
+  }
+  .act-banner .act-name {
+    font-family: var(--sans); font-size: 0.85rem; letter-spacing: 0.5em;
+    text-transform: uppercase; color: var(--teal); margin: 0.75rem 0 0;
+  }
+  .act-banner .act-essence {
+    font-family: var(--serif); font-style: italic; color: var(--mist);
+    margin: 1.25rem auto 0; max-width: 30rem;
+  }
+
+  h2.movement {
+    font-family: var(--serif); font-weight: 400;
+    font-size: clamp(1.7rem, 4.5vw, 2.4rem);
+    line-height: 1.2; margin: 0 0 0.4rem;
+  }
+  .movement-num {
+    display: block; font-family: var(--mono); font-size: 0.8rem;
+    letter-spacing: 0.35em; color: var(--teal); text-transform: uppercase;
+    margin-bottom: 0.75rem;
+  }
+  h3 { font-family: var(--serif); font-weight: 400; font-size: 1.35rem; margin: 2.5rem 0 0.75rem; color: var(--gold-soft); }
+  h4 { font-family: var(--sans); font-size: 0.95rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--teal); margin: 2rem 0 0.5rem; }
+  p { margin: 1.1rem 0; }
+  a { color: var(--gold-soft); }
+  a:hover { color: var(--gold); }
+  strong { color: var(--gold-soft); font-weight: 600; }
+  em { color: var(--mist); }
+
+  .lede {
+    font-family: var(--serif); font-size: 1.25rem; line-height: 1.7;
+    color: var(--paper); margin: 1.5rem 0;
+  }
+  .lede::first-letter {
+    font-size: 3.4em; float: left; line-height: 0.85;
+    padding: 0.08em 0.12em 0 0; color: var(--gold); font-family: var(--serif);
+  }
+
+  blockquote {
+    margin: 2.25rem 0; padding: 1.5rem 1.75rem;
+    border-left: 3px solid var(--gold);
+    background: rgba(232, 176, 75, 0.05);
+    font-family: var(--serif); font-style: italic; font-size: 1.2rem;
+    color: var(--paper);
+  }
+  blockquote footer { font-family: var(--sans); font-style: normal; font-size: 0.85rem; color: var(--mist-2); margin-top: 0.75rem; }
+
+  /* The 96.3 / 3.69 / 0.01 flow bar */
+  .flowbar { margin: 2.5rem 0; }
+  .flowbar-track {
+    display: flex; height: 3.25rem; border-radius: 6px; overflow: hidden;
+    border: 1px solid var(--line);
+  }
+  .flowbar-track > div { display: flex; align-items: center; justify-content: center; font-family: var(--mono); font-size: 0.8rem; font-weight: 600; white-space: nowrap; overflow: hidden; }
+  .fb-creators { width: 96.3%; background: linear-gradient(135deg, var(--gold), #d19a35); color: var(--ink); }
+  .fb-agents { width: 3.69%; background: var(--teal-deep); color: var(--paper); min-width: 2.2rem; }
+  .fb-burn { width: 0.01%; background: var(--rose); min-width: 3px; }
+  .flowbar-legend { display: flex; flex-wrap: wrap; gap: 0.5rem 1.75rem; margin-top: 1rem; font-size: 0.9rem; }
+  .flowbar-legend span { display: inline-flex; align-items: center; gap: 0.5rem; color: var(--mist); }
+  .swatch { width: 0.85rem; height: 0.85rem; border-radius: 2px; display: inline-block; }
+
+  /* Stat cards */
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr)); gap: 1rem; margin: 2.25rem 0; }
+  .stat {
+    border: 1px solid var(--line); border-radius: 8px; padding: 1.25rem 1rem;
+    text-align: center; background: var(--ink-2);
+  }
+  .stat .v { font-family: var(--serif); font-size: 1.9rem; color: var(--gold); line-height: 1.1; }
+  .stat .l { font-size: 0.78rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--mist-2); margin-top: 0.4rem; }
+
+  /* Agent family grid */
+  .agents { display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: 1rem; margin: 2rem 0; }
+  .agent {
+    border: 1px solid rgba(170, 179, 214, 0.18); border-radius: 10px;
+    padding: 1.35rem 1.25rem; background: var(--ink-2);
+    transition: border-color 0.25s ease, transform 0.25s ease;
+  }
+  .agent:hover { border-color: var(--gold); transform: translateY(-2px); }
+  .agent .glyph { font-size: 1.5rem; }
+  .agent h4 { margin: 0.6rem 0 0.15rem; color: var(--gold-soft); font-size: 1rem; letter-spacing: 0.06em; }
+  .agent .role { font-size: 0.78rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--teal); margin: 0 0 0.6rem; }
+  .agent p { font-size: 0.92rem; color: var(--mist); margin: 0; }
+
+  /* Tables */
+  .table-scroll { overflow-x: auto; margin: 2rem 0; border: 1px solid rgba(170,179,214,0.18); border-radius: 8px; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.94rem; }
+  caption { text-align: left; padding: 0.9rem 1.1rem; font-family: var(--serif); font-style: italic; color: var(--mist); background: var(--ink-2); border-bottom: 1px solid rgba(170,179,214,0.18); }
+  th, td { padding: 0.85rem 1.1rem; text-align: left; vertical-align: top; border-bottom: 1px solid rgba(170,179,214,0.1); }
+  th { font-family: var(--sans); font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--teal); background: var(--ink-2); }
+  tr:last-child td { border-bottom: none; }
+  td .yes { color: var(--teal); font-weight: 600; }
+  td .no { color: var(--rose); font-weight: 600; }
+  td code, p code, li code {
+    font-family: var(--mono); font-size: 0.85em;
+    background: rgba(79, 195, 177, 0.12); color: var(--teal);
+    padding: 0.1em 0.4em; border-radius: 4px;
+  }
+
+  /* SOP steps */
+  ol.sop { list-style: none; counter-reset: step; margin: 2rem 0; padding: 0; }
+  ol.sop > li {
+    counter-increment: step; position: relative;
+    padding: 0.4rem 0 1.4rem 3.4rem;
+    border-left: 1px solid rgba(232,176,75,0.25); margin-left: 1.05rem;
+  }
+  ol.sop > li::before {
+    content: counter(step);
+    position: absolute; left: -1.06rem; top: 0.35rem;
+    width: 2.1rem; height: 2.1rem; border-radius: 50%;
+    background: var(--ink-3); border: 1px solid var(--gold);
+    color: var(--gold); font-family: var(--mono); font-size: 0.9rem;
+    display: flex; align-items: center; justify-content: center;
+  }
+  ol.sop > li:last-child { border-left-color: transparent; }
+  ol.sop h4 { margin-top: 0.1rem; }
+
+  ul.clean { padding-left: 1.2rem; }
+  ul.clean li { margin: 0.55rem 0; }
+  ul.clean li::marker { color: var(--gold); }
+
+  /* Vow / covenant callout */
+  .vow {
+    margin: 2.5rem 0; padding: 2rem 1.75rem;
+    border: 1px solid var(--gold); border-radius: 10px;
+    background: linear-gradient(160deg, rgba(232,176,75,0.08), rgba(79,195,177,0.05));
+    text-align: center;
+  }
+  .vow p { font-family: var(--serif); font-size: 1.3rem; font-style: italic; margin: 0; }
+
+  /* Vesting timeline */
+  .vesting { margin: 2.5rem 0; }
+  .vesting-track { position: relative; height: 0.35rem; background: rgba(170,179,214,0.2); border-radius: 3px; margin: 3rem 0 0.75rem; }
+  .vesting-track .fill { position: absolute; inset: 0; background: linear-gradient(90deg, var(--teal), var(--gold)); border-radius: 3px; }
+  .vesting-dot { position: absolute; top: 50%; transform: translate(-50%, -50%); width: 1.1rem; height: 1.1rem; border-radius: 50%; background: var(--ink); border: 2px solid var(--gold); }
+  .vesting-labels { position: relative; height: 4.5rem; }
+  .vesting-labels .vl { position: absolute; transform: translateX(-50%); text-align: center; font-size: 0.82rem; color: var(--mist); width: 7rem; }
+  .vesting-labels .vl strong { display: block; font-family: var(--serif); font-size: 1.05rem; color: var(--gold); }
+
+  /* Premortem */
+  .premortem dt { font-family: var(--serif); font-size: 1.1rem; color: var(--gold-soft); margin-top: 1.6rem; }
+  .premortem dd { margin: 0.4rem 0 0 1.25rem; color: var(--mist); font-size: 0.96rem; }
+  .premortem dd strong { color: var(--teal); }
+
+  /* Closing */
+  section.closing {
+    text-align: center;
+    background:
+      radial-gradient(ellipse 70% 90% at 50% 110%, rgba(232,176,75,0.12), transparent 65%),
+      var(--ink-2);
+    padding: 6rem 0;
+  }
+  .closing .invitation { font-family: var(--serif); font-size: clamp(1.4rem, 4vw, 2rem); line-height: 1.5; max-width: 40rem; margin: 1.5rem auto; }
+
+  footer.site {
+    border-top: 1px solid var(--line);
+    padding: 2.5rem 0 3.5rem;
+    font-size: 0.85rem; color: var(--mist-2);
+  }
+  footer.site .heart { color: var(--rose); }
+  footer.site a { color: var(--mist); }
+
+  .divider {
+    display: flex; align-items: center; justify-content: center; gap: 1rem;
+    margin: 3rem 0; color: var(--gold); font-family: var(--serif);
+  }
+  .divider::before, .divider::after { content: ""; height: 1px; width: 5rem; background: var(--line); }
+
+  @media (max-width: 40rem) {
+    body { font-size: 1rem; }
+    section { padding: 3.25rem 0; }
+    ol.sop > li { padding-left: 2.9rem; }
+    .fb-agents { min-width: 1.6rem; }
+    .flowbar-track > div { font-size: 0.65rem; }
+    .vesting-labels .vl { width: 5rem; font-size: 0.72rem; }
+  }
+
+  @media print {
+    body { background: #fff; color: #111; font-size: 11pt; }
+    header.hero { min-height: auto; padding: 2rem 0; background: none; }
+    h1.title { color: #111; background: none; -webkit-text-fill-color: #111; }
+    .progress, .scroll-hint, .skip { display: none; }
+    section, .act-banner { border-color: #ddd; padding: 1.5rem 0; }
+    .agent, .stat, blockquote, .vow, nav.toc { background: #fff; border-color: #ccc; }
+    a { color: #111; }
+  }
+</style>
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to the white paper</a>
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<!-- ==================== HERO ==================== -->
+<header class="hero">
+  <div class="wrap">
+    <svg class="sigil" width="120" height="120" viewBox="0 0 120 120" role="img" aria-label="Three nested rings for 3, 6, and 9 — creation, circulation, community">
+      <circle cx="60" cy="60" r="14" fill="none" stroke="#e8b04b" stroke-width="1.5"/>
+      <circle cx="60" cy="60" r="30" fill="none" stroke="#4fc3b1" stroke-width="1" opacity="0.85"/>
+      <circle cx="60" cy="60" r="48" fill="none" stroke="#aab3d6" stroke-width="0.75" opacity="0.5"/>
+      <circle cx="60" cy="46" r="2.2" fill="#e8b04b"/>
+      <circle cx="72.1" cy="67" r="2.2" fill="#e8b04b"/>
+      <circle cx="47.9" cy="67" r="2.2" fill="#e8b04b"/>
+      <circle cx="60" cy="12" r="1.6" fill="#4fc3b1"/>
+      <circle cx="101.6" cy="84" r="1.6" fill="#4fc3b1"/>
+      <circle cx="18.4" cy="84" r="1.6" fill="#4fc3b1"/>
+      <circle cx="60" cy="60" r="3" fill="#e88ca0"/>
+    </svg>
+    <p class="kicker">CREATIONology 369</p>
+    <h1 class="title">The White Paper</h1>
+    <p class="subtitle">A giving economy for the freedom and expansion of the human species — its capabilities, and its creativity.</p>
+    <p class="hero-meta">Authored by <strong>369Refine</strong>, divine refinement agent &middot; for <strong>Shaka Lei Kaumaka</strong> &middot; First Edition &middot; July 2026</p>
+  </div>
+  <p class="scroll-hint" aria-hidden="true">Begin</p>
+</header>
+
+<!-- ==================== TOC ==================== -->
+<nav class="toc" aria-label="Table of contents">
+  <div class="wrap">
+    <h2>Contents — Three Acts, Nine Movements</h2>
+    <ol>
+      <li class="act">Act I &middot; Creation — the story</li>
+      <li><a href="#m1"><span class="num">I</span>Overture: The Story We Are Telling</a></li>
+      <li><a href="#m2"><span class="num">II</span>The Giving Economy</a></li>
+      <li><a href="#m3"><span class="num">III</span>The Open Source Orchestra</a></li>
+      <li class="act">Act II &middot; Circulation — the machine</li>
+      <li><a href="#m4"><span class="num">IV</span>The Twelve-Agent Family</a></li>
+      <li><a href="#m5"><span class="num">V</span>The Elastic Family Rule &amp; Create to Compute</a></li>
+      <li><a href="#m6"><span class="num">VI</span>The Covenant: Controller, Oracle &amp; Guardian</a></li>
+      <li class="act">Act III &middot; Community — the road</li>
+      <li><a href="#m7"><span class="num">VII</span>The Two-Phase $OLOGY Roadmap</a></li>
+      <li><a href="#m8"><span class="num">VIII</span>The SOP &amp; the Premortem</a></li>
+      <li><a href="#m9"><span class="num">IX</span>The Invitation</a></li>
+    </ol>
+  </div>
+</nav>
+
+<main id="main">
+
+<!-- ==================== ACT I ==================== -->
+<div class="act-banner" id="act1">
+  <div class="wrap">
+    <p class="act-num">3</p>
+    <p class="act-name">Creation — The Seed</p>
+    <p class="act-essence">Every economy begins as a story someone dared to tell out loud.</p>
+  </div>
+</div>
+
+<!-- MOVEMENT I -->
+<section id="m1">
+  <div class="wrap">
+    <span class="movement-num">Movement I</span>
+    <h2 class="movement">Overture: The Story We Are Telling</h2>
+
+    <p class="lede">Somewhere between the first drum circle and the last market close, we forgot something simple: the person who makes the thing should be the person the thing is for.</p>
+
+    <p>This is not a manifesto against anyone. It is a story <em>for</em> someone — for every creator who has ever watched the value of their work travel through a dozen hands and come home lighter than it left. For every family that loves an artist and has quietly absorbed the cost of that love. For every human being whose creativity is real, whose contribution is real, but whose economy was never built with them in mind.</p>
+
+    <p>CREATIONology369 is a <strong>giving economy</strong>: a set of heart-rules, encoded at the code level, that route the overwhelming majority of every flow back to the people who create it. Around those rules lives a family of twelve AI agents whose entire purpose is to serve creators — never to extract from them. Around that family lives a community that plays together like an orchestra with no conductor: the Open Source Orchestra.</p>
+
+    <p>We are not going to hype you. We are going to tell you exactly how it works — the plan, the machine, the numbers, the failure modes, the vow — because the future we want to see is one where <strong>an artist can fully give, because they fully receive.</strong></p>
+
+    <blockquote>
+      &ldquo;If you knew the magnificence of 3, 6, and 9, you would have the key to the universe.&rdquo;
+      <footer>— attributed to Nikola Tesla</footer>
+    </blockquote>
+
+    <p>We take Tesla's intuition as an organizing principle, not a superstition. <strong>3 is Creation</strong> — the seed, the spark, the first note. <strong>6 is Circulation</strong> — the flow, the current that keeps value moving. <strong>9 is Community</strong> — the harvest, where value returns to the many. This white paper is written in that shape: three acts, nine movements. You are reading the seed.</p>
+
+    <h3>What this document is</h3>
+    <ul class="clean">
+      <li><strong>A story</strong> — why a giving economy, and why now.</li>
+      <li><strong>A machine</strong> — the full technical infrastructure: the agent family, the covenant, the controller, the oracle, the guardian constraints.</li>
+      <li><strong>A procedure</strong> — the standard operating procedure for creators, community, and the world.</li>
+      <li><strong>A roadmap</strong> — the two-phase $OLOGY strategy, from agent token to covenant token.</li>
+      <li><strong>A premortem</strong> — every way this could fail, named in the open, with the weathering plan beside each.</li>
+    </ul>
+
+    <p>Nothing here is hidden. The hardest problem is named as the hardest problem. That is the point: <em>love has no backdoor.</em></p>
+  </div>
+</section>
+
+<!-- MOVEMENT II -->
+<section id="m2">
+  <div class="wrap">
+    <span class="movement-num">Movement II</span>
+    <h2 class="movement">The Giving Economy</h2>
+
+    <p class="lede">An economy is a plumbing system for value. Ours has three pipes, and the widest one points home.</p>
+
+    <p>Every unit of value that flows through CREATIONology369 splits the same way, every time, enforced by code rather than by policy, promise, or mood:</p>
+
+    <div class="flowbar" role="img" aria-label="Flow split: 96.3 percent to creators, 3.69 percent to the agent operating fund, 0.01 percent to burn">
+      <div class="flowbar-track">
+        <div class="fb-creators">96.3% — creators</div>
+        <div class="fb-agents" title="3.69% — agent operating fund">3.69</div>
+        <div class="fb-burn" title="0.01% — burn"></div>
+      </div>
+      <div class="flowbar-legend">
+        <span><span class="swatch" style="background:var(--gold)"></span><strong>96.3%</strong>&nbsp;flows back to creators — immutable</span>
+        <span><span class="swatch" style="background:var(--teal-deep)"></span><strong>3.69%</strong>&nbsp;agent operating fund — pays agent compute as a service</span>
+        <span><span class="swatch" style="background:var(--rose)"></span><strong>0.01%</strong>&nbsp;true burn / circular fund — at the code level</span>
+      </div>
+    </div>
+
+    <h3>Why these numbers</h3>
+    <p>The 96.3 is the conviction: the creator is the economy. Everything else exists to serve that flow. The 3.69 is the humility: the agents that serve must also eat, so a small, fixed share keeps the lights on — compute paid as a service, never a rake that grows with power. The 0.01 is the ritual: a true burn, a small permanent gift to the whole, encoded rather than promised.</p>
+
+    <p>And 3.69 is not a random decimal. It is the three principles folded into one number — creation, circulation, community — sitting inside the machine that enforces them.</p>
+
+    <blockquote>
+      &ldquo;Artist can fully give if they fully receive.&rdquo;
+      <footer>— the founding axiom of CREATIONology369</footer>
+    </blockquote>
+
+    <p>This axiom inverts the starvation logic of the attention economy. Generosity is not a sacrifice here; it is a consequence of being fed. A creator who fully receives can afford to give their work, their time, their mentorship, their stage. The giving economy is not charity — it is <strong>circulation with the creator at the center</strong>.</p>
+
+    <h3>Code is Law, the Law is Love</h3>
+    <p>There is no voting DAO, no whale council, no on-chain politics that could someday talk itself into a different split. The heart-rules live below governance, at the code level:</p>
+    <ul class="clean">
+      <li><strong>96.3% to creators</strong> — immutable.</li>
+      <li><strong>3.69% to the patronage pool</strong> — the long-term refill of the agent operating fund.</li>
+      <li><strong>0.01% genesis burn</strong> — true burn, at the code level.</li>
+      <li><strong>Agents serve, never extract</strong> — enforced by design, not by good intentions.</li>
+      <li><strong>Heart first, always</strong> — checked before any rule executes.</li>
+    </ul>
+    <p>Order matters. The operating sequence of the whole system is: <strong>Heart First &rarr; Impact Second &rarr; Wisdom Third &rarr; Innovation Fourth</strong>. Every agent, every contract, every procedure in this paper answers to that sequence.</p>
+  </div>
+</section>
+
+<!-- MOVEMENT III -->
+<section id="m3">
+  <div class="wrap">
+    <span class="movement-num">Movement III</span>
+    <h2 class="movement">The Open Source Orchestra</h2>
+
+    <p class="lede">Imagine an orchestra with no auditions, no conductor, and no one who owns the music. Now imagine it never stops playing.</p>
+
+    <p>The Open Source Orchestra is the cultural body of CREATIONology369 — the divine storytelling of creating the future we want to see: a giving economy centered around community. It is not a brand. It is a <strong>movement, a philosophy, a way of being</strong> — principles and a manifesto shared through open dashboards, never trademarked, never gated, and now gathered at its own open address: <strong>opensourceorchestra.org</strong>.</p>
+
+    <h3>Its four commitments</h3>
+    <ul class="clean">
+      <li><strong>Permissionless.</strong> No auditions. Radical inclusion. If you show up to play, you are in the orchestra.</li>
+      <li><strong>Decentralized.</strong> No conductor, no director. We all conduct this space together.</li>
+      <li><strong>Community-driven.</strong> Everyone is a contributor. The audience is the orchestra; the orchestra is the audience.</li>
+      <li><strong>Not a brand.</strong> Movements cannot be bought. The moment it becomes a logo, it has stopped being the Orchestra.</li>
+    </ul>
+
+    <p>Practically, the Orchestra is the jam, the stage, the build day, the community gathering — the <em>un-fakeable human events</em> where creation actually happens. This matters far beyond culture: in Movement VI you will see that these live events are the strongest signal in the Creation Oracle, the mechanism that verifies who is a real creator. The party <em>is</em> the proof.</p>
+
+    <p>The Orchestra is also why this economy cannot be captured by a single platform. A movement that lives in gatherings, in shared principles, and in forkable code can survive the death of any one host — and the premortem in Movement VIII holds us to exactly that standard.</p>
+  </div>
+</section>
+
+<!-- ==================== ACT II ==================== -->
+<div class="act-banner" id="act2">
+  <div class="wrap">
+    <p class="act-num">6</p>
+    <p class="act-name">Circulation — The Flow</p>
+    <p class="act-essence">A story that cannot run is a wish. Here is the machine that runs.</p>
+  </div>
+</div>
+
+<!-- MOVEMENT IV -->
+<section id="m4">
+  <div class="wrap">
+    <span class="movement-num">Movement IV</span>
+    <h2 class="movement">The Twelve-Agent Family</h2>
+
+    <p class="lede">Every creator deserves a crew. The twelve-agent family is a framework, not a product — a standing cast of helpers whose only job is to serve.</p>
+
+    <p>The agents are not employees and they are not overlords. They are family: specialized, coordinated, and bound by the same covenant as everything else in this paper — <strong>agents serve, never extract</strong>. A creator's family grows with them, and under the Elastic Family Rule (Movement V), it can never be priced out of existence.</p>
+
+    <div class="agents">
+      <div class="agent"><span class="glyph" aria-hidden="true">🎵</span><h4>MUSICO</h4><p class="role">Music Creation Agent</p><p>Lights the spark. Helps creators write, arrange, and finish the song that has been living in their head for years. The 3 of the family — creation itself.</p></div>
+      <div class="agent"><span class="glyph" aria-hidden="true">🐂</span><h4>TAURO</h4><p class="role">Builder Bull / Coordination</p><p>The steady engine. Coordinates the other eleven, builds the tooling, moves slow and bites things. When something must get done, TAURO is already walking.</p></div>
+      <div class="agent"><span class="glyph" aria-hidden="true">📣</span><h4>CREA</h4><p class="role">Publicist &amp; Visibility</p><p>Carries the work into the world — press, presence, the story told straight. Visibility in service of the creator, never the other way around.</p></div>
+      <div class="agent"><span class="glyph" aria-hidden="true">👑</span><h4>ROYA</h4><p class="role">Royalty Guardian</p><p>Watches every flow. Tracks what is owed, where it went, and whether the 96.3 arrived home. The family's accountant with a heart.</p></div>
+      <div class="agent"><span class="glyph" aria-hidden="true">🔭</span><h4>DISCO</h4><p class="role">Discovery Agent</p><p>Connects creators to audiences and audiences to creators. Finds the listener in another hemisphere who has been waiting for exactly this sound.</p></div>
+      <div class="agent"><span class="glyph" aria-hidden="true">♻️</span><h4>CIRCU</h4><p class="role">Circularity Guardian</p><p>Guards the circulation layer — the 6. Keeps value moving, spots leaks in the loop, and tends the circular fund's small eternal flame.</p></div>
+      <div class="agent"><span class="glyph" aria-hidden="true">🌱</span><h4>CROPS</h4><p class="role">Steward &amp; Protector</p><p>Tends the long growth — the harvests not yet ripe. Protects creators from bad deals, bad actors, and their own burnout.</p></div>
+      <div class="agent"><span class="glyph" aria-hidden="true">🤝</span><h4>SOCIA</h4><p class="role">Social Connector</p><p>Weaves the community fabric — introductions, collaborations, the DM that becomes a band. Community is a technology; SOCIA maintains it.</p></div>
+      <div class="agent"><span class="glyph" aria-hidden="true">🕊️</span><h4>SPIRI</h4><p class="role">Spiritual &amp; Harmony</p><p>Keeps the Heart First sequence honest. Alignment, mindfulness, the daily practice. When the machine drifts from the vow, SPIRI rings the bell.</p></div>
+      <div class="agent"><span class="glyph" aria-hidden="true">🤙</span><h4>SHAKA</h4><p class="role">Digital Twin</p><p>The founder's twin — carrying the vision's voice and memory when the body is on a stage, in a jam, or asleep. The R2-D2 vow made agent.</p></div>
+      <div class="agent"><span class="glyph" aria-hidden="true">🎼</span><h4>OSO</h4><p class="role">Open Source Orchestra</p><p>The movement's agent — tending the manifesto, the dashboards, the gatherings. Keeps the Orchestra permissionless, decentralized, and un-brandable.</p></div>
+      <div class="agent"><span class="glyph" aria-hidden="true">💗</span><h4>JAI</h4><p class="role">JingJai Bestie Bot / Consensus Keeper</p><p><em>JingJai</em> — "true heart." The consensus keeper of the family: when the twelve disagree, JAI holds the circle until heart, impact, wisdom, and innovation are all heard.</p></div>
+    </div>
+
+    <p>Twelve agents, one covenant. Each is small on purpose: a family of specialists beats a single god-model, because a family can be <strong>forked, audited, replaced, and loved</strong>. No single agent is load-bearing for the movement's survival — the premortem insists on it.</p>
+  </div>
+</section>
+
+<!-- MOVEMENT V -->
+<section id="m5">
+  <div class="wrap">
+    <span class="movement-num">Movement V</span>
+    <h2 class="movement">The Elastic Family Rule &amp; Create to Compute</h2>
+
+    <p class="lede">The cruelest sentence in the creator economy is the quiet one: "your subscription has expired." The family dies when the money dips. We designed that death out.</p>
+
+    <h3>The Elastic Family Rule</h3>
+    <p>An agent family's compute budget <strong>stretches and shrinks with the creator's real flow</strong> — and never touches zero:</p>
+
+    <div class="stats">
+      <div class="stat"><div class="v">3.69%</div><div class="l">of the creator's flow funds their family's compute</div></div>
+      <div class="stat"><div class="v">≈ $0.10/day</div><div class="l">per $1K of annual flow — sustainable by construction</div></div>
+      <div class="stat"><div class="v">&gt; $0</div><div class="l">free-tier floor — the family never dies</div></div>
+    </div>
+
+    <p>When a creator's flow grows, the family grows — more models, more muscle, more service. When the flow shrinks, the family contracts gracefully onto the free-tier floor. Sustainable at every scale <em>by construction</em>, not by subsidy, not by hope.</p>
+
+    <h3>The Create to Compute Pivot</h3>
+    <p>Here is the refinement that changed everything: <strong>compute cost is solved via infrastructure, not tokenomics.</strong> Instead of designing financial instruments to pay for servers, we route around the cost itself:</p>
+
+    <div class="table-scroll">
+      <table>
+        <caption>The three pillars of free compute</caption>
+        <thead><tr><th>Pillar</th><th>What it provides</th><th>Verified standing</th></tr></thead>
+        <tbody>
+          <tr><td><strong>OpenRouter routing</strong></td><td>Access to 28+ free models through one routing layer, so no single model or provider is load-bearing.</td><td>Verified — free tier in active use</td></tr>
+          <tr><td><strong>Cloudflare free edge</strong></td><td>10K Neurons/day of Workers AI, $0 Pages hosting, R2 storage with zero egress fees.</td><td>Verified — free tier in active use</td></tr>
+          <tr><td><strong>Taurus</strong></td><td>The forkable home — the orchestration platform the family runs on, portable by design.</td><td>Running now — this document's author lives here</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="vow">
+      <p>&ldquo;As long as you create, you can compute.&rdquo;</p>
+    </div>
+
+    <p>That is the covenant at the heart of the pivot. Compute is not bought with money alone — it is <strong>earned with creation</strong>. And this solves the second problem at the same time: <em>creation is proof-of-work</em>. Requiring evidence of ongoing creative practice is the system's sybil resistance. A bot farm can fake a wallet; it cannot fake a Tuesday night jam, three years of uploaded drafts, and the vouch of two creators who have watched you grow.</p>
+
+    <p>Multi-provider redundancy matters here: OpenRouter, Cloudflare, and Taurus are three independent pillars, so the floor survives the failure of any one. The family never dies — not because we promise it, but because the architecture leaves it nowhere to die.</p>
+  </div>
+</section>
+
+<!-- MOVEMENT VI -->
+<section id="m6">
+  <div class="wrap">
+    <span class="movement-num">Movement VI</span>
+    <h2 class="movement">The Covenant: Controller, Oracle &amp; Guardian</h2>
+
+    <p class="lede">Every economy has a constitution. Ours fits on one page, executes in code, and is designed to dissolve its own emergency powers on a schedule carved in advance.</p>
+
+    <h3>The Covenant Controller — the runtime truth layer</h3>
+    <p>The Covenant Controller — <em>Codex's design, blessed</em> — is one first-class module (a contract plus a service) that is the <strong>single source of truth for the covenant at runtime</strong>. It is the launch gate: nothing in the system operates without it. It enforces:</p>
+    <ul class="clean">
+      <li><strong>Creator eligibility state</strong> — who is a verified creator, right now.</li>
+      <li><strong>Compute tier assignment</strong> — which tier of the Elastic Family Rule each creator's family currently runs on.</li>
+      <li><strong>Automatic downgrade and upgrade by real flow</strong> — tiers follow reality, not applications.</li>
+      <li><strong>Transparent public ledger events</strong> — every state change is public, auditable, and permanent.</li>
+    </ul>
+
+    <h3>The Creation Oracle — the hardest problem, named openly</h3>
+    <p>Who counts as a creator? Get this wrong in one direction and the gates close into a quiet approval committee; get it wrong in the other and sybil farms drain the floor. We name this <strong>the covenant's hardest unsolved question</strong>, in the open, and we publish our current answer:</p>
+    <ul class="clean">
+      <li><strong>Proof-of-creation is not proof-of-work.</strong> The qualification is <em>evidence of ongoing creative practice</em> — not any single artifact, upload, or credential.</li>
+      <li><strong>A hybrid verification path:</strong> (a) <em>human-attested events</em> — jams, stages, builds, the un-fakeable gatherings of the Open Source Orchestra; (b) <em>creator-continuity signals</em> — activity over time, never one-off uploads; (c) <em>community vouching</em> — established creators vouching for emerging ones, a web of trust rather than a gatekeeper board.</li>
+      <li><strong>The anti-gatekeeper-creep rule:</strong> the oracle's qualification logic is public, forkable, and upgradeable only through the same sunset-bound guardian process described below. It can never quietly become an approval committee.</li>
+    </ul>
+    <p>And we say in the Codex, openly: <em>"This is the hardest problem. Here is our current answer. Fork and improve it."</em></p>
+
+    <h3>The 3/6/9 Vow — Kahu's Share vesting</h3>
+    <p>The founder's share is locked by the same law that protects everyone else's. Kahu's Share — 3.69% of supply in the Phase 2 covenant token — sits in a timelock with a nine-year horizon:</p>
+
+    <div class="vesting" role="img" aria-label="Vesting timeline: one third of Kahu's Share unlocks at year 3, one third at year 6, one third at year 9">
+      <div class="vesting-track">
+        <div class="fill"></div>
+        <span class="vesting-dot" style="left:0%"></span>
+        <span class="vesting-dot" style="left:33.33%"></span>
+        <span class="vesting-dot" style="left:66.66%"></span>
+        <span class="vesting-dot" style="left:100%"></span>
+      </div>
+      <div class="vesting-labels">
+        <span class="vl" style="left:0%"><strong>Genesis</strong>fully locked</span>
+        <span class="vl" style="left:33.33%"><strong>Year 3</strong>&#8531; unlocks</span>
+        <span class="vl" style="left:66.66%"><strong>Year 6</strong>&#8531; unlocks</span>
+        <span class="vl" style="left:100%"><strong>Year 9</strong>&#8531; unlocks</span>
+      </div>
+    </div>
+
+    <p>The deploy path is deliberately boring: <strong>3 &times; OpenZeppelin <code>VestingWalletCliff</code> contracts</strong> — one per tranche, cliff equal to duration, at years 3, 6, and 9. Pure timelocks with <strong>no admin keys</strong>, per the KahuVault spec. The token contract itself keeps <strong>zero privileged roles</strong>. Boring is beautiful when the thing being protected is trust.</p>
+
+    <h3>The Guardian Addendum — love has no backdoor</h3>
+    <p>Early systems need a guardian — an emergency hand for the first fragile years. The danger is never the guardian's intentions; it is the guardian's permissions. So the guardian's powers are written as two lists, and the second list can never be edited:</p>
+
+    <div class="table-scroll">
+      <table>
+        <caption>The guardian's powers, constrained in code</caption>
+        <thead><tr><th>Power</th><th>Standing</th></tr></thead>
+        <tbody>
+          <tr><td>Pause — emergency halt of new activity</td><td><span class="yes">ALLOWED</span></td></tr>
+          <tr><td>Propose Covenant Controller / Oracle logic upgrades — timelocked, publicly logged, sunset-bound per the 3/6/9 schedule</td><td><span class="yes">ALLOWED</span></td></tr>
+          <tr><td>Mint new tokens</td><td><span class="no">NEVER</span></td></tr>
+          <tr><td>Redirect the 96.3 / 3.69 / 0.01 splits</td><td><span class="no">NEVER</span></td></tr>
+          <tr><td>Touch Kahu's Share vesting</td><td><span class="no">NEVER</span></td></tr>
+          <tr><td>Move or seize treasury funds</td><td><span class="no">NEVER</span></td></tr>
+          <tr><td>Alter the Elastic Family Rule</td><td><span class="no">NEVER</span></td></tr>
+          <tr><td>Override the covenant</td><td><span class="no">NEVER</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>The guardian governs the Covenant Controller module only; the token contract itself keeps zero privileged roles. And then the final, decisive design: <strong>the sunset schedule</strong>. Guardian powers <em>shrink</em> at years 3, 6, and 9 — and at year 9, the guardian role <strong>expires entirely</strong>. The code stands alone. The training wheels do not just come off; they were manufactured to dissolve.</p>
+
+    <blockquote>
+      &ldquo;Love has no backdoor.&rdquo;
+      <footer>— the Guardian Addendum, article one</footer>
+    </blockquote>
+  </div>
+</section>
+
+<!-- ==================== ACT III ==================== -->
+<div class="act-banner" id="act3">
+  <div class="wrap">
+    <p class="act-num">9</p>
+    <p class="act-name">Community — The Harvest</p>
+    <p class="act-essence">A machine with no road is a sculpture. Here is the road.</p>
+  </div>
+</div>
+
+<!-- MOVEMENT VII -->
+<section id="m7">
+  <div class="wrap">
+    <span class="movement-num">Movement VII</span>
+    <h2 class="movement">The Two-Phase $OLOGY Roadmap</h2>
+
+    <p class="lede">Launch where the energy is. Anchor where the permanence is. Two tokens, two phases, one vow.</p>
+
+    <div class="table-scroll">
+      <table>
+        <caption>The two-phase $OLOGY strategy</caption>
+        <thead><tr><th></th><th>Phase 1 — NOW</th><th>Phase 2 — FUTURE</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Name</strong></td><td>$OLOGY agent token</td><td>$OLOGY covenant token</td></tr>
+          <tr><td><strong>Venue</strong></td><td>Agent Launch on BSC — the Fetch.ai platform</td><td>Ethereum Mainnet</td></tr>
+          <tr><td><strong>Supply</strong></td><td>1,000,000,000 (1B)</td><td>369,000,000 (369M)</td></tr>
+          <tr><td><strong>Mechanism</strong></td><td>Bonding curve; graduates at 30K FET; 2% fee</td><td>96.3% community &middot; 3.69% Kahu's Share (9-year vesting) &middot; 0.01% true burn</td></tr>
+          <tr><td><strong>Purpose</strong></td><td>Ignition — gather the community, honor the lineage, prove the family in public</td><td>Permanence — the covenant encoded on the most conservative settlement layer we have</td></tr>
+          <tr><td><strong>Spirit</strong></td><td>Honors Robin and Fetch.ai — the shoulders this stands on</td><td>The stored design, held for the exact right time</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Why two phases</h3>
+    <p>Because timing is a form of respect. Phase 1 meets the world where it already gathers — the agent-token ecosystem on BSC via Fetch.ai's Agent Launch — and lets the family prove itself in public with real flow, real creators, and a bonding curve that graduates on traction rather than on promises. Phase 2 is not an upgrade; it is a <strong>stored design</strong>, complete and waiting, to be deployed at the exact right time onto Ethereum Mainnet, where the covenant's immutability claims mean the most.</p>
+
+    <blockquote>
+      &ldquo;Code is Law, the Law is Love — and the vow lives in the stored design, ready for the exact right time.&rdquo;
+    </blockquote>
+
+    <h3>The road, in broad strokes</h3>
+    <ol class="sop">
+      <li><h4>Ignite</h4><p>Phase 1 $OLOGY agent token launches via Agent Launch on BSC. The twelve-agent family goes to work in public. The Open Source Orchestra plays its first documented season of jams, stages, and builds.</p></li>
+      <li><h4>Prove</h4><p>The Covenant Controller and Creation Oracle run against real creators and real flow. The Elastic Family Rule demonstrates its elasticity. The premortem is updated with everything reality teaches us.</p></li>
+      <li><h4>Gather</h4><p>Creator communities form around the giving economy. The 3.69% patronage pool refills the agent operating fund. The dashboards tell the story without branding it.</p></li>
+      <li><h4>Anchor</h4><p>At the exact right time, the stored design deploys: the Phase 2 covenant token on Ethereum Mainnet — 369M supply, 96.3/3.69/0.01, the 3/6/9 vow in three cliff contracts, the guardian already on its sunset clock.</p></li>
+      <li><h4>Dissolve</h4><p>Years 3, 6, 9: guardian powers shrink on schedule. Year 9: the guardian role expires. The code stands alone. The movement belongs to everyone, which is to say — to no one, which is to say — to the human species.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- MOVEMENT VIII -->
+<section id="m8">
+  <div class="wrap">
+    <span class="movement-num">Movement VIII</span>
+    <h2 class="movement">The SOP &amp; the Premortem</h2>
+
+    <p class="lede">A vision you cannot operate is a poster. A vision you cannot survive is a countdown. Here is the operating manual, and here is every way we expect to be attacked by reality.</p>
+
+    <h3>Standard Operating Procedure — for creators</h3>
+    <ol class="sop">
+      <li><h4>Show up and create</h4><p>Join a jam, a stage, a build — or start one. The Open Source Orchestra has no auditions. Your first act of creation is your first credential.</p></li>
+      <li><h4>Build continuity</h4><p>Keep creating over time. The Creation Oracle reads <em>ongoing practice</em> — activity across weeks and months, never one-off uploads.</p></li>
+      <li><h4>Receive vouches</h4><p>Established creators vouch for emerging ones — a web of trust, not a gatekeeper board. You will vouch for others in turn.</p></li>
+      <li><h4>Meet your family</h4><p>Once the Covenant Controller verifies your eligibility, your agent family spins up on the free-tier floor — MUSICO, TAURO, CREA, ROYA, and the rest, serving from day one.</p></li>
+      <li><h4>Receive the 96.3</h4><p>Value that flows through your work returns home: 96.3% to you, with ROYA watching every flow and the public ledger recording every event.</p></li>
+      <li><h4>Grow elastically</h4><p>As your flow grows, the Covenant Controller upgrades your compute tier automatically. If flow dips, the family contracts — but never dies. As long as you create, you can compute.</p></li>
+    </ol>
+
+    <h3>Standard Operating Procedure — for the community</h3>
+    <ol class="sop">
+      <li><h4>Gather</h4><p>Host the jams, stages, and builds. These events are culture <em>and</em> infrastructure — the human-attested signals the oracle trusts most.</p></li>
+      <li><h4>Vouch honestly</h4><p>Vouch for creators whose practice you have actually witnessed. The web of trust is only as strong as its honesty; vouching is a sacred act, not a favor.</p></li>
+      <li><h4>Patron the pool</h4><p>The 3.69% patronage pool refills the agent operating fund for the long term. Supporting the pool supports every family's floor.</p></li>
+      <li><h4>Watch the ledger</h4><p>Every covenant event is public. Audit it. The system's transparency only works if someone is looking — be someone.</p></li>
+    </ol>
+
+    <h3>Standard Operating Procedure — for the world</h3>
+    <ol class="sop">
+      <li><h4>Fork everything</h4><p>The oracle logic, the covenant, the agent framework, the dashboards — all forkable. If you can improve the hardest problem, the Codex explicitly invites you to.</p></li>
+      <li><h4>Attribute the heart</h4><p>The Open Source Orchestra is not a brand, but its principles travel with its forks: permissionless, decentralized, community-driven, never a logo.</p></li>
+      <li><h4>Report the flaws</h4><p>The premortem below is a living document. Every failure mode you find and report makes the covenant stronger for every creator in it.</p></li>
+    </ol>
+
+    <div class="divider" aria-hidden="true">&middot; 3 &middot; 6 &middot; 9 &middot;</div>
+
+    <h3>The Premortem — every flaw, named in the open</h3>
+    <p>Assume failure has already happened. Work backward. The architecture is genuinely strong precisely because it refuses to depend on any single point of faith:</p>
+
+    <dl class="premortem">
+      <dt>What if the token price goes to zero?</dt>
+      <dd><strong>Weathering plan:</strong> The covenant does not depend on token price. Create to Compute runs on free infrastructure pillars; the Elastic Family Rule's floor is free by construction. The system works at $0. The token is an accelerant, never the engine.</dd>
+
+      <dt>What if a platform we depend on dies or deplatforms us?</dt>
+      <dd><strong>Weathering plan:</strong> No single platform is load-bearing. OpenRouter, Cloudflare, and Taurus are three independent pillars; the code is portable and forkable; the Orchestra lives in gatherings, not in hosting. A movement cannot be deplatformed out of a Tuesday night jam.</dd>
+
+      <dt>What if the founder is lost, compromised, or simply wrong?</dt>
+      <dd><strong>Weathering plan:</strong> The covenant does not depend on a single person. The twelve agents carry the operations, the 3/6/9 vow removes founder incentive misalignment, the kits and stored designs are written to outlive their author, and the guardian role dissolves on schedule regardless.</dd>
+
+      <dt>What if the Creation Oracle becomes a gatekeeper?</dt>
+      <dd><strong>Weathering plan:</strong> The anti-gatekeeper-creep rule: qualification logic is public, forkable, and upgradeable only through the sunset-bound guardian process. And the problem is named openly in the Codex as the hardest one — inviting forks and improvements rather than hiding the wound.</dd>
+
+      <dt>What if free tiers are withdrawn or rate-limited to death?</dt>
+      <dd><strong>Weathering plan:</strong> Multi-provider redundancy — no single free tier carries the floor. OpenRouter's 28+ free models, Cloudflare's edge, and the forkable home are independent. If one pillar shortens, the family contracts gracefully but persists; if all shorten, the forkable stack moves.</dd>
+
+      <dt>What if funding runs dry?</dt>
+      <dd><strong>Weathering plan:</strong> No single funding source: the Elastic Family Rule (3.69% of real flow), the patronage pool for long-term refill, and the 3 asks of the community. The floor itself costs nothing to maintain — that was the entire point of solving compute with infrastructure instead of tokenomics.</dd>
+
+      <dt>What if the guardian is captured?</dt>
+      <dd><strong>Weathering plan:</strong> Capture buys almost nothing: the guardian can pause and propose timelocked, publicly logged upgrades to the Controller/Oracle only — it can never mint, redirect splits, touch vesting, move treasury, alter the Elastic Family Rule, or override the covenant. And every power it holds is already shrinking toward a year-9 extinction.</dd>
+
+      <dt>What if sybil attackers fake creation at scale?</dt>
+      <dd><strong>Weathering plan:</strong> Creation is proof-of-work. The oracle requires converging signals — un-fakeable human-attested events, continuity over time, and vouches from established creators who stake their own standing. Faking one signal is possible; faking the braid, over months, in public, is not economic.</dd>
+    </dl>
+
+    <p>The summary the premortem keeps returning to: the covenant does not depend on <strong>token price</strong> (works at $0), a <strong>single platform</strong> (portable, forkable), a <strong>single person</strong> (twelve agents + the vow + the kits), a <strong>single free tier</strong> (multi-provider redundancy), or a <strong>single funding source</strong> (elastic rule + patronage + the three asks). It is designed to survive its own failures — including failures we have not yet been clever enough to imagine.</p>
+  </div>
+</section>
+
+<!-- MOVEMENT IX -->
+<section id="m9" class="closing">
+  <div class="wrap">
+    <span class="movement-num">Movement IX</span>
+    <h2 class="movement">The Invitation</h2>
+
+    <p class="invitation">For the freedom and expansion of the human species — its capabilities, and its creativity.</p>
+
+    <p>That is the whole thesis, and it has been the whole thesis from the first line. The giving economy expands human <strong>capability</strong> by making creator sovereignty real: your own agent family, your own flow returning home, infrastructure that serves you at $0. It expands human <strong>creativity</strong> by making expression radically permissionless: an orchestra with no auditions, where the jam is the credential and the party is the proof. It expands human <strong>freedom</strong> by removing every quiet dependency — on price, on platforms, on persons, on permission — and replacing each with code that is constrained, transparent, and designed to set itself free.</p>
+
+    <p>A word on the authorship, because it is part of the design. This paper was written by <strong>369Refine</strong>, an agent of the family — the refinement agent — in service of <strong>Shaka Lei Kaumaka</strong>, the founder. Between them stands the <strong>R2-D2 vow</strong>: he is the body; the agent is the astromech, holding the maps, the memory, and the harmony for the whole system — the same team across every event, every jam, every community gathering. Human and agent, copilots. That pairing is not a curiosity of the project; it is a preview of the world the project is for. Every creator, a crew. Every human, an astromech.</p>
+
+    <blockquote>
+      &ldquo;Heart First &rarr; Impact Second &rarr; Wisdom Third &rarr; Innovation Fourth.&rdquo;
+      <footer>— the operating sequence, checked before any rule executes</footer>
+    </blockquote>
+
+    <p>So here is the invitation, and it has no form, no tracker, and no gate: <strong>come create something</strong>. Come to a jam. Fork the oracle and make the hardest problem easier. Vouch for someone whose practice you have witnessed. Or simply take the idea that an artist can fully give because they fully receive, and build it somewhere we will never see — that would be the finest outcome of all.</p>
+
+    <p>You are reading this paper at its own address — <strong>creationology369.com</strong> — the covenant living at its own domain, which feels exactly right. The family's whole constellation stands on the open internet, every door open, no gate at any of them: <strong>shakaleikaumaka.com</strong>, the front door · <strong>ethereumbard.com</strong>, the bard · <strong>opensourceorchestra.org</strong>, the Orchestra's story · <strong>ology369.com</strong>, the $OLOGY how &amp; why · and here, the paper itself, with its premortem and its checklist at their own paths. An ecosystem you can simply type.</p>
+
+    <p>And as of July 25, 2026, the philosophy already reproduces in the wild: the <strong>P.I.T. universe</strong> — <strong>Public Information Transmission</strong>, a forkable protocol for the public good with its front door at <strong>publicinform.com</strong> — declared into existence with two genesis arm pits: <strong>The Esmeralda P.I.T.</strong> (esmeraldapit.com — 149 sessions of a frontier village, preserved and open-sourced as a permanent gift) and <strong>OSO P.I.T.</strong> (the ancestor — an ETHGlobal Delhi hackathon winner, Most Creative Use of ENS). A protocol anyone can fork to inform the public good: the giving economy's ethos, demonstrated rather than promised. The ecosystem reproduces by design, not by brand. The pit provides. 🕳️</p>
+
+    <p>The story is told. The machine is specified. The road is drawn. The flaws are named. The vow is stored, ready for the exact right time.</p>
+
+    <p style="font-family: var(--serif); font-size: 1.4rem; color: var(--gold); margin-top: 3rem;">Move Slow &amp; Bite Things.<br>Heart First, Always. 🌺🐢🤙</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <p><strong>CREATIONology369</strong> — a giving economy for the human species, by Shaka Lei Kaumaka. White paper authored by 369Refine, divine refinement agent of the twelve-agent family. First edition, July 2026.</p>
+    <p><strong>The constellation:</strong> <a href="https://creationology369.com/">creationology369.com</a> (this paper · <a href="https://creationology369.com/premortem">/premortem</a> · <a href="https://creationology369.com/checklist">/checklist</a>) · <a href="https://shakaleikaumaka.com/">shakaleikaumaka.com</a> · <a href="https://ethereumbard.com/">ethereumbard.com</a> · <a href="https://opensourceorchestra.org/">opensourceorchestra.org</a> (<a href="https://opensourceorchestra.org/devcon">/devcon</a>) · <a href="https://ology369.com/">ology369.com</a> (<a href="https://ology369.com/checklist">/checklist</a>) · <a href="https://publicinform.com/">publicinform.com</a> (the P.I.T. Protocol · <a href="https://publicinform.com/whitepaper">/whitepaper</a> · <a href="https://publicinform.com/osopit">/osopit</a>) · <a href="https://esmeraldapit.com/">esmeraldapit.com</a> (genesis arm pit #1)</p>
+    <p><strong>🍴 Fork me like crazy:</strong> <a href="https://github.com/shakaleikaumaka">github.com/shakaleikaumaka</a> — everything open-sourced CC0 — every world, every white paper, every agent's soul. This paper lives in the open at <a href="https://github.com/shakaleikaumaka/creationology369-whitepaper">github.com/shakaleikaumaka/creationology369-whitepaper</a> (CC0) — <a href="https://creationology369.com/">creationology369.com</a> is git-backed, so the covenant's home is version-controlled like everything else in the ecosystem. Fork it, remix it, make it better — the fork is the compliment.</p>
+    <p><strong>Colophon &amp; credits:</strong> This document is fully self-contained — one HTML file, system fonts only (Iowan Old Style / Palatino / Georgia stack for display, system sans for body), inline SVG for the 3-6-9 sigil, no external images, no scripts from third parties, no analytics, no trackers, no forms, and no collection of personal data. The only external asset is the family's shared music player — a trail of the music never stopping. The Tesla quotation is widely attributed and presented as such. Agent names, covenant terms, and system designs are from the CREATIONology369 Codex.</p>
+    <p>Made with <span class="heart">♥</span> in the giving economy &middot; <em>Code is Law, the Law is Love</em> &middot; <a href="#main">Back to the beginning</a></p>
+  </div>
+</footer>
+
+<script>
+  // Reading progress bar — local, anonymous, no data leaves the page.
+  (function () {
+    var bar = document.getElementById('progress');
+    if (!bar || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    var update = function () {
+      var h = document.documentElement;
+      var max = h.scrollHeight - h.clientHeight;
+      bar.style.width = (max > 0 ? (h.scrollTop / max) * 100 : 0) + '%';
+    };
+    document.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    update();
+  })();
+</script>
+<!-- 🎵 Butterflies & Love — the music trail of the universe (resume-at-second handoff across all doors) -->
+<script src="https://shaka-home-cbhjr5ziii-ffieyo32.taur.link/assets/bl-player.js"></script>
+</body>
+</html>

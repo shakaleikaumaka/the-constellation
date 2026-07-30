@@ -1,0 +1,165 @@
+# Digital Intelligence and Coordination
+
+Date: 2026-06-11
+Source video: Digital Intelligence and Coordination.mp4
+Drive: https://drive.google.com/file/d/1Miy6tvabvkafGPuDThEsDt5EE0hyiMXH/view
+Duration: 00:27:00
+Transcribed: 2026-06-12 · whisper large-v3-turbo · language: en
+
+---
+
+[00:00] You guys have an ongoing conversation, if you wouldn't mind. If you guys don't mind taking the conversations outside, we're going to get going with Robert. Thank you very much. Yeah, thanks everyone. So yeah, I'm Robert Rayner. I'm here, a researcher from Eigenlabs.
+
+[00:20] We're a company startup. We've been building coordination technology, essentially mostly focused on blockchain originally, but these days focused on more post-AGI coordination. So I'm going to be talking about a frame that I found pretty interesting for thinking about how AI is useful for coordination problems, and then I'll talk a little bit about the platform that we're building based on some of these insights.
+
+[00:50] Yeah, I've been dropping in and out this week at Edges Merelda, and I've had, I think, most of my interactions have been in two categories. I've met people who are worried about what their unique human value is going to be in a post-AGI world, and I've interacted with people where the interaction is just sort of watching them vibe code something, and so I don't know what they're worrying about.
+
+[01:17] Unfortunately, this talk is about something that I think that AI is uniquely useful for. So as a human, I'm not too happy about that, but the silver lining is that the thing it's useful for is coordination problems, which are important for us as humans.
+
+[01:36] Yeah, so I have sort of a tautology up here, which is that AI is going to change the world, we think. It's already changing the world, and the ways that it's going to change the world will probably derive from the ways that artificial intelligence is different from human intelligence.
+
+[01:50] So maybe an interesting exercise is to think about what are these ways. So we don't have a big group here, and if there are questions, you know, we'll just go ahead and stop. But I'm wondering what things come to mind for people when you think about aspects of intelligence that are different between humans and AI.
+
+[02:15] You can just shout it out. Or even properties of intelligence to begin with. Yeah. I don't know if I'm going to use this mic. Do I need to use the mic for the recording? I probably do. Okay. So speed. What's that? Not a snarkiness? I'm going to add one to my list from the previous conversation, which is timelessness.
+
+[02:40] So I've got a list that I put together up here. These are some of the common ones that I've seen. Yeah. Yeah. So one of the things I have up here is capability, which I think is a very multifaceted thing, right? You talk about the jagged edge.
+
+[03:09] You can talk about working memory. You can talk about, you know, long-term memory. You can talk about context, length, all these different things, right? I'm going to be simplistic and bucket this into capability, but there's a lot of other things as well.
+
+[03:28] Like, in my world, yeah, but I think it, not to say these aren't all important distinctions, right? Like, yeah, breadth. Hmm. I think that's a really important one. I think it points to, like, some of these discussions about what the unique things, affordances of human intelligence might be, right?
+
+[04:00] And to me, maybe a related piece of that is just embodied salience awareness or recognition. When something is really important, you feel it in your body, right? Not clear that an AI has anything corresponding to that. I think it's related to that.
+
+[04:25] Yeah. So these are the things I'm really interested in. Right, right. These are, in fact, the things that I'm personally most interested in, but I'm not here to talk about them, but I just wanted to point to some of these narratives, right, that derive from traits that we can identify with intelligence.
+
+[04:39] So we've got capability, a lot of different things associated with that. Efficiency, which can be in terms of energy or just economic cost, right? Agency, corrigibility, consciousness. And I've driven, I've drawn my own mapping here between, like, collections of these traits and some of the narratives that you may have seen, right?
+
+[05:01] So raise your hand if you haven't seen or maybe if you've seen all of these narratives. So we've got, like, the emergence of the vibe founder, auto research, a big one that's happening now. Oh, I've got a view here. Economic disruption, for sure, whether that's post-scarcity or permanent underclass.
+
+[05:22] You've got probability of doom, the whole EAC thing. Are we going to be promoting the exponential growth of consciousness across the stars, or are we going to tile the universe with paperclips, right? So I'm not going to try to add or resolve to any of these narratives, but to any of these narratives, but I just want to add a new one that I haven't seen out there so much, which is this trait of digital abstraction.
+
+[05:54] And I think there are some interesting narratives that we can derive from that. So that's sort of what this talk is about. But I want to motivate it a little bit. Why would we think that digital abstraction is at all important for coordination problems?
+
+[06:09] Or, well, yeah, I'm going to say that it's important for coordination problems. And why do we think that? So I'll just list out some things that we might associate with coordination-type problems and also properties of digital systems. On the one hand, if you're familiar with some of these game theory-type dilemmas, you might recognize some of these words I have listed on the right, on the left side.
+
+[06:35] So we have information asymmetries. One person has information that another person doesn't. We have observability, which might be a form of this. There's something that's happening, but we can't easily see that it's happening. We need expensive institutions in order to find out what's happening.
+
+[06:53] Do investigations and bring enforcement. Moral hazards. Someone may be able to take actions that no one can see. And so on and so on. Noteworthy that many of these have to do, and I've selected them to be so, with information and flows of information.
+
+[07:12] Now let's talk about properties of digital systems. So the thing that we associate most with digital systems is just that they have a discrete state, right? You have zeros and ones, talking about binary and so on. But what many people may not think about as much is that this is more of a means to an end than it is an end in itself.
+
+[07:33] And what the end is is more of some kind of environmental isolation, or I'll call it an informational closure. And if we frame it in that way, then we might think, well, there could actually be an important connection between these two things, between something being digital and useful for a game theory type dilemma.
+
+[07:53] So I'm just going to kind of go through a couple slides to motivate this idea that there's something interesting going on here, and define what a digital abstraction is to me. So here we have the world, and we can think of it as like a lot of different objects and pieces that are all nominally interacting, right?
+
+[08:13] And in a physical sense, there's no limit to the way that these different pieces of the world are interacting with each other. So if I try to draw a box around some part of the world and say, this is my system, and it's not going to interact with the rest of the world, well, that's difficult, because in general, there are going to be interactions here.
+
+[08:32] So maybe I'll try to deal with that by making it less of a mental box and more of a physical box that these interactions can't get through. And that's quite effective, but not entirely effective. And you're still going to have little bits of noise and perturbations that get in from the environment, through any kind of boundary that I can create, physical boundary.
+
+[08:53] So what do we have to do? Well, that's where we abstract, and we say, well, we don't care about the very detailed state inside this box. We care about some abstraction on it, which is where we get these discrete states of zeros and ones and so on.
+
+[09:09] And we have to do a little more than that and say, like, you know, you're a zero, and if you start trying to become a one and some noise gets in there, we're going to bump you back to a zero and add these potential walls and what have you. But this is where discretation comes into play.
+
+[09:25] And long story short, when we have this, when we carefully engineer this abstract digital system, we can actually treat it as a system in terms of the abstract state that is fully separate from the world. So if we know the state at one time, that's all the information we need to know to perform some operation and have the state at some future time.
+
+[09:50] And this relationship that I've drawn here sort of is called a commutation relationship. It says, here's the state of the world, I can derive the state of my system from that and then apply my state evolution operator to get the new state, or I could take the world state and evolve it and map back to my system state through this abstraction relationship and get the same thing.
+
+[10:12] So any two paths on this diagram are going to give you the same outcome. So we say this diagram commutes. So here's some things we can say about these digital systems. One is, I can identify a finite information channel that constitutes all the coupling between the system and its environment.
+
+[10:34] Another one is maybe the total amount of information I need to specify the system is finite. These aren't things that you would say about just any system. Like if I say, you're a system, a human, I'm not going to say I can identify all the information that's affecting your cognition or whatever's happening in your system right now.
+
+[10:54] I also don't think I could specify the entirety of you with a simple, you know, finite quantity of information, at least easily. There's also this interesting thing that I'm just going to point out and not make much use of, which is the idea, we always say all models are wrong, even though they're sometimes useful.
+
+[11:13] But, you know, interestingly, digital systems are sort of an exception to that, where we say, actually, we've done a ton of work to carefully embody the system into the worlds that satisfies the digital abstraction. And now the model that we have of it pretty much describes how the actual system works, right?
+
+[11:31] And that's how we act with respect to these systems. So it's a really interesting exception to that rule. And we can kind of translate this to a more concrete set of primitives. So we have things like duplicability, I can exactly replicate a system so that the system and its duplicate are exactly the same.
+
+[11:52] Again, I'm pointing to the abstraction here, not necessarily the physical instantiation. There's differences at the physical level, but at the abstract level, they're identical. Verifiability, I can verify claims of a particular form, something like this specific system running in a specified configuration, produces a specific output, and this links back to sort of like our computational closure and the fact that the system is equivalent to its formal model, so
+
+[12:24] we can use tools like formal verification. Deletion, I can delete information from a digital system such that it can't, you know, can't be accessed within that abstraction anymore. It's not something I can easily do with a more complexly coupled system, like how do I delete information from your brain, not as simple.
+
+[12:46] Input provenance, this is like a subset of verifiability but an important one where I can verify that your system ran with only a certain informational input and no other inputs. And we note these are all kind of types of controls of information flow.
+
+[13:03] So now let's map these back to different coordination settings that might be interesting and where these permittance might be relevant. So here's the list of things that I'm going to go through. I'm going to, let's see how we are on time, yeah.
+
+[13:18] So I'll be brief with the first few and then I'll focus on maybe the last one. So principal agent problem, who here is familiar with principal agent problems? So principal agent problem is when, you know, you have a principal and they don't want to do the work themselves.
+
+[13:35] They want to have an agent do it for them, so they want the agent to act in their interest instead of the agent's own interest, right? And a difficulty here is that the agent may be able to do something that I don't know about or act on information that I don't know about.
+
+[13:50] So you could have a judge that's acting as an agent on the principal, being the public good, and that judge may take a bribe. And it's not something that anyone can easily see or know about, right? So that would be a type of moral hazard. And that's difficult to prevent because we're in an open information environment, right?
+
+[14:14] I don't know everything that the judge is doing. I can't see all the information that they have access to. But if we were to put this in a closed information environment where we can identify and monitor all of the information, all the actions, that suddenly changes, right?
+
+[14:30] We've transformed the problem quite a bit. We can fully audit everything. So by adding this input provenance primitive, we've really transformed the principal agent problem. We'll come back to that a little bit. Another interesting one is this buyer's information paradox.
+
+[14:48] This is one that I hadn't really heard of until recently. Although, interestingly, I was pursuing a PhD where I was working on data marketplaces, and we certainly kind of ran into some of these issues. And this is where an information, yeah, a buyer can't evaluate a piece of data for quality without sort of getting access to the information contained in that data irreversibly, right?
+
+[15:19] And that's partly because I don't have this primitive of deletion. So in an information in a closed environment, that information can be irreversibly deleted. So here we make use of the deletion primitive. And there's two asterisks here because we kind of need something a little more.
+
+[15:34] We need not just the digital abstraction, but also the converse of that, which is that a digital abstraction says information from the environment can't make its way into the digital system. But we also need another guarantee, which is that information from the digital system can't make it out into the world.
+
+[15:52] And that's where these things like trusted execution environments or TEEs come into play, which is another kind of physical boundary technology. But in any case, if we allow ourselves that asterisk, then we can start to deal with some of these contexts, like something like a data marketplace or a risky coordination setting where, you know, say I want to find people who are into some activity, but I don't want that to be publicly known.
+
+[16:19] So I only want to reveal that information to people for whom there's a match. So a digital agent can solve that problem by viewing the information, making a judgment, and then let's say preserving only the judgment as the outcome of that interaction and none of the information that went into that judgment.
+
+[16:36] You may see some similarities here for those who were in the previous talk, right? A lot of concern about privacy and keeping this information in a closed environment. Credit attribution, this is sort of an interesting one. Counterfactual reasoning, I want to make some prediction about what you would have done if you hadn't been presented with context, your actual context, but had actually been presented with some other context, right?
+
+[17:09] This is difficult to do, right? With humans, you can't really do it. I can't set you up in one way and then rewind time and do something else, right? So I have to resort to more statistical methods like controlled studies in order to actually test counterfactual theories.
+
+[17:33] With an AI, you know, that's not true, right? I can simply duplicate the AI and run many of these different tests. And this helps with things like credit assignments. So we have Shapley values where you have a coalition of agents that are all contributing to some sort of problem and you want to know whose contribution was most valuable.
+
+[17:52] Well, I can rerun the experiment with an agent present or not present and see what their contribution was. This isn't something I can easily do with human intelligence. So the thing I want to end with is this market alignment problem, which I think is one of the most interesting ones.
+
+[18:09] So the first thing is to do is sort of frame the problem. And I want to do that by asking, you know, this question. When you join a social network, what is it that you're buying? And I think this is sort of an apt way of thinking about what you're doing when you're joining a social network.
+
+[18:28] You're giving them your time and attention and they're giving you something in return. What is that thing? And not to be cynical, but I think some of us may think about it at least this way, which is that what I'm getting out of this is a company or institution that is going to acquire a network effect via subsidies and then degrade the product and or exploit any cognitive blind spots needed to return a product, right?
+
+[18:58] So we're all familiar with networks that appear to operate in ways that sort of look like this. So another question to ask is what could you be buying if some of these informational problems were solved? So if a social network came with a label that said, we are going to and shitify this product in two years and this is how we're going to do it and the addictive algorithms that we're going to use to keep your intention engaged and so on and so forth,
+
+[19:30] you might think twice about joining that social network no matter what other perks they were, you know, adding on this information card, right? But, you know, there is no such placard. And even if there were a social network which would never give way to some of these pressures, it would be difficult to know about it.
+
+[19:49] So those of you who are vibe coding social networks right now with some kind of promise like this, you'd ask, I don't know if there are any of you, but this may be a problem that you have to solve, right? Which is this trust problem. How do you make commitments to your users?
+
+[20:01] So to kind of then ask this problem and present a possible solution in terms of these digital agents, I'm presenting this idea of a constitutional company's platform. This is basically the idea of taking an entire company and putting it into an informationally closed environment, which is not something that you can do with a human, right?
+
+[20:27] Because a human is not informationally closed. It's highly coupled to the environment, which gives rise to all these kind of quandaries. But a digital agent can encapsulate a lot of the capabilities that you need to run a company or even build a company within an informationally closed environment.
+
+[20:45] So you could kind of headline this as something like input provenance for an entire company. And of course, that doesn't mean that humans can't be involved at all, but we can make sure that their involvement is through a kind of closed, observable, monitorable communication channel.
+
+[21:00] So this has the shape of a platform, of course, which is going to rely on various technologies and so on. But it's also really a tool that founders can use to build companies that allow them to make these commitments to end users, which is like we're going to have a constitution that's enforced by the builder and the auditor and the marketer.
+
+[21:21] And this information channel may look like the messages that you send to your agent as you vibe code your startup, right? Yeah, so if this is interesting for any of the vibe coders that are out there, I'll just say a little bit about our company.
+
+[21:39] We are building, among another set of products, something like this constitutional company's platform. So look us up. And in particular, you know, if you find this interesting, you can contact me, Bertrand Yoro in Telegram, or just search for my name online.
+
+[21:58] I think we have a few minutes for questions, so I'll stop it there. Yeah. Okay. I'm not sure I understand what exactly you mean by constitutional company platform. Can you walk us through an example of how that actually works? Yeah, so I think the most concrete way to think about this is like, a lot of people may be building a company right now and doing it via something like vibe coding, right?
+
+[22:29] But what I mean by vibe coding is you've got cloud code, and you're sitting at your computer and you're giving instructions, and you're having it set up AWS accounts or whatever it is for you. You're having it build the code, push to GitHub, so on and so forth, right?
+
+[22:44] This agent is running at your computer. If you wanted to circum... And you're owning all of the accounts and property, right? If you wanted to circumvent something that the agent was advising you to do, you could do it, right? That's within your capability.
+
+[22:58] So what this is is really sort of a kind of intermediation between you and the assets of the company and saying that that agent has more responsibility now than just doing exactly what you ask. It's also on top of that responsible for enforcing a constitution, which is where some of these commitments live, right?
+
+[23:19] So that constitution may be something like this is a platform. This is something like Instagram. It's a place for parents to share photos of their families and kids with friends. And it's private. It's not going to be ad-driven. It's not going to be heavily monetized.
+
+[23:39] You could imagine writing all these things in plain English. And we're at the point where agents can interpret these things and translate them to constraints at the level of the product itself, right? This would be very difficult to make this sort of commitment with any kind of legal or corporation structure that you have now.
+
+[23:57] But with the commitment enforced by an agent, you have a lot of new possibilities. That's sort of the shape of the platform, if that makes sense. I don't think it did, but yeah. We can talk about that. Okay, so let's walk through a specific example.
+
+[24:15] Yeah. Let's say you're going to say that the data that is in your new platform, social platform, is only going to belong to you and you won't sell it for marketing purposes. Simple little promise. Yeah. How exactly does that get guaranteed through this system?
+
+[24:31] Because if it's just an agent, then there's all kinds of ways to work around an agent. I mean, I'm familiar with... You're pointing to jailbreaking the agent and the capabilities aspect of this. Yeah. I mean, I'm wondering if this is some sort of...
+
+[24:46] In the crypto world, there's all kinds of approaches to try to do this kind of thing. I'm wondering if this is... That sounds like you have a crypto background. Is it something derived out of that or is it something else? No, no, there's definitely a hypothesis here, which is that as agent capabilities grow, if you take something like a simple constitution with a very legible commitment structure, then an agent will be able to enforce that, right?
+
+[25:15] And it's the right point of pressure to push on, but yeah, there's sort of a hypothesis there. So this is more similar to, say, the anthropic constitution that's built into the system prompt. So is that the rough analogy here? Yeah. Right. Okay.
+
+[25:33] So now it's like somebody would buy into your constitution system because it has a reputation for... Yeah. It's sort of a set, like all things being equal stance where like, if I had a human, you could imagine a human in this position, right?
+
+[25:50] That is... Right. But all the other things are very difficult, right? To have a human who has this alignment, who has the input provenance, who I know has been indoctrinated from day one to do nothing but enforce this constitution as their highest priority.
+
+[26:05] I could actually imagine this sort of sci-fi world where we build humans for this purpose. Right? We don't. But all things being equal at the capability level, in terms of avoiding jailbreaking and stuff, which is a thesis on how AI capability is going to evolve.
+
+[26:23] You have this other dimension, which is observability, transparency, and all these other kind of primitives that I've been talking about. What does that bring into play? It's sort of projecting into the future and saying, enforcing a constitution seems quite plausible.
+
+[26:38] I just have a question. Oh, yeah. We're almost at time, so... No. All right, yeah. Thanks for your attention, everyone. Thank you. Thank you. Thank you. Thank you.

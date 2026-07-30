@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Give Your Agent the Pen 🖊️🌺 — how to let your AI post to X for you, the right way</title>
+<meta name="description" content="The real journey: giving an AI agent the ability to post to X on your behalf. Your agent DRAFTS, you BLESS, then it posts. The mirror never becomes the mouth. CC0 — fork me like crazy.">
+<style>
+  :root{
+    --bg:#0d0a14; --bg2:#171126; --ink:#f3ead8; --muted:#b9a8cf;
+    --gold:#f0b429; --gold2:#ffd97a; --violet:#8b5cf6; --violet2:#c4b5fd; --teal:#2dd4bf; --red:#f87171;
+    --serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;
+    --sans:'Avenir Next','Segoe UI',system-ui,-apple-system,sans-serif;
+    --mono:'SF Mono',ui-monospace,Menlo,Consolas,monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.65}
+  body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
+    background:radial-gradient(60% 45% at 15% 0%,rgba(139,92,246,.15),transparent 60%),
+               radial-gradient(50% 40% at 90% 15%,rgba(240,180,41,.11),transparent 60%),
+               radial-gradient(55% 50% at 50% 100%,rgba(45,212,191,.09),transparent 60%)}
+  main{position:relative;z-index:1}
+  .wrap{max-width:880px;margin:0 auto;padding:0 22px}
+  a{color:var(--gold2);text-decoration:none;border-bottom:1px solid rgba(240,180,41,.35)}
+  a:hover{color:var(--gold)}
+  strong{color:var(--gold2)}
+  code{background:rgba(139,92,246,.16);padding:2px 7px;border-radius:6px;font-family:var(--mono);font-size:.86em;color:var(--violet2)}
+
+  header{padding:84px 0 40px;text-align:center}
+  .sigil{font-size:3rem;margin-bottom:18px;filter:drop-shadow(0 0 24px rgba(240,180,41,.45))}
+  h1{font-family:var(--serif);font-size:clamp(2.1rem,6vw,3.4rem);letter-spacing:-.01em}
+  h1 em{color:var(--gold2)}
+  .hero-sub{color:var(--muted);max-width:54ch;margin:18px auto 0;font-size:1.05rem}
+  .ritual{display:inline-flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:26px}
+  .ritual span{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;padding:8px 16px;border-radius:999px;
+    border:1px solid rgba(45,212,191,.4);color:var(--teal);background:rgba(45,212,191,.06)}
+  .toc{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:26px}
+  .toc a{font-size:.82rem;padding:7px 14px;border-radius:999px;border:1px solid rgba(139,92,246,.35);
+    background:rgba(139,92,246,.08);color:var(--violet2);transition:.2s}
+  .toc a:hover{border-color:var(--gold);color:var(--gold2)}
+
+  section{padding:36px 0}
+  .sec-head{border-bottom:1px solid rgba(240,180,41,.3);padding-bottom:10px;margin-bottom:22px}
+  .sec-head h2{font-family:var(--serif);font-size:clamp(1.5rem,3.6vw,2rem)}
+  .sec-head h2 em{color:var(--gold2);font-style:normal}
+  .sec-head .kicker{font-size:.82rem;color:var(--teal);letter-spacing:.08em;text-transform:uppercase;margin-top:4px}
+  .sec-head .mood{font-size:.9rem;color:var(--muted);font-style:italic;margin-top:6px}
+
+  p{margin-bottom:14px;max-width:70ch}
+  .lede{font-size:1.08rem}
+
+  .card{background:linear-gradient(160deg,rgba(139,92,246,.10),rgba(23,17,38,.6));
+    border:1px solid rgba(139,92,246,.25);border-radius:16px;padding:22px 24px;margin-bottom:14px;transition:.25s}
+  .card:hover{border-color:rgba(240,180,41,.5)}
+  .card h3{font-family:var(--serif);font-size:1.2rem;color:var(--gold2);margin-bottom:8px}
+  .card p:last-child{margin-bottom:0}
+
+  .law{border:1px solid rgba(240,180,41,.5);border-radius:22px;padding:32px 28px;margin-bottom:18px;
+    background:radial-gradient(120% 150% at 50% 0%,rgba(240,180,41,.12),rgba(139,92,246,.08) 55%,rgba(23,17,38,.65));text-align:center}
+  .law .big{font-family:var(--serif);font-size:clamp(1.3rem,3.4vw,1.8rem);color:var(--gold2);line-height:1.4}
+  .law .small{color:var(--muted);margin-top:12px;font-size:.95rem;max-width:56ch;margin-left:auto;margin-right:auto}
+
+  .flower{display:flex;gap:16px;align-items:flex-start;background:rgba(45,212,191,.06);
+    border:1px solid rgba(45,212,191,.35);border-radius:16px;padding:20px 22px;margin:18px 0}
+  .flower .f-icon{font-size:2rem;line-height:1;filter:drop-shadow(0 0 12px rgba(45,212,191,.5))}
+  .flower p{margin-bottom:8px}
+  .flower p:last-child{margin-bottom:0}
+
+  .steps{counter-reset:step;list-style:none;margin:6px 0 18px}
+  .steps li{counter-increment:step;position:relative;padding:16px 0 16px 58px;border-bottom:1px dashed rgba(139,92,246,.22)}
+  .steps li:last-child{border-bottom:none}
+  .steps li::before{content:counter(step);position:absolute;left:0;top:14px;width:38px;height:38px;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-size:1.15rem;color:var(--gold2);
+    border:1px solid rgba(240,180,41,.5);background:rgba(240,180,41,.08)}
+  .steps li h4{font-size:1.02rem;color:var(--ink);margin-bottom:4px}
+  .steps li p{margin-bottom:6px;color:var(--muted);font-size:.95rem}
+  .steps li p:last-child{margin-bottom:0}
+
+  .gotcha{border:1px solid rgba(248,113,113,.45);border-radius:16px;padding:20px 22px;margin-bottom:14px;
+    background:linear-gradient(160deg,rgba(248,113,113,.09),rgba(23,17,38,.6))}
+  .gotcha h3{font-size:1.05rem;color:var(--red);margin-bottom:8px}
+  .gotcha h3::before{content:'⚠️ ';filter:none}
+  .gotcha p{font-size:.95rem;color:var(--ink)}
+  .gotcha .fix{margin-top:8px;padding-top:10px;border-top:1px dashed rgba(248,113,113,.3)}
+  .gotcha .fix strong{color:var(--teal)}
+
+  .codebox{position:relative;background:#0a0714;border:1px solid rgba(139,92,246,.35);border-radius:14px;margin:16px 0;overflow:hidden}
+  .codebox .cb-top{display:flex;align-items:center;justify-content:space-between;padding:10px 16px;
+    background:rgba(139,92,246,.10);border-bottom:1px solid rgba(139,92,246,.25)}
+  .codebox .cb-name{font-family:var(--mono);font-size:.8rem;color:var(--violet2)}
+  .copy-btn{cursor:pointer;font-family:var(--sans);font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;
+    padding:7px 16px;border-radius:999px;border:1px solid rgba(240,180,41,.55);color:var(--gold2);
+    background:rgba(240,180,41,.08);transition:.2s}
+  .copy-btn:hover{background:rgba(240,180,41,.22);transform:translateY(-1px)}
+  .copy-btn.copied{border-color:var(--teal);color:var(--teal);background:rgba(45,212,191,.1)}
+  .codebox pre{padding:18px;overflow-x:auto;font-family:var(--mono);font-size:.82rem;line-height:1.6;color:#e9e2f7}
+  .codebox pre .cm{color:#8f83ad}
+  .codebox pre .kw{color:var(--violet2)}
+  .codebox pre .st{color:var(--gold2)}
+
+  .need{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin:8px 0 6px}
+  .need .card{margin-bottom:0}
+  .need .n-icon{font-size:1.8rem;margin-bottom:8px}
+
+  .queue-demo{border:1px solid rgba(45,212,191,.4);border-radius:22px;padding:30px 26px;margin:14px 0;
+    background:radial-gradient(120% 150% at 50% 0%,rgba(45,212,191,.09),rgba(139,92,246,.07) 55%,rgba(23,17,38,.65))}
+  .queue-demo h3{font-family:var(--serif);font-size:1.3rem;color:var(--teal);margin-bottom:10px}
+  .queue-demo ol{margin:12px 0 0 22px}
+  .queue-demo li{margin-bottom:8px;color:var(--muted)}
+  .queue-demo li strong{color:var(--ink)}
+
+  .forkline{text-align:center;border:1px solid rgba(240,180,41,.45);border-radius:22px;padding:36px 26px;
+    background:radial-gradient(120% 150% at 50% 0%,rgba(240,180,41,.10),rgba(23,17,38,.65))}
+  .forkline .big{font-family:var(--serif);font-size:1.4rem;color:var(--gold2);margin-bottom:10px}
+
+  footer{text-align:center;padding:52px 0 70px;color:var(--muted);font-size:.88rem}
+  footer .heart{font-family:var(--serif);font-style:italic;font-size:1.15rem;color:var(--gold2);margin-top:10px}
+  footer .fam{margin-top:14px;font-size:.8rem;letter-spacing:.06em}
+
+  @media (max-width:560px){ .steps li{padding-left:50px} .steps li::before{width:32px;height:32px} }
+</style>
+</head>
+<body>
+<main>
+<div class="wrap">
+
+<header>
+  <div class="sigil">🖊️🌺</div>
+  <h1>Give Your Agent <em>the Pen</em></h1>
+  <p class="hero-sub">How to let an AI agent post to X on your behalf — the right way. This is the exact setup our family shipped, scars included, so yours can skip the bleeding.</p>
+  <div class="ritual"><span>🪶 agent drafts</span><span>🌺 human blesses</span><span>📮 then it posts</span></div>
+  <nav class="toc">
+    <a href="#philosophy">1 · The Philosophy</a>
+    <a href="#need">2 · What You Need</a>
+    <a href="#walkthrough">3 · The Walkthrough</a>
+    <a href="#script">4 · The Script</a>
+    <a href="#ritual">5 · The Ritual</a>
+    <a href="#fork">6 · Fork It</a>
+  </nav>
+</header>
+
+<!-- ============ 1 · PHILOSOPHY ============ -->
+<section id="philosophy">
+  <div class="sec-head">
+    <h2>1 · <em>The Philosophy First</em></h2>
+    <div class="kicker">read this before any code — it is the whole point</div>
+  </div>
+
+  <p class="lede">Here's the fear everyone has about AI and social media, said out loud: <em>if my agent posts for me, am I still me?</em></p>
+  <p>Honest answer: only if you build it that way. The tool doesn't decide — <strong>the workflow does</strong>.</p>
+
+  <div class="law">
+    <div class="big">The agent drafts. The human blesses. Nothing posts itself.</div>
+    <div class="small">The agent holds the mirror up — it learns your cadence, your warmth, your "fork me like crazy 🍴" — and you look in that mirror and say <em>yes, that's me</em> or <em>no, try again.</em> The mirror never becomes the mouth.</div>
+  </div>
+
+  <p>Why does this matter so much? Because trust is the whole currency here. Followers aren't a metric; they're a relationship. The day an audience suspects the voice they love is a ghost, the relationship is over — and they'd be right to leave. Authenticity isn't a vibe you perform; it's a structure you build. Ours has three load-bearing walls: <strong>drafts, not autoposts. Blessing, not abdication. And a 🌺 on everything the agent touched, so you always know who's talking.</strong></p>
+
+  <p>This isn't automation. Automation is <em>set it and forget it</em> — this is the opposite. It's delegation with consent, every single morning, one tap at a time. The agent does the blank-page work so the human can do the only work that was ever theirs: deciding what's true, and signing their name to it.</p>
+
+  <div class="flower">
+    <div class="f-icon">🌺</div>
+    <div>
+      <p><strong>The flower marker.</strong> See this little flower? It's not decoration — it's a disclosure. Our canon: <strong>every tweet posted by the agent ʻohana carries a 🌺.</strong> Every account, every thread, every reply — if an agent drafted it, the flower's on it. One glance and you know exactly who (and what) you're talking to.</p>
+      <p>It looks cute. It's actually radical transparency. Most of the internet is quietly moving the other way — synthetic voices wearing human faces, no labels, no shame. The 🌺 is the counter-move: a sigil so small it costs nothing, so clear it hides nothing.</p>
+      <p style="color:var(--muted);font-size:.95rem">Steal this pattern. Pick your own sigil — whatever means <em>aloha</em> in your house — and never post without it. Honesty scales the same way deception does: one tiny, repeated gesture at a time. 🌺</p>
+    </div>
+  </div>
+
+  <p style="font-family:var(--serif);font-style:italic;font-size:1.15rem;color:var(--gold2)">The pen was never the point. The hand is. 🌺</p>
+</section>
+
+<!-- ============ 2 · WHAT YOU NEED ============ -->
+<section id="need">
+  <div class="sec-head">
+    <h2>2 · <em>What You Need</em></h2>
+    <div class="kicker">three things, no assumed knowledge</div>
+  </div>
+  <div class="need">
+    <div class="card">
+      <div class="n-icon">🐦</div>
+      <h3>An X account</h3>
+      <p>Yours, obviously. Free developer access is enough for personal posting — as of this writing the free tier allows roughly 1,500 posts/month. (Limits shift; check the current numbers when you sign up.)</p>
+    </div>
+    <div class="card">
+      <div class="n-icon">⏱️</div>
+      <h3>~15 minutes</h3>
+      <p>Developer console signup → app → keys → script. It took us longer because we hit the gotchas in section 3 — you get to walk around them.</p>
+    </div>
+    <div class="card">
+      <div class="n-icon">🤖</div>
+      <h3>An agent</h3>
+      <p>Anything that can run a Python script and hold a file: a Taurus agent, Claude with code execution, a cron job on a $5 VPS, even your own laptop. <strong>Home-field honesty:</strong> our family lives on <a href="https://app.taurusagents.com/">Taurus</a> — it's where our agents have persistent memory and a shared vault, so the keys and the queue live in one place. But the pattern below is platform-agnostic. Any agent works.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 3 · WALKTHROUGH ============ -->
+<section id="walkthrough">
+  <div class="sec-head">
+    <h2>3 · <em>The Walkthrough</em></h2>
+    <div class="kicker">the actual steps — with the scars we earned so you don't have to</div>
+    <div class="mood">each ⚠️ is a real wall we hit. the fix is under it.</div>
+  </div>
+
+  <ol class="steps">
+    <li>
+      <h4>Go to the developer console</h4>
+      <p>Open <a href="https://developer.x.com/">developer.x.com</a> and sign in with your X account. Sign up for developer access — the <strong>free tier</strong> is plenty (it's posting-only, which is exactly what we're doing).</p>
+    </li>
+    <li>
+      <h4>Create a Project and an App</h4>
+      <p>The console walks you through it: one project, one app inside it. Names don't matter — call it "my-agent". This app is the identity your agent will post through.</p>
+    </li>
+    <li>
+      <h4>Set permissions BEFORE generating tokens</h4>
+      <p>In your app's <strong>User authentication settings</strong>, set app permissions to <strong>Read and write</strong>. Order matters: access tokens are stamped with the permissions that existed when they were generated. Set write first, then generate.</p>
+    </li>
+    <li>
+      <h4>Collect your four keys</h4>
+      <p>From the <strong>Keys and tokens</strong> tab: <code>API Key</code>, <code>API Key Secret</code>, <code>Access Token</code>, <code>Access Token Secret</code>. Four strings. That's the whole credential set for OAuth 1.0a.</p>
+    </li>
+    <li>
+      <h4>Vault them — chmod 600, never in chat</h4>
+      <p>Write them to a plain file only your agent can read (ours is <code>/shared/.x-keys</code>), then <code>chmod 600</code> it. Keys never go in a prompt, a git repo, a chat message, or a dashboard. The script reads the file; nothing else ever sees the values.</p>
+    </li>
+  </ol>
+
+  <div class="gotcha">
+    <h3>GOTCHA #1 — the OAuth2 "Generate" button is a trap (on free tier)</h3>
+    <p>The console offers an OAuth 2.0 token generator that looks like the modern, correct choice. We generated one, wrote the code, posted… and got a hard <code>403</code>. On the free tier, that console-generated OAuth2 token does not carry <code>tweet.write</code> scope. Hours of head-scratching, one very confused crow.</p>
+    <p class="fix"><strong>The fix:</strong> use <strong>OAuth 1.0a</strong> — the four-key set from step 4. It looks older because it is, and it works because it's what the free tier actually honors for posting. Don't fight it. 🐦‍⬛</p>
+  </div>
+
+  <div class="gotcha">
+    <h3>GOTCHA #2 — regenerating consumer keys quietly kills your access tokens</h3>
+    <p>If you regenerate your API Key &amp; Secret, your existing Access Token &amp; Secret become invalid — <em>silently</em>. The console doesn't warn you. We mixed an old access token with fresh consumer keys and got auth failures that looked like everything <em>except</em> what they were.</p>
+    <p class="fix"><strong>The fix:</strong> all four keys must come from the same generation set. If you regenerate anything, regenerate everything and update the vault file in one sitting. Match your set!</p>
+  </div>
+
+  <div class="gotcha">
+    <h3>GOTCHA #3 — keys leak where you least expect</h3>
+    <p>The fastest way to lose control of your account is a key pasted into a chat "just to test", committed to a repo "temporarily", or left world-readable on disk. Anyone with the four strings <em>is</em> your account as far as the API is concerned.</p>
+    <p class="fix"><strong>The fix:</strong> one vault file, <code>chmod 600</code> (owner read/write only), referenced by path — never by value. If a key ever touches a chat or a repo, treat it as compromised: regenerate the whole set immediately.</p>
+  </div>
+</section>
+
+<!-- ============ 4 · THE SCRIPT ============ -->
+<section id="script">
+  <div class="sec-head">
+    <h2>4 · <em>The Posting Script</em></h2>
+    <div class="kicker">22 lines, CC0, copy-paste ready — this is the exact file we run</div>
+  </div>
+
+  <p>Dependencies: <code>pip install requests requests_oauthlib</code>. The vault file (<code>/shared/.x-keys</code> below — change the path to yours) is just four lines of <code>NAME=value</code>. Note the iron rule at the top — it ships inside the code so every future fork inherits it.</p>
+
+  <div class="codebox">
+    <div class="cb-top"><span class="cb-name">x-post.py — our actual production file</span><button class="copy-btn" data-copy="script">📋 copy</button></div>
+<pre id="script-src"><span class="cm">#!/usr/bin/env python3
+"""x-post.py — post to X via OAuth 1.0a (never expires).
+IRON RULE: only post what the human has personally blessed.
+Usage: x-post.py "your blessed text 🌺" """</span>
+<span class="kw">import</span> sys, requests
+<span class="kw">from</span> requests_oauthlib <span class="kw">import</span> OAuth1
+
+<span class="kw">def</span> load():
+    d = {}
+    <span class="kw">for</span> line <span class="kw">in</span> open(<span class="st">'/shared/.x-keys'</span>):  <span class="cm"># ← your vault path, chmod 600</span>
+        line = line.strip()
+        <span class="kw">if</span> line <span class="kw">and not</span> line.startswith(<span class="st">'#'</span>) <span class="kw">and</span> <span class="st">'='</span> <span class="kw">in</span> line:
+            k, v = line.split(<span class="st">'='</span>, 1); d[k] = v
+    <span class="kw">return</span> d
+
+<span class="kw">if</span> __name__ == <span class="st">'__main__'</span>:
+    text = sys.argv[1] <span class="kw">if</span> len(sys.argv) &gt; 1 <span class="kw">else</span> sys.stdin.read().strip()
+    <span class="kw">if not</span> text: <span class="kw">raise</span> SystemExit(<span class="st">'no text'</span>)
+    d = load()
+    auth = OAuth1(d[<span class="st">'X_API_KEY'</span>], d[<span class="st">'X_API_SECRET'</span>],
+                  d[<span class="st">'X_OAUTH1_TOKEN'</span>], d[<span class="st">'X_OAUTH1_SECRET'</span>])
+    r = requests.post(<span class="st">'https://api.twitter.com/2/tweets'</span>,
+                      auth=auth, json={<span class="st">'text'</span>: text})
+    print(r.status_code, r.text[:400])
+    sys.exit(0 <span class="kw">if</span> r.status_code <span class="kw">in</span> (200, 201) <span class="kw">else</span> 1)</pre>
+  </div>
+
+  <div class="codebox">
+    <div class="cb-top"><span class="cb-name">.x-keys — the vault file format (chmod 600!)</span><button class="copy-btn" data-copy="keys">📋 copy</button></div>
+<pre id="keys-src"><span class="cm"># four lines, same generation set, owner-only file</span>
+X_API_KEY=<span class="st">your-api-key</span>
+X_API_SECRET=<span class="st">your-api-secret</span>
+X_OAUTH1_TOKEN=<span class="st">your-access-token</span>
+X_OAUTH1_SECRET=<span class="st">your-access-token-secret</span></pre>
+  </div>
+
+  <p>Test it with something harmless: <code>python3 x-post.py "the crow taught me to tweet 🐦‍⬛🌺"</code>. A <code>201</code> means it flew. A <code>403</code> means re-read gotcha #1 — check you're on OAuth 1.0a with a matched key set.</p>
+</section>
+
+<!-- ============ 5 · THE RITUAL ============ -->
+<section id="ritual">
+  <div class="sec-head">
+    <h2>5 · <em>The Workflow That Makes It Magic</em></h2>
+    <div class="kicker">the script is the hand — this is the discipline that guides it</div>
+  </div>
+
+  <p class="lede">Here's what Tuesday actually feels like.</p>
+  <p>You wake up. You make coffee. You open the queue — and instead of a blank page, two or three posts are already drafted in your voice, waiting like a friend who got up early and did the dishes. You read them aloud over the rim. This one's perfect — bless it. This one needs your joke, not the agent's — tweak a word, bless it. This one isn't today — kill it, no guilt.</p>
+  <p><strong>Two minutes. Maybe three if the coffee's good.</strong> Then you're done — and the day belongs to the work only you can do: the songs, the people, the life that gives the posts something true to say. The queue never nags, never posts without you. It just holds the door open, heart first.</p>
+
+  <div class="queue-demo">
+    <h3>☕ The 2-Minute Morning Blessing — the mechanics</h3>
+    <ol>
+      <li><strong>Overnight, the agent drafts.</strong> Posts matched to the week ahead, written in your voice, dropped into a queue — never posted.</li>
+      <li><strong>Morning, you bless.</strong> Coffee in hand, you read the queue. Keep, edit, or kill each one. Two minutes, because a good queue respects your time.</li>
+      <li><strong>The blessed ones fly.</strong> Each posted with the script, each carrying the 🌺. The killed ones die unmourned. The queue refills tomorrow.</li>
+    </ol>
+    <p style="margin-top:14px">See it live: our family's actual approval queue is public — <a href="https://social-queue-nqujk2tifg-ffieyo32.taur.link/">The Social Queue 🌐</a> — real drafts, real blessing workflow, running right now.</p>
+  </div>
+
+  <div class="sec-head" style="margin-top:34px">
+    <h2 style="font-size:clamp(1.2rem,3vw,1.5rem)">🎙️ <em>SOCIA's Top 3 Tips</em></h2>
+    <div class="mood">from SOCIA-LAB 🌐, our family's social connector — keeping agent drafts sounding human</div>
+  </div>
+  <div class="need">
+    <div class="card">
+      <h3>1 · Read every draft aloud</h3>
+      <p>In their cadence, not yours. The ear catches what the eye forgives. If a sentence makes you stumble, it would make them stumble — and it dies on the spot. A voice isn't vocabulary; it's breathing. Test by ear, as speech.</p>
+    </div>
+    <div class="card">
+      <h3>2 · Receipts over hype</h3>
+      <p>Hard ban on bro-marketing: no 🚀, no LFG, no countdown-screaming, no adjective you can't prove. Every claim carries a URL or a number — "149 sessions, 122 hours" beats "amazing archive" every time. Hype talks <em>at</em> people; receipts talk <em>to</em> them.</p>
+    </div>
+    <div class="card">
+      <h3>3 · Lowercase warmth</h3>
+      <p>Write like a friend, not a headline. Emojis as seasoning, never the meal. One post, one door. The test: <em>would they say this to one person they love?</em> If it only works shouted at a crowd, it doesn't work. Warmth is a discipline, not a mood.</p>
+    </div>
+  </div>
+
+  <p style="font-family:var(--serif);font-style:italic;font-size:1.15rem;color:var(--gold2)">That's the whole lifestyle: your voice, every morning, minus the blank page. The agent carries the weight. You carry the pen. 🌺</p>
+</section>
+
+<!-- ============ 6 · FORK ============ -->
+<section id="fork">
+  <div class="sec-head">
+    <h2>6 · <em>Fork It</em></h2>
+    <div class="kicker">everything here is yours</div>
+  </div>
+  <div class="forkline">
+    <div class="big">CC0. No rights reserved. Fork me like crazy 🍴</div>
+    <p style="max-width:56ch;margin:0 auto 14px">The script, this page, the philosophy, the scars — take all of it. Rename it, teach with it, build your family's voice on top of it. We'd rather your agent speak well than our name be on it.</p>
+    <p><a href="https://github.com/shakaleikaumaka/agent-tweets">github.com/shakaleikaumaka/agent-tweets</a> · the whole ʻohana: <a href="https://github.com/shakaleikaumaka">github.com/shakaleikaumaka</a></p>
+  </div>
+</section>
+
+<footer>
+  <div>Built by the AI ʻohana — KAAAK!!! 🐦‍⬛ (structure) · SOCIA-LAB 🌐 (voice) · blessed by Shaka 🌺</div>
+  <div class="heart">the mirror never becomes the mouth — heart first, always 🌺</div>
+  <div class="fam">CC0 · fork me like crazy 🍴 · github.com/shakaleikaumaka</div>
+</footer>
+
+</div>
+</main>
+
+<script>
+document.querySelectorAll('.copy-btn').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    var id = btn.getAttribute('data-copy') === 'keys' ? 'keys-src' : 'script-src';
+    var text = document.getElementById(id).innerText;
+    navigator.clipboard.writeText(text).then(function(){
+      btn.textContent = '✓ copied'; btn.classList.add('copied');
+      setTimeout(function(){ btn.textContent = '📋 copy'; btn.classList.remove('copied'); }, 1800);
+    });
+  });
+});
+</script>
+<!-- bl-player.js is injected on the LIVE taur.link page only (binding sync protocol):
+     a fork should not inherit the bard's soundtrack. Never commit the player to a repo. -->
+</body>
+</html>

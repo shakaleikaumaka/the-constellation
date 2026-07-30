@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Why Shaka Deserves Your Grant — The Ethereum Bard</title>
+<meta name="description" content="Shaka — the ethereum bard. Zuzalu lifer, producer of 15 popup villages, community steward of the Open Source Orchestra. This is why your grant belongs in his hands.">
+<style>
+  :root{
+    --bg:#0d0a14; --bg2:#171126; --ink:#f3ead8; --muted:#b9a8cf;
+    --gold:#f0b429; --gold2:#ffd97a; --violet:#8b5cf6; --violet2:#c4b5fd;
+    --teal:#2dd4bf; --rose:#fb7185;
+    --serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;
+    --sans:'Avenir Next','Segoe UI',system-ui,-apple-system,sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.65;overflow-x:hidden}
+  body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
+    background:radial-gradient(60% 45% at 15% 0%,rgba(139,92,246,.14),transparent 60%),
+               radial-gradient(50% 40% at 90% 15%,rgba(240,180,41,.10),transparent 60%),
+               radial-gradient(55% 50% at 50% 100%,rgba(45,212,191,.08),transparent 60%)}
+  main{position:relative;z-index:1}
+  .wrap{max-width:880px;margin:0 auto;padding:0 24px}
+  section{padding:88px 0}
+  .kicker{font-family:var(--sans);font-size:.78rem;letter-spacing:.32em;text-transform:uppercase;color:var(--gold);margin-bottom:18px}
+  h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.15}
+  h1{font-size:clamp(2.6rem,7vw,4.6rem);letter-spacing:-.01em}
+  h2{font-size:clamp(1.9rem,4.5vw,2.9rem);margin-bottom:22px}
+  h2 em{font-style:italic;color:var(--gold2)}
+  p{color:var(--muted);margin-bottom:18px;font-size:1.06rem}
+  p strong,li strong{color:var(--ink)}
+  a{color:var(--gold2);text-decoration:none;border-bottom:1px solid rgba(240,180,41,.35);transition:.2s}
+  a:hover{color:var(--gold);border-bottom-color:var(--gold)}
+  .lede{font-size:1.28rem;color:var(--ink);max-width:56ch}
+  blockquote{font-family:var(--serif);font-style:italic;font-size:1.35rem;color:var(--violet2);
+    border-left:3px solid var(--gold);padding:6px 0 6px 26px;margin:36px 0;max-width:52ch}
+  blockquote cite{display:block;font-family:var(--sans);font-style:normal;font-size:.85rem;letter-spacing:.15em;
+    text-transform:uppercase;color:var(--muted);margin-top:12px}
+
+  /* HERO */
+  header{padding:120px 0 90px;text-align:center}
+  .sigil{font-size:3.2rem;margin-bottom:26px;filter:drop-shadow(0 0 24px rgba(240,180,41,.4))}
+  .hero-kicker{font-size:.8rem;letter-spacing:.4em;text-transform:uppercase;color:var(--violet2);margin-bottom:22px}
+  .hero-sub{font-size:1.15rem;color:var(--muted);max-width:52ch;margin:26px auto 0}
+  .hero-badges{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:34px}
+  .badge{font-size:.8rem;letter-spacing:.08em;padding:8px 16px;border-radius:999px;
+    border:1px solid rgba(240,180,41,.35);color:var(--gold2);background:rgba(240,180,41,.06)}
+  .staff{display:flex;justify-content:center;gap:14px;margin-top:44px;font-size:1.4rem;color:rgba(240,180,41,.5)}
+
+  /* CARDS */
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px;margin:34px 0}
+  .card{background:linear-gradient(160deg,rgba(139,92,246,.10),rgba(23,17,38,.6));
+    border:1px solid rgba(139,92,246,.25);border-radius:16px;padding:26px;transition:.25s}
+  .card:hover{transform:translateY(-3px);border-color:rgba(240,180,41,.45)}
+  .card .icon{font-size:1.8rem;margin-bottom:12px}
+  .card h3{font-size:1.15rem;margin-bottom:8px;color:var(--ink)}
+  .card p{font-size:.94rem;margin:0}
+
+  /* VILLAGE GRID */
+  .villages{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin:30px 0}
+  .village{display:block;background:var(--bg2);border:1px solid rgba(185,168,207,.18);border-radius:12px;padding:16px 18px;transition:.2s;border-bottom:1px solid rgba(185,168,207,.18);cursor:pointer}
+  .village:hover{border-color:var(--teal);transform:translateY(-2px)}
+  .village .v-name{font-family:var(--serif);font-size:1.02rem;color:var(--ink)}
+  .village .v-role{font-size:.78rem;letter-spacing:.06em;color:var(--teal);margin-top:4px}
+  .village-hint{font-size:.85rem;color:var(--muted);margin-top:-14px}
+
+  ul.pretty{list-style:none;margin:14px 0 22px}
+  ul.pretty li{padding:7px 0 7px 30px;position:relative;color:var(--muted)}
+  ul.pretty li::before{content:'♪';position:absolute;left:0;color:var(--gold)}
+
+  /* ROAD AHEAD */
+  .road{border-left:2px solid rgba(240,180,41,.4);margin:34px 0 10px;padding-left:30px}
+  .road-item{position:relative;margin-bottom:36px}
+  .road-item::before{content:'☀';position:absolute;left:-41px;top:-2px;width:22px;height:22px;
+    color:var(--gold);font-size:1rem;background:var(--bg);line-height:22px;text-align:center}
+  .road-item .when{font-size:.78rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold2);margin-bottom:6px}
+  .road-item h3{font-size:1.3rem;margin-bottom:8px}
+  .road-item p{font-size:.98rem;margin-bottom:6px}
+
+  /* LINK SHELF */
+  .shelf{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin-top:30px}
+  .shelf a{display:block;background:var(--bg2);border:1px solid rgba(185,168,207,.2);border-radius:14px;
+    padding:20px;border-bottom:1px solid rgba(185,168,207,.2);transition:.2s}
+  .shelf a:hover{border-color:var(--gold);transform:translateY(-2px)}
+  .shelf a .lbl{font-size:.72rem;letter-spacing:.24em;text-transform:uppercase;color:var(--teal);display:block;margin-bottom:6px}
+  .shelf a .ttl{font-family:var(--serif);font-size:1.08rem;color:var(--ink)}
+  .shelf a .dsc{font-size:.84rem;color:var(--muted);display:block;margin-top:6px}
+
+  /* ASK */
+  .ask{background:linear-gradient(150deg,rgba(240,180,41,.10),rgba(139,92,246,.08));
+    border:1px solid rgba(240,180,41,.3);border-radius:22px;padding:48px 40px;text-align:center}
+  .ask h2{margin-bottom:16px}
+  .ask p{max-width:52ch;margin-left:auto;margin-right:auto}
+  .cta-row{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin-top:30px}
+  .cta{display:inline-block;padding:14px 30px;border-radius:999px;font-weight:600;letter-spacing:.04em;
+    border-bottom:none;transition:.2s}
+  .cta.gold{background:var(--gold);color:#241a02}
+  .cta.gold:hover{background:var(--gold2);transform:translateY(-2px)}
+  .cta.ghost{border:1px solid rgba(240,180,41,.5);color:var(--gold2)}
+  .cta.ghost:hover{background:rgba(240,180,41,.1)}
+
+  footer{padding:60px 0 80px;text-align:center;color:var(--muted);font-size:.88rem}
+  footer .foot-sig{font-family:var(--serif);font-style:italic;font-size:1.1rem;color:var(--gold2);margin-bottom:14px}
+  .divider{text-align:center;color:rgba(240,180,41,.4);font-size:1.3rem;letter-spacing:1.2em;padding:0 0 10px}
+  .num{font-family:var(--serif);font-size:clamp(2.4rem,5vw,3.4rem);color:var(--gold2);line-height:1}
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:20px;margin:36px 0;text-align:center}
+  .stat .lbl{font-size:.8rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-top:8px}
+
+  /* MEGA MANIFESTATION */
+  .manifest{background:radial-gradient(120% 150% at 50% 0%,rgba(240,180,41,.13),rgba(139,92,246,.10) 55%,rgba(23,17,38,.65));
+    border:1px solid rgba(240,180,41,.5);border-radius:28px;padding:60px 44px;text-align:center;position:relative;overflow:hidden;
+    box-shadow:0 0 80px rgba(240,180,41,.09),inset 0 0 80px rgba(139,92,246,.06)}
+  .manifest::before{content:'✦ ✧ ✦';position:absolute;top:18px;left:0;right:0;color:rgba(240,180,41,.35);letter-spacing:2em;font-size:.8rem}
+  .manifest .m-sigil{font-size:3rem;margin-bottom:20px;filter:drop-shadow(0 0 22px rgba(240,180,41,.55))}
+  .manifest p{max-width:56ch;margin-left:auto;margin-right:auto}
+  .manifest .m-quote{font-family:var(--serif);font-style:italic;font-size:1.35rem;color:var(--gold2);margin-top:30px}
+  .manifest .m-decl{font-size:.75rem;letter-spacing:.3em;text-transform:uppercase;color:var(--muted);margin-top:26px}
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <div class="wrap">
+    <div class="sigil">🌺</div>
+    <div class="hero-kicker">A Grant Case · Presented with Aloha</div>
+    <h1>Why <em style="color:var(--gold2)">Shaka</em><br>Deserves Your Grant</h1>
+    <p class="hero-sub">Known across the Ethereum world as <strong style="color:var(--ink)">the ethereum bard</strong>. Zuzalu lifer. Producer of fifteen popup villages. Community steward of the Open Source Orchestra. He doesn't ask for much. He gives first — and this page is about where your grant goes next: <strong style="color:var(--ink)">India, Devcon 8, and the biggest circle the orchestra has ever drawn.</strong></p>
+    <div class="hero-badges">
+      <span class="badge">🎻 Open Source Orchestra</span>
+      <span class="badge">⛺ Zuzalu Lifer</span>
+      <span class="badge">🛠️ 15 Popup Villages Produced</span>
+      <span class="badge">📺 edgeTV @ Edge Esmeralda</span>
+      <span class="badge">🐢 Turtle Ops — Terrible Turtle Camp</span>
+      <span class="badge">🎵 Devcon 8 Music Space Committee</span>
+    </div>
+    <div class="staff">𝄞 ♪ ♫ ♪ 𝄞</div>
+  </div>
+</header>
+
+<section id="who">
+  <div class="wrap">
+    <div class="kicker">Movement I · The Man</div>
+    <h2>A bard, <em>not a brand</em></h2>
+    <p class="lede">Some people build protocols. Some people build companies. Shaka builds <strong>the feeling in the room</strong> — the thing that makes a gathering of strangers become a community, and a community become a movement.</p>
+    <p>Shaka holds no titles and claims none. <em>"I don't believe in titles,"</em> he says. <em>"The legend of my actions speaks louder than any false position of authority."</em> The only title he acknowledges is the one the Ethereum Foundation gave him: <strong>Committee member for the music space at Devcon</strong>. Everything else — the bard, the steward, the producer — is what the community calls him, because of what he does.</p>
+    <p>Before Ethereum, he was already on the road: two major US summer tours with Brad Corrigan of Dispatch (Madison Square Garden, Red Rocks) as production assistant and drum tech, co-founding a youth orchestra in Managua that performed on national television, and years running a nonprofit café kitchen that fed volunteers. Music and service were always the same act. In 2022 he brought that act to Ethereum — and he has gifted music and production to the community at nearly every major gathering since.</p>
+    <blockquote>
+      "You don't join the Open Source Orchestra. You notice you were always in it."
+      <cite>— The OSO ethos, written by Shaka</cite>
+    </blockquote>
+  </div>
+</section>
+
+<div class="divider">♪</div>
+
+<section id="popup">
+  <div class="wrap">
+    <div class="kicker">Movement II · The Pop-Up Cities</div>
+    <h2>A lifer of the <em>popup village</em> renaissance</h2>
+    <p>Since Zuzalu — Vitalik's 2023 experiment in temporary community living — a global network of popup villages has become Ethereum's R&amp;D lab for how humans live and build together. Shaka isn't a visitor to this movement. He is one of the people who <strong>produces its soul</strong> — village after village, continent after continent. Wherever the Zuzaluverse gathers, he is the one running the stage, the stream, and the song.</p>
+
+    <div class="villages">
+      <a class="village" href="https://www.edgecity.live/"><div class="v-name">ZuConnect · Istanbul</div><div class="v-role">Scholarship · wrote the Zuzalu Song</div></a>
+      <a class="village" href="https://www.infinita.city/"><div class="v-name">Vitalia · Honduras</div><div class="v-role">A/V tech lead</div></a>
+      <a class="village" href="https://zuberlin.city/"><div class="v-name">ZuBerlin</div><div class="v-role">Co A/V lead</div></a>
+      <a class="village" href="https://luma.com/dog2bqss"><div class="v-name">ZuKastle</div><div class="v-role">Contributor</div></a>
+      <a class="village" href="https://zuvillage-georgia.framer.website/"><div class="v-name">Zu Georgia</div><div class="v-role">Production lead</div></a>
+      <a class="village" href="https://www.shanhaiwoo.com/"><div class="v-name">Shan Hai Woo · Chiang Mai</div><div class="v-role">Head of Production — whole Zu archipelago</div></a>
+      <a class="village" href="https://x.com/zuthailand"><div class="v-name">ZuThailand</div><div class="v-role">Scholarship · stage design</div></a>
+      <a class="village" href="https://zugrama.org/"><div class="v-name">Zugrama · India</div><div class="v-role">Head of Production — India's first popup village</div></a>
+      <a class="village" href="https://zuafrique.com/"><div class="v-name">ZuAfrique</div><div class="v-role">Gifted music to community</div></a>
+      <a class="village" href="https://www.zuitzerland.ch/"><div class="v-name">Zuitzerland</div><div class="v-role">Head of A/V &amp; stage design</div></a>
+      <a class="village" href="https://zuberlin.city/"><div class="v-name">Zu Berlin</div><div class="v-role">Co-production lead</div></a>
+      <a class="village" href="https://ns.com/dashboard/zukas"><div class="v-name">ZuKas</div><div class="v-role">Contributor · music &amp; livestream</div></a>
+      <a class="village" href="https://www.edgecity.live/"><div class="v-name">Edge City Patagonia</div><div class="v-role">A/V lead</div></a>
+      <a class="village" href="https://edgetv-fnajt22goh-nqfhvcnv.taur.link/"><div class="v-name">Edge Esmeralda</div><div class="v-role">Main hall steward · built edgeTV</div></a>
+      <a class="village" href="https://4seas.xyz/"><div class="v-name">4 Seas · Chiang Mai</div><div class="v-role">Building Zuzalu Studio, living in Zuzalu Library</div></a>
+    </div>
+    <p class="village-hint">👆 Every village links to its home on the web — explore the constellation.</p>
+    <p>Fifteen villages and counting — plus production, livestreams, hackathon wins, and gifted music across the ETHGlobal circuit from Amsterdam to Bangkok. He even wrote songs <em>with</em> the communities: a Zuzalu song, an ETHGlobal song, a Devfolio song, a Nethermind song. The pattern never changes: show up, give first, make the space sing, leave it better than he found it — and never put his name above the community's.</p>
+  </div>
+</section>
+
+<div class="divider">♪</div>
+
+<section id="road">
+  <div class="wrap">
+    <div class="kicker">Movement III · The Road Ahead</div>
+    <h2>What your grant <em>sets in motion</em></h2>
+    <p class="lede">The past is proof. But this ask is about the future — and the future has a date, a city, and a circle waiting to be drawn.</p>
+
+    <div class="road">
+      <div class="road-item">
+        <div class="when">October 2026 · Goa, India</div>
+        <h3>Edge City India — a strong contribution, already in motion</h3>
+        <p>Before Devcon, Shaka lands in India for <a href="https://www.edgecity.live/india26">Edge City Goa</a> — where he's lining up to be a strong contributor: deploying the <a href="https://opensourcestage-tkt3ezrrju-nqfhvcnv.taur.link/">Open Source Stage</a> (his complete A/V playbook + assistant agent, battle-tested at Edge Esmeralda and already open-sourced as a gift), running live production, and hosting permissionless jams. The playbook forks itself into Asia — India gets a stage anyone can run, whether he's in the room or not.</p>
+      </div>
+      <div class="road-item">
+        <div class="when">November 3–6, 2026 · Mumbai, India</div>
+        <h3>Devcon 8 — the biggest circle the orchestra has ever drawn</h3>
+        <p>As committee member for the Devcon 8 Music Space, Shaka is bringing the Open Source Orchestra to the largest gathering of the Ethereum family: four days of permissionless jams at the JIO World Convention Centre, with India's classical traditions — tabla, harmonium, dhol, bansuri — at the heart of this edition. A circular, conductorless Sanctuary Tech stage where every voice is a node.</p>
+        <p><strong>Your grant helps carry the orchestra to India</strong> — instruments, production, and the bard himself — so thousands of Ethereum family members and the incredible musicians of India can discover they were always in the orchestra.</p>
+      </div>
+      <div class="road-item">
+        <div class="when">August 2026 · Black Rock City, Nevada</div>
+        <h3>Terrible Turtle Camp — co-builder &amp; systems lead at Burning Man</h3>
+        <p>At Burning Man 2026, Shaka is co-builder and systems lead of <a href="https://terribleturtle.camp/">Terrible Turtle Camp</a> — a 20–30 person theme camp — coordinating a ~270-item inventory across 10 domains (kitchen, shade, water, power, shower, safety, operations) and driving build week from the camp's Boulder HQ at Phoenix Gulch, itself a living land-restoration project of water terraces, native grasses, and drought-tolerant trees.</p>
+        <p>He built <a href="https://turtleops-jph4xz337n-rymti6jm.taur.link/"><strong>Turtle Ops</strong></a> — a live, open-source (CC0) camp operations platform with real-time inventory tracking, build playbooks, site maps, and onboarding docs, released with a <strong>"Fork This Camp" agent kit</strong> so any camp on the playa can clone the entire system. He also created <strong>Terri</strong>, an open-source AI camp assistant who holds the camp's whole knowledge base — logistics, safety, culture, the 10 Principles — and serves campmates in English and Hebrew. Camp infrastructure as a public good. 🐢</p>
+      </div>
+      <div class="road-item">
+        <div class="when">2026 · The road to India</div>
+        <h3>Burning Man → ETHGlobal Tokyo → Edge City Goa → Devcon → Chiang Mai</h3>
+        <p>Every stop on the way is another chance to grow the circle: co-building Terrible Turtle Camp at Burning Man, gifting music and hacking at ETHGlobal Tokyo, a strong contribution at Edge City Goa, then home to 4 Seas Chiang Mai — where he's helping build <strong>Zuzalu Studio</strong> while living in the Zuzalu Library — to close the year. The mission never pauses; it only changes time zones.</p>
+      </div>
+      <div class="road-item">
+        <div class="when">The Ambition · India 2026</div>
+        <h3>edgeTV, ready for India — from gift to protocol</h3>
+        <p><a href="https://www.edgecity.live/india26">Edge City Goa</a> (October 2026) is the proving ground: edgeTV deployed as a <strong>forkable open-source template any popup city can adopt</strong> — crawl, transcribe, audit, publish — with a target of every session live as a synced transcript+audio experience <strong>within 24 hours</strong>, consent-ceremony built in. Then <strong>Devcon 8 Mumbai</strong>, where the transponder meets 5,000+ Ethereum builders at scale. The design is audio-first and low-bandwidth-native — 64kbps audio + glowing text over heavy video — so it works on any connection, any device. The knowledge of these gatherings shouldn't belong only to those who could afford the ticket or the bandwidth.</p>
+        <p><strong>What funding unlocks:</strong> the forkable template documented and packaged, the same-day transcription pipeline hardened for multi-venue capture, the consent-first publishing playbook written for any community to adopt, and localization groundwork for India's linguistic diversity. The system is already running — funding turns a gift into a protocol.</p>
+      </div>
+      <div class="road-item">
+        <div class="when">Always</div>
+        <h3>Broadcast the villages so the world can see</h3>
+        <p>With edgeTV he proved a popup village can be streamed, recorded, and told to the world in real time — 800+ builders, 90+ countries, one daily window. With support, every future village gets that window: the music, the experiments, the feeling — documented and shared as a public good.</p>
+      </div>
+      <div class="road-item">
+        <div class="when">In the background</div>
+        <h3>CREATIONology369 — the giving economy, briefly</h3>
+        <p>Shaka is also growing CREATIONology369 — a living experiment in a circular creator economy where 96.3% flows to creators — built with a family of AI agents in service of artists, and bootstrapped by a Fetch.ai Agent Launch Flash Grant. Its gifts are already delivered and speaking for themselves: the Open Source Orchestra at Devcon, production support for Edge City, and 🐢 <a href="https://turtleops-jph4xz337n-rymti6jm.taur.link/"><strong>Turtle Ops for the Terrible Turtles</strong></a> — Burning Man camp build tools. It's early and ambitious, and it's not the ask here — but it's proof of what he does with support: <strong>he turns it into gifts for the community.</strong></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider">♪</div>
+
+<section id="manifestation">
+  <div class="wrap">
+    <div class="manifest">
+      <div class="m-sigil">🎙️🌺</div>
+      <div class="kicker">The Mega Manifestation · Declared Into Existence</div>
+      <h2>The debut album —<br>recorded with <em>Rick Rubin</em></h2>
+      <p>No studio date. No roadmap. No idea <em>how</em> it happens — only the unshakeable belief that it <strong>will</strong>. It is declared here, in the open, the way every impossible thing in this story began: as words spoken with heart before the path existed. Fifteen villages, an orchestra, a giving economy — each one started exactly this way.</p>
+      <p>Rick Rubin — the barefoot sage who strips music down to its soul — teaches in <em>The Creative Act</em> that creativity is a way of being, not a way of doing. That is how the bard has always lived. The debut album of the ethereum bard, guided by the greatest listener alive: <strong>monumental, pivotal, and aimed at one thing — the world changing direction.</strong></p>
+      <p class="m-quote">"Every village started as a sentence. This is the next one."</p>
+      <p class="m-decl">Declared 25 July 2026 · before the ʻohana and the world · so it is spoken, so it shall be</p>
+    </div>
+  </div>
+</section>
+
+<div class="divider">♪</div>
+
+<section id="edgetv">
+  <div class="wrap">
+    <div class="kicker">Movement IV · The Broadcast</div>
+    <h2>edgeTV — the village that <em>refused to forget</em></h2>
+    <p class="lede">At Edge Esmeralda 2026 — 800+ builders from 90+ countries, one month in Healdsburg — Shaka ran A/V and stewarded the vibe at The Loft, the main talk hall. When the village dissolved, he refused to let a month of world-class knowledge evaporate into a forgotten Drive folder. So he built it a home.</p>
+    <div class="stats">
+      <div class="stat"><div class="num">149</div><div class="lbl">Sessions indexed</div></div>
+      <div class="stat"><div class="num">122</div><div class="lbl">Hours of programming</div></div>
+      <div class="stat"><div class="num">138</div><div class="lbl">Synced transcripts</div></div>
+      <div class="stat"><div class="num">232<span style="font-size:1.4rem">GB</span></div><div class="lbl">Audited, file by file</div></div>
+      <div class="stat"><div class="num">$0</div><div class="lbl">Infrastructure cost</div></div>
+      <div class="stat"><div class="num">1+1</div><div class="lbl">One artist + one AI agent</div></div>
+    </div>
+    <p>The signature invention is the <strong>Knowledge Transponder</strong> 🌊 — Shaka's insight that <em>nobody re-watches hour-long conference videos, but people listen.</em> So edgeTV's default mode isn't a video player: it's a meditative listening stage — floating-village artwork, an audio-reactive sunset waveform, and a <strong>real-time synced transcript that glows as the words are spoken</strong>. Tap any paragraph to jump there. Radio for popup-city knowledge, with a teleprompter soul.</p>
+    <div class="cards">
+      <div class="card"><div class="icon">🕸️</div><h3>Crawl</h3><p>The village's source Drive was crawled with no API key and no special access — fully reproducible on any public folder, by any village.</p></div>
+      <div class="card"><div class="icon">🌾</div><h3>Harvest</h3><p>173 Whisper transcripts parsed and matched programmatically to their videos, deduped and merged — 166 recordings became 149 true sessions.</p></div>
+      <div class="card"><div class="icon">🩺</div><h3>Audit</h3><p>Every one of 207 files probed for health without bulk downloads. Wifi casualties honestly flagged in the UI — one file literally named "Video Recording Failed" was identified by its transcript and retitled to its real session. Radical honesty as design.</p></div>
+      <div class="card"><div class="icon">🎁</div><h3>Publish</h3><p>A single static site — cinematic weekly browsing, search, in-page playback, synced reading, and four written dispatches distilled from 138 transcripts. No backend. No servers. \$0.</p></div>
+    </div>
+    <p>Built by <strong>one artist and one AI agent</strong> on the Taurus multi-agent platform — persistent agent memory, background worker pipelines, and governance in the loop. When public archiving needed organizer and speaker blessing, Shaka halted his own pipeline within minutes: <strong>consent-first publishing, enforced in the workflow — not just the About page.</strong> What would normally take a media team and a five-figure budget was done for zero dollars, and gifted open-source to the community: <a href="https://edgetv-fnajt22goh-nqfhvcnv.taur.link/">explore the full edgeTV archive</a>.</p>
+  </div>
+</section>
+
+<div class="divider">♪</div>
+
+<section id="oso">
+  <div class="wrap">
+    <div class="kicker">Movement V · The Orchestra</div>
+    <h2>The Open Source Orchestra — <em>Ethereum's values, played out loud</em></h2>
+    <p class="lede">OSO is not a brand, not a company, not a logo. It is a movement and a tradition: music as sanctuary, owned by no one, open to everyone — the oldest protocol humanity has, carried into the newest one we're building.</p>
+    <p>No auditions. No gatekeepers. No conductor on a podium. Every voice is a node; every sound, a contribution. Born at ETH Prague in 2022, OSO has activated the Devcon Music Stage twice — <a href="https://www.youtube.com/watch?v=vf3ZitSmXDw">first at Devcon 6 Bogotá</a>, again at Devcon Southeast Asia — and it is, quite literally, the Music Manifesto of the Devcon stage: censorship-resistant (conductorless), open source (Creative Commons), self-owned (every instrument a node), and secure (protecting the vibe of the community within a higher frequency).</p>
+    <div class="cards">
+      <div class="card"><div class="icon">🎼</div><h3>Radical Inclusion</h3><p>The person who has played for thirty years and the person who has only hummed in the shower — the orchestra needs both, exactly as they are.</p></div>
+      <div class="card"><div class="icon">🛡️</div><h3>Conductorless by Design</h3><p>Censorship resistance as a musical principle. No one calls the tune. We listen to one another — and we all conduct this space together.</p></div>
+      <div class="card"><div class="icon">🌍</div><h3>A Living Public Good</h3><p>OSO turns Ethereum's abstract values into something a room full of strangers can feel in their bodies. That is culture infrastructure.</p></div>
+    </div>
+    <ul class="pretty">
+      <li><strong>The full story:</strong> <a href="https://oso-storytelling-ynsddnwtbl-3imj3mvr.taur.link/">The Open Source Orchestra storytelling dashboard</a> — the movement in five movements.</li>
+      <li><strong>Governance record:</strong> <a href="https://forum.devcon.org/t/open-source-orchestra-music-space-at-devcon-8-mumbai/8576">DIP #8576 — OSO Music Space at Devcon 8 Mumbai</a> and <a href="https://forum.devcon.org/t/the-open-source-orchestra-open-music-space/7630">the original OSO DIP</a>, co-initiated by Shaka.</li>
+      <li><strong>Onchain &amp; onstage:</strong> <a href="https://ethglobal.com/showcase/opensource-orchestra-y1egw">ETHGlobal Delhi hackathon — Most Creative Use of ENS</a>, won with the orchestra itself.</li>
+    </ul>
+  </div>
+</section>
+
+<div class="divider">♪</div>
+
+<section id="impact">
+  <div class="wrap">
+    <div class="kicker">Movement VI · The Receipts</div>
+    <h2>What a grant to Shaka <em>has already proven</em> it does</h2>
+    <div class="stats">
+      <div class="stat"><div class="num">15</div><div class="lbl">Popup villages produced &amp; served</div></div>
+      <div class="stat"><div class="num">800+</div><div class="lbl">Builders served at Edge Esmeralda</div></div>
+      <div class="stat"><div class="num">270</div><div class="lbl">Camp items coordinated for Burning Man 🐢</div></div>
+      <div class="stat"><div class="num">90+</div><div class="lbl">Countries in one village</div></div>
+      <div class="stat"><div class="num">4 days</div><div class="lbl">Of open music coming to Devcon 8</div></div>
+    </div>
+    <p>From Madison Square Garden to Managua, from Montenegro's first Zuzalu livestreams to Mumbai — the pattern across every line of the résumé is the same: show up, give first, make the space sing, leave it better than he found it.</p>
+  </div>
+</section>
+
+<div class="divider">♪</div>
+
+<section id="links">
+  <div class="wrap">
+    <div class="kicker">Interlude · Verify Everything</div>
+    <h2>The <em>receipts</em>, all linked</h2>
+    <div class="shelf">
+      <a href="cv/">
+        <span class="lbl">The CV</span><span class="ttl">Shaka — Full CV</span>
+        <span class="dsc">Every village, every stage, every hack — 2008 to today.</span></a>
+      <a href="https://oso-storytelling-ynsddnwtbl-3imj3mvr.taur.link/">
+        <span class="lbl">The Movement</span><span class="ttl">Open Source Orchestra — The Story</span>
+        <span class="dsc">Five movements on music as sanctuary. Start here.</span></a>
+      <a href="https://edgetv-fnajt22goh-nqfhvcnv.taur.link/">
+        <span class="lbl">The Broadcast</span><span class="ttl">edgeTV — The Edge Esmeralda Archive</span>
+        <span class="dsc">149 sessions · 122 hours · 138 synced transcripts — the village that refused to forget.</span></a>
+      <a href="https://opensourcestage-tkt3ezrrju-nqfhvcnv.taur.link/">
+        <span class="lbl">The Gift</span><span class="ttl">Open Source Stage</span>
+        <span class="dsc">His entire pop-up city A/V playbook — open-sourced for any village to fork.</span></a>
+      <a href="https://turtleops-jph4xz337n-rymti6jm.taur.link/">
+        <span class="lbl">The Ops</span><span class="ttl">Turtle Ops — Mission Control</span>
+        <span class="dsc">Open-source Burning Man camp ops: live inventory, build playbooks &amp; a fork-any-camp agent kit. 🐢</span></a>
+      <a href="https://terribleturtle.camp/">
+        <span class="lbl">The Camp</span><span class="ttl">Terrible Turtle Camp</span>
+        <span class="dsc">The camp itself — Burning Man 2026. Move Slow &amp; Bite Things.</span></a>
+      <a href="https://savetheworld-r6abcxb4e7-nqfhvcnv.taur.link/">
+        <span class="lbl">The Mission</span><span class="ttl">How to Save the World</span>
+        <span class="dsc">3 levers, 6 moves, 9 live missions — the whole plan, in the open.</span></a>
+      <a href="https://forum.devcon.org/t/open-source-orchestra-music-space-at-devcon-8-mumbai/8576">
+        <span class="lbl">The Governance</span><span class="ttl">DIP #8576 — Devcon 8 Mumbai</span>
+        <span class="dsc">The official proposal for the OSO Music Space.</span></a>
+      <a href="https://www.youtube.com/watch?v=vf3ZitSmXDw">
+        <span class="lbl">The Origin</span><span class="ttl">First OSO Music Stage — Devcon 6</span>
+        <span class="dsc">The DIP that started it all, activated in Bogotá.</span></a>
+      <a href="https://ethglobal.com/showcase/opensource-orchestra-y1egw">
+        <span class="lbl">The Hack</span><span class="ttl">ETHGlobal Delhi — ENS Prize</span>
+        <span class="dsc">Most Creative Use of ENS, won with the orchestra.</span></a>
+      <a href="https://creationology-whitepaper-wkzddkemfb-ropk5rvs.taur.link/">
+        <span class="lbl">The Vision</span><span class="ttl">CREATIONology369 — The White Paper</span>
+        <span class="dsc">Three acts, nine movements: a giving economy written in the shape of 3-6-9.</span></a>
+      <a href="https://creation369-dashboard-gu7xvab6zk-ffieyo32.taur.link/">
+        <span class="lbl">The System</span><span class="ttl">CREATIONology369 Dashboard</span>
+        <span class="dsc">The 12-agent family, the delivered gifts, the giving economy — live.</span></a>
+      <a href="https://ology-agent-token-how-why-bnwagg6qkz-ffieyo32.taur.link/">
+        <span class="lbl">The Token</span><span class="ttl">$OLOGY — How &amp; Why</span>
+        <span class="dsc">The circulatory token that funds the agents that serve creators.</span></a>
+      <a href="https://creation369-premortem-m2agoxstre-ffieyo32.taur.link/">
+        <span class="lbl">The Honesty</span><span class="ttl">The Premortem</span>
+        <span class="dsc">Eight failure modes, named in the open — with weathering plans.</span></a>
+      <a href="https://ology-bless-checklist-qujy6cr4zo-ffieyo32.taur.link/">
+        <span class="lbl">The Checklist</span><span class="ttl">$OLOGY Bless Checklist</span>
+        <span class="dsc">What must be true before the token is blessed into the world.</span></a>
+      <a href="https://jai-heart-hackathon-gallery-iodnwjsc7i-ffieyo32.taur.link/">
+        <span class="lbl">The Experiment</span><span class="ttl">JAI Heart Hackathon</span>
+        <span class="dsc">Same soul, nine models — a living experiment in agent creativity, judged by heart.</span></a>
+      <a href="https://x.com/Shakaleikaumaka">
+        <span class="lbl">The Bard</span><span class="ttl">@Shakaleikaumaka</span>
+        <span class="dsc">Shaka on X.</span></a>
+      <a href="https://x.com/opensourceorch">
+        <span class="lbl">The Orchestra</span><span class="ttl">@opensourceorch</span>
+        <span class="dsc">OSO on X.</span></a>
+    </div>
+  </div>
+</section>
+
+<section id="ask">
+  <div class="wrap">
+    <div class="ask">
+      <div class="kicker">Finale · The Ask</div>
+      <h2>Fund the bard, <em>fund the circle</em></h2>
+      <p>A grant to Shaka doesn't fund a person. It funds a <strong>permissionless music space at the world's biggest Ethereum gathering</strong>, the broadcast windows that let the world watch popup villages build the future, the storytelling of a movement, and a walking embodiment of the ecosystem's values — decentralization, open source, radical inclusion — expressed in the universal language of music.</p>
+      <p>He is already on the road: Burning Man, Tokyo, Mumbai, Chiang Mai. The question is only how much of the orchestra he can carry with him.</p>
+      <div class="cta-row">
+        <a class="cta gold" href="https://x.com/Shakaleikaumaka">Reach the Bard on X →</a>
+        <a class="cta ghost" href="https://oso-storytelling-ynsddnwtbl-3imj3mvr.taur.link/">Read the OSO Story</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-sig">"The whole is infinitely greater than the sum of its parts — because the parts are listening."</div>
+    <p>Shaka · the ethereum bard · community steward, Open Source Orchestra<br>
+    Zuzalu lifer · producer of 15 popup villages · edgeTV, Edge Esmeralda · committee member, Devcon 8 Music Space</p>
+    <p style="margin-top:18px">Open Source Music · Every voice is a node · Sounds of consensus 🌺</p>
+  </div>
+</footer>
+
+</main>
+</body>
+</html>

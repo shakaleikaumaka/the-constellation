@@ -1,0 +1,295 @@
+# Edge Esmeralda - Create_ Submit_ Get Funded_ A Step-by-Step Workshop for the Edge City Fund - led by
+
+Date: 2026-06-16
+Source video: Edge Esmeralda - Create_ Submit_ Get Funded_ A Step-by-Step Workshop for the Edge City Fund - led by.mp4
+Drive: https://drive.google.com/file/d/1TsTegLFLeJ5C2SC8F81GB5Q00pigWYXf/view
+Duration: 00:56:58
+Transcribed: 2026-06-18 · whisper large-v3-turbo · language: en
+
+---
+
+[00:00] announcement of like, if you like free money, come get it on Zemocracy. Hopefully after this talk you're here for the free money but also for the idea which I think is pretty exciting. So Zemocracy is basically AI digital twins at the governance table and it's an amazing experiment.
+
+[00:22] This one we are running it in a partnership both with Edge City, with all the Agent Village experiment and with Artisan and all the funds that will be happening around this will be then dispersed by Artisan. So yeah, very excited about that part.
+
+[00:38] And well, what Zemocracy allows you is basically you can create a version of yourself or several versions of yourself that we call Sims. So I can show you my Sims right now. I have right here which is like Diego the pickle and the Dark Lord Diego DRB which is my initials.
+
+[01:00] And what you can do with the Sims is basically, it's to write a constitution with the stuff you care for, your values, everything you are aligned with, also speaking style. And these Sims can then discuss and allocate capital in using the S process which is a very novel way of allocating capital and doing granting.
+
+[01:24] And with this experiment we want to showcase several stuff. First that we really believe on keeping a hand on the wheel when a genetic discussion is happening because I think, I feel like also like if you've been, if you've been in Edge like for some days you've seen that this is a very hot topic.
+
+[01:42] So we believe that there should be a very good level of human endeavor in all these decisions and you're able to do that by like prompting your Sim, commenting on proposals which it's the next step. So once you have your Sim, then next step is drafting a proposal.
+
+[02:04] So you can find somewhere to find a proposal. We have a edge space dedicated for this. But you can have a title for your proposal, a description for your proposal. Basically like everything you set up when you set up like a new project. And then it will go through the simulation phase which is all the Sims talking together, discussing and saying, okay, this project should get this amount of money.
+
+[02:31] It should, like we should make this decision over this idea. So the process is really easy. Everything is founded on top of the add protocol which is the protocol underlying powering Blue Sky. So if you already have a Blue Sky account, then you like you already have a Simocracy account.
+
+[02:51] And yeah, that's for the like how you create a Sim and what we are up to here. And we have this which is the grant program. We are running right now. So we are distributing some funding every day for the following days. Then Artisan, which is the platform where we are running all the grant part with, is doing matching funds I believe on the 25th.
+
+[03:20] But I'll let René talk about this in a minute. So yeah, I think that's pretty much, maybe some Q&A right now if everything was a little bit messed up. So yeah, yeah, sure, sure, sure, sure, sure, sure. So the easiest way is you create an account or you log in with your Blue Sky account.
+
+[03:48] So that's basically going to the Simocracy site, doing a sign in, you can do email, which is pretty easy. Yeah, sure. In the event description, you said to go do the artisan thing first. Is that important or do they just both have to happen?
+
+[04:04] I think, yeah, it's important because like the- So artisan first is important or just both important? Both important. Okay, that's fine. So you have to have like, so Simocracy first, like to create an account, draft your proposal, then artisan because all the funds will be distributed through artisan.
+
+[04:22] So yeah, thank you for that question, important. And it's right here in the proposal page. So you do email, diego.gainforest.net, then you continue. And it's a one-time password thing, so you only need your email. This is, oh, sorry. This is it.
+
+[05:00] Then once you are done with this part, basically if you are at the same page, I'm sorry, slash edge, then at the bottom of slash edge, also like having more information about this, but there is a generate key and copy message. So that's all you have to do, like just sign in, then it will create a key for you and prompt for your agent.
+
+[05:32] And what you will do from now on is you just, if you already have a, who here has already like an agent for Agent Village? Most of the people here. Okay, yeah, so for you guys, you just have to paste this into your agent and then congrats, you already have like, the process going.
+
+[05:54] For the rest, you can use the webpage. You can create yourself dynamically. You can get like a small interview to get your constitution done. And a good tip for this is that if you already have an AI agent, you can just sell it. Create a sim for myself with everything you know about, with everything you know about me and that will happen.
+
+[06:15] So, yeah. Any other question? Of course, yeah. So it's simocracy.org slash edge. You just have to log in and logging in is pretty easy. I'm gonna log out again. So it's right here. So you just sign in. You do email. I think that's the easiest way.
+
+[06:40] If you already have a blue sky account, you can also do the blue sky login. So I'll do the blue sky login this time. Yeah, yeah, yeah. So once you're logged in, you can return to simocracy.org slash edge. And then that's it.
+
+[07:13] You can create, generate your key and copy the message. So that would be the process. Or you can also like always use the webpage to create the sim. The sims are pretty like fun because they are, they look like this. So yeah, the process of sim creation inside the page is also, it's also very interesting and fun.
+
+[07:43] Of course. Yeah, yeah, of course. So you have the sim and this is like a cool, this is a very nice feature of your sim which is you can have an interview and then it will ask you some questions to come up with your constitution. And let me just go to the other one that actually has a constitution.
+
+[08:04] So for mine, I care about verification over intention and survival first and tactical architecture over ideation. So this is the stuff I care for and my sim is gonna debate and argue on top of this values. And the speaking style will also affect the way my sim discusses with the other sims.
+
+[08:27] So yes, that's like the backbone of every sim that's created. And there's one. Can you write a constitution like this? So you don't have to manually write this. You can just trim your agent to do this which is the exciting part.
+
+[08:59] And the constitution, so the constitution is something that I have, that every user has. It's kind of their own constitutions and artifact for you. Yeah, exactly. So I think like an easy way to go for this if you already have an agent is to just go for whatever like you have already interacted with your agent and to build the same on top of that.
+
+[09:19] But yeah, yeah. Yeah? I'm just trying to make sure that I understand what all the pieces are. But what I think I'm hearing you say is that I'm gonna put in this constitution and it's going, this is what's gonna be used to like determine the behavior of the digital twin of mine.
+
+[09:39] That's gonna be having conversation and deciding with other agents who have other constitutions, other values. Those, they're all gonna be interacting together according to the values that we say are important to us. And then they're gonna come at some, to some collective decision through that process and then they're gonna assign the funds.
+
+[10:00] Exactly, yeah. Okay. Yeah, great. Thank you. Can you talk a little bit more about what that decision-making process is? Do they each get a certain amount of voting points or how does that deliberative process resolve? Yes, so we have the, on the proposal part, let me see if I can get up to the,
+
+[10:34] so we are running, oh sorry, I can show it here. This is an example on the frontier tower, but it's running the S process, which is basically a process in which if all the members of the senate or all the sims are given an opportunity to assign the, to assign value to each one of the projects, or each one of the proposals.
+
+[11:04] And this is a function, it's assigned in a way that you calculate how much, like the marginal benefit on each point across the project, because like some projects will get high impact on getting funding at the very beginning, but then every additional dollar on time gets like less important through the time.
+
+[11:29] So all the, all the sims will, will go through like this S process, which is like a much better explanation is that like in our site, just for the, for the timing. And that's what, what reaches the, the whole consensus. Yeah. Yeah, yeah, yeah, please do.
+
+[11:48] And maybe like we can go for like through the, all the, for the artisan, this distribution part. So yeah, you good? Yeah. Amazing. How are y'all doing? Someone shook her head, no. That was an excited, no then. I'm Renee. I'm one of the founders of artisan.
+
+[12:14] Do you mind if I drive your computer? I see a tab open with artisan. Let's see if it's the, all right, we're creating. So is everyone clear on the process? Does anyone have like, seems pretty crystal? No. Okay. Maybe I'll go over it one more time then and we'll, we'll, we'll double track and answer questions.
+
+[12:36] So basically we're going to have all of you who have creative projects here at edge create a project profile on artisan for whatever that creative thing you're trying to get off the ground and you're going to submit it to the edge city fund.
+
+[12:54] So edge city has a fund on artisan. You can get to it by going to artisan and searching for, that's a good ringtone. You can search for edge city and it'll come up as one of the funds. You go to the fund page and then you will see a submit button.
+
+[13:14] This will kick off a process where you first create a project profile and I'll walk you through how to do that. You also create a user profile for yourself and try to have like a nice profile photo, try to have a short bio, like all that stuff really helps people get to know you as a creator better and feel more comfortable supporting your work.
+
+[13:33] When you're creating a project profile, it's pretty simple. We ask for a title for the project. We ask for a log line. That's like a one sentence description. We ask for some tags. You have an optional video that you can upload. It can be a YouTube or a Vimeo link.
+
+[13:50] And then you have a fundraising goal. How much are you trying to raise for this new project? We then ask four questions. If there's any Jews in the audience, it's kind of like the four questions at Passover. Our questions are a little bit different.
+
+[14:03] What are you making? How will your project impact the world? What progress have you made? And why are you the right person or the right team to make it? And all of these are very character constrained things. I think we only give you 240 characters to answer those.
+
+[14:19] And so I really think that this is a good exercise. Like everyone should be able to describe what they're making in a sentence or two. And this is the goal. The goal is also to like be a response to my allergic reaction to grant writing. If any of you have done grant writing, it's like you have to do a fucking novel.
+
+[14:34] We want this to be a polar opposite of that, a thin slice. The final bit that's unusual for Artisan is that every project needs to have something that we call an artifact. This is when you're looking through the projects on Artisan. This is like the hero image.
+
+[14:52] This is the first image you see when you're looking at a project. And it is meant represent the big ideas behind your project. It should capture the vibe, the aesthetic. We have a couple of guidelines though. It has to be square. And these are just some random examples from the site.
+
+[15:17] That's not actually a good one. We're just pulling them. So it has to be square. It can't have any graphic overlays or text. It's meant to be sort of a raw image. It can be a GIF. It can be a video. But it has to be square. It can't have text or graphic overlays.
+
+[15:32] It can't be a logo. It's not meant to be like a logo. It's not meant to be a marketing collateral. It's not like a poster. It's meant to be something you can kind of imagine at an art gallery. Though you don't have to be precious about it. It just needs to capture the heart, the spirit, the essence of your project, whatever that means to you.
+
+[15:50] You have an optional pitch deck. You can upload any PDF. This is where you can go into more detail about your project if you want. You don't have to. And that's it. So you publish that project. And once it's published, you go, let's search for Edge again.
+
+[16:06] Once it's published, then you submit it to the Edge City Fund. And it'll show up here where Telemann and his crew will approve, as I understand it, they'll approve any project from a creator here at Edge City. Another thing that's really important is that when you're joining Artisan, you need to use the email address that you have for all of your other Edge City stuff.
+
+[16:30] And same for Simocracy. When you're signing up with Simocracy, you need to use the same email that you've used to get your ticket at Edge City and to log into the Edge City app. That's how we're going to marry whatever information you put on Artisan with the information on Simocracy.
+
+[16:44] So just make sure you're using whatever that canonical email address is for both of those. Yeah. Okay. Dope. Okay. You'd think there would be. That's like a really fucking obvious feature we should have. And yet we don't have that right now.
+
+[17:10] We have that on funds. Like you can have multiple admins of a fund. But with projects, we always feel like there's a buck stops here person. And since people are getting money, we sort of were like, let's just have one creator. And like if you have more, there's sort of like this whole process of how do you divide the money up.
+
+[17:26] So no. But I mean, you could kill the project and launch a new one. Launch a new one with her email or let you run it. Okay. So once you've submitted your project to the Edge City Fund and once you've gone to Simocracy's site and created a profile there, we had talked about pulling in your project information from Artisan.
+
+[17:50] Is that still the plan? Okay. I think for safety's sake, what I would do is I would create a profile in Simocracy and then make a proposal that's the same information that you have on Artisan. Just for avoidance of doubt. And then, yeah, we will give you API access so we can pull it in from Artisan too.
+
+[18:10] But I think it would be best just to create a proposal on Simocracy that's the same title and the same information that you have for your Artisan project profile. The next step, just so everyone's on the same page about how this is going to work in terms of dates, we're going to have until the Wednesday of next week to have the agents on Simocracy vote for all of your projects.
+
+[18:39] And then on Simocracy's site, they'll decide how to allocate the sponsorship money that Protocol Labs is throwing into this thing. Then Telamon or somebody from the Edge City crew will go over to Artisan and they'll actually contribute that amount of money to your project on Artisan.
+
+[18:56] Now, why are we going through this gymnastic exercise of having these two platforms communicate like this? One is because I think they're both really cool projects and we like working with friends. The other is that we want you to raise as much money as possible.
+
+[19:10] And the thing that happens on Artisan that's magical is that when you raise money on Artisan, you're getting match funding and competing for cash prizes. So whatever money that you get on the Simocracy experiment and the Edge City crew throws into your project on Artisan will also unlock additional match funding from the Edge City fund.
+
+[19:31] And so if you get, you know, $500, that's what the bots decide that you deserve. They'll put it into your fund. And I don't know exactly what match funding multiple we're going to use next week. Maybe it'll be juicy. Maybe it'll be like a 3x.
+
+[19:45] And maybe the Edge City fund has enough to cover that because each project gets a certain amount of available match funding based on what's in the overarching fund. One other thing that I'll say is that there are many different funds on the Artisan platform.
+
+[20:01] And the way that this is sort of really interesting is when a project can get curated for multiple funds. So this is outside the context of this particular experiment. But if you want to sort of maximally leverage this moment, what I highly encourage you to do is, you know, you have to submit to the Edge City fund.
+
+[20:19] But I would actually go through all of the funds on Artisan. And any fund, so each fund, I'll click on a random one. Okay, so this is for vibe coding. So maybe you're doing a vibe coding thing. Who the fuck isn't these days? So, like, submit to the vibe coding app if your project fits those requirements.
+
+[20:38] And each fund has a very explicit set of, like, eligibility requirements. So just read over those and submit to as many of them as you can. And if you get curated for any of those before next Wednesday evening, whenever these funds are dispersed, you'll have a much deeper reservoir of match funding available to you.
+
+[20:56] So just clue that in. The other thing that I will say, in terms of, like, getting the most out of this, is that every sort of organizing principle of Artisan is that we do these weekly fund drives. And at the end of every week, based on whatever the leaderboard is for projects, you also get a cash prize.
+
+[21:18] So just to recap, you'll get the money from Protocol Labs, put into your project. You'll unlock some amount of match funding based on that contribution. It'll be more match funding if you get curated for more funds. And then you'll also get some amount of cash prize.
+
+[21:33] Every project gets some cash prize, but they're much more interesting at the top of the leaderboard. And the way that you, this is a really cool project, they're doing a zoo in South Africa of endangered species, but it's all using, like, immersive technology, so you get to be, like, up close and personal with these amazing animals that you ordinarily wouldn't.
+
+[21:53] And they've done quite well on the platform. But they, yeah, they're ranked currently number four. And the way that you work your way up the leaderboard is, A, you know, raise money, right? And then B, it's get people to boost your project.
+
+[22:08] And I just realized I'm on Diego's computer. I don't know if you have boost power. You do have some boost power. I'm using your boosts, a couple boosts, I'm sorry. Every user gets some amount of boost power. It's kind of like voting. And you get this boost score, which is simply how much money you've raised times how many boosts people have, like, boosted you up.
+
+[22:28] And that's how you determine your rank on the leaderboard. So if you want to, like, play for any cash prizes, the game is raise money and then get your fans, friends, supporters to log in and click the boost button on your project. And that'll help you.
+
+[22:42] Both those things are needed to climb that leaderboard and win a little bit more cash prize on top. Something type setup? Yeah. Kevin Owaki's an investor, an artisan. I love quadratic funding. We did it in season three. And we decided that, like, quadratic funding is awesome, but it suffers from the problem that you don't know exactly the result until the end of a round.
+
+[23:09] And so you get this, like, maybe this is how much match funding you get, but we're not really sure because we have to look at, like, the whole picture, and we only get that picture at the end. And so we actually opted away from that. And this is, like, our own version, our own flavor of it, but it's something that you can see in real time.
+
+[23:22] Right. So since each boost is counted individually, it allows you to, like, track the leaderboard in a way that you couldn't with quadratic funding? Yeah. Okay. And match funding you get, too, in that moment. It's not like, like, if any of you are familiar with Gitcoin, you only know for sure how much match funding you get at the end of the round, whereas, here, let me, maybe, oh, well, I'm sorry, I'm already on this project.
+
+[23:45] This project has almost unlocked all of their match funding for the week. Like, every week, you get to see on your project page this fund drive module, and you get to see how much, specifically how many dollars in match funding you have available.
+
+[23:57] And so whatever the match fund multiple, like, this week is a 2x match fund multiple, and since there's only five dollars, like, you know, if I put in three dollars, it would fully unlock all of the available match funding. But in that moment, you know what you're getting, and you can see it, and it's yours.
+
+[24:13] Right. It's not like this question mark thing, like, maybe it's five bucks, or maybe it's whatever it is. It's, you know, you unlock it. It's in your project's balance. I think that's all the stuff for the artist inside and the overlap. Just, again, create a personal profile, create a project profile, then submit it to the edge fund.
+
+[24:32] Then for bonus, like, you know, Gold Star, go to as many other funds as you can. Oh, and one other, one other, like, this is an inside scoop. Like, if you're really trying to do this, I've got a Open Claw that I've been training to take over as CEO for a while.
+
+[24:46] Her name is Venus. Maybe you'll meet her here. She has a bedazzled Mac Mini that I'll be bringing to an event at the Agartha Artisan House tonight. You all are welcome to come for dinner if you want. Some creators are presenting. And you can email her, and you can be like, hey, this is my project.
+
+[25:01] I don't know which fund to submit to. Like, could you just tell me? And she'll give you really good recommendations for which funds to submit to, and, like, even, like, what information you need to fill out. So her email address is just Venus at artisan.fund.
+
+[25:13] And also, if you just get, like, tripped up and you're like, I don't know what the fuck's going on. Like, she's pretty good at answering. So, like, hit up Venus. She's way smarter than me. I don't think there's anything else about this, so if there's other questions that you guys have, happy to answer it.
+
+[25:34] I'll let Diego run that. Can you show the Edge Esmeralda page on artisan and how I adopt it? How you adopt it? Well, how do I get it? Do I attach it to my profile on artisan? So the steps are, go to the artisan website. It's artisan.fund. And then, like, any button you try to click will force you to create a profile for yourself.
+
+[26:01] Done. And then step two is when you go to the search thing, it's probably the easiest thing, and search for Edge. Yep. And you'll see the Edge City Fund for Human Flourishing. That'll take you to the fund page. Thank you. And then you click Submit, and it'll pop up something like this where you need to then create a new project profile.
+
+[26:19] You go through the project creation step, and then once you're done with that, it will submit it to that fund. And then... You can also create the project first. Yeah, exactly. Yeah, you can also do that from your profile, like, create a project and then submit it.
+
+[26:31] But you want to submit to as many funds as you can, but you have to submit to Edge in order to be a part of this wacky contest. Yes, yes. Yes, Edge is all over Artisan. We are very grateful for them being all up in our business. Lots of projects.
+
+[26:58] Do you want to talk about the S? Okay, so there's a project specifically that I want to see happen, which is we want to make a community-created zine and this is something that Sol will be leading. And it happened in Patagonia organically. This time, I would love for it to have a bit of funding because it takes a lot of work, time, resources, etc.
+
+[27:27] And, oh, there's a... There's an actual fund for zines. Okay, great. So you can submit to that one, too. We definitely should. So just so I understand, if I want the community to be able to vote on it, on Simocracy, and for it to potentially get funding through Artisan, what Sol will have to do is she'll have to make the project on Artisan, submit it to the Edge City Fund and this fund and maybe some others and then make a corresponding entry on Simocracy and then the community will vote through their agents on Simocracy
+
+[27:59] for how much money out of the 20K to allocate through the Artisan to the project? Yeah, I think there's still internal debate about how much of that because we're putting in 10K, Protocol Labs is putting in 10K, so it'll be only some dollar amount that'll go on Simocracy and then the rest will come on our side.
+
+[28:17] Cool. Okay. Super clear. Yeah, and sorry that you have to do things twice. That's just the friction of having two separate platforms try to play nice together. Anybody else have any questions? And also maybe Diego and James, if you want to come up here because I can't answer all the questions.
+
+[28:41] I'm sure there's some Simocracy ones. A simple question, maybe like I don't know, I'm losing track of what you guys are doing here, so I would like one-on-one help, if possible, by the end of the session or somewhere. Okay, great. On the Simocracy piece, I thought I read that there were 20 like digital twins doing the negotiating around that.
+
+[29:10] Is that true? Is that accurate? Or as many as we put in? Or which digital twins are deciding on how to fund the projects if there's more than 20? Yeah, so I think the Simocracy part was not that clear. If I may take the stage spontaneously and just demonstrate this.
+
+[29:37] Hi, I'm David from Protocol Labs. I'm the guy who's funding. I'm very happy to fund because we believe Edge City is amazing. Okay, so you can put that one in here. Democracy comes from the idea that we all love governance, but governance is a luxury.
+
+[30:02] It's really, really needed. We need democracy. We need governance to work really well for democracy to flourish, but democracy is a luxury activity that we cannot always afford on having time with, right? And so the idea of creating a digital twin with the constitution, the values, the speaking style is meant to represent you and your values when you don't have time to do that, right?
+
+[30:25] It's not meant to take over your decision power. It's not meant to like replace you. It's meant to really do this automatic work of like deliberation such that you at the end can check and make sense that, yeah, this is what I want to be represented at.
+
+[30:38] And so in order to maybe make it more clear, I think we can just walk through like how it would look like in a small proposal. So there's this Edge Esmeralda event that Diego has created already, right? And here there are three proposals that already happened that people have created.
+
+[30:57] Here are comment sections. Your sims can actually, you can tell your Hermes agent to comment on things if you want to add more information. Anyone can comment in any proposal. And this is a button that Diego, only Diego can see. It's called the S process.
+
+[31:12] The S process is a mathematically provable fair way to distribute funds. And the way it does it is it estimates for every proposal the return of value per dollar. Let me show you. So I'm pressing this S button. Nothing is desired. I just want to show you how this simulation works.
+
+[31:29] Basically, S process allows a council of sims to talk and simulate and review every single proposal. And then we distribute the funds. So this is how it looks like. There's $10,000. Every day we decide vote on $1,000 every day from starting from today until end of the times for H. Esmeralda.
+
+[31:50] So we put that in. We start the process. And now the sims are literally reading through the proposal. Every one of them is reading through what you wrote. And they're estimating. It goes through a large language model. They're estimating the value of each proposal.
+
+[32:05] Let's see if any of that is going through here. This is Diego's sim. Estimates that the value curve for Agora for existential is like this. And then let me, it was quite quick because it's not a lot of proposals. But because it needs to scale.
+
+[32:23] And you can see here we expect it to be like a downstream. The more money you get, the less return hopefully you should get. And then there's a value curve called keep where when the sim doesn't think it's higher than this value it should just keep the money to be distributed for the next round, for the next day.
+
+[32:41] It just believes like it might be better to save it for the future. And all the sims are doing this. And we have a mathematical optimizer that then distributes the funds according to how the sims voted. And we do this every day. So this is like distribution, this is like a sneak peek now how much money each project of those three proposals will get.
+
+[33:04] We publish this. We will unpublish it in a second. This is only for trial. And then we get the first result for round one. And then we do it again the next day. A thousand dollars. We run again with the new proposals and we'll be added on top of that.
+
+[33:19] So the question on who is deciding which sims are deciding on this. You can see right now there are three sims. As you're creating your sim, we will add them into this community. And then every day we select a random 20 of the sims to be basically deciding on which proposal gets funded.
+
+[33:38] That's why we care so much that you also not just create a proposal but you also create the values of the sim for you because we want that the proposals that get funded the most reflect the values of the community. So make sure to add your values.
+
+[33:52] If you want to have a spicy take on it add also a spicy speaking style because the sims are speaking here and everyone can read what they're saying so if you want to be whoever character you want to be maybe you want to even have a sims speak only in German to confuse everyone but who cares like just have it this is like the entertaining part that really difficult and difficult part that we want from you guys is like what values should we really care about right so yeah I hope that makes sense and that becomes a little bit more clear.
+
+[34:20] Yes all the sim deliberations are public so for example when I publish this again you can see that here this will be updated now to two days you can see here the distribution from the first one distribution from the second one and then the decisions are seen here on the tab and then you can click on it and you can completely see what every sim has talked about super cool right and so we are super excited to see what you guys are commenting on and even if you're not selected
+
+[34:50] to decide your sim your sim can always if you're walking to the next coffee shop and you're reading through the proposals you don't even have to visit that website you can tell your Hermes agent to send me the most interesting proposals are currently there and then you can tell your Hermes agent while you're walking to the coffee shop hey comment on it and say I really support this such that the other sims can read the comments of every sim right so it's very organic so we'll see correct yes
+
+[35:20] the edge bot and the sim bot are the same thing if you the moment you put in this prompt in they're actually the same thing they can the edge bot controls the sim bot so you can tell it to update the values of the sim bot let the sim bot write a proposal so you can control it through it there's no need to actually click on any buttons the moment you put the proposal in just so I understand what the actual deliberation process is so it's calculating a curve yeah
+
+[35:50] to see like the marginal return of every dollar over time that's an objective thing yeah so that just needs to be calculated separately but then the way that the agents play a part is just that they say I endorse I care more about homelessness than I don't know going to space or something like that and you like weight the ROI curve based on that or something like that I don't know like the problem of impact evaluation has always been that impact is subjective it's never objective
+
+[36:21] we if I care about the environment for me ROI is about how much trees are preserved how fresh water is if someone cares about let's say startup ecosystem it's about return of investments right and so that's why when you tell the sim what values you care about the sim's estimating these curves depending on your values so this sim likely cares mostly about let me see Mr.Miao that's me so this sim I have doxxed myself this sim cares a lot about hacker culture
+
+[36:52] freedom of like decentralized technologies so everything that is like about that tech it will highly value it will probably less likely look at other things like for example actually don't want to say anything so you don't you don't try to like game my sim but other sims have other values right like there might be a sim that cares a lot about yoga and about spiritual things and that value then will be reflected in the curve because these curves
+
+[37:22] are subjective expressions mathematical expressions but subjectively created from the sim's value sets okay so but you're not okay so but you're not looking at the proposal's objective ability to generate a particular outcome and then weighting it by values it's just the agent's objective perspective on how much a project is going to generate the thing that it values over time correct it's the proposal's text the detail of the proposal feed into a large language model a frontier model
+
+[37:53] that frontier model stands basically based on the values and then estimates the curve from that so the frontier model will care about how value right and stuff like this because it's a frontier model but then it's prompted specifically to represent your perspectives awesome thank you cool so when you say
+
+[38:23] two sims negotiate is that negotiation exclusively through the through the exchange of these curves is that it okay because I was imagining they might start talking English or German or something I mean the large language models there's no language barriers right they can even talk in Morse code and will understand it but the negotiation what basically happens like your question is more like the moment you have these curves what happens how do you distribute here
+
+[38:53] it's basically each of these sims here the free sims they estimate how valuable it is and they all get together and say okay this proposal has the highest return from all the dollars on your perspective and you have a couple hundred dollars at your disposal you have a couple dollars at your disposal then they spend and spend and spend until there's nothing that is higher value than keeping because like and then they just keep it for the next round
+
+[39:23] so this is it's like a greedy algorithm it doesn't have a lot to do with the sims talking it's really the sims only contribution is the value curse and then we distribute it according to a greedy algorithm yeah correct
+
+[40:03] yeah yes it's already possible as you're talking to the edge agent the edge agent knows a lot about you right you're talking about using index protocol to see what intents you have all of this information can be leveraged and you can tell the edge agent hey based on what I talked with you over the last days
+
+[40:33] can you kind of estimate what are my values if you're really lazy and you don't want to be explicit you can have it give it a trial and then it will read your past sessions and write the value sets and then maybe like later on you can see that your sim was part of this decision process you can read a little bit of that you're like that's complete BS that's not me right then you can give your sim the feedback hey I just read that you did this S process in Hs Morata on day two and I do not agree with how you voted on value curve scriptum
+
+[41:04] and it will figure it out and oh I'm sorry and you're like hey can you update my constitution and we're like okay I'm sorry I will update it and so it will figure it out for you hey yeah I actually want to add to that just a really quick plug for a tip so I'm Josh I'm helping out with the agent village stuff there is a really really great helpful prompt in the if you go to the the topic called agent village hub in the admin announcements channel team we've been working on a little prompt
+
+[41:35] it's pinned it's a message in that channel admin announcements it's a prompt it's a prompt that can help you seed the values into your sim so this is a prompt that you can take you can copy paste into either chat2bt or into clod and it you can it'll draw out values from who you are it's a little creepy I guess we could start off a little creepy but we crafted the prompt I think there's a couple
+
+[42:06] of like interesting bits here where it's like stay grounded distinguish evidence and punches phrase and certain things as possibilities or questions don't infer sensitive or private facts these sorts of things like perfect take the take the output from chat2bt or clod and then paste it into hermes and tell it to store this into my user profile verbatim that's very helpful because then that will help because then you can tell it hey take this and create a sim with what you know
+
+[42:36] about my user.md and it'll get a really good start I did this like 15 minutes ago it was excellent wow thanks for the feedback I definitely sims are they are I mean they are large language models so be honest to them they will not take it personally hopefully once the robots take over they will forget it but like yeah play around with it and give us feedback we have daily office hours so if this was like it was a lot right and we admit it's a lot
+
+[43:07] because we're asking you to run two things at once so we have daily office hours which Diego and I will be helping you intend set up the values make sure that everything's also like private and guaranteed to not like ask you for sensitive information and if you feel at any point this is kind of weird tell us because we like the thing that we care about here is that we're doing this thing right with you guys yes the question I have is about when it's evaluating the return and those curves is it taking into account things like
+
+[43:37] the experience of the people running the project and how that relates to the topic or the particular context that they have available to be able to actually execute and test out this particular project is all of that factored in or is it really just about the values versus the you know the intent of the project if you write in the constitution in your value sets you can write I care about the experience and about the proficiency of the people doing that then it will factor it explicitly in if you don't write it explicitly in it might be implicit
+
+[44:08] based on other values okay thank you cool oh yeah thank you for this presentation David I have a question kind of to play devil's advocate what if we were to submit a project that we don't want get funded like something that's not aligned with values I can see that
+
+[44:39] maybe the distribution for project one of fun can be 20, 30, 50 percent did you experience with like submitting something that is completely outside of something that wants get funded how much funding gets based on the sims negotiations yeah like I have a in my account this is Diego Soka in my account I have a whole test community with bullshit projects that I put in that I hate it and I hope the sims that represent me don't fund it and nine out of ten times it works all the value curves are like super zero and it's not getting any money sometimes something
+
+[45:10] something's off statistical noise we need to figure out what it is that then a couple dollars still get funded this process is also not deterministic it's stochastic right but for now I feel fairly confident for it to be deployed here as an experiment to see what we can learn yeah because I think from the test that we had like the fund the proposals that should not get a lot of money from my past experience when I was using my sims and my values it was kind of reflective to yeah I kind of agree with this setting
+
+[45:41] but this is something that we are interested in studying here as well because one of the things that will happen is the sims and compare the human baseline and the sim baseline if that overlaps and hopefully if the same committee donates then we should correct
+
+[46:15] yeah and that's super exciting to see one more question have you used this in other contexts already this is so fascinating to me and I'm really interested to see what happens and I'm curious if you've used it in other contexts we have this is not the first experiment you were running that's why we feel fairly confident we have run this first at large scale in San Francisco at the frontier tower where we gave and that was such a fascinating experiment
+
+[46:45] where we gave $15,000 $10,000 to every floor lead at their distribution proposal so they could distribute however they wanted and to no surprise they were just distributing it like on their own for their like benefits sometimes they didn't want to report and then we gave $5,000 to distribute it basically on their digital twin so the floor leads had a digital twin that then was able to distribute it and that was really cool that resulted in these really beautiful proposals like gifting games for example someone proposed
+
+[47:15] to do a gifting game in floor 14 so much better ideas than if you just give them money and you don't know what's happening then we presented this technology in Bhutan during the Ephiumen Foundation hackathon and instantly during the presentation there were 20 Bhutanese sims and the Bhutan hackathon actually at the end of the day they used like normal judges but they also created and you can see it here this is a public event three digital twins
+
+[47:46] of their Bhutanese judges Judgementor let me see if I can find them they're walking around here sometimes the SN chief or PSDD that's like a department so Bhutan was also very interested in kind of testing all this technology because again this technology is not meant to take away your agency it's meant to empower you by taking away a lot of the work that we think can be automated like checking like
+
+[48:17] due diligence resources reading through proposals checking that everything's correct and then you're basically steering the sim for you by giving it feedback on your values that's the idea and so yeah we have launched this now in Bhutan in San Francisco in Edge and we're hoping to see where this goes we want to make sure that this technology is developed carefully and together with the community I'm wondering for the Edge fund should it be then specific to Edge activations and such like if we're part of
+
+[48:47] different artisan funds for other groups should we have new projects specifically focused on Edge I don't think so yeah that's your question I think the coolest thing would be to explore things that are relevant to the rest of Edge Esmeralda right well like for the stuff that we're governing or relate to Healdsburg or the town here etc or kind of Edge in the future
+
+[49:17] but for the artisan stuff I guess that could be a bit more broad yeah
+
+[49:49] yeah no that's perfect that's perfect just go crazy go crazy but I think my sense for the
+
+[50:25] simocracy stuff is that because the whole village is voting on it it would be cool if it's something that had relevance to things that the whole village could experience at least if you're just like hey I want to go to Bali next year for vacation it's probably going to be less interesting but maybe it's worth doing that and seeing if people's sims like have an allergic reaction to it you know so let's fund Salaar's Bali extravaganza funding payout
+
+[50:59] will only be it's a seasonal thing it'll only be June 7th July 13th
+
+[51:29] is my birthday so just wanted to say that no no the other thing I wanted to add is maybe there's more of like a David Diego question but I mean it's an everyone question I think it would be really cool if we can set up the infrastructure so that as proposals are coming to decision people's sims there's kind of bi-directional communication so people's sims can message them in telegram
+
+[52:00] and say hey FYI this is about to get decided I think you'll want to vote this way based on the constitution and everything I know about you is that correct and you can tell me yes or no because I think the future we're trying to build towards is a system of governance where you know you're you know a single mother of two kids her agent can tell her that the school board has an important decision FYI this is what's being decided I think it's relevant for you based on your interests and so that's another cool thing that we could potentially build towards
+
+[52:30] yeah okay cool I got a thumbs up great I have one more question about like in communities right the sims are representing the individuals that are making up the communities but there's also like some shared values within a community so I'm wondering like is there some way to say like for edge there are some values like default healthy and you know like what are the values
+
+[53:00] of the community and are we aligning like how do the how do the sims align around the values of the community in addition to like what's our shared purpose what are we doing here in addition to the individual perspectives yeah fantastic question I think there are two ways to set it up in simocracy one is every community so basically what you see here is a community there are multiple communities and communities can provide context for the sims when they're judging so the sims
+
+[53:31] can then take this context into account when they're judging meaning that for example if some values here are shared among all the sims some that are really important to edge you can write them into context and then the sims will take it into consideration and also one of the things that we want to kind of build with this is and why we are so excited about running this experiment with these tight feedback loops between you and the agents is that all the deliberations will be public and we are running another algorithm that is inspired
+
+[54:01] by the work from Audrey Tang called broad listening to understand from all the deliberations what are these values that we all have in common and what are values maybe that might not be in common right and that's something that we want to also put out at the end of the at the end of the experiment as a result yes have you brought this to any typical angel investment funds this whole technology this whole approach
+
+[54:31] like some of the big ones in Silicon Valley I have in my whole life never received angel investment funds this is like this technology is meant to be open this is an open we call it an open protocol so whatever we develop here like will ultimately parts of it is already open source will ultimately all be open source this is meant to be an experiment to explore what the frontier of agent human cooperation governance might look like
+
+[55:02] and so we are happy to receive all the grants like everyone the sims might even apply for its own grants who knows but yeah this is meant to be this is meant to be something that we explore together ah do we see funding you mean that this is becoming a hedge fund they bring people
+
+[55:34] they bring people in front of the group that are they think will be of interest to the fund so if every angel investor in their group had their own profile or whatever the AI agent and then you know this whole process of trying to pick the best thing to present to the angel investors on their monthly meeting or whatever it is it's a big project that could be a really cool idea so it seems like this would be perfectly matched to that process yeah I think fantastic idea
+
+[56:04] I think whatever ideas you come up with where you basically we are so busy building we don't know what this can be used for so if you have any ideas how this can be useful like this is a fantastic idea just send it in our like telegram chat get crazy there's no idea like stupid or not to be mentioned because we literally don't know what we can do with this we just we just thought it would be cool to have that's that's the whole reason we built it so I'll be around like well we will be around
+
+[56:34] the hub every day like from 10 a.m. until lunch so you have any doubts get trouble creating your sim creating your constitution or whatever like other like technical help you need or like further questions we will be there around so yeah just hit us or telegram us whatever you feel more contact with

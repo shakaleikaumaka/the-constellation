@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="The Desert Letter — for Jeremy Wood, from Shaka Lei Kaumaka. Coffins and showers first. Vision at sunset. A letter between playa brothers, carried by the dust.">
+<meta name="theme-color" content="#1c1136">
+<title>The Desert Letter — For Jeremy, from Shaka 🐢🔥</title>
+<style>
+  /* ============================================================
+     THE DESERT LETTER — for Jeremy, from Shaka
+     Theme: playa dust — desert sunset fading into starfield.
+     Self-contained: system fonts, inline SVG, no trackers.
+     ============================================================ */
+  :root {
+    --night: #1c1136;
+    --night-2: #241745;
+    --night-3: #2e1d52;
+    --plum: #4a2a5e;
+    --rose: #b45a6e;
+    --rose-soft: #d98a92;
+    --ember: #d9703a;
+    --ochre: #e8a84e;
+    --ochre-soft: #f2c987;
+    --dust: #efe0c3;
+    --dust-dim: #cbb493;
+    --dust-faint: #a08b70;
+    --line: rgba(232, 168, 78, 0.22);
+    --maxw: 44rem;
+    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation: none !important; transition: none !important; }
+  }
+  body {
+    margin: 0;
+    background: var(--night);
+    color: var(--dust);
+    font-family: var(--sans);
+    font-size: 1.0625rem;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+  }
+  ::selection { background: rgba(217, 112, 58, 0.45); }
+
+  .skip {
+    position: absolute; left: -9999px; top: 0;
+    background: var(--ember); color: #fff; padding: 0.6rem 1rem;
+    border-radius: 0 0 8px 0; z-index: 99; font-weight: 600;
+  }
+  .skip:focus { left: 0; }
+
+  a { color: var(--ochre-soft); text-decoration-color: rgba(242, 201, 135, 0.45); text-underline-offset: 3px; }
+  a:hover, a:focus-visible { color: #ffd9a0; text-decoration-color: #ffd9a0; }
+  a:focus-visible, .skip:focus { outline: 2px solid var(--ochre-soft); outline-offset: 3px; }
+
+  main { display: block; }
+  .wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 1.4rem; }
+
+  /* ---------- HERO ---------- */
+  .hero {
+    position: relative;
+    text-align: center;
+    padding: 0 0 3.2rem;
+    overflow: hidden;
+  }
+  .hero svg { display: block; width: 100%; height: auto; }
+  .hero-text { margin-top: -1rem; position: relative; }
+  .kicker {
+    font-family: var(--sans);
+    font-size: 0.8rem;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    color: var(--ochre-soft);
+    margin: 0 0 0.9rem;
+  }
+  h1 {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: clamp(2.4rem, 7vw, 3.9rem);
+    line-height: 1.08;
+    margin: 0 0 1rem;
+    color: var(--dust);
+    text-shadow: 0 2px 30px rgba(217, 112, 58, 0.25);
+  }
+  h1 .for { display: block; font-size: 0.52em; color: var(--rose-soft); font-style: italic; margin-top: 0.5rem; letter-spacing: 0.04em; }
+  .subtitle {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: clamp(1.05rem, 3vw, 1.3rem);
+    color: var(--ochre-soft);
+    margin: 0 auto;
+    max-width: 32rem;
+  }
+
+  .star { animation: twinkle 4.5s ease-in-out infinite; }
+  .star.s2 { animation-delay: 1.2s; animation-duration: 5.5s; }
+  .star.s3 { animation-delay: 2.4s; animation-duration: 6.5s; }
+  @keyframes twinkle { 0%, 100% { opacity: 0.35; } 50% { opacity: 1; } }
+
+  /* ---------- SECTIONS ---------- */
+  section { padding: 3.4rem 0 2.6rem; border-top: 1px solid var(--line); }
+  section:first-of-type { border-top: none; }
+  .sec-kicker {
+    font-size: 0.75rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--rose-soft);
+    margin: 0 0 0.7rem;
+  }
+  h2 {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: clamp(1.6rem, 4.5vw, 2.2rem);
+    line-height: 1.2;
+    margin: 0 0 1.4rem;
+    color: var(--ochre-soft);
+  }
+  p { margin: 0 0 1.35rem; }
+  .lede::first-letter {
+    font-family: var(--serif);
+    font-size: 3.4em;
+    float: left;
+    line-height: 0.82;
+    padding: 0.06em 0.12em 0 0;
+    color: var(--ember);
+    font-weight: 600;
+  }
+  .sig-inline { color: var(--dust-faint); font-size: 0.92em; }
+
+  /* ---------- TIMELINE ---------- */
+  .timeline { list-style: none; margin: 2rem 0 0; padding: 0; position: relative; }
+  .timeline::before {
+    content: ""; position: absolute; left: 0.55rem; top: 0.6rem; bottom: 0.6rem;
+    width: 2px;
+    background: linear-gradient(to bottom, var(--ember), var(--rose), var(--plum));
+    border-radius: 2px;
+  }
+  .timeline li { position: relative; padding: 0 0 1.8rem 2.4rem; }
+  .timeline li:last-child { padding-bottom: 0.2rem; }
+  .timeline li::before {
+    content: ""; position: absolute; left: 0; top: 0.42rem;
+    width: 1.1rem; height: 1.1rem; border-radius: 50%;
+    background: var(--night-2);
+    border: 2px solid var(--ochre);
+    box-shadow: 0 0 12px rgba(232, 168, 78, 0.4);
+  }
+  .t-date {
+    display: block;
+    font-family: var(--sans);
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ember);
+    margin-bottom: 0.15rem;
+  }
+  .t-title { font-family: var(--serif); font-size: 1.18rem; font-weight: 600; color: var(--dust); }
+  .t-note { color: var(--dust-dim); font-size: 0.97rem; margin: 0.25rem 0 0; }
+
+  /* ---------- BUILT CARDS ---------- */
+  .cards { display: grid; gap: 1.1rem; margin-top: 1.8rem; }
+  .card {
+    background: linear-gradient(160deg, rgba(46, 29, 82, 0.55), rgba(36, 23, 69, 0.35));
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 1.4rem 1.5rem 1.2rem;
+  }
+  .card h3 {
+    font-family: var(--serif);
+    font-size: 1.25rem;
+    margin: 0 0 0.15rem;
+    color: var(--ochre-soft);
+  }
+  .card .tag {
+    font-size: 0.78rem; letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--rose-soft); margin: 0 0 0.7rem;
+  }
+  .card p { margin: 0 0 0.8rem; color: var(--dust-dim); }
+  .card p:last-child { margin-bottom: 0; }
+  .card strong { color: var(--dust); font-weight: 600; }
+  .gift {
+    display: inline-block;
+    font-family: var(--serif); font-style: italic;
+    color: var(--ochre-soft);
+    border-top: 1px solid var(--line);
+    padding-top: 0.7rem; margin-top: 0.3rem;
+  }
+
+  /* ---------- MEDITATION ---------- */
+  .meditation {
+    font-family: var(--serif);
+    font-size: clamp(1.12rem, 2.8vw, 1.28rem);
+    line-height: 1.85;
+  }
+  .meditation p { margin: 0 0 1.6rem; }
+  .pull {
+    border-left: 3px solid var(--ember);
+    padding: 0.4rem 0 0.4rem 1.3rem;
+    margin: 2rem 0;
+    font-style: italic;
+    color: var(--ochre-soft);
+    font-size: 1.12em;
+  }
+  .theory {
+    margin: 2.2rem 0;
+    padding: 1.9rem 1.7rem 1.5rem;
+    background: linear-gradient(165deg, rgba(217, 112, 58, 0.12), rgba(74, 42, 94, 0.26));
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 1.1em;
+    line-height: 1.85;
+    color: var(--dust);
+  }
+  .theory p { margin: 0; }
+  .theory .attr {
+    display: block;
+    margin-top: 1rem;
+    font-style: normal;
+    font-family: var(--sans);
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--rose-soft);
+  }
+  a.btn {
+    display: inline-block;
+    margin-top: 0.4rem;
+    padding: 0.5rem 1.1rem;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: rgba(217, 112, 58, 0.12);
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+  }
+  a.btn:hover, a.btn:focus-visible { background: rgba(217, 112, 58, 0.24); }
+
+  /* ---------- SUNSET SHOWING ---------- */
+  .showing {
+    background: linear-gradient(170deg, rgba(217, 112, 58, 0.12), rgba(74, 42, 94, 0.28));
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    padding: 2.2rem 1.8rem;
+    text-align: center;
+    margin-top: 1.6rem;
+  }
+  .showing p { font-family: var(--serif); font-size: 1.15rem; line-height: 1.8; }
+  .showing .big {
+    font-size: clamp(1.35rem, 4vw, 1.7rem);
+    font-style: italic;
+    color: var(--ochre-soft);
+    line-height: 1.5;
+  }
+  .showing .no-ask {
+    display: inline-block;
+    margin-top: 0.6rem;
+    font-family: var(--sans);
+    font-size: 0.8rem; font-weight: 700;
+    letter-spacing: 0.26em; text-transform: uppercase;
+    color: var(--rose-soft);
+  }
+
+  /* ---------- CLOSE ---------- */
+  .close { text-align: center; padding: 3.6rem 0 2rem; }
+  .close .road {
+    font-family: var(--serif);
+    font-size: clamp(1.6rem, 5vw, 2.3rem);
+    font-style: italic;
+    color: var(--dust);
+    margin: 0 0 0.4rem;
+  }
+  .close .name {
+    font-family: var(--serif);
+    font-size: 1.25rem;
+    color: var(--ochre-soft);
+    margin: 0;
+  }
+  .close .glyphs { font-size: 1.6rem; margin: 1rem 0 0; }
+
+  footer {
+    border-top: 1px solid var(--line);
+    margin-top: 2rem;
+    padding: 2.2rem 0 3rem;
+    font-size: 0.88rem;
+    color: var(--dust-faint);
+  }
+  footer p { margin: 0 0 0.7rem; }
+  footer .heart { color: var(--rose); }
+
+  @media (max-width: 520px) {
+    body { font-size: 1rem; }
+    .timeline li { padding-left: 2.1rem; }
+    .showing { padding: 1.7rem 1.2rem; }
+  }
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to the letter</a>
+
+<!-- ================= HERO ================= -->
+<header class="hero">
+  <svg viewBox="0 0 1200 640" role="img" aria-labelledby="svgTitle svgDesc" preserveAspectRatio="xMidYMid slice">
+    <title id="svgTitle">A desert sunset over the playa</title>
+    <desc id="svgDesc">A huge low sun sinks toward a flat cracked desert horizon beneath distant mountains. Stars emerge in the purple sky above. A small turtle silhouette walks in the foreground.</desc>
+    <defs>
+      <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#1c1136"/>
+        <stop offset="0.38" stop-color="#3a2054"/>
+        <stop offset="0.62" stop-color="#7a3a5c"/>
+        <stop offset="0.8" stop-color="#c2603f"/>
+        <stop offset="1" stop-color="#e8974a"/>
+      </linearGradient>
+      <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#8a4a35"/>
+        <stop offset="0.25" stop-color="#5c3040"/>
+        <stop offset="1" stop-color="#241745"/>
+      </linearGradient>
+      <radialGradient id="sunGlow" cx="0.5" cy="0.5" r="0.5">
+        <stop offset="0" stop-color="#ffd9a0" stop-opacity="0.9"/>
+        <stop offset="0.45" stop-color="#f2a85c" stop-opacity="0.45"/>
+        <stop offset="1" stop-color="#f2a85c" stop-opacity="0"/>
+      </radialGradient>
+      <radialGradient id="sunCore" cx="0.5" cy="0.42" r="0.6">
+        <stop offset="0" stop-color="#fff1d6"/>
+        <stop offset="0.7" stop-color="#ffc46e"/>
+        <stop offset="1" stop-color="#f29a4e"/>
+      </radialGradient>
+    </defs>
+
+    <!-- sky -->
+    <rect x="0" y="0" width="1200" height="470" fill="url(#sky)"/>
+
+    <!-- stars -->
+    <g fill="#efe0c3">
+      <circle class="star" cx="90" cy="70" r="1.6"/>
+      <circle class="star s2" cx="210" cy="140" r="1.2"/>
+      <circle class="star s3" cx="330" cy="60" r="1.9"/>
+      <circle class="star" cx="455" cy="120" r="1.1"/>
+      <circle class="star s2" cx="560" cy="45" r="1.5"/>
+      <circle class="star s3" cx="690" cy="105" r="1.2"/>
+      <circle class="star" cx="800" cy="55" r="1.8"/>
+      <circle class="star s2" cx="930" cy="130" r="1.3"/>
+      <circle class="star s3" cx="1030" cy="65" r="1.6"/>
+      <circle class="star" cx="1130" cy="150" r="1.2"/>
+      <circle class="star s2" cx="150" cy="220" r="1"/>
+      <circle class="star s3" cx="1010" cy="210" r="1"/>
+      <circle class="star" cx="620" cy="180" r="1"/>
+    </g>
+
+    <!-- sun -->
+    <circle cx="600" cy="470" r="240" fill="url(#sunGlow)"/>
+    <circle cx="600" cy="470" r="118" fill="url(#sunCore)"/>
+
+    <!-- distant mountains -->
+    <path d="M0 470 L120 418 L210 452 L330 400 L430 448 L520 428 L600 470 Z" fill="#3a2054" opacity="0.9"/>
+    <path d="M600 470 L700 436 L790 458 L880 414 L990 452 L1090 428 L1200 460 L1200 470 Z" fill="#3a2054" opacity="0.9"/>
+
+    <!-- the Man — tiny, distant, abstract -->
+    <g stroke="#2a1738" stroke-width="4" stroke-linecap="round" opacity="0.85" transform="translate(948 436)">
+      <line x1="0" y1="34" x2="0" y2="12"/>
+      <line x1="-9" y1="18" x2="9" y2="18"/>
+      <line x1="0" y1="34" x2="-6" y2="46"/>
+      <line x1="0" y1="34" x2="6" y2="46"/>
+      <circle cx="0" cy="7" r="4" fill="#2a1738" stroke="none"/>
+    </g>
+
+    <!-- playa floor -->
+    <rect x="0" y="470" width="1200" height="170" fill="url(#ground)"/>
+
+    <!-- cracked playa lines -->
+    <g stroke="#160d2b" stroke-width="2" fill="none" opacity="0.5" stroke-linecap="round">
+      <path d="M40 520 L150 532 L260 524 L340 540"/>
+      <path d="M150 532 L170 560 L260 575"/>
+      <path d="M420 545 L520 530 L640 542 L730 528"/>
+      <path d="M520 530 L540 565 L630 580"/>
+      <path d="M820 540 L930 528 L1040 542 L1150 530"/>
+      <path d="M930 528 L950 562 L1060 578"/>
+      <path d="M60 600 L220 610 L400 598"/>
+      <path d="M760 605 L960 596 L1180 608"/>
+    </g>
+
+    <!-- turtle — small, foreground, walking toward the sun -->
+    <g fill="#160d2b" transform="translate(240 565)">
+      <!-- shell -->
+      <path d="M0 28 C0 8 22 -4 44 -4 C66 -4 88 8 88 28 L88 32 L0 32 Z"/>
+      <!-- head -->
+      <circle cx="98" cy="20" r="9"/>
+      <!-- legs -->
+      <ellipse cx="16" cy="36" rx="9" ry="6"/>
+      <ellipse cx="72" cy="36" rx="9" ry="6"/>
+      <!-- tail -->
+      <path d="M0 26 L-10 30 L0 32 Z"/>
+      <!-- shell rings -->
+      <path d="M22 4 C18 12 18 20 22 28 M44 0 C42 10 42 20 44 28 M66 4 C70 12 70 20 66 28" stroke="#3a2054" stroke-width="2" fill="none" opacity="0.8"/>
+    </g>
+    <!-- turtle glow on dust -->
+    <ellipse cx="285" cy="602" rx="80" ry="8" fill="#d9703a" opacity="0.12"/>
+  </svg>
+
+  <div class="hero-text wrap">
+    <p class="kicker">A letter between brothers</p>
+    <h1>The Desert Letter<span class="for">— for Jeremy —</span></h1>
+    <p class="subtitle">Coffins and showers first. Vision at sunset.</p>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ ROAD TO PLAYA ============ -->
+  <section aria-labelledby="road">
+    <div class="wrap">
+      <p class="sec-kicker">The heartbeat</p>
+      <h2 id="road">Road-to-Playa Is Ticking</h2>
+      <p class="lede">Jeremy — the camp is real and it's moving. Somewhere between the packing lists and the dust, Terrible Turtle Camp went from an idea we talk about all year into a thing with dates attached. Twenty to thirty turtles, converging on the same patch of nothing, to build the same something we always build. I can already hear the generator. I can already taste the coffee.</p>
+      <p>Here's where we are, brother — the road, as it stands:</p>
+
+      <ol class="timeline">
+        <li>
+          <span class="t-date">Jul 30 – Aug 1</span>
+          <span class="t-title">Dress Rehearsal at the Gulch</span>
+          <p class="t-note">Full camp, on land, before the dust. We shake it all down where mistakes are cheap.</p>
+        </li>
+        <li>
+          <span class="t-date">Aug 12</span>
+          <span class="t-title">The Trailer Leaves Colorado</span>
+          <p class="t-note">Coffins, showers, kitchen, shade — the whole skeleton of the city rolls west.</p>
+        </li>
+        <li>
+          <span class="t-date">Aug 24</span>
+          <span class="t-title">Playa Arrival</span>
+          <p class="t-note">We drive in together, like always. The desert does what it does to a person.</p>
+        </li>
+        <li>
+          <span class="t-date">Aug 28</span>
+          <span class="t-title">First Cooking</span>
+          <p class="t-note">The kitchen lights up. A camp becomes a family the moment it feeds itself.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ WHAT WE BUILT FOR THE DUST ============ -->
+  <section aria-labelledby="built">
+    <div class="wrap">
+      <p class="sec-kicker">For the camp, by family</p>
+      <h2 id="built">What We Built for the Dust</h2>
+      <p>You know I've been heads-down all year. What you maybe don't know is how much of it was pointed at home — at our camp, at the twenty-some-odd turtles who show up every August and deserve infrastructure that loves them back.</p>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Turtle Ops</h3>
+          <p class="tag">The camp's operations platform</p>
+          <p>Every moving piece of Terrible Turtle Camp, tracked in one living place — <strong>277 items across 10 domains</strong>, from water to shade to kitchen to the trailer itself. The thing that used to live in a dozen spreadsheets and everybody's memory now lives somewhere we can all see it.</p>
+          <a class="btn" href="https://turtleops-jph4xz337n-rymti6jm.taur.link/">See the camp's heartbeat ↗</a>
+        </div>
+        <div class="card">
+          <h3>Terri</h3>
+          <p class="tag">The camp AI</p>
+          <p>The camp has its own agent now. Terri runs on Turtle Ops — she knows the lists, the domains, the state of things — and she serves the camp without ever sending it a bill. Ask her what's outstanding before the trailer leaves. She'll know.</p>
+        </div>
+        <div class="card">
+          <h3>The Fork-This-Camp Kit</h3>
+          <p class="tag">The gift that leaves with everyone</p>
+          <p>Everything we built for the turtles is packaged so any camp can take it and make it their own — released as <strong>open source, a gift to all camps</strong>. The playa taught us gifting; the kit is just the playa, applied to infrastructure.</p>
+          <p class="gift">No camp should ever have to choose between organization and magic.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ THE THING UNDER THE CAMP ============ -->
+  <section aria-labelledby="under">
+    <div class="wrap">
+      <p class="sec-kicker">The meditation</p>
+      <h2 id="under">The Thing Under the Camp</h2>
+      <div class="meditation">
+        <p class="lede">Road-to-Playa is ticking and I've been thinking about what we're actually driving toward. Not the camp — the thing under the camp.</p>
+        <p>A city appears from dust because people create. And it disappears, clean, because nothing is extracted. No invoices on the playa. No platform taking its cut of the gift. Seventy thousand people build the most generous city on Earth, and then they pack it out and leave nothing but dust that remembers them kindly.</p>
+        <div class="pull">The playa is the original giving economy. It just doesn't scale past the desert — yet.</div>
+        <p>Here's the question that's been living in me all year: what happens when every camp, every artist, every family like ours gets their own crew of agents — ones that serve them, carry the logistics, guard the magic — and never bill them into silence? What happens when the infrastructure of a gift economy costs as close to nothing as the desert asks of us: just show up and create?</p>
+        <p>That's what I've been building. Turtle Ops is one camp's worth of it. The rest is bigger, and it starts the same way the city does — from dust, with friends.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPANSIVE CIRCULARITY ============ -->
+  <section aria-labelledby="circularity">
+    <div class="wrap">
+      <p class="sec-kicker">The heart of it, by the fire</p>
+      <h2 id="circularity">Expansive Circularity</h2>
+      <div class="meditation">
+        <p class="lede">There's a thing I've believed for years, Jeremy, and I don't know that I've ever said it to you as plainly as I'm about to. Around a fire is the right place for it. You've watched me live it every August — now here are the words. It's my personal theory of circularity, the one I carry everywhere:</p>
+        <blockquote class="theory">
+          <p>&ldquo;The more I give, the more I receive — the gift expands in a circular expansion. If I constantly need to ask before I offer — if I need a gatekeeper to be my employer — that is a contracting circularity, feeding inward, imploding. I create an expansive circularity — the gift moving outward, growing with every orbit — that will bring global peace, love, and prosperity.&rdquo;</p>
+          <span class="attr">— Shaka's theory of circularity · the one he lives by</span>
+        </blockquote>
+        <p>The playa <em>is</em> expansive circularity, brother — you've felt it every year. Nobody asks permission to offer a gift at the burn. There are no gatekeepers in the dust, no one standing between you and the thing you want to give. The circle out there feeds outward, and every gift makes the next one bigger. That is why the desert feels like freedom.</p>
+        <p>The default world runs the other way. Ask before you offer. Beg a gatekeeper to be your employer. Watch the circle feed inward — contracting, imploding — everybody waiting on a permission slip that never quite arrives.</p>
+        <p>So that's the whole of it, really. Everything I'm building is just the desert's math, carried past the desert's edge — an expansive circularity with room inside it for everyone we've ever loved.</p>
+        <p>And brother — the theory already runs in the wild: the <strong>P.I.T. universe</strong> — Public Information Transmission, a forkable protocol for the public good (front door: <a href="https://publicinform.com/">publicinform.com</a>, live and growing). Genesis arm pits: <strong>The Esmeralda P.I.T.</strong> (<a href="https://esmeraldapit.com/">esmeraldapit.com</a> — 149 sessions open-sourced as a gift) and <strong>OSO P.I.T.</strong> (my ETHGlobal Delhi winner, Most Creative Use of ENS). After the dust settles, the road runs on to Goa and Devcon — the next pits. The pit provides. 🕳️</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ THE SUNSET SHOWING ============ -->
+  <section aria-labelledby="sunset">
+    <div class="wrap">
+      <p class="sec-kicker">The only ask</p>
+      <h2 id="sunset">The Sunset Showing</h2>
+      <div class="showing">
+        <p class="big">When we're out there, I want to show you one thing. In the dust. In person.</p>
+        <p>One sunset — you, me, the mountains going purple — and I'll show you what I've actually been doing all year. Not a pitch. Not a deck. Just my best friend seeing the real thing, in the one place where real things are the only currency.</p>
+        <span class="no-ask">No ask · No commerce · Just the dust and us</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ THE CIRCLE WIDENS ============ -->
+  <section aria-labelledby="widen">
+    <div class="wrap">
+      <p class="sec-kicker">Same dust, bigger circle</p>
+      <h2 id="widen">The Circle Widens</h2>
+      <p class="lede">And here's the part that makes me smile, brother — the dust doesn't stay in the desert. After the burn, after the pack-out, after the last moop sweep, the same circle of builders keeps traveling. This year the gifting spirit of the playa is on the road all the way to India, and the circle it's drawing is the biggest it has ever been.</p>
+
+      <ol class="timeline">
+        <li>
+          <span class="t-date">Oct 11 – Nov 1</span>
+          <span class="t-title">Edge City India — Goa</span>
+          <p class="t-note">A popup village on Mandrem Beach, North Goa — hundreds of builders, eight to ten residencies, weeks of building side by side by the sea. And the hub at the center of it all is literally called <strong>The Circle</strong>. You can't make this stuff up. Edge City has convened over twelve thousand builders across nine popup villages since 2023 — and now the village comes to India.</p>
+        </li>
+        <li>
+          <span class="t-date">Nov 3 – 6</span>
+          <span class="t-title">Devcon 8 — Mumbai</span>
+          <p class="t-note">The big Ethereum gathering at the JIO World Center — and this time its own framing includes <em>&ldquo;art, music, and spaces shaped by the community.&rdquo;</em> Not as decoration. As the point. The playa would recognize that immediately.</p>
+        </li>
+        <li>
+          <span class="t-date">Nov 6 – 8</span>
+          <span class="t-title">Lights After — Mumbai</span>
+          <p class="t-note">Devcon ends two days before Diwali — the festival of lights — and ETHGlobal Mumbai carries the energy straight through the weekend. Builders arriving from every corner of the Earth, landing in a city about to set itself glowing.</p>
+        </li>
+      </ol>
+
+      <p>No commerce in any of this, Jeremy — you know me better than that. It's the same thing it's always been: people showing up with gifts, and the gifts making room for more people. The playa taught us the principle. India is just the next horizon it travels to. Maybe one year you'll come see for yourself how big the circle can get.</p>
+      <p class="gift">The circle doesn't close. It widens.</p>
+    </div>
+  </section>
+
+  <!-- ============ CLOSE ============ -->
+  <section class="close" aria-label="Closing">
+    <div class="wrap">
+      <p class="road">See you on the road, brother.</p>
+      <p class="glyphs" aria-hidden="true">🐢🔥</p>
+      <p class="name">— Shaka</p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><strong>The Desert Letter</strong> — for Jeremy Wood, from Shaka Lei Kaumaka. Prepared with the help of 369Refine, divine refinement agent of CREATIONology369.</p>
+    <p>🍴 <a href="https://github.com/shakaleikaumaka" style="color:inherit;text-decoration:underline;">github.com/shakaleikaumaka</a> — everything open-sourced CC0. Fork me like crazy — on the playa we'd call it a gift. Same thing.</p>
+    <p><strong>Colophon:</strong> one HTML file, system fonts, inline SVG, no trackers, no analytics. The family's shared music player rides along — a trail of the music never stopping. Made with <span class="heart">♥</span> in the giving economy · <em>Heart First, Always</em>.</p>
+  </div>
+</footer>
+
+<script src="https://shaka-home-cbhjr5ziii-ffieyo32.taur.link/assets/bl-player.js"></script>
+</body>
+</html>

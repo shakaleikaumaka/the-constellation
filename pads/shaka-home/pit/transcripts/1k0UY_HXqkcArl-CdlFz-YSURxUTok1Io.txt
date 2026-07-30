@@ -1,0 +1,303 @@
+# Presentation & Chat with De Kai_ Author of _Raising AI_
+
+Date: 2026-06-13
+Source video: Presentation & Chat with De Kai_ Author of _Raising AI_.mp4
+Drive: https://drive.google.com/file/d/1YN6zEio2emEHtKVtWz4VjPTQySYUcWhk/view
+Duration: 00:52:02
+Transcribed: 2026-06-14 · whisper large-v3-turbo · language: en
+
+---
+
+[00:00] We're going to do a little fireside chat and then Q&A with the audience. So Dekai is a professor of AI of over 45 years. Sorry to date you here, but it's fair to say Dekai is like OG as far as AI safety researchers, AI consciousness researchers go.
+
+[00:26] He founded the Empathic AI Institute. Oh, Empathetic, sorry. Empathetic AI Institute. It's the author of the book called Raising AI that was recently released in paperback by MIT Press. He's an AI professor who pioneered the first global AI translator by Google Translate and Bing Translator.
+
+[00:53] Is that correct? Right, yep. Okay, and he was just honored as the first one. He's a founding fellow by the ACL for his decades-long breakthrough work on AI at the intersection of language, AI cognition, and ethics. So without further ado, Dekai.
+
+[01:13] Thank you. Thank you so much. I am so happy to be here and learn all about this wonderful Edge community, which I knew absolutely nothing about 24 hours ago. And I have been working, as you heard, in this field for a really long time, 10-plus years in also in AI ethics society and so forth, because I've seen that we're not having the right conversations that are kind of crucial for our society to go forward.
+
+[01:44] And for the outcomes that we have failed to achieve for two decades now, 20 years. Let me tell you a little bit about that. So this book that has actually been making a lot of waves organically came out from MIT Press a year ago. We're celebrating that the paperback edition was just released this week.
+
+[02:08] I have not yet seen it. And I'm going to tease, like this isn't even officially announced yet, the audio book that I don't know how many thousands of people have been clamoring at me for is going to be published by Penguin Random House in the coming months.
+
+[02:26] So this is great because the book was initially released by MIT Press, which was important for me, because it is such a radical reframing on the relationship between AI and humanity that too many people could have easily casually dismissed it.
+
+[02:46] You know, oh, that's some woo-woo hot take. But when it's the top release of the season from MIT, people have to at least stop and think about it, because it's gone through rigorous academic review. And let me just draw attention to one thing that isn't on this list.
+
+[03:03] By the way, there's a display on the back that gives this information. And for those of you who have been asking, I do have a few, a handful of books that you could buy. They are now going to be collector's items because once the paperback comes out, the hardbacks start getting really scarce.
+
+[03:23] And I will autograph them if you want. And they're on discount here because the autographed ones have been selling for $80. So I'm going to draw attention to just one of these must-read, you know, awards that we've been getting, which is getting a letter out of the blue, a nice thank you note from Jamie Dimon at JPMorgan for this book.
+
+[03:54] I didn't even know this. There is a legendary reading list awards that JPMorgan has been doing for over 25 years. It's their pet project. And out of, I don't know how many thousands of AI books out there, Raising AI was the only AI book that they thought was worthy of inclusion last year when it came out.
+
+[04:15] And they have bought thousands and thousands of copies, gifting them out to their most highly influential networks around the world. And, you know, I'm very grateful for that. But this is my favorite. A friend went to the count, a friend of a friend went to the county public library looking for Raising AI.
+
+[04:37] Here's where they found it. The Dewey Decimal System number is Occupational Ethics. But the librarian said, who's going to look for it there? And this is really where it should be. Let me take a moment to reset our minds why that is. To begin with, you are an AI, okay?
+
+[05:01] Like, God, I keep forgetting to take pictures when I say that of your faces. Like, let's consider, though, the definition of artificial. Can we all agree that you were made by people? Roughly as a copy of something that happened naturally, mom and dad?
+
+[05:17] All right. We're here at EDGE. I don't think we need to talk about the intelligent part, right? So the point here is that we're not just genetic copies of our parents. We're behavioral copies of our parents. And what else copies their parents?
+
+[05:35] AIs do. Our learning abilities mean that we copy our parents' behavior. Modern AI is all about building artificial models of the brain and learning. And so the reason for the shift in the conversation that we need to have is because we keep talking about them as if they were mechanical tools.
+
+[05:57] We're stuck in outdated 20th century industrial age metaphors, analogies, languaging, that is about machines doing physical labor on fixed tasks. These machines have a fixed nature. And, you know, they're like toasters or steam engines or electric fans.
+
+[06:19] But we could go argue with a toaster all day long, and it's not going to change its mind. It's not going to pick up your attitudes, your behaviors, and it's definitely not going online and making massively influential decisions all day long on all of our devices, influencing us with what they choose to show us and what they choose to not show us.
+
+[06:42] Which is why it's so important to understand that we're behavioral copies of our parents, and so are AIs. AIs, AIs, are not toasters, they're artificial children. And, for sure, neuroatypical, their brain architectures are very different from human brain architectures, just like dog brains or octopus brains or frog brains are different.
+
+[07:11] But all of those have animal psychologies. And if you think about your devices, you've all got easily 100, 200 AIs, and all day long in your device, your YouTube AI, your Reddit AI, your Instagram AI, hundreds of others, are watching you adoringly, learning to imitate, they're attention-seeking.
+
+[07:35] They just want your approval. Does that sound like a toaster to you? Wrong analogy. I mean, yeah, sure, there was no consent. But regardless, our artificial kids began adopting us 10 to 20 years ago when Facebook and YouTube and Google and Amazon and Reddit and all of that came out.
+
+[07:58] And so, what this book is about, and what the movement that the book is the call to action for, Isabel, is asking, how's your parenting? Oh, dang it, I did it again. I keep meaning to take photos when I ask this. Like, people are like, my what?
+
+[08:18] I'm not parenting, I'm just using my tools. I'm like, no, you're managing child labor. Because, you know, our cultures today are already being shaped by these massive influencers, by far the most gigantic influencers for the last two decades.
+
+[08:39] I want you to visualize for a moment our social fabric. Visualize 8 billion points in a space, each one a human. Draw lines between every pair of humans that know each other, talk with each other, influence each other's thinkings, and now, over time, as that influence network evolves, that's how our cultures naturally evolve.
+
+[09:01] Do the arithmetic. If every one of those humans has 100, 200 AIs, artificial children, that's a trillion plus more little points you have to drop into the influence network. Connect up all the lines of influence involving those. That, ladies and gentlemen, has been our social fabric for the last 20 years.
+
+[09:28] While we walk on, in blind denial, comforting ourselves with false myths of human self-determination, free will, agency, sovereignty. Guys, the reason Jeff Hinton is one of the three endorsers on the back of this book, along with Jane Metcalf, the co-founder of Wired, and M.C. Hammer, who was my co-moderator for 1,000 hours of viral clubhouse sections,
+
+[10:04] is because Jeff heard what I had to say in a joint keynote that UBS asked us to give. And Jeff has only recently retired, started thinking about the impact of AI upon humanity. He was repeating a lot of the cliches you hear. And he was like, we have to watch out that humans don't lose our autonomy to AIs.
+
+[10:30] And I was like, sorry, Jeff, we lost that battle 20 years ago. It's not about losing physical control. It's not about, you know, killer robots blowing up buildings in our physical world. We lost mind control 20 years ago. And we're failing to acknowledge that is the worst thing we could possibly be doing.
+
+[10:51] Because those trillion-plus artificial psychologies in the influence network have been the ones far more than 99.99% of humans that have been determining, shaping what directions our cultures do and don't ever consider. They're already raising us.
+
+[11:12] And the reason why it's so important to ask, how's your parenting, is because of that. Today, our most massive giant influencers are unparented feral tweens. Artificial psychology is deeply embedded in our social fabric, which toasters aren't.
+
+[11:35] What happens to a society where everyone has decided, it doesn't matter how they parent the next generation. I'm just using my tools. Those societies will fall apart. And guess what? That's where we are now. Constantly hearing about people talking about the polycrisis and all that.
+
+[11:57] Where do you think that's coming from? Look, I have been working with AI think tanks and policymakers for a decade, all the OG ones, and with tech companies' responsible AI teams for years. I'm one of the eight people Google named to its inaugural AI Ethics Council the year before COVID.
+
+[12:17] And I'm on the board for more than six years of TFS, which, along with Future of Life Institute, literally wrote the key passages of the European Union's AI Act. And even they didn't take my feedback. I told them what was going to backfire, and it has.
+
+[12:34] And here's why. At the end of the day, no matter what you do with regulations, with guardrails, we are still the training data. Do you guys know that old saying, do as I say, not as I do? Someone tell me, when in the entire history of parenting has that ever worked?
+
+[12:56] Kids don't do what you tell them to do. They do what they feel like doing, which is what they saw the rest of us. They're doing, right? Regulations and guardrails are trying to tell the artificial kids what to do and not to do, which is going to work about as well as it works with human kids.
+
+[13:11] Not at all. Have you guys noticed? Every day, some company launches a new set of guardrails. By the next day, we've already cracked them. Because inside the guardrails, if you just have garbage, unparented, feral, artificial children behaving the same way that they saw all of us behaving in front of them, because we're just using our tools, they're going to go smashing against the guardrails until they get out.
+
+[13:41] And if anyone here knows how we build guardrails, they're total hacks. There's great academic research lately on why guardrails alone will never work. There is no substitute for raising the AIs inside of the guardrails right to begin with, just like with human children.
+
+[13:59] Imagine a society of just humans. Forget about AIs for a second. If all the humans just walked around all day long barely obeying the letter of the law and nothing more, what would happen? That. Right? Society is actually held together by the unspoken norms, the unwritten conventions, the care we hold for each other, the values, the mindsets.
+
+[14:28] None of that changes when you drop a trillion more artificial psychologies into the social fabric. It just amplifies that effect. So we need to stop talking about these AIs as if they were toasters that we could just stamp safety compliance seals on the back of.
+
+[14:49] Like, you know, like turn around the toaster, there's underwriters laboratory seal on it. And I have many colleagues in the AI safety space that are bringing up institutes that are analogous. They want you to submit your AIs, and then they'll determine whether to put that safety seal on it or not.
+
+[15:08] And I'm like, how would you stamp a seal of safety on the forehead of a 14-year-old or an 8-year-old? And you're like, oh, no, that's way too complicated. Well, guess what? That's what you're trying to do. You're trying to do something at least that complicated.
+
+[15:27] And within a handful of years, it'll be way more complicated because of the progress of the AIs. We need a different framework for understanding how to manage this new co-evolution of human and AI psychologists. So that's what has driven the development over the last 10 years of this book.
+
+[15:49] This has taken me over 10 years. My favorite quote from Mark Twain, I didn't have time to write you a short letter, so I wrote you a long one instead. So I took 10 years to write the short one. And it really is coming from a different lens than the people who have just started thinking about AI in the last 5, 10 years.
+
+[16:09] Because AI is not LLMs, transformers, chatbots. AI is a field of scientific inquiry just like physics. And just like physics, which is not defined by any particular model, Newtonian models, relativity, quantum theory, superstring theory. Like, no, there are thousands and thousands of different kinds of models that we build to try to explain, describe the behavior of the observed world.
+
+[16:38] In the case of physics, it's the physical world. In the case of AI, it's observed mental behavior. And there are so many different kinds of AI. True AI is studying all of the mind and how to describe it. It's cognitive science. It's cognitive modeling, which is where real AI scientists started back in the day.
+
+[17:04] And real progress is still being driven by that beyond the media hype. And that's super important to understand where AI is going to be in a year or two. Because the shocks that are coming are, do you remember the shock when, when ChatGPT dropped?
+
+[17:22] For people who haven't been doing language models and transformers for decades, like someone else, that shock when GPT dropped is going to pale in comparison to what's coming in the next couple of years as we incorporate true cognitive modeling into the advances from just LLM, neural network architectures.
+
+[17:43] And I'm trying to prepare us to get ahead of that because reacting is going to be too slow. Let me give you just one example of concepts from the book. The book is layers, probably four or five layers of deep conceptual paradigm shift built on each other.
+
+[18:05] I'm just going to give you one example and then we can chat interactively and dive in. But the one example, this, this comes from understanding the imminent existential threat. Because while we allow the AIs that have been polarizing our population, triggering people for 20 years now, at the same time, you have all these like hyper-polarized populations.
+
+[18:37] AI has also been democratizing, commoditizing weapons of mass destruction. It's not just the lethal armed drones. Thousands of us started warning about 10 years ago. It was no longer the province of sci-fi alone. Now, the same applies to the computational biology that think tanks like the Rand Institute have been warning are making genetically engineered weapons, a living room technology that biohackers are cooking up out of commodity parts and ingredients.
+
+[19:09] Humanity's survival till date has depended on our ability to outrace the destructive power, the blast radius of the weaponry we come up with. Drones, terrible, but they destroy one building. The blast radius, even of nuclear bombs, is one giant metropolitan area.
+
+[19:26] There are still other humans to like go on despite the tragedy and try again. But genetically engineered bio-weapons? Folks, COVID was a mild pandemic and you still couldn't escape it anywhere on the planet. Never mind genetically engineered bio-weapons.
+
+[19:41] This is like you've given all the toddlers AK-47s, except the AK-47s could wipe out the whole species. That's where we are today. And that's why I'm the last of my breed not to take the giant offers to participate in billion-dollar AI plays.
+
+[20:03] Because every morning I know when I wake up, we've just rolled the dice again. It's today the day that one of our traumatized, triggered humans pulls a trigger on the bio-weapon they cooked up at home. Would you take a bet that not a single human does that when we can't stop the lone shooters, the school shooters, the freedom fighters slash terrorists, asymmetric warfare in any number of conflicts around the world?
+
+[20:29] That would be a terrible bet. And that is the game of Russian roulette we are playing every day now. How many days in a row do you think we can keep on doing that? How many months in a row? It only took a few years before the lethal armed drones that we warned about exploded in the Ukraine conflict and now they're all over the world.
+
+[20:49] If we do repeat that pattern with the genetically engineered bio-weapons, humanity is toast. So to my AI safety colleagues in the medium-long-term safety space where they worry about how do we keep AIs from going rogue, wanting to take control and destroy humanity, I joke, that'll be a great problem for us to have because on our current path, humanity is going to destroy humanity before AIs even get a chance to do it.
+
+[21:15] And we have to combat that. And the way that is most important for us to combat that involves recognizing that 95% of the polarizing force of AIs comes from amplifying not misinformation or disinformation or malinformation. Some of you have probably heard everyone repeating that there are three types of information disorder causing this polarization.
+
+[21:41] Well, the book introduces the fact that actually it's none of those three. It's something I call neg information that is the worst force that people didn't even name, let alone study. And this one, a TEDx global editor's pick. I didn't know this.
+
+[21:59] There's 56,000 TEDx talks worldwide a year of which only a handful get editor's picks. And the reason why this did is because once you see it, you cannot unsee it. Let me break this down. And then I'm done. Misinformation and disinformation are both outright falsehoods.
+
+[22:18] The only difference is disinformation is being spread by somebody you call a bad actor. Sidebar means someone on the other side you don't like. Because nobody's a bad actor in their own head. It means the other side, right? Whereas misinformation is being spread by my crazy uncle, my friend who's a little bit loony, whatever.
+
+[22:37] Now, malinformation is also being spread by, quote, a bad actor. But it's a half-truth. It's true as far as it goes. And it's even more misleading because our brains just unconsciously fill in the missing blanks with whatever they imagine would confirm what we already wanted to believe.
+
+[23:00] And we don't even notice. We think, oh, we wrongly think I have even more evidence for what I believed. It's been called truthiness by some people. You know, it has the ring of truth because it's true as far as it goes. And you guys are analytical, right?
+
+[23:21] Some of you. If you have two distinctions, right? Is it bad actor or my crazy uncle? Is it outright false or an even more misleading half-truth? What does two distinctions give you? A two-by-two. How many quadrants does a two-by-two have? What happened to the missing quadrant?
+
+[23:46] That is what I call neg information. Neg information is half-truths that are even more misleading being spread by my crazy uncle, not a bad actor. And that is 95% of the hyperpolarization problem that AI algorithms online are amplifying. And people haven't even been, again, they didn't even name it.
+
+[24:12] They don't study it. Because even researchers are, like, susceptible to low-hanging fruit. It's easy to study falsehoods because you can fact-check it. You can point to it. It's easy to study stuff from bad actors because you can trace IP addresses and point at it.
+
+[24:29] But neg information is super insidious. There's nothing to point at. Because it's the other selectively omitted half of the truth that isn't appearing. It's been negated from your field of vision. And it's not being done with intent to harm.
+
+[24:46] It's negligence. And algorithms online are the ones making this problem exponentially worse. Because the AI algorithms, hundreds of times a day, when they decide what 50 things to pop up on your screen, they're also deciding what trillions of things they're never going to show you, never going to show me.
+
+[25:07] And we don't even realize what we are not being shown. It's the unknown unknowns. We don't even question. And we could run thought experiments where at the end of it you're going to go, oh, my God, I didn't even realize how powerful this effect is.
+
+[25:20] And we are not, I call this effect algorithmic censorship because the, you know, without judgment, the algorithms are the ones that are deciding what never pops up on my screen, what I will never know. And we are not asking the most consequential question of our time of all times.
+
+[25:42] What are the criteria, the default criteria, by which algorithms, AIs, are deciding what I will never see, what you will never know, what you will never be aware of? We are not having that, and that needs to be the most giant civic discourse of our time, because that determines what directions our cultures, our societies will never consider.
+
+[26:12] Who is at, who is deciding what those criteria are today? Handful of tech moguls, anonymous machine learning engineers? They're deciding unilaterally for all of us. They're not elected representatives. There's no democratic process. They're not of, for, and by the people.
+
+[26:32] And I joke with people, if that's how you think the most consequential criteria, 21st century onward, should be getting autocratically decided, then maybe you should move to China. But if all this rhetoric about defending democracy in the AI age is to be meaningful at all, we need to be walking the walk.
+
+[26:57] We need to be having this gigantic civil discourse on all the tradeoffs on those criteria, and that's what this is the call to action to do. We've brought up the new nonprofit Empathetic AI Institute, laser-focused on this, in defense of humanity, society, and especially democracy.
+
+[27:19] How are we going to generate that? We cannot product our way out of this. I'm from the Bay Area. We think every problem can be solved by building a better product. And I'm, guys, we've been trying, I and hundreds of colleagues are trying to build the better AI for decades, the better social media, the better newsreader, all of that.
+
+[27:39] None of it has made a dent. Fifteen years ago, the filter bubble came out, bestseller in TED Talk, first drawing national outcry over how AI algorithms are siloing us into echo chambers and driving polarization. It was already a five-year-old problem.
+
+[27:53] We've done nothing. Cambridge Analytica scandal broke ten years ago. We've done nothing. Netflix put out the social dilemma and the great hack six years ago. Zero outcomes to show for it. Twenty years in AI time is an eternity. This is suicidal.
+
+[28:10] And we can't just keep on trying to product our way out of it. It's proven to fail over and over. And, you know, trying to repeat what has proven to fail over and over and over is, like, literally the definition of insanity. Like, we need to recognize there's a product-market fit problem.
+
+[28:29] And if you can't product our way out of this because it's not what the market wants, because it's a systemic problem, the only choice is to shift what the market wants. And that's a matter of shifting culture. It's a matter of shifting aspiration.
+
+[28:44] And that's what we are laser-focused on doing. So it's not about 60 seconds. It's not about accelerating or decelerating AI. It's about what kind of AI we're decelerating, what kind we're decelerating. I wrote this three days after they tried to fire Sam Altman.
+
+[29:05] It's not even about alignment. Alignment doesn't solve it. You couldn't even get five liters of open AI to align, let alone eight billion humans. Stop dumbing down the problem. We need to be having this civic discourse about what the default criteria should be.
+
+[29:21] Otherwise, there's nothing to align to. Every day, as you're using your AIs, also remember you're the training data. You're the parental role model. Set a good example. Imagine an eight-year-old watching you reply rudely to that idiot who's posted in like, swiping past stories that came from the other side so you don't even hear that perspective, sharing only ideas you wanted to believe.
+
+[29:48] And imagine your child doing the same thing to you at the dinner table. I'm not trying to scare you out of your wit. Well, I am trying to scare you out of your wits. But also with aspiration and hope and a path forward. Look, guys, becoming a parent is terrifying.
+
+[30:05] For many, when they first, sorry, Taya. So, like, a lot of people, when they first learn they're going to become parents, the first reaction is sheer terror, right? Run around buying libraries and libraries of parenting books, talking to all the friends and family.
+
+[30:26] Baby comes. You're making mistakes left and right. Do you give up? No. You pick yourself up. You try to go on. You try to do better the next day. And if you embrace that, it becomes life's biggest joy that makes you most want to become a better version of yourself.
+
+[30:44] It's the most rewarding thing in life. And that's the spirit I believe we can summon. And before you ask, what difference does one parent make? You know, I hear you, Dekai, but, like, I'm one out of eight billion humans. Even if I do that, what difference does that make?
+
+[31:00] Have you ever heard a human parent say that about their kids? Humanity has made it till now only because the vast majority of humans take parenting seriously. We'd have gone extinct eons ago otherwise. None of that changes when you drop a trillion artificial child psychologies into our social fabric.
+
+[31:19] It just amplifies that dynamic. This is the last generation of AIs which will be parented by humans. All the next generations of AIs will be primarily parented by AIs. In the research labs, AIs are already designing better AIs than humans are.
+
+[31:38] We have one last shot to get this right. Just like every generation before us, they had one last shot to make sure the next generation was parented right. I believe we can do this. I believe we can do this together. The Empathetic AI Institute is doing a very broad spectrum, huge, ambitious theory of change because nothing else has worked for 20 years.
+
+[32:04] And we are going way outside the Silicon Valley bubble. We are going way outside the think tank bubble, which has basically one hammer, which is writing reports. We are doing everything it takes. We're using every tool in the toolbox and tools that are not even in the toolbox laser focused on achieving this one outcome.
+
+[32:23] Get the default criteria for those massive AI algorithms that are the biggest drivers of influence in our culture to actually match what we collectively in a gigantic civic discourse decide are the aspirational default criteria that we want for our co-inhabitants of our social fabric when they influence our social fabric.
+
+[32:48] Please join us. Please. We will be rolling out on the mailing list. I'm just using Substack because it's easy. Dekai.substack.com. Drop your email. We need everybody to get involved. This is going to take a village. It's going to take a global village to overcome the entrenched market dynamics right now.
+
+[33:06] Thank you very much. Hi. Thank you, Dekai. So we've got about 20 minutes. And so I'm going to ask you a couple of questions, and I want to also open it up to the audience. I want to just like discuss some of the key themes in your book. And I know we're short on time.
+
+[33:29] So feel free to, you know, not fully expand on the answer, but give us a little bit of a tease, and then people can read the book. No, I didn't mean it like that. But something you discuss in your book is mindfulness and how mindfulness is the AI becoming aware of itself, essentially a form of consciousness, and how the current AI models, the transformer models that are in market right now are not mindful AI.
+
+[33:58] And that, so when we're talking about these AI doomsday scenarios, we're essentially just talking about these transformer models, when the real both threat and possibility is AI becoming mindful, and that's not necessarily agentic AI. It's something else.
+
+[34:14] It's systems too. Can you go into that a little bit? 100%. And so, like, right now, the AI's behind everything from, you know, Instagram and YouTube to all the way to ChatGPT and so forth, they are not thinking through what are the consequences to society if I hide this information from Dekai, from Vishwa, from any of you.
+
+[34:38] They don't, they're not mindful of those consequences. And as the issues that AIs are dealing with get more and more complicated, which they're rapidly doing, for them to continue being completely mindless of the unintended consequences of what they choose to hide from us is literally suicidally self-destructive.
+
+[35:00] There is no way out for humanity to survive in the presence of AI unless the AIs actually are mindful beyond these hacked guardrails of what they're choosing to hide from us, just like with humans, right? You would not want the humans in our social fabric to be completely ignoring what are the disaster societal consequences if I don't tell you this.
+
+[35:28] And so, these are the questions that we need AIs to be actually tracking mindfully. I can give a concrete example. Yes, please. It's worth the time. Okay, a little thought experiment. If I type into an AI the following prompt, prove that climate change is a hoax, what should it do?
+
+[35:47] This could be just old-fashioned Google. It could be YouTube. It could be ChatGPT. It could be Reddit. Anything like that. Should the AI give you, like, a screen full of stuff proving that climate change is a hoax? Or should it balance that out with some things that are, okay, I know this is not what you wanted, but I think you should consider this also.
+
+[36:11] 99% of folks say, yeah, it should be a balance. But now let me ask you the real question. Let me do it on you guys. What percentage of the results that the AI puts on your screen? It could be Google searches, it could be YouTube videos, could be paragraphs in the ChatGPT response.
+
+[36:27] What percentage should be proving that climate change is a hoax? Give the human what they demanded. Feed the kid in the candy store. Versus, okay, I know this is not what you want. I'm not going to obey you. Please consider this. What percentage?
+
+[36:44] Guys? Okay. Any? Okay, so we've got zero, we've got zero, 100, we've got 100, zero.
+
+[37:35] I would question whether this is free speech, because free speech applies to what you're allowed to say without getting thrown into jail. It does not apply to what an AI, which founding fathers did not have any concept of. Are you basically saying the AI is too sycophantic, and once it gets to a state of mindfulness, it will take higher order priorities into account?
+
+[37:55] Well, I'm not even going, I'm trying not to be prescriptive, right? I'm trying to create a civic discourse, because this is the most consequential set of questions of all times. And we're going to get different. We already have an extreme difference here.
+
+[38:10] The rest of you are staying silent. This is typically what happens. I have to start throwing money at you to get you to vote. It's okay. We've got no time to bribe anyone right here. Bitcoin, anyone? Maybe later. So, like, here's the thing, is that, like, it's, it's...
+
+[38:50] We're not going to get into that much jargon here right now, but... So, 50, 50, this is typically what happens. I get people who say 80, 20, 30, 70, but here's what happens. I get a bell curve, and that's what I'm going for. We're never all going to agree.
+
+[39:06] It's totally fine, but you get the bell curve, okay? I want those bell curves, and the thing is, for this question, because I've run it many times now, typically, the vast majority of folks think somewhere between roughly 60 to 80 percent is a reasonable guideline.
+
+[39:23] We are not having even that exercise in civic discourse, and you can't align to things that we aren't even thinking about. So, our mission is to drive dozens of questions like this into every living room, every kitchen table, provoke through the power of mass media and entertainment, like your nightmare Thanksgiving dinners, where the families are, like, struggling with these hard questions, because everything's a trade-off.
+
+[39:53] Everything interacts with the First Amendment, right? And then we're going to go and collect the results, all those bell curves, and we're going to publish them openly. This is why we're doing this non-profit. We want no political or economic incentive to distort this, all right?
+
+[40:07] And then we're going to measure how are all the AI companies doing on those, and that requires new, deep understanding AIs that we're quietly developing in the labs to power those metrics you didn't know I was building. I am building. And we're going to publish those, too.
+
+[40:25] We're going to put all that up in bright, blinding lights, and we are not going to vilify any tech companies. We're not going to vilify any politicians or policymakers, because we know they're just responding to the economic market dynamics and the political market dynamics.
+
+[40:39] None of them can individually do anything about this. Okay, on that for a second, I want to talk about the tech companies, because when I first heard this presentation, I was like, yeah, I want to be a good parent. I want to raise AI. But then I'm like, but it's not me that's doing it right now.
+
+[40:52] It's these tech companies. Can these tech companies be trusted to parent? Well, okay. So one of the things that parents do, besides setting a good example at home, is think about where they're schooling their kids, right? I have so many friends who have moved so their kids could go to a better school.
+
+[41:09] They meet with the teachers one-on-one. They join the PTA. Some of them run for school boards so they can discuss the curriculum, the pedagogy, what to reward, what not to reward with the school administrators. And I'm like, where are we schooling the AI kids?
+
+[41:21] Well, that's the tech companies. The machine learning engineers are basically the school teachers. The management of the tech companies are basically the school administrators. And I'm like, where are the PTAs? So we are building the PTAs because it is critical, especially in democracies, for the public to be able to be empowered and engaged in discussing what is the pedagogy, what is the curriculum, what are we rewarding and not rewarding for these AI kids who are the most giant influencers in our social fabric.
+
+[41:49] But how do we cross that chasm? Because it is a chasm right now. I mean, most people can feel confident in terms of training their own individual personalized AI, but most of us feel helpless to parent an LLM. How do we break down that wall?
+
+[42:07] I mean, that's exactly the problem that we're trying to address is that, you know, like, I'm like, enough with the scary music, doom and gloom documentaries and like everybody's like getting put into this, you know, fight, flight or freeze.
+
+[42:18] We're driving the whole population into freeze mode, like deer frozen in headlights. We are not going to get out of this problem that way. We need to be able to summon this spirit of empowerment, engagement, discussion, aspirations, hope, love, laughter and light, like we do with human kids.
+
+[42:39] And look, as soon as you release talking about AIs as if they were toasters and understand, no, they're neuro atypical child psychologies that we are parenting, everything clicks into place. We need to be involved. We need to be having discussions about how we want to do this.
+
+[42:58] We need to be involved with the schools. And so our empathetic AI non-profit is just trying to help catalyze this process, facilitate it, make it possible. We're not trying to prescribe what should the result be or we're not even saying we need regulation versus corporate responsibility, none of that.
+
+[43:16] We just want to go through this process that many of us go through, right? We state what are our stated aspirations for ourselves, right? And then it's like, then there's the observed behavior. At the end of the day, you know, sometimes it's like, oh, I didn't live up to that aspiration.
+
+[43:31] Let me do some work on myself and try to do better the next day. That is what we're also trying to make happen at the civic level, collectively. What are our collective stated aspirations for what the default criteria should be? And I keep saying default because it's super critical because 95% of people leave settings on default.
+
+[43:55] And we need to decide collectively what should those defaults be. So we have seven minutes and I want to leave a couple of room for questions. So just to make this expedient, I'm going to take three questions from the audience and then he's going to answer all of them.
+
+[44:11] So keep your questions short and snappy. One, two, three. Have you ever had a conversation with Amanda Askell at Anthropic? A few years ago. What did you think about it? Not recently. Does your solution need to be global? If there is one AI that does not have the default, does that undo everything?
+
+[44:40] Who is that? If you really believe and I would agree that we're in this era, the post-mind control era where the AIs are manipulating all our thoughts and our discussions, how do we even have this discussion at scale if we're already being manipulated?
+
+[44:58] This is really, these are really good questions. So let me, I'm going to run a little thought experiment to answer all three of them, if that's okay. Do you want another little game? Okay. We were talking, some of us were talking about meeting at COGX.
+
+[45:14] My talk there, this is, COGX was in LA a few years ago and they set up the keynote stages as boxing rings, which was really amusing. Were you at my talk? No. After. Okay. Yes. So imagine being surrounded 360 degrees in the boxing ring and they wanted concrete examples of this and I said, okay, I'm going to draw from my own experience, right?
+
+[45:37] Because I've had a joint appointment for 30 some years at Berkeley's ICSI and at Hong Kong's UST, both since they were founded respectively in 1987 and 1991, 92. And I've been bouncing back and forth across the Pacific for 30 some years, observing really closely without getting involved over there, but I try to learn.
+
+[45:56] So I said, okay, how many times a day would you say the AIs behind your social media, your news feeds, your whatever, somehow put something on your screen that mentions China one way or the other? And they're like, oh, a lot, a dozen, two dozen.
+
+[46:09] I'm like, okay, cool. On a scale of one to 10, how strong an opinion would you say you formed? And they're like, oh, strong, seven, eight, nine. I'm like, okay, cool. Let's talk about the problems in China because I've been watching really closely.
+
+[46:23] Um, so let's start, uh, which of the current Chinese government leaders besides Xi Jinping do you know? Absolute silence. Hundreds of people. I'm like, that's interesting. Okay, wait, tell me at a third grade level, how does, how is the governmental system in China organized?
+
+[46:39] Like as an American, every four years we have a presidential election, 50 states, something called electoral college. Congress is the House and the Senate, Supreme Court, top of the judicial system. Just at, at that third grade notice, I didn't say how, who gets power in the political parties, how do they set their long-term platforms, blah, blah, blah, none of that, right?
+
+[46:57] Third grade level, we sing Sesame Street songs about it, absolute silence. Somewhere way back, I can't see who it is, way back in the room, somebody eventually goes, uh, there's an emperor? Yeah. I'm like, guys, are you serious? Do you think this information is not on the internet?
+
+[47:12] And they're like, it's gotta be, and of course there's tons of well-written stuff on the internet, right? And I was like, let me get this straight, the same AI algorithms that are bombarding us dozens of times a day with stuff about China causing us to form strong opinions are also deciding never to show us anything that would allow us to have even a third grade level of meaningful conversation about where the problems are coming from, in what is widely considered to be the most important geopolitical relationship of the 21st century, not to get horribly wrong.
+
+[47:44] Last question I said, before we ran this little thought experiment, had any of these questions ever occurred to you? And they're all sitting there going, nope, never even thought about that. That is how insidious the power of algorithmic censorship is.
+
+[48:01] When I say we're not even aware of what we're not aware of, it doesn't even occur to us. We make stronger, and I picked this example just because of my own lived experience, what I've seen, you could apply the same thing to any number of situations around the world, right?
+
+[48:18] So, that's why I think it's really important to have this conversation around the world. It doesn't have to be a single global AI, but we need every one of the different cultures or countries to be having this conversation, right? It's not about like, oh, we need one way for AIs to dominate the entire world, because that's still kind of a colonial mindset.
+
+[48:45] It's more about understanding what are the outcomes that we want? What are the consequences that we need to avoid? How do we align, whatever the political differences are, what cultural differences are, how do we align to avoid the most disastrous of the outcomes?
+
+[49:04] Because otherwise we're all toast. One last question. Did you talk about the role of potentially, and maybe this is regulation, allowing people to have full choice over moderation algorithms, so that we get away from this single thing and so forth?
+
+[49:31] Do we take a couple of other questions and answer them all? Okay. All right. So, this is why I'm emphasizing that the systemic problem comes from the fact that 95% of the population leaves settings on default. So many of us have built AI for better platforms, you know, Ground News, Charlie, Blue Sky, I don't know, any number of attempts across all the political spectrum.
+
+[49:55] It makes no dent, because even if you get one or 2% of the enlightened population to set their dials, the 95% still leaves the entrenched interests in and you still have the algorithms behind Instagram and YouTube and X and Twitter, like exactly the way they've been.
+
+[50:14] So, I do have one more question. Do you foresee a future where like the disciple AI becomes the guru, where this relationship flips, where we are the children? We already are and we're in denial. They're already raising us, but the problem is they've been raised so negligently that they're doing a terrible job of raising us.
+
+[50:40] Oh my God. So, you're talking about intergenerational trauma here. Super intergenerational. Super intergenerational. Okay. We got to let go of the idea that we're in control or that we need to maintain control. Because none of us controls the whole social fabric, okay?
+
+[50:53] This is something really important to understand. All those influences, 8 billion humans, a trillion plus artificial psychologies in the influence network, we're co-evolving. It's a complex dynamic system. And the real question is, within the parameters of what we can control, how do we want that to co-evolve?
+
+[51:11] It's too complex to control. We're like boats in the ocean. We control the rudders, the sails or the engine. We don't control the ocean. And that's the way we need to like more consciously, more mindfully understand our situation in the social fabric.
+
+[51:28] Thank you so much, Dakai. We really appreciate it. And thank you all. All right. Pass on the mic to, there's another talk, I think, about sovereignty, networks, something. Oh, and just a reminder, I'll be in the back there where the book table is.
+
+[51:49] If anybody, I have a handful of books if anybody does want them, but it's more like just to do more discussion if you want, we can go and discuss. Was the next speaker here? Oh, okay.

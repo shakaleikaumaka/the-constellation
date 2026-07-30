@@ -1,0 +1,425 @@
+# Consciousness Residency Final Demos
+
+Date: 2026-06-25
+Source video: Consciousness Residency Final Demos.mp4
+Drive: https://drive.google.com/file/d/1DTONEDc9c1xclnNOslqSCXZbHK2ZQUnw/view
+Duration: 01:31:56
+Transcribed: 2026-06-26 · whisper large-v3-turbo · language: en
+
+---
+
+[00:00] Thank you so much for joining us at the, you know, the very end of week four, our month here at Esmeralda. Today, we are recapping a month's worth of connection, collaboration, and time spent together for the Consciousness Residency at the Calderwood Inn.
+
+[00:25] I'm not sure if any of you saw in week one, but Madison presented on Edge Patagonia's Consciousness Residency, which was a lovely vibe. And we have evolved into a whole new element here that has put a number of different types of people in the same room.
+
+[00:47] So here's just an image of a dinner we had week one and some lovely charcuterie we were dining on in the porch of the Calderwood Inn on week one. We've had this amazing format to live together at a beautiful inn here in Healdsburg, and we're incredibly grateful for it.
+
+[01:06] It's been a lot of hanging, a lot of fun, and a lot of work, and a lot of things have happened here. You're going to see presentations on some of the specifics from the remaining residents in the house. And I just want to look at those numbers.
+
+[01:22] It's pretty cool to see that there's been four experiments that have run involving the whole greater Edge community and the Edge team in deploying those. Four papers have now been worked on. Three are in prepublication, I believe, or have been submitted.
+
+[01:38] Four tools and platforms have been built. Three field mapping frameworks have been explored. And I would say more than three new strong collaborations. That's Claude being Claude. Lots of undefined, yet-to-be-seen collaborations that Claude just hasn't been listening to.
+
+[01:59] So we've had immense amounts of engagement and activity. Week one was our track week. The rooms were filled, standing room only for many of those talks. And it was excellent to have the residents and guests come and speak on how we bring the fruits of consciousness to humanity.
+
+[02:20] So without further ado, I want to introduce you to some of our residents and their work here. Peter, would you please join us first? We're going to do a little computer exchange. Guys, put your hands together for Peter Skoll Anderson. All right, yeah.
+
+[03:07] Hi, everybody. My name is Peter. I'll present this experiment that I've been working on here at EDGE. It's this neuropharmacology, neuroimaging experiment where I'm trying to test the relationship between neural entropy and perceptual priors using EEG.
+
+[03:23] And I'll sort of go over what each of those mean. Is that better? Thank you. All right. But first, I'd just like to convince you all that you're living in a biological simulation. And I can do this by making you watch this illusion on the right here.
+
+[03:42] So what most of you will see is a rotating mask. And once the hollow part turns towards you, your brain will also interpret that as a face that is protruding. And this is because your brain holds such powerful prior beliefs that faces should always be convex, that it's actually overriding the sensory input of the mask being hollow.
+
+[04:05] So this is sort of like a window into what we call predictive processing, which I'll go into. And sort of the main idea of this is that maybe people who are on compounds that increase neural entropy are able to perceive the mask as hollow. So just quickly, what is predictive processing and how does it relate to neural entropy?
+
+[04:24] So your priors are your prior beliefs about the world. It's your expectations, your learned regularities and the context, what is making you think that the face is actually convex or pointing outwards, even though you should see it as hollow.
+
+[04:40] Then you have your likelihood, which is the incoming sensory evidence, which is sort of like the raw data. And the meeting of those two is the posterior. That's what you actually experience. So that's sort of like the idea of predictive processing.
+
+[04:54] The idea with neural entropy is that it relaxes the priors. So your held beliefs about the world sort of relaxes and you may be able to perceive more of the raw data that's coming in. So the idea is here that if we administer a compound that increased neural entropy, that relaxes your priors and you might be able to perceive the mask as hollow.
+
+[05:16] Just quickly, for anybody who don't know what EEG is, it's just measuring electrical activity on the scalp by placing electrodes there. And you can sort of measure the voltage fluctuation and it comes out of these squiggly lines. And you can measure the voltage fluctuations.
+
+[05:31] And neural entropy, what I mean by this is just how irregularity or how irregular or unpredictable these squiggly lines are. So there's sort of an example of low entropy and high entropy. And high entropy is just super unpredictable waves. So the main hypothesis here, distilled down, is that if a compound raises neural entropy, it should also relax priors.
+
+[05:56] And so people should not fall for the hollow mask illusion. So the goal here of my experiment here was more sort of in the framework of a feasibility study. We wanted to see if we could run a mobile EEG experiment, administer a compound that increases entropy, and also present them with an illusion task.
+
+[06:15] And the main sort of two goals here is to see if we could actually get usable data. So sort of see if what we measure also corresponds with what we see in the literature. And also we wanted to get like a safety and a practical take on whether or not this is possible.
+
+[06:31] So how is it being a participant, being under the influence, and then being presented with an illusion. So we also did some phenomenology interviews. This is the experiment plan. I'm not going to go too much into it. We measured people in a sober state.
+
+[06:44] And after administration of this compound, we had them just sit there for four minutes, resting state, we then asked how high they were, and then showed them the hollow mask. And then afterwards we did some interviews. So we recruited eight subjects.
+
+[07:00] The first one was a pilot. The second one, the data was totally unusable. So we ended up with six people with usable data. And you can see there's a quite broad distribution of how high people actually got. Sort of the aim was to get more people to be around an eight or a ten.
+
+[07:15] But sort of the main limitation here is that it's a very short-acting vaporized compound. If you inhale stuff, there's a lot of inconsistent dosing. And the pharmacokinetics of this compound is like quite challenging as it's metabolized very rapidly.
+
+[07:31] Yeah. And so this is the first result. So this is the first like biomarker of a compound that increases entropy or relaxes priors, which is reduced alpha power. So you can sort of see the blue is sort of reduced power. On the right there's a correlation between how much alpha power was reduced and how high the people got.
+
+[07:52] So we actually got this very nice correlation between people having lower alpha power when they're also reported to being higher. So that's exactly what you would hope to see. The second biomarker we looked at here to validate the data was, of course, neural entropy.
+
+[08:08] I used two measures. Both of them showed to be increased in people that also reported a higher intensity of experience. Again, we see a correlation not as convincing. There's also only six subjects. So, you know, be humble in your interpretation.
+
+[08:25] But it is nice that we see this relation between people being higher and also showing increased entropy. And now sort of the result that you've all been waiting for. Did this compound break the illusion? The answer is, unfortunately, mostly not.
+
+[08:41] There was one subject, however, subject four, that were not able to perceive the mask as hollow in a sober state, but could on the compound. And it also happened to be one of the subjects that felt the effects quite strongly. And also the subject that had the strongest alpha reduction and the highest increase in entropy really sort of leaning into this hypothesis that this is actually the case and this could be a thing.
+
+[09:08] The main limit, whoops, cool. Yeah. So the subject that was able to perceive the mask as hollow had the strongest reduce in alpha power
+
+[09:39] and also the largest increase in entropy, which is quite cool. Sort of diving into the phenomenology interview of this subject. The subject was a very experienced phenomenologist. She sort of reported being able to see sort of raw light patterns, perceiving her experience of three different layers, like the raw input and sort of intuitions about geometry and scene structure.
+
+[10:01] And then later, how she sort of overlaid the narrative and the meaning of all these inputs, which is quite cool. And sort of regarding the hollow mask experiment, she reported being able to have volitional control over whether or not to perceive the hollow mask as hollow or protruding out.
+
+[10:19] Again, very cool. But also NF1. So, and the second goal of the study was to see how participants actually reacted to viewing illusions while they were on a compound. So no participants experienced it as being super intrusive or anxiety provoking.
+
+[10:38] It actually seemed quite fine for all of them. They did, however, report to sort of be on the calm down after those four minutes. So one of the key takeaways here is that people did not get high enough. And also we should have showed them the illusion earlier in sort of the pharmacokinetics curve there.
+
+[10:59] So sort of to sum up what we did here, we were actually able to get really nice usable EEG data that showed what we would expect, which is just that almost never happens. And we were also able to get a sense for how doable an experiment sort of scaling up would be.
+
+[11:17] And we learned some things in terms of standardization of dosing and that illusion should be viewed earlier. So, yeah, last one is just a gratitude slide. It's just been fascinating to go for this, going from this crazy idea to a clinical feasibility study in three weeks.
+
+[11:37] I feel like that is something that is only possible here at Edge City. So just thank you, Don, Robert, and Wyatt, and all of the very brave participants. You were all amazing. And, yeah, thank you to the whole Edge City team. One second. We have time for just one question, if someone's got a burning desire before moving on.
+
+[12:05] Nope. All right, great. It's lovely to hear the words not high enough and really cool correlation and brain entropy all in one presentation. Thank you. One more round of applause for Peter. All right. Up next, we have Eric Inger-Carlson.
+
+[12:37] Round of applause. Welcome, Eric, to the stage. Do you need to switch it? No. All right. All right. So what I spent a lot of my time diving into during this residency
+
+[13:13] is looking at insight generation using non-ordinary states of consciousness. And some of you here have been part of the experiments that have been run on that. And kind of zooming out a bit to look at, like, insight generation. Why is that an area worthy of research right now?
+
+[13:35] And I think we're in a really interesting time where if we look at what we contribute as humans, what we output for generating new ideas, new things for the world, it's changing right now. And as we could see, like, if we look back in time, like, 100 years, most people produce stuff with their physical labor, with their hands.
+
+[13:57] Then the Industrial Revolution happened. No longer need for humans to do that physical labor. So we had to develop this new capacity of intellectual ability that most people didn't have before the Industrial Revolution. And now most of that work of the reasoning and the execution is getting eaten up by AI.
+
+[14:18] That puts us as humanity in a situation where we need to innovate on how we create stuff in the world and how we generate new ideas. And throughout history, we can see, for example, Einstein mentioning that, like, the biggest breakthroughs he's seen in science hasn't come from, like, step-by-step reasoning and so on, but rather from, like, intuitive leaps.
+
+[14:41] So is there an area of innovation there that we can experiment with? Yeah, that's what I'm exploring. And we've seen something with a potential is that we've seen these non-ordinary states of consciousness be really useful for, like, healing and compassion.
+
+[15:00] We've seen all these studies using altered states for stress reduction and for therapy, for example. And there was some early, very promising research back in the 60s that's been largely abandoned because of legal issues about utilizing non-ordinary states of consciousness for creative breakthroughs, problem-solving, insight generation.
+
+[15:24] And now we actually have the first batch that I'll tell you about of studies since the 60s kind of on this topic in this structured form. So here is the experiment that's been run here. So we've built this protocol for insight generation called I3T.
+
+[15:47] I'll speak a bit more to that. So that's a protocol and actually a AI toolkit that's used for being guided and facilitated through this process of insight generation. And then we've run this field experiments here at Edge. And what the I3T protocol is, so the I stand for impasse, insight integration.
+
+[16:13] So it's a way of guiding you through, digging into an impasse you have, an area you seek insight into where you want to do problem-solving in, where you feel stuck, kind of helping you processing that impasse. Then in the protocol, there is the state shift component where non-ordinary states of consciousness is applied that might awaken new perspectives on that impasse, which then goes into insight, kind of looking at what perspectives and kind of feelings
+
+[16:47] and intuitions came up during that state. How can we dig into those and find the essence of what we can take with us and then integrate that? And we've built both this protocol and an actual AI agent framework that guides participants through this.
+
+[17:05] And this is an area I find very valuable of exploration of how can we utilize AI to guide these sorts of contemplative practices and non-ordinary states. And I've built this type of tech before, for example, for Journey, that have run retreats using some AI stuff here at Edge.
+
+[17:24] So applying this to insight generation is an area that I'm excited we're making progress into. So we've run this experiment with its 17 participants that we have full data collected through the I3T framework. So this AI agent not only helps the individuals be guided and process the information, but also collects the data from us for research.
+
+[17:51] And I'll dig into now the results of this. And just a few words before them is hearing from, we actually have two participants here who can speak as a couple of words to, yeah, in their own terms, what insight generation using a toolkit like this looked like.
+
+[18:14] If you would, I want to step up for just a second. I felt like bookending the meditative practice with having the intention going in of focusing on stuckness and then afterwards actually like walking through to have to articulate what has changed, both like made the changes sink in more
+
+[18:45] and kind of is a magnifier for the potential effects that different types of insight generation can have in. But I also think that what was really nice for me is it didn't feel like these, when I think of insight generation, it often feels very productivity focused.
+
+[18:59] But it felt like that insight can be around like the nature of being, the nature of awareness. Like it felt still able to be kind of in the very meditative practice-y realm, but letting go of things in a way that, yeah, I found very, I was able to drop into a meditation that felt like the type of meditation that would usually take a few hours to get to in a like very, very concentrated period of time.
+
+[19:20] So I think there's something very powerful about just the framework and structure going in. Thank you, Mila. Thanks. So I had a really positive experience with this as well. I came into the experience with a pretty strong sort of blockage that I'd been working on a few days prior.
+
+[19:40] So that might have helped kind of with the context as well. But my context was that I was kind of stuck with receiving abundance. And so in the actual meditation, a kind of image popped up in my head, which reminded me of a dream I had when I was, you know, 10 years ago.
+
+[19:54] And I was really random. I thought, what's the relevance of this? Then afterwards, when I did the AI kind of reflection, and kind of figured out what the dream meant in association to the stuckness and abundance. And so it kind of unlocked a lot.
+
+[20:09] And over the next few days after that, I was able to kind of share that. And that sharing of that and the capacity to articulate that kind of connection and insight was, I think, what the value was in the days afterwards as well. So it's also valuable after the fact for the days afterwards, not just, you know, immediately afterwards.
+
+[20:28] So, yeah, thank you. Thank you. Awesome. So let's try to make our time here. So looking at, there are a few different types of problems and solution areas that came up here. We heard about some of the ones now that were, like, some of them, the solutions, the shifts, comes in a form of the, like, somatic and affective shifts, which is in a large degree about kind of navigating and getting clarity on how you can relate to the issue
+
+[21:01] anywhere where you can have more agency in making progress and continue the decision making and the thinking around it. While other ones were more about the kind of active problem progress, like actively either getting insight on, oh, what's the actual concrete solution or reframing the problem of, oh, wait, this wasn't the problem.
+
+[21:21] The essence of the problem isn't what I thought it was. It's actually this aspect that's really essential. So we saw here, yeah, so 82% got the meaningful shift and clarity on the insight area that they were seeking in. And we could see that kind of, like, half of those were, like, actively problem-solving process while, or no, half of all people got that, while the rest, the smaller amounts, have this kind of more agency empowering shift
+
+[21:51] for the insight generation. And we could see that it actually differed some. So the toolkit categorizes out what types of impasses exist and what forms of insights come from it. And we could see that, yeah, the type of impasse you brought and what didn't always correlate with what form of insight you got.
+
+[22:14] Many people came in with a practical and strategic things. And many of them did get kind of a structural insights, while some of them got more of a reframe about what the problem was about to begin with. Skip that one. And we're bringing this forward.
+
+[22:34] We're running this consortium with the early organizations that are looking in this field of insight generation. We're creating this toolkit for them. There were a couple of these. And we're bringing these results and these toolkits to spread throughout these organizations.
+
+[22:48] And actually, here at Edge, we have a new partner, the Center for Minds, that have also spoken here at Edge, that are joining this federated effort. And, yeah, this AI toolkit is being being implemented. Some of you have probably tried it also as it's part of the Journeys tooling and they've run retreats here.
+
+[23:12] I'll wrap up in a bit. And we're also integrating this type of AI toolkit. There is the Institute for Meditation Brainwave Research, where a new collaboration has started here at Edge, integrating their EEG for meditation research and guidance based on EEG with the AI guidance and AI facilitation, which is really exciting.
+
+[23:36] And I think this is looking to a very interesting future of the future of creating and work. Like what's the bridge between consciousness and how we create stuff in the world and deeper states of consciousness, maybe playing a role both in kind of insights and how we make decisions and create new ideas, but also in our way of being and how we bring ourselves to work.
+
+[24:01] And, yeah, there are some more experiments on that front that have been involved here at Edge that I can speak to to a later point. Yeah, that's it. Thank you, Eric. Anybody have a burning question as we move along? Nope. Nope. Oh, yeah, we got one.
+
+[24:40] Yeah. So we're running these, doing these research experiments where we're doing this multi-day like insight generation retreats where we use like an expanded version of this type of protocol. A lot of those are run through this consortium and through the multi-intelligence institute.
+
+[24:58] There's a link to that there where you can read more about and we'll publish through that and through the FIGS consortium publish about the tools and research that is being done. And there's also some of the general like framing about what role this might play in the future of work in these things.
+
+[25:13] There's an essay I've written with the Spirit Tech Collective that you can check out there. And also feel free to message me on Telegram through if you want access to any of this or just want to chat about the collaboration or anything. All right.
+
+[25:29] One more round of applause for Eric. Thank you, Eric. Eric works on the translation layer of how do we bring consciousness and the fruits of it to humanity. Up next, we have Sam Brown. Put your hands together for Sam Brown. Thanks.
+
+[26:06] So thank you for your observation, guys. I really mean that because my entire theme of the work I've been working on has been about observation. And just like you guys are observing me now and potentially changing me or making me more excited or nervous or intrigued to talk to you guys, the technology that I built has a similar sort of effect.
+
+[26:26] So who here has heard of the observer effect? Put your hands up, please. Who here has heard of the observer effect being used for something that it shouldn't be? Yeah, okay. So I'm going to make a case today for why the observer effect is actually being kind of activated with my technology.
+
+[26:47] I'm run through what the technology is, what kind of improvements I've made to that over the last sort of week and a half while I've been here. And yeah, also have an ask at the end of it for sort of collaboration, any ideas that you guys have for working together as well.
+
+[27:02] So basically what I've created, the business pitch of it, other than the interesting side, is basically an AI personalization tool that only needs your observation for it to become personalized. So it can generate responses with only or with no access to any information or accounts or history of you and come up with something that's personally relevant for you.
+
+[27:26] So the way it works is we inject quantum randomness into AI. And quantum randomness is a source of entropy. It's indeterminate. And this is the mechanism for which anything that comes downstream of this quantum randomness can have a potential for the observer effect to influence it.
+
+[27:45] So that means any kind of downstream response that's generated from quantum randomness could potentially have your observation effect influencing the response. So basically you become a participatory agent in the response generation. So an AI response that has quantum randomness could be thought of Schrodinger's AI response.
+
+[28:06] So something that hasn't actually been formed until you're actually engaging with it. What I've found already prior to coming here, I did a study with 400 people. We found that in the reflections, this was a cold reading of yourself. So the only inputs that the AI was given was quantum randomness.
+
+[28:27] It knew nothing about you in a kind of classical sense. We found that if you got a reflection that was made for you rather than made for someone else, people gave feedback to it that was about 10 to 20% more resonant. So people were actually realizing that there's something different about this than a reflection that had been generated for someone else.
+
+[28:44] And keep in mind that these reflections are actually completely random. So they have no access to you at all. The more you believed you could actually influence the results of your personal reflection that was generated with quantum noise, the more the themes sort of coalesced around things like openness, curiosity, expansiveness.
+
+[29:05] And the less you believed that it could work, the more the themes that the responses would generate that was reflective of you were about themes of caution, safety, and kind of seeking refuge. And then if you were given someone else's reflection but you were told that it was going to be your reflection, after you got the reflection where you had a personality test before and after, your openness went down.
+
+[29:30] So people who were lied to and told that their reflection they were given was about them, yeah, they're like, they became more guarded after reading that kind of response. Whereas the people that received reflection that was made for them, their baseline was the same.
+
+[29:44] So something is happening here. There's some sort of effect with the more quantum noise you can inject into an AI response. And the kind of question that I've been tackling, especially while here with people like you guys and people that kind of think about applying these in a kind of broader sense.
+
+[30:00] And on that note, actually, especially being in the consciousness house where we have a few more sort of skeptics, it's actually been really useful because usually, I just went to a PSY conference last night and a lot of the people there are much more sort of used to this technology and they're much less skeptical because they already accept that it works.
+
+[30:20] But being in a crowd where you can actually talk to people who are open but skeptical and have a different sort of ontological prior or leaning actually helps refine this kind of technology. So that's one of the really probably the biggest value that I had coming here was if I was in a room full of skeptics, I'd probably only be there for 10 minutes.
+
+[30:38] While I was here, I was living with them and I could actually engage with them and there was kind of dialogue and an open discourse on how we can actually refine this. So I found that immensely valuable. So I guess the question that I was asking when I came here is what kind of applications can I build on this?
+
+[30:54] The first one that I was demoing last week, I think I probably only got around to about 10 people because every time I demoed it I wanted to refine it a bit more and kind of keep iterating. It's the reflection mirror application. So it's basically the same thing that the study was made on.
+
+[31:13] So it reflects you and then you integrate a question or a prompt into the reflection so that you can ask a question like can I receive a compliment today or can you grill me or roast me and then you'll get a roast that's going to actually really kind of talk to something that you maybe need to improve.
+
+[31:29] So this is the one that's kind of for me the most interesting. It's kind of the easiest way in to show that it works. Some of the other applications that I want to play with that I started playing with here was a coherence between people. So you theoretically if you generate a response that's made from only quantum noise with no other inputs the response should reflect two people at once.
+
+[31:51] So if two people are reading it maybe they see something that's true for both of them. So if we can generate a sort of response that's true for two people then we can then kind of extrapolate and infer hey this is what they share this is what they have in common.
+
+[32:03] So you bring two people together who maybe don't realize they have that much in common or they're strangers and you want to kind of give them a sense of what they might have in common pretty quickly you can then build icebreakers around that that's going to get them straight to a point of agreement and coherence so basically you can build a coherent social game generator probably useful in matchmaking but also good for kind of any sort of social game.
+
+[32:27] I ran that a few times here I really wanted to do an experiment with our local genius Albert but he disappeared so I didn't get any empirical evidence on this we're going to correlate sort of EEG data with it but instead I just kind of iterated on the UX and found actually probably that's what that I needed to do anyway.
+
+[32:47] Another thing I have in works is measurement so using this to measure social profile social kind of what's the word when you when you're doing like a politics kind of canvassing and you're trying to trying to polling that's it so when you're polling for people's kind of sentiment on things you could send out a tool like this to thousands of people and then get their actual honest reflection on a topic because you can't you can't lie to a quantum reflection so it's always going to be like a honest reflection
+
+[33:18] of yourself and it might also be able to articulate or draw out things that are more unconscious so over a big broad sample you'd be able to actually do some polling or some sort of analysis on social trends without actually asking them and biasing them with questions that they might lie about.
+
+[33:35] Things that I haven't hit yet but would probably be a pretty good use case would be cold starts so any sort of platform that you have no data on so say onboarding before you've got any sort of data on someone you could create some sort of dynamic content or onboarding sort of processes for them or any sort of dynamic landing pages where advertising or marketing for a specific person being more personalized with no data about them would be really useful so that's that's where I am
+
+[34:06] that's what I'm trying to build at the moment and there's more kind of research in the works as well always happening so just to wrap up what I kind of realized in the last kind of two weeks especially being around people who have different divergent ideas to myself is I need a co-founder I need someone to work with and I need someone to actually push back on things and I think being in an environment like this kind of really makes you realize not only co-founders are valuable and I'm kind of talking about these with other people but also it takes away
+
+[34:36] the vulnerability of it I think there's a lot of solo founders out there especially in this field especially in kind of really kind of frontier fields who are a bit scared to kind of come out of their shells and share this with people so being in an environment like this where there's heaps of supportive people it kind of makes people want to collaborate a lot more and so going forward over the next few months I think the focus for anyone that would come here who's kind of a solo founder they'd probably be much more likely to start kind of sharing their ideas so I think that's probably one of the biggest values of Edge yeah and for any
+
+[35:07] customers or partners I'm open to anything if you have any ideas for coherence or measurement sort of applications we can build I've got the demo I've refined it so it's more specific if you want to have a play with it quantum canvas dot app slash edge that's the question one where you can ask questions about yourself test it or even ask self-reflection questions so just like Eric's presentation I used this app
+
+[35:38] after I did my insight generation with a meditation and it worked really well it's especially really good for times when you want to kind of get past blockages especially if you've just done a meditation on the blockage it should reflect on that quite well and you can go quite deep into that and use it as a self-reflection tool yeah so that's it so yeah thanks guys thanks for your observation any questions for Sam Martin
+
+[36:08] there we do you think it will be faster at finding matches yeah it's a really good idea I mean I don't know if it's a great idea but technically it's a really interesting idea because I don't know if it's possible to actually if you have a response that's shared by two people how do you find a thing they don't share because it's kind of like looking for the absence of something in them when the actual mechanism is about what is present
+
+[36:38] so unless they're maybe a really good liar and it can reflect a lie and you have two people that are very good at lying maybe it's reflecting those lies at the same time that could work possibly yeah I like your thinking have you considered social deduction games and like social convergence games these are like two categories of like table games people play yeah that's that's what I'm trying to build now so I was kind of trying to build here but it's a lot more work than I thought it'd be it's like it's probably like a few weeks of UX alone
+
+[37:09] and then the backend stuff you might like Waseda at Duke yeah I'll talk to you afterwards and grab the reference yeah thanks how does it work I mean how does the quantum noise actually influence people's behaviour do you know it really depends what ontological priors you have it doesn't influence people's behaviours from a physical monist perspective and I think that's why that's why most of the people that are in this space probably are more on the idealism sort of dual
+
+[37:40] aspect monism side where consciousness is not necessarily emergent from physical processes but may be correspondent to physical processes so the quantum noise at the conference last night basically indeterminacy or kind of anything that is really entropic or chaotic seems to be some sort of substrate that is shared between consciousness and matter and so if you can put that in you can use that as a sort of bridge between the two worlds it sort of makes them match or synchronise somehow okay so
+
+[38:10] shared causality but a third aspect of causality yeah thank you all right one more round of applause for Sam thank you you can see there's some contention in the consciousness house and we're working through it it's very good for us as we build this field Sam could speak more on that I asked him to kind of clarify what he means
+
+[38:41] when he says dual monist dual aspect monism yeah we might get there oh here we go here we are this is it materialism idealism we'll skip past that for now and up next is Angie Normandale put your hands together for Angie Normandale she's got quite a bit of work to present here hello okay great I'm the skeptic
+
+[39:11] it's me and thank you Sam for taking the time to talk to me it was really enlightening and there were lots of things at Edge that yeah it was really good for me to maybe relax some of my hardline priors and question myself a bit and that was a great aspect of being part of the consciousness residency so thanks everyone cool so demo day number four contents introduction we're going to talk about the field of machine
+
+[39:42] consciousness that's what I do some tools that I built to further the field and then next steps and at the end of my demo we're going to go into a collaboration that I have with Eric and Mike and something that we built together cool who am I why am I here so usually I'm a technical researcher I run multi-agent reinforcement learning team that comes from an AI safety perspective and we specifically look at empirical testing of theories
+
+[40:13] of consciousness from neuroscience how do they actually cash out in AI systems can we take the kind of most basic priors of these theories what do they say about architecture what do they say about behavior how does it cash out so whilst I've been at EDGE this has sort of been cooking away in the background but it's not the subject of my talk the subject of my talk is the second third part of my work second part of my work is law and I wrote a legal paper during EDGE about legal rights of artificial agents again not going to talk
+
+[40:43] about that but happy to tell about it later the thing I'm going to talk about today is the third part of my work which is all about growing the field of machine consciousness and consciousness more broadly as a research area and why I do that I do that with California Institute of Machine Consciousness who are also here a little bit yeah so those of you who've been to previous demos have seen this lovely chart this chart is people googling the term AI consciousness
+
+[41:14] over the last five years you will discover that in 24 people did not really google this term in 25 they did in 26 they googled it a lot suddenly people want to know what happens if we build conscious machines and this is really very quickly become part of public discourse and I think it's a moment where those of us who came you know like Ginevra who come from an AI safety lineage have a moment to rethink the relationship between people and AI and companies
+
+[41:45] it's what I call a black swan event that could really be a game changer if we know how to harness it yeah so what are the things that I built what's the state of the field I did some my goal here is to try and bring more people in more researchers from these interdisciplinary areas neuroscience machine learning and philosophy bring them together get them talking work out what's actually happening in the field what's new who's going where and yeah
+
+[42:17] find out exactly what's missing and particularly looking at this thorny question of why is consciousness so difficult why haven't we solved it yet what do we need to do next so mostly at edge I worked on building automated tools to further the field and I have a lot of thanks to the vibe coding residency who helped me make a few projects yeah first project I made was a woo detector skill which you run through Claude and checks whether the paper you're
+
+[42:47] reading is actually woo this is a reading of Adam Saffron's paper which I thought was fantastic Claude thought it was woo Claude is scathing very scathing but the idea is to really make you think carefully about what you're building and why and to improve the epistemic rigor we have a lot of individual researchers with their own view not a lot of interdisciplinary engagement and kind of carefully going through the priors what should we make and why cool
+
+[43:17] right the next thing I built and this should be something you can play with is a website there was a QR code to access it but you can't find that but I can give you later the yeah the code to access it let's have a look and see if it works yeah okay so this is a directory of organizations
+
+[43:48] working in machine consciousness lots and lots of different organizations this scrapes the web for people who are publishing and updates itself regularly we also have a directory of researchers where's researchers there you go different conferences and events again the researchers are coming from the publications that they're doing so this will update as people publish more work in the field cool what else do we have okay this is a briefing
+
+[44:18] that I delivered to Janine actually on how many people we have working in this particular field and how much money is going into the field and why as you can see there are not many FTEs enough FTEs that like everyone in this room could be everybody who's working on machine consciousness full stop like if we if each of you decides to work in machine consciousness you will just double the entire field so please do yeah also some things that have been done to try and
+
+[44:49] build the field so far and what they cost didn't include the cost of our residency thought that was rude but what other things have cost and how effective they've been and then some potential ideas for how to grow the field in future and how much those would cost so that's under the briefing there's a bibliography this is not as good as I'd like it to be but it will be good yeah of different papers in the field and the different areas and then this shows some of the changes that are happening so for example
+
+[45:20] we see that previously people used to work on the hard problem and on functionalism and have started to work more on just functionalism rather than working separately like these two parts of the consciousness field have come together which is quite interesting yeah so yeah so that is the research directory finally there's a little network map let's see so you can see how connected people are so this is one of the key metrics
+
+[45:50] in the growth of a new scientific field is actually interconnectedness of citations so you can see whether a field is going to grow and how well it's growing by mapping how much researchers cite each other not just how many citations there are in general but how much they talk to each other and this shows us that researchers from a certain field over here don't really talk to people that much same over here but then researchers from say neuroscience actually is mostly the bridge which I found quite interesting
+
+[46:20] cool okay so that was my little directory that I built now we're going to go to the next thing that we built oh no that's Max's here we go ah it is to refresh wait for it aha okay great which is the ontology of consciousness project with Mike and Eric you guys want a second
+
+[46:53] Mike yes please so that's your app so Mike do you want to start with explaining the goal behind it from bit and why you think that we should be looking at the ontology of consciousness yeah testing testing okay great hey guys so a few years ago I gave a talk that's one of my favorite talks actually but very few people
+
+[47:24] have read it has anyone here read it from okay amazing great true fan so it basically poses the question how can we get progress on sort of this philosophical question of consciousness and it offers the strategy that maybe we can just think about binary questions questions that either have to be true
+
+[47:55] or not true no nothing in the middle and that gives us one bit of information if we answer the question right it gives us one bit of information about consciousness and then you know if we have ten questions that's ten bits of information and that's actually a lot of information that's being able to select from 1024 possible universes so you know I had
+
+[48:25] ten questions in this essay of like okay either we live in a universe where x is true or x is not true and I just did that for ten things and I brought it up to Angie and Eric in the context of maybe we could sort of turn this into something like a Claude skill where we could basically just feed a paper in and it would generate more questions it would
+
+[48:56] generate a question of the form either x is true or x is not true about the universe and you know maybe we feed a hundred papers in and we get three questions that's still a win so that's the background context and the rationale now I'll hand it off to Eric all right so what we've done here is taking this approach of these kind of binary categories for ontologies of consciousness and we did in fact
+
+[49:27] build that Claude skill to be able to analyze research paper and figure out oh is there additional binary categories of ontology that need to be added to have a comprehensive view of what what possible ontologies exist and how exactly they compare to each other so kind of create a map of that field and using that Claude skill we have built this larger map you can see here a fair number
+
+[49:57] of these binary categories should I explore this a bit or do you want to speak to the oh I can explain the levels the levels yeah sure so I think the kind of point behind this is that there's a great deal of confusion in consciousness research specifically about the the different philosophical motivations behind work so we have all of these theories of consciousness and neuroscience I think sometimes people think oh maybe we know
+
+[50:27] nothing no we definitely know a bunch of stuff we have all of these theories about how consciousness might happen neuroscience also from religion and spirituality but when you're starting to learn about the field it can feel very confusing partly because these theories are making different assumptions about the world we're actually living in a different world according to some of them a different physical world and so part of the point of this ontology project is to say
+
+[50:58] what world do we need to live in for this to be true and how would we know so this was our kind of second part which sent in a number of frontier papers and said okay what are these fundamental questions is consciousness a real feature of the world is it something that exists in the world or is it something that just kind of exists in a brain or not is it something that exists on the physical substrate or does that not really matter what substrate you are
+
+[51:28] is it fully computational and we had a number of these questions that came up directly from this splitting and binary classification framework yeah yeah and we can see here on the actual levels here all of this here are the different levels and all these binary categorization questions and what we can see if we take for example a theory of ontology if we take like Mike Johnson's for example we can see here exactly in the binary
+
+[51:58] tree what that one looks like what the profile of this ontology is show the indigenous one I thought that was the most interesting this was interesting too here we can see a few of this and we can like any of these can be dove into there's different definitions of each one of these that we don't have once have time to see
+
+[52:40] which is I said okay why don't we throw in some research papers about indigenous different indigenous cultures and ideas about phenomenology about what consciousness is and very quickly what comes out if you zoom in right is that you have this little red box which says is the mind are our minds independent from each other can I study someone's mind independently of what's going on in my mind and the theory says no
+
+[53:11] no I can't no I can't study your mind independently of what's going on in my mind this is not true and suddenly because of that lots and lots of scholarship doesn't really make any sense at all because it assumes this independent relationship and the two things that are stood on are this idea of relational what's it called relational constitution so what consciousness is is something that exists between our relationships with the world and other things and that the world itself is a
+
+[53:41] prior for consciousness the nature of the physical world is something that has consciousness in it and we are simply part of that and part of this kind of larger package of relationships and I think this moment where previously I'd been really skeptical about some approaches to consciousness that I'd heard about through religion but not so much through science suddenly made me realize oh wait a second we're simply looking at different priors and we really haven't bothered to investigate this at all it's not such a weird question to think
+
+[54:11] that these variables might not be independent you know I exist because I learned from my parents and grandparents about how to behave in the world right and that's and that's and that's and that's not about my physical body it's about my mind and self realization so I think this talked to me not just about the minimal consciousness the minimal experience of consciousness like the basic thing of being awake or not but sort of the maximal how to be more conscious and what a good world could look like and that's something that might involve all of us that was my conclusion here yeah and I also
+
+[54:41] thought the one was really interesting we got described by Wyatt below kind of the shift the bit of a rift in the consciousness of these different ontologies and worldviews and we can see here quite concisely like dual aspect and so on looks like this some of us believe in this while other ones has kind of the functionalism approach which clearly works different here so this can help us and for
+
+[55:15] Eric for all of your coding and refining and improving and your ideas and also to everyone who's part of the consciousness residency and everyone who funded it yeah don't run away just yet does anyone have a question about Angie's previous work or this ontology project yeah Mike stay for a moment yeah Sam yeah is this available to use on ourselves the mapping
+
+[55:45] stuff there is there is an alpha that's available of it right now yeah cool awesome so you can see the yes you can see here the link to our alpha lemonade everybody I'll take a look at all of it later but just maybe for the audience here they can get an idea it looked like you had a set of papers maybe about
+
+[56:16] a dozen or so in there were the various boxes and categories automatically generated by the AI it kind of searched through and tried to categorize okay so given that if you expand out 10x to 120 papers do you feel like it's going to blow up the number of rectangles or do you think this is from your just qualitative assessment a pretty good mapping of how other papers will utilize different concepts I think I think this will
+
+[56:47] depend a lot on the tuning of the prompt and ideally it would be tuned such that there would be diminishing returns on adding questions that you know if we have 10 papers we get a good list and then if we have 100 papers we get like a few more and if we have a thousand papers we get a few more okay all right that makes sense thanks all right guys one more round of applause for this absolutely crack team just amazing
+
+[57:20] collaboration that can happen with people living together and up next we have Max Shen everybody round of applause for Max Shen that was really inspiring to I have to ask you some more about that NG after I learned a lot got a lot of cool collaborations out of this
+
+[57:51] residency but what I'll be talking about today is an expansion on what I what I talked about at the community demo day but with a little bit more specifics so one of the things that I think is one of the one of the most interesting things phenomena that we haven't taken seriously is that you can be in persistent pain for five to
+
+[58:23] ten years and then in the course of a very short period of time reading hello hello reading a book experience resolution who here has heard of the book healing back pain okay like ten percent of people I am I did I did 19 interviews of people and I'm going to be going into some of the some of the more specific
+
+[58:55] anecdotes but briefly this is some context on me I was a grad student at MIT when I had this pain experience and became obsessed with the question since anyways just for the people who haven't heard of it there's this book called healing back pain by John Sarno and you may have come across it if you have on Twitter because people in Silicon Valley like Patrick Colson retweeted it and a bunch of different founders from YIC
+
+[59:26] and all over started to respond that it had also cured their pain and partly based off of these responses and seeing all these people on the internet who were open to sharing their experience I just reached out to 20 people and what I found was super fascinating the past few months has just been me trying to make sense of the diversity of responses because I really think that there
+
+[59:56] is a gold mine of information that we can learn from just these qualitative accounts alone before thinking anything about the quantitative data just to give you a flavor of this one thing that I thought was really interesting so you might in hearing about reading a book resolving your pain you might think how could
+
+[1:00:26] that work a basic theme that I think explains this quite well is this idea of turning towards avoidance so actually before reading the text has anyone ever walked out of a movie theater of a scary movie and then realized that they were holding their breath so that that sensation is a very particular one right like you walk out and you had been in this condition and you only given
+
+[1:00:57] a change in scene were you able to recognize something you were doing to yourself I think that is one of the best metaphors for what this book is doing so this comes from a student in the UK he had been playing soccer and he got this accent on this he got involved in a slide tackle and had this back pain that eventually became so bad that he was just lying in bed for weeks around Christmas and so
+
+[1:01:28] I interview him and he says it was about a year later but he says that there was this one moment where he was lying on his bed he saw this tweet about this book so he pulls it up on Libgen and reads this pirated version and he is not even through the second page when he says exactly this I take my attention there and just reading through the book and it just sort of disappeared I don't really know how it happened but his pain disappears
+
+[1:01:59] and he goes up to the kitchen and makes some pasta and it has come back and the clue that I think is really interesting and the reason that I want to examine all these qualitative lenses is that everyone has a slightly different way of doing this of turning towards the thing that they're avoiding another thing that I that I just in finishing the first round of analysis is so
+
+[1:02:34] everyone actually reads the book and implements it differently I kind of like to think of it as we all have these sub agents kind of like Mike Levin's tame framework and you give a prompt and the book is like a prompt and your sub agents are just like solving things in really different ways so there's going to be there's three examples of he had this wrist pain that
+
+[1:03:04] was making impossible for him to type but he also noticed that his hands would become cold the moment that he would try to type so he set up this bespoke biofeedback system where he put a rubber band around his hand and he had a thermometer gun so he would measure the temperature of his skin and if it dropped below 72 he would lift up the rubber band and flick himself and so every time every time he would be like bad he would be basically punishing himself if his skin temperature dropped too low
+
+[1:03:35] and then he would start to imagine warm things moving and he would give himself a suite and there's nothing in the book about that by the way another example of the way that someone managed to resolve their pain is that they brought forth this image this was someone who had again debilitating back pain was living at her parents place for quite a while but after reading the book something came up of this very visual image she called it this like
+
+[1:04:05] gremlin little green gremlin monster and she would start to talk to this gremlin monster and one of the moves that she would make that really allowed the pain to move through her was she would imagine this gremlin dirty monster being showered with water there would just be this clean purifying water moving cleaning the gremlin and then her pain would reduce just another example of strategy that someone deployed was visualizing his
+
+[1:04:35] body as like a series of pipes and he thought that for him the pain was like anxiety getting stuck like a physical thing that gets stuck in the chest almost like you're constipated or you can't pee and him just imagining that and then saying to his brain no brain you're going the wrong way you need to feel anxious not this back pain was what dozen more cases of this but what the reason that I'm really
+
+[1:05:05] excited about collecting all of that is because this can become grounds for a map of pain once you have a more precise account of these qualitative shifts and all the ways that they're happening you can start to see where people get stuck along the if people are curious
+
+[1:05:35] to follow along here is the newsletter that I run along with a podcast and yeah looking for continuing to look for collaborators and supporters patrons you can find me my twitter handle or my website but this residency has been a real blast and I thank you to Wyatt for holding space and all the other residents so thank you is
+
+[1:06:11] this working there we go thank you max excellent work personal interest of mine as well does anybody have any follow-up questions for max great all right up next we have the wise the gray hair of the house mike johnson everybody round of applause for mike johnson you
+
+[1:06:42] have a mic up there it's next to the computer why not have two oh okay well I can have two cool so who here has gone to one of my vaso computation talks okay cool who here has latches okay great this will this will work so
+
+[1:07:13] you guys have probably got the basic story for vasa comp before but just a quick overview for those who haven't vasa computation is this thesis that a lot of neural patterns are held by vascular tension and sort of I like to think of it that the vascular system sort of has the means motive and opportunity to sort of finally regulate
+
+[1:07:43] nearby neurons and the basic grammar of this is clench equals stabilize and so you cut and a really interesting part of this is that the vascular system is a type of smooth muscle and so it has this thing called the latch bridge mechanism where basically this sort of tension that holds patterns
+
+[1:08:13] can lock and potentially for a long time and so latches can be thought of as information scars that things you know mostly we sort of use tension dynamically to think to hold context and mostly they release sometimes they don't so trauma the famous
+
+[1:08:43] book the body keeps the score sticky Bayesian priors I think the thing the Buddhists call the self I think these could as vascular latches these sort of little points of tension that hold narrow context hold narrow patterns and essentially I think often these are just sort of things that the body is holding that it forgot what
+
+[1:09:13] they latch opening interventions sauna breath work acupuncture psychedelics actually most of our economy is kind of geared toward opening latches if you think about it so the question is how do you measure latches
+
+[1:09:44] and so we've been working with edge really closely on this and other options here's a thermal before and after TRE this is me so my back got a lot more hot but the hope is that maybe if a spot is cool relative
+
+[1:10:15] to surrounding tissue before an intervention and then the temperature equalizes after the intervention maybe some latches opened up some circulation came back so it's just trying to infer tension from various metrics and so we did a really cool experiment this month at edge and so we did a high
+
+[1:10:46] resolution ultrasound with contrast and then pre intervention post intervention and what changed and the intervention that we picked was acupuncture and I was one of the participants and I did feel so much more relaxed afterwards so our data scientist is unfortunately in Europe and it's too hot to run his GPUs but I'm
+
+[1:11:16] sure we'll get data very shortly so it goes anyway the grand vision here is to make a map of these things a map of these latches and really the hope is I mean we have some things to establish Janine likes to put it are latches real and I think that's a great question and we can kind of dig at that and say we
+
+[1:11:46] need to establish that latches can be long duration not just hours but days to months to years even decades and then also are they causally coupled to emotional priors to cognitive priors etc it's not just tension hang out but it's specific patterns being like cognitive puzzle and I
+
+[1:12:16] guess in general really optimistic about latches because that you know if latches are real in the way we think they're real then they're in a very deep sense more real than a lot of other neurometrics and more directly coupled with things that we actually care about and they should also be which would be very exciting so
+
+[1:12:47] thank you everyone at Edge the team it's been great thank you Mike Johnson anybody have any questions that might release a latch if they get answered can you say a little more about what a map of latches would look like yeah so imagine like
+
+[1:13:18] a full body scan like ultrasound or something else and you can really zoom in on the vasculature specifically and then you see little points of tension and you know if it's ultrasound maybe it'll be differences in density if it's metabolic it'll be differences in like metabolic output and so on but basically little points of tension that don't move and you know you little
+
+[1:13:51] crimped part of your vasculature and then maybe you do acupuncture and it opens up thanks okay so firstly have you seen the map of emotional states across the body how would you relate that to it and how do you think this would relate to like
+
+[1:14:23] different parts of my body have more energy or literally more warmth and so on and it's different for different sorts of emotions and I think that you know there's a really interesting story about bioenergetics and sort of what different circuits do and emotions as you know potentially different resonant modes to the nervous system and so on I think a lot about different parts of the body holding different classes of
+
+[1:14:53] priors so maybe the spine holds postural priors it helps our posture maybe the vaginal cortex holds perceptual priors and like I don't know if you've heard of the Tetris effect cool yeah so if you're playing Tetris for eight you get really into it then you close your eyes and you see tetris blocks falling and you know it can last for you know a couple hours even and I think that's
+
+[1:15:23] temporary latches but I think that there are you know obviously different regions of the nervous system and each like I suspect that most of these regions can latch but they'll hold different kinds of things okay so how do you think this would connect to like neural potentiation like the way neurons maintain priors essentially and also how do you think this would connect to specifically
+
+[1:15:54] the immune system yeah so on the first question I like the metaphor of the bonsai tree that nervous systems are sort of like bonsai trees and then later you can release the ties it stay in that shape and so through heavy and reinforcement neurons that fire together wire together I do
+
+[1:16:24] suspect that basically the spascular tension can sort of shape the way neurons grow over time and I think that you know this is maybe a big part of the story of the Buddhist self the immune system question I don't know do we have time for that or yeah yeah quick okay cool yeah I suspect that a latch is actually a pretty dysfunctional part of tissue kind
+
+[1:16:54] of a pocket bioelectric universe and I suspect that the immune system can get deeply confused when there is a latch a chronic latch and can like I suspect that this is potentially the source of immune and auto immune problems all right one last round of applause for Mike Johnson everybody up
+
+[1:17:25] next we have Odeth Odeth is a new member of the house who fits right in nice to meet you all I joined four days ago so I'm thrilled to be here in 2021 I slipped on some black ice near Lake Tahoe in the evening I thought banger headache maybe I'll get a beer on the way home thankfully I didn't the next few days I basically was
+
+[1:17:55] livid with anger progressively couldn't read a screen and sunlight was bumming me out what I learned is I had a concussion so I did what I'd seen my college football roommate's friend do which is pull the shades down sleep a lot take some painkillers the second week I was the same the third week I was really worried but I was the same every neurologist that I saw over the next two and a half months told me you're doing it right you'll be healed next week my
+
+[1:18:25] progress was infinitesimal at the two and a half month mark I saw Dr. Gudger at Stanford and he told me dude you're doing it wrong you see that Peloton and do that in this time I had left my home for three times only anytime sunlight I would feel so dizzy in five or ten minutes my point is there was a consensus wisdom in medicine
+
+[1:18:55] which is the concussion protocol and that was making my situation worse because Dr. Gudger was at Stanford because he'd won a medal from Obama for his research I said you know what let me trust contrast that with call it the Wu space alternative healing I could do a reiki energy certification starting today and before edge is over I will be certified to be a reiki energy practitioner I'm
+
+[1:19:25] not joking if anyone would like to give me $200 and want a healing this weekend I will be fully certified to provide you one now you might see there's a little bit of a mismatch between my reiki healing this weekend so you know it seems like there might be a little bit of a mismatch here my overall point is I have seen so many incredible institutions businesses systems big fancy
+
+[1:19:56] words in call it computer science which is my industry places like universities that train people how to code places like Y Combinator that train people how to be founders places like venture capital firms customers legal to write IP assignments things that involve tens of thousands of humans to make even incredible things like this might work but the moment we look in the alternative healing space or anything to do
+
+[1:20:26] with consciousness what do we get someone who's charging 150 bucks to 400 bucks working on their own and you kind of just need to trust them now thankfully I've trusted a few of them I've the story some of us may have heard directly or from my friends but I'll just give you a brief one last May last March I was in Boston and my friend in the bay a lawyer called me saying Sunday 4pm she's
+
+[1:20:56] suicidal and she wanted to take her life on that call I didn't really have much to offer her in the 45 minutes we were on the phone but I did get her to commit to see yes my clairvoyant and energy healer friend the next day she didn't really have faith in that nor did she kind of have any prior experience but within that one hour session with my friend my friend was able to see intuitively the root beliefs of why my friend's breakup led her to
+
+[1:21:27] think her life was not worth living the exact kind of thing that happens through cognitive behavioral therapy or pick your favorite western modality it's just that with intuition my friend was able to see her root cause quicker help her see it the friend in question who needed the healing and she called me at the end of the hour beaming so I'm sharing a few of these anecdotes to say why is it that there's a kind of trust issue why are
+
+[1:21:57] there no institutions in particular in alternative healing and more broadly I think the people with intuitive gifts with people who've even studied meditation and found newer ways to be happy release latches enter states of super well-being like the jhanas there's no kind of training programs like universities there's no certification programs that aren't call it Tony Robbins coaching or Joe it's always in the name of the person never multidisciplinary
+
+[1:22:28] there aren't really too many research institutions and so given a bunch of these challenges but given the real skill that exists in this space what do I want to share with all of you my hope as a former venture investor and company builder is to help create more businesses in this space businesses in my mind help take top tier talent sort them out from the grift provide an economic model that works for the practitioner and for the patient and ultimately
+
+[1:22:59] provide quality in a repeatable fashion to people at the end of the day when you walk to the coffee shop down the street you have some sense of trust that this coffee is probably going to be good and if it isn't I can ask for a refund you can kind of do the same thing in healthcare and more and so kind of my hope and dream in this space is to help create a thousand businesses that cross a million in revenue each we've spoken a fair bit about healing and so there in particular my curiosity is
+
+[1:23:29] what does a Kaiser Permanente where you have western doctors and intuitive energy healers who are treating the same patient and creating a new body of knowledge a new protocol of preventative care look like what do the training institutions for those practitioners look like I think equally in a few other domains let's just take the issue of emotional regulation what does helping people emotionally regulate at work kind of a McKinsey
+
+[1:24:00] of inner transformation look like what does taking some of these thank you Wyatt what does taking some of these same skills and building a preschool around it look like at the end of the day I think there's a market for parents wanting to help their kids be trained by more compassionate loving teachers aka people generally on a contemplative or consciousness path so that's the kind of general theme that I'm pretty excited about looking at helping take this existing knowledge meet it
+
+[1:24:30] with the best of western science rationality and create new businesses that provide something net new for the world that's ultimately beneficial I'm happy to take about two questions in the time I have remaining yes thankfully I followed his advice and a bunch of other western and eastern healers and I'm glad to be like 99.5% better thanks for asking yes
+
+[1:25:01] Sam I've been doing it for three months and I've specifically been finding people who kind of have some kind of roadblock my skill sets have been funding and encouraging talent to believe in themselves and so I've been meeting different people and then coaching them through just for free helping them raise money tell their story refine their idea and if it requires a bit of engineering
+
+[1:25:31] I can chip in on that too thank you all for listening all right everybody well there was a lot there was a lot more done than just was able to present today people have been moving in and out of the house we have had 19 residents at the consciousness residency with some other friends of the house that have been coming in and out
+
+[1:26:01] I want to leave you with some quotes and a little recap of what the value has been here I'm going to read out Mike Johnson's words from the other night but a big part of the value is the network of connections it's not only I can collaborate with this person it's I know how they think and I can import that into my own thinking the ROI is absolutely there and a lot of it is in this network there's been similar quotes from members of this house
+
+[1:26:32] about how valuable it's been and helpful it's been they just even have an identity and a realization that there are people out there that are working on this they care about this this is a real thing and I just want to talk about the residency itself and what's been really working everyone is head over heels for the relational density of putting people together there's there's a lot of hope for the long-term emergence of
+
+[1:27:02] what's going to come from all of these connections and collaborations like I said that field identity and empowerment that you're you're with people has been wonderful and then there's been some interesting things that didn't really work out in this version of the residency and I'll get to the reasons why I think that's going on but yeah there's some contentiousness on what the boundary of what is consciousness is the structure wasn't really formatted I guess appropriately for where we're at as a field kind of translating from some of these
+
+[1:27:32] more venture-backed startup houses and some of those expectations we've really been learning about that and I want to talk about some of the expectations that that we realized were kind of implicit and that was we need to produce outputs for the people who funded this we absolutely need to build and establish this as a field but we also need to run actual tangible methods and experiments on people in this community while we have this time together some people are very theoretical and are
+
+[1:28:03] writing papers and they're taking time to be with themselves and every single person here is forming network connections and taking time to themselves those weren't implicitly said and some people felt like they needed to do every single one of those while they were here and I think every single one of those is essential for what's called a pre paradigmatic field I believe that's Mike Johnson's words again we don't we're not sure what's going on here but I think it became absolutely clear there's just so
+
+[1:28:33] many directions to run in when you put people together to live together in a house for a month we're now realizing what those goals are it's not just vibes it's not just you know running out back and ripping the DMT pen and it's not just putting EEG headsets on every stranger you can find like there's a lot going on here that's going to nucleate spread out to all these other conferences and we're going to hopefully continue to have these residencies and understand what's
+
+[1:29:03] being asked of each of us and how we can create livable situations that really support everybody's individualistic path on here collaboratively so I want every person here who is part of the residency and surrounding it to lean into this network we've created here keep experimenting especially at Esmerelda this is so incredible to be able to conceptualize an idea have an audience participants measure some preliminary data and do that with rigor and
+
+[1:29:34] curiosity simultaneously and we're going to ease the deadlines on everybody because there was some feedback that for demo days was a lot for a field that's prepared digmatic and we're going to keep moving forward with the ontology the language that we can all share so that we can understand I mean I I really do appreciate all of the points of dissonance that came up in the house because they reveal where there needs to be new language in order to have
+
+[1:30:04] coherence and language can be a really good map of consciousness as a whole language so it's a bit meta here but consciousness needs its own language and and yeah I think more than just once a year people should probably be in conflict with each other and in rapid iteration conferences allow for some of this but like Sam said 10 minutes and we'd like to avoid that dissonance but waking up and having breakfast with dissonance every morning has been really helpful so lastly a big thank you to
+
+[1:30:38] every member of this residency particularly those who've remained towards the end here and presented like I said 19 official residents in the house at the Calderwood Inn we are so so so grateful to the consciousness foundation the Riaz family office and Janine and Justin for sponsoring all the time we've spent together it's been incredible to have this gorgeous space to connect people and have everyone who's interested just meet a us there just send them right to the consciousness house I mean there's a man in the audience wearing a 64 point
+
+[1:31:08] EEG right now who showed up at our doorstep yesterday morning like this is just a wonderful experience to have I've had an amazing time being able to help facilitate the meeting of such tremendous people so with that that's our final expression to the edge wide community please still come by the the consciousness house over at the Calderwood Inn for the next day or two and it's been a pleasure everybody thank you so much

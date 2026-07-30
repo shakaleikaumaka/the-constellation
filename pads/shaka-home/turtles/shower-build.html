@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shower Visual Build Guide 🚿🔨 | Turtle Ops — Terrible Turtle Camp</title>
+<meta name="description" content="Step-by-step visual guide to the stacked IBC-tote shower on cattle troughs: doorway stall, float-switch pump, zero-drop greywater. 10 illustrated steps, David-approved design.">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+  :root {
+    --tt-orange:#eb5833; --tt-coral:#fd6844; --tt-amber:#db9840; --tt-gold:#e5a14b;
+    --tt-red:#cc272e; --night:#030915; --night-2:#071123; --card:#0b1628; --card-2:#111b28;
+    --border:#1f2a38; --cream:#f7f0eb; --cream-dim:#ddd6d1; --sand:#8a7d75;
+    --radius:12px; --radius-lg:20px; --ok:#69db7c; --warn:#ffd43b; --bad:#ff8787; --aqua:#4dd4e8;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{font-family:'Rajdhani',sans-serif;background:var(--night);color:var(--cream);line-height:1.6;font-size:18px;}
+  .container{max-width:860px;margin:0 auto;padding:20px;}
+  a{color:var(--tt-orange);}
+  .topnav{padding:18px 0;font-weight:600;}
+  .topnav a{text-decoration:none;color:var(--tt-coral);}
+  .hero{text-align:center;padding:26px 10px 20px;}
+  .hero .icon{font-size:3rem;display:block;margin-bottom:8px;}
+  .hero h1{font-size:clamp(1.8rem,6.5vw,3rem);font-weight:700;text-transform:uppercase;letter-spacing:.02em;
+    background:linear-gradient(135deg,var(--cream) 20%,var(--aqua),var(--tt-orange));
+    -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:8px;}
+  .hero .sub{color:var(--cream-dim);font-size:1.1rem;max-width:660px;margin:0 auto;}
+  .badge{display:inline-block;padding:4px 14px;background:rgba(255,212,59,.1);color:var(--warn);
+    border:1px solid rgba(255,212,59,.4);border-radius:16px;font-size:.75rem;font-weight:700;
+    letter-spacing:.14em;text-transform:uppercase;margin-top:12px;}
+  .specbar{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin:18px 0;}
+  .spec{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:10px 18px;text-align:center;}
+  .spec .n{font-family:'JetBrains Mono',monospace;color:var(--tt-gold);font-weight:600;font-size:1.05rem;}
+  .spec .l{font-size:.75rem;color:var(--sand);text-transform:uppercase;letter-spacing:.1em;}
+  .step{background:var(--card);border:1px solid var(--border);border-radius:var(--radius-lg);margin:22px 0;overflow:hidden;}
+  .step-head{display:flex;align-items:center;gap:14px;padding:16px 22px;background:var(--card-2);border-bottom:1px solid var(--border);}
+  .step-num{min-width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,var(--aqua),var(--tt-orange));
+    display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1.25rem;color:#fff;}
+  .step-head h2{font-size:1.25rem;text-transform:uppercase;letter-spacing:.03em;}
+  .step-head .time{margin-left:auto;font-family:'JetBrains Mono',monospace;font-size:.75rem;color:var(--sand);white-space:nowrap;}
+  .step-body{padding:20px 22px;}
+  .fig{background:var(--night-2);border:1px solid var(--border);border-radius:var(--radius);padding:10px;margin-bottom:14px;}
+  .fig svg{width:100%;height:auto;display:block;}
+  .fig.herofig svg{max-width:620px;margin:0 auto;}
+  .step-body ul{color:var(--cream-dim);margin:0 0 10px 22px;}
+  .step-body li{margin-bottom:7px;}
+  .step-body strong{color:var(--cream);}
+  .tip{border-left:3px solid var(--warn);background:rgba(255,212,59,.05);border-radius:0 var(--radius) var(--radius) 0;
+    padding:10px 15px;color:var(--cream-dim);font-size:.95rem;}
+  .tip strong{color:var(--warn);}
+  .tip.danger{border-left-color:var(--bad);}
+  .tip.danger strong{color:var(--bad);}
+  .tip.david{border-left-color:var(--tt-gold);}
+  .tip.david strong{color:var(--tt-gold);}
+  .tip + .tip{margin-top:10px;}
+  .sidebar{background:var(--card-2);border:1px solid var(--border);border-radius:var(--radius);padding:14px 18px;margin-top:12px;color:var(--cream-dim);font-size:.95rem;}
+  .sidebar h4{color:var(--aqua);text-transform:uppercase;letter-spacing:.08em;font-size:.85rem;margin-bottom:8px;}
+  .sidebar p{margin-bottom:8px;}
+  .sidebar p:last-child{margin-bottom:0;}
+  /* SVG shared classes */
+  svg .ttl{fill:#8a7d75;font:700 12px 'JetBrains Mono',monospace;letter-spacing:.08em;}
+  svg .lbl{fill:#f7f0eb;font:700 14px 'Rajdhani',sans-serif;}
+  svg .lbl2{fill:#ddd6d1;font:600 12.5px 'Rajdhani',sans-serif;}
+  svg .lblw{fill:#ffd43b;font:700 13px 'Rajdhani',sans-serif;}
+  svg .lblb{fill:#ff8787;font:700 13px 'Rajdhani',sans-serif;}
+  svg .lbla{fill:#4dd4e8;font:700 13px 'Rajdhani',sans-serif;}
+  svg .lblg{fill:#69db7c;font:700 13px 'Rajdhani',sans-serif;}
+  svg .dim{fill:#8a7d75;font:600 11px 'JetBrains Mono',monospace;}
+  svg .dimline{stroke:#8a7d75;stroke-width:1.2;stroke-dasharray:4 3;fill:none;}
+  svg .leader{stroke:#8a7d75;stroke-width:1.4;fill:none;}
+  svg .arrow{stroke:#4dd4e8;stroke-width:2.6;fill:none;marker-end:url(#arr3);}
+  svg .cut{stroke:#ff8787;stroke-width:2.6;stroke-dasharray:7 5;fill:none;}
+  svg .hose{stroke:#69db7c;stroke-width:4;fill:none;stroke-linecap:round;}
+  svg .whose{stroke:#e5a14b;stroke-width:4;fill:none;stroke-linecap:round;}
+  svg .rope{stroke:#e5a14b;stroke-width:2.5;fill:none;stroke-linecap:round;}
+  svg .ground{fill:#241d16;}
+  h3.sect{font-size:1.4rem;text-transform:uppercase;color:var(--tt-gold);margin:30px 0 10px;text-align:center;}
+  .panel{background:var(--card);border:1px solid var(--border);border-radius:var(--radius-lg);padding:22px;margin-bottom:14px;}
+  table.t{width:100%;border-collapse:collapse;font-size:.92rem;margin:8px 0;}
+  table.t th{color:var(--tt-amber);text-transform:uppercase;font-size:.72rem;letter-spacing:.1em;text-align:left;padding:6px;border-bottom:1px solid var(--border);}
+  table.t td{padding:6px;border-bottom:1px solid var(--border);color:var(--cream-dim);}
+  table.t td:first-child{color:var(--cream);font-weight:600;}
+  .footer{text-align:center;padding:36px 20px;border-top:1px solid var(--border);color:var(--sand);font-size:.95rem;margin-top:26px;}
+  .footer a{text-decoration:none;}
+  @media(max-width:640px){body{font-size:16px;}.container{padding:12px;}.step-body{padding:16px;}}
+</style>
+<link rel="stylesheet" href="assets/turtle-cursor.css">
+</head>
+<body>
+<div class="container">
+
+<nav class="topnav"><a href="./">← Turtle Ops</a> · <a href="shower.html">🚿 Shower Playbook</a> · <a href="dining-shade.html">🎪 Dining Shade</a> · <a href="inventory.html">📦 Inventory</a></nav>
+
+<header class="hero">
+  <span class="icon">🚿🔨</span>
+  <h1>The Shower Build</h1>
+  <p class="sub">Two IBC totes stack into a standing-height stall, cattle troughs catch every drop, and a float-switch pump hauls the greywater away. The David-approved design, in 10 pictures. 🐢</p>
+  <span class="badge">🔥 Priority build · stall section 1 built ✅ · troughs + hoses still to buy 🛒</span>
+</header>
+
+<div class="specbar">
+  <div class="spec"><div class="n">2× IBC</div><div class="l">stacked stall</div></div>
+  <div class="spec"><div class="n">~7½ ft</div><div class="l">standing height</div></div>
+  <div class="spec"><div class="n">2 troughs</div><div class="l">catch basin</div></div>
+  <div class="spec"><div class="n">1–2 gal</div><div class="l">per shower</div></div>
+  <div class="spec"><div class="n">0 drops</div><div class="l">greywater on playa</div></div>
+</div>
+
+<svg width="0" height="0" style="position:absolute"><defs>
+  <marker id="arr3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#4dd4e8"/>
+  </marker>
+<g id="g-ibc"><g>
+<polygon points="0.0,-0.0 -52.2,-30.0 -52.2,-39.0 0.0,-9.0" fill="#2e3641" stroke="none"/>
+<polygon points="0.0,-0.0 62.6,-36.0 62.6,-45.0 0.0,-9.0" fill="#39424e" stroke="none"/>
+<polygon points="0.0,-9.0 62.6,-45.0 10.4,-75.0 -52.2,-39.0" fill="#4a5563" stroke="none"/>
+<polygon points="13.0,-7.5 26.1,-15.0 26.1,-21.0 13.0,-13.5" fill="#1c232c"/>
+<polygon points="36.5,-21.0 49.6,-28.5 49.6,-34.5 36.5,-27.0" fill="#1c232c"/>
+<polygon points="0.0,-12.0 -47.0,-39.0 -47.0,-99.0 0.0,-72.0" fill="#b4bec6" stroke="none"/>
+<polygon points="0.0,-12.0 57.4,-45.0 57.4,-105.0 0.0,-72.0" fill="#d5dce1" stroke="none"/>
+<polygon points="0.0,-72.0 57.4,-105.0 10.4,-132.0 -47.0,-99.0" fill="#eef1f3" stroke="none"/>
+<ellipse cx="5.2" cy="-102.0" rx="9" ry="4.5" fill="#c33b2e" stroke="#8e2a20" stroke-width="1.5"/>
+<rect x="3.8" y="-22.0" width="9" height="8" rx="2" fill="#c33b2e" stroke="#8e2a20" stroke-width="1.2"/>
+<line x1="0.0" y1="-9.0" x2="0.0" y2="-69.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="15.7" y1="-18.0" x2="15.7" y2="-78.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="31.3" y1="-27.0" x2="31.3" y2="-87.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="47.0" y1="-36.0" x2="47.0" y2="-96.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="62.6" y1="-45.0" x2="62.6" y2="-105.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-9.0" x2="62.6" y2="-45.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-24.0" x2="62.6" y2="-60.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-39.0" x2="62.6" y2="-75.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-54.0" x2="62.6" y2="-90.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-69.0" x2="62.6" y2="-105.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-9.0" x2="0.0" y2="-69.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="-13.0" y1="-16.5" x2="-13.0" y2="-76.5" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="-26.1" y1="-24.0" x2="-26.1" y2="-84.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="-39.1" y1="-31.5" x2="-39.1" y2="-91.5" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="-52.2" y1="-39.0" x2="-52.2" y2="-99.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-9.0" x2="-52.2" y2="-39.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-24.0" x2="-52.2" y2="-54.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-39.0" x2="-52.2" y2="-69.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-54.0" x2="-52.2" y2="-84.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-69.0" x2="-52.2" y2="-99.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="0.0,-69.0 62.6,-105.0 10.4,-135.0 -52.2,-99.0" fill="none" stroke="#a9b4bf" stroke-width="3.2" stroke-linejoin="round"/>
+</g></g>
+<g id="g-ibc-open"><g>
+<polygon points="0.0,-0.0 -52.2,-30.0 -52.2,-39.0 0.0,-9.0" fill="#2e3641" stroke="none"/>
+<polygon points="0.0,-0.0 62.6,-36.0 62.6,-45.0 0.0,-9.0" fill="#39424e" stroke="none"/>
+<polygon points="0.0,-9.0 62.6,-45.0 10.4,-75.0 -52.2,-39.0" fill="#4a5563" stroke="none"/>
+<polygon points="13.0,-7.5 26.1,-15.0 26.1,-21.0 13.0,-13.5" fill="#1c232c"/>
+<polygon points="36.5,-21.0 49.6,-28.5 49.6,-34.5 36.5,-27.0" fill="#1c232c"/>
+<polygon points="0.0,-12.0 -47.0,-39.0 -47.0,-99.0 0.0,-72.0" fill="#b4bec6" stroke="none"/>
+<polygon points="0.0,-12.0 57.4,-45.0 57.4,-105.0 0.0,-72.0" fill="#d5dce1" stroke="none"/>
+<polygon points="0.0,-72.0 57.4,-105.0 10.4,-132.0 -47.0,-99.0" fill="#eef1f3" stroke="none"/>
+<polygon points="0.0,-78.0 47.0,-105.0 10.4,-126.0 -36.5,-99.0" fill="#131b26" stroke="#f7b1a2" stroke-width="1.6"/>
+<rect x="3.8" y="-22.0" width="9" height="8" rx="2" fill="#c33b2e" stroke="#8e2a20" stroke-width="1.2"/>
+<line x1="0.0" y1="-9.0" x2="0.0" y2="-69.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="15.7" y1="-18.0" x2="15.7" y2="-78.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="31.3" y1="-27.0" x2="31.3" y2="-87.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="47.0" y1="-36.0" x2="47.0" y2="-96.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="62.6" y1="-45.0" x2="62.6" y2="-105.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-9.0" x2="62.6" y2="-45.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-24.0" x2="62.6" y2="-60.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-39.0" x2="62.6" y2="-75.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-54.0" x2="62.6" y2="-90.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-69.0" x2="62.6" y2="-105.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-9.0" x2="0.0" y2="-69.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="-13.0" y1="-16.5" x2="-13.0" y2="-76.5" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="-26.1" y1="-24.0" x2="-26.1" y2="-84.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="-39.1" y1="-31.5" x2="-39.1" y2="-91.5" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="-52.2" y1="-39.0" x2="-52.2" y2="-99.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-9.0" x2="-52.2" y2="-39.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-24.0" x2="-52.2" y2="-54.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-39.0" x2="-52.2" y2="-69.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-54.0" x2="-52.2" y2="-84.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-69.0" x2="-52.2" y2="-99.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="0.0,-69.0 62.6,-105.0 10.4,-135.0 -52.2,-99.0" fill="none" stroke="#a9b4bf" stroke-width="3.2" stroke-linejoin="round"/>
+</g></g>
+<g id="g-ibc-flip"><g>
+<polygon points="0.0,-3.0 -47.0,-30.0 -47.0,-90.0 0.0,-63.0" fill="#b4bec6" stroke="none"/>
+<polygon points="0.0,-3.0 57.4,-36.0 57.4,-96.0 0.0,-63.0" fill="#d5dce1" stroke="none"/>
+<polygon points="0.0,-63.0 57.4,-96.0 10.4,-123.0 -47.0,-90.0" fill="#eef1f3" stroke="none"/>
+<line x1="0.0" y1="-0.0" x2="0.0" y2="-60.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="15.7" y1="-9.0" x2="15.7" y2="-69.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="31.3" y1="-18.0" x2="31.3" y2="-78.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="47.0" y1="-27.0" x2="47.0" y2="-87.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="62.6" y1="-36.0" x2="62.6" y2="-96.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-0.0" x2="62.6" y2="-36.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-15.0" x2="62.6" y2="-51.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-30.0" x2="62.6" y2="-66.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-45.0" x2="62.6" y2="-81.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-60.0" x2="62.6" y2="-96.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-0.0" x2="0.0" y2="-60.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="-13.0" y1="-7.5" x2="-13.0" y2="-67.5" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="-26.1" y1="-15.0" x2="-26.1" y2="-75.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="-39.1" y1="-22.5" x2="-39.1" y2="-82.5" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="-52.2" y1="-30.0" x2="-52.2" y2="-90.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-0.0" x2="-52.2" y2="-30.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-15.0" x2="-52.2" y2="-45.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-30.0" x2="-52.2" y2="-60.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-45.0" x2="-52.2" y2="-75.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-60.0" x2="-52.2" y2="-90.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="0.0,-60.0 62.6,-96.0 10.4,-126.0 -52.2,-90.0" fill="none" stroke="#a9b4bf" stroke-width="3.2" stroke-linejoin="round"/>
+<polygon points="0.0,-60.0 -52.2,-90.0 -52.2,-99.0 0.0,-69.0" fill="#2e3641" stroke="none"/>
+<polygon points="0.0,-60.0 62.6,-96.0 62.6,-105.0 0.0,-69.0" fill="#39424e" stroke="none"/>
+<polygon points="0.0,-69.0 62.6,-105.0 10.4,-135.0 -52.2,-99.0" fill="#4a5563" stroke="none"/>
+</g></g>
+<g id="g-stall"><g>
+<polygon points="0.0,-0.0 -52.2,-30.0 -52.2,-39.0 0.0,-9.0" fill="#2e3641" stroke="none"/>
+<polygon points="0.0,-0.0 62.6,-36.0 62.6,-45.0 0.0,-9.0" fill="#39424e" stroke="none"/>
+<polygon points="0.0,-9.0 62.6,-45.0 10.4,-75.0 -52.2,-39.0" fill="#4a5563" stroke="none"/>
+<polygon points="13.0,-7.5 26.1,-15.0 26.1,-21.0 13.0,-13.5" fill="#1c232c"/>
+<polygon points="36.5,-21.0 49.6,-28.5 49.6,-34.5 36.5,-27.0" fill="#1c232c"/>
+<polygon points="0.0,-12.0 -47.0,-39.0 -47.0,-99.0 0.0,-72.0" fill="#b4bec6" stroke="none"/>
+<polygon points="0.0,-12.0 57.4,-45.0 57.4,-105.0 0.0,-72.0" fill="#d5dce1" stroke="none"/>
+<polygon points="0.0,-72.0 57.4,-105.0 10.4,-132.0 -47.0,-99.0" fill="#eef1f3" stroke="none"/>
+<line x1="0.0" y1="-9.0" x2="0.0" y2="-69.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="15.7" y1="-18.0" x2="15.7" y2="-78.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="31.3" y1="-27.0" x2="31.3" y2="-87.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="47.0" y1="-36.0" x2="47.0" y2="-96.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="62.6" y1="-45.0" x2="62.6" y2="-105.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-9.0" x2="62.6" y2="-45.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-24.0" x2="62.6" y2="-60.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-39.0" x2="62.6" y2="-75.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-54.0" x2="62.6" y2="-90.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-69.0" x2="62.6" y2="-105.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-9.0" x2="0.0" y2="-69.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="-13.0" y1="-16.5" x2="-13.0" y2="-76.5" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="-26.1" y1="-24.0" x2="-26.1" y2="-84.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="-39.1" y1="-31.5" x2="-39.1" y2="-91.5" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="-52.2" y1="-39.0" x2="-52.2" y2="-99.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-9.0" x2="-52.2" y2="-39.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-24.0" x2="-52.2" y2="-54.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-39.0" x2="-52.2" y2="-69.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-54.0" x2="-52.2" y2="-84.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-69.0" x2="-52.2" y2="-99.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="0.0,-69.0 62.6,-105.0 10.4,-135.0 -52.2,-99.0" fill="none" stroke="#a9b4bf" stroke-width="3.2" stroke-linejoin="round"/>
+<polygon points="0.0,-72.0 -47.0,-99.0 -47.0,-159.0 0.0,-132.0" fill="#b4bec6" stroke="none"/>
+<polygon points="0.0,-72.0 57.4,-105.0 57.4,-165.0 0.0,-132.0" fill="#d5dce1" stroke="none"/>
+<polygon points="0.0,-132.0 57.4,-165.0 10.4,-192.0 -47.0,-159.0" fill="#eef1f3" stroke="none"/>
+<line x1="0.0" y1="-69.0" x2="0.0" y2="-129.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="15.7" y1="-78.0" x2="15.7" y2="-138.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="31.3" y1="-87.0" x2="31.3" y2="-147.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="47.0" y1="-96.0" x2="47.0" y2="-156.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="62.6" y1="-105.0" x2="62.6" y2="-165.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-69.0" x2="62.6" y2="-105.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-84.0" x2="62.6" y2="-120.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-99.0" x2="62.6" y2="-135.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-114.0" x2="62.6" y2="-150.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-129.0" x2="62.6" y2="-165.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-69.0" x2="0.0" y2="-129.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="-13.0" y1="-76.5" x2="-13.0" y2="-136.5" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="-26.1" y1="-84.0" x2="-26.1" y2="-144.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="-39.1" y1="-91.5" x2="-39.1" y2="-151.5" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="-52.2" y1="-99.0" x2="-52.2" y2="-159.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-69.0" x2="-52.2" y2="-99.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-84.0" x2="-52.2" y2="-114.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-99.0" x2="-52.2" y2="-129.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-114.0" x2="-52.2" y2="-144.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-129.0" x2="-52.2" y2="-159.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="0.0,-129.0 62.6,-165.0 10.4,-195.0 -52.2,-159.0" fill="none" stroke="#a9b4bf" stroke-width="3.2" stroke-linejoin="round"/>
+<polygon points="0.0,-129.0 -52.2,-159.0 -52.2,-168.0 0.0,-138.0" fill="#2e3641" stroke="none"/>
+<polygon points="0.0,-129.0 62.6,-165.0 62.6,-174.0 0.0,-138.0" fill="#39424e" stroke="none"/>
+<polygon points="0.0,-138.0 62.6,-174.0 10.4,-204.0 -52.2,-168.0" fill="#4a5563" stroke="none"/>
+<line x1="0.0" y1="-69.0" x2="62.6" y2="-105.0" stroke="#4dd4e8" stroke-width="3" stroke-linecap="round"/>
+<line x1="0.0" y1="-69.0" x2="-52.2" y2="-99.0" stroke="#4dd4e8" stroke-width="3" stroke-linecap="round"/>
+<polygon points="18.3,-31.5 44.4,-46.5 44.4,-142.5 18.3,-127.5" fill="#0d141d"/>
+<line x1="18.3" y1="-31.5" x2="18.3" y2="-127.5" stroke="#ffd43b" stroke-width="4" stroke-linecap="round"/>
+<line x1="44.4" y1="-46.5" x2="44.4" y2="-142.5" stroke="#ffd43b" stroke-width="4" stroke-linecap="round"/>
+<line x1="18.3" y1="-127.5" x2="44.4" y2="-142.5" stroke="#ffd43b" stroke-width="4" stroke-linecap="round"/>
+<line x1="18.3" y1="-31.5" x2="44.4" y2="-46.5" stroke="#e5a14b" stroke-width="5" stroke-linecap="round"/>
+</g></g>
+<g id="g-stall-nodoor"><g>
+<polygon points="0.0,-0.0 -52.2,-30.0 -52.2,-39.0 0.0,-9.0" fill="#2e3641" stroke="none"/>
+<polygon points="0.0,-0.0 62.6,-36.0 62.6,-45.0 0.0,-9.0" fill="#39424e" stroke="none"/>
+<polygon points="0.0,-9.0 62.6,-45.0 10.4,-75.0 -52.2,-39.0" fill="#4a5563" stroke="none"/>
+<polygon points="13.0,-7.5 26.1,-15.0 26.1,-21.0 13.0,-13.5" fill="#1c232c"/>
+<polygon points="36.5,-21.0 49.6,-28.5 49.6,-34.5 36.5,-27.0" fill="#1c232c"/>
+<polygon points="0.0,-12.0 -47.0,-39.0 -47.0,-99.0 0.0,-72.0" fill="#b4bec6" stroke="none"/>
+<polygon points="0.0,-12.0 57.4,-45.0 57.4,-105.0 0.0,-72.0" fill="#d5dce1" stroke="none"/>
+<polygon points="0.0,-72.0 57.4,-105.0 10.4,-132.0 -47.0,-99.0" fill="#eef1f3" stroke="none"/>
+<line x1="0.0" y1="-9.0" x2="0.0" y2="-69.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="15.7" y1="-18.0" x2="15.7" y2="-78.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="31.3" y1="-27.0" x2="31.3" y2="-87.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="47.0" y1="-36.0" x2="47.0" y2="-96.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="62.6" y1="-45.0" x2="62.6" y2="-105.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-9.0" x2="62.6" y2="-45.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-24.0" x2="62.6" y2="-60.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-39.0" x2="62.6" y2="-75.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-54.0" x2="62.6" y2="-90.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-69.0" x2="62.6" y2="-105.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-9.0" x2="0.0" y2="-69.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="-13.0" y1="-16.5" x2="-13.0" y2="-76.5" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="-26.1" y1="-24.0" x2="-26.1" y2="-84.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="-39.1" y1="-31.5" x2="-39.1" y2="-91.5" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="-52.2" y1="-39.0" x2="-52.2" y2="-99.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-9.0" x2="-52.2" y2="-39.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-24.0" x2="-52.2" y2="-54.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-39.0" x2="-52.2" y2="-69.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-54.0" x2="-52.2" y2="-84.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-69.0" x2="-52.2" y2="-99.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="0.0,-69.0 62.6,-105.0 10.4,-135.0 -52.2,-99.0" fill="none" stroke="#a9b4bf" stroke-width="3.2" stroke-linejoin="round"/>
+<polygon points="0.0,-72.0 -47.0,-99.0 -47.0,-159.0 0.0,-132.0" fill="#b4bec6" stroke="none"/>
+<polygon points="0.0,-72.0 57.4,-105.0 57.4,-165.0 0.0,-132.0" fill="#d5dce1" stroke="none"/>
+<polygon points="0.0,-132.0 57.4,-165.0 10.4,-192.0 -47.0,-159.0" fill="#eef1f3" stroke="none"/>
+<line x1="0.0" y1="-69.0" x2="0.0" y2="-129.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="15.7" y1="-78.0" x2="15.7" y2="-138.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="31.3" y1="-87.0" x2="31.3" y2="-147.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="47.0" y1="-96.0" x2="47.0" y2="-156.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="62.6" y1="-105.0" x2="62.6" y2="-165.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-69.0" x2="62.6" y2="-105.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-84.0" x2="62.6" y2="-120.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-99.0" x2="62.6" y2="-135.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-114.0" x2="62.6" y2="-150.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-129.0" x2="62.6" y2="-165.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-69.0" x2="0.0" y2="-129.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="-13.0" y1="-76.5" x2="-13.0" y2="-136.5" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="-26.1" y1="-84.0" x2="-26.1" y2="-144.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="-39.1" y1="-91.5" x2="-39.1" y2="-151.5" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="-52.2" y1="-99.0" x2="-52.2" y2="-159.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-69.0" x2="-52.2" y2="-99.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-84.0" x2="-52.2" y2="-114.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-99.0" x2="-52.2" y2="-129.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-114.0" x2="-52.2" y2="-144.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="0.0" y1="-129.0" x2="-52.2" y2="-159.0" stroke="#8b97a3" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="0.0,-129.0 62.6,-165.0 10.4,-195.0 -52.2,-159.0" fill="none" stroke="#a9b4bf" stroke-width="3.2" stroke-linejoin="round"/>
+<polygon points="0.0,-129.0 -52.2,-159.0 -52.2,-168.0 0.0,-138.0" fill="#2e3641" stroke="none"/>
+<polygon points="0.0,-129.0 62.6,-165.0 62.6,-174.0 0.0,-138.0" fill="#39424e" stroke="none"/>
+<polygon points="0.0,-138.0 62.6,-174.0 10.4,-204.0 -52.2,-168.0" fill="#4a5563" stroke="none"/>
+<line x1="0.0" y1="-69.0" x2="62.6" y2="-105.0" stroke="#4dd4e8" stroke-width="3" stroke-linecap="round"/>
+<line x1="0.0" y1="-69.0" x2="-52.2" y2="-99.0" stroke="#4dd4e8" stroke-width="3" stroke-linecap="round"/>
+</g></g>
+<g id="g-trough6"><g>
+<polygon points="59.2,-66.6 66.1,-66.6 66.1,-102.6 59.2,-102.6" fill="#b0b9c1"/>
+<polygon points="52.6,-65.3 59.2,-66.6 59.2,-102.6 52.6,-101.3" fill="#bec6cd"/>
+<polygon points="66.1,-66.6 72.7,-65.3 72.7,-101.3 66.1,-102.6" fill="#a1aab2"/>
+<polygon points="47.0,-63.0 52.6,-65.3 52.6,-101.3 47.0,-99.0" fill="#c8d0d7"/>
+<polygon points="72.7,-65.3 78.3,-63.0 78.3,-99.0 72.7,-101.3" fill="#919aa3"/>
+<polygon points="78.3,-63.0 82.4,-59.8 82.4,-95.8 78.3,-99.0" fill="#828b95"/>
+<polygon points="82.4,-59.8 84.5,-56.0 84.5,-92.0 82.4,-95.8" fill="#757f89"/>
+<polygon points="84.5,-56.0 84.5,-52.0 84.5,-88.0 84.5,-92.0" fill="#6c7680"/>
+<polygon points="84.5,-52.0 82.4,-48.2 82.4,-84.2 84.5,-88.0" fill="#68727c"/>
+<polygon points="82.4,-48.2 78.3,-45.0 78.3,-81.0 82.4,-84.2" fill="#69737d"/>
+<polygon points="-15.7,-27.0 47.0,-63.0 47.0,-99.0 -15.7,-63.0" fill="#cbd3da"/>
+<polygon points="78.3,-45.0 15.7,-9.0 15.7,-45.0 78.3,-81.0" fill="#6b757f"/>
+<polygon points="-19.7,-23.8 -15.7,-27.0 -15.7,-63.0 -19.7,-59.8" fill="#cdd5dc"/>
+<polygon points="-21.9,-20.0 -19.7,-23.8 -19.7,-59.8 -21.9,-56.0" fill="#ced6dd"/>
+<polygon points="-21.9,-16.0 -21.9,-20.0 -21.9,-56.0 -21.9,-52.0" fill="#cad2d9"/>
+<polygon points="-19.7,-12.2 -21.9,-16.0 -21.9,-52.0 -19.7,-48.2" fill="#c1c9d0"/>
+<polygon points="-15.7,-9.0 -19.7,-12.2 -19.7,-48.2 -15.7,-45.0" fill="#b4bdc4"/>
+<polygon points="15.7,-9.0 10.1,-6.7 10.1,-42.7 15.7,-45.0" fill="#6e7882"/>
+<polygon points="-10.1,-6.7 -15.7,-9.0 -15.7,-45.0 -10.1,-42.7" fill="#a5aeb6"/>
+<polygon points="10.1,-6.7 3.5,-5.4 3.5,-41.4 10.1,-42.7" fill="#78828c"/>
+<polygon points="-3.5,-5.4 -10.1,-6.7 -10.1,-42.7 -3.5,-41.4" fill="#959ea7"/>
+<polygon points="3.5,-5.4 -3.5,-5.4 -3.5,-41.4 3.5,-41.4" fill="#868f98"/>
+<polygon points="47.0,-99.0 52.6,-101.3 59.2,-102.6 66.1,-102.6 72.7,-101.3 78.3,-99.0 82.4,-95.8 84.5,-92.0 84.5,-88.0 82.4,-84.2 78.3,-81.0 15.7,-45.0 10.1,-42.7 3.5,-41.4 -3.5,-41.4 -10.1,-42.7 -15.7,-45.0 -19.7,-48.2 -21.9,-52.0 -21.9,-56.0 -19.7,-59.8 -15.7,-63.0" fill="#252e39" stroke="#dde3e8" stroke-width="2.6" stroke-linejoin="round"/>
+</g></g>
+<g id="g-trough8"><g>
+<polygon points="90.5,-84.6 97.4,-84.6 97.4,-120.6 90.5,-120.6" fill="#b0b9c1"/>
+<polygon points="83.9,-83.3 90.5,-84.6 90.5,-120.6 83.9,-119.3" fill="#bec6cd"/>
+<polygon points="97.4,-84.6 104.0,-83.3 104.0,-119.3 97.4,-120.6" fill="#a1aab2"/>
+<polygon points="78.3,-81.0 83.9,-83.3 83.9,-119.3 78.3,-117.0" fill="#c8d0d7"/>
+<polygon points="104.0,-83.3 109.6,-81.0 109.6,-117.0 104.0,-119.3" fill="#919aa3"/>
+<polygon points="109.6,-81.0 113.7,-77.8 113.7,-113.8 109.6,-117.0" fill="#828b95"/>
+<polygon points="113.7,-77.8 115.8,-74.0 115.8,-110.0 113.7,-113.8" fill="#757f89"/>
+<polygon points="115.8,-74.0 115.8,-70.0 115.8,-106.0 115.8,-110.0" fill="#6c7680"/>
+<polygon points="115.8,-70.0 113.7,-66.2 113.7,-102.2 115.8,-106.0" fill="#68727c"/>
+<polygon points="113.7,-66.2 109.6,-63.0 109.6,-99.0 113.7,-102.2" fill="#69737d"/>
+<polygon points="-15.7,-27.0 78.3,-81.0 78.3,-117.0 -15.7,-63.0" fill="#cbd3da"/>
+<polygon points="109.6,-63.0 15.7,-9.0 15.7,-45.0 109.6,-99.0" fill="#6b757f"/>
+<polygon points="-19.7,-23.8 -15.7,-27.0 -15.7,-63.0 -19.7,-59.8" fill="#cdd5dc"/>
+<polygon points="-21.9,-20.0 -19.7,-23.8 -19.7,-59.8 -21.9,-56.0" fill="#ced6dd"/>
+<polygon points="-21.9,-16.0 -21.9,-20.0 -21.9,-56.0 -21.9,-52.0" fill="#cad2d9"/>
+<polygon points="-19.7,-12.2 -21.9,-16.0 -21.9,-52.0 -19.7,-48.2" fill="#c1c9d0"/>
+<polygon points="-15.7,-9.0 -19.7,-12.2 -19.7,-48.2 -15.7,-45.0" fill="#b4bdc4"/>
+<polygon points="15.7,-9.0 10.1,-6.7 10.1,-42.7 15.7,-45.0" fill="#6e7882"/>
+<polygon points="-10.1,-6.7 -15.7,-9.0 -15.7,-45.0 -10.1,-42.7" fill="#a5aeb6"/>
+<polygon points="10.1,-6.7 3.5,-5.4 3.5,-41.4 10.1,-42.7" fill="#78828c"/>
+<polygon points="-3.5,-5.4 -10.1,-6.7 -10.1,-42.7 -3.5,-41.4" fill="#959ea7"/>
+<polygon points="3.5,-5.4 -3.5,-5.4 -3.5,-41.4 3.5,-41.4" fill="#868f98"/>
+<polygon points="78.3,-117.0 83.9,-119.3 90.5,-120.6 97.4,-120.6 104.0,-119.3 109.6,-117.0 113.7,-113.8 115.8,-110.0 115.8,-106.0 113.7,-102.2 109.6,-99.0 15.7,-45.0 10.1,-42.7 3.5,-41.4 -3.5,-41.4 -10.1,-42.7 -15.7,-45.0 -19.7,-48.2 -21.9,-52.0 -21.9,-56.0 -19.7,-59.8 -15.7,-63.0" fill="#252e39" stroke="#dde3e8" stroke-width="2.6" stroke-linejoin="round"/>
+</g></g>
+<g id="g-human"><g>
+<path d="M -10.350000000000001 0 L -5.6925 -45.54 L -8.797500000000001 -62.099999999999994 Q -9.315 -77.625 -2.07 -81.765 L 2.07 -81.765 Q 9.315 -77.625 8.797500000000001 -62.099999999999994 L 5.6925 -45.54 L 10.350000000000001 0 L 4.6575 0 L 0 -41.400000000000006 L -4.6575 0 Z" fill="#e5a14b"/>
+<circle cx="0" cy="-90.7" r="7.8" fill="#e5a14b"/>
+</g></g>
+<g id="g-pump"><g>
+<polygon points="-14,-2 0,5 14,-2 0,-9" fill="#222b35"/>
+<rect x="-13" y="-30" width="26" height="29" rx="3" fill="#3d4854"/>
+<rect x="-13" y="-30" width="10" height="29" rx="3" fill="#4c5865"/>
+<path d="M -13 -30 Q 0 -42 13 -30 Z" fill="#2f3844"/>
+<rect x="-4" y="-48" width="8" height="14" rx="2" fill="#69db7c"/>
+<path d="M -10 -34 Q 0 -40 10 -34" stroke="#1c232c" stroke-width="3" fill="none"/>
+<rect x="-9" y="-16" width="18" height="3" fill="#1c232c"/>
+<rect x="-9" y="-10" width="18" height="3" fill="#1c232c"/>
+</g></g>
+<g id="g-float"><g>
+<polygon points="0,0 34,0 34,-6 0,-6" fill="#5b6672"/>
+<polygon points="0,-6 34,-6 40,-11 6,-11" fill="#727e8a"/>
+<polygon points="34,0 34,-6 40,-11 40,-5" fill="#49545f"/>
+<circle cx="10" cy="-8" r="2.2" fill="#1c232c"/>
+<circle cx="28" cy="-8" r="2.2" fill="#1c232c"/>
+<path d="M 20 -9 Q 16 -26 26 -32" stroke="#1c232c" stroke-width="3" fill="none"/>
+<ellipse cx="30" cy="-36" rx="10" ry="7" transform="rotate(-30 30 -36)" fill="#ffd43b" stroke="#c9a227" stroke-width="1.6"/>
+</g></g>
+<g id="g-bag"><g>
+<rect x="-3" y="0" width="6" height="6" rx="2" fill="#8b97a3"/>
+<path d="M -16 6 L 16 6 L 21 60 Q 21 66 15 66 L -15 66 Q -21 66 -21 60 Z" fill="#12202e" stroke="#2c3e50" stroke-width="2"/>
+<path d="M -14 34 L 14 34 L 17 60 Q 17 62 15 62 L -15 62 Q -17 62 -17 60 Z" fill="rgba(77,212,232,.5)"/>
+<text x="0" y="26" text-anchor="middle" fill="#e8eef2" font-family="Rajdhani,sans-serif" font-weight="700" font-size="11">SOLAR</text>
+<path d="M 0 66 Q 0 76 -6 82" stroke="#2c3e50" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M -8 84 L -2 88 M -9 87 L -3 91 M -10 90 L -5 94" stroke="#4dd4e8" stroke-width="1.8" stroke-linecap="round"/>
+<circle cx="-7" cy="83" r="4.5" fill="#4dd4e8"/>
+</g></g>
+<g id="g-brute"><g>
+<path d="M -20 -4 L -17 -52 L 17 -52 L 20 -4 Q 20 4 0 4 Q -20 4 -20 -4 Z" fill="#6b7681"/>
+<path d="M -20 -4 L -17 -52 L -6 -52 L -8 -2 Q -14 2 -20 -4 Z" fill="#7d8894"/>
+<ellipse cx="0" cy="-52" rx="17" ry="6.5" fill="#39424e" stroke="#9aa6b1" stroke-width="2"/>
+<path d="M -14 -44 L -12 -12 M 14 -44 L 12 -12" stroke="#5a646f" stroke-width="2"/>
+</g></g>
+</defs></svg>
+
+<!-- ============ STEP 1 — HERO ============ -->
+<div class="step" id="s1">
+  <div class="step-head"><div class="step-num">1</div><h2>The Whole System at a Glance</h2><span class="time">read me first</span></div>
+  <div class="step-body">
+    <div class="fig herofig"><svg viewBox="0 0 480 676">
+      <text x="14" y="20" class="ttl">EXPLODED VIEW — top to bottom, gravity does the work</text>
+      <!-- solar bag -->
+      <use href="#g-bag" x="150" y="40"/>
+      <path class="leader" d="M240 66 L178 70"/><circle cx="176" cy="70" r="2.5" fill="#8a7d75"/>
+      <text x="246" y="62" class="lbl">☀ solar shower bag</text>
+      <text x="246" y="78" class="lbl2">1–2 gal per shower — that's the rain</text>
+      <path class="arrow" d="M150 140 L150 162"/>
+      <!-- flipped tote -->
+      <use href="#g-ibc-flip" x="150" y="305"/>
+      <path class="leader" d="M300 195 L218 205"/><circle cx="216" cy="205" r="2.5" fill="#8a7d75"/>
+      <text x="306" y="190" class="lbl">tote 2 — flipped</text>
+      <text x="306" y="206" class="lbl2">pallet to the sky,</text>
+      <text x="306" y="220" class="lbl2">open cut side DOWN</text>
+      <path class="leader" d="M80 186 L106 222"/><circle cx="108" cy="224" r="2.5" fill="#8a7d75"/>
+      <text x="14" y="164" class="lbl2">steel cages stay ON —</text>
+      <text x="14" y="178" class="lbl2">they ARE the structure</text>
+      <path class="arrow" d="M150 312 L150 334"/>
+      <!-- bottom tote -->
+      <use href="#g-ibc-open" x="150" y="480"/>
+      <path class="leader" d="M300 380 L216 388"/><circle cx="214" cy="388" r="2.5" fill="#8a7d75"/>
+      <text x="306" y="375" class="lbl">tote 1 — upright</text>
+      <text x="306" y="391" class="lbl2">top cut out, open side UP.</text>
+      <text x="306" y="405" class="lbl2">Doorway gets cut in step 3</text>
+      <path class="arrow" d="M150 487 L150 509"/>
+      <!-- troughs -->
+      <g transform="translate(160,608)">
+        <use href="#g-trough6" transform="translate(-31.3,-18)"/>
+        <use href="#g-trough6"/>
+      </g>
+      <use href="#g-pump" transform="translate(224,520) scale(.8)"/>
+      <path class="leader" d="M330 480 L242 496"/><circle cx="244" cy="496" r="2.5" fill="#8a7d75"/>
+      <text x="336" y="470" class="lbl">pump + float switch</text>
+      <text x="336" y="486" class="lbl2">live in the open trough end</text>
+      <path class="leader" d="M75 494 L133 558"/><circle cx="135" cy="560" r="2.5" fill="#8a7d75"/>
+      <text x="14" y="456" class="lbl">2 cattle troughs</text>
+      <text x="14" y="472" class="lbl2">galvanized · 🛒 to buy</text>
+      <text x="14" y="486" class="lbl2">the whole catch basin</text>
+      <!-- greywater line to storage tote -->
+      <path class="whose" d="M236 522 C 300 516, 350 540, 398 580"/>
+      <use href="#g-ibc" transform="translate(420,644) scale(.5)"/>
+      <rect x="278" y="518" width="54" height="18" rx="4" fill="#eb5833"/>
+      <text x="305" y="531" text-anchor="middle" fill="#fff" font-family="Rajdhani,sans-serif" font-weight="700" font-size="11">WASTE</text>
+      <text x="230" y="668" class="lbl2">greywater storage tote — hauled OUT, zero drops on playa 🌱</text>
+      <!-- human scale -->
+      <use href="#g-human" transform="translate(56,610)"/>
+      <text x="34" y="630" class="lbl2">you, for scale</text>
+      <text x="90" y="596" font-size="22">🐢</text>
+      <rect x="14" y="646" width="452" height="8" class="ground"/>
+    </svg></div>
+    <ul>
+      <li><strong>The stall:</strong> two 275-gal IBC totes, tops cut out, stacked open-top-to-open-top = one tall stall you stand up in. Cages stay fully intact.</li>
+      <li><strong>The basin:</strong> the stall sits <strong>on top of two galvanized cattle troughs</strong> — every drop lands in steel, never on playa.</li>
+      <li><strong>The drain:</strong> a float switch wakes a little pump that pushes greywater to a storage tote. Automatic.</li>
+      <li>This is the locked design from the David syncs (7/2 + 7/16). Section 1 of the stall is already built. 💪</li>
+    </ul>
+    <div class="tip david"><strong>David:</strong> "How you do the containment on a shower is the hardest part of the whole project." That's why the troughs and the pump get their own steps — the stall is the easy part.</div>
+  </div>
+</div>
+
+<!-- ============ STEP 2 ============ -->
+<div class="step" id="s2">
+  <div class="step-head"><div class="step-num">2</div><h2>What You Need</h2><span class="time">✅ in hand · 🛒 to buy</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 480 350">
+      <text x="14" y="20" class="ttl">THE SHOPPING PICTURE</text>
+      <!-- row 1 -->
+      <use href="#g-ibc-open" transform="translate(52,110) scale(.42)"/>
+      <use href="#g-ibc-open" transform="translate(84,122) scale(.42)"/>
+      <text x="20" y="142" class="lblg">✅ 2× IBC totes, cut</text>
+      <g transform="translate(215,100) scale(.55)"><use href="#g-trough6" transform="translate(-31.3,-18)"/><use href="#g-trough6"/></g>
+      <text x="186" y="122" class="lblw">🛒 2× stock troughs</text>
+      <text x="186" y="138" class="lbl2">galvanized · Tractor Supply</text>
+      <use href="#g-pump" transform="translate(408,96) scale(1.05)"/>
+      <text x="346" y="122" class="lblg">✅ waste pump ×2</text>
+      <text x="346" y="138" class="lbl2">confirm model w/ David</text>
+      <!-- row 2 -->
+      <use href="#g-float" transform="translate(24,218) scale(1.35)"/>
+      <text x="20" y="244" class="lblg">✅ float switches</text>
+      <text x="20" y="260" class="lbl2">+ angle-iron weights ×3</text>
+      <use href="#g-bag" transform="translate(210,150) scale(.72)"/>
+      <text x="186" y="244" class="lbl">solar bags — 2+</text>
+      <text x="186" y="260" class="lbl2">shut-off heads · confirm qty</text>
+      <g transform="translate(408,210)">
+        <circle r="26" fill="none" stroke="#e5a14b" stroke-width="5"/>
+        <circle r="16" fill="none" stroke="#e5a14b" stroke-width="5"/>
+        <rect x="-20" y="-8" width="40" height="16" rx="3" fill="#eb5833"/>
+        <text x="0" y="4" text-anchor="middle" fill="#fff" font-family="Rajdhani,sans-serif" font-weight="700" font-size="11">WASTE</text>
+      </g>
+      <text x="346" y="252" class="lblw">🛒 4× 50-ft hoses</text>
+      <text x="346" y="268" class="lbl2">mark 2 "WASTE" · buy 2×</text>
+      <!-- row 3 -->
+      <use href="#g-brute" transform="translate(56,330)"/>
+      <text x="14" y="344" class="lblw">🛒 Brute cans (hose storage)</text>
+      <text x="196" y="310" font-size="30">🚿🪝🧴</text>
+      <text x="186" y="344" class="lblw">🛒 curtain · hooks · mat</text>
+      <use href="#g-ibc" transform="translate(408,322) scale(.4)"/>
+      <text x="360" y="344" class="lblg">✅ greywater tote</text>
+      <text x="440" y="300" font-size="20">🐢</text>
+    </svg></div>
+    <ul>
+      <li><strong>Already ours:</strong> 2 cut totes (stall), a greywater storage tote, float switches, 2 utility pumps.</li>
+      <li><strong>Still to buy:</strong> the two cattle troughs (size them with David before the Tractor Supply run), 4× 50-ft hoses, Brute cans, comfort kit.</li>
+      <li>Jeremy is fabricating the <strong>3 float-switch weights</strong> (shower, kitchen basin, spare) — check in before buying steel.</li>
+      <li>Full live status in the <a href="inventory.html">Inventory Command Center</a>.</li>
+    </ul>
+    <div class="tip"><strong>Buy double on hoses:</strong> greywater hose that ever touched waste stays waste forever. Two marked <strong>WASTE</strong>, two clean spares. They live coiled in Brute cans at strike. 🐢</div>
+  </div>
+</div>
+
+<!-- ============ STEP 3 ============ -->
+<div class="step" id="s3">
+  <div class="step-head"><div class="step-num">3</div><h2>Cut the Totes</h2><span class="time">done for set 1 ✅ — recipe for the next camp</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 480 350">
+      <text x="14" y="20" class="ttl">TWO CUTS — TOP OUT, DOORWAY IN</text>
+      <g transform="translate(150,320) scale(1.25)">
+        <use href="#g-ibc"/>
+        <polygon points="0,-78 47,-105 10.4,-126 -36.5,-99" class="cut" fill="rgba(255,135,135,.08)"/>
+        <polygon points="18.3,-31.5 44.4,-46.5 44.4,-94.5 18.3,-79.5" class="cut" fill="rgba(255,135,135,.08)"/>
+        <line x1="18.3" y1="-31.5" x2="44.4" y2="-46.5" stroke="#e5a14b" stroke-width="4" stroke-linecap="round"/>
+      </g>
+      <path class="leader" d="M300 120 L177 172"/><circle cx="175" cy="173" r="2.5" fill="#8a7d75"/>
+      <text x="306" y="108" class="lblb">CUT 1 — bladder top out</text>
+      <text x="306" y="124" class="lbl2">plastic only. The cage rim</text>
+      <text x="306" y="138" class="lbl2">and every steel tube STAY.</text>
+      <path class="leader" d="M300 210 L192 232"/><circle cx="190" cy="233" r="2.5" fill="#8a7d75"/>
+      <text x="306" y="198" class="lblb">CUT 2 — the doorway</text>
+      <text x="306" y="214" class="lbl2">one cage-bay wide, stop short</text>
+      <text x="306" y="228" class="lbl2">of the floor…</text>
+      <path class="leader" d="M300 262 L192 272"/><circle cx="190" cy="272" r="2.5" fill="#8a7d75"/>
+      <text x="306" y="252" class="lblw">…the THRESHOLD</text>
+      <text x="306" y="268" class="lbl2">a lip that keeps splash</text>
+      <text x="306" y="282" class="lbl2">inside. Step over it.</text>
+      <!-- edge cap detail -->
+      <text x="14" y="48" class="ttl">EDGE DETAIL</text>
+      <rect x="40" y="70" width="16" height="52" fill="#d5dce1" stroke="#b4bec6"/>
+      <rect x="32" y="58" width="32" height="24" rx="12" fill="#ffd43b"/>
+      <path d="M28 66 Q48 42 68 66" stroke="#39424e" stroke-width="2.5" fill="none"/>
+      <text x="78" y="70" class="lbl2">split foam / hose cap</text>
+      <text x="78" y="84" class="lbl2">zip-tied over EVERY</text>
+      <text x="78" y="98" class="lbl2">cut edge</text>
+      <text x="26" y="330" font-size="24">🐢</text>
+      <text x="56" y="328" class="lbl2">every plastic shaving → sealed MOOP bag</text>
+    </svg></div>
+    <ul>
+      <li><strong>Cut 1:</strong> hot knife / jigsaw the bladder <strong>top</strong> out of both totes. Steel cage untouched — it's the building.</li>
+      <li><strong>Cut 2:</strong> doorway in the side of the bottom tote, with a <strong>threshold</strong> left at the bottom so water stays in the pan.</li>
+      <li><strong>Every cut edge:</strong> deburr at 45°, sand with 120-grit, cap with split foam pipe insulation or split hose, zip-tied through the cage.</li>
+    </ul>
+    <div class="tip danger"><strong>⚠ The one injury this build can cause</strong> is a hip or shoulder on a raw HDPE edge in a wet stall. Cap <strong>every</strong> edge, then tug-test each cap. No exceptions.</div>
+  </div>
+</div>
+
+<!-- ============ STEP 4 ============ -->
+<div class="step" id="s4">
+  <div class="step-head"><div class="step-num">4</div><h2>Stack &amp; Join the Cages</h2><span class="time">2 people · section 1 done ✅</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 480 380">
+      <text x="14" y="20" class="ttl">OPEN TOP MEETS OPEN TOP</text>
+      <use href="#g-ibc-flip" x="150" y="165"/>
+      <path class="arrow" d="M110 176 L110 200"/>
+      <path class="arrow" d="M150 178 L150 202"/>
+      <path class="arrow" d="M190 176 L190 200"/>
+      <use href="#g-ibc-open" x="150" y="340"/>
+      <text x="16" y="60" class="lbl2">tote 2, flipped —</text>
+      <text x="16" y="74" class="lbl2">lower it straight down</text>
+      <text x="16" y="330" class="lbl2">tote 1, waiting</text>
+      <text x="16" y="344" class="lbl2">open side up</text>
+      <!-- join detail zoom -->
+      <circle cx="285" cy="150" r="42" fill="#0b1628" stroke="#8a7d75" stroke-width="1.6"/>
+      <line x1="250" y1="142" x2="320" y2="142" stroke="#8b97a3" stroke-width="7" stroke-linecap="round"/>
+      <line x1="250" y1="160" x2="320" y2="160" stroke="#8b97a3" stroke-width="7" stroke-linecap="round"/>
+      <path d="M272 134 L296 168 M296 134 L272 168" stroke="#e5a14b" stroke-width="3.5" stroke-linecap="round"/>
+      <circle cx="284" cy="151" r="4.5" fill="#4dd4e8"/>
+      <path class="dimline" d="M320 178 Q368 240 406 276"/>
+      <text x="238" y="212" class="lbl">rim meets rim:</text>
+      <text x="238" y="228" class="lbl2">bolt or stainless-wire the two</text>
+      <text x="238" y="242" class="lbl2">cage rims at every crossing —</text>
+      <text x="238" y="256" class="lbl2">snug, zero wiggle</text>
+      <!-- assembled mini + human scale -->
+      <use href="#g-stall" transform="translate(408,340) scale(.5)"/>
+      <use href="#g-human" transform="translate(352,340) scale(.5)"/>
+      <path class="dimline" d="M442 238 L442 340"/>
+      <text x="446" y="292" class="dim">~7½'</text>
+      <text x="344" y="360" class="lbl2">stall + camper, to scale</text>
+      <text x="300" y="330" font-size="22">🐢</text>
+      <rect x="330" y="340" width="136" height="8" class="ground"/>
+    </svg></div>
+    <ul>
+      <li>Flip tote 2 <strong>upside-down</strong> (pallet becomes the roof) and lower it onto tote 1 — open top to open top.</li>
+      <li>Line the cage rims up flush, then <strong>bolt or wire the rims together</strong> at every rail crossing. The joint should feel like one rigid tower.</li>
+      <li>Result: a ~7½-ft standing-height stall with built-in walls, a roof frame to hang from, and a doorway.</li>
+    </ul>
+    <div class="tip david"><strong>David's rule:</strong> the intact steel cage is the entire structural system — the plastic alone would never stand up to playa wind. That's why we never cut steel, only plastic.</div>
+  </div>
+</div>
+
+<!-- ============ STEP 5 ============ -->
+<div class="step" id="s5">
+  <div class="step-head"><div class="step-num">5</div><h2>Set It on the Troughs</h2><span class="time">the 7/16 design 🔄</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 480 360">
+      <text x="14" y="20" class="ttl">STALL ON TOP — TROUGHS ARE THE CATCH BASIN</text>
+      <g transform="translate(210,310)">
+        <use href="#g-trough6" transform="translate(-31.3,-18)"/>
+        <use href="#g-trough6"/>
+        <use href="#g-stall" transform="translate(-5.2,-39)"/>
+        <use href="#g-pump" transform="translate(64,-84) scale(.7)"/>
+      </g>
+      <path class="leader" d="M326 144 L264 190"/><circle cx="262" cy="191" r="2.5" fill="#8a7d75"/>
+      <text x="330" y="128" class="lbl">the stall sits ON TOP,</text>
+      <text x="330" y="144" class="lbl2">resting on the rims</text>
+      <path class="leader" d="M326 234 L288 226"/><circle cx="286" cy="226" r="2.5" fill="#8a7d75"/>
+      <text x="330" y="216" class="lbla">the service bay</text>
+      <text x="330" y="242" class="lbl2">the open ~2 ft: pump</text>
+      <text x="330" y="256" class="lbl2">service + dish-tray +</text>
+      <text x="330" y="270" class="lbl2">greywater dumps</text>
+      <path class="leader" d="M140 268 L180 288"/><circle cx="182" cy="289" r="2.5" fill="#8a7d75"/>
+      <text x="16" y="228" class="lbl">2 troughs side-by-side</text>
+      <text x="16" y="246" class="lbl2">each ≥10" bigger than</text>
+      <text x="16" y="260" class="lbl2">the stall · one ~2 ft longer</text>
+      <text x="60" y="330" class="lbl2">flat, packed, LEVEL ground — check with a real level</text>
+      <text x="30" y="300" font-size="22">🐢</text>
+      <rect x="14" y="338" width="452" height="8" class="ground"/>
+    </svg></div>
+    <ul>
+      <li>Two galvanized troughs <strong>side by side</strong> on packed, level ground; the stall rests on top of their rims.</li>
+      <li>Each trough is at least 10" bigger than the stall footprint, and at least one runs <strong>~2 ft longer</strong> — that open end is the service bay: pump access, dish-tray dumping, greywater pours.</li>
+      <li>Everything that drips in the stall lands in steel and flows to the pump. <strong>Zero playa contact.</strong></li>
+      <li>Strap the cage to staked anchors — it's a sail when it's empty.</li>
+    </ul>
+    <div class="tip"><strong>⚠ Honest open item:</strong> exactly how the stall seats + anchors on the trough rims (spacers? saddle brackets?) is still being finalized by <strong>David + Jarrett</strong>. Don't improvise this joint — ask first. 🐢</div>
+  </div>
+</div>
+
+<!-- ============ STEP 6 ============ -->
+<div class="step" id="s6">
+  <div class="step-head"><div class="step-num">6</div><h2>The Float Switch — Build 3</h2><span class="time">Jeremy fabricating · then PRACTICE</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 480 366">
+      <text x="14" y="20" class="ttl">THE FLOAT UNIT — SELF-WEIGHTED, NOT ON THE PUMP</text>
+      <!-- big float -->
+      <g transform="rotate(-24 150 110)">
+        <ellipse cx="150" cy="110" rx="46" ry="27" fill="#ffd43b" stroke="#c9a227" stroke-width="3"/>
+        <ellipse cx="136" cy="102" rx="14" ry="7" fill="#ffe27a"/>
+      </g>
+      <path d="M118 130 Q92 166 96 196" stroke="#1c232c" stroke-width="5" fill="none"/>
+      <path d="M118 130 Q92 166 96 196" stroke="#39424e" stroke-width="2" fill="none"/>
+      <text x="206" y="88" class="lbl">the float</text>
+      <text x="206" y="106" class="lbl2">water rises → tips up → pump ON</text>
+      <text x="206" y="120" class="lbl2">water gone → drops → pump OFF</text>
+      <!-- angle iron -->
+      <path d="M60 250 L200 250 L200 222 L92 222 L92 190 L60 190 Z" fill="#5b6672" stroke="#39424e" stroke-width="2"/>
+      <polygon points="60,190 92,190 104,180 72,180" fill="#7d8894"/>
+      <polygon points="92,222 200,222 212,212 104,212" fill="#727e8a"/>
+      <polygon points="200,250 212,240 212,212 200,222" fill="#49545f"/>
+      <circle cx="132" cy="236" r="6" fill="#cdd5db" stroke="#39424e" stroke-width="2"/>
+      <circle cx="172" cy="236" r="6" fill="#cdd5db" stroke="#39424e" stroke-width="2"/>
+      <path class="dimline" d="M60 264 L200 264"/>
+      <text x="112" y="280" class="dim">~6 in</text>
+      <path class="leader" d="M240 196 L206 224"/><circle cx="204" cy="226" r="2.5" fill="#8a7d75"/>
+      <text x="246" y="172" class="lbl">the weight — 2"×2" angle iron</text>
+      <text x="246" y="190" class="lbl2">~6" long · heavy wall ≥3/16"</text>
+      <text x="246" y="204" class="lbl2">drill 2 holes, bolt the float on</text>
+      <text x="246" y="218" class="lbl2">with <tspan class="lblw">#10 screws</tspan></text>
+      <!-- NOT the pump -->
+      <rect x="14" y="300" width="250" height="58" rx="10" fill="rgba(255,135,135,.07)" stroke="#ff8787" stroke-width="1.6"/>
+      <use href="#g-pump" transform="translate(52,352) scale(.62)"/>
+      <ellipse cx="72" cy="318" rx="10" ry="6" transform="rotate(-30 72 318)" fill="#ffd43b" stroke="#c9a227" stroke-width="1.4"/>
+      <path d="M30 306 L88 350 M88 306 L30 350" stroke="#ff8787" stroke-width="5" stroke-linecap="round"/>
+      <text x="100" y="322" class="lblb">NEVER screwed</text>
+      <text x="100" y="338" class="lblb">to the pump!</text>
+      <text x="100" y="353" class="lbl2">separate units, always</text>
+      <!-- practice bucket -->
+      <text x="296" y="292" class="lblg">PRACTICE in a bucket first</text>
+      <path d="M300 302 L312 348 L378 348 L390 302 Z" fill="#1c2733" stroke="#4dd4e8" stroke-width="2.5"/>
+      <path d="M305 318 L385 318 L380 336 L310 336 Z" fill="rgba(77,212,232,.4)"/>
+      <ellipse cx="352" cy="316" rx="10" ry="6" transform="rotate(-20 352 316)" fill="#ffd43b" stroke="#c9a227" stroke-width="1.4"/>
+      <text x="272" y="344" font-size="22">🐢</text>
+    </svg></div>
+    <ul>
+      <li>Bolt each float switch to its own weight: <strong>2"×2" angle iron, ~6" long, ≥3/16" wall, #10 screws</strong>. It sits on the trough floor and can't wander.</li>
+      <li><strong>Never attach the float to the pump</strong> — separate, self-weighted unit (David was emphatic).</li>
+      <li>Power passes <em>through</em> the float switch: wall → float plug → pump plugs into its back. The float is the pump's on/off brain.</li>
+      <li><strong>Make 3:</strong> shower trough, kitchen-sink basin, one spare. Jeremy has the fabrication.</li>
+    </ul>
+    <div class="tip david"><strong>David:</strong> float switches are "magic" — but only if you've played with them. Bucket of water, float, pump: run the cycle until it's boring. Do this at the Gulch, not on playa.</div>
+  </div>
+</div>
+
+<!-- ============ STEP 7 ============ -->
+<div class="step" id="s7">
+  <div class="step-head"><div class="step-num">7</div><h2>Pump &amp; Greywater Plumbing</h2><span class="time">1 hr once parts arrive</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 480 344">
+      <text x="14" y="20" class="ttl">CUTAWAY — INSIDE THE SERVICE BAY</text>
+      <!-- trough section -->
+      <path d="M40 120 L40 210 Q40 262 92 262 L300 262 Q352 262 352 210 L352 120" fill="#1c2733" stroke="#cdd5db" stroke-width="7" stroke-linecap="round"/>
+      <path d="M47 228 Q47 256 92 256 L300 256 Q346 256 346 228 L346 224 L47 224 Z" fill="rgba(77,212,232,.35)"/>
+      <use href="#g-pump" transform="translate(288,256) scale(1.25)"/>
+      <!-- float on weight -->
+      <rect x="128" y="244" width="52" height="12" fill="#5b6672" stroke="#39424e" stroke-width="1.5"/>
+      <ellipse cx="172" cy="222" rx="16" ry="10" transform="rotate(-24 172 222)" fill="#ffd43b" stroke="#c9a227" stroke-width="2"/>
+      <path d="M160 232 Q146 240 150 246" stroke="#1c232c" stroke-width="3" fill="none"/>
+      <path class="leader" d="M96 176 L148 240"/><circle cx="150" cy="242" r="2.5" fill="#8a7d75"/>
+      <text x="48" y="152" class="lbl">float on its weight</text>
+      <text x="48" y="168" class="lbl2">trips at ~2" of water</text>
+      <!-- power -->
+      <path d="M300 196 Q330 150 356 96" stroke="#39424e" stroke-width="4" fill="none"/>
+      <text x="358" y="88" class="lblw">⚡ cord high &amp; dry</text>
+      <text x="358" y="104" class="lbl2">GFCI circuit only</text>
+      <!-- waste hose out -->
+      <path class="whose" d="M288 192 Q288 140 330 128 L424 122"/>
+      <rect x="332" y="112" width="46" height="18" rx="4" fill="#eb5833"/>
+      <text x="355" y="125" text-anchor="middle" fill="#fff" font-family="Rajdhani,sans-serif" font-weight="700" font-size="11">WASTE</text>
+      <use href="#g-ibc" transform="translate(432,180) scale(.42)"/>
+      <text x="378" y="196" class="lbl2">50 ft + 50 ft</text>
+      <text x="378" y="210" class="lbl2">to the greywater</text>
+      <text x="378" y="224" class="lbl2">tote by the road</text>
+      <!-- brute -->
+      <use href="#g-brute" transform="translate(446,336)"/>
+      <circle cx="446" cy="300" r="10" fill="none" stroke="#e5a14b" stroke-width="4"/>
+      <text x="330" y="256" class="lbl2">at strike: hoses coil</text>
+      <text x="330" y="270" class="lbl2">into a Brute can →</text>
+      <text x="60" y="316" class="lblg">pump "pumps to dryness" — runs till empty, clicks OFF</text>
+      <text x="200" y="248" font-size="18">🐢</text>
+    </svg></div>
+    <ul>
+      <li>The submersible utility pump sits at the trough's low point in the service bay; the float unit sits beside it.</li>
+      <li>Waste line = garden hose <strong>marked WASTE</strong> — twin 50-ft lengths beat one 100 (source sits close to the road tank). Spring-clip the hose to the cage so it can't whip when the pump kicks.</li>
+      <li>Greywater goes to the storage tote by the access road, where the service truck pumps it out. <strong>Never onto playa.</strong></li>
+      <li>Power: GFCI circuit, cord exits high and dry, connections never in the splash zone.</li>
+    </ul>
+    <div class="tip danger"><strong>⚠ Water + 120V</strong> is the one place we don't improvise. If a cord, plug, or splice would sit low or wet — stop and re-route. Questions go to David or Jarrett.</div>
+  </div>
+</div>
+
+<!-- ============ STEP 8 ============ -->
+<div class="step" id="s8">
+  <div class="step-head"><div class="step-num">8</div><h2>Water In — the Solar Bag</h2><span class="time">45 min rigging</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 480 386">
+      <text x="14" y="20" class="ttl">THE RAIN — HOIST, TIE OFF, SHOWER</text>
+      <use href="#g-stall" transform="translate(150,330) scale(.85)"/>
+      <!-- pulley on top rim -->
+      <circle cx="177" cy="197" r="6" fill="none" stroke="#cdd5db" stroke-width="3.5"/>
+      <!-- bag hanging inside -->
+      <use href="#g-bag" transform="translate(166,206) scale(.55)"/>
+      <path class="rope" d="M177 203 L167 207"/>
+      <!-- rope over pulley to cleat -->
+      <path class="rope" d="M182 192 Q216 210 206 246"/>
+      <rect x="199" y="246" width="14" height="7" rx="2" fill="#cdd5db"/>
+      <!-- human in doorway -->
+      <use href="#g-human" transform="translate(188,322) scale(.6)"/>
+      <path d="M180 250 L182 256 M188 246 L188 253 M196 250 L194 256" stroke="#4dd4e8" stroke-width="2" stroke-linecap="round"/>
+      <path class="leader" d="M300 180 L186 196"/><circle cx="184" cy="196" r="2.5" fill="#8a7d75"/>
+      <text x="306" y="168" class="lbl">pulley on the top rail</text>
+      <text x="306" y="184" class="lbl2">hoist your own 17-lb bag —</text>
+      <text x="306" y="198" class="lbl2">no ladder, no helper</text>
+      <path class="leader" d="M300 244 L216 250"/><circle cx="214" cy="250" r="2.5" fill="#8a7d75"/>
+      <text x="306" y="236" class="lbl">cleat at waist height</text>
+      <text x="306" y="252" class="lbl2">tie off + clip the bag handle</text>
+      <text x="306" y="266" class="lbl2">to the rail as backup</text>
+      <!-- staging shelf -->
+      <text x="404" y="60" font-size="34">☀️</text>
+      <rect x="330" y="330" width="120" height="9" fill="#c9a56a" stroke="#8a6b3a"/>
+      <use href="#g-bag" transform="translate(356,282) scale(.55)"/>
+      <use href="#g-bag" transform="translate(390,282) scale(.55)"/>
+      <use href="#g-bag" transform="translate(424,282) scale(.55)"/>
+      <text x="330" y="358" class="lbl2">staging shelf in full sun 🌞</text>
+      <text x="330" y="374" class="lbl2" fill="#e5a14b">→ golden-hour showers 🌅</text>
+      <text x="70" y="322" font-size="24">🐢</text>
+      <text x="30" y="352" class="lbl">1 bag = 1 shower</text>
+      <text x="30" y="368" class="lbl2">1–2 gal. That's the discipline.</text>
+    </svg></div>
+    <ul>
+      <li>Pulley (or smooth carabiner, 50-lb+) on the top cage rail, 1/4" rope down to a <strong>cleat at waist height</strong> — anyone hoists their own bag.</li>
+      <li><strong>Backup clip:</strong> bag handle clips to the top rail too, so full weight never rides the hoist line alone.</li>
+      <li>The bag's shut-off head is the whole ethos: wet down → OFF → soap → rinse.</li>
+      <li>1–2 gal per shower keeps the greywater volume tiny and the queue moving. 💧</li>
+    </ul>
+    <div class="tip"><strong>Later upgrade (maybe):</strong> a pumped line from the potable system can fill bags at the stall. Bags first — it already works with zero plumbing.</div>
+  </div>
+</div>
+
+<!-- ============ STEP 9 ============ -->
+<div class="step" id="s9">
+  <div class="step-head"><div class="step-num">9</div><h2>Privacy &amp; Comfort</h2><span class="time">45 min · the human layer</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 480 320">
+      <text x="14" y="20" class="ttl">THE DOORWAY, DONE RIGHT — FRONT VIEW</text>
+      <!-- cage wall around doorway -->
+      <rect x="40" y="40" width="200" height="252" fill="#d5dce1"/>
+      <g stroke="#8b97a3" stroke-width="4">
+        <line x1="40" y1="40" x2="240" y2="40"/><line x1="40" y1="103" x2="240" y2="103"/>
+        <line x1="40" y1="166" x2="240" y2="166"/><line x1="40" y1="229" x2="240" y2="229"/><line x1="40" y1="292" x2="240" y2="292"/>
+        <line x1="40" y1="40" x2="40" y2="292"/><line x1="90" y1="40" x2="90" y2="292"/>
+        <line x1="190" y1="40" x2="190" y2="292"/><line x1="240" y1="40" x2="240" y2="292"/>
+      </g>
+      <rect x="94" y="56" width="92" height="204" rx="6" fill="#0d141d" stroke="#ffd43b" stroke-width="4"/>
+      <!-- curtain -->
+      <line x1="88" y1="66" x2="192" y2="66" stroke="#cdd5db" stroke-width="4" stroke-linecap="round"/>
+      <path d="M96 68 Q102 130 96 196 L104 196 Q112 130 108 68 Z M112 68 Q118 130 112 196 L120 196 Q128 130 124 68 Z M128 68 Q134 130 128 196 L136 196 Q143 130 139 68 Z" fill="rgba(219,152,64,.55)" stroke="#db9840" stroke-width="1.5"/>
+      <!-- hooks -->
+      <circle cx="202" cy="120" r="4" fill="#e5a14b"/><circle cx="202" cy="150" r="4" fill="#e5a14b"/>
+      <!-- light -->
+      <circle cx="140" cy="50" r="7" fill="#ffd43b"/><circle cx="140" cy="50" r="12" fill="rgba(255,212,59,.25)"/>
+      <!-- mat -->
+      <ellipse cx="140" cy="278" rx="42" ry="10" fill="#8a6b3a"/>
+      <text x="126" y="282" font-size="14">🐢</text>
+      <!-- threshold -->
+      <rect x="94" y="256" width="92" height="8" fill="#e5a14b"/>
+      <!-- labels -->
+      <path class="leader" d="M300 66 L196 66"/><circle cx="194" cy="66" r="2.5" fill="#8a7d75"/>
+      <text x="306" y="60" class="lbl">curtain on a rod/rope</text>
+      <text x="306" y="76" class="lbl2">ordinary shower rings</text>
+      <path class="leader" d="M300 124 L210 122"/><circle cx="208" cy="121" r="2.5" fill="#8a7d75"/>
+      <text x="306" y="118" class="lbl">hooks in the dry zone</text>
+      <text x="306" y="134" class="lbl2">towel + clothes out of splash</text>
+      <path class="leader" d="M300 176 L148 52"/><circle cx="146" cy="51" r="2.5" fill="#8a7d75"/>
+      <text x="306" y="170" class="lbl">clip-on solar light</text>
+      <text x="306" y="186" class="lbl2">for night showers ✨</text>
+      <path class="leader" d="M300 232 L188 262"/><circle cx="186" cy="262" r="2.5" fill="#8a7d75"/>
+      <text x="306" y="226" class="lbl">threshold + grippy mat</text>
+      <text x="306" y="242" class="lbl2">step OVER, land soft</text>
+      <text x="306" y="284" class="lbl2">3 walls are already solid plastic —</text>
+      <text x="306" y="298" class="lbl2">privacy is basically built in 🙈</text>
+    </svg></div>
+    <ul>
+      <li>Curtain across the doorway on a rod or taut rope; the other three sides are already opaque tote walls.</li>
+      <li>Hooks high on the cage outside the splash zone; a grippy mat inside; a clip-on light for night showers.</li>
+      <li>A small chalkboard — <em>"bags warm: 3"</em> — turns solar timing into a self-organizing queue.</li>
+    </ul>
+    <div class="sidebar">
+      <h4>🔥 Hot water, honestly</h4>
+      <p><strong>☀ Sun-warmed bag (the default):</strong> a black solar bag in full afternoon sun gets genuinely hot for free. Golden-hour showers are warm showers. This is the plan.</p>
+      <p><strong>🫖 Kettle mix:</strong> chilly morning? Pour a kitchen kettle of hot water into the bag with cool water until it's shower-warm to the wrist. Simple, safe, works.</p>
+      <p><strong>🚫 Propane tankless heaters</strong> exist, but David called that "a very difficult system" — gas + water + wind is specialist territory. If the camp ever wants one, that's a David conversation, not a solo project.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ============ STEP 10 ============ -->
+<div class="step" id="s10">
+  <div class="step-head"><div class="step-num">10</div><h2>Test Day — the Greywater Drill</h2><span class="time">1 hr at the Gulch · before the playa!</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 480 260">
+      <text x="14" y="20" class="ttl">RUN THE WHOLE LOOP WITH REAL WATER</text>
+      <!-- 1 pour -->
+      <circle cx="70" cy="52" r="15" fill="none" stroke="#69db7c" stroke-width="3"/><text x="65" y="58" class="lbl">1</text>
+      <g transform="rotate(26 66 100)">
+        <path d="M50 80 L54 122 L82 122 L86 80 Z" fill="#1c2733" stroke="#cdd5db" stroke-width="2.5"/>
+        <ellipse cx="68" cy="80" rx="18" ry="6" fill="#0d141d" stroke="#cdd5db" stroke-width="2"/>
+      </g>
+      <path d="M92 96 Q100 120 97 144" stroke="#4dd4e8" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <path d="M52 150 Q52 170 76 170 L104 170 Q128 170 128 150" fill="none" stroke="#cdd5db" stroke-width="4"/>
+      <text x="30" y="200" class="lbl">pour ~5 gal in</text>
+      <text x="30" y="216" class="lbl2">right into the trough</text>
+      <!-- 2 float trips -->
+      <circle cx="190" cy="52" r="15" fill="none" stroke="#69db7c" stroke-width="3"/><text x="185" y="58" class="lbl">2</text>
+      <ellipse cx="192" cy="130" rx="22" ry="13" transform="rotate(-38 192 130)" fill="#ffd43b" stroke="#c9a227" stroke-width="2.5"/>
+      <path d="M166 152 L226 152" stroke="#4dd4e8" stroke-width="4" stroke-linecap="round"/>
+      <text x="222" y="112" class="lblg">click!</text>
+      <text x="152" y="200" class="lbl">float trips early</text>
+      <text x="152" y="216" class="lbl2">at ~2 in of water</text>
+      <!-- 3 pump out -->
+      <circle cx="310" cy="52" r="15" fill="none" stroke="#69db7c" stroke-width="3"/><text x="305" y="58" class="lbl">3</text>
+      <use href="#g-pump" transform="translate(300,160) scale(1)"/>
+      <path class="whose" d="M304 116 Q322 96 344 92"/>
+      <path d="M348 92 L354 98 M350 84 L358 88" stroke="#69db7c" stroke-width="2.5" stroke-linecap="round"/>
+      <text x="272" y="200" class="lbl">pumps to dryness</text>
+      <text x="272" y="216" class="lbl2">runs dry, clicks OFF</text>
+      <!-- 4 zero drops -->
+      <circle cx="428" cy="52" r="15" fill="none" stroke="#69db7c" stroke-width="3"/><text x="423" y="58" class="lbl">4</text>
+      <g transform="rotate(-12 428 130)">
+        <rect x="382" y="108" width="94" height="42" rx="8" fill="none" stroke="#69db7c" stroke-width="3.5"/>
+        <text x="429" y="127" text-anchor="middle" class="lblg" font-size="14">ZERO</text>
+        <text x="429" y="143" text-anchor="middle" class="lblg" font-size="14">DROPS</text>
+      </g>
+      <text x="388" y="200" class="lbl">towel-check</text>
+      <text x="382" y="216" class="lbl2">all joints + edges</text>
+      <text x="20" y="246" class="lbl2">🐢 repeat until nothing surprises you — then the shower has earned its trip to the playa</text>
+    </svg></div>
+    <ul>
+      <li>Full dress rehearsal at the Gulch: pour water, watch the float trip, watch the pump run to dryness and shut off.</li>
+      <li>Then a real shower rehearsal — bag, curtain, threshold step, pump-out — while someone walks the perimeter looking for escapees.</li>
+      <li>Any drip that leaves the trough = fix <strong>now</strong>, not on playa. Leave No Trace starts working here.</li>
+      <li>Drag a towel along every capped edge — a snag means re-cap.</li>
+    </ul>
+    <div class="tip david"><strong>David's homework, standing order:</strong> get every piece in your hands and physically mess with it before the playa. Practiced systems work; imagined systems don't.</div>
+  </div>
+</div>
+
+<!-- MATERIALS -->
+<h3 class="sect">📋 Materials at a Glance</h3>
+<div class="panel">
+  <table class="t">
+    <tr><th>Item</th><th>Qty</th><th>Status</th><th>Step</th></tr>
+    <tr><td>275-gal IBC totes, cages intact, tops cut</td><td>2</td><td>✅ cut — section 1 built</td><td>3–4</td></tr>
+    <tr><td>Galvanized cattle/stock troughs (1 ≥2 ft longer)</td><td>2</td><td>🛒 NOT bought — size w/ David, Tractor Supply</td><td>5</td></tr>
+    <tr><td>Float switches (pass-through plug type)</td><td>3</td><td>✅ received</td><td>6</td></tr>
+    <tr><td>Float weights: 2×2×~6" angle iron ≥3/16" + #10 screws</td><td>3</td><td>🔨 Jeremy fabricating</td><td>6</td></tr>
+    <tr><td>Submersible utility waste pump (~1/3 HP, 2000 GPH)</td><td>2</td><td>✅ have 2 — final model: confirm w/ David</td><td>7</td></tr>
+    <tr><td>Garden hoses 50 ft (2 marked WASTE + 2 spare)</td><td>4</td><td>🛒 buy double</td><td>7</td></tr>
+    <tr><td>Brute cans (hose storage at strike)</td><td>2</td><td>🛒 check kitchen stock first</td><td>7</td></tr>
+    <tr><td>Greywater storage tote</td><td>1</td><td>✅ in the 6-tote fleet</td><td>7</td></tr>
+    <tr><td>Solar shower bags w/ shut-off heads</td><td>2+</td><td>confirm qty in inventory</td><td>8</td></tr>
+    <tr><td>Pulley/carabiner 50 lb+ · 1/4" rope ~15 ft · cleat</td><td>set</td><td>hardware run</td><td>8</td></tr>
+    <tr><td>Curtain + rings · hooks · mat · clip light</td><td>set</td><td>🛒 hardware run</td><td>9</td></tr>
+    <tr><td>Foam pipe insulation / split hose (edge caps) + UV zip ties</td><td>~10 ft</td><td>hardware run</td><td>3</td></tr>
+    <tr><td>Ratchet straps + staked anchors (tie-down)</td><td>2–4</td><td>from camp stake stock</td><td>5</td></tr>
+  </table>
+  <p style="color:var(--cream-dim);margin-top:8px;">Build order: <strong>cut → stack &amp; join → troughs → float units → plumbing → hoist → comforts → wet test</strong>. This is a <strong>priority build</strong> — it ships on the semi with the early load. 🐢</p>
+  <p style="color:var(--warn);margin-top:8px;"><strong>✌️ Scale note (Shaka, 7/20): we're building TWO pods.</strong> Quantities above are per pod — double the stall totes, troughs, pump + float units. Same recipe, second verse. 🎁</p>
+</div>
+
+<h3 class="sect">🔎 Still Open — Honest List</h3>
+<div class="panel">
+  <ul style="color:var(--cream-dim);margin-left:22px;">
+    <li style="margin-bottom:7px;"><strong style="color:var(--cream);">Troughs not bought yet</strong> — final sizes + the Tractor Supply run happen with David's sign-off.</li>
+    <li style="margin-bottom:7px;"><strong style="color:var(--cream);">Stall-to-trough interface</strong> — how the stall seats and anchors on the rims is David + Jarrett's call. Ask before improvising.</li>
+    <li style="margin-bottom:7px;"><strong style="color:var(--cream);">Which pump runs the show</strong> — we own 2 utility pumps; David mentioned Little Giant / Zoeller-class as the premium path. Confirm the final pick.</li>
+    <li><strong style="color:var(--cream);">Hot water</strong> — sun-warmed bags for 2026; anything fancier is a future David conversation.</li>
+  </ul>
+</div>
+
+<footer class="footer">
+  <p>🐢 <a href="./">Turtle Ops</a> · design: David (Naked Heart) + the 7/16 sync · visuals by Terri · <a href="https://terribleturtle.camp/" target="_blank">terribleturtle.camp</a></p>
+  <p style="margin-top:6px;color:var(--tt-amber);">Move Slow &amp; Bite Things.</p>
+</footer>
+
+</div>
+<script src="assets/turtle-cursor.js" defer></script>
+</body>
+</html>

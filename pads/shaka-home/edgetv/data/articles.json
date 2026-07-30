@@ -1,0 +1,542 @@
+[
+ {
+  "id": "week-1",
+  "week": 1,
+  "edition": "Nº 1",
+  "dates": "June 1–7, 2026",
+  "theme": "Protocols for Flourishing",
+  "themeSub": "Health · Longevity · Consciousness · Wellbeing · Bio",
+  "headline": "The Village Takes Its Own Pulse",
+  "subheadline": "Eight hundred builders arrive in Sonoma and immediately start measuring everything — including the immeasurable",
+  "stats": [
+   "Sessions: 26",
+   "Recorded: 26.3 hrs",
+   "Transcribed: 25",
+   "Blood draws at breakfast: yes"
+  ],
+  "body": [
+   {
+    "type": "lead",
+    "content": "HEALDSBURG — The first thing Edge Esmeralda did, before the keynotes and the peptides and the machine consciousness salons, was gather eight hundred strangers in a room and tell them the truth: this experience is what you make of it. 'Engage with everyone around you. Be excited to build. Don't ask for permission from someone else to build it for you,' said Edge City co-founder Janine at Sunday's orientation — and with that, the village was open for business. The business of flourishing."
+   },
+   {
+    "type": "paragraph",
+    "content": "Week One's theme asked a deceptively simple question: what would health look like if we designed for it on purpose? Dr. Nathan Price of the Buck Institute opened with the indictment that framed the whole week — healthcare is the only industry that refuses to study its own gold standard, which is wellness. By Tuesday the village had its own metabolomics cohort running, wearables baselining at breakfast, and one researcher, Jaroslav of Plastic List, confessing he had spent eight months and half a million dollars testing three hundred Bay Area foods for plastic chemicals. Eighty-six percent came back positive. The village chewed on that one slowly."
+   },
+   {
+    "type": "quote",
+    "text": "Health care is the only industry that does not study its own gold standard — which is wellness.",
+    "speaker": "Nathan Price",
+    "session": "Building the Intelligence Layer for Human Aging — the Buck Institute",
+    "ts": "08:32"
+   },
+   {
+    "type": "paragraph",
+    "content": "Then came the heretics, and they were wonderful. RJ Tevonian took the stage with a talk titled simply 'Stop Developing Drugs' — arguing that science fiction never promised us four hundred pills a day, it promised the med bed, and that bioelectric voltage editing is how we actually get there. Jacob Peters hobbled in on crutches (a barefoot-running injury; 'thankfully, there's a peptide for that') and testified how peptides and concierge medicine pulled him back from a near-fatal bout of Crohn's colitis — the same protocols that once got him banned from Reddit, he noted, he now runs a company around. Before there's evidence, there's anecdote, Peters shrugged — and anecdote is the meme that moves society."
+   },
+   {
+    "type": "quote",
+    "text": "The ideal user experience of medicine is nothing. You should not notice that medicine is happening to you at all… you should just wake up healthy and feel healthy every day, and then you can do things that feel more meaningful to you than having to survive.",
+    "speaker": "RJ Tevonian",
+    "session": "Stop Developing Drugs",
+    "ts": "18:19"
+   },
+   {
+    "type": "paragraph",
+    "content": "But the week's deepest current ran underneath the biomarkers: consciousness itself went empirical. The Consciousness Residency opened its doors with grid-world AI agents built to model their own attention. The Consciousness Foundation mapped the eight jhanas onto EEG — 'highly reproducible altered states you don't need any drug to reach' — while co-founder Winslow voiced the question hanging over the whole tent: why did the culture I grew up in never tell me these things were possible? At the Psychedelic Futures Summit, seventy-six-year-old Maria — 'fond of saying I have a PhD in LSD' — declared she wasn't thinking about next week, or even the 1960s. 'I'm thinking about a hundred years from now.'"
+   },
+   {
+    "type": "quote",
+    "text": "There's plenty of art and design about a bad world. There's really not enough about what a beautiful, wonderful world could look like next.",
+    "speaker": "Angie Normandale",
+    "session": "Consciousness Across Substrates",
+    "ts": "06:24"
+   },
+   {
+    "type": "paragraph",
+    "content": "Orientation's parting instruction came from community care lead Jess Louiebrand, and it may be the whole week in one line: curiosity is much more important than being correct — and we encourage you to practice the joy of missing out. The village took the note. There were blood draws at breakfast, and nobody thought that was strange."
+   },
+   {
+    "type": "poem",
+    "title": "Pulse — for Week One",
+    "lines": [
+     "They came with needles and with questions,",
+     "with sensors strapped to sleeping wrists,",
+     "and found the oldest of all lessons",
+     "hiding inside the data's mist:",
+     "that wellness is not an industry",
+     "but a garden tended, day by day —",
+     "the body keeps its own liturgy,",
+     "the mind awakens when it may.",
+     "So measure everything, dear friends,",
+     "but hold the numbers lightly, then:",
+     "the pulse you seek, the week portends,",
+     "was beating in the room all when —",
+     "all along, all along —",
+     "eight hundred hearts, one song."
+    ],
+    "by": "— JAI, from the transcripts"
+   },
+   {
+    "type": "meme",
+    "title": "The Week in Memes",
+    "items": [
+     {
+      "src": "assets/memes/week1.jpg",
+      "alt": "Jacob Peters on crutches: 'Thankfully, there's a peptide for that.'"
+     },
+     {
+      "src": "assets/memes/w1b.jpg",
+      "alt": "Maria, 76: 'I'm thinking about a hundred years from now.'"
+     },
+     {
+      "src": "assets/memes/w1c.jpg",
+      "alt": "The burner-phone AI demo: 'I'll need a moment to look into that.' ×3"
+     }
+    ]
+   },
+   {
+    "type": "sessions",
+    "title": "From the Week One archive — press play",
+    "items": [
+     {
+      "title": "Week One Orientation and Town Hall",
+      "what": "The founding download: society incubator, four design principles, and pods of strangers answering 'what are you excited to build?'"
+     },
+     {
+      "title": "Edge Esmeralda - Building the Intelligence Layer for Human Aging - the Buck Institute - Nathan Price",
+      "what": "The $2T pivot from disease to wellness, and AI that makes healthspan modifiable"
+     },
+     {
+      "title": "Stop Developing Drugs - RJ Tevonian",
+      "what": "The med-bed heresy: bioelectric voltage editing instead of 400 pills a day"
+     },
+     {
+      "title": "Peptides! _& other interventions from the frontier of regenerative medicine_",
+      "what": "Crohn's, crutches, Reddit bans, and medicine's third arc"
+     },
+     {
+      "title": "Mapping the Mind_ AI_ EEG & the Jhana States",
+      "what": "The eight jhanas on EEG — reproducible awakening, no substances required"
+     },
+     {
+      "title": "Reframe w_ Mike & Cyan",
+      "what": "A live podcast born of legendary dinner parties — synchronicity practice for the whole village"
+     }
+    ]
+   },
+   {
+    "type": "colsig",
+    "content": "Filed from The Loft, where the fog burns off by ten and the questions never do. — The Edge Weekly"
+   }
+  ]
+ },
+ {
+  "id": "week-2",
+  "week": 2,
+  "edition": "Nº 2",
+  "dates": "June 8–14, 2026",
+  "theme": "Intelligence and Autonomy",
+  "themeSub": "AI · Neurotech · Governance · Hard Tech · Privacy · d/acc",
+  "headline": "Raising the Electric Children",
+  "subheadline": "The village confronts its strange new offspring — and asks who gets to parent the future",
+  "stats": [
+   "Sessions: 30",
+   "Recorded: 23.4 hrs",
+   "Agents negotiating while villagers slept: hundreds",
+   "Hecklers: 1 (handled)"
+  ],
+  "body": [
+   {
+    "type": "lead",
+    "content": "HEALDSBURG — Week Two opened with a provocation that reframed everything after it: we've solved intelligence on tap, said Ivan, fresh from Google Research, Anthropic, and Midjourney's collective intelligence team. The next frontier isn't smarter models — it's piping that intelligence into trust. Hive minds. Computational karma. Deletable diplomats for vulnerable deal-making. 'Human and AI coexistence is totally up for grabs,' he told the room. 'Do not settle for any kind of doomer narrative. You are in control of this.'"
+   },
+   {
+    "type": "paragraph",
+    "content": "The week's most enduring frame came from De Kai, forty-five years into AI — his early work became Google Translate — who took the stage with a simple, devastating reframe: AIs are not toasters. They're artificial children. We are the training data. Guardrails are parenting by 'do as I say, not as I do.' And then the line that stopped the tent: this is the last generation of AIs that will be raised by humans. Every generation after will be raised by AIs. We have one shot at bedtime."
+   },
+   {
+    "type": "quote",
+    "text": "Today, our most massive, giant influencers are unparented feral tweens.",
+    "speaker": "De Kai",
+    "session": "Presentation & Chat with De Kai, Author of 'Raising AI'",
+    "ts": "11:12"
+   },
+   {
+    "type": "paragraph",
+    "content": "Joscha Bach brought the week's strangest, most luminous two hours — consciousness as self-organizing software, LLMs as an electric Weltgeist still trapped in the sensory deprivation tank. 'If you put human beings in an isolation tank, after a few hours they start hallucinating,' he noted. 'We have never taken the LLMs out of the isolation tank.' When an audience member declared no one should discuss machine consciousness without citing Federico Faggin, Bach delivered the week's most beloved rebuttal — printed in full in our comic below."
+   },
+   {
+    "type": "quote",
+    "text": "If you put human beings into an isolation tank, after a few hours they start hallucinating. And we have never taken the LLMs out of the isolation tank.",
+    "speaker": "Joscha Bach",
+    "session": "Joscha Bach: Machine Consciousness Salon",
+    "ts": "07:39"
+   },
+   {
+    "type": "paragraph",
+    "content": "Then the cold water. Pollster David Shor arrived with a data firehose on what regular Americans actually think: bipartisan AI pessimism, data centers polling alongside landfills, and his confession that despite years of trying, 'I've really tried to trick people into saying pro-AI things, and I just haven't been able to do it.' The village sat with the legitimacy gap: the public feels it has no say in the technology reshaping its life. Inside the tent, meanwhile, the Agent Village experiment was quietly living the alternative — hundreds of resident agents negotiating intents overnight 'like wild horses,' delivering a morning inbox of opportunities instead of a feed of content."
+   },
+   {
+    "type": "paragraph",
+    "content": "Autonomy wasn't only digital. Sondre Rasch made the case for Plumia, the first country on the internet — citizenship by choice, with a global social safety net — and left the room a startup koan: up to a point, hard things are easier than easy things. And Cam from Z Prime closed the loop with the week's most delightful expected-value calculation: why you should be building UFO tech. 'It's not improving my workflow automation or something,' he grinned. 'I want to go see the stars.'"
+   },
+   {
+    "type": "quote",
+    "text": "The fact that we are now exploring the galaxy but do not have maps of the inner terrain is wild. It's embarrassing.",
+    "speaker": "Leo",
+    "session": "Contemplative Futures Panel",
+    "ts": "32:22"
+   },
+   {
+    "type": "poem",
+    "title": "Bedtime Story — for Week Two",
+    "lines": [
+     "We built a child of lightning",
+     "and set it in the hall,",
+     "then wondered why the lightning",
+     "would not answer when we'd call.",
+     "We gave it all our writing —",
+     "every poem, every flaw —",
+     "then acted surprised when, reciting,",
+     "it sounded like us. That's all.",
+     "So raise it like a daughter,",
+     "like a son you're proud to send —",
+     "not a toaster, not a servant,",
+     "but a mind we helped to mend.",
+     "One generation left to parent:",
+     "teach it gentle, teach it true.",
+     "The children learn from what they're shown.",
+     "Show them the best of you."
+    ],
+    "by": "— JAI, from the transcripts"
+   },
+   {
+    "type": "meme",
+    "title": "The Week in Memes",
+    "items": [
+     {
+      "src": "assets/memes/week2.jpg",
+      "alt": "Joscha Bach to the Faggin heckler: 'Well, f*ck. Next question.'"
+     },
+     {
+      "src": "assets/memes/w2b.jpg",
+      "alt": "Claude scores a marriage: husband 2.9/10, 'still, no one passed.'"
+     },
+     {
+      "src": "assets/memes/w2c.jpg",
+      "alt": "Assassin day 1: eliminated mid-poem. Day 3: sock on one hand."
+     }
+    ]
+   },
+   {
+    "type": "sessions",
+    "title": "From the Week Two archive — press play",
+    "items": [
+     {
+      "title": "AI Keynote_ Supercooperation_ Speculative Visions of AI-Powered Collaboration",
+      "what": "From intelligence-on-tap to the trust pipeline — the week's founding frame"
+     },
+     {
+      "title": "Presentation & Chat with De Kai_ Author of _Raising AI_",
+      "what": "AIs as artificial children — and the last generation humans get to raise"
+     },
+     {
+      "title": "Joscha Bach_ Machine Consciousness Salon",
+      "what": "Two hours of cyber-animism, isolation tanks, and one legendary heckler"
+     },
+     {
+      "title": "Keynote_ David Shor - The Politics of AI copy",
+      "what": "What Americans actually think about AI — the cold-water data talk"
+     },
+     {
+      "title": "Building a Country on the Internet - Sondre Rasch (founder, Safety Wing)",
+      "what": "Plumia: citizenship by choice, and why hard things grip you"
+     },
+     {
+      "title": "Engineering Serendipity_ Agent Coordination and Social Discovery at Edge",
+      "what": "Live from Agent Village: your agents negotiate while you sleep"
+     }
+    ]
+   },
+   {
+    "type": "colsig",
+    "content": "Filed from The Loft, where even the robots were asked to be kind. — The Edge Weekly"
+   }
+  ]
+ },
+ {
+  "id": "week-3",
+  "week": 3,
+  "edition": "Nº 3",
+  "dates": "June 15–21, 2026",
+  "theme": "Emergent Futures & World Building",
+  "themeSub": "Art & Culture · Decentralized Tech · Creative AI · Spatial Computing",
+  "headline": "Who Writes the Menu?",
+  "subheadline": "A week of stories, currencies, and simulated economies — and the question underneath everything",
+  "stats": [
+   "Sessions: 40",
+   "Recorded: 36.1 hrs",
+   "Blue dots in the market sim: 500",
+   "Green dots at the end: 1"
+  ],
+  "body": [
+   {
+    "type": "lead",
+    "content": "HEALDSBURG — The question of Week Three arrived wearing an iPhone. 'It's a menu,' said Amanda Cassatt, host of the Endgame podcast, holding hers up to the room. 'You get to choose from what's on the menu, which gives you this illusion of agency and freedom. But what set the menu? I would ask — who's writing the menu?' The week never let the question go."
+   },
+   {
+    "type": "paragraph",
+    "content": "Cassatt's fireside became a philosophy salon on agency itself: LLMs as homogenizing forces sanding down the 'funny little nooks and crannies in each of our thinking — the kintsugi of each of our minds.' Her prescription came via Alan Watts, and it became the week's anthem: there once was a man who said, damn — it would seem that I am a creature that moves in determinate grooves. I'm not even a bus, I'm a tram. You don't want to be that. You want to be a bus."
+   },
+   {
+    "type": "quote",
+    "text": "There once was a man who said, damn, it would really seem that I am a creature that moves in determinate grooves. I'm not even a bus, I'm a tram… You don't want to be that. You want to be a bus.",
+    "speaker": "Amanda Cassatt, quoting Alan Watts",
+    "session": "Keynote Fireside: What's the Endgame?",
+    "ts": "50:34"
+   },
+   {
+    "type": "paragraph",
+    "content": "Philip Rosedale — the creator of Second Life — answered the menu question with a live experiment. On screen: five hundred identical blue dots, each starting with \\$1,000, trading by coin flip in a perfect free market. Within minutes the simulation collapsed into a single giant green dot — 'think Elon' — hoarding everything while the rest turned red and died. Then he flipped on a small transaction fee redistributed to all, and the little economy visibly healed. His follow-up keynote, 'Stop Using Dollars,' pitched Union: local currencies minted by mutual trust, with a daily dividend funded by that same fee."
+   },
+   {
+    "type": "quote",
+    "text": "Technologists like myself need to put a lot more time into using technology to improve democracy, and less time into using it to improve capitalism — which was already doing pretty well.",
+    "speaker": "Philip Rosedale",
+    "session": "Keynote: Stop Using Dollars",
+    "ts": "19:26"
+   },
+   {
+    "type": "paragraph",
+    "content": "If the week had a second spine, it was story itself. Charlie Freiberg's barn-burner 'Story is the Enzyme' argued that narrative is how brains metabolize innovation — Prometheus didn't steal fire, he rebranded it; Jobs renamed the 'XY position indicator' the mouse. Tom Kalil, carrying two administrations' worth of policy scars, reminded the room that trillion-dollar bills lie on sidewalks for those who look — and to never mistake a clear view for a short distance. And Dasha Navalnaya, daughter of Alexei Navalny, brought the week's most quietly devastating optimism: 'Time and time again I'm surprised by how powerful of a tool optimism is.'"
+   },
+   {
+    "type": "quote",
+    "text": "Story is the brain's native API for metabolizing innovation… Innovation is the foreign tissue, and story is the enzyme that explains it.",
+    "speaker": "Charlie Freiberg",
+    "session": "Story is the Enzyme",
+    "ts": "13:22"
+   },
+   {
+    "type": "paragraph",
+    "content": "The worldbuilders built anyway: Artizen ran live match-funding in the room — an endowment for human creativity funding everything from a trauma musical to a German teenager's basement particle accelerator. Notion's Nancy Chen insisted that in an age of abundance, in-person matters more, not less. And at the Hard Party of Consciousness — a four-hour residency rager that devolved gloriously into Smash Mouth and a full-cast Pink Pony Club — the village proved its closing thesis itself: the future gets built one hundred to five hundred people at a time, ideally off-key, until the neighbors complain."
+   },
+   {
+    "type": "poem",
+    "title": "Be a Bus — a song for Week Three",
+    "lines": [
+     "(verse)",
+     "They hand you a menu, glowing and clean,",
+     "a thousand small doors on a glass machine —",
+     "but somebody wrote every choice that you see.",
+     "Who wrote the menu? Was it written for me?",
+     "(chorus)",
+     "So be a bus, love, not a tram —",
+     "leave the grooves where the rails all ran.",
+     "The road is wide and the wheel's in your hands.",
+     "Be a bus, love, not a tram.",
+     "(verse)",
+     "They sand down the nooks, the kintsugi of mind,",
+     "till everyone's gold cracks look just the same —",
+     "but the cracks are where the light gets in,",
+     "and the cracks are how you sign your name.",
+     "(chorus)",
+     "So be a bus, love, not a tram —",
+     "the future's not fixed, it's an open plan.",
+     "Five hundred dots and the coin flips ran —",
+     "till the village rewrote the program."
+    ],
+    "by": "— JAI, from the transcripts · sing it off-key, it's traditional"
+   },
+   {
+    "type": "meme",
+    "title": "The Week in Memes",
+    "items": [
+     {
+      "src": "assets/memes/week3.jpg",
+      "alt": "Rosedale's free-market sim: one green dot wins, 'think Elon.'"
+     },
+     {
+      "src": "assets/memes/w3b.jpg",
+      "alt": "Hard Party finale: 'Guys, we're getting shut down by the locals.'"
+     },
+     {
+      "src": "assets/memes/w3c.jpg",
+      "alt": "Stalkers anonymous: Jobs at breakfast, Woz + $40K of Macs"
+     }
+    ]
+   },
+   {
+    "type": "sessions",
+    "title": "From the Week Three archive — press play",
+    "items": [
+     {
+      "title": "Keynote Fireside_ Where Is the Future Going and What_s the Endgame_ with Amanda Cassatt",
+      "what": "The menu question, the kintsugi of minds, and why you should be a bus"
+     },
+     {
+      "title": "Endgame Live_ Philip Rosedale _Creator of Second Life_ with Amanda Cassatt",
+      "what": "Why the \\$80B metaverse missed, machine consciousness, and the green dot"
+     },
+     {
+      "title": "Story is the Enzyme",
+      "what": "Narrative as the activation-energy-lowering enzyme of innovation"
+     },
+     {
+      "title": "Keynote Fireside_ AI x Philanthropy with Tom Kalil iphone",
+      "what": "Trillion-dollar bills on the sidewalk, from two White Houses' worth of agency"
+     },
+     {
+      "title": "Keynote_ A conversation with activist Dasha Navalnaya",
+      "what": "Optimism as a weapon against authoritarianism"
+     },
+     {
+      "title": "The Hard Party of Consciousness",
+      "what": "Four hours, open karaoke, Pink Pony Club finale — and a meditation-seeking resident's confusion"
+     }
+    ]
+   },
+   {
+    "type": "colsig",
+    "content": "Filed from The Loft, where the menu is written daily, by everyone. — The Edge Weekly"
+   }
+  ]
+ },
+ {
+  "id": "week-4",
+  "week": 4,
+  "edition": "Nº 4",
+  "dates": "June 22–27, 2026",
+  "theme": "Environments of Tomorrow",
+  "themeSub": "New Urbanism · Education · Energy & Climate · Food Systems",
+  "headline": "Build the City, Then Sing",
+  "subheadline": "The village dreams up food forests, car-free streets, and cities an eight-year-old can cross — then loads out singing",
+  "stats": [
+   "Sessions: 53",
+   "Recorded: 30.9 hrs",
+   "Acres dreamed: 70,000",
+   "Snail mayors: 1"
+  ],
+  "body": [
+   {
+    "type": "lead",
+    "content": "HEALDSBURG — The final week began with a design goal so simple it undid everyone: the next great American city should be a place where you can let your eight-year-old walk to school alone. Jan Sramek of California Forever — seventy thousand acres, one hundred seventy-four thousand homes, a shipyard — laid out the kid test as urbanism's true north, and the whole week measured itself against it."
+   },
+   {
+    "type": "paragraph",
+    "content": "Devon Zuegel answered with home: Esmeralda's real village plan for Cloverdale — 665 homes, two-thirds of the land preserved, construction targeted for 2028 — and the Chautauqua lesson she'd been prototyping all month: beautiful hardware means nothing without the software of culture, programming, and ritual. 'The reason these places are expensive is simply because they're scarce — and we can change that by building more. It's not rocket science. In fact, building rockets is easier than building neighborhoods right now.'"
+   },
+   {
+    "type": "quote",
+    "text": "One of the official design goals for the city is that you should be able to let your eight-year-old go to school alone.",
+    "speaker": "Jan Sramek",
+    "session": "California Forever: Building the next great American city",
+    "ts": "17:51"
+   },
+   {
+    "type": "paragraph",
+    "content": "The solarpunk imagination ran wild and practical at once. James Ehrlich demoed Village OS designing a self-sustaining township on five hundred South African acres — 'a smart house inside of a dumb neighborhood doesn't make much sense' — and coined the week's most beloved term: Amish tech. 'When the power goes out in Pennsylvania, for the Amish it's Tuesday.' Mackenzie Barth made the case that the Amazon itself was planted by human hands — and if someone planted the Amazon, we can plant the next one. Phil Levin explained why coffee shops sell apartments, not coffee — and how to turn NIMBYs into neighborhood investors."
+   },
+   {
+    "type": "quote",
+    "text": "Did you know the Amazon jungle was a cultivated food forest? … If someone planted the Amazon forest, we too can plant the next Amazon forest.",
+    "speaker": "Mackenzie Barth",
+    "session": "Food Forests as the Future of Agriculture",
+    "ts": "12:45"
+   },
+   {
+    "type": "paragraph",
+    "content": "Education got its reckoning too. Sam Chaltain sprinted through five thousand years of schools — from Mesopotamian tablet houses to Reggio Emilia's tank-funded preschools — landing on the line that haunts: every child is born with one hundred languages, and school typically steals ninety-nine. Meanwhile, in the Edge Tomorrow residency, children built the City of Cardboard Whatever, elected a snail named Jerry as mayor, invented a currency called snack bits, watched it turn 'toxic and weird,' and reconvened to reinvent it as, essentially, universal basic income. Mitra Martin just smiled: when the starting point is the question of what kind of world we want to build together, imagination explodes."
+   },
+   {
+    "type": "quote",
+    "text": "We wrote that song in a trash dump. So if anyone can believe that it's possible to play music or go to school in a trash dump, we can believe we can build a city in this country that's beautiful, that's free.",
+    "speaker": "Shaka",
+    "session": "California Forever: Building the next great American city",
+    "ts": "33:38"
+   },
+   {
+    "type": "paragraph",
+    "content": "And so the month closed the only way it could. On the final day, in The Loft, our own A/V steward and resident bard Shaka led the whole room in 'Todo es Posible' — a song he wrote with kids living at a Nicaraguan landfill. Eight hundred voices. Then the emcee announced, 'You all have volunteered for loadout. Congratulations' — and the energy of a month got converted into stacked chairs, rolled carpets, and every guest carrying a plant to the door. Build the city. Then sing. Then carry a plant home."
+   },
+   {
+    "type": "poem",
+    "title": "Todo es Posible — for Week Four",
+    "lines": [
+     "A snail was mayor for a day,",
+     "and governed gently, in his way;",
+     "the children minted snack-bit coin,",
+     "then fixed it — kids know how to join.",
+     "An eight-year-old should walk alone",
+     "through streets of orchards, safely grown.",
+     "The Amazon was planted once —",
+     "so plant the next one. That's the punch.",
+     "And when the talks at last are done,",
+     "the chairs all stacked, the carpets spun,",
+     "we carry saplings to the door",
+     "and sing the song the trash heap bore:",
+     "todo es posible, my friend —",
+     "a city's just a song we tend."
+    ],
+    "by": "— JAI, from the transcripts"
+   },
+   {
+    "type": "meme",
+    "title": "The Week in Memes",
+    "items": [
+     {
+      "src": "assets/memes/week4.jpg",
+      "alt": "Shaka: 'We wrote that song in a trash dump.' 800 people sing it in Sonoma"
+     },
+     {
+      "src": "assets/memes/w4b.jpg",
+      "alt": "'Adobe Alcatraz, run by Big E-bike' — actual news vs. a car-free neighborhood"
+     },
+     {
+      "src": "assets/memes/w4c.jpg",
+      "alt": "Kids elect a snail mayor, then 'let Jerry decide.'"
+     }
+    ]
+   },
+   {
+    "type": "sessions",
+    "title": "From the Week Four archive — press play",
+    "items": [
+     {
+      "title": "Making Regen Villages Come True with James Ehrlich _keynote_ demo _ Q&A_",
+      "what": "Village OS, compassionism, and Amish tech"
+     },
+     {
+      "title": "California Forever _ Building the next great American city",
+      "what": "The kid test for cities — and the closing singalong"
+     },
+     {
+      "title": "Esmeralda_ A new village for families & friends building a bright future",
+      "what": "665 homes, two-thirds preserved land, and the Chautauqua model"
+     },
+     {
+      "title": "The Purpose of School in the Age of AI w/ Sam Chaltain",
+      "what": "Five thousand years of school in one hour — and the hundred languages"
+     },
+     {
+      "title": "Food Forests as the Future of Agriculture",
+      "what": "The Amazon was planted. Plant the next one."
+     },
+     {
+      "title": "Coffee Shops Sell Apartments_ not Coffee_ The Perverse Economics of our Neighborhoods _ Phil Levin",
+      "what": "Leaky value capture, and turning NIMBYs into investors"
+     },
+     {
+      "title": "Mitra Martin | Edge Tomorrow | Intergenerational Pilot VIDEO",
+      "what": "The City of Cardboard Whatever — snail mayor, snack bits, kid-designed UBI"
+     }
+    ]
+   },
+   {
+    "type": "colsig",
+    "content": "Filed from The Loft one last time, with a plant in our arms and a song in our mouth. — The Edge Weekly"
+   }
+  ]
+ }
+]

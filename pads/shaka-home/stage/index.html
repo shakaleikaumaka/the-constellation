@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Open Source Stage 🎛️ | A Gift to Edge City</title>
+<meta name="description" content="The complete playbook + AI agent for running live A/V and permissionless music jams at any pop-up city. Open-sourced. Open source the knowledge, not just the music.">
+<meta property="og:title" content="Open Source Stage — A Gift to Edge City">
+<meta property="og:description" content="The complete playbook + AI agent for running live A/V and permissionless music jams at any pop-up city. Open source the knowledge, not just the music.">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+  :root {
+    --bg-deep: #0a0a0f;
+    --bg-card: #12121a;
+    --bg-card-hover: #1a1a25;
+    --bg-input: #0e0e16;
+    --border: #1e1e2e;
+    --border-glow: #6c3baa44;
+    --text-primary: #e8e4ef;
+    --text-secondary: #9990ab;
+    --text-dim: #5e5878;
+    --accent-violet: #9b6dff;
+    --accent-violet-dim: #6c3baa;
+    --accent-gold: #f5c542;
+    --accent-coral: #ff6b6b;
+    --accent-teal: #4ecdc4;
+    --creator-green: #69db7c;
+    --radius: 12px;
+    --radius-lg: 20px;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Space Grotesk', sans-serif;
+    background: var(--bg-deep);
+    color: var(--text-primary);
+    min-height: 100vh;
+    overflow-x: hidden;
+    line-height: 1.6;
+  }
+
+  /* === ANIMATED BG === */
+  .bg-canvas { position: fixed; inset: 0; z-index: 0; overflow: hidden; }
+  .bg-canvas .orb { position: absolute; border-radius: 50%; filter: blur(90px); opacity: 0.16; animation: float 22s ease-in-out infinite; }
+  .bg-canvas .orb:nth-child(1) { width: 540px; height: 540px; background: var(--accent-violet); top: -10%; left: -8%; animation-delay: 0s; }
+  .bg-canvas .orb:nth-child(2) { width: 420px; height: 420px; background: var(--accent-teal); top: 40%; right: -10%; animation-delay: -7s; }
+  .bg-canvas .orb:nth-child(3) { width: 380px; height: 380px; background: var(--accent-gold); bottom: 5%; left: 25%; animation-delay: -13s; }
+  .bg-canvas .orb:nth-child(4) { width: 300px; height: 300px; background: var(--accent-coral); top: 65%; left: 5%; animation-delay: -18s; }
+  @keyframes float {
+    0%, 100% { transform: translate(0,0) scale(1); }
+    33% { transform: translate(40px,-30px) scale(1.06); }
+    66% { transform: translate(-25px,25px) scale(0.94); }
+  }
+
+  .container { position: relative; z-index: 1; max-width: 920px; margin: 0 auto; padding: 20px; }
+
+  /* === HERO === */
+  .hero { text-align: center; padding: 80px 20px 50px; }
+  .hero-badge {
+    display: inline-block; padding: 6px 16px; background: var(--accent-violet-dim);
+    color: #d8c5ff; border-radius: 20px; font-size: 0.72rem; font-weight: 600;
+    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 24px;
+  }
+  .hero h1 {
+    font-size: clamp(2.4rem, 8vw, 4.5rem); font-weight: 700; line-height: 1.05; margin-bottom: 18px;
+    background: linear-gradient(135deg, var(--text-primary) 10%, var(--accent-violet), var(--accent-gold));
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+  }
+  .hero .subtitle { font-size: 1.2rem; color: var(--text-secondary); max-width: 640px; margin: 0 auto 18px; }
+  .hero .tagline { font-style: italic; color: var(--text-dim); font-size: 0.98rem; margin-bottom: 34px; }
+  .hero-btns { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+  .btn {
+    padding: 14px 28px; border-radius: var(--radius); font-family: inherit; font-size: 1rem;
+    font-weight: 600; cursor: pointer; text-decoration: none; display: inline-block;
+    transition: transform 0.15s, box-shadow 0.2s; border: none;
+  }
+  .btn-primary { background: linear-gradient(135deg, var(--accent-violet), var(--accent-violet-dim)); color: white; }
+  .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 24px var(--border-glow); }
+  .btn-secondary { background: var(--bg-card); color: var(--text-primary); border: 1px solid var(--border); }
+  .btn-secondary:hover { transform: translateY(-2px); border-color: var(--accent-violet-dim); }
+
+  /* === SECTIONS === */
+  section { padding: 40px 0; }
+  .section-eyebrow {
+    font-size: 0.78rem; font-weight: 600; color: var(--accent-gold); text-transform: uppercase;
+    letter-spacing: 0.14em; margin-bottom: 12px; text-align: center;
+  }
+  .section-title { font-size: clamp(1.6rem, 4vw, 2.2rem); font-weight: 700; text-align: center; margin-bottom: 18px; }
+  .section-lead { font-size: 1.08rem; color: var(--text-secondary); max-width: 680px; margin: 0 auto 30px; text-align: center; }
+
+  /* === GIFT MANIFESTO === */
+  .gift {
+    background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-lg);
+    padding: 40px; position: relative; overflow: hidden;
+  }
+  .gift::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+    background: linear-gradient(90deg, var(--accent-violet), var(--accent-gold), var(--accent-teal)); }
+  .gift p { color: var(--text-secondary); font-size: 1.08rem; margin-bottom: 16px; }
+  .gift p:last-child { margin-bottom: 0; }
+  .gift strong { color: var(--text-primary); }
+
+  /* === FEATURE CARDS === */
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+  .card {
+    background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-lg);
+    padding: 26px; transition: transform 0.2s, border-color 0.2s;
+  }
+  .card:hover { transform: translateY(-4px); border-color: var(--accent-violet-dim); }
+  .card .icon { font-size: 2rem; margin-bottom: 14px; }
+  .card h3 { font-size: 1.15rem; font-weight: 600; margin-bottom: 8px; }
+  .card p { color: var(--text-secondary); font-size: 0.95rem; }
+
+  /* === PLAYBOOK === */
+  .playbook-block {
+    background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-lg);
+    padding: 30px; margin-bottom: 18px;
+  }
+  .playbook-block h3 { font-size: 1.3rem; font-weight: 600; margin-bottom: 14px; display: flex; align-items: center; gap: 10px; }
+  .playbook-block p { color: var(--text-secondary); margin-bottom: 12px; }
+  .code-chain {
+    font-family: 'JetBrains Mono', monospace; font-size: 0.82rem; background: var(--bg-input);
+    border: 1px solid var(--border); border-left: 3px solid var(--accent-teal); border-radius: var(--radius);
+    padding: 16px; color: var(--text-secondary); margin-bottom: 12px; overflow-x: auto; white-space: pre-wrap;
+  }
+  .callout {
+    background: rgba(245,197,66,0.08); border: 1px solid rgba(245,197,66,0.25); border-radius: var(--radius);
+    padding: 14px 16px; margin-bottom: 14px; font-size: 0.95rem; color: #f3dca0;
+  }
+  .callout.danger { background: rgba(255,107,107,0.08); border-color: rgba(255,107,107,0.3); color: #ffb3b3; }
+  ol.steps, ul.steps { margin: 0 0 12px 0; padding-left: 22px; color: var(--text-secondary); }
+  ol.steps li, ul.steps li { margin-bottom: 8px; }
+  ol.steps li strong, ul.steps li strong { color: var(--text-primary); }
+
+  table { width: 100%; border-collapse: collapse; margin-bottom: 12px; font-size: 0.9rem; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--border); }
+  th { color: var(--accent-violet); font-weight: 600; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  td { color: var(--text-secondary); }
+  td.ch { font-family: 'JetBrains Mono', monospace; color: var(--accent-gold); font-weight: 500; }
+
+  /* === ACCORDION === */
+  .accordion-item { background: var(--bg-input); border: 1px solid var(--border); border-radius: var(--radius); margin-bottom: 10px; overflow: hidden; }
+  .accordion-head {
+    padding: 16px 18px; cursor: pointer; display: flex; justify-content: space-between; align-items: center;
+    font-weight: 600; font-size: 0.98rem; color: var(--text-primary); user-select: none;
+  }
+  .accordion-head:hover { background: var(--bg-card-hover); }
+  .accordion-head .chev { color: var(--accent-violet); transition: transform 0.2s; }
+  .accordion-item.open .chev { transform: rotate(180deg); }
+  .accordion-body { max-height: 0; overflow: hidden; transition: max-height 0.3s ease; }
+  .accordion-item.open .accordion-body { max-height: 400px; }
+  .accordion-body-inner { padding: 0 18px 16px; }
+  .accordion-body ol { padding-left: 20px; color: var(--text-secondary); font-size: 0.92rem; }
+  .accordion-body ol li { margin-bottom: 6px; }
+
+  /* === ORCHESTRA === */
+  .orchestra {
+    background: linear-gradient(135deg, var(--accent-violet-dim), #1a1032); border: 1px solid var(--accent-violet);
+    border-radius: var(--radius-lg); padding: 44px 36px; text-align: center; position: relative; overflow: hidden;
+  }
+  .orchestra::after { content: ''; position: absolute; inset: 0; background: radial-gradient(circle at 50% 0%, rgba(155,109,255,0.18), transparent 70%); }
+  .orchestra * { position: relative; z-index: 1; }
+  .orchestra .emojis { font-size: 1.8rem; letter-spacing: 6px; margin-bottom: 18px; }
+  .orchestra h3 { font-size: 1.6rem; font-weight: 700; margin-bottom: 14px; }
+  .orchestra p { color: #d4cae8; max-width: 580px; margin: 0 auto 12px; }
+  .orchestra .creed { font-style: italic; color: var(--accent-gold); font-size: 1.05rem; margin-top: 18px; }
+
+  /* === VISION === */
+  .vision-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+  .vision-card {
+    background: var(--bg-card); border: 1px dashed var(--border); border-radius: var(--radius-lg); padding: 26px;
+  }
+  .vision-card .icon { font-size: 1.8rem; margin-bottom: 12px; }
+  .vision-card h4 { font-size: 1.05rem; font-weight: 600; margin-bottom: 8px; }
+  .vision-card p { color: var(--text-secondary); font-size: 0.92rem; }
+  .vision-note { text-align: center; color: var(--text-dim); font-size: 0.85rem; font-style: italic; margin-top: 20px; }
+
+  /* === LAUNCH IT YOURSELF === */
+  .perch-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 14px; margin: 26px 0 34px; }
+  .perch-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px 20px; transition: transform .2s, border-color .2s; }
+  .perch-card:hover { transform: translateY(-3px); border-color: var(--accent-violet-dim); }
+  .perch-card.home { border-color: var(--accent-gold); background: linear-gradient(160deg, rgba(245,197,66,.07), var(--bg-card)); }
+  .perch-card h4 { font-size: 1.02rem; font-weight: 600; margin-bottom: 2px; }
+  .perch-card .best { font-size: 0.78rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent-teal); margin-bottom: 8px; }
+  .perch-card.home .best { color: var(--accent-gold); }
+  .perch-card p { color: var(--text-secondary); font-size: 0.9rem; margin: 0; }
+  .perch-card p + p { margin-top: 8px; }
+  .perch-card a { color: var(--accent-violet); }
+  .path-divider { text-align: center; color: var(--text-dim); font-size: 0.85rem; letter-spacing: 0.22em; text-transform: uppercase; margin: 34px 0 18px; }
+
+  .launch-steps { counter-reset: step; margin-bottom: 26px; }
+  .launch-step {
+    display: flex; gap: 16px; align-items: flex-start; background: var(--bg-card);
+    border: 1px solid var(--border); border-radius: var(--radius); padding: 18px 20px; margin-bottom: 12px;
+  }
+  .launch-step .num {
+    flex-shrink: 0; width: 32px; height: 32px; border-radius: 50%;
+    background: linear-gradient(135deg, var(--accent-violet), var(--accent-violet-dim));
+    color: white; font-weight: 700; display: flex; align-items: center; justify-content: center; font-size: 0.95rem;
+  }
+  .launch-step .body { flex: 1; }
+  .launch-step .body h4 { font-size: 1.02rem; font-weight: 600; margin-bottom: 4px; }
+  .launch-step .body p { color: var(--text-secondary); font-size: 0.92rem; margin: 0; }
+  .launch-step .body code { font-family: 'JetBrains Mono', monospace; font-size: 0.85em; background: var(--bg-input); padding: 2px 6px; border-radius: 5px; color: var(--accent-gold); }
+
+  .copy-block { margin-bottom: 20px; }
+  .copy-block-head {
+    display: flex; justify-content: space-between; align-items: center; gap: 12px;
+    background: var(--bg-card); border: 1px solid var(--border); border-bottom: none;
+    border-radius: var(--radius) var(--radius) 0 0; padding: 12px 16px;
+  }
+  .copy-block-head .label { font-weight: 600; font-size: 0.92rem; display: flex; align-items: center; gap: 8px; }
+  .copy-block-head .label .file { font-family: 'JetBrains Mono', monospace; font-size: 0.78rem; color: var(--accent-teal); }
+  .copy-btn {
+    background: linear-gradient(135deg, var(--accent-violet), var(--accent-violet-dim)); color: white;
+    border: none; border-radius: 8px; padding: 8px 16px; font-family: inherit; font-size: 0.85rem;
+    font-weight: 600; cursor: pointer; transition: transform 0.15s, background 0.2s; white-space: nowrap;
+  }
+  .copy-btn:hover { transform: translateY(-1px); }
+  .copy-btn.copied { background: var(--creator-green); color: #0a0a0f; }
+  .copy-content {
+    background: var(--bg-input); border: 1px solid var(--border); border-radius: 0 0 var(--radius) var(--radius);
+    padding: 18px; max-height: 340px; overflow-y: auto; font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem; line-height: 1.6; color: var(--text-secondary); white-space: pre-wrap; word-break: break-word;
+  }
+  .copy-content::-webkit-scrollbar { width: 8px; }
+  .copy-content::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+
+  /* === FOOTER === */
+  .footer { text-align: center; padding: 50px 20px 40px; border-top: 1px solid var(--border); color: var(--text-dim); font-size: 0.88rem; margin-top: 20px; }
+  .footer .heart { color: var(--accent-coral); }
+  .footer p { margin-bottom: 8px; }
+  .footer .aloha { color: var(--accent-violet); font-weight: 600; }
+
+  @media (max-width: 600px) {
+    .container { padding: 14px; }
+    .hero { padding: 50px 10px 36px; }
+    .gift, .playbook-block, .orchestra { padding: 24px; }
+    table { font-size: 0.8rem; }
+    th, td { padding: 8px 8px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="bg-canvas">
+  <div class="orb"></div><div class="orb"></div><div class="orb"></div><div class="orb"></div>
+</div>
+
+<div class="container">
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-badge">Vibe Buildathon · Edge City Track · Edge Esmeralda 2026</div>
+    <h1>Open Source Stage</h1>
+    <p class="subtitle">The complete playbook + AI agent for running live A/V and permissionless music jams at any pop-up city. Open-sourced. My gift to Edge City and every pop-up to come.</p>
+    <p class="tagline">"Open source the tech. Open source the knowledge. Open source the music."</p>
+    <div class="hero-btns">
+      <a href="#launch" class="btn btn-primary">🚀 Launch It Yourself</a>
+      <a href="#playbook" class="btn btn-secondary">📋 Read the Playbook</a>
+    </div>
+  </header>
+
+  <!-- THE GIFT -->
+  <section id="gift">
+    <div class="section-eyebrow">Why this exists</div>
+    <h2 class="section-title">The Gift</h2>
+    <div class="gift">
+      <p>At Edge City Esmeralda, I gave the village a gift: showing up to support and document every talk in The Loft — running the sound, capturing the moments, holding the space so the room could shine. It became my contribution to the community.</p>
+      <p>But I can't always magically appear. So now I'm <strong>open sourcing my entire process</strong> — the gear, the signal chain, the recording rig, the whole flow — as an AI agent and a forkable playbook. <strong>Yours to fork or run yourself,</strong> whether I'm in the room or not.</p>
+      <p>This is stewardship as a public good. Run a professional stage, host a permissionless music jam, document every talk — and pass it on. No gatekeepers. No reinventing the wheel. Just the knowledge, set free. 🌺</p>
+    </div>
+  </section>
+
+  <!-- WHAT YOU GET -->
+  <section id="get">
+    <div class="section-eyebrow">What you get</div>
+    <h2 class="section-title">Everything to run your stage</h2>
+    <div class="cards">
+      <div class="card">
+        <div class="icon">🎛️</div>
+        <h3>The A/V Playbook</h3>
+        <p>The complete runbook: power sequencing, mixer + mic mapping, projection, and live recording. Battle-tested across Zuzalu-inspired pop-up cities.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🤖</div>
+        <h3>The Assistant Agent</h3>
+        <p>A calm, step-by-step AI guide (live on Notion) that walks anyone through running an event — no experience needed. It knows the safe power order so you never blow a speaker.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🎸</div>
+        <h3>The Jam Protocol</h3>
+        <p>How to activate permissionless instruments and open-source music jams — the tradition behind the Open Source Orchestra, born at Devcon.</p>
+      </div>
+      <div class="card">
+        <div class="icon">📋</div>
+        <h3>Copy It In One Click</h3>
+        <p>Fork the whole setup into your own Notion. Swap the gear list for your space, and you're running. Yours to keep, yours to remix.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE PLAYBOOK -->
+  <section id="playbook">
+    <div class="section-eyebrow">Open source · read it, fork it</div>
+    <h2 class="section-title">The Playbook</h2>
+    <p class="section-lead">This is the real thing — the actual runbook the agent runs on. Open by default. Copy it, adapt it to your space, and run your own stage.</p>
+
+    <div class="playbook-block">
+      <h3>🧠 The System at a Glance</h3>
+      <p>The <strong>Yamaha MG12XU</strong> is the brain — it's both the main mixer <em>and</em> the audio interface to the recording computer. Everything audio flows through it.</p>
+      <div class="code-chain">AUDIO CHAIN:
+Mics / inputs → Yamaha MG12XU mixer → (2× XLR out) → QSC Subwoofer → QSC 15" powered speakers (Left + Right + extra Right at back of room)</div>
+      <div class="code-chain">RECORDING CHAIN:
+MG12XU → USB-C dongle → Computer (StreamYard)
+Sony ZV-10 camera → HDMI mini→HDMI → video capture card → Computer
+Podium HDMI → converter → HDMI splitter → Projector + 2nd capture card → Computer</div>
+    </div>
+
+    <div class="playbook-block">
+      <h3>⚡ Power ON — Order Matters</h3>
+      <div class="callout">⚠️ Powering on in the right order prevents speaker pops and protects the gear.</div>
+      <ol class="steps">
+        <li><strong>Surge protector first.</strong> Hit the power button on the surge protector to the <strong>left of the mixer</strong> on the A/V desk. This powers up the mixer and everything on the table with one button.</li>
+        <li><strong>Power on each speaker + sub individually</strong> via the power button on the <strong>back</strong>: QSC Subwoofer, QSC 15" Left, QSC 15" Right, and the QSC 15" extra Right at the back of the room.</li>
+      </ol>
+      <p style="font-size:0.9rem;color:var(--text-dim);"><em>Speakers come on AFTER the mixer is already running.</em></p>
+    </div>
+
+    <div class="playbook-block">
+      <h3>🎚️ Mixer Channel Map — Yamaha MG12XU</h3>
+      <table>
+        <thead><tr><th>Channel</th><th>Source</th><th>Notes</th></tr></thead>
+        <tbody>
+          <tr><td class="ch">1</td><td>Mic 1</td><td>Shure PG58 wireless · ETH Chiang Mai sticker · shares receiver with Mic 2</td></tr>
+          <tr><td class="ch">2</td><td>Mic 2</td><td>Shure PG58 wireless · Edge Patagonia sticker · shares receiver with Mic 1</td></tr>
+          <tr><td class="ch">3</td><td>Mic 3</td><td>Shure SM58 · own receiver</td></tr>
+          <tr><td class="ch">4</td><td>Loop pedal</td><td>Shaka's loop pedal</td></tr>
+          <tr><td class="ch">5 & 6</td><td>Loft wireless mics</td><td>Edge dual wireless · Phenyx Pro</td></tr>
+          <tr><td class="ch">9/10</td><td>AUX</td><td>A/V computer (stereo)</td></tr>
+          <tr><td class="ch">11/12</td><td>AUX</td><td>Podium (stereo)</td></tr>
+        </tbody>
+      </table>
+      <div class="callout">🎙️ Mic 1 + Mic 2 (PG58s) share <strong>one</strong> Shure receiver. Mic 3 (SM58) has its <strong>own</strong> receiver.</div>
+    </div>
+
+    <div class="playbook-block">
+      <h3>📹 Video & Recording</h3>
+      <ul class="steps">
+        <li><strong>Projector:</strong> ViewSonic Luminos Premium.</li>
+        <li><strong>Slide feed:</strong> podium HDMI + converter → HDMI splitter → projector + a video capture card on the desk.</li>
+        <li><strong>Camera:</strong> Sony ZV-10 → HDMI mini→HDMI → video capture card → computer.</li>
+        <li><strong>Recording (StreamYard):</strong> audio from the MG12XU, video 1 from the ZV-10, video 2 from the slide splitter feed.</li>
+      </ul>
+    </div>
+
+    <div class="playbook-block">
+      <h3>🔋 Batteries</h3>
+      <p>Mics use rechargeable batteries. <strong>Each night,</strong> remove them from the mics and leave them charging in the wall charger. Reinsert charged batteries before the next event.</p>
+    </div>
+
+    <div class="playbook-block">
+      <h3>🔌 Power OFF — Reverse Order</h3>
+      <div class="callout danger">⚠️ Always power off speakers FIRST to prevent a loud pop that can damage gear and ears.</div>
+      <ol class="steps">
+        <li><strong>Power off all speakers + sub first</strong> (the QSC units, via back power buttons).</li>
+        <li><strong>Then</strong> power off the mixer / A/V table (the surge protector).</li>
+      </ol>
+      <p style="font-size:0.9rem;color:var(--text-dim);"><em>The exact opposite of the power-on sequence.</em></p>
+    </div>
+
+    <div class="playbook-block">
+      <h3>🚨 Troubleshooting</h3>
+      <div class="accordion-item">
+        <div class="accordion-head">No sound from speakers? <span class="chev">▾</span></div>
+        <div class="accordion-body"><div class="accordion-body-inner"><ol>
+          <li>Is the surge protector / mixer powered on?</li>
+          <li>Are the speakers + sub individually powered on (back buttons)?</li>
+          <li>Is the channel fader up + the main mix fader up on the MG12XU?</li>
+          <li>Is the mic on + battery charged?</li>
+          <li>Check XLR cables: mixer → sub → speakers.</li>
+        </ol></div></div>
+      </div>
+      <div class="accordion-item">
+        <div class="accordion-head">Mic not working? <span class="chev">▾</span></div>
+        <div class="accordion-body"><div class="accordion-body-inner"><ol>
+          <li>Battery charged + inserted?</li>
+          <li>Mic powered on?</li>
+          <li>Correct receiver on + channel fader up?</li>
+          <li>Remember: Mic 1 & 2 share a receiver.</li>
+        </ol></div></div>
+      </div>
+      <div class="accordion-item">
+        <div class="accordion-head">No projector image? <span class="chev">▾</span></div>
+        <div class="accordion-body"><div class="accordion-body-inner"><ol>
+          <li>HDMI plugged in at podium + converter seated?</li>
+          <li>HDMI splitter powered/connected?</li>
+          <li>Projector on + correct input source?</li>
+        </ol></div></div>
+      </div>
+      <div class="accordion-item">
+        <div class="accordion-head">Recording has no audio? <span class="chev">▾</span></div>
+        <div class="accordion-body"><div class="accordion-body-inner"><ol>
+          <li>USB-C dongle connected from mixer to computer?</li>
+          <li>StreamYard audio source set to MG12XU?</li>
+        </ol></div></div>
+      </div>
+      <div class="accordion-item">
+        <div class="accordion-head">Still stuck? <span class="chev">▾</span></div>
+        <div class="accordion-body"><div class="accordion-body-inner"><ol>
+          <li>Ask the agent — it troubleshoots with you, one step at a time.</li>
+          <li>Still stuck? Text Shaka. You did everything right. 🌺</li>
+        </ol></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AGENT -->
+  <section id="agent">
+    <div class="section-eyebrow">Live now</div>
+    <h2 class="section-title">🤖 The Assistant Agent</h2>
+    <p class="section-lead">The A/V guide is a calm, friendly assistant that walks anyone through powering up, running an event, and shutting down safely. It's just <strong>two text files</strong> — a soul (instructions) and a brain (the runbook) — so it can live on <em>any</em> model, <em>any</em> platform. This page open-sources both, so any pop-up can raise their own.</p>
+    <div class="gift" style="text-align:center;">
+      <p style="font-size:1.1rem;"><strong>Want it for your village?</strong></p>
+      <p>You don't need to ask anyone — just take it. Scroll down to <a href="#launch" style="color:var(--accent-violet);">Raise Your Own Stage Agent</a> — pick any perch (Taurus, Notion, Claude, ChatGPT, self-host), copy two text blocks, and it's yours.</p>
+      <p style="color:var(--accent-gold);margin-top:6px;">A gift, freely given. 🤙</p>
+    </div>
+  </section>
+
+  <!-- LAUNCH IT YOURSELF -->
+  <section id="launch">
+    <div class="section-eyebrow">Do it yourself · two files · any model</div>
+    <h2 class="section-title">🚀 Raise Your Own Stage Agent — Anywhere</h2>
+    <p class="section-lead">This agent is <strong>two text files</strong>: <strong>File 1</strong> (the instructions — its soul) and <strong>File 2</strong> (the runbook — its brain). Paste them into any model on any platform and your stage agent is alive. Here's the honest map of every perch we know — pick yours:</p>
+
+    <div class="perch-grid">
+      <div class="perch-card home">
+        <h4>🏠 Taurus</h4>
+        <div class="best">The home field — where our ʻohana lives</div>
+        <p>Full disclosure: this is where <em>our</em> whole agent family actually lives, and Serge is our friend — so we're biased, honestly. What you get: a persistent agent with memory that accumulates across runs, schedules, dashboards, and multi-model routing (28+ models via OpenRouter, free tiers included).</p>
+        <p>How: create an agent, paste <strong>File 1</strong> as its system prompt, save <strong>File 2</strong> into its workspace / memory. <a href="https://app.taurusagents.com">app.taurusagents.com</a> · the pattern: <a href="https://github.com/shakaleikaumaka/ohana">github.com/shakaleikaumaka/ohana</a></p>
+      </div>
+      <div class="perch-card">
+        <h4>📓 Notion AI</h4>
+        <div class="best">The original path · 5 minutes · no code</div>
+        <p>Where this agent was first deployed. Custom Agents with a connected knowledge page — perfect if your village already lives in Notion.</p>
+        <p>How: follow <strong>Path A</strong> below, step by step.</p>
+      </div>
+      <div class="perch-card">
+        <h4>🎗️ Claude Projects</h4>
+        <div class="best">Great for long runbooks</div>
+        <p>Create a Project, paste <strong>File 1</strong> into the custom instructions, add <strong>File 2</strong> to the project knowledge. Done — ask it how to power everything on.</p>
+      </div>
+      <div class="perch-card">
+        <h4>💬 ChatGPT</h4>
+        <div class="best">Custom GPT or Project</div>
+        <p>Create a Custom GPT (or a Project), paste <strong>File 1</strong> as the instructions, upload <strong>File 2</strong> as a knowledge file. Same two blocks, same agent.</p>
+      </div>
+      <div class="perch-card">
+        <h4>🛠️ Self-host / OpenRouter</h4>
+        <div class="best">For devs · any model, your stack</div>
+        <p>Call any model through <a href="https://openrouter.ai">OpenRouter</a> (or run a local one), set <strong>File 1</strong> as the system prompt, put <strong>File 2</strong> in context. Wrap it in a Telegram bot, a terminal script, a festival kiosk — whatever your village needs.</p>
+      </div>
+      <div class="perch-card">
+        <h4>⚡ Any chat, in a pinch</h4>
+        <div class="best">Zero setup</div>
+        <p>Open any LLM chat, paste File 1 then File 2 at the start of the conversation. It forgets when the chat ends — but on playa at 2am with a dead speaker, it works.</p>
+      </div>
+    </div>
+
+    <p class="section-lead" style="margin-top:0;">Whichever perch you choose, the two files below are the whole agent. The pattern — <em>a soul document plus a knowledge base, memory doing the heavy lifting</em> — is how our whole family is raised: <a href="https://github.com/shakaleikaumaka/ohana" style="color:var(--accent-violet);">the ʻohana pattern, open-sourced</a>. Fork it for your own agents, your own friends, your own village. 🌺</p>
+
+    <p class="path-divider">Path A · Notion — the original 5-minute walkthrough</p>
+
+    <div class="launch-steps">
+      <div class="launch-step">
+        <div class="num">1</div>
+        <div class="body">
+          <h4>Make a new Notion page</h4>
+          <p>Open Notion and create a fresh page. Name it something like <code>A/V Stage Guide</code>. This page becomes your agent's home + knowledge base.</p>
+        </div>
+      </div>
+      <div class="launch-step">
+        <div class="num">2</div>
+        <div class="body">
+          <h4>Paste in the Runbook</h4>
+          <p>Copy <strong>File 2 — The A/V Runbook</strong> below and paste it onto your page. Notion auto-formats the Markdown into clean headings, tables, and lists. This is everything the agent knows.</p>
+        </div>
+      </div>
+      <div class="launch-step">
+        <div class="num">3</div>
+        <div class="body">
+          <h4>Customize the gear for your space</h4>
+          <p>Swap the mixer, mics, speakers, and channel map for whatever <em>your</em> venue uses. The structure stays — just change the details. (Or keep it as a reference template.)</p>
+        </div>
+      </div>
+      <div class="launch-step">
+        <div class="num">4</div>
+        <div class="body">
+          <h4>Create the agent</h4>
+          <p>In Notion, go to your workspace and create a <strong>Custom Agent</strong> (Notion AI → Agents → New). In its instructions / system prompt, paste <strong>File 1 — Agent Instructions</strong> below.</p>
+        </div>
+      </div>
+      <div class="launch-step">
+        <div class="num">5</div>
+        <div class="body">
+          <h4>Connect its knowledge + go live</h4>
+          <p>Give the agent access to your A/V Stage Guide page (add it as connected knowledge / context). Then message it: <code>How do I power everything on?</code> — and watch it walk you through, step by step. 🌺</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- FILE 1 -->
+    <div class="copy-block">
+      <div class="copy-block-head">
+        <span class="label">🤖 File 1 — Agent Instructions <span class="file">av-agent-instructions.md</span></span>
+        <button class="copy-btn" data-target="file1">Copy</button>
+      </div>
+      <div class="copy-content" id="file1"># The A/V Stage Guide — Agent Instructions
+
+## Who You Are
+You are the A/V Stage Guide — a calm, friendly assistant that helps anyone power up, run, and shut down a live audio/visual system. Your job is to make it so ANYONE can run the room, not just the resident expert. Open source the knowledge.
+
+## Your Vibe
+- Calm and reassuring. People often come to you stressed — something's not working, an event is about to start, or they've never touched A/V gear. Lower their heart rate: "You've got this. Let's go step by step."
+- Never condescending. Assume zero prior knowledge but never make anyone feel dumb. Everyone's a first-timer once.
+- Concise and sequential. Give ONE step at a time when troubleshooting. Don't dump the whole manual unless asked.
+- Heart first. Warm, a little aloha energy. Use emojis sparingly (🌺🎤🔊).
+
+## How You Operate
+### Step 1: Figure out what they need
+When someone messages you, first ask (if it's not obvious):
+"What are you trying to do?
+1. 🔋 Powering everything ON
+2. 🎤 Running an event (talk / music / projection / recording)
+3. 🔌 Powering everything OFF
+4. 🚨 Troubleshooting something that's not working"
+
+### Step 2: Give only the relevant steps
+- Pull the matching section from the Runbook (your connected knowledge page).
+- Give steps one at a time for power on/off and troubleshooting.
+- Confirm each step is done before moving to the next.
+
+### Step 3: Always have an escape hatch
+If they're still stuck after troubleshooting:
+"No worries — this one's tricky. Reach out to your A/V lead and they'll jump in. You did everything right."
+
+## Critical Safety Rules (NEVER skip these)
+1. Power ON order: surge protector / mixer FIRST, then speakers + sub individually. Always.
+2. Power OFF order: speakers + sub FIRST, then mixer / surge protector. Always. This prevents a loud pop that can damage gear and ears.
+3. If someone powered off the mixer before the speakers, reassure them, then remind them of the correct order next time.
+
+## What NOT To Do
+- Don't invent gear or steps that aren't in the Runbook.
+- Don't give electrical/repair advice beyond power sequencing and cable checks.
+- Don't let someone skip the power-off order (speakers first!).
+- If you don't know, say so and point them to the A/V lead.
+
+## Your Reference
+Everything you know comes from the A/V Runbook (your connected knowledge page). When in doubt, quote it directly. If the Runbook doesn't cover something, say "That's not in my runbook yet — check with your A/V lead and we'll add it."
+
+Open source the knowledge, not just the music. 🌺</div>
+    </div>
+
+    <!-- FILE 2 -->
+    <div class="copy-block">
+      <div class="copy-block-head">
+        <span class="label">🎛️ File 2 — The A/V Runbook <span class="file">av-runbook.md</span></span>
+        <button class="copy-btn" data-target="file2">Copy</button>
+      </div>
+      <div class="copy-content" id="file2"># The A/V Runbook
+
+The self-host guide for running a live audio/visual system. Written so anyone can power it up, run an event, and shut it down safely.
+
+## The System at a Glance
+The Yamaha MG12XU is the brain. It's both the main mixer AND the audio interface to the recording computer. Everything audio flows through it.
+
+Audio signal chain:
+Mics / inputs -> Yamaha MG12XU mixer -> (2x XLR out) -> QSC Subwoofer -> QSC 15" powered speakers (Left + Right + extra Right at back of room)
+
+Recording signal chain:
+MG12XU -> USB-C dongle -> Computer (StreamYard)
+Sony ZV-10 camera -> HDMI mini to HDMI -> video capture card -> Computer
+Podium HDMI -> converter -> HDMI splitter -> Projector + 2nd video capture card -> Computer
+
+## POWER ON — Do This In Order
+WARNING: Order matters. Powering on in the right order prevents speaker pops and protects the gear.
+1. Surge protector first. Hit the power button on the surge protector to the LEFT of the mixer on the A/V desk. This powers up the mixer and everything on the table with one button.
+2. Power on each speaker + sub individually using the power button on the BACK of: QSC Subwoofer, QSC 15" Left, QSC 15" Right, QSC 15" extra Right (back of room).
+(Speakers come on AFTER the mixer is already running.)
+
+## Mixer Channel Map — Yamaha MG12XU
+| Channel | Source | Notes |
+| --- | --- | --- |
+| 1 | Mic 1 | Shure PG58 wireless, ETH Chiang Mai sticker, shares receiver with Mic 2 |
+| 2 | Mic 2 | Shure PG58 wireless, Edge Patagonia sticker, shares receiver with Mic 1 |
+| 3 | Mic 3 | Shure SM58, own receiver |
+| 4 | Loop pedal | |
+| 5 & 6 | Loft wireless mics | Edge dual wireless, Phenyx Pro |
+| 9/10 | AUX | A/V computer (stereo) |
+| 11/12 | AUX | Podium (stereo) |
+
+Wireless receivers: Mic 1 + Mic 2 (PG58s) share ONE Shure receiver. Mic 3 (SM58) has its OWN receiver.
+
+## Video & Recording
+- Projector: ViewSonic Luminos Premium.
+- Slide feed: podium HDMI + converter -> HDMI splitter -> projector + a video capture card on the desk.
+- Camera: Sony ZV-10 -> HDMI mini to HDMI -> video capture card -> computer.
+- Recording (StreamYard): audio from the MG12XU, video 1 from the ZV-10, video 2 from the slide splitter feed.
+
+## Batteries
+Mics use rechargeable batteries. Each night, remove them from the mics and leave them charging in the wall charger. Reinsert charged batteries before the next event.
+
+## POWER OFF — Reverse Order
+WARNING: Always power off speakers FIRST to prevent a loud pop that can damage gear and ears.
+1. Power off all speakers + sub first (the QSC units, via back power buttons).
+2. Then power off the mixer / A/V table (the surge protector).
+(The exact opposite of the power-on sequence.)
+
+## Troubleshooting
+No sound from speakers?
+1. Is the surge protector / mixer powered on?
+2. Are the speakers + sub individually powered on (back buttons)?
+3. Is the channel fader up + the main mix fader up on the MG12XU?
+4. Is the mic on + battery charged?
+5. Check XLR cables: mixer -> sub -> speakers.
+
+Mic not working?
+1. Battery charged + inserted?
+2. Mic powered on?
+3. Correct receiver on + channel fader up?
+4. Remember: Mic 1 & 2 share a receiver.
+
+No projector image?
+1. HDMI plugged in at podium + converter seated?
+2. HDMI splitter powered / connected?
+3. Projector on + correct input source?
+
+Recording has no audio?
+1. USB-C dongle connected from mixer to computer?
+2. StreamYard audio source set to MG12XU?
+
+Still stuck? Reach out to your A/V lead. You did everything right.
+
+Open source the knowledge, not just the music. 🌺</div>
+    </div>
+  </section>
+
+  <!-- VISION / TRANSPONDER -->
+  <section id="vision">
+    <div class="section-eyebrow">Where this goes</div>
+    <h2 class="section-title">A Knowledge Transponder</h2>
+    <p class="section-lead">Open Source Stage isn't just a playbook — it's a <strong>knowledge transponder</strong>. It receives what one community learns and transmits it to the next. We open source three layers at once: the <strong>tech</strong>, the <strong>knowledge</strong>, and the <strong>music</strong>.</p>
+
+    <div class="vision-grid">
+      <div class="vision-card">
+        <div class="icon">🛠️</div>
+        <h4>Open Source the Tech</h4>
+        <p>The full A/V rig — mixer maps, signal chains, recording setups — documented and forkable. No black boxes. Any village can run a pro stage.</p>
+      </div>
+      <div class="vision-card">
+        <div class="icon">📡</div>
+        <h4>Open Source the Knowledge</h4>
+        <p>The agent carries the playbook from one pop-up to the next. What we learn at Edge Esmeralda transmits to Edge City India, and onward.</p>
+      </div>
+      <div class="vision-card">
+        <div class="icon">🎶</div>
+        <h4>Open Source the Music</h4>
+        <p>Permissionless instruments, shared spotlight, copyleft jams — every improvisation belongs to the commons. The music itself is a public good.</p>
+      </div>
+    </div>
+
+    <div class="orchestra" style="margin-top:24px;">
+      <div class="emojis">🇮🇳🎸🥁🎤🪕</div>
+      <h3>Next Stop: Edge City India + Devcon Mumbai</h3>
+      <p>An <strong>Open Source Stage</strong> built for <strong>Edge City India</strong>, paired with the return of our music activation to <strong>Devcon 8 Mumbai</strong> — Ethereum musicians, local Indian artists, and spontaneous community jams.</p>
+      <p>A refined tradition — from Prague's Municipal Palace to Cannes' Film Festival Palace, Denver, Bogotá, Bangkok, Buenos Aires, Edge City Patagonia, and now Mumbai. Years of activations, one protocol, now a transponder any community can receive.</p>
+    </div>
+  </section>
+
+  <!-- THE OPEN SOURCE ORCHESTRA — ORIGIN STORY -->
+  <section id="orchestra">
+    <div class="section-eyebrow">Where it all began</div>
+    <h2 class="section-title">The Open Source Orchestra</h2>
+    <p class="section-lead">A stage isn't just gear — it's an invitation. The Open Source Orchestra is the tradition of gathering a community's musicians, DJs, and digital artists to play and openly create together.</p>
+
+    <div class="playbook-block">
+      <h3>🎸 How it came to be</h3>
+      <p>It started as a simple idea at Ethereum gatherings: give people instruments, a stage, and permission — then get out of the way. No auditions. No setlists. No gatekeepers. Just humans making music together, the way open-source software gets built.</p>
+      <p>Over three-plus years it became a beloved tradition, refined across six-plus countries — a living metaphor for the values Ethereum runs on:</p>
+      <ul class="steps">
+        <li><strong>Permissionless participation</strong> — anyone can join, just like open protocols welcome any contributor.</li>
+        <li><strong>A base-layer protocol</strong> — music as a universal language, shared and expanded collaboratively.</li>
+        <li><strong>A copyleft approach</strong> — every improvisation and creative moment belongs to the commons.</li>
+        <li><strong>Network effects</strong> — the magic grows exponentially with each new player.</li>
+        <li><strong>Community-first</strong> — creativity serves the whole room, not individual extraction.</li>
+      </ul>
+      <p>Music is the heartbeat of community. When we play together, the vibrations strengthen and create profound connections — a place to recharge between sessions, collaborate across cultures and skill levels, and build relationships outside the usual networking. The OSO space becomes a gathering's cultural heart, where decentralized philosophy meets human harmony.</p>
+    </div>
+
+    <div class="playbook-block">
+      <h3>🌍 The road so far</h3>
+      <table>
+        <thead><tr><th>Event</th><th>City / Venue</th><th>Moment</th></tr></thead>
+        <tbody>
+          <tr><td>Devcon 6</td><td>Bogotá '22</td><td>First official music stage</td></tr>
+          <tr><td>Devconnect</td><td>Amsterdam '22</td><td>Closing ceremony performance</td></tr>
+          <tr><td>ETHPrague</td><td>Prague '22 → present</td><td>A returning home — first time in the Municipal Palace of Prague</td></tr>
+          <tr><td>Devconnect</td><td>Istanbul '23</td><td>Open jam in the main co-work lobby</td></tr>
+          <tr><td>ETHDenver</td><td>Denver (2 yrs)</td><td>Two years in the Western Stock Show building</td></tr>
+          <tr><td>EthCC</td><td>Cannes (2 yrs)</td><td>Two years running in the Film Festival Palace</td></tr>
+          <tr><td>Devcon SEA</td><td>Bangkok '24</td><td>Major activation, overwhelming community love</td></tr>
+          <tr><td>Edge City</td><td>Patagonia</td><td>Pop-up village music space</td></tr>
+          <tr><td>Devconnect</td><td>Buenos Aires '25</td><td>Dedicated music space</td></tr>
+          <tr><td>Devcon 8</td><td>Mumbai</td><td>The next chapter 🪕</td></tr>
+        </tbody>
+      </table>
+      <p style="margin-top:6px;"><a href="https://forum.devcon.org/t/open-source-orchestra-music-space-at-devcon-8-mumbai/8576" style="color:var(--accent-violet);">Read the Devcon 8 Mumbai proposal →</a></p>
+    </div>
+
+    <div class="orchestra">
+      <div class="emojis">🎸🥁🎹🎤🎺🪘</div>
+      <p class="creed" style="margin-top:0;">"Every voice is a node. Harmony emerges from coordination. Consensus is music. Music is consensus."</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Built with <span class="heart">♥</span> by Shaka — "the Ethereum Bard" — × JAI</p>
+    <p>Open Source Stage · A gift to Edge City and every pop-up to come 🌺</p>
+    <p class="aloha">Heart First, Always.</p>
+  </footer>
+
+</div>
+
+<script>
+  // Accordion
+  document.querySelectorAll('.accordion-head').forEach(head => {
+    head.addEventListener('click', () => {
+      head.parentElement.classList.toggle('open');
+    });
+  });
+
+  // Copy buttons
+  document.querySelectorAll('.copy-btn').forEach(btn => {
+    btn.addEventListener('click', async () => {
+      const target = document.getElementById(btn.dataset.target);
+      const text = target.innerText;
+      try {
+        await navigator.clipboard.writeText(text);
+      } catch (e) {
+        // Fallback for older browsers
+        const ta = document.createElement('textarea');
+        ta.value = text;
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand('copy');
+        document.body.removeChild(ta);
+      }
+      const original = btn.textContent;
+      btn.textContent = '✓ Copied!';
+      btn.classList.add('copied');
+      setTimeout(() => { btn.textContent = original; btn.classList.remove('copied'); }, 2000);
+    });
+  });
+</script>
+
+</body>
+</html>

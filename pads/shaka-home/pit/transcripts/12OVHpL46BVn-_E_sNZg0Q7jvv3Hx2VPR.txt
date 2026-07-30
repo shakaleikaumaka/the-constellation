@@ -1,0 +1,327 @@
+# Scaling Apprenticeships with Brent Parton
+
+Date: 2026-06-24
+Source video: Scaling Apprenticeships with Brent Parton.mp4
+Drive: https://drive.google.com/file/d/1jeuETvAV8nL0tBOVmD8yAo47DYgItrLB/view
+Duration: 00:50:20
+Transcribed: 2026-06-25 · whisper large-v3-turbo · language: en
+
+---
+
+[00:01] Awesome. Recording started. Thank you guys very much. We are here with Brent Burton. He's from CareerWise USA. And I know some folks here were in Katie Cave's presentation this morning. She was really talking about why apprenticeships work. And Brent's going to help us think about, tell us about how we can make apprenticeships work in the United States. So, over to you. Great. Hi. How's everybody doing? Fantastic. Three o'clock. Feeling good. Love it. Good. Really awesome to be here. I'm Brent Carton. Presidency of CareerWise, just so you know, it's a national nonprofit organization. Been around about 10 years. And we get dubbed as this organization called Intermediary. What we essentially do is we work with industry and education to set up, run, scale apprenticeship programs.
+
+[00:56] Before I get into why that's hard, why that's exciting, and what more we should do, sounds like you've had a little bit of debrief with my good friend Katie on some of the elements of the Swiss system. I'll try to keep this a little interactive at first. Does anybody know what this is? We've seen something like that. Tots it out there. It looks like a vice grip. It's like a mold for chocolate or something. Mold for chocolate. Keep them to Swiss themes. I like it. Torture mechanism. Torture mechanism. Yeah. Nailed it. It's a nutcracker. It's a nutcracker. It's a nutcracker. It's a nutcracker that I had the opportunity early, and this is before I was with CareerWise when I was founded.
+
+[01:40] They've been taking delegations of states, governors, policy makers to Switzerland for a long time. Switzerland, Austria, Germany, with their dual education and their apprenticeship system. And I remember very early on in my experience, we were touring pretty large manufacturing complex that had about 217-year-olds as apprentices building things there.
+
+[02:03] This was actually one of the nutcrackers they were making. And the very sensible American audience asked the young apprentices who was kind of showing off this tool. It was hand milled. And just beyond the conversation, there were these large automated CNC machines that did the same thing at the press of a button.
+
+[02:25] And so the very natural question is, why the hell are you hand milling this thing, when you can go press that button over there? Seems like a pretty basic question. We all want skills to be relevant to the technologies that are in front of us.
+
+[02:41] But I think what it unlocked in the moment is what the apprentice said back. He said, it's not that I want to learn to use the machine. And again, I'm paraphrasing. It's basically like, I want to understand the machine. He wants to build the machine. It's actually the words he was roughly translated to.
+
+[02:59] And I use this as just a little bit of a reframe for a second. Because apprenticeship sometimes gets pinned into, these are the jobs that are available, let's train people, deploy them, and just fill our workforce needs. And actually, that's not what apprenticeship is.
+
+[03:12] It's not the right use of what an apprenticeship is. It's not how other countries deploy apprenticeship as an education strategy, not just a workforce development, fix-it strategy. Because what this young person was doing was actually, as you know what he was talking, he was talking about, first off, most of the theory around the development of this, and the hand milling, it was also fairly complex computational work.
+
+[03:39] This is a 16-year-old that could be in a calculus class here in the U.S. or struggling to get through one, but was learning concepts in real time through application. That is part of the education and learning process. That is not training someone just for a skill or a job.
+
+[03:57] That key comment that he made, this is part of an education process. These are three, four-year programs. I can teach someone to use a CNC machine in six weeks. But what happens when the machine changes? And in the U.S., we have treated apprenticeship and workforce development as like a quick fix.
+
+[04:15] We tend to lay a lot of people off when the technology changes, and then we'll all just retrain them on the next technology. What they create here is a much broader base of foundational understanding of how to make something. And I think that brings it to the third part.
+
+[04:29] This is not just about a job, it is about craft and compete for who makes the best nutcracker, right? I want to underscore that there's a certain sense of, when we talk about, oh, there should be more dignified paths to good jobs in these countries.
+
+[04:44] You can't just make that up. You have to build it in, you have to value it in the process. And then the last point I'll make about this, the factory itself. Yes, that's a nutcracker. But you guys need a lot of other applications. I always think it's interesting when people name all the different applications.
+
+[05:02] This is a precision manufacturing company that supplies Bosch, Siwa, large companies, internationally competitive companies that export driveshafts and sell to BMWs. This is learning to actually build innovative driveshaft products. So this idea of apprenticeship is not just to do one thing and one product.
+
+[05:23] The application of the theory and the knowledge is something that is broadly useful across an economy. And that is what has very much set apart a lot of countries like Switzerland that have deployed these types of models at scale. These are small countries that have some of the most hyper-competitive firms in the United States, globally in the world, globally in the world.
+
+[05:45] But I'm making the argument today there's something very foundational about how they think about skills and workforce development and apprenticeship that is very different than, I think, how often we are triggered to think about it. That's just to get a job, a job for life.
+
+[06:00] So one more interactive session. Switzerland, Singapore, and South Korea. They all start with S is not acceptable response. But what do they, what do you just throw out there, what do they share? What do they have in common? Also the letter A.
+
+[06:18] Also the letter A. Also the letter A. Now we are going D. Small geographically. Small geographically. I'll open it. Go ahead. They're all islands. Now we're honing in on it. So S's and A's. But they are actually naturally resource-deprived.
+
+[06:35] They're small contained countries. They, for years, and these are the countries that have built arguably the best performing human capital development system. I spent time at the World Bank early in my career. There's a lot of benchmarking across the world what systems are the highest performing.
+
+[06:50] These are the ones that consistently rate the highest. They deploy these apprenticeship-like programs at scale much earlier in age. These are countries that are valued and invested in human capital as their core resource. So they are small, isolated, strategic in their geographic orientations.
+
+[07:10] But these are countries that, by their sheer position, have always viewed human capital as the most important resource to develop. We have not had that same pressure in the United States. So if you'd actually talk to firms in these countries, they think of human capital and talent as investment, not expense.
+
+[07:29] They look at these investments not over the horizons of quarters. They look at the horizons of years. So there's never going to be a one-to-one lift. But what I'm pointing out is that there are foundational valuations of what apprenticeship and how it fits into how their education and learning process are designed.
+
+[07:46] They're not just because they're cool ways of learning. They're fundamental to the country's economic plans, incentives, and how they actually want to compete globally. We have not built that. And none of this should be surprising because these are also countries that have some of the top universities in the world.
+
+[08:07] I was able to hear a little bit of the chat before. Nothing about apprenticeship, higher education, and top-performing universities are a choice. South Korea, Singapore, and Switzerland are some of the best universities in the world. But they also have the applied pathway very much built out for those that don't go directly into that path.
+
+[08:30] And the reality is, in the United States, if you boiled all of the country down to about 100 high school graduates a year, our system only works for about a quarter of them as intended. Meaning that there's about, you know, 76% of high school graduates, people who graduate, who actually start higher education, who complete higher education within six years.
+
+[08:54] Again, we're not talking about post-secondary education as people throwing frisbees on moms. Most college students in the United States are working learners at community colleges, working low-wage jobs, having care, responsibilities, trying to get into a degree.
+
+[09:09] So I think what I'm laying out here is that these other countries have provided some other scalable opportunity for the 76% that don't go directly into the traditional higher education pathway. And what I want to be very clear about is that when they do that, they are not closing off opportunity.
+
+[09:30] Maybe Katie talked about the concept of permeability. Very much the idea that you are building apprenticeship and earn and learn not as a destination or a job for life, but you're actually having to be a foundational experience to help you navigate to the next step.
+
+[09:44] But most importantly, you're not punished. Meaning you don't start from zero if you choose to go on to higher education after your apprenticeship. And that is something that is fundamentally different than how we've thought of apprenticeship.
+
+[09:56] Because we can think of apprenticeship in the United States, we think of electricians, we think of plumbers, we think of skilled trades, all good stuff, manufacturing to some extent. But in these countries, this apprenticeship model, it's not just making nutcrackers and widgets.
+
+[10:10] They're working in financial services and technology. Their entire healthcare workforce are trained initially through apprenticeship models. It's deployed across multiple sectors within their economy. So you always need to have these pathways of progression.
+
+[10:22] In the United States, we have a major gap in terms of what those opportunities and what they're supposed to look like for that 76%. So the enterprise that career-wise and a lot of partners across the country are deploying is can we create some form of that experience to fill that unmet need?
+
+[10:40] Not because we're just trying to fill the jobs that are available today, but to keep young people engaged, to get them continuing on education, to get them to help make better decisions and understand what they want to do with their education.
+
+[10:52] The boomerang effect, arguably, in this country about our education is more detrimental than not enough people are going to college. A lot of people go to college after high school. They come back in about a year, and then they really struggle to get that next world.
+
+[11:05] Apprenticeship is very much a transition program. And it's something that, right now, we are seeing across the country. We run surveys, focus groups, on an ongoing basis across all the partners that we work with in the United States. And in our last national set, 3As surfaced for a lot of the high school juniors that we talk to.
+
+[11:29] That word affordability leaks in. It's not just about the cost of college. It's actually, can I find my way to a family-sustaining career? That there's something to build a life around? Yeah, the American dream was mentioned earlier. That's very much what this is about.
+
+[11:45] Concepts of that, various concepts of that. The second A is anxiety. Same generation that we're talking to right now that are graduating high school. That's the one whose lives were blown up about four or five years ago by COVID. School's closed.
+
+[12:01] Student disengagement in this country, absenteeism. The actual ability to stay on track to graduate is at crisis levels. So we hear a lot about English literacy and math scores are plummeting since COVID. I would argue the biggest challenge that is actually the student engagement crisis.
+
+[12:23] So how do you redesign education to re-engage young people? Go back to the math that the young guy learned through the building of the shaft. It's not a panacea, but this idea, this anxiety, mental health, the ability of detachment, the sense of identity in the labor market.
+
+[12:41] These are all themes that came out very strongly in these surveys. What I'm saying is we see it in national data as well about crisis education. And then everyone should be very surprised about the third A. I feel like this is a room where I don't have to say much more about it.
+
+[13:00] But while you get a lot of publicity right now, of course, about people getting booed at college graduations, I think the positioning that we are taking is like, a lot of that is actually not being driven by AI. If you look into it, there's bigger macroeconomic uncertainties that are making it a very challenging in the labor market for recent college graduates.
+
+[13:23] The bigger question is how will the entry level of the labor market shift over time? And what we see even across the industry partners we work with on apprenticeship is there's not one story. What's true in manufacturing, what's true in healthcare, what's true in technology are very different narratives.
+
+[13:40] But it is feeding the sense that there's some sort of bogey-handed challenge out there. And it's really at the forefront of what young people are reading about in here. So we do believe, we've been at this for almost a decade as an organization.
+
+[13:54] We were first founded by a business leader and a then governor in Colorado named John Hickenlooper, who's now in the Senate. Again, just taking people to Switzerland. But it's been moving uphill against a lot of different things. We can talk more about what those are.
+
+[14:14] But what we are seeing right now, going back to that survey, going back to some of the shifts in terms of demand in the labor market, what youth need right now is starting to look a hell of a lot like an apprenticeship to get them engaged. Education might not be the formal sense of what we also think of it, but this sense of how do I connect to some sort of purpose?
+
+[14:33] How do I hold on to education and actually have it engage me and see a future in things? How do I earn while I learn? As opposed to delay earnings and progression over time? Education is, we've been discussing this theme over the course of this conference.
+
+[14:50] Whether it's the final years of high school or the first two years of how we consider higher education in this country, they are fundamentally not working for enough young people, which brings to the third point. That is a problem for our economy.
+
+[15:03] That is a problem for our labor market. And I know a lot of it just talked about re-industrialization, increasing investment, new capacity to be reshored, where is this workforce going to come from? That is a big central thing that's driving a lot of new attention to this work, but I would say our biggest growth has been in healthcare, they cannot retain people in the healthcare sector.
+
+[15:28] There's a huge segmentation between who's at entry level and who advances. So yes, this is a story of re-industrialization, apprenticeship, and not everybody's got to go to college. What I'm offering is it's actually a very different story than that.
+
+[15:42] It's a much richer story about what entry-level pathways look like in our country. The ticket to get into these fields, particularly the ones that are struggling to retain people, which includes K-12 teachers, high turnover, can't keep them.
+
+[15:56] Nurses, high turnover, can't keep them. These are systemic risks for a lot in our society that goes beyond, obviously, the imperative of being able to make more things here. But I do want to underscore that's important. And we've been doing a lot of work with some different industry groups on this front, but there's the amount of capital that's, of course, flowing into a lot of the industrialization work is not yet seen demonstrable outcomes in terms of output in industrial capacity, whether
+
+[16:28] that was all public money coming around semiconductors or whether that's new VC money floating around AI infrastructure in these areas. This execution of how you transform capital into actual output has a lot to do with workforce. And this country does not have that type of middle-stage support for the companies that actually are going to drive a lot of the growth in these areas.
+
+[16:52] That's the backbone of a lot of these countries that we've mentioned before. More importantly, there's an aging workforce. The process knowledge being the kind of term of art, people who know how to do stuff aging out and not having someone to transfer it to.
+
+[17:07] And I think apprenticeship's core is always a relationship between mentor and apprentice. How do we capture that process knowledge and not lose it, particularly in these clusters and regions where a lot of the startup activities happen? And I will just offer to the national security component of this.
+
+[17:22] There's, over the past couple of administrations, we have a big challenge in the U.S. how decentralized everything is here versus some of our peer nations or competitor nations. But we have not had a strong plan for how to really raise the profile of technical education and apprenticeship in the way that other countries have.
+
+[17:42] We have not, we have kind of let it dock wither on the vine for about 30 years. It will not come back in three months. This will not come back in three years. So there is ingrowing interest, I would say, not even bipartisan, multi-partisan.
+
+[17:57] People who usually don't even like to hang out in the same room. It's not the kumbaya people who are kind of moderates in the middle. It's the extremes of these sides, this multi-partisanship consensus around this is something that needs to be done.
+
+[18:11] I don't feel the need to dig way too in to what an apprenticeship is, but I want to be very clear. Like, we think of it as a way of just training to get to a job, but actually apprenticeship is the opposite of training for a job. It's actually mastery and craftsmanship within a particular occupation or a sector.
+
+[18:28] A person who completes an apprenticeship is called a journey person, and it comes from the word journey, so those of you who are French majors, you can kind of figure that one out. But it's the idea that someone is not bound, their skills are not tied to any one employer.
+
+[18:44] They have mastery of those skills, and they can sell them and move them across community and community, or employer to employer. So the key part about apprenticeship is always that what you have, the skills and competencies that are being developed in an apprenticeship program are not ever just for one employer, but for an industry writ large.
+
+[19:02] And that's a very important point for how this work scales, because a lot of companies in the United States are saying, I can't afford to invest in training, because if I do, someone will steal them from me, and I'll be at a competitive disadvantage.
+
+[19:15] Where these models have taken off in the U.S. is where you've seen consortia or clusters particularly as small to medium-sized firms, training together. And I would say that is very natural in some countries, that is very unnatural right now on our side.
+
+[19:30] The other thing is that apprenticeship has on-the-job training, it's paid from day one, but it also has to be related coursework or related curricula. There's a portability to this. And so one thing I want to drive home is in the United States right now, the biggest deliverer, deliverer, delivery mechanism, forgive me, East Coast Standard Time, three o'clock from here, is colleges are actually playing a huge role now through degree apprenticeship programs in the United States in the last few years, where they're actually
+
+[20:00] delivering degrees for apprenticeships. That includes for teachers, nurses, and it also includes electricians. It's going to be very hard to convince families and young people that do an apprenticeship because it's not college. It's actually a bigger question, that is, how do we use apprenticeship and earn and learn pathways to redesign the college experience?
+
+[20:19] And I think that's been a huge development for recent years, that we've been very excited to see. Career-wise, though, is focused solely on this idea of youth apprenticeship. So the average age of an apprentice in the United States is 29. The average age of an apprentice in these other countries is about 16.
+
+[20:37] We're not ready to go that far, but we think you can start a lot earlier than 29. You have a lot of life before you find an apprenticeship program. So we actually work with high schools. We think that's the most important proving ground. When we recruit young people, about half of our employer partners into our apprenticeships, we start talking about it in sophomore year.
+
+[20:55] We build it into the cycle of being aware of college. Anybody who has a kid who has gone through that experience, you know when you're supposed to fill out financial aid, you know what assessments you're supposed to take. How do you integrate apprenticeship into that school cycle, that process?
+
+[21:09] So apprenticeship-ready schools is a designation to the schools that we work with across the country, where we are actually embedding this earn-and-learn opportunity. Not, hey, you didn't go to college, maybe you considered an apprenticeship.
+
+[21:21] That's BS. That doesn't work. Employers, it's not a low road. Apprenticeship is arguably more selective in many cases than a lot of higher education is. Part of that is scarcity. Part of that is the reality that it's not a charity mission. Employers are investing in young people.
+
+[21:34] And so very much the idea that there has to be built-in early on preparation awareness. So I don't want to send this idea about what career-wise in particular, but a lot of partners out there do, is not just saying, here's an apprenticeship, go get it.
+
+[21:47] We are actively trying to integrate it into our education systems at the K-12 as well as community college level. That's how we get to scale in the United States. Currently we have about 2,600 apprentices across the country that we work with.
+
+[21:59] We are predominantly focused in Colorado and New York. But over here again, I know I use the nutcracker and I've talked a little bit about the trades. Our biggest apprenticeships are in the first three. So over 50% of our apprentices are just in those first three sectors.
+
+[22:17] So these are not typically what you consider as apprenticeship occupations. We work with 36 public agencies in the city of New York who do technology and software development for them. We work with Accenture, JPMorgan Chase, enterprise companies across a lot of different multi-site partnerships.
+
+[22:35] But our backbone is a lot of S&Es that work in these consortia of small, medium-sized businesses that have real true talent needs. As I said, our healthcare pathway is one of the fastest growing. We also conduct rapid-cycle ROI. And I share this in part not because we're alone.
+
+[22:51] We're certainly not. This only works if it delivers a return to the companies as well as the public sector that also puts dollars into these programs. And one of the things I will say from this current active ROI survey that we launched in 2025, for every dollar an employer is invested in an apprentice, they're getting back about $1.81 in the first year.
+
+[23:13] That's very, you know, concrete. The most important thing that we have found in this ROI survey this year is that companies are actually using the apprenticeship model, not to say an apprentice is going to be the highest performing person from day one.
+
+[23:29] They want low-risk ways to see who in their company can actually manage a team and run them. And apprentices are a low-risk way to say who can actually run something for me, who can run a division. And right now, that middle career talent gap is something that a lot of our companies are pointing to.
+
+[23:48] We are not alone. And career-wise, started in Colorado, spread to New York, we work with a lot of places across the country. This has been a hidden momentum, certainly across the country, in terms of the expansion of these apprenticeship programs.
+
+[24:03] They are nowhere near scale. But it is very hard right now to go in different parts of the country and not see some seed of this. So the question starts to become, how does it actually scale? And this is what I will kind of wrap and close on.
+
+[24:18] Comes back to these other countries and what they've done. And I think sometimes we try to take very technical lessons from, oh, they do this, they have these works that could evolve this way. What they actually have is a very different compact between the public and private sector about how education is designed and delivered.
+
+[24:34] Yes, there's shared investment that goes into that. But there is a very different type of commitment to how we're going to compete on human capital, how you're actually going to have shared public and private resources flow into these programs and pay for the right things.
+
+[24:50] This is not a question of a program. Industry pays for what it should pay for. Wages. Some of the on-the-job training. In these other countries, they pay for the other types of training costs that offset those things. Or employers, under certain conditions.
+
+[25:04] We don't have that model here. Harsh because these are just programs that kind of pop up and function in onesies and twosies. There's not a bigger architecture about the shared responsibility. We treat employers in education in America as advisors, or maybe partners or customers at best.
+
+[25:21] These countries very much view employers not just as consumers, but very much as co-developers in how we build up talent within the country. It's a very different mindset. The idea of a different type of compact is particularly as early careers are shifting, wherever that is going to look like, technology, how the industrial application of AI plays out, that type of compact is probably going to be needed going back to those three A's.
+
+[25:46] People talk about national service. They talk about, you know, everybody can just get a paid internship. We would offer that apprenticeship is actually one of the core models that actually should be a part of this new compact for early career, what an early career experience looks like.
+
+[26:02] And so it gets in to actually what do we want our education system to deliver, and what we measure in our education systems. Did you graduate? Did you get a credential? Maybe for some higher education institutions, did they get employed? That is not a very common thing.
+
+[26:21] It's not considered part of the core mission. What we have been deploying for several years and about working with 10 states, thanks to some of the partnerships, is an early career index. And the idea is that we have been using this to measure our programs for some time.
+
+[26:40] But we would offer, in this moment, we should be really thinking differently about what are the things that the goals of what, particularly this portion of our education system, the technical applied side, should be measuring its success on.
+
+[26:55] And so rather than saying, did someone get employed, it's not actually what's going to matter if you care about moving the linkage of education to mobility. Do they have long-term durability? Are they set up for the best success to achieve mobility over years?
+
+[27:10] And an education institution, whether it's funded privately or publicly, can't hold itself accountable for outcomes 10 to 20 years. So what we've aggregated is the evidence of what positions someone best for economic mobility over the course of not just a two-year frame, but actually decades.
+
+[27:29] And what we've developed and would love feedback and thoughts on is this index that measures three forms of capital that can be accumulated through an apprenticeship program or other types of education programs. One is human capital. Did you build skills?
+
+[27:43] Did you get degrees? Yes, that stuff absolutely matters. Our education systems are pretty good at holding themselves accountable and measuring that. But this second pillar is developmental capital. How much time did you have to demonstrate your ability to use those skills?
+
+[27:57] Did you build experience? We've all heard the term social capital. Do you have a network? Most people still get their jobs in this country through the FBI. Friends, brothers, and in-laws. And I think very much this idea that we're going to be breaking down barriers and having a sense of getting people into industries that they might not know people within, part of the mission of these programs is very much to build that experience and to get people to validate you know what you're doing because you've done it on the job.
+
+[28:27] And then the third thing is financial capital. At the end of the day, lower cost pathways where people are not going into debt, but also not balancing trying to get through school with low-wage jobs. But did you move the needle on where your earnings were after the training program versus 10 years from now?
+
+[28:44] These, we built an index that we're piloting several states to look at how to assess programs. We think our program will do pretty well. We're going to work with a lot of partners that deploy this as well. And we're talking with some research and evaluation partners about setting something up over time.
+
+[29:01] But it speaks to this broader idea that, yes, we do apprenticeships. That's great. But at the end of the day, this stuff will not scale unless our systems value the same things. And we are not there right now. So I'll close with just some ideas of things we're working on.
+
+[29:17] We are launching an early career effort by sector. So rather than pitch this stuff employer to employer, we're working with partners in the manufacturing sector, partners in the healthcare sector to really bring more standardization. I showed you that map of all those little pockmarks of programs out there.
+
+[29:36] There's very little standardization around kind of what industry needs. And I don't think we'll ever fully get there. But we're working on a sector basis. We're doing a lot of policy work as well, working with those states. I'm trying to get them to align their resources to those right systems.
+
+[29:51] And something that I think is critically important is we're trying to make this easier for schools and employers to employ. So we are working with some new, we've had technology that we've used for our program for some time, but at the end of the day this is networked learning, because you're a student, you're an employee, and you're a trainee all at once.
+
+[30:08] How do you unite that learning framework and how do you use technology to do that so employers know who's moving forward and schools know who's moving forward? I'll end here. The question I always get asked first, do parents and students actually want this?
+
+[30:30] It's something that is very much tied into, like, my kids go to a college, we're first generation families, and that's part of the American dream. And it's the right question. And it is a challenge. It doesn't happen unless you go in sophomore year, work with counselors, work with teachers to start talking about these opportunities.
+
+[30:50] But I will just share my final experience when I got into this field, again, not with career-wise many years ago, in Charlotte, North Carolina. This is a very compelling slide to close on. This is a focus group room that was sitting behind glass.
+
+[31:08] So it's not very pretty, it's very boring. People were there at night, they got, like, a gift cart from Chili's to talk what they thought about. Would you consider having an apprenticeship? And we talked about high school students, graduates, and their parents and families all separately.
+
+[31:26] And what was always powerful is you get all this great qualitative, I let you put a sample program in front of them and said, would you, it was actually from, in North Carolina, a real program, would you like this, would you do this, what do you think of when you think of, hear the word apprenticeship, all that type of stuff.
+
+[31:40] The most interesting thing to me was, there was a lot of critique and, you know, feedback and ideas. Generally, it was a positive. I liked the idea I could earn money. I liked the idea that I know what I'm going to do after high school. And maybe if I, maybe if I'm doing an apprenticeship, I will decide to be an engineer.
+
+[31:59] And I'll feel a little bit more committed to some of the certain baseline classes I need to do. So, the most interesting thing at the end of the session, it was about 9.30 at night and the parents wouldn't leave. And what they were basically saying is like, you know, this concept is good, but their assumption was that it was real and it was scaled up.
+
+[32:20] And it was very small. And here was this contracted moderator, and I'm sitting behind the class, basically trying to say, like, where do I find this program? How do you give a intake? Can my student get into what I wish I had? And I think that what it told me is like, people, how we design these things has to iterate, has to evolve.
+
+[32:42] We're going to learn. We're going to do things different. And we have not scaled it. Like I said, 2,600 today is far from where you need to go for a country or a New York City alone. There's a million students within the district. But there is a thirst for another thing that is unstated.
+
+[33:00] And I think the core thing that we have kept in mind is challenge of will they want it is build something, take the feedback, work with it. And that is very much we have done with our employer partners across the country. But to assume that this is not needed because it confronts or challenges the current paradigm, I think, very much underestimates.
+
+[33:23] And this was 10 years ago. The pressures that families and students are under for, and again, it's not all their kids, but some of their kids. And that moment alone, it was not so much what was said, but it was the passion to stay and to listen.
+
+[33:40] And with that, I'm excited to listen to you and what feedback, thoughts, questions you have. Oh, yes. I'm going to start with David. All right. Great presentation. 100% agree with the need for apprenticeships. I know you're in Colorado and New York.
+
+[34:04] So I was curious if you are seeing an opportunity in some of the states in the South who have since COVID passed the school choice bills, where now kids have $8,000 in Florida or $10,500 in Texas. I know in Texas, they actually added community colleges as a receiver of these funds so you could apprentice and have collaborations.
+
+[34:28] Any early signals from those states, whether something's catching fire? I know it's still an experimental stage. We'd love to hear. It is. And so I should mention, so career-wise, we're in Colorado, New York, we call it our direct impact markets.
+
+[34:44] So we actually have staff. We have teams. We do the blocking and tackling. We do work with the employers. We work with the schools. We manage the success. We kind of take on a lot of the risk for these programs to be successful off the schools and the employers.
+
+[34:56] What we've evolved to, because, to your point, this is in the water. There's new federal investment. States and governors, several of the states, Alabama and Tennessee, are two that we've been working really closely with. We do a lot of technical assistance and consulting.
+
+[35:11] We're not going to go out of the franchise and set up a million different career-wises. I think our founder kind of had that vision initially. At the end of the day, this is very kind of place-based work. And so what we actually do is we work with an affiliate network across about 15 states that the direct impact numbers are just the numbers we hold.
+
+[35:30] But we do work with a broader network on helping set this up, build this ecosystem, and try to get other partners to run it. And to your point, in Florida, the colleges are going to be a great platform for this. Here in California, California has put more money into apprenticeship through the community college system that the federal government did over the past seven years.
+
+[35:47] So I think the Southeast, in particular, given the industry mix and the energy and some of the flexibilities on the education system is going to be a huge growth area. Just a super quick follow-up. If you have a recommendation of a partner in Texas, should you just so happen in the Houston area to want to set up a program like this?
+
+[36:06] Yeah. We should talk offline. Great. Thank you. Yes. Two quick questions. The first is, I'm curious, with apprenticeships starting relatively early, is there any role for in-depth aptitude testing before they select where they go? The second thing is, historically, clearly, apprenticeships is how we used to do it.
+
+[36:31] What caused that to go away? What were the causes? I haven't studied the history of it. Yeah. So your first question, it depends by sector right now. So one thing I'll say fundamentally is, we have a mixed funding model, so we get money from philanthropy and philanthropy, and I'm just using this as an example.
+
+[36:56] They will say, all right, how many people are you going to train? And we're like, well, technically, we're going to see this many apprentices, but it's actually the companies that are a big part of the training because they're employed from day one.
+
+[37:13] And I think it's a really important point. An apprentice is an employee from day one, so it's a job that's created from day one. So on one hand, we get measured sometimes as an education program. Sometimes we get measured as a labor market program.
+
+[37:27] We kind of straddle this world. How I'm answering your question here, though, is we don't choose who goes where. It's employers that are hiring them out of high school into the apprenticeship. In some sectors, they are starting their senior year, and it depends on the school in the area, but some people have some decent free time senior year, and so they're actually working during the school year.
+
+[37:48] And some states have regulations about how many hours they can work. But a lot of block scheduling. Our apprentices are working part-time during the school year, often senior year, and continuing post. But because the employers are making that hiring decision, they can use assessments, certain types of licensure, so for our health care pathways, radiology, or nursing, they have to have certain prerequisites done before an employer chooses to hire them.
+
+[38:15] We have yet to do a baseline career readiness assessment about sort of who's ready to go in the apprenticeship, but we do actually work with schools to deliver an apprenticeship course that's around career readiness and exploration. The completion of that course with a certain grade is necessary to take the next step.
+
+[38:32] So we're not at the place yet where we're doing the assessment flatline for employers, partially because there's some differential interests and needs by industry, where they might have to do some formal assessments anyway. But there is a big interest in how could we create kind of a broader apprenticeship-ready assessment in the country.
+
+[38:52] To your history point, real quick, you made a big mistake because I'm a huge history nerd asking that question. But I would say there's two things that have happened. One, there was actually a deal. And in 1917, the birth of vocational education in America, and vocational education was the first federal education law.
+
+[39:13] It was called the Smith-Hughes Act. In 1917, it was the first world war. And so it created what we call voc-ed, or CTE is what it's called now, career tech-ed, across the country. So everything from FFA, Future Farmers of America, to auto shops, to wood shops that used to be all over high school campuses across the country, that was all from the Smith-Hughes Act and the organization of the first federal vocational education law, the first federal education law wholesale.
+
+[39:42] There was a grand bargain that was struck, though, when that law was passed, between the AFL-CIO and the U.S. Chamber of Commerce, who agree on nothing in 1917. Probably agree on even more now than they did in 1917. The grand bargain was we will not have a German-style youth apprenticeship system in this country.
+
+[40:03] And the reason they said is the U.S. Chamber says we don't want labor involved. And again, unions can be a feature of apprenticeships in certain industries. They're not universally as such. But the idea was that employers didn't, the Chamber's position was, well, the public sector should train everybody.
+
+[40:23] And the school's, it's the school's job to train them for our jobs. So we don't want a role in the apprenticeship thing. The schools will pay for that. The AFL-CIO says we didn't want cheap youth labor getting into the labor market. And so they actually killed a feature of the Smith-Hughes Act that would have created a national dual education, in those other countries, it's actually not called apprenticeships, dual education system.
+
+[40:47] And the U.S. decided to have a school-based, non-apprenticeship vocational education system. And that decision was made, and it kind of played out for a little while, which brings me to the second thing, which is the real turn happened when that federal money for that school-based system completely went away, basically, with the report of a nation at risk that came out just prior to the Reagan administration about how the U.S. was falling behind.
+
+[41:18] This was in the first post-industrial kind of clarion call of, as we were de-industrializing, these jobs weren't going to be there, everybody's got to go to college. That really was the death nail to the, I should say, the first shot across the vow in terms of vocational education is less than.
+
+[41:36] And again, it was a unified bargain across the U.S. chamber-ish types of groups that were very pro-train, we're going to, you know, get all this great new stuff, and everybody's going to have to go to college, but everybody else will make our things, and civil rights groups.
+
+[41:53] And I'll be very clear, like, there was a very hard history around racial-based tracking into vocational education in less than high schools. So in both two points of the 20th century, there was these very strange bedfellows that agreed this is not what we're going to do anymore.
+
+[42:09] So there's more to it, but these, I think, were really critical things that we are still working our way out of, of what is that shared compact and responsibility across the public and private sector for this to happen? And is this a less than, equal than, or, you know, equally dignified pathway, an equitable pathway?
+
+[42:29] And I think that's been kind of an ongoing debate. Thank you very much. So thank you. Actually, kind of going off of that, in this apprenticeship environment, what is the current role of, like, labor unions? And also, what's the current role of, like, say, state occupational licensing courts?
+
+[42:50] Yeah, good questions. So labor, the largest apprenticeship programs in the country, so our programs are not nationally represented, we are against the trend. We have focused on everything early and outside of the building trades. So the building trades, the carpenters, the electricians, the plumbers, these are the largest apprenticeship programs still.
+
+[43:11] They're the largest apprenticeship programs because they're joint programs. So meaning, when a contractor is bidding for a project, there's an apprentice utilization rate, they actually fund their apprenticeship programs through those contract agreements.
+
+[43:26] So labor is actually a joint partner in some of the biggest apprenticeship programs in the country. And so these are longstanding crafts-based fields, again, electricians, plumbers, finishing trades. They are still the largest because they have a very clear shared investment strategy between their signatory employer partners and the labor union.
+
+[43:52] They are virtually non-existent in the other industry centers. You see a little bit of activity in Washington State with healthcare, SEIU, but the industrial unions, the UAW, the machinists, they did away, essentially, with the bulk of their apprenticeship programs back in the 70s and 80s.
+
+[44:13] So in the crafts and the building trades, there's a heavy union presence. In these other industry sectors, even where there's a union presence, the unions do not participate, by and large, in the apprenticeship and stuff. So I think that's sometimes a view of that's unions, but only for the trades, not even in manufacturing.
+
+[44:34] It was once that way. It is no longer. On licensing and occupations, huge in healthcare. One of the key unlocks for our work in healthcare is getting nursing boards to recognize apprenticeship as a qualified education pathway to basically become a licensed nurse.
+
+[44:54] That is something that states control who gets to even sit for a licensure exam based on the education experience they have. I've done a whole bunch of work on trying to blow up licensing systems in some old jobs. And I'd say there's some states, Colorado being one of them, has created licensure sentencing rules that every five years, all licensure rules within the state are reviewed and completely basically rebuilt from scratch.
+
+[45:20] Other states, it's very challenging in this space. But you have to basically position apprenticeship as a qualifying experience for sitting for a licensure assessment. And that takes work. Oh, go ahead. No, go ahead. Yeah, I guess to your effect, I mean, like when I look at, let's say, the Swiss or the German programs, the apprenticeship programs are combined with extremely protectionistic policies.
+
+[45:53] Like, you know, you have government protections for the most obscure crafts in Germany, which in turn then fuels the apprenticeship industry for that industry, right? I wonder, I mean, if there's a way to build an apprenticeship program that does not rely on creating these artificial state-run barriers.
+
+[46:16] Like, for example, I don't know, to be a furniture designer in Germany is a government-regulated craft. Yeah. But there's a, you know, yeah. I would, so the short answer is, I actually think we're much more similar, we're closer to where they're at, that we're going to be appreciated.
+
+[46:35] So, like, in the crafts, the skilled trades, and again, this goes, this is the gills. These are very, like, skilled crafts. It is very regulated, and that is true here, too. It's also where there's a lot of scale. Where you see growth, or if you go to Switzerland and Germany in manufacturing, in healthcare, in financial services, in banking, it's actually, the unions do not play a huge role.
+
+[47:01] It's the chambers of commerce and the industry associations that by and large sponsor programs across their members. That, I think, has much more reticence to what, in the U.S., the idea that you have to build consortia of employers, and then we work with the Manufacturers Institute, which is part of NAMM, for example, that does this, but the idea that there are certain occupation societies that are around, like, a skilled trade and a very kind of tight crowd that's really about, like, again, carpenters and guilds, it's when you actually go into where
+
+[47:36] their programs are the largest because they've built up these intermediaries through industry associations that have a role in the system. So, I think that we can be having that same bifurcation, mostly because our trades apprenticeships are going to just keep moving on their own path.
+
+[47:53] The growth is in manufacturing, healthcare, and technology in other areas. Can you talk a little bit more about how you're approaching the curriculum itself so that it's not a mechanical, like, press this button, blah, blah, blah, and they're really understanding foundational concepts?
+
+[48:12] Yeah. So, a couple of things. One, we don't do apprenticeships with just one employer at a time. We work with a consortia or a committee, so we run multi-employer programs. Like, in Colorado, we work with about 12 different manufacturers, for example, with Denver, to co-create the curriculum.
+
+[48:32] So, what you have by nature of doing that is you're trying to hit an 80-20 issue. Every industry and job has very specific things, but you're actually trying to get a very baseline. What's the kind of core things you all share? When you have a conversation across multiple employers, you can get to a more generalizable competencies and skills, because every company has a different technology, a different button, a different process.
+
+[48:58] You can't build an apprenticeship without that in any way. You let the companies customize 20% of it, but you build a very baseline 80%. The second thing is the colleges and high schools we work with. We actually work with the instructors to adapt their curricula to meet some of those industry requirements.
+
+[49:17] So, the idea of a related coursework with an apprenticeship has to be about the theory. In the dual education concept, it's not just two-tracked, it's the idea of theory and application. And so, the work with the colleges, community colleges in particular, that do a lot of our curricula delivery, we are working with more generalizable information already.
+
+[49:38] The difference is we're contextualizing them. We're not just giving them theory and throwing them out there. And so, I think through those processes, that's generally how we do some of that calibration. We also do financial literacy. We're doing new AI literacy into our programs and building a lot of more universal competencies across industries.
+
+[49:55] Awesome. We are at the 4 o'clock break. I know, Brent, we have some more time in the room. Yeah. So, I think time for a couple of questions, but I think some other folks had to leave for other talks. Good deal. Awesome. Thank you very much.
+
+[50:09] Yeah. Thank you. So you've got to keep going. Do you have questions? Okay. Okay. Sorry about that, you guys. Yay. Hey. Hey. Hey. Hey. Hey. Hey. Hey. Hey. Hey. Hey. Hey. Hey. Hey. Hey. Hey. Hey. Hey. Hey.
+
+[50:39] Have a good day. Hey.

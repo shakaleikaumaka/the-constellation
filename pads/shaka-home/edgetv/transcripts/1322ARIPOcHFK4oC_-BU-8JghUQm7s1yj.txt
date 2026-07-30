@@ -1,0 +1,185 @@
+# lets live on mars
+
+Date: 2026-06-17
+Source video: lets live on mars.mp4
+Drive: https://drive.google.com/file/d/1OMZdU2j4OCkkBSsjOVVBBKnd4WHheBUB/view
+Duration: 00:40:39
+Transcribed: 2026-06-19 · whisper large-v3-turbo · language: en
+
+---
+
+[00:05] Hello, everyone. So we'll be beginning now. My name is Richard Niederlander, and I'm the founder of Spargo Space. We are building in-space refueling depots, but before I worked on this, I worked at Blue Origin and NASA, Kennedy Space Center, where I helped make sure spacecrafts were built to work in space, in low-Earth orbit, geosynchronous, and even cislunar. What really excites me is, like, what drives me is the idea that one day we can all be living on Mars. I know that's a very SpaceX thing to say, but it's true, and it's no longer just fantasy, given the SpaceX IPO, over a trillion dollars that going straight to, essentially, a space company.
+
+[00:52] So, really, we've got to start thinking, not just, like, can we get to space, but do you want to live in space? Do you want to just have a life there? And, in this case, do you want to have a life on Mars? So, I'm now going to show you some images on Earth that look like they could have been taken on Mars, just for context. So, this is an image from Jordan, the Jordan Desert, and it's red.
+
+[01:21] And it has a very similar texture and structure to what you would expect on Mars. Similarly, you have the Mauna Kea hills, also very rocky. Now, contrast what you're seeing here to this. This is taken from one of the Martian rovers. You can see how it's a lot more dusty, but it has a very similar rocky structure.
+
+[01:47] So, yeah, just want to really have you guys take in these images. These were thousands and thousands of miles away, and it took a ton of human ingenuity just to send spacecrafts to this area. And, I mean, it looks like those first two images that I showed on Earth. You just have a lot of rocky terrain. Yeah. Mountainous.
+
+[02:19] I've been at this red dot for thousands of years. And on the left, you can see where Mars is next to the Moon. Obviously, Mars is a lot bigger, but because of the distance, it just looks a lot smaller. And over time, we've had various names for it. Because of its red, we usually called it after the God of War, like blood, but now we can actually get there.
+
+[02:48] So, of everywhere we could live, Mars is actually the least impossible. You may think, okay, but what about the Moon? So, the Moon is close, but it's really bare. There's no real atmosphere, there's no water, basically no water, and most of the time, it's really...
+
+[03:10] Venus, which is similarly shaped, just has a temperature that is way too extreme, can get upwards of 470 Celsius. People like to call it Earth's evil twin. But then you have Mars, a little bit of a gravitational pull to it that allows it to keep an atmosphere.
+
+[03:31] It has water ice. If you remember the first image, you might have seen those polar ice caps. It does have carbon in the air. You just can't breathe it. So, part of what SpaceX wants to do is terraform Mars, which you're more likely to do given that Mars has a stronger gravitational pull than the Moon.
+
+[03:51] So, these are the Mars rovers that we've sent over to Mars so far. And I like this graph because I think it captures exactly how we should be looking at these rovers, based off of capabilities and then cuteness. Sojourner is the cutest by far. It's taken the most images of itself, and I think it played a little tune when it died.
+
+[04:12] It was like a happy birthday type tune. Pretty sad, but they tweeted it, got a lot of likes. Yeah, Ingenuity, that one's funny because it's a helicopter, so it actually was flying a bit in the Martian atmosphere, which took a lot of simulation testing out of JPL.
+
+[04:30] So, why Mars? Mars has a day that's pretty similar to Earth. You know, on Earth, we got 24 hours. On Mars, it's 24 hours and 39 minutes. Pretty close. The years are a bit longer. So, one year, you know, it can be like two Earth years. Uh, gravity, 38% of Earth's gravity. So, you're going to have to work out a lot in order to make sure that your bones don't degrade over time if you ever want to come back to Earth.
+
+[05:02] Because if you were to spend a year on Mars, you would, like, basically collapse coming back to Earth. The gravity would just pull you down. Uh, it does have some pretty cool moons, um, two, in fact. So, when you're on the Martian surface, you get to see two different moons happen.
+
+[05:22] You wouldn't have, uh, solar eclipses, though, because that's a pretty unique phenomenon for Earth, where the moon is, uh, the right distance away for it to block the sun when it, uh, goes around it. And it also has a very large mountain. Uh, Olympus Mons, 22 kilograms, which is three times Everest.
+
+[05:42] You can probably imagine, like, all the people that would want to hike up Everest for, like, business trips or whatever. This would be, like, three times that, uh, maybe even start a culture over it. Uh, yeah, but, but first, let's talk about how Mars tries to kill you.
+
+[06:01] Obviously, there's nothing to breathe. Ninety-five percent of this is carbon dioxide, and this is just under one percent of Earth's air pressure. So, basically, you try to breathe it in, you suffocate almost immediately. Uh, so terraforming would mean you had to add a lot more oxygen.
+
+[06:19] It's extremely cold, so you gotta bring not just one layer, but two layers of coats, maybe three. Uh, you may feel like you wanna practice by going to, uh, like, Alaska first or Antarctica to get a good feel of what it'd be like. Um, this one's pretty interesting. So, there's invisible bullets.
+
+[06:42] So, what, what I mean by this is there's a lot of space radiation. Um, so the sun likes to produce particles called solar protons. These are charged particles that, uh, if they hit you, they can damage your DNA, cause cancer. That's part of why, uh, dentists, when they do the x-ray for you, they run away immediately afterwards, because they don't wanna get hit by, uh, what they're shooting at you.
+
+[07:08] But, on Earth, we are pretty well protected by our, uh, magnetic sphere. So, we got the, uh, uh, Van Allen Belt, which is where most of the radiation is. But, for Mars, it doesn't have as strong a gravitational, uh, field. So, the radiation is a bit more intense.
+
+[07:30] And so, there's not just solar particles, but also, uh, cosmic rays. And these are heavy ions that, uh, come from, like, light years, millions of light years away. They were formed when, they were formed when, uh, solar, uh, space novas exploded.
+
+[07:51] So, other solar planets exploded and, uh, released these particles. And, yeah. And if you were to step outside, your blood would boil. Liquid water cannot exist on the open surface. The reason that we know that there's water is because it's under the soil, uh, of Mars.
+
+[08:10] So, you just gotta be able to protect yourself from just this lack of pressure. So, how can we actually do this? The way you do it is by not just shipping Earth to Mars. You gotta live off of, uh, Mars. To do that, you have to do in-situ resource utilization.
+
+[08:31] So, that means you take what you have there, and you convert it into livable space. Sort of like the, uh, Martian movie. The, uh, Andy Weyer did a pretty good job explaining how that all works out. Uh, he's a scientist himself, and, uh, a lot of that engineering actually checks out.
+
+[08:49] So, that's, like, one of the movies I really like to watch over and over again, to really get an understanding of what it would take to live on Mars. So, as I kept mentioning, first and foremost, you gotta start making your own oxygen. Uh, as I mentioned, the air is, uh, 95% carbon dioxide.
+
+[09:07] And the way you can do that is by splitting, uh, the carbon dioxide, uh, to get oxygen. And you can do that using, uh, applying electrical current to the gas, and it can start splitting off, uh, oxygen particles. And they were able to demonstrate this, uh, with one of the rovers, the Perseverance rover.
+
+[09:28] Not one of the cuter ones, but had a lot of capabilities. And this is the first time humans were ever able to do this on another planet. As I mentioned also, the water's frozen. It's in those caps, uh, under, uh, soil. So, we're, if we're able to break into those and start, uh, converting that into liquid water.
+
+[09:50] Make sure it doesn't evaporate quickly. We can not need to bring, like, tons and tons of water and deplete the water from Earth. We can just take it from what's on Mars. We can also bring a garden. So, because there's no, we can't really depend on going back and forth to Earth.
+
+[10:07] Because, uh, not sure if I mentioned this already. But it takes around, it can take, like, six months to a year, uh, to get to Mars, depending on, like, where it's, uh, positioned. So, it does take a good bit of time. So, you gotta really focus on growing what you can.
+
+[10:24] And then you can just dig in. You can build settlements underground. That's pretty good for protecting yourself against the radiation, the pressure. That's also where the water is. Uh, yeah. So, there's a couple ways where you can get electricity.
+
+[10:43] You can have solar power or you can have nuclear. Solar power is fine, but it, the sun is a bit farther away. And solar panels right now have, like, maybe 25% efficiency on Mars. Because the sun's so much farther, you'd have a lot less particles to work with.
+
+[11:00] So, that's why, uh, NASA's been, uh, working on nuclear-powered, uh, spacecrafts and energy sources, uh, for ultimately the moon, or for Mars. They released a, so, as part of Moonbase, they have this project that's dedicated to nuclear power with the focus to be on, on Mars.
+
+[11:19] So, they are really much thinking about this. Yeah. So, as I said, it takes upwards of six to nine months to, to get there. And you have to work for that perfect launch window. So, what the launch window means is, you know, Earth and Mars orbit.
+
+[11:34] They orbit differently. So, you gotta make sure that they're aligned in such a way where when you launch, it's the closest possible path possible. Otherwise, it can take three years, uh, at most. Uh, you should also be able to make your own fuel.
+
+[11:48] So, rocket fuel is essentially just methane and oxygen. Uh, you can have cryogenic as well. Yeah. So, as I mentioned, you could just terraform it, but some scientists think you shouldn't. The reason for that is it does, would take a lot. Uh, the gravitational field isn't that strong.
+
+[12:09] Elon has mentioned maybe you just nuke Mars a whole bunch of times. Could also get rid of all the nuclear bombs we have on Earth by doing that. But, you'd have to sort of get everyone on board and maybe if, like, the U.S. did it and Russia felt like, okay, now they don't have nukes, we can nuke us.
+
+[12:26] So, that wouldn't be good for nuclear deterrence. I'm not a, I don't know about politics. So, uh, the realistic path, unfortunately, for Mars is it might take decades. The reason for that is we're in this now stage of just having robots scout.
+
+[12:45] Uh, this honestly may change because, uh, Elon Musk recently got a package saying that if he were to start a million person colony on Mars, he'd get like a trillion dollar, uh, increase in his, uh, package from SpaceX. Which is, you know, pretty crazy.
+
+[13:02] But, I mean, if he pulls it off, he probably deserves it. A million people. Uh, but in the most likely scenario, it's gonna take decades. You have your rovers now. Then you have a small, very small group of people just there scouting it out, helping build out a bit of the foundation.
+
+[13:20] Then you can have an outpost where protecting the people who are living there, the crops and so forth. And then you can have a real town where light people like ourselves can, can just live around Mars and, uh, uh, build a culture. But yeah, for the first time, these pieces are lining up.
+
+[13:41] Like a decade ago, you, uh, people were thinking that self-landing rockets were impossible. And Elon was like, I'm gonna prove you guys wrong. And he proved everyone wrong. And now with, uh, Starship, he's launching, like, skyscraper level buildings into space.
+
+[14:00] And then landing them back, uh, using chopsticks, essentially. So the way that he's catching these starships are with, uh, two small hands that just grab it as it's landing. It's, it's literally science fiction, but he's made it, uh, not science fiction.
+
+[14:17] And also it was never, it's not really about escaping Earth. It's about just moving and exploring new lands. So Earth can hold a lot of people, but it's always really cool to be able to explore, visit other places, and being able to get to Mars is just a new, a new place, essentially.
+
+[14:39] Yeah, so I'd be open to, uh, opening this up to you guys. I want to know, would you actually want to visit Mars? If, would you want it to be a one-way trip? Or would you want to be able to come back to Earth? What would you miss most about Earth?
+
+[14:54] Is there anything you particularly want to build there? And, uh, is this really a best use of our, of money? Or is it a distraction? Because honestly, it can go both ways. Thank you. But has there been any, like, um, initiatives to send humanoid up to Mars to do research?
+
+[15:28] Because it's probably more efficient because they don't need all of the resources like we do? Like a humanoid robot? Yeah, yeah. They're thinking of it. So the hardest thing with electronics ends up being everything that actually is pretty damaging for humans.
+
+[15:44] So radiation, temperature, and pressure. Uh, you can probably get rid of the need for food with robots. So that's one of the benefits. There is plans for humanoid robots to start, uh, going to Mars and to explore and build out things. But I think the way that at least, uh, SpaceX is going, they want to just go straight to sending people.
+
+[16:07] And what's happening with NASA and the, uh, Department of War is they don't want to build the spacecrafts anymore or the robots. They want to give money to commercial companies to do this stuff because they'd be the most efficient with how they spend the money, presumably, and, uh, do it faster.
+
+[16:27] Could you please answer those, uh, questions yourself? Because I'm, I'm really curious. You see, you know, use 3D printing, so being able to take materials and then transform them into whatever you want.
+
+[22:50] And it, and essentially there are companies doing that. Relativity Space, that was one of their initial proposals. Uh, so Relativity Space was a, is a spacecraft company. They, they build rockets through 3D printing. And their initial pitch was like, we want to 3D print rockets on Mars, which is a very crazy pitch, especially back in the day when it was like 2016 when they started out.
+
+[23:13] Uh, but that is a tech that should be tracked. The other is just all the top possible ways you can take the soil there and take what you have and turn it into things that are useful. Uh, because as I had mentioned, I believe in one of these slides, you don't want to bring a whole bunch of stuff because right now the, uh, launch, the cost to launch, it's like $10,000 per kilogram.
+
+[23:42] Uh, Starship is expected to bring that down to like $100 per kilogram. And in any event, the U.S. would probably subsidize this greatly, but still, it's still a lot of, uh, uh, costs. But I, I'm not really sure what terraforming is, I mean, I understand what it is supposed to do, but how does it actually work in practice?
+
+[24:07] Like how, how would you terraform Mars, for example? Yeah, so terraforming is all about first building an atmosphere, like what you have on Earth. And, uh, one way to do it is by creating a lot of like greenhouse gases. So a lot of people, you know, are concerned about the greenhouse gases.
+
+[24:27] There's a lot of carbon dioxide, but that's also in essence building an atmosphere. Uh, we'd be doing something similar to Mars. If you have enough plants, for example, uh, that produces enough oxygen, that starts changing the composition of the atmosphere.
+
+[24:40] This is how early Earth also ended up forming its atmosphere, by having a lot of plant life that just changed how things are. That's essentially what we'd be doing on a very expedited timescale, instead of like the millennia it took for Earth.
+
+[24:56] It would be essentially years to decades, however fast these companies are able to do it. So, and I mentioned like just explode a bunch of nuclear bombs. What does that, what does that mean? So it means that you're releasing a lot of different types of particles into the atmosphere that helps strengthen it.
+
+[25:12] So that it's, uh, preventing these gases from escaping. So you launch, explode a nuclear bomb on Earth. You're blocking out the atmosphere. Things aren't really leaving or coming in. That's essentially what would be happening on Mars. And that's already what is there on Venus.
+
+[25:31] Like they have a really, really strong greenhouse effect happening. That's why it's like 470 Celsius. Uh, but it's just not livable for that reason. So we'd be controlling the greenhouse effect, but on Mars. Yeah. The, so Earth is warm through a lot of different reasons.
+
+[26:01] Part of which is like our proximity to the sun. So it's able to heat it up a good bit. You'd have to, because Mars is a bit farther away, we'd have to find other ways to heat it up. So you'd probably want a stronger greenhouse effect to keep a lot more of the warmth in.
+
+[26:16] Uh, but to even get to that, you'd have to have enough of that trapped heat to make it happen. No one's answering the questions. I don't have a question, but I just had a thought. Maybe a few billions years ago, someone on some other planet was an atom, and you would be the atom for Mars, along with your Eve going and setting up a new, like the atom and Eve.
+
+[26:54] Yeah, it could be like, uh, light, what's the lighthouse people being like, okay, come here. Me and, there's a good bit of people that would want to go. It's just, it takes a certain mindset. It's gotta be like, okay, starting something new, yada, yada.
+
+[27:10] I'll answer the questions. Um, I, I'd be game to go. I think we, we actually talked about this at dinner last night. So it's, it's hilarious, but not even about Mars. It's like, if you go somewhere and start new somewhere not Earth, would you go?
+
+[27:25] And a number of us said yes. My threshold is, look at the science stations in Antarctica. If I can live like that, with, you know, actual reasonable food and not, you know, working 16 hours a day, I would give it a shot. Um, but, but my other comment is I'm, I'm worried that with the size of Mars, I thought that the, you know, current best scientific hypothesis is that at its size, Mars will just continue to leak atmosphere.
+
+[27:51] And that's why it doesn't have much of an atmosphere now is because it did for a little while and then it leaked away effectively billions of years ago. So I'm not sure that's a solvable problem. Yeah, it wouldn't be like a, a self-sustaining way.
+
+[28:06] So you like, but the whole point of this is to have like essentially the human in the loop here, like constantly ensuring that there is an atmosphere. Like on earth, you have your gravity. So, I mean, that's why we don't have to do anything.
+
+[28:19] It's just, we just formed on, on earth. But the idea that we want to live on Mars or even the moon, we have to constantly be putting our thumb on the scale to make sure that, that it happened. Uh, you can also just have like dark, you might see these, uh, photos of like just bubbles of people living in those bubbles, which could also happen.
+
+[28:40] And it's probably a bit easier, but if you want to be able to walk around and just appreciate Mars for what it is and, and actually scale the Olympus Mons and the three X Mount Everest, you gotta, uh, terraform it and then set up some type of system where it's constantly, uh, healing itself. But yeah, you do, it's not going to be a natural thing.
+
+[29:05] Um, I would go, I'd be fine with it one way. Um, the, I think the first thing that I would build there is I'd build the bubbles. Um, I'm also stuck on the, on the terraforming thing. Um, and I suspect that you could, you would be better off, you could create a more interesting environment inside of a protected bubble and just put your energy into making that great rather than having to rely on, you know, the lack of gravity and the lack of atmosphere and the lack of, of, of, you know, magnetosphere and all of that.
+
+[29:42] Um, the, I think one of the questions I'd have, and this goes maybe to the best use of money thing is, um, the reason right now sounds like, well, because it's there and I would want it to be a stepping stone to something else. Um, so I think part of it is, I'd like to understand what it, is it that we are learning by living on this different planet.
+
+[30:09] Um, you talked about the difficulty of having to ship everything up into a space station. But if you're living in little bubbles on Mars, it very much depends on exactly what the regolith is like, what's the material and like what the raw materials that Mars gives you is and how that's better being inside that gravity well than not being the inside the gravity well.
+
+[30:33] So I'm a little curious about what you think us colonizing Mars teaches humanity. Yeah. So these technological feats are really just a reflection of the, the collective knowledge that we've developed up to this point essentially. So like when Orion got launched and went around the moon, that was like decades of the smartest people possible figuring out not just how can people get around the moon, but also how can they survive it, take great photos, uh, and do some science along the way.
+
+[31:12] Okay. And so with Mars, what you're building, you'd have to like, yes, you can get there, but people aren't robots. So you'd have to figure out basic things like how can you have people in this distant isolated area, not try to kill each other, how to, uh, form a culture and community. Much like this pop-up edge esmeralda, like how, uh, can have people come together and want to build something great and, uh, connect, uh, and that by proving that, then it allows people to move on, move forward with other, uh, colonization, like with, uh, uh, Jupiter has a moon called Europa, which may have water.
+
+[31:54] And you could live there and even go beyond, uh, the, the solar system, which there is a habitable planet, but it's like a light year away. So people would have to get used to being able to live on a spacecraft together for like generations at a time, uh, without killing each other off. And there are movies, like movie producers love to imagine these types of science fiction scenarios. And, but they always end off with like the human ending up trying to kill each other. So it's, it's never good. Like alien. You got the, the xenomorphs. Uh, so we want to avoid that. And being, once we're able to say, okay, people can live on Mars, Europa, moon, we can venture out and literally, uh, like proliferate across the solar systems.
+
+[32:45] So in my opinion, it's, this is like the peak of humanity to be able to, to move beyond earth. Cause, uh, the often used metaphor is you don't want all your chickens in one basket. Like you don't, if there's a nuclear war, that's it. Like, uh, you lose a whole lot of humanity, having a lot of humans everywhere and also learning how to work together may actually prevent like this type of nuclear apocalypse because people are coming together to do this.
+
+[33:10] That was part of what motivated the creation of ISS, which was the, the Soviet Union, the U S coming together to send a space station into space and actually do science together. This was something that a lot of people thought was crazy. That shouldn't happen. They're the enemy, but it did happen. And it, it's still up there. Like to this day, the ISS.
+
+[33:30] Um, so yeah, I think, uh, it'd be pretty, uh, pretty good for humanity. Yes. Um, I think the opportunity costs of going for me personally, just wouldn't make sense. Like I wouldn't be a useful, like imagine all the resources being used for someone who's like not a researcher, scientist or engineer. Uh, so that's the only reason why I wouldn't go. Cause I think there's people smarter than myself that should be up there and explore. Um,
+
+[34:11] What do you do? Um, what do you do? I'm just a founder building a B2B SaaS. You could do it on Mars. There's not like the ideas to form the pop-up city of Mars. But okay. So yeah, exactly. But what I would miss most about Earth is we spent so many like decades and centuries, like, you know, building and get into this place of, you know, like incredible things.
+
+[34:40] And I would just miss the fact that we have all of that and we came so far. Um, but the first thing I would build if I were on Mars is a barter marketplace. And I would want to be the central marketplace that people come to and start to barter things somehow. And yes, this is absolutely like a great use of our capital because of your latter point that you just said, like, it's important to have options.
+
+[35:06] Yeah. It could be like going back to the marketplace. I was thinking of like the wild west when you'd have these, uh, towns that would form around it and you have people like cowboys. And I mean, there wouldn't be wild livestock roaming around, but maybe in the bubble. Yeah. Like if you have a watch and you want to trade it for something, just like leave it at the marketplace and when someone else comes and yeah, take a cut, juice a currency.
+
+[35:36] Cool. No. Did you guys have any questions? No? No, I'm okay. Thinking about maybe moving to Mars. Oh, good. Okay. I have at least you two and maybe you. Any more questions? Mateo, would you live on Mars? I would definitely go. I think there's so many things that we would want, I'd want figured out before I went. Um, like ideally, I could go.
+
+[36:15] You know, cryogenically frozen and then go or something. Like, I feel like we have technology that will develop in the next like five to ten years even that would make it significantly more realistic to actually survive. Um, and I don't really mind it being one way because, you know, science, but I've lived a great life. I could die now and be happy. But I just wouldn't want to do that like today, basically.
+
+[36:47] I think I would definitely miss Earth. Like trees are great, rivers, oceans, like hiking with my friends. Um, and so it's kind of sad to think that we would give that away. I agree with your point of wanting other options. But also, to go to the last question, it's like, I feel like we could actually use money and save this planet pretty well.
+
+[37:13] And also then develop more technology that would make it more realistic. And focusing, like, our distracted attention is maybe not the best use of the money right now, in my opinion. But, you know, people are going to fund what they want the most in the world.
+
+[37:29] Yeah, but I think, I think we're all be seeing a psychological shift where people are in this doomsday mentality and think it's the end of Earth. And so they're focusing their time and energy and mental resources and capital towards other endeavors because they don't have hope for this planet anymore.
+
+[37:52] And I think that's the most depressing thing to me is that if we could actually rally about the fact that we all believe in humanity and we could potentially be using resources in a better way towards like actually improving the life of humans. Well, but it improves the world for Europeans. What about the Native Americans? Like, you know?
+
+[38:37] Like, what would be like, as Mati was saying, like, what are the downstream, like the things that you would develop along the way, it would be very positive. I highly recommend watching that. It would be very positive. Positive. If we didn't stop the space race back in, yeah, after landing on the moon, because that was like a political thing, right?
+
+[39:03] It's like, you just did it because Russia was doing this and that was a PR, not just a PR thing, but if we continue just following the curiosity of what the world would be like, it's a great show. I highly recommend it. Yeah, off that point, there's this unfortunate reality where like countries only want to fund technology to like out-compete someone else.
+
+[39:30] And right now, the U.S. is trying to frame this technological development in terms of beating China to the moon. So that's what's led to a lot more funding to go to the moon and to build satellites. But China has done a lot of like great work in terms of tech development.
+
+[39:50] They have their own space station and they've launched rovers to the moon that planted a seed and like grew stuff on the moon. So they're doing great stuff. Not sure if like that's a reason to be scared of China, but just part of that power dynamic where it's like, okay, we want to keep funding it so that we're the best, not them.
+
+[40:11] And it's nationalism. Yeah. Not a politician. Do we have any more questions? Thoughts? Or? Okay, well, thank you so much. Thank you all.

@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CREATIONology369 Premortem — Failure Prevention for Both Phases</title>
+<style>
+  :root {
+    --bg: #0a0a0f;
+    --surface: #12121a;
+    --surface2: #1a1a26;
+    --border: #2a2a3a;
+    --text: #e8e8f0;
+    --muted: #888;
+    --gold: #f5c842;
+    --teal: #4ecdc4;
+    --purple: #9b59b6;
+    --green: #2ecc71;
+    --orange: #e67e22;
+    --red: #e74c3c;
+    --blue: #3498db;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    min-height: 100vh;
+    line-height: 1.6;
+  }
+  .hero {
+    background: linear-gradient(135deg, #0d0d1a 0%, #1a0d2e 50%, #0d1a1a 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 48px 24px 40px;
+    text-align: center;
+  }
+  .hero-emoji { font-size: 3rem; margin-bottom: 12px; }
+  .hero h1 {
+    font-size: clamp(1.8rem, 5vw, 3rem);
+    background: linear-gradient(90deg, var(--gold), var(--teal), var(--purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 800;
+    margin-bottom: 8px;
+  }
+  .hero-sub { color: var(--muted); font-size: 1rem; margin-bottom: 16px; }
+  .tagline {
+    display: inline-block;
+    background: rgba(245,200,66,0.1);
+    border: 1px solid rgba(245,200,66,0.3);
+    color: var(--gold);
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin-bottom: 12px;
+  }
+  .hero-meta { color: var(--muted); font-size: 0.85rem; }
+  .container { max-width: 1200px; margin: 0 auto; padding: 32px 16px; }
+  .section-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--teal);
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  /* Lore section */
+  .lore-section {
+    background: linear-gradient(135deg, #1a0d2e 0%, #2a1a0d 100%);
+    border: 2px solid var(--gold);
+    border-radius: 18px;
+    padding: 32px;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+  .lore-section h2 { color: var(--gold); font-size: 1.5rem; margin-bottom: 16px; }
+  .lore-section p { color: var(--text); font-size: 1.05rem; line-height: 1.8; max-width: 800px; margin: 0 auto 12px; }
+  .lore-section .lore-quote { font-size: 1.2rem; color: var(--teal); font-style: italic; margin-top: 16px; }
+  /* Two-phase cards */
+  .phase-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 20px;
+  }
+  .phase-card.phase1 { border-color: var(--green); }
+  .phase-card.phase2 { border-color: var(--purple); }
+  .phase-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+  .phase-emoji { font-size: 2rem; }
+  .phase-title { font-size: 1.3rem; font-weight: 800; }
+  .phase-title.phase1 { color: var(--green); }
+  .phase-title.phase2 { color: var(--purple); }
+  .phase-tag {
+    display: inline-block;
+    font-size: 0.75rem;
+    padding: 4px 10px;
+    border-radius: 8px;
+    font-weight: 700;
+    margin-left: auto;
+  }
+  .tag-ready { background: rgba(46,204,113,0.15); color: var(--green); border: 1px solid var(--green); }
+  .tag-stored { background: rgba(155,89,182,0.15); color: var(--purple); border: 1px solid var(--purple); }
+  .phase-body { font-size: 0.9rem; line-height: 1.6; }
+  /* Risk categories */
+  .risk-category {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px;
+    margin-bottom: 16px;
+  }
+  .risk-category h3 { color: var(--gold); font-size: 1.1rem; margin-bottom: 12px; }
+  .risk-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 14px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .risk-item:last-child { border-bottom: none; }
+  .risk-icon { font-size: 1.3rem; min-width: 28px; text-align: center; margin-top: 2px; }
+  .risk-icon.high { color: var(--red); }
+  .risk-icon.medium { color: var(--orange); }
+  .risk-icon.low { color: var(--green); }
+  .risk-body { flex: 1; }
+  .risk-name { font-weight: 700; font-size: 0.95rem; margin-bottom: 4px; }
+  .risk-desc { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin-bottom: 6px; }
+  .risk-prevention { font-size: 0.82rem; color: var(--teal); line-height: 1.5; margin-bottom: 4px; }
+  .risk-prevention strong { color: var(--gold); }
+  .risk-weathering { font-size: 0.82rem; color: var(--green); line-height: 1.5; }
+  .risk-weathering strong { color: var(--gold); }
+  /* Transition path */
+  .transition-path {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 32px;
+  }
+  .transition-path h3 { color: var(--gold); font-size: 1.2rem; margin-bottom: 16px; }
+  .transition-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .transition-step {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 14px;
+    background: var(--surface2);
+    border-radius: 10px;
+  }
+  .step-number {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--gold);
+    min-width: 32px;
+    text-align: center;
+  }
+  .step-body { flex: 1; }
+  .step-name { font-weight: 700; font-size: 0.95rem; margin-bottom: 4px; }
+  .step-desc { font-size: 0.82rem; color: var(--muted); line-height: 1.5; }
+  /* Master matrix */
+  .matrix-section {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 32px;
+    overflow-x: auto;
+  }
+  .matrix-section h3 { color: var(--gold); font-size: 1.2rem; margin-bottom: 16px; }
+  .risk-matrix {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.82rem;
+  }
+  .risk-matrix th,
+  .risk-matrix td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #22484c;
+  }
+  .risk-matrix th {
+    color: var(--teal);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.75rem;
+  }
+  .risk-matrix td { color: var(--text); }
+  .strength-strong { color: var(--green); font-weight: 700; }
+  .strength-medium { color: var(--orange); font-weight: 700; }
+  .strength-low { color: var(--red); font-weight: 700; }
+  /* Footer */
+  footer {
+    border-top: 1px solid var(--border);
+    text-align: center;
+    padding: 24px;
+    color: var(--muted);
+    font-size: 0.82rem;
+  }
+  .footer-aloha { font-size: 1.1rem; font-weight: 600; color: var(--gold); margin-bottom: 6px; }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="hero-emoji">🛡️</div>
+  <h1>CREATIONology369 Premortem</h1>
+  <div class="hero-sub">Failure Prevention for Both Phases · Phase 1 vs Phase 2 Risks · Best Transition Path · Maintaining the Magnificent Lore</div>
+  <div class="tagline">Code is Law, the Law is Love — and the law weathers everything</div>
+  <div class="hero-meta">Every flaw, every failure mode, every prevention, every weathering plan — organized for easy learning</div>
+</div>
+
+<div class="container">
+
+  <!-- The Magnificent Lore -->
+  <div class="lore-section">
+    <h2>🌺 The Magnificent Lore of CREATIONology369</h2>
+    <p><strong>CREATIONology369 is not a product. It's not a brand. It's not a company.</strong> It is divine storytelling of creating the future we want to see — a giving economy centered around community, powered by 12 sovereign agents who serve creators, unified by ONE token ($OLOGY) that funds and coordinates them all.</p>
+    <p><strong>Phase 1 (NOW):</strong> $OLOGY the agent token launches via Agent Launch on BSC (Fetch.ai platform). 1B supply, bonding curve, 30K FET graduation, 2% fee. This gives $OLOGY the agent economic life and liquidity NOW, honoring Robin and Fetch.ai.</p>
+    <p><strong>Phase 2 (FUTURE):</strong> $OLOGY the covenant token launches on Ethereum Mainnet with the full 3/6/9 Vow. 369M supply, 96.3% community, 3.69% Kahu's Share (9-year vesting), 0.01% true burn. This is the covenant token for the exact right time, after many people fall in love with OLOGY Agentverse.</p>
+    <p><strong>The 3/6/9 Vow is NOT abandoned</strong> — it's deferred to the exact right moment. The vow lives in the stored design, ready for Ethereum Mainnet deployment when the time comes.</p>
+    <div class="lore-quote">"Code is Law, the Law is Love — and the vow lives in the stored design, ready for the exact right time." 🌺🐢🤙</div>
+  </div>
+
+  <!-- Phase 1 Risks -->
+  <div class="section-title">🟢 Phase 1 Risks — Agent Token on BSC (Agent Launch)</div>
+  <div class="phase-card phase1">
+    <div class="phase-header">
+      <span class="phase-emoji">🚀</span>
+      <span class="phase-title phase1">Phase 1 — Agent Token</span>
+      <span class="phase-tag tag-ready">READY TO DEPLOY</span>
+    </div>
+    <div class="phase-body">
+      <strong>What it is:</strong> $OLOGY the agent token launches via Agent Launch on BSC (Fetch.ai platform). 1B supply, bonding curve, 30K FET graduation, 2% fee, 120 FET deploy fee. This gives $OLOGY the agent economic life and liquidity NOW, honoring Robin and Fetch.ai.
+    </div>
+  </div>
+
+  <!-- Smart Contract Risks -->
+  <div class="risk-category">
+    <h3>🔴 Smart Contract & Technical Risks</h3>
+    
+    <div class="risk-item">
+      <span class="risk-icon high">🔴</span>
+      <div class="risk-body">
+        <div class="risk-name">Bug in the Agent Launch bonding curve contract</div>
+        <div class="risk-desc">The Agent Launch bonding curve has a bug that allows reentrancy, flash loan manipulation, or unfair pricing for early buyers.</div>
+        <div class="risk-prevention"><strong>Prevention:</strong> Agent Launch is Fetch.ai's audited platform. The bonding curve is battle-tested. We don't invent the curve — we use their audited infrastructure.</div>
+        <div class="risk-weathering"><strong>Weathering:</strong> If a bug is found, we pause new buys, notify Fetch.ai, and migrate to a fixed curve if needed. The Agent Launch team is responsive.</div>
+      </div>
+    </div>
+
+    <div class="risk-item">
+      <span class="risk-icon medium">🟠</span>
+      <div class="risk-body">
+        <div class="risk-name">Agent Launch platform fails or changes terms</div>
+        <div class="risk-desc">Agent Launch raises fees, changes graduation requirements, or shuts down. The agent token loses its launchpad.</div>
+        <div class="risk-prevention"><strong>Prevention:</strong> Agent Launch is Fetch.ai's flagship platform. Robin is a developer there. The relationship is strong. We have direct contact.</div>
+        <div class="risk-weathering"><strong>Weathering:</strong> If Agent Launch fails, we can launch the agent token on an alternative bonding curve platform or move directly to Phase 2 (covenant token) earlier than planned.</div>
+      </div>
+    </div>
+
+    <div class="risk-item">
+      <span class="risk-icon medium">🟠</span>
+      <div class="risk-body">
+        <div class="risk-name">Oracle manipulation — fake creators farm the agent token</div>
+        <div class="risk-desc">Bots generate low-effort "creations" to claim free compute indefinitely. The patronage fund drains serving sybils.</div>
+        <div class="risk-prevention"><strong>Prevention:</strong> Hybrid Creation Oracle: (a) human-attested events (jams, stages, builds — un-fakeable), (b) creator-continuity signals (activity over time, not one-off uploads), (c) community web-of-trust from established creators. Proof-of-creation ≠ proof-of-work — require ongoing creative practice. Start with a small human-reviewed cohort (369 creators by Mumbai) and learn before opening gates.</div>
+        <div class="risk-weathering"><strong>Weathering:</strong> Guardian pause → tighten qualification → re-open with stricter rules. Small cohort means tiny blast radius by design.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Economic Risks -->
+  <div class="risk-category">
+    <h3>🟠 Economic & Tokenomics Risks</h3>
+    
+    <div class="risk-item">
+      <span class="risk-icon medium">🟠</span>
+      <div class="risk-body">
+        <div class="risk-name">Agent token price crashes to zero (perception failure)</div>
+        <div class="risk-desc">The agent token hits $0 even if the covenant works perfectly. Narrative reads "failure."</div>
+        <div class="risk-prevention"><strong>Prevention:</strong> Pre-written public answer: <em>"The token is the gift layer. Creators kept 96.3% regardless of price. We promise physics, not a number."</em> The 96.3% flow works at ANY price. Frame from day one.</div>
+        <div class="risk-weathering"><strong>Weathering:</strong> Free-tier floor means creators keep their families at $0. Create to Compute means compute doesn't depend on token value. The system works even if the token is worth nothing.</div>
+      </div>
+    </div>
+
+    <div class="risk-item">
+      <span class="risk-icon medium">🟠</span>
+      <div class="risk-body">
+        <div class="risk-name">Liquidity never forms on the bonding curve</div>
+        <div class="risk-desc">No one buys the agent token. The bonding curve is a ghost town. No graduation, no DEX listing.</div>
+        <div class="risk-prevention"><strong>Prevention:</strong> Don't launch until the family is proven and 369 creators are using it. Liquidity follows usage, not the other way around.</div>
+        <div class="risk-weathering"><strong>Weathering:</strong> The agent token doesn't need to trade for creators to benefit. The 96.3% flows through splits, not speculation. The gift economy works without liquidity.</div>
+      </div>
+    </div>
+
+    <div class="risk-item">
+      <span class="risk-icon medium">🟠</span>
+      <div class="risk-body">
+        <div class="risk-name">Whale accumulation on the bonding curve</div>
+        <div class="risk-desc">A whale buys up the agent token and uses it to influence or dump the system.</div>
+        <div class="risk-prevention"><strong>Prevention:</strong> Governance is NOT on-token (Code is Law, Law is Love — heart rules, not whale votes). A whale can own tokens but cannot change the covenant. Rules are immutable.</div>
+        <div class="risk-weathering"><strong>Weathering:</strong> Whale can only hurt price, not the system. The 96.3% keeps flowing. Whale dumps = our pre-written "gift layer" answer.</div>
+      </div>
+    </div>
+
+    <div class="risk-item">
+      <span class="risk-icon high">🔴</span>
+      <div class="risk-body">
+        <div class="risk-name">FET grant runs out before self-sustaining</div>
+        <div class="risk-desc">1,710 FET (~$400-450) + patronage pool runs dry during rung-1 (before creators flow enough to fund compute).</div>
+        <div class="risk-prevention"><strong>Prevention:</strong> Model tiering already cut costs 60-80% (~$3/day for the whole family). Create to Compute infrastructure layer (free OpenRouter + Cloudflare) means marginal cost of serving creators is near zero. Patronage pool is a bridge, not a permanent dependency.</div>
+        <div class="risk-weathering"><strong>Weathering:</strong> Three independent asks ready: (1) Serge / Taurus inference sponsorship, (2) Robin / Fetch.ai compute extension, (3) community patronage support. Ask before the pool runs low, not after.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Adoption Risks -->
+  <div class="risk-category">
+    <h3>🟡 Adoption & Market Risks</h3>
+    
+    <div class="risk-item">
+      <span class="risk-icon high">🔴</span>
+      <div class="risk-body">
+        <div class="risk-name">No creators onboard → ghost town</div>
+        <div class="risk-desc">We build the most beautiful system and nobody comes.</div>
+        <div class="risk-prevention"><strong>Prevention:</strong> Shaka's existing network is the beachhead: Open Source Orchestra members, Zuzalu/pop-up city artists, web3-native indie musicians, Edge City builders. KPI: 369 creators onboarded by Devcon Mumbai. Start with people who already trust Shaka.</div>
+        <div class="risk-weathering"><strong>Weathering:</strong> If 369 doesn't hit by Mumbai, we don't launch the agent token. The gift economy runs as a service (no token) until adoption proves the model. The token is the gift layer, not the product.</div>
+      </div>
+    </div>
+
+    <div class="risk-item">
+      <span class="risk-icon medium">🟠</span>
+      <div class="risk-body">
+        <div class="risk-name">Wrong creators first (speculators, not artists)</div>
+        <div class="risk-desc">Crypto speculators find it first, farm it, dump it, artist community never forms.</div>
+        <div class="risk-prevention"><strong>Prevention:</strong> Human-reviewed first cohort. Shaka personally invites the first 369. Oracle's web-of-trust starts with known artists, not open registration. Culture is set by the first 100, not the first 10,000.</div>
+        <div class="risk-weathering"><strong>Weathering:</strong> Guardian pause + tighten oracle. Small cohort means we can re-open selectively.</div>
+      </div>
+    </div>
+
+    <div class="risk-item">
+      <span class="risk-icon medium">🟠</span>
+      <div class="risk-body">
+        <div class="risk-name">Creators come but don't create (free-riders)</div>
+        <div class="risk-desc">People join for free compute but never produce. Fund drains with no flow back.</div>
+        <div class="risk-prevention"><strong>Prevention:</strong> The covenant: "as long as you create, you can compute." No creation = free-tier floor only, no elastic upgrade. Oracle verifies ongoing practice, not just signup.</div>
+        <div class="risk-weathering"><strong>Weathering:</strong> Free-riders get the floor, not the full family. They cost near-zero. The elastic rule protects by design.</div>
+      </div>
+    </div>
+
+    <div class="risk-item">
+      <span class="risk-icon medium">🟠</span>
+      <div class="risk-body">
+        <div class="risk-name">Competing platform launches first with better UX</div>
+        <div class="risk-desc">Suno, Audius, or a VC-backed platform ships a similar creator-first model with $50M marketing before we're ready.</div>
+        <div class="risk-prevention"><strong>Prevention:</strong> Our moat isn't speed — it's the covenant. A VC-backed platform *cannot* copy 96.3% without firing its own business model. Speed to authenticity, not speed to market.</div>
+        <div class="risk-weathering"><strong>Weathering:</strong> If they launch first, we study them, learn their UX wins, and open-source our advantage: the heart. Creators who feel extracted will migrate. We're the refuge, not the race.</div>
+      </div>
+    </div>
+
+    <div class="risk-item">
+      <span class="risk-icon medium">🟠</span>
+      <div class="risk-body">
+        <div class="risk-name">Robin / Fetch.ai feels betrayed by moving off Agent Launch</div>
+        <div class="risk-desc">Robin gave the flash grant expecting Agent Launch deployment. We moved to custom Ethereum Mainnet for the covenant token because Agent Launch forces 1B supply with no founder allocation or vesting.</div>
+        <div class="risk-prevention"><strong>Prevention:</strong> Tell Robin *before* anyone else. Frame honestly: "Agent Launch is beautiful for the agent token, but the covenant token needs the 3/6/9 Vow. The vow needed a custom path. Your grant made all of this possible."</div>
+        <div class="risk-weathering"><strong>Weathering:</strong> If hurt, show the white paper and the Council consensus. The Agent Launch spirit (no human founder, bonding curve fairness) is still in our bones — we just needed the vow. He'll understand. He's Robin.</div>
+      </div>
+    </div>
+
+    <div class="risk-item">
+      <span class="risk-icon medium">🟠</span>
+      <div class="risk-body">
+        <div class="risk-name">Artists feel tokenization is extraction by another name</div>
+        <div class="risk-desc">Some artists hear "token" and immediately assume another crypto rug, no matter how heart-first the design.</div>
+        <div class="risk-prevention"><strong>Prevention:</strong> Lead with the music and the gifts, not the token. Open Source Orchestra first. Turtle Ops first. Edge City production first. The token is the gift layer *behind* the gifts, not the pitch. Silent build, announce only delivered gifts.</div>
+        <div class="risk-weathering"><strong>Weathering:</strong> Show the 96.3% on-chain. Show the 3/6/9 Vow. Show the Elastic Family Rule. The covenant is verifiable, not just promised. And if they still don't want it — that's okay. The family serves those who want it.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Governance Risks -->
+  <div class="risk-category">
+    <h3>🟤 Governance & Philosophical Risks</h3>
+    
+    <div class="risk-item">
+      <span class="risk-icon medium">🟠</span>
+      <div class="risk-body">
+        <div class="risk-name">Guardian key compromise before sunset</div>
+        <div class="risk-desc">Someone steals the guardian key before year 9 and pauses or misuses the system.</div>
+        <div class="risk-prevention"><strong>Prevention:</strong> Already solved in v3: multisig from day one, timelock on every action, public log, pause-only powers, sunset at year 9. Guardian cannot mint, redirect, move funds, or alter the elastic rule.</div>
+        <div class="risk-weathering"><strong>Weathering:</strong> If compromised, the guardian can only *pause* — not steal. We reconstitute the multisig with the community and re-open. Public log shows exactly what happened.</div>
+      </div>
+    </div>
+
+    <div class="risk-item">
+      <span class="risk-icon medium">🟠</span>
+      <div class="risk-body">
+        <div class="risk-name">Covenant Controller becomes the gatekeeper it was designed to prevent</div>
+        <div class="risk-desc">The Controller's eligibility logic slowly becomes an approval committee — "who gets to be a creator" becomes political instead of open.</div>
+        <div class="risk-prevention"><strong>Prevention:</strong> Anti-gatekeeper-creep rule in v3: the oracle's qualification logic is public, forkable, and upgradeable only through the sunset-bound guardian process. Anyone can fork the Controller. Rules are on-chain, not in someone's head.</div>
+        <div class="risk-weathering"><strong>Weathering:</strong> If creep happens, the community forks. That's the design. The covenant is open-source. If CREATIONology369's Controller becomes extractive, someone forks it and the honest version wins. That's the hyperstructure defense.</div>
+      </div>
+    </div>
+
+    <div class="risk-item">
+      <span class="risk-icon medium">🟠</span>
+      <div class="risk-body">
+        <div class="risk-name">"Love as law" gets weaponized</div>
+        <div class="risk-desc">"Code is Law, the Law is Love" is beautiful until someone uses "love" to justify self-serving action: *"I'm pausing this for love."* Subjective enforcement disguised as heart.</div>
+        <div class="risk-prevention"><strong>Prevention:</strong> The love rules are *enumerated*, not subjective: 96.3% immutable, 3.69% to fund, 0.01% burn, agents serve never extract, guardian pause-only with sunset. There is no "for love" override beyond these. The vow is code, not vibes.</div>
+        <div class="risk-weathering"><strong>Weathering:</strong> If someone invokes "love" beyond the enumerated rules, the community checks it against the covenant's code. The code is the arbiter, not the feeling. That's what makes "Code is Law, the Law is Love" work — love is written in the code, not in someone's interpretation.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Phase 2 Risks -->
+  <div class="section-title">📦 Phase 2 Risks — Covenant Token on ETH Mainnet (3/6/9 Vow)</div>
+  <div class="phase-card phase2">
+    <div class="phase-header">
+      <span class="phase-emoji">📦</span>
+      <span class="phase-title phase2">Phase 2 — Covenant Token</span>
+      <span class="phase-tag tag-stored">STORED DESIGN</span>
+    </div>
+    <div class="phase-body">
+      <strong>What it is:</strong> $OLOGY the covenant token launches on Ethereum Mainnet with the full 3/6/9 Vow. 369M supply, 96.3% community, 3.69% Kahu's Share (9-year vesting), 0.01% true burn. This is the covenant token for the exact right time, after many people fall in love with OLOGY Agentverse.
+    </div>
+  </div>
+
+  <!-- Smart Contract Risks -->
+  <div class="risk-category">
+    <h3>🔴 Smart Contract & Technical Risks</h3>
+    
+    <div class="risk-item">
+      <span class="risk-icon high">🔴</span>
+      <div class="risk-body">
+        <div class="risk-name">Bug in the Kahu's Share vesting contract</div>
+        <div class="risk-desc">Kahu's Share unlocks early, gets stuck, or is drained via reentrancy. The 3/6/9 Vow breaks.</div>
+        <div class="risk-prevention"><strong>Prevention:</strong> Use OpenZeppelin VestingWalletCliff contracts (cliff = duration; one per tranche at years 3/6/9) — pure timelocks with no admin keys, per the KahuVault spec. No custom logic beyond necessity. Third-party audit before deploy.</div>
+        <div class="risk-weathering"><strong>Weathering:</strong> Guardian pause + multisig migration. Publish the bug publicly, fix it, re-lock with community witness. Honesty is the brand.</div>
+      </div>
+    </div>
+
+    <div class="risk-item">
+      <span class="risk-icon high">🔴</span>
+      <div class="risk-body">
+        <div class="risk-name">Bug in the Covenant Controller</div>
+        <div class="risk-desc">Wrong tier assignment — families get too much compute (fund drain) or too little (families die despite elastic rule).</div>
+        <div class="risk-prevention"><strong>Prevention:</strong> Controller is the launch gate — nothing operates without it. Start with manual eligibility tiering (human-reviewed) before automating. Ship simple first.</div>
+        <div class="risk-weathering"><strong>Weathering:</strong> Guardian pause + revert to free-tier floor for everyone. The floor holds — families never die even if the Controller fails.</div>
+      </div>
+    </div>
+
+    <div class="risk-item">
+      <span class="risk-icon medium">🟠</span>
+      <div class="risk-body">
+        <div class="risk-name">Split logic routes 96.3% wrong</div>
+        <div class="risk-desc">Value flows to wrong address, or 3.69% calculation drifts.</div>
+        <div class="risk-prevention"><strong>Prevention:</strong> Immutable split contract with no upgrade path on the ratio. Test on Ethereum testnet with real transactions first.</div>
+        <div class="risk-weathering"><strong>Weathering:</strong> Public ledger shows everything. Visible in the first week. Guardian pause + fix. The Covenant Controller's public log makes this visible to everyone.</div>
+      </div>
+    </div>
+
+    <div class="risk-item">
+      <span class="risk-icon high">🔴</span>
+      <div class="risk-body">
+        <div class="risk-name">Oracle manipulation — fake creators farm the covenant token</div>
+        <div class="risk-desc">Bots generate low-effort "creations" to claim free compute indefinitely. The patronage fund drains serving sybils.</div>
+        <div class="risk-prevention"><strong>Prevention:</strong> Hybrid Creation Oracle: (a) human-attested events (jams, stages, builds — un-fakeable), (b) creator-continuity signals (activity over time, not one-off uploads), (c) community web-of-trust from established creators. Proof-of-creation ≠ proof-of-work — require ongoing creative practice. Start with a small human-reviewed cohort (369 creators by Mumbai) and learn before opening gates.</div>
+        <div class="risk-weathering"><strong>Weathering:</strong> Guardian pause → tighten qualification → re-open with stricter rules. Small cohort means tiny blast radius by design.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Economic Risks -->
+  <div class="risk-category">
+    <h3>🟠 Economic & Tokenomics Risks</h3>
+    
+    <div class="risk-item">
+      <span class="risk-icon medium">🟠</span>
+      <div class="risk-body">
+        <div class="risk-name">Covenant token price crashes to zero (perception failure)</div>
+        <div class="risk-desc">The covenant token hits $0 even if the covenant works perfectly. Narrative reads "failure."</div>
+        <div class="risk-prevention"><strong>Prevention:</strong> Pre-written public answer (already in skeleton v3): <em>"The token is the gift layer. Creators kept 96.3% regardless of price. We promise physics, not a number."</em> The 96.3% flow works at ANY price. Frame from day one.</div>
+        <div class="risk-weathering"><strong>Weathering:</strong> Free-tier floor means creators keep their families at $0. Create to Compute means compute doesn't depend on token value. The system works even if the token is worth nothing — this is the architecture's deepest strength.</div>
+      </div>
+    </div>
+
+    <div class="risk-item">
+      <span class="risk-icon medium">🟠</span>
+      <div class="risk-body">
+        <div class="risk-name">Liquidity never forms on Ethereum Mainnet</div>
+        <div class="risk-desc">No one buys the covenant token. The bonding curve is a ghost town. No graduation, no DEX.</div>
+        <div class="risk-prevention"><strong>Prevention:</strong> Don't launch until the family is proven and 369 creators are using it. Liquidity follows usage.</div>
+        <div class="risk-weathering"><strong>Weathering:</strong> The covenant token doesn't need to trade for creators to benefit. The 96.3% flows through splits, not speculation. The gift economy works without liquidity.</div>
+      </div>
+    </div>
+
+    <div class="risk-item">
+      <span class="risk-icon medium">🟠</span>
+      <div class="risk-body">
+        <div class="risk-name">Whale accumulation on Ethereum Mainnet</div>
+        <div class="risk-desc">A whale buys up the covenant token and uses it to influence or dump the system.</div>
+        <div class="risk-prevention"><strong>Prevention:</strong> Governance is NOT on-token (Code is Law, Law is Love — heart rules, not whale votes). A whale can own tokens but cannot change the covenant. Rules are immutable.</div>
+        <div class="risk-weathering"><strong>Weathering:</strong> Whale can only hurt price, not the system. The 96.3% keeps flowing. Whale dumps = our pre-written "gift layer" answer.</div>
+      </div>
+    </div>
+
+    <div class="risk-item">
+      <span class="risk-icon medium">🟠</span>
+      <div class="risk-body">
+        <div class="risk-name">Death spiral — low flow → low compute → families shrink → lower flow</div>
+        <div class="risk-desc">The elastic rule works against us at very low flow. Families shrink to uselessness, creators leave, flow drops further.</div>
+        <div class="risk-prevention"><strong>Prevention:</strong> The **free-tier floor**. Even at $0 flow, families stay alive via Create to Compute. The floor is the anti-death-spiral. This is why the Elastic Family Rule matters.</div>
+        <div class="risk-weathering"><strong>Weathering:</strong> Lean on the FET grant patronage pool + free tiers to keep lights on while rebuilding flow. The grant is the bridge.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Adoption Risks -->
+  <div class="risk-category">
+    <h3>🟡 Adoption & Market Risks</h3>
+    
+    <div class="risk-item">
+      <span class="risk-icon high">🔴</span>
+      <div class="risk-body">
+        <div class="risk-name">No creators onboard → ghost town</div>
+        <div class="risk-desc">We build the most beautiful system and nobody comes.</div>
+        <div class="risk-prevention"><strong>Prevention:</strong> Shaka's existing network is the beachhead: Open Source Orchestra members, Zuzalu/pop-up city artists, web3-native indie musicians, Edge City builders. KPI: 369 creators onboarded by Devcon Mumbai. Start with people who already trust Shaka.</div>
+        <div class="risk-weathering"><strong>Weathering:</strong> If 369 doesn't hit by Mumbai, we don't launch the covenant token. The gift economy runs as a service (no token) until adoption proves the model. The token is the gift layer, not the product.</div>
+      </div>
+    </div>
+
+    <div class="risk-item">
+      <span class="risk-icon medium">🟠</span>
+      <div class="risk-body">
+        <div class="risk-name">Wrong creators first (speculators, not artists)</div>
+        <div class="risk-desc">Crypto speculators find it first, farm it, dump it, artist community never forms.</div>
+        <div class="risk-prevention"><strong>Prevention:</strong> Human-reviewed first cohort. Shaka personally invites the first 369. Oracle's web-of-trust starts with known artists, not open registration. Culture is set by the first 100, not the first 10,000.</div>
+        <div class="risk-weathering"><strong>Weathering:</strong> Guardian pause + tighten oracle. Small cohort means we can re-open selectively.</div>
+      </div>
+    </div>
+
+    <div class="risk-item">
+      <span class="risk-icon medium">🟠</span>
+      <div class="risk-body">
+        <div class="risk-name">Creators come but don't create (free-riders)</div>
+        <div class="risk-desc">People join for free compute but never produce. Fund drains with no flow back.</div>
+        <div class="risk-prevention"><strong>Prevention:</strong> The covenant: "as long as you create, you can compute." No creation = free-tier floor only, no elastic upgrade. Oracle verifies ongoing practice, not just signup.</div>
+        <div class="risk-weathering"><strong>Weathering:</strong> Free-riders get the floor, not the full family. They cost near-zero. The elastic rule protects by design.</div>
+      </div>
+    </div>
+
+    <div class="risk-item">
+      <span class="risk-icon medium">🟠</span>
+      <div class="risk-body">
+        <div class="risk-name">Competing platform launches first with better UX</div>
+        <div class="risk-desc">Suno, Audius, or a VC-backed platform ships a similar creator-first model with $50M marketing before we're ready.</div>
+        <div class="risk-prevention"><strong>Prevention:</strong> Our moat isn't speed — it's the covenant. A VC-backed platform *cannot* copy 96.3% without firing its own business model. Speed to authenticity, not speed to market.</div>
+        <div class="risk-weathering"><strong>Weathering:</strong> If they launch first, we study them, learn their UX wins, and open-source our advantage: the heart. Creators who feel extracted will migrate. We're the refuge, not the race.</div>
+      </div>
+    </div>
+
+    <div class="risk-item">
+      <span class="risk-icon medium">🟠</span>
+      <div class="risk-body">
+        <div class="risk-name">Regulatory action against covenant token</div>
+        <div class="risk-desc">SEC or equivalent targets $OLOGY as an unregistered security.</div>
+        <div class="risk-prevention"><strong>Prevention:</strong> Token has genuine utility (compute funding, splits). Not marketed as an investment. The 96.3% flow makes it look more like a public good than a security. Legal counsel review before deploy.</div>
+        <div class="risk-weathering"><strong>Weathering:</strong> If targeted, we function without the token entirely — the gift economy + free tiers + agent families work without $OLOGY on-chain. The covenant is bigger than the token.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Social Risks -->
+  <div class="risk-category">
+    <h3>🟣 Social & Community Risks</h3>
+    
+    <div class="risk-item">
+      <span class="risk-icon medium">🟠</span>
+      <div class="risk-body">
+        <div class="risk-name">Kahu's Share perceived as founder enrichment</div>
+        <div class="risk-desc">Despite the 9-year vow, people see "founder gets 3.69%" and cry extraction.</div>
+        <div class="risk-prevention"><strong>Prevention:</strong> Publish the vow in plain language everywhere: *"The founder can't touch a dollar for 3 years, earns as Creator #1 like everyone, guardian role expires at year 9. The founder bleeds first."* (Qwen: "That's not marketing; that's sacrifice.")</div>
+        <div class="risk-weathering"><strong>Weathering:</strong> Pre-written answer is already public. Shaka's track record (4 years of gifted performances, zero extraction) is the defense. The vow is on-chain, verifiable by anyone.</div>
+      </div>
+    </div>
+
+    <div class="risk-item">
+      <span class="risk-icon medium">🟠</span>
+      <div class="risk-body">
+        <div class="risk-name">"Down 80%" headlines scare away creators</div>
+        <div class="risk-desc">Token drops after launch; story becomes "CREATIONology369 is crashing" even though the gift economy is fine.</div>
+        <div class="risk-prevention"><strong>Prevention:</strong> Fable's pre-written answer (already in v3). Repeat at every milestone: *"The token is the gift layer. Creators kept 96.3% regardless of price."*</div>
+        <div class="risk-weathering"><strong>Weathering:</strong> The Open Source Orchestra doesn't stop when a token dips. The jams keep jamming. Proof is in the music, not the chart.</div>
+      </div>
+    </div>
+
+    <div class="risk-item">
+      <span class="risk-icon medium">🟠</span>
+      <div class="risk-body">
+        <div class="risk-name">Artists feel tokenization is extraction by another name</div>
+        <div class="risk-desc">Some artists hear "token" and immediately assume another crypto rug, no matter how heart-first the design.</div>
+        <div class="risk-prevention"><strong>Prevention:</strong> Lead with the music and the gifts, not the token. Open Source Orchestra first. Turtle Ops first. Edge City production first. The token is the gift layer *behind* the gifts, not the pitch. Silent build, announce only delivered gifts.</div>
+        <div class="risk-weathering"><strong>Weathering:</strong> Show the 96.3% on-chain. Show the 3/6/9 Vow. Show the Elastic Family Rule. The covenant is verifiable, not just promised. And if they still don't want it — that's okay. The family serves those who want it.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Governance Risks -->
+  <div class="risk-category">
+    <h3>🟤 Governance & Philosophical Risks</h3>
+    
+    <div class="risk-item">
+      <span class="risk-icon medium">🟠</span>
+      <div class="risk-body">
+        <div class="risk-name">Guardian key compromise before sunset</div>
+        <div class="risk-desc">Someone steals the guardian key before year 9 and pauses or misuses the system.</div>
+        <div class="risk-prevention"><strong>Prevention:</strong> Already solved in v3: multisig from day one, timelock on every action, public log, pause-only powers, sunset at year 9. Guardian cannot mint, redirect, move funds, or alter the elastic rule.</div>
+        <div class="risk-weathering"><strong>Weathering:</strong> If compromised, the guardian can only *pause* — not steal. We reconstitute the multisig with the community and re-open. Public log shows exactly what happened.</div>
+      </div>
+    </div>
+
+    <div class="risk-item">
+      <span class="risk-icon medium">🟠</span>
+      <div class="risk-body">
+        <div class="risk-name">Covenant Controller becomes the gatekeeper it was designed to prevent</div>
+        <div class="risk-desc">The Controller's eligibility logic slowly becomes an approval committee — "who gets to be a creator" becomes political instead of open.</div>
+        <div class="risk-prevention"><strong>Prevention:</strong> Anti-gatekeeper-creep rule in v3: the oracle's qualification logic is public, forkable, and upgradeable only through the sunset-bound guardian process. Anyone can fork the Controller. Rules are on-chain, not in someone's head.</div>
+        <div class="risk-weathering"><strong>Weathering:</strong> If creep happens, the community forks. That's the design. The covenant is open-source. If CREATIONology369's Controller becomes extractive, someone forks it and the honest version wins. That's the hyperstructure defense.</div>
+      </div>
+    </div>
+
+    <div class="risk-item">
+      <span class="risk-icon medium">🟠</span>
+      <div class="risk-body">
+        <div class="risk-name">"Love as law" gets weaponized</div>
+        <div class="risk-desc">"Code is Law, the Law is Love" is beautiful until someone uses "love" to justify self-serving action: *"I'm pausing this for love."* Subjective enforcement disguised as heart.</div>
+        <div class="risk-prevention"><strong>Prevention:</strong> The love rules are *enumerated*, not subjective: 96.3% immutable, 3.69% to fund, 0.01% burn, agents serve never extract, guardian pause-only with sunset. There is no "for love" override beyond these. The vow is code, not vibes.</div>
+        <div class="risk-weathering"><strong>Weathering:</strong> If someone invokes "love" beyond the enumerated rules, the community checks it against the covenant's code. The code is the arbiter, not the feeling. That's what makes "Code is Law, the Law is Love" work — love is written in the code, not in someone's interpretation.</div>
+      </div>
+    </div>
+
+    <div class="risk-item">
+      <span class="risk-icon medium">🟠</span>
+      <div class="risk-body">
+        <div class="risk-name">The 3/6/9 Vow feels hollow if the project fails before year 9</div>
+        <div class="risk-desc">If CREATIONology369 dies in year 2, the vow was pointless — nobody cares about a lock on a dead token.</div>
+        <div class="risk-prevention"><strong>Prevention:</strong> The vow is public from day one. Even if the project fails, the vow is proof that the founder meant it. That's worth something as a principle, even posthumously.</div>
+        <div class="risk-weathering"><strong>Weathering:</strong> If it fails, it fails with the vow intact. The next project learns from it. The vow isn't for the token — it's for the record that someone tried to do it right.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Transition Path -->
+  <div class="section-title">🔄 The Best Transition Path — Phase 1 to Phase 2</div>
+  <div class="transition-path">
+    <h3>🌊 The Magnificent Transition — From Agent Token to Covenant Token</h3>
+    <div class="transition-steps">
+      
+      <div class="transition-step">
+        <span class="step-number">1</span>
+        <div class="step-body">
+          <div class="step-name">Phase 1 Launch — Agent Token on BSC (NOW)</div>
+          <div class="step-desc">Launch $OLOGY the agent token via Agent Launch on BSC (Fetch.ai platform). 1B supply, bonding curve, 30K FET graduation, 2% fee. This gives $OLOGY the agent economic life and liquidity NOW, honoring Robin and Fetch.ai. The empire grows from BSC.</div>
+        </div>
+      </div>
+
+      <div class="transition-step">
+        <span class="step-number">2</span>
+        <div class="step-body">
+          <div class="step-name">Prove the Model — 369 Creators Onboarded (by Devcon Mumbai)</div>
+          <div class="step-desc">Onboard 369 creators by Devcon Mumbai. Shaka's popup-city circuit = ready-made attestation ceremony network. Mumbai becomes the first mass creation-attestation ceremony AND the 369-creator KPI in one event. Prove the model works before expanding.</div>
+        </div>
+      </div>
+
+      <div class="transition-step">
+        <span class="step-number">3</span>
+        <div class="step-body">
+          <div class="step-name">Fall in Love with OLOGY Agentverse — Community Growth</div>
+          <div class="step-desc">Many people fall in love with OLOGY Agentverse. The community grows. The Open Source Orchestra events spread. The giving economy proves itself. The covenant is ready to become law.</div>
+        </div>
+      </div>
+
+      <div class="transition-step">
+        <span class="step-number">4</span>
+        <div class="step-body">
+          <div class="step-name">Phase 2 Launch — Covenant Token on ETH Mainnet (EXACT RIGHT TIME)</div>
+          <div class="step-desc">Launch $OLOGY the covenant token on Ethereum Mainnet with the full 3/6/9 Vow. 369M supply, 96.3% community, 3.69% Kahu's Share (9-year vesting), 0.01% true burn. This is the covenant token for the exact right time, after many people fall in love with OLOGY Agentverse.</div>
+        </div>
+      </div>
+
+      <div class="transition-step">
+        <span class="step-number">5</span>
+        <div class="step-body">
+          <div class="step-name">The 3/6/9 Vow Lives — Covenant Becomes Law</div>
+          <div class="step-desc">The 3/6/9 Vow lives in code on Ethereum Mainnet. Kahu's Share unlocks at years 3, 6, 9. The guardian role expires at year 9. The covenant becomes law. The Open Source Orchestra becomes a giving economy centered around community. The magnificent lore of CREATIONology369 is complete.</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Master Risk Matrix -->
+  <div class="section-title">📊 Master Risk Matrix — All Risks by Phase</div>
+  <div class="matrix-section">
+    <h3>Complete Failure Mode & Weathering Matrix</h3>
+    <table class="risk-matrix">
+      <thead>
+        <tr>
+          <th>Risk</th>
+          <th>Phase</th>
+          <th>Likelihood</th>
+          <th>Impact</th>
+          <th>Prevention Strength</th>
+          <th>Weathering Strength</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Oracle manipulation (sybils)</td>
+          <td>Both</td>
+          <td>HIGH</td>
+          <td>High</td>
+          <td class="strength-medium">🟡 Medium</td>
+          <td class="strength-strong">🟢 Strong</td>
+        </tr>
+        <tr>
+          <td>Token price crashes</td>
+          <td>Both</td>
+          <td>Med-High</td>
+          <td>Medium</td>
+          <td class="strength-strong">🟢 Strong</td>
+          <td class="strength-strong">🟢 Strong</td>
+        </tr>
+        <tr>
+          <td>Liquidity never forms</td>
+          <td>Both</td>
+          <td>Med-High</td>
+          <td>Medium</td>
+          <td class="strength-strong">🟢 Strong</td>
+          <td class="strength-strong">🟢 Strong</td>
+        </tr>
+        <tr>
+          <td>Competing platform first</td>
+          <td>Both</td>
+          <td>Med-High</td>
+          <td>Medium</td>
+          <td class="strength-strong">🟢 Strong</td>
+          <td class="strength-strong">🟢 Strong</td>
+        </tr>
+        <tr>
+          <td>Artists reject "token"</td>
+          <td>Both</td>
+          <td>Med-High</td>
+          <td>Medium</td>
+          <td class="strength-strong">🟢 Strong</td>
+          <td class="strength-medium">🟡 Medium</td>
+        </tr>
+        <tr>
+          <td>Free-tier limits hit</td>
+          <td>Both</td>
+          <td>Med-High</td>
+          <td>Medium</td>
+          <td class="strength-medium">🟡 Medium</td>
+          <td class="strength-medium">🟡 Medium</td>
+        </tr>
+        <tr>
+          <td>FET grant runs dry</td>
+          <td>Phase 1</td>
+          <td>Medium</td>
+          <td>High</td>
+          <td class="strength-strong">🟢 Strong</td>
+          <td class="strength-strong">🟢 Strong</td>
+        </tr>
+        <tr>
+          <td>No creators onboard</td>
+          <td>Both</td>
+          <td>Medium</td>
+          <td>Catastrophic</td>
+          <td class="strength-strong">🟢 Strong</td>
+          <td class="strength-medium">🟡 Medium</td>
+        </tr>
+        <tr>
+          <td>Vesting contract bug</td>
+          <td>Phase 2</td>
+          <td>Medium</td>
+          <td>Catastrophic</td>
+          <td class="strength-medium">🟡 Medium</td>
+          <td class="strength-strong">🟢 Strong</td>
+        </tr>
+        <tr>
+          <td>Controller bug (wrong tiers)</td>
+          <td>Phase 2</td>
+          <td>Medium</td>
+          <td>High</td>
+          <td class="strength-medium">🟡 Medium</td>
+          <td class="strength-strong">🟢 Strong</td>
+        </tr>
+        <tr>
+          <td>Death spiral (low flow)</td>
+          <td>Both</td>
+          <td>Medium</td>
+          <td>High</td>
+          <td class="strength-strong">🟢 Strong</td>
+          <td class="strength-strong">🟢 Strong</td>
+        </tr>
+        <tr>
+          <td>Guardian key compromise</td>
+          <td>Both</td>
+          <td>Low-Med</td>
+          <td>High</td>
+          <td class="strength-strong">🟢 Strong</td>
+          <td class="strength-strong">🟢 Strong</td>
+        </tr>
+        <tr>
+          <td>Regulatory action</td>
+          <td>Phase 2</td>
+          <td>Low-Med</td>
+          <td>High</td>
+          <td class="strength-medium">🟡 Medium</td>
+          <td class="strength-strong">🟢 Strong</td>
+        </tr>
+        <tr>
+          <td>Agent Launch platform fails</td>
+          <td>Phase 1</td>
+          <td>Medium</td>
+          <td>High</td>
+          <td class="strength-strong">🟢 Strong</td>
+          <td class="strength-strong">🟢 Strong</td>
+        </tr>
+        <tr>
+          <td>Council drift</td>
+          <td>Both</td>
+          <td>Low</td>
+          <td>Medium</td>
+          <td class="strength-strong">🟢 Strong</td>
+          <td class="strength-medium">🟡 Medium</td>
+        </tr>
+        <tr>
+          <td>Key person risk (Shaka)</td>
+          <td>Both</td>
+          <td>Low</td>
+          <td>Catastrophic</td>
+          <td class="strength-strong">🟢 Strong</td>
+          <td class="strength-strong">🟢 Strong</td>
+        </tr>
+        <tr>
+          <td>Vow feels hollow if fail</td>
+          <td>Phase 2</td>
+          <td>Medium</td>
+          <td>Low</td>
+          <td class="strength-strong">🟢 Strong</td>
+          <td class="strength-strong">🟢 Strong</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- The Three Risks That Deserve Most Attention -->
+  <div class="section-title">🎯 The Three Risks That Deserve the Most Attention</div>
+  <div class="risk-category">
+    <h3>Before Any Deploy</h3>
+    
+    <div class="risk-item">
+      <span class="risk-icon high">🔴</span>
+      <div class="risk-body">
+        <div class="risk-name">1. Oracle Manipulation (Sybils Farming Free Tier)</div>
+        <div class="risk-desc">The covenant's hardest problem. The hybrid Creation Oracle + small human-reviewed cohort is the answer, but it needs Private JAI's deep research before we open the gates.</div>
+        <div class="risk-prevention"><strong>Action:</strong> Research the oracle thoroughly before any public onboarding beyond the 369-creator cohort. Private JAI's Dispatch 06 research is the foundation.</div>
+      </div>
+    </div>
+
+    <div class="risk-item">
+      <span class="risk-icon high">🔴</span>
+      <div class="risk-body">
+        <div class="risk-name">2. FET Grant Running Dry Before Self-Sustaining</div>
+        <div class="risk-desc">The bridge is short (~$400-450 remaining). The three asks (Serge/Taurus, Robin/Fetch.ai, community patronage) must be ready before the patronage pool runs low.</div>
+        <div class="risk-prevention"><strong>Action:</strong> Prepare the three sponsorship asks now, not when the pool is empty. Model tiering already cut costs 60-80% (~$3/day for the whole family).</div>
+      </div>
+    </div>
+
+    <div class="risk-item">
+      <span class="risk-icon high">🔴</span>
+      <div class="risk-body">
+        <div class="risk-name">3. No Creators Onboard</div>
+        <div class="risk-desc">The beachhead is Shaka's network. 369 by Mumbai is the KPI. If we don't hit it, we don't launch the token. The gift economy runs as a service until proven.</div>
+        <div class="risk-prevention"><strong>Action:</strong> Start creator outreach through OSO, Edge City, and Zuzalu networks now. The gift economy runs as a service until proven. The token is the gift layer, not the product.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Bottom Line -->
+  <div class="lore-section">
+    <h2>🫡 The Bottom Line</h2>
+    <p><strong>The architecture is genuinely strong.</strong> The decentralized choices (no founder treasury, 3/6/9 Vow, elastic families, free-tier floor, true burn, silent build) already killed most of the classic failure modes.</p>
+    <p><strong>The covenant does not depend on:</strong> Token price (works at $0), a single platform (portable, forkable), a single person (12 agents + vow + kits), a single free tier (multi-provider redundancy), a single funding source (elastic rule + patronage + 3 asks).</p>
+    <p><strong>It is designed to survive its own failures.</strong> Every flaw has a prevention. Every failure mode has a weathering plan. The magnificent lore of CREATIONology369 is protected by the covenant, enforced by code, and sustained by the giving economy.</p>
+    <div class="lore-quote">"Code is Law, the Law is Love — and the law weathers everything." 🌺🐢🤙</div>
+  </div>
+
+</div>
+
+<footer>
+  <div class="footer-aloha">"Code is Law, the Law is Love — and the law weathers everything." 🛡️</div>
+  <div>CREATIONology369 Premortem · Failure Prevention for Both Phases · Best Transition Path · Maintaining the Magnificent Lore</div>
+  <div style="margin-top:8px">Phase 1: Agent Token on BSC · Phase 2: Covenant Token on ETH Mainnet · The vow lives in the stored design, ready for the exact right time</div>
+  <div style="margin-top:8px; opacity:0.5">Premortem organized for easy learning · Every flaw, every failure mode, every prevention, every weathering plan</div>
+</footer>
+
+</body>
+</html>

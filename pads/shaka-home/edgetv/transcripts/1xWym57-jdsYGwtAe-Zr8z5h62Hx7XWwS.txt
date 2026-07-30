@@ -1,0 +1,251 @@
+# Bottlenecks to Building Beautifully - Kyle Vansice
+
+Date: 2026-06-24
+Source video: Bottlenecks to Building Beautifully - Kyle Vansice.mp4
+Drive: https://drive.google.com/file/d/1svivkSNy6k6ILTgcpf-NItQfU4PcsUR8/view
+Duration: 00:45:43
+Transcribed: 2026-06-26 · whisper large-v3-turbo · language: en
+
+---
+
+[00:07] Okay, how many people in here are architects? Are there any architects in here? All right, one, two. Okay, so this presentation might be a little offensive to you. I'm sorry. So this is the solution. We're going to come back to this. I'm going to talk about a bunch of problems, and I'm going to say that contrary to what you believe, architects are both kind of the problem and kind of the solution to a lot of our urban challenges, especially building housing in cities, which, you know, I tend to believe,
+
+[00:38] and I think most of us tend to believe is the most important problem of our generation. I'm probably also going to say a bunch of obvious things that we all agree about or agree on, but then hopefully we'll have some sort of unique insights about that.
+
+[00:55] So one obvious thing to say, a SpaceX rocket can land itself, but we can't approve a four-unit building or townhomes in most urban jurisdictions in six months. Obvious thing to say, very painful, but my belief is that the solution is not an obvious one.
+
+[01:20] It's not just to review and approve building permits. It's not just that building codes have become incredibly complicated. It's not just that we don't have industrialized manufacturing or prefab modular homes at scale. We haven't really productized design, and so I'm going to take a long, windy path that's going to tell you my entire life story, and really my life's work, to get back to the idea
+
+[01:51] that productizing design, effectively building a design system for housing across American cities that captures the most common building types that we build, is an important part of the solution. So architects, you are the solution, and not too many people are looking to us to be the superheroes we should be.
+
+[02:11] Okay, but let's do a little life story time. So I was heavily influenced in my early career. I'm trained as both an architect and a structural engineer by a guy named James Clerk Maxwell. He was actually a mathematician in the 19th century, and he came up with a very simple concept around using vector math to predict the force flow through systems.
+
+[02:35] This was effectively a hand-drawn approach to, or a, let's say, a geometric, hand-drawn approach to structural engineering. But this was an engineering of necessity. Effectively, we had to build grand spaces to praise God or, you know, whatever.
+
+[02:56] In the case of Pierre-Louis G. Nervy, it was out of extreme material constraints from World War II. But some reason why materials were constrained, and we had to build highly expressive structures that were very authentic to their natural force flows.
+
+[03:15] If we look at, you know, just a traditional concrete rectilinear building, right? You walk outside, you see a building that's over five stories. You'll see a flat plate of concrete. It looks very boring. We'll show you here a picture of it in a second.
+
+[03:32] But if you look at the natural force flow, if you do topological optimization, which is a form of finite L analysis, which is a brute force approach to something we pioneered with James Clerk Maxwell 200 years ago or 150 years ago, the force flow through a traditional rectilinear slab where the circles are columns is actually incredibly expressive.
+
+[03:57] It's really, you know, quite beautiful to look at. But then we build stuff like this, right? And you're like, how did we go from this to that? Well, instead of material, you know, as we moved through the 19th and 20th centuries, we had the Industrial Revolution and we industrialized construction for the large, you know, to the large part.
+
+[04:23] Labor became our constraint, not material. And so what we ended up doing for structures like this is pouring extra concrete to simplify the formwork. But if we didn't do that, if we weren't so labor constrained, we would come up with expressive to this natural force flow that I showed earlier.
+
+[04:49] And so this is a study of different concrete slab systems or typical office building. This was in Chicago. And as you can see, we get higher in the building. We really push the material optimization and we get more and more expressive structures I think it's probably a little bit hard to see, but effectively we are creating more and more sophisticated concrete formwork to get more expressive structures.
+
+[05:17] But as a result, the building gets a little bit more interesting and it gets a lot more efficient. And again, this is largely because, you know, half the cost of a typical concrete building, which is the most common building above four or five stories in our built environment, is in formwork.
+
+[05:37] So we'll pour a 12-inch slab in order to get a flat surface out of plywood instead of creating very sophisticated formwork systems that give us this expressive quality much more similar to what we were building 150, 200 years ago. Okay, well, how do we get back there and why would that be valuable?
+
+[05:55] Well, you have to build a product out of a typical structural system. Again, you know, concrete systems, depending on who's calculating them are about 20 to 30% of our built environment. So it makes a lot of sense to instead of thinking about the architecture of a structural system as bespoke every time we build it, to actually get in the lab and try and productize a structural system that is much more efficient.
+
+[06:21] And so this is us, and I guess I should give a little more context for this project. This is a project that we started at SOM, which is a large architecture firm, in Chicago about eight years ago now. And we're finally getting our first buildings built.
+
+[06:36] We'll jump to that here in a second. But yeah, this is us working at the University of Michigan to figure out, you know, how we might bring back what is an ancient technique called stereotomy. Stereotomy is effectively, if I've got a large block of stone, what are the carves that I need to make, the artistic carves that I need to make to get to a Michelangelo or some sort of sculpture, right?
+
+[07:00] It's effectively the art of subtraction, not of addition. We're not doing that as craft any longer. And so our only option is robotics. It turns out a six or seven axis robotic arm is the perfect sculptor. And so again, this is us at the University of Michigan.
+
+[07:19] This is Wes McGee here and me and my friend Raul working with him. Wes McGee is kind of a pioneer in robotics for construction in creating kind of a repeatable, standardized carving movement for a typical slab formwork system at a very small scale.
+
+[07:39] But the idea of productizing that means that we need to build a system for scale. So we found these crazy guys in Denmark, actually in a little town called Onza, who were building robotic arms to shape effectively forming systems for ship holes.
+
+[08:01] And we got them to adapt one of their mobile robotic systems for an architectural context. And then we had them ship it to Chicago from Denmark. And we ended up building our first prototype in the West Loop in Chicago. I don't know if anyone's been to Chicago, West Loop.
+
+[08:28] It's probably the only vacant piece of land there left. But yeah, again, the idea was if we're going to build now, you know, hundreds of typical bays of productized structural concrete placed in situ, how do we do so in a productized format such that we can build buildings all over the world using the same system over and over and over again.
+
+[08:56] Again, here it is in place. The form itself is structurally optimized in a way that reduces concrete material by about 20 to 30% depending on the building shape. And what that really means is that by taking a concrete slab from 12 or 10 inches down to 4 or 6 inches using this system, we can significantly cut most of the concrete out of the flooring system and then you're left with these expressive
+
+[09:27] band beams that you see here. We did on the steel. We worked with some incredible iron workers to get that done. about this is that a typical concrete system has usually under 50% utilization. This is above 90%. So,
+
+[10:00] behind every inch of concrete is a piece of steel. Everything's working very synthetically or in a very composite format. There it is built. It's quite beautiful. Imagine building buildings all over the world with this sort of system. You know, there is a belief here that not only are we saving significant material and we're accelerating construction timelines but we're building a level of responsiveness or heterogeneity
+
+[10:31] to the built environment that we don't see today. And we built it. We built it as a prototype and then we built it as a full building. Unfortunately, we built it in Australia. It's really hard to build things like this in the United States no matter how hard you try and no matter how much prototyping you do.
+
+[10:49] But on the left is a rendering and on the right is a final construction shot. And then this project took about five years and just topped out about eight months ago in Melbourne. So, you know, I guess I say all this was to say it can be done, right?
+
+[11:11] You can start with an idea about productizing an element of the built environment. It can be, it can have a goal to deliver buildings much faster than we see today. It can reduce materiality or material costs and it can be much more expressive and beautiful and it can be built.
+
+[11:31] And before I left SOM and started Cedar, we had a number of projects on the book where we started to scale this beyond both, you know, the small prototype and the built form into other buildings and actually whole cities. But then I left SOM before we started working on these projects, mainly because I was so frustrated with the fact that, you know, the future of, you know, sophisticated performance, architecture, productization of architectural design
+
+[12:01] seems to skip housing, which I think we all agree, again, is the most important problem of our generation. So, yeah, in 2022, I quit my job and moved to Austin, Texas and started building Cedar. And again, the concept was what if we build an architecture firm with AI at its core with productization as the most important KPI to focus on.
+
+[12:30] So, you know, I don't even know why I'm showing this slide because I think everyone agrees here that, you know, we're sort of like stuck between the left and the right. And, you know, this sort of, the left is an industrialized approach to housing, right?
+
+[12:47] Everything is the same over and over and over again. Industrialization should not be confused with productization, right? Productization is highly responsive to place, to site, to location, and it allows for a level of adaptability that industrialization doesn't, right?
+
+[13:05] This is very much on the left, a 20th century response to the industrialization of society. And, you know, like in the previous example, we have to find a way to use technology to get back to, you know, a 15th century idea of living or a 16th century idea of living.
+
+[13:25] Not completely, but at least in our urbanism. Which, again, another obvious statement means that we can no longer be caught between the extremes. The left being sort of hyper-mass-produced exurbance sprawl and the, you know, deluxe condos in the sky.
+
+[13:50] We need to find somewhere in between. And what's exciting about this is that, you know, for most cities not named Chicago or New York, this is the land use profile, right? There's, you know, most cities not named Chicago or New York are somewhere between 85% and 95% single-family zoned.
+
+[14:11] They have an average lot size between, you know, 6, 7,000 square feet up to, you know, 10, 12,000 square feet. We just started a project in Pasadena, actually, and the minimum lot size for a certain zoning district, actually their most common single-family zoning district was 40,000 square feet, a full acre.
+
+[14:29] So, what that means is that, and I guess that doesn't really help my argument here, but for the most part, cities, they, on the left, you know, they have single-family zoning, and on the right, they've allowed on commercial corridors some semblance of mixed-use, mid-rise to high-rise development.
+
+[14:51] But there's this kind of no-person's land in between, and cities really don't know what to do with this middle zone, especially between this sort of 6,000 to 20,000 square feet. This is what we call urban infill housing. It's where you're going from one or two units all the way up to, you know, 12, 16, 20 units.
+
+[15:15] And so I think for most progressive cities, Austin being one, the challenge of our generation is going to be taking 50,000, 100,000 parcels in each city and going from one or two units on each of those parcels up to 12, 16, 18, 20 units. This is being made possible by zoning reform.
+
+[15:41] I'm sure everyone's familiar with all the state laws in California. We're starting to work with more and more developers in California, and we're hearing SB 79, SB 1123, SB 687. We're actually hearing these state bills a lot in our conversations.
+
+[15:58] We weren't hearing them last year. So they are still, they're starting to make a difference. In Texas, they've been everything. It's made a lot of housing possible in Texas. But legalized is not the same as built, as we all know. And a big part of that is historically, you know, over the last 20 to 30 years, land development code, land development codes and building codes have become orders of magnitude more complicated for a lot of reasons or in a lot of ways
+
+[16:28] to prevent more housing. But what that means is that if you're building housing in a city, it now takes really two to three times longer to design and permit that project than it does to actually build it. And what that does is put most of the risk in the design and pre-construction process where it shouldn't be, right?
+
+[16:47] The hardest thing to do when construction is building, is construction. But because of the time that it takes now to get through entitlements and to be responsive as an architect to all those changes that are typically required, construction has become the easy part.
+
+[17:04] So at Cedar, we're really focused on how do we bring the time for design down to zero? And we're not going to get there this year or next year, but by building out, you know, AI-enabled systems that productize much of the early stage design process you know, our goal is really to bring that design process down to a third of the construction time where it used to be.
+
+[17:27] Imagine us cutting six to eight months out of every project in America, you know, we'll get a lot more housing built a lot faster. So I mentioned earlier, you know, this idea that really the problem that we're confronted with is a pretty clear one, right?
+
+[17:45] You know, today, you know, the clock has started, right? Zoning reform really started over the last couple years, but it's now making its way into practice now. And so we have a decision. How long is it going to take for us to take, you know, every single-family zone parcel that's eligible in most American cities from one to two units up to 10, 12, 14, 16, 18, 20 units?
+
+[18:09] How quickly can we do that so that we create a housing abundance, that we're not, you know, leaving new college grads out into an extremely supply-constrained market? We're also making it possible for families to live in cities again and all the other things that we know great urbanism matters to our society for.
+
+[18:32] So at Cedar, we're effectively building out a catalog for these common building types. One of the reasons why I say architects are so important to, or such a, they're a problem-solver here, is that as architects, we tend to want our projects to be bespoke.
+
+[18:49] We tend to want to think of every project as a new opportunity to self-actualize through. And so we start from scratch every single time. We effectively rebuild or rethink building design every time. And so by starting with a catalog, we automate effectively 90% of building design, which wants to be a science, and we leave the remaining 15 to 10% art to where it belongs.
+
+[19:17] And so this is down to, we effectively productize every element within a home, within a building. And we make it highly responsive to the needs of developers and homeowners and buyers and to sites. In urban infill, the most important challenge is actually not the building, it's the site plan.
+
+[19:36] And so creating building systems that are fully adaptable to construction costs, constructability, but also site planning is really important. I know I'm running long on time, but so the Austin Land Development Code, everyone loves to talk about how great it is to build in Austin.
+
+[19:54] It's over a million words. So if you want to know if you can build a duplex on a piece of land in Austin, you have two choices. You can read through it. Well, I guess you have three choices now. You can read through it. Neighborhood architect who's read through it already a bunch of times.
+
+[20:13] Or you can ask ChatGPT, but, you know, $5 million project or $2 million project. It's a lot of risk to take. So for us, we're building out a knowledge graph. We're doing this in a scalable way. It's for Austin now, but we're starting to scale it nationally.
+
+[20:30] But effectively, you know, by building a better search system through the land development codes, it allows us to build out a rule system for these productized design approaches that I was showing earlier. So effectively, every project that we deliver is code compliant inherently, right?
+
+[20:49] It's not a human being checking it. And, you know, our goal over the next five years is to get to a point where every project is site smart, i.e. we know exactly what the right site plan is, what the right density is, what the right understanding of yield on a risk-adjusted basis is.
+
+[21:08] And then we've gotten to a point where our buildings are fully programmable so that we can tailor them for the needs of homeowners, of developers, construction costs, all of those things. And we are building in Austin. This was our first project using this system.
+
+[21:24] Really, the two KPIs that we measure are how much are we increasing the density of a given site and how fast are we getting that project in the ground and to market. And so our first project was a three-unit where there was once it's just one single-family home.
+
+[21:40] And we've increased the density by two, so technically it's three X more. And this was incredible. We actually got this through the permitting with only three comments and under 45 days. So that's six X faster than you typically see. And it actually isn't rocket science.
+
+[21:57] You just have to deliver perfect or near-perfect permitting docks that are cited and sourced properly in order for cities to have very few excuses to reject your drawings. And one thing that we really love about getting sort of this approach to site planning down right is that we create these really beautiful indoor-outdoor spaces that I think are much better.
+
+[22:21] They tend to be much better than the traditional kind of front yard, backyard that you see in American land planning. We've got over 100 homes in the pipeline this year alone. Another good one, you know, we're bringing row homes back to a neighborhood in Austin called Hyde Park.
+
+[22:40] They used to be legal. They used to be legal 100 years ago and they were made illegal in the 80s. So we went from effectively two units to eight units. Far more livable, far more beautiful than they were previously. I can promise you that. And these are on a site development permitting regime.
+
+[22:56] So the permitting is actually quite intense. Usually these are 12 to 18 months to permit. And we're going to hit these in four and a half months. And then we're starting to get into small multifamily. It's a small single stair building. And, you know, we went from one home up to 12 homes.
+
+[23:13] So 12x faster, pretty easy math. And I think we're going to get this done in 2x speed on permitting. This is probably the first single stair building built in Austin over three stories. We're wrestling with the building department a little bit on it.
+
+[23:29] But, yeah. And the goal is quite simple. With productized design, if we're able to cut six months on average out of every project, we should be able to build a thousand more homes a year. Thank you. Hey, thanks for the presentation.
+
+[24:03] I'm curious, what three to five cities outside of Austin do you think have the best combination of this missing middle opportunity and good momentum on the zoning front? Yeah, great question. It's not always the cities that you think of. Like, Denver is actually a really good city.
+
+[24:27] There's been so much negativity about Denver, but we are getting so much organic inbound. And one thing that we've noticed is that cities who've recently changed to a form-based zoning code, which I know everyone knows well here, it is, like, a real invigorate is this whole new equation that's possible on so many sites and nobody has really figured it out.
+
+[24:49] You know, like, real estate is not like the stock market where, like, if there's a change in the zoning code, it takes, like, ten years to figure out what it really means in terms of interest. Or in the stock market, right, if there's, like, a change in value on a earnings call, it's, like, within milliseconds the stock is updated, right?
+
+[25:07] So it really is those cities where you've seen substantial changes to their zoning code and it's been really hard for the development community to figure that out. Every city is demand or supply constrained, right? If you build housing in almost any city in America, it will be bought, maybe not necessarily for the right price, but close to the right price.
+
+[25:29] So it really is about sort of changing up the formula, both for developers but also LA just changed their zoning code to a form-based code. There's a lot of negativity about LA, but actually the permits are up this year and they're going to be over 12,000 permits in LA in a pretty rough year for housing in LA.
+
+[25:50] So I really do think the zoning, the form-based zoning is a big thing. The last thing I'll say is that, well, okay, so there's Denver, LA, I mean, we're hearing a lot from Atlanta, Nashville, I mean, it's kind of the cities you would expect.
+
+[26:07] We're working with this city called Taylor. They're like north of, Taylor, Texas, a small town north of Austin. Really sleepy town. No one has talked about it, you know, nationally for, I don't know for how long, but they just had the new Samsung chip fab announced there, and now it's under construction, so now they immediately have a housing crisis, and they have changed their land development code to a form-based code, but they went too form-based, and now they're having a challenge with being able to get the right housing built,
+
+[26:37] so I don't know, cities like that, small towns, where they have a strong retail component, but that retail component is dying because they're not able to build enough housing close to retail is another big one. Yeah. Oh, yeah, sorry if I offended anyone there.
+
+[26:57] Yeah, what do you mean by two form-based? Mandating alleys. Mandating alleys on a four-unit project. Yeah, I mean, there is a group of out there that are just making it really hard for cities with existing grids to build new housing, and it's typically in small towns with, yeah, I don't know, there's a lot there.
+
+[27:24] I won't go into it. I was just curious, who is your typical client? So are you working mostly with private sector developers, or are you also working with cities? And then, if you are working with cities, are you working on pre-approved plans?
+
+[27:41] Yeah, so I definitely have a little bit more of a jaded approach to some of this stuff. Like, pre-approved plans are great. I just haven't seen them work in an urban infill context because every site is different, and they really, you know, oftentimes you'll see builders get these pre-approved plans and the cities will put them out, and maybe an ADU is good, but anything bigger than an ADU, it's not capable of maxing out the FAR, or it doesn't work with the way the narrowness of the site restricts circulation and access.
+
+[28:11] So there's just like so many challenges to pre-approved plans that, I don't know, there needs to be sort of like a generative pre-approved plan, which I guess is kind of what we're building to a certain extent. Yet for ADUs, I think ADUs are good, right?
+
+[28:36] ADUs work well. Taylor just adopted pre-approved plans and they have minimum maximums, but none of their pre-approved plans maximize FAR, the gross floor area on the site. So developers are like, I'd rather just go through two or three months of building permitting and get a home that's maximized to the site.
+
+[28:57] New concept that probably needs to evolve like all things. I would expect at some point for some pre-approved plans to start working. What was the other question though? Sorry. Was that it? Okay. Oh, yeah. Who's our customer? So we work pretty exclusively with infill developers.
+
+[29:18] So we don't work with big home builders. We don't work with the production home builders. We don't work with big developers like Related or Heinz or Tishman's an investor of ours, but we don't really work with those big developers. We really work with folks who are building, right now, two or three units on an urban infill parcel they're both the developer and the builder.
+
+[29:35] And oftentimes they're trying to scale up into small multifamily. Yeah, I mean, there's a lot of ways that we're making it faster. Probably the most important are the least sexy,
+
+[30:06] but indexing the land development code, right? Architects spend oftentimes their first month on a project just trying to figure out what is the most compliant development scenario for a given site. And oftentimes that contradicts what the developer thought was going to be the right project they underwrote to.
+
+[30:25] And so this contradiction between what the architect thinks is compliant and what the developer wants to build and the proforma works for, oftentimes if it doesn't delay the project on the front end, it'll delay the project through value engineering when it comes to permitting time.
+
+[30:40] So compliance is a huge thing and that probably cuts 50% of project time by itself. And then the other big one is just we've built our own CAD system where architects and agents work together in the same design environment. A lot of that, again, is about compliance.
+
+[31:00] A lot of that is about not recreating the wheel on stairs, on bathrooms, right? There's like six bathrooms in the world that are like best. You walk into every bathroom you've ever been into, it's like a version of one bathroom, right? But still as architects we love to redraw those things over and over and over again.
+
+[31:19] And so standardizing and designing with a kit of parts is a huge part of that. And then what that ends up doing is basically cutting our construction documentation time down to, you know, usually it's a couple weeks which typically, you know, architects will spend a thousand hours drawing a building.
+
+[31:35] So automated construction documentation is the biggest part of it. In terms of zoning, moving to form based zoning is probably the best thing a city can do largely because it just cuts out, you know, 25,000 pages of land development code requirements, right?
+
+[31:52] There's just, like in Austin we're seeing this where they're just constantly overlaying new incentives, right? And those new incentives are meant to encourage more housing but what they do is create more complexity because of all the contradictions that are embedded with them.
+
+[32:06] So just getting rid of the code all together and just implementing a whole new code is usually the best thing to do. I have a question that's kind of along those lines. So you mentioned being an architecture firm and then you also talked about submitting perfect plans and I'm guessing those two things are connected.
+
+[32:26] Yeah. Okay. So that's great. I've also heard kind of in the abstract the idea that like if both sides are using AI, we're just going going to end up in this like supercharged bureaucratic race. I'm curious if you've seen that happening at all or if you're worried about that.
+
+[32:46] Like has that come to pass for you or are you the only one with the superpower so far? No, no, no. So city of Austin, some cities are starting to implement this. So they're sort of walking in the shallow end through what's called plan check or like a pre-plan check and what that means is that completeness, right?
+
+[33:07] Which is basically like checking a bunch of boxes. What we've seen is they're starting to use that more and more for building permitting and the companies that are building these wrappers effectively are not being the most thoughtful about the sort of all the missing gaps in a construction document.
+
+[33:24] So like drawings, drawings are not a building, right? Drawings are design intent. They're an abstraction of a building meant for a very different process which is, you know, building construction. So, you know, these AI tools are just looking for errors, right?
+
+[33:43] And they're going to find them, right? If you put a drawing set into ChadGPT or Claude and say like find me all the errors, it's going to find you all the errors even if they're not actually there. Largely because its job is just to find gaps in the drawing set which are most often intentional.
+
+[33:58] So long story shortly, yeah, like the idea of two agents talking to each other, it's been a problem for us. Like we've seen it not calculate areas properly from the city and then we get sort of like apathetic responses from city reviewers who are like, oh, they just gave me this tool and it calculated it wrong and it's like, well, that error actually delayed our project by a month, you know?
+
+[34:17] Like that's not okay and they're just like, well. So, I mean, I think, yeah, it is a battle. Like we have to win and the reason that I think it's important for us to win is that we're building on top of a foundational knowledge graph for building design with compliance embedded directly in that whereas most of the third-party providers are trying to like construct their own knowledge graph of a drawing set on the fly.
+
+[34:41] It's really kind of a weird process but it makes for a good demo right now. I'm obviously biased but I do think like the architects have to win this one. The engineers have to win this one because they're the ones who are actually creating the design intent and the value of projects.
+
+[34:59] I'm curious. So you're building out these templates and so what sort of architectural details, since you can sort of put your thumb on the scale, are you most excited about that you're able to like backdoor into all of these buildings? I mean all of them right?
+
+[35:14] Like a traditional so I came from commercial architectural design sort of doing like kind of landmark projects you know special projects we'll say and then I came to Austin and started working on single family and small infill projects and I would see drawing sets of like three to five pages.
+
+[35:34] You know you get a couple plans, maybe a roof eve detail which talked about venting but you would get really very little design intent communicated to builders and then you drive around neighborhoods and you see what happens right? You get very low detail, low fidelity buildings right?
+
+[35:50] And that's just the way I mean architects don't design. They design but they basically stamp you know standard plans for most housing in American cities. So for us you know being able to deliver a 20, a 30 page drawing set with pretty much every interior elevation elevated, every exterior wall detail provided for an infill builder who typically doesn't have the budget for that kind of work has been probably our best.
+
+[36:18] I've actually been really surprised. Most builders are highly receptive to a 20 to 25 page construction document set. The other thing I'll say is that you know most of the quality loss that we see in the construction process is through compromises that happen along the way because of just the sheer pain and risk of building buildings.
+
+[36:40] The architect designs a building. They don't cost that building until after it's permitted typically or it's in the permitting process and once you cost it there's this mad scramble to compromise the project to get it on budget. Well you should have designed an on budget project from the very beginning.
+
+[36:57] So a lot of it is just getting the right details, getting a comprehensive drawing set and then you know not compromising a project through errors and omissions across you know the really lengthy design process. Last thing I'll say about that as Cedar you know as a you know we're an AI architecture firm we're a venture backed architecture firm we're not we're like leaning into taste making and sort of setting a standard for design for this part of the built environment.
+
+[37:25] We really believe that you know as a technology company we should take the opportunity that you know that technology affords us the leverage that it affords us to deliver better design at a larger scale. And so it's a bit weird you know we look like a weird technology company in that we have a lot of architects on staff and we're really focused on design.
+
+[37:51] Architect of record yeah. My question is quite similar which is you showed the example of the suburban hellscape of tons of cloned. As you're productizing compared to industrializing your designs how do you like how do you make sure there's not just a this 2.0 where in like 50 years people look back at like oh now there's this
+
+[38:22] other flavor of homogenization. Yeah I mean I could give you a lot of answers to that and you probably would like listen to me and think they're kind of bullshit. I would say like the most important thing we can do is just choose the right problem right like we see this because it's the easiest way to build because we're building out in greenfield sites so the problem around pre-approved plans like these are effectively pre-approved plans by the builder right they're taking a piece of land it's 100 200 acres and they're
+
+[38:52] subdividing it into lots that all look exactly the same you know they're 45 50 55 60 feet wide and then that they do that so they can get the same plan so they can achieve their economy of scale that they need as a production builder to get down to 100 bucks a square foot on construction costs so they have to eliminate all the complexity of those homes so they can build the same thing literally over and over and over again we have chosen a very different problem we are focused on urban
+
+[39:22] infill projects usually within you know a mile two miles of an urban core every project we do we're taking it from an existing home up to you know some density that I was describing earlier every site's different every site has a different underwriting model oftentimes what you can build differs by like which side of the street you're on depending on whether you're in a neighborhood plan or not so there's just so much complexity on the front end in terms of the context of those projects that it would just be impossible for us to build the same thing
+
+[39:53] over and over and over again so what we end up having to do is build out a much more robust catalog of building types developers like I mean it seems like you could with the information you have I've been an urban infill developer you could go to developers be like yo you can build this at this cost because if you're taking down the permitting time that's all you
+
+[40:24] know financial carrying cost and or you could become a developer yourself I guess yeah yeah yeah which we have friends that are doing it yeah yeah I'm curious like do you I mean in theory you could like map all of Austin figure out like what the best development opportunities are what they cost and then go that's a different one but yeah so the first one I mean we work with infill developers today right and our pitched infill developers is we're great architects we have some
+
+[40:55] technology that makes us even better architects we do more than what an architect traditionally does for about the same price if not a little bit less right and it's a great pitched infill developers and then we build out standardized systems that make their projects really predictable so it's a clear value proposition when we first started Cedar we definitely thought the whole let's map out every perfect parcel for this building type and then go get those parcels or help developers get those parcels you know locked up
+
+[41:26] would be a great business model turns out the market just doesn't work that way right like a lot of the developers we work with have been knocking on somebody's door for like 10 years trying to get a property to sell or their deal flow is really just you know off market friend relationships maybe a broker sends them something so like the horse trading nature of the market makes it really hard to go out and efficiently pick up the right parcels for the right projects at scale I just I just don't think it's ever I think there's
+
+[41:56] a lot of talk about like the Bloomberg of real estate development and I just don't think that that's like a thing or ever will be because it just it takes 10 years to get a piece of land transacted on it can take a year but like often times for the best projects it takes a long time I mean one of the developers we're working on I don't think I showed it here but like he literally had to take somebody's cat to the vet for like months on end to try and get a property to get an owner to transact on a property
+
+[42:26] like the things you hear are crazy I had a question that was along that similar line like you had already talked about the clients that you have who are those clients going to as for their for building the actual projects like do you have like a suite of GCs that you can rely on to actually bring this to fruition because I'm not getting the impression that you are doing like prefab or panelized systems of some kind no I mean most is stick built you know
+
+[42:58] when I moved to Texas you know I was shocked at the the dominance of stick built construction it's incredibly complicated but they figured it out and so everyone does it and typically a stick built wall system performs from a cost and time perspective far better than a modular system but yeah to answer your question we work typically with developers who are also the builder there's like this scale of construction where it doesn't make sense to separate concerns right like the developer and the builder the margins are tight so you have
+
+[43:28] to be both once you get to a certain scale of project and it's typically you know you get into multifamily not necessarily small multifamily but like 100 unit plus multifamily and you have to separate the developer and the GC and we're starting to get into that market but we've got a ways one last question yeah I'm curious one of the one of the problems with building is the slow process that a builder goes through to do material takeoffs does your product provide those material takeoffs for the builder
+
+[43:58] it does and we don't allow it to be used for such we will over time but this is like one of the funny weird things about architecture where because building design is so complicated and risky the profession has built a lot of liability protection around the information that we can provide to the builders because we want we don't want to give to the builders an excuse when there's an inevitable error in the field to blame the architect so like there's this whole I mean the way that the architectural design process is undertaken
+
+[44:29] and the way we communicate building design is incredibly abstract and archaic but it's done so to prevent you know or to limit our risk and liability so we have these really sophisticated models that model every you know really almost down to the screws on buildings every every beam every stud is modeled and we're starting to experiment with some builders on building queryable systems that allow them to pull out quantities but you know
+
+[45:00] we're having to get contracts in place that normally a builder wouldn't agree to so it's challenging it's like we'll build incredible technology but then the way the industry works it's going to take another 10 years to like get everyone on the same page around like no we build a we build we design measurable buildings like we design buildings that are fully programmable at some point you'll be able to just get everything you need out of it you may not even need a construction document set but to bridge that behavior change it's
+
+[45:31] going to take a lot of projects a lot of success all right thank you very much

@@ -1,0 +1,163 @@
+# Drawing to 3D Print_ Using 3D_fun to bring your ideas to life
+
+Date: 2026-06-16
+Source video: Drawing to 3D Print_ Using 3D_fun to bring your ideas to life.mp4
+Drive: https://drive.google.com/file/d/1vM2B8bqbQ5a4mxohrKvTzsCfVM9kJyct/view
+Duration: 00:44:58
+Transcribed: 2026-06-17 · whisper large-v3-turbo · language: en
+
+---
+
+[00:00] All right. Hey, everybody. Happy 6 o'clock on Tuesday. We're getting there. Such an exciting week. My name is Justin. If you haven't met me already, I am hosting this World Building Week here at Edge Esmeralda. Really excited to be here. So today I am going to do a more of an interactive workshop with everyone here. This is something that we actually ran yesterday and we ran into a couple of hiccups that have now been ironed out. And
+
+[00:31] so I'm really excited to test this with everybody. If you haven't met me, my background is in 3D animation and visual effects. I started a company called Mona back in 2021. Started as a world building platform. And then last year we started building AI creator tools to help people build things like virtual worlds. And during Edge Esmeralda this week, alongside hosting World Building Week, I'm running a couple of experiments of my own with some of these different tools that I've been building. One of which is called 3D.fun. And so I know a few of you have actually
+
+[01:06] tried this yesterday. And so this workshop is basically how we can take our ideas and bring them to life in 3D. And it's really cool. I think just like as a side note, hosting World Building Week, having so many amazing builders here who are building at the edges of all this leading edge tech, like AI, AR, VR, you know, we had a great fireside chat with Robert Scoble yesterday. And then Grace presented Playhouse at the end of the day yesterday. And then you know, today earlier we had Adam, Adam.new, which is an amazing text to CAD platform. And it's
+
+[01:43] fun because it seems like I'm also sort of like tinkering on the sort of fringes of something similar with 3D.fun, which basically, 3D.fun makes it easy for you to turn text and images into a ready printed, 3D printed model. And so for Edge Esmeralda, you know, and for this session, what we're gonna do is actually work through how to create a 3D model, and then how to send it to the printers over in the makerspace for you to come and pick up, you know, tomorrow or later in the week. First, before we start, just a show of hands, I would love to know who
+
+[02:16] here has 3D printed something before? Okay, all right, we've got a few, we've got a few. Who here has any like 3D modeling knowledge, like Blender, CAD? Okay, all right, awesome. All right, so we have a few and some none, none whatsoever. And that's totally okay. That's the whole point of 3D.fun. I'm super passionate about making things in 3D. And traditionally, I've been trained in, you know, 3D animation. But I think with AI, it is so incredible now. It's like we all have superpowers where we can literally make anything that we can imagine. And I'm really excited for
+
+[02:51] what AI can do with 3D modeling and world models. And yeah, it just makes it easier than ever to bring our ideas to life. So to start, if you have your laptops, it also works on your phone, you could just head to 3D.fun. You could just sign up for a free account using your email address, just send you a magic link, you don't even need a password. Everyone here gets five free credits as well. And so that one credit basically equals one 3D model that you can make. And yeah, that's
+
+[03:23] basically enough for us to start tinkering and start making things. So I'll just demonstrate the flow as you guys are signing up, just so you understand how it kind of works. When you land on 3D.fun, you can see recently made objects. And it's fun to see some people here starting to make things. This is really cool. Someone actually made a bust of their head. Actually, I'm going to click on this. I don't know if Kim is here. But this is really awesome. And so you can start to explore and get some ideas from the gallery of different things that you can make. Wow, this turned out really well. Oh my gosh, it's like a little person. And so what's what's cool is you could also
+
+[03:58] download any of these objects. Once you've made a profile, you can also download and print these. When you make something is public by default. If you want to make something privately, you can just turn the private button on if you'd like. And yeah, so we'll go back to the gallery. These are just some of the things. If you want to make something, you just click the the make button at the top. And the way you do it is you either upload an image or you can generate from text. Now, I personally love doing
+
+[04:28] even just like a rough pen sketch or a rough pencil sketch and then uploading that. And then it'll it'll actually get the sketch prepared to become a 3D model for you and then generate the 3D model there. So if you'd like to draw or doodle something, you don't even have to be good at drawing. I promise you it will amaze you what you can make here. Or if you want to just generate something from text, you can generate it with text. And so if we want to do this live, does anyone have ideas for something you'd like to make? Yeah, a phone case? Do you have like a style phone case you want or like
+
+[05:06] something special about it? The character with the character that I like? What kind of character do you have? Maybe toothless. Toothless? Yeah, let's see if it'll get toothless. Okay, let's see. Phone case. Toothless. I'll say from How to Train Your Dragon. And we'll see if the IP lawyers get us here. So we'll generate image. So you basically just type, you describe what you want and you click generate image. In a few moments, it'll actually give you an image here. And in the
+
+[05:52] meantime, I'm going to pull up live demos. It was a different kind of error. Let's see here. Yeah, it may have been an IP thing, actually. Okay, well, to start, we have a phone case
+
+[06:23] and a phone. Now, what's cool about this is, okay, so we have like a preliminary image, we could just click convert to 3D, but you could also iterate on this. So, you know, maybe we'll hold off on the, on doing like a specific toothless, the dragon, but we'll say like, add a cool dragon, maybe like, hanging off of the case. Oh, and I hit the wrong button. So if you, yeah, if you hit apply, you could actually edit the image that you made. I'll just go
+
+[06:57] back so I can show you that. But it's, it's, you know, so it could be an iterative process, basically, so you can keep working with, you know, with the model that you're making. It will be specific, your edits will be specific, so it won't change the entire thing. Okay, so it gave us another phone case. And we click apply. Has everyone been able to sign in or
+
+[07:34] create an account? Yeah, awesome. Okay, cool. So it added a, it added a dragon to the side here. See that? And so it gave us the exact same phone case, added the dragon, and now we can click convert that to 3D. And so the, the conversion of 3D step, you know, it'll take about 30, 40 seconds. We could make that faster, actually, just, I don't know how much you guys have played with AI models, and, you know, image to 3D models, they're actually pretty fast now. But we are opting for a really high quality version, so that you get a lot of detail with
+
+[08:09] the 3D models that you're making. Yeah. Like hanging off the top. Yeah, yeah, yeah. Yeah, and so you can be very specific with the changes that you want, and with the things that you want, and it's pretty intuitive. It does a pretty good job of understanding what you want to make. Are you trying it on your phone, by the way? Is it working well? Yeah? Awesome. Oh, that's great. Cool. Yours is still
+
+[08:49] processing. Yeah. You're, you tried converting to 3D? Yeah, it could, it could take a minute. Yep. Oh, this one? Oh, you made the world orb. That's amazing. Yeah. Yeah. And so you could load these in the gallery. Everyone has a creator profile as well. Wow, this is great. What? No way. That's awesome. Yeah. And so if you want to print this, you could just click either download 3MF or STL
+
+[09:20] or GLB. STL is probably best. What's cool is everyone has their own creator profile as well, and so as you make things, they get added to your creator gallery. We also have fun social features like liking and sharing. But that's awesome. Great job. I love the world orb. Oh, nice. Someone made a... Oh, that's yours. Yeah. Oh, okay. Did your image have the hand in it? Oh, it's beautiful.
+
+[09:53] Wow. You want a smaller version? A little version with my big version. Yeah. Will that be able to 3D print, actually? Yeah. Yeah, so it can. And so let me take you through the next step to 3D print. So I'll walk you through the technical process, but we've also made it really easy for you guys, so you don't have to jump through all the technical hoops. So if you have access to a 3D printer, you can click either download 3MF. 3MF will include all of the color detail as well. So if you have access to a 3D printer that has
+
+[10:29] multi-color capabilities, the 3MF will be able to print in color. If you're just printing with a single color, STL is great. So you just click download STL, and that drops a file into your folder. Typically, there are a number of different 3D softwares out there for, or printing softwares and printers out there. Bamboo is a really popular one. We have two bamboo printers here in the makerspace, and we have one Creality printer. And basically, to 3D print it, you would just, this is the actual process, how it works. I'll just start a new project
+
+[11:02] here. Someone actually printed, someone actually made the Audi logo earlier. Here it is. Yeah. We just dropped an image of the Audi logo, and it made this 3D model of it, sent it to the printer, and it took about 30 minutes to print, and it's probably about that big. Tiny Porsche?
+
+[11:25] Oh, amazing. Okay. I cannot wait to see that. I actually saw the Audi 3D print earlier today. Oh, you saw it? Yeah. Yeah? What did you think of it? It looked like the Audi logo. Awesome. Okay. So yeah, this is really cool. So here is, here's your antique. I'm just going to make it a little bigger here. And basically, this is sort of like a replica, a digital version of what the print plate looks like inside of a 3D printer.
+
+[11:59] And so yeah, from here, you can basically, you slice the plate, which gets it ready to print, and then you click print, and it'll print. Now, with the makerspace, a huge shout out, by the way, to Grace and Martine and Walter. They've been doing an amazing job getting the makerspace set up and running. Tessa, as well, has been volunteering. But earlier today, Grace actually made a Google form for everyone to fill out if you would like your piece printed. Basically, you can just go to
+
+[12:31] this link up above, Edge Esmeralda, and it has steps. You know, you make your model, you download the STL, and then you get access to this Google form, where you just add your email, your name, Telegram username. That STL file that you download, you just upload it here. And then you click submit, and then we'll take care of printing it for you, and then we'll just message you when your print's ready, and you can just come pick it up. So you can try that with your antique and with anything else. Let's go back to the gallery and see. What do you guys have here? Oh, okay.
+
+[13:04] Portia with the cats. Very cool. I like that one. We also have another option, which is if you you know, after Edge Esmeralda, if you don't have access to a 3D printer, which I just found out that many public libraries actually have 3D printers and will print things for people for free if you have a library card, which is incredible. So check your local libraries.
+
+[13:29] But if you don't have access to a 3D printer, we also have a service where we will print it for you and ship it to you for around $30. So if you have something that you'd like to print in the future, you could just use that feature there. But oh, wow. That is so funny.
+
+[13:44] There's the cat driving the Porsche. That's great. Did you just use the text prompt for this, too, or did you have an image? Nice. Nice. Amazing. Yeah, I will say if you're working from an image first, it does a better job if you have the image just on a white background.
+
+[14:09] And it does a better job if you're just working with single objects as well versus multiple objects or like a space. But yeah, it will do its best if you have other things in the background. And it typically does a good job. So yeah. So in your case, you could just download the STL, go to edges, slash edges Meralda, and you'll get the form and we'll print it for you. Okay. What else did you guys make? Let's see. Oh, this is nice. What's this?
+
+[14:33] It just put my wallet in the leg again. Oh, did you take a photo of your wallet? Yeah. Oh, wow. Can you hold your wallet up? What does it look like? It did 3D. Basically did your wallet. Yeah. Yeah. I could help you with the, we could get like a specific phone case for you. I could help you afterwards. Yeah. But it's pretty cool if you want a replica of your wallet, too. World Orb is great. Someone made a coffee mug in a chair. That's cool,
+
+[15:10] too. If you want to change your profile name, when you sign up, we just have a randomized sort of profile name. But if you did want to claim your own username, you could just change username under your profile. And then if anyone runs out of, because we have five credits for everyone, if anyone runs out of credits, Telegram channel, there's a way for you to get more credits for free from us for Edge. So you can just keep testing it if you'd like. Oh, wow. This is cool. Who made
+
+[15:47] this one? So he needs a new one. This turned out really well. How did you make this? Did you use a text prompt or an image? I just said dog ball. Dog ball. Wow. What do you think of it? I like it. It's very nice. Yeah. That's cool. We could print it. It will, I think we have to check the filament. It's plastic. I don't know if it's like safe for, like it's pretty hard. But we could figure out how to like make it rubber or something. You know, we could probably make a mold and get
+
+[16:21] that to you. Open. Awesome. Yeah. That's really cool. I love the colors, too. Did anyone try the editing features yet? Yeah? Oh, and how did it work okay? Yeah, it was black. I didn't like it. So I changed it into more orange. Yeah. Oh, beautiful. Okay. And it worked well. Nice. Awesome. Did anyone have trouble or hit any issues with trying to sign up or
+
+[16:54] trying to generate anything? No? Well, yeah, trying to figure out the dragon. Yeah. For, sorry, say that again? Did you write the program that generates the original one dimensional or two dimensional image? Or is that a, so you wrote that? No, no, no. We're just using, we're using image models under the hood. So we're basically, yeah, yeah, we're using it like publicly available.
+
+[17:29] Oh, yeah. Text to image models under the hood for everyone. Yeah. Oh, Rio, you're here. Yeah. I was showing off your Audi logo. Yeah. Yeah. No, it's all good. No, I just didn't know you were in the audience. Yeah. Yeah. Yeah. Cool. Cool. Yeah. Yeah. Awesome. Thanks. Yeah. That's great. Is there a, yeah, what else, what else should we make here? Let's see. I have a couple of prompts, actually. I thought it
+
+[18:08] might be fun to do some edge Esmeralda themed prompts. So one, so if you'd like to, to play along, one prompt that, that I sort of came up with was imagine an object that describes the future that you want
+
+[18:40] to live in. So describe an object, a building, a creature from a world where humanity's got it all figured out. If you're looking for fun prompts. Oh, amazing. Did you use it from, from a photo? Yeah.
+
+[19:13] Oh, nice. There it is. Wow. That's actually realistic though to see how that prints out. I'm just going to download it and drop it into the slicer and see what it looks like. Yeah. The whiskers
+
+[20:02] are probably going to be tough, honestly. Yeah. Yeah. It's probably better to, to go no whiskers, whiskerless. Uh, yeah. So you can basically, um, the way a lot of people are using this is they're adding supports in the slicer themselves. Um, so you could just click enable supports and then it'll probably drop supports there. And yeah, those are kind of the main areas there. Yeah. Yeah. Yeah. The whiskers
+
+[20:35] are most likely going to fall apart. If you try it, you can definitely still try it though. Yeah. Yeah. Yeah. Yeah. Submit to the Google form is all want to make sure all that's working for everyone too. Ooh, nice. What's this? Oh, someone made a sauna. That's very meta. Wow. That's a good sauna. Who made this?
+
+[20:57] That's amazing. What's your name? Ian. Hey, what's up Ian? This is, this actually, this actually turned out so well. Yeah. Yeah. Yeah. Oh my God. This is so clean. You should definitely print this. Yeah. You should send this to the Google form and maybe we can put the edge logo on it and give it away as like
+
+[21:31] a trinket for people. Yeah. It might, it's, it's definitely easier on a, uh, on desktop. It's, but I mean, it's great. You can do it on your phone too. Yeah. Yeah. Does anyone want to try to make a drawing and like turn a drawing into 3d print? That could be fun. I think we probably have a couple of drawing supplies.
+
+[22:00] You know, I love the sauna though. We have to print this. Yeah. This is amazing. That's so good. Phone case. Maybe I like it. I like it. Who's the, um, can I grab a foot? Can I grab a photo?
+
+[23:07] Oh, is this another Porsche? Extra poor. Oh, oh no. This is, is this someone else's who did this one? That's nice. BMW. Yeah. It's kind of dark. I'm going to change the viewport. So it's a bit easier to see.
+
+[23:57] Has anyone run out of, um, run out of credits yet? No. All right. Is anyone drawing? We got a couple drawings. Nice. How's it going? Yeah, it's getting there. Ooh. Okay. Oh, nice. To go with the sauna. You could, you could, you could make your own edge city starter pack and sell like little desk toys.
+
+[28:08] Desk toys. Oh my gosh. The Adirondack. Yeah. It's, we're, we're using a, like a really high quality, um, AI model for this. So yeah, it's, it's got a lot of training data in there. Yeah. So, um, was this a, did you do the Adirondack from text? Yeah. Um, so to do the edge logo, we would, um, you would just apply, uh, and we need a way to, let me, I, I'll add a, I'll add an image upload feature to the edit and then we can just, yeah, we can basically just upload the logo and say like, add this logo to it. Yeah.
+
+[29:11] I hope with making this, but I would need a second camera. So. What's, you need a, what do you, uh, say that again? Sorry. I have an idea to help make this thing, but I would need a second camera. Basically, um, taking a photo of this and then taking a photo of this and asking it to take the character from this and put it on a photo case for this.
+
+[29:33] Oh yeah. We could. Yeah. Yeah. We could just upload two photos. Yeah. Actually, let me see how. Yeah. I'm determined to get this phone case to work for you. Yeah. I know. Yeah. Um, who, um, who made this? This is a really cool one. Is this like a little, uh, it's a planter. Did you make it? No. Well done.
+
+[30:22] This is really beautiful. You should totally print this. Yeah. I see. I see. This is really cool. Yeah. It might, I could, I could help you get that. Yeah. It is on this side, right? I do want to print it, but I want it to be flat so I can mount. Mount it onto the wall. Yeah. I could, I could, I'll help you with that. Thank you.
+
+[30:54] Yeah. This is so cool though. Holy hat. It's a bucket hat with a hole in the top. Yeah. Yeah. Yeah. It does. It does do best if it's just one, one singular image. Um, but we can have multi image input. I can add in there. Yeah. Yeah. Yeah. Nice hat. Nice hat though.
+
+[31:25] What's the, what's the purpose of the hole in the top? Uh, yeah. Yeah. Makes sense. These are great. Oh boy. Okay. We got another planter here. You can print a fake one. Oh my gosh. Yeah. Genius. These are amazing. Great job guys. Oh, and another one. Is this also you?
+
+[32:02] Yeah. Yeah. I didn't mean to, I didn't mean to, uh, print that one too. Planters, planters are actually really good ones. Um, yeah. Like this is, wow. That's great. That one I got it from Pinterest and then I just uploaded the image. Amazing.
+
+[32:17] Yeah. Sketch. I recognize it. Did you draw it? So you drew it? No, no. I uploaded. You know what though? You could like, this would actually print pretty well. Hmm. Yeah. Cause it's got, uh, like, I just like that it's like, you know, yeah, it's cause yeah. It's like a, it's a very neutral slash depressed slash depressed maybe.
+
+[32:46] Which I always thought was funny about the logo. Yeah. Nice. Nice. Does anyone have any drawings they want to try? Oh, where's the cat? Oh, this one. Oh, how did I miss this camping unimpressed to make it into a camping cat? This is, and it did a great job. That looks exactly like my cat.
+
+[33:12] This is amazing. Wait. Okay. I want to see what this would look like. That has to come with the starter pack. I I'm all for it. I'm here for the sauna village. Oh my gosh. Yeah. Uh, it's yeah. I, I think it would actually sometimes thinner,
+
+[33:47] like thinner things can be a bit tough, but these are probably just thick enough. Um, so depending on, depending on the size of it, uh, it'll probably take around like 40 minutes to an hour to print at like a typical size, something like this probably, um, yeah, this would, this would actually tell you.
+
+[34:16] Yeah. So, yeah, so this is a bill, this is like pretty large. Um, and so this, I mean, it's, it's not like too big. Um, but you know, it's more than a few inches, uh, probably take around three hours. Yeah. But, uh, I, I highly recommend trying this. I would full send. This is amazing.
+
+[34:49] Yes, exactly. So, um, yeah, so basically the, uh, the 3d print, the, the printer will actually print these like lightweight sort of supports with like light, um, uh, sort of like light connectors to the actual print. So they're easy to break away. And then we have some tools and we'll, we'll help break them away and clean them up for you.
+
+[35:12] Yeah. Great job. You guys are making some really cool things. I'm impressed. Oh yeah. Does anyone have any drawings they want to try? Can I see the drawing? Like what, what types of things to print or? Yeah. Um, yeah, you, there, there are a lot of things that, that you can print.
+
+[36:59] Like, you know, people are printing all sorts of things now, key chains. Um, I saw someone print a tourbillon, which I have to tell my, my girlfriend about. She'd be obsessed with, but you can, there, it's like amazing what you can do now. Oh, it's like the mechanism inside of a watch that, um, basically makes it, makes it, uh, makes the hands move.
+
+[37:20] Yeah. Yeah. She's, my girlfriend's very excited back there about it. She loves watches. Um, okay. So I'm going to try uploading your drawing. And I'm just kind of saying, make this, uh, make this drawing into a 3D model. I'm just adding a bit of a prompt to it.
+
+[37:43] Oh, wow. Who did this one? Came out really well, Aiden. Yeah. Let's see. There's a load here. Whoa. That's really cool. Yeah. Yeah. So if you want, you could print this. This is really cool. Do you know how to, uh, submit the, the form to get it printed?
+
+[38:14] I could also, I could help you with that. Yeah. I'll, I'll, do you want to print this one or another one? Just let me know. Yeah. You kind of like add a, add a bit of a prompt to it to help it. Yeah. So I basically just said, make this, uh, look 3D.
+
+[38:44] Um, and now we're just saying show just a flower pot and the flowers and we're going to apply. But you see what you can do even just with a simple line drawing. I mean, yeah, you can end up with a really, really interesting result. Um, if any, if anyone wants to write down the, uh, code, uh, if you run out of credits, if you use all five, uh, you can use this code.
+
+[39:15] I'll just read it out. Um, actually, maybe I should type it. It's, it's X Q. I should make an easier one. I'm sorry. W B D S 8 Z. Yeah. Yeah. So that code will get you, um, you can choose any of the credit packs and you'll get them 100% free.
+
+[39:40] Yeah. Um, if you go to the maker space, I know they, uh, they have a few there. Um, I actually have, I have a video of the Audi logo. I can show you that, uh, that we printed of, um, of that, of his one sec.
+
+[40:19] Did everyone get the free code? Cool. Oh yeah. Yeah. Yeah. It's right there. Um, so that code will get you, um, you can choose any of the credit packs and you'll get them 100% free. Um, so when you go, uh, so basically when you run out of credits, you just go to pricing and you can choose any of these.
+
+[40:46] You could just choose the max one, get 25 credits. Um, and then that will all take you to a Stripe page. You just add the code here. Yep. And apply. Oh, and I've, it only works once. So it won't work again. But, um, once you've used it once, um, but yeah, I would just choose the biggest plan and then drop it in there.
+
+[41:10] You, you need the code again? Yeah. Cool. All right. Um, okay. So I'm going to go back here. Ooh. Oh wow. Your ghost turned out really well too. That's cool. That's pretty cool. Interesting.
+
+[41:49] Something like that. Yeah. You would want to, um, these would all print as separate pieces. This would actually be not a great candidate to, to print. You would want to add some sort of fill in here. Um, which is, which is doable. Um, try to, try to upload your photo again and give it the prompt.
+
+[42:07] Uh, when you upload it, you can say, change this with text and just give it the prompt, say like, make this into, uh, like a 3d model or, uh, you could do that. Um, yeah, I've, I've also seen it work well where if this is flat and then this can be like, you know, kind of raised like a relief.
+
+[42:29] Um, the other thing you could try, I really love this prompt. Um, you could say like, make this into a 3d character, like a Pixar character. And it will make like a really cool little character based on your drawing that retains a lot of the original, um, sort of characteristics of your drawing.
+
+[42:45] So I'd also recommend trying that. Oh, and someone made a Batman mask too. For my dog. For your dog. That's, that's amazing. Is your dog here? I'm reading it tomorrow. Oh, nice. Okay. We should print this and try it. Look at that. That's so cool. Yeah, that's amazing. Um, and then this is a, this is an example of something that did print.
+
+[43:12] This is the Audi logo that printed. Yeah. Yeah. Yeah. Thanks so much. Okay. Um, I, yeah, that's actually the end of the session too. So, um, yeah, thank you so much everyone for coming. We're going to host a couple more of these as well throughout the week.
+
+[43:30] So keep a lookout on, uh, the calendar for that. And let me know if, if you run into any issues, if you have questions or if you have any ideas for, um, features or any feedback on the platform at all, but thanks for coming. Nope. No, I just, yeah, we're covering it for free. Yeah.
+
+[43:47] Uh, depending on how backed up they are, uh, you know, prints will take anywhere between like an hour to three hours, depending on how big it is. So you could probably get it same day. Um, but if, you know, we have like a lot of people submitting and there are 10 prints in the queue, then you might not get it for another day.
+
+[44:04] So I would just recommend submitting it ASAP, but everything that you made today, you know, there weren't a ton of people here probably be ready tomorrow. We also have a, we have like three printers running too. So yeah, we can print them pretty quickly.
+
+[44:17] Yep. Well, um, when you go to the, when you go to the Google form, just include special instructions or requests and you could say the size that you want it printed. Um, cause then we'll take care of it. When we go to print it, we'll change the size for you. You're welcome. Awesome. Well, thank you so much for coming guys.
+
+[44:33] Yeah. Oh, and yeah. Yeah.

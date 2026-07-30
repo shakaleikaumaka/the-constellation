@@ -1,0 +1,303 @@
+# Why you should be building UFO tech
+
+Date: 2026-06-10
+Source video: Why you should be building UFO tech.mp4
+Drive: https://drive.google.com/file/d/1Qvtf90-PI080961wgMCFQg-DcgOj5oMf/view
+Duration: 00:53:55
+Transcribed: 2026-06-11 · whisper large-v3-turbo · language: en
+
+---
+
+[00:00] Can you guys hear me if I just talk? Yeah? We're good? Sure, yeah. Oh, okay. Yeah, yeah. Yeah, I just, yeah. Okay, perfect. Alright, ready to get started? Okay. Thanks for joining me. This is a talk on why you should be building UFO tech. Some background, my name is Cam, I'm a bit of a UFO nut, and I'm a partner at Z Prime.
+
+[00:38] We love controversial ideas and people building kind of weird stuff. And I think building tech around this topic more broadly is the most important thing humanity should be doing. Okay, so, like, what are the goals for this session, if you will?
+
+[00:57] So, the goal is to convince you that something interesting is going on with respect to the topic of UFOs without you having to take the kind of, like, intellectual leaps about the existence of, like, little green men or Nordics or whatever the, like, you know, topic du jour is. And then I also want to convince you that, you know, thinking about the technology that is related to this is the most important problems that humanity is facing.
+
+[01:28] And then, additionally, I'll also give you some direction and maybe areas to explore if you were compelled to maybe think about building in this area. Okay, so, some table setting for everyone who is maybe unfamiliar with UFOs. UFOs stands for Unidentified Flying Object.
+
+[01:49] More recently, they've been called UAPs, which stands for Unidentified Anomalous Phenomenon. Stereotypically, this is meant, like, little green men in, like, a dish-shaped saucer. How did this all really start? I guess the kind of modern interpretation of this started in 1947 with the Roswell crash.
+
+[02:11] I think one of the more interesting parts of that whole kind of saga is that basically two weeks after the Roswell crash, Congress basically rapidly pushed through the National Security Act, which led to the establishment of, you know, the Air Force, the CIA, the DOD.
+
+[02:33] Prior to that, it was a bit different with respect to the Army. Depending how much you want to stretch things, this phenomenon could go back for thousands of years. There's some interesting historical accounts. There's a really good book on this by an author named Diana Pasalka, who worked with the Vatican to kind of go through their archives to look at, you know, things that maybe happened.
+
+[02:59] There's, like, this Nuremberg thing in 1561 that there's, like, some paintings of. But, anyways, fast forward to today, kind of the more recent wave of, like, UFO stuff, UAP stuff that is in kind of, like, the news of the public consciousness started in 2017.
+
+[03:20] There's this New York Times article, three of these videos got leaked, famously, like, the GoFast, the Gimbal, and the something else, that were kind of demonstrating, you know, things that seemingly defy our models of the universe. Okay, so, why should you care?
+
+[03:42] There's kind of, like, an endless flow of increasingly credible people coming out and basically acknowledging that this, there's something going on here. Some of these, if you have not been following this topic, include James Clapper, who was a former director of national intelligence.
+
+[03:58] It functionally does, like, not get higher than that in the national security apparatus. Carl Nell, who was the colonel in the Army, he set up Army Futures Command, which is kind of, like, the Army's advanced technology branch. He was also, like, a CTO at Northrop Grumman, which is one of the big defense prime contractors.
+
+[04:19] David Grosh, who worked for the DOD, NGA, NRO, he handled the president's daily brief, which is kind of, like, the summary that gives the president, basically, like, whatever the ten, you know, main national security concerns of the day. And Harold Malmgren, who was a presidential advisor to JFK, gave a deathbed confession extremely recently, where he talked about handling UAP material that was recovered after a nuclear bomb crash called Bluegill Triple Prime or something like that, where they were testing, basically, like, high-altitude nuclear bombs.
+
+[04:56] Something fell out of the sky. The main table setting of that is that this is no longer kind of, like, a thing of, like, you know, fringe people from their backyard. There's, like, very credible people talking about this. But I think an important way to, like, kind of handle this topic is to try to dissect it a little bit.
+
+[05:18] And so, one of the ways that I really like to try to get people to think about this, because I kind of consider myself, like, a UFO pragmatist, is to really separate it into, like, the things we can concretely say are happening versus maybe the things that require more intellectual leaps.
+
+[05:36] And so, one of those things is, like, okay, we have countless congressional meetings happening with high-ranking government officials, military officials, testifying under oath that they've seen in classified settings, you know, multi-sensor telemetry data or videos in high resolution of things that should not exist.
+
+[05:57] And so, what we can do is, like, take that and break it down where it's, like, either all of these people are lying and are being duped, and there's, you know, you know, allegations in, I forget what it was, the Washington Post saying that this is all, like, an elaborate hoax of, like, a hazing ritual.
+
+[06:16] Or we say that there's, like, a probability of something that there's, like, something going on here. And then we can kind of try to break this down into things that are more, like, digestible, right? Which is that, is this prosaic or is this not prosaic?
+
+[06:31] And prosaic would be, like, this is classified tech, this is something from a black budget. You know, we figured out how to manipulate gravity, you know, some years ago, and that's led to some crazy tech that we're hiding for the event of, like, a full-scale war or whatever.
+
+[06:46] The not prosaic thing is, you know, maybe the more fun stuff, little green men, interdimensional beings or whatever people are saying these days. That, to me, is, like, lower P where we don't have any concrete evidence of that going on, at least not yet in the public.
+
+[07:11] Okay, so to continue this, why is it important to draw this line? We need to distinguish between kind of, like, the degrees of evidence for each. And just try to distill this into as little kind of intellectual leaps as we can. So, we're capturing this data.
+
+[07:30] It's telling us that something is defying our models of physics. Okay, we can take that as probably fact, right? And so the next step of that is, like, okay, well, if that breaks our current models of physics, what might the science be to explain these new observations?
+
+[07:49] And if you think about how science historically was done, it was all about observing new information and then building our models around that. So, in kind of, you know, looking at everyone in the crowd, probably, like, since we've all been alive, what has historically been happening is that we kind of have gone through this period of extreme hubris where we said, like, we kind of know how the whole, like, the whole kind of world works, the whole shebang.
+
+[08:18] The problem with that is that it's led to an over kind of intellectualization of the theory side, right? Where we're no longer observing the things in front of us and saying, hey, this is new evidence. How can I kind of adjust my models to reflect that?
+
+[08:35] And so we say, no, that doesn't comport to the model we have. And we obviously know everything that's going on, which is, you know, again, if you look historically, like, the common consensus has always kind of been wrong, right? With, like, retrospective look back.
+
+[08:53] And so what we can do is we can get to a place where we say there are observations happening where these are defying our kind of, like, scientific models. And we don't really have to take any intellectual leaps, right? This is, like, factual information.
+
+[09:10] We're capturing this in, like, multi-sensor modalities. So basically that's kind of the story here. Now the fun part is, like, why you should be thinking about this. So I'm a venture capitalist. You know, my job, if you will, is to think in asymmetries.
+
+[09:35] And a big part of that is, like, when something is kind of mispriced by kind of the market, if you will. And so given what we've discussed kind of going into this about what is happening, I think what you can do is look at this and say the probability that things that defy our models of physics exist is greater than zero, right?
+
+[10:05] And I think the question on the probability of that is kind of something that you decide for yourself. You know, is it 5%, is it 10%, maybe it's higher, maybe it's 50%, you're like, yeah, they probably exist, right? And then one thing I like to do is frame this in the context of, like, an expected return payoff.
+
+[10:27] So I don't know how many people know what that is, but you basically take, like, the probability of an event times by the payoff, you get the expected return. And when I think about, like, how people should be thinking about this, one of the ways I like to do this is to tie it back to AI.
+
+[10:48] How much time do you spend thinking about AI every day? You know, you have 100 units of attention every day that you're allocating. And you're probably allocating, I don't know, 30% of your time right now to, like, AI probably if you're here.
+
+[11:02] And when you look at, like, okay, but, like, what is the payoff of AI, right? Is, like, some people will tell you we're going to hit, like, infinite GDP and, like, you know, we're going to go into, like, Neverland or whatever. But, like, if you actually talk or, like, listen to, like, the most bullish people on AI, like, you know, Sam Altman or whatever.
+
+[11:25] They'll tell you, like, GDP is going to add, like, 3% a year, right? And Thiel is telling you it's, like, less than 1% a year. It's going to be, like, the internet, basically. And you say, like, okay, you're allocating, like, a lot of attention units to something that is, like, I don't want to say, like, not going to make, like, a huge difference.
+
+[11:45] But it's, like, compare this to the concept of something, like, what would antigravity or, like, our control of gravity add to GDP, right? That is, like, a true kind of, like, infinite asymmetry. And so even if you're saying my, like, probability of, like, believing in this is, like, relatively low, the, like, payoff or potential payoff of something like controlling gravity is so enormous that, like, it does behoove you to allocate some units of your attention to this topic.
+
+[12:23] And so I think that's, like, an important way to, like, think about whether or not you should be allocating time thinking about basically what's going on here. And so a common rebuttal to this is, like, okay, like, you made me believe in aliens or whatever, but, like, that's not really helpful.
+
+[12:42] I have no direction to kind of go on this. And so, again, I like to, like, think of myself as, like, a relatively, like, pragmatic or rationalist person. And so the question is, like, okay, how does gravity work? What is the energy source for, say, manipulated gravity?
+
+[13:01] And what kind of materials do you need as kind of, like, foundational questions to how do I get to a more concrete place on basically thinking about building some technology on this? There's also some other stuff where, like, you can get pretty funky about, like, consciousness or whatever that, you know, some people have claimed is related to this phenomenon.
+
+[13:24] But I think, like, the first thing and probably the biggest thing, obviously, is gravity. And kind of one of the interesting parts about maybe, like, the topic of UAPs being in public consciousness more broadly is just that, like, this is happening at a time where string theory, where string theory, which is the dominant theory of physics in kind of the standard, like, academic literature, is kind of coming to an end.
+
+[13:56] Where we have some of the most credible string theorists in the world, like, the founding fathers of this theory, doing interviews where they're admitting that string theory was maybe a mistake. It's basically, like, resulted in no testable empirical hypotheses since its foundation.
+
+[14:18] So we've spent, you know, whatever it is, 50, 60 years on this theory that's basically led us to, like, an unexperimental dead end, right? Which is not great because the ultimate kind of test here would be, like, something like, hey, our understanding of the universe is getting better.
+
+[14:33] We know how gravity works. We can test the hypothesis on this. So another interesting part of this is just that there's a lot of really weird, interesting research kind of hiding in the public, if you will, that's maybe, like, little kind of breadcrumbs left for you to think about this.
+
+[14:56] I think, like, some of the more credible people, I put their names up there, some of their stories are, like, extremely interesting. The Ning Li in particular, who's, like, in the photograph down below, she was this physics professor at the University of Huntsville, Alabama, which is, like, notoriously a space-related university.
+
+[15:19] She was doing some, basically, experiments on, like, charging superconductors, basically. She observed some anomalous phenomenon. She wrote one paper on this. She was immediately given a DOD grant. She never published a thing in her life. She set up a private company. They took this grant.
+
+[15:40] The most interesting part of that story is that about half of the physics department at the University of Huntsville, Alabama, left with her to go into that, like, company where they were given these, like, DOD grants to work on this. It was basically just, like, anyone who saw the experiments got, like, folded into this company.
+
+[16:03] You can still find her, like, first paper online. It's, like, super interesting. Yeah, some other interesting names there. Okay, the other big thing here is energy, right? Energy kind of runs the world. It's extremely important. There's kind of, like, two camps here of, like, maybe what could generate enough power to facilitate kind of moving in the ways that we observe.
+
+[16:29] One of them is Fusion, something that's maybe more kind of commonly talked about. It's extremely well-funded. You know, there's tens of billions of dollars in VC funding towards Fusion. We have a bunch of big companies. As of a couple of months ago, there's publicly traded Fusion companies.
+
+[16:47] There's some, like, weirder niche takes on Fusion that are kind of cool, but it's basically, like, research projects today. The maybe more interesting one is, like, zero-point energy, as it's called in the, you know, whatever. Basically, what this amounts to is, like, pulling energy out of the, like, the quantum vacuum.
+
+[17:12] So there's, like, this background soup that we all live in, and it's, like, fluctuating constantly. And so there are certain ways that you can basically capture energy from that. There's this thing called the Casimir effect, which is basically one of the few kind of empirical effects that we have from a quantum phenomenon, which is that, like, if you put, like, two plates really, really close together,
+
+[17:44] these, like, quantum background particles and, like, waves can only, like, pop into existence. Like, depending on the wavelength, basically, you could think about it. Some of them can pop into existence on the inside of the plates, but some of them can't.
+
+[18:02] They can only be on the outside of the plates, and that creates, basically, a pressure differential that pushes the plates together, which is creating force, basically, out of this quantum vacuum fluctuation. Now this really clever guy who was the former head of advanced propulsion at NASA Eagle Works basically figured out how you can do a structure in three-dimensional space that allows you to harness, basically, those fluctuations to generate, to basically free electrons and generate, like, a current, basically.
+
+[18:37] That company, like, just raised a bunch of money. It seems like they're going into production. Like, time will tell if that's real, but, again, one of those things that kind of breaks your mind. But could theoretically maybe hold the answer to the energy question of, like, how, you know, a UFO would operate.
+
+[18:59] Interesting anecdote for those who care. On the gravity and, like, the Casimir effect specifically, Epstein was all over both of those topics. So, if, in the released files, he had this kind of, like, weird whatever with kind of, like, some of the more, like, the deepest parts of, like, science and technology that were going on.
+
+[19:27] And those two topics in particular were things that he was basically actively kind of hunting, if you will. And then the last thing is basically materials. There's some, like, interesting stuff here. But it's basically, like, you know, what nanomaterials or structures, i.e., things like the Casimir effect, might exist that would allow us to, you know, create things with novel characteristics that help, you know, achieve kind of the performance that one would see.
+
+[20:02] From a UFO. There's some, like, interesting stuff here about some alleged, like, crash materials that have been examined by Gary Nolan from Stanford where it was basically, like, atomically layered metals in isotope ratios that don't exist in our solar system.
+
+[20:21] So, basically, like, an isotope ratio is, like, you get, like, weird combinations within the same element of, like, the neutrons and the protons, which can only happen in, like, basically other stars. And so the implication of those materials examined was that they're not from our solar system and it looks kind of just like a piece of, like, metal craft, but it, you know, is atomically layered in a way that we also can't do.
+
+[20:49] And so are there novel properties that can come out of, you know, things we feel are seemingly more prosaic if they're, you know, layered or structured in ways that we can't currently do? So, big disclaimer here. Please always respect the national security apparatus.
+
+[21:10] If we, if you did kind of go down the rabbit hole of being, like, okay, this is something that's, like, very prosaic and the answer is that, you know, it's, like, some sort of, like, classified program or whatever that is creating these observations. That the answer is, like, well, maybe it's classified for a reason.
+
+[21:31] And so it's, like, I think it's a really interesting topic to kind of, like, think about, but it is one of those things that does brush up against, like, whatever national security concerns that, you know, people smarter than me are making decisions on. Yeah, that's it.
+
+[21:47] Sorry, can I, can I start with the questions because I've got the mic handed on. But I'm interested to know where you think the different sort of alien or UFO tech is in relation to, like, the different governments. Because I would assume that, like, whoever unlocks this kind of unlocks a ton of, a ton of power, for lack of a better word.
+
+[22:18] I would assume Russia and America are both, like, ahead of the curve as well as China. Do you have any sort of, like, idea about where these different regions are in terms of what they've discovered and, like, what that means? I can only speak to, like, the claims that happen in, like, the public, i.e., like, what people have, like, come forward and said they believe to be true or whatever.
+
+[22:42] And, like, there has been allegations that, you know, China has a program, America has a program, Russia has a program. These countries are having these crash retrieval teams that are flying into other countries and basically recovering craft bodies, whatever it is, with kind of impunity over, you know, these maybe smaller countries, if you will.
+
+[23:09] Actually, I think it was yesterday, some of the members of Congress were holding a press conference where they actually said they got testimony from Brazil's former head of, like, basically, like, the DOD, who is basically confirming that this specific case called Virginia, Brazil did, in fact, happen. And that they basically, the U.S. came and, like, recovered craft and took it back or whatever, which is, like, you know, what do we make of that, right?
+
+[23:45] These are all, like, claims in the public that oftentimes feel hard to stomach. But, yeah, it seems that all the superpowers allegedly have, you know, projects on this. I mean, he's got the mic. Yeah. So, we're currently bombing Iran because we don't want them to get access to technology that was developed in the 40s.
+
+[24:12] Now, if there's new physics out there that is potentially even more powerful, don't you think it's going to be a little hard to kind of here at home, like, work on that? Because the last generation of physics was, there's an enormous amount of effort worldwide to prevent people from using or accessing that.
+
+[24:34] Something even more advanced is going to be even, you know, more dangerous, potentially. How do you kind of approach UFO tech given, you know, I mean, right now with Quad Mythos, they're like, you can't use this for biology. Yeah. You can't use this for cybersecurity.
+
+[24:52] I mean, that's out in the open technology suppression. We have the technology, they could give it to us, but they won't because it's too dangerous. So, how do you deal with this? I mean, like, frankly, I don't have a good answer for you, right?
+
+[25:06] Like, I've kind of gone around trying to meet teams that are kind of actively building in this field, if you will. And, frankly, like, one of the biggest concerns for a lot of these people is just that they get kind of brought into the black, if you will.
+
+[25:21] So, they don't even get a chance to kind of bring this forward. And there's no good answer for that, right? Like, my point earlier was just that, like, you do have to respect the national security apparatus. Like, there's people who are kind of, you know, more important than us kind of making that call, basically, on, you know, whether that should or shouldn't be allowed to exist.
+
+[25:43] I think there's a very strong argument and a big thing that, like, you've seen a lot of the whistleblowers talk about is that it shouldn't be up to the government to be making the decision on whether or not we know that, like, there's other life out there or that we could travel the stars, you know, if we weren't so scared of, like, terrorism or something else, right? And I think there's, like, an interesting philosophical argument or discussion to be had there.
+
+[26:12] But, like, you're absolutely right. Like, there is no good answer for, you know, the difficulties that you would potentially face, like that researcher I kind of singled out where it's like, yeah, she observed something crazy, published a paper, and basically got, like, you know, tucked away in a back room somewhere.
+
+[26:31] And, you know, that might be how it is, right? I don't know. Have you guys built a structured tech tree for this space, a la Convergent Researchers? Like, kind of. Like, not something I could, like, put up there. But there is, like, if you kind of follow this topic enough, there's kind of, like, a pretty clear, like, kind of tech tree that is, like,
+
+[27:05] you could sensibly follow. Absolutely. And I do know there are some groups who are, like, trying to do that. Like, it's just a question, again, of, like, whether or not it kind of gets censored, if you will, or whatever. That, like, it gets too close to the actual kind of, like, truth of how it works.
+
+[27:32] Yeah, it's. Yeah. This is a bit of a speculative question, but one thing that surprised me about the Epstein stuff is how little interesting information leaked. And it made me more credulous about, like, this idea of a mass cover-up on a lot of other things.
+
+[27:52] But this concept of aliens, I assume they don't just land in, let's say, America and the places where they have, like, the kind of infrastructure to suppress information. And so I'm wondering, like, what do you think the difference in dynamics that cause information to be hidden are between, like, let's say, the Epstein stuff, where maybe there are self-interested people who are trying to, you know, not have terrible things they did leak, and aliens.
+
+[28:17] Yeah, it's, it's a really interesting question. I think it actually kind of ties to this other gentleman's question, right? Which is that, like, we've spent, you know, the last 80 years, like, voraciously defending the nuclear secrets, right?
+
+[28:36] Like, often one of the biggest criticisms of, like, the UFO topic more broadly is, like, well, the government can't keep secrets, right? But the answer is the government is actually very good at keeping secrets, right? Otherwise, a bunch of random countries would have nuclear bombs, right?
+
+[28:49] Iran wouldn't be, like, trying so hard to get one. And I think there's, like, a big dichotomy there, which I talked to some of you guys about, like, before, which is just that, like, there's a big difference in, like, kind of the competence of, like, your experience at the, like, DMV and, like, the military industrial complex's ability to kind of, like, keep things secret.
+
+[29:13] I think, like, the history of stealth aircraft is another one that's, like, a really good demonstration of how good they are at kind of keeping information private. As it relates to, like, the Epstein files, I mean, it's hard to kind of, like, reason about other than, like, whatever we got given in the public is just, like, they viewed it as kind of, like, I want to say, like, low risk, right?
+
+[29:41] It seems very obvious. He was, like, an intelligent asset of, like, some sort. And they were just, like, okay, this is, you know, fine to publish, basically. But it also seems clear that, like, any of the, like, juicier stuff, if you will, was, like, things that were not released to the public, right?
+
+[30:04] I think they said there's still, like, millions of files. But, yeah, I don't have any unique insight there. So, I think we got some, yeah, yeah. So, I think a tech that we're pretty close to that could be considered alien is antimatter. So, like, with the Higgs boson, that was discovered back in, like, the 2010s.
+
+[30:26] And that is how, you know, matter is created and also gives leeway to antimatter. But you can only really create the Higgs boson or antimatter with a CERN level particle beam. So, my question is, like, do you think CERN is a venture capital, like, project, possible project?
+
+[30:43] Yeah, I don't know. It seems, like, impossible to know with, like, obviously it's, like, a nation state level, multi-nation state level kind of project to build such a thing. But, yeah, I don't have any unique insight on, like, CERN's, you know, relationship to a weird topic or anything like that.
+
+[31:12] I have a personal question for you. So, have you invested in any UFO tech or deep tech yet? Or, if not, are you going to? Have we invested in any? Ish. Like, I wouldn't say something that would explicitly call itself UFO tech. We're, like, looking at a couple things right now.
+
+[31:43] Again, kind of like a secondary part of this is that it's extremely hard to do diligence, especially as, you know, a normie like myself who's not, like, you know, some, like, PhD in, like, electromagnetism or something like that, right? And so, it kind of requires us to coordinate, you know, when we can pull in, like, a PhD from MIT on, like, electrical engineering to go and, like, basically, you know, debunk some kind of tech that we've seen to try to, like, understand if what we're seeing is really true or not.
+
+[32:19] But it is something we're, like, actively looking for. I think this is, like, again, like, one of the biggest kind of questions for humanity to solve is, like, if you're familiar with the Kardashev scale, which is, like, this scale people use to describe, like, civilizations, I think humanity is still, like, Kardashev's zero.
+
+[32:39] Like, where we haven't even started and, like, one is, like, solar system level kind of control, if you will, and two is, like, galactic or, I don't know, something like that. But, like, really, humanity, like, the only thing that separates us from, like, zero to, like, two is basically just whether or not we could navigate the universe in a more efficient way than, like, mass ejection, which is, like, rockets.
+
+[33:06] And there's just, like, thermodynamic limits to, you know, what rockets can do. Realistically, even our dreams of, like, extending in the solar system are kind of ridiculous if we rely on mass ejection, right? Like, Elon would have to send up ten starships to fill one starship to get that starship to Mars, and it can only go there, right?
+
+[33:28] There's no trip back. Like, that is, that's, like, just, like, kind of like a thermodynamic limit of the universe that, like, there has to be something more elegant, right? Like, the human imagination tells us that to be the case. And so the question is, like, how do we get there?
+
+[33:44] That's, like, the most important question we can answer is humanity. It's not, like, improving my, like, my workflow automation or something, right? It's, like, I want to go see the stars. And, you know, it's a big economic opportunity. And I think it's, like, it's worth pursuing, right?
+
+[34:03] Hey, Cam. I have a question. Kind of, I understand that you've been taking this very Socratically. But what is something that, like, a full-bodied kind of eureka moment that you kind of have experienced about UFO and alien tech? Kind of, like, you know, witnessing a neural net perform on a task completely in maybe 2016.
+
+[34:35] And kind of seeing that there's a lot more to do with this. Yeah, actually, I really like that question. I actually got into this stuff from, like, a physics perspective and not from, like, being, like, really interested in aliens. So there's this guy, Kurt Jaimungal.
+
+[34:53] He has this YouTube channel called Theories of Everything. It's probably the best, if you're into physics, it's probably the best, like, physics content, like, on the planet. And he basically just interviews, like, all the biggest physicists in the world.
+
+[35:07] And that's, like, the interview I mentioned with Leonard Susskind, who's, like, one of the godfathers of string theory. That's the channel where that interview is on, where he's, like, actively admitting the faults of string theory. And kind of one of the things I was thinking about was just, like, you know, Thiel has popularized kind of in the last, I don't know, 10 years this kind of concept of this, like, secular stagnation in the physical world.
+
+[35:32] And, you know, when you think about that, it's like, well, a lot of that is downstream of our understanding of physics. And when you spend too much time kind of squinting at modern physics, you go, like, this stagnated, like, 50, 60 years ago.
+
+[35:46] And, like, why is that the case? And so I kind of, like, fell down this, like, rabbit hole of, like, well, what if, like, string theory is untrue, right? And then you kind of get into, like, really weird stuff. And you're like, well, that actually would permit for the concept of, like, UFOs, right?
+
+[36:04] And then simultaneously to kind of thinking about physics in this way, we had this, like, kind of, like, public consciousness of that 2017 article that kicked off this wave of whistleblowers and videos and things of people saying, like, yeah, we do actually have, you know, multi-sensor telemetry data of things behaving in a way that would break string theory, for instance. And so that kind of goes, like, okay, like, the pieces are kind of falling into place to allow for something different to be the answer here.
+
+[36:40] And so that kind of felt like a eureka moment in being, like, okay, maybe I should, like, take this topic more seriously, but I also don't want to be, you know, sitting there with, like, a tinfoil hat on and being like, oh, my God, like, the aliens are coming. Like, you know, and so I was like, well, how can I approach this in, like, the most pragmatic way possible?
+
+[37:01] And the answer to that is just like, well, let's dissect this problem into, like, you know, how would a craft like that work? How is it powered? Like, do you need special materials? Like, all these kinds of things. And you can go around and look for those things.
+
+[37:15] And, you know, the more you kind of, again, look into this topic, you can kind of find things that are, like, hanging in the public, maybe by accident, right? Like, I don't think censorship is, like, perfect. And so you can kind of get to a really interesting place.
+
+[37:35] Just yesterday at that press conference I was mentioning, one of these whistleblowers, David Grush, who's been working with the kind of Congress members who are investigating this topic and pushing for, like, a broader disclosure, if you will. He mentioned a document that was not released by, and this maybe ties to Justin's question.
+
+[37:58] He referenced a document that was declassified by the, like, Australian Air Force Intelligence or something from, like, the 60s, where he references a couple pages in there where they kind of openly talk about their communications with the US government. And then you get, like, some pretty crazy detail from, like, a really long time ago, like, on what was going on back then.
+
+[38:27] And I think that's, like, one of those kind of weird anecdotes of, you know, kind of catching a glimpse of this. Hi. My name is Eric. I wanted to say a couple comments is that there is another event in Congress in two weeks. If you go to Disclosure.org, there's a countdown saying 14 days, which seems kind of interesting in and of itself.
+
+[38:55] Another comment is, having gone to a couple of these conferences surrounding this phenomenon, I would say anecdotally, there was a VC that spoke at the Sol Symposium in San Francisco two years ago. And I think that's on YouTube, which would be an interesting place to start.
+
+[39:13] But there's also some interest in quantum deep tech. So even in and of itself, you could invest perhaps in, like, quantum tooling for, like, quantum sensors and stuff if you were just to take the picks and shovels aspect of what you could focus on.
+
+[39:26] Also, I was wondering what sort of thoughts do you have on the drone events on the East Coast in the previous year in terms of were they, is your view, were they just passive people flying drones? Were they a drone delivery company testing drones?
+
+[39:45] Were they a nation state? I mean, there's plenty of footage online of seeing these things morph in shape and some odd characteristics. I was wondering what your thoughts were on those. Yeah. I've got, like, no unique insight there other than, like, I think generally when topics kind of get, like, memory hold in a way that they probably are a lot more interesting than, like, whatever the prosaic explanation was.
+
+[40:10] I think, like, that was one of those events, right, where these drone incursions, not just on the East Coast, they've happened over our most sensitive military installations, over national labs, on the other coast. And these things, you know, functionally operate with impunity over these extremely sensitive sites.
+
+[40:32] They've shut down multiple Air Force bases that contain our kind of nuclear fleets. And to say, oh, it was cartel drones in New Mexico, or it was, you know, you know, some drone company tried to take credit for the New Jersey thing, but they're, like, way too small.
+
+[40:55] You know, it seems obvious the answer is, like, something weirder. And, like, the U.S. government, like, opening, admitting that it doesn't control the airspace over its most sensitive military installations is, like, baffling. Especially if you assume that it's, like, oh, it's China showing some form of dominance that they have, like, drones in a, you know, a container truck next to your sensitive military installation.
+
+[41:24] It's, like, are you really going to buy that answer when, like, you can watch, like, Epirus demos taking down swarms of drones with, like, zero problems? I think, like, you kind of have to assume that it goes deeper. But, you know, what could it be?
+
+[41:40] I have no idea. But, yeah, some of those videos are really weird, right? Like, it's, yeah, sorry. Yeah, so I'm really interested in hard tech. But one thing coming out of this presentation is I still don't feel very convinced about some of these things.
+
+[42:00] Have you actually gone through and, like, rank ordered, like, what has the biggest outcomes of these tech, like, GDP-wise, when you mentioned AI could raise, like, 3%. Whereas, like, if it does raise it by 3%, that would mean we're basically doubling the entire economy from every 14 years.
+
+[42:16] In 15 years, that's more than 10x the economy. And so almost, like, you start off with a number, I'm like, why don't we work on that? Like, so do you have a more concrete idea of that? I just wanted to say, all the nuclear secrets were leaked.
+
+[42:28] Like, literally, there was communists in the, and they, like, leaked the exact design for the trigger for the, like, the bomb. So I'm, like, kind of pushed back on that point as well. I guess, like, but the kind of simple answer to you, right, is that if those were kind of leaked into the public domain, why don't more of these countries that want nuclear weapons have them, right?
+
+[42:49] I mean, it's just, it's like a simple answer. We're literally at war with Iran right now, basically, over this problem. That a country that's basically dedicated, you know, the better part of its entire economy to achieving this goal, and they're functionally unable to, yet this information is in the public domain.
+
+[43:12] I think that's, like, I don't know, a bit contradictory. In terms of, like, yeah, like the GDP impact, I just want to be clear, like, AI has not given us 3% growth yet. The Sam Altman's of the world would tell you that it will into the future.
+
+[43:29] I think, like, yeah, maybe the answer is, like, 1% or whatever. But if you just think about, like, conceptually, if we figured out how to control gravity and it's not some, like, crazy kind of, like, capex burden, that you need, like, a CERN collider or whatever, right, that the answer would be, like, shipping, aviation, you know, minerals acquisition in outer space.
+
+[44:03] Like, everything changes, that it's, like, GDP is maybe, like, a bad measurement at that point. In terms of, like, the other thing you mentioned of, like, kind of, like, outcomes in this area, I mean, it's extremely nascent. I don't think there's been any, like, material outcomes yet.
+
+[44:25] There's, like, a couple of companies who've raised capital to basically do, like, observations. So they're building networks of kind of, like, what is effectively, like, telescopes with, like, you know, other forms of kind of monitoring to see if they can capture these things in the atmosphere.
+
+[44:45] Like, there's a couple of companies that have been funded around that, you know, whatever. They all seem to disappear, which is also kind of sus. I anecdotally, yeah, have, like, talked to people who've been invested in those who said, like, the companies, like, kind of get shut down.
+
+[45:04] Now, there could be an extremely prosaic explanation for that, right, which is just that, like, the U.S. military doesn't want you accidentally observing one of our, you know, new classified aircraft. Like, that's a completely reasonable explanation for being, like, hey, don't operate a network of, you know, high-quality cameras and radar systems looking over our skies, right?
+
+[45:26] Which is, you know, you could make a pretty simple prosaic explanation for that. But, yeah, in terms of, like, outcomes, like, I don't really think there's been, I mean, have you found any companies that are openly talking about building UFO tech?
+
+[45:42] Helion is the closest, right? It's like, if fusion works, like, that's great. But I think a lot of these problems are just, like, actually really hard. So, 100%. That's the problem. Like, everyone here is, like, should I work on this? Is, like, the expected payoff matters a lot, right?
+
+[45:56] Yeah. Yeah. They're, you know, unsolved problems for a reason, probably. Maybe not. Yeah. So, on that same vein, I want to say two things to their comments. I completely agree. What's the expected payoff? And it's a really hard problem. And the best thing in the picks and shovels of the quantum sensors makes a lot of sense.
+
+[46:18] So, my question is, what's the investment structure where you actually get a return if the two most common outcome or three most common outcomes are getting shut down, getting swept up into the government, or ending up dead? Yeah. I mean, I guess, I guess that's the, that's the price of delivering returns for your investors.
+
+[46:39] No. I, I, jokingly, you know, I think that the Casimir one is a really good example of this, right? Where this is, this is someone who, you know, I've been to their lab, he looked at the chips under a microscope. I, I saw it on the, on the kind of test apparatus generating voltage.
+
+[47:00] Now, could be an extremely elaborate ruse, or maybe he has stumbled on a potential new energy source here. Um, it's, it's kind of strange, like, he is also someone who, you know, I, I, is, has framed the kind of solution to, at least to start with, as they, they want to build, like, basically, like, small batteries, right?
+
+[47:30] It's like, it would power your air tag, it would power, uh, you know, a, a tire pressure sensor. Um, and these are like, these are big markets, right? Like, like, you know, 20, 32 batteries, like, you sell tons of those, right? For your key fobs and whatever.
+
+[47:47] Um, and like, is that enough of a beachhead that you can continue, like, refining this technology to the point that, like, you could power, you know, a car one day or your phone, you know, maybe you just, you keep kind of, like, stepping up. It's, you know, I think, I think it's still quite early, but it's, it's super interesting to see that, like, actually playing out.
+
+[48:08] And this is someone who, you know, is, is seemingly well capitalized enough and, and has, you know, enough experimental results, like, testing these. Um, I don't know, maybe, maybe the answer is, like, you have to frame these as, like, really harmless, right?
+
+[48:25] Like, these are air tag batteries, um, and that's the way that you kind of get allowed to continue building this in public. Like, like, even to this point, right, it's, like, the idea is now kind of, like, public domain, if you will, that, like, it's kind of uncensorable.
+
+[48:42] Um, you know, maybe you can classify the, like, production method or whatever, but, you know, at least, at least this is now something, like, humanity can iterate on. And if it is the answer, that's really exciting for all of us, right? Okay, so, um, I served in the Air Force when I was over there.
+
+[49:04] I was a crash fire rescue, so we had a lot of access to the base. Um, up at Beale Air Force Base, we had, uh, this thing we call Pave Paws. Have you ever heard of it? No. No? Okay. So, Pave Paws is really interesting. So, you would usually think of us, like, seeing what's in the sky with our radar.
+
+[49:20] But Pave Paws is kind of, like, could be described as a piece of paper you've held up between you and a light source. And whatever flies between it, like, a fly comes, and it, it paints a picture on that light source. So, you'll see on the base there, if you look on a satellite or whatever, if they have locked it out, or if you drive up there onto base tour.
+
+[49:39] It's like a giant 10, 15-story building. It's about 200 feet wide. It's a big gray circle painted on it. About, like, a thousand people work inside, and it's super top secret. I've only been in once when someone had, like, a diabetic emergency.
+
+[49:52] But, like, they pointed guns, when you're in the Air Force and they point guns at you on your own base. Like, that's what he's talking about for, like, keeping information secret. Um, this thing's been around since the 50s. And there's probably, like, 10 of them in the whole world.
+
+[50:04] They look at, like, all the hemispheres of the sky. And so, you know, I think if you're looking for inspiration in UFO tech, um, looking at some of the basic concepts that are working now and building from there. Like, that idea that there's a constant amount of solar radiation coming in.
+
+[50:21] And if you create a surface that, you know, can track the vector and velocity of things, you can get a lot of information from that. So, um, you know, taking a look at unclassified projects that just aren't publicized is a really good place to start.
+
+[50:36] Yeah. Like, it is, like, such an interesting topic. I think, like, Eric Weinstein has mentioned this, where he kind of talked about how, like, there's no other topic in the world where you have so much kind of, like, anecdotal circumstantial evidence.
+
+[51:01] Like, like, key witness testimony, but zero hard proof, um, kind of in, in the public. Like, there, there's no topic that comes even remotely close to, to kind of this general thing. And, you know, you have these members of Congress who've gone into classified briefings and they say, like, we've got 4K video of this.
+
+[51:20] Like, the government has sensor modalities, like, you know, we probably couldn't even dream of. And so, like, do, do we sit there and go, like, they're getting duped by people in a classified briefing to, like, trick them? Or they, they didn't see something and then they're coming out and doing a press conference and lying to everyone?
+
+[51:37] Like, I, I, either answer is really weird, right? And it's, like, there's, there's kind of, like, not a lot of good answers on this topic. And so, like, I think you, you can kind of just go, like, how can I get more, like, nuts and bolts in my approach to, you know, thinking about, like, like, what might be going on?
+
+[51:57] We'll take one more question and then we'll move on. And we have someone wondering the name of the professor that you had mentioned, the woman. Yeah, the, uh, hold on. I think, like, a couple of these people are super interesting. Like, Hal Puthoff is, like, a famous name in this field.
+
+[52:16] He's, like, published some interesting papers. Um, I've had some, like, smart physicists tell me that one of his papers in particular, like, you know, at some point will be given a Nobel Prize type of thing. Um, you know, Thomas Townsend Brown is, is another one, like, Ning Li, where the, the kind of history of it is, is really interesting if you, if you dig into it.
+
+[52:42] Jesse Michaels, it's like this YouTube channel. Uh, he did a really good kind of documentary on Townsend Brown. Um, that's, like, worth a watch if you have the time. Um, yeah. I guess one more added, uh, anecdote. I'm very, uh, UFO-pilled and some, there was a research that came out earlier this year that basically, like, breaks, um, the notion of how we understand space and time.
+
+[53:11] So there's, like, more and more stuff. Um, like, the substrate that we understand reality and everything that grows and moves and operates within it. It's sort of, like, slowly breaking down. I can send that paper. And then, my, my question is, okay, let's say you had a money printer.
+
+[53:27] And none of the stuff mattered. Like, you didn't have to return money to LPs. You didn't have to do any of that stuff. What, what would Cam build? Yeah, I don't, I don't know. I guess I'd, I'd, uh, I'd be building flying cars or whatever. I don't know.
+
+[53:43] I'd be building a colony on some weird planet, whatever. Thank you so much.

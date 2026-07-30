@@ -1,0 +1,151 @@
+# Bioelectricity!
+
+Date: 2026-06-12
+Source video: Bioelectricity!.mp4
+Drive: https://drive.google.com/file/d/1dA0Od1T_Xn1oeJyQzIRHMEua8fawqlY9/view
+Duration: 00:23:14
+Transcribed: 2026-06-14 · whisper large-v3-turbo · language: en
+
+---
+
+[00:00] I guess you'll be able to maybe see some of these things after but some of this is a little bit washed out. If you could you would see there's like frog embryos here and you know biocomputers and all this other interesting stuff that is kind of currently happening in the gambit of bioelectricity. I'll try to go through as much as I can and make it as accessible as I can both as a research area and otherwise yeah. So yeah let's get started. So this all came out of a workshop I did with Mike Levin and Levin Lab which is one of
+
+[00:33] several workshops that we're doing. A lot of people looking at the imaging and the rest of it but one short version of it is that basically as Mike says there was a long time we were just studying dead bodies basically DaVinci forward and we didn't look at living bodies or know how to get the right imaging techniques and when we looked at them we find out lo and behold there's a lot of electrical signaling happening at the cellular level and it seems to have communication and then basically has really important things for how we think about cells and coordination and cognition.
+
+[01:03] So yeah a lot of really interesting people have come together to put together this stuff and the next version of this we're doing is specifically on health care applications but of bioelectricity and and the rest of it. My specific contribution besides some of the stuff tracking like frog embryos and some wetware automation things is particularly in the knowledge graph stuff so we saw some version of that but this is a knowledge graph that looks through the 430 peer-reviewed papers that come out of Levin Lab aggregates all of the does claim extraction hypotheses and then basically through
+
+[01:35] probabilistic knowledge graph specifically it shows how well validated any particular hypothesis is at any given time and it also directly integrates with the wetware automation kind of lab stuff so that you can basically do a roll up and see within a lab at a particular time how much validated a particular hypothesis is so that's sort of the the piece that I built and it also does financial projection into the future to see how valuable any particular piece of innovation or IP or what have is part of that so that's also that's something you can see on prob no so it's like a kind of Bayesian
+
+[02:10] model.com and right now I'm just gonna go through sometimes I cover a lot more than this this is like a condensed version of a four-hour seminar it's being condensed into like this but I'm trying to give you some takeaways that you can go with that'll be hopefully interesting two different ones anthrobots and xenobots are kind of maybe you've heard of them they're really cool you're looking up see lots of cool videos and stuff like that hopefully some of this stuff will be visible here but you can see my t-shirt has one really bright colored one and it's really cool because it turns out when you take
+
+[02:40] these cells and you put them in new conditions like you just cut them off the edge of a frog then they'll start reforming and doing new things that we never saw before in nature and it actually is really a big issue for theories of evolution because these things will just evolve really quickly on their own and and they also take on certain types of mathematical patterns and the rest of it so and one particular thing which is the red and the green here is they'll take on cilial cells which is basically the kind of thing that has like a hair or something like that and they'll start moving around and taking new patterns and like you know basically pursuing their own agentic design independent
+
+[03:14] of any higher order cognition that we normally think of as a brain or whatever else so basically cells are able to self-organize and make things on their own and we're now increasingly able to observe them and put them in novel context and do various stuff. Another really interesting and kind of important anthrobots is the human cells. Xenobots is usually off of frog cells. Morphospace is a really important concept that I'll get into very shortly and then morphogenesis, basal cognition, anatomical homostasis. Hopefully you'll at least get those ones by the end of this talk.
+
+[03:43] I know we don't have that much time. It's interesting it all goes back to this frog experiment back in the day. Someone put electrical current and probably heard of him in a way because this Galvani guy in 1780 basically is a kind of famous person. His name has come down in history, galvanized, if you ever heard that term, etc.
+
+[04:03] But he was like hey look we put a circuit into a frog and the leg kind of jerks you know and why is that and maybe it has something to do with electrical current in the body. Like many of these things there's sort of a hypothesis, a thesis, it kind of comes forward for decades until 1939 and 52 I think is when the Nobel Prize was actually won by Hodgkin and Huxley where they actually showed electrical circuit, voltage, all this stuff happening in the human body and the actual tools that we have to measure it.
+
+[04:33] Which is a pretty important theme in here is that if you don't have the right tools, machines, imaging techniques you can't actually figure out what's going on and the more we can figure out there the more we can do. Another really important person in this history is Darcy Thompson and a lot of this interestingly enough is like basically mathematicians and what's called Michael Levin originally a computationalist, mathematician, person who come into biology and then be like why do we see this math here and what is important about it.
+
+[04:58] Darcy Thompson in particular in his On Growth and Form which has been influential on many many different people observed that there were various morphings of shape that happened in biology that seemed to have mathematical properties and speculate a little bit why that was. Also speculate why we weren't studying them. He noticed it was easier to study things on like crystals and that was kind of what got going first, less so on biology. Why is that?
+
+[05:19] Maybe if we have time we'll go into the actual psychology of it. He had various theories about that too. But nonetheless, this has been an interesting topic. Fast forward a little bit. We get Alan Turing. Alan Turing, the guy who did the Turing test who kind of came up with lambda calculus, other things, also did a lot in this field.
+
+[05:35] Morphogens, chemical basis of morphogenesis and really important paper. A lot of people didn't read it because Alan Turing did so many other important things, you know, and the rest of it. But as you can see, this is the gray scott pattern of diffusion. It's basically origins of like morphogens, that particular term, and effectually the fact that we can have these different diffusion patterns that then cause things like stripes and things like that to happen in nature.
+
+[06:00] Again, sort of like his own side branch of mathematics that loosely has touched into biology. And then we get this guy, Raup. Now Raup, super important for the field. And he's not a biologist really, he's a paleontologist. But he's in the 1960s and he's basically looking at why do we see all these cool shapes in shells, you know?
+
+[06:22] And we see lots of different interesting shellfish or whatever else. And you look at him and it looks kind of mathematical. So he built a first in the 1960s when there were like the first computers ever. He built computational models of what a shell looks. He isolated at three different variables, the world, W, the distance from the coiling axis and the translation rate along the axis.
+
+[06:39] And then this is like a really cool kind of important thing up there. It's cited in the literature over and over again, because basically it's all of these things mapped and then showing exactly where in the archaeological record, I guess, basically the fossil record, these shells actually exist. So we have a wide range of what's possible mathematically, but realistically, we have a certain amount and he kind of extended that. Other people have gone and it's become very important in paleontology, not as much in biology until kind of recently.
+
+[07:06] Now, what's kind of important, though, as we see, and this is a little tiny thing, but hopefully you'll see more later that when we get into certain things and planarians being examples, certain worms or whatever, that we also have this ability to show the different morphology of these things, because certain things and planarians are one example of this where basically you see them growing two heads, you can see them taking new shapes and the rest of things, which is really what is shown here in the lower right hand corner.
+
+[07:32] If you're trying to get a figure of what this is, this is basically showing we actually now have the ability to take certain types of life, cause them to grow multiple heads, grow in the morph in different ways, et cetera, et cetera. So this is very exciting. And we have various tools that allow us to do this. So bioelectricity broadly is this the tool set that we have to understand basically the software layer as it relates to the hardware layer.
+
+[07:54] And, you know, the basic idea here is that there is voltage that is being spread across cells and that the patterns in the voltage are instructing us. This happens through ion channels, gap junctions, if you understand how that works, various type of ions passing.
+
+[08:09] And for the most part, we don't know the details of it. Frankly, we don't know what information is encoded and we don't know how to interact with it, but we know that it exists. One thing that you might have seen, though, that's kind of related is these sort of patterns around neural cellular automata where they're actually able to have information that propagates the system in a decentralized way that allows for the reconstruction of this.
+
+[08:31] So this is also a paper that Michael Levin did. And it's a very active thing, including at the California Institute of Machine Consciousness, where I was just helping with some initiatives there as they were getting going. So very important. I'm going to skip this head just to say that basically a lot of this really, again, come in the instrumentation of like how much density and the rest of it, the things that we were able to capture.
+
+[08:54] And here you see basically very explicitly, these are the new tools of the fluorescent imaging dyes basically that will capture different ions. And before we just had stuff that looked kind of like this basically, which is a little hard to figure out what's going on.
+
+[09:08] But when we look at it now with the new imaging techniques, we can see there's very high density of bioelectric signaling in different parts of the cell tissue. Still don't necessarily know exactly what it means, but we can see when this information and how it's propagating around the various types of tissue types.
+
+[09:23] And we also can see and I was in the into the neurom kind of track this week and after lots of neuroscientists kind of very important that this is happening inside of neurons as well. And that's maybe important for deciphering action potentials and various other things like that, how that interplay works.
+
+[09:40] Again, we know very little. There's only like in our whole database, there's maybe 92 scientists in the world, including all postdocs and graduate students that are actually working on this. So it's still a fairly narrow field. But what you can see that, you know, again, looks very cool is that in early stages like this is a frog embryo.
+
+[09:57] It's got all this electrical signaling patterning going on. And this is like what is going to turn into a face of a frog like this is as the face basically emerges. So these things are moving around. They know something about where they're supposed to be going. They know something about the form.
+
+[10:11] And we're just sort of figuring out at this moment exactly how all that works, which is super exciting. If you like edge science, which I happen to have gotten into full disclosure, I have no background in this. I just thought this was really interesting. I emailed Mike Levin. I was like, hey, can I work and I get started and then plowed into it.
+
+[10:28] And now, you know, I know a little bit, but there's other people who know more. And I'm just trying to bring them all together so we can do more. This is what I referred to before is planarian or planarian flatworms. And basically, you can see what happens.
+
+[10:41] I take them, you cut them in different pieces. And then depending on what you cut is how they'll regrow. So you can slice them different ways than the rest of it or maybe like a hundred years of experiments doing this a lot sort of accelerated a little bit recently.
+
+[10:55] The basics of it are kind of interesting. But now with the imaging, we can see that, you know, when you when you cut them a certain way and then they end up regrowing two heads or something, they'll actually pass off that information generationally. So you'll get, you know, multiple generations down this, you know, two headed planarian, et cetera, different forms.
+
+[11:13] And that this, you know, from everything we know is actually stored in the bioelectric layer. So there's basically an epigenetics that is of bioelectricity. Super cool. And then this is like basically turned into this whole graph grammar of biology. It's an active form of explanation of like how do all of these rewrite rules basically work?
+
+[11:35] You know, there's another thing that I built recently, which is sort of parsing all the databases and structures to see how they can be combined, to see what new morphologies are possible. Again, I already talked about this in the beginning.
+
+[11:47] Now you get to see the kind of actual live version. But we have the anthrobots and xenobots that are basically you put them in novel context and you can't always predict what they're going to do. And this is like the really exciting edge thing as well, saying these new cells and they're like running around and doing their own thing. But, you know, we're seeing this as it says here, these are like never seen before forms of kinematic self-replication. They can combine, they can create new forms and yeah, confound everyone.
+
+[12:15] Similar thing with the anthrobots. You take them often when doing like the tracheal cells. So and then basically you put them in and they'll actually heal wounds inside your body. The little cells that you took out of one part of your body wander around and then they like look around, try to figure out what to do and then they'll actually provide some helpful thing for another part of the body.
+
+[12:31] Very bizarre. No one really knows why it happens but they actually are able to do that. And one of the things that is here in the whole idea that we're going towards, you can see this sort of database level stuff with the graph grammar is that basically we're able and this is the exact morphology. We can basically pass the instructions into the hardware layer, so to speak, so that these things will take on new forms. That's what the compiler means.
+
+[12:58] And then basically we now have the ability to do that for frogs. We basically stick some cells, you know, that on top of a frog and then basically grow a new leg, et cetera, et cetera. So we can basically force that. We don't have the full tool set to do it, but we can effectively stimulate regenerative cell tissue in other species, amphibian species.
+
+[13:17] And there's definitely a lot of people who think, including myself, that we will be able to do this in humans fairly soon. Another like kind of side topic, but biocomputers and the rest of it is that, you know, we are having the ability now to have, you know, in this case the cortical labs is primarily mouse neurons and MEAs and stuff like that.
+
+[13:35] But we have the ability to run sort of arbitrary computation on top of neuronal substrates. The better we can understand the various layers of that, including the bioelectric signaling, the better we can kind of do to optimize that. And it could, you know, turn into a very energy efficient form of computing, among other things. Pretty exciting. Adam Saffron, who is here, he also participated.
+
+[13:56] And we've been working on the connectome harmonics and various things like that about the latent geometric spaces, which is also something that Mike is like really interested in and has produced a whole seminar on just particularly how does the bioelectric layer interact with larger things like geometry, spatial dimensions, et cetera, like that.
+
+[14:15] Very, very active period of research. Hard to kind of get, but working very closely with people like Carl Friston, if you know who that is. And then you can just see here kind of side by side. This is like the same logic, basically, is that we are able to, in various cases, isolate what's happening in the bioelectric signaling layer and then observe it in the hardware layer, so to speak.
+
+[14:36] And that's really where the edge research is right now is figuring out where and how that happens. It's also where a lot of the exciting potential healing applications are. So if you were able to see in the beginning, I don't think you were because of the color contrast, you would see that basically if I'm poking a frog, another one can signal enabling a neighboring frog embryo, and then basically I can actually observe the level of anxiety and stress at the cellular level.
+
+[15:00] Which is a pretty big deal if you can actually figure out how much stress there is in the body at any given time at a very fine-grained thing and sort of adjust accordingly. And then really cool stuff also happening is these sort of AI robot scientists.
+
+[15:14] So if anyone's seeing, there's a fair number of this, but this is the specific sort of Levin Lab version, which is cooperation with the University of Vermont. And this is called MomBot, and basically it has the ability to modulate temperature, vibration, other types of morphogens.
+
+[15:30] And then basically it pulls up and some versions of this actually pulls up into the same knowledge graph infrastructure that then allows you to kind of design with an AI robot friend, basically the next set of experiments to kind of automate the discovery process.
+
+[15:44] So to really get full level discovery, we want to really, really seriously scale this up. So we have more of these. As I mentioned, there's like nine labs working on this in the world right now. And generally I'm in sort of touch with all of them.
+
+[15:58] And part of what my job is doing along with Mike is basically providing community wiki research aggregation platform, bringing all the different people together, connecting people, the whole, you know, nine yards that, you know, Mike to a degree has tasked me with.
+
+[16:12] And also kind of pulling together the very set here, but it's kind of going into what is a platonic space. Maybe that's a charge word for some people, but nonetheless, where do these forms live? How do they get turned into physical bodies? And how does that interplay work?
+
+[16:30] Is there a bi-directional communication method? How much information can be transferred crosswords? How reliable is that? All that stuff is very active exploration at the moment. And then here's the sort of knowledge graph that is inside of our platform.
+
+[16:42] This is usually just made to sort of available to people who are part of our ecosystem or whatever else. But there's maybe seven different companies that have broken up around $22 million that's been raised from those companies collectively.
+
+[16:54] You know, a certain number of patents and IP that have been done around very specific applications. And so we're very carefully tracking all of that. We're connecting people who are, you know, investors into good deals. We're kind of basically validating various types of IP that are created across the different labs and also help doing some team building.
+
+[17:10] So that's pretty exciting because I personally and one thing in particular I call out is Therastel Labs. So the oncology and the cancer related stuff, very significant because if cancer is a fundamentally a lack of cellular communication, then if we can reignite the communication via bioelectric signaling, then potentially cancer can be solved at the origin level, not necessarily downstream after it's kind of become a tumor.
+
+[17:36] So very, very significant kind of type of things that are happening there. And, yeah, often I just end things with, well, with Mike talking. But I'll just sort of recap what Mike says because we don't have a lot of time. And basically, you know, he says basically I had to look at a lot of old books and libraries and do a lot of discovery.
+
+[17:56] But Mike has been one of the most best people I've ever had to work with because I think he embodies a certain set of virtues that I would call humility, curiosity, and perseverance. He's just a very curious person, always looking, very diligent in his pursuit of things, whatever it is.
+
+[18:12] And, you know, looking at the really hard evidence, which, you know, he's interested in biofields and psychic power, all these things people have been talking about forever. But, you know, this is the real hard science version of all that that we can actually observe in a lab and actually have documented.
+
+[18:24] And sort of finally here effectively to all the other stuff that's out there. But there's a lot of information. I'm only covering like a small fraction of all the stuff that's been discovered recently. And that's why I do these four-hour seminars.
+
+[18:39] That's why we kind of try to pull together all the different people who are working on these things because there's, you know, a lot to do. And so we invite more people who take interest to pick off a slice, you know, get connected to a lab, whatever your unique talent is, because, yeah, it's just exciting new space.
+
+[18:56] And, yeah, thanks everyone. Round of applause. Thank you so much, Joel, for summarizing such an incredibly interesting topic that normally takes you four-plus hours to explain in 25 minutes. That's very impressive. And the token count on your speeches.
+
+[19:19] We have about four minutes for questions. Does anyone have anything they'd like to ask? This is one of the most right now, and we have someone who knows a lot about it. So I'm curious if anyone has, you know, everyone understood everything.
+
+[19:33] Oh, yeah. Here we go. What's the leading explanation for the gastropod shells staying in such a small slice of morphospace? Are there mathematical invariants in them? Is it like, is it like a basin that it's hard to evolve out of? I mean, anything like that?
+
+[19:47] I think that's in, like, Raup's later work, and I have only read his earlier work, basically, because there's various sectors. But I think, basically, there is some empirical bounds, and then particularly when it comes to evolutionary pathways, there is some, you know, version of something that gets caught in a particular geographic location, and then they sort of evolve out of that.
+
+[20:11] So that's also something that's, like, loosely trackable in the fossil record. Hi. Thanks for your talk. It was amazing. Two examples, Tandy, of how this science is being applied and that we can use in our lives somewhere, whether it's in my body or in an industry or anything.
+
+[20:41] And I'm asking this question absolutely not as an indict about the potential of the science. I'm just really curious if it's coming, if it's coming out of the lab and into our, into our world like right now. Yeah, I think a lot of people, and this is both a good thing and a bad thing, maybe doing, like, biofield, chi, all these other things now see this as validation for their idea, including some intelligent design people and the rest of it.
+
+[21:07] And it's exciting in a way that we can actually show teleology in nature, and there is a lot of important things about teleology in the history of that. But the danger of it is people will be, you know, over, jump the gun, basically, beyond the scientific research of that.
+
+[21:23] But we can show, for example, these electrical signaling pathing crossing from bodies that are not directly touching each other. So at the same time, there is a real science of this that's emerging. And yeah, so I think that's very significant for people who've been sort of skeptical.
+
+[21:38] And same thing within the labs. I mean, with the, you know, materialist, like, basically, Levin says, like, physicalism as a governing philosophy, which is to some degree being governing us since the last, you know, century or something like that.
+
+[21:50] It's kind of done. A lot of the Darwinian stuff is kind of done with this research because you can see live evolutionary dynamics that are vastly outpacing what we know from classical Darwinianism. Yeah, Joel. I was going to ask if anybody's begun to verify or connect up any connection between human awareness and control of the biofield or bioelectricity.
+
+[22:15] Like, is that what's going on with Qigong to the extent that that's real? Because really, the human animal ought to have some kind of rapport with the bioelectricity that maybe even lower animals don't, who can't really channel their awareness.
+
+[22:28] Is there anything coming out verified? And if there's not, I'd love to hear you speculate. Yeah, I mean, we had a whole latent platonic spaces seminar. I was just chatting with Mike and Carl Friston about this in it. The last one, you know, about synchronization manifolds and the synchronization particularly through dance and the mathematics of that.
+
+[22:44] It's something people are very interested in. And I think it's one of the huge growth areas where we can actually potentially solve these things. But the moment, for the most part, it's more in a speculative category that I think will become scientific, but some of these things maybe is like the next decade, let's say.
+
+[23:01] Amazing. Thank you so much, Joel. Round of applause, please. All right. Next up, we'll get started with the demo day. I think it's about… … … … … … … … … … … … …
+
+[23:31] …

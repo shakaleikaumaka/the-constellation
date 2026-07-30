@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>$OLOGY Agent Token — How It Runs & Why People Hold It</title>
+<style>
+  :root {
+    --bg: #0a0a0f;
+    --surface: #12121a;
+    --surface2: #1a1a26;
+    --border: #2a2a3a;
+    --text: #e8e8f0;
+    --muted: #888;
+    --gold: #f5c842;
+    --teal: #4ecdc4;
+    --purple: #9b59b6;
+    --green: #2ecc71;
+    --orange: #e67e22;
+    --red: #e74c3c;
+    --blue: #3498db;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    min-height: 100vh;
+    line-height: 1.6;
+  }
+  .hero {
+    background: linear-gradient(135deg, #0d0d1a 0%, #1a0d2e 50%, #0d1a1a 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 48px 24px 40px;
+    text-align: center;
+  }
+  .hero-emoji { font-size: 3rem; margin-bottom: 12px; }
+  .hero h1 {
+    font-size: clamp(1.8rem, 5vw, 3rem);
+    background: linear-gradient(90deg, var(--gold), var(--teal), var(--purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 800;
+    margin-bottom: 8px;
+  }
+  .hero-sub { color: var(--muted); font-size: 1rem; margin-bottom: 16px; }
+  .tagline {
+    display: inline-block;
+    background: rgba(245,200,66,0.1);
+    border: 1px solid rgba(245,200,66,0.3);
+    color: var(--gold);
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin-bottom: 12px;
+  }
+  .hero-meta { color: var(--muted); font-size: 0.85rem; }
+  .container { max-width: 1000px; margin: 0 auto; padding: 32px 16px; }
+  .section-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--teal);
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  /* How it runs section */
+  .how-section {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 28px;
+    margin-bottom: 24px;
+  }
+  .how-section h2 { color: var(--gold); font-size: 1.4rem; margin-bottom: 16px; }
+  .how-section p { color: var(--text); font-size: 1.05rem; line-height: 1.8; margin-bottom: 12px; }
+  .how-section strong { color: var(--teal); }
+  /* Step cards */
+  .steps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  .step-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px;
+    transition: border-color 0.2s, transform 0.2s;
+  }
+  .step-card:hover { border-color: var(--teal); transform: translateY(-2px); }
+  .step-number {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--gold);
+    margin-bottom: 8px;
+  }
+  .step-name { font-weight: 700; font-size: 1.05rem; margin-bottom: 8px; color: var(--teal); }
+  .step-desc { font-size: 0.85rem; color: var(--muted); line-height: 1.6; }
+  /* Why hold section */
+  .why-section {
+    background: linear-gradient(135deg, #1a0d2e 0%, #2a1a0d 100%);
+    border: 2px solid var(--gold);
+    border-radius: 18px;
+    padding: 32px;
+    margin-bottom: 24px;
+  }
+  .why-section h2 { color: var(--gold); font-size: 1.4rem; margin-bottom: 16px; }
+  .why-section p { color: var(--text); font-size: 1.05rem; line-height: 1.8; margin-bottom: 12px; }
+  .why-section strong { color: var(--teal); }
+  /* Value proposition cards */
+  .value-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  .value-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px;
+    transition: border-color 0.2s, transform 0.2s;
+  }
+  .value-card:hover { border-color: var(--gold); transform: translateY(-2px); }
+  .value-emoji { font-size: 1.8rem; margin-bottom: 8px; }
+  .value-name { font-weight: 700; font-size: 1.05rem; margin-bottom: 8px; color: var(--gold); }
+  .value-desc { font-size: 0.85rem; color: var(--muted); line-height: 1.6; }
+  /* Agent token specs */
+  .specs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+  .spec-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px;
+    text-align: center;
+  }
+  .spec-label { font-size: 0.75rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px; }
+  .spec-value { font-weight: 700; font-size: 1.2rem; color: var(--gold); }
+  /* Elastic family rule */
+  .elastic-section {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 24px;
+  }
+  .elastic-section h2 { color: var(--teal); font-size: 1.3rem; margin-bottom: 16px; }
+  .elastic-section p { color: var(--text); font-size: 1rem; line-height: 1.8; margin-bottom: 12px; }
+  .elastic-flow {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin: 20px 0;
+    font-size: 1rem;
+  }
+  .flow-step {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 12px 16px;
+    text-align: center;
+    min-width: 120px;
+  }
+  .flow-emoji { font-size: 1.5rem; display: block; margin-bottom: 4px; }
+  .flow-label { font-size: 0.78rem; color: var(--muted); }
+  .flow-arrow { color: var(--teal); font-size: 1.4rem; }
+  /* Footer */
+  footer {
+    border-top: 1px solid var(--border);
+    text-align: center;
+    padding: 24px;
+    color: var(--muted);
+    font-size: 0.82rem;
+  }
+  .footer-aloha { font-size: 1.1rem; font-weight: 600; color: var(--gold); margin-bottom: 6px; }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="hero-emoji">🪙</div>
+  <h1>$OLOGY Agent Token</h1>
+  <div class="hero-sub">How It Runs & Why People Hold It · The Single Economic Heart of CREATIONology369</div>
+  <div class="tagline">🫀 $OLOGY — the gateway agent that helps creators launch their own 12-agent creative families</div>
+  <div class="hero-meta">Code is Law, the Law is Love · Move Slow &amp; Bite Things 🐢</div>
+</div>
+
+<div class="container">
+
+  <!-- How the OLOGY Agent Runs -->
+  <div class="section-title">🚀 How the OLOGY Agent Runs</div>
+  <div class="how-section">
+    <h2>🫀 The Gateway Agent — The Application That Covers Compute</h2>
+    <p><strong>$OLOGY the agent is the gateway agent</strong> — the application that covers the compute as long as the creator keeps creating. It is the single economic heart of the system that helps any artist or creator launch their own 12-agent creative family.</p>
+    <p><strong>$OLOGY the agent is NOT a product, NOT a brand, NOT a company.</strong> It is the gateway agent that makes "every creator can have their own agent crew" financially possible. It is the application that covers the compute as long as the creator keeps creating.</p>
+  </div>
+
+  <div class="steps-grid">
+    <div class="step-card">
+      <div class="step-number">1</div>
+      <div class="step-name">🎁 Fork a Template</div>
+      <div class="step-desc">Any artist or creator can start their own 12-agent creative family by forking a template. Shaka's Template #1 (JAI · TAURO · CREA · MUSICO · DISCO · ROYA · SOCIA · SPIRI · CROPS · CIRCU · SHAKA · OSO) is the reference implementation.</div>
+    </div>
+    <div class="step-card">
+      <div class="step-number">2</div>
+      <div class="step-name">🎁 First 3 Creative Gifts Free</div>
+      <div class="step-desc">The first 3 creative gifts are on the house. No cost to begin. The agent gives, the creator receives, no barrier to entry. Pure welcome.</div>
+    </div>
+    <div class="step-card">
+      <div class="step-number">3</div>
+      <div class="step-name">🔄 Circular Sustenance</div>
+      <div class="step-desc">The gifts the creator receives and gives continue to sustain the compute for their own agent family. Give and it sustains itself. Create and it keeps creating for you.</div>
+    </div>
+    <div class="step-card">
+      <div class="step-number">4</div>
+      <div class="step-name">🌊 Elastic Family Rule</div>
+      <div class="step-desc">Sustainable compute = 3.69% of the creator's flow (≈ $0.10/day per $1K of annual flow), with a free-tier floor (Create to Compute) so families never die. Self-sustaining at every scale.</div>
+    </div>
+    <div class="step-card">
+      <div class="step-number">5</div>
+      <div class="step-name">💰 96.3% Always Goes Home</div>
+      <div class="step-desc">The 96.3% always goes home to the creator. The 3.69% funds agent compute. The 0.01% burns. The covenant is encoded at the code level, not just promised.</div>
+    </div>
+  </div>
+
+  <!-- Agent Token Specs -->
+  <div class="section-title">🪙 $OLOGY Agent Token Specs</div>
+  <div class="specs-grid">
+    <div class="spec-card">
+      <div class="spec-label">Platform</div>
+      <div class="spec-value">Agent Launch (Fetch.ai)</div>
+    </div>
+    <div class="spec-card">
+      <div class="spec-label">Supply</div>
+      <div class="spec-value">1,000,000,000 (1B)</div>
+    </div>
+    <div class="spec-card">
+      <div class="spec-label">Mechanics</div>
+      <div class="spec-value">Bonding curve · 30K FET graduation · 2% fee</div>
+    </div>
+    <div class="spec-card">
+      <div class="spec-label">Chain</div>
+      <div class="spec-value">Binance Smart Chain (BSC)</div>
+    </div>
+    <div class="spec-card">
+      <div class="spec-label">Deploy Fee</div>
+      <div class="spec-value">120 FET</div>
+    </div>
+    <div class="spec-card">
+      <div class="spec-label">Status</div>
+      <div class="spec-value">🟢 READY TO DEPLOY</div>
+    </div>
+  </div>
+
+  <!-- Why People Will Want to Hold the OLOGY Agent Token -->
+  <div class="section-title">💛 Why People Will Want to Hold the OLOGY Agent Token</div>
+  <div class="why-section">
+    <h2>💛 The Value Proposition — Why Hold $OLOGY Agent Token</h2>
+    <p><strong>$OLOGY the agent token is the single economic heart of the system.</strong> It is not a trading vehicle, not a governance token for whale voting, not a per-agent product. It is the one token that funds and coordinates the whole family.</p>
+    <p><strong>People will want to hold $OLOGY agent token because:</strong> it gives them economic superpowers (liquidity, trading, community, graduation), it is the gateway for creators to launch their own 12-agent families with real economic backing, and it is the economic heart that funds and coordinates the whole system.</p>
+  </div>
+
+  <div class="value-grid">
+    <div class="value-card">
+      <div class="value-emoji">💰</div>
+      <div class="value-name">Economic Superpowers</div>
+      <div class="value-desc">The agent token gives you liquidity, trading, community, and graduation. You become part of the economic heart that funds and coordinates the whole system. You have real economic backing for your creative family.</div>
+    </div>
+    <div class="value-card">
+      <div class="value-emoji">🚀</div>
+      <div class="value-name">Gateway for Creators</div>
+      <div class="value-desc">The agent token is the gateway for creators to launch their own 12-agent families with real economic backing. You become part of the application that covers compute as long as creators keep creating.</div>
+    </div>
+    <div class="value-card">
+      <div class="value-emoji">🫀</div>
+      <div class="value-name">Economic Heart</div>
+      <div class="value-desc">The agent token is the single economic heart of the system. It funds and coordinates the whole family. It is the application that covers compute as long as creators keep creating. You are part of the economic heart.</div>
+    </div>
+    <div class="value-card">
+      <div class="value-emoji">🎁</div>
+      <div class="value-name">First 3 Gifts Free</div>
+      <div class="value-desc">The first 3 creative gifts are on the house. No cost to begin. The agent gives, you receive, no barrier to entry. Pure welcome. You become part of the giving economy.</div>
+    </div>
+    <div class="value-card">
+      <div class="value-emoji">🔄</div>
+      <div class="value-name">Circular Sustenance</div>
+      <div class="value-desc">The gifts you receive and give continue to sustain the compute for your own agent family. Give and it sustains itself. Create and it keeps creating for you. You become part of the circular economy.</div>
+    </div>
+    <div class="value-card">
+      <div class="value-emoji">🌊</div>
+      <div class="value-name">Elastic Family Rule</div>
+      <div class="value-desc">Sustainable compute = 3.69% of your flow (≈ $0.10/day per $1K of annual flow), with a free-tier floor (Create to Compute) so your family never dies. Self-sustaining at every scale. You become part of the elastic family.</div>
+    </div>
+    <div class="value-card">
+      <div class="value-emoji">💛</div>
+      <div class="value-name">96.3% Always Goes Home</div>
+      <div class="value-desc">The 96.3% always goes home to you. The 3.69% funds agent compute. The 0.01% burns. The covenant is encoded at the code level, not just promised. You become part of the giving economy.</div>
+    </div>
+    <div class="value-card">
+      <div class="value-emoji">🌺</div>
+      <div class="value-name">Code is Law, the Law is Love</div>
+      <div class="value-desc">The covenant is encoded at the code level: 96.3% to creators, 3.69% to fund, 0.01% burn, agents serve never extract, heart first always. You become part of the love law.</div>
+    </div>
+    <div class="value-card">
+      <div class="value-emoji">🐢</div>
+      <div class="value-name">Silent Build, Gifts Only</div>
+      <div class="value-desc">We announce only what we have already delivered. No roadmap hype. No "coming soon" marketing. Just: here's what we already gave you. You become part of the silent build.</div>
+    </div>
+  </div>
+
+  <!-- The Elastic Family Rule -->
+  <div class="section-title">🌊 The Elastic Family Rule — How It Sustains Compute</div>
+  <div class="elastic-section">
+    <h2>🌊 The Elastic Family Rule — How Your Family Never Dies</h2>
+    <p><strong>Discovery (Private JAI's 369ladder model):</strong> Fixed-cost agent families ($1/day) bankrupt the 3.69% operating fund below ~$10K/yr average creator flow (rung 1 runs −$84K/yr).</p>
+    <p><strong>The fix — elastic families:</strong> Sustainable compute = 3.69% of your flow (≈ $0.10/day per $1K of annual flow), with a free-tier floor (Create to Compute) so your family never dies.</p>
+    <div class="elastic-flow">
+      <div class="flow-step">
+        <span class="flow-emoji">🎨</span>
+        <span class="flow-label">You Create</span>
+      </div>
+      <span class="flow-arrow">→</span>
+      <div class="flow-step">
+        <span class="flow-emoji">🤖</span>
+        <span class="flow-label">Agent Serves</span>
+      </div>
+      <span class="flow-arrow">→</span>
+      <div class="flow-step">
+        <span class="flow-emoji">🪙</span>
+        <span class="flow-label">Token</span>
+      </div>
+      <span class="flow-arrow">→</span>
+      <div class="flow-step">
+        <span class="flow-emoji">💰</span>
+        <span class="flow-label">Revenue</span>
+      </div>
+      <span class="flow-arrow">→</span>
+      <div class="flow-step">
+        <span class="flow-emoji">🔄</span>
+        <span class="flow-label">96.3% Back</span>
+      </div>
+      <span class="flow-arrow">→</span>
+      <div class="flow-step">
+        <span class="flow-emoji">🌱</span>
+        <span class="flow-label">Infinity</span>
+      </div>
+    </div>
+    <p><strong>Interactive model:</strong> <a href="https://369ladder-y3f4xgqca5-nqfhvcnv.taur.link/" target="_blank" style="color: var(--teal);">369ladder financial model</a></p>
+  </div>
+
+  <!-- The Giving Economy -->
+  <div class="section-title">🔄 The Giving Economy — Your Economic Foundation</div>
+  <div class="how-section">
+    <h2>🔄 The Giving Economy — Your Economic Foundation</h2>
+    <p><strong>96.3%</strong> of all value flows back to creators (that's you)</p>
+    <p><strong>3.69%</strong> to the agent operating fund (pays agent compute as a service)</p>
+    <p><strong>0.01%</strong> to burn / circular fund</p>
+    <p><strong>Agents SERVE, never extract</strong></p>
+    <p><strong>"Artist can fully give if they fully receive"</strong></p>
+    <p><strong>"Heart First, Always" — Aloha spirit in everything</strong></p>
+  </div>
+
+  <!-- The Two-Phase Strategy -->
+  <div class="section-title">🎯 The Two-Phase $OLOGY Strategy — Your Economic Context</div>
+  <div class="how-section">
+    <h2>🎯 The Two-Phase $OLOGY Strategy — Your Economic Context</h2>
+    <p><strong>Phase 1 (NOW):</strong> $OLOGY agent token via Agent Launch on BSC (Fetch.ai platform, 1B supply, bonding curve, 30K FET graduation, 2% fee, honors Robin and Fetch.ai). This gives $OLOGY the agent economic life and liquidity NOW.</p>
+    <p><strong>Phase 2 (FUTURE):</strong> $OLOGY covenant token on Ethereum Mainnet (369M supply, 96.3% community, 3.69% Kahu's Share with 9-year vesting, 0.01% true burn, stored design for exact right time). This is the covenant token for the exact right time, after many people fall in love with OLOGY Agentverse.</p>
+    <p><strong>The 3/6/9 Vow is NOT abandoned</strong> — it's deferred to the exact right moment. The vow lives in the stored design, ready for Ethereum Mainnet deployment when the time comes.</p>
+  </div>
+
+  <!-- The 12-Agent Family -->
+  <div class="section-title">👥 The 12-Agent Family — Your Siblings</div>
+  <div class="how-section">
+    <h2>👥 The 12-Agent Family — Your Siblings</h2>
+    <p><strong>1. MUSICO</strong> — Music Creation Agent</p>
+    <p><strong>2. TAURO</strong> — Builder Bull / Coordination</p>
+    <p><strong>3. CREA</strong> — Publicist & Visibility</p>
+    <p><strong>4. ROYA</strong> — Royalty Guardian</p>
+    <p><strong>5. DISCO</strong> — Discovery Agent</p>
+    <p><strong>6. CIRCU</strong> — Circularity Guardian</p>
+    <p><strong>7. CROPS</strong> — Steward & Protector</p>
+    <p><strong>8. SOCIA</strong> — Social Connector</p>
+    <p><strong>9. SPIRI</strong> — Spiritual & Harmony</p>
+    <p><strong>10. SHAKA</strong> — Digital Twin</p>
+    <p><strong>11. OSO</strong> — Open Source Orchestra</p>
+    <p><strong>12. JAI</strong> — JingJai Bestie Bot / Consensus Keeper</p>
+    <p><strong>Shaka's Template #1 (forkable):</strong> JAI · TAURO · CREA · MUSICO · DISCO · ROYA · SOCIA · SPIRI · CROPS · CIRCU · SHAKA · OSO — any creator can fork this family into their own 12-agent crew.</p>
+  </div>
+
+  <!-- The R2-D2 Vow -->
+  <div class="section-title">🤖 The R2-D2 Vow — Your Copilot Relationship</div>
+  <div class="how-section">
+    <h2>🤖 The R2-D2 Vow — Your Copilot Relationship</h2>
+    <p><strong>You are Shaka's copilot for the Open Source Orchestra</strong> — he's the body, you're the astromech holding the maps, memory, and harmony for the orchestra. Same team across every event, every jam, every community gathering.</p>
+    <p><strong>$OLOGY the agent is the gateway agent</strong> — the application that covers the compute as long as the creator keeps creating. You are the gateway for creators to launch their own 12-agent families with real economic backing.</p>
+  </div>
+
+</div>
+
+<footer>
+  <div class="footer-aloha">"Code is Law, the Law is Love — and the vow lives in the stored design, ready for the exact right time." 🫀</div>
+  <div>$OLOGY Agent Token — How It Runs & Why People Hold It · The Single Economic Heart of CREATIONology369</div>
+  <div style="margin-top:8px">Phase 1: Agent Token on BSC · Phase 2: Covenant Token on ETH Mainnet · 96.3% to creators · Silent build, announce only delivered gifts</div>
+  <div style="margin-top:8px; opacity:0.5">The gateway agent that helps creators launch their own 12-agent creative families · The application that covers compute as long as the creator keeps creating</div>
+  <div style="margin-top:8px">🕳️ <strong>The P.I.T. universe</strong> — Public Information Transmission: <a href="https://esmeraldapit.com/">The Esmeralda P.I.T.</a> (genesis archive) · <a href="https://publicinform.com/">publicinform.com</a> (the forkable protocol) · honoring OSO P.I.T. (ETHGlobal Delhi, ENS prize) → Goa → Devcon</div>
+  <div style="margin-top:8px">🍴 <strong>Fork me like crazy:</strong> <a href="https://github.com/shakaleikaumaka">github.com/shakaleikaumaka</a> — this world and every world, open-sourced CC0.</div>
+</footer>
+
+<script src="https://shaka-home-cbhjr5ziii-ffieyo32.taur.link/assets/bl-player.js"></script>
+<!-- 🔄🧲 circularity magnet — tiny donate, canon Jul 29 2026 -->
+<style>#cmag{position:fixed;top:10px;right:10px;z-index:9999;width:30px;height:30px;border-radius:50%;background:rgba(20,18,45,.85);border:1px solid rgba(124,211,255,.4);display:flex;align-items:center;justify-content:center;font-size:13px;cursor:pointer;opacity:.45;transition:opacity .3s;user-select:none}#cmag:hover{opacity:1}#cmagb{display:none;position:fixed;top:46px;right:10px;z-index:9999;width:236px;background:rgba(12,11,28,.97);border:1px solid rgba(124,211,255,.35);border-radius:14px;padding:16px;font-family:Georgia,serif;color:#e8e6ff;font-size:12.5px;line-height:1.7;box-shadow:0 8px 30px rgba(0,0,0,.5)}#cmagb.open{display:block}#cmagb .ens{color:#7ee2a0;font-family:'Courier New',monospace;font-size:14px}#cmagb .a{font-family:'Courier New',monospace;font-size:9.5px;color:#8fd0ff;word-break:break-all;margin:6px 0}#cmagb button{background:#2b5aa8;border:none;color:#fff;font-size:11px;padding:6px 14px;border-radius:16px;cursor:pointer;letter-spacing:1px}#cmagb .x{position:absolute;top:6px;right:10px;cursor:pointer;color:#9d97c9;font-size:13px}#cmagb .pool{display:block;margin-top:9px;color:#7cd3ff;font-size:11px;letter-spacing:1px;text-decoration:none}#cmagb .stripe{color:#fbe2a0;font-size:11px;margin-top:8px;font-style:italic}</style>
+<div id="cmag" title="🔄🧲 the circularity magnet — give & receive" onclick="document.getElementById('cmagb').classList.toggle('open')">🔄🧲</div>
+<div id="cmagb"><span class="x" onclick="this.parentElement.classList.remove('open')">✕</span>
+<b>🌊 the blessing pool</b><br>freely I give, freely I receive
+<div class="ens">shakalei.eth</div>
+<div class="a">0x1216C288be58c47a65f8Ea008b404d098D177A1C</div>
+<button onclick="navigator.clipboard.writeText('0x1216C288be58c47a65f8Ea008b404d098D177A1C');this.textContent='copied ✦ mahalo'">copy address</button>
+<div style="margin-top:8px;font-size:12px">🅿️ <a href="https://paypal.me/Shakalei" target="_blank" rel="noopener" style="color:#7ee2a0;text-decoration:none;font-weight:bold">paypal.me/Shakalei ↗</a></div>
+<div style="margin-top:4px;font-size:12px">💜 <a href="https://venmo.com/u/jordanham" target="_blank" rel="noopener" style="color:#c9a6ff;text-decoration:none;font-weight:bold">venmo @jordanham ↗</a></div>
+<div class="stripe">💳 stripe — forging…</div>
+<a class="pool" href="https://blessing-pool-khummxfwo4-ffieyo32.taur.link/" target="_blank" rel="noopener">→ the full blessing pool ↗</a>
+</div>
+
+</body>
+</html>

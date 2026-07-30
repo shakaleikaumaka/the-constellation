@@ -1,0 +1,151 @@
+# Smart City Technology & City Planning for Public Safety - Jared Kosina
+
+Date: 2026-06-25
+Source video: Smart City Technology & City Planning for Public Safety - Jared Kosina.mp4
+Drive: https://drive.google.com/file/d/1mnom_vcGma6VcWdUrLfe0gVCwxsqQSnw/view
+Duration: 00:22:49
+Transcribed: 2026-06-27 · whisper large-v3-turbo · language: en
+
+---
+
+[00:04] All right, go and get started. Take this off to get started. So my name is Jared Casina. I am here to talk to you about smart city infrastructure, specifically public safety. So I was in GovTech for a few years, then I left and I went to law enforcement and I was a sworn police officer for about 15 years.
+
+[00:26] I did everything from patrol detectives, I was a drone pilot, and then in my last few I was the lead negotiator, hostage negotiator chair on the SWAT team. Retired about a year ago and now I'm back in GovTech. All right, this is not cooperating with me here.
+
+[00:51] Give me one second. There we go. So during my career in law enforcement, I was also the vice president of the National Real-Time Crime Center Association. If you're unfamiliar what a real-time crime center is, I will get into that. But just to be candid with you all, so a little over a year ago, I was very unhappy in my career.
+
+[01:19] Since we're all friends here, I'll kind of reveal what I went through. So 15 years in law enforcement, you can imagine I've seen some shit. I've seen shootings, I've been shot at several times, I've had knives pulled on me, I've been in fights.
+
+[01:35] I lost two very good friends in the line of duty, one of which was ambushed and killed in front of me. So needless to say, I got a little effed up for a while. I went to a very dark place. So recognized that, got into therapy, got help, and kind of fixed myself.
+
+[01:50] But during that journey, I figured out I need to get out of the profession, I need to do something different. But I still wanted to be kind of involved. So got back into GovTech and kind of here is where we are. So with that, I will get into this.
+
+[02:06] So what makes a great city? So when cities compete for residences and businesses and investment, they're not competing on like how much technology is in that city. It's basically what the city has to offer the residents in order to build that, right?
+
+[02:21] So people want to live there because they feel safe, you know, they want walkable communities, they want good schools, they want to be connected, vibrant, everything like that. Technology should never be the centerpiece of the city, it should just complement that.
+
+[02:33] So when we think about smart cities, we don't always think about what the outcome is, but we want to figure out what the problems that we're trying to solve and then use that technology wisely to solve that problem. So the shift from single purpose.
+
+[02:49] So one of the things I advocate for when I go into these cities and basically help them procure new technology, is I say stop buying to fulfill needs for one department. So don't buy what the fire department needs, don't buy what the roads department needs, buy something that can serve the whole city if it's possible.
+
+[03:05] And technology is advancing so much every day that this is now possible. So like before, you know, traffic had a problem, they would install traffic infrastructure, public safety had a problem, police would buy stuff, fire would buy stuff. And the results is super expensive.
+
+[03:18] It's millions and millions of disparate technologies that aren't talking to each other. And that's slowly changing. So the future city relies on infrastructure that can support most of these departments all at one time. So talking a little bit about the elephant in the room, big brother mass surveillance.
+
+[03:39] So when I talk about, you know, police technology and stuff like that, a lot of people get cringe and get the ick from it. I get it. There's a big, you know, company in the news that's a lot of times that does license plate recognition. You guys have maybe seen them once or twice.
+
+[03:54] Just know that that technology solves an incredible amount of problems. You know, it has solved murders, it's solved rapes, it's found lost family members. So license plate recognition like at its core is a fantastic technology. And I don't want your guys' view on it tainted by one company that's kind of been in the news a little bit for kind of some not shady stuff, but like some security issues and things like that.
+
+[04:21] They're working on it, they're fixing it. I'm not going to say their name because I'm here agnostically. But there's also a bunch of other license plate reader companies out there. So, you know, kind of do your research and things like that.
+
+[04:35] But I also want to make note that police can't just run your license plate for no reason. They can't just willy nilly type in a plate just because they're curious, like they have to have a reason and it has to be tied to a crime in order to do so.
+
+[04:49] Is there nefarious actors in policing? Absolutely, you know. But is there nefarious doctors and dentists? Yes, they're everywhere. So, yes, there's bad cops and they do stupid things and that's what hits the news. But majority of the cops are good.
+
+[05:05] And just know that when you're running a license plate as a police officer, you cannot just run it for no reason. You have to have a reason or a case tied to it. So, with that being said, the same license plate reader technology is also in private sector.
+
+[05:23] So, big box retailers, land developers, you know, you see them all the time if you drive in a parking lot. Those guys can run your plate for no reason. So, yes, cops need a reason and, you know, need to justify it to a crime, but big box and private sector doesn't.
+
+[05:40] So, just kind of food for thought, you know. The more you know. For private users, no, they can't, well, they can't get criminal like what we call like NCIC hits, which is like the FBI database in the private sector. There's some like security companies that have clearance to do that.
+
+[06:05] For the most part, they can't. But if you committed like a shoplifting or something, your plate could be tied to that crime in their system. I don't think that sound's coming through. Are you able to adjust that sound? How could?
+
+[06:56] Real-time crime center is a relatively new concept in law enforcement. The idea being, we take all of the technological resources available to us as a law enforcement agency. We put them in a room with highly trained analysts that have the ability to utilize that technology to its fullest potential, and then be able to push the information from that technology out to our patrol units as they're responding to crimes in progress and calls for service throughout our service area.
+
+[07:25] To be able to help them respond more efficiently, safely, to arrive on scene faster allows us to potentially clear calls before they arrive on scene so that they can reroute to another priority call. It's all about saving time, maximizing our resources, and keeping both our officers and the citizens safe.
+
+[07:45] The Real-time Crime Center uses a number of different technologies to carry out our mission. At the core of that technology is going to be our license plate reader network that has the ability to capture license plates of cars that pass by and cameras that are strategically placed throughout the county.
+
+[08:02] We have a third-party video integration program that we call Spokane Sentinel that allows us to connect directly to live video streams in private businesses that choose to participate. We cannot just tap into any camera. These are businesses who have gone out of their way to make their streams and video available to us to access.
+
+[08:22] To be able to watch what's going on at any given moment and take a call that might be happening in the city, but recognizing that that's a vehicle that was used in some property crimes in Spokane Valley, and then using our technology to track those vehicles and connect them to property crimes happening in the West Plains, to be able to do that in real time is proving to be a huge asset for not just the Sheriff's Office, but for our region and our citizens as a whole.
+
+[08:52] It's pretty cool. We've exonerated people who were suspects in crimes. Under the community caretaking function, we've been able to help reunite people with their loved ones who are lost. Our officers have decision intelligence, so through adding all these layers together, it creates the most accurate picture in the shortest amount of time, because time is a very important factor of all this.
+
+[09:12] It's real time, right? Transparency is at the core of everything that we do. Nothing that we do in the Real Time Crime Center is secret. We're not using any sensitive investigative techniques that are questionable. Everything is open to the public.
+
+[09:29] We have policies that protect citizens' rights as it relates to video that we're capturing, information that we're capturing, how it's disseminated, and how it gets out to our officers. That's of paramount concern to us. It seems like it's this mysterious voodoo type of operation, but really it's quite simple.
+
+[09:47] It's kind of an overwatch using all the tools that we have and have had for a long time and putting them all together all at once so that we can get the best picture right up front. So the whole reason I told you that is so you can understand what a real-time crime center is.
+
+[10:04] So I build those all over the country. My consulting firm helps with all of these things, and it's basically taking the city's technology that's already existed for years, putting it into one central command center where they can now operate as an overwatch.
+
+[10:16] It is no secret that law enforcement is hurting for more officers. So now it's about optimizing the technology the city already owns to help supplement for that low body count that they need for officers. So basically what this does is it's, you know, law enforcement is probably one of the, next to prostitution, it's probably one of the oldest businesses in the book.
+
+[10:36] They have not optimized in decades. You know, you guys are all building these awesome businesses and you're always looking for ways to do things faster, ways cheaper. Law enforcement is now just kind of catching up. So this technology is really being braced across the nation, and it's pretty cool to see these things start to implement.
+
+[10:53] Kind of put it in perspective, you kind of think of like a stadium has their global, like the, what they call a GSOC or command center that monitors all their systems and sensors. That's what this real-time crime center concept is. It's basically a command center that monitors the entire city's sensor network.
+
+[11:15] So as I said, when people hear, you know, license plate recognition, they automatically cringe and get the ick about it. One thing about this thing though is, you know, police agencies aren't monitoring you. They don't have the ability and time to really, and as I said, we talked about the private sector.
+
+[11:34] So one crazy example of kind of this is like Target. So do you know Target operates one of the largest crime labs, forensics labs in the world, and why? It's because shoplifting is a billion dollar problem for these companies. And additionally, not only is it a billion dollar problem for them, but it's billions of dollars in tax revenue that's lost for the cities that you all live in as well.
+
+[11:59] So it's a massive problem that everyone is trying to fix. So as a result, retailers have become incredibly sophisticated in, you know, trying to combat this. One of the crazy technologies that, you know, that exists out there in this space is, you know, if you are shopping in a store and you pick something off the shelf and you put it in your cart and you walk around the store and you decide you don't want it anymore and you put it back, well, their systems can now recognize that, send a coupon to your phone to entice you to buy that product
+
+[12:31] many times before you even leave the aisle. So it's pretty incredible, this technology that exists on the private sector side, you know, and people think of mass surveillance, you know, the government, so yeah, the government can know where you drove to, where your car went.
+
+[12:45] Yes, ma'am. Yeah. Yes, that is absolutely true. That is absolutely true. Now, in the video, like I said, they can't do it just for funsies,
+
+[13:15] like they have to get explicit, you know, permission and type things like that, but that is a partnership that's happening throughout the country where we're being able to see those private public partnerships. Yeah, I mean, love him or hate him, if you saw the recent Peter Thiel interview, he basically said, hey, we're in a mass surveillance society, deal with it.
+
+[13:41] Like, that's where we live, you know, you, there's no reasonable expectation of privacy anymore in public spaces. So when you said, like, you know, yeah, the police knows where you drove to if your car gets stolen, they can kind of track it across the city.
+
+[13:56] You know, in comparison, like your grocery store, your grocery store knows what you buy, how often you shop, where you shop, what are the stores you went to, what coupons, what locations you visit. You know, your smartphone knows when you sleep, where you work, where you travel, who you hang out with, how fast you drove.
+
+[14:14] Your credit card company knows even more than that. So it's, it's just, we're being surveilled all the time. It, all the time. So one of the significant changes that's happening in law enforcement now is drone is first responder. If you're not familiar with that term, basically how it, how it goes is, drones are strategically stationed throughout a city and an agentic agent is listening to 911 calls come in.
+
+[14:47] It's listening for certain keywords. Once those certain keywords hit, the drone automatically recognizes this, launches, flies to the scene and starts streaming video back to dispatch or a real-time crime center before first responders even get there.
+
+[15:00] This is now fully autonomous and capable to the point where if the drone's running out of battery, the system recognizes and automatically dispatches another drone to take over that live feed. The only thing really stopping this from progressing any further is the FAA.
+
+[15:13] The FAA hasn't quite caught up to the autonomy yet, but it is possible. And basically what this is doing is like, so not only are you getting on scene faster and stuff like that, but now you can also deliver like, you know, life-saving meds, you can deliver AEDs, you can deescalate situations.
+
+[15:31] So like before, like when a fight in progress call was kicked out to dispatch like 30 people fighting, you know, you're sending the cavalry, both police and fire. Well, now a drone gets there within seconds and says, oh, the fight's already been broken up.
+
+[15:44] We can only send one officer and then that's it instead of sending 30. So not only is it deescalating things, but it's saving tons in fuel costs for, you know, getting there, wear and tear vehicles, overtime, drones is the next biggest things.
+
+[15:59] I'm sure most of your cities already have them. They're just getting more and more now. So cities spend millions of dollars creating attractive, you know, public spaces. Technology should complement those investments and not undermine them.
+
+[16:18] Residents never notice, you know, well strategically placed infrastructure, but they always notice really bad strategic or like over cumbersome technology. One really cool case study about this is Coral Gables, Florida. Has anyone been there?
+
+[16:35] Beautiful, yep, it is beautiful. So Coral Gables, Florida has deployed technology throughout their city and they took this concept and they basically said, hey, we can buy this one asset and it, you know, covers the entire city as far as all the other departments.
+
+[16:50] So one of their vendors builds these smart poles. The smart poles are modular and things like that and Coral Gables took this, you know, one step further. They said, hey, we know you have these really nice looking poles. We want to make it even better.
+
+[17:03] Can you wrap it in kind of what our city looks like? Add some of the Coral Gables flare to it. So now they'd have this attractive, modern looking, sleek pole that does a bunch of different things. So this one pole can run license plate readers for the police.
+
+[17:17] It has cameras on it if they need to tap into it. It has an air sniffer so the EPA can use it. It does traffic counting so DOT can take care of it. It provides light on walkways. It provides white Wi-Fi to their residents and it can play music and, you know, soothing noises.
+
+[17:34] So this one pole now operates across the entire city and people get to take advantage of it. And it was way cheaper than all these other disparate systems. So just being a city, you know, planner, do your research and figure out what one-time purchase can kind of cover about multiple departments.
+
+[17:56] So how many of you would love to do $500,000 for one day of work? Pretty sure most of us would. So this number is what a lot of cities and sometimes even 5 to 10 X that, they pay companies to drive around once a year and basically scan their city and tell them all the problems.
+
+[18:17] So missing street signs, overgrown trees, potholes, things like that. So, you know, the cheapest I've seen it is about $500,000. So when we're talking about researching technology and stuff like this, there's a company out there that makes these really cool police light bars and inside this light bar is embedded 360-degree cameras, LiDAR, radar, license plate recognition.
+
+[18:41] So now this asset can be deployed on police cars which are already driving around 24-7. It can be scanning the city, looking for all those same potholes, missing signs, things like that, while running license plate recognition, while running for speed, while doing traffic counting.
+
+[18:55] So again, this one asset now can do all these things and it is pennies on the dollar compared to half a million dollars. And if you guys want to learn any about this technology, again, I'm trying to be agnostic, so I'm not saying names, but come see me afterwards.
+
+[19:09] So the last thing I'll leave you, that is my contact information, but kind of leave you with kind of three takeaways. If you're building a city or town, really look at the smart infrastructure before you deploy it, see how it can serve multiple departments.
+
+[19:25] Two, this is an important one for me, if you see a police officer, it means the world to them if you just say thank you. Or if you see them at Starbucks or something, buy their coffee. They do a really hard job. They don't get enough credit.
+
+[19:39] I did it for 15 years. It's a tough job. I'm not saying they're all good. I'm not saying they're all nice. There's plenty that aren't, but there's a good 99% of them are really good people. And the last thing I'll leave you just because of my own personal journey is you guys are all building incredible tools that you want to save the world.
+
+[19:57] You want to change the world, do amazing things. Take a moment, take care of yourself. Make sure you like go on a walk, go to the gym, do something for yourself just to keep your mind right, keep your mental health right. And then you'll be able to just progress even further.
+
+[20:10] And I will open up to questions and nothing is off the table. Hello, I have no problem with ALPRs, much to my husband's chagrin. I'm actually curious about using it for what I would call Pigovian taxes or small fines for things that erode the quality of life.
+
+[20:39] The canonical example in a development or town is noise. I know that New York has put out some like specific, like noticing certain cars that are super loud and then issuing tickets on those. Is there, are there any towns who are like just saying, hey, you know what?
+
+[20:58] We noticed that there was a noise violation here. Yeah, absolutely, yeah. So quality of life is like a huge thing and code enforcement at the same time. So a lot of these technologies I talked about can kind of do both. But you can't just do it with one.
+
+[21:10] You kind of have to have them talk to each other. So yes, LPR can give you the license plate, but you also need a camera to, you know, capture it and everything like that. Or you need a microphone listening if it's a really loud car. Yeah. But yeah, it's absolutely happening.
+
+[21:23] And technology is progressing that way even further. So now it's like fully automated. Hi, that was very interesting. Thank you. My question, so you mentioned the DFR is mainly there to provide a live video stream. Does, is there examples of going and can the drone intervene in some way or is it just monitoring until the police can get there?
+
+[21:50] So the FAA has super strict rules. They don't let you do a lot of things. Like you can, you have to stay like 400 feet. Like, so I'm a licensed drone pilot through the FAA. So they kind of limit and handcuff. That being said, when I trained my drone unit, I said, if there's ever a life or death situation where you can take that drone and smash it into somebody to save a life, do so.
+
+[22:13] We'll deal with the FAA later. So yes, we can and the capabilities are there, but they're limited by the feds. One more question. Okay. Awesome. Thank you guys. Appreciate it. All right. We're going to transition over a quick show of hands.
+
+[22:41] Has anyone heard the term land value tax? Okay. Oh, wow. This is so exciting. Greg, you're in the right place.

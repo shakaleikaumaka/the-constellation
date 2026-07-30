@@ -1,0 +1,191 @@
+# Laying the Foundation for the Immortality Industrial Complex
+
+Date: 2026-06-11
+Source video: Laying the Foundation for the Immortality Industrial Complex.mp4
+Drive: https://drive.google.com/file/d/17VpUCK53f57uboEYVJ_IJWI_Lls1NY2C/view
+Duration: 00:31:35
+Transcribed: 2026-06-12 · whisper large-v3-turbo · language: en
+
+---
+
+[00:00] calling it sort of the immortality industrial complex. And it may kind of sound like a funny name, but it's an ecosystem that does not exist at all that we believe that needs to exist. Part of that reason is because all of the projects that I start and work on are focused on the problem of death.
+
+[00:23] The goal is less death. The goal is to solve the problem of death. And unfortunately, there is no ecosystem to build this out. It just doesn't exist. The vast majority of people are really focused on health. And what you found in the longevity field is, let's say, maybe 10 years ago, if you look at the longevity field, you might find people working on...
+
+[00:51] You might find Aubrey de Grey. You might find some more transhumanist circles working on mind uploading. And a number of these people that were actually working on the problem of death. And it was only in the last 10 years, even 5 years, where these people started to...
+
+[01:13] Oh, there we go. Thank you. Where these people started to no longer be leading the field. And if you think of longevity now, what do you think of? There you go. Exactly right. Brian Johnson. Supplements. Lifestyle routine. How can I optimize my sleep score?
+
+[01:38] You know, and by the way, I mean, these... Look, I also want to get good sleep. It's not that I'm against these things. It's just that this is the focus of the entire field. It's just health. And so I did a lot of looking into why that was the case.
+
+[01:55] You know, the philosophies that we came from, what led us to this point. Of course, maybe in the 2010s, the transhumanists were more popular. And, you know, this slowly turned into the longevity field, where we were focused on curing aging.
+
+[02:10] Curing aging became, let's just focus on health span. Actually, we don't want to extend lifespan. We just want to focus on health span. And what we're ultimately leading towards is a world where we are accepting death. Where we're saying death is not only something that we have to deal with, but actually even a good thing.
+
+[02:30] That it's a good thing that we should die. That my mom should die. That my grandparents should die. That there's, for some reason, there's a reason why this is a good thing. Which has always seemed pretty bizarre to me. So we've spent years now laying the foundation for what we call the immortality industrial complex.
+
+[02:48] Let's see. And for those of you who don't know me, the Free Press did an article on me a little while back where they called me one of the tech messiahs who wanted to deliver us from death. Which is growing on me quite a bit, actually. It's not the worst thing I've been called.
+
+[03:02] And this is actually me in my garage in Utah in our first cryobiology lab. And yeah, that's really where we started with this ecosystem. It was just a couple of doers in the garage and sort of a dream to work on this problem of death. So this was, this is a bigger picture of the garage.
+
+[03:33] So you can see the other side of that is just the garage door that we had to keep cracked so that the liquid nitrogen could get through and we wouldn't suffocate. And this was kind of the very small beginnings of this ecosystem that we've created over the past couple of years.
+
+[03:48] And the technology that we've focused on primarily is the technology that I believe most directly targets the problem of death. And that is cryopreservation. The thing with cryopreservation is if we can put biology on pause, if we can pause whole organisms, then we can solve almost every cause of death.
+
+[04:10] And so this has been our, this has been our primary focus. So we started a company. The first company was called Cryopets. And the goal behind Cryopets is to focus on this technology of whole organism cryopreservation. And we wanted to raise a significant amount of money.
+
+[04:31] And a lot of people thought we were insane for trying to freeze animals and bring them back to life. So we had to start with our humble beginnings in the, in the garage. Now we have over 10,000 pets signed up. We've cryopreserved our first pets.
+
+[04:45] We have a much larger facility now in Texas, actually, from the garage. And this is where really things, things got started. Now, unfortunately, there was no organization that existed to actually fund this type of cryopreservation research.
+
+[05:10] Governments were not giving grants for whole organism cryopreservation. You might be able to get something for cell cryopreservation. You might be able to get some money for reproductive cryopreservation. And very, very rarely, very small organs.
+
+[05:25] And a little bit of research there. But it's extremely rare. So we started an organization called CryoDAO, where the entire goal of the organization was just to fund crazy cryoresearch that otherwise would not get funded. We ended up raising a little over $10 million there.
+
+[05:41] And have had a number of breakthroughs now, which are kind of helping to pave the way for this immortality industrial complex. So these are a few pictures. Hopefully you're not too squeamish. Maybe a little much. These are actually rat brains.
+
+[06:01] So we launched the first project in, I think, 70 years. Focused on the goal of taking a whole non-hibernating mammal, in this case a rat, below zero and bringing it back to life after. The last time this was even attempted was the 1950s. It's completely bizarre that this science has gone completely neglected for that time.
+
+[06:30] And honestly, in a lot of ways, it seems like the last time we were working on any cool science was somewhere between the 50s and the 70s. And, you know, we haven't done much since then. So we built out a lab. And this is actually, top left there, $400,000 microCT, just so we can measure the perfusion quality.
+
+[06:49] Of how we're perfusing these rats. On the top right there, we're testing how different rat brains respond to different concentrations of cryoprotectant. And then on the bottom there, you can see some of our experiments where we have the difference between the rat brain on the right and the rat brain on the left being a blood-brain barrier opener.
+
+[07:12] So it actually allows us to better perfuse the brain with cryoprotectants. And, of course, the goal of cryoprotectants are to prevent ice formation. Ice is the enemy. And when you bring something below freezing, of course, you're going to have ice form.
+
+[07:24] It's going to destroy cells. So the goal is to completely eliminate this problem. So that's just a little bit of the research we've been doing. And at the end of the year, we've already brought rats back from exactly zero. And at the end of the year, we'll be bringing back the first rats and the first non-hyronated mammals ever to go below freezing in the history of mankind.
+
+[07:47] It just hasn't been done before. And we'll announce that towards the end of the year at a larger event. But you guys get some special, yeah, some secrets before then. So thank you. You know, I didn't realize how kind of gory these images are.
+
+[08:09] So sorry. I'm used to these things, but I'm looking at them now. I'm like, hopefully, you guys aren't eating or something. Although this does kind of look like a drumstick a little bit. It's not a drumstick. Sorry. So this is another project that we were focusing on in organ crab preservation.
+
+[08:27] So individual organs. And can anyone guess what organ this is? Any guesses? Do you say a lung? Yeah, it's a good guess. It's not a lung. It's not a testicle. This is actually a sheep ovary. So. Yeah. He's eating faster.
+
+[08:59] That's what's impressive to me. He's actually eating more. Yeah. So we cryopreserved what I believe is still the largest mammalian organ that's been cryopreserved, re-transplanted, and then actually showed that it was fully functional. Yeah.
+
+[09:21] So what we did is we brought them down. And by the way, this is not just sub-zero. This is vitrification. So this is negative 135. Re-warmed them, re-transplanted them into the same sheep. And then we got those sheep pregnant. So after a little while, we let their hormones normalize.
+
+[09:38] We actually got those sheep pregnant and had baby lambs walking around from these previously cryopreserved ovaries. So very, yeah, it was, we, in the original experiment, we transplanted, I believe it was 40 total. And I think it might have been half of them led to success, something in that range.
+
+[10:06] I'd have to double check, but something in that range. So it was reproducible. And you can see on the bottom there, you can see before the reperfusion of the blood and then after the reperfusion of the blood. This is research that wouldn't otherwise get funded.
+
+[10:21] And it's also bizarre because we don't put a significant amount of money into these. I mean, the rat project that I was talking about, we put a million dollars into it. In the sheep ovaries project, we put $350,000 into it. And it's a decent amount of money, but when we're talking about materially advancing an entire field, this is not a lot of money.
+
+[10:39] There's a lot of, a lot of different fields that will just completely eat up a million dollars, a million five, like it's absolutely nothing. That's why cryopreservation is such a unique field. It's an engineering problem, and we know what the problems are.
+
+[10:51] We, we, we know the type of damage that's being done. And the goal is just being able to solve it. So we also wanted to tackle this problem of, there's no government funding going into whole organism cryopreservation. And part of that is because the government is not going to give money so that we can, you know, try to make our dogs live forever.
+
+[11:12] It's maybe just, you know, not their biggest priority. Or make our grandmas live forever, and so on. So we started an event, started as an event, but sort of this broader coalition called the Space Biostasis Coalition. And the idea here is to eventually get to the point where we have very large government grants for whole organism cryopreservation.
+
+[11:35] So it's essentially the exact same technology, but just changing the narrative. And we've now had a number of talks with NASA, with Space Force, with the Department of War, other agencies, where they have a significant amount of interest, not only in cryopreservation for space travel.
+
+[11:54] I mean, if you think about sending 1,000 people to Mars, sending 10,000 people to Mars, building the moon base, all of these things are things that are, you know, being worked on actively. You know, space wants to kill us. It just does. Space is not very compatible with us squishy humans.
+
+[12:13] You know, on a six-month trip, let's say a six-month trip to Mars, I think you lose 50% of the ovarian reserve. I think it's something like 20% muscle loss. Maybe it's like 12% bone loss. Not good. It's not good. This is not something that you would do on a vacation.
+
+[12:35] And by the way, throughout this time, you are inside of a small tin can and probably drinking your own urine. Recycled, but nonetheless. So I think there's always been this idea that hardware is the bottleneck to space expansion. But it's always seemed obvious to me that we're going to invent the next engine, and we're going to create the bigger rocket, and these things are not actually the biggest problem.
+
+[13:01] The biggest problem is biology. Our biology is what keeps us from expanding out into space. So the narrative that we have talked with the government about now and these various agencies is that we need cryosleep. You know, the thing you see in the movies where they, you know, they go into cryosleep, come out, maybe you throw up once, and then you walk off.
+
+[13:23] It's probably a little trickier than that, but this idea that we can bring humans down to these lower temperatures to bring their metabolism down and be, you know, get to the point where we don't have to bring thousands and thousands of pounds of resources on these missions and really just make space economics even make sense.
+
+[13:44] And that's just putting people in a form of sleep, in a form of hibernation, if you want to call it that. So anyway, this is another event that we're organizing. We'll actually have the first event in, oh, feel free, yeah. Yeah, so you would essentially have cryopods that individually protect each person from this, which would be more cost effective and a lot easier than, you know, putting many,
+
+[14:21] many pounds of material inside the actual ship itself, and this makes launching the ship a lot more difficult and a number of other things. But yeah, it would, you know, we're doing the first event for this in February next year, and we will have NASA, SpaceX, a lot of the agencies I named, we'll also have the best cryobiologists in the world who are basically bringing these two fields together and making them kiss and seeing what comes out of it.
+
+[14:53] But the main goal is to basically unlock these massive, massive government grants and basically convince them that this is something that the government should be working on. And again, it's kind of, kind of, it's sort of why we describe this as this industrial complex.
+
+[15:07] You know, we want the government involved, we want private companies involved, we want this entire ecosystem working on this technology. And there's one organization that's worth noting, we sort of have an entire ecosystem coming together. But one project we've been working on is what will be the most advanced whole organism cryopreservation lab in the world.
+
+[15:32] Perhaps it'll be in Oregon. There's a few other leading options for it. But we put in sort of a number of millions of dollars to bring in this project to life. And it'll look something like this. This is sort of one of the working renders of it.
+
+[15:49] But we're sort of working on this angle from a number of different, they're working on this problem from a number of different angles. And, you know, we believe that cryopreservation is one of, if not the single most important technology of our time.
+
+[16:07] We believe it is the most direct way to target the problem of death. And we believe that building out this ecosystem is the way to accomplish that goal. So, just wanted to, yeah, give you guys a couple updates and show you what we've been working on.
+
+[16:21] And I'm happy to take any questions on anything that we're doing. Thank you. Kai, thank you very much for your talk. Super interesting. And I now understand with the space element why Cam is so interested in what you're doing as well. But my question is, what does it actually look like when a rat goes sort of sub-zero and
+
+[16:56] then comes back to life? Like, what does that experience look like? And what will that experience look like for humans? No, I'm just kidding. No, it's, yeah, it's, you know, when we're talking about sub-zero, it's not, you know, it's cold, but it's not extremely cold.
+
+[17:20] And there are other mammals that regularly go sub-zero. For example, the Arctic squirrel is a good example. There's, of course, non-mammals that go sub-zero all the time. There's frogs that can completely be frozen and their heart stops beating and their blood stops flowing.
+
+[17:39] And then, you know, spring comes around and they thaw out and they're essentially back to life. So, you know, it'd be early to say that I know what this will look like exactly in humans when we're doing this, but I think the, you know, when, when we, when, when we, when we do this in rats, it's essentially we, we perfuse the body with these cryoprotectants, actually replace
+
+[18:12] the water volume in the body. We replace the blood with cryoprotectant. We bring them below that temperature and then we do the inverse on the way out. So we, we re-perfuse the blood to wash out the cryoprotectant. And so there, and then, you know, it's, it's, it's, it's essentially, you know, right now one of the trickier problems is making it so we can actually bring that, bring that rat back.
+
+[18:35] And, and, you know, we, we have some scientists, it's, it, this, this problem is not even necessarily a cryobiology problem. It's, it's, you know, there's, we have some experts in CPB from Harvard and, and other institutions where they, they specifically specialize in doing this, especially on rats.
+
+[18:52] Um, but yeah, I mean, that's, that's essentially the process. You can imagine we have some tubes hooked up to the rats and we, uh, of course, anesthetize them. We, we replace the blood with that cryoprotectant. Um, we lower their temperature down.
+
+[19:06] The cryoprotectant is also cold and it lowers their, their internal temperature down. Um, and then we do, yeah, we do the inverse on the way out. Um, and, um, you know, long, long term, there's, of course, there's, there's ways to use this for medical evacuation.
+
+[19:21] This is another, you know, some, some of the conversations that we've had with, with NASA, with the Department of War have been around medical evacuation. So that's, if something goes wrong with astronauts right now, they're screwed. I mean, wrong enough, there's no way you're getting back to earth on time to get to a hospital.
+
+[19:36] So this, this would be something that, that they're interested in. Um, and then beyond that, there's also, uh, medical evacuation just for soldiers in, in the battlefield and being able to sort of bring their body temperature down and then evacuate them to, to a hospital.
+
+[19:49] Um, anyway, feel free to chime in. So you kind of mentioned about space travel. So the question I have for you is one of the other limiting factors is Gs, number of Gs a human could actually take, right? If you do cry, preservation, do you think we might be able to take a higher G in that sense?
+
+[20:13] Because one of the limiting factors is, can you accelerate somebody to the speed of light? The number of Gs you need to take on the acceleration, right? Because when you, you get what I'm saying, right? Yeah, I do. Um, it's very interesting.
+
+[20:26] I haven't thought about it before and I wouldn't be able to give a good answer, but my, I would suspect, yes, that it would be, we, we, it would, it would allow them to take more, but I actually, I, I will, I will add that to our list to look into.
+
+[20:43] It's a great question. Yeah. I wonder. Oh, yeah. Um, so I, I think there was other cryo companies, weren't there? Like they froze Walt Disney's head or something. I don't know. Well, is there any other, other companies that have done this and what happened to them?
+
+[21:03] Do they go out of business and what, where's all those heads? Uh, that's my question. Thank you. Where is Walt Disney's head? Uh, Walt Disney was unfortunately sort of a myth. So unless they have them under Disney or something that I'm, you know, some secret lab that I'm unaware of, none of the, uh, existing facilities have him stored.
+
+[21:24] There is, you know, there's Ted Williams. There's a couple of other, these other kind of famous people that are, um, that are cryo-preserved. And, uh, Peter Thiel, one of our investors is famously signed up to be cryo-preserved. Um, yeah, it's, it's, it's, uh, these, these organizations are largely still around.
+
+[21:41] You know, these, it's, it's, it's sort of this, uh, um, there, there was, there was like one incident in the 70s where one of these went out of business and they, they had like seven people stored, but the, the vast majority of them are actually still around today.
+
+[21:58] And it's been very small. So I won't say successful in the sense of, uh, like large growing or had a number of members or anything, but successful in the sense that these bodies are still cryo-preserved. There's a couple hundred people around the world that are cryo-preserved today.
+
+[22:11] And that's in the U.S., it's in Europe, it's even, there's, there's an organization in Russia as well. Um, so no Walt Disney, unfortunately, but, uh, uh, but, but these, these organizations, they, they don't really do research. They don't primarily do research.
+
+[22:29] So this experiment that we're doing with bringing the rat back to life, it's, they don't, they don't touch this stuff. So is, is the method of cryo, cryostasis different that you're doing, or are you guys the only ones that are actually trying to bring them back?
+
+[22:44] Yeah, I guess you could say everyone's trying to bring them back. I mean, I guess everyone working in cryobiology, like once reversible cryobiology, at least for the most part. But yeah, like we're, we're, again, like we're the only ones to revive this research in 70 years.
+
+[22:59] It's, it's, it's, it's not, uh, yeah, it's, it's not exactly a popular thing to work on. Um, but, uh, but, but yeah, I mean, we, we are, um, yeah, one, one of, one of, one of the only ones actually working on this problem. And, and, and our, and, and, and so I forgot the first part of your question.
+
+[23:17] It was, um, our, our, our protocol is completely from scratch unique. It's, it's, it's not based on, uh, the existing facilities that have been around for any amount of time. So, um, yeah, yeah, fully, fully unique. And could you, could you just, just, just on the side, you start off with trying to, like, do you have to die?
+
+[23:36] Uh, and you talked about the space, which is a current, like, use case, but maybe speaking a bit more about the long-term motivation. Right now, if I'm going to stand it correctly, cryopreservation is essentially just to get us, our, our bodies preserved to the time when science has advanced far enough that we can revive ourselves and be back alive.
+
+[23:53] Like, how do you see this manifesting, translating into humans beyond the space angle, more of the lifespan angle? Like, will there be an optimal year to cryopreserve? Is it just, just before your, on your deathbed? Like, how would, how would you imagine that working out from, like, a longevity perspective?
+
+[24:09] Yeah, there's, you know, you, there's sort of this saying where it's, like, uh, last in, first out. Um, and the, the reason that's the case is because, you know, the, the technology is always getting better, so you really want to wait until the last possible moment to be cryopreserved, because in theory, you would be easier to bring out from cryopreservation.
+
+[24:31] You'd have less damage, you know, the cryoprotectin would be better, maybe, you know, any number of reasons. Um, so I definitely wouldn't, uh, you know, do that too quickly today and jump in the doer or anything. Um, and of course, you know, people in this field will usually call cryo plan B and, yeah, of course, I mean, I think, yeah, you could always make the argument that plan A would be, we just, I mean, I don't want to be frozen, doesn't sound ideal, doesn't sound super fun.
+
+[24:57] Um, but of course, we've made very, very little progress in the longevity space on actually curing aging, actually getting to the point where we, we reach sort of this, this concept of longevity escape velocity and not, you know, not, not dying in our natural lives.
+
+[25:12] Um, we have a very, very long way to go into this. But yeah, I, I, you know, you definitely want to, I, I, I would say you, you want, best, best place to do it is at the last possible moment. Um, but also, um, yeah, just, uh, you know, you, you, you want it to be in a, in a, a prepared way is the most ideal.
+
+[25:35] Um, this can be tricky as humans, you know, our, our deaths are not usually planned and, uh, you know, maybe in the future we'll have, uh, cryo than Asia and this is sort of just like a way, a way that people will go out and, uh, with the goal of coming back.
+
+[25:51] But of course, I think that's, uh, that's a little far out, so. If you talk about the, about the current business model, I said, you said you have a hundred cats signed up, oh, no, sorry, animals signed up. Sorry. A hundred people who are currently, sorry, my bad.
+
+[26:07] Um, what do people, what do you charge people for that? How does the business model work? I'm curious to get a little bit about the economics on that end and, yeah. Yeah, yeah. It turns out people have a lot of problems with freezing themselves and we found that when it comes to pets, all those problems go out the window.
+
+[26:21] So that's, that was kind of the, uh, the main idea behind it. Um, and the, the pricing totally depends on, uh, on the size of the animal. This is mostly dictated by the amount of cryoprotectant that we have to use, uh, which can get quite expensive and then also the long-term storage of the animal.
+
+[26:41] Of course, they're taking up space and, uh, we sort of have the, the long-term liquid nitrogen upkeep of that animal. Uh, so it, it, it can range, you know, we, we, we just got someone on a contract for $40,000 for his dog, but also people have smaller cats that end up 10,000 or sub 10,000, but it's, it's, the, the, the average cases will be in the low tens of thousands and people pay it off over time and, and, and whatever else, but, um, you know, and it's, uh, people spend, you know, this amount
+
+[27:13] of money on their pets all the time when, you know, vet bills and everything else. So, uh, we, we, we found that, that people are at least open, open to the idea compared to human crab preservation, which is quite niche. Uh, we probably have time for one more question, but I kind of a follow-up on that before that.
+
+[27:31] Um, I'm curious if, since you're storing for indefinitely long amounts of times, if there's some sort of subscription that then they're paying, and if you see this now becoming the new retirement plan, or how this affects, like. And, and if they stop paying, what do we do?
+
+[27:46] Yeah, like, or how the moral landscape looks in that arena. No, yeah, it's, it's, uh, yeah, it's a great question. Um, yeah, so we don't, you know, we don't charge people indefinitely and then thaw their dogs out if they stop paying. That would be, uh, very, no, so we, we actually, we have these very, very large storage containers called doers, and, uh, you know, one of the jokes is that this is always a good idea until someone trips over the power cord, um, but luckily there's no power required, to keep any, any cryopreserved animal at these temperatures. It's, it's purely liquid nitrogen,
+
+[28:22] and, uh, and it's just refilled every so often. Um, and what we do is we, we have these very large doers, and if you want to use a cat as the form of measurement, we can fit about 100 cats in one of these doers. And there's a certain contract value that we want to have, and sort of the way the math works out there is you take the, the total contract value for one of those doers that comes in, uh, and we just invest that money safely, just keep it above inflation. You need it about one percent above inflation, and it covers liquid nitrogen costs. This is one of the pages that we
+
+[28:58] took out of these old organizations books because they have had humans stored for 50 years successfully, and no, no sign of stopping, and these, uh, you know, sort of the, the amount of money that's dedicated to storage and long-term care of these, uh, will just keep growing over time and, uh, just, just makes it more and more safe as time goes on. But, um, no, great, great question. Yeah.
+
+[29:21] Yeah, I'm gonna ask the last question really quickly. Um, I think you alluded to this that people have very specific conceptions of death in this society that are tied to religion and spirituality and morality and all these complicated things. I'm curious what you think the cultural changes or other types of factors that have to happen in the future to make this, like, a broader, uh, widely accepted thing. Yeah, so there's sort of a couple ways to think about this question. I think, I think, you know, number one, I, I do think pets are sort of, we call, we call pets sort of the gateway drug to
+
+[29:53] humans, and, uh, I think we'll see this in a number of different ways. I think we'll have, I think we'll have famous pets being cryopreserved. I think we'll have, you know, YouTubers talking about cryopreserving their, their pets. I think we'll have, I think we'll then have kids begging their parents to cryopreserve their, their dogs. And there's, there's sort of a way that, that I think we can work this into, um, the broader culture.
+
+[30:16] Uh, but you bring up, you bring up a good point as well. I, I, I think especially when it comes to human cryopreservation and, and these other areas, I think the easy answer would be to say that, like, we need less religious people and we need more atheists and, you know, more people. But, I, I, I, I almost, I almost think that's, that's, that's not actually a good solution. I think, uh, I think, I think most of the non-religious world is actually okay with not existing at some point,
+
+[30:49] whereas most of the religious world is actually okay with existing. So I, I, I would, I would actually rather convince religious people that this is a way to maybe stay on earth and serve God longer rather than, uh, rather than try to create more atheists. Um, maybe that's a longer philosophical discussion, but I, uh, but yeah, it just, just on the, I think we can, we can do a lot on the pet world to change the culture, but then, uh, we can also start to get this into veterinary hospitals. We're already partnered with a number of veterinary hospitals, um, who are open to introducing this to their, um, to their clientele. And, uh, I think
+
+[31:25] some of these changes will really make people open to it, but yeah, great question. Thank you so much. That was an incredible talk. Thank you. Appreciate it.

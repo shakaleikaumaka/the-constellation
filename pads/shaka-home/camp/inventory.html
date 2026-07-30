@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Turtle Ops · Inventory 📦 | Terrible Turtle Camp</title>
+<meta name="description" content="Live inventory command center for Terrible Turtle Camp — the single source of truth for what we have, need, and where it's going.">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+  :root {
+    --tt-orange:#eb5833; --tt-coral:#fd6844; --tt-amber:#db9840; --tt-gold:#e5a14b; --tt-red:#cc272e;
+    --night:#030915; --night-2:#071123; --card:#0b1628; --card-2:#111b28; --card-hover:#162235;
+    --border:#1f2a38; --cream:#f7f0eb; --cream-dim:#ddd6d1; --sand:#8a7d75;
+    --green:#69db7c; --radius:12px; --radius-lg:20px;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:'Rajdhani',sans-serif; background:var(--night); color:var(--cream); min-height:100vh; line-height:1.5; font-size:17px; }
+  .bg-canvas { position:fixed; inset:0; z-index:0; overflow:hidden; }
+  .orb { position:absolute; border-radius:50%; filter:blur(90px); opacity:0.14; }
+  .orb:nth-child(1){width:480px;height:480px;background:var(--tt-orange);top:-8%;left:-6%;}
+  .orb:nth-child(2){width:400px;height:400px;background:var(--tt-amber);bottom:5%;right:-8%;}
+  .container { position:relative; z-index:1; max-width:1100px; margin:0 auto; padding:20px; }
+
+  .topbar { display:flex; justify-content:space-between; align-items:center; padding:14px 0; flex-wrap:wrap; gap:10px; }
+  .back-link { color:var(--tt-coral); text-decoration:none; font-weight:600; font-size:0.95rem; }
+  .back-link:hover { color:var(--tt-orange); }
+  .lang-toggle { background:var(--card); border:1px solid var(--tt-orange); color:var(--tt-coral); border-radius:20px; padding:7px 15px; font-family:inherit; font-weight:600; cursor:pointer; }
+
+  .header { text-align:center; padding:30px 10px 20px; }
+  .header .turtle { font-size:2.4rem; }
+  .header h1 { font-size:clamp(2rem,6vw,3rem); font-weight:700; text-transform:uppercase; letter-spacing:0.02em;
+    background:linear-gradient(135deg,var(--cream) 20%,var(--tt-gold),var(--tt-orange)); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
+  .header p { color:var(--cream-dim); font-size:1.1rem; margin-top:6px; }
+  .source-note { font-size:0.82rem; color:var(--sand); margin-top:10px; }
+
+  /* STATS */
+  .stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:12px; margin:24px 0; }
+  .stat { background:var(--card); border:1px solid var(--border); border-radius:var(--radius); padding:18px; text-align:center; }
+  .stat .num { font-family:'JetBrains Mono',monospace; font-size:1.9rem; font-weight:700; }
+  .stat .num.green{color:var(--green);} .stat .num.amber{color:var(--tt-amber);} .stat .num.coral{color:var(--tt-coral);} .stat .num.cream{color:var(--cream);}
+  .stat .lbl { font-size:0.78rem; color:var(--sand); text-transform:uppercase; letter-spacing:0.08em; margin-top:4px; }
+
+  /* PROGRESS */
+  .progress-wrap { background:var(--card); border:1px solid var(--border); border-radius:var(--radius); padding:20px; margin-bottom:24px; }
+  .progress-label { display:flex; justify-content:space-between; font-size:0.85rem; color:var(--cream-dim); margin-bottom:8px; }
+  .progress-bar { height:16px; border-radius:8px; overflow:hidden; display:flex; background:var(--night-2); }
+  .progress-bar .seg { height:100%; }
+  .seg.received{background:var(--green);} .seg.ordered{background:var(--tt-amber);} .seg.notbought{background:var(--tt-red);} .seg.flag{background:var(--sand);}
+  .legend { display:flex; gap:16px; flex-wrap:wrap; margin-top:10px; font-size:0.8rem; color:var(--cream-dim); }
+  .legend span { display:flex; align-items:center; gap:6px; }
+  .dot { width:9px; height:9px; border-radius:50%; }
+
+  /* CONTROLS */
+  .controls { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:18px; }
+  .controls input, .controls select { padding:11px 14px; background:var(--card); border:1px solid var(--border); border-radius:var(--radius); color:var(--cream); font-family:inherit; font-size:0.95rem; }
+  .controls input { flex:1; min-width:180px; }
+  .controls input:focus, .controls select:focus { outline:none; border-color:var(--tt-orange); }
+
+  /* TABLE */
+  .table-wrap { overflow-x:auto; border-radius:var(--radius-lg); border:1px solid var(--border); }
+  table { width:100%; border-collapse:collapse; font-size:0.9rem; background:var(--card); }
+  th { background:var(--card-2); color:var(--tt-amber); font-weight:600; text-transform:uppercase; font-size:0.72rem; letter-spacing:0.05em; padding:12px 10px; text-align:left; position:sticky; top:0; cursor:pointer; white-space:nowrap; }
+  th:hover { color:var(--tt-orange); }
+  td { padding:11px 10px; border-top:1px solid var(--border); color:var(--cream-dim); vertical-align:top; }
+  tr:hover td { background:var(--card-hover); }
+  .item-name { color:var(--cream); font-weight:600; }
+  .badge { display:inline-block; padding:2px 9px; border-radius:7px; font-size:0.7rem; font-weight:600; text-transform:uppercase; letter-spacing:0.03em; white-space:nowrap; }
+  .b-received{background:rgba(105,219,124,0.15);color:var(--green);border:1px solid rgba(105,219,124,0.3);}
+  .b-ordered{background:rgba(219,152,64,0.15);color:var(--tt-amber);border:1px solid rgba(219,152,64,0.3);}
+  .b-notbought{background:rgba(204,39,46,0.15);color:var(--tt-coral);border:1px solid rgba(204,39,46,0.3);}
+  .b-flag{background:rgba(138,125,117,0.18);color:var(--sand);border:1px solid rgba(138,125,117,0.3);}
+  .b-domain{background:rgba(235,88,51,0.12);color:var(--tt-coral);border:1px solid rgba(235,88,51,0.25);}
+  .b-high{background:rgba(204,39,46,0.15);color:var(--tt-coral);}
+  .b-med{background:rgba(219,152,64,0.15);color:var(--tt-amber);}
+  .done-check { color:var(--green); font-weight:700; }
+  .count-line { color:var(--sand); font-size:0.85rem; margin:12px 2px; }
+  .footer { text-align:center; padding:40px 20px; color:var(--sand); font-size:0.9rem; }
+  .footer a { color:var(--tt-orange); text-decoration:none; }
+  @media (max-width:600px){ body{font-size:16px;} td .spec,td .notes{display:none;} }
+</style>
+<link rel="stylesheet" href="assets/turtle-cursor.css">
+</head>
+<body>
+<div class="bg-canvas"><div class="orb"></div><div class="orb"></div></div>
+<div class="container">
+
+  <div class="topbar">
+    <a href="./" class="back-link" id="backLink">← Back to Turtle Ops</a>
+    <button class="lang-toggle" id="langToggle" onclick="toggleLang()">עברית</button>
+  </div>
+
+  <div class="header">
+    <div class="turtle">📦🐢</div>
+    <h1 id="h-title">Inventory Command Center</h1>
+    <p id="h-sub">The single source of truth — what we have, what we need, where it's going.</p>
+    <p class="source-note" id="h-src">Synced from the camp Procurement Dashboard</p>
+  </div>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="progress-wrap">
+    <div class="progress-label"><span id="p-label">Procurement Progress</span><span id="p-pct"></span></div>
+    <div class="progress-bar" id="progressBar"></div>
+    <div class="legend" id="legend"></div>
+  </div>
+
+  <div class="controls">
+    <input type="text" id="search" placeholder="🔍 Search items, specs, vendors…" oninput="render()">
+    <select id="domainFilter" onchange="render()"><option value="">All Domains</option></select>
+    <select id="procFilter" onchange="render()"><option value="">All Procurement</option></select>
+    <select id="priorityFilter" onchange="render()"><option value="">All Priorities</option></select>
+  </div>
+
+  <div class="count-line" id="countLine"></div>
+
+  <div class="table-wrap">
+    <table>
+      <thead><tr id="theadRow"></tr></thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+
+  <div class="footer">
+    🐢 <strong>Turtle Ops · Inventory</strong> · <a href="./">Back to camp ops</a><br>
+    <span style="color:var(--tt-amber);">Move Slow &amp; Bite Things.</span>
+  </div>
+</div>
+
+<script>
+const T = {
+  en: { title:"Inventory Command Center", sub:"The single source of truth — what we have, what we need, where it's going.",
+    src:(n)=>`Synced from the camp Procurement Dashboard · ${n} items tracked`, back:"← Back to Turtle Ops",
+    pLabel:"Procurement Progress", countLine:(n,t)=>`Showing ${n} of ${t} items`,
+    cols:["✓","Item","Domain","Category","Qty","Procurement","Priority","Owner","Vendor","Spec / Notes"],
+    allDom:"All Domains", allProc:"All Procurement", allPri:"All Priorities", searchPh:"🔍 Search items, specs, vendors…" },
+  he: { title:"מרכז בקרת המלאי", sub:"מקור האמת היחיד — מה יש לנו, מה אנחנו צריכים, ולאן זה הולך.",
+    src:(n)=>`מסונכרן מלוח הרכש של המחנה · ${n} פריטים במעקב`, back:"→ חזרה לטרטל אופס",
+    pLabel:"התקדמות רכש", countLine:(n,t)=>`מציג ${n} מתוך ${t} פריטים`,
+    cols:["✓","פריט","תחום","קטגוריה","כמות","רכש","עדיפות","אחראי","ספק","מפרט / הערות"],
+    allDom:"כל התחומים", allProc:"כל סטטוסי הרכש", allPri:"כל העדיפויות", searchPh:"🔍 חיפוש פריטים, מפרטים, ספקים…" }
+};
+let lang = 'en';
+let DATA = [];
+
+function procClass(p){ p=(p||'').toLowerCase(); if(p.includes('received'))return'b-received'; if(p.includes('ordered'))return'b-ordered'; if(p.includes('not'))return'b-notbought'; if(p.includes('flag'))return'b-flag'; return''; }
+function procLabelHE(p){ p=(p||'').toLowerCase(); if(p.includes('received'))return'התקבל'; if(p.includes('ordered'))return'הוזמן'; if(p.includes('not'))return'לא נקנה'; if(p.includes('flag'))return'לבדיקה'; return p; }
+function priClass(p){ p=(p||'').toLowerCase(); if(p.includes('high'))return'b-high'; if(p.includes('med'))return'b-med'; return''; }
+
+function computeStats(){
+  const total = DATA.length;
+  const received = DATA.filter(r=>/received/i.test(r.procurement)).length;
+  const ordered = DATA.filter(r=>/ordered/i.test(r.procurement)).length;
+  const notbought = DATA.filter(r=>/not bought/i.test(r.procurement)).length;
+  const flag = DATA.filter(r=>/flag/i.test(r.procurement)).length;
+  const domains = new Set(DATA.map(r=>r.domain).filter(Boolean)).size;
+  return {total,received,ordered,notbought,flag,domains};
+}
+
+function renderStatsAndProgress(){
+  const s = computeStats();
+  const statDefs = lang==='en'
+    ? [['cream',s.total,'Items'],['green',s.received,'Received'],['amber',s.ordered,'Ordered'],['coral',s.notbought,'Not Bought'],['cream',s.domains,'Domains']]
+    : [['cream',s.total,'פריטים'],['green',s.received,'התקבלו'],['amber',s.ordered,'הוזמנו'],['coral',s.notbought,'לא נקנו'],['cream',s.domains,'תחומים']];
+  document.getElementById('stats').innerHTML = statDefs.map(([c,n,l])=>`<div class="stat"><div class="num ${c}">${n}</div><div class="lbl">${l}</div></div>`).join('');
+
+  const tracked = s.received+s.ordered+s.notbought+s.flag || 1;
+  const pct = Math.round((s.received/tracked)*100);
+  document.getElementById('p-pct').textContent = pct+'% '+(lang==='en'?'received':'התקבלו');
+  document.getElementById('progressBar').innerHTML =
+    `<div class="seg received" style="width:${s.received/tracked*100}%"></div>`+
+    `<div class="seg ordered" style="width:${s.ordered/tracked*100}%"></div>`+
+    `<div class="seg notbought" style="width:${s.notbought/tracked*100}%"></div>`+
+    `<div class="seg flag" style="width:${s.flag/tracked*100}%"></div>`;
+  const lg = lang==='en'
+    ? [['#69db7c','Received'],['#db9840','Ordered'],['#cc272e','Not Bought'],['#8a7d75','Flag']]
+    : [['#69db7c','התקבל'],['#db9840','הוזמן'],['#cc272e','לא נקנה'],['#8a7d75','לבדיקה']];
+  document.getElementById('legend').innerHTML = lg.map(([c,l])=>`<span><span class="dot" style="background:${c}"></span>${l}</span>`).join('');
+}
+
+function populateFilters(){
+  const domains = [...new Set(DATA.map(r=>r.domain).filter(Boolean))].sort();
+  const procs = [...new Set(DATA.map(r=>r.procurement).filter(Boolean))].sort();
+  const pris = [...new Set(DATA.map(r=>r.priority).filter(Boolean))].sort();
+  const df=document.getElementById('domainFilter'), pf=document.getElementById('procFilter'), prf=document.getElementById('priorityFilter');
+  df.innerHTML = `<option value="">${T[lang].allDom}</option>`+domains.map(d=>`<option>${d}</option>`).join('');
+  pf.innerHTML = `<option value="">${T[lang].allProc}</option>`+procs.map(p=>`<option>${p}</option>`).join('');
+  prf.innerHTML = `<option value="">${T[lang].allPri}</option>`+pris.map(p=>`<option>${p}</option>`).join('');
+}
+
+function render(){
+  const q = document.getElementById('search').value.toLowerCase();
+  const dom = document.getElementById('domainFilter').value;
+  const proc = document.getElementById('procFilter').value;
+  const pri = document.getElementById('priorityFilter').value;
+  const filtered = DATA.filter(r=>{
+    if(dom && r.domain!==dom) return false;
+    if(proc && r.procurement!==proc) return false;
+    if(pri && r.priority!==pri) return false;
+    if(q){ const hay=(r.item+' '+r.spec+' '+r.notes+' '+r.vendor+' '+r.category+' '+r.domain).toLowerCase(); if(!hay.includes(q)) return false; }
+    return true;
+  });
+  document.getElementById('countLine').textContent = T[lang].countLine(filtered.length, DATA.length);
+  const tb = document.getElementById('tbody');
+  tb.innerHTML = filtered.map(r=>{
+    const procTxt = lang==='he'?procLabelHE(r.procurement):r.procurement;
+    const specNote = [r.spec, r.notes].filter(Boolean).join(' · ');
+    return `<tr>
+      <td>${r.done?'<span class="done-check">✓</span>':''}</td>
+      <td class="item-name">${esc(r.item)}</td>
+      <td>${r.domain?`<span class="badge b-domain">${esc(r.domain)}</span>`:''}</td>
+      <td>${esc(r.category)}</td>
+      <td>${esc(r.qty)}</td>
+      <td>${r.procurement?`<span class="badge ${procClass(r.procurement)}">${esc(procTxt)}</span>`:''}</td>
+      <td>${r.priority?`<span class="badge ${priClass(r.priority)}">${esc(r.priority)}</span>`:''}</td>
+      <td>${esc(r.owner)}</td>
+      <td>${esc(r.vendor)}</td>
+      <td class="spec" style="max-width:340px;color:var(--sand);font-size:0.82rem;">${esc(specNote).slice(0,220)}</td>
+    </tr>`;
+  }).join('');
+}
+
+function renderHead(){ document.getElementById('theadRow').innerHTML = T[lang].cols.map((c,i)=>`<th onclick="sortBy(${i})">${c}</th>`).join(''); }
+let sortCol=-1, sortAsc=true;
+const COLKEYS=['done','item','domain','category','qty','procurement','priority','owner','vendor','spec'];
+function sortBy(i){ const k=COLKEYS[i]; if(sortCol===i)sortAsc=!sortAsc; else {sortCol=i;sortAsc=true;} DATA.sort((a,b)=>{let x=(a[k]||'').toString(),y=(b[k]||'').toString(); return sortAsc?x.localeCompare(y):y.localeCompare(x);}); render(); }
+
+function esc(s){ const d=document.createElement('div'); d.textContent=s||''; return d.innerHTML; }
+
+function applyLang(){
+  document.documentElement.setAttribute('dir', lang==='he'?'rtl':'ltr');
+  document.documentElement.setAttribute('lang', lang);
+  document.getElementById('langToggle').textContent = lang==='he'?'English':'עברית';
+  document.getElementById('h-title').textContent = T[lang].title;
+  document.getElementById('h-sub').textContent = T[lang].sub;
+  document.getElementById('h-src').textContent = T[lang].src(DATA.length);
+  document.getElementById('backLink').textContent = T[lang].back;
+  document.getElementById('p-label').textContent = T[lang].pLabel;
+  document.getElementById('search').placeholder = T[lang].searchPh;
+  renderHead(); populateFilters(); renderStatsAndProgress(); render();
+}
+function toggleLang(){ lang = lang==='en'?'he':'en'; applyLang(); }
+
+fetch('agent-kit/inventory-data.json').then(r=>r.json()).then(d=>{ DATA=d; applyLang(); })
+  .catch(e=>{ document.getElementById('tbody').innerHTML='<tr><td colspan="10">Could not load inventory data.</td></tr>'; });
+</script>
+<script src="assets/turtle-cursor.js" defer></script>
+</body>
+</html>

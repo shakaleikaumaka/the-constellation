@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kitchen Visual Build Guide 🍳🔨 | Turtle Ops — Terrible Turtle Camp</title>
+<meta name="description" content="Step-by-step visual guide to the Terrible Turtle Camp kitchen trailer: floor plan, propane cook line with heat shields, boil-in-bag reheat workflow, outside dish pit, greywater loop, and the cold chain. 6 illustrated steps.">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+  :root {
+    --tt-orange:#eb5833; --tt-coral:#fd6844; --tt-amber:#db9840; --tt-gold:#e5a14b;
+    --tt-red:#cc272e; --night:#030915; --night-2:#071123; --card:#0b1628; --card-2:#111b28;
+    --border:#1f2a38; --cream:#f7f0eb; --cream-dim:#ddd6d1; --sand:#8a7d75;
+    --radius:12px; --radius-lg:20px; --ok:#69db7c; --warn:#ffd43b; --bad:#ff8787; --aqua:#4dd4e8;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{font-family:'Rajdhani',sans-serif;background:var(--night);color:var(--cream);line-height:1.6;font-size:18px;}
+  .container{max-width:860px;margin:0 auto;padding:20px;}
+  a{color:var(--tt-orange);}
+  .topnav{padding:18px 0;font-weight:600;}
+  .topnav a{text-decoration:none;color:var(--tt-coral);}
+  .hero{text-align:center;padding:26px 10px 20px;}
+  .hero .icon{font-size:3rem;display:block;margin-bottom:8px;}
+  .hero h1{font-size:clamp(1.8rem,6.5vw,3rem);font-weight:700;text-transform:uppercase;letter-spacing:.02em;
+    background:linear-gradient(135deg,var(--cream) 20%,var(--aqua),var(--tt-orange));
+    -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:8px;}
+  .hero .sub{color:var(--cream-dim);font-size:1.1rem;max-width:660px;margin:0 auto;}
+  .badge{display:inline-block;padding:4px 14px;background:rgba(255,212,59,.1);color:var(--warn);
+    border:1px solid rgba(255,212,59,.4);border-radius:16px;font-size:.75rem;font-weight:700;
+    letter-spacing:.14em;text-transform:uppercase;margin-top:12px;}
+  .specbar{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin:18px 0;}
+  .spec{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:10px 18px;text-align:center;}
+  .spec .n{font-family:'JetBrains Mono',monospace;color:var(--tt-gold);font-weight:600;font-size:1.05rem;}
+  .spec .l{font-size:.75rem;color:var(--sand);text-transform:uppercase;letter-spacing:.1em;}
+  .step{background:var(--card);border:1px solid var(--border);border-radius:var(--radius-lg);margin:22px 0;overflow:hidden;}
+  .step-head{display:flex;align-items:center;gap:14px;padding:16px 22px;background:var(--card-2);border-bottom:1px solid var(--border);}
+  .step-num{min-width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,var(--aqua),var(--tt-orange));
+    display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1.25rem;color:#fff;}
+  .step-head h2{font-size:1.25rem;text-transform:uppercase;letter-spacing:.03em;}
+  .step-head .time{margin-left:auto;font-family:'JetBrains Mono',monospace;font-size:.75rem;color:var(--sand);white-space:nowrap;}
+  .step-body{padding:20px 22px;}
+  .fig{background:var(--night-2);border:1px solid var(--border);border-radius:var(--radius);padding:10px;margin-bottom:14px;}
+  .fig svg{width:100%;height:auto;display:block;}
+  .step-body ul{color:var(--cream-dim);margin:0 0 10px 22px;}
+  .step-body li{margin-bottom:7px;}
+  .step-body strong{color:var(--cream);}
+  .parts{font-family:'JetBrains Mono',monospace;font-size:.8rem;color:var(--sand);border-top:1px dashed var(--border);margin-top:12px;padding-top:10px;line-height:1.7;}
+  .parts b{color:var(--tt-gold);font-weight:600;}
+  .tip{border-left:3px solid var(--warn);background:rgba(255,212,59,.05);border-radius:0 var(--radius) var(--radius) 0;
+    padding:10px 15px;color:var(--cream-dim);font-size:.95rem;}
+  .tip strong{color:var(--warn);}
+  .tip.danger{border-left-color:var(--bad);}
+  .tip.danger strong{color:var(--bad);}
+  .tip.david{border-left-color:var(--tt-gold);}
+  .tip.david strong{color:var(--tt-gold);}
+  .tip + .tip{margin-top:10px;}
+  /* SVG shared classes */
+  svg .ttl{fill:#8a7d75;font:700 12px 'JetBrains Mono',monospace;letter-spacing:.08em;}
+  svg .lbl{fill:#f7f0eb;font:700 14px 'Rajdhani',sans-serif;}
+  svg .lbl2{fill:#ddd6d1;font:600 12.5px 'Rajdhani',sans-serif;}
+  svg .lblw{fill:#ffd43b;font:700 13px 'Rajdhani',sans-serif;}
+  svg .lblb{fill:#ff8787;font:700 13px 'Rajdhani',sans-serif;}
+  svg .lbla{fill:#4dd4e8;font:700 13px 'Rajdhani',sans-serif;}
+  svg .lblg{fill:#69db7c;font:700 13px 'Rajdhani',sans-serif;}
+  svg .dim{fill:#8a7d75;font:600 11px 'JetBrains Mono',monospace;}
+  svg .dimline{stroke:#8a7d75;stroke-width:1.2;stroke-dasharray:4 3;fill:none;}
+  svg .leader{stroke:#8a7d75;stroke-width:1.4;fill:none;}
+  svg .arrow{stroke:#4dd4e8;stroke-width:2.6;fill:none;marker-end:url(#arr3);}
+  svg .hose{stroke:#69db7c;stroke-width:4;fill:none;stroke-linecap:round;}
+  svg .whose{stroke:#e5a14b;stroke-width:4;fill:none;stroke-linecap:round;}
+  svg .ground{fill:#241d16;}
+  h3.sect{font-size:1.4rem;text-transform:uppercase;color:var(--tt-gold);margin:30px 0 10px;text-align:center;}
+  .panel{background:var(--card);border:1px solid var(--border);border-radius:var(--radius-lg);padding:22px;margin-bottom:14px;}
+  table.t{width:100%;border-collapse:collapse;font-size:.92rem;margin:8px 0;}
+  table.t th{color:var(--tt-amber);text-transform:uppercase;font-size:.72rem;letter-spacing:.1em;text-align:left;padding:6px;border-bottom:1px solid var(--border);}
+  table.t td{padding:6px;border-bottom:1px solid var(--border);color:var(--cream-dim);}
+  table.t td:first-child{color:var(--cream);font-weight:600;}
+  .footer{text-align:center;padding:36px 20px;border-top:1px solid var(--border);color:var(--sand);font-size:.95rem;margin-top:26px;}
+  .footer a{text-decoration:none;}
+  @media(max-width:640px){body{font-size:16px;}.container{padding:12px;}.step-body{padding:16px;}}
+</style>
+<link rel="stylesheet" href="assets/turtle-cursor.css">
+</head>
+<body>
+<div class="container">
+
+<nav class="topnav"><a href="./">← Back to Turtle Ops</a> · <a href="kitchen.html">🍳 Kitchen Playbook</a> · <a href="inventory.html">📦 Inventory</a></nav>
+
+<header class="hero">
+  <span class="icon">🍳🔨</span>
+  <h1>The Kitchen Build</h1>
+  <p class="sub">An 8×36 trailer becomes a reheat-and-serve machine: propane cook line, real cold chain, dish pit outside, and not one drop of greywater on the playa. Six pictures, straight from the kitchen planning doc. 🐢</p>
+  <span class="badge">🔥 cook line received ✅ · chest freezer still to buy 🛒 · meal strategy: frozen boil-in-bag</span>
+</header>
+
+<div class="specbar">
+  <div class="spec"><div class="n">8 × 36 ft</div><div class="l">kitchen trailer</div></div>
+  <div class="spec"><div class="n">300k BTU/hr</div><div class="l">cook line</div></div>
+  <div class="spec"><div class="n">30–45 min</div><div class="l">per boil batch</div></div>
+  <div class="spec"><div class="n">3 + 1</div><div class="l">fridges + freezer</div></div>
+  <div class="spec"><div class="n">0 drops</div><div class="l">greywater on playa</div></div>
+</div>
+
+<svg width="0" height="0" style="position:absolute"><defs>
+  <marker id="arr3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#4dd4e8"/>
+  </marker>
+</defs></svg>
+
+<!-- ============ STEP 1 — FLOOR PLAN ============ -->
+<div class="step" id="s1">
+  <div class="step-head"><div class="step-num">1</div><h2>The Trailer Floor Plan</h2><span class="time">8 ft × 36 ft · top-down</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 480 300">
+      <text x="14" y="18" class="ttl">KITCHEN TRAILER — TOP-DOWN FLOOR PLAN</text>
+      <!-- 36 ft dimension -->
+      <path class="dimline" d="M24 50 L456 50"/>
+      <path class="dimline" d="M24 44 L24 56 M456 44 L456 56"/>
+      <text x="240" y="42" class="dim" text-anchor="middle">36 ft</text>
+      <!-- 8 ft dimension -->
+      <path class="dimline" d="M14 100 L14 196"/>
+      <path class="dimline" d="M8 100 L20 100 M8 196 L20 196"/>
+      <text x="10" y="152" class="dim" text-anchor="middle" transform="rotate(-90 10 152)">8 ft</text>
+      <!-- top annotation rows -->
+      <text x="24" y="64" class="lbl2">▨ heat shields ⚠️ spec open (Jade)</text>
+      <path class="leader" d="M220 68 L220 100"/><circle cx="220" cy="102" r="2.5" fill="#8a7d75"/>
+      <text x="466" y="64" class="lbl2" text-anchor="end">⚡ power in via FLOOR pass-through</text>
+      <path class="leader" d="M370 68 L342 114"/><circle cx="342" cy="116" r="2.5" fill="#8a7d75"/>
+      <!-- propane tanks OUTSIDE, above the cook-line wall -->
+      <circle cx="110" cy="80" r="8" fill="#1c232c" stroke="#e5a14b" stroke-width="2"/>
+      <circle cx="136" cy="80" r="8" fill="#1c232c" stroke="#e5a14b" stroke-width="2"/>
+      <circle cx="162" cy="80" r="8" fill="#1c232c" stroke="#e5a14b" stroke-width="2"/>
+      <text x="180" y="84" class="lbl2">propane OUTSIDE 🛒 6× 20 lb</text>
+      <!-- trailer shell -->
+      <rect x="24" y="100" width="432" height="96" rx="6" fill="#0d1522" stroke="#8a7d75" stroke-width="2"/>
+      <!-- heat shield band along cook-line wall -->
+      <rect x="100" y="102" width="132" height="7" fill="rgba(255,135,135,.22)" stroke="#ff8787" stroke-width="1.2" stroke-dasharray="4 3"/>
+      <!-- range hood -->
+      <polygon points="104,113 224,113 212,104 116,104" fill="#2e3641" stroke="#8b97a3" stroke-width="1"/>
+      <!-- burners -->
+      <rect x="104" y="116" width="36" height="24" rx="3" fill="#1c232c" stroke="#e5a14b" stroke-width="1.6"/>
+      <circle cx="116" cy="128" r="6" fill="none" stroke="#fd6844" stroke-width="2"/>
+      <circle cx="130" cy="128" r="6" fill="none" stroke="#fd6844" stroke-width="2"/>
+      <rect x="146" y="116" width="36" height="24" rx="3" fill="#1c232c" stroke="#e5a14b" stroke-width="1.6"/>
+      <circle cx="158" cy="128" r="6" fill="none" stroke="#fd6844" stroke-width="2"/>
+      <circle cx="172" cy="128" r="6" fill="none" stroke="#fd6844" stroke-width="2"/>
+      <rect x="188" y="116" width="24" height="24" rx="3" fill="#1c232c" stroke="#e5a14b" stroke-width="1.6"/>
+      <circle cx="200" cy="128" r="6" fill="none" stroke="#fd6844" stroke-width="2"/>
+      <text x="104" y="154" class="lbl2">COOK LINE ✅</text>
+      <text x="104" y="170" class="lbl2">2× dual + BREWKIT2</text>
+      <!-- cold zone, left end -->
+      <rect x="30" y="106" width="26" height="20" rx="2" fill="#123043" stroke="#4dd4e8" stroke-width="1.6"/>
+      <rect x="30" y="130" width="26" height="20" rx="2" fill="#123043" stroke="#4dd4e8" stroke-width="1.6"/>
+      <rect x="30" y="154" width="26" height="20" rx="2" fill="#123043" stroke="#4dd4e8" stroke-width="1.6"/>
+      <rect x="30" y="176" width="52" height="16" rx="2" fill="#0e2438" stroke="#4dd4e8" stroke-width="1.6"/>
+      <!-- floor penetration -->
+      <circle cx="342" cy="122" r="7" fill="none" stroke="#ffd43b" stroke-width="2" stroke-dasharray="3 2"/>
+      <text x="342" y="126" class="lblw" font-size="11" text-anchor="middle">⚡</text>
+      <!-- prep tables -->
+      <rect x="250" y="112" width="80" height="24" rx="3" fill="#1a2532" stroke="#b4bec6" stroke-width="1.6"/>
+      <text x="290" y="128" class="lbl2" text-anchor="middle">PREP</text>
+      <rect x="250" y="150" width="80" height="24" rx="3" fill="#1a2532" stroke="#b4bec6" stroke-width="1.6"/>
+      <text x="290" y="166" class="lbl2" text-anchor="middle">PREP</text>
+      <!-- e-track rail along bottom wall -->
+      <rect x="100" y="188" width="140" height="5" fill="#2e3641"/>
+      <path d="M110 188 L110 193 M130 188 L130 193 M150 188 L150 193 M170 188 L170 193 M190 188 L190 193 M210 188 L210 193 M230 188 L230 193" stroke="#8b97a3" stroke-width="1.4"/>
+      <!-- sink by the door -->
+      <rect x="360" y="158" width="56" height="28" rx="3" fill="#123043" stroke="#4dd4e8" stroke-width="1.6"/>
+      <line x1="388" y1="158" x2="388" y2="186" stroke="#4dd4e8" stroke-width="1.2"/>
+      <!-- serving window gap in bottom wall -->
+      <rect x="248" y="193" width="64" height="7" fill="#030915"/>
+      <path d="M252 196 L240 208 M308 196 L320 208" stroke="#8a7d75" stroke-width="1.4"/>
+      <!-- door gap in right wall + swing -->
+      <rect x="452" y="122" width="8" height="34" fill="#030915"/>
+      <path d="M452 122 A34 34 0 0 0 418 156" stroke="#8a7d75" stroke-width="1.4" stroke-dasharray="4 3" fill="none"/>
+      <!-- bottom labels -->
+      <text x="96" y="212" class="lbl2">e-track rail — confirm?</text>
+      <text x="246" y="212" class="lbl">SERVING WINDOW ↓</text>
+      <text x="370" y="212" class="lbl2">2-comp sink 🛒</text>
+      <text x="96" y="230" class="lbl2">❄ cold zone: 3× fridges 🛒 · freezer ⚠️ NOT BOUGHT</text>
+      <path class="leader" d="M110 224 L56 198"/><circle cx="56" cy="196" r="2.5" fill="#8a7d75"/>
+      <text x="270" y="244" class="lbl2">door → dish pit outside (step 4)</text>
+      <path class="leader" d="M400 238 L450 164"/><circle cx="450" cy="166" r="2.5" fill="#8a7d75"/>
+      <text x="14" y="278" class="lbl2">🐢 everything rides inside on e-track — the trailer is the turtle's shell</text>
+    </svg></div>
+    <ul>
+      <li><strong>One wall does the hot work:</strong> both Backyard Pro dual ranges plus the BREWKIT2 single line up under the range hood, heat-shield panels behind them, propane tanks outside the same wall.</li>
+      <li><strong>Cold lives at the back:</strong> 3 fridges stacked in the service zone with the chest freezer as deep reserve — short walk from freezer → prep → cook line.</li>
+      <li><strong>Sink by the door:</strong> dirty water never travels deep into the trailer; the dish pit and handwash station are just outside.</li>
+      <li><strong>Serving window on the long wall</strong> — campers queue on the playa side under an awning, crew stays inside.</li>
+      <li><strong>All cable penetrations through the FLOOR, never the walls</strong> (David's rule, 7/16) — one marked pass-through near the power drop.</li>
+    </ul>
+    <div class="parts"><b>Parts/status:</b> 2-comp Regency sink — 🛒 ordered · 3× GE 16.6 cu ft fridges — 🛒 ordered · chest freezer 20 cu ft — ⚠️ NOT BOUGHT, HIGH priority (David: "just buy it") · stainless prep tables + e-track — confirm status in inventory</div>
+  </div>
+</div>
+
+<!-- ============ STEP 2 — COOK LINE ============ -->
+<div class="step" id="s2">
+  <div class="step-head"><div class="step-num">2</div><h2>The Cook Line &amp; Heat Shields</h2><span class="time">elevation view · propane rules</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 480 344">
+      <text x="14" y="18" class="ttl">COOK LINE ELEVATION — SHIELDS BEHIND, TANKS OUTSIDE</text>
+      <!-- interior wall -->
+      <rect x="40" y="40" width="290" height="200" fill="#0d1522" stroke="#8a7d75" stroke-width="2"/>
+      <!-- heat shield panels on standoffs -->
+      <rect x="56" y="64" width="120" height="106" fill="#2a2320" stroke="#ff8787" stroke-width="2"/>
+      <circle cx="62" cy="70" r="2.6" fill="#e5a14b"/><circle cx="170" cy="70" r="2.6" fill="#e5a14b"/>
+      <circle cx="62" cy="164" r="2.6" fill="#e5a14b"/><circle cx="170" cy="164" r="2.6" fill="#e5a14b"/>
+      <text x="60" y="60" class="lblb">heat-shield panels — ⚠️ spec OPEN (Jade)</text>
+      <!-- standoff detail bubble -->
+      <circle cx="404" cy="78" r="34" fill="#0b1628" stroke="#ffd43b" stroke-width="2"/>
+      <line x1="392" y1="54" x2="392" y2="102" stroke="#8a7d75" stroke-width="3.5"/>
+      <line x1="412" y1="54" x2="412" y2="102" stroke="#ff8787" stroke-width="3.5"/>
+      <path class="dimline" d="M392 84 L412 84"/>
+      <text x="402" y="80" class="dim" text-anchor="middle">1"</text>
+      <text x="404" y="126" class="lblw" text-anchor="middle">standoff detail: 1" air gap</text>
+      <path class="leader" d="M372 84 L178 90"/><circle cx="176" cy="90" r="2.5" fill="#8a7d75"/>
+      <!-- burners -->
+      <rect x="60" y="176" width="52" height="62" rx="3" fill="#1c232c" stroke="#b4bec6" stroke-width="1.6"/>
+      <circle cx="74" cy="176" r="9" fill="none" stroke="#fd6844" stroke-width="2.4"/>
+      <circle cx="98" cy="176" r="9" fill="none" stroke="#fd6844" stroke-width="2.4"/>
+      <path d="M70 168 L74 158 L78 168 Z M94 168 L98 158 L102 168 Z" fill="#fd6844"/>
+      <rect x="122" y="176" width="52" height="62" rx="3" fill="#1c232c" stroke="#b4bec6" stroke-width="1.6"/>
+      <circle cx="136" cy="176" r="9" fill="none" stroke="#fd6844" stroke-width="2.4"/>
+      <circle cx="160" cy="176" r="9" fill="none" stroke="#fd6844" stroke-width="2.4"/>
+      <path d="M132 168 L136 158 L140 168 Z M156 168 L160 158 L164 168 Z" fill="#fd6844"/>
+      <rect x="196" y="188" width="34" height="50" rx="3" fill="#1c232c" stroke="#b4bec6" stroke-width="1.6"/>
+      <circle cx="213" cy="188" r="9" fill="none" stroke="#fd6844" stroke-width="2.4"/>
+      <text x="60" y="270" class="lbl2">2× dual Backyard Pro (150k BTU/hr each) + BREWKIT2 single ✅ received</text>
+      <!-- extinguisher + blanket -->
+      <rect x="266" y="176" width="18" height="42" rx="7" fill="#cc272e" stroke="#8e2a20" stroke-width="1.4"/>
+      <rect x="271" y="168" width="8" height="10" rx="2" fill="#8e2a20"/>
+      <rect x="292" y="182" width="26" height="30" rx="3" fill="#ffd43b" stroke="#db9840" stroke-width="1.4"/>
+      <text x="305" y="200" text-anchor="middle" fill="#7a4d00" font-family="Rajdhani,sans-serif" font-weight="700" font-size="9">FIRE</text>
+      <text x="250" y="136" class="lbl2">extinguisher</text>
+      <text x="250" y="150" class="lbl2">(Class K/ABC)</text>
+      <text x="250" y="164" class="lbl2">+ fire blanket</text>
+      <path class="leader" d="M272 168 L278 180"/><circle cx="278" cy="182" r="2.5" fill="#8a7d75"/>
+      <!-- floor + penetration -->
+      <rect x="30" y="238" width="300" height="7" class="ground"/>
+      <circle cx="110" cy="242" r="7" fill="none" stroke="#ffd43b" stroke-width="2" stroke-dasharray="3 2"/>
+      <!-- trailer wall cross-section -->
+      <line x1="330" y1="40" x2="330" y2="245" class="dimline"/>
+      <text x="334" y="56" class="dim">trailer wall</text>
+      <!-- propane hose: burner → floor → under trailer → tanks -->
+      <path class="whose" d="M86 238 L86 250 C 86 262, 240 260, 320 252 C 350 249, 368 236, 372 216"/>
+      <text x="240" y="288" class="lbl2" text-anchor="middle">10 PSI hose + regulator — ships with the Backyard Pro, no manifold</text>
+      <!-- tanks outside -->
+      <rect x="348" y="184" width="24" height="54" rx="10" fill="#1c232c" stroke="#e5a14b" stroke-width="2"/>
+      <rect x="378" y="184" width="24" height="54" rx="10" fill="#1c232c" stroke="#e5a14b" stroke-width="2"/>
+      <rect x="408" y="184" width="24" height="54" rx="10" fill="#1c232c" stroke="#e5a14b" stroke-width="2"/>
+      <rect x="356" y="178" width="8" height="8" rx="2" fill="#e5a14b"/>
+      <rect x="386" y="178" width="8" height="8" rx="2" fill="#e5a14b"/>
+      <rect x="416" y="178" width="8" height="8" rx="2" fill="#e5a14b"/>
+      <rect x="336" y="238" width="130" height="7" class="ground"/>
+      <text x="344" y="178" class="lblw">tanks OUTSIDE — always</text>
+      <text x="14" y="306" class="lblw">⚠️ propane is heavier than air — it pools LOW.</text>
+      <text x="14" y="322" class="lblw">Ventilate at floor level · cylinders NEVER stored inside</text>
+      <text x="14" y="338" class="lbl2">🐢 20 lb tanks freeze up above ~90–110k BTU/hr — math in the bullets</text>
+    </svg></div>
+    <ul>
+      <li><strong>The workhorse:</strong> 2× Backyard Pro dual propane ranges, 150,000 BTU/hr each — 300k BTU/hr total. Each ships with its own 10 PSI hose + regulator, so no separate manifold.</li>
+      <li><strong>Heat shielding behind the ranges is a flagged, open item</strong> — panels on 1" standoffs so air washes the wall. Spec and procurement still needed before build week.</li>
+      <li><strong>Tank-size math:</strong> a 20 lb cylinder can only <em>deliver</em> ~90–110k BTU/hr before it freezes up. A 40 lb tank delivers ~150–185k, a 100 lb tank 300k+. Running a range hard? Size up cylinders or run two tanks with a switchover.</li>
+      <li><strong>Fire kit within reach of every cook station:</strong> Class K or ABC extinguisher + fire blanket. Four extinguishers and two blankets are in the camp safety kit.</li>
+      <li><strong>All heat is propane this year</strong> — no electric heat appliances on David's 70A grid (no microwave, no toaster oven; coffee = pump pots + #6 cone filters).</li>
+    </ul>
+    <div class="parts"><b>Parts/status:</b> 2× Backyard Pro dual ranges — ✅ received · BREWKIT2 single — confirm status · 6× 20 lb propane tanks — 🛒 NOT bought · heat-shield panels — ⚠️ spec open (Jade) · extinguishers + blankets — in safety kit, verify received</div>
+    <div class="tip danger"><strong>Never improvise gas work.</strong> This page documents the camp's plan — anything structural, electrical, or propane gets signed off by the camp's qualified people (David / Jarrett) before it's final.</div>
+  </div>
+</div>
+
+<!-- ============ STEP 3 — BOIL-IN-BAG WORKFLOW ============ -->
+<div class="step" id="s3">
+  <div class="step-head"><div class="step-num">3</div><h2>The Boil-in-Bag Workflow</h2><span class="time">reheat &amp; serve — NOT cooking</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 480 320">
+      <text x="14" y="20" class="ttl">ONE MEAL SERVICE, START TO FINISH</text>
+      <text x="240" y="46" class="lblw" text-anchor="middle" font-size="17">REHEAT &amp; SERVE — THE KITCHEN DOESN'T COOK</text>
+      <!-- row 1 -->
+      <rect x="16" y="66" width="132" height="66" rx="10" fill="#0d1522" stroke="#4dd4e8" stroke-width="2"/>
+      <text x="82" y="92" text-anchor="middle" font-size="20">❄️</text>
+      <text x="82" y="110" class="lbl" text-anchor="middle">FROZEN BAGS</text>
+      <text x="82" y="124" class="lbl2" text-anchor="middle" font-size="11">pre-cooked, sealed</text>
+      <path class="arrow" d="M152 99 L168 99"/>
+      <rect x="174" y="66" width="132" height="66" rx="10" fill="#0d1522" stroke="#fd6844" stroke-width="2"/>
+      <text x="240" y="92" text-anchor="middle" font-size="20">🍲</text>
+      <text x="240" y="110" class="lbl" text-anchor="middle">BOIL 30–45 MIN</text>
+      <text x="240" y="124" class="lbl2" text-anchor="middle" font-size="11">big pot · rolling boil</text>
+      <path class="arrow" d="M310 99 L326 99"/>
+      <rect x="332" y="66" width="132" height="66" rx="10" fill="#0d1522" stroke="#ffd43b" stroke-width="2"/>
+      <text x="398" y="92" text-anchor="middle" font-size="20">🌡️</text>
+      <text x="398" y="110" class="lbl" text-anchor="middle">TEMP CHECK</text>
+      <text x="398" y="124" class="lbl2" text-anchor="middle" font-size="11">instant-read ✔ hot</text>
+      <path class="arrow" d="M398 136 L398 168"/>
+      <!-- row 2 (snakes right to left) -->
+      <rect x="332" y="174" width="132" height="66" rx="10" fill="#0d1522" stroke="#e5a14b" stroke-width="2"/>
+      <text x="398" y="200" text-anchor="middle" font-size="20">🥘</text>
+      <text x="398" y="218" class="lbl" text-anchor="middle">HOT HOLD</text>
+      <text x="398" y="232" class="lbl2" text-anchor="middle" font-size="11">hotel pans · LIDS ON (dust)</text>
+      <path class="arrow" d="M328 207 L312 207"/>
+      <rect x="174" y="174" width="132" height="66" rx="10" fill="#0d1522" stroke="#e5a14b" stroke-width="2"/>
+      <text x="240" y="200" text-anchor="middle" font-size="20">🥄</text>
+      <text x="240" y="218" class="lbl" text-anchor="middle">SERVING LINE</text>
+      <text x="240" y="232" class="lbl2" text-anchor="middle" font-size="11">ladles · posted times</text>
+      <path class="arrow" d="M170 207 L154 207"/>
+      <rect x="16" y="174" width="132" height="66" rx="10" fill="#0d1522" stroke="#69db7c" stroke-width="2"/>
+      <text x="82" y="200" text-anchor="middle" font-size="20">🍽️</text>
+      <text x="82" y="218" class="lbl" text-anchor="middle">DISPOSABLES</text>
+      <text x="82" y="232" class="lbl2" text-anchor="middle" font-size="11">paper → bag trash NOW!</text>
+      <text x="14" y="286" class="lbl2">big burner = workhorse · camp stoves = backup (coffee, eggs) ☕🍳</text>
+      <text x="14" y="306" class="lbl2">🐢 long tongs or a slotted spoon pull hot bags — fingers never go near the pot</text>
+    </svg></div>
+    <ul>
+      <li><strong>The strategy shift (kitchen planning doc, 7/25):</strong> fully cooked, frozen, pre-ordered meals. Bags submerge in a big pot of boiling water — <strong>~30–45 minutes per batch</strong> — then go straight to hot-hold and the line.</li>
+      <li><strong>Must-haves for the reheat loop:</strong> stock pots big enough to submerge multiple bags at once, long tongs/slotted spoon, a timer, and an instant-read thermometer (confirm water temp, verify food temp).</li>
+      <li><strong>Hot-hold matters on playa:</strong> hotel pans or chafing dishes with lids — wind and dust are always trying to eat first.</li>
+      <li><strong>Strong case for disposable plates/bowls</strong> — it eliminates an entire dishwashing loop and saves serious water. Bag trash immediately so it never becomes MOOP.</li>
+      <li><strong>Throughput is the open question:</strong> how many bags fit per pot, and is one batch enough for a full service? That's for the kitchen meeting (see the list at the bottom).</li>
+    </ul>
+    <div class="parts"><b>Parts/status:</b> large stock pots — 🛒 to source (must fit the big burner) · hotel pans / chafing dishes — 🛒 to source · instant-read thermometer + timer + long tongs — 🛒 to source · disposable serviceware — qty TBD at kitchen meeting</div>
+  </div>
+</div>
+
+<!-- ============ STEP 4 — WASH STATION ============ -->
+<div class="step" id="s4">
+  <div class="step-head"><div class="step-num">4</div><h2>The Dish Pit — Outside the Trailer</h2><span class="time">wash · rinse · sanitize</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 480 300">
+      <text x="14" y="20" class="ttl">WASH STATION — JUST OUTSIDE THE DOOR</text>
+      <!-- trailer edge -->
+      <rect x="4" y="56" width="26" height="176" fill="#0d1522" stroke="#8a7d75" stroke-width="1.6" stroke-dasharray="5 4"/>
+      <text x="17" y="150" class="dim" text-anchor="middle" transform="rotate(-90 17 150)">TRAILER</text>
+      <!-- scrape station -->
+      <rect x="48" y="172" width="34" height="44" rx="4" fill="#1c232c" stroke="#b4bec6" stroke-width="1.6"/>
+      <path d="M52 172 L78 160" stroke="#e5a14b" stroke-width="3.5" stroke-linecap="round"/>
+      <text x="40" y="248" class="lbl2">SCRAPE first —</text>
+      <text x="40" y="264" class="lbl2">bench scraper → trash</text>
+      <path class="arrow" d="M86 186 L118 186"/>
+      <!-- 3 tubs on table -->
+      <rect x="122" y="158" width="224" height="9" fill="#2e3641"/>
+      <rect x="130" y="167" width="7" height="56" fill="#2e3641"/>
+      <rect x="331" y="167" width="7" height="56" fill="#2e3641"/>
+      <rect x="128" y="126" width="64" height="32" rx="4" fill="#123043" stroke="#4dd4e8" stroke-width="1.8"/>
+      <rect x="202" y="126" width="64" height="32" rx="4" fill="#123043" stroke="#4dd4e8" stroke-width="1.8"/>
+      <rect x="276" y="126" width="64" height="32" rx="4" fill="#123043" stroke="#4dd4e8" stroke-width="1.8"/>
+      <path d="M132 136 L188 136 M206 136 L262 136 M280 136 L336 136" stroke="#4dd4e8" stroke-width="1.2" stroke-dasharray="3 3"/>
+      <text x="160" y="151" class="lbla" text-anchor="middle">1 WASH</text>
+      <text x="234" y="151" class="lbla" text-anchor="middle">2 RINSE</text>
+      <text x="308" y="151" class="lbla" text-anchor="middle">3 SANITIZE</text>
+      <path class="arrow" d="M194 142 L200 142 M268 142 L274 142"/>
+      <text x="128" y="118" class="lbl2">biodegradable soap</text>
+      <text x="276" y="118" class="lbl2">sanitizer rinse</text>
+      <!-- handwash station -->
+      <rect x="392" y="106" width="36" height="32" rx="4" fill="#123043" stroke="#4dd4e8" stroke-width="1.8"/>
+      <rect x="406" y="138" width="8" height="8" fill="#e5a14b"/>
+      <rect x="388" y="162" width="44" height="8" fill="#2e3641"/>
+      <rect x="392" y="170" width="6" height="50" fill="#2e3641"/>
+      <rect x="424" y="170" width="6" height="50" fill="#2e3641"/>
+      <rect x="400" y="186" width="24" height="24" rx="3" fill="#1c232c" stroke="#b4bec6" stroke-width="1.4"/>
+      <text x="356" y="248" class="lblw">HANDWASH — separate</text>
+      <text x="356" y="264" class="lblw">station, required ⚠️</text>
+      <text x="356" y="90" class="lbl2">jug + spigot + soap</text>
+      <text x="356" y="282" class="lbl2">catch bucket below</text>
+      <!-- greywater out -->
+      <path class="arrow" d="M234 172 L234 236"/>
+      <text x="200" y="282" class="lbl2">greywater → step 5 loop 🐢</text>
+    </svg></div>
+    <ul>
+      <li><strong>Three tubs, in order: wash → rinse → sanitize.</strong> Biodegradable dish soap only — everything eventually evaporates or hauls out.</li>
+      <li><strong>Scrape before you wash:</strong> rubber bench scrapers send food solids to the trash, not the tubs. This one habit saves more water than any gadget.</li>
+      <li><strong>The handwash station is separate and non-negotiable</strong> — food-safety requires it apart from the dish pit, and it's one of our flagged open items: jug with spigot, soap, paper towels, catch bucket.</li>
+      <li><strong>Keep the whole pit outside the trailer</strong> — splashes, suds, and greywater handling stay out of the food zone.</li>
+      <li><strong>Cut high-crevice tools</strong> (graters, mandolines, immersion blenders) and buy pre-prepped ingredients — less to wash, less water hauled.</li>
+    </ul>
+    <div class="parts"><b>Parts/status:</b> 3 dish tubs — 🛒 to source · rubber bench scrapers — 🛒 to source · biodegradable soap + paper towels — 🛒 to source · handwash station — ⚠️ flagged item, spec needed · 2× SHURflo pumps — ✅ received (fresh/grey transfer)</div>
+  </div>
+</div>
+
+<!-- ============ STEP 5 — GREYWATER LOOP ============ -->
+<div class="step" id="s5">
+  <div class="step-head"><div class="step-num">5</div><h2>The Greywater Loop</h2><span class="time">LNT — non-negotiable</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 480 300">
+      <text x="14" y="20" class="ttl">EVERY DROP IS ACCOUNTED FOR</text>
+      <!-- sources -->
+      <rect x="20" y="70" width="56" height="30" rx="4" fill="#123043" stroke="#4dd4e8" stroke-width="1.8"/>
+      <line x1="48" y1="70" x2="48" y2="100" stroke="#4dd4e8" stroke-width="1.2"/>
+      <rect x="20" y="112" width="56" height="30" rx="4" fill="#123043" stroke="#4dd4e8" stroke-width="1.8"/>
+      <text x="14" y="60" class="lbl2">sink + dish tubs</text>
+      <path class="arrow" d="M80 96 L136 112"/>
+      <!-- collection containers -->
+      <rect x="142" y="86" width="42" height="56" rx="5" fill="#1c232c" stroke="#e5a14b" stroke-width="2"/>
+      <rect x="190" y="86" width="42" height="56" rx="5" fill="#1c232c" stroke="#e5a14b" stroke-width="2"/>
+      <text x="134" y="162" class="lbl2">greywater collection</text>
+      <text x="134" y="178" class="lbl2">containers</text>
+      <path class="arrow" d="M236 114 L274 114"/>
+      <!-- pump -->
+      <rect x="280" y="96" width="46" height="36" rx="6" fill="#0e2438" stroke="#4dd4e8" stroke-width="2"/>
+      <circle cx="303" cy="114" r="9" fill="none" stroke="#4dd4e8" stroke-width="2"/>
+      <text x="268" y="152" class="lbl2">waste pump ✅</text>
+      <text x="268" y="168" class="lbl2">SHURflo ×2 received</text>
+      <!-- evaporation path -->
+      <path class="arrow" d="M326 100 C 360 80, 380 66, 396 52"/>
+      <circle cx="430" cy="38" r="14" fill="none" stroke="#ffd43b" stroke-width="3"/>
+      <path d="M430 16 L430 22 M430 54 L430 60 M408 38 L414 38 M446 38 L452 38 M415 23 L419 27 M441 49 L445 53 M445 23 L441 27 M419 49 L415 53" stroke="#ffd43b" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M400 44 C 404 40, 408 48, 412 44 M408 60 C 412 56, 416 64, 420 60" stroke="#4dd4e8" stroke-width="2" fill="none"/>
+      <text x="408" y="42" class="lblg" text-anchor="end">EVAPORATE — non-negotiable</text>
+      <text x="352" y="90" class="lbl2">evap system: sourced?</text>
+      <text x="352" y="104" class="lbl2">⚠️ meeting question</text>
+      <!-- haul-out path -->
+      <path class="arrow" d="M326 126 C 360 140, 380 156, 396 176"/>
+      <rect x="400" y="180" width="46" height="52" rx="6" fill="#1c232c" stroke="#b4bec6" stroke-width="2"/>
+      <text x="423" y="210" class="lbl2" text-anchor="middle" font-size="11">tote</text>
+      <text x="392" y="252" class="lbl2">haul-out backup</text>
+      <!-- playa + zero drops -->
+      <rect x="14" y="252" width="330" height="9" class="ground"/>
+      <g transform="rotate(-6 90 220)">
+        <rect x="34" y="196" width="112" height="44" rx="9" fill="none" stroke="#69db7c" stroke-width="3.5"/>
+        <text x="90" y="216" class="lblg" text-anchor="middle" font-size="15">ZERO</text>
+        <text x="90" y="232" class="lblg" text-anchor="middle" font-size="15">DROPS</text>
+      </g>
+      <text x="160" y="224" class="lbl2">not one drop hits the playa — LNT 🌱</text>
+      <text x="14" y="286" class="lbl2">🐢 mesh-filter every pour — food solids go to trash, never into the evap bed</text>
+    </svg></div>
+    <ul>
+      <li><strong>The rule is absolute:</strong> no greywater drains onto the playa. Sink and dish tubs dump into collection containers — nothing overflows, nothing spills.</li>
+      <li><strong>Evaporation is the plan of record</strong> ("non-negotiable at BM" per the planning doc), with a haul-out tote as the backup path. The exact evap system still needs to be sourced — it's an open question for the meeting.</li>
+      <li><strong>The SHURflo diaphragm pumps (✅ received)</strong> move water where muscle can't — fresh water in, greywater out. Practice with them before the playa.</li>
+      <li><strong>Solids never enter the loop:</strong> scrape first, filter every pour. An evap bed clogged with food is a MOOP factory.</li>
+      <li>Mark greywater hoses and containers <strong>WASTE</strong> — anything that touches waste stays waste forever.</li>
+    </ul>
+    <div class="parts"><b>Parts/status:</b> 2× PENTAIR SHURflo pumps — ✅ received · greywater collection containers — 🛒 to source · evaporation system — ⚠️ not yet sourced (meeting question) · waste-marked hoses — buy double, mark 2 WASTE</div>
+  </div>
+</div>
+
+<!-- ============ STEP 6 — COLD CHAIN ============ -->
+<div class="step" id="s6">
+  <div class="step-head"><div class="step-num">6</div><h2>The Cold Chain Map</h2><span class="time">everything under shade</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 480 300">
+      <text x="14" y="20" class="ttl">COLD CHAIN — SHADE FIRST, THEN ICE COLD</text>
+      <!-- shade canopy -->
+      <rect x="24" y="40" width="432" height="8" rx="3" fill="#2e3641" stroke="#8b97a3" stroke-width="1.4"/>
+      <path d="M44 48 L44 246 M436 48 L436 246" stroke="#8a7d75" stroke-width="2.4"/>
+      <path d="M24 48 L456 48" stroke="#e5a14b" stroke-width="1.4" stroke-dasharray="6 5"/>
+      <text x="34" y="34" class="lbl2">ALUMINET SHADE — compressors never see direct sun</text>
+      <!-- chest freezer -->
+      <rect x="44" y="140" width="112" height="76" rx="8" fill="#0e2438" stroke="#4dd4e8" stroke-width="2.4"/>
+      <line x1="44" y1="160" x2="156" y2="160" stroke="#4dd4e8" stroke-width="1.6"/>
+      <text x="100" y="190" text-anchor="middle" font-size="22">❄️</text>
+      <text x="44" y="238" class="lbl">CHEST FREEZER</text>
+      <text x="44" y="254" class="lbl2">deep reserve · open 1×/day</text>
+      <text x="44" y="270" class="lblb">⚠️ NOT BOUGHT — HIGH</text>
+      <text x="44" y="286" class="lbl2">Honda 2200i = backup</text>
+      <!-- fridges -->
+      <rect x="212" y="118" width="38" height="98" rx="5" fill="#0e2438" stroke="#4dd4e8" stroke-width="2"/>
+      <rect x="256" y="118" width="38" height="98" rx="5" fill="#0e2438" stroke="#4dd4e8" stroke-width="2"/>
+      <rect x="300" y="118" width="38" height="98" rx="5" fill="#0e2438" stroke="#4dd4e8" stroke-width="2"/>
+      <text x="212" y="238" class="lbl">3× FRIDGES</text>
+      <text x="212" y="254" class="lbl2">daily service · ≤40°F</text>
+      <text x="212" y="270" class="lbl2">🛒 ordered (GE 16.6 cu ft)</text>
+      <!-- daily transfer arrow -->
+      <path class="arrow" d="M160 168 L206 168"/>
+      <text x="160" y="158" class="dim">daily</text>
+      <!-- veggie coffin -->
+      <rect x="366" y="146" width="90" height="70" rx="8" fill="#12241a" stroke="#69db7c" stroke-width="2.4"/>
+      <text x="411" y="186" text-anchor="middle" font-size="20">🥬</text>
+      <text x="366" y="238" class="lbl">VEGGIE COFFIN</text>
+      <text x="366" y="254" class="lbl2">produce · ¾ built 🔨</text>
+      <path class="arrow" d="M362 178 L344 178"/>
+      <text x="334" y="164" class="dim">prep</text>
+      <!-- sun, defeated -->
+      <circle cx="466" cy="66" r="11" fill="none" stroke="#ff8787" stroke-width="2.6"/>
+      <path d="M458 58 L474 74" stroke="#ff8787" stroke-width="2.6" stroke-linecap="round"/>
+      <text x="14" y="296" class="lbl2">🐢 shade first, then ice cold — every open lid is compressor hours on a 70A grid</text>
+    </svg></div>
+    <ul>
+      <li><strong>Three tiers of cold:</strong> chest freezer = deep reserve (frozen meal bags), 3 fridges = daily service, veggie coffin = produce. Each tier opens less often than the one after it.</li>
+      <li><strong>Freezer discipline:</strong> open once a day, pull the day's bags into a fridge to stage, close it. Every open lid is compressor hours on a grid with a 70A limit.</li>
+      <li><strong>The chest freezer is the #1 kitchen buy</strong> — 20 cu ft chest, GE/Frigidaire class, 120V. David's word (7/16): "just buy it."</li>
+      <li><strong>Shade is part of the cold chain:</strong> Aluminet over every compressor. A fridge in direct playa sun loses the fight by noon.</li>
+      <li><strong>Backup power:</strong> the Honda 2200i is earmarked as the freezer's safety net if the camp grid hiccups.</li>
+    </ul>
+    <div class="parts"><b>Parts/status:</b> chest freezer 20 cu ft — ⚠️ NOT BOUGHT, HIGH (just buy it) · 3× GE 16.6 cu ft fridges — 🛒 ordered · veggie coffin cold box — 🔨 ¾ built (<a href="coffin-build.html">12-step build guide</a>) · Honda 2200i backup — under consideration</div>
+  </div>
+</div>
+
+<!-- MATERIALS -->
+<h3 class="sect">📋 Kitchen Materials at a Glance</h3>
+<div class="panel">
+  <table class="t">
+    <tr><th>Item</th><th>Qty</th><th>Status</th><th>Step</th></tr>
+    <tr><td>Backyard Pro dual propane ranges (150k BTU/hr ea)</td><td>2</td><td>✅ received</td><td>1–2</td></tr>
+    <tr><td>Backyard Pro BREWKIT2 single burner</td><td>1</td><td>confirm status</td><td>1–2</td></tr>
+    <tr><td>Heat-shield panels + 1" standoffs</td><td>set</td><td>⚠️ spec open — flagged (Jade)</td><td>2</td></tr>
+    <tr><td>Propane tanks 20 lb (see tank-size math)</td><td>6</td><td>🛒 NOT bought</td><td>2</td></tr>
+    <tr><td>GE 16.6 cu ft refrigerators</td><td>3</td><td>🛒 ordered</td><td>1, 6</td></tr>
+    <tr><td>Chest freezer ~20 cu ft (GE/Frigidaire, 120V)</td><td>1</td><td>⚠️ NOT bought — HIGH, "just buy it"</td><td>1, 6</td></tr>
+    <tr><td>Regency 2-compartment sink w/ drainboards</td><td>1</td><td>🛒 ordered</td><td>1</td></tr>
+    <tr><td>PENTAIR SHURflo diaphragm pumps</td><td>2</td><td>✅ received</td><td>4–5</td></tr>
+    <tr><td>Large stock pots (fit the big burner, multi-bag)</td><td>2+</td><td>🛒 to source</td><td>3</td></tr>
+    <tr><td>Hotel pans / chafing dishes + lids · ladles · tongs · timer · thermometer</td><td>set</td><td>🛒 to source</td><td>3</td></tr>
+    <tr><td>Dish tubs ×3 · bench scrapers · biodegradable soap · paper towels</td><td>set</td><td>🛒 to source</td><td>4</td></tr>
+    <tr><td>Handwash station (jug + spigot, soap, catch bucket)</td><td>1</td><td>⚠️ flagged — spec needed</td><td>4</td></tr>
+    <tr><td>Greywater evaporation system + collection containers</td><td>set</td><td>⚠️ not yet sourced</td><td>5</td></tr>
+    <tr><td>Disposable plates/bowls/cups/cutlery</td><td>TBD</td><td>qty decided at kitchen meeting</td><td>3</td></tr>
+    <tr><td>Fire extinguishers (Class K/ABC) + fire blankets</td><td>4 + 2</td><td>in safety kit — verify received</td><td>2</td></tr>
+  </table>
+  <p style="color:var(--cream-dim);margin-top:8px;">Live counts always win over this table — check the <a href="inventory.html">Inventory Command Center</a> before any supply run. 🐢</p>
+</div>
+
+<!-- OPEN QUESTIONS -->
+<h3 class="sect">❓ Open Questions for the Kitchen Meeting</h3>
+<div class="panel">
+  <p style="color:var(--cream-dim);margin-bottom:12px;">Straight from the kitchen planning doc (7/25) — answer these before the menus and the shopping list get locked:</p>
+  <ul style="color:var(--cream-dim);margin-left:22px;">
+    <li style="margin-bottom:7px;"><strong style="color:var(--cream);">Headcount &amp; throughput:</strong> how many people are we feeding? How many meals per day — all pre-ordered, or just some? At 30–45 min per batch, how many bags fit in our pots at once — is that one-batch service or multiple rounds? What's the target service window?</li>
+    <li style="margin-bottom:7px;"><strong style="color:var(--cream);">Meals &amp; packaging:</strong> are the meals true boil-in-bag (vacuum sealed) or containers going into a water bath? How many meals total (people × days × meals/day)? Storage plan — frozen until day-of, or refrigerate-and-cycle? Is the vendor confirmed and the packaging method verified with them?</li>
+    <li style="margin-bottom:7px;"><strong style="color:var(--cream);">Propane:</strong> how many tanks are we bringing? Burn time per tank at full-boil? Boils/day × days = total burn hours — do we have enough, or size up? Who monitors fuel daily?</li>
+    <li style="margin-bottom:7px;"><strong style="color:var(--cream);">Water:</strong> total gallons hauled? Split between drinking / boiling / washing? Greywater — evap tank, haul out, or both? Any mid-week resupply, or fully self-sufficient?</li>
+    <li style="margin-bottom:7px;"><strong style="color:var(--cream);">Logistics &amp; roles:</strong> who runs each meal — designated crew or rotating? What time is food ready, and is the schedule posted? Who owns propane checks and refill? What's the buffer plan if a batch runs long?</li>
+    <li><strong style="color:var(--cream);">Equipment gaps:</strong> do our stock pots fit the big burner AND hold a full batch? Is the greywater evap system sourced? Do we have chafing/insulated hot-hold? Is the extinguisher rated for grease/propane (Class K or ABC)?</li>
+  </ul>
+</div>
+
+<footer class="footer">
+  <p>🐢 <a href="./">Turtle Ops</a> · meal strategy: kitchen planning doc 7/25 · visuals by Terri · <a href="https://terribleturtle.camp/" target="_blank">terribleturtle.camp</a></p>
+  <p style="margin-top:6px;color:var(--tt-amber);">Move Slow &amp; Bite Things.</p>
+</footer>
+
+</div>
+<script src="assets/turtle-cursor.js" defer></script>
+</body>
+</html>

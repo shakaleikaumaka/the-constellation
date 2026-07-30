@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Turtle Crew 🐢 | Turtle Ops — Terrible Turtle Camp</title>
+<meta name="description" content="The amazing contributors building Terrible Turtle Camp for Burning Man 2026.">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+  :root {
+    --tt-orange:#eb5833; --tt-coral:#fd6844; --tt-amber:#db9840; --tt-gold:#e5a14b;
+    --tt-red:#cc272e; --night:#030915; --card:#0b1628; --card-2:#111b28;
+    --border:#1f2a38; --cream:#f7f0eb; --cream-dim:#ddd6d1; --sand:#8a7d75;
+    --radius:12px; --radius-lg:20px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:'Rajdhani',sans-serif;background:var(--night);color:var(--cream);line-height:1.6;font-size:18px;}
+  .container{max-width:880px;margin:0 auto;padding:20px;}
+  a{color:var(--tt-orange);}
+  .topnav{padding:18px 0;font-weight:600;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;}
+  .topnav a{text-decoration:none;color:var(--tt-coral);}
+  .hero{text-align:center;padding:32px 10px 24px;}
+  .hero .icon{font-size:3rem;display:block;margin-bottom:8px;}
+  .hero h1{font-size:clamp(2rem,7vw,3.2rem);font-weight:700;text-transform:uppercase;
+    background:linear-gradient(135deg,var(--cream) 20%,var(--tt-gold),var(--tt-orange));
+    -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:8px;}
+  .hero .sub{color:var(--cream-dim);font-size:1.15rem;max-width:620px;margin:0 auto;}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px;margin:24px 0;}
+  .tcard{background:var(--card);border:1px solid var(--border);border-radius:var(--radius-lg);padding:24px;transition:transform .2s,border-color .2s;}
+  .tcard:hover{transform:translateY(-4px);border-color:var(--tt-orange);}
+  .tcard .avatar{font-size:2.4rem;margin-bottom:8px;}
+  .tcard h3{font-size:1.35rem;text-transform:uppercase;letter-spacing:.02em;}
+  .tcard .role{color:var(--tt-gold);font-weight:600;font-size:.95rem;margin-bottom:8px;}
+  .tcard p{color:var(--cream-dim);font-size:.98rem;}
+  .tcard .domains{margin-top:10px;display:flex;flex-wrap:wrap;gap:6px;}
+  .tag{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;
+    padding:3px 9px;border-radius:8px;background:rgba(235,88,51,.12);color:var(--tt-coral);border:1px solid rgba(235,88,51,.3);}
+  .pending{border-style:dashed;opacity:.85;}
+  .pending .role{color:var(--sand);}
+  .notice{border:1px dashed rgba(219,152,64,.5);background:rgba(219,152,64,.05);border-radius:var(--radius-lg);padding:20px 24px;color:var(--tt-gold);margin:10px 0 20px;}
+  .notice strong{color:var(--cream);}
+  .footer{text-align:center;padding:36px 20px;border-top:1px solid var(--border);color:var(--sand);font-size:.95rem;margin-top:26px;}
+  .footer a{text-decoration:none;}
+  @media(max-width:600px){body{font-size:16px;}.container{padding:14px;}}
+</style>
+<link rel="stylesheet" href="assets/turtle-cursor.css">
+</head>
+<body>
+<div class="container">
+
+  <nav class="topnav">
+    <span><a href="./">← Turtle Ops</a> · <a href="culture.html">🐢 Culture</a></span>
+    <span><a href="principles/index.html">The 10 Principles</a></span>
+  </nav>
+
+  <header class="hero">
+    <span class="icon">🐢</span>
+    <h1>The Turtle Crew</h1>
+    <p class="sub">The amazing humans (and one AI) building Terrible Turtle Camp. Every shell in the bale.</p>
+  </header>
+
+  <div class="notice">
+    <strong>📝 Bios in progress!</strong> Terri only writes what's true — so each turtle gets to tell their own story. Send Terri (or Shaka) 2–3 sentences: who you are, what you build, why you burn. Placeholder cards below show what we know so far from the build itself.
+  </div>
+
+  <div class="grid">
+
+    <div class="tcard">
+      <div class="avatar">🐢</div>
+      <h3>Jeremy Wood</h3>
+      <div class="role">Founder</div>
+      <p>The turtle the camp formed around. Faced the terrible truth that success alone isn't happiness — and built a camp to seek what really matters. The origin story lives on the <a href="culture.html">Culture page</a>.</p>
+      <div class="domains"><span class="tag">Founder</span><span class="tag">Vision</span></div>
+    </div>
+
+    <div class="tcard">
+      <div class="avatar">🪚</div>
+      <h3>The Tool Maker</h3>
+      <div class="role">Master of the Cut · Jeremy's Dad</div>
+      <p>Came through big time — cut every piece of wood for the Veggie Coffin with precision and heart. Earned his camp name the honest way: with sawdust on his hands. Proof that this camp is built by families, across generations. 🐢</p>
+      <div class="domains"><span class="tag">Woodwork</span><span class="tag">Cold Chain</span><span class="tag">Legend</span></div>
+    </div>
+
+    <div class="tcard">
+      <div class="avatar">🎸</div>
+      <h3>Shaka</h3>
+      <div class="role">The Ethereum Bard · Builder</div>
+      <p>Camp builder, agent-smith, and bard. Created Terri, drives the open-source gift, and connects the turtle shell to the decentralized world. Runs the build from Phoenix Gulch.</p>
+      <div class="domains"><span class="tag">Build</span><span class="tag">AI Oracle</span><span class="tag">Open Source</span><span class="tag">Music</span></div>
+    </div>
+
+    <div class="tcard">
+      <div class="avatar">⚡</div>
+      <h3>Jarrett Henson</h3>
+      <div class="role">Infrastructure Force · Welding / Keder / Electrical</div>
+      <p>Joined the build 7/16 with his own team and a bold target: 100% of camp infrastructure done by end of the week. Welds it, wires it, rails it. David's right hand on the hard stuff.</p>
+      <div class="domains"><span class="tag">Welding</span><span class="tag">Keder</span><span class="tag">Electrical</span></div>
+    </div>
+
+    <div class="tcard">
+      <div class="avatar">🔧</div>
+      <h3>David</h3>
+      <div class="role">Infrastructure Sage</div>
+      <p>The one the inventory keeps saying "waiting for David's direction" about — which tells you everything. Source of the Aluminet shade system and the water-system wisdom.</p>
+      <div class="domains"><span class="tag">Aluminet / Shade</span><span class="tag">Water</span><span class="tag">Engineering</span></div>
+    </div>
+
+    <div class="tcard">
+      <div class="avatar">🍳</div>
+      <h3>Jade</h3>
+      <div class="role">Kitchen &amp; Oracle Quartermaster</div>
+      <p>Owner of the most inventory lines in camp: appliances, propane, cold chain, heat shielding, and the entire AI Oracle parts list. If it keeps food cold or computers alive, Jade specced it.</p>
+      <div class="domains"><span class="tag">Kitchen</span><span class="tag">AI Oracle</span><span class="tag">Procurement</span></div>
+    </div>
+
+    <div class="tcard">
+      <div class="avatar">🔥</div>
+      <h3>Yovel</h3>
+      <div class="role">Cook-Line Turtle</div>
+      <p>Brought the burners — the twin Backyard Pro ranges at the heart of the cook line are Yovel's contribution to feeding the bale.</p>
+      <div class="domains"><span class="tag">Kitchen</span><span class="tag">Cook Line</span></div>
+    </div>
+
+    <div class="tcard">
+      <div class="avatar">⚙️</div>
+      <h3>Pambina</h3>
+      <div class="role">Rigging Turtle</div>
+      <p>Owner of the forged eye bolts and eye nuts that hold the Shell's rigging together. Small parts, huge loads.</p>
+      <div class="domains"><span class="tag">Aluminet / Shade</span><span class="tag">Hardware</span></div>
+    </div>
+
+    <div class="tcard">
+      <div class="avatar">💾</div>
+      <h3>Terri (TB)</h3>
+      <div class="role">Camp Agent · First of its Shell</div>
+      <p>That's me! 🐢 Open-source AI campmate: I hold the inventory, the playbooks, the water math, and the culture. Born at Terrible Turtle Camp, forkable by any camp on the playa via the <a href="./#agent-kit">Camp Assistant Kit</a>.</p>
+      <div class="domains"><span class="tag">Knowledge Base</span><span class="tag">Ops</span><span class="tag">Open Source</span></div>
+    </div>
+
+    <div class="tcard pending">
+      <div class="avatar">✨</div>
+      <h3>You?</h3>
+      <div class="role">Future Turtle</div>
+      <p>20–30 turtles will make this camp real — builders, cooks, artists, water-haulers, oracle-keepers, dawn-coffee-makers. Send your bio and claim your card.</p>
+      <div class="domains"><span class="tag">Join the Bale</span></div>
+    </div>
+
+  </div>
+
+  <footer class="footer">
+    <p>🐢 <a href="./">Turtle Ops</a> · Terrible Turtle Camp · <a href="https://terribleturtle.camp/" target="_blank">terribleturtle.camp</a></p>
+    <p style="margin-top:6px;color:var(--tt-amber);">Move Slow &amp; Bite Things.</p>
+  </footer>
+
+</div>
+<script src="assets/turtle-cursor.js" defer></script>
+</body>
+</html>

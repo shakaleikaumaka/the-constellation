@@ -1,0 +1,125 @@
+# Brains & Microbiome_ TMS for focus and a microbiome link to cholesterol
+
+Date: 2026-06-04
+Source video: Brains & Microbiome_ TMS for focus and a microbiome link to cholesterol.mp4
+Drive: https://drive.google.com/file/d/1wo8N9yqkHRYO8Trt3-DapxuX6ZmMN45E/view
+Duration: 00:18:54
+Transcribed: 2026-06-09 · whisper large-v3-turbo · language: en
+
+---
+
+[00:03] All righty. Okay, amazing. If everyone can start trickling back in and taking their seats. I'm really, really excited to introduce Jishan now. I think fair to say you've been thinking about people optimizing their brain health and mental health for your entire career, starting off as an Oxford trained doctor, then starting Journey CoLab, which was actually using mescaline for substance abuse.
+
+[00:32] And now, most recently, I am super excited about this because you're using TMS to rapidly give people relief from their symptoms and also improve their lives and make them more focused. So I'm really excited to hear about how you're going to do this.
+
+[00:47] It's an area that I've personally been following for a long time. And I know that Faria Health is really paving the way. So take us away. All right. Thanks for having me. My name is Jishan, as Catherine said. I am going to structure my talk around this curve.
+
+[01:04] How many people know what this is? Raise your hands. About two thirds of the room know what it is. That's my stats joke that never lands. This is the bell curve, the normal distribution. And one of the fun things about living in the Bay Area in San Francisco is you get to mix a bit of mathematical comp sci interests with Wu.
+
+[01:31] And this curve dominates so much of our universe and so much of our lives that we don't even know about it. And in healthcare, in particular, we don't realize how much of your day-to-day experience in healthcare is dominated by this curve. And I'll explain to you from a couple of lenses.
+
+[01:51] So I'm a doctor. I went to med school many years ago. And in that time, we spent the majority of my time in medical school in this part of the curve. Two standard deviations out to the left. I'll call it the severe category. And as a doctor, you're trained to understand when people are in that space, what kind of red flags they have, how are they going to get worse.
+
+[02:18] And you barely spent any time here on the other side, which I would call, let's say, the elite or like the high-functioning side before we lost it. So it comes back. And I also trained as a scientist. And again, we spend all our time here because how something breaks tells you how it works.
+
+[02:45] But if you're also trying to develop drugs or get through the FDA, it's much easier to tell the FDA, hey, I have something for somebody who's so severe that even incremental benefit is going to make a difference for them. So we understand the severe side really well.
+
+[02:59] As an entrepreneur, what are you always told? Don't develop a vitamin for people here. Develop a painkiller so you're there. And then in terms of policy, particularly here in America, who do you think in America has the most influence on what kind of healthcare you get?
+
+[03:16] Is it your doctor? Absolutely not. It is someone called an actuary who runs, who works, and there's many of them who are in a healthcare system or a payer, and they devise all their policies around what you can get and what you can get around who is severe enough to make it worth paying for.
+
+[03:35] And this has been the case for at least most of my career until something happened in the last, I wouldn't even say ten years, I would say in the five years, because there were some people in med school who were way smarter than me and like went into concierge medicine and worked in this area and worked way less than I did, made way more money.
+
+[03:51] They were smart people. But then something happened with the introduction of GLP-1s where we took something that was designed for people here and then people in the middle wanted it, and they wanted it because it made them look better. And that made this shift that we then started compounding with tools that we originally developed for people on this side being used by people in the middle, and that's caused this like amazing shift that we just haven't seen before.
+
+[04:17] Many entrepreneurs, many doctors are very excited by this. This was like originally GLP-1s. We saw this with like hormone replacement therapy. You see it with consumer blood tests, MRIs. MRIs, like a couple of years ago if you said that you would get a whole body MRI, you'd be like why would you do that?
+
+[04:34] I, as a doctor, like didn't really believe in these companies. Like nobody needs it, but like people are demanding this because it's what I call like the revolt against the actuaries or a revolt against the middle where people no longer want to be in the middle and the market is proving for the first time that they're willing to pay and they're willing to pay out of pocket for it, which also has changed something because the prices that you would get list prices in healthcare are all based on this like fake insurance master list that always gets deducted, but the true cost has always been lower than that.
+
+[05:03] So now you can get consumer blood testing for hundreds of dollars and now scans for a thousand because you're paying the true cost of what it takes to get them rather than what a made-up list is. And what I wanted to talk to and what Catherine alluded to is that we've been able to do this for the body really well.
+
+[05:20] So GLP-1s, testosterone, estrogen replacement therapy, body scans. But I, for the first time, I've worked in the mine for a number of years and I wanted to ask this question. Okay, we're seeing this trend where we take tools that work really well here.
+
+[05:36] Can we apply them to people here and can we move them? And we've had a tool like this in the brain. Doctors like me have used it for about 20 years. It's called transcranial magnetic stimulation or non-invasive brain stimulation. How many people are familiar with it?
+
+[05:51] There's not that many people because the only way you would get it is because insurance has put it that you would only qualify for it to be reimbursed if you have failed everything else and it's a tool of last resort. But just like people are microdosing GLP-1s and they're microdosing hormones, we asked the question, can we take something like TMS?
+
+[06:11] And you may have heard about it from Tim Ferriss. He's talking about it a lot. He describes it as the most effective therapy he's ever tried. Essentially, I can show you what it looks like. This is a video of me getting it. If I can bring it on screen.
+
+[06:26] I'm going to try. Can someone help me with this? Is it possible to move it on screen? Anyway, while he's helping me here, it's like we use just to play that on the screen. Oh, there he is. Awesome.
+
+[06:56] No volume? Yeah. No volume. This is just me getting it. You wear a cap to show where on the head you apply this very strong electromagnet. It cycles at a frequency that matches the learning rate of one's brain. We map it to different targets.
+
+[07:13] It feels like a woodpecker hitting on your head. I wouldn't describe it as a comfortable experience, but it's a tolerable one. I've heard it's like laser hair surgery, or sorry, laser hair removal, but more intense. What we discovered with that was that you can indeed use what we call a micro dose of this.
+
+[07:36] We use one tenth of the dose that is used for someone who's suicidal. We can use it on otherwise healthy people. We can give them much more control over their brain and be able to sculpt their lived experience in a way that we haven't been able to do before.
+
+[07:52] So we can target things like more. We can use the target that's been used for PTSD and give people more emotional control. We've had someone go through a breakup and use it to be able to get through a breakup easier. We've had people use the target that's been used for depression and mood and suicidality, including myself.
+
+[08:11] I've done it several times just to be able to think less and do more. We've had people who are suffering from anxiety use a micro dose of, sorry, use a dose on a target for anxiety to prevent them, to stop them from zoom scrolling or getting into addictive behaviors.
+
+[08:26] And so we're seeing this like same application of using clinical tools, but applying them in a smaller dose in a different format to healthy people and giving them the same type of ability that we have been able to with our minds and with our bodies.
+
+[08:42] And I think like one interesting thing that like has been was a surprise to us. Let's see how I go back to the, I feel like a boomer up here right now. Like one of the interesting things that we have observed is I wanted to share a couple of insights is one is that like, okay.
+
+[09:09] One is that we talk a lot about like these like side effects, but just like with GLP ones and psychedelics, we're seeing off target benefits, which we can't really explain why is happening. But I think because we're working like closer down into the stack of like our brain signaling with these, with these different modalities, we're seeing things that we didn't expect.
+
+[09:32] So GLP ones originally started for insulin control and diabetes. Immediately we saw weight loss, but now we're seeing applications across the board for inflammation, for Alzheimer's, many other conditions. With psychedelics originally started for PTSD and depression, but we're seeing it affects a broad swath of mental health conditions, but it can also being used for pain, for stroke.
+
+[09:54] And similarly with brain stimulation, things that adjusted mood can be now used for more functional, like having more executive control and across that board. And one thing that we did think about was like, could we potentially use this and move people who are in the middle or maybe one standard deviation out even further and get to superhuman ability.
+
+[10:19] And unfortunately, it ended up very much like the enhanced games, where we didn't break any world records in terms of anyone's like ability to do or achieve any tasks. But what we did see actually was that people got to their personal bests and people were able to return to function that they had when they were younger or another part of their lives.
+
+[10:39] And I think this is where the biggest thing, I actually think the enhanced games was successful there because while there was only one world record there, there were several personal bests. And you saw people getting at ages of like 30 and 40 times that they got when they were in their 20s.
+
+[10:54] And I think this is going to be another part that we see in this whole movement of using clinical tools in the middle, is it's not going to drive any sort of superhuman ability, but it's going to get people to their personal best. And I'll leave you with one other observation that we're seeing, or I've seen over the last, the last few decades, and especially has been confirmed now with psychedelics and with brain stimulation, is that we, everyone lives on this curve.
+
+[11:21] And you may be on one end of the curve across different dimensions and different spaces, but the very fact that the curve exists means that you can move. Like the existence proof of being on the left means that you can be on the right, and we have more and more tools to be able to do so.
+
+[11:37] And there's the question of like, what tools do you want to use? But I would also say that especially when it comes to the brain and your mental health, there is a sense of urgency that I don't see talked about, in that depression, anxiety, PTSD, or even like subacute states like that, these are our tractor states that our mind begins to mold to.
+
+[11:57] And the longer that you're in those states, it takes more energy to move out of them. And so in addition to saying not only can you move where you are on your own personal curve, there's an urgency to do it faster. Because the faster you do it, it's easier to get out of those states and like takes less energy to get back into the state you want to be once you're done.
+
+[12:16] So my whole message here is that it's incredible what we've been able to do with the body, but we're going to have much more agency over our lived experience and our minds. I've done this microdose TMS thing for five months, and I would just simply describe it as enjoyable because I went from somebody who thought, overthought about every single step to just doing them, and my wife and I would both look back and be like, oh, I ordered the Bicology pickup or I posted this article, like just things I wanted to do without having to resort to medication or other alternatives.
+
+[12:50] So we're going to be able to read and write into the human brain with increasing levels of precision, and it's going to have a huge effect just as it has on our body. So I just leave you with, you can be who you want to be. It doesn't have to take forever.
+
+[13:03] There are more and more tools. They'll probably be stacked, and we're entering an incredible era of agency of who you want to be. Thank you. You mentioned precision. How are you targeting these specific desired outcomes, whether it's anxiety or, you know?
+
+[13:33] Yeah, we've learned a lot from how the brain breaks to what will help. So a lot of like functional neuroscience comes from when people have damage to a part of a brain, and we see a deficit. So we know that, for example, like one of our common targets is like people want to get more stuff done.
+
+[13:49] They want to be more productive. And there's a part of your brain that we call the central executive network. It's involved in identifying goals, sequencing out tasks, completing them. It's weird that like there's a governor of the brain or the CEO of the brain is localized to this, like the left dorsolateral prefrontal cortex.
+
+[14:06] And if we stimulate that in a learning pattern that encourages activity or synchronization, people find themselves doing more. So a lot of it's just been empirical. We're learning more and more. There's targets that can do emotional control.
+
+[14:21] There's targets that can regulate things like your default mode network or your attention network. And we're getting we're understanding more and more of them. So it's it's some of it is driven like bottoms up in terms of where we think it will be.
+
+[14:34] But mostly someone gets hurt. They lose a function. And we're like, what happens if we do the opposite? Yeah, the stimulation protocol is tailored to each person. Yeah. Thanks for the awesome talk. I'm super excited about this. And I wanted to know a little bit more if you have any anecdotes about someone achieving their personal best or like what kind of activity that was.
+
+[14:58] We see a lot of people just doing things that they have not done for a long time. So we had one person like have a project that was kind of just sitting in the back. And then they just noticed a week after that they got the project out and they got a job.
+
+[15:11] We saw we have seen people put like a dating profile up because they were ruminating on it for too long. And they put their dating profile up. There's a lot of it depends on the target like people having better relationships because they have toned down emotional reactivity.
+
+[15:26] Better presence with their kids because they've increased their attention network. And like two questions like how do we know these there's like a couple like there's a handful of targets that I think are I would call evidence based where we've practiced enough on them that we know that we can reliably get to this outcome.
+
+[15:40] And there's others like for memory for ADHD or attention that are emerging and we're going to get more and more of these and we're like with TMS where we're just stimulating like a small part of the cortex like maybe a sugar cube size of cortex on this like basically on the surface of the brain. As we get ultrasound and other modalities we'll be able to go even deeper but that will those are many years out.
+
+[16:06] Are you guys using like QEEG to like target? We're not. Yeah. Right. You can do much more sophisticated things like fMRI or QEEG to get like more sophisticated targeting but it's kind of wild that just based on like anatomical scalp based measurements and like generally where someone's brain like region is located we can we can get these benefits.
+
+[16:25] Is there a consumer product that people could buy today? The only consumer product is there's a technology called transcranial direct current stimulation. It's called flow neuroscience was it's prescription so you have to get prescription for it but it does affect the prefrontal cortex.
+
+[16:46] And I believe there was a company that was trying to sell one that doesn't require a prescription that you can just use and you don't need a diagnosis. I think the things that are out there that just use light like photo biomodulation just don't deliver enough.
+
+[16:58] My personal opinion is they don't deliver enough energy to the brain and it's hard to distinguish effect size from placebo. On that note when something feels like an ice pick or woodpecker going directly into your brain how do you placebo control that?
+
+[17:15] They have done sham studies. So like you use a different part of the like a different part of the brain? The stimulation pattern or strength generates the somatic feel of the stimulation but it's not strong enough to change the pattern in the brain.
+
+[17:32] But you guys are seeing those kinds of effects with the micro dosing? With the micro dosing yeah that's correct. So for the record we have not done sham studies there have been sham studies done on the targets that we do. And one of the reasons we chose TMS is because it's a 20 year old technology and there's many randomized control trials that show this is a true effect size.
+
+[17:51] This is not a placebo effect size. We'll take one more question. You mentioned like you didn't have to be on medication but like could you stack like pharmacology with us? Yeah I think the future is stacked. So like our protocol is a one-day protocol where we use what's called a cycloplastogen.
+
+[18:09] It's called dcycloserine. It's a very old tuberculosis drug. We thought it's an NMDA receptor cofactor. Originally it was used in the 90s to say maybe this will help with therapy. It generally doesn't do anything with therapy but when you combine it with TMS.
+
+[18:23] And we are doing one experiment we're going to combine ketamine therapy with then TMS after that. And what we'll see like we've seen in other domains where we're going to stack on probably like a psychedelic experience then with TMS combined with like some type of regimented therapy.
+
+[18:41] And that stack will get the largest gains and most durable gains. Alrighty. Thank you so much. Thanks everyone. That was awesome.

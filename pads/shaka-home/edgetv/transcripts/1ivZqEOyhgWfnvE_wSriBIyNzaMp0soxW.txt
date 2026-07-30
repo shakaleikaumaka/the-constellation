@@ -1,0 +1,237 @@
+# Everyone_s Using AI_ Why Aren_t Companies Seeing Results_
+
+Date: 2026-06-12
+Source video: Everyone_s Using AI_ Why Aren_t Companies Seeing Results_.mp4
+Drive: https://drive.google.com/file/d/1Qw5Xv5JikykB6S8JzxyX19G-zYHa-T-G/view
+Duration: 00:38:26
+Transcribed: 2026-06-14 · whisper large-v3-turbo · language: en
+
+---
+
+[00:01] I'm not going to do the clap. All right. So everyone is using AI. Why aren't companies seeing results? And there's a little bit of irony to this title because everyone's not using AI. My journey with AI, I'm a relative newcomer like many of you.
+
+[00:28] I was completely, I was a marketing professor just focused on teaching my students great concepts in marketing, completely unaware of this 2014 paper that first advanced the concept of the, of attention, the BataNow paper. And in 2017, I was unaware of attention is all you need that among other things advanced the concept of the transformer.
+
+[00:57] And OpenAI shifted directions based on attention is all you need. And I was completely unaware of that. For me, generative AI seemingly came out of the blue November 30th, 2022, when without fanfare, OpenAI dropped ChatGPT 3.5. And I spent my entire winter break of 2022 just putting it through its paces.
+
+[01:23] And I wrote this memo to all of the faculty in the Department of Marketing, December 22nd, 2022, which is my vision about what the impact of, you want me, you want me to stay away to the podium? I like to move. The impact that this large language model technology would have on education.
+
+[01:49] And I show this sometimes because I, I felt like it was pretty clear from the very beginning, the impact that this technology would have. So I spent half my time in Austin, Texas and half my time in the Bay Area. And it feels like I am one foot in each of worlds, two worlds that are completely unlike each other.
+
+[02:09] I, part of my journey started with Edge last year. I was creating some new courses that I've taught in the MBA, an executive MBA program on AI and AI in organizations. And I used Edge last year to meet people, learn about concepts, and I came away with this idea that generative AI was just going to infinity immediately.
+
+[02:33] Like, and then I returned back to Austin and like the companies I've talked about, well, you know, we're thinking about maybe doing a pilot with, with copilot kind of thing. And it, and it, and it, I continue to feel that way because I spent half my time here, half my time in Austin, and it does feel like when you are here in the Bay Area, in the tech community, the perception is, this stuff is just going like crazy, is unstoppable, and we're going to just find a rapid transformation of our economy, right, Alex?
+
+[03:05] But that's not how it looks to most of the world. Well, the U.S. is actually slowly adopting AI, and you'll see that it's, I mean, their, their increase of adoption is solid depending on whose metric you use, but we're still only looking around 40 or 50% use of AI in the general population.
+
+[03:23] And really interesting to note that use of AI at work is flat. Still about 10% say that they use work, uh, AI at work every day. The English-speaking world is uniquely pessimistic about AI. And I don't have a good explanation as to why. Um, some of you caught David Shore's talk the other day.
+
+[03:44] He speculated that it's because we already have an advanced economy, and so the developing world, like in Southeast Asia and South America, they see this as an opportunity to level up. And, but here in the U.S.A., we see this more pessimistically.
+
+[04:06] There's different views on company use of AI. McKinsey published this report in April, they found that 90% of the businesses they surveyed were using AI in some function, but in a previous survey they did in November 2025, only 39% feel like they were getting any profit impact whatsoever, and only 6% report significant value.
+
+[04:28] So, this is a real mystery. We've got these amazing tools that are, that are advancing like crazy, but why aren't we seeing companies reporting that they're getting real value from AI, and healthcare is a, is a real illustrative example, this was a study that was published last fall, uh, in healthcare, they looked at 43 U.S. health systems that deployed AI in 37 AI use cases. Ambient clinical documentation, which is, that's when you go to your doctor, and the doctor takes notes, and that now those are like AI generated. That was 100% of adoptions among the 43 health systems, and only 53% reported high success, and that was the best case.
+
+[05:09] Uh, imaging, uh, 90% deployed imaging AI, and only 19% reported high success. What are the challenges? There are things like, immature tools, cost, and regulatory uncertainty were some of the barriers that were, were reported. So, if you're here in the Bay Area, it feels like there's a lot of productivity being gained, because there is, and tech and finance in particular show the greatest gains. This is popping a lot, isn't it?
+
+[05:35] It's okay? All right. Okay. So, tech and finance are showing the greatest gains, but beyond those two industries, there's a pretty sharp fall off, in terms of, of observed value. So, what's derailing getting this value? And there's four categories that I track in terms of derailing our ability to generate value from AI. People, there's this perception that AI is technical and hard, and there's a lot of discussion about training, but from what I have found, training is not particularly helpful.
+
+[06:10] Peer support is much more useful in driving adoption than training. What we really want to do is we want to get people hands-on using these tools, and then supporting each other within their work group. It seems to work much better than sending them to some training course, and there is this ever-presence fear of displacement that leads to resistance.
+
+[06:30] And then there's a whole process problem. You know, we have very rigid workflows that are designed and optimized for the technology we have today. And just bolting on AI into these existing work processes does not work in terms of generating significant value. And one weak step in this workflow can degrade the value from the entire chain.
+
+[06:51] And then there's political issues. There's misaligned incentives, and some have had early negative experiences. One of the phenomena that we track is that there is this slump after the initial adoption of AI within an organization. Like there's early boost of enthusiasm. Oh, here's some cool things I can do. But then the employees hit like barriers. And then they, some of them at that point stop. And it's hard to get them back again.
+
+[07:15] And then there's a lot of internal governance and accountability issues that have not been resolved. If I have AI in my work group and it makes a mistake, do I get blamed? Who gets, how does that get, how does that get resolved? And then, as I'm going to talk about in a moment, there's some real inconsistencies in these AI models.
+
+[07:32] I coined the term that AI today is the glitchy genius. And that will probably resonate for all of you in your own use. Data is not structured well for AI, and there are significant regulatory constraints if you're in a regulatory environment. So, thanks to Gary Marcus. If you don't follow his sub stack, I would recommend that you do. I got three great examples just today.
+
+[07:53] KPMG published a report in October on the benefits of AI that had, wait for it, AI hallucinations in the paper. And this is a case of a judge that found that four different lawyers on both sides of a civil case were all, had fake citations in their filings.
+
+[08:12] And so he kicked them all out and made the plaintiff and the defendant get new attorneys. And my wife has many talents, not the least of which is she translates works from Italian into English. So this one is for her. This was, I thought this was really interesting.
+
+[08:31] Of this Italian phrase is not just three words, you are not alone. It's just four words, you are not alone. The Italian has three words, but this is with fable five and it did a literal translation of just three words, you are not alone. A real thinking cognitive approach would recognize that those are four words, not three words.
+
+[08:54] So LLMs are, while it feels like some aspects in coding in particular are just like taking off like crazy. There's a real jagged frontier to AI development. And some of you may be familiar with the work of Dan Hendricks and his team that developed this model of looking at ten elements of human cognition.
+
+[09:19] And they looked at both GPT-4 and GPT-5 and said among these ten elements of human cognition, how close to each of GPT-4 and GPT-5 get to ten. And ten is like at or above human performance. And between GPT-4 and GPT-5 there was really extraordinary gains that happened.
+
+[09:39] I have appended onto this my own estimates for GPT-5.4 and GPT-5 using the same methodology of the original researchers. And this, the gains have continued in some areas. But notably speed and memory are big issues. These are not learning. If I were to teach, try to teach this model that Italian translation is four words, not three, it would not learn from that experience.
+
+[10:06] We'd have to go through a training cycle to have that captured. And so this is one of the barriers that we're really facing right now is while some aspects of these AI models are really strong, in other aspects, they're expensive, slow, and don't come close to human cognition in some areas.
+
+[10:24] Some of you are familiar with the phrase, Ethan Mollick coined, that today is the worst AI you're ever going to use. And I believed that until I found this paper in March, which is sort of interesting. These researchers took a Harvard Business School strategy simulation called Back Bay Battery.
+
+[10:42] And you compete in this simulation to try to come up with the best management of your firm. And the dashed line is the average Harvard MBA student performance in 2018 and 2019. And what you'll find is the early development of AI models actually performed better than the average MBA student by the time we got to 03 Minning.
+
+[11:04] But performance on Back Bay Battery has declined since. And this was really kind of an interesting wake up call for me to say, maybe the assumption that generative AI just continuously gets better does not necessarily hold. And, you know, strategy is a difficult, complicated, fuzzy, does not lend itself to objective quantification.
+
+[11:26] So I'm going to be keeping an eye on this one. You know, mythos on the software benchmarks, 93.9% verified, you know, amazing. And yet, 6% of firms only reporting significant enterprise value. And so, in these systems, some of you saw with great humor that OpenAI had to publish a paper on where the goblins came from.
+
+[11:51] Because these models started trending towards talking about goblins. My version of this with clawed code is clawed code wants to make everything honest. That's the ominous framing. Let me give you my honest assessment. And despite clawed at MD instructions say to never do that, it can't help itself.
+
+[12:07] It does it anyway. This has got a lot of attention. I imagine nearly everybody here in this room has seen this. This was their assessment of across all kinds of different job categories. The blue in the spider graph is the estimated impact of what AI should be able to do in that job category today.
+
+[12:29] And the red is anthropics observed AI use across these fields. The most extreme example is being a pharmacist. Where their model estimates that AI could do 100% of the job of a pharmacist. And their actual observed AI use is thankfully zero.
+
+[12:49] And so, in their paper in March, anthropics conclusion was that we're really poised for some really fast uptick in these AI models. Look at this gap between potential AI use and actual. And I looked at that and I came to a different conclusion.
+
+[13:11] Which was, I don't think your model accurately estimates how much of a job AI actually can do. And there's a, you know, this data that is used here about these occupations impacts all kinds of standards that are being used. Like many of you follow Stanford's canaries in the coal mine about looking at which of these AI exposed jobs.
+
+[13:37] Are we experiencing more unemployment in AI exposed jobs? Which is what this purports to show. And these economists did something interesting. Which is they asked the question, where do those estimates of AI exposure to a job come from? Well, it's not going to surprise you to know that they are AI generated.
+
+[13:54] And so, what they did is they said, okay, let's see if we can find consistency across four different AI models. Asking each of these AI models to estimate the occupational exposure. And lo and behold, they found that there was very little consistency.
+
+[14:08] Particularly among the occupations that were measured or assessed as being most AI exposed. These four different models were very inconsistent. Which raises for me the question like, do we really have a way of knowing how much of a job can actually be done with AI?
+
+[14:23] But it does explain why we're seeing these big gaps in actual organizations realization of value. Only 7% of enterprises report having data that is AI ready. This is a big problem because they've got proprietary data in all kinds of different pockets all over their company.
+
+[14:41] And it's very difficult to put together a system that's going to bring all of that together. And the response to that often is, well, we can just vibe code our way to solving that problem. But, what's that? Yeah, let's vibe code our way to solving that problem.
+
+[14:59] And, you know, I thought it was interesting if you caught Herbie Bradley's talk here yesterday. He also referenced the same research that showed that we've seen an extraordinary increase in lines of code that have been pushed to GitHub. And the, this is actually tracking the increase in the number of apps, iOS apps.
+
+[15:21] And it's just been explosive growth since the introduction of agentic AI. And yet, app usage is flat. All these extra apps are not creating any new usage. In GitHub, there's a 740% increase in lines of code written, but only a 20% increase in releases.
+
+[15:41] And this is because today, technology, we still appropriately require a human review before pushing out these, these releases. And human review becomes a real gate in the ability to achieve value. So, I can generate lots of code, but that does not make the human reviewer as productive.
+
+[16:03] And if you're putting together a value chain of AI, so where maybe code development is one step. If each step of that value chain is 90% reliable, that is not a 90% reliable system. It's actually a 59% reliable system. And if one step of that chain drops to 70% reliable, then your entire process is only 46% reliable.
+
+[16:25] So, partial automation does not necessarily lead to significant gains. And the way you structure your workflow makes a big difference as well because of the need for human in the loop reviews. If you take a clustered, an AI clustered workflow like loan underwriting.
+
+[16:44] If you can cluster the AI data pool, AI credit score, AI risk model and put all that together in one package. And then do one human review, that tends to be much lower cost and much higher gain in productivity. And if you take on a fragmented process like patient intake.
+
+[17:03] Where you have AI, then human, AI human. We tend to see those be much more expensive and much smaller gains in terms of productivity. For those companies that are experiencing some kind of value from AI. Workflow design is the number one differentiator.
+
+[17:19] Just giving employees access to the latest models is not by itself sufficient. It requires rethinking how those workflows are going to be redesigned. In terms of clustering together where AI is going to be used. And then when the human review, human in the loop is activated.
+
+[17:38] There's this framework I like that was invented by BCG. This 10-20-70 rule when it comes to AI. 70% of AI effort is people and process. It is not the data and it's not the AI model. Those are both important. But in terms of the real value in use cases is being able to focus on people.
+
+[17:59] The best companies are those that are narrowing their focus to a few significant AI workflow redesign. So for example, there's a Fortune 500 financial services company that I've been doing some work with. And they hired a new chief AI officer in December.
+
+[18:15] And when he came on board, there was 100 AI initiatives across this company. And they're consolidating that down to three. And with the idea that maybe one or two of those will prove to be really significant in terms of generating value. The three things I've identified that are most successful in driving AI value and AI adoption within an organization is top down encouragement.
+
+[18:39] Encouragement from the top. And it does not have to be threats or coercion or necessarily even like financial incentives. But simply having the motivation to say, hey, this is a good idea. Peer influence and peer support is arguably more valuable than training.
+
+[18:55] And having access to the best models and the best tools. I don't know how many companies I talk to. They say, okay, well, we've deployed Microsoft Copilot out to our employees. And we're going to call that good. And those employees are not having a good experience.
+
+[19:10] An example of how not to do it, Duolingo started measuring. They were going to evaluate their employees on how many tokens they consumed. Does anyone want to guess what happened? They all maxed out their use of tokens and not necessarily generating any value.
+
+[19:26] And it took them longer than it should have to figure out how to drop that. BBVA, on the other hand, has had a lot of success by just having two initiatives. AI wizards that are people within a work group that have experience with are both subject matter experts and had early success with AI.
+
+[19:44] And they actually reward and then promote with attention those wizards that are within work groups. And then they also identify AI champions. And AI champions are typically like department heads or division heads that serve more as the cheerleaders and the conveners to bring people together.
+
+[20:00] And to give their employees within their teams those that are really doing well to give them exposure. Walmart is an example of, I think, a great use of models. Walmart makes Copilot, Claude, and OpenAI available to their employees. In addition, they have a proprietary LLM called Wallaby.
+
+[20:22] And Wallaby has access to all internal proprietary Walmart data. And I have former students that are now executives at Walmart who just gush about how fantastic Wallaby is and what a difference it's made to be able to have one LLM that can be trusted and has access to all internal Walmart data.
+
+[20:40] Shopify took an interesting approach. They said every headcount request has got to start with an AI assessment first. Could we do this job with AI? If the answer is yes, then we just, we will start an AI initiative. The answer is no, then approve the hiring.
+
+[20:54] And I think Chevron is a good example where putting a lot of effort and attention does not necessarily generate uniform results. Chevron over the last three years has had four major AI initiatives, only one of which, which was pushing out operational AI into the Permian Basin to measure their field well performance models.
+
+[21:14] That has performed super well. But their internal copilot initiative and internal knowledge chat have not performed well. And there's a real lack of focus and I think maybe even like a lack of executive encouragement driving that. AI productivity is defensive.
+
+[21:30] Some of you maybe have followed the story of Klarna who last year with great fanfare said that they're going to have all these AI models and they're not going to need to hire people anymore. And today they claim that they, that they have AI agents do the work of 853 agents, but their rivals have also implemented the same technology.
+
+[21:49] And so it's just been kind of a re-leveling. It has not created a competitive advantage. And I think that, uh, ATMs provide an interesting historical perspective that while we saw that automated tellers did away with the need for in-person tellers, the number of bank branches actually exploded after the time of the ATMs because they became more of a marketing and selling financial services tool within the branches, rather than simply dispensing cash.
+
+[22:21] So some of the largest AI disruption can come from, uh, uh, collapsing trans, uh, transportation costs. And those, that's the greatest short term potential we have today. But the longer term moats are going to be some of the more traditional things.
+
+[22:34] I, I'm not, I'm still not totally convinced that you can successfully create a moat with AI. What you can create a moat with is your brand, your proprietary technology, your proprietary data, your customer relationships. John Deere is a great example of this.
+
+[22:50] Uh, their, uh, sea and, uh, sea and spray targets, uh, have continues to grow substantially in the face of competitors because of, they have some proprietary technology and they have proprietary field data to, to deploy. So kind of sum up then I'll say my vision towards this, my long term view towards AI value creation is very bullish.
+
+[23:11] But I believe that, uh, electric motors give us an interesting, uh, long term time perspective. You know, electric motors were first introduced into factories in, in the 1880s. But it was not until the 1920s and 30s when we saw productivity really explode.
+
+[23:25] It took decades. I don't, it's not going to take decades to get value from AI. But the process of integrating AI into an organization to create value, to bring your employees along, to redesign workflows, particularly in larger, more complex organizations, takes time.
+
+[23:40] And there's a lot of missteps along the way. Uh, there's evidence that sometimes those initiatives are actually value draining in the first year. It takes a year or two before you actually get to value productivity. So setting more realistic expectations is helpful.
+
+[23:55] And to sum up, I will say, uh, in my view, there are three elements of AI adoption. Top down support, peer support, and access to the best tools. So thanks for your attention. I've actually been really curious about whether, um, any large business is ever going to be able to adapt to new AI tools.
+
+[24:24] And I'm curious how you would study startups. You know, if these things become super small and you have, you know, unicorns with two or three employees, how does that fit into research? Um, this is a good opportunity for me to make a shameless plug for my sub stack, which is called AI and Business.
+
+[24:43] And, uh, the QR code over there on the right. Uh, my, this is, my, my latest post from Monday is sort of on that, uh, uh, similar theme, which is, the title of the post is, why isn't Google crushing it in AI? You know, Google has unbelievable cloud infrastructure.
+
+[25:01] They dominate search. They have TPUs. They invented a lot of this technology. They've got amazing talent. And yet they languish in both consumer chat and also enterprise adoption. And I think that the answer to that is kind of revealed in terms of your question, which is, they really struggle with focus.
+
+[25:19] They've got so many different businesses. And to bring focus under that, you know, Google is a pretty decentralized organization with each business unit kind of doing their own. And, and it's hard to drive coordination unless you have a really strong top down leader.
+
+[25:32] I, my career was at Dell before, uh, I went into teaching. And, you know, one of the things that really, in my view, was the number one asset of Dell was Michael Dell. And he, uh, wandering around the organization. And then when he decides that there's going to be a change, he's very clear about direction and everybody moves.
+
+[25:52] And that is, it's hard to do, but those are the things you have to do to be successful. So I think it explains why right now, Anthropic and OpenAI may be pulling ahead of Google in some respects. Even though Google seems to have so many advantages and all kinds of people telling me that Google is going to crush it.
+
+[26:07] And, and, and we'll see. But I think that being smaller is an advantage and the ability to, to pivot. And it's going to create opportunities for new companies that can disrupt some of the incumbents. Hey Ben, my name is Kevin. Uh, appreciate the presentation.
+
+[26:22] So I work at notion, um, and in sales and in sales there and curious on the AI wizards and the AI champions. That was an interesting thought. How do you think about, um, kind of, I don't know, getting to that. Cause right now we have customer success who does enablement trainings and things like that.
+
+[26:42] But how do you think about proactively being like, Hey, you need wizards, you need champions. This is going to take time. Like just curious on your like talk track on how you would think about implementing a new AI from the vendor perspective.
+
+[26:56] Um, with BBVA, it was not a spontaneous or organic process. It was a deliberate, thoughtful effort to reach out across all of their employees and ask, and ask business unit heads to then find out within their business units. Who are the people that were like doing skunk works?
+
+[27:12] Who are the ones that like had their own little AI projects that were going? Who are the ones that were like influencing others? And they identified those. And one of the opportunities they created, which was really cool to get the frontier models.
+
+[27:24] You, and, and became, as opposed to saying we're going to give you like these best tools and best models. Instead they said, well you can apply and make the case for what you can do. For those that didn't have the access because they were acknowledged and recognized as being thought leaders within their respective business units.
+
+[27:43] And likewise the champions are more like department heads, business unit heads, that kind of thing. But they're not all uniformly behind AI. I, I, I did an interview with a consulting firm. And the head of their AI initiative is so frustrated because one of the business unit heads is completely behind the AI 100%.
+
+[28:02] And, and another one is completely opposed to it. And so guess where, you know, they put their attention on, on where they're, they're getting the support. So with BBVA, it was not like, it didn't just happen. It was a thoughtful plan, top down.
+
+[28:14] The centralization was to identify the people and give them the tools and then give them recognition. Hi. Um, I, I, my question, I think it's a question and a rant. Um, and my question is how do you respond to this? I walk around, uh, San Francisco or the kind of AI industry, even just around the United States.
+
+[28:42] And you hear a lot of people, a lot of engineers go, I am an AI maximalist. We're very, very close to things that are so much more intelligent, so much more dynamic and capable, that it's going to totally fundamentally place everything. There's at least one of those in this room.
+
+[29:01] You know, and, uh, so then, you know, what kind of a conversation are, do we have with them? You know, um, yeah, what would you say? What would you say that? What would you say to that person? That's my question. What would you say to that person?
+
+[29:18] Alex, has anything I said persuaded you? Yes. Yes and no. Yes and no. This is Alex McCaw, and he is my frequent sparring partner on this very question. Yes. Well, um, those engineers are right. The new models are insane. They are just mind blowing.
+
+[29:46] I say this as a complete expert at programming. I've done this my entire life. Uh, I am, I'm, this is what I do. I've created companies around this and setups and I live and breathe it. And I can just tell you that this new model, uh, Fable 5, is insane.
+
+[30:08] Uh, I'll give you an example. This, uh, I've created a note taking application over the last four years. Uh, it might not sound that complicated, but note taking is actually kind of cutting edge. You have to do with really difficult conflict resolution and uptime and all sorts of things.
+
+[30:29] It took me probably two years of solid programming to build this application. Um, which is used by, uh, about 5,000 people at this point. Um, I rewrote it from scratch, uh, over the last three days with, with Fable. Um, from scratch, it didn't have access to the other source code.
+
+[30:52] It is much. Which he took a break from just to listen to my talk. Yeah. It is, it is much, much better now than it's ever been before. It is, uh, it's got a completely new architecture. It, it, it, it made one mistake and that was my mistake because I get it basically told it the wrong thing to do.
+
+[31:10] I, I'm just telling you this, these, the models are insane. So this is why I have a hard time when I hear that, you know, there's an issue with the model. Uh, I will grant you this, I'm using them for programming. Um, and I think that's what they're best at.
+
+[31:25] I personally think that everything in a company that can be done with a laptop can be automated with code. Um, but I, I, I, I, you know, I definitely see your point, man, that there's a lot of friction to getting this stuff adopted. And, and there's friction.
+
+[31:41] Software is the absolute best use case on the planet for generative AI. Every other use case is not quite as optimal as, as software. So I think that this, it, this is why to me, I feel like I'm in two different worlds. When I, when I, and up here, I hear Alex's view all the time.
+
+[31:58] And that's just the constant drumbeat. But then I go out to the rest of the world where there's just like, they've got this idea of these things are happening, but they're not really sure. And I think it's going to take quite a long time because of complexity, the regulatory hurdles.
+
+[32:10] Humans only have a capacity of a certain amount of change. And other business cases are just not nearly as good for this generation of technology. And particularly with some of the, the jagged frontier stuff that we, some of the problems we don't even know how to solve yet, it's going to take a lot more time than if you are able to create your redo, refactor your entire app in three days, which is impressive.
+
+[32:31] Thanks. Very interesting talk. All of the examples you kind of gave, we're trying to inject AI into an existing company and change their existing workflows. I think there's an emerging model that's coming out that people are calling like AI native company, what Jack Dorsey's implementing at Block, where you completely restructure the fundamental way that the organization works.
+
+[32:55] Do you have any comment on, on that and how that might change some of your conclusions or whether you, that, you know, works or doesn't work? So I, for the MBA classes I teach, I, I don't plan my course at the beginning of the semester. I let that class unfold as things happen.
+
+[33:14] So when Jack Dorsey laid off 4,000 people from Block at the end of February, I created a mini case that we discussed two weeks later on that very question. And I will say, Dorsey's assertion was we were able to lay off 4,000 people because we have all these productivity gains from AI.
+
+[33:33] I would say most of my students concluded that he's lying. That most of what was happening is they over hired post COVID. They needed a trim back and they were rewarded in the short run with a Wall Street boost by saying it was AI. But when you look at the, some of the job functions they laid off, they are not job functions that I have any idea how you automate those with AI today.
+
+[33:54] And yet they got laid off as well. And so I'm sure they have some productivity. I just have not seen anything that would cause me to say, oh yeah, they have figured out how to reinvent the entire organization. Now you may have a different perspective and I'd love to hear it.
+
+[34:07] Yeah. I mean, there's definitely startups hitting eight figure revenues with like three people operating, kind of using these models where all of the company intelligence, they built from the ground up to put all the company's context and intelligence in the company.
+
+[34:23] Yes. And so like that, I guess that's kind of the native model. And yeah, sure it's easier to start with a new company than an existing. Absolutely. I mean, so that's the whole premise of biode coding, right? Is a lot easier to start with something and from scratch and let AI build it up.
+
+[34:39] It's a lot harder to take an existing complex company. And Block wasn't that complex of a company. There's companies way more complex than Block. But when you start with a complex company and then try to insert AI, that's where I struggle to find examples of that being done really well.
+
+[34:52] You know, the examples I showed here, I don't think they're like really amazing throw, blow you away kind of examples. I struggle to find amazing blow you away examples of really redesigning workflows in the way that you're describing and I expect to eventually see.
+
+[35:07] So let's make that last statement about the reinvention of workflows as like an extension of my other question. Based on you being immersed and studying business activity and having some level of sophisticated understanding of how businesses either operate or transact or support or sell or do or extract
+
+[35:41] in the marketplace. Do you think that in this AI moment that we have now that maybe it's markets are ripe for disruption? Like maybe existing businesses with processes and workflows that serve the economy like very well, will find it very difficult to reinvent their company and their workflow or sorry, they won't know either, they won't figure, they'll find it structurally difficult or the AI just
+
+[36:16] is not good enough or there will be a new generation of companies that are AI, I hate saying AI native, that are reinventing and then boom, there they go. When you and I had a conversation yesterday, I think I used this example and either you didn't hear it or you did and I'm going to repeat it to somebody else.
+
+[36:36] In my class, one of the classes I teach, I show a series of AT&T TV ads from the early 1990s and the premise of these ads is they show like several future technologies and there are things like e-books and video conferencing and electronic tolling and all kinds of stuff like that and the payoff, each of these 30 second spots, the payoff ends with a line and the company that will bring it to you is AT&T.
+
+[37:10] And I find it really interesting because across these different spots which identify maybe eight or ten different technologies, every single one of those technologies exists today in a digital form and Bell Labs had the patents on all of them and AT&T commercialized none of them.
+
+[37:29] And I think I use it as a case of it's very hard for an established company with an established infrastructure to really pivot. And there are examples of companies that do that but it's less common and we more commonly see the innovator's dilemma which is where they continue to like do their thing until the disruptor has just wiped them out.
+
+[37:51] And I think that's what we're going to be on the brink of with some of these AI native firms in the future. They are going to create lower cost value that is at the outset not as good as what the incumbent can do but it's because of the fact that it integrates AI in a unique way it's going to be able to create value that will allow them to disrupt the incumbent.
+
+[38:10] I think we're going to see examples of that. You're going to ask me who are they? I don't know. Thank you all very much for your attention.

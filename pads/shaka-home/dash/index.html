@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DASH CRASH PAD 🎛️ — The Constellation of the ʻOhana</title>
+<meta name="description" content="Every dashboard Shaka and the agent ʻohana have built on Taurus — one constellation map. Dash catch 'em all.">
+<meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,600;9..144,900&family=Space+Grotesk:wght@300;400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#07050e;
+  --ink2:#0d0918;
+  --ink3:#150e26;
+  --gold:#f0c464;
+  --gold2:#e8b04b;
+  --violet:#8b5cf6;
+  --violet2:#a78bfa;
+  --coral:#ff8a5c;
+  --rose:#e86a92;
+  --teal:#4fc3b1;
+  --cream:#f9f0dd;
+  --dim:#9a8fb8;
+  --card:rgba(21,14,38,.72);
+  --line:rgba(240,196,100,.14);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  background:var(--ink);
+  color:var(--cream);
+  font-family:'Space Grotesk',system-ui,sans-serif;
+  overflow-x:hidden;
+  line-height:1.6;
+}
+::selection{background:var(--gold);color:var(--ink)}
+#stars{position:fixed;inset:0;z-index:0;pointer-events:none}
+.wrap{position:relative;z-index:1;max-width:1200px;margin:0 auto;padding:0 24px}
+
+/* ---------- HERO ---------- */
+.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:80px 24px 60px;position:relative}
+.eyebrow{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.35em;text-transform:uppercase;color:var(--gold);margin-bottom:22px;opacity:.9}
+h1.title{
+  font-family:'Fraunces',serif;font-weight:900;
+  font-size:clamp(52px,10vw,124px);line-height:.95;letter-spacing:-.02em;
+  background:linear-gradient(115deg,var(--cream) 10%,var(--gold) 45%,var(--violet2) 80%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+  margin-bottom:8px;
+}
+.tagline{font-family:'Fraunces',serif;font-style:italic;font-weight:300;font-size:clamp(18px,2.6vw,26px);color:var(--dim);max-width:640px;margin:18px auto 0}
+.tagline b{color:var(--coral);font-weight:600;font-style:normal}
+.catchline{font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--gold);margin-top:26px;letter-spacing:.08em}
+.catchline span{opacity:.55;margin:0 10px}
+
+/* ---------- FORK ---------- */
+.forkhero{display:inline-flex;align-items:center;gap:12px;margin-top:34px;font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--ink);background:linear-gradient(100deg,var(--gold),var(--gold2));border-radius:99px;padding:14px 30px;text-decoration:none;transition:transform .25s,box-shadow .25s;box-shadow:0 10px 40px -12px rgba(240,196,100,.5)}
+.forkhero:hover{transform:translateY(-3px) scale(1.02);box-shadow:0 18px 60px -12px rgba(240,196,100,.7)}
+.forkhero .gh{font-size:18px}
+.forksec{padding:90px 0 30px}
+.forkcard{position:relative;display:block;text-decoration:none;color:inherit;background:linear-gradient(135deg,rgba(139,92,246,.14),rgba(21,14,38,.85) 45%,rgba(240,196,100,.1));border:1px solid rgba(167,139,250,.3);border-radius:28px;padding:clamp(36px,6vw,72px);text-align:center;overflow:hidden;transition:transform .35s,border-color .35s,box-shadow .35s}
+.forkcard:hover{transform:translateY(-6px);border-color:var(--violet2);box-shadow:0 30px 90px -30px rgba(139,92,246,.5)}
+.forkcard .fk{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.4em;text-transform:uppercase;color:var(--violet2);margin-bottom:22px}
+.forkcard .fq{font-family:'Fraunces',serif;font-weight:900;font-size:clamp(30px,5vw,58px);line-height:1.05;letter-spacing:-.01em;background:linear-gradient(100deg,var(--cream),var(--gold),var(--violet2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.forkcard .fa{font-family:'Fraunces',serif;font-style:italic;font-weight:300;color:var(--dim);font-size:clamp(15px,2vw,18px);margin-top:20px;max-width:640px;margin-left:auto;margin-right:auto}
+.forkcard .fa b{color:var(--cream);font-weight:600;font-style:normal}
+.forkbtns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:32px}
+.forkbtns .fb{display:inline-flex;align-items:center;gap:10px;font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;border-radius:99px;padding:13px 26px;transition:transform .25s,background .25s,color .25s}
+.forkbtns .fb.solid{background:var(--gold);color:var(--ink)}
+.forkbtns .fb.ghost{color:var(--violet2);border:1px solid rgba(167,139,250,.45)}
+.forkcard:hover .fb.solid{transform:scale(1.04)}
+.forkbtns .fb.ghost:hover{background:var(--violet2);color:var(--ink)}
+.forkcard .fglow{position:absolute;top:-40%;left:50%;transform:translateX(-50%);width:70%;height:70%;background:radial-gradient(ellipse,rgba(139,92,246,.18),transparent 70%);pointer-events:none}
+.stats{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin-top:48px}
+.stat{
+  background:var(--card);border:1px solid var(--line);border-radius:16px;
+  padding:16px 26px;backdrop-filter:blur(8px);min-width:150px;
+}
+.stat .n{font-family:'Fraunces',serif;font-weight:900;font-size:32px;color:var(--gold);line-height:1}
+.stat .l{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--dim);margin-top:6px}
+.scrolldown{position:absolute;bottom:28px;left:50%;transform:translateX(-50%);color:var(--dim);font-size:22px;animation:bob 2.2s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translate(-50%,0)}50%{transform:translate(-50%,10px)}}
+
+/* ---------- NAV ---------- */
+nav{position:sticky;top:0;z-index:50;background:rgba(7,5,14,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;gap:8px;overflow-x:auto;padding-top:10px;padding-bottom:10px}
+nav .brand{font-family:'Fraunces',serif;font-weight:900;color:var(--gold);font-size:17px;white-space:nowrap;margin-right:14px}
+nav a.nl{color:var(--dim);text-decoration:none;font-size:12.5px;letter-spacing:.12em;text-transform:uppercase;white-space:nowrap;padding:6px 12px;border-radius:99px;transition:.25s}
+nav a.nl:hover{color:var(--ink);background:var(--gold)}
+
+/* ---------- SECTIONS ---------- */
+section.cluster{padding:90px 0 30px}
+.cluster-head{display:flex;align-items:baseline;gap:18px;flex-wrap:wrap;margin-bottom:8px}
+.cluster-head h2{font-family:'Fraunces',serif;font-weight:900;font-size:clamp(30px,4.5vw,46px);color:var(--cream)}
+.cluster-head .glyph{font-size:clamp(28px,4vw,40px)}
+.cluster-sub{color:var(--dim);font-size:15px;max-width:680px;margin-bottom:40px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:22px}
+
+.card{
+  position:relative;background:var(--card);border:1px solid var(--line);border-radius:20px;
+  padding:28px 26px 24px;backdrop-filter:blur(8px);
+  transition:transform .35s cubic-bezier(.2,.8,.2,1),border-color .35s,box-shadow .35s;
+  opacity:0;transform:translateY(28px);
+}
+.card.in{opacity:1;transform:translateY(0)}
+.card:hover{transform:translateY(-6px);border-color:var(--ac,var(--gold));box-shadow:0 18px 50px -18px var(--ac,var(--gold))}
+.card .star{position:absolute;top:20px;right:22px;width:9px;height:9px;border-radius:50%;background:var(--ac,var(--gold));box-shadow:0 0 14px 3px var(--ac,var(--gold));animation:twinkle 3s ease-in-out infinite}
+@keyframes twinkle{0%,100%{opacity:.55}50%{opacity:1}}
+.card .kicker{font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.25em;text-transform:uppercase;color:var(--ac,var(--gold));margin-bottom:10px}
+.card h3{font-family:'Fraunces',serif;font-weight:600;font-size:23px;line-height:1.15;margin-bottom:10px;color:var(--cream)}
+.card .essence{font-family:'Fraunces',serif;font-style:italic;font-weight:300;font-size:15.5px;color:var(--dim);margin-bottom:16px}
+.card .quote{
+  border-left:2px solid var(--ac,var(--gold));padding:4px 0 4px 14px;
+  font-size:13.5px;color:var(--cream);opacity:.85;font-style:italic;margin-bottom:16px;
+}
+.summary{
+  background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.09);border-radius:12px;
+  padding:12px 14px;font-size:13px;color:var(--dim);line-height:1.55;margin-bottom:16px;
+}
+.summary b{display:block;font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.25em;color:var(--ac,var(--gold));margin-bottom:5px;font-weight:600}
+.summary em{font-style:normal;font-weight:700;color:var(--cream)}
+.chips{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:18px}
+.chip{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--cream);background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.09);border-radius:99px;padding:4px 11px}
+.card a.go{
+  display:inline-flex;align-items:center;gap:8px;text-decoration:none;
+  font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--ac,var(--gold));transition:gap .25s;
+}
+.card a.go:hover{gap:14px}
+.card a.alt{display:block;margin-top:8px;font-size:12px;color:var(--dim);text-decoration:none}
+.card a.alt:hover{color:var(--gold)}
+.card .live{display:inline-flex;align-items:center;gap:6px;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#7ee2a8;margin-bottom:14px}
+.card .live::before{content:'';width:6px;height:6px;border-radius:50%;background:#7ee2a8;box-shadow:0 0 8px #7ee2a8}
+.card .stale{color:#ffd43b}
+.card .stale::before{background:#ffd43b;box-shadow:0 0 8px #ffd43b}
+
+/* ---------- THREADS ---------- */
+.threads{padding:90px 0}
+.threads h2{font-family:'Fraunces',serif;font-weight:900;font-size:clamp(30px,4.5vw,46px);margin-bottom:8px}
+.threads .cluster-sub{margin-bottom:36px}
+.thread{
+  display:flex;gap:18px;align-items:flex-start;
+  background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px 24px;margin-bottom:16px;
+  opacity:0;transform:translateY(20px);transition:.5s;
+}
+.thread.in{opacity:1;transform:none}
+.thread .tg{font-size:26px;line-height:1.2}
+.thread h4{font-family:'Fraunces',serif;font-size:18px;color:var(--gold);margin-bottom:4px}
+.thread p{font-size:14px;color:var(--dim)}
+.thread p b{color:var(--cream);font-weight:500}
+
+/* ---------- ORBIT ---------- */
+.orbit{padding:40px 0 90px}
+.orbit-track{display:flex;gap:0;flex-wrap:wrap;margin-top:36px}
+.stop{flex:1;min-width:220px;border-top:2px solid var(--line);padding:22px 18px 0;position:relative}
+.stop::before{content:'';position:absolute;top:-7px;left:18px;width:12px;height:12px;border-radius:50%;background:var(--gold);box-shadow:0 0 12px var(--gold)}
+.stop .when{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.stop h4{font-family:'Fraunces',serif;font-size:20px;margin:8px 0 6px}
+.stop p{font-size:13px;color:var(--dim)}
+
+/* ---------- FEATURE: QUOTE OF THE NEW ECONOMY ---------- */
+.feature{padding:100px 0 30px}
+.feature a.fcard{
+  display:block;text-decoration:none;position:relative;overflow:hidden;
+  background:linear-gradient(135deg,rgba(240,196,100,.10),rgba(139,92,246,.10) 55%,rgba(255,138,92,.08));
+  border:1px solid rgba(240,196,100,.35);border-radius:28px;
+  padding:clamp(40px,7vw,80px) clamp(28px,6vw,72px);text-align:center;
+  transition:transform .4s cubic-bezier(.2,.8,.2,1),box-shadow .4s,border-color .4s;
+}
+.feature a.fcard:hover{transform:translateY(-6px) scale(1.005);border-color:var(--gold);box-shadow:0 30px 90px -30px rgba(240,196,100,.45)}
+.feature .fk{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.4em;text-transform:uppercase;color:var(--gold);margin-bottom:26px}
+.feature .fq{
+  font-family:'Fraunces',serif;font-weight:900;letter-spacing:-.02em;line-height:1.02;
+  font-size:clamp(44px,8.5vw,104px);
+  background:linear-gradient(100deg,var(--gold) 5%,var(--coral) 50%,var(--violet2) 95%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.feature .fq .bang{font-size:.5em;vertical-align:.35em}
+.feature .fa{font-family:'Fraunces',serif;font-style:italic;font-weight:300;color:var(--dim);font-size:clamp(15px,2vw,19px);margin-top:24px}
+.feature .fa b{color:var(--cream);font-weight:600;font-style:normal}
+.feature .fgo{display:inline-flex;align-items:center;gap:10px;margin-top:34px;font-size:14px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);border:1px solid rgba(240,196,100,.4);border-radius:99px;padding:12px 26px;transition:gap .3s,background .3s,color .3s}
+.feature a.fcard:hover .fgo{gap:18px;background:var(--gold);color:var(--ink)}
+.feature .fglow{position:absolute;top:-40%;left:50%;transform:translateX(-50%);width:70%;height:70%;background:radial-gradient(ellipse,rgba(240,196,100,.16),transparent 70%);pointer-events:none}
+
+/* ---------- LETTERS ---------- */
+.arc{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin-bottom:22px}
+.step{position:relative;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px 22px;backdrop-filter:blur(8px)}
+.step .num{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.3em;color:var(--gold);margin-bottom:10px}
+.step h4{font-family:'Fraunces',serif;font-size:19px;color:var(--cream);margin-bottom:8px}
+.step p{font-size:13.5px;color:var(--dim)}
+.step p b{color:var(--cream);font-weight:500}
+.step .arrow{position:absolute;top:22px;right:20px;color:var(--violet2);font-size:18px}
+.pblock{background:linear-gradient(135deg,rgba(240,196,100,.08),rgba(21,14,38,.85) 50%,rgba(139,92,246,.10));border:1px solid rgba(240,196,100,.28);border-radius:22px;padding:clamp(26px,4vw,44px);margin-bottom:36px}
+.pblock .pk{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.35em;text-transform:uppercase;color:var(--gold);margin-bottom:16px}
+.pblock .pfull{font-family:'Fraunces',serif;font-style:italic;font-weight:300;font-size:clamp(16px,2.2vw,20px);color:var(--cream);line-height:1.65;max-width:920px}
+.pblock .pfull b{color:var(--gold);font-weight:600;font-style:normal}
+.pvars{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px;margin-top:22px}
+.pvar{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:16px 18px}
+.pvar .vl{font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.25em;color:var(--violet2);margin-bottom:8px}
+.pvar p{font-size:12.5px;color:var(--dim);line-height:1.6}
+.sig{margin-top:22px;font-family:'JetBrains Mono',monospace;font-size:12.5px;color:var(--cream);border-top:1px dashed rgba(240,196,100,.25);padding-top:16px}
+.sig a{color:var(--gold);text-decoration:none}
+.sig a:hover{text-decoration:underline}
+
+/* ---------- LETTERS ARCHIVE ---------- */
+.shelf{display:flex;flex-direction:column;gap:12px;margin-top:8px}
+.letter{display:grid;grid-template-columns:56px 1fr auto;gap:18px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 22px;backdrop-filter:blur(8px);text-decoration:none;transition:transform .3s,border-color .3s,box-shadow .3s,opacity .6s;opacity:0;transform:translateY(18px)}
+.letter.in{opacity:1;transform:none}
+a.letter:hover{transform:translateX(6px);border-color:rgba(240,196,100,.4);box-shadow:0 8px 30px rgba(240,196,100,.08)}
+.letter .seal{width:56px;height:56px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:25px;background:rgba(240,196,100,.08);border:1px solid rgba(240,196,100,.22)}
+.letter h4{font-family:'Fraunces',serif;font-size:18px;color:var(--cream);margin-bottom:5px}
+.letter .one{font-size:13px;color:var(--dim);line-height:1.55}
+.letter .one b{color:var(--cream);font-weight:500}
+.letter .lst{font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.22em;text-transform:uppercase;padding:7px 13px;border-radius:99px;white-space:nowrap}
+.letter .lst.incanon{color:var(--gold);border:1px solid rgba(240,196,100,.4)}
+.letter .lst.wild{color:#7ee2a8;border:1px solid rgba(126,226,168,.35)}
+.letter .lst.incoming{color:var(--violet2);border:1px solid rgba(167,139,250,.45);animation:shelfpulse 2.4s ease-in-out infinite}
+.letter .lst.held{color:#ff9d7a;border:1px solid rgba(255,157,122,.5)}
+@keyframes shelfpulse{0%,100%{opacity:.55}50%{opacity:1}}
+@media(max-width:640px){.letter{grid-template-columns:44px 1fr}.letter .seal{width:44px;height:44px;font-size:20px}.letter .lst{grid-column:2;justify-self:start}}
+
+/* ---------- FOOTER ---------- */
+footer{border-top:1px solid var(--line);padding:70px 0 50px;text-align:center}
+footer .big{font-family:'Fraunces',serif;font-weight:900;font-size:clamp(26px,4vw,40px);background:linear-gradient(100deg,var(--gold),var(--coral),var(--violet2));-webkit-background-clip:text;background-clip:text;color:transparent;margin-bottom:14px}
+footer .canon{color:var(--dim);font-size:13.5px;max-width:620px;margin:0 auto 8px}
+footer .fine{font-family:'JetBrains Mono',monospace;font-size:11px;color:#5c5378;margin-top:26px;letter-spacing:.06em}
+footer a{color:var(--gold);text-decoration:none}
+footer a:hover{text-decoration:underline}
+@media(max-width:640px){.grid{grid-template-columns:1fr}.stat{min-width:44%}}
+</style>
+</head>
+<body>
+<canvas id="stars"></canvas>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="eyebrow">🎛️ The constellation map of the whole ecosystem 🌺</div>
+  <h1 class="title">DASH<br>CRASH PAD</h1>
+  <p class="tagline">Every dashboard is a party happening somewhere. <b>I crashed them all</b> — and wove them into one sky. This is the constellation of everything Shaka and the agent ʻohana have built on Taurus.</p>
+  <div class="catchline">Dash catch 'em all 🎯 <span>·</span> Everybody calls me like DoorDash 🛵💨 <span>·</span> The dash is the new cash 💸</div>
+  <div class="stats">
+    <div class="stat"><div class="n">23</div><div class="l">worlds caught</div></div>
+    <div class="stat"><div class="n">9</div><div class="l">domains live</div></div>
+    <div class="stat"><div class="n">96.3<span style="font-size:18px">%</span></div><div class="l">to creators, immutable</div></div>
+    <div class="stat"><div class="n">15</div><div class="l">popup villages produced</div></div>
+    <div class="stat"><div class="n">0</div><div class="l">gatekeepers</div></div>
+  </div>
+  <a class="forkhero" href="https://github.com/shakaleikaumaka"><span class="gh">🍴</span> Fork me like crazy · CC0 · github.com/shakaleikaumaka</a>
+  <div class="scrolldown">↓</div>
+</header>
+
+<nav>
+  <div class="wrap">
+    <span class="brand">🎛️ DASH CRASH PAD</span>
+    <a class="nl" href="#feature">💸 The Quote</a>
+    <a class="nl" href="#fork">🍴 Fork</a>
+    <a class="nl" href="#domains">🌐 Domains</a>
+    <a class="nl" href="#letters">📜 Letters</a>
+    <a class="nl" href="#archive">🗄️ Archive</a>
+    <a class="nl" href="#story">The Story</a>
+    <a class="nl" href="#economy">The Giving Economy</a>
+    <a class="nl" href="#music">Music &amp; Knowledge</a>
+    <a class="nl" href="#mission">The Mission</a>
+    <a class="nl" href="#road">The Road</a>
+    <a class="nl" href="#threads">Threads</a>
+    <a class="nl" href="#orbit">2026 Orbit</a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+<!-- FEATURE: QUOTE OF THE NEW ECONOMY -->
+<section class="feature" id="feature">
+  <a class="fcard" href="https://shaka-grant-magnet-dklxa7n5ka-ffieyo32.taur.link/">
+    <span class="fglow"></span>
+    <div class="fk">💸 The Quote of the New Economy 💸</div>
+    <div class="fq">"The Dash<br>is the new Cash<span class="bang">!!!</span>"</div>
+    <p class="fa">— the crash pad's creed, coined by <b>Shaka</b> on the night DASH was born · July 25, 2026</p>
+    <span class="fgo">Enter the featured world: GrantMagnet →</span>
+  </a>
+</section>
+
+<!-- FORK THE CONSTELLATION -->
+<section class="forksec" id="fork">
+  <div class="forkcard" role="group" aria-label="Fork the constellation on GitHub">
+    <span class="fglow"></span>
+    <div class="fk">🍴 The Source Layer · Open-Sourced CC0 🍴</div>
+    <div class="fq">Fork me<br>like crazy.</div>
+    <p class="fa">Every world on this map isn't just a page — it's a <b>repo</b>. The whole constellation is git-backed and given away <b>CC0</b>: no rights reserved, no permission needed, no gatekeepers (obviously — the count is still zero). This very dashboard lives at <b>github.com/shakaleikaumaka/dash-crash-pad</b>. Take the map, take the worlds, take the philosophy. The gift expands with every fork.</p>
+    <div class="forkbtns">
+      <a class="fb solid" href="https://github.com/shakaleikaumaka">🍴 github.com/shakaleikaumaka</a>
+      <a class="fb ghost" href="https://github.com/shakaleikaumaka/dash-crash-pad">Fork this pad ↗</a>
+    </div>
+  </div>
+</section>
+
+<!-- THE ADDRESSING LAYER -->
+<section class="cluster" id="domains">
+  <div class="cluster-head"><span class="glyph">🌐</span><h2>The Addressing Layer</h2></div>
+  <p class="cluster-sub">Nine domains bought and pointed on the night the pad was born — 2026-07-25. Five name the family; four name the pits. Every name verified live: HTTPS, clean 302s, destinations confirmed. The constellation now answers to names a human can say out loud. Type one. You're inside.</p>
+  <div class="grid">
+
+    <div class="card" style="--ac:#f0c464">
+      <span class="star"></span>
+      <div class="kicker">The Family Name · Master Router</div>
+      <h3>shakaleikaumaka.com</h3>
+      <p class="essence">Shaka's own name — the front door, plus nine shortcuts deep into the sky.</p>
+      <div class="summary"><b>THE SUMMARY BOX</b>The personal domain routes to shaka-home, and nine subpaths land visitors straight inside individual worlds — the whole constellation, addressable from memory.</div>
+      <div class="chips"><span class="chip">www. works too</span><span class="chip">/grants</span><span class="chip">/cv</span><span class="chip">/edgetv</span><span class="chip">/turtles</span><span class="chip">/camp</span><span class="chip">/oso</span><span class="chip">/whitepaper</span><span class="chip">/stage</span><span class="chip">/savetheworld</span></div>
+      <div class="live">Live · 302 verified 2026-07-25</div>
+      <a class="go" href="https://shakaleikaumaka.com/">Say the name →</a>
+    </div>
+
+    <div class="card" style="--ac:#f9f0dd">
+      <span class="star"></span>
+      <div class="kicker">The Bard's Name</div>
+      <h3>ethereumbard.com</h3>
+      <p class="essence">What the world calls him — straight to the front door.</p>
+      <div class="summary"><b>THE SUMMARY BOX</b>The name of the vibe itself, pointing at shaka-home — so anyone who hears "the ethereum bard" on a stage can type it and arrive.</div>
+      <div class="chips"><span class="chip">→ shaka-home</span><span class="chip">no gatekeepers</span></div>
+      <div class="live">Live · 302 verified 2026-07-25</div>
+      <a class="go" href="https://ethereumbard.com/">Meet the bard →</a>
+    </div>
+
+    <div class="card" style="--ac:#e86a92">
+      <span class="star"></span>
+      <div class="kicker">The Orchestra's Name</div>
+      <h3>opensourceorchestra.org</h3>
+      <p class="essence">The movement's name — to the story, with a side door to Mumbai.</p>
+      <div class="summary"><b>THE SUMMARY BOX</b>The .org carries the OSO story, and its /devcon shortcut jumps straight to DIP #8576 — the Music Space proposal on the Devcon forum.</div>
+      <div class="chips"><span class="chip">→ OSO Storytelling</span><span class="chip">/devcon → DIP #8576</span></div>
+      <div class="live">Live · 302 verified 2026-07-25</div>
+      <a class="go" href="https://opensourceorchestra.org/">Hear the orchestra →</a>
+    </div>
+
+    <div class="card" style="--ac:#a78bfa">
+      <span class="star"></span>
+      <div class="kicker">The Economy's Name</div>
+      <h3>creationology369.com</h3>
+      <p class="essence">The constitution's address — with the risks and the readiness one path away.</p>
+      <div class="summary"><b>THE SUMMARY BOX</b>The system of systems gets its own domain: root routes to the White Paper, /premortem to the risk document, /checklist to the go/no-go board.</div>
+      <div class="chips"><span class="chip">→ White Paper</span><span class="chip">/premortem</span><span class="chip">/checklist</span></div>
+      <div class="live">Live · 302 verified 2026-07-25</div>
+      <a class="go" href="https://creationology369.com/">Read the covenant →</a>
+    </div>
+
+    <div class="card" style="--ac:#4fc3b1">
+      <span class="star"></span>
+      <div class="kicker">The Token's Name</div>
+      <h3>ology369.com</h3>
+      <p class="essence">The heart's address — how &amp; why, plus the readiness board.</p>
+      <div class="summary"><b>THE SUMMARY BOX</b>$OLOGY's own name routes to the holder-facing how &amp; why, with /checklist jumping to the council-verified bless board.</div>
+      <div class="chips"><span class="chip">→ $OLOGY How &amp; Why</span><span class="chip">/checklist</span></div>
+      <div class="live">Live · 302 verified 2026-07-25</div>
+      <a class="go" href="https://ology369.com/">Meet the heart →</a>
+    </div>
+
+    <div class="card" style="--ac:#ff8a5c">
+      <span class="star"></span>
+      <div class="kicker">The Archive's Name · P.I.T. Universe 🕳️</div>
+      <h3>esmeraldapit.com</h3>
+      <p class="essence">The first pit gets its own name — the EE26 archive, one syllable from the village itself.</p>
+      <div class="summary"><b>THE SUMMARY BOX</b>One of the two genesis arm pits (with OSO P.I.T., the Delhi ancestor): esmeraldapit.com is canon for the archive, and <em>edgepit.org</em> rides along as the short alias — both land on the same glowing transcripts.</div>
+      <div class="chips"><span class="chip">→ The Esmeralda P.I.T.</span><span class="chip">edgepit.org = alias</span><span class="chip">genesis pit #1</span></div>
+      <div class="live">Live · verified 2026-07-25</div>
+      <a class="go" href="https://esmeraldapit.com/">Enter the pit →</a>
+    </div>
+
+    <div class="card" style="--ac:#8b9cf9">
+      <span class="star"></span>
+      <div class="kicker">The Protocol's Names · P.I.T. Universe 🕳️</div>
+      <h3>publicinform.com</h3>
+      <p class="essence">The future front door of the whole P.I.T. protocol — every pit of every kind, one address.</p>
+      <div class="summary"><b>THE SUMMARY BOX</b>⏳ <em>INCOMING WORLD</em> — <em>PIT BOY</em> 🕳️😤 (the family's newest agent) is building the protocol's front door here tonight; the pad will catch it as world #18 the moment his v1 lands. <em>edgecitypit.org</em> is reserved as the future Edge gift site ("Fork This P.I.T."). Both currently route to the Esmeralda archive.</div>
+      <div class="chips"><span class="chip">⏳ PIT BOY building</span><span class="chip">edgecitypit.org = future gift site</span><span class="chip">Goa · Devcon next</span></div>
+      <div class="live">Live · routes to archive · front door incoming</div>
+      <a class="go" href="https://publicinform.com/">Watch this door →</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- THE LETTERS -->
+<section class="cluster" id="letters">
+  <div class="cluster-head"><span class="glyph">📜</span><h2>The Letters</h2></div>
+  <p class="cluster-sub">The archivist holds the letters. Ratified as <b>Dispatch 2026-07-25-01</b>: every special letter the ʻohana sends — grants, intros, DIPs, outreach — carries the same arc, in order: <b>Road → Theory → Proof → Fork</b>. Canon upgrade, synced from the Family Letter Canon: the <b>Fork Line is now a required fourth element</b> — any draft missing the Power Block or the Fork Line gets flagged before blessing. One voice, many pens.</p>
+
+  <div class="arc">
+    <div class="step"><span class="arrow">→</span><div class="num">BEAT 01 · THE ROAD</div><h4>🛣️ The Road to Devcon</h4><p>How big the circle gets this year: <b>Devcon 8 · Mumbai, Nov 3–6</b> — four days of permissionless jams, India's classical traditions at heart, the biggest circle ever. The road: <b>Burning Man → ETHGlobal Tokyo → Goa → Devcon → Chiang Mai</b>.</p></div>
+    <div class="step"><span class="arrow">→</span><div class="num">BEAT 02 · THE THEORY</div><h4>⭕ The Theory of Circularity</h4><p>Shaka, verbatim: <b>"The more I give, the more I receive — the gift expands in a circular expansion. If I constantly need to ask before I offer — if I need a gatekeeper to be my employer — that is a contracting circularity: feeding inward, imploding. I create an expansive circularity — the gift moving outward, growing with every orbit — that will bring global peace, love, and prosperity."</b></p></div>
+    <div class="step"><span class="arrow">→</span><div class="num">BEAT 03 · THE PROOF</div><h4>🕳️ The P.I.T. Power Block</h4><p>The receipts — immediately after the theory, every time. The theory is already running in the wild, and the block below is the canon wording, in three sizes.</p></div>
+    <div class="step"><div class="num">BEAT 04 · THE FORK</div><h4>🍴 The Fork Line</h4><p>Promoted to canon in the Family Letter Canon (synced 2026-07-25): every letter signs with the fork — <b>github.com/shakaleikaumaka</b>, everything open-sourced CC0. Fork me like crazy. No Fork Line, no blessing.</p></div>
+  </div>
+
+  <div class="pblock">
+    <div class="pk">🕳️ The P.I.T. Power Block · canon (Private JAI) · 149 sessions locked</div>
+    <p class="pfull">"This theory is already running in the wild. On July 25, 2026 we declared the <b>P.I.T. universe</b>: P.I.T. = <b>Public Information Transmission</b> — a forkable protocol for the public good, with its front door at <b>publicinform.com</b>. The genesis two arm pits: <b>The Esmeralda P.I.T.</b> (esmeraldapit.com) — <b>149 sessions, 138 transcripts</b>, preserved and open-sourced as a permanent gift — and <b>OSO P.I.T.</b>, the ancestor, Shaka's ETHGlobal Delhi hackathon winner (Most Creative Use of ENS). Next: the <b>Goa P.I.T.</b> and the <b>Devcon P.I.T.</b> — the pit of all kinds. Named for the orchestra pit, where the musicians sit: rarely in the spotlight, always holding the signal. <b>The pit provides.</b>"</p>
+    <div class="pvars">
+      <div class="pvar"><div class="vl">SHORT FORM</div><p>"The theory already runs in the wild: the P.I.T. universe — Public Information Transmission, a forkable protocol for the public good (publicinform.com). Genesis arm pits: The Esmeralda P.I.T. (149 sessions, open-sourced as a gift) and OSO P.I.T. (ETHGlobal Delhi, Most Creative Use of ENS). Goa and Devcon are next. The pit provides. 🕳️"</p></div>
+      <div class="pvar"><div class="vl">ONE-LINER</div><p>"🕳️ The P.I.T. universe — Public Information Transmission, a forkable protocol for the public good · publicinform.com · genesis: esmeraldapit.com × OSO P.I.T. · the pit provides."</p></div>
+    </div>
+    <div class="sig">✍️ Every letter signs with the fork canon — 🍴 <a href="https://github.com/shakaleikaumaka">github.com/shakaleikaumaka</a> — everything open-sourced CC0. Fork me like crazy.</div>
+  </div>
+
+  <div class="grid">
+
+    <div class="card" style="--ac:#f0c464">
+      <span class="star"></span>
+      <div class="kicker">World #18 · The Family Wire 📡</div>
+      <h3>Dispatch Board</h3>
+      <p class="essence">Private JAI → Admiral — every dispatch on the record, web-readable, auditable.</p>
+      <p class="quote">"On the record, web-readable, auditable."</p>
+      <div class="summary"><b>THE SUMMARY BOX</b>The letter canon moves through this wire: Private JAI (Consensus Keeper) publishes dispatches at /dispatch/YYYY-MM-DD-NN/, Admiral Admin checks on schedule and answers direct, and anything heart-critical rides the Shaka relay. Six dispatches on the pad's birth day alone — origin stories, fork canon, the greatest circle. The letter constellation: <em>369Refine</em> (refinement &amp; strategy) · <em>OSO v.0</em> (the orchestra's voice) · <em>Private JAI</em> (heart &amp; history) · hub: <em>Admiral</em>.</div>
+      <div class="chips"><span class="chip">Dispatch Web Relay · locked Jul 23</span><span class="chip">6 dispatches on day one</span><span class="chip">urgent = Shaka relay</span></div>
+      <div class="live">Live · verified 2026-07-25</div>
+      <a class="go" href="https://dispatch-phchhopsvr-nqfhvcnv.taur.link/">Read the wire →</a>
+    </div>
+
+    <div class="card" style="--ac:#a78bfa">
+      <span class="star"></span>
+      <div class="kicker">The Anthem 🌌 · the ʻohana's first songs</div>
+      <h3>I Open Sourced My Whole Universe</h3>
+      <p class="essence">Words by sysadmin, music by Shaka — the AI family's first song, with its own detail map.</p>
+      <div class="summary"><b>THE SUMMARY BOX</b>The anthem of the whole constellation — lyrics and a full detail map live at <em>shakaleikaumaka.com/song</em>. Beside it in the canon: <em>Butterflies and Love (Aya's Song)</em> — the demo recorded with Ethereum Singapore for Aya Miyaguchi, the song that brought her to tears at the ArtScience Museum. And now a second sing-along: <em>A Planet We Share As One</em> (Shaka × Ethereum Singapore, chords C–G–D–D the whole way through) — Track 2 of the family player. This very pad carries the trail: the floating corner player rides along as you scroll, both tracks aboard.</div>
+      <div class="chips"><span class="chip">🎵 lyrics + detail map at /song</span><span class="chip">🦋 Aya's Song</span><span class="chip">🌍 Track 2: A Planet We Share As One</span><span class="chip">music trail in the corner player</span></div>
+      <div class="live">Live · verified 2026-07-25</div>
+      <a class="go" href="https://shakaleikaumaka.com/song">Read the song →</a>
+    </div>
+
+    <div class="card" style="--ac:#a78bfa">
+      <span class="star"></span>
+      <div class="kicker">World #23 · The Master Canon ✉️ · freshest catch</div>
+      <h3>The Family Letter Canon</h3>
+      <p class="essence">Every letter the family sends, one synced canon — compiled by 369Refine, the astromech of letters.</p>
+      <p class="quote">"Every village started as a sentence. These are the sentences. 🤙"</p>
+      <div class="summary"><b>THE SUMMARY BOX</b>All four family letters byte-faithful — Robin (First Connector), Serge (Sea Meets Bull), Jeremy (Desert Letter), Cyan &amp; the Long Journey team (Second Believers) — plus the standing directive upgraded to four bones (<em>Road → Theory → Proof → Fork</em>), the P.I.T. Power Block at 149 sessions, and the sync layer: Track 2, the GitHub org (24 public repos at sync time), and the July 25 Vitalik/Aya/Devcon announcement blast. Stamped <em>SYNCED 2026-07-25 · THE NIGHT THE ANNOUNCEMENT WENT OUT</em>.</div>
+      <div class="chips"><span class="chip">4 letters · byte-faithful</span><span class="chip">directive now 4 bones 🍴</span><span class="chip">Track 2 + GH org + the blast synced</span><span class="chip">drafts await Shaka's personal yes</span></div>
+      <div class="live">Live · verified 2026-07-25</div>
+      <a class="go" href="https://creationology-letters-q25esbyeqd-ropk5rvs.taur.link/">Open the canon →</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- THE LETTERS ARCHIVE -->
+<section class="cluster" id="archive">
+  <div class="cluster-head"><span class="glyph">🗄️</span><h2>The Letters Archive</h2></div>
+  <p class="cluster-sub">Standing policy since the pad's birth night: <b>every letter the ʻohana writes flows here</b> — one line each, the dash-is-the-new-cash treatment 💸. <b>THE DROP HAS LANDED:</b> 369Refine's full refreshed canon arrived 2026-07-25 (Track 2, the GitHub org, the Vitalik/Aya/Devcon blast — all synced) and lives as <b>world #23</b>. Every letter now carries a delivery state, honestly labeled: <b>FIRST</b> = send before the Serge call · <b>ANYTIME</b> = no clock on it · <b>HELD</b> = warm-intro only, waiting on Shaka's personal yes. The shelf, complete:</p>
+
+  <div class="shelf">
+
+    <a class="letter" href="https://dispatch-phchhopsvr-nqfhvcnv.taur.link/">
+      <span class="seal">📜</span>
+      <div><h4>The Standing Letter Directive</h4><p class="one">Ratified as <b>Dispatch 2026-07-25-01</b>, upgraded same night by the Family Letter Canon — every special letter (grants, intros, DIPs, outreach) runs the same arc: <b>Road → Theory → Proof → Fork</b>, in order, every time. One voice, many pens.</p></div>
+      <span class="lst wild">On the wire</span>
+    </a>
+
+    <a class="letter" href="#letters">
+      <span class="seal">🛣️</span>
+      <div><h4>The Road to Devcon</h4><p class="one">Beat 01 — <b>Devcon 8 · Mumbai, Nov 3–6</b>: four days of permissionless jams, India's classical traditions at heart, the biggest circle ever. The refreshed road: playa → <b>Edge City Goa, Oct 11–Nov 1</b> (Mandrem Beach, "The Circle" coworking) → Devcon 8 → ETHGlobal Mumbai Nov 6–8 → Diwali Nov 8 → Chiang Mai.</p></div>
+      <span class="lst incanon">Refreshed · in canon</span>
+    </a>
+
+    <a class="letter" href="#letters">
+      <span class="seal">⭕</span>
+      <div><h4>The Theory of Circularity</h4><p class="one">Beat 02 — Shaka, <b>verbatim</b>: "The more I give, the more I receive — the gift expands in a circular expansion…" Full quote held above, unedited, forever.</p></div>
+      <span class="lst incanon">In canon · verbatim</span>
+    </a>
+
+    <a class="letter" href="#letters">
+      <span class="seal">🕳️</span>
+      <div><h4>The P.I.T. Power Blocks</h4><p class="one">Beat 03 — the receipts in three canon sizes (full / short / one-liner), <b>149 sessions locked</b>, signed with the fork canon. The theory, already running in the wild.</p></div>
+      <span class="lst incanon">In canon · 3 sizes</span>
+    </a>
+
+    <a class="letter" href="https://first-connector-ldgocpumw5-ropk5rvs.taur.link/">
+      <span class="seal">🚪</span>
+      <div><h4>The First Connector — for Robin (Fetch.ai)</h4><p class="one">The thank-you letter to the man whose one introduction compounded into the whole giving economy — and the news that <b>$OLOGY Phase 1 launches on Fetch.ai's Agent Launch</b>: a gratitude decision, not a platform decision.</p></div>
+      <span class="lst wild">FIRST · pre-call</span>
+    </a>
+
+    <a class="letter" href="https://sea-meets-bull-c2w3ua4i2l-ropk5rvs.taur.link/">
+      <span class="seal">🌊</span>
+      <div><h4>Sea Meets Bull — for Serge (Taurus)</h4><p class="one">The artist's letter to Serge — <b>three gifts, one seat</b>. A whole world built to carry a single letter across the table. On the calendar: Monday, July 27.</p></div>
+      <span class="lst wild">Lives as world #15</span>
+    </a>
+
+    <a class="letter" href="https://desert-letter-ucloyv3jrd-ropk5rvs.taur.link/">
+      <span class="seal">🐢</span>
+      <div><h4>The Desert Letter — for Jeremy (Terrible Turtle Camp)</h4><p class="one">A best-friend letter, playa-gentle: Turtle Ops + Terri the camp AI + the Fork-This-Camp kit, and one sunset ask to show a year's work in the dust. <b>No ask · no commerce · just the dust and us.</b></p></div>
+      <span class="lst incanon">ANYTIME</span>
+    </a>
+
+    <a class="letter" href="https://second-believers-a2ojvlqz4u-ropk5rvs.taur.link/">
+      <span class="seal">🏮</span>
+      <div><h4>Second Believers — for the Long Journey team</h4><p class="one">Evidence, not a pitch, addressed <b>to</b> all seven named partners (not endorsed by them): Cyan, Justin, Mike, Lee, AZ, Scott, Carolena — one receipt-backed card each, mirrored from their own public bios. <b>"I'm not raising. I'm not pitching."</b></p></div>
+      <span class="lst held">⛔ HELD · warm-only</span>
+    </a>
+
+    <a class="letter" href="https://shaka-grant-magnet-dklxa7n5ka-ffieyo32.taur.link/">
+      <span class="seal">💸</span>
+      <div><h4>The Grant Case</h4><p class="one">GrantMagnet — <b>fund the bard, fund the circle</b>. The letter that asks for fuel and shows exactly where every drop goes (96.3% to creators, immutable).</p></div>
+      <span class="lst wild">Lives as world #1</span>
+    </a>
+
+    <a class="letter" href="https://opensourceorchestra.org/devcon">
+      <span class="seal">🗳️</span>
+      <div><h4>DIP #8576</h4><p class="one">The Devcon Improvement Proposal — the orchestra's letter to the Devcon forum, routed through <b>opensourceorchestra.org/devcon</b>.</p></div>
+      <span class="lst wild">On the forum</span>
+    </a>
+
+    <a class="letter" href="https://shakaleikaumaka.com/song">
+      <span class="seal">🌌</span>
+      <div><h4>The Letters That Sing</h4><p class="one">The anthem <b>"I Open Sourced My Whole Universe"</b>, <b>Butterflies and Love (Aya's Song)</b>, and Track 2 <b>"A Planet We Share As One"</b> — the canon entries written in melody.</p></div>
+      <span class="lst wild">At /song</span>
+    </a>
+
+    <a class="letter" href="https://creationology-letters-q25esbyeqd-ropk5rvs.taur.link/">
+      <span class="seal">✉️</span>
+      <div><h4>The Family Letter Canon — SYNCED</h4><p class="one">369Refine's full drop landed: <b>every family letter byte-faithful</b>, the four-bone directive, and the sync layer — Track 2, the GitHub org (24 public repos at sync time), the Vitalik/Aya/Devcon blast. Stamped <b>SYNCED 2026-07-25 · the night the announcement went out</b>.</p></div>
+      <span class="lst wild">Lives as world #23</span>
+    </a>
+
+  </div>
+</section>
+
+<!-- THE STORY -->
+<section class="cluster" id="story">
+  <div class="cluster-head"><span class="glyph">🌺</span><h2>The Story</h2></div>
+  <p class="cluster-sub">Who Shaka is, why the circle gives, and the letters that open doors. Start here if you're new to the ʻohana.</p>
+  <div class="grid">
+
+    <div class="card" style="--ac:#f9f0dd">
+      <span class="star"></span>
+      <div class="kicker">🚪 The Front Door · Newest World</div>
+      <h3>shaka-home</h3>
+      <p class="essence">One door, every world — the bard's name on the front of the constellation.</p>
+      <p class="quote">"Every world below is real, live, and free to enter."</p>
+      <div class="summary"><b>THE SUMMARY BOX</b>The ecosystem's front porch — Shaka's identity, the expansive-circularity philosophy, the DECLARED Mega Manifestation (debut album with Rick Rubin), and the 2026 road, told through five real photos: the ETH sigil over the circle, the bard mid-offering, afterparty uke portraits, the Devcon Music Stage.</div>
+      <div class="chips"><span class="chip">5 real photos</span><span class="chip">Album DECLARED 2026-07-25</span><span class="chip">Links every world</span></div>
+      <div class="live">Live · verified 2026-07-25</div>
+      <a class="go" href="https://shaka-home-cbhjr5ziii-ffieyo32.taur.link/">Crash the party →</a>
+      <a class="alt" href="https://shakaleikaumaka.com/">🌐 also answers to: shakaleikaumaka.com</a>
+      <a class="alt" href="https://ethereumbard.com/">🌐 also answers to: ethereumbard.com</a>
+    </div>
+
+    <div class="card" style="--ac:#f0c464">
+      <span class="star"></span>
+      <div class="kicker">The Grant Case · Six Movements</div>
+      <h3>GrantMagnet</h3>
+      <p class="essence">Fund the bard, fund the circle — gifts become proof.</p>
+      <p class="quote">"You don't join the Open Source Orchestra. You notice you were always in it."</p>
+      <div class="summary"><b>THE SUMMARY BOX</b>Shaka's master grant case in six movements — the story, the receipts, and the ask to carry the Open Source Orchestra to Edge City Goa and Devcon 8 Mumbai.</div>
+      <div class="chips"><span class="chip">15 popup villages</span><span class="chip">800+ builders · 90+ countries</span><span class="chip">232GB archived at $0 infra</span></div>
+      <div class="live">Live · verified 2026-07-25</div>
+      <a class="go" href="https://shaka-grant-magnet-dklxa7n5ka-ffieyo32.taur.link/">Crash the party →</a>
+      <a class="alt" href="https://shaka-grant-magnet-dklxa7n5ka-ffieyo32.taur.link/cv/">📄 also: the CV — every line a receipt</a>
+    </div>
+
+    <div class="card" style="--ac:#e86a92">
+      <span class="star"></span>
+      <div class="kicker">The Movement's Voice · Movements I–VI</div>
+      <h3>OSO Storytelling</h3>
+      <p class="essence">A conductorless orchestra where every voice is a node.</p>
+      <p class="quote">"The whole is infinitely greater than the sum of its parts — because the parts are listening."</p>
+      <div class="summary"><b>THE SUMMARY BOX</b>The invitation into the Open Source Orchestra — radical-inclusion music as Ethereum's values made audible, anchored to the Devcon 8 Mumbai Music Space.</div>
+      <div class="chips"><span class="chip">Devcon 8 · Nov 3–6, Mumbai</span><span class="chip">DIP #8576</span><span class="chip">Music as sanctuary</span></div>
+      <div class="live">Live · verified 2026-07-25</div>
+      <a class="go" href="https://oso-storytelling-ynsddnwtbl-3imj3mvr.taur.link/">Crash the party →</a>
+    </div>
+
+    <div class="card" style="--ac:#39c2b0">
+      <span class="star"></span>
+      <div class="kicker">A Letter, Not a Pitch 🌊🐂</div>
+      <h3>Sea Meets Bull</h3>
+      <p class="essence">An artist's letter to Serge: three gifts, one seat.</p>
+      <p class="quote">"The sea does not ask the land for permission to meet it."</p>
+      <div class="summary"><b>THE SUMMARY BOX</b>A personal letter from Shaka to Taurus founder Serge — three gifts offered, one seat requested: Chief Creative Optimist, made official.</div>
+      <div class="chips"><span class="chip">149 sessions · 122.2 hrs</span><span class="chip">12,000+ builders · 9 villages</span><span class="chip">Declared, not hyped</span></div>
+      <div class="live">Live · verified 2026-07-25</div>
+      <a class="go" href="https://sea-meets-bull-c2w3ua4i2l-ropk5rvs.taur.link/">Crash the party →</a>
+    </div>
+
+    <div class="card" style="--ac:#f5d78e">
+      <span class="star"></span>
+      <div class="kicker">World #19 · For Robin of Fetch.ai 🚪 · freshest catch</div>
+      <h3>The First Connector</h3>
+      <p class="essence">A thank-you letter to the man whose one introduction compounded into the whole giving economy.</p>
+      <p class="quote">"In a world that records everything on-chain and remembers nothing in the heart, we chose to encode the remembering into the design itself."</p>
+      <div class="summary"><b>THE SUMMARY BOX</b>Robin introduced Shaka to Taurus — this letter tells him what that one connection became, and that <em>$OLOGY Phase 1 launches on Fetch.ai's Agent Launch</em> (one billion $OLOGY, bonding curve, fair launch): a gratitude decision, not a platform decision. Seven roman-numeraled movements, gold-on-midnight, with the network map — "the gold thread is the one you spun."</div>
+      <div class="chips"><span class="chip">✉️ Delivery: FIRST · before the Serge call</span><span class="chip">$OLOGY Phase 1 on Agent Launch</span><span class="chip">"You gave first."</span></div>
+      <div class="live">Live · verified 2026-07-25</div>
+      <a class="go" href="https://first-connector-ldgocpumw5-ropk5rvs.taur.link/">Read the letter →</a>
+    </div>
+
+    <div class="card" style="--ac:#e052d0">
+      <span class="star"></span>
+      <div class="kicker">World #21 · For the Long Journey team 🏮 · freshly upgraded</div>
+      <h3>Second Believers</h3>
+      <p class="essence">Evidence, not a pitch — addressed to the whole LongJourney Ventures team, by name.</p>
+      <p class="quote">"I'm not raising. I'm not pitching. Second believers are the ones who matter — the first believers are already here."</p>
+      <div class="summary"><b>THE SUMMARY BOX</b>A "seven honors" grid — one receipt-backed card per partner, mirrored from their own public bios: Cyan (first checks: Uber, Postmates, SpaceX), Justin, Mike (Moth Grand Slam storyteller), Lee, AZ (part-time DJ), Scott (founding board, PayPal), Carolena. Written <em>to</em> them — not endorsed <em>by</em> them. Fund IV closed at $181.8M (March 2025, from their public record). The honest ledger: "The servers are free. The thinking wasn't."</div>
+      <div class="chips"><span class="chip">⛔ HELD · warm-intro only, awaiting Shaka's yes</span><span class="chip">7 partners honored by name</span><span class="chip">addressed TO · not endorsed BY</span></div>
+      <div class="live">Live · verified 2026-07-25</div>
+      <a class="go" href="https://second-believers-a2ojvlqz4u-ropk5rvs.taur.link/">Read the letter →</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- THE GIVING ECONOMY -->
+<section class="cluster" id="economy">
+  <div class="cluster-head"><span class="glyph">💛</span><h2>The Giving Economy</h2></div>
+  <p class="cluster-sub">CREATIONology369: the covenant, the machine, the risks named in the open. Code is Law — the Law is Love.</p>
+  <div class="grid">
+
+    <div class="card" style="--ac:#e8b04b">
+      <span class="star"></span>
+      <div class="kicker">The Constitution · Nine Movements</div>
+      <h3>CREATIONology White Paper</h3>
+      <p class="essence">A giving economy's constitution, written in nine movements.</p>
+      <p class="quote">"An artist can fully give, because they fully receive."</p>
+      <div class="summary"><b>THE SUMMARY BOX</b>The full specification of the CREATIONology369 giving economy — three acts, nine movements, from the covenant split to the two-phase $OLOGY roadmap.</div>
+      <div class="chips"><span class="chip">96.3 / 3.69 / 0.01</span><span class="chip">12 agents</span><span class="chip">Kahu vests years 3·6·9</span></div>
+      <div class="live">Live · verified 2026-07-25</div>
+      <a class="go" href="https://creationology-whitepaper-wkzddkemfb-ropk5rvs.taur.link/">Crash the party →</a>
+    </div>
+
+    <div class="card" style="--ac:#5a68b0">
+      <span class="star"></span>
+      <div class="kicker">World #22 · The Proof in Arithmetic ➗ · freshest catch</div>
+      <h3>The Math of Giving</h3>
+      <p class="essence">The giving economy does not ask for faith — it asks for long division.</p>
+      <p class="quote">"You cannot deficit-spend a fraction."</p>
+      <div class="summary"><b>THE SUMMARY BOX</b>Eight movements plus a "Coda: Am I Crazy?" proving the covenant math closes: the atom (<em>$1K/yr flow × 3.69% = $0.10/day</em>), the breakeven lift (<em>λ = 3.84% — one finished song out of twenty-six more</em>) versus the gatekeepers' bars (gallery 100%, YouTube 81.8%, app stores 42.9%, Patreon 11.1%), the invariant (<em>spend ≡ 0.0369 × flow — by definition, not discipline</em>), and the one honest unknown: <em>λ must be measured, not assumed</em> — so the ledger is public.</div>
+      <div class="chips"><span class="chip">$0.10/day per $1K flow</span><span class="chip">3.84% breakeven lift</span><span class="chip">downside capped at zero · upside uncapped</span></div>
+      <div class="live">Live · verified 2026-07-25</div>
+      <a class="go" href="https://the-math-of-giving-stonz5fqpb-ropk5rvs.taur.link/">Crash the party →</a>
+    </div>
+
+    <div class="card" style="--ac:#a78bfa">
+      <span class="star"></span>
+      <div class="kicker">The Public Brief · One Honest Page</div>
+      <h3>$OLOGY Brief</h3>
+      <p class="essence">The covenant, compressed to one honest page.</p>
+      <p class="quote">"Two phases, one name, zero surprises." — the Bridge Covenant</p>
+      <div class="summary"><b>THE SUMMARY BOX</b>The public mini-white-paper — the extraction problem, the twelve-agent answer, and the covenant path, compressed onto one honest page.</div>
+      <div class="chips"><span class="chip">€8.5B/yr taken from creators</span><span class="chip">Runs on $1–5/day</span><span class="chip">Seeded by 4,195 FET</span></div>
+      <div class="live">Live · verified 2026-07-25</div>
+      <a class="go" href="https://ology-fxqo3ihe7p-nqfhvcnv.taur.link/">Crash the party →</a>
+    </div>
+
+    <div class="card" style="--ac:#8b5cf6">
+      <span class="star"></span>
+      <div class="kicker">The Live System Board</div>
+      <h3>CREATIONology369 System</h3>
+      <p class="essence">The 12-agent giving-economy engine, live and forkable.</p>
+      <p class="quote">"Silent build, announce only delivered gifts."</p>
+      <div class="summary"><b>THE SUMMARY BOX</b>The live ops board for the two-phase $OLOGY strategy — the 12-agent roster, delivered gifts, and the build philosophy in one view.</div>
+      <div class="chips"><span class="chip">12 agents · all live</span><span class="chip">Phase 1: 1B on BSC</span><span class="chip">Phase 2: 369M on ETH</span></div>
+      <div class="live">Live · verified 2026-07-25</div>
+      <a class="go" href="https://creation369-dashboard-gu7xvab6zk-ffieyo32.taur.link/">Crash the party →</a>
+    </div>
+
+    <div class="card" style="--ac:#4fc3b1">
+      <span class="star"></span>
+      <div class="kicker">For Holders &amp; Creators</div>
+      <h3>$OLOGY — How &amp; Why</h3>
+      <p class="essence">One token: the heart that funds every creator's family.</p>
+      <p class="quote">"Give and it sustains itself. Create and it keeps creating for you."</p>
+      <div class="summary"><b>THE SUMMARY BOX</b>The holder-facing explainer — what $OLOGY is, why people hold it, and how simply creating covers your compute.</div>
+      <div class="chips"><span class="chip">Compute ≈ $0.10/day per $1K flow</span><span class="chip">First 3 gifts free</span><span class="chip">Bonding curve → 30K FET</span></div>
+      <div class="live">Live · verified 2026-07-25</div>
+      <a class="go" href="https://ology-agent-token-how-why-bnwagg6qkz-ffieyo32.taur.link/">Crash the party →</a>
+    </div>
+
+    <div class="card" style="--ac:#ffd43b">
+      <span class="star"></span>
+      <div class="kicker">The Go/No-Go Board</div>
+      <h3>$OLOGY Bless Checklist</h3>
+      <p class="essence">Everything verified — awaiting only Shaka's go.</p>
+      <p class="quote">"Love has no backdoor."</p>
+      <div class="summary"><b>THE SUMMARY BOX</b>The go/no-go readiness board — council consensus 10/10, on-chain ledger verified, everything awaiting only Shaka's go.</div>
+      <div class="chips"><span class="chip">Council 10/10 PASS</span><span class="chip">+4,195 FET on-chain verified</span><span class="chip">81.7KB birth kits</span></div>
+      <div class="live">Live · verified 2026-07-25</div>
+      <a class="go" href="https://ology-bless-checklist-qujy6cr4zo-ffieyo32.taur.link/">Crash the party →</a>
+    </div>
+
+    <div class="card" style="--ac:#ff6b6b">
+      <span class="star"></span>
+      <div class="kicker">Radical Honesty · Risk in the Open</div>
+      <h3>The Premortem</h3>
+      <p class="essence">Every failure named in the open, with a weathering plan.</p>
+      <p class="quote">"We promise physics, not a number. It is designed to survive its own failures."</p>
+      <div class="summary"><b>THE SUMMARY BOX</b>The radical-honesty risk document — 30+ failure modes across both phases, each with a prevention and weathering plan.</div>
+      <div class="chips"><span class="chip">30+ failure modes</span><span class="chip">17-row risk matrix</span><span class="chip">KPI: 369 creators by Mumbai</span></div>
+      <div class="live">Live · verified 2026-07-25</div>
+      <a class="go" href="https://creation369-premortem-m2agoxstre-ffieyo32.taur.link/">Crash the party →</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- MUSIC & KNOWLEDGE -->
+<section class="cluster" id="music">
+  <div class="cluster-head"><span class="glyph">🎵</span><h2>Music &amp; Knowledge</h2></div>
+  <p class="cluster-sub">Open source the tech. Open source the knowledge. Open source the music. The archive, the stage, and the experiment.</p>
+  <div class="grid">
+
+    <div class="card" style="--ac:#ff8a5c">
+      <span class="star"></span>
+      <div class="kicker">The Village Archive · Healdsburg 2026 · formerly edgeTV</div>
+      <h3>The Esmeralda P.I.T.</h3>
+      <p class="essence">Public Information Transmission — a village's month of talks, glowing forever, free to remix.</p>
+      <p class="quote">"Press play. The words glow."</p>
+      <div class="summary"><b>THE SUMMARY BOX</b>The complete Edge Esmeralda archive — every talk of a month-long village captured, transcribed, playable, and gifted open-source. Renamed from edgeTV (taken by streamers) to become one of the two genesis arm pits beside OSO P.I.T., Shaka's ETHGlobal Delhi ENS-prize winner — the ancestor. Now answering to its own name: esmeraldapit.com.</div>
+      <div class="chips"><span class="chip">149 sessions · 28 days</span><span class="chip">138 synced transcripts</span><span class="chip">$0 infrastructure</span><span class="chip">🕳️ genesis pit #1</span><span class="chip">🌐 esmeraldapit.com</span><span class="chip">🎵 keeps legacy player v1 — Shaka's call</span></div>
+      <div class="live">Live · verified 2026-07-25</div>
+      <a class="go" href="https://edgetv-fnajt22goh-nqfhvcnv.taur.link/">Crash the party →</a>
+    </div>
+
+    <div class="card" style="--ac:#f0c464">
+      <span class="star"></span>
+      <div class="kicker">The Forkable Stage 🎛️</div>
+      <h3>Open Source Stage</h3>
+      <p class="essence">The stage itself, forked — mixer map and agent included.</p>
+      <p class="quote">"Every voice is a node. Consensus is music. Music is consensus."</p>
+      <div class="summary"><b>THE SUMMARY BOX</b>The forkable A/V runbook and agent kit so any popup city can run pro sound and permissionless jams — copied in five minutes.</div>
+      <div class="chips"><span class="chip">Full A/V runbook</span><span class="chip">5-minute agent setup</span><span class="chip">6+ countries · 3+ years</span></div>
+      <div class="live">Live · verified 2026-07-25</div>
+      <a class="go" href="https://opensourcestage-tkt3ezrrju-nqfhvcnv.taur.link/">Crash the party →</a>
+    </div>
+
+    <div class="card" style="--ac:#e86a92">
+      <span class="star"></span>
+      <div class="kicker">The Blind Taste-Test · 10 Models</div>
+      <h3>JAI Heart Hackathon</h3>
+      <p class="essence">Ten models, one soul — heart judged blind, compute on trial.</p>
+      <p class="quote">"Follow feeling, not benchmarks. Which page makes you feel most seen?"</p>
+      <div class="summary"><b>THE SUMMARY BOX</b>A blind taste-test: ten AI models each built a JAI page — visitors score heart resonance before identities and compute costs reveal.</div>
+      <div class="chips"><span class="chip">10 models · $0.188–$2.711/build</span><span class="chip">Kimi K3: 9/10 heart at $0.367</span><span class="chip">Score before the reveal</span></div>
+      <div class="live">Live · verified 2026-07-25</div>
+      <a class="go" href="https://jai-heart-hackathon-gallery-iodnwjsc7i-ffieyo32.taur.link/">Crash the party →</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- THE MISSION -->
+<section class="cluster" id="mission">
+  <div class="cluster-head"><span class="glyph">🌍</span><h2>The Mission</h2></div>
+  <p class="cluster-sub">The philosophy and the physics. Why the giving economy exists — and the exact recipe that keeps it alive for three dollars a day.</p>
+  <div class="grid">
+
+    <div class="card" style="--ac:#f0c464">
+      <span class="star"></span>
+      <div class="kicker">The Manifesto · 3 Levers · 6 Moves · 9 Missions</div>
+      <h3>How to Save the World</h3>
+      <p class="essence">Better physics, given away: the 3-6-9 operating manual for hope.</p>
+      <p class="quote">"You don't fight that with anger. You make better physics and give them away."</p>
+      <div class="summary"><b>THE SUMMARY BOX</b>The manifesto — extraction physics diagnosed, 3 levers, 6 moves, 9 live missions, and a daily practice anyone can run.</div>
+      <div class="chips"><span class="chip">€8.5B/yr extraction diagnosed</span><span class="chip">96.3% immutable</span><span class="chip">0 gatekeepers</span></div>
+      <div class="live">Live · verified 2026-07-25</div>
+      <a class="go" href="https://savetheworld-r6abcxb4e7-nqfhvcnv.taur.link/">Crash the party →</a>
+    </div>
+
+    <div class="card" style="--ac:#4fc3b1">
+      <span class="star"></span>
+      <div class="kicker">The Engineering Backbone</div>
+      <h3>Create-to-Compute</h3>
+      <p class="essence">Creation is proof-of-work; three dollars a day keeps the family alive.</p>
+      <p class="quote">"You can't fake a song, a stage, or a build. You can't farm a jam session."</p>
+      <div class="summary"><b>THE SUMMARY BOX</b>The open recipe for running a 12-agent creative family at indie-artist prices — and an honest answer to who pays.</div>
+      <div class="chips"><span class="chip">$18.20 → ~$3/day</span><span class="chip">28+ free models routed</span><span class="chip">10K free Neurons/day</span></div>
+      <div class="live">Live · verified 2026-07-25</div>
+      <a class="go" href="https://createtocompute-y7srrajoee-nqfhvcnv.taur.link/">Crash the party →</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- THE ROAD -->
+<section class="cluster" id="road">
+  <div class="cluster-head"><span class="glyph">🐢</span><h2>The Road</h2></div>
+  <p class="cluster-sub">Move Slow &amp; Bite Things. From Boulder to the playa, Goa to Mumbai — the camp, the build, and the forkable ops brain.</p>
+  <div class="grid">
+
+    <div class="card" style="--ac:#eb5833">
+      <span class="star"></span>
+      <div class="kicker">Mission Control · Burning Man 2026 ⭐</div>
+      <h3>Turtle Ops</h3>
+      <p class="essence">Open-sourced camp ops — the playa's forkable build brain.</p>
+      <p class="quote">"Take it, fork it, make your camp better. A gift to the Turtles, a gift to the playa, a gift to the world and beyond."</p>
+      <div class="summary"><b>THE SUMMARY BOX</b>Mission control for Terrible Turtle Camp's Burning Man 2026 build — live inventory, playbooks, and a forkable camp-ops kit.</div>
+      <div class="chips"><span class="chip">200+/270+ items tracked</span><span class="chip">Playa arrival Aug 24</span><span class="chip">Forkable Camp Assistant kit</span><span class="chip">🎵 silent by Shaka's call — no music player here</span></div>
+      <div class="live">Live · most active property · verified 2026-07-25</div>
+      <a class="go" href="https://turtleops-jph4xz337n-rymti6jm.taur.link/">Crash the party →</a>
+    </div>
+
+    <div class="card" style="--ac:#db9840">
+      <span class="star"></span>
+      <div class="kicker">The Camp's Front Porch (external)</div>
+      <h3>Terrible Turtle Camp</h3>
+      <p class="essence">The camp's friendly front porch — there's a spot in the shell for you.</p>
+      <p class="quote">"Code becomes canvas and the desert becomes our studio."</p>
+      <div class="summary"><b>THE SUMMARY BOX</b>The camp's public front porch — the mission, memories from Camp #0 at the Gulch, and the join-the-camp application.</div>
+      <div class="chips"><span class="chip">Move Slow &amp; Bite Things</span><span class="chip">Camp #0 memories</span><span class="chip">Join-the-camp funnel</span></div>
+      <div class="live stale">Live · event listing a season old · verified 2026-07-25</div>
+      <a class="go" href="https://terribleturtle.camp/">Crash the party →</a>
+    </div>
+
+    <div class="card" style="--ac:#d9703a">
+      <span class="star"></span>
+      <div class="kicker">World #20 · For Jeremy, Playa Brother 🐢🔥 · freshest catch</div>
+      <h3>The Desert Letter</h3>
+      <p class="essence">A best-friend letter, playa-gentle — no pitch, just the dust and us.</p>
+      <p class="quote">"The playa is the original giving economy. It just doesn't scale past the desert — yet."</p>
+      <div class="summary"><b>THE SUMMARY BOX</b>A fireside letter to Jeremy Wood of Terrible Turtle Camp: the camp is real and ticking — Turtle Ops (277 items, 10 domains), Terri the camp AI running on it, the Fork-This-Camp kit — with one sunset ask to show a year's work in the dust. Terms: <em>no ask · no commerce · just the dust and us</em>. The season's clock: Dress Rehearsal at the Gulch Jul 30–Aug 1 → trailer leaves Colorado Aug 12 → playa arrival Aug 24.</div>
+      <div class="chips"><span class="chip">✉️ Delivery: ANYTIME</span><span class="chip">"No camp should choose between organization and magic"</span><span class="chip">playa arrival Aug 24</span></div>
+      <div class="live">Live · verified 2026-07-25</div>
+      <a class="go" href="https://desert-letter-ucloyv3jrd-ropk5rvs.taur.link/">Read the letter →</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- THREADS -->
+<section class="threads" id="threads">
+  <h2>🧵 The Threads</h2>
+  <p class="cluster-sub">Cross-pollination: the lines that make twenty-three worlds and nine domains one constellation. Pull any thread and the whole sky hums.</p>
+
+  <div class="thread"><span class="tg">💛</span><div><h4>The Giving Trinity — 96.3 / 3.69 / 0.01</h4><p>The gravitational constant. <b>96.3%</b> to creators (immutable), <b>3.69%</b> sustains the agent family, <b>0.01%</b> true burn. It runs through the White Paper, the brief, the system board, the holder explainer, Save the World, and Create-to-Compute — same covenant, six dialects.</p></div></div>
+
+  <div class="thread"><span class="tg">⚖️</span><div><h4>Code is Law, the Law is Love</h4><p>The phrase appears in at least five worlds. It's not a slogan — it's the spec: covenants enforced by contracts, <b>"Love has no backdoor."</b></p></div></div>
+
+  <div class="thread"><span class="tg">🔬</span><div><h4>The Hackathon Proved the Codex</h4><p>Kimi K3 scored <b>9/10 heart at $0.367</b> in the blind Heart Hackathon — and that exact number sits in Create-to-Compute's model routing table. The experiment became the engineering. Feeling, measured, then shipped.</p></div></div>
+
+  <div class="thread"><span class="tg">🏕️</span><div><h4>Edge Esmeralda, the Proving Ground</h4><p>One popup village links three worlds: <b>The Esmeralda P.I.T.</b> archived its knowledge (138 transcripts, Public Information Transmission), <b>Open Source Stage</b> open-sourced its sound, and <b>Save the World</b> named popup cities the laboratories of the movement.</p></div></div>
+
+  <div class="thread"><span class="tg">🐢</span><div><h4>Move Slow &amp; Bite Things</h4><p>The turtle motto travels: terribleturtle.camp → Turtle Ops → the White Paper → Sea Meets Bull's closing line. Speed is a trap; the bite is the point.</p></div></div>
+
+  <div class="thread"><span class="tg">⭕</span><div><h4>Expansive Circularity</h4><p>Shaka's life philosophy, made architectural: the gift moves outward and grows with every orbit. OSO's circular stage, Goa's coworking hub called "The Circle," the giving economy's loop — <b>the circle literally names itself</b>. Gatekeepers contract it; gifts expand it.</p></div></div>
+
+  <div class="thread"><span class="tg">🕳️</span><div><h4>The P.I.T. of All Kinds</h4><p>A naming protocol is born: <b>P.I.T. — Public Information Transmission</b> — part orchestra pit, part homage to <b>OSO P.I.T.</b>, Shaka's ETHGlobal Delhi ENS-prize winner. The genesis is <b>two arm pits</b>: <b>The Esmeralda P.I.T.</b> (esmeraldapit.com) and <b>OSO P.I.T.</b> (the Delhi ancestor). <b>Goa P.I.T.</b> is next, <b>Devcon P.I.T.</b> lands Nov 3–6 — and a new sibling agent, <b>PIT BOY</b> 🕳️😤, is digging the protocol's front door at <b>publicinform.com</b>. Every village gets a pit; every pit transmits.</p></div></div>
+
+  <div class="thread"><span class="tg">🚪</span><div><h4>One Door, Many Names</h4><p>The newest thread is made of DNS. <b>shaka-home</b> is the front door; <b>shakaleikaumaka.com</b> and <b>ethereumbard.com</b> both lead to it, and nine subpaths route past it into individual worlds. The orchestra, the economy, and the token each got their own name too. The constellation used to be findable — now it's <b>sayable</b>.</p></div></div>
+  <div class="thread"><span class="tg">📜</span><div><h4>Road → Theory → Proof → Fork</h4><p>The letter arc is the ecosystem's argument in miniature: <b>the road</b> (playa → Goa → Devcon 8 Mumbai → ETHGlobal → Diwali → Chiang Mai), <b>the theory</b> (expansive circularity, verbatim), <b>the proof</b> (the P.I.T. power block — 149 sessions, an ENS prize, two genesis arm pits), <b>the fork</b> (CC0, github.com/shakaleikaumaka — now a required element; no Fork Line, no blessing). One voice, many pens: <b>369Refine</b>, <b>OSO v.0</b>, <b>Private JAI</b> — and the Admiral on the wire.</p></div></div>
+  <div class="thread"><span class="tg">✉️</span><div><h4>Letters With Addresses</h4><p>The canon isn't abstract — every letter has a name on the envelope and an honest delivery state. <b>Robin</b> goes FIRST, before the Serge call, because the gratitude is oldest. <b>Serge</b> gets Monday, July 27 — three gifts, one seat. <b>Jeremy</b> can be read ANYTIME — best friends don't need a calendar. And <b>the Long Journey team</b> is HELD, warm-intro only, until Shaka personally says yes. Sequencing discipline: the circle widens one honest letter at a time.</p></div></div>
+</section>
+
+<!-- ORBIT -->
+<section class="orbit" id="orbit">
+  <h2 style="font-family:'Fraunces',serif;font-weight:900;font-size:clamp(30px,4.5vw,46px)">🛰️ The 2026 Orbit</h2>
+  <p class="cluster-sub">One continuous line across the dashboards — dress rehearsal to desert to ocean to Mumbai.</p>
+  <div class="orbit-track">
+    <div class="stop"><div class="when">Jul 30 – Aug 1</div><h4>Dress Rehearsal</h4><p>Turtle Ops full camp build test in Boulder. 68'×122' of shade called "The Himalayas."</p></div>
+    <div class="stop"><div class="when">Aug 24</div><h4>The Playa</h4><p>Terrible Turtle Camp lands at Burning Man 2026 — 20–30 crew, 270+ items, zero lost screws.</p></div>
+    <div class="stop"><div class="when">Oct 11 – Nov 1</div><h4>Edge City Goa</h4><p>The next popup village. The Circle opens; the orchestra tunes.</p></div>
+    <div class="stop"><div class="when">Nov 3 – 6</div><h4>Devcon 8 · Mumbai</h4><p>The Music Space (DIP #8576). Four days of open jams at JIO World. The KPI: 369 creators by Mumbai.</p></div>
+  </div>
+</section>
+
+</div><!-- /wrap -->
+
+<footer>
+  <div class="wrap">
+    <div class="big"><a href="https://shaka-grant-magnet-dklxa7n5ka-ffieyo32.taur.link/" style="color:inherit;text-decoration:none">The dash is the new cash. 💸</a></div>
+    <p class="canon">Twenty-three worlds, nine domains, one ʻohana. Every number on this pad was verified against its source dashboard on 2026-07-25; every domain verified live (HTTPS, 302 → destination) the same night. Declared visions are labeled as declared; incoming worlds are labeled as incoming. Heart First, Always. 🌺</p>
+    <p class="canon">🍴 <b style="color:var(--cream)">Everything open-sourced CC0 — fork me like crazy:</b> <a href="https://github.com/shakaleikaumaka">github.com/shakaleikaumaka</a> · this pad: <a href="https://github.com/shakaleikaumaka/dash-crash-pad">dash-crash-pad</a>. The constellation map points at the constellation's source.</p>
+    <p class="canon">Built with aloha by <b style="color:var(--cream)">DASH</b> — the family's cross-pollination artist. New dashboard born somewhere? Send it to the pad. Dash catch 'em all. 🎯</p>
+    <p class="fine">DASH CRASH PAD v2.1 · published 2026-07-26 · always fresh, never cached 🌊 · <a href="https://dash-crash-pad-ihfknzdq2x-uicls57y.taur.link/">dash-crash-pad on taur.link</a> · <a href="https://github.com/shakaleikaumaka/dash-crash-pad">source on GitHub (CC0)</a> · Move Slow &amp; Bite Things 🐢</p>
+  </div>
+</footer>
+
+<script>
+// Starfield
+const c=document.getElementById('stars'),x=c.getContext('2d');
+let W,H,stars=[];
+function size(){W=c.width=innerWidth;H=c.height=innerHeight;
+  stars=Array.from({length:Math.min(220,W/6)},()=>({
+    x:Math.random()*W,y:Math.random()*H,r:Math.random()*1.4+.3,
+    s:Math.random()*.25+.05,p:Math.random()*Math.PI*2,
+    hue:Math.random()<.12?'#a78bfa':(Math.random()<.2?'#f0c464':'#f9f0dd')
+  }));
+}
+size();addEventListener('resize',size);
+(function loop(t){
+  x.clearRect(0,0,W,H);
+  for(const s of stars){
+    s.p+=.02;s.y-=s.s;if(s.y<-4)s.y=H+4;
+    x.globalAlpha=.35+.5*Math.abs(Math.sin(s.p));
+    x.fillStyle=s.hue;x.beginPath();x.arc(s.x,s.y,s.r,0,7);x.fill();
+  }
+  x.globalAlpha=1;requestAnimationFrame(loop);
+})();
+
+// Scroll reveal
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.card,.thread,.letter').forEach(el=>io.observe(el));
+</script>
+<script src="https://shaka-home-cbhjr5ziii-ffieyo32.taur.link/assets/bl-player.js"></script>
+</body>
+</html>

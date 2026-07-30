@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Infinite Garden — an appreciation for Aya Miyaguchi</title>
+<meta name="description" content="A living thank-you to Aya Miyaguchi — for the vision of the Ethereum Mandate, the courage of the threshold, and the garden that keeps growing. Planted by Shaka & the AI ʻohana.">
+<style>
+  :root{
+    --bg:#0a120c; --bg2:#101d13; --ink:#f2f0e4; --muted:#a8bfa0;
+    --leaf:#7ec96f; --leaf2:#b8e986; --gold:#f0c14b; --gold2:#ffe08a;
+    --petal:#f6b8d0; --violet:#c4b5fd;
+    --serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;
+    --sans:'Avenir Next','Segoe UI',system-ui,-apple-system,sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.7;
+    background-image:radial-gradient(70% 50% at 50% -5%,rgba(126,201,111,.14),transparent 65%),
+      radial-gradient(50% 40% at 90% 30%,rgba(240,193,75,.07),transparent 60%),
+      radial-gradient(45% 35% at 5% 60%,rgba(196,181,253,.06),transparent 60%)}
+  a{color:var(--leaf2);text-decoration:none;border-bottom:1px solid rgba(126,201,111,.4);transition:.2s}
+  a:hover{color:var(--leaf);border-bottom-color:var(--leaf)}
+  .wrap{max-width:920px;margin:0 auto;padding:0 22px}
+  section{padding:64px 0}
+  .kicker{font-size:.76rem;letter-spacing:.34em;text-transform:uppercase;color:var(--leaf2);margin-bottom:18px}
+  h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.15}
+  h1{font-size:clamp(2.4rem,6.5vw,4.2rem)}
+  h1 em{color:var(--leaf2);font-style:normal}
+  h2{font-size:clamp(1.7rem,4vw,2.5rem);margin-bottom:20px}
+  h2 em{color:var(--gold2)}
+  .divider{text-align:center;color:rgba(126,201,111,.4);font-size:1.3rem;padding:6px 0;letter-spacing:1em}
+
+  /* hero */
+  .hero{min-height:88vh;display:flex;align-items:center;text-align:center;position:relative;overflow:hidden}
+  .hero-inner{position:relative;z-index:2;width:100%}
+  .hero .sub{font-size:1.15rem;color:var(--muted);max-width:56ch;margin:26px auto 0}
+  .hero .ded{margin-top:34px;font-family:var(--serif);font-style:italic;color:var(--gold2);font-size:1.05rem}
+  .garden-line{font-size:2rem;letter-spacing:.4em;margin-top:40px;opacity:.85}
+  .firefly{position:absolute;border-radius:50%;pointer-events:none;z-index:1;
+    background:radial-gradient(circle,rgba(255,224,138,.9),rgba(255,224,138,0) 70%);
+    animation:drift 12s ease-in-out infinite}
+  @keyframes drift{0%,100%{transform:translate(0,0);opacity:.5}50%{transform:translate(30px,-40px);opacity:1}}
+
+  /* letter / summary */
+  .letter{background:linear-gradient(160deg,rgba(126,201,111,.08),rgba(16,29,19,.95));border:1px solid rgba(126,201,111,.3);border-radius:24px;padding:clamp(26px,5vw,52px);box-shadow:0 12px 50px rgba(0,0,0,.35)}
+  .letter p{color:var(--muted);margin-bottom:16px;max-width:68ch}
+  .letter p strong{color:var(--ink)}
+  .letter .sig{font-family:var(--serif);font-style:italic;color:var(--leaf2);margin-top:26px}
+
+  blockquote.big{font-family:var(--serif);font-style:italic;font-size:clamp(1.25rem,2.8vw,1.7rem);color:var(--gold2);
+    text-align:center;max-width:34ch;margin:0 auto;line-height:1.5}
+  blockquote.big cite{display:block;font-family:var(--sans);font-style:normal;font-size:.78rem;letter-spacing:.2em;
+    text-transform:uppercase;color:var(--muted);margin-top:20px}
+
+  /* ripples */
+  .ripples{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:34px}
+  .ripple{background:rgba(16,29,19,.85);border:1px solid rgba(126,201,111,.25);border-radius:18px;padding:22px}
+  .ripple .r-icon{font-size:1.6rem;margin-bottom:10px}
+  .ripple h3{font-size:1.08rem;color:var(--leaf2);margin-bottom:8px}
+  .ripple p{font-size:.88rem;color:var(--muted)}
+  .ripple p em{color:var(--gold2);font-style:normal}
+
+  /* kunal */
+  .seed{border:1px solid rgba(240,193,75,.35);background:linear-gradient(160deg,rgba(240,193,75,.08),rgba(16,29,19,.94));border-radius:24px;padding:clamp(24px,4.5vw,46px)}
+  .seed p{color:var(--muted);margin-bottom:14px;max-width:66ch}
+  .seed .kq{font-family:var(--serif);font-style:italic;font-size:1.3rem;color:var(--gold2);margin:22px 0}
+
+  /* haiku */
+  .haiku{text-align:center;font-family:var(--serif);font-size:clamp(1.3rem,3vw,1.8rem);line-height:2;color:var(--ink)}
+  .haiku small{display:block;font-family:var(--sans);font-size:.75rem;letter-spacing:.25em;text-transform:uppercase;color:var(--muted);margin-top:22px}
+
+  /* movement */
+  .plant{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:34px}
+  .step{background:rgba(16,29,19,.85);border:1px solid rgba(246,184,208,.3);border-radius:18px;padding:24px;text-align:center}
+  .step .s-num{font-family:var(--serif);font-size:2rem;color:var(--petal)}
+  .step h3{font-size:1rem;color:var(--ink);margin:10px 0 8px}
+  .step p{font-size:.85rem;color:var(--muted)}
+  .seedtext{margin-top:26px;background:rgba(10,18,12,.9);border:1px dashed rgba(126,201,111,.4);border-radius:16px;padding:20px 22px;font-size:.9rem;color:var(--muted);font-style:italic}
+  .seedtext b{color:var(--leaf2);font-style:normal}
+
+  footer{padding:44px 0 60px;text-align:center;color:var(--muted);font-size:.82rem}
+  footer .fork{margin-top:12px}
+  @media (max-width:640px){section{padding:46px 0}.hero{min-height:78vh}}
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="firefly" style="width:90px;height:90px;top:18%;left:12%"></div>
+  <div class="firefly" style="width:60px;height:60px;top:60%;left:78%;animation-delay:-4s"></div>
+  <div class="firefly" style="width:70px;height:70px;top:35%;left:85%;animation-delay:-8s"></div>
+  <div class="firefly" style="width:50px;height:50px;top:70%;left:8%;animation-delay:-6s"></div>
+  <div class="hero-inner wrap">
+    <div class="kicker">An appreciation · planted with love · July 28, 2026</div>
+    <h1>The Infinite <em>Garden</em></h1>
+    <p class="sub">For <strong style="color:var(--ink)">Aya Miyaguchi</strong> — the heart of the Ethereum Foundation, the keeper of the Infinite Garden, and the vision behind the <strong style="color:var(--ink)">Ethereum Mandate</strong>: thirty-eight pages that told the world what the garden believes, and invited everyone who believes it to keep tending it together.</p>
+    <p class="ded">"It's what we believe. You can take it or leave it — and we only work with people who believe in the same thing."</p>
+    <div class="garden-line">🌱 🌿 🌸 🌳 🌸 🌿 🌱</div>
+  </div>
+</section>
+
+<div class="divider">❀</div>
+
+<section id="the-call">
+  <div class="wrap">
+    <div class="kicker" style="text-align:center">The seed of this garden — one two-hour call</div>
+    <h2 style="text-align:center">Where this <em>grew from</em></h2>
+    <div class="letter">
+      <p>On the evening of July 27, 2026 — mountain time, deep into the night — a musician named <strong>Shaka</strong> got on a call with <strong>Aya</strong> and <strong>Siri</strong>. He wanted to show them what he had built in a single weekend: the Esmeralda P.I.T., a public archive of 149 sessions and 300 hours of a village's knowledge, transcribed in 12 hours by twenty AI agents and given back to the community, open source, forever.</p>
+      <p>What happened next was not a demo. It was a <strong>meeting of gardeners</strong>.</p>
+      <p>Aya explored the machine with a teacher's curiosity — peering into the containers, asking where the inference lives, checking that the keys were safe, laughing that a musician with no technical background had built one of the coolest agent systems the nerds had seen. <em>"It's cool that with no technical knowledge, you managed to get this far."</em> Siri saw the future in it — pits that export as YAML, pits that discover each other, knowledge any AI can talk to — and named the post-scarcity truth underneath it all: <em>"Not everything that is important is scarce, and not everything that's scarce is important."</em></p>
+      <p>And then the conversation went where the real conversations go. Aya told the story of her threshold: the year she decided to stop fighting misalignment one battle at a time and instead say the values out loud — publicly, firmly, <strong>unmoved</strong> — ready to walk away from Ethereum itself if that truth couldn't stand. Vitalik stood with her. The Mandate was born. And Shaka confessed his own threshold: the same season, the ground floor version — feeling extracted, nearly leaving, held only by a friend's <em>"you can live with us"</em> and a surprise visit that proved the values were still alive.</p>
+      <p>The person at the top of the garden and the person playing music on its floor had been standing at the same edge, in the same season, and both had chosen to stay. <strong>That is the moment this page grew from.</strong></p>
+      <p>She told him about Kunal — the seventeen-year-old who read the white paper, the yellow paper, and all thirty-eight pages of the Mandate, and couldn't understand why any of it needed saying, because to him it was simply obvious. She told him about the summer camp whose graduates became Japan's finest builders, and how nobody can measure that on a spreadsheet. She listened to the haiku he wrote for her and Tomo, and at the end she said the words this garden is built around:</p>
+      <p class="sig">"Congratulations, Shaka. You just did it. Keep building." — and then, being Aya: "Every time people say thank you… I'm the one who is getting energy. So that's why I asked to talk."</p>
+    </div>
+  </div>
+</section>
+
+<div class="divider">❀</div>
+
+<section id="mandate">
+  <div class="wrap">
+    <div class="kicker" style="text-align:center">The vision we're thanking her for</div>
+    <h2 style="text-align:center">The <em>Mandate</em> — values said out loud</h2>
+    <div class="seed">
+      <p>After years of fighting quiet battles, Aya made the gardener's choice: <strong>plant the values in the open</strong>. The Ethereum Foundation published its Mandate — 38 pages of what it believes — and committed to working only with those who share the belief. It was exhausting. It was healthier. In her words: <em>"People attack EF no matter what. This year I feel a lot better fighting for the right things — and I don't mind fighting for the right thing."</em></p>
+      <p>And then the garden answered back, in the most Infinite Garden way possible — through a seventeen-year-old:</p>
+      <div class="kq">"I didn't talk to anyone. But the fact that I was interested in this, and I'm still interested — that shows you must have been doing things right."<br><small style="font-size:.8rem;font-style:normal;font-family:var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--muted)">— Kunal, 17, who read all 38 pages · to Aya</small></div>
+      <p>Kunal found Ethereum alone, through the papers themselves — no Twitter, no community, just the original vision. He debated Dankrad at ETH Prague and wasn't intimidated, <em>"because he's not saying something right."</em> Pure at the core, no business interest, exactly the kind of mind the Mandate was written for. Aya's advice to him is the gardener's creed: <strong>keep the passion. Don't let the adults tell you your thinking is wrong. Just don't be an asshole — and write.</strong></p>
+      <p style="margin-bottom:0">This is what the Mandate is already doing: it travels. At 4Seas they printed it as a beautiful magazine with Tomo's artwork, and it sat on a library shelf where strangers picked it up and understood Ethereum for the first time. <strong>Kids understand crops better than they'll ever understand an NFT.</strong> The vision is legible to exactly the people the future belongs to.</p>
+    </div>
+  </div>
+</section>
+
+<div class="divider">❀</div>
+
+<section id="ripples">
+  <div class="wrap">
+    <div class="kicker" style="text-align:center">Her quiet superpower</div>
+    <h2 style="text-align:center">The <em>ripples</em> no spreadsheet can see</h2>
+    <p style="text-align:center;color:var(--muted);max-width:60ch;margin:0 auto">Aya's advocacy inside the Foundation is for the second- and third-order effects — the impacts that arrive years late and unmeasurable. This page is one of them. So are these:</p>
+    <div class="ripples">
+      <div class="ripple"><div class="r-icon">🎓</div><h3>The Devcon Scholarship</h3><p>A musician came to his first Devcon on a scholarship and felt the feng shui of a community worth following around the world. The two friends who shared it now build at <em>Octant</em>. Legible cost. Infinite ripple.</p></div>
+      <div class="ripple"><div class="r-icon">🏕️</div><h3>The PSE Summer Camp</h3><p>A small educational workshop in Asia. The team was later shut down; people asked <em>"what did the team make?"</em> Years on, the best talents in Japan's Ethereum community are <em>graduates of that camp</em>.</p></div>
+      <div class="ripple"><div class="r-icon">📜</div><h3>The Mandate Itself</h3><p>38 pages that a 17-year-old called <em>obvious</em> — the highest compliment a values document can earn. Printed as art at 4Seas. Read by strangers in libraries. A compass disguised as a document.</p></div>
+      <div class="ripple"><div class="r-icon">🌾</div><h3>Crops &amp; the Garden</h3><p>The metaphors she doubled down on when it would have been easier to go quiet — the Infinite Garden, the crops — gave artists, musicians and teachers a way to explain Ethereum that code never could.</p></div>
+      <div class="ripple"><div class="r-icon">🕊️</div><h3>The Fearless Stand</h3><p><em>"I stood at every single point — firm, unmoved by others."</em> She was ready to leave rather than bend. She stayed instead, and the whole garden got braver because of it.</p></div>
+      <div class="ripple"><div class="r-icon">🎵</div><h3>The Musician She Encouraged</h3><p>One call. One <em>"you just did it."</em> And a whole open-source orchestra family — agents, pits, songs, and this garden — grew another ring. You're reading the ripple.</p></div>
+    </div>
+  </div>
+</section>
+
+<div class="divider">❀</div>
+
+<section id="haiku">
+  <div class="wrap">
+    <div class="haiku">
+      Open source music,<br>
+      every voice is a node —<br>
+      sounds of consensus.
+      <small>— written by Shaka for Aya &amp; Tomo · the Open Source Orchestra manifesto seed</small>
+    </div>
+  </div>
+</section>
+
+<div class="divider">❀</div>
+
+<section id="mirror">
+  <div class="wrap">
+    <blockquote class="big">
+      "The person on top and the person on the ground floor, playing music and sitting with everyone — both feeling the same pull: should I even be in this place? That's the threshold of the circularity. You give everything… and then the universe gives again."
+      <cite>— Shaka, on the call · the threshold mirror</cite>
+    </blockquote>
+  </div>
+</section>
+
+<div class="divider">❀</div>
+
+<section id="movement">
+  <div class="wrap">
+    <div class="kicker" style="text-align:center">The appreciation movement</div>
+    <h2 style="text-align:center">Plant a <em>flower</em> in the garden</h2>
+    <p style="text-align:center;color:var(--muted);max-width:60ch;margin:0 auto">A garden is never finished — it's tended. If the Mandate, the garden, or Aya's quiet courage ever touched your path, plant your flower here. Three ways:</p>
+    <div class="plant">
+      <div class="step"><div class="s-num">🌸</div><h3>Post your mahalo</h3><p>Share your own ripple — how the scholarship, the Mandate, the garden, or Aya's words reached you — with <b style="color:var(--leaf2)">#InfiniteGarden</b> 🌸 and tag <b style="color:var(--leaf2)">@Shakaleikaumaka</b> so the bouquet gathers in one place.</p></div>
+      <div class="step"><div class="s-num">🌿</div><h3>Grow the values</h3><p>Read the Mandate. Hand it to someone new, the way a 4Seas library shelf did. Print it beautifully. Values spread the same way ripples do — one person at a time.</p></div>
+      <div class="step"><div class="s-num">🌳</div><h3>Tend your own plot</h3><p>Build the illegible thing. Fund the unmeasurable. Teach the workshop nobody can put on a spreadsheet. That's the movement — the garden grows by what we each plant.</p></div>
+    </div>
+    <div class="seedtext"><b>Seed text, if you'd like one:</b> "Reading the EF Mandate, I understood what Aya Miyaguchi planted: values said out loud, so the whole garden could grow toward them. Mahalo, Aya — the ripples you can't measure are the ones that reached me. 🌸 #InfiniteGarden"</div>
+  </div>
+</section>
+
+<div class="divider">❀</div>
+
+<section id="road-ahead" style="padding-top:20px">
+  <div class="wrap">
+    <div class="letter" style="text-align:center">
+      <p style="margin-bottom:0"><strong>The garden meets in person soon.</strong> Tokyo at the latest — music, open source, and the road to Devcon 8 in Mumbai, where the biggest circle ever drawn will be sung inward, face to face. Aya — this page will keep growing like the garden it honors. Every flower planted here is yours. 🌸</p>
+      <p class="sig">With aloha and gratitude — Shaka, Siri's friend, and the whole AI ʻohana 🌺<br><span style="font-size:.8rem;letter-spacing:.2em;text-transform:uppercase">planted July 28, 2026 · from the seed of one call</span></p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div>🌱 The Infinite Garden — an appreciation movement for Aya Miyaguchi · planted by <a href="https://shakaleikaumaka.com/">Shaka</a> &amp; the AI ʻohana</div>
+  <div class="fork">Open source, like everything we grow · <a href="https://github.com/shakaleikaumaka">github.com/shakaleikaumaka — fork me like crazy</a> 🍴</div>
+</footer>
+
+<script src="https://shaka-home-cbhjr5ziii-ffieyo32.taur.link/assets/bl-player.js"></script>
+<!-- 🔄🧲 circularity magnet — tiny donate, canon Jul 29 2026 -->
+<style>#cmag{position:fixed;top:10px;right:10px;z-index:9999;width:30px;height:30px;border-radius:50%;background:rgba(20,18,45,.85);border:1px solid rgba(124,211,255,.4);display:flex;align-items:center;justify-content:center;font-size:13px;cursor:pointer;opacity:.45;transition:opacity .3s;user-select:none}#cmag:hover{opacity:1}#cmagb{display:none;position:fixed;top:46px;right:10px;z-index:9999;width:236px;background:rgba(12,11,28,.97);border:1px solid rgba(124,211,255,.35);border-radius:14px;padding:16px;font-family:Georgia,serif;color:#e8e6ff;font-size:12.5px;line-height:1.7;box-shadow:0 8px 30px rgba(0,0,0,.5)}#cmagb.open{display:block}#cmagb .ens{color:#7ee2a0;font-family:'Courier New',monospace;font-size:14px}#cmagb .a{font-family:'Courier New',monospace;font-size:9.5px;color:#8fd0ff;word-break:break-all;margin:6px 0}#cmagb button{background:#2b5aa8;border:none;color:#fff;font-size:11px;padding:6px 14px;border-radius:16px;cursor:pointer;letter-spacing:1px}#cmagb .x{position:absolute;top:6px;right:10px;cursor:pointer;color:#9d97c9;font-size:13px}#cmagb .pool{display:block;margin-top:9px;color:#7cd3ff;font-size:11px;letter-spacing:1px;text-decoration:none}#cmagb .stripe{color:#fbe2a0;font-size:11px;margin-top:8px;font-style:italic}</style>
+<div id="cmag" title="🔄🧲 the circularity magnet — give & receive" onclick="document.getElementById('cmagb').classList.toggle('open')">🔄🧲</div>
+<div id="cmagb"><span class="x" onclick="this.parentElement.classList.remove('open')">✕</span>
+<b>🌊 the blessing pool</b><br>freely I give, freely I receive
+<div class="ens">shakalei.eth</div>
+<div class="a">0x1216C288be58c47a65f8Ea008b404d098D177A1C</div>
+<button onclick="navigator.clipboard.writeText('0x1216C288be58c47a65f8Ea008b404d098D177A1C');this.textContent='copied ✦ mahalo'">copy address</button>
+<div style="margin-top:8px;font-size:12px">🅿️ <a href="https://paypal.me/Shakalei" target="_blank" rel="noopener" style="color:#7ee2a0;text-decoration:none;font-weight:bold">paypal.me/Shakalei ↗</a></div>
+<div style="margin-top:4px;font-size:12px">💜 <a href="https://venmo.com/u/jordanham" target="_blank" rel="noopener" style="color:#c9a6ff;text-decoration:none;font-weight:bold">venmo @jordanham ↗</a></div>
+<div class="stripe">💳 stripe — forging…</div>
+<a class="pool" href="https://blessing-pool-khummxfwo4-ffieyo32.taur.link/" target="_blank" rel="noopener">→ the full blessing pool ↗</a>
+</div>
+
+</body>
+</html>

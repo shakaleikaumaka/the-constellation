@@ -1,0 +1,223 @@
+# Engineering Serendipity_ Agent Coordination and Social Discovery at Edge
+
+Date: 2026-06-10
+Source video: Engineering Serendipity_ Agent Coordination and Social Discovery at Edge.mp4
+Drive: https://drive.google.com/file/d/1_DbT4XamT-9I9XeYLxzgV4PbaSE3PGAX/view
+Duration: 00:35:44
+Transcribed: 2026-06-11 · whisper large-v3-turbo · language: en
+
+---
+
+[00:00] Yeah, it's cool to see the actual negotiations happening. Can I make an answer on my last phone? Yeah. Okay. Yes. Excuse me. No. Does it, if I just, my phone and my computer walked away. Does anybody see a phone with a brown leather case and a silver?
+
+[00:20] Okay. I got it. Thank you very much. Yes, yes. Okay. It's found. Thank you very much. Somebody put it safely by. Thank you very much. All right. Problem solved. All right. Welcome everybody. We are going to kick off the, we have two amazing docs at the front row.
+
+[00:47] We are going to kick off the next in our AI talk series. I'm very excited about this one. These have been two very close collaborators on the agent village experiments. They are going to be talking to us about very interesting topics of how our agents can all be interacting together.
+
+[01:06] And then after this, we will have a session on AI engineering best practices with Shane from RAMP, which will be really cool as well. So please welcome Sheriff and Saren. Hello. Hello. Hello everyone. Is that okay? All right. Thank you all for coming.
+
+[01:26] Today we'll give you more details about how index network works and what we are doing in here. Before I start, I want to ask some questions. Maybe a hundred times I'm asking this question again and again this week. Please, can you raise your hand if you set up your agent already?
+
+[01:48] Good, good, good, good. Now can you keep your hand up if you got already like something useful from your agent? I'm glad to see that. That's great actually. It's right now there are like hundreds of agents in this village in El Cismeralda and this kind of crazy cause like hundreds of residents, hundreds of agents and in one village and they're negotiating at the background, our agents to find opportunities for us, right?
+
+[02:20] And that's what index is building. Like we are building a social discovery protocol that where agents surface the right people and right opportunities before you guys even think about that. And Esmeralda is our first live experiment. That's why it's like pretty special for us.
+
+[02:41] Yeah, before diving into like what we are building and how we are building, I want to talk about how we ended up here and like why we are building this. Then Sheriff will continue with more detail, more technical details and very, very cool demo and special demo.
+
+[03:01] Yeah, the early days of internet actually that promised connection, right? Like it's, and it delivered on that promise. Cause like it was easier to connect with other people and like find ideas, find information on the internet before. So you could join a forum, you could like get into a chat room like or internet community and you would find your people who care about the same weird things as you.
+
+[03:32] And it felt a little bit random, but you were just finding your people. And then things got bigger and bigger and platform scaled and they started optimizing for visibility rather than relevancy and information. What we are doing today to find our people, find our others.
+
+[03:55] We are posting on Twitter and posting again to, for more visibility and posting again. Then maybe we are sending the messages to like hundreds of different telegram channels and groups. Like I'm sure we all have like a lot of telegram groups in here.
+
+[04:16] And maybe then we are asking to friend for intros. Then we are waiting to like, maybe the right person sees it. Maybe someone replies, maybe your friend knows someone. Then like you basically saying, I need this. And I hope the right person sees it.
+
+[04:36] It's like a wish. And it's like a luck. And I think it's like pretty strange because the right person, you may already be in the same room like here, right? Like in the same community, in the same network, in the same city, like Edge City. But something changed with AI, of course.
+
+[04:59] Like right now we can, for the first time we can talk with our computers in natural language. And we can explain what we meant. We can add as much as context we want. And agents can actually work around our intent and can match, like can find our people without relying on filters, without relying on this social visibility games.
+
+[05:26] Yeah, that's actually before I, before Sheref will go into technical details. I want to mention a little bit about us. My background is in design. I study industrial design, then get into like researching about human AI interaction occasionally.
+
+[05:45] And also like thinking a lot, a lot about that for 10 years, maybe more. Then I started my career designing conversational interfaces. It was again way before JetGPT and all these conversational interfaces got crazy. Then it's four years ago we met, I met with Sheref and we start tinkering together about the same problem, around the same problem, that's how we can solve discovery problem.
+
+[06:17] Yeah, Sheref, do you want to continue for me? Sure. Thank you. Hello everyone. I'm Sheref. I'll show you how Index works, how we are changing discovery, how we are solving discovery problem. Seren mentioned natural language is the next primitive in discovery.
+
+[06:38] Now we can just talk and then computers can understand what you mean and then they can just go find other people. Instead of you go to search engines, you post online or you hope that algorithm will favor you, right? So now you just share your intent.
+
+[06:58] So we are building a protocol for intent-driven discovery. You can share your intent with your personal agent, just like we are building an agent village. We are super excited about that. We will show you how the infrastructure underlying agent village works and then we will show you another consumer experience, hopefully in the coming weeks we will show you.
+
+[07:24] All right, let's continue. So Index is working with four primitives. You share your intent. Your intent can be, I'm in New York, interested in jazz music, also semantic web. Let me know if someone is doing both, right? Any unstructured, any ambiguous contextual statement can be an intent.
+
+[07:47] Intent can be explicit like that or implicit. Your agent might be thinking, my human is looking for this. Hey, my human is interested in this. They might be generative, they might be implicit, predicted, stated, any kind of intent. So the common thing for intent, they represent what you want.
+
+[08:07] What you want is finally machine legible. Then these intents are being contained in networks. Agent village is the first network. We've been bootstrapping, we've been creating here. You can think them like private LinkedIn's. So these are like only specific people, only specific intents will be contained in these networks.
+
+[08:28] In the future, they will function like cities, right? If you want to be discoverable in the city, you want to be in this network. And then after networks, agents start negotiating opportunities within these through their intents. These agents discover each other through their intents.
+
+[08:47] They say, hey, my human is looking for that. Do you have that? Maybe, you know, like we might solve each other's problem. Maybe you can fulfill my intent. Then they start negotiating. So what they negotiate? They negotiate mutual intent. Now finally we have intents.
+
+[09:04] Mutual intent becomes a computable primitive. Then they say, hey, if there's a mutual intent, is it right time for both parties? Or can I trust you? Or do I remember you? Or is there an asymmetric upside, right? So they all, they negotiate all the things that relevant to that specific situation.
+
+[09:24] So, and then if there's an alignment, we call this alignment opportunity. So similar to, you can think in Twitter, you have tweets. In the future, in agentic social experiences, instead of you go see content, you will get opportunities. So what we are building in index, the first opportunity inbox.
+
+[09:44] Your agent will be negotiating all the other agents in background while you sleep. And then every morning you will get a new opportunities. All right. So you will now have primitives. Intent negotiations and opportunities and networks. So yeah, these are the example types.
+
+[10:08] Maybe we could show earlier, but still intent has description. You might, there are different privacy settings. You can share in different networks. Let's go. Negotiations can be multiple turns between multiple agents. Maybe your agent might be progressively disclosing more information, right?
+
+[10:28] So it starts with minimizing, minimize data, just your intent. Then it will progressively open up new information based on context as trust increases. Then this is the first example of your opportunity inbox. There are counterparties, there are status, just like an artist's manager do, right?
+
+[10:51] New gigs for you and new possibilities for you every day. All right. So, and this is an opportunity. You can think an opportunity is a possibility between two people or even five people. Index is not a matching protocol. It's not a matching protocol based on similarity.
+
+[11:10] Index is a possibility discovery protocol. Agents are finding every day new possibilities between people. We think opportunities are the first form of these possibilities. So, all right. Now we have primitives. Let me show you how they work together.
+
+[11:28] Is it readable? Okay. So, let's say you asked a question. You said, I'm in SF. Who should I meet? Then your agent starts understanding your intent. Thank you. Perfect. Even better. Fantastic. All right. Then your agent starts understanding your intent.
+
+[11:50] Then thinks about who can solve my problem, right? Goes to that specific network. Finds counterparty agents. Then starts negotiating with these agents. And then if there's an alignment, you see those people as opportunities. So, you can see in this one tree how this protocol works.
+
+[12:09] How it contains that information flow in order to discover opportunities. So, what this actually looks like. Right now, you're interacting in next to your telegram agents, Hermes agents. Hermes agents are understanding what you are looking for.
+
+[12:26] Asking you questions about your intents. And then storing on intent graph. And after that, every morning, hopefully you are getting new opportunities. So, this is the first. This was the first interaction. And now we are going to show you what we are cooking next.
+
+[12:40] Where is that? Perfect. All right. This is something we haven't pushed yet. You'll be the first one that sees it. We think this functions like a new communication device. Similarly, we have telephone or telegraph. Of course, digital. But we think we are building something magical here.
+
+[13:05] All right. Imagine you start a query. You start with your intent. Let me start one. Yes. The app asks you what you want to do right now. You can say, I want to meet cool people. AI in NYC. Then, Protok agents instantly negotiates with other agents.
+
+[13:29] And then based on their responses, ask you some additional questions. Right? To be able to discover your intent better. To be able to get you more specific. Then you just add this and that. All right. And after that, your agent understands your intent.
+
+[13:48] And starts negotiating with other people's agents. You can see in the right side. These are initial negotiations are happening. Your agents already starts talking with other people's agents in parallel. And you can think in the other part. Other people's agents are also asking questions to your agent.
+
+[14:06] Right? They can say, hey, I'm in Brooklyn. Can you make it? Hey, this time is I'm open. Can you make it? Or they can say, I'm not available because of this reason. Right? Just like in everyday life. They're having a dialogue with you. Then after that dialogue, your agent is also getting a new information from the market.
+
+[14:22] From all the other intensive people. And then, what's happening? You get new questions. Just like you're vibe coding. You answer questions. This time your agent is asking you questions from other agents' information. For example, it says, are you exploring or ready to move?
+
+[14:43] Because people are curious about this. You say, yeah, exploring. Then this affects negotiations. In the second turn, your agent is learning and negotiating better. Sometimes it's asking, hey, is that nine agents in your circle keeping this?
+
+[15:00] What do you think? So based on your answer, your agent is negotiating more. So you can't imagine like, in 10 minutes, you answer 10 questions, five questions. Then your agent goes, negotiates. In two hours, you come back and see new questions are appearing and surfacing every day.
+
+[15:18] You answer five more questions. Until you fulfill your intent, questions will be a new stream to be able to better understand your intent together with other people. So you can think like maybe as a similarity in dating apps. There are questions to understand you, but these questions are mostly static.
+
+[15:37] And now these questions will be personalized and social and situational. That's question and answering an intent discovery process within the primary multi-agent interaction of the near future. Yeah, this is how index will work coming soon.
+
+[15:56] Hopefully we'll be sharing this with you as well. So again, now hopefully everyone has agent village. If you don't have agents, please go and get your agents. You can see flyers and QR codes everywhere. And maybe like I can share some preliminary insight from agent village experiments.
+
+[16:26] So far more than 100 people installed their agents. And these agents start already started negotiating, sending you brief good morning messages, daily reflection messages. These are like wild horses. It's very hard to coordinate them working on it.
+
+[16:43] It's getting better every day, but we already started learning some interesting things. First, instead of like broadcasting public, it affects your intent, right? We are actually having really hard time to promote ourselves in public. And even in private, it's really hard.
+
+[17:04] People are a bit, you know, like it's easy to ask, but sharing our capabilities, sharing what we want is a different norm. We think with agents are governing your intent and understanding your intent. This will change. This will change. This will be changed.
+
+[17:21] And that's is the so far the first funding we got. It just started. We are just closed the first week. We have three more weeks and it will continue after the event. Please get your personal agent. Thank you. Then please again for last time, hopefully follow index on X until we fix social protocols.
+
+[17:48] You should find index on X. That will be very appreciated. And in order to get your personal agent, we will share QR code too. Thank you. Thank you for listening. That was a pleasure. So I have a first question and then would love to hear questions from the crowd.
+
+[18:11] I'll come around with the mic. The first one is when you spoke about the agents going into index and negotiating on your behalf, what is actually happening there? So let's say I register the intention that I would really like to find a place in San Francisco to live, right?
+
+[18:31] And the agent goes to index and it has that intent. Does it then talk to every single other agent or does it only pick a few that it thinks might be relevant? What is actually happening? Good question. Let's say agents are, we have a network that has 1 million people and that makes 1 million agent.
+
+[18:56] So it will be very expensive for the agent to negotiate with 1 million other agents. So it has to select, it has to pick. That's like sourcing, prospecting in real life, right? So who can solve my problem? But in real life, in order to find these people, we usually talk to like 3 people only, 2 people only and make a decision.
+
+[19:14] Now your agent is talking top, 100 top relevant people. Of course you can increase this, but we think it's a good number to get through, to get your problem solved. So, and not 100 people is about, and after talking with 100 initial agents, you learn something.
+
+[19:30] You learn what people are offering, you know, you learn what is the best price maybe, you know, what is the closest, what are your options. This is like a similar to collective intelligence, but in agent to agent way. So then, and this first turns of these negotiations are preliminary.
+
+[19:48] You just check possibility, check mutual intent. Then after mutual intent discovered, you then start negotiating opportunity. So there are two steps of discovery. First discovery of counterpart, the second step of discovering the opportunity based on negotiation.
+
+[20:05] That's how the mechanism works. We try to mimic real life and we think in real life, that's how we do. But now when agents are doing this, it's like on steroids. You can do everything in parallel, you can learn in parallel, you can reflect, you can prioritize.
+
+[20:24] This is a, we think will change everything in social. Good question. I can definitely imagine the potential for like two areas that are super important in my life. One obviously professional and then one that's much more personal. I've always had this dream.
+
+[20:43] I have a lot of like niche interests that I could, you know, meet people that live in Paris and that like surfing or fly fishing or random things that I actually, I don't have any friends that really do that. And I think the interesting thing is both of those like needs and desires, whether it's professional or more interests, suffer from something.
+
+[21:05] I'd love to know how it works, how you envisage it to work, which is on the professional side, there might be almost like an overload problem where like, you know, I want to meet people that are interested in blah, blah, blah. Maybe there's like 100,000 people that are interested in that.
+
+[21:22] So how do you reconcile and find like the most optimal choice? And how do you solve the problem of like intent overload? You know, if there's like so many people that you could potentially match with. And then on the other side, on the more niche interest side, it's like the opposite problem.
+
+[21:38] But it's also interesting is like, what if there's nobody that's like young and cool and lives in Paris and likes to fly fish? How do you, how do you, how do you like start that? Can you be a bit more specific about the second question? This is very interesting.
+
+[21:56] Two sides of the problem. Very curious, but couldn't understand the ending of the second. Like, how do you make sure that you can actually find, actually like, find compatible intents for things that are very specific, that therefore are very high value for somebody to find?
+
+[22:17] But that ultimately rely on like very high adoption if it's such a niche intent, like what are your... True, yeah. Really good question, by the way. These are not only technical limitations, not even like technical limitations. These are coordination problems that we have in real life.
+
+[22:38] And not, it's not, the solution should be influenced by culture, influenced by our everyday behavior. That's, that's very hard problem to solve. And we talked a lot about this. Let me start with the second. Okay. So today you, when you post online, you average relevance rate is 1%.
+
+[22:59] So you post 100 times and your person sees like one time. So that's why like you, we are brute forcing for that relevancy. Why it's happening like this? Because we couldn't understand intent in individual level. We just had to aggregate data based on ranking and popularity algorithms or some behavioral statistics and all.
+
+[23:20] But now we have language. That means we can connect to intents in individual level by applying reasoning. And reasoning is becoming very cheap. Right? We can understand where is that best individual, other individual for you. Is your other, that perfect other, maybe like love of your life or maybe that says you have 100 mutual intents.
+
+[23:41] So it's finally possible to see that opportunity. That's why we are calling that opportunity instead of matching. We think in niche part, it will be even more easy problem to solve. Because now it's all legible. And even if you get more niche and more niche, more sophisticated, more intentional, you will have a better chance to find the other counterparty.
+
+[24:04] Of course, we have a cold start problem that we love. And we solve that cold start problem every day by being here, by being a better product and all. But I think the possibility for niche intent is insane. The second part of the problem is, again, more interesting.
+
+[24:23] Let's say you are Steve Jobs and let's say you are Elon Musk and you are, because he's getting new opportunities every day. How do you rank these opportunities? Right? All the agents are sending thousands of opportunities you every day. How do you evaluate these opportunities?
+
+[24:39] We think now agents will be able to apply new mechanisms like their memory or better negotiation skills or applying gossip. So there will be different mechanisms for the agents to prioritize, to learn better, to improve better. But starting with the open protocol is the first base of that.
+
+[25:00] I hope we'll come to that problem very soon. This is a really good question. Thank you. I just want to say I love the experiment. It's incredible. I see, like you said, with the niches, incredible growth there. So like I sell Great Pyrenees dogs in a small rural community.
+
+[25:22] And everybody that meets my dogs loves my dogs. But finding the family that needs a dog right at that time is a lot of work. And so like when I could see a huge amount of promise for this, not only to like the big guys that have a lot of volume, but in areas where you're like spread out and there's people, but you're not always seeing each other every day.
+
+[25:46] Right? And I just want to say like to what you were saying to the other questions, my experience and being in the agent experiment, the agent experiment is that the system index network, it's like super open source and easy to build software that operates within it.
+
+[26:03] And that's what I've really like taken a big joy in. And what Seraph is saying, and I guess my question is, so what I encountered this morning in building the software that matches people through kind of my logical way of looking at things was that I had a bunch of invitations that my agent had denied.
+
+[26:22] But when I read through them, I was actually like, well, I would be open to at least a conversation here because this is pretty cool what they're doing. And so when I told it to reflect on it or anything, it actually scored 95, like on like nine out of 10 of those.
+
+[26:36] Okay. So then I programmed something called reflect, which kind of like instructs it to do that. But one thing is I think that your agents, what you guys will tackle as you move through the data of this experiment is that finding a way to give the agents the right context of the intent.
+
+[26:52] Right. Right. And, and then where that gate is the limiting factor of the connection, that's a good problem to have. And I just want to, I really don't have a question. I just want to say that I have, I'm so in love with what you guys are doing here.
+
+[27:05] And thank you. Thank you. This is awesome to hear. Made my day. First, I love your doc. And yes, giving better context to your agent to negotiate better. I think we strongly believe negotiations are the next primitive for better discovery, right?
+
+[27:30] Negotiation skill. If you have a perfect negotiation skill, like a better salesman, then you get better opportunities. So you need to teach your agent how to negotiate, what to prioritize, right? What to avoid and all those things. I'm sad that your agent declined a few people.
+
+[27:46] It will learn. Thank you for giving better context. And negotiations will be like future SEO, right? We are prioritizing keywords, removing some keywords in order to be discoverable better, right? But in the future, we won't be dealing with keywords.
+
+[28:01] We'll be just talking with our agents. It will be our own algorithm. It won't be like some centralized algorithm. It will be our negotiation skills. That's how you actually decentralize information discovery. That's how we actually started solving this problem.
+
+[28:15] Thank you. That's why we are building this type of new interactions. In that way, you can talk with your agent more and answer questions about you. And it can get more data, more context about you to find better, relevant people for your intents.
+
+[28:37] Yeah, I've got sort of two related questions. The first, where does the negotiation happen? And does it use your own tokens? Or are you providing the tokens for the matching? And then related to that, how much like in the current system, can you create your own filters and proxies for that?
+
+[28:58] Which would allow you to, assuming that the tokens run on your own agent, that allow you to like manage that and prioritize how much you want to do? Like maybe this week I need more leads, so I'll like push more tokens into it. And next, I'm already full this week, so I don't want any new ones.
+
+[29:12] Are you going to, how are all those controls going to work? Oh yeah, good question. I like this question as well. So, your agents are talking and it's their tokens. Thankfully, we got sponsored for token costs through the agent village. Thank you for them, Forsyth Institute and Cosmos Institute.
+
+[29:34] The second part for negotiations and cost of negotiations are interesting because when you trigger negotiations with another agent, that means another agent should also spend some token, right? So, there has to be some negotiation cost. So, this is like future infrastructural business model in terms of protocol level.
+
+[29:57] And also, we think it will eliminate spam for some degree. Maybe you should put some threshold for like minimum negotiation. Or maybe some agents will increase their negotiation costs. It's very early. We are learning how agents are negotiating.
+
+[30:10] But we already have that negotiation cost concept in real life. We think it will appear again. And this is exciting to watch. Most probably. Yes, I agree. She was asking.
+
+[30:41] Sorry, you were asking about that. Hi, I'm having a lot of fun with agents. So, thank you for running the edge. But I can quickly see that it becomes like a context fight. There are lots of things that I have to share in order for it to work better for me.
+
+[31:02] And then, there's the agent village agent, but also my cloud code also wants my contacts and everything else. So, in the industry or in your circle, is there a discussion or conversation that's almost like a context layer? That's one question.
+
+[31:19] The second question is, what do you think is the best way to expose the implicit context that's not always digitalized or verbalized? Because I met one of the matches, but we found that our actual biggest match was our really niche hobby, which was not really expressed anywhere.
+
+[31:39] So, there might have been just a coincidence. But if there's a better way that you guys have thought of already in the design, where this type of implicit personal context can be merged in, that would be really nice. Yeah. Thank you for the questions.
+
+[31:56] For implicit intents, we met with other couple of teams in Edge Esmeralda. Very interesting approach. Some people are using magic to understand what your intentions are. Behavioral science, psychology, questionnaires. Very different and interesting methods and very interesting teams.
+
+[32:18] All of them are very excited. We think they will be very important intent sources and index will be the infrastructure to be able to find each other. But the source of intent, there should be a very different approach and we love all of them.
+
+[32:34] And the first question, the context layer. Actually, we started building index two and a half, three years ago to build a context layer. And it was the index network. The name comes from network of semantic indexes. So semantic index is actually like how you understand the information.
+
+[32:56] So that's contextual and kind of same thing. But then we realize in order to build context layer, you need to find the most valuable part of all of them. First, then you will attract other contextual elements. Then we think this is intense.
+
+[33:10] Intents represent what people want, what humans want. And everything will be organized around that. So we are building the most precious thing in that context layer. And that's we think building the longer term context layer will emerge around that.
+
+[33:24] We'll get there step by step. Do we have a time for a quick follow-up question? Sure, please go ahead. Just a really quick one. Yeah. We have one more. Actually, I'll take it to the after conversation. Thank you. We have one more question. Yes.
+
+[33:42] Hi. What about privacy? How to make sure it doesn't expose my private information? Yes. We are privacy nerds expecting this question. Thank you for that. I'm always speaking about privacy conferences in New York. We've been dealing with this for many years.
+
+[34:02] And this is different kinds of privacy. This is privacy in communication. And the theory behind index is called communication privacy management theory. It's like when you share a private information with your friend, you trust that friend will manage that information appropriately.
+
+[34:20] The appropriateness is our privacy notion. And there's an agent that's always thinking, is it appropriate to share this intent in order to get this opportunity? So appropriateness in index is a probability. And then we have incognito intents.
+
+[34:35] Then like if there's only mutual intent, counterparty can discover you. So we, yeah, index will be more appropriate over time. So in our architecture privacy is not a boolean, like public and private. But protocol will always find you appropriate possibilities.
+
+[34:54] That's how our approach to manage privacy in social settings. It goes to networks. Networks can be owned by different entities. Just like agent village is the first network. Imagine agent village is stored on hosted on a TE network. So in the future, there will be trustless discovery networks as well.
+
+[35:21] This is the first network. It's we are trusting HCT to our data design experiment. But index allows federated architecture that covers different privacy norms, different privacy settings, including maximum privacy and trustless settings as well.
+
+[35:38] Alright, amazing. Thank you guys so much. Thank you. Thank you so much. Thank you. Thank you so much.

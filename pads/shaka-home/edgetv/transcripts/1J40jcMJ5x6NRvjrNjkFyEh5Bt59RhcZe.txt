@@ -1,0 +1,85 @@
+# Generative Personalized Therapeutics - The Coming Revolution in Cancer Care - Edward Larkin
+
+Date: 2026-06-03
+Source video: Generative Personalized Therapeutics - The Coming Revolution in Cancer Care - Edward Larkin.mp4
+Drive: https://drive.google.com/file/d/1cMp5Rpg720dlzAP7uEbMQBPjbAD2es5e/view
+Duration: 00:33:48
+Transcribed: 2026-06-09 · whisper large-v3-turbo · language: en
+
+---
+
+[00:00] Thank you, guys. Thank you for having me. I'm really excited to meet everyone in the chat and feel free to jump in with questions at any point, and I will try to leave some questions for the end as well. So my name is Edward Larkin. I am the founder and CEO of Valius Sciences, and I'll talk a little bit about what Valius does during this talk.
+
+[00:22] But what I really want to do is zoom out a little bit and talk about something broader that I think is happening in cancer treatment, a paradigm shift that I think is emerging from evidence-based medicine towards what I'm calling generative personalized therapeutics, therapeutics based specifically on your cancer. So that's the theme. But maybe prior to starting, I will give a brief background to myself.
+
+[00:48] I have spent the last 15 years at the intersection of technology and life sciences. So I actually started as a medical student way back in the day at UPenn and pretty quickly learned that technology and life sciences was probably where I felt most at home.
+
+[01:03] And so took what was a very extended of absence from med school to join Palantir, where I was for five years, and built the healthcare business there, which was a really awesome experience at a pretty darn unique company. And then I spent the last five years as an investor at Dragon Year Investment Group.
+
+[01:20] It's a big tech investment fund in San Francisco. I led all of our healthcare investing, really fell in love with cancer diagnostics and the incredible improvements that have happened there over the last couple decades. And then, as Justin mentioned, I met Sid, and I had talked to Sid about his cancer journey and everything that he had done to go beyond standard of care to try to cure, put his cancer into remission.
+
+[01:45] And from the moment I talked to him, I fell in love with the idea. And he said, I'll put the first couple million dollars in if you found the company. And so we had an agreement, and we started almost a year ago today. June 2nd, 2025 was our birthday.
+
+[01:57] So we are one year and one day old today. Yes, thank you. My daughter just turned two, which is a little bit more fun of a birthday, but this was also a good birthday as well. Let me give a brief introduction to Valias, and then, as I mentioned, I'll zoom out.
+
+[02:11] So we work with cancer patients, patients who have cancer, mostly patients with rare or aggressive or metastatic or really challenging cancers, not the easy stuff that is curable. And what we do is we run the most comprehensive possible diagnostic workup for patients to figure out what are the biologically plausible therapies that we think could work against your cancer, not what is just the few things that have been studied, the few things that are evidence-based.
+
+[02:39] As you can probably imagine, for patients who have reached end of standard of care or patients with rare cancers, there's oftentimes not anything that's been studied, right? And so our idea is let's work with the patient and go from the biology up to surface potential options.
+
+[02:52] That's exactly what Sid did when he ran out of standard of care. We are trying to scale that much more broadly to a lot more patients out there. So that is fundamentally what we do. A little bit of background. I think this needs no introduction.
+
+[03:07] I think most of us, perhaps all of us, have dealt with someone, a loved one, a family, a friend, maybe even ourselves who have had cancer. It is really scary, and it is always a very large problem. It is, for the last 50 years, it has been the first or second leading cause of death in the U.S.
+
+[03:24] And you can see here from 2019 to 2023, it's kind of kept that second position. I thought the interesting thing from this chart is even at the height of COVID, right, at the height of the pandemic, cancer still killed more people in those years than COVID did.
+
+[03:37] So it is a, cancer is killing more people than COVID every year, year in and year out. So it is a big problem. We're winning against cancer. We are winning the war on cancer. It's just going very slowly, right? So what I'm showing here is out of 100,000 people in the United States, how many of them die of cancer every year, and how has that changed between 2009 and 2019?
+
+[04:01] You can see those lines are going down, but it's really slow. We're making about 2% progress per year. We're all here in the Bay Area. You see a lot of charts that are up and to the right, token usage, anthropics revenue, all that sort of stuff.
+
+[04:14] That is not such a chart, right, which is unfortunate. And so the big question in my mind is, like, we will win. We'll probably win in 50 or 75 years. Is there a way to win faster than that? Can we make a difference in patients' lives, get more patients' secure faster than just extrapolating that chart?
+
+[04:33] And that's what I want to talk about today. I think the answer is yes, but I think it is going to require a paradigm shift, something that is different from the way that medicine has operated over the last 50 years. One thing that you will hear very often in medicine is that it is evidence-based, right?
+
+[04:53] You try to find what treatments work, you see that they work, you run clinical trials, and then you kind of make those a standard of care, so patients will use them. I believe that, and that has worked very well, don't get me wrong. I am a big proponent of that system over the last 50 years.
+
+[05:08] But as technology changes, I think the way we operate changes. And so I think we're moving towards a world of what I call generative personalized therapeutics, which is we understand exactly what is happening with your cancer and design drugs that are very specific to your cancer to fight your cancer alone and manufacture them on demand.
+
+[05:27] And that is kind of where things are going. Now, the big difference between these two paradigms, just to make it really clear, evidence-based medicine is fundamentally based on similarities between patients, right? You take patients with the same diagnosis or the same genetic mutation or the same something.
+
+[05:44] You group them together, you run a clinical trial, and then you figure out whether that agent works, right? That is kind of, it's fundamentally based on similarities. Generative personalized therapeutics is based on what makes your cancer unique.
+
+[05:57] So find all of the ways in which the genetics and the molecular changes in your cancer are unique, specific to you, and actually use that to manufacture and design drugs. So that is the fundamental paradigm shift, going from group-wise similarities to individual uniqueness.
+
+[06:15] And I'm going to talk about two ways that we're starting to see that happening. This is a future that still very much has not emerged, but it's still, it's coming into focus, which makes this a really exciting time to talk about it. So I'm going to start by talking about personalized mRNA vaccines to prevent cancer recurrence, and then I'm going to talk about a little bit more of a nuclear warhead option for people who have metastatic cancer, cancer that's actively growing, personalized T-cell therapies.
+
+[06:40] But let's start with preventing recurrence. Let's say you have cancer, you've had surgery, you've had radiation therapy, you've maybe had chemotherapy. The big question in everyone's mind is, am I going to recur? And depending on the cancer type, maybe you have a very low recurrence rate, maybe you have a very high recurrence rate.
+
+[06:58] But the important thing is, what in the world can you do to lower that recurrence rate to make sure you survive and don't have disease over the next several years? And one of the more interesting things that we've kind of seen recently is these things called personalized mRNA vaccines.
+
+[07:12] So what are they? What is the process? This gets a little deep into the science, so feel free to interrupt me or ask questions afterwards, but I'll try to explain it at a relatively high level. So essentially what happens with these vaccines, in a lot of ways very similar to the COVID vaccines, in fact manufactured by the exact same company.
+
+[07:29] Moderna did the COVID vaccines, Moderna is doing the personalized cancer vaccines. They will take your cancer sample before it gets removed for surgery. They will do genetic sequencing on it. They will also take your normal genome, meaning your saliva, your blood, or that sort of thing, and they will find hundreds of ways in which your cancer differs very slightly, very slight, small genetic mutations.
+
+[07:52] And they then use that to create a vaccine that educates your immune cells to say, when you see these little differences, go attack those cells, go attack those cells and go kill them. And so they give you a vaccine, it feels very much like the COVID shot, in fact, it kind of has the same side effect profile, which is not super fun, but it's a lot more fun than a chemotherapy.
+
+[08:13] And the idea is that trains your immune cells when they see these small changes that your cancer cells display, they go attack them and they go kill them. So that is fundamentally the theory. And up until the last couple of years, that has been just a theory.
+
+[08:25] This sort of thing has been tried for 20, 30 years, finding ways your cancer cells are different and attacking them, and it just hasn't worked. But advances in the technology in using mRNA as kind of the fundamental substrate, we're starting to actually see efficacy.
+
+[08:40] So this is the chart we just saw at the biggest cancer conference in the world, ASCO, just a couple days ago. And it's a complicated chart, so I won't go through it deeply, but basically what they did here is they took patients with melanoma, whose melanoma had been surgically removed, and they said, over the next several years, how likely are you to recur?
+
+[09:00] And in one of the groups, they just gave a standard drug, and in one of the groups, they gave a standard drug plus this personalized mRNA vaccine that they manufactured just for you, right? And you can kind of see the difference right here.
+
+[09:12] So four years out, four years after the cancer was removed, if you just took that standard drug, about 50% of patients recurred, right? 51% of patients recurred, 49% survived and didn't have any recurrence. If you added the personalized mRNA vaccine, there was a 72% chance that you did not recur, right?
+
+[09:32] So you go from a 50-50 shot of recurring to about a three and four chance of not recurring, just with the addition of this mRNA vaccine, personalized mRNA vaccine, which was really exciting. This is kind of the first, and this was a big, relatively well-controlled, randomized study.
+
+[09:50] There are bigger studies happening right now, and there's still a lot of open questions as to whether this works in other cancer types, but this is some of the most exciting data we've ever seen from personalized cancer vaccines. And the important thing to note here, and the reason why this is such a revolution, this wasn't just a standard off-the-shelf vaccine that everyone got.
+
+[10:07] Everyone got a different vaccine based on the specific genetics of their cancer. It was deeply personalized in a way that really kind of very few drugs ever have been before. So this was very exciting, and there are a lot more trials underway to try this and a bunch of other cancers.
+
+[10:24] So this kind of raises the question, is this sort of thing a cure for cancer? Is this kind of the long-awaited holy grail? I hate to burst everyone's bubble, but the answer here is absolutely not, right? And you probably saw that in this graph.
+
+[10:41] Even with that vaccine, you know, 28% of people still recurred. So you move it from a 50-50 chance to a three and four chance, but there are still a lot of people who do recur. But more importantly, the real problem with these cancer mRNA vaccines, they're great for potentially preventing recurrence, meaning after you've had surgery and there's really no cancer that's obvious in your body.
+
+[11:03] We think that at that point they can go find the small amounts of cancer cells and kill them. But if you have an actively growing cancer, a medic cancer... ... ... ... ... ...

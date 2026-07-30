@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Camp Map 🗺️ | Turtle Ops — Terrible Turtle Camp</title>
+<meta name="description" content="The Terrible Turtle Camp site plan for Burning Man 2026 — shade structures, kitchen, showers, water, AI Oracle tents. Synced from the camp's Final Map.">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+  :root {
+    --tt-orange:#eb5833; --tt-coral:#fd6844; --tt-amber:#db9840; --tt-gold:#e5a14b;
+    --tt-red:#cc272e; --night:#030915; --night-2:#071123; --card:#0b1628; --card-2:#111b28;
+    --border:#1f2a38; --cream:#f7f0eb; --cream-dim:#ddd6d1; --sand:#8a7d75;
+    --radius:12px; --radius-lg:20px; --aqua:#4dd4e8; --ok:#69db7c;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:'Rajdhani',sans-serif;background:var(--night);color:var(--cream);line-height:1.55;font-size:18px;}
+  .container{max-width:1000px;margin:0 auto;padding:20px;}
+  a{color:var(--tt-orange);}
+  .topnav{padding:18px 0;font-weight:600;}
+  .topnav a{text-decoration:none;color:var(--tt-coral);}
+  .hero{text-align:center;padding:26px 10px 20px;}
+  .hero .icon{font-size:3rem;display:block;margin-bottom:8px;}
+  .hero h1{font-size:clamp(2rem,7vw,3.2rem);font-weight:700;text-transform:uppercase;
+    background:linear-gradient(135deg,var(--cream) 20%,var(--tt-gold),var(--tt-orange));
+    -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:8px;}
+  .hero .sub{color:var(--cream-dim);font-size:1.1rem;max-width:640px;margin:0 auto;}
+  .badge{display:inline-block;padding:4px 14px;background:rgba(219,152,64,.15);color:var(--tt-gold);
+    border:1px solid rgba(219,152,64,.35);border-radius:16px;font-size:.75rem;font-weight:700;
+    letter-spacing:.14em;text-transform:uppercase;margin-top:12px;}
+
+  /* THE MAP */
+  .mapwrap{background:var(--card);border:1px solid var(--border);border-radius:var(--radius-lg);padding:22px;margin:20px 0;overflow-x:auto;}
+  .road{display:flex;align-items:center;gap:10px;color:var(--sand);font-family:'JetBrains Mono',monospace;
+    font-size:.75rem;letter-spacing:.2em;text-transform:uppercase;margin-bottom:10px;}
+  .road::before,.road::after{content:'';flex:1;border-top:2px dashed var(--sand);opacity:.5;}
+  .map{position:relative;width:100%;min-width:640px;aspect-ratio:30/21;background:
+    repeating-linear-gradient(0deg, transparent, transparent 9.5%, rgba(31,42,56,.6) 10%),
+    repeating-linear-gradient(90deg, transparent, transparent 9.5%, rgba(31,42,56,.6) 10%),
+    linear-gradient(180deg, #0d1424, #0a101d);
+    border:1px solid var(--border);border-radius:var(--radius);}
+  .zone{position:absolute;border-radius:8px;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    text-align:center;font-weight:600;line-height:1.15;padding:4px;border:1.5px solid;}
+  .zone .z-name{font-size:clamp(.55rem,1.4vw,.85rem);text-transform:uppercase;letter-spacing:.04em;}
+  .zone .z-dim{font-family:'JetBrains Mono',monospace;font-size:clamp(.5rem,1vw,.7rem);opacity:.75;margin-top:2px;}
+  .z-shade{background:rgba(219,152,64,.16);border-color:rgba(219,152,64,.55);color:var(--tt-gold);}
+  .z-vehicle{background:rgba(138,125,117,.18);border-color:rgba(138,125,117,.6);color:var(--cream-dim);}
+  .z-kitchen{background:rgba(235,88,51,.16);border-color:rgba(235,88,51,.6);color:var(--tt-coral);}
+  .z-water{background:rgba(77,212,232,.13);border-color:rgba(77,212,232,.5);color:var(--aqua);}
+  .z-art{background:rgba(167,139,250,.14);border-color:rgba(167,139,250,.55);color:#a78bfa;}
+  .z-util{background:rgba(105,219,124,.12);border-color:rgba(105,219,124,.5);color:var(--ok);}
+  .car{position:absolute;background:rgba(138,125,117,.25);border:1px solid rgba(138,125,117,.5);
+    border-radius:4px;color:var(--sand);font-size:clamp(.45rem,.9vw,.65rem);font-weight:700;
+    display:flex;align-items:center;justify-content:center;text-transform:uppercase;letter-spacing:.05em;}
+  .legend{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px;font-size:.85rem;color:var(--cream-dim);}
+  .legend span{display:inline-flex;align-items:center;gap:6px;}
+  .dot{width:12px;height:12px;border-radius:3px;display:inline-block;border:1.5px solid;}
+
+  h2{font-size:1.5rem;text-transform:uppercase;letter-spacing:.03em;margin:26px 0 12px;color:var(--tt-gold);}
+  .panel{background:var(--card);border:1px solid var(--border);border-radius:var(--radius-lg);padding:24px;margin-bottom:14px;}
+  .panel ul{margin:0 0 0 22px;color:var(--cream-dim);}
+  .panel li{margin-bottom:8px;}
+  .panel strong{color:var(--cream);}
+  .panel p{color:var(--cream-dim);margin-bottom:10px;}
+  .callout{border-left:3px solid var(--tt-gold);background:var(--card-2);border-radius:0 var(--radius) var(--radius) 0;padding:12px 16px;margin:12px 0;color:var(--cream-dim);}
+  .footer{text-align:center;padding:36px 20px;border-top:1px solid var(--border);color:var(--sand);font-size:.95rem;margin-top:26px;}
+  .footer a{text-decoration:none;}
+  @media(max-width:600px){body{font-size:16px;}.container{padding:12px;}}
+</style>
+<link rel="stylesheet" href="assets/turtle-cursor.css">
+</head>
+<body>
+<div class="container">
+
+  <nav class="topnav"><a href="./">← Back to Turtle Ops</a> · <a href="inventory.html">📦 Inventory</a> · <a href="shower.html">🚿 Showers</a> · <a href="kitchen.html">🍳 Kitchen</a></nav>
+
+  <header class="hero">
+    <span class="icon">🗺️</span>
+    <h1>The Camp Map</h1>
+    <p class="sub">Terrible Turtle Camp site plan — roughly 300' × 210', reviewed with David. Schematic view; positions refine as placement is confirmed.</p>
+    <span class="badge">Synced from the camp Final Map · July 2026</span>
+  </header>
+
+  <div class="mapwrap">
+    <div class="road">Access Road</div>
+    <div class="map">
+      <!-- top row cars -->
+      <div class="car" style="left:1%;  top:2%; width:6%; height:7%;">Car</div>
+      <div class="car" style="left:11%; top:2%; width:6%; height:7%;">Car</div>
+      <div class="car" style="left:21%; top:2%; width:6%; height:7%;">Car</div>
+      <div class="car" style="left:31%; top:2%; width:6%; height:7%;">Car</div>
+      <!-- utilities along road -->
+      <div class="zone z-util"  style="left:42%; top:2%; width:7%;  height:9%;"><span class="z-name">BR 🚻</span></div>
+      <div class="zone z-water" style="left:51%; top:2%; width:8%;  height:9%;"><span class="z-name">Showers 🚿</span></div>
+      <div class="zone z-water" style="left:61%; top:2%; width:6%;  height:9%;"><span class="z-name">PW 💧</span></div>
+      <div class="zone z-water" style="left:68.5%; top:2%; width:6%; height:9%;"><span class="z-name">GW ♻️</span></div>
+      <div class="car" style="left:77%; top:2%; width:6%; height:7%;">Car</div>
+      <div class="car" style="left:86%; top:2%; width:6%; height:7%;">Car</div>
+      <!-- second row cars -->
+      <div class="car" style="left:1%;  top:12%; width:6%; height:7%;">Car</div>
+      <div class="car" style="left:11%; top:12%; width:6%; height:7%;">Car</div>
+      <div class="car" style="left:21%; top:12%; width:6%; height:7%;">Car</div>
+      <div class="car" style="left:31%; top:12%; width:6%; height:7%;">Car</div>
+      <div class="car" style="left:77%; top:12%; width:6%; height:7%;">Car</div>
+      <div class="car" style="left:86%; top:12%; width:6%; height:7%;">Car</div>
+
+      <!-- semi + dormitory shade -->
+      <div class="zone z-vehicle" style="left:18%; top:21%; width:5%; height:42%;"><span class="z-name">Semi</span><span class="z-dim">8'×51'</span></div>
+      <div class="zone z-shade" style="left:55%; top:14%; width:40%; height:52%;"><span class="z-name">🛏️ Dormitory Shade</span><span class="z-dim">68' × 122'</span></div>
+
+      <!-- dining shade -->
+      <div class="zone z-shade" style="left:2%; top:28%; width:44%; height:38%;"><span class="z-name">🍽️ Dining Shade</span><span class="z-dim">70' × 75'</span></div>
+
+      <!-- vehicles mid-camp -->
+      <div class="zone z-vehicle" style="left:6%; top:70%; width:17%; height:11%;"><span class="z-name">🚚 Box Truck</span><span class="z-dim">8'×26'</span></div>
+      <div class="zone z-kitchen" style="left:28%; top:70%; width:24%; height:11%;"><span class="z-name">🍳 Kitchen Trailer</span><span class="z-dim">8'×36'</span></div>
+
+      <!-- bottom row: oracle, podcast, bikes -->
+      <div class="zone z-art" style="left:6%;  top:86%; width:10%; height:11%;"><span class="z-name">🔮 AI Oracle</span></div>
+      <div class="zone z-art" style="left:19%; top:86%; width:10%; height:11%;"><span class="z-name">🔮 AI Oracle</span></div>
+      <div class="zone z-art" style="left:32%; top:86%; width:10%; height:11%;"><span class="z-name">🔮 AI Oracle</span></div>
+      <div class="zone z-art" style="left:45%; top:86%; width:9%;  height:11%;"><span class="z-name">🎙️ Podcast</span></div>
+      <div class="zone z-util" style="left:60%; top:86%; width:16%; height:11%;"><span class="z-name">🚲 Bike Storage</span></div>
+    </div>
+    <div class="legend">
+      <span><span class="dot" style="background:rgba(219,152,64,.16);border-color:rgba(219,152,64,.55);"></span> Shade</span>
+      <span><span class="dot" style="background:rgba(235,88,51,.16);border-color:rgba(235,88,51,.6);"></span> Kitchen</span>
+      <span><span class="dot" style="background:rgba(77,212,232,.13);border-color:rgba(77,212,232,.5);"></span> Water / Showers</span>
+      <span><span class="dot" style="background:rgba(167,139,250,.14);border-color:rgba(167,139,250,.55);"></span> Art &amp; Gifts</span>
+      <span><span class="dot" style="background:rgba(105,219,124,.12);border-color:rgba(105,219,124,.5);"></span> Utilities</span>
+      <span><span class="dot" style="background:rgba(138,125,117,.18);border-color:rgba(138,125,117,.6);"></span> Vehicles</span>
+    </div>
+  </div>
+
+  <h2>Placement Logic (David-reviewed)</h2>
+  <div class="panel">
+    <ul>
+      <li><strong>Greywater, potable water &amp; bathrooms hug the access road</strong> — service trucks reach them without entering camp.</li>
+      <li><strong>Showers pump their own water</strong>, so they don't need road access — but ours sit near the water cluster anyway.</li>
+      <li><strong>The semi trailer anchors the Dormitory Shade</strong> — our 51' northAmerican moving van (Kentucky Mfg 1996, triple-axle, GVWR 65,000 lb). Keder rail mounts at ~13–13.5', two 20' poles stand 75' downwind, and the Aluminet runs down to ground anchors at ~60°, giving a huge shaded sleeping bay.</li>
+      <li><strong>Cars park behind the semi</strong> and along the perimeter — a windbreak and privacy wall.</li>
+      <li><strong>The box truck doubles as a privacy screen</strong> and stays drivable for ice runs.</li>
+      <li><strong>AI Oracle tents + Podcast face outward</strong> on the public edge — gifts greet the passersby. 🔮</li>
+    </ul>
+    <div class="callout">Placement on playa is assigned by BMorg — this layout flexes to fit the actual frontage we get. The logic stays the same even if the shape shifts.</div>
+  </div>
+
+  <footer class="footer">
+    <p>🐢 <a href="./">Turtle Ops</a> · Terrible Turtle Camp · <a href="https://terribleturtle.camp/" target="_blank">terribleturtle.camp</a></p>
+    <p style="margin-top:6px;color:var(--tt-amber);">Move Slow &amp; Bite Things.</p>
+  </footer>
+
+</div>
+<script src="assets/turtle-cursor.js" defer></script>
+</body>
+</html>

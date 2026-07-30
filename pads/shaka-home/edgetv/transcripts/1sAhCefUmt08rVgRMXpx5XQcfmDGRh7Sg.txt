@@ -1,0 +1,135 @@
+# Designing Worlds You Can Touch_ Hear_ and Feel
+
+Date: 2026-07-18
+Source video: Designing Worlds You Can Touch_ Hear_ and Feel.mp4
+Drive: https://drive.google.com/file/d/1k0i5sDMSoX7doVCYFM5oOmzKE3QmI3vA/view
+Duration: 00:20:10
+Transcribed: 2026-06-19 · whisper large-v3-turbo · language: en
+
+---
+
+[00:03] Because at the end of the day, that's going in the direction. All right, are you ready to go? Yep. All right, okay. Sorry that I can arrive home. Sorry that I can hide the topic. No, I did it in the other place. All right, all right, please grab a seat.
+
+[00:24] We're gonna get started with our next talk here. Thanks again for joining. I'm very excited to present Anna Matsumoto, a very talented creative technologist, Steve Jobs, Archive Fellow, designing new interfaces for expression, and really thrilled to introduce her for her talk today.
+
+[00:49] Welcome, Anna. Thank you so much. Yeah, it's been a while since I gave it a talk in English last time I came here, five years ago. So I'm kind of nervous, so can you just crap again? I feel so good. Thank you so much. So hi, I'm Anna. So I'm digital publication researcher.
+
+[01:10] So I build 3D printers, and then also creative technologist. So currently exploring some multi-sensory interaction, Steve Jobs, Archive Fellow. So yeah, I build these kind of things. So touching things and then fun interfaces. So my current life work is a creative technologist.
+
+[01:26] So, you know, they say for a call too. But, you know, according to this, you know, search thing. It says it's a professional who combines technical skills with creative thinking to build innovative digital and interactive experiences. So that's what creative technologist is.
+
+[01:42] So for me, so build innovative digital and interactive experiences. For what I do for accessibility perspective. So last year I finished my bachelor degree at Stanford University. That's where I met call. So through my undergraduate career, I focus on digital fabrication, 3D printing research, especially in accessibility field.
+
+[02:05] So I was doing research with blind and low vision people for maybe seven years since I was in high school in Japan. So through my research, I was always exploring many 3D printings, 3D shapes, then lots of user studies with blind people on how we can convey information through touching instead of like talking, writing, reading.
+
+[02:27] And then as I explored how those like physical shapes can convey some information to support communication, I learned that touch and shape is such an inclusive and then also really fun creative expression. In the research, I always look at this as, you know, just alternative way, like some solution.
+
+[02:46] Well, like technology. But then I realized it's very fun thing. Touching physical thing is fun. That's how we used to play the toy. You know, Lego, that's how we used to play. So as I do that, I found the joy in those things. But then in the research field, you know, we find a new technology, we develop things.
+
+[03:05] And then the final thing is maybe we develop products or something and then publish to the world. But then for those things, many people say, many like investor or whatever said, users are too niche and then nobody can use it. And then it's difficult to spread.
+
+[03:19] So even if we develop the technology for social good, really good reason, nobody can use it. Like not that many people use it. It's not everyone. So many technology died. I saw that really. I felt so sad to see that. Many technology just died within like three years.
+
+[03:35] So at that time when I was in the research field, I thought that what if I use those touching technology for entertainment, like fun purpose. So what if I use touching as interactive experiences for all? And then if I do that, more users can use it, more users can experience it.
+
+[03:57] And then it's not for need and then it's more for real. I touch it because I want to touch because it looks so fun. It's like I need to touch because I cannot see. It's more like fun purposes. So and then if the technology is built for fun, more people can use it because it's not pushed.
+
+[04:15] You know, we want to use it. We want to experience it. So I thought if I build the technology for fun purposes, it can end up reaching to those niche users at some point. And then I came, how do you say, I ended up in this conclusion because in my hometown, does anyone know TeamLab?
+
+[04:33] TeamLab? Yeah, hell yeah. So they're from my hometown. Like the CEO is from my hometown. So they're the interactive media art collective. The background is their work too. But then they did many, you know that too. Yeah, so like they did many installations in so many public spaces.
+
+[04:48] And then it was in my hometown too. My hometown was Shikoku Island in Japan. It's pretty, when I grow up, I didn't know the work about engineer. I didn't know engineer. I thought they just fix a car. But then when I saw those installations, when I touch things, and then when I dance with these holographic people like frogs, I felt, wow, there are some people, some adults who build it as a life work.
+
+[05:13] That sounds so fun. And then when I experienced that, I felt technology is so close. I felt like, wow, I might be able to build it. So yeah, that's how I started. And then basically right now what I do is I invent technology, but then not that many people are interested in it.
+
+[05:32] So I translate them into fun, art, creative experience, so that more people experience it. And then if more people experience it, they understand the needs, so we can develop more technology. So that's the loop I do. So I build these things.
+
+[05:48] So yeah, I just wanted to talk about my journey too. So on my artist side of journey, I initially explored was really static painting. I started like exhibiting my artwork when I was in high school. That's me. And then I exhibited in like four or five countries at the time.
+
+[06:08] And then art was my voice without language. So when I want to talk about some feminism work, some like, oh, HP vaccination or environmental thing, nobody going to talk to, like, nobody going to listen to me because they're not interested in it.
+
+[06:22] But then if I put them into the work, into the artwork, they first step to the artwork and then they ask me like, oh, what's this? And then I say, oh, it's uterus. I express not that many people can get HP vaccination, you know? And then they're like, hmm, you know, I got more audiences.
+
+[06:42] So that was really fun. And then I learned that. So yeah. And then after that, I came to Stanford. I did engineering and then I learned more technology. So my work moved from statistic. No, no, not statistic. Oh, static to interactive. So my major was physical design manufacturing.
+
+[07:00] Of course, I did 3D printing research. I do 3D modeling. And then I thought, oh, I can do 3D modeling. Maybe I can do 3D animation. So I started making 3D animation. Yeah. It's still crazy. I did it before AI. So in 2024, I started my visual jockey exploration.
+
+[07:17] I did a lot of 3D modeling in my, you know, 3D animation. Oh, it's beautiful. So I did it for my friends DJ. And then I started, you know, many people saw my work and many people started inviting me for new things. And then, yeah, I started to perform a lot.
+
+[07:33] And then although these creative expression immerse people in the physical space like rave, I realized it really limits the audience. So my research is for blind people. But what am I doing with 3D animation? So I was like, you know, this is immersive, interactive, but then not inclusive.
+
+[07:51] So I started to think about how I can incorporate other stuff beyond the screen, beyond the monitor. So first I started exploring more embodiment. So this one I did in the Stanford Research Center. I wore like EEG headset and then some finger thing.
+
+[08:08] And then we played the music with brain waves. And then we also like made a, you know, live coding visual in the background. We did a really experimental thing. And then after that, I also made some AR artworks. So basically you go to some on-campus location.
+
+[08:24] You scan. You see big heart. And then it start talking to you. Like, do you know what this location means? Do you know there is no ramp for wheelchair here? Okay, if you didn't know, say it here. Like that. So it was like 10 minutes installation for people.
+
+[08:41] So yeah. So I did so many like different artwork. But then in my mind, back of my mind, I always thought I wanted to do physical things. Because that's my research. So finally I came to my final stage. Audio-visual-haptic interaction. So I explored this concept.
+
+[08:57] I started exploring this concept from 2025. And then I started making my work touchable for more inclusive, immersive, and interactive experiences. So this is the main part of the presentation. I'm glad I got here. So yeah. First I started with haptic output.
+
+[09:16] So this looks really junky from my perspective. But then, so basically what I did was translating audio data into physical shapes. Just like how I did audio-interactive visual. And then I made each sound and pulse into tangible forms. Like motion and vibration and inflation.
+
+[09:35] So I, whenever I do 3D animation work for DJs, they ask me to like, oh, there's monitor. Can you do DJ, visual junky for my DJ work? So I pull up with my laptop, right? And then I didn't tell the DJ. I just brought these things with me. And then I just put it next to the DJ deck to see how users interact with it.
+
+[09:54] So basically, it went really well. Many people came. Many people touch it. And then, at first, they asked me if they can touch it. Oh, can I touch it? It looks so fun. And then, you know, I want them to touch it. So I started to touch by myself so that other people can join me.
+
+[10:11] And then, so I observed how people interact with my interfaces. And then, when people encounter moving interactive objects like these. So they often hesitate at first. You know, like you're not supposed to touch things in the museum. But then, as part of our human nature, we are drawn to like those like touch.
+
+[10:32] You know, like we want to touch, like cold touch, everything. So like to explore something new. So, especially like these breathing inflatable structures I made. This shape invited so many people to reach out and touch them more. And then, from that hole, the lighting is bad.
+
+[10:49] But this picture is my favorite. But yeah. So, this is where my accessibility research came in, as I said. And then, I found that weird texture invites more touch. The balloon invited more touch. So next, I started to explore more different textures.
+
+[11:09] Touch makes art and art makes touch. So let me play one video. Thank you. Oh, thank you. Oh, thank you. So, this is one of the work I did this year.
+
+[11:43] No, last year. So, this one, if you touch the slime, you can play the music. And then, with the music, the TPU inflatable is going to start dancing. And then, I basically designed like all those like inflatable from my research perspective.
+
+[11:56] And then, I started integrating more research. And then, I started integrating more different textures. And then, yeah. I started to experiment more weird touch. And then, this is another work that I recently made with my Steve Jobs Archive fellow cohort.
+
+[12:17] So, basically, we made an instrument with slime. Because I think if we have interface, we don't really touch. But then, if there's slime, maybe more people want to touch it. So, yeah. That was my hypothesis. Yeah. So, I made many interesting work.
+
+[12:36] So, this one, I can also talk about this one. This one was, I put rice on it. And then, if more people touch the rice, more than three people touch the rice, you can play better music. So, I did this performance in the Asian Art Museum this year.
+
+[12:50] And then, so, yeah. Like this, I used to use technology for, you know. No, no. I used to use art and creative to spread technology to more people. But then, through making more art, I actually learned more technology. And then, developed more technology through making art and creatives.
+
+[13:09] So, I kind of made a loop of technology and art and creative. And then, that's what I do right now. So, yeah. From those like inspiration, I also did these like technology research. I and Michael developed 3D printed rollers to embed origami structure to food.
+
+[13:26] And then, also, this inflatable structures. So, yeah. That's my work. That's it. And then, also, I can talk about what I'm after. I do exhibition right now in LA in abandoned hospital. And then, I have one surgery room. And then, I build a lung.
+
+[13:46] So, if you're interested in my work, please visit. And that would be it. Thank you so much. Questions, questions. Hi.
+
+[14:17] Hello. Hi. So, in your research with like 3D printing and stuff like that. Where do you see like the balance of importance between like software innovations and hardware innovations, I guess? Because I feel like a lot of the, I was like your presentation was one of the few that actually focused on hardware.
+
+[14:37] And I think people are just now starting to think about hardware and like physical AI and robots. So, do you think that'll basically become like the new meta of everybody starting to work on hardware and that becomes the main thing? As opposed to like software kind of become secondary?
+
+[14:52] Or do you think software will still be like the primary like area that people are working on? Sorry, could you say that again? Okay. So, you had a lot of kind of projects about hardware? Yeah. In this presentation? And I was wondering like the past like 10, 20 years of I think like tech innovation has kind of focused around software.
+
+[15:16] And so, do you think in the next few years with like physical AI and things like that, do you think hardware will basically become the new like big thing? Or will software still kind of be the main thing on hardware is like secondary to that?
+
+[15:29] Do you see a big shift happening? You know, I'm very biased. I believe hardware is going to lead the world. So, I've been doing this since I, you know, I started studying math or whatever since like I was in high school. And then even when everyone was like software, CS, CS, CS is the best.
+
+[15:49] I was still believing in the physical world. I wanted to build a cool thing. I wanted to build a new Lego. And then I always believed in the hardware. And then now I feel like oh, finally people are catching up with me. So, I really hope that people put more efforts in the hardware in the future too.
+
+[16:05] And then I'm pretty biased but I love hardware more. So, yeah. Sorry. Do you love follow up questions or no? Oh, okay. Okay. Do you think like for hardware, do you think 3D printing would be like the main mechanism for that? Or is there still room for like traditional like manufacturing?
+
+[16:29] Perfect question. So, I do 3D printing research because I'm from Shikok Island in Japan. So, my hometown is the only one prefecture with no train in Japan. So, even when many technology, you know, like many like TV shows or whatever like appear, only my hometown didn't get it.
+
+[16:48] But then, when I started 3D printing research, one printer is like sometimes just 300 bucks. And then if you buy it, you can basically print anything. So, when I started research, I basically wanted to open source everything. So, that everyone anywhere in the world with 3D printer can print it.
+
+[17:06] So, that's why I also did like 3D printing, hardware devices, pneumatic interfaces. So, that whoever in wherever can print it. So, yeah. That's why I love 3D printer, yeah. Cool. Thank you. Great questions. Anyone else? Don't be shy. I really love your presentation.
+
+[17:34] I think it's amazing to bring art and technology together. And I'm curious to know your opinion in terms of, do you see technology becoming more fun? I think, like, if we look at the past 10 years, technology become just very boring. And bringing more art and creating more unique hardware.
+
+[17:53] Yeah. It's at least the way I see. But I'm curious to know what's your opinion. Yeah. So, you know, in entertainment field. When I talk about some hardware devices for fun, many people mention rave, club. And then I really feel so good about that.
+
+[18:10] So, I guess that's, I think those places are where people feel so secure and safe enough to explore just like their kids, you know. They just like jump with the music and then just touch whatever they love. And then I think we need those like safe space where people can explore whatever they want.
+
+[18:25] So, yeah. Yeah. Did it answer a question? But yeah. Okay. Kind of. Yeah. Okay. Yeah. Thank you so much. Thank you. Awesome. Okay. One more question. Anyone? No? Great. Oh.
+
+[18:56] Oh. Oh. Josh. I'm really fascinated that the founder of Team Labs is also from your hometown. And it's like not super accessible. I'm really surprised by that. Is there more that you can share about like that city? Yeah. Yeah. Yeah. We have biggest traditional dance festival where we almost don't sleep for like four days and then we just keep dancing.
+
+[19:20] No drag, of course. Like just, we just keep dancing. And then that's where we become so wild. And then my hometown has largest number of women entrepreneur. And then, you know, the CEO went to like University of Tokyo or wherever and then that's where he learned technology.
+
+[19:38] So, by our heart, we are the wild dancers. So, if we get those skills, we can build whatever with pure heart of curiosity. So, I think that's the strength of our city. So, I just hope everyone get to learn the, you know, tool or skills where people can bring their ideas into the shape.
+
+[19:57] Amazing. Thank you so much, Anna. Thank you so much. Great questions. Round of applause, please. I will make anything and bring to anywhere. Amazing. Thank you. Thank you. Thank you.

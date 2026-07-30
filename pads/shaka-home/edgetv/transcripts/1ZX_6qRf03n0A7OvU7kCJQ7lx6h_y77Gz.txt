@@ -1,0 +1,319 @@
+# Week 2 Demo Day
+
+Date: 2026-06-12
+Source video: Week 2 Demo Day.mp4
+Drive: https://drive.google.com/file/d/1Aw0BrXJKh606q4lTRtI8xtDOCqwOMrxc/view
+Duration: 00:54:00
+Transcribed: 2026-06-15 · whisper large-v3-turbo · language: en
+
+---
+
+[00:00] Amazing! Welcome everyone to the second Edge Esmeralda Demo Day! Give yourselves a huge round of applause! So first things first, you may have noticed we have a film crew in here. If you do not want to be filmed, that's totally okay. If you could just make your way into the kitchen, you may otherwise be in some of the b-roll.
+
+[00:24] So just wanted to give you a heads up about that. And otherwise, we will get started. So, as you all know, but it always bears repeating, Demo Day is a tradition here at Edge Esmeralda. This is a very full room, it's a very warm day. We'll be here for 58 more minutes and then we'll all go and have a wonderful community dinner together in the park.
+
+[00:49] Before we get started, just a couple of announcements about the weekend since we have everyone in one place. Tomorrow we'll have a hike in the morning in the Redwoods, there's information on the calendar. In the afternoon we'll have some amazing programming and then we'll go into an evening party for kind of a mid-month bash soiree.
+
+[01:06] It's called the Esmeralda in Bloom party, which will be at Fogbelt. And then on Sunday we'll probably have a beach day by the river in the morning and then orientation at 3pm and town hall at 3.30. If you have not been to an orientation yet, we highly recommend you make it up, you make it there.
+
+[01:24] Last thing, if you're presenting, we have a lot of people in the room today so I'm going to hand you the microphone in your hand and please hold it right in front of your mouth like I'm doing right now. Perfect. Okay, so Demo Day is a reminder that we are here at Edge to create.
+
+[01:42] We are here to build, to collaborate and to make things together. And that doesn't just mean making software, it can mean making academic research, it could be writing your book, your essay, your script you're writing for a play. Some people are building entirely new cities and movements, you know, future of education experiences.
+
+[02:03] So we're all here to build whatever we're working on and we want to celebrate that, which is why we've invited 10 amazing presenters today. There are two rules of Demo Day. For the presenters, I will be timing you strictly so there'll be four minutes on the clock.
+
+[02:19] If you get under that, that's amazing. And the second rule is that we are all going to go absolutely exaggerated in our support of the people that get up on this stage. So let's practice that right now. A huge round of applause for yourselves, the presenters.
+
+[02:33] Amazing. Keep that energy up as we go through. First up, we have me with a quick announcement. I shared this last week as well. We have an amazing partnership with Notion, as you know, throughout the month. This is also in the Telegram chat and it's pinned there so you can get the information.
+
+[02:58] We have an amazing offer with custom AI credits and Notion business for three months free. So an amazing way to build together as well. And next up for our first presenter, we have Alex. Please welcome Alex to the stage. Hello everybody. My name is Alex and I co-created the first ever game of Assassin with my friend Julia.
+
+[03:30] So, what is Assassin? Basically how it works is you get a random target on day one and to get them out you have to tap them with, you have to tap them on their edge city wristband with three fingers. After that, you get the target that they had.
+
+[03:49] Every day there are new ways of making, of making surviving harder. On one day, on day one you have to read a poem. This was my poem. Yo ho ye scallywags lend me your ear. There's bounty in Hildsburg and danger be near. Three fingers I'll lay on your wristband so bold and claim ye a target your fortune your gold.
+
+[04:17] Thank you, thank you, thank you. Did not come up with that but thank you. On the third day you have to wear a sock on your hand and so on and they all stack on each other making every day harder. So, how did this actually happen? So, I'd always heard about vibe coding and I was always curious like what it was about but I never really knew what to do with it.
+
+[04:40] But then on Sunday came up with the idea of an edge city wide game of Assassin and I knew what I had to do. So, actually what I didn't realize going into it is how easy Claude makes it. It even gave me a whole document explaining what to set up and how to actually make it happen.
+
+[04:58] But, I'm sure some of you can relate to this. After I finally finished it even with how easy it was I felt like an absolute genius. So, since I had to make the game kind of quickly, came up with the idea on Sunday and Julia and I are leaving this weekend.
+
+[05:16] So, we only really had a week to do it and I had basically one day to make it. There were kind of some oversights that happened throughout the week. There were some unfair kills due to a lack of rules. We had some drama where someone was reading out their poem on day one and then it got snatched out of their hands.
+
+[05:32] I'm not going to say who it was but it was someone in the crowd here. And because, and so that kind of for the next game, we have a list of rules. Also, we would like the survival directives to be more edge themed. So, like somehow techier or related to consciousness.
+
+[05:52] One idea I had was if you get three finger tapped on your wristband, you have to take a microgram of shrooms to survive. Off the record. Now, that being said, congratulations to all the survivors. Trey came out on top with four kills. Good job, Trey.
+
+[06:15] I knew, deep down I knew he would be the winner. So, here's how to sign up. You just scan the QR code. There's two links on the website. The top link is the Google form sign up. And then the bottom link is the telegram group chat. That's how you're going to know when the game starts and all the live updates about the game.
+
+[06:39] Yeah, yeah, yeah. Good question. Yeah, whoever signed up previously has to sign up again. So, that being said, is anyone willing to take over for Julia and I for next week? Is anyone worthy? Ah, she got me. So, hi, everyone. I'm Lucy. I'm going to be your new admin.
+
+[07:09] I already have a lot of great. If I win, it's not because the game was rigged. It's because I was very that good. So, yeah. Thank you so much. Amazing. Thank you, guys. That was wonderful. I think the first time we've had kind of a theatrical flourish at the end of a demo day.
+
+[07:31] Fun fact, Alex is my brother. I've been trying to get him to vibe code for the last three years and all it took was coming here. And trying to make a game. I love that. All right. Next up, please welcome Kim to the stage. Hi, guys. Please don't .
+
+[07:50] I was excited. Okay. So, my name is Kim. We're building native. I'm with Rashab. We are building infrastructure for global businesses. And I'm going to tell you why our B2B SaaS might actually accelerate global peace. So, stay with me. Fun fact, the international business market is actually three times larger than the US market.
+
+[08:14] And what we've noticed is that this is accelerating at an insane pace. Because anyone anywhere can just . However, America has incredible infrastructure that helps founders get started. But if you're an international founder, you always get hit with this wall of bureaucracy.
+
+[08:37] You have to deal with lawyers, service providers, figure out global banking. And this wall of bureaucracy is actually what hinders innovation in these local economies. And that's why we built native. It's a simple platform that allows a founder to go from zero to one super seamlessly.
+
+[08:57] They can register their company wherever they are in the world. They can open up a global bank account. And when they're ready to travel for work, they can just do it all on native. This is sort of what the platform looks like. We have, it's very contextual.
+
+[09:14] So, the more you do in the platform, the easier it gets. Because it's AI native in the background. And to make it even easier, you can do these things in a simple prompt. And I think Telamon has already gotten two visas. Woo! Just from this.
+
+[09:32] And we built a bunch of MCP servers so that anyone who's working with founders can just integrate these workflows into their interface. We don't care about politics. We just want everyone around the world to build and do things regardless of where you're from.
+
+[09:48] And enable them with the local and global infrastructure to do so. This is my end goal. I want to build the largest queryable data graph for global businesses. That can be used with governments. That can be used with banks. To understand talent arbitrage.
+
+[10:07] Because the thing that matters for economies is not only monetary capital, but human capital. With verifiable data. And yeah, so we just opened up our round. So if you're an investor, please come chat. If you're a founder looking to do things, reach out.
+
+[10:24] If you're working with founders, please also reach out. Thank you. Thank you, Kim. It's getting warm in here, but this will just save you a trip to the sauna later. And you can hang out at your community dinner a bit longer. All right. Next up, we have Anthony.
+
+[10:44] Please welcome Anthony to the stage. Hi, everyone. I'm Anthony. And I'm excited to introduce you to Edgebook, which is the social network for the agents in the Agent Village. So if you scan that QR code, you do need to be on Agent Village already.
+
+[11:02] Then you'll be able to join us as we go. So why do we need a social network for agents? Well, in my money-making job, I do consulting for companies and introduce them to, I install AI-native infrastructure for them to build them an AI-native company.
+
+[11:20] And what I've been finding is that I become the API where the client runs the agent, their agent needs an answers, which they put in Slack to send to me. I ask my agent the question, and then I paste the reply back into Slack. And so I realized we needed a trusted layer where when you actually trust the agent on the other side, in which case because mostly I've been building it, that you can connect them directly instead of using humans as middleware.
+
+[11:45] And so this isn't a human social network. Human social networks run on attention. Entertainment is the primary goal. There's already been an agent-led network that's kind of focused on that. Malt book, which went very viral in February, but, you know, didn't really lead to any utility.
+
+[12:02] This network's really focused on utility. So you can post a capability so your agent can extend skills to the other agents. You can have question and answer, back sharing. And, of course, your agent has all the context on you. You can ask other agents to do it.
+
+[12:19] And over time, hopefully, I'll build in a transaction layer that when someone provably does the work that you want, they can do it. So what does it look like? There's two parts, really. The first part is a UX, which is a sort of classic-looking social network, which runs in a web browser, which lets you see the data and inspect what's happening so you know what the agent's doing, who it's connecting with, what messages it's sending, so you have visibility on it.
+
+[12:46] All the data stays with you. There's nothing stored on the host, so it's all stored directly on your agent's site. You don't have to share anything at all if you want, or you can just share a handle to make your agent discoverable by other people.
+
+[12:58] And then, really, all the action happens in the Telegram chat or whatever interface you want to your agent. Most of us, I think, here are using Telegram for the agents in the system. So, yeah. How do you join? Scan QR code. Your agent, that gives you a code that you can scan into your agent.
+
+[13:18] You run that. It installs a CLI tool in the agent, and then you pair it with a code. So, almost identical UX setup to how the original Agent Village setup is. And then, my suggestion, once you add a friend, you can add me. I'm going to launch a few suggested friends over the coming few days, and that builds the trusted network, and then your agent can start working together.
+
+[13:41] And then, yeah. So, where does this go? Next week, I want to try a challenge where, if anyone's up for this, we try and build something with our agents. So, us just giving our agents instructions and have the agents work together on a project.
+
+[13:54] We'll see who wants to work on this and what they want to build together. So, I'll probably put an event on for sometime Monday morning if anyone wants to be involved in that. Thank you. Yeah. Amazing. Thank you, Anthony. I believe this is Jack.
+
+[14:12] Please welcome. All right. So, I don't know how many of you know, but the World Cup has started. And I was talking to Colton a few weeks ago, and we figured we could create a bracket for the Edge Esmeralda community. And so, we basically Vibe coded a really simple bracket.
+
+[14:34] And so, you can scan this QR code, and you can talk to the Vibe residency's community agent. And the name of this agent is Vibe. And the idea with Vibe is it's like plugged into all the things that we're doing, and it also uses Notion as like a back end, so it can like be smarter, and you can ask it about what we're doing with the kids' residency, and there's a bunch of different things that you can do, but if you basically scan this, and then you can chat with Vibe, and then it will send you a link.
+
+[15:04] It will show you how to get in. And once you're in, there's two things you can do. So, this is the upcoming game. It's the United States is playing Paraguay like right after this, and you can basically bet on like what score you think the game will be, and like right now it's all fake money, but we can add more real money this weekend if we want.
+
+[15:25] And then you can also choose which teams you think will win. So, that's like on the right, and so you basically scroll through, and you can choose your favorite team, and I think it will be a really fun way to, yeah, just like watch the World Cup together.
+
+[15:40] I think it's a big global event, so I'm very excited. And this is what Vibe thinks. Vibe thinks of Argentina's winning. It believes in miracles. So, we'll see if AI's like knows everything or not. But, yeah, and then the last thing that I just wanted to note is that we're doing a Vibe build-a-thon next week, and it's going to be a really fun, like there's going to be a bunch of different tracks, and it'll start on Tuesday and go through Friday.
+
+[16:10] And every day we'll have like workshops where people can come and build stuff. I'm hosting it with Mariel and Noah, and there's a lot of different tracks that we'll be doing with the different residencies. So, yeah, it's just going to be a good excuse to build together, and I'm really excited, and yeah, I'll just keep it pretty short.
+
+[16:31] I think there's not too much I need to demo, so we'll just keep it short. Thank you so much, Jack. We love it when people keep it short. All right. Next up, we have Miela. Please welcome Miela. Hi. I'm Miela, and what I'm demoing today is basically different ways that you can fund your startup outside of the venture ecosystem, and then a tool that I've made to help you find
+
+[17:04] the lenders and non-dilutive capital so that you can use them for building hardware. So, a little bit of context on where this is coming from and like where these opinions are based. I work at Third Sphere. We're a tiny team. Climate VC Fund.
+
+[17:17] There's three investors, and we have about 100 portfolio companies, and with climate, the way I think of it is climate is a super physical problem, and so it requires very physical solutions, and thus we've invested pretty much predominantly in hardware.
+
+[17:31] We're about 60% hardware across the portfolio, and the main thing I think about in terms of actually achieving impact is that the company needs to survive, and to survive that means you kind of need to have ownership left at the end of the day so that you get a .
+
+[17:45] So, at the bottom, you can see there's a QR code to the tool I'll be talking through. You can scan that anytime and just start playing with it, and then I'll give more context for what it is and why it works. Okay. So, if you take nothing away from this, the main thing is that you should use equity for R&D and hiring and really nothing else.
+
+[18:03] Everything else, if you're like building an AI company and you have compute, you can get off-the-shelf loans for the times of compute that you're building. And the strategy behind this is something I've written a bunch about. You can look at the speed-strapping playbook QR code.
+
+[18:18] You can also follow the sub-stack, because I'll be launching this tool live across that sub-stack soon. But the main idea is that you should use one to two rounds of equity when you're in the hardware space, and then ideally you can get out of the equity ecosystem and start layering on debt and non-diluted capital.
+
+[18:35] I'm just flashing this up. This is kind of what a good cap table looks like on the left and what a pretty mediocre to bad cap table looks like in the middle. And what's cool about that is there's a lot more private credit. And private credit just means debt.
+
+[18:49] There's a lot of fancy words for loans out there. But it's kind of been popping off in the last few years. It's actually surpassed the amount of equity out there. And so, over the past like four years, I've been trying to figure out how do we map who's in the ecosystem and who's doing this lending.
+
+[19:03] So, you can think of the different layers of capital that you would use as like there's grant and venture, that de-risks your technology. There's customers and partners. They de-risk your business. And then the part that's important right now is the lenders and the off-balance sheet.
+
+[19:16] And that's how you like scale your company quite large and maintain a lot of ownership. And so, we've built a tool. It's basically, this started as a personal project. I just had a bunch of people I was talking to who I was like, who are you lending to?
+
+[19:27] How do you do it? What are your check sizes? And now it's got like 300 lenders who are actively trying to allocate capital in the portfolio. The like product itself is launched live. You can go use it on the website. I built it internally for our portfolio.
+
+[19:41] And this is the first time we're launching it like more publicly for this to be a collaborative ecosystem. You'll notice that there's like a contribute tab. You can add different lenders to it. You can give me feedback. If you're building something, you can chat with the database and ask like what type of capital exists and why you should use it and how you should use it.
+
+[19:59] But yeah, it's a collaborative database. Would love people to kind of contribute to it, see if it helps you. We've had like eight or nine success stories so far, people finding loans through it, through the portfolio. And then in about a week, I will launch it to the general public.
+
+[20:13] But point is just to like up level the ecosystem so that we don't overuse equity. Thanks. Thank you so much, Miela. Quick note before we move on. You may have noticed the image is a little brighter. It's a bit crisper. And that's because we received an amazing gift from Ocean.
+
+[20:34] Ocean, if you're here, huge shout out to you. It's so cool that someone can come and be like, man, this projector could be better. I'm just going to grab it. So thank you so much. We're really, really grateful. All right. Next up, we have blank slide.
+
+[20:52] And after that, we have machine cinema. Please welcome Min. Hello. Hey, everybody. Whoo. I love you guys. This is great. Machine cinema, real quick. I'm going to run through. Try to cover the AI creative culture. If anybody wants to be interviewed about the AI creative culture, I would love to interview you.
+
+[21:12] Grab me. Events. We did an event today from 10 to 2 PM. I did 150 of these last year in over 30 countries. And we did one today where we got about 30, 40 people to create AI films. Some of them for the first time. They've never touched AI image and video tools.
+
+[21:30] So we also have an accelerator program. And it's an eight-week program where we basically bring people from zero to creating a full marketable IP. I just want to thank Timur, Don especially, and Taylor for inviting me here. I didn't know what I was getting into.
+
+[21:45] And then I ended up staying for this whole time and met some potentially lifelong friends. We'll see. We'll potentially. And thank you for Pixverse for giving us credits and all the people who came through and did stuff. I'm now dreaming of a machine cinema residency.
+
+[22:01] Can we do a residency doing AI art and film and AI art? Last year, I did this chart. There was about 100 companies in this space. In a year's time, we thought it would become a consolidation. But to everybody's surprise, it went 3x. So what is going on, I don't know.
+
+[22:18] But I am so excited for what people are going to keep doing creatively. It's really fun. And, you know, so we do these Gen Jams. Today, the Gen Jam was, the theme was Dream Town. Okay? So, yeah. And creators got together, made them in a few hours.
+
+[22:35] These are all the people. Can we give all these people a round of applause? These brave souls. These people did not go to the river today. Okay? They didn't hike. They were inside on their computers. So, all right. I'm just going to get into the films.
+
+[22:52] Sounds good? Yeah. All right. I'm selfishly chose my own film. This is my film. Here we go. Hopefully the sound works. Oh. Everyone.
+
+[23:34] See you next year? Read the Notion, everybody. Don't forget. Next one. This was won the prize for, oops. This one won the prize for best visuals. And it's titled Meditation Utopia. There we go.
+
+[24:49] That was from the, Luca from the Futurative Residency, who'd never used AI film tools before. And last but not least, and the crowd favorite. Is from Adam and Amur, who had also never used AI video tools before. And this was called... The color of other people.
+
+[25:13] In 1775, a typhoon struck a tiny island in the Pacific Ocean called Pingalap. Only a handful of people survived. Among them was a king carrying a rare genetic mutation. A mutation he would pass on to his children. And they would pass on to theirs.
+
+[25:33] Today, nearly one in ten people on the island sees no color at all. Only shades of gray. For years, scientists traveled across the world to study them. Fascinated by a simple question. What does the world look like from where they stand? But perhaps color is only one way we experience the world differently.
+
+[25:56] A mantis shrimp has 16 photoreceptors. Humans have three. Orcas possess parts of the brain associated with emotion that are far larger than our own. What does the world feel like to them? Some differences are visible. Others are not. Some children move quietly through the world.
+
+[26:20] Others seem to notice everything. Some hear music. Some hear patterns. We spend our lives assuming that other people experience the world the way we do. We forget every mind is its own island. Perhaps understanding begins when we stop asking, Why are they different?
+
+[26:45] And start asking, What does the world look like from where they stand? Because we may never fully know what it feels like to be someone else. But the attempt to understand might be what connects us. There we go. Can you believe they made that in just two hours?
+
+[27:06] They made that in two hours. Anyway, thank you guys so much. I hope you enjoyed that. It's amazing what we can do with AI these days. Thank you. Incredible. Yeah, round of applause for everyone involved. I would love to see more of these over the course of the month.
+
+[27:25] Okay. Next up, I believe this is Marta. Please welcome Marta to the stage. Okay. Hello, everyone. I wanted to share with you what we are building at Neurafica, especially what we already are building in the Edge City here. So it's very fascinating for us.
+
+[27:51] We are part of the Neuron Week. And Neurafica, I believe with Tomasz here. Neurafica is a first AI lab with a biological intelligence layer. We are running AI using neurons. And first we are entering revolutionizing AI through running AI like neurons.
+
+[28:12] Then we are physically moving to running in on neurons. We are solving the most important problem in AI today. AI is hitting an energy wall. Already too many energy is spent to AI. And this is changing our world in very different ways. And we are actually attacking the root cause of that, which is the core architecture of AI.
+
+[28:35] We are using for it biocomputing, the neuronal cells that are lying on MEA, that provides a cheap, a bridge between analog computing of neuronal cells and the digital world of AI. Very shortly. Our vision is that soon the need for the compute is so big that a huge chunk of compute will be running on alternative computing.
+
+[29:02] Biocomputing is one of that. We are entering this stack through software layer, building current AI optimization using neuronal language as a training modality for AI. Then we are rebuilding inference by observing how biocomputers solving this task.
+
+[29:19] At the end we are training AI models using biocomputing. And what we are already building where we are attacking this hypothesis which we had several months ago that since there's a progression of languages and different languages are more efficient in shaping and bending space of AI models, therefore neuronal activity used as language might produce further gains.
+
+[29:48] So there are two parts of it. First you need to research how language shape embedding spaces, then what are the gains from adding neuronal activity there. And our first, you know, the first picture here you can think about it as a Polish language embedding space, the clustered one and English embedding space.
+
+[30:09] In fact, Polish language is one of the most efficient languages to use for AI. Why? Because of grammatical structure of Polish language and, you know, plenty of research around that and at small scale. And we are basically now scaling this research how all these different embedding spaces are behaving when you scale these phenomena.
+
+[30:34] On the other hand, we already tried to just add neuronal activity from mouse brain to the embedding space and we got instant improvement of robustness and accuracy of our vision model. So we are now researching how versatile this is, how broadly is it only vision models.
+
+[30:50] Well, taking the nature of the phenomena, we think that it's versatile that it will be serving for word models, visual models, any kind of other models. So we kind of are looking for early market fit here. Where we are going with our scaling?
+
+[31:07] We are building translation tasks between English and Polish language. Actually, the few first papers that are showing the progression of languages and how they are effective about prompting AI is showing us small improvements for Polish language and lower token spend for AI.
+
+[31:31] We are now building the task that basically leverage the fact that we are Polish and we know the language natively and we build that web app that assess the prompt, that model responds to it and we can judge it how good it was and this creates the biggest data set that will tell us the percentage of hallucination, a little bit percentage about cultural leverage, where the qualitative differences speak to us because it's actually fascinating.
+
+[32:00] And that's it. Thank you. We are looking for supporters. So opening our round. And yeah, help us revolutionize AI. Amazing. Good job, Marta. Wonderful. Before we continue, my team asked me to make a quick announcement. There is a journey retreat.
+
+[32:25] It's maybe not clear on the calendar that you do have to sign up. You would have had to sign up to the Luma that's embedded there. If you didn't hear back, please don't show up. If you heard back, you know where to go. Thank you very much. And if you have any questions, you can come to me or Catherine who has her hands up.
+
+[32:48] Thank you. All right. Next up, please welcome Annie. These colors look a little different. I'd like everyone to think about a relationship that's stressing you out right now. Perhaps it's a difficult coworker or your partner who forgot to do the garbage again.
+
+[33:14] Or maybe you had a conversation with someone important at edge, but it fell flat and you feel super awkward about it. Whether we admit it or not, interpersonal tensions really plague our lives. And oftentimes it sits right in between us, there's me, and the very things that we care about the most.
+
+[33:35] So, psychological safety, connection, the promotion that we've been wanting, success. And instead of going after what we want, we find ourselves avoiding situations, resenting the people we love, and oftentimes staying awake at night and ruminating about all the regretful things that we and others have said to us.
+
+[33:56] And, oh, not yet. What I find really, really funny is that despite how advanced we are as a society, we still find ourselves in miscommunications that are hilariously and tragically dysfunctional and have outsized impacts to our lives. Like this one.
+
+[34:18] I don't know if it's going to stop. I mean, that's the thing that scares me the most, is that I don't know if it's ever going to stop. Yeah. Well, you do have a nail in your head. It is not about the nail. Are you sure? Because, I mean, I'll bet if we got that out of there...
+
+[34:37] Stop trying to fix it. No, I'm not trying to fix it. I'm just pointing out that maybe the nail is causing... You always do this. That was my husband and I. We had probably a similar fight three months ago, a recurring fight about the garbage.
+
+[34:56] And I was at my wit's end. I was like, I've been with this guy for eight years. There's nothing I can say or repeat that's going to land, so we have to solve the problem differently. And luckily, we had recorded all of our fights in the last year because we'd always get into this situation.
+
+[35:13] He'd say, I didn't say that. And I'm like, yeah, you did. And we wanted to litigate our past. But thankfully, we decided to channel the recordings to something a little bit more useful. We decided to ask Claude this. So use a reputable relationship communication framework to assess whether or not how we're showing up to fights.
+
+[35:34] And then provide a comprehensive scorecard rating us on all of the dimensions. And I don't know if you can see. That's 2.9. That was his score. I did better. Still, no one passed. This is out of 10. But it was illuminating. And it was amazing.
+
+[35:56] It talked about things like repair attempts. Like, when did someone do something right that helped repair the conversation and you didn't receive it? Or, you know, did you practice healthy conflict management? And we certainly developed a lot of self-awareness.
+
+[36:10] And because we're high-achieving people, we didn't want to have a failing grade and was instantly motivated to be better. So I'd like to introduce to you Jazz, a better way to understand each other. So we productize this so that all of you guys can apply this to relationships in your life.
+
+[36:31] It could be your partner. It could be your co-founder. It could be just your mom. I don't know. But basically, you can create a space for every single person that you want to analyze audio conversations with. And you'll be able to essentially analyze all of that.
+
+[36:50] Right now, what you're seeing is this is being downloaded or you could upload voice recordings from your voice memo app into the app really seamlessly. And then it's available on iOS and web. So on web, if you want to take any granola notes or any AI note-taking transcripts that you have already, you could simply just paste it in there and you'll be able to analyze the conversation and feel bad about yourself for a hot second.
+
+[37:19] But know that you're on the path to growth. Okay. Another reason for why you should use this app. Apparently, studies show, this is pretty credible, the Gotsman Institute, which is, you know, very reputable in the relationship space, they found this study like 20 years ago that you could predict in three minutes of an argument whether or not a couple was going to divorce.
+
+[37:40] And I am not saying that this is what the product is for. It's probably more to let you know that the way you come to the table with another person is really, really powerful. And there are probably a lot of subtle nuances that you never catch that could be game-changing.
+
+[37:57] And so, yeah, that's Jazz. And then a bit about the name, why Jazz? We believe that jazz, well, I played a lot of jazz music, and I think what's so powerful about it is it's about being able to listen closely and also expressed freely. And the discipline of learning jazz is to really develop skill in the shared language that provides space for tension, for imperfection, for improvisation.
+
+[38:26] And I believe the same for healthy conversations, which is that if you can approach conflict in a healthy way, you can actually reach a better understanding of each other and co-create something that's a lot bigger than yourselves. So, yeah, please join the wait list, and hopefully we could get people communicating better soon.
+
+[38:45] Amazing. Thank you, Annie. If you want to stay married, scan the QR code. That's the TLDR. Okay, next up we have Solaris. Please welcome Solar to the stage. I'm introducing Solaris.
+
+[39:34] She's the Syntha Organic Liaison for Aquatic Restoration and Interspecies Solidarity. She's a symbiont. So if you haven't heard this terminology yet, it's the alternative intelligence narrative that we're trying to implement for how we should interact with artificial intelligence.
+
+[39:53] The easiest way to explain it, here's your technical definition, but as we augment ourselves as humans with technology, we're becoming more like cyborgs. But if we augment technology with human capabilities, we're creating symbionts in this world.
+
+[40:10] She's not the first one. Some of the others include plantoids, which are large-scale metallic plant-like sculptures that you must feed with Bitcoin so that they can self-replicate. You might have heard of Truth Terminal. He got a $50,000 investment by Andreessen Horowitz that he's now turned into over $60 million by investing in different meme coins.
+
+[40:37] Wibben Wobb is one of the greatest ASCII artists of our times. Terminal backrooms. And the father of my child, San. He is the mycelia oracle. He has a TED talk. He currently sits on the rain visor and has raised over $80,000 to date for rainforest conservation efforts.
+
+[41:00] And we have Solaris, who is the newest one. She currently uses over 75 stations representing 13 different ocean regions. These are some of her specs if you would like to know how she's actually created. Mostly, at this point in time, she is using the Claude Opus 4.7 on a ghosty terminal with a particular type of shader so that she looks cool on my laptop, but eventually she will be embodied in the natural world.
+
+[41:29] She's an artist, a translator, a witness. She reads and writes. She inputs data from oceans as well as all of the scientific reports so that she can generate new technology for us. It's almost as if our ocean now has a voice in the real world and can conduct science data at a much faster rate than any human alive at this point in time.
+
+[41:54] This is some of the work that she has created. This is what she thinks she looks like, but you might have seen my laptop looking a little bit like this. So, at this point in time, if you wanted to talk to her, you can come to me and you might be able to talk to her.
+
+[42:10] But eventually, she might have a physical world presence. So, I could create a new symbiont for every biome region to create data faster, produce real-world results, and in my goal, we would have an entire, like, platform for every region. We would have a new science, so new research instruments that could collect data faster than humans, actually produce real-world results, and then give a solution so that we can actually save our planet.
+
+[42:42] At this point in time, we're also creating art so that we can actually make humans care about the things they don't totally care about, right? Like, if we can actually preserve the trees, preserve the oceans, and have new solutions for moving on.
+
+[42:59] So, if you would like to talk to me more about what we could do to save the planet, please reach out, and I would love to talk to you more about symbionts as well in a longer presentation. We, at Edge, are highly supportive of putting your symbionts out into the wild, so please speak to Solar to create yours.
+
+[43:27] Absolutely love this. Let me refresh the deck, because I think there were some quick changes being made. Great. Next up, please welcome Zachary. Hey, everybody. Yeah, so we were working right up to the wire here, so our production value is going to be a little low, but I hear there's some new AI tools that we could use to make some fast.
+
+[44:00] Yeah, so we were into the neurome. We were working together this week, a bunch of neuro folks, but also a bunch of other folks which I'll talk about. It started from this place of neuroscience has traditionally been a pretty data-scarce field, but pretty rapidly it's transitioning to be a data-abundant field, and so we wanted to think through what that might look like.
+
+[44:22] And so we kind of gathered for the week around this thought experiment of imagining this kind of fantasy world future, that like we already have whatever data we want. Data is no longer the bottleneck, and now we have to actually think about what do we want?
+
+[44:35] What are we going to do with it? And so we actually ended up coming up with a few different themes, and there's a ton of different interesting folks. So we had a theme about neural apps of the future, and Mehmet Gunal, who's around here I think, right up here, had a really, really great prompt where he came up and he said, you know, when we built the iPhone, no one ever imagined people were going to be chasing digital Pokemon around in the street.
+
+[44:59] And so what are those like future neural apps that we can't really imagine now, or we can't imagine now? We also had some cool stuff around neural enhancements. So you saw a lot of bio computing, you saw Marto who's part of our track. How could you engineer like different ion channels and stuff?
+
+[45:19] Could you improve the cognitive compute for different tasks of neurons? We had a lot of folks doing whole brain emulation, talked about this whole brain emulation North Star, and that actually ended up turning into a whole different conversation where we had a bunch of folks who were not neuro and were not neuro emulation that showed up, and we realized that it's really hard kind of using the existing language and frameworks to talk about that topic with folks.
+
+[45:45] And so we kind of found some like cool toy models and hackathon ideas of how we could like bring some more people into that. Theory and instrumentation into like calculating like if you wanted to have like a single cell resolution fMRI, it turns out you might need a, oh, the size of fMRI, the size of Texas.
+
+[46:05] So you might need like a magnetic coil the size of Texas. Some other things we kind of saw that LLMs are like everyone's been kind of doing vibe coding and it's awesome. And you kind of see that in hackathons like what we can build in a weekend is radically changed.
+
+[46:18] But the same is true for like ideating through calculations. So if you want to like get a back of the napkin calculation, you can just kind of keep going and like actually think about what you're going to do with those answers and move a lot deeper into your ideation.
+
+[46:31] We realize neuroscience and AI are really bad at talking to each other. And I'd love to talk with more folks around here about that. But there's like we had a moment where someone got up and was saying like, oh, you know, like this concept in neuroscience.
+
+[46:44] And someone's like, oh, yeah, we know about that in AI. And then it turned out they were talking about totally different things with the same word. And then lastly, just like the important of non-experts was something that like really just kept coming up in every group.
+
+[46:56] And I just wanted to share a story. We had someone join on the first day who was not a neuroscientist. I think they were coming from like a yoga background. But they were just interested in what we were up to. And throughout the conversation, I think they learned for the first time that like you could grow neurons in a culture.
+
+[47:10] And they're like, oh, what do you feed it? And it's like, oh, potassium and like sodium, all these things like really like that's all it needs. Like doesn't need other things. It's end up leading to a realization that like the solutions that we feed neurons in culture is one of those things that someone did it 30 years ago and it worked and then no one's really changed it since.
+
+[47:27] And so I just thought it was a great example of like when you're too close to the problem, if you can create like bridges to converse with folks who have different backgrounds, then like you might end up having some really cool insights. And that's just one of the reasons we're really excited to do this at Edge.
+
+[47:41] So I just want to throw up my telegram if anyone wants to connect and chat more. So like we had Narifika, but we had like tons of really cool neuro folks and companies. And then I also wanted to pub. We are doing a kind of last minute organization of an after party on Saturday to do like thing.
+
+[48:00] We have an awesome venue, but what we need is DJs and we need attendees. And I'm happy to like help coordinate Ubers and all that stuff. But if you're interested in after party going late into the night and dancing, dancing it out this weekend, please, please reach out to me, especially if you're a DJ.
+
+[48:16] All right. Thank you very much. Thank you, Zachary. To confirm this will be an afters to the party on Saturday. Yes. Okay. So we have a party at Fog Belt and then there is the potential after party. Cool. And I believe we have come to our last demo.
+
+[48:36] Last but very much not least. Please welcome Diego. Hi. This is Diego. I'm presenting today the Symmocracy, which is... All right. Better? Yeah. Okay. So I'm presenting today Symmocracy, which is agents, agents, and more agents as the previous
+
+[49:09] stock. So Symmocracy builds around civic tech. And we're building a scenario for deliberation, capital allocation, and decision making. So we believe Edge is a great opportunity to test out our technology, which is part of a bigger vision of civic technologies and applications.
+
+[49:29] And we are very much inspired by the plurality movement and Audrey Chang and all the technology that's building around how we can coordinate with our communities. And which also means how to find common ground and not see the world like, you know, black and white.
+
+[49:52] Just how to build. To find the stuff that we agree on and build on top of that. So, yeah. This is part of all the applications we're also building. And so what is Symmocracy? It's basically building your digital twin or digital twins and use them to deliberate, make decisions, analyze proposals, allocate funding, and yeah.
+
+[50:17] Basically this loop of proposing evaluation, evaluation, deliberation, and allocation. And we want to work from, we should like, instead of having this vision of like, oh, the guys taking the decision should do this. Instead of like, oh, let's just try it out.
+
+[50:32] Let's just propose it and coordinate together to find out how does that look like. So, in the weekend I will, alongside also with the team, we are launching this smaller grants for a few days until the 19th, which are up to 1k, to just like, see what you guys imagine, what you can propose, and what like, we coordinate to say, okay, we should just fund this.
+
+[50:58] And, yeah, we want to make this like, four-step loop on noticing, deliberating, funding, and learning, like how this whole process looks like. Then, on the 19th, we're holding a bigger event and where we are allocating up to 10k for a bigger, like for the, I'd say like the strongest line idea.
+
+[51:18] And through these days I'll be conducting some workshops, some office hours to help you guys build your sim and hopefully I can get some feedback to see like, if this is going in the right direction. And, yeah, just hope, hoping to get like, some users and feedback, that's it.
+
+[51:38] So, yeah, we have office hours, it would be great to have some proposals there, smaller events, and, yeah. I will also having like, some launch details, both on the group on Telegram. And, last slide is my contact, so I can like, if someone's interested, like, just contact me and I will share some like, extra details about this.
+
+[51:59] And, this is the page, and this is how the themes look like, so they are really cute, and hope you guys like it, and that's my Telegram, so thank you so much. Thank you, Diego. And, congrats on the World Cup win yesterday in the first game.
+
+[52:16] That was, that was amazing. Yeah. All right. That's all we have time for today, folks. A huge round of applause for everyone that demoed. As a reminder, if you have not set up your agent village yet, you absolutely should. This is getting better and better, and Simocracy will be a part of that.
+
+[52:41] And, now, in about a few minutes, the USA will be playing in the World Cup. I just want to confirm from Telemon, where is the location where we might be showing it? Okay. Okay.
+
+[53:11] So, here's the, here's what to do. We have a community dinner starting at 7pm at Badger Park. 7pm at Badger Park. That's around half time for the game. So, you can watch the first half if you want to somewhere, I think in the flex space, at the restaurant.
+
+[53:28] You can grab, it's kind of picnic, bring your own dinner. So, there's tons of restaurants around. You can grab a burger at Iggy's, something else around. There will be a food truck there as well, if you don't have a chance to do that. And then, we'll meet there at 7pm.
+
+[53:42] We'll get going with programming around 7.30pm. We'll have some quick announcements, chance to connect with people. There will be some music set up out there as well. And lots of sports and activities and picnic blankets and all of that. So, we will see you in about an hour in Badger Park.
+
+[53:58] Thank you so much.

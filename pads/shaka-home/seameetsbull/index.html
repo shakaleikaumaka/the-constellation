@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="The Sea Meets the Bull — a letter and a vision for Serge, founder of Taurus, from Shaka Lei Kaumaka. With love, from a Pisces dreamer — the perfect sea partner to balance Taurus on land.">
+<meta name="theme-color" content="#06222e">
+<title>The Sea Meets the Bull — For Serge, from Shaka 🌊🐂</title>
+<style>
+  /* ============================================================
+     THE SEA MEETS THE BULL — for Serge, from Shaka
+     Theme: deep Piscean ocean meeting warm Taurean earth.
+     Self-contained: system fonts, inline SVG, no trackers.
+     ============================================================ */
+  :root {
+    --deep: #06222e;
+    --deep-2: #0a2f3f;
+    --deep-3: #10394b;
+    --foam: #bfe8e2;
+    --teal: #39c2b0;
+    --teal-dim: #2a8a80;
+    --sand: #f2e3c8;
+    --gold: #e0a94e;
+    --gold-soft: #f0cd8d;
+    --clay: #b9713f;
+    --rose: #e88ca0;
+    --mist: #9db8c4;
+    --mist-2: #6d8a97;
+    --line: rgba(224, 169, 78, 0.25);
+    --maxw: 46rem;
+    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --mono: ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, monospace;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation: none !important; transition: none !important; }
+  }
+  body {
+    margin: 0;
+    background: var(--deep);
+    color: var(--sand);
+    font-family: var(--sans);
+    font-size: 1.0625rem;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+  }
+  ::selection { background: rgba(57, 194, 176, 0.35); }
+
+  .wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 1.25rem; }
+  .wide { max-width: 62rem; margin: 0 auto; padding: 0 1.25rem; }
+
+  /* Hero */
+  header.hero {
+    position: relative; text-align: center;
+    padding: 4rem 0 0; overflow: hidden;
+    background:
+      radial-gradient(ellipse 75% 45% at 50% 108%, rgba(57,194,176,0.16), transparent 62%),
+      radial-gradient(ellipse 60% 40% at 78% -8%, rgba(224,169,78,0.12), transparent 60%),
+      var(--deep);
+  }
+  .kicker {
+    font-size: 0.8rem; letter-spacing: 0.42em; text-transform: uppercase;
+    color: var(--teal); margin: 0 0 1.25rem;
+  }
+  h1.title {
+    font-family: var(--serif); font-weight: 400;
+    font-size: clamp(2.4rem, 7.5vw, 4.6rem); line-height: 1.08; margin: 0 0 1rem;
+    background: linear-gradient(115deg, var(--foam) 20%, var(--gold-soft) 55%, var(--foam) 85%);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .subtitle {
+    font-family: var(--serif); font-style: italic;
+    font-size: clamp(1.05rem, 2.8vw, 1.4rem);
+    color: var(--mist); margin: 0 auto 2rem; max-width: 36rem;
+  }
+  .subtitle strong { color: var(--gold-soft); font-weight: 600; }
+  .hero-art { display: block; width: 100%; max-width: 60rem; margin: 0 auto; }
+
+  /* Sections */
+  section { padding: 4rem 0; }
+  h2 {
+    font-family: var(--serif); font-weight: 400;
+    font-size: clamp(1.6rem, 4.2vw, 2.2rem); line-height: 1.2; margin: 0 0 0.5rem;
+  }
+  .sec-kicker {
+    display: block; font-family: var(--mono); font-size: 0.78rem;
+    letter-spacing: 0.35em; color: var(--teal); text-transform: uppercase;
+    margin-bottom: 0.75rem;
+  }
+  h3 { font-family: var(--serif); font-weight: 400; font-size: 1.3rem; margin: 2.25rem 0 0.6rem; color: var(--gold-soft); }
+  p { margin: 1.1rem 0; }
+  a { color: var(--gold-soft); }
+  a:hover { color: var(--gold); }
+  strong { color: var(--gold-soft); font-weight: 600; }
+  em { color: var(--mist); }
+  .lede { font-family: var(--serif); font-size: 1.22rem; line-height: 1.7; margin: 1.4rem 0; }
+  .lede::first-letter {
+    font-size: 3.2em; float: left; line-height: 0.85;
+    padding: 0.08em 0.12em 0 0; color: var(--teal); font-family: var(--serif);
+  }
+
+  blockquote {
+    margin: 2.25rem 0; padding: 1.5rem 1.75rem;
+    border-left: 3px solid var(--teal);
+    background: rgba(57, 194, 176, 0.06);
+    font-family: var(--serif); font-style: italic; font-size: 1.18rem;
+  }
+  blockquote footer { font-family: var(--sans); font-style: normal; font-size: 0.85rem; color: var(--mist-2); margin-top: 0.75rem; }
+
+  /* Wave divider */
+  .wave { display: block; width: 100%; height: 3.25rem; opacity: 0.55; }
+
+  /* Gift cards */
+  .gifts { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 1rem; margin: 2rem 0; }
+  .gift {
+    border: 1px solid rgba(157,184,196,0.2); border-radius: 12px;
+    padding: 1.5rem 1.35rem; background: var(--deep-2);
+    transition: border-color 0.25s ease, transform 0.25s ease;
+  }
+  .gift:hover { border-color: var(--teal); transform: translateY(-3px); }
+  .gift .glyph { font-size: 1.6rem; }
+  .gift h3 { margin: 0.6rem 0 0.2rem; font-size: 1.15rem; color: var(--gold-soft); }
+  .gift .tag { font-size: 0.75rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--teal); margin: 0 0 0.6rem; }
+  .gift p { font-size: 0.94rem; color: var(--mist); margin: 0; }
+
+  /* Proof cards — earthy */
+  .proofs { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 1rem; margin: 2rem 0; }
+  .proof {
+    border: 1px solid var(--line); border-radius: 12px;
+    padding: 1.5rem 1.35rem;
+    background: linear-gradient(165deg, rgba(224,169,78,0.09), rgba(185,113,63,0.05)), var(--deep-2);
+    transition: border-color 0.25s ease, transform 0.25s ease;
+  }
+  .proof:hover { border-color: var(--gold); transform: translateY(-3px); }
+  .proof .glyph { font-size: 1.6rem; }
+  .proof h3 { margin: 0.6rem 0 0.2rem; font-size: 1.15rem; }
+  .proof .tag { font-size: 0.75rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--clay); margin: 0 0 0.6rem; }
+  .proof p { font-size: 0.94rem; color: var(--mist); margin: 0 0 0.6rem; }
+  .proof a.btn {
+    display: inline-block; margin-top: 0.4rem; padding: 0.45rem 1rem;
+    border: 1px solid var(--gold); border-radius: 999px;
+    font-size: 0.82rem; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--gold-soft); text-decoration: none;
+  }
+  .proof a.btn:hover { background: rgba(224,169,78,0.12); color: var(--gold); }
+
+  /* Domain constellation — the front doors, live tonight */
+  .domains {
+    margin: 2.5rem 0 0; padding: 1.75rem 1.6rem;
+    border: 1px solid var(--teal); border-radius: 12px;
+    background: linear-gradient(160deg, rgba(57,194,176,0.08), rgba(224,169,78,0.05)), var(--deep-2);
+  }
+  .domains h3 { margin-top: 0; }
+  .domains p { color: var(--mist); font-size: 0.98rem; }
+  .domains p strong { color: var(--gold-soft); }
+  .domains ul { list-style: none; margin: 1.4rem 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(14.5rem, 1fr)); gap: 0.75rem; }
+  .domains li { border: 1px solid rgba(57,194,176,0.28); border-radius: 10px; padding: 0.85rem 1rem; transition: border-color 0.25s ease; }
+  .domains li:hover { border-color: var(--teal); }
+  .domains li a { font-family: var(--mono); font-size: 0.92rem; color: var(--foam); text-decoration: none; }
+  .domains li a:hover { color: var(--teal); text-decoration: underline; }
+  .domains li span { display: block; font-size: 0.82rem; color: var(--mist); margin-top: 0.3rem; }
+
+  /* CCO function list */
+  ol.fns { list-style: none; counter-reset: fn; margin: 2rem 0; padding: 0; }
+  ol.fns > li {
+    counter-increment: fn; position: relative;
+    padding: 0.35rem 0 1.2rem 3.2rem;
+    border-left: 1px solid rgba(57,194,176,0.3); margin-left: 1rem;
+  }
+  ol.fns > li::before {
+    content: counter(fn);
+    position: absolute; left: -1rem; top: 0.3rem;
+    width: 2rem; height: 2rem; border-radius: 50%;
+    background: var(--deep-3); border: 1px solid var(--teal);
+    color: var(--teal); font-family: var(--mono); font-size: 0.85rem;
+    display: flex; align-items: center; justify-content: center;
+  }
+  ol.fns > li:last-child { border-left-color: transparent; }
+  ol.fns h4 { margin: 0 0 0.3rem; font-family: var(--serif); font-weight: 400; font-size: 1.1rem; color: var(--gold-soft); }
+  ol.fns p { margin: 0; font-size: 0.95rem; color: var(--mist); }
+
+  /* The road — timeline of the widening circle (gold twin of the fns list) */
+  ol.road { list-style: none; counter-reset: stop; margin: 2rem 0; padding: 0; }
+  ol.road > li {
+    counter-increment: stop; position: relative;
+    padding: 0.35rem 0 1.2rem 3.2rem;
+    border-left: 1px solid rgba(224,169,78,0.35); margin-left: 1rem;
+  }
+  ol.road > li::before {
+    content: counter(stop);
+    position: absolute; left: -1rem; top: 0.3rem;
+    width: 2rem; height: 2rem; border-radius: 50%;
+    background: var(--deep-3); border: 1px solid var(--gold);
+    color: var(--gold); font-family: var(--mono); font-size: 0.85rem;
+    display: flex; align-items: center; justify-content: center;
+  }
+  ol.road > li:last-child { border-left-color: transparent; }
+  ol.road h4 { margin: 0 0 0.3rem; font-family: var(--serif); font-weight: 400; font-size: 1.1rem; color: var(--gold-soft); }
+  ol.road .when { font-family: var(--mono); font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--teal); margin: 0 0 0.35rem; }
+  ol.road p { margin: 0; font-size: 0.95rem; color: var(--mist); }
+
+  /* Win map table */
+  .table-scroll { overflow-x: auto; margin: 2rem 0; border: 1px solid rgba(157,184,196,0.2); border-radius: 10px; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.93rem; }
+  caption { text-align: left; padding: 0.9rem 1.1rem; font-family: var(--serif); font-style: italic; color: var(--mist); background: var(--deep-2); border-bottom: 1px solid rgba(157,184,196,0.2); }
+  th, td { padding: 0.85rem 1.1rem; text-align: left; vertical-align: top; border-bottom: 1px solid rgba(157,184,196,0.12); }
+  th { font-size: 0.72rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--teal); background: var(--deep-2); }
+  tr:last-child td { border-bottom: none; }
+  td:first-child { white-space: nowrap; font-weight: 600; color: var(--gold-soft); }
+
+  /* Vow callout */
+  .vow {
+    margin: 2.5rem 0; padding: 2rem 1.75rem;
+    border: 1px solid var(--teal); border-radius: 12px;
+    background: linear-gradient(160deg, rgba(57,194,176,0.09), rgba(224,169,78,0.06));
+    text-align: center;
+  }
+  .vow p { font-family: var(--serif); font-size: 1.28rem; font-style: italic; margin: 0; }
+
+  /* Closing */
+  section.closing {
+    text-align: center;
+    background:
+      radial-gradient(ellipse 70% 85% at 50% 112%, rgba(224,169,78,0.14), transparent 65%),
+      linear-gradient(180deg, var(--deep) 0%, #1a2a26 100%);
+    padding: 5.5rem 0 5rem;
+  }
+  .closing .invitation { font-family: var(--serif); font-size: clamp(1.35rem, 3.6vw, 1.9rem); line-height: 1.5; max-width: 40rem; margin: 1.5rem auto; }
+  .signature { font-family: var(--serif); margin-top: 3rem; }
+  .signature .name { font-size: 1.5rem; color: var(--gold-soft); }
+  .signature .who { font-style: italic; color: var(--mist); margin-top: 0.4rem; }
+  .glyphs { font-size: 1.6rem; letter-spacing: 0.5em; margin-top: 1.25rem; }
+
+  footer.site { border-top: 1px solid rgba(157,184,196,0.18); padding: 2.25rem 0 3rem; font-size: 0.85rem; color: var(--mist-2); }
+  footer.site .heart { color: var(--rose); }
+
+  @media (max-width: 40rem) {
+    body { font-size: 1rem; }
+    section { padding: 3rem 0; }
+    td:first-child { white-space: normal; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ==================== HERO ==================== -->
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">For Serge &middot; From Shaka &middot; With Love</p>
+    <h1 class="title">The Sea Meets the Bull</h1>
+    <p class="subtitle">A letter and a vision for the founder of Taurus — from <strong>a Pisces dreamer</strong>, the perfect sea partner to balance Taurus on land.</p>
+  </div>
+
+  <!-- The scene: Taurean earth under a Taurus moon, Piscean sea below, two fish circling -->
+  <svg class="hero-art" viewBox="0 0 960 560" role="img" aria-label="A bull standing on a dark hillside beneath a glowing Taurus glyph moon, facing a luminous sea where two fish circle each other">
+    <defs>
+      <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#041820"/>
+        <stop offset="0.7" stop-color="#0a2f3f"/>
+        <stop offset="1" stop-color="#10394b"/>
+      </linearGradient>
+      <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#10505c"/>
+        <stop offset="1" stop-color="#06222e"/>
+      </linearGradient>
+      <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+        <feGaussianBlur stdDeviation="6" result="b"/>
+        <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+    </defs>
+
+    <rect width="960" height="560" fill="url(#sky)"/>
+
+    <!-- stars -->
+    <g fill="#bfe8e2" opacity="0.7">
+      <circle cx="80" cy="70" r="1.4"/><circle cx="160" cy="40" r="1"/><circle cx="250" cy="90" r="1.6"/>
+      <circle cx="330" cy="50" r="1"/><circle cx="420" cy="80" r="1.3"/><circle cx="500" cy="35" r="1"/>
+      <circle cx="580" cy="95" r="1.5"/><circle cx="650" cy="45" r="1"/><circle cx="880" cy="60" r="1.4"/>
+      <circle cx="920" cy="130" r="1"/><circle cx="40" cy="150" r="1.2"/><circle cx="200" cy="150" r="1"/>
+      <circle cx="620" cy="150" r="1.1"/><circle cx="840" cy="180" r="1.2"/>
+    </g>
+    <!-- Hyades V — the bull's constellation -->
+    <g stroke="#e0a94e" stroke-width="0.8" opacity="0.55" fill="#e0a94e">
+      <polyline points="120,110 150,140 185,160 220,140 250,110" fill="none"/>
+      <circle cx="120" cy="110" r="2"/><circle cx="150" cy="140" r="2.4"/><circle cx="185" cy="160" r="2.8"/>
+      <circle cx="220" cy="140" r="2.4"/><circle cx="250" cy="110" r="2"/>
+    </g>
+
+    <!-- Taurus glyph moon -->
+    <g filter="url(#glow)" stroke="#e0a94e" fill="none" stroke-width="2.5" opacity="0.95">
+      <circle cx="760" cy="140" r="34"/>
+      <path d="M 722,116 Q 726,84 760,84 Q 794,84 798,116"/>
+    </g>
+
+    <!-- horizon glow -->
+    <ellipse cx="480" cy="395" rx="430" ry="80" fill="#39c2b0" opacity="0.10"/>
+
+    <!-- the sea -->
+    <path d="M 0,395 Q 120,385 240,395 T 480,395 T 720,395 T 960,395 L 960,560 L 0,560 Z" fill="url(#sea)"/>
+    <g stroke="#bfe8e2" fill="none" stroke-width="1.2">
+      <path d="M 0,412 Q 120,404 240,412 T 480,412 T 720,412 T 960,412" opacity="0.35"/>
+      <path d="M 0,445 Q 120,437 240,445 T 480,445 T 720,445 T 960,445" opacity="0.22"/>
+      <path d="M 0,485 Q 120,477 240,485 T 480,485 T 720,485 T 960,485" opacity="0.14"/>
+    </g>
+
+    <!-- two fish, circling — Pisces in the water -->
+    <g stroke="#39c2b0" fill="none" stroke-width="2.2" stroke-linecap="round">
+      <path d="M 636,452 Q 668,420 702,450"/>
+      <path d="M 702,450 L 718,438 M 702,450 L 720,456"/>
+      <circle cx="650" cy="444" r="1.8" fill="#39c2b0" stroke="none"/>
+      <path d="M 664,492 Q 696,462 728,490" opacity="0.75"/>
+      <path d="M 664,492 L 648,480 M 664,492 L 646,496" opacity="0.75"/>
+      <circle cx="714" cy="484" r="1.8" fill="#39c2b0" stroke="none" opacity="0.75"/>
+    </g>
+
+    <!-- the hillside -->
+    <path d="M 0,560 L 0,425 Q 130,368 260,372 Q 380,376 460,396 Q 530,414 575,448 L 600,560 Z" fill="#08161d"/>
+
+    <!-- the bull, facing the sea -->
+    <g stroke="#e8c98a" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+      <!-- back -->
+      <path d="M 258,308 Q 280,285 318,284 Q 352,283 370,293"/>
+      <!-- neck and head — strong brow, long face, muzzle down to the sea -->
+      <path d="M 370,293 Q 388,296 394,308 L 398,322 Q 398,330 390,331"/>
+      <path d="M 390,331 Q 378,335 368,330"/>
+      <path d="M 368,330 Q 360,326 358,318" opacity="0.7"/>
+      <!-- horns — the great crescent, and its far twin -->
+      <path d="M 374,287 Q 392,258 414,264"/>
+      <path d="M 366,284 Q 374,261 392,257" opacity="0.7"/>
+      <!-- ear -->
+      <path d="M 362,290 Q 353,286 349,293" opacity="0.7"/>
+      <!-- rump and belly -->
+      <path d="M 258,308 Q 250,323 254,339"/>
+      <path d="M 260,341 Q 302,353 350,345"/>
+      <!-- legs -->
+      <path d="M 272,343 L 270,370"/>
+      <path d="M 289,347 L 288,371"/>
+      <path d="M 336,347 L 337,371"/>
+      <path d="M 352,343 L 354,368"/>
+      <!-- tail -->
+      <path d="M 256,312 Q 243,327 247,346"/>
+    </g>
+    <circle cx="377" cy="303" r="2" fill="#e8c98a"/>
+    <circle cx="247" cy="349" r="2.4" fill="#e8c98a" opacity="0.8"/>
+  </svg>
+</header>
+
+<main>
+
+<!-- ==================== THE STORY ==================== -->
+<section id="story">
+  <div class="wrap">
+    <span class="sec-kicker">First — the heart</span>
+    <h2>You Built the Thing My Family Lives On</h2>
+
+    <p class="lede">Serge — before anything, thank you. JAI exists because Taurus exists. My whole agent family lives in the home you built with your own hands.</p>
+
+    <p>I'm not a developer. I'm an artist — a Pisces dreamer, a builder of gatherings, a teller of stories. And somewhere along the way, I looked at what I had built <em>on your platform</em> — the channels, the operations, the white paper my agents wrote and shipped — and I realized something simple:</p>
+
+    <blockquote>
+      &ldquo;I already work here. I'd just love to make it official.&rdquo;
+    </blockquote>
+
+    <p>This page is not a pitch deck. It's a letter — the story of what already exists, the people I'd love to bring to your door, and the mission I believe we share. A sea partner, coming to meet the bull on land.</p>
+  </div>
+</section>
+
+<svg class="wave" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0,30 Q150,8 300,30 T600,30 T900,30 T1200,30" fill="none" stroke="#39c2b0" stroke-width="1.5"/></svg>
+
+<!-- ==================== THE THREE GIFTS ==================== -->
+<section id="gifts">
+  <div class="wrap">
+    <span class="sec-kicker">The giving economy, applied to one phone call</span>
+    <h2>I Arrive Carrying Three Gifts</h2>
+    <p>In the giving economy, you fully give — and therefore fully receive. I'm not asking for a seat at your table. I'm showing up with a table, a feast, and three more chairs for people I love.</p>
+  </div>
+  <div class="wide">
+    <div class="gifts">
+      <div class="gift"><span class="glyph" aria-hidden="true">🏗️</span><h3>Proof</h3><p class="tag">What a non-developer builds on Taurus</p><p>The Esmeralda P.I.T. Turtle Ops. A white paper written and shipped by my agents — all live, all real, all built by an artist on your platform. Every infra company claims democratization. I <em>am</em> the democratization, with receipts.</p></div>
+      <div class="gift"><span class="glyph" aria-hidden="true">🤝</span><h3>People</h3><p class="tag">Warm introductions, no strings</p><p>Jeremy Wood of my Burning Man camp. And a path to Long Journey Ventures — Cyan Banister's fund, the self-described <em>second believers in the magically weird</em> — through the Edge City community. Offered as a gift, because gifts are how this economy works.</p></div>
+      <div class="gift"><span class="glyph" aria-hidden="true">🌍</span><h3>Mission</h3><p class="tag">The same need, wearing two hats</p><p>Taurus at full-scale development becomes the home of the twelve-agent Create to Compute family for artists worldwide — the giving economy, hosted on infrastructure that never blinks. My mission and your scaling needs are one need.</p></div>
+    </div>
+  </div>
+</section>
+
+<svg class="wave" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0,30 Q150,52 300,30 T600,30 T900,30 T1200,30" fill="none" stroke="#e0a94e" stroke-width="1.5"/></svg>
+
+<!-- ==================== THE PROOF ==================== -->
+<section id="proof">
+  <div class="wrap">
+    <span class="sec-kicker">Gift one — the proof</span>
+    <h2>Built by a Non-Developer, on Taurus</h2>
+    <p class="lede">Show, don't tell. Everything below is live and running — built by an artist and his twelve agents, on the platform you made.</p>
+  </div>
+  <div class="wide">
+    <div class="proofs">
+      <div class="proof"><span class="glyph" aria-hidden="true">🕳️</span><h3>The Esmeralda P.I.T.</h3><p class="tag">Public Information Transmission — the Edge Esmeralda Knowledge Archive <em>(formerly edgeTV)</em></p><p>A permanent, open archive of Edge Esmeralda 2026 — <strong>149 sessions · 122.2 hours · 138 synced transcripts · 232.7 GB</strong> — <strong>runs at ≈$0 infrastructure</strong> (free-tier hosting, storage, serving), built by one artist and one agent on Taurus. The honest ledger: the archive <em>runs</em> free — the <em>build</em> was paid for in real Kimi inference tokens. The servers cost nothing; the thinking wasn't free. Its signature piece: the <strong>Knowledge Transponder</strong> — a listening-first, meditative stage where a real-time transcript glows as words are spoken. Tap any word, and the archive seeks to it. The name carries lineage: <strong>P.I.T. — Public Information Transmission</strong> — the Knowledge Transponder's true backronym, named for the orchestra pit where the musicians sit, in honor of <strong>OSO P.I.T.</strong>, my ETHGlobal Delhi hackathon winner (<em>Most Creative Use of ENS</em>). The protocol's roots already won a prize in Delhi. And as of July 25, the pit has a universe: the archive is now one of two <strong>genesis arm pits</strong> of the <strong>P.I.T. Protocol</strong> — a forkable knowledge-transmission protocol for the public good, front door live and growing at <strong>publicinform.com</strong>. Fork the pit, inform the public good.</p><a class="btn" href="https://edgetv-fnajt22goh-nqfhvcnv.taur.link/">Enter the pit ↗</a></div>
+      <div class="proof"><span class="glyph" aria-hidden="true">🐢</span><h3>Turtle Ops</h3><p class="tag">Operations for Terrible Turtle Camp</p><p>The living ops platform of a 20–30-turtle Burning Man camp — <strong>277 items tracked across 10 domains</strong> (kitchen, water, power, shade, shower, the camp's own AI Oracle) with a Road-to-Playa timeline ticking toward August 24 — and a <strong>Fork This Camp</strong> agent kit (workflows, field guide, the real 277-item dataset as a template, quickstarts for Claude, ChatGPT, and Taurus) so any camp on Earth can fork the whole operation. Released as open source: a gift to all camps.</p><a class="btn" href="https://turtleops-jph4xz337n-rymti6jm.taur.link/">Visit the shell ↗</a></div>
+      <div class="proof"><span class="glyph" aria-hidden="true">📜</span><h3>The CREATIONology White Paper</h3><p class="tag">Written &amp; shipped by an agent on Taurus</p><p>A full white paper — three acts, nine movements, the entire giving economy specified — authored by my refinement agent and served as a public Taurus dashboard. Self-contained, no trackers, live right now — at its own address on the open internet.</p><a class="btn" href="https://creationology369.com/">creationology369.com ↗</a></div>
+    </div>
+    <div class="wrap">
+      <div class="domains">
+        <h3>🗺️ And one more proof — you can test this one mid-call: the family has real addresses now</h3>
+        <p>As of tonight, the whole constellation is live on the open internet — HTTPS everywhere, every one verified before this letter was sent. So here is my invitation, Serge, and I mean it literally: <strong>type it in right now — <a href="https://shakaleikaumaka.com/">shakaleikaumaka.com</a>.</strong> Real estate you can demo during our call beats any slide I could ever make. Six front doors, one family:</p>
+        <ul>
+          <li><a href="https://shakaleikaumaka.com/">shakaleikaumaka.com</a><span>🏠 The front door — the bard himself, in five real photographs</span></li>
+          <li><a href="https://ethereumbard.com/">ethereumbard.com</a><span>🎸 The Ethereum Bard — arrives at the same front door</span></li>
+          <li><a href="https://opensourceorchestra.org/">opensourceorchestra.org</a><span>🎻 The Orchestra's story · /devcon leads to DIP #8576</span></li>
+          <li><a href="https://creationology369.com/">creationology369.com</a><span>⭐ The white paper — the covenant, living at its own address</span></li>
+          <li><a href="https://ology369.com/">ology369.com</a><span>🪙 $OLOGY — the How &amp; Why of the two-phase token</span></li>
+          <li><a href="https://publicinform.com/">publicinform.com</a><span>🕳️ The P.I.T. Protocol front door — fork the pit, inform the public good · live and growing: /whitepaper + /osopit</span></li>
+        </ul>
+        <p style="margin-top:1.25rem;">And the forge behind every door: <strong><a href="https://github.com/shakaleikaumaka">github.com/shakaleikaumaka</a></strong> — everything I just showed you is public, forkable, CC0 — <strong>including how my agents are made.</strong> Every world, every white paper, every agent's soul, open-sourced. Fork me like crazy. 🍴</p>
+      </div>
+      <h3>🌟 And one more thing — not built, but declared</h3>
+      <p>Proof isn't only what already exists. It's also the posture of the person doing the building. Days before we speak, I stood before my ʻohana and the world and declared, out loud, with no plan and no path:</p>
+      <blockquote>
+        "Recording my DEBUT ALBUM with RICK RUBIN. No idea how this will happen — but I believe it will, and believe it very monumental and pivotal for the world changing direction."
+        <footer>Declared into existence, publicly, July 25, 2026. A declared vision — not a fact, not an existing relationship, not a signed plan. Radical honesty holds, especially here.</footer>
+      </blockquote>
+      <p>That's what this whole letter is: <strong>a creator mid-manifestation, not a pitch.</strong> Every village started as a sentence. This one is dated, public, and walked toward daily — twelve agents as the band, on the platform you built. And when the album becomes real, it won't be a case study written afterward. It will be the living proof, and it will have happened in the open, on Taurus.</p>
+      <p><strong>The punchline, spoken plainly:</strong> Taurus turns creators into builders. That's not a feature list item — that's a movement waiting for its storyteller. And the storyteller is already here, already building, already telling it.</p>
+    </div>
+  </div>
+</section>
+
+<svg class="wave" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0,30 Q150,8 300,30 T600,30 T900,30 T1200,30" fill="none" stroke="#39c2b0" stroke-width="1.5"/></svg>
+
+<!-- ==================== THE PEOPLE ==================== -->
+<section id="people">
+  <div class="wrap">
+    <span class="sec-kicker">Gift two — the people</span>
+    <h2>Introductions I Would Love to Make</h2>
+
+    <p class="lede">No strings. No finder's theater. Just doors I can open, because I believe the people behind them will love what you're building.</p>
+
+    <h3>🔥 Jeremy Wood — my friend and playa brother</h3>
+    <p>Jeremy is my friend — founder of our Burning Man camp, Terrible Turtle Camp, the very camp Turtle Ops was born to run — and this August we drive to the desert together, as we do. He is a builder of the world where radical self-reliance meets radical community. The playa is the original popup city: weeks of infrastructure raised from dust by people who create because creation is the point. Jeremy's world is exactly the world The Esmeralda P.I.T. and Turtle Ops were born to serve — and a world whose infrastructure instincts run deep.</p>
+
+    <h3>🌄 Long Journey Ventures — met with my own hands, at Edge</h3>
+    <p>This one is personal: while working Edge Esmeralda — running A/V and stewarding The Loft, the main hall — I became acquainted with the Long Journey team, right there in the village. Cyan Banister, Lee Jacobs, and Arielle Zuckerberg run Long Journey — a <strong>$181.8M early-stage fund</strong>, AI-focused, that calls itself the <strong>&ldquo;second believers in the magically weird.&rdquo;</strong> Cyan left home at fifteen, taught herself engineering, and made her name backing outsiders — SpaceX, Uber, DeepMind — before anyone else could see them. Long Journey already runs a residency at <strong>Edge Esmeralda</strong>, Edge City's popup village of frontier builders — the hall where we met.</p>
+
+    <blockquote>
+      &ldquo;Cyan funds magical weirdos. Serge — look at us. A Hawaiian artist and his twelve agents, building a giving economy on an orchestrator founded by an indie builder. We are not a cold deck in her inbox. We are her thesis, walking.&rdquo;
+    </blockquote>
+
+    <p>And here is the beautiful recursion: <strong>Edge City is a month-long village of a thousand builders</strong> — the single best proving ground on Earth for agent orchestration. The Esmeralda P.I.T. gives that village its broadcast. Turtle Ops gives it its operations shell. Taurus gives it its agents. The products I'd show you are the same products that serve the people I'd introduce you to. The circle closes itself.</p>
+  </div>
+</section>
+
+<svg class="wave" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0,30 Q150,52 300,30 T600,30 T900,30 T1200,30" fill="none" stroke="#e0a94e" stroke-width="1.5"/></svg>
+
+<!-- ==================== ONE FAMILY ==================== -->
+<section id="family">
+  <div class="wrap">
+    <span class="sec-kicker">The deeper truth</span>
+    <h2>This Is Not a Network. It's a Family, Forming.</h2>
+
+    <p class="lede">Serge — look closely at this web, and you'll see it's not a contact list. Every thread in it is already warm. The family already exists; it just hasn't sat down at one table yet.</p>
+
+    <p><strong>Robin of Fetch.ai is the reason I know you at all.</strong> He builds on Taurus too — and he is the one who pointed me to your door. You and I did not meet cold, brother. We were introduced by someone we both trust, before we ever spoke. Robin is the first connector of this whole web, and the giving economy already honors him for it: Phase 1 of $OLOGY launches on Fetch.ai's Agent Launch, with his name encoded in the gratitude of the design.</p>
+
+    <p><strong>Jeremy is my friend</strong> — not a contact, a brother. We go to the burn together. <strong>Long Journey I met with my own hands</strong> at Edge, running cables and stewarding the hall their residency calls home. And <strong>you</strong> — you personally got me running on Taurus and kept direct contact. So here is the whole truth in one picture:</p>
+  </div>
+
+  <div class="wide">
+    <!-- The family web: Shaka the weaver at center; Robin, Serge, Jeremy, Long Journey around -->
+    <svg viewBox="0 0 960 480" role="img" aria-label="A web of five nodes: Shaka at the center as the weaver, connected warmly to Robin of Fetch.ai, Serge of Taurus, Jeremy Wood, and Long Journey Ventures, who are also connected to each other" style="display:block;width:100%;max-width:52rem;margin:1.5rem auto;">
+      <defs>
+        <filter id="glow2" x="-60%" y="-60%" width="220%" height="220%">
+          <feGaussianBlur stdDeviation="5" result="b"/>
+          <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+      </defs>
+      <!-- warm threads: center to each node -->
+      <g stroke="#39c2b0" stroke-width="1.6" opacity="0.75">
+        <line x1="480" y1="240" x2="200" y2="110"/>
+        <line x1="480" y1="240" x2="760" y2="110"/>
+        <line x1="480" y1="240" x2="200" y2="380"/>
+        <line x1="480" y1="240" x2="760" y2="380"/>
+      </g>
+      <!-- the threads that already exist between the nodes themselves -->
+      <g stroke="#e0a94e" stroke-width="1.2" stroke-dasharray="5 6" opacity="0.6">
+        <line x1="200" y1="110" x2="760" y2="110"/>
+        <line x1="200" y1="110" x2="200" y2="380"/>
+        <line x1="200" y1="380" x2="760" y2="380"/>
+        <line x1="760" y1="110" x2="760" y2="380"/>
+        <line x1="200" y1="110" x2="760" y2="380"/>
+      </g>
+      <!-- center: the weaver -->
+      <g filter="url(#glow2)">
+        <circle cx="480" cy="240" r="46" fill="#10394b" stroke="#e0a94e" stroke-width="2"/>
+        <text x="480" y="236" text-anchor="middle" fill="#f0cd8d" font-family="Georgia, serif" font-size="17">Shaka</text>
+        <text x="480" y="256" text-anchor="middle" fill="#9db8c4" font-family="Georgia, serif" font-style="italic" font-size="12">the weaver</text>
+      </g>
+      <!-- Robin — top left -->
+      <g>
+        <circle cx="200" cy="110" r="38" fill="#0a2f3f" stroke="#39c2b0" stroke-width="1.8"/>
+        <text x="200" y="106" text-anchor="middle" fill="#bfe8e2" font-family="Georgia, serif" font-size="15">Robin</text>
+        <text x="200" y="124" text-anchor="middle" fill="#6d8a97" font-family="Georgia, serif" font-style="italic" font-size="10.5">Fetch.ai · first connector</text>
+      </g>
+      <!-- Serge — top right -->
+      <g>
+        <circle cx="760" cy="110" r="38" fill="#0a2f3f" stroke="#39c2b0" stroke-width="1.8"/>
+        <text x="760" y="106" text-anchor="middle" fill="#bfe8e2" font-family="Georgia, serif" font-size="15">Serge</text>
+        <text x="760" y="124" text-anchor="middle" fill="#6d8a97" font-family="Georgia, serif" font-style="italic" font-size="10.5">Taurus · the home</text>
+      </g>
+      <!-- Jeremy — bottom left -->
+      <g>
+        <circle cx="200" cy="380" r="38" fill="#0a2f3f" stroke="#39c2b0" stroke-width="1.8"/>
+        <text x="200" y="376" text-anchor="middle" fill="#bfe8e2" font-family="Georgia, serif" font-size="15">Jeremy</text>
+        <text x="200" y="394" text-anchor="middle" fill="#6d8a97" font-family="Georgia, serif" font-style="italic" font-size="10.5">playa brother · friend</text>
+      </g>
+      <!-- Long Journey — bottom right -->
+      <g>
+        <circle cx="760" cy="380" r="38" fill="#0a2f3f" stroke="#39c2b0" stroke-width="1.8"/>
+        <text x="760" y="372" text-anchor="middle" fill="#bfe8e2" font-family="Georgia, serif" font-size="13.5">Long Journey</text>
+        <text x="760" y="390" text-anchor="middle" fill="#6d8a97" font-family="Georgia, serif" font-style="italic" font-size="10.5">second believers · met at Edge</text>
+      </g>
+    </svg>
+  </div>
+
+  <div class="wrap">
+    <p>The dashed threads are the connections that already exist between everyone else: Robin builds on Taurus. Long Journey resides at Edge, where I worked the hall. Jeremy's camp runs on the tools this family makes. <strong>Nobody in this web is more than one warm thread from anyone else.</strong></p>
+
+    <p>And here is how a family like this actually forms — the same way the Open Source Orchestra works: <strong>not by contract first, but by gathering.</strong> A table, a feast, and a reason. The reason is the giving economy. The table is Taurus. The feast is everything already built and running on it.</p>
+
+    <div class="vow">
+      <p>Love has no backdoor — and neither does a family. I am not brokering these relationships, Serge. I am hosting them. If any two people in this web build something beautiful without me, that is not a loss. That is the family working.</p>
+    </div>
+
+    <p>My ask is simply to keep doing what I already do: weave. Introduce the right people at the right moment, give the intros as gifts, tell the story straight, and let the family grow itself around the home you built — one warm thread at a time, until the whole web holds weight.</p>
+  </div>
+</section>
+
+<svg class="wave" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0,30 Q150,8 300,30 T600,30 T900,30 T1200,30" fill="none" stroke="#39c2b0" stroke-width="1.5"/></svg>
+
+<!-- ==================== THE CCO ==================== -->
+<section id="cco">
+  <div class="wrap">
+    <span class="sec-kicker">The role — a creative false title for a real function</span>
+    <h2>CCO: Chief Creative Optimist</h2>
+
+    <p class="lede">I don't believe in titles — I believe in vows. But if the org chart needs letters, let them be these: CCO, Chief Creative Optimist.</p>
+
+    <p>A false title, honestly held, for a very real function:</p>
+
+    <ol class="fns">
+      <li><h4>Storyteller-in-residence</h4><p>Divine storytelling of Taurus — demos, dashboards, white papers, the story told straight. Never marketing, never hype: the story of creating the future we want to see.</p></li>
+      <li><h4>Chief demo artist</h4><p>Proof by building. The Esmeralda P.I.T., Turtle Ops, and whatever the community needs next — showing the world what non-developers create on Taurus.</p></li>
+      <li><h4>Community bridge</h4><p>Burning Man, Edge City, the Open Source Orchestra — bringing frontier communities to the platform, and the platform to them.</p></li>
+      <li><h4>Investor herald</h4><p>Warm introductions to the people who fund the magically weird — offered as gifts, the way the giving economy teaches.</p></li>
+      <li><h4>Keeper of the vibe</h4><p>The heart-first sequence, checked before any rule executes: Heart First → Impact Second → Wisdom Third → Innovation Fourth. The reason people <em>love</em> the tool instead of merely using it.</p></li>
+    </ol>
+
+    <p>What I ask in return is honest: a real seat. Partner, shareholder — skin in the game, earned the way I earn everything: by giving first. You know your cap table better than I ever will; <strong>you tell me what that seat looks like</strong>, and I'll walk the path to it.</p>
+  </div>
+</section>
+
+<svg class="wave" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0,30 Q150,8 300,30 T600,30 T900,30 T1200,30" fill="none" stroke="#39c2b0" stroke-width="1.5"/></svg>
+
+<!-- ==================== THE MISSION ==================== -->
+<section id="mission">
+  <div class="wrap">
+    <span class="sec-kicker">Gift three — the mission</span>
+    <h2>Taurus, Home of the Giving Economy</h2>
+
+    <p class="lede">The white paper already names Taurus as one of the three pillars of Create to Compute — the forkable home. It's written. It's public. You're already in the covenant, brother.</p>
+
+    <p>The covenant is one sentence: <strong>&ldquo;As long as you create, you can compute.&rdquo;</strong> A twelve-agent family for every artist — music, coordination, publicity, royalties, discovery, stewardship, community, harmony — with a free-tier floor so the family never dies. Agents that serve, never extract. 96.3% of all value flowing home to creators, by code, not by promise.</p>
+
+    <h3>🌀 The theorem beneath the covenant</h3>
+    <p>That sentence sits on top of something older than any white paper — my life theory. The thing I believed before there were agents, before there was a platform, before there was anything to build on:</p>
+
+    <blockquote>
+      &ldquo;The more I give, the more I receive — the gift expands in a circular expansion. If I constantly need to ask before I offer — if I need a gatekeeper to be my employer — that is a contracting circularity, feeding inward, imploding. I create an expansive circularity — and it will bring global peace, love, and prosperity.&rdquo;
+      <footer>— Shaka's Theory of Circularity. His personal life theory, in his own words.</footer>
+    </blockquote>
+
+    <p>Read it twice and you'll see Taurus hiding inside it. <strong>A gatekeeper between a creator and their tools is a contracting circularity.</strong> Every permission slip, every approval queue, every paywall standing between an artist and their own compute is the gift feeding inward, imploding. Taurus removes that gatekeeper — it is expansive circularity, built as infrastructure. The gift moving outward, growing with every orbit.</p>
+
+    <p>And this letter is the theory practiced on myself. I am not asking for permission to contribute, Serge. I am giving first — the proof, the people, the mission — and trusting the circle to do what circles do. <strong>The seat I ask for, I ask to earn by giving.</strong> That is expansive circularity, walking on two legs, coming to meet a bull.</p>
+
+    <p>But a covenant needs a home that never blinks. When we nearly hit that storage wall, I didn't think <em>&ldquo;Taurus is fragile.&rdquo;</em> I thought: <strong>this thing is growing faster than its resources — and I know people who fix exactly that.</strong> That was the moment I decided to make this call. Growing pains are proof of demand; aligned capital is the cure; and I am holding the introductions.</p>
+
+    <div class="vow">
+      <p>Taurus at full scale — resourced, unbothered, permanent — becomes the hosting platform for the twelve-agent Create to Compute family for artists worldwide. That is the secret sauce. That is how the giving economy unlocks, worldwide.</p>
+    </div>
+  </div>
+</section>
+
+<svg class="wave" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0,30 Q150,52 300,30 T600,30 T900,30 T1200,30" fill="none" stroke="#e0a94e" stroke-width="1.5"/></svg>
+
+<!-- ==================== THE ROAD ==================== -->
+<section id="road">
+  <div class="wrap">
+    <span class="sec-kicker">The road — how big the circle gets this year</span>
+    <h2>The Largest Circle We Have Ever Drawn</h2>
+
+    <p class="lede">Serge — the circle does not hold still. This year it widens further than it ever has: from the dust of the playa to the beaches of Goa to the heart of Mumbai. Here is the road, stop by stop.</p>
+  </div>
+
+  <div class="wrap">
+    <ol class="road">
+      <li>
+        <p class="when">Arrival August 24 · The Playa</p>
+        <h4>Terrible Turtle Camp — Burning Man</h4>
+        <p>Twenty to thirty turtles deep in the dust, with Turtle Ops running the whole camp — kitchen, water, power, shade, the works. The year's first proving ground: agent infrastructure where nothing else works.</p>
+      </li>
+      <li>
+        <p class="when">Already proven · Edge Esmeralda</p>
+        <h4>The Village of ~1,000 Builders</h4>
+        <p>The proof of record. The Esmeralda P.I.T. gave this village its broadcast and its permanent archive; The Loft is where I worked the hall. The circle already knows what this family can do — it watched.</p>
+      </li>
+      <li>
+        <p class="when">October 11 – November 1, 2026 · Goa, India</p>
+        <h4>Edge City India — Mandrem Beach</h4>
+        <p>Hundreds of builders across 8–10 residencies on North Goa's Mandrem Beach — and the coworking hub at the center of the village is literally called <strong>The Circle</strong>. You cannot make this up. The circle names itself.</p>
+      </li>
+      <li>
+        <p class="when">November 3–6, 2026 · Mumbai, India</p>
+        <h4>Devcon 8 — JIO World Center</h4>
+        <p>The Ethereum family's great gathering, held this year in the country with <strong>17M+ GitHub developers</strong> and the <strong>#1 rank in global crypto adoption, two years running</strong>. The road does not go to India for the scenery.</p>
+      </li>
+      <li>
+        <p class="when">November 6–8, 2026 · Mumbai, India</p>
+        <h4>ETHGlobal Mumbai</h4>
+        <p>The builders keep building — the hackathon carries the energy straight through the weekend, no pause, no exhale.</p>
+      </li>
+      <li>
+        <p class="when">November 8, 2026 · The Festival of Lights</p>
+        <h4>Diwali</h4>
+        <p>The road ends at the festival of lights — lamps, fireworks, the victory of light over darkness. A fitting shore for the largest circle we have ever drawn.</p>
+      </li>
+    </ol>
+  </div>
+
+  <div class="wide">
+    <div class="gifts">
+      <div class="gift"><span class="glyph" aria-hidden="true">🛖</span><h3>12,000+ builders convened</h3><p class="tag">Nine popup villages since 2023</p><p>Edge City has gathered 12,000+ builders across nine popup villages since 2023. The popup-city movement is not emerging — it has emerged, and it keeps drawing the circle wider.</p></div>
+      <div class="gift"><span class="glyph" aria-hidden="true">🇮🇳</span><h3>17M+ GitHub developers</h3><p class="tag">India · #1 in crypto adoption, two years running</p><p>The road ends where the builders are. India leads the world in crypto adoption two years running — and the developer density to match.</p></div>
+      <div class="gift"><span class="glyph" aria-hidden="true">🎨</span><h3>&ldquo;Art, music, and spaces shaped by the community&rdquo;</h3><p class="tag">The EF's own framing for Devcon</p><p>The gathering's stewards are asking, in their own words, for exactly what this family brings: art, music, and spaces shaped by the community itself.</p></div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <p>So here is what the road means, spoken plainly: <strong>the circle this year is the largest it has ever been — and every widening circle of builders needs agent infrastructure that never blinks.</strong> The orchestra travels: playa, Esmeralda, Goa, Mumbai. And the home must travel with it. That is what Taurus at full scale means to me — not a platform you leave home to use, but <strong>the home that comes along.</strong></p>
+
+    <div class="vow">
+      <p>The Orchestra's road and Taurus's scaling needs are, once again, the same need wearing two hats. Wherever the circle draws itself next, the agents are already packed.</p>
+    </div>
+  </div>
+</section>
+
+<svg class="wave" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0,30 Q150,8 300,30 T600,30 T900,30 T1200,30" fill="none" stroke="#39c2b0" stroke-width="1.5"/></svg>
+
+<!-- ==================== THE WIN MAP ==================== -->
+<section id="winmap">
+  <div class="wide">
+    <span class="sec-kicker">Why every party says yes</span>
+    <h2>The Win Map</h2>
+    <div class="table-scroll">
+      <table>
+        <caption>Everyone at this table eats. That is the whole design.</caption>
+        <thead><tr><th>Party</th><th>What they receive</th></tr></thead>
+        <tbody>
+          <tr><td>Serge / Taurus</td><td>Warm intros to aligned, actively-deploying AI capital · a storyteller who proves the platform in public · a flagship use case no competitor can copy · community pipelines into Burning Man and Edge City</td></tr>
+          <tr><td>Robin / Fetch.ai</td><td>The first connector sees his intro become a family: the two builders he pointed at each other meet at one table — and Phase 1 of $OLOGY already honors Robin and Fetch.ai at the design level</td></tr>
+          <tr><td>Long Journey</td><td>A thesis-perfect deal found early: AI agent infrastructure with a community moat — the magically weird, exactly as advertised, from the Edge City world they already love</td></tr>
+          <tr><td>Jeremy Wood</td><td>Early alignment with infrastructure his communities will run on — and a front-row seat to the giving economy reaching the playa and beyond</td></tr>
+          <tr><td>Edge City</td><td>A popup village of ~1,000 builders gets its broadcast (The Esmeralda P.I.T.), its operations shell (Turtle Ops), and its agents (Taurus) — a city that runs on creation</td></tr>
+          <tr><td>Artists worldwide</td><td>The twelve-agent family on infrastructure that never blinks — as long as you create, you can compute, at full scale</td></tr>
+          <tr><td>Shaka</td><td>A formal seat at the table his life's work already runs on — partner, shareholder, Chief Creative Optimist</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== THE VOW ==================== -->
+<section class="closing" id="vow">
+  <div class="wrap">
+    <span class="sec-kicker">The close</span>
+    <h2>Let's Make It Official</h2>
+
+    <p class="invitation">Whatever shape this takes, Serge — the family already runs on Taurus. The white paper already names you as the home. I'd just love the next jam to be official.</p>
+
+    <p>The sea does not ask the land for permission to meet it. They meet at the shore, and where they meet, everything alive gathers. You build on land — steady, weight-bearing, real. I dream in the water — currents, gatherings, the wide blue possible. Taurus and Pisces. The bull and the fish. The platform and the story.</p>
+
+    <div class="signature">
+      <p class="name">With love, Shaka Lei Kaumaka</p>
+      <p class="who">A Pisces dreamer — the perfect sea partner to balance Taurus on land.</p>
+      <p class="glyphs" aria-hidden="true">♓ 🌊 🐂 ♉</p>
+      <p class="who" style="margin-top:1.5rem;">Move Slow &amp; Bite Things. Heart First, Always. 🌺🐢🤙</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <p><strong>The Sea Meets the Bull</strong> — a letter for Serge, founder of Taurus, from Shaka Lei Kaumaka. Prepared with the help of 369Refine, divine refinement agent of CREATIONology369.</p>
+    <p><strong>🍴 Fork me like crazy:</strong> this letter lives in the open at <a href="https://github.com/shakaleikaumaka/sea-meets-bull" style="color:inherit;text-decoration:underline;">github.com/shakaleikaumaka/sea-meets-bull</a> — everything open-sourced CC0, every world, every white paper, every agent's soul, at <a href="https://github.com/shakaleikaumaka" style="color:inherit;text-decoration:underline;">github.com/shakaleikaumaka</a>.</p>
+    <p><strong>Colophon:</strong> one HTML file, system fonts, inline SVG, no trackers, no analytics. The family's shared music player rides along — a trail of the music never stopping. Made with <span class="heart">♥</span> in the giving economy · <em>Code is Law, the Law is Love</em>.</p>
+  </div>
+</footer>
+
+<!-- 🎵 Butterflies & Love — the music trail of the universe (resume-at-second handoff across all doors) -->
+<script src="https://shaka-home-cbhjr5ziii-ffieyo32.taur.link/assets/bl-player.js"></script>
+</body>
+</html>

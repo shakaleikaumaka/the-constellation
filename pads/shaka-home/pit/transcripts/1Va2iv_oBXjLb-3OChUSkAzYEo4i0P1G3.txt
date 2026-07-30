@@ -1,0 +1,331 @@
+# Contemplative Futures Panel_ New Technologies of Mind
+
+Date: 2026-06-10
+Source video: Contemplative Futures Panel_ New Technologies of Mind.mp4
+Drive: https://drive.google.com/file/d/1I-Uo48ATPwlBmqlw4E1RnnuTLwV5W9dt/view
+Duration: 00:55:05
+Transcribed: 2026-06-12 · whisper large-v3-turbo · language: en
+
+---
+
+[00:00] Everyone, please find your seats for our next panel. So today's panel is on technologies of mind. We have with us today some people who are developing research into what it means to interact with the mind via meditation, consciousness, the ways that our minds adapt and change over time due to a variety of stimuli.
+
+[00:27] And so we have a really incredible panel today of people who are on the cutting edge, people who are really pushing the boundaries of what is possible with our minds, with the technologies that we can use to interact with them, or perhaps even ways that we can consider the actions and interactions of our minds as technologies themselves.
+
+[00:49] Do you guys want to all test your microphones if those are on? Great. Test. Beautiful. All right. Mark, where are you going? We've lost a panelist. Shaka, what's the music? It's kind of nice. I thought I'd like it, but... Can you use the Jeopardy music?
+
+[01:09] That's me? Oh, who's doing that? I know. Oh, it's Leo. Leo, okay. Leo, cut it out. Cut it out. Sorry, sorry, sorry. It was cool. It was cool. This is a serious panel, everyone. This is a serious panel for the 20 or so people who are really all the way in the back.
+
+[01:26] Can you guys come down, actually? Come bring your energy closer to us. Over here. Offer your energy if you can. Come fill up these front few rows. You're going to give us really good vibes. You're going to give us your curiosity. Come into the splash zone.
+
+[01:39] Yeah. We'll take a minute before we come down. All right, Mark is setting up his banner here. So, today what we have, we have a panel of researchers. We have a panel of people who work in the intersection of, in many ways, of industry and also research around meditation and things that maybe you don't consider meditation.
+
+[02:10] But we'll talk about all the same because it's part of thinking about what is happening with consciousness. And, Mark, do you, maybe, maybe we'll just, we'll, yeah. I'll bet a white later. Yeah, I think you can hold that up at the end and maybe wave it around so people can see.
+
+[02:29] Okay. All right. Fantastic. Okay. So, to start us off, I'm Luca Del Deo. I'm the founder of Meditation Artifacts. Meditation Artifacts is a non-profit ecosystem advancing a number of initiatives all to further our understanding of meditation, of consciousness, to help connect people across the varieties of work happening here.
+
+[02:54] I have to my left a really great panel who, just because there are four names, I'm going to ask them to introduce themselves fully by name so I don't make any mistakes. And I would love to go down first, just a quick introduction with your name and maybe any affiliation.
+
+[03:10] And we'll go all the way down to the left before we get into our questions. Gentleman to my right, to my left. So, in my case, my name is Addy. And I run this thing called Ecolopto, which is basically a kind of complex systems research institute sort of thing.
+
+[03:26] My name is Eric. Full names, please, actually. Addy Cha. My name is Eric Enger, and I'm a builder and researcher in the consciousness tech space. And I build a lot of AI systems for meditation teachers and retreats, have built such for Journey and Joe Hudson or some people that this room might be familiar with.
+
+[03:52] And also I look at the role of non-ordinary states of consciousness for insight generation and creativity via the multi-intelligence institutes. I'm a senior scientist at the Institute for Advanced Consciousness Studies, where I also serve as primary investigator for the Emulating Entheogens Project, where we help people benefit from non-ordinary
+
+[04:24] states usually associated with advanced meditation and psychedelics in the easiest way possible and at the lowest risk with using technology, like aesthetic chills and stroboscopics, et cetera. I'm also research director for Sensoria Research, which builds self-sovereign, multi-modal phenomenology tools to help scale up and decentralize the science of consciousness, among other things.
+
+[04:49] We also throw the best parties. My name is Mark McDonough, my handle is question mark IMBR, IMBR stands for the Institute for Meditation Brainwave Research, and the Institute is currently running the largest, most comprehensive study of meditation brainwaves ever conducted.
+
+[05:14] More on that later. Fantastic. So this question is for Mark. So Mark, can you start us off with how are you working right now at the intersection of technology and mind or meditation, and what is it, generally speaking, that you are building currently?
+
+[05:38] I'm doing nothing less than trying to create the translation between brainwaves and mind states, which is an incredibly ambitious project, and don't try this at home. Although, that's exactly what I'm doing, which is, I'm trying to get people to do this at home because I'm using AI and machine learning.
+
+[06:00] If you're using AI and machine learning, that requires lots of data, and you can't bring a thousand meditators into a lab, that would be just way too expensive. So I'm taking these headsets, I have a loaner program that sends it out to folks, they do their meditations, and then I deconstruct those EEG into a thousand different brain features, put it through the machine learning to find out what is the brainwave signature of the
+
+[06:31] what is the brainwave signature of different types and different levels of meditation. Thank you, Mark. And then for you, Leo, same question, what are you doing right now at the intersection of technology or mind or meditation, however you define it?
+
+[06:50] We're harnessing, it's a multi-year project to basically create an experience that has, that departs from first principles to reconstruct or re-instantiate both the neural signatures and downstream behavioral and phenomenological effects of hallucinogens.
+
+[07:11] And our current, the current stage we're in right now is combining guided narration and interoceptive or somatic activation. So we've been doing several years of work, which if you come around at four o'clock, I'll be presenting in more detail on aesthetic chills.
+
+[07:28] So frisson or goosebumps, which we've through us through now about 13 peer reviewed published papers have shown mimics, all of the phenomenal, the classic phenomenological features of mystical and psychedelic experience. And in an onsite study, we've shown that it replicates all the well established increases in neural complexity, entropy, fractal dimension, and that those increases predict downstream effects on maladaptive schema, moral reasoning, pro-social behavior, and self-transcendent
+
+[07:58] phenomenology. And so we're essentially iteratively building these rather scalable technologies in the sense that they can be delivered as some of you have been experimental subjects of the experiment over throughout the week and see can be delivered just with a YouTube video.
+
+[08:15] That is essentially a tailored meditation guided to address one or another maladaptive schema with a score that is empirically validated or empirically shown or iterated to produce aesthetic chills in over 80% of the population. So it's fairly potent.
+
+[08:31] And it'll just get more so as we add haptic and other modalities to it. And you have a couple affiliations, which organization are you doing this work with? Primarily, that line of work is primarily with the Institute for Advanced Consciousness Studies.
+
+[08:45] Yeah. Okay, great. Thank you. And Eric, same question for you. I can't see you so easily from here. What are you building these days? What are you working on at this intersection? Yeah. So I've been building a lot of experiments and products applying LLMs on how they can guide contemplative and spiritual practice.
+
+[09:09] What's the role of an LLM in helping a practitioner iterate on their meditation technique, for example, versus the role that the human facilitator can play in that. And then something that I'm like here and now during the afternoon running experiments with together with Leo is about how to leverage technodialic altered states that Leo's working on for specifically cultivating insights.
+
+[09:38] So we can see that self transcendence and mystical states both lead to empathy and compassion and these kind of states, but also have a tendency to lead to creativity and insights related to problem solving. And we're iterating on a protocol related to that, that we'll do an experiment with at just after this talk.
+
+[10:03] Fantastic. Thank you, Eric. And then Addy, what are you working on these days that might have an intersection with technology and mind or consciousness? So to keep this short, you know, what we're kind of working on, so we received $35,000 to sort of really probe the question if the mind can be its own pharmacy.
+
+[10:23] Can this thing that we have called a mind, a brain, produce its own painkillers and stimulants and all these kinds of things? And the answer is, yes, it can. And one of our first experiments to sort of answer this is we want to see if the body or the brain or the mind or whatever the system is, is able to memorize a phenomenology of things like caffeine.
+
+[10:41] Sorry, what if you could do some kind of Pavlovian conditioning kind of protocol where you take a bit of coffee, you build up a trigger word, almost like a biological passcode in your head. Each time you drink the coffee and by the end of the trial, can you just think of that, that stimuli in your head, right, almost like a language cue, and then get the phenomenological effects, the differences in your working memory, attention, and so on?
+
+[11:01] That's the basic idea. Yeah, that's fantastic. And then this next question is also for you, Addy, to expand on that further. What are you seeing right now in the research that you're doing or that you're doing to prepare for the current work that isn't reflected in how we understand the industry or the common conception around, I mean, would you call it placebo?
+
+[11:25] Are you calling it placebo right now? To be completely frank, I don't have a good name for the thing yet. I'm calling it biological prompt engineering, which is a bit of an inspiration from Michael Levin and bioprompting. But, you know, it's strange because this seems, to me, it seemed like a very obvious thing, but I'm also probably a little crazy, so that contributes to it.
+
+[11:45] But also, like, if you think about the nature of a placebo nocebo, which is a real thing that you have to look into if you're doing any kind of experiment. You look at the history of psychology and all the different, you know, place conditioning, Pavlovian conditioning, classical conditioning.
+
+[11:57] You look at psychosomatic effects. You look at what happens in sort of the neuroscience of acting and stuff like that and the way people are able to transform their sense of selves. And you have to be willing to sort of come face to face with the question that there is this very real measurable effect that the mind can have on the body, right?
+
+[12:11] The example I can give to you guys is, you know, if I played a pattern of lights and colors in the right way, I can get you to generate liquid from your face. That's just called tears. It's called crying. So actors will learn how to cry on demand.
+
+[12:22] They'll look at sad imagery, think of sad things, and they can literally generate a physical substance that you can measure, right? And as to why, you know, people haven't examined this before, they actually have, but I don't think they necessarily had a theory of how it all pieced together.
+
+[12:36] So you see these emerging things about the placebo and the nocebo. You have Pavlovian conditioning. You have all these kinds of things because we saw something. But I think without sort of this modern framework of what intelligence or cognition is, you know, insane amounts of things that we've done in the last, you know, 50 years, I don't think you could have even made sense of it in the scientific world in the beginning.
+
+[12:56] I think that was part of it. Thank you for that, Eddie. Yeah, that is really interesting. So you're right now hitting on something that is really a product of this particular time that now we have some opportunities to make sense of this further.
+
+[13:11] Yeah. It's like the tackling I like to say is prayer is placebo. As I actually think why a lot of different cultures came up with this idea of prayer outside of specific religious aspects was, okay, wow, you can just read something and think about it and you can calm yourself down and you can feel better and you can, you know, take on some certain task.
+
+[13:28] You know, who thought just thinking about some symbols and colors and lights and patterns of those could lower your cortisol levels and stuff like that, right? That's thought directly affecting the body. And, you know, in Buddhism and meditation and you get into the more advanced stuff, there are theories about this, right?
+
+[13:43] So if you talk to people that are really experienced in the sort of advanced meditation side, they'll say, nice job, but people have been thinking about this for thousands of years, which is true. But I don't think we quite have the tools that we have these days to really probe into it.
+
+[13:54] And I think that's, I'm just somewhere in that history line. You know, that's what I would say. Yeah. We're going to explore more of that as we go through the panel. Yeah, really exciting. And Eric, so I have a similar question for you. I know quite a bit about your work just getting to know you over the past week or two.
+
+[14:15] So I'd love for you to share with the audience, what are you seeing right now that is in your research, that is in the work that you've done at much, much at a deeper level that isn't yet being reflected in either the industry or the public understanding around the technologies that you're developing?
+
+[14:34] Well, I would say that on the end of looking at utilizing LLM for guiding contemplative practice, a lot of what's missing is seeing how much of technique for a lot of spiritual practice is essentially about instruction following. Like a technique is, in a sense, an instruction.
+
+[14:59] And a lot of what a facilitator helps you do is give you instructions or look at what you're doing and see if you're applying the instructions correctly. And AI is great at giving instructions and judging if an instruction is applied correctly.
+
+[15:21] And there is a large amount of what, for example, meditation facilitators and teachers spend their time doing that is giving instruction and judging if an instruction is followed correctly. And most of this is within the reach of current AI systems.
+
+[15:41] And it's only some of the ones that are, like, most at the frontier of this, like Journey and Hale, a breathwork company I work with, that are starting to implement this. But I don't think that the industry hasn't really realized that there is, like, a large amount of what they spend their time doing that AI is actually able to do and that they could spend their time doing instead of doing 20% of really attuning with and giving that intuitive guidance to people.
+
+[16:15] They could spend 100% of their time doing that rather than a minority of the time. But that technology just hasn't, yeah, been applied in the right settings for them to really get that and implement it across the industry. So if you could summarize that briefly.
+
+[16:32] Are you saying that we actually could be using artificial intelligence or large language models more in instructing people on meditation? Yes. Wow. Okay. Okay. Thank you, Eric. Now... Same question? What are we missing? I'm going to briefly go over three things, if that's all right.
+
+[16:55] So these are three things that are ubiquitous, spoken of often, but for which there isn't a lot of granularity and depth for which we have the potential to. One actually piggybacking on is what, yeah, I guess we would call belief engineering or belief updating or belief-based interventions, which I agree, placebo is the crystallizing option the one that for a number of reasons we have by far the most data on.
+
+[17:19] We have probably more data on placebo than virtually any other medical phenomenon, which is really juicy and cool, including the fact that if, I don't know how many of you guys are aware of open-label placebo, basically, that if you know that it's a placebo, it still works.
+
+[17:32] Strange, huh? Strange as hell, right? And so if you think back to many sort of, you know, shamanic rituals, traditional rituals, essentially it's following a protocol. It's following a ritual. So it's the ritual, it's ritualizing. So a lot can be achieved.
+
+[17:47] And we're embarking on a work with some students of Antonio Damasio's, Jack Singer, Akila Kadambi, a student of Marco Iacoboni, who was my graduate mentor, a person here, Wyatt Rogers, who's worked on placebo for some time. And we're going to be embarking on a theory paper together that I'd love to collaborate with you on, essentially making certain points, one of which is that although we colloquially think of, oh, it's mind affecting body, it's actually the fact that, you know, there's a whole interoceptive nervous system that is also a locus of computation.
+
+[18:17] So it really is about to believe something deeply is to embody it. It is something that beliefs are enacted in brain and body, and mind exists in body. But that's, I think, you know, there's usage and then, you know, substrate. Anyway, so that's that.
+
+[18:31] The other one is, many of you have probably heard the term state-to-trait transfer, or state, and that's something that is also kind of used a lot colloquially, but for which there isn't really a very formal theory. So this is something that we're embarking on a theoretical paper that's also being empirically validated with Carl Hayden Smith and a number of other people through Sensoria and ISCS's network, and trying to do some sort of formal model of how to think about state space versus trait space, and how essentially trait space is a navigation through trait space,
+
+[19:02] alters the control conditions, then transition probabilities between states, areas, and state space. And to think about how does one convert to the other, which is a very prominent idea now. And then the last one, I'll be quick, is trust. So trust is, again, something ubiquitous.
+
+[19:16] It undergirds every form of social relation, pretty much everyone. If you think about it for a second, you'll see. You'll become aware. And yet, same thing, there are a few isolated lines of work in social psychology, economics, and some stuff in affective neuroscience, but very little that brings it together.
+
+[19:35] And so a paper, a line of work we've been doing now for three years, between Antonio Damasio, Daniel Polanyi, Adam Saffron, just loads of people, we have finished an information-theoretic account of trust that integrates its affective, metabolic, relational, functional components, and that we're now submitting, I think, to entropy or behavioral and brain sciences.
+
+[19:54] And happy to share the preprint of that. Yeah, that's really interesting. It reminds me a little bit of some of the work in anthropology around shamanism, where I believe it's this author David Abrams, maybe someone can practice me on that.
+
+[20:07] Yeah, who had this encounter with essentially, well, someone we might classify as a shaman, although that category is more hotly debated in anthropology, where there was sleight of hand being used to heal someone. And it was literally the sleight of hand of bringing out an animal organ and acting as though the animal organ was being removed from that person's body and then shown to the person who was ailing, and they were told, this was what was inside of you, and the bad thing is gone now.
+
+[20:38] This sounds similar to sham surgery, placebo stuff, if you've heard of that. Yeah, yeah. The extent of the surgery will dictate the outcome, even if it's still a sham, which is wild. Yeah, and then how much can you dress it up to even heighten the credibility signals, even heighten the idea that even if it is a sham, and I know it's a sham, because this person is a healer who is operating on levels that I don't understand, I'm also being healed.
+
+[21:01] And one of the key things that Wyatt brought up that we agree on is that one of the key sort of adverse, let's say, cul-de-sacs or attractors that we're going to have to be very careful about in making this legitimate area of study and therapy is that people may vary in their ability and their tendency to integrate placebo, which has a lot to do with trust schemas, it has a lot to do with things, and we want to make sure that that, you know, failure, as it were, or shortcoming, or whatever you might call it, is framed in such a way that is productive for them.
+
+[21:30] Otherwise, they put the onus on themselves and it can actually become a form of nocebo. So we have to be very careful with this belief engineering, even if it is a valid way to proceed. Because you see this in some sort of like health cults, where it's like if it didn't work, well you didn't believe enough, you're not devoted enough, you know, and you get ostracized, and that's very bad.
+
+[21:47] That's really interesting, yeah, the social side of things. Thank you, Leo. And Mark, we've come to you, and we have the same question for you. What are you, you're working on some really interesting stuff. What are you noticing in the work that you're doing around meditation brainwave research that is just not being represented either in the broader research world, or in an industry that you care deeply about seeing as an intersection with your own?
+
+[22:15] Number one, this is not new to anybody here, which is that people think that calm and headspace is called meditation, and it's not. There's much more depth to meditation than relaxing into calm. And that, the Muse headset built a whole industry around their measuring depth as how much relaxed are you?
+
+[22:37] And I said, there's so much more. And so, one of the reasons why I built what I built was I said, it can't possibly be true that there's only that one protocol for one state that they think is this state of relaxation covers all different types and all different levels of meditation.
+
+[22:57] So, I wanted to know, what does depth look like? How does it look, how does it differ in focused awareness, in open monitoring, open heart, in Zen practices? Depth looks differently in different styles of meditation. So, just creating a taxonomy, which is on that thing that won't open up properly, was the first step, is to make a taxonomy of styles and levels.
+
+[23:21] And through the research I looked at, in the research I found, there are four different types and four different levels, which means that there's, if you want to study meditation, anything less than 16 brain states is not enough. And what most people do when they talk about meditation, they talk about it as if it's one thing.
+
+[23:38] Do you meditate? You might as well say, do you sport? Like, badminton and hockey, very different. Your next question should be, what type of meditation are you doing? What are you trying to get from the meditation? That is not talked about enough.
+
+[23:54] That's number one. Number two is my soapbox. If I had one, I'd step on it right now. There's an Emperor's New Clothes event that's happening inside of meditation science and psychological science in general. It's called the replication crisis.
+
+[24:10] I took diligent notes, I made the 16 different protocols for the different 16 states by reading five, six hundred articles on EEG and meditation, and it didn't work. And I went, how could that be? I had the best protocols in the world. And the reason was, is because every single study of EEG and meditation is a pilot study of less than 30 people.
+
+[24:32] And I'm sorry to go geek on you, but I think at this audience, I'm allowed to be a little geeky for about five seconds. Just because you get a P less than 0.05, you can get published in an academic article, but that doesn't mean that the results are true.
+
+[24:47] If you remember your statistics clock, you said, P less than 0.05 means it's a less than 5% chance that you got just lucky. And so most people interpret that as, okay, that must mean 95% I hit the gold mine. It's not. That's a different metric.
+
+[25:04] And so all of meditation science is based on swampy ground, and that's why I'm going after a big enough study. Like medicine, you know, you do a pilot study, and that proves where you should spend money on a big replication study. No one's done that in meditation.
+
+[25:24] So I said, well, since I built this failed app, I might as well turn it into a research platform and go find out, get the data. Yeah, and that problem is actually quite far-reaching across a lot of scientific fields. The issue of when do we say that something is statistically probable.
+
+[25:42] There is a, it's called statistical power, but you don't, you can get published by any journal and not report your statistical power. Not quite. You do have to report a power analysis, and preregistration is becoming more common. But I agree that most studies are underpowered.
+
+[25:58] And one of the things that this guy does that I appreciate is he does his effect sizes, which is the other thing that isn't put in there. So it can be significant, but tiny. Not clinically relevant or whatever. Yes. And maybe to try and convey this to a non-statistics or non-data science audience, which I'm actually not really, I don't have, I took one course in college.
+
+[26:19] But essentially what, what this information means is that even though the probability from the data may seem quite high, because of either, actually, what, Leo, because you're here, I think, could you, could you articulate this? Yeah, if you, if you, if you have a sufficiently like high end study, you might get a result that if you had conducted the same test, if you're treating that as a random sample from a larger population in which there's some, there is some reality or some.
+
+[26:51] Um, if you're doing the frequentist approach and now reason I'm getting very specialist again, but let's just say that what the people, the people, you might get a P value of less than 0.05, which is this convention saying that let, if you had done the same sample and done the same thing and extracted the mean or the median, whatever a thousand times. Only five, you would only have gotten this result 5% of the time.
+
+[27:12] If there was no actual difference, be very unlikely to see that there. However, the actual magnitude of that difference might be, for example, as in like a really famous memory and TMS study that we actually, you know, was a whole thing I did in postdoc, but then we examined the paper.
+
+[27:26] We're like the difference, the actual difference that they saw that was significant was the equivalent to remembering half, not even a full, half more objects on like a task in which you could remember up to eight objects. Right. So that's not, that's not clinically relevant whatsoever, practically.
+
+[27:45] Essentially the probability is quite high, but the actual difference between the groups is so minimal that it doesn't really tell you anything. Well, it's not that it doesn't tell you anything, it's just not fulfilling the, the, the, the sort of, the maybe unspoken goal of the study, which is, for example, heal people.
+
+[28:02] Or move the needle. Move the needle on something, and yeah. So if you, if you, if you recruit enough N or, you know, there's a number of ways to make something be a significant result that is still not mean, that is not, doesn't matter. Yeah.
+
+[28:15] And effect sizes are a much better way to look at that, and effect sizes are also what should be used for meta-analyses. Cause meta-analyses and replications have to be done for any finding, particularly in like the social and, you know, more, the further away you are from physics basically.
+
+[28:28] Thanks Leo. Yeah. Yeah. And it, this is a really important part of a, of a lot of this research. Um, so thank you Mark for sharing that and thank you Leo for that explanation. Um, and I, and my impression, it's great for us to geek out or nerd out on stage, uh, because a lot of people will get it.
+
+[28:46] And we can also, I mean these, these ideas can be quite complicated and we want to find a way to make them accessible as much as possible. That was, that was well said. Uh, so, so let's move right into our next question. And it's coming right back at you again, Mark.
+
+[28:59] So, are you ready? Um, so, we, we may have actually touched on this a bit. So you, so feel free to, to touch on it lightly again. Um, but in the work that you're doing around meditation, brainwave research, what is a question that is not easily being asked by, by the other people in this field?
+
+[29:24] Or if you prefer, what is a question that you guys, you just can't answer right now? That just isn't the, the, there aren't the resources or the tools available to really get at? Well, I, I'm going to repeat, we don't have enough data to know what those brainwave signatures are for the different styles and levels.
+
+[29:44] First of all, we don't even have a taxonomy that everybody agrees on. They don't, everybody doesn't agree where you put Zen and where you put TM and where you put Shikantanza and where you put, uh, uh, Vipassana and Goenki Vipassana is different than Incident Vipassana.
+
+[30:02] We need a taxonomy to put these into categories so that we can get some homogeneity when we say, this is what we're talking about. So we don't have that basic, what are we talking about taxonomy. I built one, it's on that page over there. And based on, based on reading the literature and it seems to be working and I hope to make it well used in academic literature.
+
+[30:28] That instead of saying, I'm doing loving kindness, I'm doing open heart practices because I've, we need the genus that goes with the species. And things may be a mix of categories too. Like this may be a non-dual open heart thing and this might be a single point focus, blah, blah, blah, you know.
+
+[30:43] Yeah. That's in the, that's in the chart over there too. Well, Leo, yeah. I mean, it seems you're ready to, do you want to hop right into this question as well? Like what are we, what are we missing right now? What is the question we don't have?
+
+[30:52] It actually touches on something that I, I didn't want to talk for too long when we were talking about like what technologies are we developing. But the main thing Censoria is trying to do, which is very in line with what Marx is trying to do is that we are, we are somewhat missing a map of a neuro phenomenological state space, a map of the varieties of conscious states.
+
+[31:12] Which like if you, if you think about what a map is and what a map affords, think back to, so you know, the 14th or 15th century before we had really the truly like modern world standardized practice of cartography and ways to do that. There were maps and some of them were good, but they weren't widely shared.
+
+[31:32] So often explorers would travel and then come back with fantastical stories. It was hard to independently verify the provenance of those stories. Sounds like psychedelic research. Exactly. So, and then that also meant that you could go someplace amazing, but then it would be very hard to figure out how to get up, teach other people how to get there or it might be very dangerous.
+
+[31:52] You wouldn't, there wouldn't be guides or adequate transportation. Once we overcame that problem and now have these maps that we take for granted, but are a marvel. The fact that we have that is a fucking miracle that we can do that and just, that you can find yourself anywhere, know how to get back there, know how to get anyone else there.
+
+[32:07] Anywhere on the map you can basically go for the most part and there are guides as modes of transportation. And that enabled trade that enabled there to be a shared sort of something approximating some kind of global identity, the sense of something shared and less tribalism as, you know, as much as the world may seem otherwise.
+
+[32:22] You know, it's sudden lawways were way better than we before in that regard. So many things were enabled by having this, by having maps and cartography. The fact that we are now exploring the galaxy but do not have maps of the inner terrain is wild.
+
+[32:37] It's embarrassing. And it's partly because we've marginalized or stigmatized, et cetera, the study of the exploration. So part of what Sensoria does is try to further efforts, Sensoria and ICS, democratizing access to non-denary states, the maximum variety of them.
+
+[32:52] Training and actually creating a vocation of psychonautics so that people can safely explore all the domains of state space. And then actually building the tools so we can actually construct the space space, part of which requires a level of statistical power that we're like 1000x below what we need.
+
+[33:07] And so we need self-sovereign tools for rich multimodal phenomenology such that you can be in a monastery, in a doctor's office, in the middle of the desert, whatever, and collect research grade phenomenology and know where you are in phenomenological state space. Yeah.
+
+[33:21] Thank you for that, Leo. Yeah. We're going to move it right along to give Eric and Addy also a chance to weigh in on this. So Eric, I was thinking about what you're working on with particularly the intersection of LLMs and meditation facilitation.
+
+[33:42] And in that area, are there things that we are just not, or challenges we're just not equipped to solve right now? Or are there maybe challenges that we don't even really know how to even start to look into? Maybe it's tautology. Well, I would say that there is a lot we don't understand about what the role of a, like in general, in both looking at like the role of meditation teachers, like what is it that they do that actually brings the results?
+
+[34:21] To what extent is it, for example, the instruction following that they report spending a majority of their time doing? To what extent is it that it helps? Versus the like nervous system level attunements between the teacher and the student, the retreat participant, for example.
+
+[34:41] And just seeing how the teacher carries themselves and what that implicitly teaches the student about how they could carry themselves in the meditation to where they go. And we've never really had a reason to understand that. And now that becomes very important because there are some of those parts that AI is great at and some of those parts that they definitely can't do without the nervous system or without a body, for example.
+
+[35:10] Would that also apply to virtually or digitally mediated meditation programs like a meditation teacher facilitating something over Zoom? Yes, I would say for sure. The scenario that it might not is like when you like write in like text back and forth with the meditation teachers, that might be somewhat of the level of like the kind of baseline that we aim for a, an AI to do an AI to do and a lot of what many teachers find their time doing is stuff like answering questions and giving guidance that could be given in like text back and forth in that format.
+
+[35:52] However, we don't know how much of the student benefit that ends up being around that. And we can stretch this into the other topic of the future of insight generation of like this stretches over not only to what's the actual role meditation teachers does that ends up creating the shift in the students, but also what does knowledge work look like in general?
+
+[36:19] And how do we separate the kind of execution and like analytical reasoning ends of that versus the intuitive discernment and epiphanies or what some spiritual people might call like downloads? A lot of like breakthrough insights in Eureka moments kind of thing.
+
+[36:39] Yeah, Eureka moments like in scientific history and also in business. I've come through such moments and we haven't seen AI do that type of thing yet. So that might remain like a human frontier that we just don't know how big a deal that is because we've never had the reason to really investigate that deeply.
+
+[36:57] Yeah, thank you. Thank you, Eric. That's really interesting. Well, Adi, I want to offer the same question to you. What is this? What are we not equipped to answer right now? But I also want to set you up with our question right after. Which is why are you? Why are you in particular working on this?
+
+[37:19] When did you start working on this actually? The first is are we, you know, are we equipped to answer this or not kind of thing, right? Yeah. You know, the beautiful thing about science is you never really have all the answers. It's always this perpetual journey that you hope will take you somewhere and, you know, hopefully it does.
+
+[37:39] But I think we, look, this entire thing could be wrong. Maybe these things do work. Maybe the experiments will show that you can do these things and it's not for the reason that we think or that I think, right? This is totally possible. And I think we're always going to have a level of uncertainty on that unless we can have a really good theory to make sense of it, right?
+
+[37:58] Because when you look out into the world and you see things happening in front of you, you have to assume there's a pattern and there's an order. Otherwise, then you can't make sense of it, right? And so we're seeing these phenomena that looks interesting.
+
+[38:09] It's catching around. It's been happening for decades, for hundreds of years across science and all these different kinds of things. And like I was saying before, we never quite had a mode to make sense of it. And I think the thing that would finally get us somewhere in this is, yeah, to do the experiments, but the thing is that there's already, frankly, been enough experiments on these things over the years that what we really need is some kind of theory that puts it together so that we can understand what is happening and then what we can do with it next, right?
+
+[38:34] In a way that replicates and takes us somewhere and actually helps people. And then the second... Yeah, and then why is Addy Cha doing this? Like, specifically you? Yeah, I mean, I know you a bit personally. Hell if I know. I mean, I think, you know, there's sort of the childish inspiration for this from when I was a kid, and then there's sort of the more mature stuff.
+
+[39:03] But the initial thing, you know, I think what inspired me when I was a kid, although I think everyone here is probably either my age or older, so it may not be as applicable these days. But, you know, I was very fascinated by superheroes, particularly like a Batman or a Spider-Man, because they were still kind of human, but they had...
+
+[39:21] Batman technically doesn't have superpowers, Spider-Man sort of did. And I thought, okay, like, what if you could actually make that real, right? And, you know, there was this cartoon I really liked on Cartoon Network, it's called Ben 10, with the Omnitrix watch, if any of you remember that.
+
+[39:33] And it's like, okay, oh, oh boy, there's this kid, and he gets this alien watch, and he can just click a couple buttons and transform himself. Like, what would that actually look like, right? So, from when I was very young, I would look at all these crazy things you see in sci-fi and animation or whatever, and I would think, just for the hell of it, how could you actually make this thing real?
+
+[39:52] Right? And I was always in that train of thought. And then as we move over to the other half of my life when I was older, is I think part of it is it seems so obvious to me. I don't know if that's a good or a bad answer, but it seemed obvious to me when I was looking at this stuff.
+
+[40:06] When I was looking at clinical hypnosis, I was looking at placebo, nocebo, it seemed obvious, like, wait, this is just talking about how this thing that we call the mind is affecting the body. And then my interest in research or in meditation, all these kinds of things was like, I was connecting these pieces, and I was like, are other people also seeing this?
+
+[40:22] Is there something wrong with me? Why am I seeing this? I don't know. But if I had to sum this all up, the first thing that I would recommend doing for everyone is look at your science fiction and your science fiction, fantasy, all that, like Harry Potter and magic. What would that look like if it was real? Well, now it actually turns out if this prayer placebo thing holds and we can say that words are kind of spells, maybe we'd be able to have a hyper language where you could effectively have that kind of relationship with someone where I could, you know, get you to feel something just by telling it to you, right?
+
+[40:56] That's the field of hypnosis. And then the second thing that I would say is don't be afraid to, like, think of something in a very weird way. You don't have to necessarily tell everybody about it, but just think about it and see what road it takes you.
+
+[41:10] There's a meme. There's this guy with an axe and he's trying to look for a pot of gold at the end. I don't know if you guys have seen this online somewhere. And, you know, the road there looks the same. So he's like, oh, I'm going to turn back because I can't tell the difference even though he's right on the inch of it.
+
+[41:22] And I feel like maybe that's the territory we're in with this, you know, and that's the TLDR of my story. Yeah. Yeah, I love that. I mean, it's a fun world to imagine. Yeah. Eric, I have the same personal question for you. Why are you working on this right now?
+
+[41:44] Yeah. So when I started meditating as a teenager, I would like only the support of like some online guru guy who seems to wake my interests. I had some really like really strange and gnarly experiences and it was terrifying in many ways, but it also like awakened and like made it really clear the potential that I see in consciousness and how vast and full of potential consciousness is and seeing how deeply that could affect me.
+
+[42:27] Making me like imagine both how much value I could have gotten out of that with the right support, for example, AI support that could be more democratized than it is today, but also the potential of these states and how they could be integrated for innovation in the world in general. I think that now that the AI revolution is changing so much in the world in one oftentimes kind of like analytical direction, I think us really making like bets for breakthroughs in directions that can complement that, which I see consciousness as an excellent source of potential of it.
+
+[43:11] So I think that's something we really need to be able to complement this kind of like intellectual super intelligence that is coming and for us not to drown in that as the only thing that leads the world in the coming decades. Yeah. Thank you, Eric.
+
+[43:34] Leo, similar question, but I want to hone you even on when did you start down this path, the path of what you're working on now? Yeah. I mean, honestly, without exaggeration, since I was pretty young, a lot of the philosophical quandaries characterized sort of my early and mid teens around like, why do we do anything?
+
+[43:57] Why do why are we alive? You know, like, you know, myth of Sisyphus type stuff, like how to react to the absurdity of life? You know, how to imagine new things? I read, you know, I read Frank Herbert's Dune and I got this very long form sense of like, that we might be very early on in our history.
+
+[44:14] Um, and did a lot of meditation, psychedelic since I was quite young and martial arts and I just, all of these led to this, um, to a set of interests and also and read a lot of chaos theory and complex systems theory. Like I read chaos by James Gleick when I was about 14.
+
+[44:32] And, and, and it, and I was just like, everything is changed. Um, and I think as much as I. Complex systems will do that to you. Yeah, it really will. And as much as like, I, I love how excited people get by quantum physics. Um, I, I think it, most of it pertains to scales that are not intuitive to us and actually don't have much of an effect on daily life with, with a lot of very prominent exceptions.
+
+[44:53] I'd say relativity is probably better to try and understand and complex system is essential. I think complex systems should be taught since because, because it involves axiomatic differences in how you think about the world. Um, I think it's something that needs to be taught very early on.
+
+[45:08] I really want to do a whole course. It's like chaos for kids. Um, and I think it's extremely important because there are a lot of intuitions that guide even, you know, high level policy making that derive still from this like Newtonian linear worldview, this Cartesian world.
+
+[45:26] There's all these different where we're in the, we're still in the vestiges of some old. And I think a very obsolete worldviews that limit our capacity to even imagine solutions, not just solutions, but like the nature of problems. And, um, and so, you know, now I see this combination of, you know, individual and collective crises of meaning, poly crises, problems that evade our current distributions and problems that are ultimately complex systems problems.
+
+[45:51] And I, so I think I'm, I'm very motivated in any efforts that allow us to, um, integrate complex systems thinking more into every field. Um, and, and, and, and also that the use information theory to try and bridge lived experience and phenomenology, which were the vestiges of behaviorism too.
+
+[46:13] So we need to reattend to lived experience as something important. And so it needs to be measured and considered with even our economic models. Um, and, um, yeah, then, and then, and then if we don't do the kind of work to bridge complex systems problems and complex systems solutions, and the problem of meaning making and the problem of self transcendence and how to embed ourselves into larger scale trajectories like we once had in most of societies, like there was this Greek proverb that like a society grows great when they plant trees, the shade of which they will not sit in.
+
+[46:44] And we're very short term minded in that regard now. So, um, just all in all, I think if we don't attend to that work, then we're heading towards a future of sort of, you know, bleak, you know, doomerist techno feudalism and authoritarianism.
+
+[46:58] And I think that, you know, we're, we can do better than that. Yeah. Yeah, I really love that because the theme of this about the, the future, the contemplative futures we're building, the futures of our, of our minds, the futures of our practices, the futures of consciousness.
+
+[47:11] And, and that is the goal. That's the goal right there, Leo. So thank you. And Mark, I'm also going to give you a twofer because we're, we're hitting a little low on time. So I want you, I want you to, to punch with this. Mark, why are you working on this?
+
+[47:31] And also when you finish this work or when this work is finished by the next generation that finishes what you started, what will the world look like? I built it for me. Okay. Let's do a switch. Let's do a switch. Yeah. So I built it for me.
+
+[47:52] I wanted to get to Ananda. That's all the wrong reasons. Yeah. I wanted to, I wanted to bilocate. I wanted all the cool things that came with deep meditation. And I didn't want to spend 30 years in the monastery to get there. I wanted to shorten the path.
+
+[48:07] So I thought that if I created the map, could create, could situate myself on the map through brain waves. So which latitude and longitude am I at? Then create training to Eric's point to say, here's where you wanted to go. This is where, where you did, do the phenomenological studies, show the gap between where you wanted to go and where you did.
+
+[48:31] And then create teachings out of that. And only when you have objective phenomenon that says, this is what depth looks like in this style of meditation. Can you adjust, learn, adjust your pedagogy. I want to get better pedagogy so that we'll all learn faster when we have objective measurements of whether you got to South America or not.
+
+[48:54] And, and so, so what will the world look like when this is done? We're all going to have, we're having a map. We'll all know where we're on the map. We're going to have the technology to get us to the right place on the map. The right place, like up here, right?
+
+[49:08] Yes. The right place up here. The inner map, the inner, the, the, the, the, the psycho, the psycho state. Thanks Mark. Thank you. All right. Pass it over. Leo, let's do, let's do our punchy future visions. Yeah. So when you're done with this, what is the world going to look like?
+
+[49:24] Uh, yeah, we're just, just, uh, uh, basically, um, a world of, um, not just citizen scientists contributing to a civilization level endeavor. Cause I think we need one, um, and navigating the internal space, I think is a valid one, but also one in which by that very token, you have people who are engaged in, you know, phenomenology as a lifestyle, which is a kind of a form of Trojan horsing in Vipassana.
+
+[49:51] You learn to appreciate and note the, all the complex richness of moment to moment experience, which is one of the ways to get out of the counterfactual cul-de-sacs that often perpetuate depression and despondency. Um, but also, yes, having the self-efficacy and the sense of agency that comes from knowing that there is a map, knowing where you are in the map, knowing how to explore that other people can get there.
+
+[50:13] You can go there together. You know where the dangerous areas are. You can maybe explore the edges of the dangerous areas till we can plumb what things may fall out of the edge cases. So just, it's a, it's a whole, it's a whole new frontier, um, which I think is very exciting.
+
+[50:26] Yeah, absolutely. And dangerous, but you know, all good frontiers are dangerous. Yeah. And thank you for acknowledging that. That's, that's really important. Eric, same question to you. What is the future going to look like? Yeah, I would love to see a future, well, where humans can really thrive together with AI.
+
+[50:47] Um, and one path of that, that I am super excited about is looking at this, how can we leverage the depths of human consciousness and engineer ourselves into the states that, um, states of self transcendence, that both make us feel the best and be the best human. Um, but also, um, leveraging that state engineering for insight engineering to help us find that information and intuition inside ourselves that helps us truly bring something unique to the table that AI can't.
+
+[51:23] And for all of us to be like the Einstein's to have that Eureka moments. And is there a way that we just like we've trained the, um, train that you analytical mind through all the school systems can train the intuitive and consciousness of humans to, um, bring the depth of consciousness as something we can creatively bring out into the world.
+
+[51:46] Thank you, Eric. Thank you, Eric. And Addy, bring us home. What does the future look like when your work is finished? What if you've got a really awful shooting back pain? It's just killing you every day when you wake up and when you go to bed.
+
+[52:03] You've got a terrible migraine or a headache. It, it kills you because you can't focus on anything and just, just, you know, think about it. What if just by thinking about a word or a set of symbols inside of your head and it's gone? Or what if you've, you've got to crank out for an exam tomorrow or you're working on an event at Edge Esmeralda and you're exhausted, right?
+
+[52:20] What if you didn't have to go and buy a cup of coffee and you could just think about it and it would feel like you took the best cup of coffee in your life? Or since we're in Silicon Valley and SF, Modafinil, Adderall, whatever, right? And just by thinking about it, you can get those effects.
+
+[52:32] And now you don't have to pay for it. You don't have to take it. You could just think about it like you're recalling a memory. That's beautiful. I could use that. We all could. So these are the futures that I also envision because this is the kind of world that we want to shape together.
+
+[52:49] I mean, it's maybe all of these futures. Maybe it's something that's synthesized from understanding the many futures people are building actually today. This is something that could motivate us. That should motivate us. To think about almost a science fiction of what could be coming in 10 years, in 50 years or 100 years.
+
+[53:10] As we begin to understand these questions in more depth and we have more conversations like these. So I would like to thank, truly thank these wonderful panelists who have joined us today. Could we please have a huge round of applause. Thank you, Luca.
+
+[53:25] Beautiful Luca as well. Thank you. And before we go, please, any call to actions that we can do in 60 seconds or less. Quick, go. Yes. Go, go, go. So, me and Leo are running an exciting experiment right now, actually. Over at the hub in the wellness space where we're actually doing an experiment of a protocol that we've been iterating on for the past couple of months on how to use state engineering.
+
+[54:04] So, inducing non-ordinary states of consciousness using a method that Leo has done research on for a couple of years to induce insights on how to solve professional and scientific problems in the world. So, anyone who wants to give that a try and see what the potential of their consciousness is for that, join us and speak to us along the way over to the wellness space.
+
+[54:31] Great. They can learn more over there. I want to give, Mark, 30 seconds. Do you want to do a call to action? Wait, before we go. Hold on, hold on, hold on. Please go to imbr.org and sign, if you meditate for at least a year, I have a loaner program so that you can be part of the Citizen Science Project that donates your brainwaves to science.
+
+[54:54] Mark just wants you to donate your brainwaves to science, people. Please. Yeah. One last round of applause. Thank you, everyone. Thank you so much, panelists. Thank you, everyone, for coming.

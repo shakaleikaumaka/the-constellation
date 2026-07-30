@@ -1,0 +1,397 @@
+# After Bureaucracy_Network Sovereignty _ 2_ Designing Intelligent Institutions
+
+Date: 2026-06-12
+Source video: After Bureaucracy_Network Sovereignty _ 2_ Designing Intelligent Institutions.mp4
+Drive: https://drive.google.com/file/d/1wAtqzFyoSETtge5E0ChIwzrxbwpj3kWB/view
+Duration: 01:05:08
+Transcribed: 2026-06-17 · whisper large-v3-turbo · language: en
+
+---
+
+[00:00] functional sovereignty in depth. Goals of the session. I will also tell you a slightly little bit about all the examples, and I want to talk also about the difference between nationhood and statehood, and why it's a relevant distinction to make when you start thinking about how to model new sovereignty.
+
+[00:27] I put this slide in right before we started, so that's why it looks like this. But I think it's a very interesting distinction to think about nationhood as this kind of kinship and community and the experience of what it's like to be inside of a community.
+
+[00:46] There's a lot of nations that have never had a state, but that are still complete nation, like the Kurdish nation, for example, or the Jewish nation. There's a lot of nations that have always existed, but that has not had a specific statehood.
+
+[01:02] So the nation state has just merged the two political forms of nationhood and statehood, and nations just persist over time, and statehood happens to be like the institutional form that that nation has taken at that specific moment in time.
+
+[01:19] So when you speak about network nations and network states, network states focus more on the statehood side, because they focus more on the territorial sovereignty, and how to get that kind of status that states currently have, whereas network nations, they don't bother with getting to the status that states currently have, because they just want to get to the nationhood and to be able to govern themselves.
+
+[01:41] It's a nice distinction to keep in mind, because it's just like pure political science, and it's like, it's important to keep, just to keep talking. So it's not a new experience that we have trans local communities that are governing themselves and that sustain themselves over time.
+
+[02:03] And here's a slide of historical precedence. The very classic one that is being talked a lot about in the space is medieval guilds. My personal favorite is pirates, because they have actual, like they manage to exist not bound by any territorial form, but they still have a nationhood, and they have like a lot of independence on the ships, but they still form a community, and they have constitutions, and like depending on where you are, like it's a very, very good case study for network nationhood,
+
+[02:36] and they are very cool. So what is new is actually the technology. So why we're even talking about it, and why it's interesting to talk about now is because we can self-host kind of self-sovereign technology to an extent we were not able to do before.
+
+[02:55] And we can form nationhood, which is connected to the question of the panel, in a way digitally that has not been able to do before either. So like we have kinship groups that are forming online that have a really, really strong kinship, but they don't, then they just find each other, and you just like send out these signals, and you find each other, and you have more in common with these people than you happen to have with the place that you're from.
+
+[03:19] And now we're coming to the tipping point where it's like it's getting relevant enough, and you feel common enough that this is your people that you might want to start governing things or like doing collective decision-making to in a more ambitious level, right?
+
+[03:35] And blockchain is a big deal here. We cannot talk about network nations or network states or network sovereignty without talking about decentralized distributed technologies and what they enable for us. Like to be able to have sovereign financial infrastructure is huge.
+
+[04:01] To be able to have tokenized resources, it's huge. Like we need this to be able to scale and to be able to actually start experimenting. Of course it's imperfect, but it opens the space. Before it was just speculative. Now it's like you can start iterating properly.
+
+[04:15] And then we have this experience, right? So the main shift is that we shift from this territorial sovereignty to governance capacity. And Federico will speak more about this. You don't need to focus on becoming a nation state or like getting the status of a nation state to be able to experiment in a sense that is purposeful and that is relevant in this design space.
+
+[04:45] So who is it that is actually playing? This is a joke because it's a chess board but I wrote cards. So I will do this again. So we have the two big, big ones that are like really focusing on world building level are network states and network nations.
+
+[05:09] The main difference between them is as I've talked before about with territorial ambition and functional sovereignty and that it's like complementary to states or competitive. Both inherently valuable in their own way and need both to explore this design space that we are currently in.
+
+[05:28] But I really want to get across that like this is a big design space that is currently getting quite memetically grabbed by just one meme but there are many other ways to think about how to structure network sovereignty than through the like blueprint of network states.
+
+[05:43] And then we have the functional level which is what we were talking about of like functional gateways and different products and like web three tooling and all of this stuff that is very efficient on governing their specific thing to a self-sovereign level and is important to even start stacking sovereignty.
+
+[06:05] But you don't want to become sovereign to exist on this layer. Like you can just have a product that is functionally sovereign kind of by accident but you still exist in this level. And this is the core, like this is the core message. So we have all of these different emerging governance forms and depending on how you architect
+
+[06:36] want to get this large, if you want to become this large political form, this new political form that can govern like the commons in a better way, you really need to be very deliberate with the architectural choices that you make like with the stack that you are building inside of yourself.
+
+[06:51] And right now this is an emerging field of study and it's like it's coming from all different sides and it's a very fun place to be. Okay, so let's go into functional sovereignty. Any questions before? Good. So functional sovereignty is like a very geeky and important concept to grasp because sovereignty is not only,
+
+[07:24] like right now we have Westphalian sovereignty which is connected to the monopoly of violence over a specific territory. And this has been the case for the latest, for 500 years I think. Yeah, 16, what was it? 16 something, the piece of Westphalia.
+
+[07:40] But it's, and it was very useful at the moment in time when it was invented and it was absolutely revolutionary because before that you had the divine right of kings and then suddenly you had the nation state which was much more representative for how the people were like belonging and organizing and wanted to, wanted to scale.
+
+[07:58] And now we have this moment where the wheel has turned again and we have to reconsider what sovereignty could mean in our future, like in our future. And I like the Keating quote because you often think about it as like black and white, but also as Jackson said, it is the scale.
+
+[08:19] And sovereignty has always kind of been the scale. And now we're experiencing it getting dispersed. And instead of striving for the jure sovereignty, like something that is granted to you from a legal framework, you can just have de facto sovereignty, basically being able to do whatever you want without being shut down.
+
+[08:45] makes you functionally sovereign over a certain area. And then if you have a lot of them, you can start thinking about what that would look like if you really scale it and stack it. This is from a Network Nations lecture. So originally the term, as I know it comes from Frank Pascal,
+
+[09:16] who is a researcher who was writing a lot about these huge, huge, huge, huge, huge companies that are now currently governing areas that the state used to have monopoly over, but they don't have that monopoly anymore. operations and infrastructures, they basically govern key functions of contemporary society, but without any accountability.
+
+[09:39] So the like the key thing is that if sovereignty is unbundling from states, whether we like it or not, like if they're losing this grip of areas that they used to have monopoly over, who else can claim it? And on what terms? Yeah. So basically if you flip it and make that the owner reverse thing, you can have a positive framing of functional sovereignty, which is when communities like create the capacity to govern
+
+[10:11] to the extent that they actually take over state functions in a useful way. And then you get your authority from just working. Like you don't get your authority from any external party. You get the authority from the community that you govern for because it works and that, that flips it.
+
+[10:33] And this is very heavily influenced by commons theory and all of like the Michel Bowen's work and comes from a long lineage. I want to underline this again because it is really the precondition and it is the main thing that is new and why we're even talking about network sovereignty instead of just like communities chilling on the internet and doing things together that are more interesting.
+
+[11:04] Like this is a very big thing that we can actually govern our own technology and that we can stack it. But it needs to be governed as a commons ideally. Like it doesn't need to, but you know, if it's not governed as a commons then you just replicate what we're currently experiencing.
+
+[11:20] But the opportunity for us right now is to govern this technology as a commons and to stack it instead of having it being governed for us and being opaque. And this is the functional sovereignty like unlock. This is, this is specifically for network nations, but it's also generalizable for network sovereignities.
+
+[11:46] So why is this like interesting for us to talk about? For me, I will start with civic empowerment because currently if you are a politically active human or like you want to be a politically active human, there are no avenues that you can take to really get involved with how institutions are governed or structure or built.
+
+[12:11] It's like you can vote once every four years and that's basically it. And that's like, and then you don't have any real power over how your systems is governed, right? And there's the huge, that's just like a very basic tragedy that we're currently living through.
+
+[12:27] So if we have this kind of governable institutions that are owned by the, like owned by our commons, then we have that opportunity to have like a civic empowerment line. And translocality is that if we manage to do this, then we can manage to create political forms that reach into areas that we currently cannot reach into.
+
+[12:50] So we have like an opportunity to govern across the globe in areas that we currently just cannot touch from a limit of form. And then of course the main one is institutional innovation. Like we have an avenue to do real institutional innovation that previously was closed.
+
+[13:13] And this is just to say that we're in this potential form. So Eve is the Pokemon that can take the most final forms depending on what she's exposed to. But we're really in this potential form and we don't want to close it too early because right now we're just focusing on like one of them.
+
+[13:29] But we can have all of these different, all of these different final political forms. And all of them are worthy to explore, right? This is just a link to the work that we are doing with Network Nations. If you're interested in it, please check it out.
+
+[13:48] And? And? Question? Okay. Can you go back to the functional sovereignty slide? I had a question on that one. The Uno Rivers one? Yeah. This one. So the question I had is in the negative framing, right? When I think of, you know, OpenAI and Anthropic and Palantir and all of them, and even things like, you know, Twitter and social networks, they've got money, they've got network effects, they have high friction exits,
+
+[14:21] they own, you know, they have a lot of proprietary data that they're withholding. So it's a lot of strong things. On the positive framing side, obviously people can kind of collect, right? But it's challenging, right? But it's challenging, right?
+
+[14:34] If you look at like, you know, Warpcast or Farcaster versus Twitter and the crypto space, everyone including Vitalik is like, let's switch, let's switch. And then after a month or so, they were like, no one, not enough people are here, right?
+
+[14:47] Network effect didn't take hold. So there's money, there's people wanting to, you know, be on that. I just, I wonder if like those kind of functional attributes, if we can, you know, is that useful to just even on slides, just like spell out what do we have?
+
+[15:02] What are we up against? I mean, we're up against a lot and we don't have a lot. Yeah. Yeah. Like, but the important thing is that there is an opening to structure it. Yeah. And that it's relevant enough to keep investigating how to move the masses.
+
+[15:21] Yeah. And that actually is the second one. If this is the question, I don't have the answer to the question. That's okay. Yeah, please. I think, I mean, the point that you raised is really, really, really, really good because we have 25 years of evidence and an understanding of how those networks played out, right?
+
+[15:41] And what made them open versus closed? What are the lever, what gives leverage to those networks, right? And it's really important for people to understand that we're walking into a world in which those and dynamics apply to the rest of our lives.
+
+[15:54] Us, our public services, our institutions become protocolized, right? So, the third session where we'll do at the back is a bit about that because everybody here has read Machiavelli, The Prince. You have network princes now, right? The leverage, how you capture, how you create that locking is really important for citizens to understand as we walk into the world.
+
+[16:17] And then maybe for the discussion later, but I'll just kind of tee it up that I do think it's interesting that right now, I feel like a lot of this discussion is fairly bougie. You know, the kind of people who can deal, but you said the thing about masses.
+
+[16:29] So, that's really interesting. How do we get it available for the masses? Anyway, I think somebody, did somebody over here have their hand up? I will always ask a question. One of three, I'll pick. I want to talk a little bit about how you see conflict resolution happening within these communities.
+
+[16:52] And the digital communities, the exit is so easy and everybody just rage quits. And I think that's one of the reasons that they are so fragile and die off. I thought your list of experiments on a prior slide was ironic, right? Of the five. So, for example, if I live in an apartment building, people bitch about noise all the time.
+
+[17:18] And you need some mechanism to resolve that. Do you guys have, do you see mechanisms that work to make that work better than what we have today? Just the simple stuff of real life. There's one framework that is being developed, which is the framework of entanglement as a, like, as a resilience ingredient in, in communities.
+
+[17:41] So, it's the contrast to exit. It's like, you don't want a system. I mean, you want people to be able to rage quit, but you don't want them to be so heavily entangled that it's really against their own interests to rage quit the system. And then it's like a, a step, a step by step on how you entangle into the system.
+
+[18:03] And you can entangle them in a lot of different ways. Like, humans entangle by marriage. And then you have, like, really shared stakes and you really don't want to get divorced because you're legally entangled and it's gonna, like, mess up everything.
+
+[18:14] Like, children is like entanglement by blood. It's like a very deep one, but there's also, like, easier ones, right? What is the very common way that you pool resources in a company? Like, you invest in a company. Things that people have experimented in token governance for a long time.
+
+[18:29] Like, this is also examples of it. So, in these communities, you need kind of an entanglement function in each of the services. So, like, in the community at large. And that's where it will be extra difficult in these, like, translocal or digitally native ones because, like, sure, you can have some money in it.
+
+[18:51] But if you don't have this, like, cultural connection, then what? So, like, the apartment building, you will, of course, figure it out because you live there and you need to figure it out. But if you are just in this, like, if you're not in this embedded location, how do you do that?
+
+[19:07] And right now the mechanism, the proposed mechanism is that you can design entanglement mechanisms to the extent that it becomes, just, you become disincentivized. Oh, hello. This is more of a comment and maybe you all can riff on it or in a further discussion it can be riffed on.
+
+[19:36] But I'm in a lot of these spaces in governance and things like that. And I feel like there's a deficit of imagination because a lot of these ideas exist in the abstract. And it's hard to imagine how or why I might want to embody these ideas in the concrete and what that would actually look like.
+
+[20:02] So I think there's a space here for a lot more storytelling and fictionalization or even telling true stories where some of these ideas are being operated in practice. But just a comment. I think it's a great point. Can I give a few examples of, like, proto-network nations that we're studying and experimenting with?
+
+[20:28] So one of them is Burning Man because it has, like, very strong nationhood and it has the translocal quality but not the coordination mechanism but it has, like, all of the, it has the setup to become a network community in this way that governs themselves globally.
+
+[20:47] Another one is, like, yeah. What dimension of sovereignty do they want as a collective? They don't want. That's why they are not, like, trying to become one. But we work closely with a lot of the Burning Man, like, representatives and core people in the organization.
+
+[21:12] And they are struggling with this because they need coordination mechanisms because they're so big but they don't want to break the fabric that makes the, like, that makes the culture. So it's like you need to, you need to balance on this. But, like, as an example of what network nationhood looks like, it's like you already have these huge communities that have kinship and that call themselves, like, you call yourself a Burner, right?
+
+[21:37] If you are a Burner, it's like you have that identity. You have that identity as, like, a stackable identity. Like, you have your passport and you have, you're a Burner. And you're, like, Karate. Like, all of, I mean, it's like you have a stackable identity already.
+
+[21:52] So, like, these layers that are wider than others, they can be turned into network forms. And can you just get a little bit more specific about what exactly they want to coordinate? Like, what are those? So, I'll give you, I think your point on us needing a lot of more storytelling is very, very relevant, because I don't know, probably a lot of you here have read Donela Meadows' leverage points yesterday at the session.
+
+[22:18] I think you were there. They mentioned that they brought it up. I love that article because it is very true. In my conversations with a lot of bureaucrats and even government ministers, they just are incapable of imagining another form of organization that's not a hierarchical bureaucracy, because they've lived in it forever, right?
+
+[22:40] So, when you, really for this, I mean, the beautiful thing for me about network nations and network states is that there are spaces of experimentation where you actually can start thinking about the coordination stack, literally, what are the layers and what are the technologies that enable it, right?
+
+[22:53] And there's great examples that have already made it to the mainstream, right? So, for example, stable coins, right, is a great example of a coordination technology in a specific piece of the stack that completely reconfigured how the world sends fiat, right?
+
+[23:08] And so, those type of examples are the ones that help start to break the paradigm of us living in hierarchical, but bureaucratic and jurisdictional-based polities and those institutions, right? So, we need much more stories like this one. Yeah, can I give one more example of a Chinese diasporic community that is a Dao called Xie Dao?
+
+[23:32] So, it's like the Chinese, it's inside and outside of China. There's a lot of Chinese people that feel Chinese but they don't identify with the CCP. So, they have a community where they can, like, self-organize and connect in this way. So, like, but then how that embodies in person, it's like they have a decentralized communication layer because that's what they need to be able to, like, find each other and coordinate.
+
+[23:54] But they don't want to be sovereign because they still want to stay in their host state. They just want to have this, like, stackable layer of belonging. So, like, there's examples but there's, it's really hard to make it tangible because it doesn't really, it's like, we're not there.
+
+[24:09] We're just like, let's try to go there. But how? They're confused is what I'm saying. And they're obviously in a bit of turmoil. But their head of community was like, yeah, we need something. Like, you know, because they're trying to get the regional burns.
+
+[24:40] That's their franchise brand strategy, let's be honest. They're kind of running like that. Yeah, and it's just like they didn't, but it was against their ideals. Like, they just were a bit confused. Is that what you found? With Burning Man specifically?
+
+[24:55] Yeah, I mean, you don't, they don't want to, they don't want to become a sovereign nation. Like, they all like to experiment with this. They just want to maintain their, their community, but they're scaling like crazy. So, like how, how to?
+
+[25:12] Please forgive me because I missed the very beginning of this. But for some of these communities that are going to be networked, do you have ideas on how to scale it? Because doing it in a small capacity is so, so different than doing it in like a larger capacity.
+
+[25:30] Um, and for me as someone that came from like a tiny village, I feel like the dynamics of how people interact there, like knowing everyone and like having to live with friction in a different way because you're like going to be around these people all the time. It's like so different than a very large group.
+
+[25:48] Um, and so sorry if you've already answered that. Um, not answered and the key point to figure out. And the, like we speak a lot about like cosmolocalism and to be translocal, to be like both very grounded in the local community, but also interconnected.
+
+[26:04] And the idea is that you can like the idea of cosmolocalism is that you have your local community and you govern your local community as you normally would, but you're also interconnected on this network layer. But that doesn't really mess with how you do your local business.
+
+[26:21] Nice. You're talking about studying, um, Burning Man and I'm, I'm kind of, I grew up in California and around a lot of burners and stuff pretty much my whole life. And I'm just wondering at like what level, are you studying the event or are you studying like the subcultures that happen all throughout the year as well?
+
+[26:44] They're both. So we did like, I can tell you exactly where we're at in the, on the Burning Man case. So we had a workshop last summer with two representatives from Burning Man, um, and a bunch of academics and practitioners, and they were interested in experimenting with this to be able to coordinate better.
+
+[27:06] Um, and we're still in that, like we're still in that. There's a podcast episode with Erica Blair from the Burning Man Foundation. Have I mentioned the Moon Tribe to you? No. No? Okay. So let me tell you about this. Okay. Great. Like it's really interesting.
+
+[27:20] So you got Burning Man and Burning Man's been going on for a long time and people go and they meet each other, but then they, they almost develop sub nations within the nation network nation of Burning Man. And so one of them is called Moon Tribe and they're very active, um, in Northern California and the coast.
+
+[27:37] And so what will happen is that, I mean, they, these guys are already really networked up. So if you're in the Moon Tribe and there's going to be a renegade or some kind of thing, the, the word will go out. It stays really secret cause I don't want people to know.
+
+[27:49] And like 2,000, 3,000 people will end up 14 miles into the forest off road with everything they need to throw a rave. And like stuff like that happens just all the time. And so I think you're onto something with it. And if you look, if you look like at the iterations of it down the line and there, you'll see like they recruit every day.
+
+[28:08] People will post up on Facebook. Hey, I need a, I need a tribe. That's kind of how they put it. That's kind of how they put it. And then they'll be absorbed in. So I thought it was, yeah. And I don't think that you can, thank you for sharing that.
+
+[28:19] That's super interesting. And for sure interesting as a research area. We're like, we're looking for more researchers and we're looking for more case studies. So just shoot them at me. Alright. Thank you. This was fun. Now Federico is going to take us through how this kind of networked institutions can look like in practice.
+
+[28:51] Yes. Yeah, so we've been discussing the, the idea of a network nation, a network state, right? And the, the memetic value that it has in allowing you to rethink what a, what sovereignty looks like, but also the, the, the, how it's organized.
+
+[29:11] And how it's actually operationalized, right? So I'm going to get into those layers, right? What really are the institutional forms that have the ability to give societies, groups of people, the ability to coordinate at scale, right? And so every era of rising complexity eventually leads to a corresponding leap in the way in which we organize our collective authority, right?
+
+[29:35] Throughout history, we've seen this cycle play out. You have a technological innovation that leads to societal collapse almost, right? Tension and collapse, right? That opens an opportunity space for new institutional innovation, new forms of organization, of firms to emerge.
+
+[29:53] And then eventually to new coordination regimes, right? So that for me is the framing. We are in the midst of the early days of transitioning towards a new coordination regime. And of course technology, you know, we all know that this is to a great extent catalyzed by technology.
+
+[30:10] It's always been the same throughout history, right? From the printing press, which made knowledge cheap and, and able to copy, which allowed societies to scale religion, learning, science, bureaucracy, right? As a form of organization, right?
+
+[30:24] As a form of organization. To the steam engine, which converted heat into machine power, allowing us to build capabilities in that way. To computers, which allowed us to compute, calculate at scale, right? What people think less of is that technologies give us our ability to expand our physical operation capacitors.
+
+[30:44] But it's actually notational innovation, which leads to new forms of organization, right? So when I say notational innovation, I mean a way to codify, structure, shape. And that's really what changes the way in which we organize, right? And there's beautiful examples of how notational innovation has allowed us to coordinate at scale.
+
+[31:04] The music partiture, right? 12 notes, and with those 12 notes that encode sound in a way that allows you to come up with music from Metallica to Bach, right? The double entry accounting and the impact that it had in codifying value and allowing us to analyze a company and its finances in a way that was made comparable across a series of,
+
+[31:38] yeah, yeah, comparable across internet protocols. And the way those encode and in a digital format that allowed them to travel, right? And more recently, right? Finding new ways to encode physical assets or fiat in a way that allows it to travel through a new technological stack in a way that's much more efficient and allows us to scale, right?
+
+[32:04] And this has always been the case as well for government, right? And for governance. We've always found notational forms of innovation that have allowed us to scale and coordinate and make decisions at a faster rate and more broadly, right?
+
+[32:22] From the cuneiform, right, back in Babylonian times, which created the administrative record, to the cadastro, which suddenly made a parcel and a piece of land governable, to the ballot in a way, right? That's a way to encode the will of the people. The U.S. Constitution, in a way, is a way to encode rights, right?
+
+[32:39] There's notational innovation has allowed us to change the way in which we coordinate. And they're always paired to a technology, right? So really, the breakthrough in institutional innovation and in the way in which we organize and coordinate at scale comes from the moment in which society invents a new way to encode authority, trust, and coordination so that it can travel, right?
+
+[33:02] And we're one of those moments right now, right? And we've been talking throughout the day of how this really should be thought about in terms of a stack, right? We are trying to coordinate a society at scale in a world that's much more interconnected, much more complex, where the challenges are really planetary at scale.
+
+[33:20] And so what are the layers that we have to be thinking of, right? What does a coordination stack look like? This is, of course, an oversimplification, right? But you have a rules and constitution stack. There's great examples there happening all over the world from Daos, which I think actually, even though, you know, they've had mixed results and mostly a lot of failures.
+
+[33:39] They were an extremely implementation in terms of how do you set rules. But also new autonomous regions, especially economic forms like Prospera, or the network state, or Praxis, offer great opportunities to experiment with new forms of constitutions.
+
+[33:57] Membership and identity, thousands of identity companies and projects all over the world. Some of them are more informal. The crypto space did a lot of work there, but also experiments like World. I don't know if you're familiar with World, right? Sam Elman's, yeah. Another example.
+
+[34:14] The EU, of course, policies, polities, existing sovereign countries themselves experimenting a lot with this. Deliberation. I think the best, you know, the poster child for the liberation is Audrey Tang and all the work that she's done in Taiwan to surface the wisdom of the crowds in a way that they can inform democratic policies.
+
+[34:31] Registries, right? Registries, right, making data bases more interoperable. The Estonians saw it before anybody else and have really turned it into a sort of competitive advantage for their nation, as countries like my in Costa Rica are now adopting their stack, right?
+
+[34:49] And, yeah, some of you might have been here. I think India, I think, is a great example of this. The work done by Pramod Varna with India's digital identity system, which gave, in five years, digital IDs. India didn't even have a citizen registry until very, very recently.
+
+[35:08] And with the work of Uidai, they were able to give over a billion IDs because of the innovation that they did in the way in which they were registering that. So it was notational innovation, right? Even the Chinese social scoring system, right?
+
+[35:24] It's not the type of notational innovation that I want. It's the type of notational innovation that I want to avoid. But it is a notational innovation. They found a way to encode, you know, their citizens' value in some way, right? And this also points to the fact that this stack can go two ways, right?
+
+[35:44] It can be decentralizing, it can be leading to more open societies, but it can also go the other way, right? So what I've been really focused on are these layers. It's the execution and decision-making layers of our societies, right? This is where bureaucratic processes leave, right?
+
+[36:06] Do you guys like bureaucracies and bureaucratic processes, right? I am obsessed with it because it's the only moment where I really get really angry is when I'm in Costa Rica trying to do something with my government and it's just impossible, right?
+
+[36:22] And so the question here is how can we use those technologies to innovate and to come up with new worlds, new ways to encode our public services and our public processes so that they can actually work with the complexity and with the speed of the world that we've walked into while remaining legitimate, right?
+
+[36:42] So that's what I'm going to be talking about in the next 20 minutes, 15 minutes. I'm already 10 minutes in, 5 minutes in. How can institutional action and coordination mark the complexity and speed of our network systems while remaining legitimate?
+
+[36:55] Essentially, what will replace the bureaucratic process, right? So let's start with the problem, right? Bowling down to its essence, I think the problem that we have right now is that governance logic, the governance logic of institutional action has no digital form, right?
+
+[37:14] Public processes and bureaucratic processes in general, right? Their governance logic lives in many, many places. The rules are here, right? The roles are here. Very often they live in the tacit knowledge of the bureaucrat, right? The execution is here, right? Somewhere else.
+
+[37:33] Either it lives in a tacit way or it's encoded as software in systems that are brittle, in some cases in programming languages that don't even exist, right? And that leads to a lot of opacity, right? We request doing whatever they want, that's where corruption happens in my country, right?
+
+[37:54] Purposely, you don't want to make those processes and services legible, which then makes it very, very hard to be able to coordinate and implement them with speed and velocity, right? So there's something here that's missing. We don't have a way to encode the governance logic of those processes.
+
+[38:12] In the public sector, unlike in the private sector, you can't do whatever you want. You can only do what the law allows you to do, right? That's missing. And there's a new forcing function here, because as we've been discussing the entire day, the world has reorganized around digital networks, and more importantly, software is becoming the action layer of institutions.
+
+[38:32] With AIs, very soon, if we're not there already in some jurisdictions, it is AIs that are making decisions, and they're acting on behalf of our institutions, right? And so when software begins to act, that opacity, that lack of legibility is no longer possible for two reasons.
+
+[38:54] One, in democratic regimes for auditability, you want to have as a citizen recourse over that process. If an agent decided that he's not going to give you your permit, you need to be able to question it and challenge it, then that's why. But second, because if you don't make it tacitly, you can't even build the agentic system on top of it, right?
+
+[39:11] So this is acting as a forcing function for it. And so the question is, how do we encode it, right? How do we encode this logic as a digital object so that it can actually help us execute those processes and those services like they should?
+
+[39:29] And our insight here is that actually, you know, everybody's trying to automate their processes. And the dominant logic is the workflow, right? What are your tasks? Tell me what your tasks are, and we'll try to work with your agent so that they can help you build a workflow for it.
+
+[39:44] It's very much centered on the task. But institutional action is not a workflow. Institutional action is a sequence of commitments. The core primitive of an institution, an institution's action, is the moment in which it makes a decision that actually embeds and delegates authority.
+
+[40:01] It's when you received a permit, when you were told your documents were valid, right? That is the moment of a binding commitment, primitive of institutional action. And right now, the elements that make it binding, where does the authority leave?
+
+[40:18] What's the evidence that's required? What's the degree of attestation that's needed? What are the rules that allow you to make that decision? They all live in separate systems, right? They exist. They exist in rule engines. They exist in PDFs, in documents, in process, but they're not encoded anywhere.
+
+[40:35] So our hypothesis is we need a notational innovation. We need to find a way to encode it. And we believe that actually, commitment points not only have a structure that can be encoded, but that it can be machine readable. And the second part of the hypothesis is that the key is to actually separate it from the execution.
+
+[40:58] And once you do, the commitment point becomes observable, it becomes portable, it can become auditable, it can travel. So essentially thinking, just like stable coins gave fiat a way to be represented digital so that it can travel on blockchains, what would it mean to actually represent the logic of a decision as a digital object that can also travel?
+
+[41:21] That's what we're trying to do, right? And the core of this is simple. It's a very simple premise behind this. Number one, find the commitment points, right? And find a way, develop a specification language to encode all of these things. Who has the authority? What's the evidence? What's the reasoning?
+
+[41:42] What's the dependency that it creates? What's the rules? And what's the recourse? And those commitment points, I'll tell you a bit about the experiments that we've done, but with the experiments that we've done, we've realized that actually there's verbs to institutional action.
+
+[41:58] No matter what public service or process you're trying to think of, it can be decomposed just like the notes on musing partiture, it can be decomposed into these eight verbs, right? All processes derive from these eight actions, these eight institutional actions.
+
+[42:13] And so step one, find your commitment points and encode them. Step two, compose them into a process, right? So you can imagine if it's a permitting for a, I don't know, housing permit, that will probably have eight different commitment points that together are composed as the protocol that digitally represents that process, right?
+
+[42:36] And again, I want to make the distinction here because I think it's very important. This is not the execution. This is not the workflow. This is the governance logic of that process, right? So essentially, a governance protocol becomes the machine-readable version of the logic of a public process, right?
+
+[42:54] I'll give you an example just to crystallize it, right? For that same permitting process, imagine you have the shapes that you see there, right? That's essentially all the commitment points that are part of the process, that collectively, you know, each of those boxes has incited the authority, the logic, the recourse, et cetera.
+
+[43:17] So the governance becomes legible. But they also exist as a JSON file in a format that can travel digitally. That's it, right? That's the essence. For every public process and service, find its commitment points and compose them as a protocol.
+
+[43:32] So where does this sit in the stack? How do you actually execute them, right? So imagine a future where you have the governance protocols. Below that, you have all of the systems that are needed for that process to run. So the identity, the databases, the registries, all of the substrate and the rails that those decisions need to connect to so that they can run.
+
+[43:58] And on top of that, the execution can be agentic or it can be human, right? Precisely because you've made that separation, they're disconnected, and you create an enforcement boundary around the protocol so that actually agents can read the protocol, understand what they need to do, and so actually you don't care about what the agent does.
+
+[44:20] It can go and for every individual come up with the best way to gather the evidence that it then needs to go and present that to the institution. So imagine a future in which you as a citizen or you have a business and you need to get a permit from the government.
+
+[44:34] You want to ask your agent to go and get that permit for you. That agent would go to the municipality's page, right? Read the protocol, understand what you need to do, find a way to do it, and present the evidence that allows you to validate the commitment point, right?
+
+[44:53] How does it work? Part two, right? So I was describing this process. You have execution on top, you have the layers below, right? And so imagine a case comes in, you request a permit. As your case goes through the protocol, it's a state machine, so every transition creates a receipt, right?
+
+[45:15] That receipt is very relevant for two things. One, it gives you the auditability, the live auditability that you need and the recourse that you need, right? But second, they become memory objects that get stored in the institution's database, its intelligence layer, its context graph essentially, right?
+
+[45:36] And that's very key because it unlocks a lot of things. It unlocks feedback loops so that you can learn where things are getting stuck in your process, right? If you run 10,000 cases, every case gets a receipt, gets stored in your object. Suddenly you can start seeing where things are getting stuck in your process and you can then update it, right?
+
+[45:58] But it also gives the recourse to the citizen itself, right? Essentially, right, what I'm describing, why I'm so excited about the potential of this technology is that it unlocks public services and processes that evolve and learn, right? They respond to the environment because each of those commitment points is connected to the systems that they're related to, right?
+
+[46:22] So they respond to the environment, they surface signals of where things are getting stuck. You can evolve them as a civil servant in charge of that protocol. And with time, you start versioning them just like you version software. So you have version one of your public permit versus two of your public permit versus three, right?
+
+[46:41] There's an emergency. There's a fire. There's a forest fire. The signal gets, it's connected to the commitment point so the system knows and can be adapted, right? You can simulate public processes before you actually put them to work, right?
+
+[46:55] And that's kind of like what in my view makes governance really intelligent on institutions and allows institutions to catch up to the world in which we're in, where they have to manage the complexity and the speed of the rest of the private sector.
+
+[47:12] Second, it makes governance aware of AI, right? So once you start encoding all of those processes in this world and start creating those memory objects, you're essentially creating a database of commitment points, which you can then use to train a model on the governance logic of public processes and services.
+
+[47:35] So you can imagine a future, you're using this governance aware models to say, for this jurisdictional context, in this specific problem, what is the pattern, what is the protocol that I should use to best solve this issue, right? And third, it saves guards, democratic accountability and civic oversight as you make legible the process that's behind it, right?
+
+[48:09] And I think this is very important because the point that the gentleman that asked the question before made, we need to understand that in the world that we're walking into, all of our public services and processes are becoming protocolized.
+
+[48:21] And those protocols can be designed in ways that make them very restrictive, where you get locked out, where if there's an issue, you have no recourse, or they can become the opposite, right? But that is a design decision. The protocols, this isn't eliminating the politics behind any of this.
+
+[48:40] And it's also not eliminating how our own values and culture eventually get represented in the public services that we offer, right? In my country, Costa Rica, we might care a lot about environmental protection, and therefore, for a construction permit, we will probably include a couple of commitment points that have to do with environmental standards, and we will make sure that those commitment points are connected to our registries related to water management, so they can get signals, right?
+
+[49:08] But in other jurisdictions, you might not care, and you will design something else, right? So essentially, this moves us to a world in which we generate awareness of the fact that these processes are designed, and that we have the ability and should have the ability to have oversight over there, so that we can constitutionalize them when they get implemented, right?
+
+[49:26] I'll stop there to ask questions, to offer us questions, and then I can share some examples as we surface the questions. Yeah. I beat that often. I have two questions, actually. What are some of the traditional municipal software tools that you're looking at as competitors, and how are those broken?
+
+[49:51] Yeah. So there is this idea of composable governance services is starting to appear, right? More and more, I'd say probably in the last year, I've begun to see platforms that have started to appear to help governments compose their public services in a way that feels more modular.
+
+[50:12] You have an identity module, you have a registry model, you have all these modules, and you're using them to compose public services, right? The problem is that most of the platforms are still working with a logic of digitalizing your existing bureaucracy, right?
+
+[50:31] This completely reconfigures it, because when doing that, you gave a beautiful interface to your process, but you're not redesigning it in a way that allows them to make them intelligent, which is what we want, right? That's what we want, but it's probably not what the city administrator wants.
+
+[50:50] So, yes and no, right? I think this already exists, right? Places like the Emirates, right? But it's a complete, you are, it's totally closed, right? Actually, that steps into my more interesting question. Can you give cities and towns as examples as potential customers?
+
+[51:16] Who would you sell this to? Any, so I'll tell you examples of real world, real work that we're doing, right? So, the digital, the UK's digital, team behind digital government services, right? I'll tell you two very, very different cases to show the two sides of the extreme.
+
+[51:33] On one hand, a very sophisticated digital government team, which already has over 2,000 digital processes encoded as software, right? The problem there is that all of the software is bespoke, it is deterministic, it is brittle, and they kind of connected.
+
+[51:46] And so, when there's a response or something changes or a lot changes, they have to go through a new procurement process to change that, right? The bleeding edge of their team that's focused on a GenTech public services has been working with us because as you start configuring, specifying your process as a protocol, you're actually building your institution's world model, because you're, right?
+
+[52:11] So, you're encoding with, these are the roles, these are the rules, so you're starting to surface all the systems that you need. And eventually, what you realize is that there's a bunch of gaps, there's nodes in the system that are missing, right?
+
+[52:21] And so, right now, it's more of a diagnostic effort, by protocolizing your public services, you start to surface all the nodes to actually be able to make them a GenTech, right? That's one example. Another example is literally the smallest possible, most basic institution that you can think of in Costa Rica.
+
+[52:42] It's a rural water utility board. Staff numbers, two. It's two people that work there, right? So, they have the opposite problem. They have no processes. It is 100% tacit knowledge and operation. We're working with three different institutions like this one, tiny institutions.
+
+[53:05] In one of the cases, they realized that the manager was stealing money, so they fired him, and he took all the institutional memory, all the files, everything, so there's nothing, right? In the other one, she was a great administrator, but she died and also didn't train anybody, so there's also no institutional memory, right?
+
+[53:19] And the third one is really sophisticated compared to the other two because it's from the part of the small town in the coast that has the most foreigners, so it's actually the president of the board is an American woman who has been living there for 20 years, right?
+
+[53:33] So, we're actually working with them because they do have processes to protocolize their processes because once we're able to do them and build them, we can give the stack to the other two small water utility companies, right? The bigger dream in Costa Rica, right? This goes to your point of how do you generate the spaces for this to get traction, right?
+
+[53:54] With traditional governments, now that we've done this three water, when you start realizing what the notes are that are missing, so you can go actually up to the national level water management company and say, hey, listen, if you have a problem of requisite variety, right, like you have a problem of thousands of small-scale water boards that cannot run the resources well, right? To be able to run the resources well, they need a stack like this,
+
+[54:25] but for this stack to work, there's notes that should be at the national level that need to exist, right? And so you actually start from the bottom up, from the edges to the center, right? Yeah. My question is to you, what does the future of work look like for government officials in this environment, and what does education look like?
+
+[54:52] Yeah, so I think, you know, a lot of this is about really building state capacity for the world that we're working in, right? There's Palantir already does a lot of this. They go into an institution, they come up with an ontology, they do a lot of rotational innovation to be able to capture and organize the information that's needed so that they can then build platforms on top of it, right? I have nothing against Palantir.
+
+[55:17] They've done great work in the UK where I live, right? But they hollow out state capacity, and they create lock-in to their systems, right? This is kind of like Palantir but Pura Vida. It's like, and it's more like Shopify, right? Like those systems, they, because of the complexity of the things that they build, all of their clients need to pay $50 million, $20 million, $5 million, they're big projects, right?
+
+[55:39] Here the theory of change is different. It is actually, we're focused on the base, there's, the work that we've been doing is 17 different families of public services and processes. Once you've been coding them one, they become interoperable, they become forkable, you create a marketplace of public services that can interoperate.
+
+[55:55] So if you have the municipality of Denmark, and they're great at urban planning or management, the workflows that they do could be licensed or even forked and used by the municipality in San Jose, right? That's the future that I imagine, and those are actually, they become networks of rules that interoperate, right?
+
+[56:12] This opens up in some capacity, a whole world of new roles for public servants, because designing these protocols will become a skill. And engineering the stack to connect them and to make them work will equally become a skill, right? And thinking about this, I can recommend the work of Richard Pope, the world of Jennifer Palka, some of the two thinkers and digital government, right?
+
+[56:38] You can, it is a design discipline, because these systems can design to reflect the values and the ideals and the objectives of whoever's designing them, right? Yeah. Cool. Yep. So this amazing project, I have two questions. The first is, what are you bottlenecked on?
+
+[56:57] Like that's, yeah, what are you constrained on or whatever? And then my more, longer question is, both with the example you gave of like, oh, yeah, we need to be able to like kind of send this, send JSON around, have these, have this encoded information move, and then also with the institutional memory, it seems like in both those cases having some like single source of truth, where you know you have the latest document, the latest decision, the latest JSON, the latest institutional knowledge.
+
+[57:22] How are you thinking about that? Yeah. So the way we are thinking about it in our platform, because we're, we're, this, this, we're moving now from the research stage to the, to the tooling stage, right? Nobody, nobody in the world, not even me, is going to learn the specification language in depth, right?
+
+[57:36] What you need is to build tools that allow civil servants to talk to the tool, to talk to the agent that's in the interface in their natural language, explain how the process works, add the files to the, here's the evidence that we use, this is the template, this is the, and the agent understand the specification language, and it's encoding the process in a way that then allows you in the surface to play with it, and to connect it to your own rules and norms, and blah, blah, blah, right?
+
+[57:59] Here's an example of a same public service, this is a cash transfer, cash designation, in two completely different jurisdictions. One is in Brazil, the other one's in Indonesia. Once you start building a huge database of protocols like this, you can actually start learning of what works in, in one jurisdiction and another, and you can start compare, suddenly governance becomes comparable, right?
+
+[58:20] So that's the stage that we're moving into, the, from the research to the actually building the, the tooling that allows you to play with design, run, and audit and evolve this, this, this, and in, in, in, in the stack, right? To your point on, on data.
+
+[58:37] I think it's really important that all of this lifts, you, all of the registries are the institutions, right? What you're, what you're, what you're trying to keep interoperable, what you're trying to create is the same, the layer, so that that is what travels, right?
+
+[58:57] So we're not building kind of like a, a centralized database, um, what we, what we, what we want are the, is the metadata of the structural properties of the processes, yeah. This is so interesting to me, and I, it's very new to me, so I just have a couple of questions that you've kind of touched on, I think, but I'd love to understand more deeply.
+
+[59:21] And, and they're around, like, what is the difference between, uh, like, gaps? And the kind of learning that can take place of that, like, oh, here, there's some memory that's not, like, codified in a way that's replicable. Yeah. And the kind of learning that is, like, let's look at the underlying assumptions and foundations that started these processes in the first place.
+
+[59:48] Like, if we're just building on top of the existing foundations without examining those, to me, it's like, so what? Exactly. You, you made a really, really good point, because you don't want to automate processes that are flawed in the first place, right?
+
+[1:00:02] But the problem is that very often, we don't even know what the process is. It's all the citizen to fill the gaps between the different institutions that play a role in that, in the, in the, right? So, first value of this is the legibility that it brings.
+
+[1:00:18] Once you can actually see the lobby, and imagine, you, I don't know how, if you work with workflow engines, right? That workflow automation engines, that still happens, that still happens here. There's a layer on top that is the workflow layer, right?
+
+[1:00:30] And actually, you can ask your agent. Once he understands his logic, you can tell him, come up with a way to, right? But once you've mapped all of that, you can actually start, then, testing what to do, right? I've been talking with the Inter-American Development Bank, because when they give a big loan to a country, to a developing country, they give a loan, but that also comes with state capacity, right?
+
+[1:00:52] They want to make sure that when the tender comes out for the highway, there's no corruption, and if they don't have the processes, they say, this is the process that you should follow, blah, blah, blah, blah, right? And they go in, they analyze, what are your existing processes, what are the gaps, blah, blah, blah, right?
+
+[1:01:04] I imagine a future in which, actually, they give you the protocol. And state capacity means working with you to understand how to connect it to your systems, use that, and all the information that you have from all the other countries that have been running it, to understand how to make it more efficient.
+
+[1:01:18] So you might say, oh, actually, you know what, there's, there's a, there's a module meeting here, that if you add, it will help you reduce the time by, by X percent, right? That's, yeah. Okay, this, this goes to my next question, which is, like, I feel, like, anxious in myself about the whole process, and the, and that's one of the things that's coming up for me, and it is, like, the example that you gave just now, and the example that you gave earlier about, like, Denmark and Costa Rica, and, like, to me, there's something, like, really beautiful and powerful
+
+[1:01:51] about not reducing the complexity of the system to the most efficient. Because there's, like, I, I love Costa Rica. I spend quite a bit of time there, and there's something, there's advantages and disadvantages to those, to that culture and to those systems and to the way it feels there, right?
+
+[1:02:09] Yeah, yeah. And I don't, like, how do we measure more than just efficiency? Like, what are the metrics that we're using that allow us to actually capture the, the value that hasn't traditionally been labeled or noticed as valuable? Yes. And that gets squashed when, kind of, the traditional metrics of efficiency and other things are the primary metrics.
+
+[1:02:33] Yeah, I, I, I, that's also a really good point, and efficiency shouldn't be the metric. That's the whole point, is that we need to start realizing that as our progress, our processes and services start protocolizing, if we actually don't want to encode what we want that objective function to be, somebody else is gonna determine it, right?
+
+[1:02:52] And so I'll give you a very good example of the Asada case, the, the, the small water board in Costa Rica. That small community that's very sophisticated, they don't want to prioritize growth. They want to prioritize the health of their aquifer, right?
+
+[1:03:03] But you have a bunch of developers that exert extreme amount of pressure on the utility to build, right? And so, why she's so excited about this, is that if she is able, she, I mean the, the, the, the, the president of the board of this small association, which is an elected board of neighbors.
+
+[1:03:21] So, if you're able to make that legible, and you're able to constitutionalize the process, in the sense that you say, the community decided that if water levels are below this point, you just don't get any water boards. And this is where the point that Louisa was saying about the role that technologies like blockchain can play, right?
+
+[1:03:43] If that level water is attested, it's very, it's open, it's there, it's for everybody to see, they have, there's nothing you can do about it. You're not going to get the, the, the water availability better, right? So I think the point is, this protocol should be composed and designed to reflect the values, the priorities of the, of the, of the, of the community.
+
+[1:04:02] And they should be, in a country like mine, which is a superpower in democracy. I don't know if people know that about Costa Rica, but it's the longest time. I don't want to be El Salvador, right? He's doing an amazing job. I have a lot of admiration actually for, for, for, for Bukele.
+
+[1:04:18] El Salvador is not Costa Rica, right? We have a culture of democratic traditions and values where I think we need to teach our citizens that they should start thinking about how to govern, constitutionalize, design, build, this type of processes and systems.
+
+[1:04:32] That's the point, yeah. Thank you. Did you answer Steve's question about current blockers? Yeah. Yeah. Now as we're moving from the research stage to the implementation execution stage, the biggest blocker is the team honestly. I need to get a team that's- You're looking for talent right now?
+
+[1:04:59] Yeah. Yeah. Got to wrap this up. Thank you so much. Thank you. That was great.

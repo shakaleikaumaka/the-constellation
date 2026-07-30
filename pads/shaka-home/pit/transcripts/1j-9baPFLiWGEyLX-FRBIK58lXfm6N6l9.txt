@@ -1,0 +1,51 @@
+# The Future of Clinical Trials _FDA_s new paradigm_
+
+Date: 2026-06-03
+Source video: The Future of Clinical Trials _FDA_s new paradigm_.mp4
+Drive: https://drive.google.com/file/d/1_nEM2598BBztf4YeszYpamPMGD94bu-4/view
+Duration: 00:16:55
+Transcribed: 2026-06-12 · whisper large-v3-turbo · language: en
+
+---
+
+[00:00] and everyone if you could take your seats we're going to start in just a second um i am super super excited to introduce elizabeth um she's actually one of our long journey residents this year um oh
+
+[00:31] um so and is building in the future of clinical trials so she's going to take us through what i understand to be might be an interactive talk somewhat interactive talk on the future of what is happening with the fda uh what is happening with clinical trials um and how everything that she's working on is going to address that so i'll pass that over to you all right if you have a second
+
+[01:02] um if you could just uh scan the qr code i just want to get a sense of who's in the room here um my name's liz as uh catherine alluded to i'm building a future of clinical trials so i'm building a regulatory intelligence platform for primarily fda to start but our goal is to prevent amendments from incurring which is the clinical trial delays that occur when the fda pushes back on your submission um so we're today we're going to walk through um this new policy that was released in april of 2026 um and yeah just very interested in your thoughts we'll do an interactive session
+
+[01:38] around uh some questions related to it it will be a debate um i recognize that fda um inherently could be political um and so i encourage you to just be mindful of that as you're engaging in discussion um the other thing is i'm going to be recording on granola i hope that's okay with everyone in the room um all right so let me go to the next slide so um as i just mentioned in april the fda issued a press release um basically on real-time clinical trials so um something we're looking at i'm knowledge is that early phase clinical trials are truly the
+
+[02:13] bottleneck in drug development and this is usually usually caused by high uncertainty a limited patient population and also inefficient decision making processes um and so usually the data is reported from sites to sponsors and the sponsors usually analyze and then submit that data to the fda so with um the real-time clinical trials process you're able to um have the opportunity to like conduct real-time trials and um what happened which i think is really interesting is there was a multi
+
+[02:43] stakeholder collaboration um that was released on the 29th between paradigm health they are a ai platform that is building a bunch of different protocols for studies um to accelerate their trials and they're doing a lot of the pre-clinical work as well so they work directly with the fda fda to develop this um platform and this this policy um and basically the solution works by capturing data directly from electronic health records lab images e-source ecrf and from there um basically it's
+
+[03:18] unstructured and structured notes and it's algorithm algorithmically evaluating the fda defined data points um and reporting criteria in real time so this only transmits the critical signals in the data that's actually needed for the trial and the goal is that um this will enable uh just like faster acceleration of trials especially at the early stages um and so currently the fda has initiated live proof of concept trials primarily in oncology with astrazeneca doing a phase two trial for mantle cell lymphoma
+
+[03:51] and sites are utmb and uh that you the perelman school of medicine at upenn and then amgen's doing an early stage uh trial centered around uh stream small cell lung cancer and it's focused on limited stage celluline carcinoma and so as i mentioned like the the goal here um is to accelerate clinical trials but more importantly um the us oh do you have a question yeah so um this is primarily looking at like phase one
+
+[04:26] right here so right before the first patient's enrolled and then all the way through phase two so usually typically what happens is there's a bunch of different submission checks so starting with ind enabling so that's before the first patient's enrolled um and that's a submission that is dictating if the trial is ready to go to clinical trials um and so this is kind of coming in primarily at that phase two to phase three and there's usually like six to eight submission checks so then goes phase one phase two phase three phase four which is basically post-market surveillance after the drug is approved so i really wanted to use this time um to kind of conduct a little bit of debate um as
+
+[05:06] i just mentioned like u.s is trying to be more competitive compared to countries like china and something i want to mention is that the amendment rate here is is a lot higher than um a lot of other countries clinical child delays incur like 75 percent of the time in the us and about 25 of those are actually avoidable um and so something we've been looking at is you know how are amendments incurring in other countries and then how can we you know enable policy to to accelerate the or prevent these amendments from incurring um so yeah i would encourage you all to make groups of about five
+
+[05:37] people i forgot to read the results of the the survey um and so you can choose one to three questions to engage with i'm going to give you all about like 10 minutes 10 15 minutes and then we'll go we'll come together and see if anyone wants to share their thoughts yeah and if you have any questions i can walk through them too yeah okay so the first question
+
+[06:22] um basically centers around like this policy enables decentralized access so there'll be ways for us to conduct trials in not just coastal cities healthy blue zones and so this question is really getting about how can we ensure that community and rural health sites can easily access and participate in trials uh through this new policy and i'll go back to the the slides you can look at it when you're looking at these questions um if you have any questions and then also um they as i just mentioned
+
+[06:53] like the real-time clinical trials the fda is claiming that it will make them more competitive compared to other countries and so um do we think that clinical trial designs are going to help redesign what the um well adaptive clinical trial designs which is this policy effectively like redesign what the regulatory process is um the last piece is not supposed to be there apologies um and then the last question that you could engage with is um oh my gosh i apologize there's a lot of
+
+[07:25] typos in this um so the last one is should there be concern about the fda inadvertently introducing bias through recommendations made in light of like real-time clinical trials so basically just like how are they engaging with the the real-time feedback that um trials are going to be sending and if this feels over your head i can also answer questions okay yeah oops um the reason this is happening is because
+
+[08:15] like 90 of clinical trials are approved in the u.s but um as i mentioned like the majority of uh clinical trials phase delays and so the fda is trying to find a way to accelerate clinical trials and a lot of this is centered around like their willingness to part part um partner with ai vendors and so there is currently a request for information going out for ai vendors to work with the fda and so that's something that we at amnolis are participating in so how can um models enable this better digestion of
+
+[08:50] real-time data and inform like like a prevention of of delays yeah yes this is distinct so that came out in january um yeah so there was a beijing modeling like call so that uh companies could use beijing models to forecast like uh the outcomes of clinical trials this is distinct now that they announced when they announced this that they're probably going to release more beijian model early trial um policies
+
+[09:20] so i think this is kind of the start of of that process i think it's dually and one thing that like i guess my last question was getting at is is um you know how can we ensure that in response the fda is going to um like after you is so variable and so like there can be colloquial terms that are different
+
+[09:53] from like trial to trial and so is there a way for this data to inform that better and then something we're looking at in our one of our first customers um more getting into your point about the trials themselves um is yes like what what patients should be enrolled in a trial what sort of procedures should be used and so a preclinical phase one phase two that's super important because it can slow down a trial like our our customer and for instance he he submitted like a thousand assays and he only needed 50 so he overspent on that cost and the fda pushed back on that so just to give you an example
+
+[10:53] so it's it's continuous throughout not just at the submission checkpoints so it's a little bit different than what i was highlighting about our product like you're kind of i mean we're working with our clients throughout like each submission but in in between intermittently but another thing to mention on this point is that um the fda has api calls now so basically any de-identified data can be submitted um from from the fda's um openafda.gov is the website and so um clients or companies can take the
+
+[11:24] the api calls in and use that information you know as they're building their trial so so they're very willing to to to i mean that's not going to include like patient health information and something we're also looking at is we don't deal with patient health information but like how can um yeah api calls maybe like influence potential data leaks and if that's going to happen um yes all of this is yeah uh but there's always a risk of of leakage um for sure yeah the innovation so um a lot of what we're
+
+[16:32] focused on is forecasting these policy changes so um if you're interested definitely follow along and um accept to learn more from folks who are in the clinical travel space once you get past baseline so a lot of uh connect afterwards but yeah thank you so much

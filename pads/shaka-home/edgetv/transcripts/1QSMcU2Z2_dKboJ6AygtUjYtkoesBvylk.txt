@@ -1,0 +1,407 @@
+# Alethios Experiment onboarding!
+
+Date: 2026-06-01
+Source video: Alethios Experiment onboarding!.mp4
+Drive: https://drive.google.com/file/d/1GJdRkFz-xnK2MpdCsy2r3OhLUVsl5u4o/view
+Duration: 00:59:19
+Transcribed: 2026-06-09 · whisper large-v3-turbo · language: en
+
+---
+
+[00:22] Celia. Ready to go? Okay. Hello everyone. Hello people in the back. Hey. Wonderful. I normally don't speak with a mic and I also tend to naturally project. So if this is too loud, somebody let me know. And the other thing I will say is that it is 2 p.m. or a little after 2 p.m. which means this is the slot of death. And so I fully expect all of you to participate and help me out and ask
+
+[00:53] lots and lots of questions because otherwise this is going to be tough. And if you fall asleep, I will also fall asleep. As Zoe on my team knows, everyone, that's Zoe. I'll be picking on her through the entire session. If anybody else falls asleep, it's minutes before I fall asleep. I'm a sympathetic sleeper. All right. My name is Xenia Framrose. I'm the CEO and founder of Alethios. We are a two-sided platform for decentralized and hybrid research. So on the one side, a tool that helps you design
+
+[01:23] and execute human health studies. And on the other, an experience for participants where they can find and join studies ranging from anything. Could be, of course, many of you may have participated in Invader's metabolomics study this morning. Anyone here who did that? There we go. Awesome. That's running on Alethios. But the true mission of the company is to enable many, many different kinds of research.
+
+[01:47] We work with a company called Samphire Neuroscience to work on an endometriosis trial. They have a brain stimulation headset that helps with endometriosis pain. We run the clinical trials for Wegovi, Novo Nordisk's GLP-1 through hims and hers. But we also, if you think about the entire world of consumer health, run studies with many of the supplement brands that you already probably know.
+
+[02:09] Athletic Greens, Thorn, RA, Marsmen, any number of them. But what I am most passionate about is talking to the researcher that doesn't fit into any of those categories. The researcher that has never necessarily had the resources or the funding or the VC backing or institutional interest to pursue what they want to do. The reasons for that are many-fold, but they are probably at their core ethical.
+
+[02:35] We fundamentally believe that who gets to do research, who gets to ask the questions, has a direct impact on the questions that get asked. The questions that get asked turn into what is measured, what is reimbursed, what gets put on the shelves at CVS or Walgreens, and what gets recommended to a friend. If that's an unequal playing field, we're all at a disadvantage. So with that in mind, I'd love to tell you a little bit about the company. And by a little bit about this company, I was like, oh, you think I have 17 slides? No, I just didn't have a placeholder slide. So this is all you're gonna see in this deck.
+
+[03:10] But if anybody wants to know more about the company and its history, please either raise your hand now, rats. Well, I will tell you a little bit about it. Did you have a specific question? The company's been around for almost three years now.
+
+[03:32] There are seven of us full-time, three part-time. We're a very small company, and we've been built mostly through working hand-in-hand with our customers. Who are our customers? You might ask. All the folks that I mentioned before, people who want to do research.
+
+[03:46] You can certainly think of the model as a two-sided marketplace, with a third side of the marketplace coming soon. But the goal has always been to be able to make this more and more available to more people. So we're not a VC-backed business, which is, of course, how many of you are from the Bay Area?
+
+[04:00] We are an island. We are a bootstrapped company and profitable. Does anybody know any of the history of decentralized trials? No? Okay. I always think it's important to start with sort of the context and the history of a space so that you can really engage in it. Wow, I'm a perfect fit for Edge City.
+
+[04:19] Decentralized trials are something that people have been doing for at least 15 to 20 years. It was a really hot space a few years ago, companies raising hundreds of millions of dollars. Those are companies like Medible, Science 37. But essentially, the pandemic meant that a lot of clinical trials had to move home, which brought a lot of interest to the space.
+
+[04:37] A lot of these companies have been doing mostly drug development in a remote way. So that means you can have a mobile phlebotomist like you had this morning at Edge. It means you could potentially send someone blood work to do at home through a dried blood spot kit or a tasso test or a salivary assay kit.
+
+[04:52] All of that can happen at home. But truly, people have been doing some type of remote data collection from patients. And I use the words patient and participant very, very carefully and deliberately. Decentralized trials have mostly existed for patients over the last 10 years.
+
+[05:07] What we are trying to do is say, hey, there's a lot more research that happens outside of traditional drug development that we want to make sure we have the best in class tools for. So taking something that's been available for Pfizer, Merck, Eli Lilly for many years and saying, how can you create a structured and controlled way to capture human health data?
+
+[05:27] Any other questions on the company? All right. Oh, go ahead. Honestly, in a, wow, it's funny because I actually hit that slide. So now I'm trying to back out. Oh, wow. And I'm really not good at this tool. Why do I use it? I had worked in decentralized trials for a good amount of time.
+
+[05:52] I worked on rare disease trials, specifically things like myasthenia gravis, working with mostly pharmaceutical companies. Incredibly lucrative to work with pharmaceutical companies. They will pay you millions of dollars for that remote if it means they don't have to talk to a patient, which is, you know, that's their choice.
+
+[06:06] And it was wonderful. I think for me to work on a business like that was incredible. We were recruiting people into that study who couldn't leave their homes, who lived nowhere near a Mount Sinai or a Stanford or anything like that. I found that incredibly compelling.
+
+[06:21] What was also very interesting is that that tool really only existed for a select number of pharma companies who had these big, big budgets and millions and millions of dollars. So I clearly saw on the researcher side, I'm like, okay, there's a clear opportunity to democratize this and make it more accessible.
+
+[06:36] What made it a two sided marketplace was a much more personal journey for me. I've had COVID any number of times. I've had long COVID. It'll be the five year anniversary for me in August. I almost died twice, had two major hospitalizations.
+
+[06:50] And really, when you have what is what is known to the insurance companies as a syndrome, you realize there just isn't a lot of evidence out there around what you do. I tried low dose naltrexone, extended release gabapentin, acupuncture twice a week, changed my whole diet.
+
+[07:06] Changed my whole diet, all of these things that are an actual experience and measurement of health that just exists nowhere in the system. And like I said, right at the beginning, I think that disadvantage is not to actually, people say real world data and real world evidence.
+
+[07:23] Are people familiar with those terms? So, you know, when people say real world evidence, often they're referring to, I'm just going to buy a data set of when someone was in the hospital and not from Stanford, and use that to figure out whether or not this saved someone money.
+
+[07:37] That's an entire multi-billion dollar industry called real world evidence. To me, and you know, I know there are a lot of folks here who are focused probably on longevity. I know that Invader is focused on that as well and many other companies that we work with.
+
+[07:49] How do you actually measure what longevity means, right? Is it, it's certainly whether or not someone is responding to potentially off label use of a peptide, but longevity is also impacted by who do you live with? How many people do you live with?
+
+[08:03] If you're a grandparent, do you see your grandkids very often? How close are you to a grocery store? Does that grocery store carry fresh produce or not? Do you live in a walkable city? So there are all of these things that are part of our, that could really explain a lot of what we go through that often go unmeasured.
+
+[08:19] What you're going to see in the platform today is that it's not, it's not really my job as someone who empowers researchers to say what you should or shouldn't measure. But it is important, I think, to us to make measuring some of these things that have previously gone uncaptured much easier to measure.
+
+[08:34] And that's what exists in the platform. This picture, great. I sent them, like, nine pictures at stat to include in the article, many of them showing how I, like, used my Garmin watch to track my flares. They went with this, got, like, 10 messages from, like, friends and ex-boyfriends being like, are you dead?
+
+[08:52] I'm like, no, I'm fine. It's like a year later. So, any, any other questions? Okay. I can send all of this over to you guys because it really just shows probably what the most important thing is here and the one word that I'll use again and again when describing Aletheos.
+
+[09:08] It is scaffolding. Everybody know what scaffolding means? Yes? Great. Don't know why I use that term, but it mostly captures what we do. But it's, it's around what you are trying to build. So with that, I'd love to go into a demo if there are no other questions.
+
+[09:22] Good? Yes. I love this. It's such an engaged audience for two o'clock, the most engaged audience at two o'clock I've ever had in my life. All right. What you are looking at right now is the Aletheos Researcher platform. The platform itself is divided into two big pieces, the study planner and the study operator.
+
+[09:40] And if you think I was going to ask you to engage before I started this, this is where I really want you to engage because there are lots of intricacies here. And I'm sure many of you will have questions. Before I go into this, a quick show of hands.
+
+[09:51] How many of you have a question in health that you'd be interested in pursuing? Would you guys mind sharing some of those? I'm going to start with you back there. Did you put your hand up? Could you tell us what would you be interested in studying?
+
+[10:06] Great. I mean, that's such a great question around what is optimization. Optimization and personalization are two of those really interesting areas that I think the platform focuses on.
+
+[10:38] Many people's questions are about that. The rise of NF1 research, stuff like that. Now, Aditya, I told you I would pick on you. And you loved what? What was your name? Ocean. Okay. Well, you were interested in that question as well. Is it similar?
+
+[10:53] Okay. I didn't plant him for the sake of the show, I promise. But I mean, it's so interesting. Anybody else want to share this? Yeah, I know. It's fascinating. So all of these things, something like trying to digitally phenotype, something like chronic illness, so many different things that you could use to measure, right?
+
+[11:26] It's one of the most important measures of inflammatory illnesses, HSCRP, a high sensitivity C-reactive protein. Mine is perfect, but I very clearly have long COVID. So again, highly personalized, very different. We are all very different. How do you capture and measure that?
+
+[11:42] Hopefully, some of this shows you a little bit of it. So any other shares or questions? No? Okay, good. I'm going to limit it to three. Otherwise, they'll throw me out. Tell them when you're going to throw me out. It's fine. All right. So you're in the study planner.
+
+[11:57] This is where that scaffolding piece really comes into play. There are lots of ways in which you can create a new study on Aletheos. So you can build one from scratch. You can upload an existing protocol or study concept or document. Or you can use a tool called AI Quickstart.
+
+[12:12] What you're really doing when this study is created is you are building an entire experience for a participant on the platform. What is the study design going to be? How are we going to screen participants? What are we going to ask them? What does their onboarding look like?
+
+[12:26] How are we going to instruct them on what the next thing that happens is? Finally, how do you deal with creating a controlled environment at someone's home? Like what does that even look like? Decentralized clinical trials are more than anything about time.
+
+[12:40] I say that because our CTO is always telling me that everything is just about time in decentralized trials. And it's true, right? It's also about somebody else's time. You have to consider often what a participant's experience is. This is not the most important thing they're doing.
+
+[12:55] And like that is a fundamental thing that we remember on our end. So I went ahead just for the sake of this demo, which I should have prepped earlier than this. But I went in and said, all right, we would love to run a study at Edge City. Just a lifestyle intervention.
+
+[13:07] I really firmly believe that having a sense of community in person makes you happier, makes you less depressed, love you all, just met you. But, you know, I think that is, I think that type of human connection incredibly important, even more important in the times we live in today.
+
+[13:21] Maybe it'll have an impact on my heart rate variability and sleep as measured by my garment today. Or maybe it'll just make me, you know, a little less morose as a person. But I could put in a whole bunch of stuff into AI Quickstart. And I didn't, I just made it really quick so that we could all work on it together today.
+
+[13:37] But there are certainly probably studies out there that say having some amount of community interaction, I think the Blue Zones project, the National Geographic did, certainly had a lot of that data around social interaction. So it would be interesting for us to see if 30 days, if someone staying here, actually had an impact on whether or not people were happier.
+
+[13:55] This is one of the key pieces of what we do at Alethios. So helping you think about different types of study designs and different ways in which you can capture this evidence. So on the top, you'll see you could run a gold standard double blind placebo controlled RCT.
+
+[14:10] But maybe that's not the most interesting study for someone to run. You may not be at the point where making some kind of really strong claim is critical for you at this point. You may be doing something far more exploratory. This is a big change in the industry.
+
+[14:25] Most folks will say go straight to the RCT in industry. I know if we have academics here, you know that that's absolutely not the case and you never go to the RCT right away. But in industry that's very, very common, especially in the supplements industry where we play a lot.
+
+[14:37] So one of the things that we talk about internally is research is kind of a ladder. But the truth is that most of the barriers that have existed mean that it's impossible for it to get from rung to rung. It's often a huge amount of financial barrier, even just knowledge.
+
+[14:54] And sometimes I think probably the biggest barrier is psychological. So many people think, well, research is for someone specific to do, not necessarily for me. We definitely don't believe that. So you can see here that there were a few different studies that the platform put together.
+
+[15:08] I clicked on the single arm observational study, which looked at tracking real world outcomes around participants at edge. And you can see here that we've already got that study generated and ready for us to play around with. So craft is observational.
+
+[15:24] We can make this at zero one short ID is that believe me, that'll help in the long run is having some good short ID for all of your documentation. You can see that we've made the study for weeks. We have a very particular objective. We're looking at adding self-reported instruments.
+
+[15:39] Everyone know what a clinically validated instrument is? Okay. I'll go ahead. Oh, okay. Clinically. So you've obviously got a survey that might exist. Let's say we're looking at measuring something like stress. You could ask someone, hey, are you feeling stressed today?
+
+[15:59] And that's great. But what a clinically validated instrument is a set of questions that measure stress that has been studied to say, okay, it's not just that these questions are, are you stressed or not? But the combination and scoring of the questions has a correlation with what a clinician would say, saying, hey, yes, you definitely are stressed in a clinical sense.
+
+[16:18] It's sort of taking something that might be subjective and through a series of questions, making it an objective measure. One of the most common that you see, if anybody went, did anyone go to the doctor during the pandemic? Well, you were lucky, some lucky people out here.
+
+[16:32] One of the things that they started instituting at most hospitals in California was actually adding in a very specific assessment called a PHQ-9, which is a measure of depression to all intake forms for patients. And that's one of the ones I thought people might have come across, but that's all right.
+
+[16:49] It's probably one of the most commonly used and known. So you can see here that the platform already populated a lightweight back of the napkin sample size calculation. You can see that we pulled in some interesting inclusion and exclusion criteria, but you'll see that the model that we have here is not built from scratch.
+
+[17:06] It's create and edit like so much of what we see today. Tell them on this is old AI generated. Yes. So you'll see here that there's a there's a fundamental base of what the platform does. And our approach to using generative AI is lower the activation energy.
+
+[17:22] It's not I can't do everything for you like it just can't. It can help you, but it's got to be you, especially with something like as cool as this. Things like manual participant approval or excluding participants enrolled in a lot other aletheos studies, which we don't want to do because we might want to include some invader folks in here.
+
+[17:41] You've got a washout period if you need to have people off a certain intervention who are on the platform and pulled in here. But you can see screening questions. So, you know, let's say I wanted to. This is an observational study, so there is no risk to pregnant women in this study.
+
+[17:58] So I could come in and say, all right, I want to capture whether or not someone is pregnant. But yeah, you can be pregnant and you can be currently breastfeeding. Very important to include. I think let's just remove the criteria from that question.
+
+[18:09] It's as easy as that to do. So as you are building your studies, screening is where you can figure out who is going to be included in your cohort and not. One of the things you can do the entire time while building your aletheos study is preview the entire participant facing experience.
+
+[18:23] So once you hit go live, that study is available at link that can be accessed on a tablet, on a phone, on, you know, on your desktop. Anyway, one of the real things we wanted to do is not make people download a mobile app because I hate doing that.
+
+[18:36] And I think a lot of people hate doing that. But it's also a question of access, right? Somebody may not have a particular data plan. Any questions on screening? All right. One of the questions one might have asked, hello, is how do I add different questions?
+
+[18:53] So now what you're seeing are the big pieces on the types of data you can capture on the platform. The first is reported data. So think anything that is photo, video, audio, or text. Maybe you want to provide someone with video instructions and then have them do a comprehension quiz on the question that they had.
+
+[19:10] All you'd have to do is click add video and then after you've configured that, go ahead and add, I don't know, I'm going to ask them the time. Something like that. So you've got validated question item types. That module for how you have reported data exists all the way through the platform.
+
+[19:24] So if I go into build and I go into the study schedule right here, which is of course also AI generated, you can see that you already have some of those questions from the library in here. Go ahead. A great question. So I'm going to hop into a live study here, which is a demo study.
+
+[19:45] So, you know, know that that's the case. But once your study is live, you can see here that you can see everybody's screening into your study. You've got, all right, did we, this had no distribution, so actually let me pull up a, I'm going to pull up one of our customer studies just because I think they'd never mind it.
+
+[20:02] They were the first ones to take a bet on us, so they always let us go ahead and do this. But you can see here that this is a live study with 31 participants who have completed the study, 40 active. You could come in and see, all right, 88 of the interventions have been distributed to all of the participants.
+
+[20:18] Some of them have become active. Some of them are completed. Now, for all of this, there's rules-based permissions for whether or not you want to be able to show participant information or not. By default, everything on the platform is de-identified first, just as a best practice.
+
+[20:35] I don't want to see that. I don't want to know. You can do everything that you need to do for any type of study that is being run in a decentralized way right from within the platform. So if we wanted to say add a wearable. Right now we've got Aura and Whoop.
+
+[20:52] Let's actually make that any device. Let's make it a bring your own device study. You can come in and say, all right, I want to collect heart rate. I want to collect everything I possibly can on the platform from every one of the devices that you guys have.
+
+[21:05] Wonderful. You could even do things like smart scales or sensors. I was wearing a CGM till yesterday, but it just hit its 14 days. But you can add all of those things into the platform so that people are guided to collect, connect them right at onboarding stages.
+
+[21:22] This is what we would call participant generated health data. One of the releases we really hope it's going to be available for today, but because it's so much fun, but it's going to be available at five is a premium endpoint, which is a digital biomarker.
+
+[21:36] So this is one of the things that we have brought into the decentralized trial space, which is fairly novel. Some people would say that all of these are digital biomarkers, basically a biomarker being a biomarker and something else measured digitally that correlates with that.
+
+[21:52] One of the digital biomarkers that we'll be adding later today is developed by a company called Hout AI, but it is a selfie that you can take from three different angles that measure signs of aging, pores, acne, fine lines, has been used in a number of clinical trials, but you can imagine that we have a lot of interventions that are beauty from within or anti aging.
+
+[22:12] You know, the L'Oreal's and the Estee Lauder's of the world spent 3% of their revenue on these types of studies. So digital biomarkers, you will see if you are signed up tomorrow and you can add that into your study. That would be great. We'd love to see how you guys do.
+
+[22:27] Yeah, once someone is done onboarding, they're in the actual study schedule. So again, about time, this is how you create that day one to day 30 set of time. What do you want to have people do on day one at 6 p.m.? Maybe you actually want to welcome them to the study on day one at 6 a.m. instead.
+
+[22:44] That creates an entire notification system on the back end for all of the instruments in your study. Any questions on how I'm going through this? I'm hoping I'm not going. It's a lot in here, so I'm trying not to go through it too quickly, but also don't want anyone to get bored.
+
+[22:57] Any questions? Sweet. You can decide how adherent you need your participants to be for your sample size. So you want people to be above 75%, keep them in the green. You want them to wear their wearables 75% of the time. That's where you've got your sliders.
+
+[23:14] Every single participant on Alethios, even if they're not receiving compensation like a gift card or a discount code or free product, every single participant who's in a study on our platform gets their study data returned to them at the end of every study.
+
+[23:27] We've seen folks put it into chat GPT or Claude. We've seen folks get blood work that has helped them go to a physician and say, Hey, this is what I got by participating in a study. Anything you would recommend? All of that is in here. When we recruit, which we're obviously doing in person at edge, and you'll probably all be doing in person at edge.
+
+[23:45] We do also use AI to create a number of different assets that are geared towards what you think will help people join your study. Some studies that we have have compensated at a $2,000 amount. at the end of a nine month study. Not much actually, if you think about nine months of your time, but still the maximum that the government would allow you to compensate for a clinical trial.
+
+[24:05] So you can pick and choose what you think will help people actually do that. Right now we have ads, captions, and images here. But obviously we'll be adding things like videos and avatars and fun stuff. Everything that you have on the platform can be downloaded for an IRB.
+
+[24:20] Do you know what an IRB is? Okay. In a single click. And you can see what the participant facing side of the platform looks like. You can see every single thing you've created. All of the questions that you have. Exactly how questionnaires are scored.
+
+[24:37] Even sort of a lightweight study summary of what you're collecting in what weeks. So all in the platform in one go. And that's that. We could spend hours on this. Some of us do. Any questions? The person running the study can see their data if it's appropriate.
+
+[25:03] We can't see anything. We have no desire to look at anybody's study data whatsoever. If we're asked to support on things like shipping, yes, you can see a name and an address. But there is so much data collected by the platform. And it's really.
+
+[25:18] So people who are running research, there's a sponsor of the study. Often also the person who's paying for the study. They are the ones that usually own the data based on a governing document that is between participant and researcher, which is an informed consent document.
+
+[25:31] On our end where we can look at the data would be in the case of, you know, a legal requirement or someone's had an adverse event. But super no interest. I mean, I've just seen so many patients like me, 23andMe, so many of these companies that have monetized the data of individuals giving nothing back.
+
+[25:49] I mean, there's an entire ecosystem of clinical trial companies that are just buying and selling participant data. Not really interested in doing that. For us, for many of our participants, this is the first exposure to the scientific method that they have had since high school.
+
+[26:05] That's a tremendous, tremendous responsibility. If we do that right, that's someone who might one day join a really critical clinical trial because they have been exposed to research beforehand. So making sure that that's never on the table, right?
+
+[26:20] And even doing things like advocating for better compensation or even having something that we're developing internally. And this is where we look at metadata, right? Hey, you're asking way too many questions. Not only does that suck for the participant, but you're actually going to reduce your adherence percentage by 25% if you ask all of these questions.
+
+[26:38] Do you really need them? So I guess the group that we've focused on for most of the company's very short life so far is people who do research. And saying, hey, you're doing research. This is faster, better, and cheaper than anything you've ever seen before.
+
+[26:54] So what I would love the next iteration of the company to be is to go to people who never thought that they had the resources to do research and say, how can we make it possible for you to do really fast, really rigorous, really flexible, and really affordable science? So good question.
+
+[27:34] So when we think of researcher and where they sit, to me, a researcher sits in a lot of different places, right? We actually have two bands that I would say we focus on. There are industries and institutions that have a team of people who can serve as PI.
+
+[27:47] They look at this, they're like, great, I get it. And the reason they love it is it's incredibly comprehensive. Like you can print a shipping label from within the platform and have an audit trail for the participant for logistics on the other side.
+
+[27:58] You can screen people. We recruit studies because we have the alethiad side of the platform in less than 24 hours. Recruitment is by far the biggest barrier for all clinical trials. So that's usually a big one. And we did just recruit our first 150-person trial in less than 24 hours a few weeks ago.
+
+[28:16] That was even weird. It was an RCT, delgline, placebo-controlled supplement, olive oil-based for knee pain. So everybody had to have reported knee pain at a certain VAS score. They had to own a wearable and have it be compatible with the platform.
+
+[28:32] And they had to be willing to do a 60-day study and a salivary assay kit at three points. I think the compensation for that is 120. Yeah. So quick. And that was just from the database in the newsletter that we sent out, which was wild. So those researchers who have struggled for a long time know.
+
+[28:52] There are a lot of people who have been blocked out of the research space for a long time. And have had to go the very traditional CRO route, right? IQVIA, PPD, Paracel, Big Pharma CROs, as well as a number of, let's say, sort of nutraceutical supplement-focused CROs.
+
+[29:09] They also use the platform. CROs themselves say, great, we can use this software and go out to our own customers and say, now we have a better, cheaper offering for you. We love that. It's a great way for us to not do anything. Ah, so right now we do.
+
+[29:24] And that's a good point because I didn't mention the last piece of data. Thank you. Which is at-home biomarker testing. So we will eventually add mobile phlebotomists or Quest or LabCorp. But the platform has a 93% adherence in consumer health studies.
+
+[29:37] Part of the reason is we send all the kits home, dried blood spot, tasso, saliva, you know, at-home microbiome kits. All of that is already integrated into the platform. I would love that. Everybody, you have, Edge City is the code that you use.
+
+[29:59] I'll put it up at the end of this as well. But yeah, I mean, it means that the important consideration is, can my trial run in a decentralized way? Many trials cannot. The risk profile is not appropriate. What you're trying to collect is not collectible remotely.
+
+[30:15] You need to have some physician interface with the participant. We encourage people to say, if you, if all of those are, if you can check all of those off and say, none of those apply to me, then you are a perfect fit for a decentralized study.
+
+[30:27] I would say, whenever folks talk about the bias or issues or even things like, is the data legitimate? In-person and decentralized trials, you know, they have the biases that are two sides of the same coin.
+
+[30:58] There is no perfect study. So I would say the problems that one has in decentralized trials, yeah, people are going to miss a task and then be super sad about it and message us on the support channel. But, you know, we have said it's only available between 10 and 12 p.m. local time.
+
+[31:15] So I would say that, I mean, certainly the numbers that we see on adherence are far and beyond anything that you would ever see in an in-person clinical trial. We've tripled, we've tripled revenue year on year, but we have more than 10x our customer base year on year.
+
+[31:34] Yeah, they really are. The piece that we always encourage people to think about is, I mean, I said, like, decentralized trials are about time. Clinical trials themselves are just stats. They're just stats. And that's something that we're working on to try and make that process also easier in the platform.
+
+[31:57] How do you select your primary endpoint? What type, like, if you don't think about stats early in a trial, it really comes back to bite you in the butt. So we're trying to make it, like I said, good, fast, affordable, rigorous science looks different for who you talk to, but there are some fundamental principles that we think we can help with.
+
+[32:15] Totally. So most clinical trials take place in person where you have a participant going into a clinic to see a physician who is usually the person that is, let's say, administering a drug or telling you what to do and taking information from you.
+
+[32:37] A decentralized clinical trial means that you don't have a site at which everybody is coming. Everyone can participate at home remotely. So that's why those things that we were talking about before, like at home blood spots versus going into the doctor to get that blood work done or my favorite, which is please come to the site.
+
+[32:54] Can you fill out this form? Bye bye. You can just do that home. So and a lot of trials are that. So the one that we all just made together is, you know, you could all participate in this study. And I'm happy to put this in anybody else's environment and you can actually run this study while you're here if you want to.
+
+[33:11] Because I do think it has an impact. I love community. Yeah, it's designed to make it so that you can design it and execute it and people can also join it. Yeah, that's my best friend out there. Oh, yes. What a great question.
+
+[33:45] I feel like I should test Zoe and make her. No, I won't. But you can jump in. So part of this is just software, right? Yeah. On the software, it's a 98% margin. There are entire businesses that do just this box. Just that box. Just an informed consent form.
+
+[34:09] Just a PDF and an electronic signature. Chomp, chomp, chomp. Absolutely. So margins for us are in the comprehensiveness of the entire platform. It's in the Alethiad side. So recruitment is a high margin activity for us. But for every time that we recruit a clinical trial, we have just added 10,000 people to our database of participants as long as they opt in to be contacted for future trials.
+
+[34:34] So that's one bit. Then we don't actually run the trial. Somebody else is using the platform to run their own study. So we make the PI's life a lot easier. But there's one other thing that I haven't mentioned on the business model, which is, of course, we license this to companies that have research teams.
+
+[34:49] We license this to CROs. But then when someone doesn't have a research team and they don't want to use the CRO, they come to us and we say, great, we're going to match you with a principal investigator who knows how to use the platform. And they're going to charge you, you know, between 10 and 35,000, but they will do all of the scientific development of the study.
+
+[35:06] There'll be the name on the IRB paperwork and they're going to do the analysis in between. And you get a cut? No. Much. And that, you know, we'll chat with the investors about that in a few years. I don't, you know, we've seen how that's worked with models like Upwork or TaskRabbit, right?
+
+[35:22] The second you take a cut, people are going to start doing it themselves on the side. So why even start? Instead, something like, hey, yeah, do you want to be enlisted as an Aletheos PI for a dollar a month for the year? That's what I think would make sense.
+
+[35:35] Because I think we fundamentally believe in a bigger pie, a bigger pie, the same small wedge of a much bigger pie. We have PIs on the platform who are making $250,000 this year in addition to their academic appointments just by being PIs on different studies.
+
+[35:54] Yeah. You want to join? We haven't actually launched that part of the platform yet. Right now it's informal, so we're still doing that PI matching internally from our network. We plan on launching that at the end of the year. So in terms of actually answering your question, yes, we can do the shipping if someone wants us to do it.
+
+[36:10] The reason that the margins are high and that they're, is this being recorded? You know, between 80 to 85% gross margins for the business on every study we run, as well as we also have folks who run multiple studies with us a year, which is a great, great margin for us and a great deal for them because they don't have to worry whether it's six or three months they have the year to run as many studies with all of the feature set that they have.
+
+[36:39] I will say like business model wise, a lot of this is new territory for many of us who have been in the Bay Area for a long time. The, you know, the rule of the iron fist of ARR and SAS is, is not broken, but it's not the same. Because margins change on services like we, we make a ton per participant recruited because I'm charging 15% of what a recruitment company would charge.
+
+[37:08] So we win the business right off the bat, but it costs me 1% of that to actually recruit the participant. So the commitment to smaller numbers, but bigger margins is what enables volume across the board for us. Okay, recruitment and we expect that to only have compounding benefits.
+
+[37:29] I mean, we've essentially been paid to build a massive database of participants of citizen scientists, which is wonderful. Yes, they are, but they really should be a customer because they're a CRO. And they know that I've had that conversation with them many times.
+
+[37:44] They're a wonderful company, but that is one type of research is like what, what fundamentally underpins our company is a true. We're truly mission driven, lowering the barriers to evidence generation for both researcher and participant across human health.
+
+[37:58] You can find everything that I shouldn't have even done this whole presentation. Because if I had just said that one sentence, you can literally pick every single thing we do at the company for comes back to that. We run trials at about, and it's hard to say because some of them are inflated because you, you know, at the end of the day, a biomarker kit is a biomarker kit.
+
+[38:26] Like I can't get anything less than that. But in general, we are about 15% of the, of a radical science, for instance, which is the new cheap competitor for 10 times what you get. I love making things cheap and bad salesperson. One of the cheapest things we do, which if you guys, this is, and this is probably a good segue because I'm sure, I'm sure, I'm sure.
+
+[38:49] And Telemann is asking all these questions, but I'm over time, right? Okay. Aditya is waiting to go. He has cool stuff to tell us. One of the big things we did was usually when you want to even just think about a study, if you're not using sort of the basic academic tools, which are like a red cap, Qualtrics, or a type form, you have to contract a CRO.
+
+[39:12] And a CRO is going to charge you $50,000 to digitize a protocol, think about the research, have a recruitment strategy, answer your questions, put a protocol together. Like, you can, you can send a study to the IRB with us for a hundred bucks a month.
+
+[39:27] We'll help you through it. We work with you on it. Everything that I have just shown you in the study planner is a hundred dollars a month. So, you know, it's a pretty, it's a pretty like line and I can't go much lower than that. And I certainly don't want to go higher.
+
+[39:40] We are very committed to making it possible for more and more people to do these studies. And I hope many of you sign up. There was one other thing I was going to mention, but now I've lost it. I'm tired too with it. Over to you. Oh, yeah. Does anyone have caffeine?
+
+[40:22] Oh, no, I'm just talking. I'm kidding. I'm kidding. I'm kidding. Can we do like a very energetic round of applause? So like my brain wakes up like, okay. Hi, I'm a DTA. What's up, everybody? How you doing? Who trains in the gym? Keep your hands up if you actually do weightlifting, not Pilates bullshit.
+
+[40:46] It is bullshit, but yes. Shots fired. Okay. Awesome. So I'm a DTA. My story very quickly in 10 seconds, more than that. I turned my bedroom to a biohacking lab at 14, started coaching CEOs at 17 by accident, learned all of the biohacking as bullshit at 19, became a scientist at between 19 to 25, worked in industry, became a drug development scientist, and quit because no one was working on technologies to make you jacked.
+
+[41:14] I am working on technologies to make you jacked. With drugs. Steroids included, motherfuckers. All right. So how does this work? So basically, what we've built is a combination of two things. Our company's Prana. I'm going to go on the website.
+
+[41:31] We have a combination of drug protocols, testosterone, growth hormone, erythropoietin. A lot of these anabolic drugs that are used in athletics actually have a lot of clinical applications to making all of you live longer, healthier lives, but these technologies are misunderstood.
+
+[41:45] And the second thing is we combine these enhancement protocols with prediction models. So what does a prediction model look like in this case? Well, if you weight lift, how do you know when you've done enough work on your muscle to actually produce a stimulus of growth?
+
+[42:00] The answer for most people is you have no fucking clue. You either become a bodybuilder and like take it very seriously and get roided up like Arnold's Regenegger or you become somebody who just is skinny for the rest of your life and you don't build muscle.
+
+[42:12] The hypertrophy measurement layer doesn't exist. And so the first thing we built is muscle one, which is a prediction model that basically takes in your data. All you have to do is track your sets and we can build an adaptive dose response curve for each individual muscle for exactly how much you need to train that muscle every single week to actually make it grow.
+
+[42:33] But of course, training is just one piece of the equation. Now you have blood biomarkers. How did your testosterone, IGF-1 status, all of these things fit into play? How does your nutrition status fit into play? Most people don't realize if you eat one gram per pound of body weight of protein and then you go up to 1.3 grams per pound of body weight, you build 40% more muscle.
+
+[42:50] This is based on one of the largest meta reviews in this field. People don't know that. And more importantly, what the hell do you need to do? Some people don't understand that for every pound of weight you gain or lose, as you get leaner, more of that becomes muscle tissue, less of that becomes fat tissue.
+
+[43:06] Which means if you're at 30% body fat on a GLP-1, most of the lean mass, most of the mass you lose is fat mass. But if you're at 12% body fat and you're doing a calorie deficit, that can tip in the other way, where you start to lose more muscle and more lean body mass instead of fat mass per pound of weight lost.
+
+[43:21] And you have no idea how to predict those things. That's where drugs come into play, by the way. You add testosterone in there if you're a man and you just build a lot of muscle. But anyways, I'm not on testosterone right now, but I was three months ago on like 500 milligrams, which is a steroid cycle, which is very fun.
+
+[43:38] Anyways, so the experiment we're running at EDGE, we have two levels. One is a muscle only level, which is really a cop out. Like I want you to do the actual advanced version. The muscle only level is like you go to the gym, you use muscle on our training model, and you build muscle over the next month.
+
+[43:55] Ideally, the dose response curve you have, you use it for the next few weeks, and we go ahead and just get you jacked. It's pretty cool, right? Who would like that, right? If you're not raising your hand, start raising your hand. Okay. But the more advanced version, yes.
+
+[44:11] Don't worry about that. We're talking specifically about muscle growth. I'm actually going to answer your question in a second. Yeah. But the more advanced version, we've spent the past year building our technology in our pipeline. We're finally now rolling it out to the world.
+
+[44:31] So our process starts with a four-week calibration period. This is the actual experiment I want you to do. You do a DEXA scan on day zero. You track your nutrition intake, your training data, your step counts via wearable, and weight changes.
+
+[44:44] And if you are using any drugs like a GLP-1, you track that too in our application. Then you do a DEXA scan on day 28. If you do that, you get this report right here. We build a digital twin of your physiology in your smartphone that you can use moving forward.
+
+[44:56] So I'm going to show it to you, and then I'll shut up and go sit down and drink some coffee. So first, once you collect all this data, what we can tell you is how many pounds of muscle away you are from your genetic limit. Which means without steroids, how much muscle can you actually build beyond where you are?
+
+[45:13] If you're somebody who cares about aesthetics, how many pounds of fat do you have to lose to actually get to visible abs? We can predict that too. We can give you the exact target. We can also tell you for every pound of muscle you gain naturally.
+
+[45:26] How much of that is lean? How much of that is fat tissue? And we can predict how that changes as you get leaner. In the inverse, for every pound you lose, how much is muscle tissue? How much is fat tissue? We can predict that with granularity.
+
+[45:36] And then we can say, growth hormone is the best drug for you to take to shift the partition coefficient. I would recommend growth hormone, but it's impossible to get it here. I go to Bali and I buy it for like 10X cheaper. If anybody is like, you know, knows like policy people, growth hormone has been criminalized in a very stupid way over the past few months or decades.
+
+[45:55] And it's very dumb. Like it's really terrible. But testosterone, anivore, if you're a woman, that's something that you can use over there. You can shift that partition coefficient so that for every pound of weight you lose, almost all of that becomes fat and none of that becomes muscle.
+
+[46:08] So you can preserve that. The idea for our platform is to be co-prescribed with a GLP-1. So you essentially lose a ton of fat and stop losing muscle. The next thing. How many calories do you burn? Has anybody ever used a nutrition tracker? And they have like an equation, which is like, this is your metabolic rate.
+
+[46:25] No, we can tell you what your actual metabolic rate is. Not from a curve that was built in a study, but from how much you actually burn based on fat mass and lean mass changes from that DEXA scan using your nutrition data. And from there, we can tell you, okay, you want to lose one pound of fat per week.
+
+[46:39] This is exactly how many calories you eat. We have another model you're not going to see here to predict changes in metabolic rate over time. So as your metabolism adapts, as your thyroid hormone goes down, we can tell you, okay, this is your metabolic today.
+
+[46:50] This is your metabolic rate three weeks ago. And this is the drug you take to bring that up. We can do that. And by the way, you don't think about any of this stuff. We do all the thinking for you for building muscle. How many calories do you need?
+
+[47:03] How much protein do you need? All of these things we can tell you based on your actual physiology with science people, not YouTube videos. And as you track your training data, again, we build that dose response curve. So we tell you, okay, in the gym, based on your training, obviously, we have to teach you how to train.
+
+[47:21] If you're a newbie, we have to teach you proper form. We have to teach you what exercises to do. But as you go ahead and go through those exercises, our model calculates what's called stimulating volume, which is a metric we invented. I say invented to sound important.
+
+[47:32] It's just a math equation. I sound very important when I say invented something. It's really cool. I can also say I filed a provisional patent, but anybody can file one. So it makes me sound important. But anyways, we can tell you, okay, each muscle, like what's your proximity to failure?
+
+[47:47] What's your stimulating volume week to week? What's the actual targets you have to hit? And all of this, this all looks very technical, but it turns into an application in your smartphone. So with your training, it's a progress bar you hit every single week.
+
+[47:57] The metabolic rate model, all of these things are simplified in an application in your smartphone. You run the system, everything lives in your body, in your smartphone, and you can just go ahead and run your protocols from there. So that's the experiment.
+
+[48:10] If you'd like to join, if you're a smart person, right? If you'd like to join, you're probably smart, right? Sorry, my blood sugar is very low at the moment. I'm a bit of a dick at the moment. I need food so badly. They tried to give me giraffe food for lunch.
+
+[48:29] It was fucking quinoa and lettuce. I'm like, where is the protein? Like, what is this? I just tossed it anyways. God damn. I need a talking to to these people. If you'd like to join the experiment, the DEXA scans are $100 for two DEXA scans.
+
+[48:44] Unfortunately, we're not bringing a van up here. So you'd have to go to San Francisco or to Marin to get the first DEXA scan. The second DEXA scan can be done wherever you want. If you'd like to join, you don't have to do it at Edge. You can do it after Edge.
+
+[48:55] But we build this model, and then you go ahead and you run your protocols from there. For the muscle-only version, you can run this today. You just download our app, train at World Gym. I just announced the whole experiment this morning. So we're actually going to do group training sessions if people show up, if you guys want to go to World Gym and train.
+
+[49:12] I know Charles, my man, is excited for that. There we go, man. Oh, man, I'm an evening person, so I guess we won't train together. But yeah, yeah. Let's do it. Let's do it. So if you want to sign up, go on Piranha.Health. Go to Research. Go to Body Model.
+
+[49:29] Click the Edge button. Put your name and details in, and you're good to go. Any questions? So you do, like let's say you're a digital twin, which is a marketing term. It's a bullshit marketing term. Okay. Digital twin. Your metabolic rate, the prediction, let's say it spits out 2,800 calories,
+
+[50:01] right? And you eat 2,300 calories per day to lose one pound of fat per week. 500 calorie deficit. It's 3,500 calories, one pound of fat per week. So if you do that, you do a follow-up Texas camp in about a month or three months. And you still want to ideally track your nutrition data.
+
+[50:16] We do the whole calibration again. So you can see based on the fat mass changes, is this accurate or is this not accurate? So our calibration is just the beginning. We actually retest again and again and again to make this more accurate. And your body is going to change after what, three months, right?
+
+[50:29] So your calibration in the first four weeks gives you an initial estimate, but that's going to change over time. So you ideally want to do this again and again and again. But if you're doing like a three month, six month protocol, you do this first, then you have personalized feedback while you're on it.
+
+[50:42] And you'll see the results as you do another DEXA scan or something or look in the mirror, ideally. Unless I'm a con artist. I don't think I am, but you know. Yeah. Ouch. Yes. Maybe in the future, mobility is very hard to quantify. I mean, like, I don't know, like, is this quantifiable?
+
+[51:10] I don't fucking know, dude. Like, what do I do here? It's hard to quantify. I treat muscle and fat as clinical endpoints. We do integrate blood biomarkers, by the way. So I didn't show that. Let me show that pretty quickly. If you have blood work, by the way, if you're insulin resistant, you build less muscle.
+
+[51:24] If your testosterone is low, you build less muscle. If you have low iron, you're an endurance tank. So we can connect all your blood biomarkers to all these things. If you have too much saturated fat and your APOP is super high, we can correlate that shit, too.
+
+[51:35] So if you integrate blood work, we can go ahead and get it done for you. But yeah, I forgot to share that part. But no mobility yet. Yes. So I'm open to it. I'd love to. I like the platform. We can run a trial in the future. We've built the data collection pipeline in our app.
+
+[51:52] So it doesn't make sense right now. But I like what you guys are doing. Are you an investor or some shit? Yes. More questions. I think Charles had a question. Yeah, man. Most peptides are bullshit. Who take? No, those are great. So some peptides are bullshit.
+
+[52:20] MOTC, BPC-157, bullshit. MOTC, not studied. BPC-157, not studied. Thymusin-Alpha-1, eh, potentially it exists in your body, but not studied. Girl-thormat-secretagogues, FDA-approved. Tessamaryllin, sermaryllin. Great. What else? GLP-1, geretotrytide, terzepatide, I'm on reddit right now.
+
+[52:40] Semuclutide. Great. The problem is not that whether or not these things work. The problem is that most of these peptides have never been studied in humans. And so maybe it makes your dick fall off. You know what I'm saying? Like, FDA-approved to increase IGF-1 that that works very well.
+
+[52:54] That's like the best growth hormone secretagogue out there, outside of straight growth hormone, which is even better, but until the government gets its shit together. They've criminalized this to hell. You pay like 10 grand a month for a dose of growth hormone.
+
+[53:06] It's terrible. I'm gonna fact check you on that. I'm gonna fact check you on that. If that is true, holy shit. Yes. What was the, what was the, I didn't hear you. The first. Yeah. Reditrytide, it has the highest lean mass loss. And the problem with lean mass loss measured via DEXA is that skin, like for example, skin
+
+[53:38] counts as lean mass, liver fat counts as lean mass, organ shrinkage counts as lean mass, water levels and glycogen counts as lean mass. And the extent to what your deficit is depends on how steep that lean mass loss is. So the problem with all these trials is that they use DEXA for lean mass loss.
+
+[53:54] Lean mass loss doesn't actually cover muscle necessarily. And so this is actually where a model comes in. You can actually have a measurement layer to show you whether or not your muscles are growing and your strength is changing or not. But lean mass loss is a very, very imperfect number, especially if you're obese.
+
+[54:07] Because if you lose a hundred pounds, you're losing a lot of other tissue that counts as lean mass on DEXA. Like again, skin, organ tissue, body water, things of the sort. So I wouldn't trust those numbers that people who are like, I actually have a tweet about this.
+
+[54:21] You guys should follow me on Twitter, by the way. Let me, let me put it up. Okay, guys. I have a tweet about this shit. Fuck. Where is it? Yeah. Look at that douchebag. Articles. I write how to run testosterone, you know, why anabolic steroids are better longevity drugs than metformin or rapamycin, stuff like that.
+
+[54:38] But anyways, yeah, the reddest stuff, I wouldn't be worried about it. Any other questions? Yes, yes, yes, yes, yes. As you can tell, I haven't eaten today. Join. Scan. Does anybody have any more questions? I'm very obnoxious at the moment. What's up?
+
+[54:58] Yeah. Yeah. The basic limitation of our model is that we can't quantify that at the moment. The question is whether or not focusing on time under tension is a better variable than just repetitions and volume. However, the totality of hypertrophy data basically just shows that doing, you know, slow and controlled
+
+[55:30] repetitions instead of throwing the weight around and progressively overloading two things. So hard sets, which is sets taken close to failure and progressively overloading volume, which is like set in each set, you have weight times reps. If you go ahead and accumulate or summate all of the weight times reps of all those sets, that's volume, right?
+
+[55:48] So hypertrophy sciences has shown that those two things are predictive of muscle growth. And so we don't cover all cases. We can't because it gets very, very tough. We don't have any specialized hardware. But if you train in a way that is generally just best and default, which is not doing anything fancy, no Mike Minster style training, which doesn't really work well, no time under tension training, just focus on repetitions, sets, and proper form and technique.
+
+[56:09] If you do the standard, the model works. If you don't, it's hard to quantify. Yeah. What type of training do you do? Yeah. Yeah.
+
+[56:42] Yeah. Yeah. Yeah. Yeah.
+
+[57:14] Yeah. And the good news is lengthened, lengthened repetitions in general, not necessarily lengthened and partials, and slow and controlled movements is just what's best anyways. You don't want to be throwing the weight around. So that's generally what's best, which is cool.
+
+[57:25] With the lengthened partial specifically, we don't track that, but you can basically have a custom exercise that says partial repetitions and will still overload the volume. But that is a, I mean, honestly, you should use the platform and just give me feedback and I'll just build it to make it better.
+
+[57:37] Yeah. Yeah. What's up? Yes. Yeah. One thing we quantify is there's two things. I think I might be able to show you. Let me see. Let me see. We have two metrics on top of growth, which is neuronal fatigue and growth stimulus on a day-to-day basis.
+
+[58:00] You might see it right here. Okay. Yeah. Those two things. So we can actually quantify those. The problem is we haven't validated this, but on a day-to-day basis based on your training, we are theoretically able to quantify which days your muscles are growing and which days you're not.
+
+[58:16] Basically, we have our model. We have EMAs on top of it. I'll break it down for you if you want. But we can also quantify neuronal stimulus. So how fatigued you are based on how heavy you're training every single day. Whether or not this is useful, whether or not it's 100% accurate, I honestly don't know.
+
+[58:29] I'm not going to lie to you. But it's cool, I think. The neural adaptation comes from quantifying proximity to failure and how high of a weight you're doing. So intensity, which is how close do you want to max your training, which roughly correlates to what creates CNS fatigue.
+
+[58:55] Okay. Any other questions? Yes. Thank you. If I could say one more thing, if you're doing the experiment, tomorrow we're doing a workshop to teach you how to train, personalize your plans at 1 PM. On Thursday, I plan to do a talk, how to get jacked with medicine safely.
+
+[59:14] So I'll break down our whole protocol. See ya. Thank you, Jim.

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kitchen Playbook 🍳 | Turtle Ops — Terrible Turtle Camp</title>
+<meta name="description" content="The open-source Terrible Turtle Camp kitchen build: trailer conversion, propane cook line, cold chain, food safety, and cleaning stations. Fork it for your camp.">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+  :root {
+    --tt-orange:#eb5833; --tt-coral:#fd6844; --tt-amber:#db9840; --tt-gold:#e5a14b;
+    --tt-red:#cc272e; --tt-rust:#a3623b; --night:#030915; --night-2:#071123;
+    --card:#0b1628; --card-2:#111b28; --border:#1f2a38; --cream:#f7f0eb;
+    --cream-dim:#ddd6d1; --sand:#8a7d75; --radius:12px; --radius-lg:20px;
+    --ok:#69db7c; --warn:#ffd43b; --bad:#ff8787;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{font-family:'Rajdhani',sans-serif;background:var(--night);color:var(--cream);line-height:1.55;font-size:18px;}
+  .container{max-width:880px;margin:0 auto;padding:20px;}
+  a{color:var(--tt-orange);}
+  .topnav{padding:18px 0;font-weight:600;}
+  .topnav a{text-decoration:none;color:var(--tt-coral);}
+  .hero{text-align:center;padding:30px 10px 26px;}
+  .hero .icon{font-size:3rem;display:block;margin-bottom:8px;}
+  .hero h1{font-size:clamp(2rem,7vw,3.4rem);font-weight:700;text-transform:uppercase;letter-spacing:.02em;
+    background:linear-gradient(135deg,var(--cream) 20%,var(--tt-gold),var(--tt-orange));
+    -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:8px;}
+  .hero .sub{color:var(--cream-dim);font-size:1.15rem;max-width:620px;margin:0 auto;}
+  .badge{display:inline-block;padding:4px 14px;background:rgba(219,152,64,.15);color:var(--tt-gold);
+    border:1px solid rgba(219,152,64,.35);border-radius:16px;font-size:.78rem;font-weight:700;
+    letter-spacing:.15em;text-transform:uppercase;margin-top:14px;}
+  section{padding:22px 0;}
+  h2{font-size:1.6rem;text-transform:uppercase;letter-spacing:.03em;margin-bottom:12px;color:var(--tt-gold);}
+  h3{font-size:1.2rem;margin:16px 0 6px;color:var(--cream);}
+  .panel{background:var(--card);border:1px solid var(--border);border-radius:var(--radius-lg);padding:26px;position:relative;overflow:hidden;margin-bottom:16px;}
+  .panel::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--tt-orange),var(--tt-gold),var(--tt-red));}
+  .panel p{color:var(--cream-dim);margin-bottom:12px;}
+  .panel p:last-child{margin-bottom:0;}
+  .panel strong{color:var(--cream);}
+  .panel ul,.panel ol{color:var(--cream-dim);margin:0 0 12px 22px;}
+  .panel li{margin-bottom:6px;}
+  .spec{font-family:'JetBrains Mono',monospace;font-size:.85rem;background:var(--night-2);
+    border:1px solid var(--border);border-radius:8px;padding:2px 8px;color:var(--tt-gold);white-space:nowrap;}
+  table.gear{width:100%;border-collapse:collapse;font-size:.95rem;margin:10px 0;}
+  table.gear th{color:var(--tt-amber);text-transform:uppercase;font-size:.75rem;letter-spacing:.1em;text-align:left;padding:8px;border-bottom:1px solid var(--border);}
+  table.gear td{padding:8px;border-bottom:1px solid var(--border);color:var(--cream-dim);vertical-align:top;}
+  table.gear td:first-child{color:var(--cream);font-weight:600;}
+  .pill{display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:2px 8px;border-radius:8px;}
+  .pill.received{background:rgba(105,219,124,.12);color:var(--ok);border:1px solid rgba(105,219,124,.3);}
+  .pill.ordered{background:rgba(219,152,64,.15);color:var(--tt-gold);border:1px solid rgba(219,152,64,.3);}
+  .pill.notbought{background:rgba(255,135,135,.1);color:var(--bad);border:1px solid rgba(255,135,135,.3);}
+  .pill.flag{background:rgba(255,212,59,.1);color:var(--warn);border:1px solid rgba(255,212,59,.3);}
+  .callout{border-left:3px solid var(--tt-orange);background:var(--card-2);border-radius:0 var(--radius) var(--radius) 0;padding:14px 18px;margin:14px 0;color:var(--cream-dim);}
+  .callout.safety{border-left-color:var(--bad);}
+  .callout strong{color:var(--cream);}
+  .footer{text-align:center;padding:40px 20px;border-top:1px solid var(--border);color:var(--sand);font-size:.95rem;margin-top:30px;}
+  .footer a{text-decoration:none;}
+  @media(max-width:600px){body{font-size:16px;}.container{padding:14px;}.panel{padding:18px;}}
+</style>
+<link rel="stylesheet" href="assets/turtle-cursor.css">
+</head>
+<body>
+<div class="container">
+
+  <nav class="topnav"><a href="./">← Back to Turtle Ops</a> · <a href="inventory.html">📦 Inventory</a></nav>
+
+  <header class="hero">
+    <span class="icon">🍳</span>
+    <h1>The Kitchen Playbook</h1>
+    <p class="sub">Old trailer → full camp kitchen that feeds 20–30 turtles for two weeks in the dust. Open source — fork it for your camp.</p>
+    <span class="badge">Building · v1 · synced with the live inventory</span>
+    <p style="margin-top:12px;"><a href="kitchen-build.html">📐 NEW: Visual Build Guide — floor plan, cook line, boil-in-bag workflow, dish pit, greywater loop →</a></p>
+  </header>
+
+  <!-- OVERVIEW -->
+  <section>
+    <h2>1 · The Concept</h2>
+    <div class="panel">
+      <p>We're converting an <strong>old trailer into a full commercial-style camp kitchen</strong>: a propane cook line, real refrigeration with a walk-up cold box, commercial prep surfaces, a proper cleaning station, and e-track storage so everything survives the Boulder → Black Rock City haul.</p>
+      <p>Design drivers: <strong>food safety in 100°F dust</strong>, fast crew meals during build week, and a layout where the messy stuff (dishes, greywater, handwash) lives <em>outside</em> the trailer.</p>
+    </div>
+  </section>
+
+  <!-- MEAL STRATEGY -->
+  <section>
+    <h2>2 · Meal Strategy: Frozen Boil-in-Bag</h2>
+    <div class="panel">
+      <p><strong>The big idea (kitchen planning doc, 7/25):</strong> we're pre-ordering <strong>fully cooked, frozen meals</strong>. The kitchen <em>reheats and serves</em> — it doesn't cook. Bags go into a large pot of boiling water, ~30–45 minutes per batch. The big propane burner is the workhorse; the camp stoves drop to backup duty (coffee, eggs, quick items).</p>
+      <p><strong>Why it wins on playa:</strong> almost no cooking mess → dramatically less dishwater · no raw-prep food-safety surface → simpler sanitation · predictable service times → happier, fed turtles. 🐢</p>
+      <table class="gear">
+        <tr><th>Station</th><th>Must-haves</th></tr>
+        <tr><td>Reheating</td><td>Large stock pots (submerge multiple bags at once) · long tongs / slotted spoon · timer · instant-read thermometer (verify water + food temp)</td></tr>
+        <tr><td>Serving</td><td>Ladles + serving spoons · hotel pans / large serving bowls · chafing dishes or insulated containers (hold temp through service) · serving tongs · food covers vs. wind + dust</td></tr>
+        <tr><td>Eating</td><td>Plates/bowls/cups/cutlery — <strong>strong case for disposable</strong>: kills a whole dishwashing loop and saves real water. Bag trash immediately = no MOOP.</td></tr>
+        <tr><td>Cleanup</td><td>Rubber bench scrapers (scrape before wash — saves water) · 3 dish tubs (wash / rinse / sanitize) · biodegradable soap · paper towels · <strong>greywater evaporation — non-negotiable</strong>, nothing drains on playa</td></tr>
+        <tr><td>Safety</td><td>Class K or ABC extinguisher near the propane · heat-resistant gloves · kitchen first aid kit</td></tr>
+      </table>
+      <div class="callout">
+        <strong>Water conservation multipliers:</strong> scrape every dish before washing · skip high-crevice tools that are hard to rinse (graters, mandolines, immersion blenders) · buy pre-prepped ingredients where needed (pre-shredded, pre-sliced) · disposable plates remove one full wash loop.
+      </div>
+      <div class="callout safety">
+        <strong>❓ Open questions (for the kitchen meeting):</strong> headcount + meals/day · bags-per-batch vs. one-batch service · target service window · boil-in-bag packaging confirmed with vendor? · total propane burn-hours vs. tank count · water split (drinking / boiling / washing) · greywater: evap tank, haul-out, or both? · who runs each meal + who owns daily propane checks? · buffer plan if a batch runs long?
+      </div>
+    </div>
+  </section>
+
+  <!-- COOK LINE -->
+  <section>
+    <h2>3 · Cook Line &amp; Fuel</h2>
+    <div class="panel">
+      <table class="gear">
+        <tr><th>Gear</th><th>Qty</th><th>Status</th><th>Notes</th></tr>
+        <tr><td>Backyard Pro dual propane burners</td><td>2</td><td><span class="pill received">Received</span></td><td>150,000 BTU/hr each → 300k BTU/hr total. Ship with 10 PSI hose + regulator — no separate manifold needed.</td></tr>
+        <tr><td>Backyard Pro single burner (BREWKIT2)</td><td>1</td><td><span class="pill received">Received</span></td><td>Comes with 40 qt / 10 gal stainless brew pot — soup, pasta water, dish water.</td></tr>
+        <tr><td>Propane, 20 lb tanks</td><td>6</td><td><span class="pill notbought">Not bought</span></td><td>See tank math below — consider 40 lb or 100 lb for the mains.</td></tr>
+        <tr><td>Heat shielding</td><td>—</td><td><span class="pill flag">Flag</span></td><td>Stainless sheet or cement backer board on ~1" standoffs, gap open top + bottom, behind/beside each range.</td></tr>
+        <tr><td>Butane lighters</td><td>10</td><td><span class="pill notbought">Not bought</span></td><td>They vanish. Buy many.</td></tr>
+      </table>
+      <div class="callout">
+        <strong>Propane tank math</strong> (why 20 lb tanks alone don't cut it): each range can pull 150k BTU/hr, but a 20 lb cylinder can only <em>deliver</em> ~90–110k BTU/hr before it freezes up. A 40 lb tank delivers ~150–185k BTU/hr, a 100 lb tank 300k+. If you'll run burners hard, size the cylinders to the draw — or run two tanks with a switchover.
+      </div>
+      <div class="callout safety">
+        <strong>⚠️ Safety:</strong> Propane is heavier than air — it pools <em>low</em>. Ventilate at floor level, keep tanks outside, and never store cylinders inside the trailer. Fire extinguisher within reach of every cook station. This playbook documents our plan — for anything structural, electrical, or gas, defer to your camp's qualified people.
+      </div>
+      <div class="callout">
+        <strong>⚡ Power rules (David sync 7/16):</strong> camp grid = ~2× 70A drops (5-ga, NEMA-6) feeding mobile sub-panels. <strong>No electric heat appliances this year</strong> — no microwave, no coffee machine, no toaster oven; all heat = propane (coffee = pump pots + #6 cone filters). Backbone: 10-ga 100&nbsp;ft cords + 10-ga triple taps. Trailer cable penetrations go through the <em>floor</em>, never the walls. Report the camp's draw number to David — it sizes his hub.
+      </div>
+    </div>
+  </section>
+
+  <!-- COLD CHAIN -->
+  <section>
+    <h2>4 · Cold Chain</h2>
+    <div class="panel">
+      <table class="gear">
+        <tr><th>Gear</th><th>Qty</th><th>Status</th><th>Notes</th></tr>
+        <tr><td>GE residential fridges (16.6 cu ft)</td><td>3</td><td><span class="pill ordered">Ordered</span></td><td>Standard top-freezer, white. Daily-use boxes.</td></tr>
+        <tr><td>GE chest freezer (21.7 cu ft)</td><td>1</td><td><span class="pill notbought">Not bought · HIGH</span></td><td>Garage-ready, Energy Star, manual defrost. Bulk frozen reserve — runs outdoors under shade.</td></tr>
+        <tr><td>Vegetable cold box ("the coffin")</td><td>1</td><td><span class="pill ordered">¾ built 🔨</span></td><td>Plywood shell + XPS foam + 2× ~5,000 BTU window AC units. A walk-up cool room for produce — <a href="coffin-build.html">12-step build guide</a>.</td></tr>
+        <tr><td>150 gal ice chest</td><td>1</td><td><span class="pill notbought">Not bought</span></td><td>For the transport leg + ice runs.</td></tr>
+      </table>
+      <div class="callout">
+        <strong>Strategy:</strong> chest freezer = deep reserve (opened once a day, max) · fridges = daily service · cold box = produce volume. Everything under shade; direct playa sun will beat any compressor.
+      </div>
+    </div>
+  </section>
+
+  <!-- WATER & CLEANING -->
+  <section>
+    <h2>5 · Water, Dishes &amp; Handwash</h2>
+    <div class="panel">
+      <table class="gear">
+        <tr><th>Gear</th><th>Qty</th><th>Status</th><th>Notes</th></tr>
+        <tr><td>Regency 2-compartment commercial sink</td><td>1</td><td><span class="pill ordered">Ordered</span></td><td>With dual 18" drainboards, 16×20×12 bowls. Dishes happen <em>outside</em> the trailer.</td></tr>
+        <tr><td>SHURflo diaphragm transfer pumps</td><td>2</td><td><span class="pill received">Received</span></td><td>Pressurize the wash water. Inlet side SOLVED ✅ — custom transition hose built at Tipco (Denver): 2" Kanaline + cam-locks + ball valves, to David's spec.</td></tr>
+        <tr><td>Separate handwashing station</td><td>1</td><td><span class="pill flag">Flag</span></td><td><strong>Required by food safety</strong> — separate from dish sink, outside the trailer.</td></tr>
+        <tr><td>Steramine sanitizer tablets</td><td>1</td><td><span class="pill notbought">Not bought</span></td><td>Third "compartment": sanitize dunk after wash + rinse.</td></tr>
+        <tr><td>Greywater collection + waste pumps</td><td>2+</td><td><span class="pill notbought">Not bought</span></td><td>Submersible utility pumps + float switches. Leave No Trace: no greywater on playa. Ever.</td></tr>
+      </table>
+      <div class="callout safety">
+        <strong>⚠️ Food safety non-negotiables:</strong> handwash ≠ dishwash (separate stations) · wash → rinse → sanitize (Steramine) → air dry · greywater is contained and hauled out.
+      </div>
+    </div>
+  </section>
+
+  <!-- LAYOUT / STORAGE -->
+  <section>
+    <h2>6 · Prep, Storage &amp; Transport</h2>
+    <div class="panel">
+      <ul>
+        <li><strong>Prep:</strong> 4× Regency 30×72" stainless work tables (18-gauge 304 SS, galvanized undershelf) + anti-fatigue mats + magnetic knife strip + utensil rail.</li>
+        <li><strong>Dry storage:</strong> 4× NSF wire shelving units, food-grade stackable bins, pest-resistant dry-goods containers, 27-gal totes (20).</li>
+        <li><strong>Transport:</strong> e-track rails + straps + ratchets keep appliances and shelving locked down for the haul. Butyl tape on the trailer roof. Spare tire + wheel-bearing service before departure.</li>
+        <li><strong>Access:</strong> folding entry step, folding tables (4× 8 ft) for serving lines.</li>
+        <li><strong>Ventilation:</strong> range hood in the build, plus low/floor-level venting (propane pools low), box fans + 12V circulation fans.</li>
+      </ul>
+      <div class="callout">
+        <strong>Pro move:</strong> get the Webstaurantstore PLUS membership <em>before</em> ordering — better pricing + free shipping paid for itself on the sink alone.
+      </div>
+    </div>
+  </section>
+
+  <!-- SAFETY KIT -->
+  <section>
+    <h2>7 · The Safety Kit</h2>
+    <div class="panel">
+      <ul>
+        <li>4× fire extinguishers (one per cook station + spares)</li>
+        <li>2× fire blankets (8×8 ft fiberglass welding blankets work great)</li>
+        <li>Smoke detector + CO detector inside the trailer</li>
+        <li>GFCI outdoor power strips on every kitchen circuit</li>
+        <li>Kitchen-focused first aid kit (burns, cuts)</li>
+        <li>Interior safety signage — where the extinguishers/exits/shutoffs are</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- FORK IT -->
+  <section>
+    <h2>8 · Fork This Kitchen</h2>
+    <div class="panel">
+      <p>This whole playbook is a gift. 🎁 The full 277-item procurement list — with vendors, specs, quantities, and live status — is in the <a href="inventory.html">Inventory Command Center</a>, and the raw data is at <a href="agent-kit/inventory-data.json"><code>agent-kit/inventory-data.json</code></a>.</p>
+      <p>To adapt for your camp: scale the cold chain to your headcount, redo the propane math for your burners, and keep the food-safety layer intact — it's the part that keeps everyone dancing instead of down. 🐢</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>🐢 <a href="./">Turtle Ops</a> · Terrible Turtle Camp · <a href="https://terribleturtle.camp/" target="_blank">terribleturtle.camp</a></p>
+    <p style="margin-top:6px;color:var(--tt-amber);">Move Slow &amp; Bite Things.</p>
+  </footer>
+
+</div>
+<script src="assets/turtle-cursor.js" defer></script>
+</body>
+</html>

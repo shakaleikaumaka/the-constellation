@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shower Playbook 🚿 | Turtle Ops — Terrible Turtle Camp</title>
+<meta name="description" content="The IBC-tote shower build: David's design guidance, greywater containment, float switches, and the parts path. Open source — fork it for your camp.">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+  :root {
+    --tt-orange:#eb5833; --tt-coral:#fd6844; --tt-amber:#db9840; --tt-gold:#e5a14b;
+    --tt-red:#cc272e; --night:#030915; --night-2:#071123; --card:#0b1628; --card-2:#111b28;
+    --border:#1f2a38; --cream:#f7f0eb; --cream-dim:#ddd6d1; --sand:#8a7d75;
+    --radius:12px; --radius-lg:20px; --ok:#69db7c; --warn:#ffd43b; --bad:#ff8787;
+    --aqua:#4dd4e8;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{font-family:'Rajdhani',sans-serif;background:var(--night);color:var(--cream);line-height:1.6;font-size:18px;}
+  .container{max-width:880px;margin:0 auto;padding:20px;}
+  a{color:var(--tt-orange);}
+  .topnav{padding:18px 0;font-weight:600;}
+  .topnav a{text-decoration:none;color:var(--tt-coral);}
+  .hero{text-align:center;padding:30px 10px 26px;}
+  .hero .icon{font-size:3rem;display:block;margin-bottom:8px;}
+  .hero h1{font-size:clamp(2rem,7vw,3.4rem);font-weight:700;text-transform:uppercase;letter-spacing:.02em;
+    background:linear-gradient(135deg,var(--cream) 20%,var(--aqua),var(--tt-orange));
+    -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:8px;}
+  .hero .sub{color:var(--cream-dim);font-size:1.15rem;max-width:640px;margin:0 auto;}
+  .badge{display:inline-block;padding:4px 14px;background:rgba(77,212,232,.12);color:var(--aqua);
+    border:1px solid rgba(77,212,232,.35);border-radius:16px;font-size:.78rem;font-weight:700;
+    letter-spacing:.15em;text-transform:uppercase;margin-top:14px;}
+  section{padding:20px 0;}
+  h2{font-size:1.6rem;text-transform:uppercase;letter-spacing:.03em;margin-bottom:12px;color:var(--tt-gold);}
+  .panel{background:var(--card);border:1px solid var(--border);border-radius:var(--radius-lg);padding:26px;position:relative;overflow:hidden;margin-bottom:16px;}
+  .panel::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--aqua),var(--tt-gold),var(--tt-orange));}
+  .panel p{color:var(--cream-dim);margin-bottom:12px;}
+  .panel p:last-child{margin-bottom:0;}
+  .panel ul,.panel ol{color:var(--cream-dim);margin:0 0 12px 22px;}
+  .panel li{margin-bottom:8px;}
+  .panel strong{color:var(--cream);}
+  .callout{border-left:3px solid var(--aqua);background:var(--card-2);border-radius:0 var(--radius) var(--radius) 0;padding:14px 18px;margin:14px 0;color:var(--cream-dim);}
+  .callout.safety{border-left-color:var(--bad);}
+  .callout.david{border-left-color:var(--tt-gold);}
+  .callout strong{color:var(--cream);}
+  .quote{font-style:italic;color:var(--cream);}
+  .quote .who{font-style:normal;font-size:.85rem;color:var(--sand);}
+  .steps{counter-reset:step;list-style:none;margin:0 !important;}
+  .steps li{counter-increment:step;position:relative;padding-left:44px;margin-bottom:14px !important;}
+  .steps li::before{content:counter(step);position:absolute;left:0;top:1px;width:30px;height:30px;
+    background:linear-gradient(135deg,var(--aqua),var(--tt-orange));color:#fff;font-weight:700;
+    border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.9rem;}
+  .footer{text-align:center;padding:40px 20px;border-top:1px solid var(--border);color:var(--sand);font-size:.95rem;margin-top:30px;}
+  .footer a{text-decoration:none;}
+  @media(max-width:600px){body{font-size:16px;}.container{padding:14px;}.panel{padding:18px;}}
+</style>
+<link rel="stylesheet" href="assets/turtle-cursor.css">
+</head>
+<body>
+<div class="container">
+
+  <nav class="topnav"><a href="./">← Back to Turtle Ops</a> · <a href="inventory.html">📦 Inventory</a> · <a href="kitchen.html">🍳 Kitchen</a></nav>
+
+  <header class="hero">
+    <span class="icon">🚿</span>
+    <h1>The Shower Playbook</h1>
+    <p class="sub">Two IBC totes become a shower pod. Greywater-conscious, Leave No Trace, engineered with guidance from David — the camp-infrastructure sage of the playa.</p>
+    <span class="badge">🔥 Priority build · TWO pods (Shaka, 7/20) · stall section 1 built ✅ · <a href="shower-build.html" style="color:inherit;">10-step visual build guide →</a></span>
+  </header>
+
+  <!-- CONCEPT -->
+  <section>
+    <h2>1 · The Design</h2>
+    <div class="panel">
+      <p><strong>The pod:</strong> take two 275-gal IBC totes, cut the tops out, and stack them open-top to open-top — a standing-height pod with a doorway cut into the side (leave a threshold at the bottom). The steel cages stay on: they're the structure.</p>
+      <p><strong>The catch basin:</strong> the stall sits <strong>on top of two galvanized cattle troughs</strong>, side by side — every drop lands in steel. At least one trough runs ~2&nbsp;ft longer than the stall: that open end is the <strong>service bay</strong> (pump access, dish-tray dumping, greywater pours). A submersible waste pump in the trough sends everything to the greywater tote.</p>
+      <div class="callout david" style="border-color:#db9840;">
+        <p><strong>🔄 How we got here (David sync 7/16):</strong> the early sketch used the bottom IBC itself as the basin; David moved the design to cattle troughs — more stable, and the pump can be serviced <em>without moving the shower</em>. Float switch = separate self-weighted unit on 2×2 angle iron (~6", ≥3/16" thick, #10 screws) — <strong>make 3</strong> (shower, kitchen basin, spare). Stall section 1 is already built. 🐢</p>
+      </div>
+      <p><strong>Water in:</strong> gravity solar shower bags (1–2 gal per shower) or a pumped line from the potable system. Water out: <strong>collected, pumped, hauled off playa.</strong> Zero greywater touches the ground. That's Leave No Trace, engineered.</p>
+    </div>
+  </section>
+
+  <!-- HARDEST PART -->
+  <section>
+    <h2>2 · Containment — the Hard Part</h2>
+    <div class="panel">
+      <div class="callout david">
+        <p class="quote">"How you do the containment on a shower is the hardest part of the whole project."<span class="who"> — David</span></p>
+      </div>
+      <ul>
+        <li><strong>The troughs:</strong> two galvanized stock troughs side by side, each ≥10" bigger than the stall footprint, at least one ~2&nbsp;ft longer — the open end is the service bay. (🛒 Not bought yet — size them with David, Tractor Supply run.)</li>
+        <li><strong>The float unit:</strong> a separate, self-weighted float switch on a 2×2 angle-iron weight — <strong>never screwed to the pump</strong>. Power passes through the float; the pump plugs into its back.</li>
+        <li><strong>The pump:</strong> submersible utility pump at the trough's low point; hose exits up and over the rim, spring-clipped to the cage so it can't whip.</li>
+        <li><strong>Float switches are magic</strong> (David's words) — they run the pump automatically and pump to dryness. Get them in hand and practice before the playa.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- BUYING IBCs -->
+  <section>
+    <h2>3 · Buying IBC Totes Right</h2>
+    <div class="panel">
+      <ol class="steps">
+        <li><strong>Buy the fit-test first:</strong> a 2" female pipe-thread PVC coupler from any hardware store (~$3). Bring it to the tote seller.</li>
+        <li><strong>Thread it onto every tote's outlet before paying.</strong> If it doesn't thread, walk away — adapters downstream all assume that 2" connection.</li>
+        <li><strong>Food-grade + cleaned only</strong> for anything touching potable water. Ask what was in them. Trust your nose.</li>
+        <li><strong>Inspect the cage:</strong> intact, no cracked welds or bent corners — for shower pods, the cage is your building.</li>
+        <li><strong>Prefer opaque</strong> over transparent for water storage — sunlight + clear tote = algae farm.</li>
+        <li><strong>Count right:</strong> storage totes + <em>2 more per shower pod</em>. We're building <strong>TWO pods</strong> (Shaka, 7/20) — that's 4 pod totes + storage totes on top.</li>
+      </ol>
+      <div class="callout">
+        <strong>Then the parts cascade:</strong> once totes are in hand, the adapter fittings get specced (that's why they're not pre-specced!), and custom supply hoses come from a <strong>hydraulic hose shop</strong> — the industry that crimps hoses for excavators and pressure washers will happily make food-safe camp hoses too. Find yours locally.
+      </div>
+    </div>
+  </section>
+
+  <!-- WATER FLOW -->
+  <section>
+    <h2>4 · The Water Path</h2>
+    <div class="panel">
+      <p><strong>Supply side (whole camp):</strong></p>
+      <ul>
+        <li>Potable IBC (filled on-playa by the water delivery service) → hose → <strong>pressure pump</strong> → adapter to garden-hose male fitting.</li>
+        <li>From there it's all garden-hose tech: a splitter (1→2 or 1→4) with a ball valve per branch → kitchen · fill station · showers · handwash.</li>
+      </ul>
+      <p><strong>Waste side (per shower):</strong></p>
+      <ul>
+        <li>Trough sump → float switch → submersible waste pump → twin 50-ft hoses marked <strong>WASTE</strong> → greywater IBC by the road (easy service access).</li>
+        <li>Greywater capacity planning: ~70–80% of water in comes back out. Haul it out — <strong>never, ever onto the playa.</strong></li>
+      </ul>
+      <div class="callout safety">
+        <strong>⚠️ Playa placement (David-reviewed):</strong> greywater + potable totes and bathrooms go next to the access road for truck servicing. Showers pump their water, so they can sit deeper in camp.
+      </div>
+    </div>
+  </section>
+
+  <!-- BUILD SEQUENCE -->
+  <section>
+    <h2>5 · Build Sequence (prototype at the Gulch)</h2>
+    <div class="panel">
+      <ol class="steps">
+        <li>Acquire totes (fit-tested, cleaned, food-grade) + float switches + waste pumps. ✅</li>
+        <li>Cut tops from two totes (hot knife / jigsaw), cut doorway with threshold, de-burr + cap every edge; stack and join the cage rims. ✅ section 1 built</li>
+        <li>Buy the two cattle troughs (with David's sign-off) and set the stall on top on level ground.</li>
+        <li>Assemble the 3 self-weighted float units (2×2 angle-iron weights, #10 screws — Jeremy).</li>
+        <li>Wet test: run water, verify the float trips early and the pump pumps to dryness.</li>
+        <li>Add privacy wrap, hooks, solar shower bag rail — then write down everything learned so the playbook improves. 🐢</li>
+      </ol>
+      <p>The parts list will grow (~20 items) as the design locks — tracked live in the <a href="inventory.html">Inventory Command Center</a>.</p>
+    </div>
+  </section>
+
+  <!-- FORK IT -->
+  <section>
+    <h2>6 · Fork This Shower</h2>
+    <div class="panel">
+      <p>Everything above is a gift 🎁 — the design conversation, the mistakes, the fit-test trick. Scale it: one pod serves ~10–15 campers with a shower-every-other-day culture. Keep the containment discipline no matter what you change: <strong>greywater never touches playa.</strong></p>
+      <p>More open playbooks: <a href="kitchen.html">🍳 Kitchen</a> · <a href="agent-kit/run.md">🤖 Camp Assistant Kit</a> · <a href="./">the whole Turtle Ops hub</a>.</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>🐢 <a href="./">Turtle Ops</a> · Terrible Turtle Camp · <a href="https://terribleturtle.camp/" target="_blank">terribleturtle.camp</a></p>
+    <p style="margin-top:6px;color:var(--tt-amber);">Move Slow &amp; Bite Things.</p>
+  </footer>
+
+</div>
+<script src="assets/turtle-cursor.js" defer></script>
+</body>
+</html>

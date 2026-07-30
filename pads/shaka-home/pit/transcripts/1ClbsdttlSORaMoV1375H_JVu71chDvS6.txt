@@ -1,0 +1,149 @@
+# Edge Esmeralda - AI powered CAD for mechanical design
+
+Date: 2026-06-16
+Source video: Edge Esmeralda - AI powered CAD for mechanical design.mp4
+Drive: https://drive.google.com/file/d/1fbt9xFqAwr-dVxjmmJYkrgoIXcKDMJI0/view
+Duration: 00:34:50
+Transcribed: 2026-06-17 · whisper large-v3-turbo · language: en
+
+---
+
+[00:07] Oh no, I was just doing this as a placeholder. I'm gonna, I'll just set these up in order.
+
+[01:19] Hello. Yeah. Yo, yo, yo.
+
+[05:50] Okay, hi everyone. Thank you for joining for another great talk as a part of World Building Week. Feel free to move up closer to the front if you'd like. Really excited for this presentation today. We have the founders of Atom, Atom.new. They're gonna be talking about how they are changing the CAD industry with AI.
+
+[06:12] So really thrilled. I'll hand it over to you guys, thank you. Thank you. Thank you very much. So yeah, I'm Zach, I'm here with Aaron, my co-founder. And yeah, I think we're just gonna walk you through sort of our journey building an AI in CAD and show you a few demos.
+
+[06:30] And I'll start with a bunch of sort of Twitter posts we have that kind of chart out sort of our journey as a company, but also quite interestingly, I think the journey of how technology has sort of progressed in the last year or so. So when we started about a year ago, we kind of realized that you're able to generate physical models with AI.
+
+[06:50] And it was very much with sort of a sort of co-gen approach which then generates code that compiles to a 3D model. And so, yeah, I'll just show you basically our first launch video that we put on Twitter. It kind of sets out the sort of vision of the company quite well.
+
+[07:06] So I'll put it on. I don't know if you can hear the sound, but we'll give it a go. Huh? Cheers. Thank you. All right.
+
+[08:24] So that was basically, that was about a year ago, and it was basically just where we just generate these very simple things. So as you can see, like a Raspberry Pi case, even printed like a little jewelry pendant, and it's kind of where we were then.
+
+[08:39] And so that's kind of where we started. It was very much very consumer, very focused around sort of generating these very easy 3D printable models for people who didn't really know how to CAD. So that was our initial audience. But what we found is actually in the last year, a lot of these models have progressed to the point where they're now integrating and being powerful enough to work into actual professional engineering workflows.
+
+[09:01] And the key thing here, what has changed, is basically last year, the models had very little sort of spatial reasoning or visual reasoning capabilities. And interestingly enough, we talk a lot with the big labs at NSF, so Anthropik, OpenAI, and they've been sort of training a lot on visual reasoning, so things like training on maps, post-training on maps, even CAD to some degree.
+
+[09:26] And now the models can see, which has been pretty transformative, capability sort of progress in the model. So I'll show you quickly a demo. We've sort of plugged in the underlying technology that we use there and now integrating it into existing CAD applications.
+
+[09:43] So this is the first sort of transformative model that we saw this year, which was Anthropik's Opus 4.7, which was a newly pre-trained model. And we basically hooked it up into Onshape, which is sort of a professional CAD tool that's browser-based.
+
+[10:01] And essentially, here you can see it essentially operating the CAD tool and using the same features a human would do. So similarly, creating a Raspberry Pi case, but building it feature by feature. So creating the sketches, the extrusions, and sort of working it through like a human would do here.
+
+[10:38] What is pretty crazy is only a couple months later, so Fable came out, I think, last week. Obviously, it's been recalled. But for us, I think it was a pretty transformative experience in terms of we haven't seen a model be able to do anything like it before.
+
+[10:54] And so we plugged it into Autodesk Fusion, which is one of the providers we integrate with. And in a single prompt, we're able to generate this, which just goes to show the progress in just over a few months' time in these models. And it's pretty much through that same sort of aspect.
+
+[11:09] So you know how I talked about at the start how these models can generate code. So the CAD by Python script that you can see on the right. And then all the model needs to do to sort of iterate on that is basically just take screenshots of the CAD and iterate on the model.
+
+[11:24] So in a single prompt, it can go through generate a Python script, generate the geometry, take screenshots of the geometry, see if it's good, and just run in an agentic loop until it creates the finalized CAD model. And so, you know, we're incredibly excited because we can see the sort of trajectory on model-to-model releases.
+
+[11:42] And it's getting to the point where, as you saw last year, it's very much just... So now we have, you know, a good few companies using our tools now to actually use and use AI to build real mechanical design work. And so, yeah, I'll pass to...
+
+[12:00] ...live of something you were working on. Things may break, but that's part of the experience. And yeah. Okay. So, you know, the thing that Zach was kind of showing you guys earlier was essentially us thinking about how we can connect all of these state-of-the-art AI models into the existing CAD programs.
+
+[12:29] But, you know, the industry kind of has slowly shifted towards giving the models more and more power. And we're thinking, well, what if we enhance the harness to the point where it has capabilities of, like, a regular human, right? Where, you know, when a real engineer is trying to engineer something, it's also going to look up things online, it's going to read Excel documents and kind of connect to a lot of the information even outside of the CAD application.
+
+[12:53] So... ...going to launch in a few days that we're showing here essentially is that. And just to give you guys a quick sense of the type of things it can do, because of the harness is so much more powerful now that it has the ability to do very long-tail reasoning and think for a very long time, it's actually able to procedurally generate much more complicated assemblies like the one I'm showing here.
+
+[13:17] You know, this is an example of me telling, hey, you know, go into Fusion where we have this desktop app connector talking to the application and just say, you know, build a planetary gearbox with, you know, involuted gears and make sure they mesh properly.
+
+[13:31] And then, you know, hey, use this thing and turn it into a handheld fan just for, you know, just for fun. And, you know, I think in the... previous iterations of this, even within the ones where it lives natively inside the CAD application, it would take quite a few prompts and steps for this to be really a viable thing.
+
+[13:51] But, you know, here, I literally just prompted this before the demo. It was able to do this essentially in three prompts, right? And I'm just gonna scroll down and give you guys a quick demo of, like, its ability to spatial reason. I'm gonna twist this here and you can see all the inner mechanical of the fan itself is actually fully functional.
+
+[14:15] You see the gears properly mesh and the fan's turning. And the really cool thing here is that because it's operating inside a medium that we can also use, we can actually also edit the file the way that, you know, a humanly would, where it's like, you can click something, you know, extrude, make things longer, and all of that is entirely possible.
+
+[14:39] It can go both ways, right? I can VibeCat it, but also if I wanna fine-tune something, I totally can. So, yeah, so, you know, just to recreate this project a little bit, I'm actually gonna do the same thing and just see, give you guys a live demo of it actually building the gearbox.
+
+[14:56] And, you know, it's really just simple. All I'm gonna do, say here is just, hey, go into Fusion and build a plan box within gears. And, you know, just like a human would, instead of initially just go straight to building CAD, it's actually gonna look up some, you know, user manual, and this is kind of the harness we're talking about, where we gave it a lot of ability
+
+[15:27] to reason like an engineer, right? Like a regular engineer, when it's building something, it would probably read some sort of handbook. And similarly here, you know, it's thinking about tools and ways it could reason through the CAD application.
+
+[15:39] I'm just gonna expand the thinking here just so you guys get more sense of like how it's thinking about things. Zach, is there anything you wanna add? I mean, we've gone through a lot. I mean, feel free if you guys have any questions while it sort of generates live.
+
+[15:58] You seem confused on the run. That's why. I was in my class. Yep, go ahead and then I'll get to you. Yep. So we have two products. The one that we showed you in the video was a plugin, but this new one actually is a full-fledged desktop class web application.
+
+[16:23] So it has an extension to talk to Fusion, but the real power is you can connect it to all these other apps, right? So say if you use Notion for your parts catalog or brainstorm a lot of your ideas in there, you can connect that and then push it into Fusion.
+
+[16:38] So it creates a much more fully-fledged workflow. And because this is a 24-hour agent system, it actually runs all the time. So say if you're editing a file inside your CAD application, it's like, hey, monitor my file and upload some, or update some material list as I edit it, it will just automatically run in the background.
+
+[17:00] So in some cases, it actually is replacing a lot of industry-standard connector tools just because the agent is actually doing this. Can anybody use it? We actually have a 3D printer in our makerspace. I'm wondering, can the Edge community use this?
+
+[17:18] Yeah, 100%. We can even talk afterwards about getting something where we give some Edge people a bunch of free credits that just hammer it home. So yeah, for sure. For sure. In the back, you had a question? Between the design that's generated and it being in your hands tangibly, what have you guys found is the missing pieces?
+
+[17:50] I think it really depends. In terms of 3D printing, it's pretty much there where you could sort of download the STL or the step file and just whack it on a 3D printer. The good thing with our general agent harness is kind of like what Aaron mentioned is it goes beyond the model's own ability to sort of understand what's manufacturable.
+
+[18:11] Find standard parts and stuff. But, you know, we've built all of this reasoning into the model so it has some ability to do DFM checks, even, you know, can check for sliceability in your printer before you actually go ahead and put it away and put it to print.
+
+[18:26] But, yeah. And some of these connectors we're even going to build more of. So, for example, like integrations into things like send, cut, send and things like that so you can manufacture them straight away through the application. So, yeah.
+
+[18:41] Gotcha. Yeah, like, for example, the Fusion Connector has been super helpful with Claude. Yeah. But, you know, like for this example, you have on screen, you may not want to be like 3D printing gears, right? Yeah, yeah, 100%. They will like break and from experience, having some ground truth on what McMaster actually has or all these other part manufacturers have been helpful in grounding.
+
+[19:12] So, this is the interesting part why we ended up deciding to build this more fully-fledged agentic system is that the desktop app actually has all the functions and capabilities that human would. So, say, if you want to ground your designs to McMaster, you can just paste the link of your parts catalog and say, hey, go browse this, figure out the specifications and the geometry and can actually download the set file or whatever file format in there and inspect it the way that we would.
+
+[19:39] The old approach on our previous products, it didn't have that, right? So, now the context is expanded and just exploding with, you know, the examples that you're mentioning. I have a question. Are you guys at all familiar with Prometheus, the startup that Jeff Bezos is now working on?
+
+[19:58] Yes. Could you perhaps give us some insight into that and kind of like what are the downstream effects of like accelerating hardware engineering? Yeah. So, I can talk as much as you guys can because obviously not too much has come out. I would say from what I've read, it would appear to me that the thesis is wrong.
+
+[20:17] But I like it. To give you some context, I think like I worked at a company before QuarterDev where we trained, we raised a lot of money, I think like $200 million to raise a foundation model to do browser use and do actions in the browser and we found that eventually, you know, despite raising a lot of money and training this very domain specific model, eventually, you know, the next Claude and next GPT releases just got better at the specific tasks
+
+[20:48] that we trained on and so I've read a little bit about what Prometheus are doing, like they're training their own artificial general engineer and they're going to be training parts and things like that but it seems to me that it feels very analogous to sort of that example that I mentioned for myself like you're eventually the more general model will be able to generalize more and then be better at the task so I actually think
+
+[21:19] you can get a whole lot done with just using the best models and integrating them into the current workflows and that's what we've seen. I mean you can see the examples we've shown on X like if you you see just the examples from let's say Claude Sonnet 3.5 or 4 a year ago to Fable 5 it's completely night and day and I don't imagine that will change.
+
+[21:40] I don't think like you know Claude Fable 7 versus a new Prometheus model I think just the more powerful general model will sort of be better at the task in general and I think history has proven that. What do you think are some of the downstream effects of like this technology lowering the cost of CAD modeling like will that result in just sort of a Cambrian explosion of like
+
+[22:11] maybe engineering unlocks and like just improved efficiency of mechanical systems or anything like that? I think what's really cool is with what AI agents have done to software engineering is kind of like this like repeatable thing that may happen in a somewhat analogous space in mechanical so you will see like an explosion of like now you're seeing this explosion of sort of
+
+[22:41] vibe-coded apps and things like that and the explosion of companies going from you know going from autocomplete to a small amount of the code that they write to all of the code that they write and I envision that we will see the same thing in mechanical engineering where slowly it will automate more and more until we have AI agents doing a lot of the design work for us but similarly I think it will lower the barrier to sort of creating CAD models that a lot more people will design the other hand is obviously you have the bottleneck of obviously
+
+[23:11] manufacturing which means that you can't just like ship and deploy something straight away like you can with modeling but definitely we'll see more and more designs be created which I think is something we're pretty excited about yeah I mean I think there are multiple ways to think about this I think when we first started the company a lot of people were saying oh hey you know like 3D printing has been taking off and a lot of people have the concept of like personal manufacturing you can just like build your own things at home but then at the time a big bottleneck
+
+[23:41] was really just like people can't not everyone is professionally trained to CAD right therefore even when you have an idea it's really hard to translate it into a physical form so you know this kind of solves the other half of that I definitely see also more and more people having this literacy of being able to build things spatially just like how now you know vibe coding apps is kind of a default first-class thing for all the applications like you know you talk to anybody they can vibe code apps I think in the future people can just say something
+
+[24:12] and speak it into existence yeah definitely mirror on that end I think how is system design different between software and mechanical engineering I think it's there are a lot there are a lot more similarities and differences and I think
+
+[24:42] it's something where we're learning more and more as we go to sort of this code approach to CAD which is you know now we have agents where they'll essentially you know generate the CAD through code you know view it through screenshots just like maybe I'd view a UI like a human would and even you know we've had agents we plug in that can run you know simulations entirely through code and chain them all together and so yeah but like obviously things like you know having to think about manufacturing but you could argue that's the same to deploying production code
+
+[25:12] to lots of users but I think we're finding more and more as we build this there are more and more similarities than we thought but yeah I'll just add just as we're waiting for this and as you guys think of questions I think it's really exciting especially that you guys have the 3D printers here and I think it's very much how we started as a company like we of us showing it out it was very much just people with 3D printers at home just using us to sort of make things
+
+[25:43] and a lot of the very first users we onboarded were you know local makerspaces in the Bay Area people who had just become doing CAD work students things of that nature and sort of like you mentioned of sort of how mechanical design will change in the future I think we'll see more and more of that sort of you know vibe CADing if you will people being able to generate things print them easily printers are getting cheaper and easier to use as well and I think exciting but yeah
+
+[26:15] it would be interesting to know actually how many people here do any CAD work in the back okay how does this make you guys feel because I we know having talked to engineers people have very polarizing opinions I tested you guys last year when you guys first came out and had like a lot of friction you know so this is an
+
+[26:46] amazing leap from where you guys were a year ago like it's astonishing to get that kind of gear rotation and have it understand the principles underneath it I mean is phenomenal you know the next kind of leap I start to ask is like what about fabbing other things like circuit ports you know or other types have you thought like in that direction about kind of completing the loop between hardware manufacturing and electronics or making that jump
+
+[27:17] yeah I think it's very interesting and yeah thank you for trying us early I'll be the first to admit that when we first launched the product was very early and so yeah but I think a big thing we're a very small team we're four people and so we mainly been focused on you know mechanical CAD and actually getting the models to reason well in 3D and sort of generate geometry before even going into ECAD
+
+[27:47] or anything else but that's definitely something we're thinking of eventually going into and what we found with you know this general agent harness where you can connect it to other tools even like high CAD or different tools of that nature as it can go into those realms but yeah I think over time we'll look to close the loop more and more but for now it's very much I would still regard this as much as we've made progress it's very much an unsolved problem and you know we're working and kind of right on just sort of
+
+[28:18] tracing that exponential up to get better and better at this task to the point where we think that basically by the start of 2027 it's going to look a lot like how we're interacting with agents to build software today and I think if you trace the exponential I think it's not you know too hard to imagine that so and I think that's part of the motivation we're building this new thing is that you know mechanical engineering is also outside of CAD right so we want to connect all of your surfaces
+
+[28:48] and make it really a full-fledged workflow the way that existing software engineers do so yeah anybody else have any do you think the frontier labs like Anthropic would do something like build something similar to this yeah yeah no I think I think the frontier labs are coming to you know grow as horizontally as they can like you know
+
+[29:19] Codex can now build sites and they're going off to like the AI app builders I think you know they'll eventually want to you know like every company want to grow as big as they possibly can I think what what is quite nice for us and is generally seen in startups in general is we can focus on a lot of the things that they just don't have the bandwidth to which is we can be very high touchpoint with you know engineering teams we can build a lot of the
+
+[29:49] custom integrations that they can't so you know on shapefusion once we release this publicly it also integrate with SolidWorks as well we've connected to some of the PLM tools that some of our customers use like Arena so these are things that are just going to be basically out of scope for the big model providers but we actually think it's we want them to care about this right I think last year you know there are points where we felt a little bit like oh it's a new model release and it's not that much better at our task
+
+[30:20] but we found that through ongoing conversations with the labs it's something they care more and more about I think software engineering especially benchmarks are getting saturated and so they're caring more and more about different sort of benchmarks in which they can improve their models and CAD is definitely one of them and we know there's appetite from the model the big model providers to improve at the task and that's only going to be good for us your friends are like not thinking about this at all so I think if there's
+
+[30:50] if the frontier labs like rolled something out in this space then it would get a lot of people talking about it and probably draw a lot of attention towards your product and is it mainly like B2B you guys are selling we're going actually we're going more B2B now but we we have historically been more of a consumer company just because really because of the technology to be frank like up until maybe like Fable 5 last week or maybe some of the recent models I wouldn't say we were we were really there where we could be
+
+[31:21] extremely useful day to day in for engineers but we were very much there for people who wanted to you know didn't have much CAD experience wanted to Vibe CAD create something 3D print something manufacture it but now more and more going into engineering teams and yeah we're very excited about that I follow up yeah in regards to like industrial design so like on the more like visualization is like really important so just curious like is there
+
+[31:51] a through line from someone designing something generating at a like mid-journey or something and then bringing that into I saw that you can take in Excel and stuff like that but like like visualization and then translating that into CAD yeah 100% maybe I depending we could probably switch tabs and even show like some of the cool keyboard stuff but like we so in this harness that we developed we were connecting to basically a lot of different model providers at once to provide a lot of the different experiences
+
+[32:22] so whilst we're focusing mainly on generating CAD here actually within that you'll be able to do a whole lot of different mediums connected to your CAD so one of those being that you can actually pull the data in from your CAD and use it to create renderings and even animated videos things of that nature we've even had companies use it to pull data in from their CAD and use it to create slides for design review sales marketing brochures so yeah
+
+[32:54] maybe we can do you think we can show something or yeah we'll pull it up but yeah yeah but it's quite exciting once you move beyond just generating the CAD you can actually like we mentioned we have connections to sheets notion things of that nature so you can actually go from like pulling data from your CAD and using it to generate your BOM since it's connected to the browser it can source parts for you live 24-7 flag you have price changes so there's a lot of exciting features
+
+[33:24] once you connect some of these models to your engineering tools never mind them but yeah for any of the new people who have arrived is there any context you're missing or good oh cheers
+
+[33:54] oh yeah 100% when is the makerspacing it's all week okay so what what we'll do
+
+[34:24] we'll head to the makerspace and onboard any of you guys we'll chat and telegram and we'll create a code specifically for Edge City folks so you can have fun playing around with it use some of the 3D printers and yeah we're really excited to see what you guys can generate and yeah thanks so much for chatting with us and listening to us speak so thank you guys awesome

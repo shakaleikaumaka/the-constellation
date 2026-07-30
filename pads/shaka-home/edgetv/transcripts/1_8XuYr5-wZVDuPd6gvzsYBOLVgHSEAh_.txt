@@ -1,0 +1,281 @@
+# AI Engineering Best Practices Jam Session
+
+Date: 2026-06-10
+Source video: AI Engineering Best Practices Jam Session.mp4
+Drive: https://drive.google.com/file/d/1wy-pcpIXLWXCLJjQAPCCoGbH35b_NxMH/view
+Duration: 00:54:32
+Transcribed: 2026-06-12 · whisper large-v3-turbo · language: en
+
+---
+
+[00:00] Thanks Timur for the intro, I'm Shane, met a lot of you already. I'm a software engineer at RAMP working on our data platform and AI platforms. I've been working in tech for about 10 years, almost two years at RAMP and I'm really excited to share with you what we're doing at what I think is one of the best AI startups in the world.
+
+[00:27] But yeah, I'm hoping to share with the EDGE community so that you all can learn and share some of your best practices of your own. So if at any point after a slide you feel like there's something that you want to add that you think others of the community might find helpful, Serge is going to be passing around a microphone and it's meant to be a presentation but also a discussion.
+
+[01:00] So, how many people have not heard of RAMP? Okay, well RAMP is basically an AI CFO, we're automating most of finance. We handle corporate credit cards, accounting, AI token spend management, budgeting, pretty much anything that a finance team would do, we do, team where I'm realizing I can't scroll
+
+[01:33] down to my notes. Can you? Yeah. Oh, I move. Move to the left. Yes. Okay, cool. Cool. And then this, yeah, so the arrows are controlling that, mouse is controlling this. Okay. I should have had my AI just do this, but. So yeah, RAMP is a fintech company positioned as your AI CFO.
+
+[02:03] We're the fastest company, B2B company in history to reach a billion dollars in revenue. Some of the companies, only companies that are growing faster than us are Nvidia and the AI labs. We're growing faster the larger we get. We just raised almost a billion dollars.
+
+[02:21] So we're doing really well. And AI is a central part of our success. So we think we've successfully taken AI and taken the best parts of it and made it work for us. There's a lot to cover. I wanted to make it really dense, maybe overly dense, highly technical.
+
+[02:46] But just to get a sense, how many people are like AI beginners? How many people would say they're AI intermediate? And then how many people would say they're really comfortable with AI working on more pushing the envelope? Okay, cool. So we're going to talk about adoption at RAMP and how we did it and AI engineering best practices.
+
+[03:11] Yeah, there's a lot that we're going to cover. And it's a lot of useful stuff. Adoption. So a lot of companies talk about adopting AI, but not all of them can successfully do it. We have almost 100% of RAMP employees using AI and building with AI, including our sales and marketing teams.
+
+[03:44] The way that we did it is that our CEO very much led the way. He posted publicly about how he was learning with AI and how he didn't know what he was doing. And that we were all going to fill it out, figure it out together, which built trust with employees.
+
+[04:01] I think the temptation for leadership to act like they always know what they're doing. But you need to encourage your employees to take a risk, to take a chance to be a beginner. And AI adoption was required. It wasn't something where AI made a speech and then nothing happens.
+
+[04:19] How do I get back? There we go. We had multiple hackathons over this past year where everyone was essentially required to participate, which is very different from what a hackathon usually is. The non-technical people were required to try and build something.
+
+[04:48] The engineering team was asked to help us serve as mentors. So a pod of like some sales and marketing people would emerge to work on something and then a single engineer would help spin them up. So that diffused AI knowledge across the company and that got everyone comfortable with building.
+
+[05:07] And the results were, to put it bluntly, fucking incredible. The sales, marketing, customer support people built tools that could be products that we could sell in their own right. But we're now using dozens of AI apps internally at the company to level everyone up.
+
+[05:25] The top five projects were featured at all hands. There was voting. There were prizes. It was, the winners were given these prizes and really showcased. So we gave a lot of positive feedback to people who went all in and tried something new.
+
+[05:45] And yeah, the other takeaway is that a lot of these projects are now internal products. They're not just demos that, you know, everybody felt good about but then died in a GitHub repo somewhere. So I think that really made people more AI-pilled because it was products that were good for people's careers, that helped the company.
+
+[06:11] So we really walked the walk there. Knowledge sharing was also key. There were two main halves to this. One was having live QA. So we have a dedicated AI DevX team. It's some full-time engineers that their sole job is to make AI usage more common across the company.
+
+[06:34] And they're answering questions in the Slack channel all day. There are dozens of messages, sometimes hundreds, people asking any question you could think of about AI. Really electric conversations, people sharing things. And so it's created this culture where everyone's able to feel comfortable trying something new and asking for help.
+
+[06:55] And the cross-pollination across the departments is really accelerated, which is exciting to see. We also have a skill library called Dojo. And people will come up with skills like how to make a presentation that I use to make this presentation.
+
+[07:14] You notice it's an HTML and not PowerPoint. We've found that's more effective. How to write a sales pitch. What our marketing skins look like. What our design philosophy is. What our roadmap is. And making it reusable across the company. And that's just a GitHub repo that anyone can install.
+
+[07:36] And the momentum is just compounded across the company. And now you see like customer support people answering AI questions, which is amazing. I went backwards.
+
+[08:07] How do I go forwards? I swear I tried the right arrow earlier. So another part of our internal adoption was internal tools. And by the way, a lot of this is on our builders.ramp blog. Most of this presentation is an amalgamation of a lot of all publicly available information.
+
+[08:34] So one product that we released internally is called Ramp Research. And it's essentially our internal data analyst. So what does a data analyst do? They have internal context about your data and your tables. Your data warehouse tables, your data lake, your application tables.
+
+[08:54] And they also know business context about those tables. Like for instance, how many active users does your company have? How does your company define what an active user is? What does a transaction mean? What does a credit card mean? And so that Ramp Research agent augments and replaces a lot of what data analysts do now at Ramp.
+
+[09:19] And you can query it via Slack. So we've just seen an explosion in usage there where people ask kind of one-off questions that normally would take a data analyst an hour or two to answer. Now it takes a few minutes with Ramp Research. We also have an internal code writing app called Inspect.
+
+[09:39] It writes I think like 60% of the code at Ramp now. And it sits between the AI models so it can route to either ChatGPT or Claude, depending on the task. And it already has connections to our application tables, our data warehouse, Datadog, GitHub.
+
+[09:59] It can open pull requests. It can review pull requests. And it takes care of a lot of the components of building an AI agent that are a pain. Like connecting it to context and knowledge at your company. AI adoption has definitely skyrocketed at Ramp.
+
+[10:22] And it's been a resounding success. Almost 100% of Ramp employees are using AI now, building with AI. And we've gone past the token maxing stage into value maxing, what we call it now. And that's part of what we're working on with our AI token spend intelligence products.
+
+[10:44] Any questions before I go into AI engineering? Hi. Super interesting talk, actually very relevant. One of my good friends is working at a company you might have heard of. A French company called Quanto. They're kind of in the finance field as well.
+
+[11:11] And their big thing is like how do we get, how do we use AI to drive real business impact? And she was telling me that one of the conversations she's had with the CTO that's kind of overseeing the whole AI transformation of their company is that he wants people to be using AI as much as possible.
+
+[11:31] Doesn't care about the amount of credits that they're spending, but they have zero KPIs to actually track the value of what they're driving. And it's kind of an interesting conversation. It's like, you know, I think she was telling me they were spending something like a million in tokens or something absurd per, I can't remember what the thing was, but there was no real KPI.
+
+[11:53] And actually she was like, we have no idea what the value is. And if there's any value, how do you, like, how do you bridge that question? How did you guys do it? Yeah. So that's part of why we just raised almost a billion dollars because our CEO's blog post last week where he talked about it was tokens are now this finance pillar that just emerged in human history.
+
+[12:19] Like you have accounting, you have spend, and now you have tokens. And nobody understands what to do with it. And nobody understands how to value it. So we are going to, our goal is to offer this in our token spend intelligence product and dogfood internally.
+
+[12:38] So the first aspect is, do you know what is driving your token usage? And for the majority of companies, the answer is no. Do you know which department is using the most tokens? Do you know whether it's someone using an agent on behalf of a user or a standalone agent running in some CI process?
+
+[12:57] Do you know what model is driving the majority of the usage? Do you know if someone has accidentally turned fast mode on and is burning through, like, 10x the cost? So that's the first step at the micro layer. The part you mentioned of how do you link it to business outcomes is harder.
+
+[13:15] But we actually just opened up a role for an economist. We have one economist at RAMP that analyzes business usage and spending patterns at RAMP. And he's been featured in New York Times, a lot of podcasts. He's putting out a lot of interesting stuff.
+
+[13:31] And we want to do the same thing for AI token spend, where we can tell you how it's driving your KPIs. So that's part of why we're going after this vertical because we know everyone's asking the same question.
+
+[14:08] But, like, if you're going to create tools that are going to serve the business, the more information, at least one level up of the context of what you're operating in, is going to make that a lot more possible. I guess, Michael, my question is a curiosity about the culture at RAMP and how you see that impacting.
+
+[14:26] Because I could see the difference in what you're describing and what you're describing potentially as being mostly a culture. If that gets enacted within the employees, it's going to be a lot easier. Yeah, one thing that I like about our culture is that we're very transparent.
+
+[14:48] So all employees have access to almost everything, like, down to the board decks and are, like, top line metrics that, and a lot of companies only the CEO would have access to. And there's a lot of trust that comes with that. And the goal is to empower employees to look at the metrics and decide what is best for them or how they might help RAMP.
+
+[15:12] And that's created a very autonomous, flat organization. And I think our goal is to, with our technology, empower other organizations to be more like us. Were most of your tools and systems already built internally? Or were there any, like, legacy systems that were harder to get rid of?
+
+[15:36] So I guess what I'm trying to get to is, in the cases where you guys were building tools that didn't get adopted, what were the failure, what were the reasons for the failures? We built a lot of other tools. I think we really promote experimentation.
+
+[16:01] So we have had cases in the hackathon, for instance, where maybe different people build the same iteration of the same thing, or overlapping things, and then it's just a question of what gets adopted internally. And our philosophy is that discussing about what tool to build too much, like, somewhat is useful.
+
+[16:23] You don't want, you know, like in Google where they have four internal chat apps or whatever. But no disrespect. But building and seeing how it works trumps, like, debating it in some room somewhere every time. So our goal is to help people build as fast as possible and then not get so attached to what you build, because you could just build it again or build something else.
+
+[16:51] As we've got a larger second section, should we take one more? Yeah. Hey, so super interesting talk, but I'm wondering, so if, aren't you worried that a, so do you consider it a liability for an employee who is, like, very AI-pealed, might lead the organization, join the new organization, and a significantly empower competitor, for example?
+
+[17:13] If they're super AI-pealed, like a salesperson who's, like, an S tier salesperson, goes somewhere else, empowers the whole sales team, then it becomes an actual threat. There's also the risk that our customers could look at our app and, you know, take screenshots and just reverse engineer the product, too.
+
+[17:30] So, yeah, it's definitely possible. Our attention's pretty high, but we're under no illusions that what we're building is earth-shattering. I mean, we're doing finance workflows. They're well-known in industry what finance teams need to do, what accountants need to do.
+
+[17:48] So, it's definitely a race to see who can build the best product first, if that answers your question. I mean, I want to mean, like, the AI systems themselves, like, and sales work can become 10X more powerful for somebody else if they have this AI tools that they're missing before, if that makes sense.
+
+[18:04] So, your ask is whether a salesperson could, like, build the sales tool that they built that ramp, for instance? Pretty much for somebody else, or just, like, AI-pealed the rest of the employees at the company, the same way that you guys were AI-pealed.
+
+[18:16] Yeah, I mean, they could. We think the main organizations, we think that other organizations that are moving fast already exist, like the AI labs or other AI-pealed startups that are already out there. Our people in this room, for instance, who are already AI-pealed.
+
+[18:35] So, it's not like we would go from having no AI-pealed customer competitors to having some. Like, they already exist. Sure. All right. All right. We'll talk about AI engineering now. One big takeaway for us in our testing has been that model selection is very important, and models' strengths are task-specific.
+
+[19:05] This is a spider chart also on our blog, which highlights amazing research done by our applied AI-sciences team, where they benchmarked different finance tasks and identified which models perform the best. And it's really interesting. You can think of models like different people, essentially.
+
+[19:26] And just like we're all essentially non-deterministic. We have all these subtleties about us that make us good at different things and not as strong at other things. The models are the same. And some of the, all of these tasks are very important.
+
+[19:44] There are dozens more that our models do. But just to give you an example, OCR is looking at an image and extracting text from it. Policy confidence is if you get some transaction on someone's credit card, and you got to decide what spend policy it should be routed to.
+
+[20:04] And the models individually have different strengths. And then put together, they cover a lot more of the surface area than anyone would alone. So the only way to understand that is by testing them rigorously. And we do that extensively. But never assume that a model is going to be good at a particular task relative to another until you test it.
+
+[20:29] The overarching theme of the models that I would say is that GBT 5.5 is the best all around. But is very detailed and can sometimes be too detailed and think too much. And then Opus 4.8 is close second. Good as your initial model with 5.5 reviewing it.
+
+[20:58] Gemini is very spiky. It's not used as a primary coding driver because it's hallucination prone. But very good at certain tasks. So we use 5.5 at the moment. Yes. So Fable, we're using it now. But only for specific tasks and very specific environments because of how powerful it is.
+
+[21:25] Yeah. We've also played around with some of the open source models. And we're going to be continuing to push the envelope in what they're able to do. Medium effort is generally a good way to go. High effort or extra high for tasks where a lot of thinking is needed.
+
+[21:48] But we generally recommend against low effort. We also use a concept called quorum extensively. Where if you have some pull request or some system architecture design question. We use a skill called quorum which sends the same prompt to three different models.
+
+[22:10] Compares them and then synthesizes recommended course of action. And highlights disagreements and agreements. Internally at RAMP we built that, yeah. And that's part of our skill library. Skill and tool selection is critical to our AI product success.
+
+[22:35] Who here has machine learning experience? Okay. Well, in machine learning you have the concept of maybe I'll just leave machine learning out of it then. Think of it like if you had some human and you had different skills that they knew how to do.
+
+[22:57] Kind of like the matrix with Keanu Reeves. You know, he inserts the chips in his brain and then he knows kung fu and stuff. It's actually counterproductive to have too many of those that the model has access to. At a certain point you get context rot where the agent has so many skills that it doesn't do the skill routing properly.
+
+[23:19] And it confuses itself. So we're constantly trying to prune skills that an agent has access to for a particular task. And the way that we do that is we'll repeatedly run the agent against a prompt. See its performance and then selectively drop out random skills that it has access to and see how that affects its performance.
+
+[23:42] And that allows us to reduce the skills that an agent needs dramatically while which also decreases cost while improving performance. Is there a sweet spot of how many skills you've seen? Because that's been increasing over time with the context windows.
+
+[23:59] Yeah. It's task dependent. Task dependent. Yeah. Because also the tasks that were allowing the agents to do get harder and harder. So it's a constant thing that you have to measure. Harvard Business Review did a study and said that LLMs were giving bad advice, bad business advice because they were too sycophantic and they just said, Yeah, great.
+
+[24:27] Go for it. What are you doing to prevent the great go for it problem? Yeah. It's a known problem. They are annoyingly sycophantic. We do that with something I'll talk about in another slide called adversarial verification where we ask it to disprove itself.
+
+[24:46] And then we also extensively use evals which I'll talk about in another slide and benchmarking. So yeah, you need, they're not to be trusted. They're kind of like a really smart employee that will cheat every chance that it gets. Oh, another takeaway from the skill and tool selection is that context and specificity beats generality.
+
+[25:20] We're not at AGI, not even close where you can just point AI at anything, especially a task that is part of an AI product and just expect it to work well. This slide is on protecting the context window. So you can think of context like carrying around a backpack essentially, like a person who has to fit everything that they know in a backpack.
+
+[25:46] And imagine you could just spawn someone into existence with an empty backpack and you only have a certain amount of space that they can fit in there. And what the, what other researchers have found and what we have found internally is that model performance degrades before the context when it was full.
+
+[26:05] As soon as, you know, 30%, 50% full, you start seeing some degradation and above 70% similar to CPU, you start seeing degradation in performance. So protecting the context window is really critical. And one technique for doing that is that you have sub agents return summaries and not raw data or slices.
+
+[26:35] So to give you an example, let's say that you're working on an agent that needs to analyze an invoice and determine if the invoice is a fair price. The instinct might be to keep it all in one context and have the agent look at the invoice, parse the text, and then determine if it's a fair price or not.
+
+[26:59] But what you actually want to do is you want to have a sub agent parse the invoice, return just the parts of the invoice that are needed to the main thread, the main agent, and then continue on with the analysis. So you could think about it like, if you had this person with a backpack, would you put all these encyclopedias in their backpack?
+
+[27:18] Or would you give them a one page summary of the pages of the encyclopedia that you need them to know for their task? And anything that you can do to slice inputs is golden. So that means using CLI tools like JQ, databases, regexes, using sub agents a lot, having them fan out and summarizing, clearing the context window, writing, persisting it to some markdown doc, and then resuming later.
+
+[27:51] And then, yeah, we're doing both. Are you talking about compaction if they're running headlessly? Yeah, I didn't, I'm not sure if they can do that. I think they can. But I know we try and avoid having them get to that point. Yeah, we use compaction. It's usually something you want to avoid. It's usually a sign that you need to start over.
+
+[28:28] But it can work. I think there's also an interesting tradeoff where if I'm working on a hard problem, sometimes building an AI product is different from coding just yourself. So what I'm sharing a lot of with you is how do you build AI products that people will pay for.
+
+[28:50] But if you're doing this yourself, you don't need to use all of these techniques all the time because there's also a cost to your human brain of trying to optimize the context window. So sometimes you just want to let it rip and then compact it every so often and not worry about it and that's totally fine.
+
+[29:07] It's a good question. None that I know offhand. I know we try and avoid compaction at least in the AI products. Skill loading. So skill loading is you have this bank of skills and you want the agent to load the right skill for the job.
+
+[29:39] And you have different prompts that might be coming in and you're not sure which skill the agent's going to need. But you want to make sure that each prompt essentially causes the agent to route to the correct skill. And what we've found is that you want to make your skills modular and discoverable.
+
+[29:58] So we've had use cases where we've tried loading dozens of skills into the agent all at once so that it has all of the context. And for a human that might work where you think that you want it to know everything it needs to know to do something.
+
+[30:16] But what we found is that has unexpected results that causes the agent to bias towards the first skill that it sees. It's kind of like a baby learning things about the world and you know the first thing I don't know all those movies or the first thing that happens to the baby it's like a core memory and then it can't get rid of it.
+
+[30:41] It's kind of like that. So we've found that having skill routing performs a lot better where it dynamically discovers what it needs to know what it needs to load. And that improves performance as well. And so we have skills for loading skills and searching tools that also allow you to grab the skill files so that it doesn't need to read the entire skill in order to know what it is.
+
+[31:11] And maybe to put it another way it's kind of like if you are telling a new hire to look at like find a page in the wiki that it needs to know for its job. Well you might want to have summaries at the top of each page so that the new hire doesn't need to read every page to know if it needs to use that wiki or not.
+
+[31:32] Autonomous loops are great. Borish Cherny from Claude says I don't prompt Claude anymore. I have loops running that prompt Claude. My job is to write loops. I think that's true when appropriate. The caveat which I'll talk about next is that you need to have a proper eval and benchmark otherwise you're just wasting your money.
+
+[32:06] So autonomous loops without proper evals are pretty dangerous because it can give the illusion that you're getting closer to a solution when you're actually not. But this is what you want you want some objective function not function an objective result.
+
+[32:26] You want to run it in a harness that has the appropriate context and connectors to data that it needs. You want to be able to test and validate it and to end. And then you want to have some result at the end whether it's opening a PR making a rapid recommendation or some other input from a human.
+
+[32:45] And we've used this extensively at RAMP on dozens hundreds of different problems. And we try and we are trying to build all of our systems so that it enables auto research for every part of our stack whether that's automated deploys to production.
+
+[33:00] Synthetic data that allows us to mock data pipelines improving our machine learning models anything where we can have the machines running constantly without human intervention. This is another slide from a great blog post on finding the Pareto frontier and that's basically optimizing multiple objectives at the same time.
+
+[33:40] Typically with AI model you want to optimize accuracy latency and cost and you are usually willing to sacrifice one or two of them but you definitely want to optimize at least one. So the real metric is not just accuracy it's also latency it's also cost and that depends on your use case and what the user expects.
+
+[34:05] If you are classifying transaction as fraudulent or not it's a different latency or speed expectation compared with whether you are giving the user a report on which departments are overspending. They might be willing to wait a little longer for a better answer.
+
+[34:26] So we do the same thing that we do with the I mentioned on the model selection side. We do extensive testing on all of the models against all of these metrics to identify the cost per correct answer and we are constantly tuning that as new models come out and as our tool chain and skill chain gets better.
+
+[34:48] And definitely very excited about what's happening with the open source models and some people in industry have mentioned this and I agree that maybe in the next six months a year the majority of tasks could potentially be done with exponentially cheaper open source models and then the hardest tasks remain on the frontier models. So we'll see what happens and we'll see what that means for open AI and anthropics revenue.
+
+[35:21] Okay, so this is another important part of the presentation on benchmarks and it's related to what I mentioned about agent loops and about knowing whether your product is working. So one of the main challenges with AI models is that they're not deterministic meaning if you ask a model the same question multiple times you'll get different results sometimes wildly different results.
+
+[35:57] And if you change the ordering of the question if you change what context the agent has access to if you change part of your skills the agents answer will change. And that makes it a lot more challenging in some ways than machine learning models where it's still non deterministic but it's a lot there's a lot less uncertainty I would say.
+
+[36:19] I mean to be honest I still don't understand how they work like at all. So you want to create these benchmarks with the same care that you would create training data set to data sets to ensure that the models represent real world performance and avoid the sycophantic problem.
+
+[36:40] So this is another slide from our ramp builders blog where we created benchmarks to validate our accounting product which is now live which does accounting for you. And so that's a pretty high bar. So we worked with actual accountants to create all these really complex benchmarks around your mid market logistics business and you're doing QBO setup and due to form reconciliation consolidated financials or your construction company doing roll forward.
+
+[37:26] I don't even know what any of this means but accountants know. So there's a lot of work went into creating these benchmarks. There's also a concept of train test publish split. So you want to evaluate against data that the model hasn't seen before which is somewhat akin to how you would train an ML model or validate an ML model.
+
+[37:51] And interestingly the team found that rubric rubric quality is the bottleneck. For instance something could be semantically correct but the rubric might incorrectly flag it as a false positive or a false negative. And that's something we've seen a lot with models that semantic correctness is extremely important because at the end of the day part of what they do is a lot of regexing and token matching.
+
+[38:20] And you want to make sure that their thought process is correct. So that's actually a good segue into evals. So basically the name of the game here is isolating the answers that LLMs give into components. And as of now our current framework is that evals can be divided into skill routing.
+
+[38:50] Did it call the right skills at the right time? Tool usage. Was it called with the right input? And resolution. Did it answer the question as expected? And I would say we're now adding another sub bullet to the resolution part which is did it answer the question as expected in the way that it was supposed to?
+
+[39:15] Which is very important. So L1 skill routing is intent. It's did the skill, did the agent know that it needs to load the data analyst skill or the snowflake skill or the accountant policy classification skill. Because if it doesn't do that then it's not going to get the right answer in the way that we want.
+
+[39:43] And that's really powerful because it's a deterministic evaluation. Tool usage is kind of similar like another way of thinking about it is humans use computers. We have all these ways that we use computers. We have these scripts that we use.
+
+[40:04] We have these apps that we use. Agents are no different. And so what's happening now is we are pushing more of what humans would do onto the agents. But like if you were to hire a new member of your team and you're mentoring them on their first day it's kind of like that over and over again.
+
+[40:23] Where the agent has no idea what any of your tools are. They know they don't know anything. And so but they're a genius in some ways. So you want to make sure that they're following a kind of the right path to get to the answer. Because there could be infinite ways that they could solve it otherwise.
+
+[40:42] And that constrains the problem space and helps them helps you understand their progress a lot a lot better. And then on the eval side we use LLMs and various frameworks internally to you can't really read what it says apologies. But it's a framework that we use to judge LLM output.
+
+[41:07] And we use other LLMs to do that. And that helps us have a CI process and a testing process and spot regressions. But just to finish up this point, what we're now starting to realize is the way in which the agent answered the question is just as important as whether it got the right answer or not.
+
+[41:33] To give you an example, our data warehouse tables have a lot of context written about the tables. Like this table means this or this table, this column actually means that. And it's very similar to what human data analysts use to get on boarded and to understand how to query a particular SQL table.
+
+[41:57] Well, the agents are no different. They're not going to know the subtleties of a table or a column unless they read this. So if they didn't read it and they got the right answer, that's still a fail because it was more luck at that point. And that is, I think what you're explaining, like the need for these, is this primarily about the products that go out the door that use AI.
+
+[42:26] So the ramp product that a customer would use as AI. You're validating the responses that that AI is going to give to the customers. How much of this is also about your own, like what you do internally to validate, say, the tools you're using of the codes and the ways you're building internally?
+
+[42:46] I just, I find myself a little bit wrestling with trying to make sure I understand the context of where you describe it. It's both and we try and build things internally and then make them products as well. But the AI engineering bar here is primarily for products, I would say.
+
+[43:02] Like there is more leeway when you're doing this yourself to not write a full. Yeah. Yeah. And then I do think that's a good prompt, I think, to talk maybe at the end about which parts of this presentation are most applicable to people building like more informally for themselves.
+
+[43:35] Another technique that we use, which you all could definitely use in your internal workflows, is called adversarial verification. And that helps counterbalance the syncopantic nature of AI agents of LLMs. And it's basically making the LLM justify why it reached that conclusion.
+
+[44:03] I know many of us have seen the hilarious prompt where you just say, are you sure? Or something like that to an agent. And it goes, I'm sorry, you're right. I completely lied to you. And that's kind of what we're doing here. So this is another blog post our security team did where we fixed 100 security vulnerabilities just with agents.
+
+[44:31] And the way that it worked is we had this different agents that had different roles. So one was the coordinator agent, one was the manager, the detector that tried to find a vulnerability, the validator that tried its hardest to prove that it wasn't a vulnerability, fixer, and so on.
+
+[44:52] A lot of it is skills where you'll prompt it to have the personality of a very skeptical reviewer. You can give them personalities with the skill. Like you are a principal security engineer. You are mentoring a junior engineer who has submitted a PR to you.
+
+[45:19] And you need to prove to yourself that this is right. Does that make sense? Yeah. So in this particular use case, finding the vulnerabilities, we had the detector write a PR where it said, I think I found a vulnerability.
+
+[45:59] And then the validator reviews it and says, no, you didn't or yes, you did. And we looked for cases where there was clear agreement between the validator and the detector. And maybe we had like a few validators. And then at the very end, a human reviews it to make sure.
+
+[46:16] But it cuts. So there were still some false positives that snuck through. But it's an order of magnitude, like going from thousands of PRs to maybe a few hundred. And yeah. Yeah.
+
+[47:08] So just to be clear, all these agents are getting better at solving problems compared to a month ago, a few months ago. But the bar for releasing it as a product that people interact with on their own is really high. And so this has always been the case.
+
+[47:32] This is a lot of this is part of the reason why so many projects fail or products fail. And then you get these headlines like, oh, yeah, it doesn't work. Well, it's because they didn't do any of this, probably. And they just like released a product and expected it to work.
+
+[47:48] So AI can do more and more things. But it's not yet at the point where you could just throw it at anything and always have it work in a product environment. But it can do a lot of things. Yeah.
+
+[48:25] That's what we've built a lot of with RAMP. We can keep going. I think we can go over by five, ten minutes. But I think it sounds like it seems like you're close to the end. Yeah. One more slide. Awesome. And that segues nicely into how do you build trust with your users when they're talking to this alien thing and trusting it with the livelihood of their business.
+
+[48:58] A few guardrails that have been really successful are that you need to have ways, build ways into the product experience for the user to trust the agent. So the way that we've done that is showing part of our reasoning. So on this slide, you can't really see.
+
+[49:17] But it says, awaiting review, the receipt doesn't match, the receipt amount doesn't match the transaction amount. And we've never seen this merchant before. Something like that. So we give the user a little bit of a window into why the agent classified it the way that it does.
+
+[49:36] And so that way, even if the user thinks that the agent is wrong, it can understand some of its reasoning and still potentially build trust in that interaction. We also recommend actions and never show scores because they're useless because an agent doesn't understand.
+
+[49:53] It has no way of knowing its percent confidence in anything, really. That's just not how they're built. And always allow manual override. So that's in our new accounting product and all of the actions that agents take at RAMP on behalf of the user.
+
+[50:10] The user can always override it and say, I don't agree with this. And that feedback always makes it back to RAMP. So then you build in your own labeling system for the users and it's a win-win that way. So I guess last things that I'll say are the most useful elements to people who are just building their own thing and kind of hacking would still be pay close attention to the model, to skill and tool selection.
+
+[50:42] The context window and skill loading is still really important. Autonomous loops are critical but make sure you have some sort of eval. That's where you need an eval. And you might be risking spending money if you're repeatedly doing something.
+
+[50:59] And then use adversarial verification. So that's my talk. You can follow RAMP engineering at builders.ramp.com. We're always hiring. You can use RAMP. I tried to get credits for Edge but they're being stingy with them now. But you can talk to me if you're interested in RAMP for your business and you can follow me on my sub stack.
+
+[51:27] Thank you. Amazing. Thank you so much. Yeah, we have a couple quick questions. Yeah. You mentioned quite a few blogs where some of the background to this was provided. Can you give us the address of those or do we just go to builders.ramp.com?
+
+[51:45] Builders.ramp.com. Yep. Thank you. Yeah. No. Are you open to sharing the deck? I'll get approval and see if I can share it. Okay. Yeah. Great. They're very strict. Okay. Cool. Yeah.
+
+[52:16] How do you guys stay up to date with the changes and like it's changing so fast. For example, like your skill slide, that's just how all harnesses work now. Or for example, compaction is getting so good that maybe your recommendations are no longer necessary for that part.
+
+[52:28] Like how do you guys make sure that you're up to date with the changes in the models, the changes in the harnesses, et cetera? Yeah. I mean, we have a lot of direct lines of communication with most of the leaders in the space and we're always talking to them.
+
+[52:45] We're always trying to get access to the models first. And we're, yeah, constantly evolving our products because like you said, what is cutting edge today is obsolete a month from now. So that's why we're always trying to build fast. Hey, Shane.
+
+[53:02] I've got two questions for you. Do you have any thoughts on creating pipelines for detecting errors and automatically spinning up PRs to resolve those errors? And also do you have any thoughts on creating workflows that use different LLMs to have kind of like a model council to reduce mistakes?
+
+[53:22] Yeah. So the model council is our quorum skill that I talked about in our skill library where different models get the same prompt and then you compare their answers and it summarizes the results and where they agree and disagree. The model pipeline to detect errors, we have a lot of those and that's based on the, you know, eval concept that I talked about where you eval a model, see if it failed on something and then spin up PRs to fix it.
+
+[53:51] And then also the other post I mentioned where we're pointing the AI at a particular problem like security vulnerabilities and asking it to spin up PRs that fix those vulnerabilities. So we have a lot of stuff like that, updating dependency libraries, you know, fixing failing flaky tests.
+
+[54:11] We try and make it a lot of that as deterministic as possible to keep it from even getting merged into master in the first place. But we're doing a lot of that. Amazing. All right. Round of applause for Shane, please. Thank you. So tomorrow we'll have, I believe, potentially our final I'll find.

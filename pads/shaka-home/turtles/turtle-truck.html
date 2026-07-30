@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Turning Trucks into Turtles 🐢🚚 | Turtle Ops — Terrible Turtle Camp</title>
+<meta name="description" content="Turtle artwork concept sketches for the Turtle Truck (1998 International 4700) and the 51-foot semi trailer: Classic Tortuga, Playa Sunset Swimmer, Circuit Shell, and The Long Migration mural.">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+  :root {
+    --tt-orange:#eb5833; --tt-coral:#fd6844; --tt-amber:#db9840; --tt-gold:#e5a14b;
+    --tt-red:#cc272e; --night:#030915; --night-2:#071123; --card:#0b1628; --card-2:#111b28;
+    --border:#1f2a38; --cream:#f7f0eb; --cream-dim:#ddd6d1; --sand:#8a7d75;
+    --radius:12px; --radius-lg:20px; --ok:#69db7c; --warn:#ffd43b; --bad:#ff8787; --aqua:#4dd4e8;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{font-family:'Rajdhani',sans-serif;background:var(--night);color:var(--cream);line-height:1.6;font-size:18px;}
+  .container{max-width:860px;margin:0 auto;padding:20px;}
+  a{color:var(--tt-orange);}
+  .topnav{padding:18px 0;font-weight:600;}
+  .topnav a{text-decoration:none;color:var(--tt-coral);}
+  .hero{text-align:center;padding:26px 10px 20px;}
+  .hero .icon{font-size:3rem;display:block;margin-bottom:8px;}
+  .hero h1{font-size:clamp(1.8rem,6.5vw,3rem);font-weight:700;text-transform:uppercase;letter-spacing:.02em;
+    background:linear-gradient(135deg,var(--cream) 20%,var(--aqua),var(--tt-orange));
+    -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:8px;}
+  .hero .sub{color:var(--cream-dim);font-size:1.1rem;max-width:660px;margin:0 auto;}
+  .badge{display:inline-block;padding:4px 14px;background:rgba(255,212,59,.1);color:var(--warn);
+    border:1px solid rgba(255,212,59,.4);border-radius:16px;font-size:.75rem;font-weight:700;
+    letter-spacing:.14em;text-transform:uppercase;margin-top:12px;}
+  .specbar{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin:18px 0;}
+  .spec{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:10px 18px;text-align:center;}
+  .spec .n{font-family:'JetBrains Mono',monospace;color:var(--tt-gold);font-weight:600;font-size:1.05rem;}
+  .spec .l{font-size:.75rem;color:var(--sand);text-transform:uppercase;letter-spacing:.1em;}
+  .step{background:var(--card);border:1px solid var(--border);border-radius:var(--radius-lg);margin:22px 0;overflow:hidden;}
+  .step-head{display:flex;align-items:center;gap:14px;padding:16px 22px;background:var(--card-2);border-bottom:1px solid var(--border);}
+  .step-num{min-width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,var(--aqua),var(--tt-orange));
+    display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1.25rem;color:#fff;}
+  .step-head h2{font-size:1.25rem;text-transform:uppercase;letter-spacing:.03em;}
+  .step-head .time{margin-left:auto;font-family:'JetBrains Mono',monospace;font-size:.75rem;color:var(--sand);white-space:nowrap;}
+  .step-body{padding:20px 22px;}
+  .fig{background:var(--night-2);border:1px solid var(--border);border-radius:var(--radius);padding:10px;margin-bottom:14px;}
+  .fig svg{width:100%;height:auto;display:block;}
+  .step-body ul{color:var(--cream-dim);margin:0 0 10px 22px;}
+  .step-body li{margin-bottom:7px;}
+  .step-body strong{color:var(--cream);}
+  .step-body p{color:var(--cream-dim);margin-bottom:10px;}
+  .tip{border-left:3px solid var(--warn);background:rgba(255,212,59,.05);border-radius:0 var(--radius) var(--radius) 0;
+    padding:10px 15px;color:var(--cream-dim);font-size:.95rem;}
+  .tip strong{color:var(--warn);}
+  .tip.david{border-left-color:var(--tt-gold);}
+  .tip.david strong{color:var(--tt-gold);}
+  .tip + .tip{margin-top:10px;}
+  /* SVG shared classes */
+  svg .ttl{fill:#8a7d75;font:700 12px 'JetBrains Mono',monospace;letter-spacing:.08em;}
+  svg .lbl{fill:#f7f0eb;font:700 14px 'Rajdhani',sans-serif;}
+  svg .lbl2{fill:#ddd6d1;font:600 12.5px 'Rajdhani',sans-serif;}
+  svg .lblw{fill:#ffd43b;font:700 13px 'Rajdhani',sans-serif;}
+  svg .lbla{fill:#4dd4e8;font:700 13px 'Rajdhani',sans-serif;}
+  svg .dim{fill:#8a7d75;font:600 11px 'JetBrains Mono',monospace;}
+  svg .dimline{stroke:#8a7d75;stroke-width:1.2;stroke-dasharray:4 3;fill:none;}
+  svg .leader{stroke:#8a7d75;stroke-width:1.4;fill:none;}
+  h3.sect{font-size:1.4rem;text-transform:uppercase;color:var(--tt-gold);margin:30px 0 10px;text-align:center;}
+  .panel{background:var(--card);border:1px solid var(--border);border-radius:var(--radius-lg);padding:22px;margin-bottom:14px;}
+  .panel ul{color:var(--cream-dim);margin:0 0 10px 22px;}
+  .panel li{margin-bottom:9px;}
+  .panel strong{color:var(--cream);}
+  .footer{text-align:center;padding:36px 20px;border-top:1px solid var(--border);color:var(--sand);font-size:.95rem;margin-top:26px;}
+  .footer a{text-decoration:none;}
+  @media(max-width:640px){body{font-size:16px;}.container{padding:12px;}.step-body{padding:16px;}}
+</style>
+<link rel="stylesheet" href="assets/turtle-cursor.css">
+</head>
+<body>
+<div class="container">
+
+<nav class="topnav"><a href="./">← Back to Turtle Ops</a> · <a href="map.html">🗺️ Camp Map</a></nav>
+
+<header class="hero">
+  <span class="icon">🐢🚚</span>
+  <h1>Turning Trucks into Turtles</h1>
+  <p class="sub">Both of our haulers become rolling camp art — and once they park, they become <strong>wayfinding landmarks</strong>. On playa, "meet at the giant turtle" is a real direction. The Turtle Truck anchors the kitchen; the 51-foot semi anchors the Dormitory Shade. Two turtles, two beacons. 🌵</p>
+  <span class="badge">🎨 Concept sketches · final art = camp Participation project · paint weekend 7/30–8/1</span>
+</header>
+
+<div class="specbar">
+  <div class="spec"><div class="n">8' × 26'</div><div class="l">box truck canvas</div></div>
+  <div class="spec"><div class="n">8' × 51'</div><div class="l">semi trailer canvas</div></div>
+  <div class="spec"><div class="n">DT466E</div><div class="l">7.6L turbo-diesel</div></div>
+  <div class="spec"><div class="n">3 axles</div><div class="l">on the Kentucky van</div></div>
+  <div class="spec"><div class="n">2 turtles</div><div class="l">rolling to BRC</div></div>
+</div>
+
+<h3 class="sect">📐 The Canvas</h3>
+<div class="step">
+  <div class="step-head"><div class="step-num">0</div><h2>The Turtle Truck, Unadorned</h2><span class="time">1998 INTERNATIONAL 4700</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 840 345" role="img" aria-label="Side elevation of the 1998 International 4700 box truck">
+  <defs><clipPath id="boxclip0"><rect x="70" y="70" width="450" height="178"/></clipPath></defs>
+  
+  <rect x="0" y="300" width="840" height="45" fill="#241d16"/>
+  <line x1="0" y1="300" x2="840" y2="300" stroke="#3a2f24" stroke-width="2"/>
+  <ellipse cx="200" cy="318" rx="180" ry="6" fill="#2e251c"/>
+  <ellipse cx="620" cy="326" rx="150" ry="5" fill="#2e251c"/>
+  <rect x="70" y="70" width="450" height="178" fill="#c9d2d9"/>
+  <g clip-path="url(#boxclip0)">
+    <line x1="70" y1="118" x2="520" y2="118" stroke="#aab6bf" stroke-width="1.5"/>
+    <line x1="70" y1="166" x2="520" y2="166" stroke="#aab6bf" stroke-width="1.5"/>
+    <line x1="70" y1="214" x2="520" y2="214" stroke="#aab6bf" stroke-width="1.5"/>
+  </g>
+  <path d="M520,258 L520,124 L596,124 L608,192 L698,198 L704,252 L616,258 Z" fill="#d9c6a5" stroke="#10161f" stroke-width="2"/>
+  
+  <!-- skirt + chassis -->
+  <rect x="70" y="248" width="450" height="8" fill="#10161f" opacity="0.9"/>
+  <rect x="60" y="256" width="652" height="10" fill="#10161f"/>
+  <!-- fuel tank -->
+  <rect x="470" y="250" width="86" height="18" rx="9" fill="#39424e" stroke="#232b36" stroke-width="1.5"/>
+  <!-- wheel arches -->
+  <circle cx="190" cy="256" r="33" fill="#10161f"/>
+  <circle cx="630" cy="256" r="33" fill="#10161f"/>
+  
+  <circle cx="190" cy="270" r="30" fill="#0d1117" stroke="#2a3442" stroke-width="2"/>
+  <circle cx="190" cy="270" r="16" fill="#1c232c" stroke="#39424e" stroke-width="1.5"/>
+  <circle cx="190" cy="270" r="5" fill="#8a7d75"/>
+  <circle cx="630" cy="270" r="30" fill="#0d1117" stroke="#2a3442" stroke-width="2"/>
+  <circle cx="630" cy="270" r="16" fill="#1c232c" stroke="#39424e" stroke-width="1.5"/>
+  <circle cx="630" cy="270" r="5" fill="#8a7d75"/>
+  <!-- exhaust stack -->
+  <rect x="526" y="88" width="8" height="168" fill="#55606c" stroke="#232b36" stroke-width="1.2"/>
+  <rect x="523" y="84" width="14" height="6" rx="2" fill="#39424e"/>
+  <!-- window -->
+  <polygon points="540,130 592,130 600,184 556,184" fill="rgba(157,216,232,.30)" stroke="#10161f" stroke-width="2"/>
+  <!-- door outline + handle -->
+  <path d="M534,250 L534,126 L596,126 L606,190 L606,250" fill="none" stroke="#10161f" stroke-width="2"/>
+  <line x1="560" y1="201" x2="582" y2="201" stroke="#10161f" stroke-width="3"/>
+  <!-- grille, headlight, bumper -->
+  <rect x="694" y="204" width="10" height="44" rx="3" fill="#232b36"/>
+  <circle cx="688" cy="212" r="5.5" fill="#ffe9a8" stroke="#8a7d75" stroke-width="1.5"/>
+  <rect x="684" y="252" width="26" height="12" rx="4" fill="#39424e" stroke="#232b36" stroke-width="1.5"/>
+  <!-- mirror -->
+  <line x1="600" y1="142" x2="614" y2="136" stroke="#10161f" stroke-width="2.5"/>
+  <rect x="612" y="126" width="8" height="20" rx="2" fill="#232b36"/>
+  <!-- marker lights -->
+  <circle cx="90" cy="76" r="3" fill="#ffd43b"/><circle cx="285" cy="76" r="3" fill="#ffd43b"/><circle cx="500" cy="76" r="3" fill="#ffd43b"/>
+  <!-- box outline -->
+  <rect x="70" y="70" width="450" height="178" fill="none" stroke="#10161f" stroke-width="2.5"/>
+  <!-- annotations -->
+  <text x="295" y="55" text-anchor="middle" class="lbla">BOX = THE SHELL 🐢</text>
+  <line x1="295" y1="60" x2="295" y2="68" class="leader"/>
+  <text x="618" y="60" text-anchor="middle" class="lblw">CAB = THE HEAD</text>
+  <line x1="618" y1="66" x2="612" y2="118" class="leader"/>
+  <line x1="70" y1="290" x2="520" y2="290" class="dimline"/>
+  <text x="295" y="286" text-anchor="middle" class="dim">26 FT BOX</text>
+  <line x1="54" y1="70" x2="54" y2="248" class="dimline"/>
+  <text x="46" y="165" text-anchor="middle" class="dim" transform="rotate(-90 46 165)">8 FT TALL</text>
+  <text x="420" y="330" text-anchor="middle" class="dim">1998 INTERNATIONAL 4700 · GRUMMAN OLSON BOX · DT466E 7.6L DIESEL · GVWR 25,500 LB</text>
+</svg></div>
+    <p>Jeremy's box truck is already becoming "a turtle" for the Boulder → Black Rock City haul. The anatomy is perfect: the <strong>26-foot box is the shell</strong>, the <strong>cab is the head</strong>, the wheels are the feet. Every concept below keeps the truck fully road-legal — lights, reflectors, and door function untouched.</p>
+  </div>
+</div>
+
+<h3 class="sect">🐢 Turtle Truck — 3 Artwork Concepts</h3>
+
+<div class="step">
+  <div class="step-head"><div class="step-num">A</div><h2>Classic Tortuga</h2><span class="time">PAINT-FRIENDLY</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 840 345" role="img" aria-label="Concept A Classic Tortuga: hexagon scute shell on the box, turtle head cab">
+  <defs><clipPath id="boxclipA"><rect x="70" y="70" width="450" height="178"/></clipPath></defs>
+  
+  <rect x="0" y="300" width="840" height="45" fill="#241d16"/>
+  <line x1="0" y1="300" x2="840" y2="300" stroke="#3a2f24" stroke-width="2"/>
+  <ellipse cx="200" cy="318" rx="180" ry="6" fill="#2e251c"/>
+  <ellipse cx="620" cy="326" rx="150" ry="5" fill="#2e251c"/>
+  <!-- shell base + scutes -->
+  <rect x="70" y="70" width="450" height="178" fill="#5a3421"/>
+  <g clip-path="url(#boxclipA)">
+    <polygon points="128.0,96.0 114.0,120.2 86.0,120.2 72.0,96.0 86.0,71.7 114.0,71.7" fill="#e5a14b" stroke="#40231a" stroke-width="2" opacity="0.93"/>
+    <polygon points="128.0,147.9 114.0,172.2 86.0,172.2 72.0,147.9 86.0,123.7 114.0,123.7" fill="#b8512f" stroke="#40231a" stroke-width="2" opacity="0.93"/>
+    <polygon points="128.0,199.9 114.0,224.2 86.0,224.2 72.0,199.9 86.0,175.7 114.0,175.7" fill="#8a4a2e" stroke="#40231a" stroke-width="2" opacity="0.93"/>
+    <polygon points="128.0,251.9 114.0,276.1 86.0,276.1 72.0,251.9 86.0,227.6 114.0,227.6" fill="#a8632f" stroke="#40231a" stroke-width="2" opacity="0.93"/>
+    <polygon points="173.0,122.0 159.0,146.2 131.0,146.2 117.0,122.0 131.0,97.7 159.0,97.7" fill="#e5a14b" stroke="#40231a" stroke-width="2" opacity="0.93"/>
+    <polygon points="173.0,173.9 159.0,198.2 131.0,198.2 117.0,173.9 131.0,149.7 159.0,149.7" fill="#b8512f" stroke="#40231a" stroke-width="2" opacity="0.93"/>
+    <polygon points="173.0,225.9 159.0,250.1 131.0,250.1 117.0,225.9 131.0,201.6 159.0,201.6" fill="#8a4a2e" stroke="#40231a" stroke-width="2" opacity="0.93"/>
+    <polygon points="218.0,96.0 204.0,120.2 176.0,120.2 162.0,96.0 176.0,71.7 204.0,71.7" fill="#cc6b3f" stroke="#40231a" stroke-width="2" opacity="0.93"/>
+    <polygon points="218.0,147.9 204.0,172.2 176.0,172.2 162.0,147.9 176.0,123.7 204.0,123.7" fill="#e5a14b" stroke="#40231a" stroke-width="2" opacity="0.93"/>
+    <polygon points="218.0,199.9 204.0,224.2 176.0,224.2 162.0,199.9 176.0,175.7 204.0,175.7" fill="#b8512f" stroke="#40231a" stroke-width="2" opacity="0.93"/>
+    <polygon points="218.0,251.9 204.0,276.1 176.0,276.1 162.0,251.9 176.0,227.6 204.0,227.6" fill="#8a4a2e" stroke="#40231a" stroke-width="2" opacity="0.93"/>
+    <polygon points="263.0,122.0 249.0,146.2 221.0,146.2 207.0,122.0 221.0,97.7 249.0,97.7" fill="#cc6b3f" stroke="#40231a" stroke-width="2" opacity="0.93"/>
+    <polygon points="263.0,173.9 249.0,198.2 221.0,198.2 207.0,173.9 221.0,149.7 249.0,149.7" fill="#e5a14b" stroke="#40231a" stroke-width="2" opacity="0.93"/>
+    <polygon points="263.0,225.9 249.0,250.1 221.0,250.1 207.0,225.9 221.0,201.6 249.0,201.6" fill="#b8512f" stroke="#40231a" stroke-width="2" opacity="0.93"/>
+    <polygon points="308.0,96.0 294.0,120.2 266.0,120.2 252.0,96.0 266.0,71.7 294.0,71.7" fill="#e5c79b" stroke="#40231a" stroke-width="2" opacity="0.93"/>
+    <polygon points="308.0,147.9 294.0,172.2 266.0,172.2 252.0,147.9 266.0,123.7 294.0,123.7" fill="#cc6b3f" stroke="#40231a" stroke-width="2" opacity="0.93"/>
+    <polygon points="308.0,199.9 294.0,224.2 266.0,224.2 252.0,199.9 266.0,175.7 294.0,175.7" fill="#e5a14b" stroke="#40231a" stroke-width="2" opacity="0.93"/>
+    <polygon points="308.0,251.9 294.0,276.1 266.0,276.1 252.0,251.9 266.0,227.6 294.0,227.6" fill="#b8512f" stroke="#40231a" stroke-width="2" opacity="0.93"/>
+    <polygon points="353.0,122.0 339.0,146.2 311.0,146.2 297.0,122.0 311.0,97.7 339.0,97.7" fill="#e5c79b" stroke="#40231a" stroke-width="2" opacity="0.93"/>
+    <polygon points="353.0,173.9 339.0,198.2 311.0,198.2 297.0,173.9 311.0,149.7 339.0,149.7" fill="#cc6b3f" stroke="#40231a" stroke-width="2" opacity="0.93"/>
+    <polygon points="353.0,225.9 339.0,250.1 311.0,250.1 297.0,225.9 311.0,201.6 339.0,201.6" fill="#e5a14b" stroke="#40231a" stroke-width="2" opacity="0.93"/>
+    <polygon points="398.0,96.0 384.0,120.2 356.0,120.2 342.0,96.0 356.0,71.7 384.0,71.7" fill="#db9840" stroke="#40231a" stroke-width="2" opacity="0.93"/>
+    <polygon points="398.0,147.9 384.0,172.2 356.0,172.2 342.0,147.9 356.0,123.7 384.0,123.7" fill="#e5c79b" stroke="#40231a" stroke-width="2" opacity="0.93"/>
+    <polygon points="398.0,199.9 384.0,224.2 356.0,224.2 342.0,199.9 356.0,175.7 384.0,175.7" fill="#cc6b3f" stroke="#40231a" stroke-width="2" opacity="0.93"/>
+    <polygon points="398.0,251.9 384.0,276.1 356.0,276.1 342.0,251.9 356.0,227.6 384.0,227.6" fill="#e5a14b" stroke="#40231a" stroke-width="2" opacity="0.93"/>
+    <polygon points="443.0,122.0 429.0,146.2 401.0,146.2 387.0,122.0 401.0,97.7 429.0,97.7" fill="#db9840" stroke="#40231a" stroke-width="2" opacity="0.93"/>
+    <polygon points="443.0,173.9 429.0,198.2 401.0,198.2 387.0,173.9 401.0,149.7 429.0,149.7" fill="#e5c79b" stroke="#40231a" stroke-width="2" opacity="0.93"/>
+    <polygon points="443.0,225.9 429.0,250.1 401.0,250.1 387.0,225.9 401.0,201.6 429.0,201.6" fill="#cc6b3f" stroke="#40231a" stroke-width="2" opacity="0.93"/>
+    <polygon points="488.0,96.0 474.0,120.2 446.0,120.2 432.0,96.0 446.0,71.7 474.0,71.7" fill="#a8632f" stroke="#40231a" stroke-width="2" opacity="0.93"/>
+    <polygon points="488.0,147.9 474.0,172.2 446.0,172.2 432.0,147.9 446.0,123.7 474.0,123.7" fill="#db9840" stroke="#40231a" stroke-width="2" opacity="0.93"/>
+    <polygon points="488.0,199.9 474.0,224.2 446.0,224.2 432.0,199.9 446.0,175.7 474.0,175.7" fill="#e5c79b" stroke="#40231a" stroke-width="2" opacity="0.93"/>
+    <polygon points="488.0,251.9 474.0,276.1 446.0,276.1 432.0,251.9 446.0,227.6 474.0,227.6" fill="#cc6b3f" stroke="#40231a" stroke-width="2" opacity="0.93"/>
+    <polygon points="533.0,122.0 519.0,146.2 491.0,146.2 477.0,122.0 491.0,97.7 519.0,97.7" fill="#a8632f" stroke="#40231a" stroke-width="2" opacity="0.93"/>
+    <polygon points="533.0,173.9 519.0,198.2 491.0,198.2 477.0,173.9 491.0,149.7 519.0,149.7" fill="#db9840" stroke="#40231a" stroke-width="2" opacity="0.93"/>
+    <polygon points="533.0,225.9 519.0,250.1 491.0,250.1 477.0,225.9 491.0,201.6 519.0,201.6" fill="#e5c79b" stroke="#40231a" stroke-width="2" opacity="0.93"/>
+    <rect x="70" y="70" width="450" height="12" fill="#8a4a2e" opacity="0.85"/>
+  </g>
+  <!-- flippers (behind wheels) -->
+  <path d="M108,256 C92,282 102,298 134,291 C154,286 160,270 152,256 Z" fill="#a8632f" stroke="#40231a" stroke-width="2.5"/>
+  <path d="M368,256 C356,284 370,300 400,292 C420,286 424,270 416,256 Z" fill="#a8632f" stroke="#40231a" stroke-width="2.5"/>
+  <!-- head/cab -->
+  <path d="M520,258 L520,124 L596,124 L608,192 L698,198 L704,252 L616,258 Z" fill="#d9b98a" stroke="#40231a" stroke-width="2"/>
+  <!-- friendly eye on the door -->
+  <ellipse cx="568" cy="224" rx="19" ry="15" fill="#f7f0eb" stroke="#40231a" stroke-width="2"/>
+  <circle cx="571" cy="224" r="8" fill="#db9840"/>
+  <circle cx="571" cy="224" r="4" fill="#1a120c"/>
+  <circle cx="568" cy="221" r="1.8" fill="#f7f0eb"/>
+  <path d="M549,214 Q568,203 587,214" fill="none" stroke="#40231a" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- smile + nostrils on the hood -->
+  <path d="M640,222 C660,231 685,229 700,218" fill="none" stroke="#40231a" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="693" cy="207" rx="2.6" ry="1.8" fill="#40231a"/>
+  <ellipse cx="700" cy="211" rx="2.6" ry="1.8" fill="#40231a"/>
+  <!-- dust -->
+  <g fill="#e5a14b" opacity="0.14"><circle cx="128" cy="290" r="18"/><circle cx="98" cy="296" r="11"/><circle cx="158" cy="296" r="9"/></g>
+  
+  <!-- skirt + chassis -->
+  <rect x="70" y="248" width="450" height="8" fill="#10161f" opacity="0.9"/>
+  <rect x="60" y="256" width="652" height="10" fill="#10161f"/>
+  <!-- fuel tank -->
+  <rect x="470" y="250" width="86" height="18" rx="9" fill="#39424e" stroke="#232b36" stroke-width="1.5"/>
+  <!-- wheel arches -->
+  <circle cx="190" cy="256" r="33" fill="#10161f"/>
+  <circle cx="630" cy="256" r="33" fill="#10161f"/>
+  
+  <circle cx="190" cy="270" r="30" fill="#0d1117" stroke="#2a3442" stroke-width="2"/>
+  <circle cx="190" cy="270" r="16" fill="#1c232c" stroke="#39424e" stroke-width="1.5"/>
+  <circle cx="190" cy="270" r="5" fill="#8a7d75"/>
+  <circle cx="630" cy="270" r="30" fill="#0d1117" stroke="#2a3442" stroke-width="2"/>
+  <circle cx="630" cy="270" r="16" fill="#1c232c" stroke="#39424e" stroke-width="1.5"/>
+  <circle cx="630" cy="270" r="5" fill="#8a7d75"/>
+  <!-- exhaust stack -->
+  <rect x="526" y="88" width="8" height="168" fill="#55606c" stroke="#232b36" stroke-width="1.2"/>
+  <rect x="523" y="84" width="14" height="6" rx="2" fill="#39424e"/>
+  <!-- window -->
+  <polygon points="540,130 592,130 600,184 556,184" fill="rgba(157,216,232,.30)" stroke="#10161f" stroke-width="2"/>
+  <!-- door outline + handle -->
+  <path d="M534,250 L534,126 L596,126 L606,190 L606,250" fill="none" stroke="#10161f" stroke-width="2"/>
+  <line x1="560" y1="201" x2="582" y2="201" stroke="#10161f" stroke-width="3"/>
+  <!-- grille, headlight, bumper -->
+  <rect x="694" y="204" width="10" height="44" rx="3" fill="#232b36"/>
+  <circle cx="688" cy="212" r="5.5" fill="#ffe9a8" stroke="#8a7d75" stroke-width="1.5"/>
+  <rect x="684" y="252" width="26" height="12" rx="4" fill="#39424e" stroke="#232b36" stroke-width="1.5"/>
+  <!-- mirror -->
+  <line x1="600" y1="142" x2="614" y2="136" stroke="#10161f" stroke-width="2.5"/>
+  <rect x="612" y="126" width="8" height="20" rx="2" fill="#232b36"/>
+  <!-- marker lights -->
+  <circle cx="90" cy="76" r="3" fill="#ffd43b"/><circle cx="285" cy="76" r="3" fill="#ffd43b"/><circle cx="500" cy="76" r="3" fill="#ffd43b"/>
+  <!-- box outline -->
+  <rect x="70" y="70" width="450" height="178" fill="none" stroke="#10161f" stroke-width="2.5"/>
+  <text x="295" y="330" text-anchor="middle" class="dim">GIANT HEXAGON SCUTES · TERRACOTTA / AMBER / SAND · BOLD SHAPES = PAINT-FRIENDLY</text>
+</svg></div>
+    <p>The box becomes a giant tortoise shell: <strong>hexagon scutes</strong> in terracotta, amber, and sand with dark grout lines. The turtle's head emerges at the cab — a <strong>big friendly eye on the door</strong>, a smile on the hood, nostrils on the grille. Flipper shapes ride the lower box between the wheels.</p>
+    <p><strong>Why it works:</strong> bold flat shapes, no blending — the easiest concept to hand-paint with a crew of mixed skill levels. Stencil one hexagon, repeat forever.</p>
+  </div>
+</div>
+
+<div class="step">
+  <div class="step-head"><div class="step-num">B</div><h2>Playa Sunset Swimmer</h2><span class="time">VINYL-WRAP CANDIDATE</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 840 345" role="img" aria-label="Concept B Playa Sunset Swimmer: dusk gradient sky, sea turtle silhouette, moon">
+  <defs>
+    <clipPath id="boxclipB"><rect x="70" y="70" width="450" height="178"/></clipPath>
+    <linearGradient id="duskB" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fd6844"/>
+      <stop offset="0.45" stop-color="#e5a14b"/>
+      <stop offset="1" stop-color="#0e4a5a"/>
+    </linearGradient>
+  </defs>
+  
+  <rect x="0" y="300" width="840" height="45" fill="#241d16"/>
+  <line x1="0" y1="300" x2="840" y2="300" stroke="#3a2f24" stroke-width="2"/>
+  <ellipse cx="200" cy="318" rx="180" ry="6" fill="#2e251c"/>
+  <ellipse cx="620" cy="326" rx="150" ry="5" fill="#2e251c"/>
+  <rect x="70" y="70" width="450" height="178" fill="url(#duskB)"/>
+  <g clip-path="url(#boxclipB)">
+    <circle cx="110" cy="95" r="1.4" fill="#f7f0eb" opacity="0.75"/><circle cx="160" cy="82" r="1.4" fill="#f7f0eb" opacity="0.75"/><circle cx="215" cy="100" r="1.4" fill="#f7f0eb" opacity="0.75"/><circle cx="255" cy="84" r="1.4" fill="#f7f0eb" opacity="0.75"/><circle cx="320" cy="92" r="1.4" fill="#f7f0eb" opacity="0.75"/><circle cx="380" cy="80" r="1.4" fill="#f7f0eb" opacity="0.75"/><circle cx="140" cy="120" r="1.4" fill="#f7f0eb" opacity="0.75"/>
+    <!-- moon -->
+    <circle cx="452" cy="102" r="13" fill="#f7f0eb" opacity="0.92"/>
+    <circle cx="448" cy="99" r="3" fill="#d8cfc9" opacity="0.6"/>
+    <circle cx="456" cy="106" r="2" fill="#d8cfc9" opacity="0.6"/>
+    <!-- swimming sea turtle silhouette -->
+    <g transform="translate(295,158) rotate(-12)" fill="#08222e">
+      <ellipse cx="0" cy="0" rx="56" ry="38"/>
+      <ellipse cx="62" cy="0" rx="16" ry="10"/>
+      <path d="M20,-30 C60,-60 95,-58 100,-48 C80,-30 50,-18 26,-14 Z"/>
+      <path d="M20,30 C60,60 95,58 100,48 C80,30 50,18 26,14 Z"/>
+      <path d="M-40,-24 C-60,-38 -72,-36 -70,-28 C-60,-18 -48,-12 -38,-10 Z"/>
+      <path d="M-40,24 C-60,38 -72,36 -70,28 C-60,18 -48,12 -38,10 Z"/>
+      <path d="M-56,0 L-70,-4 L-70,4 Z"/>
+      <ellipse cx="0" cy="0" rx="40" ry="26" fill="none" stroke="#0f3d4d" stroke-width="2"/>
+      <line x1="-40" y1="0" x2="40" y2="0" stroke="#0f3d4d" stroke-width="2"/>
+    </g>
+    <!-- dust-swirl trails -->
+    <g fill="none" stroke="#f7c9a8" stroke-linecap="round" opacity="0.55">
+      <path d="M118,192 q-26,-5 -20,-26 q4,-14 20,-12" stroke-width="3"/>
+      <path d="M150,218 q-36,-2 -38,-28 q-2,-18 16,-22" stroke-width="2.5"/>
+      <path d="M205,228 q-22,9 -36,-5" stroke-width="2"/>
+    </g>
+  </g>
+  <path d="M520,258 L520,124 L596,124 L608,192 L698,198 L704,252 L616,258 Z" fill="#0e3a47" stroke="#10161f" stroke-width="2"/>
+  <circle cx="566" cy="222" r="9" fill="none" stroke="#f7c9a8" stroke-width="2" opacity="0.7"/>
+  <circle cx="566" cy="222" r="3.5" fill="#f7c9a8" opacity="0.7"/>
+  <g fill="#e5a14b" opacity="0.14"><circle cx="128" cy="290" r="18"/><circle cx="98" cy="296" r="11"/></g>
+  
+  <!-- skirt + chassis -->
+  <rect x="70" y="248" width="450" height="8" fill="#10161f" opacity="0.9"/>
+  <rect x="60" y="256" width="652" height="10" fill="#10161f"/>
+  <!-- fuel tank -->
+  <rect x="470" y="250" width="86" height="18" rx="9" fill="#39424e" stroke="#232b36" stroke-width="1.5"/>
+  <!-- wheel arches -->
+  <circle cx="190" cy="256" r="33" fill="#10161f"/>
+  <circle cx="630" cy="256" r="33" fill="#10161f"/>
+  
+  <circle cx="190" cy="270" r="30" fill="#0d1117" stroke="#2a3442" stroke-width="2"/>
+  <circle cx="190" cy="270" r="16" fill="#1c232c" stroke="#39424e" stroke-width="1.5"/>
+  <circle cx="190" cy="270" r="5" fill="#8a7d75"/>
+  <circle cx="630" cy="270" r="30" fill="#0d1117" stroke="#2a3442" stroke-width="2"/>
+  <circle cx="630" cy="270" r="16" fill="#1c232c" stroke="#39424e" stroke-width="1.5"/>
+  <circle cx="630" cy="270" r="5" fill="#8a7d75"/>
+  <!-- exhaust stack -->
+  <rect x="526" y="88" width="8" height="168" fill="#55606c" stroke="#232b36" stroke-width="1.2"/>
+  <rect x="523" y="84" width="14" height="6" rx="2" fill="#39424e"/>
+  <!-- window -->
+  <polygon points="540,130 592,130 600,184 556,184" fill="rgba(157,216,232,.30)" stroke="#10161f" stroke-width="2"/>
+  <!-- door outline + handle -->
+  <path d="M534,250 L534,126 L596,126 L606,190 L606,250" fill="none" stroke="#10161f" stroke-width="2"/>
+  <line x1="560" y1="201" x2="582" y2="201" stroke="#10161f" stroke-width="3"/>
+  <!-- grille, headlight, bumper -->
+  <rect x="694" y="204" width="10" height="44" rx="3" fill="#232b36"/>
+  <circle cx="688" cy="212" r="5.5" fill="#ffe9a8" stroke="#8a7d75" stroke-width="1.5"/>
+  <rect x="684" y="252" width="26" height="12" rx="4" fill="#39424e" stroke="#232b36" stroke-width="1.5"/>
+  <!-- mirror -->
+  <line x1="600" y1="142" x2="614" y2="136" stroke="#10161f" stroke-width="2.5"/>
+  <rect x="612" y="126" width="8" height="20" rx="2" fill="#232b36"/>
+  <!-- marker lights -->
+  <circle cx="90" cy="76" r="3" fill="#ffd43b"/><circle cx="285" cy="76" r="3" fill="#ffd43b"/><circle cx="500" cy="76" r="3" fill="#ffd43b"/>
+  <!-- box outline -->
+  <rect x="70" y="70" width="450" height="178" fill="none" stroke="#10161f" stroke-width="2.5"/>
+  <text x="295" y="330" text-anchor="middle" class="dim">DUSK GRADIENT · SWIMMING SILHOUETTE · IDEAL VINYL-WRAP CANDIDATE</text>
+</svg></div>
+    <p>A <strong>dusk gradient</strong> sweeps the box — coral to amber to deep teal — with a <strong>sea turtle silhouette</strong> swimming through it, dust-swirl trails curling behind, and a small pale moon high on the shell. The cab goes deep teal to sink into the sky.</p>
+    <p><strong>Why it works:</strong> gradients are hard to paint but trivial to print — this is the one to send to a wrap shop. The dark silhouette reads from across the playa at golden hour, which is exactly when wayfinding matters.</p>
+  </div>
+</div>
+
+<div class="step">
+  <div class="step-head"><div class="step-num">C</div><h2>Circuit Shell</h2><span class="time">NODS TO THE AI ORACLE 🔮</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 840 345" role="img" aria-label="Concept C Circuit Shell: dark box, glowing circuit scutes, neon turtle outline">
+  <defs><clipPath id="boxclipC"><rect x="70" y="70" width="450" height="178"/></clipPath></defs>
+  
+  <rect x="0" y="300" width="840" height="45" fill="#241d16"/>
+  <line x1="0" y1="300" x2="840" y2="300" stroke="#3a2f24" stroke-width="2"/>
+  <ellipse cx="200" cy="318" rx="180" ry="6" fill="#2e251c"/>
+  <ellipse cx="620" cy="326" rx="150" ry="5" fill="#2e251c"/>
+  <rect x="70" y="70" width="450" height="178" fill="#0a1220"/>
+  <g clip-path="url(#boxclipC)">
+    <polygon points="135.0,99.4 119.5,126.3 88.5,126.3 73.0,99.4 88.5,72.6 119.5,72.6" fill="rgba(77,212,232,.05)" stroke="#eb5833" stroke-width="1.4" opacity="0.38"/>
+    <circle cx="104" cy="99" r="2.2" fill="#eb5833" opacity="0.5"/>
+    <polygon points="135.0,158.3 119.5,185.2 88.5,185.2 73.0,158.3 88.5,131.5 119.5,131.5" fill="rgba(77,212,232,.05)" stroke="#4dd4e8" stroke-width="1.4" opacity="0.38"/>
+    <polygon points="135.0,217.2 119.5,244.1 88.5,244.1 73.0,217.2 88.5,190.4 119.5,190.4" fill="rgba(77,212,232,.05)" stroke="#4dd4e8" stroke-width="1.4" opacity="0.38"/>
+    <polygon points="186.0,128.9 170.5,155.7 139.5,155.7 124.0,128.9 139.5,102.0 170.5,102.0" fill="rgba(77,212,232,.05)" stroke="#4dd4e8" stroke-width="1.4" opacity="0.38"/>
+    <polygon points="186.0,187.8 170.5,214.6 139.5,214.6 124.0,187.8 139.5,160.9 170.5,160.9" fill="rgba(77,212,232,.05)" stroke="#4dd4e8" stroke-width="1.4" opacity="0.38"/>
+    <circle cx="155" cy="188" r="2.2" fill="#4dd4e8" opacity="0.5"/>
+    <polygon points="186.0,246.7 170.5,273.5 139.5,273.5 124.0,246.7 139.5,219.8 170.5,219.8" fill="rgba(77,212,232,.05)" stroke="#eb5833" stroke-width="1.4" opacity="0.38"/>
+    <polygon points="237.0,99.4 221.5,126.3 190.5,126.3 175.0,99.4 190.5,72.6 221.5,72.6" fill="rgba(77,212,232,.05)" stroke="#4dd4e8" stroke-width="1.4" opacity="0.38"/>
+    <polygon points="237.0,158.3 221.5,185.2 190.5,185.2 175.0,158.3 190.5,131.5 221.5,131.5" fill="rgba(77,212,232,.05)" stroke="#4dd4e8" stroke-width="1.4" opacity="0.38"/>
+    <polygon points="237.0,217.2 221.5,244.1 190.5,244.1 175.0,217.2 190.5,190.4 221.5,190.4" fill="rgba(77,212,232,.05)" stroke="#4dd4e8" stroke-width="1.4" opacity="0.38"/>
+    <circle cx="206" cy="217" r="2.2" fill="#4dd4e8" opacity="0.5"/>
+    <polygon points="288.0,128.9 272.5,155.7 241.5,155.7 226.0,128.9 241.5,102.0 272.5,102.0" fill="rgba(77,212,232,.05)" stroke="#4dd4e8" stroke-width="1.4" opacity="0.38"/>
+    <polygon points="288.0,187.8 272.5,214.6 241.5,214.6 226.0,187.8 241.5,160.9 272.5,160.9" fill="rgba(77,212,232,.05)" stroke="#eb5833" stroke-width="1.4" opacity="0.38"/>
+    <polygon points="288.0,246.7 272.5,273.5 241.5,273.5 226.0,246.7 241.5,219.8 272.5,219.8" fill="rgba(77,212,232,.05)" stroke="#4dd4e8" stroke-width="1.4" opacity="0.38"/>
+    <polygon points="339.0,99.4 323.5,126.3 292.5,126.3 277.0,99.4 292.5,72.6 323.5,72.6" fill="rgba(77,212,232,.05)" stroke="#4dd4e8" stroke-width="1.4" opacity="0.38"/>
+    <circle cx="308" cy="99" r="2.2" fill="#4dd4e8" opacity="0.5"/>
+    <polygon points="339.0,158.3 323.5,185.2 292.5,185.2 277.0,158.3 292.5,131.5 323.5,131.5" fill="rgba(77,212,232,.05)" stroke="#4dd4e8" stroke-width="1.4" opacity="0.38"/>
+    <polygon points="339.0,217.2 323.5,244.1 292.5,244.1 277.0,217.2 292.5,190.4 323.5,190.4" fill="rgba(77,212,232,.05)" stroke="#4dd4e8" stroke-width="1.4" opacity="0.38"/>
+    <polygon points="390.0,128.9 374.5,155.7 343.5,155.7 328.0,128.9 343.5,102.0 374.5,102.0" fill="rgba(77,212,232,.05)" stroke="#eb5833" stroke-width="1.4" opacity="0.38"/>
+    <polygon points="390.0,187.8 374.5,214.6 343.5,214.6 328.0,187.8 343.5,160.9 374.5,160.9" fill="rgba(77,212,232,.05)" stroke="#4dd4e8" stroke-width="1.4" opacity="0.38"/>
+    <circle cx="359" cy="188" r="2.2" fill="#4dd4e8" opacity="0.5"/>
+    <polygon points="390.0,246.7 374.5,273.5 343.5,273.5 328.0,246.7 343.5,219.8 374.5,219.8" fill="rgba(77,212,232,.05)" stroke="#4dd4e8" stroke-width="1.4" opacity="0.38"/>
+    <polygon points="441.0,99.4 425.5,126.3 394.5,126.3 379.0,99.4 394.5,72.6 425.5,72.6" fill="rgba(77,212,232,.05)" stroke="#4dd4e8" stroke-width="1.4" opacity="0.38"/>
+    <polygon points="441.0,158.3 425.5,185.2 394.5,185.2 379.0,158.3 394.5,131.5 425.5,131.5" fill="rgba(77,212,232,.05)" stroke="#4dd4e8" stroke-width="1.4" opacity="0.38"/>
+    <polygon points="441.0,217.2 425.5,244.1 394.5,244.1 379.0,217.2 394.5,190.4 425.5,190.4" fill="rgba(77,212,232,.05)" stroke="#eb5833" stroke-width="1.4" opacity="0.38"/>
+    <circle cx="410" cy="217" r="2.2" fill="#eb5833" opacity="0.5"/>
+    <polygon points="492.0,128.9 476.5,155.7 445.5,155.7 430.0,128.9 445.5,102.0 476.5,102.0" fill="rgba(77,212,232,.05)" stroke="#4dd4e8" stroke-width="1.4" opacity="0.38"/>
+    <polygon points="492.0,187.8 476.5,214.6 445.5,214.6 430.0,187.8 445.5,160.9 476.5,160.9" fill="rgba(77,212,232,.05)" stroke="#4dd4e8" stroke-width="1.4" opacity="0.38"/>
+    <polygon points="492.0,246.7 476.5,273.5 445.5,273.5 430.0,246.7 445.5,219.8 476.5,219.8" fill="rgba(77,212,232,.05)" stroke="#4dd4e8" stroke-width="1.4" opacity="0.38"/>
+    <polygon points="543.0,99.4 527.5,126.3 496.5,126.3 481.0,99.4 496.5,72.6 527.5,72.6" fill="rgba(77,212,232,.05)" stroke="#4dd4e8" stroke-width="1.4" opacity="0.38"/>
+    <circle cx="512" cy="99" r="2.2" fill="#4dd4e8" opacity="0.5"/>
+    <polygon points="543.0,158.3 527.5,185.2 496.5,185.2 481.0,158.3 496.5,131.5 527.5,131.5" fill="rgba(77,212,232,.05)" stroke="#eb5833" stroke-width="1.4" opacity="0.38"/>
+    <polygon points="543.0,217.2 527.5,244.1 496.5,244.1 481.0,217.2 496.5,190.4 527.5,190.4" fill="rgba(77,212,232,.05)" stroke="#4dd4e8" stroke-width="1.4" opacity="0.38"/>
+    <polyline points="104,99 104,99 104,217 104,217" stroke="#4dd4e8" stroke-width="1" fill="none" opacity="0.3"/>
+    <polyline points="155,129 155,129 155,247 155,247" stroke="#4dd4e8" stroke-width="1" fill="none" opacity="0.3"/>
+    <polyline points="206,99 206,99 206,217 206,217" stroke="#4dd4e8" stroke-width="1" fill="none" opacity="0.3"/>
+    <polyline points="257,129 257,129 257,247 257,247" stroke="#4dd4e8" stroke-width="1" fill="none" opacity="0.3"/>
+    <polyline points="308,99 308,99 308,217 308,217" stroke="#4dd4e8" stroke-width="1" fill="none" opacity="0.3"/>
+    <polyline points="359,129 359,129 359,247 359,247" stroke="#4dd4e8" stroke-width="1" fill="none" opacity="0.3"/>
+    <polyline points="410,99 410,99 410,217 410,217" stroke="#4dd4e8" stroke-width="1" fill="none" opacity="0.3"/>
+    <polyline points="461,129 461,129 461,247 461,247" stroke="#4dd4e8" stroke-width="1" fill="none" opacity="0.3"/>
+    <polyline points="512,99 512,99 512,217 512,217" stroke="#4dd4e8" stroke-width="1" fill="none" opacity="0.3"/>
+    <g fill="none" stroke="#4dd4e8" stroke-width="8" stroke-linecap="round" opacity="0.16">
+    <path d="M185,198 A112,68 0 0 1 405,198"/>
+    <path d="M185,198 L405,198"/>
+    <path d="M405,190 C425,176 445,180 448,192 C450,202 440,208 428,204 C420,201 412,198 405,198"/>
+    <path d="M350,200 C365,222 358,236 336,230 C326,226 328,214 340,206"/>
+    <path d="M240,200 C228,220 236,234 256,228 C264,224 262,212 252,206"/>
+    <path d="M185,198 L170,205 L182,209"/></g>
+    <g fill="none" stroke="#4dd4e8" stroke-width="2.8" stroke-linecap="round" opacity="0.95">
+    <path d="M185,198 A112,68 0 0 1 405,198"/>
+    <path d="M185,198 L405,198"/>
+    <path d="M405,190 C425,176 445,180 448,192 C450,202 440,208 428,204 C420,201 412,198 405,198"/>
+    <path d="M350,200 C365,222 358,236 336,230 C326,226 328,214 340,206"/>
+    <path d="M240,200 C228,220 236,234 256,228 C264,224 262,212 252,206"/>
+    <path d="M185,198 L170,205 L182,209"/></g>
+    <circle cx="436" cy="190" r="3.2" fill="#4dd4e8"/>
+    <text x="295" y="97" text-anchor="middle" fill="#e5a14b" opacity="0.95"
+      style="font:700 17px 'Rajdhani',sans-serif;letter-spacing:3px;">MOVE SLOW &amp; BITE THINGS</text>
+  </g>
+  <path d="M520,258 L520,124 L596,124 L608,192 L698,198 L704,252 L616,258 Z" fill="#0b1628" stroke="#10161f" stroke-width="2"/>
+  <circle cx="566" cy="222" r="9" fill="none" stroke="#4dd4e8" stroke-width="2"/>
+  <circle cx="566" cy="222" r="3.5" fill="#4dd4e8"/>
+  <line x1="640" y1="216" x2="700" y2="216" stroke="#eb5833" stroke-width="2.5" opacity="0.8"/>
+  <g fill="#4dd4e8" opacity="0.12"><circle cx="128" cy="290" r="18"/><circle cx="98" cy="296" r="11"/></g>
+  
+  <!-- skirt + chassis -->
+  <rect x="70" y="248" width="450" height="8" fill="#10161f" opacity="0.9"/>
+  <rect x="60" y="256" width="652" height="10" fill="#10161f"/>
+  <!-- fuel tank -->
+  <rect x="470" y="250" width="86" height="18" rx="9" fill="#39424e" stroke="#232b36" stroke-width="1.5"/>
+  <!-- wheel arches -->
+  <circle cx="190" cy="256" r="33" fill="#10161f"/>
+  <circle cx="630" cy="256" r="33" fill="#10161f"/>
+  
+  <circle cx="190" cy="270" r="30" fill="#0d1117" stroke="#2a3442" stroke-width="2"/>
+  <circle cx="190" cy="270" r="16" fill="#1c232c" stroke="#39424e" stroke-width="1.5"/>
+  <circle cx="190" cy="270" r="5" fill="#8a7d75"/>
+  <circle cx="630" cy="270" r="30" fill="#0d1117" stroke="#2a3442" stroke-width="2"/>
+  <circle cx="630" cy="270" r="16" fill="#1c232c" stroke="#39424e" stroke-width="1.5"/>
+  <circle cx="630" cy="270" r="5" fill="#8a7d75"/>
+  <!-- exhaust stack -->
+  <rect x="526" y="88" width="8" height="168" fill="#55606c" stroke="#232b36" stroke-width="1.2"/>
+  <rect x="523" y="84" width="14" height="6" rx="2" fill="#39424e"/>
+  <!-- window -->
+  <polygon points="540,130 592,130 600,184 556,184" fill="rgba(157,216,232,.30)" stroke="#10161f" stroke-width="2"/>
+  <!-- door outline + handle -->
+  <path d="M534,250 L534,126 L596,126 L606,190 L606,250" fill="none" stroke="#10161f" stroke-width="2"/>
+  <line x1="560" y1="201" x2="582" y2="201" stroke="#10161f" stroke-width="3"/>
+  <!-- grille, headlight, bumper -->
+  <rect x="694" y="204" width="10" height="44" rx="3" fill="#232b36"/>
+  <circle cx="688" cy="212" r="5.5" fill="#ffe9a8" stroke="#8a7d75" stroke-width="1.5"/>
+  <rect x="684" y="252" width="26" height="12" rx="4" fill="#39424e" stroke="#232b36" stroke-width="1.5"/>
+  <!-- mirror -->
+  <line x1="600" y1="142" x2="614" y2="136" stroke="#10161f" stroke-width="2.5"/>
+  <rect x="612" y="126" width="8" height="20" rx="2" fill="#232b36"/>
+  <!-- marker lights -->
+  <circle cx="90" cy="76" r="3" fill="#ffd43b"/><circle cx="285" cy="76" r="3" fill="#ffd43b"/><circle cx="500" cy="76" r="3" fill="#ffd43b"/>
+  <!-- box outline -->
+  <rect x="70" y="70" width="450" height="178" fill="none" stroke="#10161f" stroke-width="2.5"/>
+  <text x="295" y="330" text-anchor="middle" class="dim">GLOWING TEAL/ORANGE SCUTES · NODS TO THE AI ORACLE · REFLECTIVE VINYL POPS AT NIGHT</text>
+</svg></div>
+    <p>The box goes midnight-dark. <strong>Glowing teal and orange scutes</strong> trace across it like a circuit board — nodes, traces, geometry — with a <strong>neon turtle outline</strong> swimming over the top and the camp motto in amber lettering: <strong>MOVE SLOW &amp; BITE THINGS</strong>.</p>
+    <p><strong>Why it works:</strong> in retroreflective or glow-accent vinyl, the circuit lines <strong>light up at night</strong> in headlights — the truck becomes its own beacon. Same visual language as the AI Oracle tent, so the whole camp reads as one organism.</p>
+  </div>
+</div>
+
+<h3 class="sect">🚛 The Semi Trailer — Mural Concept</h3>
+<div class="step">
+  <div class="step-head"><div class="step-num">★</div><h2>The Long Migration</h2><span class="time">51 FT OF STORY</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 1120 345" role="img" aria-label="Semi trailer mural concept The Long Migration: caravan of turtles walking toward the cab">
+  <defs>
+    <clipPath id="muralclip"><rect x="50" y="114" width="1020" height="138"/></clipPath>
+    <linearGradient id="duskSemi" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#123b4a"/>
+      <stop offset="0.45" stop-color="#a85a3c"/>
+      <stop offset="0.78" stop-color="#e5a14b"/>
+      <stop offset="1" stop-color="#fd6844"/>
+    </linearGradient>
+    <g id="wturtle">
+      <path d="M-26,0 A26,17 0 0 1 26,0 Z"/>
+      <ellipse cx="31" cy="-4" rx="7" ry="5.5"/>
+      <path d="M-26,0 L-33,-3 L-31,2 Z"/>
+      <rect x="-19" y="-2" width="7" height="9" rx="3"/>
+      <rect x="-6" y="-1" width="7" height="10" rx="3"/>
+      <rect x="8" y="-2" width="7" height="9" rx="3"/>
+      <rect x="19" y="-1" width="6" height="9" rx="3"/>
+    </g>
+  </defs>
+  <rect x="0" y="300" width="1120" height="45" fill="#241d16"/>
+  <line x1="0" y1="300" x2="1120" y2="300" stroke="#3a2f24" stroke-width="2"/>
+  <ellipse cx="400" cy="318" rx="240" ry="6" fill="#2e251c"/>
+  <ellipse cx="880" cy="326" rx="180" ry="5" fill="#2e251c"/>
+
+  <!-- trailer body -->
+  <rect x="50" y="88" width="1020" height="164" fill="#0e3a47"/>
+  <g clip-path="url(#muralclip)">
+    <rect x="50" y="114" width="1020" height="138" fill="url(#duskSemi)"/>
+    <!-- low sun ahead, toward the cab -->
+    <circle cx="960" cy="196" r="36" fill="#ffd9a0" opacity="0.25"/>
+    <circle cx="960" cy="196" r="22" fill="#ffd9a0" opacity="0.95"/>
+    <polygon points="50,252 50,214 120,196 205,224 300,204 420,232 520,210 645,236 760,206 880,230 965,212 1070,238 1070,252" fill="#241a2e" opacity="0.95"/>
+    <path d="M50,222 C180,196 300,214 460,200 C620,186 740,198 900,192 C980,189 1030,194 1070,190 L1070,252 L50,252 Z" fill="#d9a866"/><path d="M50,222 C180,196 300,214 460,200 C620,186 740,198 900,192 C980,189 1030,194 1070,190" fill="none" stroke="#f2cd8e" stroke-width="2.5" opacity="0.8"/>
+    
+    <g fill="none" stroke="#40231a" stroke-linecap="round" opacity="0.45">
+      <path d="M165,196 q-16,-4 -12,-16 q3,-9 12,-7" stroke-width="2"/>
+      <path d="M322,200 q-19,-5 -14,-19 q4,-9 14,-7" stroke-width="2.2"/>
+      <path d="M478,188 q-23,-7 -16,-23 q5,-11 16,-8" stroke-width="2.6"/>
+      <path d="M636,186 q-26,-9 -18,-28 q6,-12 19,-9" stroke-width="2.8"/>
+      <path d="M790,192 q-30,-10 -20,-32 q7,-13 21,-10" stroke-width="3"/>
+    </g>
+    <use href="#wturtle" transform="translate(210,201) scale(0.5)" fill="#171120"/>
+    <use href="#wturtle" transform="translate(370,206) scale(0.72)" fill="#171120"/>
+    <use href="#wturtle" transform="translate(545,194) scale(1.0)" fill="#171120"/>
+    <use href="#wturtle" transform="translate(720,193) scale(1.32)" fill="#171120"/>
+    <use href="#wturtle" transform="translate(895,199) scale(1.7)" fill="#171120"/>
+    
+    <line x1="152" y1="114" x2="152" y2="252" stroke="#000" stroke-width="3" opacity="0.10"/><line x1="254" y1="114" x2="254" y2="252" stroke="#000" stroke-width="3" opacity="0.10"/><line x1="356" y1="114" x2="356" y2="252" stroke="#000" stroke-width="3" opacity="0.10"/><line x1="458" y1="114" x2="458" y2="252" stroke="#000" stroke-width="3" opacity="0.10"/><line x1="560" y1="114" x2="560" y2="252" stroke="#000" stroke-width="3" opacity="0.10"/><line x1="662" y1="114" x2="662" y2="252" stroke="#000" stroke-width="3" opacity="0.10"/><line x1="764" y1="114" x2="764" y2="252" stroke="#000" stroke-width="3" opacity="0.10"/><line x1="866" y1="114" x2="866" y2="252" stroke="#000" stroke-width="3" opacity="0.10"/><line x1="968" y1="114" x2="968" y2="252" stroke="#000" stroke-width="3" opacity="0.10"/>
+  </g>
+  <!-- name band -->
+  <rect x="50" y="88" width="1020" height="26" fill="#0a2e3a" stroke="#10161f" stroke-width="2"/>
+  <text x="560" y="107" text-anchor="middle" fill="#f7f0eb"
+    style="font:700 19px 'Rajdhani',sans-serif;letter-spacing:6px;">🐢 TERRIBLE TURTLE CAMP 🐢</text>
+  <!-- rear doors (left) -->
+  <rect x="54" y="118" width="62" height="130" fill="rgba(0,0,0,0.20)" stroke="#10161f" stroke-width="2"/>
+  <line x1="85" y1="118" x2="85" y2="248" stroke="#10161f" stroke-width="2"/>
+  <rect x="57" y="130" width="5" height="14" fill="#39424e"/><rect x="57" y="160" width="5" height="14" fill="#39424e"/><rect x="57" y="190" width="5" height="14" fill="#39424e"/>
+  <!-- conspicuity tape -->
+  <rect x="60" y="244" width="14" height="6" fill="#f7f0eb" opacity="0.85"/><rect x="88" y="244" width="14" height="6" fill="#cc272e" opacity="0.85"/><rect x="116" y="244" width="14" height="6" fill="#f7f0eb" opacity="0.85"/><rect x="144" y="244" width="14" height="6" fill="#cc272e" opacity="0.85"/><rect x="172" y="244" width="14" height="6" fill="#f7f0eb" opacity="0.85"/><rect x="200" y="244" width="14" height="6" fill="#cc272e" opacity="0.85"/><rect x="228" y="244" width="14" height="6" fill="#f7f0eb" opacity="0.85"/><rect x="256" y="244" width="14" height="6" fill="#cc272e" opacity="0.85"/><rect x="284" y="244" width="14" height="6" fill="#f7f0eb" opacity="0.85"/><rect x="312" y="244" width="14" height="6" fill="#cc272e" opacity="0.85"/><rect x="340" y="244" width="14" height="6" fill="#f7f0eb" opacity="0.85"/><rect x="368" y="244" width="14" height="6" fill="#cc272e" opacity="0.85"/><rect x="396" y="244" width="14" height="6" fill="#f7f0eb" opacity="0.85"/><rect x="424" y="244" width="14" height="6" fill="#cc272e" opacity="0.85"/><rect x="452" y="244" width="14" height="6" fill="#f7f0eb" opacity="0.85"/><rect x="480" y="244" width="14" height="6" fill="#cc272e" opacity="0.85"/><rect x="508" y="244" width="14" height="6" fill="#f7f0eb" opacity="0.85"/><rect x="536" y="244" width="14" height="6" fill="#cc272e" opacity="0.85"/><rect x="564" y="244" width="14" height="6" fill="#f7f0eb" opacity="0.85"/><rect x="592" y="244" width="14" height="6" fill="#cc272e" opacity="0.85"/><rect x="620" y="244" width="14" height="6" fill="#f7f0eb" opacity="0.85"/><rect x="648" y="244" width="14" height="6" fill="#cc272e" opacity="0.85"/><rect x="676" y="244" width="14" height="6" fill="#f7f0eb" opacity="0.85"/><rect x="704" y="244" width="14" height="6" fill="#cc272e" opacity="0.85"/><rect x="732" y="244" width="14" height="6" fill="#f7f0eb" opacity="0.85"/><rect x="760" y="244" width="14" height="6" fill="#cc272e" opacity="0.85"/><rect x="788" y="244" width="14" height="6" fill="#f7f0eb" opacity="0.85"/><rect x="816" y="244" width="14" height="6" fill="#cc272e" opacity="0.85"/><rect x="844" y="244" width="14" height="6" fill="#f7f0eb" opacity="0.85"/><rect x="872" y="244" width="14" height="6" fill="#cc272e" opacity="0.85"/><rect x="900" y="244" width="14" height="6" fill="#f7f0eb" opacity="0.85"/><rect x="928" y="244" width="14" height="6" fill="#cc272e" opacity="0.85"/><rect x="956" y="244" width="14" height="6" fill="#f7f0eb" opacity="0.85"/><rect x="984" y="244" width="14" height="6" fill="#cc272e" opacity="0.85"/><rect x="1012" y="244" width="14" height="6" fill="#f7f0eb" opacity="0.85"/><rect x="1040" y="244" width="14" height="6" fill="#cc272e" opacity="0.85"/>
+  <!-- landing gear -->
+  <rect x="208" y="252" width="9" height="40" fill="#39424e" stroke="#232b36" stroke-width="1.2"/>
+  <rect x="230" y="252" width="9" height="40" fill="#39424e" stroke="#232b36" stroke-width="1.2"/>
+  <rect x="200" y="290" width="24" height="6" fill="#232b36"/><rect x="222" y="290" width="24" height="6" fill="#232b36"/>
+  <!-- trailer outline + roof -->
+  <rect x="50" y="88" width="1020" height="164" fill="none" stroke="#10161f" stroke-width="2.5"/>
+  <rect x="46" y="84" width="1028" height="5" rx="2" fill="#39424e"/>
+  <!-- triple axle -->
+  <circle cx="870" cy="252" r="30" fill="#10161f"/><circle cx="922" cy="252" r="30" fill="#10161f"/><circle cx="974" cy="252" r="30" fill="#10161f"/>
+  <g>
+    <circle cx="870" cy="274" r="26" fill="#0d1117" stroke="#2a3442" stroke-width="2"/><circle cx="870" cy="274" r="14" fill="#1c232c" stroke="#39424e" stroke-width="1.5"/><circle cx="870" cy="274" r="4.5" fill="#8a7d75"/>
+    <circle cx="922" cy="274" r="26" fill="#0d1117" stroke="#2a3442" stroke-width="2"/><circle cx="922" cy="274" r="14" fill="#1c232c" stroke="#39424e" stroke-width="1.5"/><circle cx="922" cy="274" r="4.5" fill="#8a7d75"/>
+    <circle cx="974" cy="274" r="26" fill="#0d1117" stroke="#2a3442" stroke-width="2"/><circle cx="974" cy="274" r="14" fill="#1c232c" stroke="#39424e" stroke-width="1.5"/><circle cx="974" cy="274" r="4.5" fill="#8a7d75"/>
+  </g>
+  <!-- mudflap + ICC bumper -->
+  <rect x="1014" y="252" width="10" height="42" fill="#10161f"/>
+  <rect x="52" y="278" width="140" height="10" fill="#232b36"/>
+  <!-- annotations -->
+  <text x="990" y="140" text-anchor="end" class="lblw">FRONT / CAB →</text>
+  <line x1="50" y1="312" x2="1070" y2="312" class="dimline"/>
+  <text x="560" y="308" text-anchor="middle" class="dim">51 FT KENTUCKY MOVING VAN (1996) · TRIPLE AXLE · GVWR 65,000 LB</text>
+  <text x="560" y="332" text-anchor="middle" class="dim">MURAL COVERS THE OLD NORTHAMERICAN BLUE/RED BRANDING · KEEP DOT TAPE VISIBLE</text>
+</svg></div>
+    <p>A <strong>caravan of turtles, growing larger as they walk</strong>, migrates the full length of the trailer toward the cab — dust swirling behind them, the Black Rock mountains silhouetted against a dusk sky, a low sun pulling them forward. <strong>TERRIBLE TURTLE CAMP</strong> rides the top band where the old northAmerican lettering lives now.</p>
+    <p>The mural <strong>fully covers the trailer's current blue/red northAmerican branding</strong> — one coherent skin instead of someone else's livery. And it tells the truth: this trailer carried a whole camp across the desert, the way turtles have crossed deserts for 200 million years. At camp it anchors the Dormitory Shade (<a href="dormitory-shade.html">the Himalayas</a>), so the mural becomes the backdrop of camp life — and the easiest landmark to describe: "the giant turtle migration, you can't miss it."</p>
+    <div class="tip david" style="margin-top:10px;"><strong>Scale note:</strong> the littlest turtle is knee-high; the big one is over 4 feet tall. Painted or printed, that size gradient reads from halfway down the block.</div>
+  </div>
+</div>
+
+<h3 class="sect">🛠️ Practical Notes — Before Anyone Picks Up a Brush</h3>
+<div class="panel">
+  <ul>
+    <li><strong>Three application paths:</strong> (1) <strong>Vinyl wrap</strong> — pro look, fast, best for gradients (Concept B); pricey but removable with a heat gun. (2) <strong>Paint</strong> — exterior acrylic/latex, cheapest per square foot, and the most fun as a camp Participation project (Concept A is built for it). (3) <strong>Fabric / mesh banners</strong> — wind-permeable mesh or Aluminet-compatible shade cloth printed/painted flat, then fastened to the box sides; reusable year to year and kind to the wind. Mixing is fine: wrap the truck, banner the semi.</li>
+    <li><strong>Dust &amp; wind:</strong> playa dust bonds to uncured paint — anything painted must cure fully <em>before</em> departure, not on the drive. The 51-foot trailer side is a sail; solid vinyl on it must be rated for highway crosswind, perforated mesh is the forgiving option. Expect abrasion on leading edges — put the fine detail toward the rear.</li>
+    <li><strong>MOOP-free or don't bother:</strong> nothing that flakes, peels, sheds glitter, or chalks off. No loose mylar, no cheap peeling decals. Vinyl edges get heat-sealed, banners get double-hemmed grommets. Line-item in the strike plan: inspect both vehicles before rolling out. Leaving No Trace includes our own art.</li>
+    <li><strong>Removable after the event:</strong> vinyl peels with heat; banners roll up and come home for next year. Paint on the Turtle Truck can stay — it's Jeremy's truck and it's <em>becoming</em> a turtle permanently. The semi is being bought outright (the ~$3k cash deal), so a lasting mural is welcome there too — still confirm with Jeremy before anything permanent goes on either vehicle.</li>
+    <li><strong>Night visibility:</strong> these are wayfinding landmarks after dark. Use retroreflective vinyl or reflective tape accents for the eye, shell rim, and camp name — and we can rim the shell with solar fairy lights from camp stock. Keep all legal DOT conspicuity tape visible (never paint over it).</li>
+    <li><strong>Measure twice:</strong> the box is <strong>8' × 26'</strong> per side; the trailer is <strong>8' × 51'</strong>. Template around door hinges, rivets, latches, and the exhaust stack. Print or chalk a full-scale section before committing.</li>
+  </ul>
+</div>
+
+<div class="tip david" style="margin-bottom:14px;">
+  <strong>🎨 These are concept sketches, not final art.</strong> The real design is a camp <strong>Participation</strong> project — everyone paints, no gatekeeping. Bring brushes and ideas to the <strong>Phoenix Gulch dress-rehearsal weekend, July 30 – Aug 1</strong>. First-timers especially welcome: a hexagon is six straight lines, and turtles forgive wobbly lines. Radical Inclusion applies to paint rollers too. 🐢
+</div>
+
+<footer class="footer">
+  <p>🐢 <a href="./">Turtle Ops</a> · concept art by Terri · <a href="https://terribleturtle.camp/" target="_blank">terribleturtle.camp</a></p>
+  <p style="margin-top:6px;color:var(--tt-amber);">Move Slow &amp; Bite Things.</p>
+</footer>
+
+</div>
+<script src="assets/turtle-cursor.js" defer></script>
+</body>
+</html>

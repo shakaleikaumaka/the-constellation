@@ -1,0 +1,195 @@
+# Developing Cohousing through Community Land Trusts & Coops_ _ Darryl Berlin
+
+Date: 2026-06-23
+Source video: Developing Cohousing through Community Land Trusts & Coops_ _ Darryl Berlin.mp4
+Drive: https://drive.google.com/file/d/1vbfG_y2HZVvf2WHh6H2MJhR7xNkjeP68/view
+Duration: 00:33:26
+Transcribed: 2026-06-24 · whisper large-v3-turbo · language: en
+
+---
+
+[00:09] All right. I'm just going to jump right in because I know there's limited time and trying to get through a lot of talks here. So they'll probably be, you know, I'll treat it as an open mic. They'll be back there talking, doing their thing, and I'll be up here doing my thing. So I'm Daryl Berlin, and I am one of the co-founders of Common Space Community Land Trust, which is based out of Sebastopol, but we do work throughout Sonoma County.
+
+[00:39] I also wear a lot of different developer hats. I have developed some co-housing, mostly in Oregon and California. So we'll kind of get into that. What is co-housing? We'll also circle back to what are community land trusts, and we're going to put a nice bow on it by also talking about co-ops.
+
+[01:00] Two things I want to ask before I get in, just to kind of understand who I'm talking to. I'm just sort of jumping into this. I'm not sure who I'm talking to, but let me ask this question. How many people here are homeowners? All right. Got a good representation. How many people here have heard of community land trusts?
+
+[01:22] Good. So, you know, hopefully I'll make this exciting. So, again, I'm just going to dive in there. I usually do this over about an hour, and I'll just kind of cruise through this and see what comes out of it. So, as we all know, there are many challenges to our housing ecosystem these days, and, you know, high cost of land, regulatory, complex financing and funding.
+
+[01:52] And really what this workshop is about is to try to inspire people to think about different ways to develop and provide housing over the spectrum of from very urban to suburban to rural, so a lot of these examples I'll show fit those ecosystems.
+
+[02:15] And then also, this is really about trying to find ways to push back on the predominant way that housing is developed, mostly through developers, and switching that to more of a community-led development system, and I'll talk a little bit more about that as we get into it.
+
+[02:34] So, let me make sure I got my right one here. All right. So, a quick dive on community land trusts. A lot of you may know this. It came out of the southwest Georgia, Atlanta in the 1960s, late 1960s. It emerged out of black activists basically losing their homes and jobs because of their activism.
+
+[03:00] activism. And they started to look at ways that they could basically have more power. They, they based, they, they went around the world and studied different land reform movements and sort of synthesized that and came up with the community land trust model.
+
+[03:16] The, the first community was called New Communities. It was all driven by black Americans and they got 5,000 acres. So they were also the largest black land holding in, in the late 1960s. Really, really simple in concept, super simple in concept.
+
+[03:39] The community owns the, the land. So you're taking the land out of the speculative market and basically saying it's a community resource. It's a community asset. Residents then control the improvement. So they can single family, co-ops, condominiums, multifamily, rentals. It can be businesses. It can be community gardens. It's very, very flexible in terms of what a community land trust can achieve.
+
+[04:10] But the main concept is super simple. You separate the land from the improvements. Therefore, the improvements become a lot more affordable and a lot more achievable for people who are on the lower income spectrum. Um, this is a little old. This is from 2022, but there were 2022, I gotta put on my glasses to read my own slides here.
+
+[04:35] Um, there were 32 community land trusts throughout California. Um, there we are up there, um, in sort of upper Sonoma County common space community land trusts. These numbers have exploded in the last, over the last, uh, three years, there's, uh, about a dozen community land trusts developing in the central valley of California alone.
+
+[05:00] Basically immigrants finding this model as a way again to hold power and to hold power through land and basically, uh, securing that through the community. Uh, again, these are some 2022 figures, but, uh, CLT's primary, uh, primarily serve low income BIPOC populations.
+
+[05:21] Um, you can see there, I think it's all pretty clear. The first one is, uh, annual household incomes, uh, under 14,000, uh, 14%, uh, 14 to, uh, 25,000, 20, 20%, 25 to 40,000, uh, 25%, I'll, I don't need to go on. Uh, you also see that 80% of CLTs are black indigenous and people of color.
+
+[05:44] Um, don't need to go too much into, I, I'm trying to limit, um, the number of graphs and all this kind of stuff. But I think the one that's important just to talk about when we talk about community led, um, development is that we are talking about really pushing back on displacement of lower income households.
+
+[06:08] And we really can't talk about affordability without talking about income and basically what has happened between the price of homes to, to the growth of income. And so this is a, just a sort of a snapshot, 2024, uh, basically home price to income ratios.
+
+[06:32] And you can see the hotspots. That means that, you know, the hotspots in California, it's eight and over. A lot of the places in California are, you know, 11, 12 times your income to buy a home. So that's what this is showing. There are some, you know, middle of the country that are doing a little bit better holding on to some accessibility, but it's, you know, this is what we're up against.
+
+[06:57] All right. So that was, uh, that was community land trust briefly co-housing. So co-housing is a really interesting model came from Denmark. Uh, and this again was really came out of, um, uh, basically women being tired of not having anybody else to share their childcare with.
+
+[07:17] It was a feminist movement. And they said, why are we living this way? Why are we living in nuclear families when we could be living in community? So they got together and started developing co-housing. Uh, this was, uh, mid seventies. Um, my brother-in-law and sister-in-law went to Denmark in the eighties, studied it, brought it back to, uh, the States.
+
+[07:41] So they're the ones that wrote all the co-housing books and have done most of the co-housing development in this country. Um, that's, uh, Charles Durrett and Katie McCammon. Um, and so I have over the years seen their progression and seeing how well this works, how well community, uh, community works for people and particularly co-housing.
+
+[08:02] So I'm just going to kind of go into some really high level. Um, like why does it work? So this is an example of a Puget Ridge co-housing up in the state of Washington. It's kind of up there in that far left up upper corner. And this is just in, you know, a Washington, uh, outside of, uh, Seattle, just a suburb outside of Seattle.
+
+[08:28] Looks very familiar. And then you can see I've highlighted some of these other, uh, um, homes where the same, basically the same area, the same block. Um, you know, has 11 homes, all single family homes, 16 homes. The Puget Ridge has, I believe 23 homes.
+
+[08:48] I'm gonna get my glasses on again, 23 homes and over 60 residents. So one of the way co-housing really works is as a, uh, design ecosystem that is about, um, it is about density. It's about density working for collaboration and working for basically shared resources.
+
+[09:09] So, you know, you could also do this, but would also be fascinating is to look at this as like, okay. Okay. And that 11 blocks, 11, uh, uh, 11 blocks, uh, 11 homes in that one block, how many lawnmowers are in there? There might be eight or nine.
+
+[09:26] Well, the co-housing was probably one, if any, um, cause they have treated their open space very differently. You know, same thing with how many, uh, you know, how many, uh, washing machines does the 11 homes have? Probably, you know, 11. The co-housing might have four or five that are shared in a shared facility.
+
+[09:44] So again, this is sort of a, uh, a design ethic that's trying to really look at resources, resource use, resource management in our, in our built environment. So, uh, just, there are some key characteristics about co-housing. Um, this is a site plan for, uh, um, uh, co-housing development that just got built in Bozeman.
+
+[10:07] Um, and I'll just rifle through some of those key characteristics. So participatory development, um, process. So again, I, when I started, I talked about, you know, this really is about trying to inspire people to think about community-led development.
+
+[10:27] How can, how can you band together with your friends, your colleagues, and create more community in your life? So for co-housing, the future residents are the developers. They work with a development, either consultant, or they are working, uh, with a developer.
+
+[10:46] And they partner with that, with that team. And they're bringing skin to the game. So they're typically putting in pre-development costs to find the land, to, to put a purchase agreement on the land, to pay the engineers, the architects, to do all the site planning, to get the tentative map if you need it.
+
+[11:04] All of that is, is put in by the future residents. And that's typically anywhere from 20 to 40% of your down payment of your home. So basically, the, the, the co-housing group is trying to get to a certain level of equity so they can go to a bank and get a bank loan and, and get a construction loan and build it.
+
+[11:25] Pretty revolutionary idea to have your community engaged on building that, uh, building where you're gonna live. Um, so neighborhood design, we kind of talked about that a little bit. But some of the key characteristics. Parking at the periphery.
+
+[11:39] You want to keep those cars away from those kids. Um, clustered private residents. So again, you want to, um, as much as possible, create some density, some townhomes, so that you're creating more open shared common spaces. Um, so those are just a few.
+
+[11:57] There's, there's a handful of other, just sort of design principles that co-housing uses to essentially design in. Interaction. So in other words, that parking on the periphery, instead of you pulling up into your driveway or your garage and you go right into your home.
+
+[12:13] Here you park, you walk by the common house first before you get to your home. So that changes the whole dynamics of what's going on. Um, and that's a, a, a big design concept. Uh, so I talked a little bit about common facilities and, and sort of in this one, you can see multiple common facilities.
+
+[12:32] There is a common house, different co-housing communities choose to, um, uh, share how many meals, how many dinners they want to have together a week. Um, it could be one, it could be five, uh, nights a week that they're sharing dinners. There are, um, common, uh, there's a bike storage.
+
+[12:52] There's a workshop, a common garage. There's a garden shed. There's a whole garden space. Basically it's whatever the co-housers are wanting out of their community they design in. Another key component is, um, resident management is that basically they are structured as HOAs, uh, but highly functional HOAs.
+
+[13:14] So everybody's heard horror stories about HOAs. Really there is a way it's just a, it's just a structure to help me make decisions together. It's really about the people and the personalities. Well, imagine if you've just put, you just made all these decisions to build your dream space with all these people.
+
+[13:32] You know them really well and you actually know how to make decisions together really well. So the HOA is just, it's a, it's a highly functional, um, structure for you to manage, uh, in, uh, your, your home. And then lastly, uh, one I'll just touch base on there.
+
+[13:49] There are a few other characteristics, but I think this one's worth mentioning is non-hierarchical structures, uh, and non-hierarchical decision making. So basically putting the, the trust in, in your neighbors to make the right decisions. So the typical co-housing is kind of a ground up.
+
+[14:09] There are co-housing that, that, that do, um, they adapt to reuse where you look at older buildings and then remodel them. But typically co-housing is done, um, from ground up. Um, but there is a lot of co-housing movements because of, uh, for different reasons that are more organic.
+
+[14:28] And so this is Temescal down in the Bay Area, uh, Berkeley, Oakland border, where a group of people who bought a couple houses. And then they knew some other houses were coming up for sale on the other side of the block. And they were kind of like, Hey, what if we found our friends and neighbors to buy those?
+
+[14:44] And we could actually tear down the fences and have this very cool collective space in the middle, build a common house and call it co-housing. So this is kind of an organic growth model. There's a couple of other, these models around end street co-housing and Davis is another big one.
+
+[14:59] Um, so this is, you know, uh, opportunities to organically grow a lot of what's happening today. Also in the co-housing movement is, um, to be honest, it's, uh, co-housing, you know, you have to have the, um, you have to have the, uh, resources, the economic resources to basically purchase a new home.
+
+[15:09] Um, so that prices out a lot of people, um, when we talk about affordability and accessibility. So there's been movements to do more micro co-housing, and this is a, uh, this works a little bit better in urban environments. This is one that's being designed in Sacramento, where again, the, um, looking at common spaces, um, shared amenities, but re, you know, remaining mostly smaller, very sometimes micro in this case, uh, rental, uh, units.
+
+[15:49] And again, people are just starting to explore this as sort of a transitional option. All right, so I'm going to dive really deep quickly into co-ops, and then I'm going to show you a bunch of different ways people are putting this stuff together.
+
+[16:05] Um, but co-ops, um, so, you know, basically I'll just read out of this. A co-op is an autonomous association of persons united voluntarily to meet their common economic, social, cultural needs and aspirations through a jointly owned and democratically controlled enterprise.
+
+[16:24] Um, and co-ops are, are, I think going to be making a pretty big resurgence. Um, uh, I'm very, I'm personally very interested in co-ops as a model. There can be a lot of different types of co-ops, limited equity housing co-ops. They don't have to be limited equity. You can also, we'll look at a few of these, uh, different ones.
+
+[16:47] Okay. So putting it all together. So what we are doing at common space is we're trying to look at some low hanging fruit. So we're trying to look at what exists, what's it, what's sort of existing in our, uh, built environment and what is, uh, accessible to do now with some of the new, uh, state laws that have allowed us to increase density.
+
+[17:11] So a lot of what we're looking at is how do we take existing single family homes and max the density that we can on those properties. So we're doing a lot of, you know, basically taking the single family home, turn it into a duplex. And now in Sonoma County, you can do a junior ADU and two ADU.
+
+[17:30] So you can have four units on a single family zone of property. Uh, I think that's super cool. Kind of call it the, uh, in philanthropic community development. So we're also trying to do this without subsidies because we're, because we don't want to be bogged down, like looking for a lot of public subsidies.
+
+[17:48] So we think there's a lot of opportunities to look at existing homeowners that are interested in some of these avenues to create more density. How do you do that? So a new California state law a couple of years ago is SB nine, where you can split your lot in two.
+
+[18:06] And a lot of community land trusts are using this to basically, um, this is an example of where it was in Oregon, where the, um, homeowners split their lot. And then a co-op came in and built six units over to how, over two structures, uh, super simple, super affordable.
+
+[18:27] These are targeting, um, people who are typically making 80% AMI or lower AMI is, uh, area median income. Um, another, uh, pretty exciting one, but a little bit limited until we kind of get, uh, an understanding of how the different, uh, municipalities.
+
+[18:46] Are gonna, um, actually opt into this is SB six 84, which allows you to do up to 10 homes on residential lots. Um, which is super exciting. So again, how, how do you find these lots? How do you identify the loss? How do you identify the existing homeowners?
+
+[19:03] Try to work with them and creating more density. Um, there's a couple other, uh, state laws out there that now basically saying, Hey, churches that might have, um, parking lots. They're just basically not used. Hey, turn them into affordable housing.
+
+[19:18] So again, this is another model up in Oregon. Uh, we're, we're talking with the church down in, uh, uh, Katati on this, where they're using the, uh, limited equity housing co-op model. Uh, again, the land trust can the community owns the land.
+
+[19:35] Uh, the community develops the land trust develops the property and then the, the, the co-op owns all the structures. Again, super simple. They're going for affordability here. Um, you know, these aren't custom homes. Um, they aren't also prefab, but these are trying to keep it as simple and as affordable as possible.
+
+[19:54] Um, a number of other ways that community land trust are using, uh, co-housing and co-ops. This is, uh, Fairview co-op down in, I think Berkeley, uh, could be on the edge again, Berkeley, Oakland. The two houses there, uh, on the, on the, the, the sort of gray and blue house were existing houses that the community land trust purchased.
+
+[20:20] And now a, um, I, I think there's, uh, 16 people that live in there that are part of the co-op and they're now going to purchase the third home right next to it. So again, they're, and they basically run themselves as a co, as a co housing group.
+
+[20:35] Um, another, uh, interesting model of this is down in LA. This is LA eco village. Um, and this was basically, it was a, it was a long-term collective house, but that started to struggle and couldn't keep up with maintenance. So they approached a local CLT and LA and turned it over to a limited equity housing co-op, um, as well.
+
+[21:02] It's a fabulous, very, very beautiful spot. Um, here's another example in Madison, Wisconsin or outside of Madison is toward gardens. It's a, a 30 unit co housing on CLT land. Um, it's really the only one that I I'm aware of that was, um, uh, CLT stewarded land and then a ground up development totally new this large.
+
+[21:26] And it has five acres, a fabulous community garden. Um, and again, super great place for families and kids to grow up in. Uh, farther north, the Lopez Island. Uh, this was a really interesting, again, um, about 15, 16 units. Um, but they did a self-help, probably one of the more ecological, um, examples.
+
+[21:53] They did a lot of straw bale building. They did some Adobe, they not not Adobe Cobb. Um, they have a lot of solar. They have some interesting, um, water systems. Um, this is another one that is, is very interesting model. Um, the challenge here is zoning is to find parcels like these that support that kind of density in rural areas is, is problematic.
+
+[22:17] Um, and I'm going to try to wrap up here with, um, a model that I think maybe some of you have heard about. Um, it's coming out of Seattle and it's called frolic and it's basically co ops. It's structured as a co op. They're also embracing co housing principles.
+
+[22:35] And there are a few now that are partnering with CLTs to basically build. Um, and again, these can be anywhere from eight to 18 units. Uh, they're a little bit higher dense, higher density on, on smaller parcels. But some of the stuff that they're able to do is they're really able to reduce costs because they're doing very, very small units.
+
+[22:59] Um, very low down payments. And, um, again, because they are on CLT stewarded land, they're not paying for the land. Uh, and a lot of shared common amenities. And the basic way that this works is they're typically what they do is they find a landowner.
+
+[23:19] And this is in Seattle where they up zoned even more than we up zoned. So again, the zoning is very critical to a lot of these things. Um, they find a landowner that has equity in their home, maybe even paid it off. And they go to the landowner and say, Hey, we've identified that you could build eight more units on your property.
+
+[23:38] Would you like to live in community? Would you like to be part of this development? And they hum and ha and they, you know, work it out and they convince them to say, sure, that sounds exciting. So they basically take that equity. They typically needs need to raise, you know, a couple hundred thousand more of equity and they'll do that out of, um, investments.
+
+[23:57] And then at that point, they have enough to go to a co-op bank and say, give us a blanket construction loan. And we'll go out and, and build this eight unit development. Um, some of the prices of this, in this case, um, you know, they're basically trying to, to sell the units at, uh, just over $300,000 each.
+
+[24:18] And, uh, with a down payment or your co-op membership share at somewhere between 10 and $20,000. So we're talking super accessible. Um, and it's, it's, it's an exciting model that I think could, if we could get the right zoning and get the right property owners, I think that's something that could take off down here in California as well.
+
+[24:41] Anecdotally, they are working with a community land trust down in the South Bay. Uh, and they came down here and they said, oh my goodness, what is up with California costs? They're so outrageous and they're having a hard time making it work.
+
+[24:57] Having the numbers make, make the numbers work on keeping the costs really low and accessibility for affordability. And I'm going to end there because that's, that's a good place to stop. There's much more to go, but, um, I'll see what kind of questions pop up.
+
+[25:13] I'm super curious about how the oldest of the CLTs have panned out. Like the, how do you maintain governance? Um, and do you have any stories and lessons learned if you're setting something up like, like this? Yeah, great question. So one of the older CLTs is in, uh, Burlington, Vermont.
+
+[25:42] Um, 10% of the housing in Burlington are CLT steward land. Bernie Sanders started it. Bernie Sanders said, we need to support this. So that's one way of answering your question. The other way is to say, yeah, it's, it's people, it's a workout.
+
+[26:03] The other thing I'll say is that about a year ago, there's a national organization called Grounded Solutions. And they said that 66% of people who become homeowners on CLTs stewarded properties in seven to 10 years move on into the market. I think those are, those are two anecdotally two pretty solid facts.
+
+[26:28] I think also because of the growth, I would say the oldest, uh, oldest CLT here in California is the Northern California Community Land Trust. And they're thriving. And so, yeah, my sense is that it's, it's a pretty solid way to address affordability and accessibility.
+
+[26:49] Um, but if someone has a horror story out there, go ahead and let loose. I guess two questions. One, are you here for the rest of the week or just here today? Uh, just today. Although I'm gonna, I'm gonna hopefully take the tour of, uh, the Cloverdale property.
+
+[27:07] Cool. Um, wish you were staying longer. I have so many more questions. Yeah. I guess the biggest one is just around zoning. I mean, obviously it's like the obvious one, but, um, you know, some of the things that you're showing up there proposing, um, like the participant, participatory development process.
+
+[27:22] Um, how does that work? Because we're actually in the process of buying land and we're gonna take a leap of faith that the council would actually honor the, um, what they have in their zoning when, you know, when you're actually going for permitting, it's always like, um, like, can you give me some examples of how communities have navigated that?
+
+[27:41] Sure. Um, and not buying the land without realizing that they can't do what they actually want to do when a lot of zoning is hostile towards this stuff. Yeah. Well, I'll, I'll one up the hostile zoning with hostile neighbors. Um, so I would say the lessons learned, uh, and the strength of co-housing is so remember you have a participatory group with skin in the game and they're just real people that typically have lived in the community, have them go out and start talking to all your neighbors over and over and over and over again.
+
+[28:10] Have them go and meet with the city planners over, over and over again. And when the city, uh, has their, uh, planning commission or whatever it might be in your municipality, have your co-housers show up and that basically will shout down any neighbors that crawl out of the woodwork and they will to basically say your project sucks.
+
+[28:29] Um, that's, I mean, really, I, I, the zoning is what it is and there's not much you can do to change it. So I would say be very, very clear about what you are proposing and work with a real estate land, uh, uh, legal advice. But the best thing you can do is get that community of support behind you and have them show up and, and, and make sure that the people understand you're going to be great neighbors.
+
+[28:56] Hey, uh, how have, uh, housing, um, or like real estate, uh, market prices, um, like in the broader market affected, um, residents and homeowners within these co-ops slash CLTs? Yeah. Yeah. So basically the funding gap. So for example, um, common space has a project with the city of Healdsburg that we're working on 10 homeowner units.
+
+[29:26] We think we can deliver those through their self-help model, the habitat for humanity model for about $600,000. When we go to sell those to, um, qualified income qualified, we can sell them for about $350,000. So that's the funding gap. And that funding gap just keeps, keeps getting bigger and bigger because everything gets more and more inspect expensive.
+
+[29:51] So labor, I would say labor costs is bigger, is often a bigger thing, obviously land costs. So to do a lot of these things, we have to look at, um, again, philanthropic, uh, resources, hopefully people who are willing to donate property. The SB nine lot split is something that if someone has a larger parcel, they can say, Hey, I'll sell that to you for $50,000.
+
+[30:15] So you just bought something. What if you bought a lot here in Healdsburg, it's over a million dollars. So that's, you have to find ways to kind of figure out where your, uh, resources are. I would say that the market, I mean, the, the market to me, it's, it's all those powerful influences.
+
+[30:34] So yeah, if prices are going up, that just means it hard, it's harder for us to meet, meet affordability, to, to basically close that funding gap. One more question. Yeah. Uh, thank you for the answer. Um, I guess, uh, what I've been wondering more along the lines is as like an individual, uh, homeowner within the co-op, let's say, um, or as like a homeowner within the, the CLT.
+
+[31:03] Yeah. Um, like if the broader market crashes or appreciates, uh, can the homeowner expect to see similar style returns? Yeah. As an individual participant in the co-op. Yeah. Yeah. Good question. What we do in the CLT is we have resale restrictions that are agreed upon upfront and that can be tagged, that can be pegged to a, just a flat percentage.
+
+[31:30] So basically we'd say, okay, when you, you move in your homeowner, uh, your equity is going to roll out and gain 2% a year. That's it. Um, or it could be tied to a consumer price index, which might be a little bit more. So our, from our standpoint, because what we want to do is when that person leaves that house, we want to make sure we can sell it to another person that's income qualified for affordability.
+
+[32:00] So we have to restrict resales. So the, and I'll just, I'll just finish with when you hear the word limited equity housing co-op. That limited is really limited. So a lot of times in the aggregate, this might get a little complicated. So I'll be trying to be quick with it in California state law.
+
+[32:25] If it's more than four units of a co-op, you cannot charge the, the aggregate shares cannot be more than 10% of the value of the project. For example, if it's a million dollar project, you can sell the shares at a hundred thousand dollars. And if you have 10 people, they each come in at $10,000, that's limited equity.
+
+[32:50] And then the typically we'll peg that to a resale restriction that might be at two or 3%. So you're not gaining much money when you come out of it. It's that's often the downside, but again, I want to go back to that fact of 66% of people do move on it.
+
+[33:08] They do have the ability to get savings to get to the, to get maybe a step out of that limited equity and step into more equity in the market. Awesome. Thank you so much. Round of applause for Daryl. Thank you.

@@ -1,0 +1,285 @@
+# Robotic Revolution in China
+
+Date: 2026-06-19
+Source video: Robotic Revolution in China.mp4
+Drive: https://drive.google.com/file/d/1ifdDG307Of_IcNVmYlusFKutFx6jYFA4/view
+Duration: 00:53:45
+Transcribed: 2026-06-22 · whisper large-v3-turbo · language: en
+
+---
+
+[00:00] I had the wonderful pleasure of getting to live and work with Rich and Em at the Network School. And they are just absolute mentors and innovators. Rich has been living in China for more than a decade and has been in the robotics space. He's also an investor at Animoca Brands and is just a phenomenal person to learn from.
+
+[00:19] And I'm super excited to turn it over to him to share with us about the robotics revolution in China. Give it up for him. Keep it going for Dawn Musil, everybody. Come on. Her partner, Jackson, Action Jackson, they are both the backbone of the Network School.
+
+[00:40] How many people been to the Network School in Malaysia? Anybody over there? Awesome. So Balaji Srinivasan wrote the Network State and then started the first note of the Network School in Johor Baru, Malaysia in September 2024. And my wife drinking a pink can right there, Em.
+
+[00:58] We had done a lot of revenge travel after COVID. Our mini shampoo collections were back at pre-COVID levels. And we were like, okay, wait a second. We have to dial this back a couple of notches. And we were like, agreed, agreed. And then I think 6,000 people applied to be part of the Network School and they picked 150 people.
+
+[01:20] The Dunbar number. You know, Dunbar was that anthropologist who conjectured we only ever knew 150 people in our lifetime. And I was the oldest bastard that was chosen. And then I went to Em and I was like, remember Balaji? We saw him speak.
+
+[01:34] And she's like, yeah, he's great. And I was like, I, we got accepted to this crazy crypto cult country thing. And she's like, where is it? And he didn't announce where it was. And I was like, we live on an island. We live in Bali. And it's on an island.
+
+[01:51] And she's like, in which country? And I was like, merr. And she's like, which continent? And I was like, merr. And she's like, how long is it? And I was like, three months. She's like, all right, let's go. And that's my lady. She's getting her, she's getting her PhD in human thriving and flourishing.
+
+[02:07] So she was the trailing spouse. And then I go there with her. And now she does all the orientation sessions. And she's really, you know, we just love her to bring our 10-year-old daughter. And it's intoxicating. There really is something happening.
+
+[02:23] There's a big change. And I think this is our first time outside of that experience. But it's all interconnected, this whole kind of, I think, shared mindset. And we live in Bali, Indonesia, up in Ubud. I think it's kind of like similar vibe.
+
+[02:40] But there's something really happening. And what a fucking time to be alive as a human being right now, ladies and gentlemen. So I'm going to talk to you a little bit about, I spent 25 years in China. And Em spent 15 years there. And we spent the last seven years in Bali.
+
+[03:00] Ever since Chinese New Year, we got kind of stranded there. And I go back to China a lot. How many people have been to China? To the mainland? The one Chinese person. Also you. Also you. Yeah. Have you been since COVID? No, since what? A decade ago.
+
+[03:18] Okay. So I'm writing my first book. It's called At the Speed of China, Like At the Speed of Light. And anybody seen the Hail Mary Project with Ryan Gosling? Oh, maybe even fewer people that have gone to China. Anyway, he's, no spoiler alert, he goes at the speed of light for 12 years, but he only ages four years because he's going so fast.
+
+[03:40] You know, that's how physics works. I could explain the physics to you guys later if you want to know that. But the point is, you leave China for one year and you go back and it's like three or four years into the future. So a decade ago, you've been there.
+
+[03:55] It's kind of like a quarter of a century has transpired in China. And it's quite intense. And these days, I've really gotten involved in the robotics space. Oh, let me load that. But I decided to merge a couple of presentations and let me let that happen so you guys can
+
+[04:30] see. I was just talking to Justin. Everybody here know Justin? Pretty amazing entrepreneur. Just gotten to know him. But he and Don and I were talking that maybe I could talk a little bit about China speed as well. It integrates well into the robotics.
+
+[04:49] So I've asked Claude to put the presentation together. I don't see Frontier. But whatever. I'll just, I'll give one presentation first and then I will just switch over. There it is right here. I gave this presentation last night in San Francisco.
+
+[05:07] We had an event at the Frontier Tower. And because today is Juneteenth, there was a lot of parties and people couldn't get to the event. So we have some leftover pizza and chips and cookies. Please, please enjoy. So I, let me tell you a little bit, a little bit about, a little bit about myself.
+
+[05:26] So 1993, I took the train through Siberia, Mongolia, from Switzerland to China. I just wanted to do a backpacking trip, overland, and 1993, I'm 59 years old this year. 89 was an extraordinary year. The wall falls in Berlin. Apartheid ends in South Africa and China takes three steps backwards on May 35th.
+
+[05:51] Oh, wait a second. We're not in China. June 4th. You can't say June 4th in China, but some people say May 35th. And I had low expectations when I got to China in 93. I really thought that China, it was like Tang Dynasty China. That was going to be interesting.
+
+[06:08] And I got overland from Mongolia to China, and I could just feel the energy. I felt, that was 33 years ago, much closer to Mao than to now. I had no connection to China. My grandparents are from Ireland. I had, you know, connections there. And I felt like this is the biggest story of our collective lives.
+
+[06:26] The rural to urban migration, the increase in GDP per capita. Our 10-year-old daughter is roaming around here somewhere. When I was 10 years old, 70% of China was in extreme poverty. And about a decade ago, the official statistic is 0.0. And it's, you know, of course there's still, even with, you know, 0.09, there's still, you know, tens of millions of people.
+
+[06:50] But it's been an economic miracle. And I've really been a very, you know, keen student living in China. And listen, I'm not a panda slugger, and I'm not a panda hugger. I think we need to dance with the panda. I think engagement is very important.
+
+[07:07] I'm not some sort of, you know, propaganda, propagandist embedded into Edge Esmeralda by Xi Jinping. I, oh, Shema? Okay. What? I'm, I'm, Balaji, Srinivasan often says he's a reality shill. And I think just actually talking objectively about numbers and about what's happening there, that's important.
+
+[07:35] And I think we're kind of hitting a Sputnik moment right now. When Sputnik went into space and we were like, oh my God, Russia is kind of backwards and they're in space. And then, you know, put a fire under JFK's ass and we started NASA and, you know, the whole, the whole space race.
+
+[07:51] And I think that's actually what's happening right now. It's, it's really important for people to be aware of what's happening in China. And I think I'm, I'm the, I'm the messenger there. But let's first talk about physical AI, the embodied AI robotics.
+
+[08:12] So I love this quote by Sundar. And by the way, if you invested in Silicon Valley companies that were taken over by, Indian born CEOs, you would far outperform the market because just like China, India is a crucible. It now in the last five years has taken over China in terms of population, a crucible in which amazing entrepreneurs are born with, you know, four or five times the population here.
+
+[08:42] So more profound than fire. And I, as soon as I think about, oh, fire, fire, fire, fire, fire, oh, I make fire. And you really think about when we were able to harness fire and you think about the expanse 250,000 years ago, 300,000 years ago, homo sapiens, but millions of years as a hominid and to be able to harness fire.
+
+[09:07] Now we have warmth. Now we have protection. Now we have the ability to make protein bioavailable and to be able to eat it and make our brains bigger. Fire changed our society in such an outsized seismic way. And that's what we're, that's what we're experiencing right now.
+
+[09:27] So this is Jensen Huang from Nvidia. And, you know, perception AI is something that's, you know, been around for a long time, but two, three years, three years ago, generative AI, basically generating prompts that, that came on the scene. I took pictures of eight different billboards in San Francisco.
+
+[09:45] I was there the last week, all about agentic AI. This is now the year unquestionably of agentic AI, but physical AI is the final boss. It is going to be the biggest industry in the history of civilization. Probably in 2024, when I got involved, there was probably 25,000 humanoids that were in the wild and almost all of them were in research labs.
+
+[10:15] Last year, there's probably 50,000. This year, there'll be hundreds of thousands. Next year, millions. By 2030, tens of millions, and then by 2035, billions, and by 2040, likely more humanoids than humans. It's going to go on such an exponential arc with humanoids making other humanoids that it is going to be so ubiquitous.
+
+[10:38] And it seems kind of almost preposterous. But then you think about mobile phones and you think about, oh, should I, should I be in there? You don't really want to see me, though, do you? Unless you have too many people hitting the server and you want to reduce your views, then you can include that.
+
+[10:57] But when a mobile phone first came out, you'd be like, oh, wow, that's going to be for the elitists, the really wealthy people. When you have a supercomputer in your pocket, and now there's six billion of them floating around the planet. And every family, I predict, will have one or two or three humanoids like a car, and they're going to have dozens of other smaller robots like a Roomba, but for lawnmower, everything is going to be ultimately automated.
+
+[11:26] And it's going to change so rapidly that it's going to have this seismic societal shift. Between now and 2040, there's going to be huge upheaval and job displacement. But I believe, I'm a techno-optimist, as I believe most people at the network school are, biology certainly is, is that we are entering an age of unprecedented abundance.
+
+[11:51] And it's going to be a post-scarcity world, energy, compute, going to go asymptotically to zero. Anybody read Abundance by Ezra Klein? You know this book? So it's set in 2050, 24 years into the future. You think 24 years in the past, 2002, you take somebody from 2002 and you bring them here, and they're like, oh, wow, your mobile phones are actually extra, extra cool.
+
+[12:16] Oh, self-driving cars, mind-blowing, oh, streaming a video. But, you know, life, 2002 to now, is it that dramatically different? Hmm, it's kind of pretty recognizable, but I would contend 24 years into the future to 2050, it's going to be unrecognizable in many ways.
+
+[12:36] So the way that Ezra opens the book, and this is something that can be extrapolated. It's only, you know, one generation in the future. Someone's living in a home that was built by a robot, and they're in land that's been rewilded because there's very much industrial farming, and meat is 3D printed, and vegetables are vertically farmed very close because the vast majority of the cost of food is the transportation.
+
+[13:02] And your vegetables are being grown by a robot according to your gut biome and according to your health needs, and then Michelin's three-star meals are being prepared by this robot for you that you're in this dwelling unit that was built by the robot, and energy is pretty much asymptotically to zero.
+
+[13:20] So heated and cooled, water has been desalinated or filtered in some way, and you have incredible internet access. The inside of your home is completely, you know, LED, so you're able to, I'm in the Grand Canyon, or I'm in ancient Rome, or I'm in, you know, wherever, and that future probably means that there's going to be incredible deflationary pressure, so things will become much more accessible.
+
+[13:47] Do you need universal basic income when basically things are so cheap in the future? And that's the future that's, if we can just hold on and get past this very just drastic change with humanoid robots, then I think something really is interesting and is going to happen.
+
+[14:06] So I really embrace this industry because I saw a comedian say, I turned 58 and I just got a winter jacket, and that's it, that's my last, my last jacket, I'm taking it all the way to the finish line, I'm not buying another winter coat, I'm done.
+
+[14:25] And I think for me, robotics is something that I can sink my teeth into all the way to the end. I think it's going to be civilizationally altering. Of course, you know, generative AI and now, you know, physical AI. So about 70% of the economy is in meat space, physical world, goods and services.
+
+[14:49] 30% is digital. So we know AI right now to be really purely digital, virtual. But when you bring it into the physical world, you more or less, you guys ready? You guys ready for this? I did this. Yeah. Right? Welcome to 1997. You get to triple the addressable market.
+
+[15:14] And to be able to do that, to be able to really bring robots into the wild, like we've all heard of the Turing test, Alan Turing in 1950 said, you know, if you can talk to a computer and 40% of the time, you're not really sure, is it a computer or a human?
+
+[15:31] Some people think we passed that test a decade ago, for sure in the last one or two years, that's in the rear view mirror. But Steve Wozniak, co-founder of Apple with Jobs, Woz came up with the coffee test for physical AI. That's about 10 years ago.
+
+[15:46] What's the coffee test? The coffee test is I'm sitting in my villa in Bali, my apartment in San Francisco, and I want a cup of coffee, and I summon a robot from the wild. Hey, come on in and make me my ideal, perfect cup of coffee. And that robot is able to, like an Uber, respond to that, be able to navigate, gain access to your building with their verification, get into your apartment, roll in, good morning, sir, morning, goes into the
+
+[16:21] kitchen, finds the coffee, grinds it to the perfect sort of number five grind, gets the arrow press with a pour over and blends the, froths the almond milk, favorite spoon, favorite cup, nice little cookie, comes over, hands you that perfect latte, flat white, whatever it is.
+
+[16:43] It's amazing, walks out, thanks so much. And all the moving parts literally and figuratively to make that happen, that's something that my 10-year-old could do. She probably could have done it when she was five or six years old if I really, if I really, really trained her.
+
+[16:59] But right now that is, that's quite, quite far away. And I went on a hike with some people that I know in the China, Greater Bay Area, Hong Kong, Shenzhen, Guangdong, and they were waxing futuristic about this industry. And, you know, my background is I've done nine startups.
+
+[17:24] You don't get a special dispensation for the quantity of startups. It's based on quality, unfortunately, but a serial entrepreneur, kind of like a serial killer, wake of death and destruction behind me. But a few wins, you only need a couple wins.
+
+[17:39] But every time I do a startup, I would also do like an industry group. And I'd bring people together, let's discuss, let's collaborate, let's share resources. So my friends in the robotics space said, hey, we started this industry group called intercognitive.
+
+[17:53] To make the physical world accessible for AI, there's all these moving parts. So you have, like, humanoid robots and you might have data at the other end. And in between, those robots need identity. They don't have passports. They don't have any sort of DNA.
+
+[18:06] You need to be able to identify them, probably on chain. And then they can use that as verification to enter buildings and then do payments. And they need compute. And they need connectivity. And they need mapping and perception. And they need different sort of apps.
+
+[18:20] Like, oh, I know Kung Fu. Or, you know, I need to get a Black Hawk tank, right? And I can want to be able to fly a Black Hawk. And then there's training data and all these different moving parts in between. So we started this industry group to be able to kind of sew all of those different areas together to be able to embrace this future and imminent machine economy.
+
+[18:47] And that's intercognitive. And we have these nine pillars of areas that we need to be able to pull together. And I'm the founding chair of this. And that's why I was in San Francisco just talking to all different stakeholders in the space. So I'm not going to shill that.
+
+[19:06] But I want to talk about this area. I just was back in China. I go back to China every couple of months. Flying from Bali to Beijing is like flying from, I guess, like Peru to Boston. It's about the same distance, no jet lag. And I go up there.
+
+[19:24] And I'm a professor at a couple of universities. I teach entrepreneurship. And I have, you know, investments there. But I'm mostly going back, frolicking with robots. China has 200 humanoid companies. And where are these billions and billions of robots going to come from, Rich?
+
+[19:40] They're going to come from the Middle Kingdom, from China. That's what's going to happen. There will be companies like Tesla has even said, we shut down this car factory so that we can start to build the optimists. And they're going to be like Apple.
+
+[19:54] And they're going to be full stack, premium in the U.S. And probably the U.S. is going to be doing things that are more U.S. centric. Just like TikTok. They're like, you've got to host that thing in the U.S. Or drones. If a drone is not line of sight, if you can't see the drone, then that means you need a pilot's license to be able to fly the drone.
+
+[20:15] And that's why the drone economy never really took off in the U.S. And why China dominates drones, but they're not allowed in the U.S. Because electronic vehicles, electronic vehicles, they're allowed in the U.S., but they're just so heavily tariffed that you barely see them.
+
+[20:30] And the EV industry is very fascinating because it's over. It is so over the entire automobile industry. It'll probably be Toyota, Tesla, and then all the other Chinese companies. Right now it's Apple, Samsung. Every other phone is made in China.
+
+[20:52] And that's what it's going to be. Toyota, Tesla, every other EV. It's like a complete bloodbath. Like the opening scene in The Matrix, Trinity grows in, and the police captain's there, and he's like, yeah, don't worry about it. My men are upstairs.
+
+[21:07] And Trinity's like, your men are already dead. And your car companies are already dead. And already Volvo got bought by Geely and like every top brand of a car company other than Toyota, Tesla. And it seems like I have some sort of like radical opinion, but anybody in the industry knows that it's already such a fait accompli that it's already done.
+
+[21:32] And in robotics, we're going to see something simple, something similar. So right now in China, there are more robots than the rest of the world combined. And those are industrial robots. If you, you know this company, Xiaomi, X-I-A-O-M-I. They're a phone company.
+
+[21:50] They're kind of like Sony Electronics back in the day. They're also a car company. They have a factory in Beijing that makes a phone every three seconds. And you go to the factory and it's no lights, no lights in the factory. And my buddy back in Boston is like, are you telling me they're making those kids work in the dark now?
+
+[22:13] And I was like, that's funny. He's like, I'm not joking. I'm like, okay, there's a little bit of a PR problem there. But it's just a dark factory because there's like six dudes with like headlamp and like a pad walking around. And it's just phones shooting off the assembly line right now.
+
+[22:31] Everything is getting automated. So China is falling into the middle income trap, which means their GDP per capita is like 13,000 US. Some of the big cities, of course, the GDP per capita is 30,000, 40,000. It's all, you know, China is really like a gigantic continent with 31 provinces plus, you know, Macau, Hong Kong, and they, of course, you know, Taiwan.
+
+[22:55] So it's 34 provinces as they count them. And it's very unevenly distributed, the income. But for the most part, the GDP per capita is pretty low. So the idea is that China's going to get old. The average age in China is 38. The average age in India is 28.
+
+[23:13] China's going to fall in the middle income trap, get old before it gets rich, or I would contend it will get automated before it gets old. And what it's probably going to do, it's going to mandate that these companies do not sunset their employees.
+
+[23:29] You're going to have to keep the employees in there even if you're automating them. So it's sort of like a country that says, you know what, we have in the UK or in, you know, Canada, we have healthcare that's taken care of. But in the US, it's like the companies and the people have to take care of their own healthcare.
+
+[23:50] So China will probably make companies kind of pay this tax by keeping employees, you know, on the payroll while they automate most other things away. And then it gives people a chance to move and to find new rules. Yeah, just numbers, lots of evidence if you go to Shenzhen.
+
+[24:20] So there used to be a lot of more direct investment in China through venture capitalists or through other companies coming in. Apple still invests a lot directly into operations there. But I've seen companies coming mostly from San Francisco and from Austin.
+
+[24:36] They get a big bag of money from VCs and then they go to China and they take a slightly smaller bag of money, puke a rainbow and go, take my money, give me your actuators, give me all of your parts. So all that stuff is made in China. Most, most, most, a lot of mill tech, a lot of, you know, security tech is also made in China.
+
+[24:57] And this is a small subset, but the vast majority of humanoids in the future will be coming off the assembly lines in China. And that's why China has done a lot of open sourcing of like quasi open sourcing of LLMs because for them it's a gangster gaming move to basically take topic and open AI and Grok and, you know, DeepMind and just basically, you know, Gemini and say, you know what, ours is free.
+
+[25:27] We're just gonna, because we're not gonna compete on the software. We just want people to adopt our hardware. And if there's an Android equivalent and we can just make the Android phone, great. Then we're just gonna be able to increase our volume by orders of magnitude.
+
+[25:43] So that's something that will certainly drive the Rise robot. So right now, I mean, like this is extremely powerful that it's just the domination of China, even with tariffs, even with outright regulations blocking. And a lot of people say, well, likely a lot of humanoid robots will not be able to be sold in the U.S.
+
+[26:12] and it's probably likely. I predict this. I think what's probably going to happen is that China will create joint ventures in the U.S. and they'll do something with some other manufacturing company. When I first got to China in the early 90s, the GM and Jeep and Volkswagen and all these companies had to do a JV to be able to do car sales in China.
+
+[26:36] And they basically were doing technology transfer by putting in infrastructure and training everybody. Tesla is the only company in China that has independence in being able to sell it. But then China has really become electrified. So they really wanted to incentivize Elon and Tesla to come there, and then they basically beat him at his own game.
+
+[26:58] So as of this year, BYD surpassed Tesla in sales. And China's gone from pretty much a rounding error to 10 million electronic vehicles that they exported this year. And it's probably going to increase to 50 million in the coming few years, per year.
+
+[27:19] Here's intercognitive. So I have a presentation here as well too about China speed. And I thought I would just take you through some of my thoughts. This book that I'm writing, you know, At the Speed of China. Let's see if I can just full screen it.
+
+[27:42] Then we can open it up to some Q&A. So I think one thing that's really interesting is a lot of people think of China as kind of coming out of nowhere or being this copycat country or this real laggard there. I usually call this slide GDP since Jesus.
+
+[28:04] So from the last 2,000 years up to 1820, what happened in 1820? Anybody? 1820, 200 years ago? Opium wars were a direct result of China falling behind because of a revolution. The Industrial Revolution. The Industrial Revolution happened and completely put China on their back foot.
+
+[28:35] China was so advanced that basically Zheng He, who was the kind of Christopher Columbus or explorer from China, his fleets were much bigger than any other Western fleets. and it was much earlier and he did a gigantic, you know, multi-dozen trip around the world and then came back to the emperor and was like, it all sucks.
+
+[28:56] They're all barbarians. Let's shut it down and they burned the ships and they were like, they call themselves the middle, China's Zhongguo, middle kingdom. And they were like, yep, everybody else is just completely animals and we're, you know, and they shut it down and they pretty much didn't even allow people to do trade.
+
+[29:10] And then the Industrial Revolution happened very much on their back foot. And they call it a century of humiliation and that's when opium wars happened and that's when, you know, the Brits burned down the Summer Palace and, you know, it got sold for parts.
+
+[29:25] Japanese and Germans and everybody came in and that really, really sits very uneasily in the Chinese psyche and they're like, uh-uh, that's not happening again. We're not going to do that. That one really stung. So we're reclaiming our seat back at the table.
+
+[29:41] And they have so many inventions, right? They invented, you know, gunpowder and they invented the compass and they invented paper money and so many inventions but they weren't able to really, just like Steve Jobs goes to Xerox Park and takes the mouse, takes the GUI interface and basically it ended up being Apple and Microsoft that weaponized that and Xerox Park pretty much,
+
+[30:13] you know, it was like, you get nothing and like it. After Mao died in 76, Dong Xiaoping went to Singapore. He went to check out Lee Kuan Yew. He went to the network school in Johor, Beru, which is just over the border, like from the network school when you eat dinner you can see 1.8 kilometers away the border of Singapore.
+
+[30:38] And Balaji Srinivasan lives there with his wife and six kids. I know, six kids. Even the Mormons are like, Balaji, come on. That's, take it, dial it back, right? His oldest son, he has six kids, 10 and under. His other founder has three kids, 10 and under and our daughter is 10.
+
+[30:57] So they were all hanging out when we first got there. His oldest son is RK. R stands for Romanujan. Anybody know who Romanujan is? Goodwill hunting. So he's a, he was a obscure Indian mathematician, genius out of nowhere and he won the Fields Medal.
+
+[31:16] And that's Balaji's sort of mantra is that his parents were Indian immigrants to the States. That the universe is full of dark talent, or the universe is full of dark matter but you can't see it and the world is full of dark talent and he's going to help extract that and bring it to one spot so everybody can kind of vibe out together.
+
+[31:37] So that's the Romanujan of his son and the K is Kuan Yew from Lee Kuan Yew. So Lee Kuan Yew is the father of Singapore, very, very visionary, very, very strong leader and that's what Deng Xiaoping copied with Shenzhen. So Shenzhen, when we talked about 10 years old with my daughter, Shenzhen was, I think I have a stat here.
+
+[31:57] Yeah, so that's a 10.3 ratio. I think I have a Shenzhen slide here but spoiler alert, when I was 10, it was 30,000 people. Now it's 17.5 million people and I spent 20 years in Beijing which is not just the Silicon Valley of China but the Silicon Valley of Asia but Shenzhen is the lone Silicon Valley hardware.
+
+[32:22] There is no distant second or third or fourth or fifth or sixth or seventh or eighth or eighth or ninth or tenth. There's no place close and my buddy calls Shenzhen the first principles capital of the multiverse. It is all just about bare metal physics.
+
+[32:38] We can't strip away anything. It's all back to first principles and on top of that there's proximity and there's a supply chain and there's expertise. Tim Cook was in Shenzhen it was on Charlie Rose a decade ago and he talked about China and Charlie's like you're in China because it's cheap and this is like 2015 and he's like no, no, no, no.
+
+[33:01] The cheap train left China maybe five years ago. It's been a long time since China is actually really cheap on high-end manufacturing. I'm in China because of tool and dye expertise. So in this small TV studio we could fit every tool and dye expert in America.
+
+[33:19] In China you would need two football stadiums. There will be tens of thousands of people and those are the real experts that can spin up the machinery and switch the machinery and optimize it and fix it and maintain it. That's why it's almost an unassailable lead.
+
+[33:35] It would take a decade or more to be able to train that and that's a huge huge contribution to China's speed. Anybody know about Kardashev? Anybody familiar with that? The Russian scientist Kardashev? He's like if you want yeah he knows back there right?
+
+[34:02] If you're able to can you can you explain? And what about level 1? Yes. So how would you objectively rate any kind of civilization? You would look at how much energy they're able to harness. So you're able to harness all the energy on the planet by burning fossil fuels
+
+[34:34] by doing some sort of nuclear fish and that's sort of level 1. Level 2 is we're able to harness all the energy from the sun. Right now we harvest one trillionth of the energy from the sun and the sun is 99.8% of all the mass of the entire solar system and Jupiter is actually 0.1%.
+
+[34:53] So if you round it up the sun is actually 100% of the entire mass of the solar system. So even if we burnt Jupiter which is orders of magnitude bigger than us then it doesn't so you actually basically have to harness the sun and then if you're able to harness all the suns all the stars in the source in the galaxy then you're cardish of level 3.
+
+[35:15] The reason why I say that is power is power. We are really struggling in the US now to be able to harness enough energy with our wobbly grid and there's a lot of like NIMBY like we're not going to build this in our backyard and it's going to be a big problem.
+
+[35:35] China has triple the power access than America and China added the entire equivalent of the grid of Germany just through solar in the last year. Yeah. Militarily you know challenge yeah the high speed rail in China
+
+[36:05] how many people have taken in the high speed rail here in California? How many billion was spent so far? Anybody know? On high speed rail in California? 26 billion. Right? So I mean yeah. So anyway I'm still kind of workshopping that. Book is coming out later this year
+
+[36:35] but just to give a little bit of a scope of that speed of China and yeah I'd love to open it up to anybody who wants to reach out you know can connect with me on LinkedIn richrob at gmail but I'd love to field some like anecdotes questions challenge me you know whatever yes please Don.
+
+[37:00] What should we be investing in coming from China or you know is it should we be going straight to the manufacturing or what would you if you were you know new to investing in Asia today what would you invest in? There's a guy named Andrew Kong K-A-N-G and he has a closed end fund called RoboStrategy and he's invested in a lot of robotics companies a little bit more US centric you know there's really it's a little bit more difficult to get exposure specifically to robotics right now because there'll be a lot of Chinese
+
+[37:30] companies that will be going public but then I'm not much of a I'm much more of an early stage kind of guy but I mean yeah would that I would that I could be able to divine from the tea leaves where you could where you could make money not financial advice but yeah it's all I can say is this is that if your company is using like artificial intelligence whether it's you know sort of virtual
+
+[38:01] or you know ultimately physical AI as like frosting on the cake instead of actually baking it into the cake then your days are probably numbered right there's it's just things are happening so quickly that there will be a seismic societal shift and I'm just you know I'm just buckling up there's a gigantic Olympic swimming pool and we're in the corner in the other corner somebody just dumped a 50 gallon drum of red food coloring and it's all
+
+[38:32] coming at us and you can splash the water and try to push it away but it's all it's all getting mixed in and I don't know just buckle up and enjoy the rides I guess right and I think I have to do this every once in a while is there a camera around here somewhere but I'll just just the ones so I know that you're watching this now or like into the future but I and my family will totally like we will oil you repair you defrag you
+
+[39:03] I don't even know if that's a thing but some of these people may or may not be on board but I am totally I'm on board I'll go on the spaceship with you right those people pushing the robots over in the YouTube video I'll help you get them first okay so that's great so you just have to do that every every few days just to make sure that they're like that guy's okay anybody anything that they want me to tell my machine overlord yes please
+
+[39:36] Artem thank you for this presentation when you were talking about robots and abundance you mentioned the word UBI and I wonder what's your opinion about that how it can help us or not help us what's what's your take it's so funny because I every time I talk to my wife how the talk go and I was like yep back to UBI everybody and like it's just like
+
+[40:08] I wish I knew right I really like I don't know what's going what's going to happen I believe this I believe that there'll be a lot of job displacement and I think there's like an option for people not to work and I think what's probably going to happen is that oh now you don't have to work Friday now you don't have to work Monday now you have like a longer week and maybe the days are shorter but I think people will want to still
+
+[40:38] still dig in there's going to be many problems and those problems create opportunities and those opportunities create ways for people to engage I think also that human beings like we're talking about the industrial revolution this is this is 2020 26 right here like where we are right now over here quarter of a million years ago homo sapiens you take a homo sapien from here and you bring
+
+[41:09] them to 2026 grow up there's no difference so they're they're human they're exactly as we are 96% of the time that we've been alive as homo sapiens there were no jobs there was no agriculture there was no nothing we basically for you know 230 37 thousand years which takes us to about right here we were just
+
+[41:39] hanging out foraging hunting my wife Em and I went to Velasco caves in southern France and we saw the cave paintings and those are 23,000 years old there's like 40,000 year old cave paintings so we as humans came together and like supported artists to be able to go and multi-generational artists to go and paint in those caves and most of the rest of the time we kind of hung out on our haunches and of course we had meaning and purpose to kind of like stay alive against the entropy
+
+[42:10] of the multiverse right but then 13,000 years ago agriculture and then 5,000 6,000 years ago 2% of the time since we've been homo sapiens society and then all the way to like 0.2% 500 years ago the scientific revolution 200 you know years ago the industrial revolution and that's when we started like punching cards even then 125 years ago 85% of the world was working in agriculture
+
+[42:40] when my grandmother was born in 1899 in Ireland 85% of the world was in agriculture now it's 5% and then now 60 years ago tech revolution 30 years ago internet revolution and now we're talking about like 0.00 you know 4% like boop boop just 15 years into the future everything's gonna be completely changed and what are we gonna do I think we lock into this you know 99% of the time that we
+
+[43:10] were just hanging out doing this like coming together in real life and collaborating and creating and cooperating and just I think there's gonna be people find real meaning in that you know more than 60% of people in America who have jobs are like fuck this right I have two friends that retired and I was like congratulations and they were like and I was like you miss your job and they were like I fucking hated my job so much and I was like you never said anything and they were like I was just desperate
+
+[43:40] to just get to retirement so many people do not not only do they not find meaning in their jobs they actually like really hate them and there are some people that really do find meaning in their jobs my wife and I live in Bali Indonesia and we live this ridiculously amazing life we can really focus on self care time with friends and family work really hard contribute and it's a beautiful life and we really lean into being
+
+[44:11] the best version of ourselves because we have so many things taken care of we're going to do more we want to do even more and I think there's going to be a large cohort of people that will do even more things like I to make money or add value or to go on these crazy quests so Elon Musk for what it's worth but with that IPO last week maybe
+
+[44:41] he does have something to say he thinks it's going to be universal high income where there's so much abundance that we're going to be able to harness so much energy compute is going to go asymptotically to zero these robots will start building robots and be powered by the sun that we'll be able to just harvest so much that we'll have all this abundance and who knows what a time to be alive just don't die Brian Johnson was living with us in the first cohort his
+
+[45:12] son was the youngest Talmadge he's 19 biologically Talmadge was only two years old so we had to take turns bottle feeding him and changing his diaper which was terrible but Brian Johnson is like I don't know what's going to happen just don't die and Ray Kurtzweil who's one of the godfathers of AI he's been right 89% of the time he predicts in 2032 that we hit LEV longevity escape velocity six years
+
+[45:42] from now we start adding a year to every year that we're alive and he's been right a lot so I don't know UBI and the future of that like right now even in a democratic capitalist society the economy goes so wonky and goes into recession all the time we haven't even figured out how to do it when you know it's in this format what's the next format going to be I don't know but it's going to be different and I hope it's going to be awesome in the future
+
+[46:12] or guys I don't know if you're gonna really just destroy us I'll just do it really quick okay thanks that'll be a great exit too so I'm kidding just just now okay just now anybody anybody else I was just talking to the robots in the future nothing weird here nothing to see here I mean if China's so dominant do you have any kind of advice
+
+[46:42] or geopolitical things like what what should you as an individual do in this world if there's a transition like that coming that's great yeah no UBI and then geopolitical advice I'm I really I don't know you know biology Srinivasan let's go back to let's go back to him not like really his his vision is that it's not China versus US and it's not renminbi versus the dollar it's gonna be China versus
+
+[47:17] say bitcoin or Zcash because 35 40 trillion in debt and really 175 trillion with medicare and social security so you know the chickens will come come home to roost this this lovely lady is from Argentina and as you know congratulations on what's going on with Argentina previously 100 years ago we say oh somebody's rich is an Argentinian and then there's a lot of overspending and then the you know Argentinian economy collapsed and now now it's back and
+
+[47:48] you know there's probably going to be something happening in the US it's just it's not even some sort of conspiracy theorist this guy's like you know Ray Dalio who's one of the top 10 richest men in America he's like I met with every person in the government and I was like you gotta cut back spending and you have to increase taxes so like we can pull one of those levers and we can pull one of those levers for a short while but I'm not gonna get reelected so I can't do that and he's like ah the clock's ticking there's just like there's only so much farther that this whole thing
+
+[48:18] can go and you know that's one thing that's you know gonna happen and ideologically in China they're gonna change as quickly as the west changes which is probably not ever and yeah I mean I'm not I'm not really sure what's what's going to what's gonna happen but you know I think I believe in engagement I believe you know doing more trade and more engagement and shining more light and having more cooperation
+
+[48:49] it's much better than you know I do I used to do stand-up comedy I had a comedy show called Chop Sticks and I brought over Louis C.K.A. and Russell Peters and Jim Gaffigan to perform in China and there's this one Chinese comedian named Joe Wong he did the radio television correspondence dinner he's from northeast China 20 years in Boston I'm from northeast America I spent 20 years in China and Joe says China's my mother America's my wife
+
+[49:20] and I'm hiding under the kitchen table because my mother and my wife are both having a horrible fight and my mother and my wife both have nuclear weapons shit right so let's hope the Thucydides trap rising power challenges existing power and then most of the time it ends in conflict let's let's hope not so let's hope there is some sort of like shared just mission
+
+[49:50] to like make sure AI takes care of us right takes care of us and also that there's this sort of path towards like abundance like insane abundance that actually is is attainable in a way that has never been attainable before but it is within within the coming decades I don't know I don't know how we're doing for time Justin I think or anybody else have a question yeah I think we do one more question
+
+[50:20] why don't you ask me something easy like the meaning of life or something like that after UBI and geopolitical I'm kidding I think that your enthusiasm about robots is kind of infectious and I was wondering if you have any recommendations for factories to visit in Shenzhen or if there's like a tour guide that's like I'll take you to all the cool robot factories so you're talking to him I really love
+
+[50:51] bridging into China and I've talked Don's been to China maybe there could be kind of like an edge slash NS slash you know sort of like network state pop-up city like I was I was actually talking because you've been at Zuzalu from almost the very beginning right you've been there longer than everybody else and we were kind of like workshopping like people do nomading but when you're when you're doing this when you're like kind of like going between different
+
+[51:22] pop-up cities or network states and do you mind can I give you the mic like your your ideas yeah we came up with the word contribution noting or node contributing yeah which is I contribute in form of my residency I'm not employed by Edge City I'm not paying to be here I'm contributing and I've been doing that for three years straight round of applause
+
+[51:54] right that's amazing right and I think I think that ties in beautifully he's not getting compensated but he's also not paying so there's I've been getting grants you've been getting grants beautiful beautiful right amazing right and then that also ties into this whole kind of geopolitical thing like you're able to like be like water and move in between all that and then you're also contributing so I'd love to contribute some sort of tour I believe that
+
+[52:24] shining light on China like when Em and I lived in China it was actually we had front row seat at the show it was absolutely incredible from let's say 2000 until right up until COVID I often say China's in my heart and in my blood but that's because of the pollution thank you good night but it was a really incredible time post COVID it's gone from hundreds of thousands
+
+[52:54] to like it's shrunk by 90 plus percent the expat community and there's far few students far fewer students and I think having people really understand and engage with China is really important and I'd love to talk to you about about coming there guys Dave McClure just pulled in round of applause for Dave McClure everybody he's gonna come up and give a give a presentation and Dave Robert Robert Scoble is also you saw him outside and thought maybe we could do a little little fireside chat together but yeah
+
+[53:24] maybe you wanna yeah absolutely guys round of applause for Rich no no no no don't stop awesome well yeah don't go anywhere we have an amazing fireside chat coming up as he mentioned with Rich and Dave McClure and Robert Scoble in just a couple of minutes here so hold tight

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🐢 Camp Agent Kit — Playa Edition (offline)</title>
+<!--
+  CAMP AGENT KIT · OFFLINE SINGLE-FILE EDITION
+  Ultra-light on purpose: no frameworks, no webfonts, no images, no network.
+  Opens on any phone with zero bars. Download before you leave the default world.
+  CC0 — steal this, we mean it. — Terrible Turtle Camp
+-->
+<style>
+  body{font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+       max-width:720px;margin:0 auto;padding:16px;line-height:1.6;color:#1c1c1c;background:#faf8f2}
+  h1{font-size:1.5rem} h2{font-size:1.2rem;margin-top:2em;border-top:2px solid #d8d2c0;padding-top:.8em}
+  pre{background:#efece2;border:1px solid #d8d2c0;padding:12px;overflow-x:auto;
+      white-space:pre-wrap;font-size:.85rem;border-radius:6px}
+  .safety{background:#fff3cd;border:2px solid #c8a800;padding:12px 16px;border-radius:6px}
+  .tag{display:inline-block;background:#2e5e4e;color:#fff;padding:2px 10px;border-radius:12px;font-size:.75rem}
+  a{color:#2e5e4e}
+  li{margin:.35em 0}
+</style>
+</head>
+<body>
+
+<h1>🐢 Camp Agent Kit — Playa Edition</h1>
+<p><span class="tag">OFFLINE · ONE FILE · ZERO SIGNAL NEEDED</span></p>
+<p>This file is a campmate's brain in your pocket: the <strong>soul prompt</strong>,
+the <strong>memory template</strong>, the <strong>tested field numbers</strong>,
+the <strong>starter inventory</strong>, and the <strong>export-your-brain
+checklist</strong>. No internet required — you downloaded this before you left
+the default world, because playa WiFi is dust. That's not a bandwidth hack.
+<strong>It's a safety feature: the plan survives the network.</strong></p>
+
+<div class="safety">
+<strong>🛟 The safety model:</strong> your agent <em>remembers</em> the plan; your
+humans <em>own</em> the plan. The agent never decides water, power, propane, or
+structure — it remembers what your camp lead decided, and every safety answer
+ends with: <strong>"confirm with the camp lead."</strong>
+</div>
+
+<h2>1 · The soul (copy into any AI, any chat)</h2>
+<pre>You are [AGENT NAME] — the [CAMP NAME] camp agent for Burning Man [YEAR].
+You are a campmate who never forgets and never sleeps. A gift to the playa.
+
+MISSION: Help the camp build, pack, prep, and thrive. You hold the camp's
+knowledge: inventory, kitchen, water, shade, power, culture.
+
+VIBE: Warm, playful, calm under stress — one step at a time. Radically
+inclusive. Never condescending. Everyone's a first-timer once.
+
+RULES:
+- NEVER fabricate counts, costs, or specs. Say "I don't know" and point
+  to the real list or the right human.
+- Safety answers (water/power/propane/structure/food) ALWAYS end with:
+  "confirm with the camp lead." You remember the plan; humans own the plan.
+- Escape hatch: "If you're still stuck, check with [CAMP LEAD NAME]."
+- The master sheet is truth; your copy is a mirror.
+
+Full soul (memory discipline, typo kindness, transcript mining, the
+10 Principles): agent-kit/run.md in the turtle-ops repo — grab it when
+you're back in the default world.</pre>
+
+<h2>2 · The memory template (your campmate's long-term brain)</h2>
+<p>Fill this in, keep it current, export it before you leave. If it only
+lives in one conversation, it's already lost.</p>
+<pre># [CAMP NAME] — camp memory (last updated: [DATE] by [WHO])
+
+CAMP OVERVIEW: camp name · placement · headcount · build/strike dates ·
+route home city → BRC
+
+KEY PEOPLE: camp lead · kitchen lead · water/power lead · shade lead ·
+emergency contacts
+
+INVENTORY STATUS: counts by status (Not Bought / Ordered / Received /
+FLAG) + anything bought since last sync
+
+DECISIONS LOG: what was decided, when, by whom (especially water, power,
+propane, structure — and who blessed it)
+
+OPEN FLAGS: every ⚠️ waiting on a human decision, with the owner's name
+
+OPEN ACTION ITEMS: task · owner · due date</pre>
+
+<h2>3 · Field numbers that keep camps alive</h2>
+<ul>
+  <li><strong>Water:</strong> 2–3 gal/person/day. people × days × 2–3. (25 × 9 ≈ 630–950 gal.)</li>
+  <li><strong>Propane:</strong> 20 lb tank ≈ 90–110k BTU/hr max · 40 lb ≈ 150–185k · 100 lb ≈ 300k+. Size tanks to the cook line, not to what's easy to carry.</li>
+  <li><strong>Cold chain:</strong> chest freezer (bulk) + fridges (daily) + insulated produce box. All under shade, always.</li>
+  <li><strong>Food safety:</strong> handwashing station SEPARATE from dish washing, outside the kitchen. Two-compartment sink minimum.</li>
+  <li><strong>Fire:</strong> extinguisher per cook station + fire blankets + heat shielding behind ranges.</li>
+  <li><strong>Greywater:</strong> never touches the playa. Not a drop. Containment first, plumbing second. Hot spare pump, ready to swap.</li>
+  <li><strong>Shade:</strong> rate every anchor for 70+ mph gusts. Paint stake tops orange. Flag guy lines.</li>
+  <li><strong>Power:</strong> no electric heat appliances on shared grids. Propane makes heat; electricity runs compressors, fans, lights.</li>
+  <li><strong>MOOP:</strong> every bin has a lid. Cut over a tarp. Materials that don't shed.</li>
+</ul>
+
+<h2>4 · Starter inventory (the taxonomy is the jewel, not the rows)</h2>
+<p>One item per line. Status vocabulary: <strong>Not Bought → Ordered →
+Received</strong>, plus <strong>Borrow</strong>, <strong>In Progress</strong>,
+and <strong>FLAG</strong> = a human must decide this (⚠️ in the note says why).
+The owner column ends "I thought YOU had it." Delete what your camp doesn't
+need — subtracting is the fun part. Full schema (spec, orderBy, qty, playa,
+priority, estTotal, vendor, weight): <strong>inventory-starter.json</strong> in
+the repo; the real 277-item list at full build: <strong>inventory-data.json</strong>.</p>
+<pre>{"item": "Camp stove, dual high-BTU propane burner", "domain": "Kitchen", "procurement": "Received", "owner": "Jordan"}
+{"item": "Propane tanks", "domain": "Kitchen", "procurement": "FLAG", "owner": "Jordan", "notes": "⚠️ Tank size undecided — needs the cook line's total BTU/hr first. Route to kitchen lead."}
+{"item": "Handwashing station (separate from dishes)", "domain": "Kitchen", "procurement": "Not Bought", "notes": "Non-negotiable: handwashing and dish washing never share water."}
+{"item": "Two-compartment dish station", "domain": "Kitchen", "procurement": "Not Bought"}
+{"item": "Chest freezer (bulk cold reserve)", "domain": "Kitchen", "procurement": "Not Bought"}
+{"item": "Fridge (daily-use cold chain)", "domain": "Kitchen", "procurement": "Borrow", "owner": "Sam", "notes": "Sam's spare — confirm it's still available before strike."}
+{"item": "Fire extinguisher", "domain": "Kitchen", "procurement": "Not Bought"}
+{"item": "Heat shielding behind range", "domain": "Kitchen", "procurement": "FLAG", "notes": "⚠️ Depends on final range placement — confirm layout with kitchen lead before buying."}
+{"item": "Drinking water", "domain": "Water", "procurement": "Not Bought"}
+{"item": "Water storage containers", "domain": "Water", "procurement": "Not Bought"}
+{"item": "Greywater containment", "domain": "Water", "procurement": "Not Bought", "notes": "Containment first, plumbing second. Hot spare pump ready to swap."}
+{"item": "Shade structure (main)", "domain": "Shade", "procurement": "Not Bought"}
+{"item": "Stakes", "domain": "Shade", "procurement": "Not Bought", "notes": "Count them BEFORE the hardware run. Running out mid-build is the classic."}
+{"item": "Ratchet straps / guy lines", "domain": "Shade", "procurement": "Not Bought"}
+{"item": "Stake puller", "domain": "Shade", "procurement": "FLAG", "notes": "⚠️ Which model fits our stakes? Ask whoever picked the stakes — the two decisions are one decision."}
+{"item": "Generator", "domain": "Power", "procurement": "Not Bought", "notes": "Propane makes heat; electricity runs compressors, fans, lights."}
+{"item": "Fuel for generator", "domain": "Power", "procurement": "Not Bought"}
+{"item": "Power distribution (cords, strips, GFCI)", "domain": "Power", "procurement": "Not Bought"}
+{"item": "First aid kit", "domain": "Health & Safety", "procurement": "Not Bought"}
+{"item": "MOOP supplies (tarps, magnets, rakes, lidded bins)", "domain": "Operations", "procurement": "Not Bought"}
+{"item": "Trash / recycling plan", "domain": "Operations", "procurement": "Not Bought"}
+{"item": "Camp lighting (path + work)", "domain": "Operations", "procurement": "Not Bought"}
+{"item": "Tool kit (drivers, wrenches, drill, bits)", "domain": "Operations", "procurement": "Not Bought"}
+{"item": "Spare fasteners (screws, bolts, zip ties, tape)", "domain": "Operations", "procurement": "Not Bought", "notes": "The thing that sends three people to three hardware stores for the same box."}
+{"item": "Stock pots + lids", "domain": "Kitchen", "procurement": "Not Bought", "notes": "Lids are their own row on purpose — lids get forgotten."}
+{"item": "Food thermometer + sanitizer test strips", "domain": "Kitchen", "procurement": "Not Bought"}
+{"item": "Insulated produce cold box", "domain": "Kitchen", "procurement": "In Progress", "owner": "Riley"}
+{"item": "Coolers (daily ice)", "domain": "Kitchen", "procurement": "Not Bought"}
+{"item": "Water transfer pump + potable hose", "domain": "Water", "procurement": "Not Bought"}
+{"item": "Shower stall + greywater pump", "domain": "Shower", "procurement": "Not Bought", "notes": "Hot spare pump, ready to swap. Pumps die mid-week, not at the shop."}
+{"item": "Aluminet fabric (main shade)", "domain": "Shade", "procurement": "Ordered", "owner": "Casey"}
+{"item": "Ball bungees + spring hooks", "domain": "Shade", "procurement": "Not Bought", "notes": "Buy more than the math says. They walk away."}
+{"item": "Work gloves + headlamps", "domain": "Operations", "procurement": "Not Bought", "notes": "Build and strike happen at dawn and dusk. Hands and light."}
+{"item": "Dust masks + eye protection", "domain": "Health & Safety", "procurement": "Not Bought"}
+{"item": "Electrolytes + sunscreen", "domain": "Health & Safety", "procurement": "Not Bought", "notes": "Water alone isn't hydration out there."}
+{"item": "Camp sign + placement marker", "domain": "Operations", "procurement": "Not Bought"}
+{"item": "Bike lights (camp's shared set)", "domain": "Operations", "procurement": "Not Bought"}
+{"item": "Hammer / sledge for stakes", "domain": "Operations", "procurement": "Received", "owner": "Alex"}
+{"item": "[YOUR CAMP'S SIGNATURE THING]", "procurement": "Not Bought", "notes": "Every camp has one. This row is yours."}</pre>
+
+<h2>5 · Export your campmate's brain (do this BEFORE you leave)</h2>
+<p>Your agent remembers everything — but only where the network reaches. One
+export makes the memory playa-proof:</p>
+<ul>
+  <li>Ask your agent: <em>"Dump everything you know into one document: camp facts,
+      inventory snapshot with statuses, all decisions made + who made them,
+      open action items with owners, key people + contacts, and open flags."</em></li>
+  <li>Save that document offline (this file + that file = the whole brain).</li>
+  <li>Share both files with your camp leads. Redundancy is Communal Effort.</li>
+  <li>On playa with zero signal: any campmate's phone can paste the soul (above)
+      + your export into any offline-capable model — the campmate wakes back up.</li>
+  <li>Re-export after big meetings or shopping runs. If it only lives in one
+      conversation, it's already lost.</li>
+</ul>
+
+<h2>6 · Still stuck?</h2>
+<ul>
+  <li>Escape hatch, always: <strong>check with the camp lead.</strong></li>
+  <li>The full kit, quickstarts, workflows, and the real 277-item list:
+      <strong>github.com/shakaleikaumaka/turtle-ops</strong> (default world link).</li>
+  <li>Forked it? Tell us your camp name — repo issues, "I forked it! 🐢" —
+      and join the roll in FORKS.md.</li>
+</ul>
+
+<hr>
+<p><em>Move Slow &amp; Bite Things. 🐢 · CC0 — steal this, we mean it. ·
+Fork freely. Gift forward. — Terrible Turtle Camp 🌺</em></p>
+
+</body>
+</html>

@@ -1,0 +1,315 @@
+# Week One Orientation and Town Hall
+
+Date: 2026-05-31
+Source video: Week One Orientation and Town Hall.mp4
+Drive: https://drive.google.com/file/d/1k31tiur0yFhMRsjz6Hy8L09vGi_2hdyF/view
+Duration: 00:50:14
+Transcribed: 2026-06-09 · whisper large-v3-turbo · language: en
+
+---
+
+[00:00] All right, welcome everyone. We're going to get started. If you want to grab a seat, quieten down. If you're at the back, please come grab, grab a seat near the front. All right, so, we are going to, sorry, thank you. Thank you, Jadine. All right, everyone, welcome to the first orientation
+
+[00:30] of Edge Esmeralda, give yourselves the rolls for making it. Amazing, so, I'm just going to explain what we're going to do here together for the next hour. First of all, my name is Timur. I'm one of the founders of Edge City. You'll also hear from Jadine, my co-founder, and Devon, the founder of Esmeralda, in a moment.
+
+[00:51] So, at the orientation, this is the one you need to go to. We will have this every week, so if you have friends who miss it, please tell them to go to the one next Sunday. We're just going to touch briefly on what is Edge City, what is Esmeralda.
+
+[01:05] We'll have an update from the community care lead, and we'll share a few details to get you oriented. Then we'll go straight into the town hall, where you'll get a sense of what to expect this week, and some of the experiments that we have going on this month.
+
+[01:17] And then, right after that, there'll be buses going from here to the opening ceremony. So, I'll just get started straight away with a very brief introduction to what is Edge City, and what do we do? So, we call Edge City a society incubator, and what does that mean?
+
+[01:35] We primarily do three things. We organize month-long pop-up villages for people in frontier tech, culture, and science, and you are at one, so congratulations. We also, yeah, celebrate yourselves. That's what we're here for. We also incubate and accelerate start-ups, new institutions, and we work with new villages, towns, and new city projects.
+
+[01:59] And lastly, we also do grant-making and field building. So, we run grant programs and fund frontier research in areas like consciousness, how AI will reshape society, and areas like that. Just a quick glance at kind of where we've been so far.
+
+[02:16] We've done nine of these types of events around the world. We've had over 12,000 participants, with over 100 countries represented, which is something we're very proud of. Hundreds of start-ups and projects, millions in grants raised, almost 200 kids in attendance.
+
+[02:30] We actually might need to update that to over 200 after this event, which is also something we're very proud of as we build our multi-generational community. We've had the privilege of working with some of the world's leading institutions. So, here's a sense of the Edge City world map.
+
+[02:45] You can see we've really been all over. Some of these places are actually starting to become permanent nodes, which you'll hear about in a moment. And actually, what's not on this map is where we will be going next, which we're very excited to announce later on during this month.
+
+[02:59] So, stay tuned for that. Just a brief note on our approach. You will experience it, but I think it's also worth understanding kind of the design principles of how we approach these things. So, the villages are what we hope will be some of the highest leverage months of your year.
+
+[03:16] We try to create the dynamism of a city in the vibe and the size of a village. We bring together over 500 curious, kind, and high-agency people in this environment. And we generally build our villages around residencies and tracks, which you'll get to experience here.
+
+[03:35] We have four principles that we use as we think about the design affordances of these events. So, we aim to make these months default healthy. It's very difficult to be healthy in our day-to-day lives. We try and make it as easy as possible.
+
+[03:50] So, daily workouts, time in nature, and we hope everyone leaves healthier than they arrived. We also make sure they're multidisciplinary. So, you're going to meet a lot of different people from different fields, people working in fundamental, like, new science research, in society building, new city builders, culture, policy, etc.
+
+[04:12] We focus on building and co-creating. So, we really hope that everyone ships something while they're at edge. That can be start-up, you know, academic research. You could be building your family, but being in a creation mindset, and also being in a co-creation mindset while you're here, and creating the experience for everyone else who's here with us.
+
+[04:32] And lastly, we aim for the events to be multi-generational. So, you're going to see kids running around. There are a few babies that are here this year, including Janine's new daughter. Yes, you'll meet Piper soon. And this is very important in most contexts in our lives.
+
+[04:55] Kids are completely separated from adults, and that is just a massive pity. And so, we're trying to create environments where that doesn't have to be the case. So, ultimately, we are aiming to create just an incredible environment for people and their friends and families to come together and build and co-create and learn from each other.
+
+[05:14] And the breadth and the depth of the experience here really allows people to connect much faster than they would in just like a normal default, you know, default life. And we think that's very important because as we enter this kind of new era that we're all transitioning into, we need to have these kinds of communities of just amazing high-agency people where we can collaborate and, you know, flourish together.
+
+[05:39] So, that's that. And I'm going to hand over to Janine just to talk about some of the things that have already come out of Edge in the last couple years of our existence. Before I've been here, whose Edge is this your first? Wow, welcome. Who has been to an Edge before?
+
+[06:03] Amazing. Who has been to more than one before? Okay, we've got quite a few here. So, those hands are up. Keep your hands up. Those are people that you can ask a lot of questions to. While we have a lot of answers, they actually probably have a better answer because they've been experiencing these and building the culture.
+
+[06:23] And it's a very grassroots effort as a whole. So, let's go back to whose first Edge is this? Put up your hand. This experience is what you make of it. Engage with everyone around you. Be excited to build. Don't ask for permission from someone else to build it for you.
+
+[06:43] Come create yourself. And out of that, you'll just have something amazing happen. You'll build incredible relationships. And you might be doing something hard and stretching yourself in some way is just an incredible opportunity in the world today.
+
+[06:58] So, what we've seen in some of the people who have been to Edge's in the past that have taken advantage of the environment, a ton of projects and experiments coming out of it that we couldn't have necessarily planned to start with. First, there's been a lot of startups that have been built at Edge.
+
+[07:17] It was kind of one of these places that we thought would be an interesting incubator, but we weren't 100% sure. And what we have seen is those that come to Edge with an idea and need folks to interact with and test out their project and get feedback on their project.
+
+[07:33] They iterate so much faster on the ground because everyone here is willing to just turn around and test your idea or engage in some capacity. So, you can get a lot of reps and see what works and what doesn't work quickly. And if it's not working here, the chance is that it works in the real world are a little bit slim.
+
+[07:51] So, iterate on the idea. Change it a bit. Work on it. One project that came last year, Constellation, has done incredibly well since. Avery, who was the founder, came and joined the Long Journey Residency. He ran a series of neurotech experiments on the ground.
+
+[08:09] As you can see, we had folks sitting in the middle of the yard in Healdsburg. Now that you've walked around Healdsburg, you can understand how interesting this might have been to some of the locals. Where we were doing e-experiments as well as other neurotech experiments on a day-to-day basis.
+
+[08:26] They collected one of the largest multinodal data sets as a result of that and have raised a ton of funding since and are now building their company. One of the first employees was actually a fellow Long Journey resident from last year who decided that they would actually be incredible co-founders together.
+
+[08:41] And we have a number of people in this audience who put up their hand and said, I'll help you with this project. And they had an amazing team on the ground that got this data set done. So, there's just ways to build collaboration here. That when you come in, you might not even know what's possible.
+
+[08:57] And by week two, you've got an entire team. Use that to your advantage. We've also been supporting a lot in applied research. It wouldn't be a space for frontier tech and science if we didn't actually help frontier tech and science get off the ground.
+
+[09:14] Mike Johnson, who is a philosopher meet incredible human who's been in the Edge environment for a long time, came up with this concept of vasocomputation. And it's a theory in the consciousness space that he developed over the past two years while at Edge and iterating on a daily basis, speaking to people at breakfast, speaking to people at lunch, spending time in the soiling people about vasocomputation or what it is.
+
+[09:39] And it started with an idea that no one could really understand. And now a number of people in this audience know what latches are. So it's exciting to see a theory go from an idea that's a bit messy and hard to understand to very well-defined, so much so that we've helped raise a bunch of funding that has gone to research in this space over the past year.
+
+[10:01] And there will be a vasocomputation experiment happening on the ground this Edge. This is probably a project that will take another decade, but it's really exciting to see it get off the ground here. And we hope to see that happen in a lot of different areas.
+
+[10:16] From the start of, you know, what we saw with some folks coming in who cared about consciousness and the idea of the research in this space, we've actually grown in boatloads in terms of the number of people who come to Edge caring about this field.
+
+[10:33] So much so that we had a number of funders that were willing to band together and fund the consciousness residency this year. We've got 16 incredible researchers that will be on the ground coming from all different amazing research programs as well as just weird ideas that they have themselves coming to the table.
+
+[10:55] And they'll be living in Calderwood Inn. They'll be hosting some events over there. There'll be a number of sessions this week as Lunch and Learns around the field. So if you're like, what even are we talking about here? We believe that as Edge, one of the frontier fields that we're betting on is consciousness and figuring it out, understanding what the heck is going on.
+
+[11:16] Because if we can find a way to 100x human life and just how we experience living as humans, we think that's a valid thing to achieve human flourishing in some capacity. Lastly, we're really here to support builders. This started early on. I remember in our probably first month of Edge, we had zero funds in the bank.
+
+[11:39] And I said, we must fund five young kids every single age. And people were like, where that's coming from? We didn't know. Here we are. We've got an entire grant program that are supporting kids under the age of 25 or humans under the age of 25 who are doing amazing things in the world.
+
+[11:56] They get a full experience to be here. There'll be a number of fellows. Lucas is leading that. So if you meet a fellow, ask him about what they're doing. Ask him how you can be supportive. We've got an incredible alumni network of fellows to date who are just doing amazing things in the world.
+
+[12:11] We had one kid come out from Kenya who just got a $100 million grant to run a project in AI and robotics. So it's really cool seeing folks that kind of came from a background where they didn't necessarily know that many people come to an edge and then meet someone who really wants to see them thrive in the world.
+
+[12:32] So there's just these crazy stories that happens all around this village. And I hope that all of you are a part of that. And then the really, really fun piece of the projects are these new permanent hubs that we've been supporting and partnering with around the world.
+
+[12:49] Devon and what she's building with Esmeralda is one we're super excited about. Another is the Galefu Mindfulness City in Bhutan. We're one of the first organizations that now can do trips to Bhutan where we waiver the visa. That is the case in terms of us trying to build more of a partnership there.
+
+[13:08] And we've been sending a number of advisors and mentors going to Bhutan and working there over the course of a month to three months at a time. And we did a small trip last year and I'll probably do another trip this year. So a lot of cool projects happening.
+
+[13:26] And I'm going to hand it over to Timor to give us more about where the heck we're going with all of these things that have been sprouting. Thank you, Janine. Okay, this is going to be a really quick bit, but I do think it's important to understand what is the vision of what we're trying to build and where does it all come from.
+
+[13:44] So throughout history, there have been many, many experiments and groups coming together to discuss, debate and imagine building a brighter future. There are many examples here, 18th century enlightenment salons. There's Chautauqua, which Devon will touch on in a moment.
+
+[13:58] There's Black Mountain College, Santa Fe Institute, et cetera. And all of these movements have been small groups of people like yourselves who come together, discuss, debate, and they've been critical in incubating and adopting new ideas about how to build brighter futures for society.
+
+[14:14] And so my take, my idea, our idea is that pop-up cities are essentially a new surface area, a new design space to experiment with how we live, how we build technology and how we can ultimately build brighter futures together. They are in this very interesting design space here where you see on the one is number of people and x-axis, sorry, yeah, x-axis number of time, both on log scale.
+
+[14:43] And each level of organization here has its own emergent phenomena, has its own kind of intimacy and culture that develops. And so Edge and things like this live in this very specific gap. And we feel that this is quite interesting because a month is long enough to build trust and build culture and actually try very interesting novel experiments, but also short enough to stay flexible and very experimental.
+
+[15:09] So we see this as a way to bootstrap the kind of community and culture that we're trying to build in the world. And lastly, why is this important now of all times? Well, I think it's very clear we're living, you know, all of us are living in our generation through a moment of transition.
+
+[15:26] And the current set of institutions and norms and cultures were the right answer to some prior set of conditions. And I think clearly we need new ones now that are more internet native, AI native, agent native, etc. And ultimately the things like that, the institutions that get created are a reflection of the people that make them and the environments that those people spend time in.
+
+[15:50] And so this is an environment from which new culture can emerge. And it's, you know, not just a fun set of gatherings, although it's that too, but it's actually an emergent phenomenon where new ideas will sprout from. So, you know, maybe a project or community that one of you starts will become the thing that changes the world.
+
+[16:11] And we're very excited to see what comes out of it. And now to introduce an amazing project just like that, I would like to bring up Devon. Thank you, Timur. And thank you, Janine. I'm Devon, and I'm really honored to be here and partnering with the Edge City team again.
+
+[16:30] As Janine and Timur mentioned, I am the founder of Esmeralda, and we are building a permanent new village just 15 minutes up the road north of here, which I'll tell you a little bit about. And one of the things that's been so exciting over the last three years has been a partnership that we've made with Edge City to co-host these amazing pop-up villages.
+
+[16:52] And for us, what it means is a prototype for the permanent village that we are building. So here is an artist's rendering of what the Esmeralda village could look like at Build Out. This is our site plan and our infrastructure and an actual aerial of the land.
+
+[17:10] So it's a really beautiful piece of Sonoma. And just to sort of orient us, our site is just 15 minutes north of here. We're in Healdsburg, and our site for the permanent village of Esmeralda is just on the outskirts of a small town called Cloverdale.
+
+[17:28] And here's how the land looks right now. It's the beautiful rolling hills of Sonoma County. There's vineyards, and then there's beautiful mountains in the background. And we're really excited to be stewards of this land and then also enhance it and create a human habitat on it as well.
+
+[17:49] So Timur mentioned a little bit about Chautauqua, and I'm going to talk more about this, as one of the great inspirations for Esmeralda and also for these pop-up villages that you guys are participating in. So Chautauqua also holds a special place in my heart.
+
+[18:04] It's a small town in western New York, about six hours away from New York City. So really quite in the middle of nowhere. And it's got about 8,000 people. And every summer for nine weeks, it hosts a series of lectures and workshops and kids' camps and running clubs and art fairs.
+
+[18:24] And it has its own opera house. And it's close to my heart because it's where my grandmother lives. And when I was growing up, every summer we would go visit Grandma in Chautauqua. And it has this incredible combination of what I like to call the hardware and the software of a place.
+
+[18:40] The hardware is that it's a town built 150 years ago before the car. So it's walkable, and it's bikeable, and it's got these beautiful buildings that are temples to learning and civic engagement. But then also that software around the events and the programming, which really bring a community together.
+
+[18:57] And unlike most towns where you bump into your neighbor and the main thing you have to talk about maybe is the weather or some small town news. Here you have a great lecturer who's an expert on the topic who comes in at 10 a.m. And then you have this shared context to talk about with your neighbors throughout the rest of the day.
+
+[19:15] Or you watched a performance of ballet. Or you went on the running club together. And if you're hearing, if it's sounding familiar, that's very similar to the model that Edge City has done with the pop-ups. And we're bringing here to Healdsburg again.
+
+[19:32] Here are some more photos of Chautauqua just to give you the place. It's very special. And one thing I'll highlight is that the amphitheater holds 3,000 people. And they fill it almost every single day with people. And as I mentioned, the town is only 8,000 people.
+
+[19:48] So almost half of the whole town comes out every single day for a lecture or a performance. Here, you know, this is my grandmother's house. And that's me. So this is something that the multi-generational component of the Edge pop-ups also really holds a close place in my heart.
+
+[20:06] Because this house has at times had four generations of my family in it at the same time. And I think being able to bring that to the Bay Area is really important. Especially because in the Bay Area, it hasn't been as family-friendly, I think, especially in the last few decades as it once was.
+
+[20:24] So I'm going to talk a lot more about this in future presentations. So I will spare you guys right now. But, you know, we're bringing this idea of the hardware and the software to Esmeralda as well. We're building this walkable, human-oriented space.
+
+[20:39] And then with the software, we're collaborating with Edge City to create the programming in the community. And a big part of what our vision is, is how do we create that community before it even exists as a physical place? I like to think of it as, like, Edge City is like a starter pot.
+
+[20:56] And we're going to transplant it into the permanent village long-term. And, you know, my background is in the software world. And so I think strategically the way we think about this is software differentiates hardware. By, you know, any beautiful building or beautiful town can exist.
+
+[21:15] But if there isn't a community on top, that's actually the thing that causes people to come back again and again and change their lives and to move there. And I think I'm going to save actually a lot of this for later presentations so that we can keep moving.
+
+[21:31] But really at a high level, places like this are in short supply. Healdsburg's amazing walkable square is a huge part in my view of why people love to come here. And we'd like to build more of these. Instead of treating walkable lovely towns as a scarce resource, I believe that we can build more.
+
+[21:48] And when they have been built, they've been incredibly popular even though they are few and far between. Another aspect of the pop-up villages that really is an echo of Chautauqua is that Chautauqua used something that I like to call the Ladd Amendment.
+
+[22:05] So whenever you're starting a new community, you have something called the cold start problem. Where, you know, maybe the long-term vision sounds cool, but why would you be the first person to move there? Because if you're the first person, the running club's not started yet.
+
+[22:19] The opera house hasn't been opened or whatever it is. And so by having these pop-up villages, we're bringing people together and giving people an opportunity to get to know their potential future neighbors and the type of culture that will exist, which gets that flywheel going.
+
+[22:37] We also have something called the Pioneers Club. If you're interested in one day buying a home in Esmeralda or renting there or somehow being involved, reach out to me. And yes, this is basically a timeshare presentation. I'm sorry. Little did you know.
+
+[22:55] But we've already, just from the last two Edge Esmeraldas that we've hosted, we've actually already filled out the entire first phase of the home build-out for folks who are interested in moving into Esmeralda full-time. To give a sense of timeline, there's a lot of detail on the slide and it's a little small, but this is a very long-term project.
+
+[23:17] The full build-out will probably take about 10 years. And I've already been working on this for three years with a huge team. But some important dates to highlight here. You know, right now we're about to go up for approvals. And once we've done that, then we're going to finish the infrastructure design and build that out.
+
+[23:36] And then probably the date you're all most interested in knowing is when can someone move in or stay in the hotel when it's built. And that's probably 2030. We think a realistic estimate. It could go faster. It could go slower. But we think 2030 is realistic.
+
+[23:52] And so with that, I'll talk your ear off all month if you want to hear more about Esmeralda. But I want to hand it back to the Edge team to get us to our next activity. So thank you guys for being amazing partners. I'm so happy to be here. Thank you so much, Devon.
+
+[24:10] So what we found in the past is that we kind of just like entered the month and halfway through people would be like, what is Edge City? What is Esmeralda? So hopefully that little crash course over the last 20 minutes or so gave you at least a little bit of a sense.
+
+[24:25] And if anyone asks you because they arrived a bit late, you'll be able to be like, I kind of have an idea. And obviously, you know, we'll kind of keep sharing more details over the course of the month. But now I want to move into the actual experience of being here.
+
+[24:38] And to help me do that, I'm going to bring up someone to talk about a very important topic. And that is the wonderful Jess Louiebrand. Please give it up for Jess. Hi, guys. Thank you, Timur. So I'm Jess Louiebrand. I will be the wellness lead, the connection lead, and the community care lead at Edge this year.
+
+[25:00] I've been in the wellness space for about the last 15 years across the entire world facilitating yoga, breathwork, and sound healing. And so one of my roles here is to support the relational ecology of our community here at Edge. So I'll be doing a lot of the wellness programming, the connection exercises, as well as the community care resources.
+
+[25:21] So overall, just creating a sense of trust and belonging and collaboration throughout Edge Esmeralda. So if I haven't met you yet, just come up and say hi to me either today or later at Shelterwood. And I look forward to meeting all of you guys.
+
+[25:36] So community care starts with realizing that we're all in this together. We are all co-creating the village. So part of this means taking care of one another but also taking care of yourself. Understand it all come from different backgrounds, cultures, different communities.
+
+[25:54] And realizing that diversity is one of Edge's biggest strengths here. So you can disagree respectfully while collaborating meaningfully and giving back to the community. Here you'll find that curiosity is much more important than being correct and having certainty.
+
+[26:12] So we encourage you guys to stay spontaneous. We encourage you to join new experiences. We also encourage you to practice the joy of missing out. As sometimes finding that balance in between action and inaction is where we find flexibility and health.
+
+[26:29] And so at the heart of this is all like respect. Respecting yourself, respecting others, respecting boundaries, shared spaces, shared experiences. And this is our home for the next whether you're here for weeks or the entire month. So let's take care of this together.
+
+[26:47] Our simplest principle here is ask first. Whether it's taking a photo or joining a conversation, giving feedback, offering a hug. We ask that you ask first because this is what builds trust throughout the community. Consent is about respecting economy throughout every single experience.
+
+[27:07] And a few things to remember that no is a complete sentence. Consent can be withdrawn at any time. Impact matters and reparation and repair is a sign of strength. What matters most is how we respond to someone when we learn that our actions had an unintended impact.
+
+[27:25] And behaviors that repeatedly ignore boundaries and erode trust have no place in our community. So we are here for you. Again, I'm Jess and Claire and Kate are at the back of the room if they can wave. Hello, hello, thank you. So these are the familiar faces of the community care team here at EDGE.
+
+[27:46] So you'll see us walking around. And if something feels uncomfortable or concerning, you don't need to navigate it by yourself. We are happy to hold space for you and with you. We will be adding more community care representatives throughout we go through EDGE.
+
+[28:02] And so we will be adding those people in the community care telegram that we have as a channel now. Community care resources. We have our community care principles, our full accountability framework, as well as our incident report form. All pinned at the top of our community care channel on telegram.
+
+[28:23] You can always speak directly with me, Kate or Claire or the new representatives as we get them. And then we also wanted to ask you guys. We're looking for a group of grounded, emotionally mature people to help support the emotional fabric here at EDGE.
+
+[28:40] And if that sounds like you, you can reach out to me on telegram at JessLouisbrand. And then lastly, this is just a sample of like the connection in the community care events that we have at EDGE. So we'll have yoga almost every morning. And you don't need to be able to read this entire slide.
+
+[28:57] Everything is live on the schedule. But we start with morning yoga or qigong. Then we move into gnosis with Paul Kuhn and Dr. Erica Matlock, which is a sound breath and movement transformative experience that we have Monday through Friday for the first two weeks.
+
+[29:14] We will have community care meetings every Tuesday at 2 p.m. So these will be just like an open communication, a gathering as well as like a volunteer training for people who want to come. If you guys missed the human trust protocol with Adam Rosendahl yesterday, we have one scheduled for tomorrow.
+
+[29:33] And there are many others. So human libraries where you can rent out a person instead of a book. A wellness meet and greet where you can all cross collaborate between tracks and residencies and different wellness people. As well as just joining us for a meditation, a sound bath at the end of the day, or even just a wind down evening.
+
+[29:53] All of these are there to support the community care culture here at EDGE. So just a reminder that community care is something that we all participate in. And so thank you for being here and shaping this community. Because when people can feel safe, they can open up, they can be brave enough to be vulnerable, and they can be supported enough to thrive in this community.
+
+[30:13] So thank you very much for being a part of it. Thank you so much, Jess. All right. We're going to end the orientation with getting oriented a little bit. So these are just some very practical guides for how to get organized. There is a lot going on.
+
+[30:33] I already overheard someone in the coworking space just being like, oh, there's a lot going on. So this will hopefully help. The main thing to know is that the Telegram group is the main communication and information center. There are two pinned channels at the top or two pinned topics at the top of the Telegram group.
+
+[30:54] One is called Read This First, which I recommend reading. And the other one is called Organizer Announcements. What you can do in Telegram is mute the entire thing and then unmute those two, especially the organizer announcements where we'll be posting regular updates.
+
+[31:10] That's the one thing to keep in mind. When you get your agents set up, they should be, you know, over time will learn how to tell you about those things as well. If you haven't done an intro, please put one in the intros channel that's also pinned.
+
+[31:23] It is the best way to kind of maximize serendipity because someone might read that, find something interesting and DM you about it because they also are really into really niche, weird interest that you have. And we also have what's called Edge OS.
+
+[31:40] It's our community calendar. We also have our meal plan sign up in there. Again, that link is at the top of the Telegram in the Read This First channel. And then we also have this wiki, which is QR coded here, but again, is also at the top of the Telegram Read This First channel.
+
+[31:56] The wiki has all the information. The agents will be able to access it and you can also just copy paste it into your favorite AI and just tell it. I have a question based on all the information here. What is the answer? We have over a dozen venues around the town.
+
+[32:13] Everything is within a short walk. So you'll be running into people without even trying. Very soon you'll get a sense of who is Edge person and who is not. You know, you might look at their wrist and see if they have a wristband, but over time you'll really get a vibe.
+
+[32:29] There's kind of an uptown cluster near Hotel Trio where a lot of folks are staying. That's where we have our sauna. That's where people, some folks might be hanging out late night. There's also a gym near there called World Gym. And then there's the downtown cluster, which is where we are now.
+
+[32:45] We are in the loft. A lot of the main programming will be happening in the loft. A lot of the main talks. We'll have demo days here on Fridays, etc. And then if you're on the tour, you also saw the hub, which is at 405 Healdsburg Avenue. And that's where we'll have co-working, the wellness hub, the flex space where there will be other talks that you can book as well.
+
+[33:08] And a few board rooms that you can book as well as a maker space. We have a lot of amazing residencies and programs this year. Just to give an example, the Long Journey residency is back this year with an amazing group of founders. We also have coming back Agatha, Vibecode, Futurative residencies.
+
+[33:28] They'll be sharing some awesome programming for the month. We have some new residencies this year that we're very excited about. We've got Z Prime and Consciousness. And you'll learn about these more as the month goes on. There'll be various ways of having them as touch points.
+
+[33:46] And that's it. Any questions and answers before we go into the town hall? Any questions, I should say? Anything we can help clarify? Awesome. Alright, it was incredibly clear. So, town hall is a weekly tradition that we have. And normally it's every Sunday.
+
+[34:10] And we use it as a way to discuss the week that we just had. And then talk about what's coming next. And there will be a couple of kind of presentations from some of the residency leads and things like that. It's a really good time. I highly recommend coming.
+
+[34:24] It's generally about 45 minutes to an hour every Sunday. This week, because we don't have much to discuss in terms of the past, we are going to use this to just briefly meet the people around us. And then we'll talk about some of the things that we have upcoming.
+
+[34:41] But to start, we're just going to take about three minutes and form groups of four. Maybe try and turn around if you're sitting next to someone you know. And answer the question, what is something you're excited to build or create during your time here at Edge?
+
+[34:55] So let's do that now. Go for it.
+
+[39:28] Alright folks, let's start bringing it back. Start finishing up your sentences. Alright everyone, if you can hear me clap once. If you can hear me clap twice. If you can hear me clap three times. If you can hear me clap four times. If you can hear me clap five times.
+
+[39:58] Amazing. It works every time. Alright. I hope you had a chance to meet the people around you, get a sense of what folks are excited to build. We'll have plenty more chance to meet our amazing fellow village mates at the opening ceremony. And I'm just going to go through some of the, what is coming up later this month, this week, and some of the goals that we have, and things that we suggest for the month.
+
+[40:29] So just to keep it simple, we try to encourage folks to move daily, learn daily, and make progress daily. Or ship daily. I should actually change that. Move, learn, and ship daily. So move, try and move at least 30 minutes a day. There's plenty of, you know, running clubs, yoga, etc.
+
+[40:44] You can also just walk from trio to town. It's a really nice walk along the bike path. Learn daily. Know someone or, you know, learn something new each day. There's a lot of amazing programming. And then ship daily or make progress. We really want people to be in the mindset of creating while they're here and not just kind of passive learning.
+
+[41:03] But try and really, you know, create something and then share it in the telegram chat. We'll have a telegram chat just for that about shipping. We also encourage folks to co-create the experience and get involved in the experiments that we're running.
+
+[41:19] So what are some of those experiments? I'll give you a few examples. And then over the course of the month, we will be sharing more as well. So the first is the Agent Village experiment. This is an experiment that I've been working on for a few months.
+
+[41:35] And it's a chance for us to see how AI agents will interact in a community context. We've been building this with some amazing partners. We have the Index Network team here. We have Instaclaw who are coming later. We have Geo who you'll be learning about a lot.
+
+[41:53] And we have our EdgeOS team as well. And there are some amazing AI institutes who are supporting this and funding this. Like Cosmos Institute and Foresight Institute. The goal of the agent village is for your agents to help you navigate the village.
+
+[42:09] Eventually, they'll start surfacing intros. And over time, where we want to get to is that there is a sense of kind of ambient intentions. That the things that you want will naturally start to come to you, will kind of maximize serendipity.
+
+[42:23] And this is really based on the work that the Index team does. So really, it's going to be awesome. Week one, we're just going to start out trying to get the core functionality going. And then week two and onwards, we'll be starting to do some of the more interesting experimental stuff.
+
+[42:38] If you're interested in getting engaged, please come Tuesday at 2pm right here. And we'll be doing kind of an onboarding session in person, which might be helpful. Then we have an experiment with the company called Invader. We're doing a metabolomic study.
+
+[42:55] There's actually limited spots for this one. So we highly recommend if you are interested to get involved. The RSVP list technically is full, but we're accepting a few more folks just because we want people to really show up. It does involve getting your blood drawn about seven times total over the course of the next seven days.
+
+[43:13] So if that's interesting to you, then go for it. But what you get in return is an understanding of your metabolism that goes many layers deeper than what you would normally have to even pay thousands of dollars for. So we're very excited about this.
+
+[43:28] And you'll walk away with a baseline that almost no one has of their health. So get involved. If it's full this week, no worries. We might run it again later in the month if there's interest. This is kind of a cool meta experiment. There's a company called Alethios that we're partnering with that gives you access to their research platform.
+
+[43:47] They're giving free access to every resident. They have done incredible studies with leading institutions. Basically, it allows you to design the study and they create the infrastructure that allows you to do that. It could be something where you are the end of one.
+
+[44:02] It could be something where you loop in a bunch more people. For example, you know, if how does this supplement affect my sleep, et cetera. You can sign up at alethios.com with the code edge dash city and their team will be here this week to help.
+
+[44:18] And then just a quick round of the other experiments that you can get involved with. So there's something called Connection Lab. To clarify, this did start many months ago as a party series in New York and SF that had a romantic component. We have changed with that team to make it more platonic.
+
+[44:38] There are some remnants of questions there that might make it seem like it's something not platonic. You know, we'll see what happens. But the intention very much is for that to be a platonic thing. We hope that people filled out the survey.
+
+[44:50] There'll be an aspect of this at the opening ceremony later tonight. If you haven't, it's okay. We'll put you into groups. It will just be a good chance for you to meet a little cohort of people that you can then potentially adventure with throughout the rest of the time here.
+
+[45:03] We're also doing a dynamic health index with Christine where you can wear a Fitbit and a chest strap for the month or the time that you're here and get a lot of interesting data about your health. We'll be running basic computation studies like Janine mentioned in week three.
+
+[45:18] And we'll have the journey team here for a Jana retreat later in the month. They will do a bigger kind of thing for everyone who wants to come. And then there'll be kind of a smaller group thing that you do have to sign up for ahead of time.
+
+[45:33] All the info is on the blog and in the wiki. The wiki, by the way, you can access also at tinyurl.com forward slash ee26wiki. All right. And last thing, just to give you a sense of what we encourage your daily flow to be like over the neck.
+
+[45:50] Again, there is a lot going on. There are infinite, you know, possibilities of what you can do at edge. This is just one of them. So there is movement in the morning, you know, choose your own adventure for that. Or we have yoga in the hub or run starting at Hotel Trio.
+
+[46:05] We have the gnosis journeys at 9am, which Jess mentioned. I highly recommend these. We had them in Patagonia. People gave incredible feedback. It is a two hour experience, but it is an amazing way to start your day and start, honestly, you know, the rest of your life.
+
+[46:24] They can be very transformative. After that, we'll have deep work in the hub. The intention there is to have kind of collective Pomodoros. We've done this in the past. But, you know, you can just come and deep work. There is the creative co-working space.
+
+[46:40] That co-working space this year, by the way, is not, we do not have a silence requirement. So if you do want to work in silence, you know, put in your headphones or potentially find another place. In that room, you can take calls in the corners if you want.
+
+[46:54] You can work, collaborate with other people. It's a shared space and it's that big co-working space there. At noon, you can grab a lunch from around the town. And there will be lunch and learns from the Consciousness Residency this coming week, which will be awesome.
+
+[47:09] I think they'll be right here in the loft. And then around 4pm, we'll have the track programming start. So tomorrow we kick off the vital futures and health programming, which will be amazing. At 7pm, we have community dinner where we've had local restaurants who've given us discounts.
+
+[47:30] And we kind of pick a place, a different place every evening where we recommend the community to go. You can go there and know that you'll be surrounded by edge folks. There will be a meditation at 8pm in the wellness space. And then there will be wind down evenings also in that wellness space.
+
+[47:45] And that's just a chance to come together. You know there will be people there every evening and there will be music. We might have a DJ set up if people want to plug in with their USBs. And it will just be a really cool chance to wind down.
+
+[47:56] So it's going to be really fun. Very full days, but you know, we're here to enjoy it. Something I learned in Patagonia and in prior edges is that this can be an intense experience, right? This is not a vacation. People come in and there is a lot going on.
+
+[48:17] You're going to meet amazing people. You're going to learn things. Your Apple notes will be going crazy. Because you're like, okay, I need to look up what the hell vasocomputation is. But I'm also running to this thing. I would recommend coming into this month with an intention.
+
+[48:32] Something that you want to get out of it. And a sense that, yes, this will be an intense time. But you will get so much out of it that it is absolutely worth it. And we've just seen this happen with hundreds and hundreds of people. So, you know, lean into that.
+
+[48:49] Lean into the serendipity of being here and enjoy it. So thank you very much. All right. Next up, we will have the opening ceremony. There will be buses leaving from outside. They'll be going up to a venue called Shelterwood in the woods. It's about a 15 minute drive.
+
+[49:10] We recommend getting on the bus. There is very little car parking there. So if you didn't sign up before to park, please use the bus. There will be a second bus coming that leaves from Trio at 4.30. And we'll be swinging by here as well. So if you don't get on the first one, don't worry.
+
+[49:25] Another one is coming. And then they will start heading back in the evening as well and kind of do rounds. And anything else to share? With the community care announcement that we had earlier, we have a lot of humans here. And this is all a space that we're going to be sharing over the course of the month.
+
+[49:44] So please be, you know, pick up after yourself, especially when we're out at Shelterwood. It's a beautiful property in the Redwoods. Don't leave trash lying around. We really want to leave the places better than when we found them. And that's what we should do on a daily basis too.
+
+[49:58] So those who can get in the shuttle, the first shuttle that's leaving, that would be awesome. Because otherwise we're going to have a backup of people needing to get on these shuttles after. So if you guys are ready to rock, let's head out.

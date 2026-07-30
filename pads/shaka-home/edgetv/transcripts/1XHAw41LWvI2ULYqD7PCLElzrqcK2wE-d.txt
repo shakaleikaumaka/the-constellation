@@ -1,0 +1,1125 @@
+# Edge Esmeralda - Psychedelic Futures Summit - Afternoon Sessions part 2
+
+Date: 2026-06-06
+Source video: Edge Esmeralda - Psychedelic Futures Summit - Afternoon Sessions part 2.mp4
+Drive: https://drive.google.com/file/d/1eqFFGALryetrFZpvONU4djYQIuwGcl8W/view
+Duration: 03:28:30
+Transcribed: 2026-06-13 · whisper large-v3-turbo · language: en
+
+---
+
+[00:00] All good? Okay. All right, here we go. Great. Okay, if I can get everyone's attention again, we're going to hop into the next panel. We're going to be discussing harm reduction, or as Bob Jesse alluded to earlier, risk reduction.
+
+[00:32] We can get into that as well and see what people's thoughts are here. But yeah, I'm really excited to be joined by these three awesome experts in harm reduction. And I want to start off just going down the line and get just a quick intro on yourselves and the organizations or harm reduction work that you're involved with.
+
+[00:51] Lisa, do you want to kick us off? Hi, my name is Lisa Fetterman. I work over at UCSF at the Robin Carr Harris Lab. I have a private practice. And I am the head of the board of Crisis Text Line, where we do quite a bit of risk reduction. Thank you.
+
+[01:12] Annie? I'm Annie Oak. I am the co-founder of an event production company called Take 3 and the founder of the Take 3 Safety Department. I am also the co-founder of Lucid News and the Women's Visionary Council. And I founded Camp Soft Landing and the Full Circle Tea House.
+
+[01:36] My name is Joshua White, and I'm the founder of an organization called Fireside Project, which is one of the largest organizations in the psychedelic field. And we're at the intersection of psychedelics, mental health, and AI. We build practitioner training tools to help practitioners prepare to do this work.
+
+[01:55] And we gather the data for that training from our support line for psychedelics, which is a free tool that people can call or text during and after their psychedelic experiences. Cool. Thank you, guys. Well, we're going to get into the details more of what all of you do.
+
+[02:11] I'm curious to start off with just what are some of the biggest risks as it stands today in the psychedelic world becoming more mainstream, more access? Like, what are the most present risks, harms being exposed that make it so important that we have these harm reduction services in place?
+
+[02:31] I love this question. My God. Thank you. Yeah, there's no structure out there right now for people who are taking psychedelics. When you think about the S&S study, like set and setting, I would add another S, and that's structure. And folks don't know about that.
+
+[02:48] They know about set and setting, but they don't know, like, about prep and what to do when someone is in a really tough moment. And at Crisis Text Line, we've done over 10 million texts in the 10 years that we've been on. And we see the number one cause of elevated risk when someone is in a very tough moment is isolation.
+
+[03:14] And a lot of people might be taking psychedelics in isolation for the first time, and that is a huge risk, which is why fireside is such an important resource, and crisis lines are such a big resource. Josh, you want to build off of that? Sure.
+
+[03:29] I think the number one reason why people call us during and after psychedelic experiences, and we've had 40,000 calls in our last five years or so, is typically lack of preparation. People don't know what they're getting themselves into, and often that lack of preparation comes from the way that psychedelics are discussed in the mainstream media, which is typically as silver bullets for any number of challenges, depression, PTSD, anxiety, and so forth.
+
+[04:01] And the model in the West is people think, oh, you take a drug like you take aspirin for a headache, and it'll make the pain or the depression go away. But as I think we know, that's not really how psychedelics work, and so if you've taken psychedelics without preparing, without, as Bob Jesse said, cultivating reverence, having someone with you, and so forth, you can be in a really challenging spot, not just during the experience, but often after as well.
+
+[04:27] If your world has been profoundly destabilized during a psychedelic journey, the work may be just beginning when the experience has ended, and support, and other resources are vital during that time, too. Thank you. Annie, you deal with a lot of these in-person events, and actually being there when these experiences come up.
+
+[04:49] Do you want to talk a bit about how you guys prepare, and what risks you see on site at these festivals? I'm happy to do that. Is that live? Yeah. Thank you. Well, I became an event producer because I wanted to raise the bar for safety at events where psychedelics were used and enjoyed by people.
+
+[05:18] And I wanted to build on best practices that I had learned as a longtime burner, as a member of other communities like the Oregon Country Fair, the many communities that have really built good safety systems over the years, the Rainbow family, the many party scenes.
+
+[05:40] So in building on those best practices, the things that we do, very briefly, that have worked for us is to make sure that we have good medics on scene who are skilled and know how to work with people. We have a quiet space. We have a staff for that quiet space who are mental health professionals.
+
+[06:02] We have a crisis intervention team, which I run at present, for people who need extra care. We have an entire ranger team, learned how to do that as a ranger at Burning Man. And we have other harm reduction and risk reduction services on site provided, in some cases by DanceSafe and other organizations, including FTIR drug checking services, earplugs, electrolytes,
+
+[06:34] condoms, and just really well-experienced people who are compassionate and know what they're doing. And our goal is to raise the bar, train them, and encourage other event producers to offer these services at their own events. And I think those are the obvious things.
+
+[06:52] And I'll talk about the less obvious things in a little bit. Great. Thank you. I'm curious what you all think about the point Bob brought up earlier, because I just heard you mention harm reduction and risk reduction. Use both terms. And I think there is that other benefit of the harm reduction term where, at least within certain circles, just people know more about what you're talking about.
+
+[07:16] And so I'm just curious, do you feel that nomenclature is important here? The harm versus risk. Are there other terms you've heard or thought about weaving in? What are your guys' takes? Well, because I raised it, I'll just address that really quickly.
+
+[07:30] I use both terms. Risk reduction I prefer, because I think that while some activities are risky, not all are harmful. And so I think it's important to make that distinction. One other shout out I'd like to give is for AIRWID, earth and fire.
+
+[07:47] There are always new compounds coming out of the labs all the time. And we can barely, we can't keep up. They can't keep up. And they're the librarians. So it's important to educate yourself as well to new compounds and especially how they interact with existing compounds that we know about.
+
+[08:05] Yeah, I agree with Annie. And I think, you know, the term harm reduction, as was mentioned earlier, kind of comes from, you know, maybe the opioid or HIV context. And I don't think, generally speaking, in the psychedelic field, people want to interact with a harm reduction resource.
+
+[08:23] It's just less sexy. Whereas I think a risk reduction resource more closely aligns with the types of experiences that people are having. They may be, especially at festivals and other gatherings, they may be confronting risks, but certainly harms are not necessarily a part of that.
+
+[08:43] But ironically, harm reduction may increase harm, may increase risk. Because harm, saying the word harm, increases stigma, it implies that the people using substances want to harm themselves on purpose. And that makes you subhuman. Like who wants to hurt themselves like that, right?
+
+[09:03] So he is right to raise it. And I think we're talking about it as a community. That word sucks. Like, but it's here. Slowly, potentially, we could move towards risk reduction. I personally love safe use. Safe use! Because we be using. Let's be using safe.
+
+[09:22] Nice. I can get behind that. Cool. Well, I know a lot of the work you all do is best in class as far as it comes to what risk reduction, safe use, harm reduction services are available today. But you guys also see what is out there in the world and what other people are doing.
+
+[09:41] And, Annie, I know we've had a conversation before about your experience at Boom and your just, you know, experience about how you found that to be really world leading. So I'd love if you could touch on that. And then, you know, can't not bring up AI.
+
+[09:55] I'm wondering if AI has any influence in some of the best in class stuff that you guys are working on as well. Yeah, I'd be happy to address that. The Boom Festival in Portugal, which is run by a community that came out of the Goa scene in India years ago, is what I think is best in class.
+
+[10:11] I mean, obviously, Portugal is a decrim environment, and so it was refreshing to go to an event with more than 40,000 people present and see the police at the gate doing the safety duties that police do, and then people lined up inside to test their substances with those substances in their pockets, knowing that they would not be harassed.
+
+[10:38] They were the ones who inspired me to bring in FTIR drug checking services to take three, eight, nine years ago when everybody was afraid of being prosecuted by the Rave Act. I felt it was a moral imperative, and they really led the way and continue to.
+
+[10:56] And I'd like to touch on some non-obvious harm reduction, risk reduction, my preferred term, ideas really quickly. An amazing artist by the name of Alison Gray, you might have heard about her partner Alex Gray, another artist. She used to come to our Women's Visionary Council events years ago and give a talk called Psychedelic Business Ethics.
+
+[11:25] I want to offer some ideas about psychedelic business ethics because I was trained primarily as a business and science journalist and I cover business in this space. Here are some suggestions for business ethics with psychedelic values and neuroplasticity in mind, really quickly.
+
+[11:45] Clear written agreements instead of handshake deals, obviously. Let's be good business people. Communication and transparency around policies regarding AI, IP, data retention, and community building within open source and commons models as well as parallel models of proprietary and VC funding.
+
+[12:10] Short-term versus long-term business planning and ROI. Let's really talk about it. It's important, right? A few quick other things. Self-care, self-care, especially sleep, right? Go outside, get some rest. My AI agents told me this morning that I was spending too much time indoors.
+
+[12:33] I was like, okay, I'll go outside now, right? And then finally, adequate integration of psychedelic experiences. Don't stack them up. Let those experiences really integrate. Take care of yourselves and the people around you. And then my personal favorite, succession planning.
+
+[12:53] One of our lucid co-founders unexpectedly died of COVID. And Josh was there supporting me when that happened. That was a really scorching experience. We did not see that coming. So if you're not training your successor and your successor's successor, please be a mentor and train other people and understand the value of that.
+
+[13:17] Thank you. Thanks, Annie. Great points. Yeah, Josh, do you want to speak to some of the stuff that you guys are working on with AI and other tools you've released? Sure. Before I do that, I just wanted to pick up on a theme that I was hearing in Annie's comments earlier.
+
+[13:33] You know, as she was going through the sort of many different aspects of what the container looks like within the festivals where Annie works. And I think for me, the broader question is, what does the care team look like in psychedelic contexts?
+
+[13:50] And that could be at festivals like Annie helps put on, as well as in clinics and so forth. And so I think one of the sort of, I think, under-discussed but essential parts of a care team is peer support, right? People who have had lived experience with psychedelics.
+
+[14:08] When you're talking, when you're on a psychedelic or processing a past psychedelic experience, the chances are you want to process with someone who you know has had an experience like yours. That allows you to share more fulsomely, feel seen and understood.
+
+[14:24] And the beauty is that peer support, it's faster to train a peer supporter than a therapist and it's less expensive. And there's also a Medicare billing code for peer support, though it hasn't been used yet in the context of psychedelics, which I hope it will one day.
+
+[14:40] So I think a key part of risk and harm reduction is really thinking, I think, at a high level of what goes into this container for these different contexts and how can we get the cost of those containers down. Therapists alone won't do it. Obviously, psychiatrists and other MDs alone won't do it.
+
+[15:00] And so you can really have, I think, a more fulsome container and a higher risk reduction impact by fully populating a care team with peer support and others all working in synergy. I would absolutely support that. We shamelessly recruit therapists and people with mental health training professionals for our care team and also people with life experience as well.
+
+[15:25] Thank you. Josh, you want to talk about Lucy? Sure. So I think as psychedelics hopefully near federal approval, I think there are a couple of – well, there are many gaps in our field. But a couple of them are the lack of experiential training that practitioners have as well as really a lack of an assessment tool.
+
+[15:50] How do we actually know if a practitioner participates in a training, whether they've developed the core competencies to support clients? And so to help fill some of these gaps, Fireside Project has launched an amazing new tool called Lucy, which is an emotionally intelligent voice-to-voice training platform.
+
+[16:10] So think of Lucy as a virtual patient. So imagine you are an aspiring therapist or a therapist wanting to move into the psychedelic field. One of the best ways to actually know what it's like to support someone is to spend time either with an actual person or a virtual client.
+
+[16:30] And in the same way that we don't send pilots up into the sky with a plane load of passengers before they've actually spent time in the simulator, Lucy really is that simulator. And what makes Lucy so realistic is that it is trained on tens of thousands of anonymized conversations on the support line that we've obtained after a really robust consent process.
+
+[16:56] And so we've partnered with Mount Sinai, Rachel Yehuda's team at Mount Sinai, to develop five or six bespoke Lucy scenarios for Rachel's training. And the students absolutely loved it. In so many psychedelic training programs, the way that quote unquote experiential training typically looks is a practitioner will do a demonstration, and then you just find a partner and one of you pretends like you're tripping.
+
+[17:26] And that's just not effective at all. Your nervous system knows it's fake and also your partner doesn't necessarily know the art of an experience in the way that an instructor or an actual client might. And so that's really what Lucy is. We see Lucy as really an opportunity to provide a first level of training for practitioners across the psychedelic field in the US and eventually the world.
+
+[17:55] To be clear, this is not the only tool that a practitioner would need. Of course, there needs to be mentorship. Of course, there needs to be time with actual patients. This is a baseline tool that can help bring, I think, high quality support as well as assessment.
+
+[18:12] So after each scenario, you'll get each practitioner gets feedback about how well they did based on core competencies that we've developed with leading experts in the field. And so this would be a way of determining how well did you do. And then you can keep practicing until you come up to a baseline level.
+
+[18:31] So this is a whole new approach to training and we're really excited about it. And we have training programs across the country that are now lining up for us to build Lucy scenarios for them. All of these scenarios will be eventually available to the public for CE credit.
+
+[18:48] As psychedelics move into the medical model, clinicians need CE credits. This is a multi-billion dollar industry. And our hope is that we can use the licensing of Lucy scenarios to help keep the support line free. As Annie was alluding to, one of the best ways to ensure harm reduction is to diversify one's income sources.
+
+[19:10] And relying exclusively on philanthropy is just not a responsible way to keep a safety infrastructure like the support line operating in perpetuity. Thanks, Josh. So we are about to hit this big moment of real scale. We've got a couple potential FDA approvals around the corner.
+
+[19:31] Psychedelics are already becoming mainstream, but they're about to really, really hit. One of the concerns I have, I mean, Jishan earlier was talking about the difference between like the treatment model versus having, you know, more therapeutic access.
+
+[19:46] And where the reality does seem to be happening is that we're going to have these FDA approvals that are going to be more treatment focused. And you have the treatment and then the support that you get afterwards is not going to be so strong.
+
+[19:58] And you mentioned that it's really important to focus on that integration period after and not just head on to the next thing. What like are we ready for this when we have an FDA approval and we start doing this treatments at scale and people go and have their psychedelic experience, but they're then sent off into the real world and not kind of provided with more integration support.
+
+[20:20] Like what are these gaps? What's currently missing? Are we screwed? Are we going to have some big crazy outcomes? What do you guys think? Well, you know, there's a phrase in journalism. It's called follow the money. It's all about money. It's always usually about money.
+
+[20:36] So therapists in a model that provide aftercare and perhaps a dual therapy model during the experience are very expensive. And companies under pressure to return on their investments from their VC investors will look to maximize their returns and cut corners and therefore are developing shorter acting compounds and models of therapy that don't require as much aftercare or therapeutic support to cut costs, right?
+
+[21:11] Follow the money always. Now, there have been really good options proposed. Group therapy is one of them that can reduce the cost. And other structures within a nonprofit model where there's not so much ROI pressure. I founded two companies as for-profits that I brought to a nonprofit status, transition to nonprofits,
+
+[21:41] specifically to get out from under VC pressure because I really wanted to be able to allow them to be governed by a board and be community based. But that is not to say that companies that have attracted that kind of investment don't do important things in the world in their present phase.
+
+[22:04] And I think transparency and openness, especially around patents and IP issues, are very important for everyone to follow. I do not think we are ready at all. I think some of the key pieces are on the chess board, but as a field, as a society, we are just not ready for this.
+
+[22:26] There is no good drug education that is provided in schools, period. I think most people are still indoctrinated by the just say no ethos. That's crumbling a little bit. But there are some sort of good pilot programs like just say no K and O W that are now taught in a very select number of high schools in the San Francisco Bay Area.
+
+[22:51] Maybe expanding. This is Rana's program. But I think there needs to be really thorough drug education at almost every level of education and including by parents. If parents are taking psychedelics, they should be talking to their kids responsibly about what responsible use looks like.
+
+[23:10] So I think education, education, education. There just has to be more of it. I also think we need to be training people in peer support. The most effective form of support is the one close by. And I love, you know, one of our sister organizations, the Zendo Project, has an incredible training where basically they're teaching clinicians and non-clinicians just how to be good peers, how to be with someone, not try to fix them, just be radically present for them.
+
+[23:41] And this, I think, should be a foundational skill in our society. I also think, as Annie alluded to, I think we're still really in search of what the right model of care looks like. Is it group therapy? Does it include peer support? I mean, of course, the answer is going to vary depending upon the compound, depending upon the person and so forth.
+
+[24:04] But I think there need to be abundant support options that are available to people. One model that I love or two models that I love, you know, I see Joel here, you know, his organization, which he'll talk more about, really provides rigorous preparation and rigorous integration after the psychedelic experience.
+
+[24:25] I think Beckley Retreats does that as well. I think the same should be true in psychedelic clinics that are opening up in the United States. Because guess what happens when that isn't provided? People call Fireside Project. So as we've gotten deeper into our five years of operating our support line, you know, as the ketamine telehealth industry has increased, the number of calls from ketamine patients who feel like they had a massive experience on ketamine and don't have support really has increased as well.
+
+[24:58] And one final thing I'll talk about is Ibogaine. So much promise. This is the medicine, Iboga, that I love the most in the world. It is also orders of magnitude more powerful than any other substance. And after the Trump executive order, the number of calls to the psychedelic support line about Iboga and Ibogaine spiked.
+
+[25:22] So there were people calling on Ibogaine home alone. How insane is that? And that happens because people hear that the president is behind Ibogaine. He wants to take some in the Oval Office. I don't even know how one gets their hands on Ibogaine itself as opposed to Iboga.
+
+[25:40] But I think this speaks to the need for, you know, for education and truly long term integration support. I think one can feel destabilized by Iboga for months after their experience. And so, you know, as Annie said, we absolutely need robust integration services.
+
+[26:02] I think the integration services for a compound like Iboga or Ibogaine need to be so much more robust than for any substance. And we don't even have good structures for substances like psilocybin. And I think the field is in a fragile state right now.
+
+[26:20] I think people are excited about psychedelics and that's great, but there's also concern about the risks. And so the more high profile situations we have where someone either gets hurt or hurts others really imperils the field, right? If the pilot who literally got on a commercial jet while he was struggling to integrate a psilocybin experience had actually crashed the plane, this would be a very different looking psychedelic landscape today.
+
+[26:49] And I think that highlights the need for really widespread integration services. I will say I've spoken to the pilot and he just says categorically that this would not have happened if he had known about Fireside Project. This is a moment that is an intensified microcosm in the psychedelic community of our society at large.
+
+[27:11] We are on the precipice, we are at crisis. That does not mean that we can't prep, which is one of the pillars of risk. I was going to say risk aversion. But this is one of our pillars that we can be prepared ourselves. How many people here carry Narcan?
+
+[27:31] Yes. Yeah, sometimes I got that Narcan on me in my bag as well as my Tide pen. Different kind of harm reduction. That's right. That's right. So yes, we can all see what's on the horizon. And there are things that we individually can do to support our community.
+
+[27:53] I'd just like to follow up quickly on the shout out to the Zendo. Full disclosure, I consult for them and serve on their community council. I think that's a really strong model. Because they are not only providing education to people within the many psychedelic communities that currently exist, but they also provide education to first responders.
+
+[28:20] And this is really important because the knowledge that we've generated as a community together is now being offered back out to the so-called regular world. And that knowledge is really valuable. And that education that they and many other people are providing is hard-won knowledge that we have learned firsthand, integrated personally, and now we can offer out to first responders,
+
+[28:54] county and state level mental health professionals, and say, here you go. We've learned some things. Please increase your knowledge and practice our best practices as well. I'd say one thing, picking up on Lisa's point. A great harm reduction step that everyone in this room can take right now is download Fireside Project's free mobile app.
+
+[29:18] We like to think of it as the first mobile app that we're aware of that's four people in the midst of psychedelic experiences. There are two buttons, call and text. And they're really large, and you press the one that's right for you. You've thought through the design.
+
+[29:33] Great. Okay, awesome. Well, thank you all for joining this pin. I want to open it up to the room if there's any questions. Go for it, Drew. Here. Hi, thank you all for coming. It's really great to hear kind of the support infrastructure that's being built around this.
+
+[29:56] I think that one of always kind of my big concerns that's been flying in the background, as you said, once negative instances start happening, it can kind of influence and change the future as we move forward and how fast that progress can go.
+
+[30:10] And one of the thoughts I've been having is that as these things become more and more legal and more accessible, obviously there are many people who never had an interest in psychedelics who might be curious and then many who have had no access to them.
+
+[30:23] So there will be kind of a short, I believe, increase in those numbers. And that's kind of the game of chasing education prior to that. So I guess how do you guys see that landscape going? And are you guys kind of feeling the preparation before the kind of the wave hits?
+
+[30:42] And what do you think that looks like long term? I'd like to really encourage people to support their local state and county public health departments to provide fentanyl test strips, risk reduction education, and really start at the local level with people that you can help educate.
+
+[31:07] Again, this is what one of the things that the Zendo is doing. I think that we can encourage those services, especially drug checking services that save lives. I have no doubt in my mind that our drug checking services have saved lives at our events.
+
+[31:26] And when people have access to those services and can be supported through education and access to testing, that is a good thing for everyone throughout the world, but especially here in the U.S. where we're still dealing with the drug war in its aftermath and current condition.
+
+[31:48] Thank you. All right, we need to wrap. But I hope, I'm super happy we're talking about risk reduction, harm reduction at EDGE. EDGE hosts these pop-up cities all over the world and there's a lot of psychedelic curious people here. And so, yeah, hopefully we can continue the conversation and find ways to loop in harm reduction services and plans throughout the events that are hosted globally.
+
+[32:10] Can we offer to speak to folks afterwards if they want to talk to any of us? Absolutely. There's a lot of knowledge here. Yes, we will definitely share contact info and ways to get in touch. So, thank you so much, all three of you. Narcan is free at the Anarchist Bookstore in San Francisco.
+
+[32:32] They give it away for free. Boom. At the Anarchist Bookstore in San Francisco in the Hague. Thank you guys. Okay, we are going to hop right into our next panel. Can I invite up Fede Menepeche and Joel Briere to come up to the stage. We're going to talk about psychedelic businesses that are operating in, you know, mid-shifting regulations and have two great leaders in the space to get into it with.
+
+[33:01] Okay, sweet. So, welcome to the stage. Fede's my old boss, so it's nice to have him here. Can we start off just, if you guys want to share, you know, where you work and what your businesses do, and then we'll dig into some of the fun, meaty questions that underpin that.
+
+[33:29] Fede, you want to kick us off? Thank you so much for having me. I'm very excited to be here. I wear at least two hats today. One is my hat of Chief Growth Officer at Beckley Retreat. And I'll talk about what the organization is and does. And then the other one is the head is a co-founder of MAPS Italia, which is one of MAPS's international affiliates.
+
+[33:54] Operates in Italy, where I'm from. And we focus on public education, harm reduction. In fact, we sent a therapist from Italy to go to the Zendo training so that then we can eventually translate the Zendo material in Italian and offer it around the country.
+
+[34:08] And then we also offer a therapist education. So we'll be hosting Italy's first ever MDMA-assisted therapy training for therapists and psychiatrists in the fall. Awesome. I'm Joel Briere, and I'm founder and CEO of Kaivali Adventures Incorporated.
+
+[34:26] And KVI is essentially an ecosystem for the molecule 5-MEO-DMT. And so under KVI, we have Tandava, which is our center down in Teposlan, focused entirely on integrative retreats with 5-MEO-DMT. We have retreats in English and in Spanish. And then under KVI, we also have 5-Education, which are training programs and research, both naturalistic and clinical, around 5-MEO-DMT.
+
+[34:52] And then our other spin-out company is 5-Discovery, whom I co-founded with Manesh, who's somewhere over here. And we are creating non-hallucinogenic analogues of 5-MEO-DMT for central nervous system disorders. But today, I'm here mainly speaking about Tandava on this panel.
+
+[35:10] Awesome. Well, thank you both for being here. And I now know it is Joel, and I apologize for saying Joel. I respond to all of them. Every single previous interaction I've ever had. Joel, I've got it now. Awesome. Well, I'm curious if we can dig into just what is the actual, like, day-to-day life like?
+
+[35:26] A little behind the scenes of running a retreat center. Because, like, we all know these things exist, but, like, what is it like? Like, what are the operational challenges and craziness that happens behind the scenes? And then a follow-up question to that is, what do you tell your friends and family that you do?
+
+[35:39] How do you describe it? You know, I would say to the second question first, it was no surprise to my friends and family. I was raised, you know, in a fairly, I would say, spiritual household. My mom took me to Peru 26 years ago to work with San Pedro Cactus.
+
+[35:57] But running a retreat center, it's a lot less glamorous than you would think. I was very naive coming into it of what it was going to take and what it was going to be like. And I had this dream of this utopian scenario of, you know, living and running a retreat center and just all the magic that would come with that.
+
+[36:18] I hadn't really anticipated at that time what it was going to be like to raise capital for a psychedelic retreat. And that came with its own insane set of challenges. But, you know, I came from serving this medicine. And that was, you know, when I first founded Tandava, it was myself and a skeleton crew.
+
+[36:34] And we were running the retreats. You know, we were doing everything, all of the back end of the business. And over the years we've developed a really amazing big team and have found facilitators that are more talented than myself and more skilled than myself to take even better care of our guests.
+
+[36:52] And so my role has really switched more towards the back end and maintaining the business so that very talented specialists can get paid for their work and that people can have a place where they know that they are going to not only get safe experience with this medicine but will be held in an extremely informed, very, very well thought out container.
+
+[37:16] Cool. So some context of the organization first. Beckley Retreats is a public benefit corporation that operates retreats in Jamaica and in the Netherlands. These are psilocybin retreats. These two countries because they're the only two jurisdictions where psilocybin is actually legal at a federal level.
+
+[37:32] So it's not a gray area or decriminalized. It's actually legal, which is also why we don't yet operate in the U.S. because in the U.S. there's a state model in a few places, but still federally it's illegal. Beckley retreats was born out of the Beckley Foundation, which is a nonprofit in the U.K.
+
+[37:48] that's been funding clinical research and basic research on psychedelics for over two decades. That was founded by a wonderful late Amanda Fielding. And then a few organizations were spawned out of this nonprofit. One was Beckley SciTech that developed 5MEO DMT for depression and I think they're beginning phase three soon after having merged with a tie another player in the space.
+
+[38:15] There's also a clinical company in the U.S. that works with ketamine. We work with psilocybin and the retreats. And why are we at PBC? A public benefit corporation is an organization that's looking to both become financially sustainable and also have social impact at the same time.
+
+[38:32] And it's in the charter of the organization so that we can't get sued by investors when we make a decision that makes it worse for the balance sheet but makes it better for people. In fact, on a weekly basis, we issue scholarships for people that wouldn't otherwise be able to afford the retreat.
+
+[38:47] And that's been in the in the maybe like more than $300,000 to date. And so we operate retreats. How is it to operate a retreat? I think it's very serious business. These are very powerful medicines. I guess we can say that in this context, but we can never say it in the marketing, for example, because then the FDA would come after us.
+
+[39:09] But we operate in retreat centers that are comfortable and very beautiful and also in ones that are more minimalistic in a drive to try to make the retreat as accessible as possible. In fact, in our more modest or minimalist retreat in the Netherlands right now, we're able to offer a five day retreat with two ceremonies in a shared room for less than $3,500.
+
+[39:33] And yeah, I mean, I guess we can talk a little bit about the seriousness of preparation, integration, also screening and why that's so important to prevent difficult outcomes. I do want to say that we work on offering retreats for people that are well.
+
+[39:48] And so people that have very serious clinical indications like complex PTSD or psychosis, they wouldn't be able to come to our retreat. So there's a whole conversation about what happens after psilocybin becomes legal and how do we actually address the needs of those that need it from a medical perspective.
+
+[40:04] Yeah, with us, screening is a big one. You know, 5-MeO-DMT does have, I would say, more contraindications than psilocybin and other medicines. There are more psychological conditions and physical conditions that may pose someone to be unfit at this time.
+
+[40:21] And also, you know, we are looking for process-oriented individuals. If we get a sense on a discovery call that someone's looking for a quick fix or just an experience, we're probably not going to accept them as a participant. If someone isn't going to take the preparatory process seriously and the integration afterwards, ontological shock is a potential reality, destabilization is a potential reality, and worse.
+
+[40:46] And so we do have a very meticulous system of screening and intake, weeks of individualized preparation with their specialists, and every participant has their own personal integration specialist all the way through for at least one month, but generally more afterwards, to really ensure that not only they're staying safe, but they get the most out of their experience.
+
+[41:06] Yeah, I want to dig a little more into this how you operate these businesses in a responsible way. I mean, we talked about earlier, Bia mentioned this conversation around certain groups, you know, running 5-MeO-DMT with a BOGA and being surprised at that protocol.
+
+[41:25] There's retreat centers all over the world in different places that are not bound by the same regulations. And so there's lots of things you could maybe legally do, or just that aren't really regulated yet, but doesn't mean it's the safest or most ethical practices.
+
+[41:39] So yeah, I mean, the screening is one piece, so thanks for touching on that. Any other, like, big things that come to mind when you consider, you know, how to run these businesses in a responsible way? And maybe a follow-up to that just to get the wheels turning is like, I'm curious as a business that like inherently is kind of selling an idea of transformation for people, how you also manage expectations with people around like, what if you don't have a transformation?
+
+[42:08] Or what if you find out something you weren't expecting? I love that question. You know, first I would say one of the main ways as a retreat company operating internationally that we can act within integrity is engage with the local population.
+
+[42:25] For God's sakes, have retreats in the language of the local area, have retreats that are accessible for local population. So we have our international retreat team and we have our Mexican retreat team. We have retreats for Mexican nationals at less than a quarter of the cost of our regular retreats.
+
+[42:41] And they're a lot of fun and our team is an amazing, amazing, there's a lot of talent in Mexico, a lot of amazingly skilled people. And another way is, you know, making sure that the discovery calls aren't sales calls. I still take more than 90% of the discovery calls for all of our retreats.
+
+[43:02] And that's because I won't give it to any of our sales team. Our marketing team, one, I want them to have the answer to any question a participant is going to ask. But also they cannot be trying to sell the retreat. That's the tough thing and it's a paradox within growing a business as a retreat company.
+
+[43:20] Is yes, obviously we want to bring in revenue and also obviously this retreat isn't for everyone. And so treating a discovery call as a way to determine if this is a good fit rather than making a sale is vitally important. And then managing expectations is a huge one.
+
+[43:38] I mean, I remember what was it, 2020 or 2021, there was a Forbes article titled A Single Inhalation of 5-MeO DMT Will Cure Depression and Anxiety. And it was like, that's a bit of a lofty promise. You know, and a lot of people, they just took that at face card value.
+
+[43:55] And a lot of people reach out thinking that they're going to get some sort of cure just by doing a medicine. And hey, you may feel amazing for a while. You may be glowing. But the old default is going to come back. And to really get lasting change, it's going to take some work.
+
+[44:11] You're going to have to participate in your own process. And it may be viscerally raw and uncomfortable. And so on a discovery call, we are managing expectations in a big way. We're making sure that they know, hey, are you ready to pull your mud boots up and get in there?
+
+[44:26] We're going to be with you the whole time. We're going to make sure you have all of the resources and support through this. But this may be rough. This may be rougher than anything you've ever experienced. And that doesn't mean something is necessarily going wrong.
+
+[44:39] So managing expectations both for this isn't a miracle cure and to this is going to take more work than you may think. Yeah, I would say that preparation for the retreat is actually multilayered. So we start by publishing a lot of content on our properties, on our blog, content that is written and then medically reviewed.
+
+[45:00] So that people can get to know what's happening in the brain, how psilocybin works, what to accept in the experience, what happens if something kind of goes awry. And so people can actually educate themselves because the process of deciding to go on a retreat like this, it's actually not a snap decision.
+
+[45:15] People are going to be wanting to understand what's up and how to feel safe around making a decision of this type. And then there's weeks of preparation. And we have an app where people come and get to learn about all that's ahead and how to properly prepare.
+
+[45:30] But then also on the retreat before you do the experience and then in between the two ceremonies, there is skill building. So what does that mean? Like you're going to sit with people who are trained and licensed meditation practitioners, like sound musicians, healers.
+
+[45:48] And there will be things like you'll learn how to ground yourself, like you'll learn how to shake your body to release trauma, how to like work with your vagus nerve system, to hum, for example, during an experience. And these are things that can be like really powerful when you're sitting in this very possibly overwhelming experience and you can employ these tools to actually help yourself.
+
+[46:07] And then I think like the facilitation is very important. The facilitation ratio is high. So we have three people per one facilitator. So that means there's a lot of people in the ceremony tent and plus the sitters. So they can go from like playing live music to like sitting with somebody who's having a struggle.
+
+[46:26] There's also always a therapist on site. So if something needs to come out that's a little deeper or related to trauma and somebody can actually help you with that. Great. So in the panel title, we talk about shifting regulations and operating businesses within that.
+
+[46:43] And I'm curious, you know, as you think about the regulatory environments you operate in and the specific countries that you're in and the growth areas or new places or new services you might want to offer, you know, being too early, being too cautious, being too aggressive, like all of those can be fatal mistakes as you think about this next step.
+
+[47:02] How do you plan for uncertain changes that may occur with what's allowed, what's legal, what's gray area, what might open as far as how you practice and how you, you know, think about what's next? I think that watching what's going on with the federal level with psilocybin is very important because it's likely that one or two forms of psilocybin might be, might be available for medical prescription and insurance reimbursement in the next 12 to 24 months.
+
+[47:32] And to me, one angle that I like to think about is if we offer a group retreat right now for the well in a retreat setting where it's kind of expensive. Like, is it going to be possible to take this FDA medications and then have people be in a circle?
+
+[47:48] So to recreate this protocol where you have folks doing it in a group model so that they could individually get reimbursement for the drug, which unfortunately would be expensive, but at least like they wouldn't have to pay for it because insurance reimburse.
+
+[48:00] And they can share the cost of the facilitation of the therapy, bringing down access to psychedelic assisted therapy in a group by, you know, or by a lot, by a lot of money. I mean, from a growth perspective, I think it's going to be nice for the retreat business because once it becomes so legitimized at a federal level that doctors can prescribe it, I think like lots of people who are still like not super sure that they want to do it.
+
+[48:24] I think retreat businesses are going to do really well. So I think that's good. So there's a question around how do we think about creating even more access? How do we think about entering the U.S.? Because the reality is that we don't operate there at the moment.
+
+[48:35] So these are some of the things that come up. Yeah, I think keeping a close eye on, yeah, the ever evolving changes has been important. You know, we're involved in a few different state initiatives right now, some upcoming clinical studies.
+
+[48:47] There's the Utah bill coming up. And so most likely we'll see action on the state. Well, we already are seeing action on the state level, you know, Colorado, Oregon, etc. So we're keeping an eye on that. And, you know, it's a possibility. We'll see five MEO, you know, hit market phase four to five years from now, whether it's a tie backly that makes it through our GH research.
+
+[49:09] However, I wouldn't say we're thrilled to come back to the states. But, you know, if for some reason, let's say Mexico is to change its regulations, it's one of the things that has been important to us is to stay malleable. You know, we, our team is able to, if we needed to, at the drop of a dime, switch locations.
+
+[49:28] And it's not something we want to do, but it is a reality of being early movers in, you know, opening an above ground center. We are at the mercy of quickly shifting policy. And, yeah, Mexico has taken good care of us. You know, they're aware of us and how we operate and we have good connections there.
+
+[49:47] And so we don't see anything shifting negatively there, but you never know. But we're hoping to continue just to go south from there. Another quick thing that I wanted to add is the importance of research. So a lot of the research for psilocybin has been on one-on-one administration in the clinical trials.
+
+[50:05] So we're partnering with academic institutions right now to try to run studies to see what actually happens to measures of depression and PTSD when psilocybin is taken in a group. So there was a research paper published by UCSF and Imperial College on this, the people coming down either to our retreat or to the Heroic Arts Project ayahuasca retreat, and then comparing and contrasting the outcomes that these veterans saw.
+
+[50:26] And so if we want eventually Medicaid to offer this and for doctors to prescribe it or for this to be approved in the VA, we're going to need to have some research data that shows that. So that's why important for profit institutions to continue to partner with academic institutions to actually produce the data.
+
+[50:42] Thank you. And I know we were chatting earlier, Fede, about USONA and it being a nonprofit and kind of their approach versus the for-profit approach of Compass. And you're wondering if you want to speak a little bit to the recent executive orders and the fast-track FDA announcements and just general thoughts and reflections on businesses, for-profits, PBCs, plus nonprofits and the different types of advantages or ways that they navigate this field.
+
+[51:11] Okay, thank you. And yeah, I'm glad that Bob is here and I wonder what he's going to think about that. But so when Compass Pathways decide that's developing psilocybin for depression, what indication to focus on, they chose treatment resistant depression.
+
+[51:27] Then there is a nonprofit in the United States called USONA Institute that also did clinical research on depression, but for major depressive disorder, which is a much larger, more numerous type of indication. So a pharma company is going to try to pick an indication where the effect size of their treatment can be as high as possible to try to drive to FDA approval.
+
+[51:46] But a nonprofit might choose another indication that's more broad so that if that were to be approved, more people would have access. So I think this in itself is very important and it's like how you think about public benefit more than thinking about the balance sheet.
+
+[51:59] Additionally, if the nonprofit USONA were to obtain FDA approval and they also got the voucher post-executive order, they might choose to price the drug a lot lower than a nonprofit because their incentive is not to maximize profit, which again would create ripple effects in terms of accessibility because more insurance companies would cover that.
+
+[52:21] And then if people are underinsured or uninsured, they would be able to access that more easily. So kudos to the nonprofits out there that are trying to do the work to keep the for-profit organizations accountable in the market. Cool. If people are interested for themselves, for their friends and family in experiencing a retreat at Beckley, at Tandava, or with another compound or another provider, what advice do you have for them?
+
+[52:50] A, in connecting with you and figuring out if it's a right fit and also outside of your guys' organizations, how to vet and find other trusted centers? You know, I would say, when people are looking for what kind of retreat to do, this, I would say this concept of like, oh, well, you know, I'm suffering from this.
+
+[53:15] What do you think would be the right medicine for this? And that's been a bit of a newer paradigm where I would say they're all different paths to get to the same place. Feel which one feels really warm to you, which one's calling it to you, and follow that warmth.
+
+[53:29] And then once you know what compound you'd like to work with, what medicine you'd like to work with, look into the centers, look into their team, look into how they operate. What do they offer and how do they care for you as a participant? Not only how do they keep you safe, but how do they ensure that this is going to result in the change that you're looking for or for the growth that you're looking for and not just be a peak experience where you need to come back a few months later or a year later.
+
+[53:54] So look into them and make sure that they have your interests at heart. If you're interested in coming to TandaVa, we're TandaVaRetreats.com. And if you want to learn more about 5MEO, our partner company, 5 Education, has all of the research that's ever been published on 5MEO, some that we've been involved in, some that we've just cheered on from the sidelines, and all of the info that you'd ever need to know, then training programs, integration support, and a directory of guides and specialists that are vetted.
+
+[54:24] I would say the superpower that we all have right now when we're looking to choose what product we want to buy is using an LLM. It's an incredible amount of reach in terms of everything that's been talked about in an organization, particularly what people that went to that retreat said.
+
+[54:40] LLM tapped a lot into Reddit, for example. So just do that and try to be precise with the prompt and maybe try to inquire about credibility, safety, ethics, research institutions that partner with this organization. I think these are all great ways to research that.
+
+[54:55] Thank you. All right, we've got time for probably one question, if anyone in the audience wants to ask anything. Joel, got a question for you. So when you see like a tie, Beckley, and what you do, what do you think the 5MEO biotech landscape is missing that you guys are deeply embedded in?
+
+[55:20] You know, the concern obviously is, are trial participants getting the support that they need? And will participants get the support that they need after, after FDA approval, if of course it goes through? And I know what Ty Beckley is in a very tough spot because with rigorous clinical trial standards, we can't use therapeutic modalities that we know are so effective with 5MEO is they're not FDA validated.
+
+[55:47] And so they have a, they have a tough one ahead of them, I would say. But you know, when we look at their, I would say their main competition, GH research, their whole model is based on zero therapy at all. No prep and no integration. I would say we know from vast experiences to be very dangerous, to be very, very dangerous.
+
+[56:07] And I understand the why in terms of why drug development companies want to try and remove as much therapy as possible in the clinical study. I get it makes more sense to the FDA, but my hopes are that this does not set a precedent to an acceptable bar of when it comes to this.
+
+[56:23] Because if people do want the change that they, that they're looking for, they're going to need way more therapeutic support than I think is currently understood in the, in the current model. Thank you. All right. Thank you, Joel. Thank you, Fede.
+
+[56:38] Appreciate it. We're going to take a, yeah, thank you guys. We're going to take a brief 10 minute break. So feel free to get up, stretch, take a walk, talk to friends and neighbors, and we'll be back with our next talk shortly. All right.
+
+[1:08:06] If we can start making our way back to the seats, we're going to get going with the next panel on 5MEO DMT. All right. All right. Let's take a seat. We are about to talk 5MEO DMT and got quite a lineup.
+
+[1:08:39] This is the good stuff. All the good stuff. Check, check, check, check. Check, check, checkity check. This is on. Thanks guys for joining. I'd like to start with some introductions.
+
+[1:09:09] We have Joel Briere, who just spoke on the previous panel, founder of Tandava Retreats, one of the best known organizations focused on 5MEO DMT. Co-founder of 5 Discovery with Manesh. And your work spans facilitation, education, research. You develop new approaches of bringing 5MEO to therapeutic and scientific research.
+
+[1:09:36] We have Reverend Merrill Ward, who's an ordained Gnostic priest, founder of Awakening Divinity Ministries. He's an educator and leading authority on 5MEO DMT and entheogenic spirituality. And Dr. Manesh Guirn, who is a neuroscientist, scientific director at the Center for Minds.
+
+[1:09:57] And now co-founder of 5 Discovery with Joel. And you research consciousness, emerging psychedelic therapies, which we'll be discussing. So 5MEO is often described as the most powerful psychedelic. And I'm curious how it entered each of your lives, if you would be open to sharing some very short stories.
+
+[1:10:30] You know, though my first time trying it was in 1999, I don't really consider it my first time with it. It wasn't a real proper experience. My first proper time was with this fellow right here, many years ago. So I would say I was cracked open by the man to the left of me.
+
+[1:10:47] I can neither confirm nor deny that's true. Wow. That's a good one. Thank you, Joel. Good setup. So I found 5MEO DMT back in 2005 as a rock solid 13 years sober person. And stepped into an environment where I was offered this. I wasn't told anything at all in regards to what it was.
+
+[1:11:13] Talk about risk reduction. And yet, for some reason, I said yes. And in that one dynamic experience, it completely changed the trajectory of my life. And put a focus on my life of bringing this particular experience to people in safe and responsible ways that I've continued to do over the last 18 plus years.
+
+[1:11:36] So. And I've dedicated my life to doing so while I'm ground breath. Nice. And for me, yeah. For me, I got introduced to 5MEO for the first time back in 2021. I mean, I'm trained as a scientist. I've been always, you know, approaching it from an academic angle since I was in my late teens, but also as a psychonaut.
+
+[1:11:56] And it was a matter of time until 5MEO fell in my radar and I had an opportunity and found it to be really profound because my entry into psychedelics was also through an interest in meditation and Eastern spirituality and reading about these kinds of, you know, mystical experiences and non-duality and all this. And this was called the, you know, the God molecule, the non-dual inducing molecule.
+
+[1:12:17] And so I had to try it. And it's been a very profound experience and continues to be core to my psychonautic practice. Thanks for sharing a little bit. I'd love to, in your own words, to describe your work with 5, starting with Joel. My work with 5 is to be in service to this beautiful medicine to help it safely reach the world in effective ways.
+
+[1:12:42] And so my work spans from facilitation to hiring and training amazing facilitators and specialists to raising money for our businesses to continue to grow, to getting to discover new potential drugs with Mr. Minesh here. And so my work revolves around all aspects of 5-MEO DMT naturalistic to clinical.
+
+[1:13:07] Meryl? So I would say my work is really at its core about the re-enchantment of humanity. That this is really what is the most important, is bringing realization that our conscious connection to what I like to refer to as source is always there and it is always present.
+
+[1:13:28] And that we can touch that. In fact, anybody can actually come into alignment with that. So it's about offering this molecule as a catalyst in a safe, sacred and responsible manner to people who are ready to step into that. So they can have a direct experience with what we refer to as source consciousness for the betterment of their lives and for the transformation of the individual and the collective humanity that we're existing in at this critical time in human history.
+
+[1:13:58] Beautiful. So yes to both of those things as well. And given my scientist's angle, I'm very fascinated in 5-MEO as distinct from psilocybin and the other psychedelics. Phenomenologically, it's very distinct in that it usually has less content and it's more a deeply kind of dissolving experience of oneness and unity.
+
+[1:14:18] And, you know, understanding further what is that looking like in the brain exactly? How can we understand the distinctive mechanisms? And also just how can 5-MEO be used beyond that? There's a growing interest in more holistic kind of understandings of how it influences biomarkers such as inflammatory cytokines or the creation of new mitochondria in our cells.
+
+[1:14:39] And there's so many things that this molecule does, as with other psychedelics, that are very under-characterized. And so I'm, you know, neuroscience advisor for Tendava retreats and also 5-Education, which Joelle runs around 5 and just bringing this kind of understanding to it and helping us to create new protocols but also deepen our understanding for the field.
+
+[1:14:59] And most recently, yeah, I'm co-founder and CEO working with Joelle at 5-Discovery where we're developing new molecules based on 5, harnessing these kind of non-psychological aspects of the beneficial effects for neurodegenerative conditions. And so that's just like a, you know, glimpse into all the applications of this molecule, which I think are fascinating.
+
+[1:15:18] Can I jump in with one quick thing as well? Just to be clear, I consider myself what's called the scientific illuminist, the method of science, but the aim of religion. So it's really about opening up that consciousness. And our work through the Temple of Awakening Divinity has been studied by various teams, including the Johns Hopkins team for some of the original anecdotal research studies that happened in regards to 5-MEO DMT.
+
+[1:15:44] We've worked with Columbia and more recently in observational research study with Harvard Divinity School. So we definitely like working with academia. I'm curious. Who in here has done 5-MEO before? All right. So that's who we're talking to.
+
+[1:16:00] Okay. Just so we know. Preaching to the choir. I love that. I'll, Meryl, ask you the first question. You have a lot of experience working with 5-MEO DMT. You've been in the field. Define a lot. For several decades, as I understand. And in particular in its application as a spiritual sacrament.
+
+[1:16:28] Can you speak to this specific application as a sacrament in its distinction from other therapeutic applications or medical? Yeah, absolutely. So, you know, we mentioned earlier today about set and setting. And then also structure, which was good.
+
+[1:16:48] But there are four more S's that are critical. Safe, solid, sacred, secure. If those things are not in place before somebody is stepping into a rigorously held container, they're not in the right place, especially with this medicine. And so I would say that our approach is initiatory.
+
+[1:17:09] And that is specific. Human society, all cultures have been using initiatory frameworks since the beginning of culture. Until now. And now we are missing those initiatory frameworks to really bring things like this medicine forward in a way that can transform not only the individual, but can transform the collective consciousness of humanity, which is what I believe we're actually doing with this.
+
+[1:17:37] Can I add some monitor there? Yes. Just to really highlight, you know, the initiatory rites of passage were something that were present in all of our genetic ancestry. 99.99% of humans have ancestors that engaged in belief systems and cosmologies of animism and had specific initiatory rites of passage.
+
+[1:17:56] And these have a place in this human psyche. And there has been the systemic removal of these over the past 2000 years plus. And the results of that have been seen. And so this is a huge opportunity, the return of the initiatory rite of passage as a psychological benchmark, essentially, of our own growth and progress.
+
+[1:18:15] And to piggyback on what Joel just said, Joel was one of the first people that I met in my practice who had actually trained as a Raja yoga. And I also am a trained Raja yoga. And that training in Raja yoga, the royal yoga, was what really provided a firm foundation for myself in being able to understand how to completely surrender one's egoic consciousness.
+
+[1:18:44] To this medicine. And that has to be a conscious, cogent, and consensual choice by the individual who is stepping into this. And education is absolutely critical and key within providing that contextualization. Absolutely. Joel, phenomenologically speaking, what makes 5MEO so distinct from other psychedelics?
+
+[1:19:12] And why are we seeing it so therapeutically beneficial for treating depression, PTSD? I know you work with veterans in Tandava. You know, first I'd say what makes the experience so different? I'll try and make it as simple as possible. Any other psychedelic you can put into one category.
+
+[1:19:30] 5MEO is going to be in its own category. The main differentiator is anything else, I take something and I go on a journey. I may see colors, shapes, ancestors, spirits receive information. With 5MEO it's that sense of I that's temporarily dissolving away.
+
+[1:19:46] So rather than a subjective journey somewhere else, it's more of a temporary dissolving away of subjective self. And that leads to an experience that is ineffable and inscrutable to the mind in every way. So quite hard to describe. The best we can do is art.
+
+[1:20:04] You know, Sufi poetry, Zen proverbs. You know, it can be felt. It just can't be known by the mind. But why this has such profound, I would say, therapeutic benefits. Why this can be so amazing therapeutically speaking is, well, one, there's the mystical experience itself.
+
+[1:20:20] And now through a lot of research, we now know that the mystical experience tends to be one of the more catalyzing, profound, significant experiences of a person's life. Then there are the neurological aspects. 5MEO DMT induces quite a strong state of neuroplasticity.
+
+[1:20:36] And it reopens the critical learning period window. So it brings the brain back into a malleable state for a little while. It temporarily interrupts the architecture of the self-identity. Allowing for a softening to the rigidity of existing patterns that have been present since, usually since childhood.
+
+[1:20:54] And so we use 5MEO as a key to open up a very wide doorway to the deepest layers of ourselves that we normally can't access. And then through amazingly skilled specialists, we work with and get curious around the content that is coming in and out of that doorway.
+
+[1:21:11] Thank you. And I guess, Manesh, from a neuroscientific perspective, can you explain some of these mechanisms? Yeah, yeah, for sure. So who here has heard of the serotonin 2A receptor? A lot of people in this space. Okay, awesome. So that's the main receptor that we believe that psychedelics usually act through.
+
+[1:21:31] You know, with psilocybin, with LSD, there are studies, if you block this receptor, and give people all, you know, large amounts of these molecules, and they're not going to trip, and they're not going to show the distinctive brain signatures.
+
+[1:21:41] And so we know that that receptor mediates, you know, the primary effects of classical psychedelics. With 5, it's really interesting, because out of the classical psychedelics, it shows a really strong bias for this other receptor, called the serotonin 1A, which, in contrast to the 2A, actually reduces the activity of the neurons it's located on.
+
+[1:22:01] And so, you know, we talked about the distinctive phenomenological effects, the distinctive pharmacological effect is this 1A selectivity bias, you can call it. And it's an open question what exactly that does, but the general conception of it is that it helps, it dampens down certain of the activity that's induced by the 2A.
+
+[1:22:23] For example, in the visual cortex, which reduces the propensity to have these kind of phantasmagorical, intense visuals. And also, there's more recent data coming out now with EEG, suggesting that it really increases these slow-wave activity in the brain, in an interesting way that increases it while also kind of fragmenting and disorganizing it.
+
+[1:22:47] Which is basically like, how I understand it, is like it's basically disturbing the ongoing model building of your brain, of where it's creating a perceptual experience of the world and our experience of ourself in this stable way, through these slow brainwaves that are going on and kind of underneath in the undercurrents of our brain.
+
+[1:23:07] So it's basically, in a unique way, likely through this serotonin 1A effect that other psychedelics don't have, disturbing the substructure of our psyche, of what maintains a constant perceptual experience and this conception of I am this person embedded in time with these characteristics, et cetera, et cetera.
+
+[1:23:27] And also that I am located here in space and I'm not one with this wall over here. And so it somehow gets into that really deep layer and deconstructs it, allowing for this space where we no longer have ourself on board, don't have perceptual experience active, but we're still there.
+
+[1:23:43] We, you know, in the sense of a free-floating awareness, which is not even making sense to call that by a referent, but it's like this leaves the basic kind of experiential awareness that underlies or is prior to the experience, through these mechanisms very likely. In addition to that, you know, through the serotonin 2A, it is potently neuroplastic.
+
+[1:24:04] It increases neuroplasticity in a lasting way, which in rodents lasted 30 days plus from one experience, and five only last 15, 20 minutes when you inhale it. You get neuroplastic changes 30 days later. In addition, it reduces inflammation in your brain and body as well.
+
+[1:24:21] And so, you know, it has this host of effects through these different mechanisms. And one of the fascinating things about it is it is, let me see if I get the term right, it is, it creates greater dendritic spine growth in the actual neurons.
+
+[1:24:37] And so it's literally physically changing the physiology of your neurons by synaptogenesis, that's the word I was looking for, by creating greater dendritic spine growth, which is what provides the neuroplasticity. But there's something important here that we don't want to miss, and Bob brought it up before when he talked, is the mystical unitive experience. That's been my interest throughout all of this is connecting in with divine consciousness.
+
+[1:25:07] And 5-MeO-DMT, more than anything that I have witnessed or heard about, does that in spades. In the Johns Hopkins research that I talked about, which was granted an anecdotal research study, but of over 380 members of our temple community, we got to an 83.6% ability to get people into the complete mystical unitive state of consciousness, based upon the MEQ, the mystical experience questionnaire, originally developed by Walter Pankey,
+
+[1:25:41] and then further developed by Rick Doblins, and then more so and kind of perfected by Fred Barrett, who is now the head at Johns Hopkins. So these are statistically verifiable states of consciousness. And it seems that by providing the appropriate context, our work has been able to really maximize those higher than anybody else that we're aware of so far.
+
+[1:26:08] Great. So the complete unitive mystical experience you describe can be extremely transformative, or very challenging. And how do you prepare someone for that? You go first. You know, first by getting to understand where the person is coming from.
+
+[1:26:30] Each individual is coming from somewhere else. Each individual is going to have a different orientation to their sense of self. Each individual is going to have something different that they may value, a different belief system. And so during our preparatory process, we're getting to know each person, getting to understand where they're coming from.
+
+[1:26:47] What kind of languages are you comfortable with? Can we explain this through non-dual Vedic philosophy? Or do you identify as a rational skeptic? Do we need to bring in quantum mechanics and quantum physics to explain this? Or Joseph Campbell's hero's journey?
+
+[1:26:59] There's a lot of ways we can convey this, but there are reliable geographies and frameworks to communicate the transcendent and what can occur as we approach and return from it. And so also getting to understand what someone needs to be comfortable with losing their shit.
+
+[1:27:18] At the end of the day, the last thing the mind thinks is, am I in a safe place to lose control? You know, before the mind dissolves away, that's the last thought. And so we like to get curious around what is that going to take for it to be a yes?
+
+[1:27:31] What does each person need to feel safe enough to kick their feet up and be carried by the ride? And Joel mentioned it in your previous talk. It's managing people's expectations. When you're dealing with something that my good friend and colleague, Dr. Martin Ball, has named the God Molecule, people walk in the door with a lot of expectations.
+
+[1:27:51] And so part of that education process is getting people to be realistic about what they're stepping into. And there's really three specific qualities that I've discovered that are inherently necessary for somebody to have what I would call the positive experience.
+
+[1:28:09] And they're really simple. And when I say them, you're going to look at me and go, what? Ready, willing and able, meaning the individual has to be ready for this experience. They have to be willing, meaning they have to give complete consent to recognizing their consciousness is going to be dissolved and the ego is going to be liberated or dissolved away from their regular consciousness.
+
+[1:28:35] And then when that molecule hits the synapse, that person has to be absolutely ready to surrender. And so the contextualization of that is incredibly important, but it starts with education and orientation. So it's not just about educating people what can happen with this.
+
+[1:28:54] It's orienting them in their particular frame that Joel was just mentioning of how they are going to respond and then bring themselves back and ground in in a solid integration framework. And again, integration becomes very, very different for each individual as well.
+
+[1:29:14] Can we speak a little bit to integration frameworks? How do you approach them? Yeah. You have one of the most rigorous integration frameworks as almost anybody I've seen. We have a very individualized process. So through Tandava, we have a big team of specialists with different skill sets.
+
+[1:29:36] Some are clinical psychologists, trauma specialists. Some are Jungian analysts. Some are IFS therapists or somatic therapists. Some are Hakomi specialists. And some are spiritual guides that come from ancestral lineages. So the idea for us is to select the appropriate specialist who has the background, the skill sets, and the personality to really help this person navigate at least the next four weeks after their experience.
+
+[1:29:59] And so with integration with 5-MeO, we find that curiosity over pathology at all times. Bringing practices like CBT into integrating 5-MeO can sometimes go a little backwards. You know, the more cognitive-based therapeutic modalities I wouldn't say are the best fit for 5-MeO because 5-MeO's mechanism of action is bypassing the thinking mind.
+
+[1:30:25] So therapeutic modalities that can also do the same and communicate with the innate intelligence of the body and the subconscious and the psyche. And yeah, just a lot of curiosity. A lot of curiosity and a lot of skilled specialists who have been to the depths themselves and so can hold a participant in the depths of their process.
+
+[1:30:47] And I've been honored to be able to participate in that full process for a, I don't call them retreat. I call them entheogenic advancements that we held called Quintessence, which was an exploration of the five elements over five days utilizing two sessions with 5-MeO DMT.
+
+[1:31:05] And I have to tell you that the experience that I had working with the integration guides that Joel has both in preparation and on the back end for that four weeks of integration, which I also participated in as the facilitator was impeccable.
+
+[1:31:22] Our community works on a sponsorship model, meaning people do not come to it to initiation until they have been sponsored by somebody who's been through the experience. So they have somebody that they know really, really well that is their ally.
+
+[1:31:39] Now, does that mean that person is going to be skilled to be able to help that individual integrate? Not necessarily. But what we have is regular group integration models in person when we travel around doing the work that we do. And we also have online models and specific practitioners within our ecosystem that can work with people who need a more detailed experience.
+
+[1:32:03] We need a more detailed integrative process. I think that's such an important discussion to have. Manesh, some people come back from a five-MeO experience saying it felt more real than real. Would you be able to explain that? Yeah, I can offer some thoughts.
+
+[1:32:27] Yeah. I think there could be several things ongoing there. One is the serotonin 2A mechanism. It's been found, you know, with other substances. I think there's an LSD study where it increases the attribution of significance to music, for example.
+
+[1:32:45] And that's not unsurprising for anybody who's ever taken a psychedelic, right? Things feel more profound. You might understand. You might have a greater perceptual access into the layers of what you're perceiving. And things hit with a lack of familiarity or like a new novelty.
+
+[1:33:00] Like even Aldous Huxley, you know, talked about the suchness of the chair. It's beckoning at him, you know, as if speaking to him, just by existing, by pure, raw existence. And so people generally, through the serotonin 2A receptor, some have this increased sensitivity to their environment, which lends itself to novelty, which lends itself to significance attribution.
+
+[1:33:22] And this actually, you know, in rodents too, they become more sensitive to their environment with serotonin 2A drugs and with increased serotonin levels. And so that's something very deep in the biology is this somehow greater attunement perceptually.
+
+[1:33:34] And then secondary to that, there's a lot of studies suggesting that when we're highly like aroused, as in like high energy, high noradrenaline states, like you almost got hit by a car is like a negative one or you go skydiving. Those experiences are like are dialed up and the significance we attribute to them and also how much they're encoded into our memory.
+
+[1:33:55] And five is a very, can be a very activating experience. And in my, you know, in the initial stages especially, your heart rate might shoot up. It's a lot to surrender and lean into, hence the, you know, requirement for preparation and the feeling of safety and security.
+
+[1:34:10] But I think just purely from an arousal, wakefulness perspective, with this upregulation of the hormones and neurotransmitters related to that, like noradrenaline, that itself too would help you make people feel like, wow, this is super intense and very, very real.
+
+[1:34:24] Five MEO also gives us a expanded understanding of what reality actually is. We are sitting right now in physical reality. We can go into dream state, we're in visionary reality, visionary reality. We can move beyond that into archetypal transpersonal reality.
+
+[1:34:44] Five MEO moves us into a state of what has been referred to as the ultimate reality. It is a state of participation mystique that really allows us to experience the fullness and the totality of what reality is. It's not that we can say, oh, there's samsara and nirvana.
+
+[1:35:06] There is that which is real and that which is unreal. It's all real. It's just our understanding of reality is incredibly limited right now. Can I add? That was great and that inspired me to think of this other angle is that, you know, we talked, I'm not sure if it came up today, but the rebus model, the relaxed beliefs under psychedelics model, which is a kind of a leading model, a framework for understanding how psychedelics work, suggesting that they kind of relax our beliefs, our prior, like, expectations and beliefs and the conceptual filters and lenses through which we see the world.
+
+[1:35:39] And we can say those are what give us a sense of, oh, I've seen this before. It's not important. And allow us to or like lead us to explain things away and not fully engage with them. And so when you're in this kind of state of consciousness where you're kind of gone beyond the mind, the mind is no longer there.
+
+[1:35:56] Your conceptual apparatus is no longer online and you're seeing things in their rawness. And then you're seeing them in their profundity just naturally with the lack of those filters. And so all this goes hand in hand and hand in hand. And it's also seeing, you know, the divine and the ordinary, the profundity of the mundane.
+
+[1:36:13] And this is, you know, common experiences, of course, talked about in mystical traditions. But as these two have eloquently highlighted, that's very common with five as well. And interestingly, I know you, Manesh, and Joel at Five Discovery are developing a non-hallucinogenic 5-MeO-DMT analog.
+
+[1:36:31] Can you tell us a little bit more about that? Yeah, I can dive into that. I mean, so I think with psychedelics is they're extremely profound, as we know, can induce these transformative experiences. That could be sources of insight, catharsis, spiritual connectedness.
+
+[1:36:45] But the truth is also not everyone's ready for that or they might be contraindicated from any various psychiatric, psychological reason, or even cardiovascular, especially older adults, let's say. And so there's this trend in the field to try to develop molecules that are based on psychedelics but are able to have the neuroplasticity and anti-inflammation effects without making them trip.
+
+[1:37:08] And this is a really interesting thing that these can seemingly be dissociated. And now it's, you know, mostly in rodents so far, but there's some initial human data suggesting that it is possible. And that these compounds, the psychedelics without the trip, can actually be effective for depression and anxiety.
+
+[1:37:23] And so at Five Discovery, though, you know, we think in general that for things like depression and anxiety, that psychological experience seems to be pretty essential. In addition to the neuroplastic effects because you want that momentum, you want that insight that helps encode why you're getting better instead of artificially changing your psychological life.
+
+[1:37:44] But for neurodegenerative conditions like Alzheimer's, let's say, or Parkinson's or brain injuries or even MS and other conditions, those are more, you could say, physiological and neurophysiological basis and less psychological. I mean, it's all connected psychology always matters, but these are more purely structural functional brain dysfunction, like based in brain dysfunction.
+
+[1:38:07] And so we're developing drugs based on 5-MEO with the hallucinogenic psychedelic aspect kind of engineered out while maintaining or even optimizing the other effects to make it more accessible for older adults who are suffering from neurodegenerative disease. I'm curious if removing the hallucinogenic property affects the mystical experience. Is it still a subjective mystical experience?
+
+[1:38:36] No, the idea is they're just taking it home and we don't, it's funny, they're psychedelic inspired molecules, but we refer to them as neuroplastogens and not even as psychedelics because if they're not inducing a psychedelic experience, why are we calling them the psychedelic, right? Like the concept of non-psychedelic psychedelics doesn't make any sense, right?
+
+[1:38:56] And so neuroplastogen, right? Nero-brain-plasto-plastic gen-genesis, right? Neuroplasticity-generating. It's basically what we call them and the idea is that they're not supposed to have a distinctive psychoactive effect and they're supposed to be able to be easy to give to somebody to take home on some maybe like once a week, maybe three times a week, something like this.
+
+[1:39:16] It's fascinating. Can I offer a little counterpoint to that? So one of the things I found fascinating when our group worked with Johns Hopkins, I had no idea what these studies were going to reveal. And one of the things that they did was that it was the mystical unitive experience itself that was most responsible for the benefits that people were receiving.
+
+[1:39:41] And that blew my mind. I just was really, really surprised and very, very encouraged by that. That's why I'm super encouraged about the physiological pieces that you guys are working on with these. And what did you call them again? Neuroplastogens.
+
+[1:39:58] Neuroplastogens. I love that. That's awesome. Well, we're seeing 5MEO have kind of a mainstream moment in the longevity space with Bryan Johnson's recent livestream, which, you know, created some hype, some curiosity, also maybe some risk. Yeah, would love to hear your thoughts on this.
+
+[1:40:20] Yeah, we've had a few people reach out asking if they can do 27 milligram doses. Under certain circumstances, the answer is yes, but they have to have certain circumstances. You know, while on one hand, it is, of course, wonderful that 5MEO is making it more into the mainstream.
+
+[1:40:39] And, you know, that livestream, there wasn't much dialogue around safety or best practices or particularly around what may be needed to keep someone safe around doing doses like that. So we would say that right now, you know, and I remember Meryl saying this 10 years ago, you know, optics are very important right now as psychedelics go more in mainstream and I think more now than ever.
+
+[1:41:10] And I think those of us in the field have an immense responsibility to lead by example and to keep education at the forefront and to keep integrity at the forefront. I think that requires us all to continually work on ourselves and our own processing.
+
+[1:41:30] I would tend to agree. Somebody said to me, somebody in my, one of my, we have an acolyte training program for people interested in bringing this forward in a more spiritual manner. And one of my students said, well, all publicity is good publicity, isn't it?
+
+[1:41:50] And the answer is no, no, it's really not. And so what Joel brings up in terms of that really getting a lot of eyes was a million and a half views on 5MEO DMT with no discussion of the responsibilities and the necessary kinds of preparation, moving into orientation initiation frameworks and then responsible integration after that.
+
+[1:42:17] You know, it's a mixed bag. And so the term that I use is the toad is definitively out of the bag at this point. And so then it really pushes the need for greater levels of education. And with spaces like five, with new models that my friend, Dr. Azul Del Grasso just put out the unit of codex, which is specifically an AI model through chat GPT that has pretty much every clinical study, every research study,
+
+[1:42:51] any kind of information that's ever been reliably sourced for 5MEO DMT into an AI. And I want to encourage people to use that to begin to educate themselves. And it's surprising how intelligent the AI is as far as that is concerned. And I have a lot of concerns about AI within the context of the psychedelic space, because we've never been in a space in human existence where our consciousness is being externalized by AI,
+
+[1:43:24] and where the intimate experience of union with divine consciousness, the ultimate spiritual or religious experience is also being externalized by things like 5MEO DMT. And so we're at a particular crux point where we need to be very, very careful.
+
+[1:43:44] Because there is one thing and one thing only that is critical at this time. And it's, well, two, responsibility and discernment. And discernment is probably the one that is most critical. And how we bring these forward in responsible and ethical manners are absolutely imperative.
+
+[1:44:03] Thank you. I'd love to open it up to the audience if anyone has questions. Can we get a microphone over here? So everybody can hear? Hey guys. Whoa, whoa. Okay. I can hear that. Okay. What's your name? I'm James. Hey. This is great timing, because I'm just four weeks off the back of my first ever Bufo experience.
+
+[1:44:29] And there's 100 milligrams in it. Definitely sent me somewhere different. You said 100 milligrams? Mm-hmm. Yeah. Bufo. Yeah. So it's about equivalent of, 100 milligrams is the equivalent of about, what is that? 13 milligrams of pure molecule.
+
+[1:44:45] Of synthetic. That's about a seven to one ratio. Okay. Okay. Approximately. Yeah. I mean, I've got, you know, enough questions. After the panel, but I guess one that is on my mind is, oh yeah, I've got questions about integration I'd love to talk to you about, but one more philosophical question.
+
+[1:45:04] I'm sure you've, through your work, sort of, you know, seen thousands of people go through their first DMT experience. And have you seen many people, I was raised in a very devout Christian household, and I think where you go to, when you go past that threshold, it's very hard to then compute with any major religious beliefs you might have been sort of brought up with.
+
+[1:45:29] Yeah. And I'm curious, have you seen many people go from being, say, let's just talk about the major religions for a second, like being Christian beforehand to, after that experience, not believing in it, or the other way around? Both. Yeah.
+
+[1:45:45] Yes and no. Both. And some, it confirms where they're already at in their religious faith. So, that's what it did for me. I'm a Thelemite. So, you know, it's an odd, you know, religious practice to begin with. But this did not create a conversionary experience, which it does for many people.
+
+[1:46:05] For me, it was an absolute conformational experience on the reality of what I refer to as source consciousness, and our ability to come into union or yoga with that. I've also seen other people come who were devout atheists. And Martin Ball is a great example of that.
+
+[1:46:25] Martin Ball came to me as a rationalist atheist. He left neither rational nor atheistic, is what I like to say. And then I have had other people where it has shattered the framework of their belief system. So, they've had to come into a reorganized understanding of what it is they understand.
+
+[1:46:48] And I was about to say belief, because the thing that has gotten really clear for me is God requires no belief. It doesn't require our worship, it doesn't require any of that. It merely requires the understanding that we are that at a slower vibrational frequency and in a physical body.
+
+[1:47:15] That's big. Any other questions? Josh? Josh? Yeah. I want to hear this one. Go for it. So, fast forward 10 years into the future. What does the ideal space look like for 5MEO? I would say my hopes, my sincere hopes, 10 years in the future are that there are a lot of different ways to experience it.
+
+[1:47:45] From clinical application to naturalistic multi-day containers, from spiritual ceremony towards pure treatment. I feel that the full spectrum really has a place. And I look forward to people being able to approach this medicine on their own terms, in terms of seeking the kind of experience or process that they would like, that feels in alignment with them and that feels safe to them.
+
+[1:48:12] So, 10 years, it is not impossible that we will have brick and mortar clinics within the US. Likely, it's going to start with partnerships with legacy institutions that are already taking insurance. But we may start to see 5MEO specific clinics after that.
+
+[1:48:27] We may begin as statewide policies begin to shift state by state. We've got our eyes in a few areas right now where we may see Tandava activity in the US within a couple of years. So, my hope is that in a decade, this medicine has made it out to the world and there are safe places for people to do it.
+
+[1:48:46] The education is front and center. The day of the cowboy and the fake shaman is done with. And we can work with these medicines in beautiful, integral ways. I love that. I second that motion. And I'm definitely in agreement with that vision.
+
+[1:49:04] And one of the reasons that I do this work is that I truly and firmly believe that everyone has the right to have this experience. And that we are able to bring the models forward from our laws that we will be able to provide that to people in a way that actually gives them access to it.
+
+[1:49:29] One of the ways that our temple works is specifically to work in a context where people can approach this in affordable ways, in ways that they can have regular access. And so, that's a big piece. And right now from the spiritual religious side, it's like we're the Christians in Rome, right?
+
+[1:49:51] So, we're either operating in countries that do not have laws against the use of this practice, or if we do, we recognize that we're taking an awful lot of risk on in that process. Just as early Christians took on in the Roman era, before, of course, Constantine then adopted it, and subsumed Christianity into the Roman system.
+
+[1:50:15] So, you know, hopefully we'll become a softer, kinder, gentler world, and that we will actually exist in ten years from right now. Because there's some serious question on whether or not we will, if we do not radically shift and change how we are approaching life on this planet.
+
+[1:50:37] Because if we don't, we're not going to sustain for ten years. Well, on that note. That was kind of definitive and scary, wasn't it? Real upbeat ending. Thanks so much for joining us. Thank you. Thank you. And I want to, Katja, I want to thank you guys, the whole team, for putting this on.
+
+[1:50:59] It's really great. Thank you so much. Thank you. And if you'd like some more information, come talk to me in the back of the room. Cool. So, right from 5MEO DMT into Iboga and Ibogaine. Hello.
+
+[1:51:49] Or are we introducing ourselves? We can introduce ourselves. Either way. You tell me. You guys. Like, repetitive. Yeah, sure. Yeah, let's stream it.
+
+[1:52:20] I want to know where to see it. Okay, amazing, because I want to send that to some other people that are part of the group. All right, we're about to get started with the next panel.
+
+[1:53:05] So, we're going from 5MEO DMT into Iboga and Ibogaine. This is our last extended talk. And then we've got three sort of lightning talk presentations that follow to wrap us up. So, we're almost there. I know it's been like a mental journey, staying present and keeping attention.
+
+[1:53:23] But super excited for this next talk and look forward to learning from you. All right.
+
+[1:54:04] Take it away. All right. Hello, everyone. So, we are so excited today to talk to you about Iboga and Abigail, which has all of a sudden gotten to the forefront of all of the psychedelic medicines. And so, you know, here we are at the psychedelic track of Edge Esmeralda talking about the past, talking about the future, how we can be in community.
+
+[1:54:30] I love the perfect setup. Thank you, Katya and Daniel, for organizing things to be sandwiched between Meryl and Joel, talking about initiation. Because the beauty of this medicine is that it comes from one of the oldest living traditions today, an initiatic tradition, which we're going to get into.
+
+[1:54:51] But first, let me introduce ourselves. So, my name is Tricia Eastman, and I am the founder of the nonprofit Ancestral Heart, and we have been doing biocultural stewardship, indigenous led globally, but primarily focused on the traditional practitioners of Bwiti in Gabon.
+
+[1:55:09] We've raised over $1.2 million to date. And I got my start 12 years ago. I'm an initiate of the tradition. I'm a NIMA student, so I'm studying to become an initiator in Bwiti. And what is most exciting to me is that I started at Crossroads Abigain, facilitating the psycho-spiritual program.
+
+[1:55:36] And then from there, transitioned to Mission Within, working with special ops veterans, Navy SEALs. And now, with all of the things that are coming forward, which a lot of it was activated by all of these people that have had so much profound healing from the medicine over the last decade, now we're really getting to step forward in a big way for the biocultural stewardship of the tradition.
+
+[1:56:05] And another thing that I think is really important to mention is that we are building a center in the Azores, which will kind of be like an esalen of the EU. And I'm really excited to have you guys all there. We're opening in 2029. And we really want it to be like kind of a social experiment like this, but bringing the ancient traditional wisdom respectfully with elders, bringing different leaders who humbly want to learn so that we can move forward.
+
+[1:56:36] And we don't want this to be the end, like Meryl said. And I do believe that the medicines are kind of like the break glass in case of emergency. And they have stepped forward to allow us and empower us to make the choice to move forward. But we're going to have to make some changes. And I think this medicine can really help with that.
+
+[1:56:59] Here you go. Thank you. Hello, everyone. So grateful to be with you. My name is Joseph Barsulia. I'm a clinical psychologist by training. And I did kind of the mainstream psychology, worked in the mental health system, contracted Lyme disease, which sent me on a healing path, and I had to pull out of a postdoc.
+
+[1:57:16] And shortly thereafter, a doctor in Mexico, Martin Polanco, asked me to come and do research with Ibogaine and 5-MeO-DMT. And this was like 11 years ago. And he told me at the time there's this African plant that gets people off of heroin in 12 hours.
+
+[1:57:31] And I was like, what the hell? What is this? Like it wasn't really known at the time. And so most of my work's been publishing observational research on Ibogaine and 5-MeO. And I've had the honor of accompanying Tricia, who's my wife, on worldwide journeys, facilitating and receiving Iboga.
+
+[1:57:50] And we're going to Gabon next month, and we continue to learn and train. And I have so much fun just kind of advising broadly. I have a deeply spiritual background. I'm an ordained minister through the Center for Sacred Studies. And so to me, the most fascinating and promising intersection is holding the science and the sacred, as well as honoring the traditions to bridge into the future.
+
+[1:58:13] So we're excited to share with you about Iboga and Ibogaine. So has anyone done Ibogaine? Any brave souls want to raise their hand? Okay, wow. Quite a few actually. So Iboga is the roots. This is where this comes from. It's probably been used since the dawn of human civilization in the equatorial region of Africa, which encompasses Cameroon, Congo, Gabon.
+
+[1:58:39] And it was used by what are called pygmy tribes, which are like the Babongo and the Baca. And this is like the original Eleusis. These are the carriers of ancient practice of initiatory rites. And it was used functionally to go to the other side of the veil, to go into the realm of spirit, and to receive information, and also to reclaim one's spiritual identity.
+
+[1:59:05] So they have a view that we are souls, and you are an immortal being. And your job as you incarnate is to remember your immortal nature. So that's part of the initiatic processes. And it's really to simulate death. The temples in Africa, they're designed around kind of like a funeral ritual, that Trish is going to share a little bit more, and then a rebirth ceremony.
+
+[1:59:28] And Iboga, the word itself, it means to care for. So even though those of you who have taken it may know it kind of can kick your butt pretty good, its essence is to heal and to care for those who receive it. And it's known also as the proverbial tree of knowledge of good and evil, that is in the mythology of the Genesis story in the Garden of Eden.
+
+[1:59:52] And you can see the seed here in the upper left-hand corner actually resembles quite closely the human brain, which is an interesting kind of signature in nature. And it has these five star petals in a star-like formation in the flowers, which are pollinated by bees and butterflies.
+
+[2:00:12] And the seeds are eaten by elephants and gorillas. And there's some fun YouTube videos of elephants tripping on Iboga that have eaten the roots. And the medicine is really in the middle layer of the bark. So you shave off the outer layer and the alkaloids are in the middle layer.
+
+[2:00:30] And if you've consumed raw Iboga, it's like the most bitter thing that you could imagine. It's so bitter that when we've received or facilitated ceremonies, we have to coach people so they don't vomit when they're trying to swallow it. And in ancient forms of medicine, Ayurveda, Chinese medicine, we know that the more bitter a medicine is, the more medicinal it is.
+
+[2:00:52] And I would say Iboga is kind of at the top of the scale in terms of its medicinal potential. So what about Iboga versus Ibogaine? So I think a crude analogy is kind of like THC and cannabis is to like Ibogaine is to Iboga. So Ibogaine is one of at least 30 alkaloids in the root bark.
+
+[2:01:13] Ibogaine just happens to be the most prominent alkaloid, but there's other psychoactive alkaloids in the plant like Ibogamine and Ibogalene that we still are researching that have this kind of entourage effect. We have a single molecule now Ibogaine because modern medicine with Ibogaine Ibogaine that started maybe 200 years ago in France.
+
+[2:01:33] We like to extract single molecules and we have a single molecule system, but really there's a complex kind of symphony going on in the botanical profile of the plant. And the difference between Iboga and Ibogaine if you take them, Ibogaine is about half of the duration.
+
+[2:01:48] So Ibogaine is very long. It's like 12 to 18 hours. And then some maybe depending on your metabolism. Iboga is about 2x that. So the first time I took Iboga I kind of got overdosed which actually ended up being a good thing and I was in bed for like four days just in another universe.
+
+[2:02:06] It can be ground down. It's consumed like in a ground form, but it can be further extracted through things like vinegar or hydrochloric acid and converted into a salt form which is what most of the clinics use now. But clinics don't use Ibogaine from Iboga for the most part.
+
+[2:02:24] Almost no Ibogaine clinics have used Ibogaine from Iboga for probably the past like 20 years. They mainly use Ibogaine from another plant called voaconga africana which also grows in Africa. But it has a shorter growth cycle. It's more sustainable.
+
+[2:02:38] And voaconga, it has a compound called voacongene. And this voacongene molecule can go through a semi-synthesis process to be turned into Ibogaine. So it's a more sustainable way so we're not ripping old growth Iboga out of the precious rainforest in Central Africa.
+
+[2:02:57] And there's new forms that are being explored for synthesis. UC Davis published a synthesis paper from Pyridine which actually is a coal tar byproduct. So I'm not super stoked to take Ibogaine from coal tar but it's a way that can be made. And then there's some new work being done on bioreactors with yeast so you can propagate Ibogaine in yeast and the yeast will continue to propagate Ibogaine.
+
+[2:03:23] This is a clinic beyond which I advise. So this is what a modern Ibogaine clinic looks like and it's pretty humble looks like a medical setup and essentially it is. There's cardiac monitoring. There's an IV that's in place. People are given IV fluids with saline and electrolytes because when you take Ibogaine it's almost impossible to drink water.
+
+[2:03:48] If you drink too much water you'll just purge it back up. So the electrolytes help also mitigate some of the cardiac risk and clinics have been using magnesium for many years. The main risk with Ibogaine is that you can have an arrhythmia that can become fatal which can lead to cardiac arrest.
+
+[2:04:06] So I'm publishing a paper on 20,000 patients that came from different clinics and we could only find six deaths out of 20,000 patients. And they were all in addiction patients that were being detoxified. So it's relatively safe but it's in the deep, deep end of medical complexity and screening and all the things that you need wrapped around it.
+
+[2:04:26] And people need EKGs before to make sure they're safe. You have to look at organ function and people have to be drug tested. If someone sneaks in some heroin or even some benign antidepressants or things they can end up having an arrhythmia and it can really amplify the level of Ibogaine in the system.
+
+[2:04:48] So the Ibogaine experience is very unique in itself. It's an onerphrenic. Sorry, this is coming up soon. Oh, sorry, sorry. We changed our slides before breakfast. You changed the order? Okay, sorry, forgive me. So Ibogaine has a whole host of potential applications.
+
+[2:05:08] So Howard Lotsoff was a famous person who was addicted to heroin who discovered in the 1960s that if he took Ibogaine while addicted to heroin, he came out and he wasn't in withdrawal and he wasn't craving his heroin. And there's a lot of preclinical models showing that Ibogaine can mitigate seeking for alcohol, cocaine, amphetamines.
+
+[2:05:34] And the Bwiti know this like in the traditional context. Like Howard Lotsoff didn't really discover anything new. It's known in the traditional context that Iboga will basically pull any poison out of the body and clean someone's nervous system and their gastrointestinal tract.
+
+[2:05:50] So it's been known historically as a detoxifying compound. It can detoxify heroin and shorter acting opiates, but the problem we're having these days is people are on fentanyl, which is much stronger and lasts longer in the body. So if someone's addicted to fentanyl now and they go to a clinic, they have to be put on morphine usually to kind of like step down because the street opiates are so, so strong now.
+
+[2:06:14] Ibogaine is amazing for alcohol, amphetamine, cocaine use. For those people have to be detoxed before they do those things. If you're drinking alcohol or using cocaine, it's not going to help you get through the withdrawal symptoms. And our clinic was treating people with opiate addiction and we started treating veterans.
+
+[2:06:36] And what we saw in the veterans was that they were coming in for pain pill addiction and their traumatic brain injury symptoms were getting better. Their post-traumatic stress symptoms were getting better. So we saw this as an amazing opportunity to treat this population that has really high rates of suicide and also to help potentially change the story in Washington, which we have seen with this Trump executive order.
+
+[2:07:01] And there's a host of medical benefits because Iboga and Ibogaine, it's like a master plant. It's like ayahuasca or psilocybin or peyote. There's a whole host of potential medical applications. And some of those that we're starting to see signal of are things like multiple sclerosis, chronic pain disorders.
+
+[2:07:22] Iboga is antiparasitic. It has some preclinical evidence of being able to treat things like colon cancer. I had tremendous healing from Lyme disease, which is a bacteria. And so this brain image was published by Jonathan Dickinson at Ambio.
+
+[2:07:39] And this was really remarkable. So this is the brain of someone who had pretty late stage multiple sclerosis and there's a massive lesion. You can see there's a huge hole in the brain. And after a flood dose and then about a month of microdosing, the size of this lesion reduced by 70%.
+
+[2:07:57] So it suggests that 70% of the white matter in that region re-grew, which there's really nothing in medicine that we know that can do that. And so Trish and I have the honor of teaching at Stanford every year. There's a very cool class in the design school called Psychedelic Design.
+
+[2:08:16] And what's interesting is that so much of psychedelics is dominated by academic neuroscience research. And we really need design thinking of how to approach this, how to scale this. What's the most exquisite end-to-end process that these things should be housed in and brought through.
+
+[2:08:35] And so these are some of the design considerations that we highlight. Iboga is called, quote unquote, the Mount Everest of psychedelics. And if you've taken it, you might testify to that to some degree. And mainly because it lasts so long and it's very physically challenging.
+
+[2:08:51] But it's not just the Mount Everest in terms of the experience, but also how to design for this in the medical system. We don't have like, we're just barely figuring out how to bring psychedelics into the medical system. And this is like two to three X more complex than psilocybin or MDMA.
+
+[2:09:08] And some of the things that we're concerned about as practitioners is the hype around Ibogaine. There's a lot of advocacy groups that are well-meaning that are like misquoting advocacy statistics. There's hype around the experience itself where people say, you're going to see a movie reel of your life.
+
+[2:09:29] And you're going to see God or realize you're a divine being. And this mainly happens like 10% of the time that we see. But a lot of the times it's people just feel like they're getting their marble scrambled in a washing machine for like 12 hours and they're nauseous.
+
+[2:09:42] And then they come out and they feel good. But it's like if they're coming with this expectation and hype, there's a lot of expectation management that's happening in the clinics because of Rogan podcasts and et cetera. And I almost fell off my chair when I heard Joe Rogan text Donald Trump, with a single dose of Ibogaine, 80% of people will be cured from addiction.
+
+[2:10:04] And the second dose, it's 90%. And I was like, where the heck are they getting these statistics? And I asked someone in the advocacy group and they said, that came from your paper, Joseph. And I was like, what the hell? And I went back and we had a paper eight years ago that showed Ibogaine will detox 80% of people off of short acting opiates, like before there was fentanyl.
+
+[2:10:26] But the cure rate is more like maybe 30%, which is still a lot better than like your average rehab center, which is maybe like 10 ish plus or minus percent on a good day. But you set up this expectation from the Oval Office that 90% of people are going to be cured from their addiction.
+
+[2:10:44] We have a reputation hype problem with this medicine. This is really complex to scale. We have to think about the cost. You have to be in an inpatient setting for at least like three to five days minimum. In terms of approval, this is like 15 years behind MDMA and psilocybin in terms of like there's not even a phase one trial yet that's been published on like what's a safe dose.
+
+[2:11:08] So even though it's happening all over the world and in Mexico, we still don't have basic like how do men and women differ in their metabolism and which liver enzymes cause problems if you take this. So there's a lot of research that needs to be done.
+
+[2:11:22] This is nowhere near like mainstream readiness. There's there's probably another five years of science that we need to do just from like a drug development standpoint just to get it to square one. I want to share with you some brain scans. So this was a brain scan study that we published about eight years ago.
+
+[2:11:41] This is looking at blood flow. This is from a spec scan. And I want to share with you that in the traditional context, they say that when you take Iboga, it's breaking open the head, which sounds kind of a violent metaphor. But what it does is it essentially flips your brain inside out and front to back in certain regards, speaking kind of as a generalization.
+
+[2:12:05] So one thing that we found across many brain scans is that it increases blood flow to the posterior occipital area and the cerebellum. And this is very unique amongst psychedelics. No other psychedelics really have this kind of profile. And in the occipital low, we know it has to do with visual processing.
+
+[2:12:25] And what's unique about Ibogaine is you actually know from a practitioner standpoint if someone's very deep in the medicine, if they have their eye shades on and you can hold up your fingers and they'll be able to tell you how many fingers you're holding up through their through their eye shades.
+
+[2:12:40] So there's this kind of really heightened sensory capacity when you're on Ibogaine and some of that persists. And then the cerebellum is unique. It's only 10% of the brain volume, but it has like 80% of the neurons in the brain. And the cerebellum is very understudied in neuroscience.
+
+[2:13:02] And it was thought, you know, 20, 30 years ago to just kind of regulate movement and basic autonomic functions. But modern neuroscience is showing that it actually has a foundational role to play in just regulating attention. And it has a role to play in terms of deep, like sticky, hard to process memories that we might call like unconscious or things that are resistant to more updating from the more rational kind of frontal lobe aspects of the brain.
+
+[2:13:30] And so what is uniform with Ibogaine is that when people come out, regardless if they have visions or whatever, they feel present and calm and they feel like the mental chatter that's normally there is significantly reduced. And this is an image that comes from the Stanford Brain Simulation Lab.
+
+[2:13:53] So they're continuing to publish papers that came out of Nolan Williams' work who unfortunately passed away this last year. And the series of papers are really the first kind of systematic observational neuroimaging studies on Ibogaine. And what was remarkable is that they found in 30 Special Operations Forces veterans, who are kind of like these elite veterans in terms of their performance, that their brains got 1.3 years younger.
+
+[2:14:21] So there was a reversal of brain age. And Nolan called this the Benjamin buttoning of the brain, which I thought was cute and actually accurate. And so the reason he said this is because there was increased cortical and subcortical volume. So this is cortical volume. So this is the outside of the brain.
+
+[2:14:40] And this was a paper that just came out I think in February. And what is striking about this to me is that there was like, let's see, 13 regions that showed increased volume growth on the outer cortex. And 10 of those 13 regions were all in the right hemisphere of the brain.
+
+[2:15:01] And so there's philosophers like Ian McGillcrest who have talked about as a society, we kind of have like a left hemisphere over reliance or dominance. We're hyper-rational, hyper-logical, hyper-linear. And something that happens in Ibogaine is it's almost impossible to hold linear thought.
+
+[2:15:21] It's almost like if you smoke too much weed and you're like, what was I talking about five seconds ago? It's like that kind of scrambles your attentional networks temporarily. And it looks like there's some durable effect in parts of the brain that are connected to more symbolic thought and empathy and non-linear thinking and presence.
+
+[2:15:41] And one slide I cut that I wanted to just share briefly was that I looked at high beta electrical frequencies in the brain, which is usually associated with like focus and concentration. And what the Ibogaine did was it moved beta from the front of the brain to the back of the brain such that if you're doing that, it's kind of like telling your frontal lobes to like, hey, chill out, stop worrying, stop ruminating, stop trying to be this over-functioning CEO and let's shift things kind of to the back and bring a little more presence
+
+[2:16:13] and holistic thinking and more of the gestalt awareness. So this is just a little kind of speed tour about Ibogaine. I think I got our slides out of order. So let me go back and do that one, yeah. Oh, okay. So a little bit about the Iboga-Abogaine experience.
+
+[2:16:33] There's kind of three buckets of classical Ibogaine-Iboga experience. Keeping in mind, Iboga has the 30 plus alkaloids and one of those alkaloids, Ibogalene, is more responsible for the visionary aspect of Iboga. You have visions with Abogaine, but both of them, I would say, on the scale of different psychedelics are not very visual.
+
+[2:17:00] And so having reliable visions is not really what the experience is about, but what the experience is about more than anything else is it's turning your senses inside out to force you unrelentlessly to look at the parts of yourself that you've been avoiding and that's why it's so effective for addiction.
+
+[2:17:21] So the first part is what I call the soul car wash, and that's the purgative effects. You know, you can say that being on Abigail or Iboga, and it's different for everyone, tolerance levels, but it's kind of like being drunk in a canoe on the ocean during a hurricane because it completely sends your sense of balance, your sensory perception, everything all over the map.
+
+[2:17:48] And in this soul car wash part of the journey, I kind of call it the cosmic slop. You're in the unconscious. It doesn't necessarily have meaning, although there might be some insight and meaning. And once that part is through, this is when people start to see more of like a life review phase.
+
+[2:18:09] And this can happen anytime depending on if you're doing like one Abigail journey or typically in the initiatory formats you can do one, two, or three nights working with the medicine in the actual initiation itself. And so some of these parts might show up within different.
+
+[2:18:27] It doesn't necessarily mean day one you're going to have the purging and the soul car wash. The second phase is that autobiographical review where you're reviewing things from the place of the observer, having conversations with your soul, with yourself, with your ancestors and really processing that and having a different lens of understanding of those situations,
+
+[2:18:57] which really helps people in resolving the trauma. As Gabor Mate says, all of addiction is rooted in trauma. And then the third phase is more what Stan Groff would call transpersonal. It's where you're having these more mystical type experiences.
+
+[2:19:15] They don't always have the feeling of being outside of the body. They can be, you know, somatic and at the same time, visionary, which is interesting to describe. You just have to be there. It's one of those things, you know, it's like the Tao.
+
+[2:19:31] It's unknowable until you're actually there. But what happens is you can see, you know, cosmic order, like kind of the mystery school of the creation of the planets, or you can see different things that are related to your life purpose or very personal, or you can see very cosmic kind of creation stories related to the Earth or the Big Bang.
+
+[2:20:03] So we're gonna start back at the beginning, back to the future. So we could talk a very long time about this stuff, and since we had to squeeze it down, the notes help me so that I don't talk too long. And I think this sandwich is really great with our next talk on Eleusis, the mystery school.
+
+[2:20:29] Both Eleusis and our lineage of Buitifang come from Egypt. And Buiti is a tradition that was commonly, is commonly practiced by the Bantu tribes in Gabon. It's not something that you're born into, as with some indigenous cultures, you're initiated into it.
+
+[2:20:50] And Gabon is regarded as the Tibet of Africa because this is the longest standing initiatory tradition. And what I'm telling you guys right now, in these next few slides, which I'm just giving you a sliver, because we have very little time.
+
+[2:21:06] If I was an Eleusis, I would get killed. It's, you know, like this, like, like, I've read so many books from Plotinus to Yamachus, and I'm like, they don't really give you anything. But this is going to give you a lot more than you've ever received, in terms of the inner workings of an initiatory tradition.
+
+[2:21:30] So within our tradition, we have consecrated masters, and there's ten levels of consecration. When you're first initiated in, you're a Banzi, you're a newborn, a hatchling. That's the beginning. So if you ever hear someone say, because I'm Buiti initiated, that means I'm certified to serve Iboga.
+
+[2:21:50] Just please ask more questions, because this is, this is really to debunk that assumption. Within our lineage, there's over ten levels of initiation within the physical body. So there's different levels from Anima, which is a consecrated master, which takes a minimum of two years, I mean, I'm sorry, ten years.
+
+[2:22:15] And some people I know, one person who just got consecrated, who studied for 30 years. And then you have a spiritual master like our father, Atum Rubenga, who passed away, who is at the highest level of the ten levels of initiation. And he passed away at age 86, back in 2022.
+
+[2:22:37] And what's really most important, and I think applicable to this group today, and to this whole community, Esmeralda community, is the idea of Nilem Mavor. Nilem Mavor is the collective field of the community in ceremonies, singing, dancing, praying, doing ritual.
+
+[2:23:01] And through this collective environment, you become one heart. And it's really true, science has shown with the size studies at PEARS in Princeton, that there is really a coherence field of the heart. And so the Bwiti knew this thousands of years before we started to study it.
+
+[2:23:26] So we talked a little bit about what initiation it is, but I'm going to give you a little bit more information, and I would say a couple things. One, a lot of this is an oral tradition, it's passed down. A lot we can't share. There's certain things that Ebanzi, like level one, can know.
+
+[2:23:44] And then there's different levels, such as myself being a Nima student, you know, that I can't share except for with other Nima student. So typically these initiations take weeks, and we're talking purification rituals, the actual initiatory rites, and then kind of this grounding and integrating in silence, in nature, in community.
+
+[2:24:11] And the two aspects that are most important within Bwiti are this idea of death and rebirth, which go across every initiatory tradition. And within those, there's specific tasks or tests. So this is where it's very different than psychedelic assisted therapy.
+
+[2:24:30] Because first of all, one of the most common tests, and this can go across the board, there's over 52 different branches of Bwiti. And within those, there's different types of initiations. In some of them, you go in on your first initiation to retrieve your spiritual name.
+
+[2:24:49] And your spiritual name in some traditions is called your Kumbo. And in our tradition, it's called your Mumbayano. And Mumbayano is like your Kundalini energy, essentially. It's the energy that allows you to travel. And some of the other tests you can see in this picture here, there's a woman who looks like she's being buried.
+
+[2:25:11] So it's the mimicking of death, which we can see this in other initiatory rites in Egypt and other traditions. And then the face is painted with white kaolin clay to make you look like a ghost or a spirit. And that is to trick the spirits or the genies that you are dead and allow you to cross through and be reborn into the spirit world.
+
+[2:25:37] And so you can see one of the other types of tests or rituals in the early Banzi initiations. And this doesn't happen in every rite or tradition. But these women are looking in the mirror and they're actually seeing their other twin, their soul.
+
+[2:25:53] And it gives them this opportunity. And I will tell you, when you've taken large amounts of Iboga, even sitting up straight is difficult. So to be able to focus and look in the mirror and have a conversation with your soul is a test in itself.
+
+[2:26:10] And so these are really profound ancestral technologies that have been passed down with a lot of care and respect. And so I want to describe a little bit about the purification rituals because I think we talk a lot about integration. And the most important thing is that these are typically weeks, if not days to weeks, of purification.
+
+[2:26:41] So different types of ritual baths, different types of medicines, herbs used. I've had enemas to purify. I've had vomitives to purge beforehand. You can see in this picture, there's a guy wrapped in a blanket. And it's like a personal sweat lodge called a fulu, which is designed to, with smoke and different medicinal herbs, remove heavy energies from the body.
+
+[2:27:07] So linking back to the tradition and linking back to Buiti and Gabon and what's happening right now, with the executive order. Since the executive order was signed, there was a Google analysis done by a nonprofit that my nonprofit Ancestral Heart works directly with, called Blessings of the Forest.
+
+[2:27:37] And there was a 117% increase of by Iboga online. So just as Josh White said, there was all these calls, increase of calls, people taking it at home. This is not a medicine that you take at home. There are so many interactions. I mean, I know everyone in this room gets that.
+
+[2:27:58] But this is something we're working really hard on, is educating the public. That just because you've sat, you know, as a sitter with someone for psilocybin mushrooms, doesn't mean that you can order Iboga online and start serving it to people.
+
+[2:28:13] And I know people are very, really desperate for healing right now. And I completely understand we're in this meta-crisis. But what's really important, and I'll leave this since we only have a couple minutes left, is that Gabon signed Nagoya Protocol in 2011 and said that this is the national treasure.
+
+[2:28:34] They made it really easy for companies to show up at their doorstep. Here's the step-by-step process, letter of intent, da-da-da-da-da. No other traditional community has done this at this level. And still, there's only one Nagoya agreement.
+
+[2:28:49] It's like, okay, you guys are directly disrespecting the wishes of this country, which we know has a direct correlation to the impacts of all the biocultural stewardship work that we're doing. It's the size of Colorado. It's a tiny country.
+
+[2:29:07] And we have millions of people listening to Joe Rogan or watching an executive order online. And so I want to leave you with Grandmother Bernadette, who her dying witch, which she passed away two years ago, sadly, but her spirit as an ancestor, I think we'll see this to fruition, is she said she wanted to create multidisciplinary health centers where an individual comes in and meets with a doctor and a traditional practitioner.
+
+[2:29:38] They have two files. One, the traditional practitioner is doing consultations, looking at the individual, telling them about the psycho-spiritual causes, the spiritual causes of what's happening. The other being the traditional doctor looking at the traditional causes, and them working together collaboratively.
+
+[2:29:59] And I think this is a beautiful model. And it's already kind of happening with Abigail, which I think is kind of cool, because when Abigail came in, essentially it was brought into the West without any of the traditional knowledge. And so it was all about failing forward.
+
+[2:30:16] A lot of mistakes were made. That's how the safety protocols were created, not from learning. And now we have this great opportunity to actually link back to the traditional communities. And I can tell you for a fact, knowing what I've experienced over the last 12 years, that there's a lot more information that could be integrated into the Western system respectfully with reciprocity.
+
+[2:30:43] Thank you. One or two questions? Questions? Any questions? It's on, it's just low. I saw something over the past few weeks, and I wasn't sure if it was just the Nagoya Protocol getting more press, or if there had been a new policy issued out of somewhere in Africa.
+
+[2:31:16] Yeah. I'm curious, does the other plants that you mentioned that contain the Ibogaine alkaloids, does this cover those as well? Do those get protected under these policies? No, not necessarily. So what happened was, we kind of have like, there's a ban between visas with Gabon and the US.
+
+[2:31:34] There's kind of this diplomatic, like, I'm trying to think of a PC word. Just a battle between the two countries, essentially. And in response to Donald Trump's executive order, Gabon said, we're going to do our own presidential decree. And so they had signed the Nagoya Protocol like 10 or 15 years ago, but this was like a doubling down on the IP related to Iboga.
+
+[2:31:58] And they extended it not just to Iboga, but also under Nagoya Protocol, there's something called functional units of heredity, which means like metabolites as well. So there's like, I won't say a company, but there's companies that are like patenting metabolites and trying to do that through FDA.
+
+[2:32:16] And they extended it functionally to the discovery of this. And the reason they can historically do this is because we wouldn't know about Ibogaine in the United States if it wasn't for Howard Lotsoff. And the reason Howard Lotsoff was able to advance it was because he was gifted from the president of Gabon a quarter million dollars of Iboga.
+
+[2:32:36] And the president of Gabon gave Howard Lotsoff a quarter million dollars of Iboga and said this is going to be Gabon's gift to the United States and to the world. And so they have all kinds of, they have ethnobotanists in Gabon that have been studying this.
+
+[2:32:50] And they have a lot of IP that is in French that like a patent attorney in the US is not going to find. So the other plants, like voa conga doesn't have Ibogaine in it. It was like a modern solution to like engineer Ibogaine. So there's like a functional IP link between the molecule and the medicine and these treatment indications like addiction.
+
+[2:33:12] Like they know, they've known forever that Ibogaine heals, Iboga heals every brain condition essentially. And so it's kind of a response to this historic violation of extraction. And it has a real, I don't think there's any medicine in history that has a tighter IP link between like a particular medicine, particular people, geography and a tradition.
+
+[2:33:32] It's like, it's like a seamless link. So it doesn't extend necessarily to other plants but it extends to the IP of Ibogaine for XYZ conditions. And really they want to be a part of it. They want to be in reciprocity. Like almost every country signed the Nagoya protocol except a couple and like us.
+
+[2:33:50] And so even if like you want to start an Ibogaine company tomorrow and forget Nagoya protocol, you can't sell your drug in countries that have signed the Nagoya protocol. The Nagoya protocol potentially would be blocked because they could be sued.
+
+[2:34:03] So it's a whole like, we're just at the kind of foundation of this and we're hoping that it goes in a good way. Because they don't just know about the medicine, they know how to prepare the body, how to like screen people, what other plants amplify the visions, what brings the medicine down, like what diseases it can heal, all this stuff.
+
+[2:34:22] And so it could be one of the more beautiful marriages of like traditional and modern medicine if it goes right. But so far we haven't seen that, but that's like our hope and our prayer. Awesome. Thank you. I want to add that I have a book, Seeding Consciousness, Plant Medicine, Ancestral Wisdom and Psychedelic Initiation, which came out in 2024.
+
+[2:34:45] And if anyone would like a copy, I'd love to give everyone here. So the easiest way to do that so we're not all like lining up, you know, because there's so many beautiful talks is go to at psychedelic journeys with an S on Instagram and just send me your information and I will get you a copy.
+
+[2:35:05] Thank you guys so much. Thank you Trisha and Joseph and thank you for that offer. That's awesome. Appreciate it. Okay, we are almost to our end. We have three talks left, sort of lightning style presentations. 10 minutes or so, a little over and then hopefully a time for one or two questions.
+
+[2:35:26] We're going to start with Sharon Neve, who you guys may remember from a little earlier today. So come on up. Yep. Would you like a seat or do you want to stand? I'll leave it in case you get tired. Hi y'all. Let's do a shake it out. That's the, um, everyone looks like, uh, 20 seconds.
+
+[2:36:37] Yeah, yeah, yeah, 20 seconds. Are we on? Okay, we're on. I don't, if I click it'll just go. Okay. So we'll let people settle back in. Okay. Okay. So back to Joyce. Um, I think it might make sense to talk a little bit about how that all got started very, very briefly.
+
+[2:37:08] All of us co-founding team were a bunch of burners. Because every single one of us had had our lives transformed to some extent by psychedelic work. Much like Bob Jesse said earlier today, top five experiences for sure. And so we started to do the exploration of what we can do to contribute to this world.
+
+[2:37:26] What, as, as I'm the baby co-founder, the rest of my co-founders have actually done this a couple of times before. And like did big business ventures, but wanted to do a PBC that was primarily focused on wellbeing and giving back. This is, um, our chairman is, uh, almost 70 years old and this is his giving back project.
+
+[2:37:47] And as we did our exploration of the space, we said, well, we want to be legal. So that at this point leaves us with ketamine. And as we looked around, there were many high dose ketamine available, um, alternatives, mind bloom, et cetera. We had some, well, first of all, we, you know, why, why do it if it's already being done?
+
+[2:38:08] Uh, let's do something different. But we also had some concerns about sending high doses to potentially psychedelically naive people. As I said, who may not be prepared for what that might mean. And so the way we think of joyous is, I love to say the shallow end of the spico spiritual pool.
+
+[2:38:27] But as I ran that past Claude, we were like, well, shallow, I don't know. Okay. So the dipping pool is what we came up with. But I think it's a really important concept to hold in that, um, not everyone is ready for a deep epistemically transformative experience.
+
+[2:38:45] But many people are ready to be slightly opened up and to learn more about themselves in a way that feels gentle and gradual. I'm going to click and hope that something happens. Great. Most of the conversations that we're having for good reason are about heroic deep end of the pool types of experiences.
+
+[2:39:04] Ibogaine certainly. I cannot wait to pick the brains of Trisha and Joseph if I see them a little bit later because, wow, right? There's so much potential there. That said, certainly not the entirety of the population is ready for that. We're talking about 20 million people in America alone with depression, 40 million with anxiety, who want, largely, a much more gentle approach to feel better.
+
+[2:39:29] So we thought about this microdosing opportunity. And what we came up with was buccal or buccal, pronounced both ways I think, ketamine. It's these little lozenges that you stick between tongue, gum and cheek. Buccal means the cheek tissue, I believe, absorbs into the mycosa.
+
+[2:39:50] They're pretty bulky, so you can't really have more than a few in your mouth at a time, which is one of the safety mechanisms that we have chosen to employ. It is telehealth, which greatly, greatly increases accessibility for so many people that I've spoken to who really don't have in their states of Ohio or Iowa, Wisconsin, too many psychedelic therapists available and ready to work with them.
+
+[2:40:14] 28 states, as I say there. Also, many of our patients, as I said earlier with Gishan, have really complex lives. Two jobs, three jobs, four kids. They really don't have the time to go to a clinic on a regular basis to obtain this work. This is the best that they can do.
+
+[2:40:33] It comes to their home. They find their 45 minutes during the day where they can be with themselves. They can set an intention. They can feel this medicine. And it does wonders for them. And the thing that we tell them is you do have inner wisdom.
+
+[2:40:47] And this isn't to replace the idea of a skilled guide because, of course, of course, that is an incredibly valuable thing to have. But if you don't have it, we don't think that you should deny everything at all. I chose here to focus on 92,000 patients, as I said.
+
+[2:41:07] 77K are in the moderate and above category. That means 15K are mild in their depression or anxiety. But in those moderate and above, we're seeing 10.5 average points in depression and 9.8 in anxiety. So that translates to two and a half categories drop.
+
+[2:41:32] That means if you started out severe, you are now down to mild. That's a huge, huge difference in life quality. 77,000 patients. Now, I do have a chart review that we are finally submitting for publication this month with some lovely academic collaborators who have basically told me until this is peer reviewed and published, you cannot really talk about that.
+
+[2:41:57] So this is our internal data. But I can tell you that when that thing gets published and it is being submitted this month, the results are equally impressive. This is a very, very effective protocol. So we're very happy to have made it available.
+
+[2:42:13] The thing I think about that is super interesting regarding ketamine is that at different doses, it has hugely different potentials. Of course, like high doses, you're in anesthesia. And that's actually where we kind of found out, I think, that ketamine has mental health potential.
+
+[2:42:30] Because people awoke from their emergency procedures and reported reduced suicidality, reduced depression. That's when the scientific community actually took notice of ketamine. But that's a very high dose. Lower doses than that were in the dissociative or arguably psychedelic dose.
+
+[2:42:45] I'm not interested in that argument. It is out there. But what we're calling ketamine assisted psychotherapy or IV ketamine typically falls in that range. Take it a little bit lower and you're into the psycholytic range that we prescribe. That is just to define between 15 and 120 milligrams buccal at about a 25% bioavailability.
+
+[2:43:09] If you think about what emotions really are, if you look at, we have a lovely Bessel van McCrulk, move that, quote here. Everyone, I assume, has at least some familiarity with the thesis behind the body keeps the score. And all of these other bodies of work looking at what trauma actually is in the body.
+
+[2:43:30] Stuck emotions in the nervous system that were too overwhelming to get processed at the time. Remain there and cause problems in an ongoing manner. So you have the narrative thoughts, certainly. You have the core beliefs that go a little bit deeper than that.
+
+[2:43:46] Certainly the memories that can create one's identity. But it's the bodily sensations that end up being the most challenging for patients and individuals to really get in contact with. They are so uncomfortable. It makes sense that we avoid fully feeling them.
+
+[2:44:06] So what does it mean that a partially dissociative state that this psycholytic ketamine provides, right? High doses, fully dissociated. You're in anesthesia world, you're ready for surgery. A little bit lower, often ego death, very dissociative as well.
+
+[2:44:21] Partial dissociation, the psycholytic dose is what we're talking about. You're still present. You're still oriented. Sense of self is intact, but it is spacious, right? You have the capacity to make contact with the sensations of your nervous system with what you might describe as a blanket of safety.
+
+[2:44:39] A literal psychological distance between sense of self and the experience of nervous system sensations. This really allows people to process, release, resolve much of this on their own. And that's what we're seeing in that incredible figure I just showed of 77,000 people with an average of two and a half drops of depression and anxiety.
+
+[2:45:01] My personal belief, and I started a therapist collaboration program for this, is with the right attitudes, with the right skill building apparatus, this could go even deeper. I'm going to be very honest with you that the therapist collaboration program is not a success from a business standpoint the way that I wanted it to be.
+
+[2:45:16] If anyone has any ideas, please let me know. But regardless, this seems to be happening on its own, even without the therapist. The inner wisdom is there and it wants to realign your system to have a better relationship with the internal contents.
+
+[2:45:31] And the ketamine allows that to just occur. So this is largely what I talked about here. The body softens, the sense of self becomes bigger. People often describe what's very similar to dropping into awareness from various meditative practices.
+
+[2:45:47] You're both inside and outside of the body. You have a sense of the field, the spacious awareness. And from that place, it becomes much easier to make contact, to hold the rest, to build a different relationship with all of these emotions and nervous system sensations that are typically overwhelming.
+
+[2:46:04] Now, this is the piece that I would say is largely theoretical, because as far as I know, it hasn't been studied directly. But our best understanding of how trauma is resolved, and my personal belief is all anxiety and depression can be thought of as at least little t trauma.
+
+[2:46:21] There is a reason that we react to the world from a place of fearfulness, from a place of dejection and collapse. And it's because we've had difficult life experiences, or maybe even epigenetic ones, like we have some of that data as well. Regardless, we've been hurt, and so we react the way that we do.
+
+[2:46:41] We know that all trauma healing is a matter of reconsolidation. The ability to hold that memory in a state that is separated from the nervous system sensations that used to be attached to it. That's really what it means to heal trauma. You can go back to that memory and view it as a movie without getting the reactivation and the retraumatization that might have beforehand occurred.
+
+[2:47:06] And there's some preliminary animal model research that finds some like theta wave activity and rats' retrosplenial cortex. I think we're going to find this eventually. Memory reconsolidation is the mechanism for ketamine's work around trauma.
+
+[2:47:21] I can't say that it's been quite found yet, but I am a strong believer that that's what we're going to see. 92,000 patients treated so far over the last four years, 21 million doses, no record of any hospitalizations around any of this. However, safety, of course, with ketamine is going to be a top concern.
+
+[2:47:44] We do very, very close side effect tracking. In the first six weeks, at least, they're sent daily questionnaires about their side effects, their symptoms, their mood, their sleep. And on that basis, we make decisions about their dosage, the time of day that they're going to take the medicine, whether or not it makes sense for them to split the dose throughout the day.
+
+[2:48:03] We do extensive medical pause protocols. Various things trigger that. They get nurses calling them, making sure that they're okay. There's a suicidality protocol. Once a week, they get a PHQ where if they trigger even a slight suicidality, like a couple of days I've had thoughts of suicide.
+
+[2:48:22] They have a CSSRS, which is the Columbia scale for suicide risk screening. And we have a protocol where nurses reach out to them. There's a safety contract that gets sent out, et cetera. We also have a worsening detection algorithm that if people are getting worse, we reach out to them.
+
+[2:48:41] We try to figure out what's going on because no medicine is right for everybody. So addiction considerations are always going to be really important. Jishan is right. There is a rising epidemic of ketamine abuse. That said, on one hand, we know that physiologically it's less addictive than alcohol and tobacco.
+
+[2:49:02] And yet, we're seeing this rise and we don't want to be blind to that. We don't know of any addiction out of our 92,000 patients. That doesn't mean that it hasn't occurred and we're not naive to that. This is a little representation of what our dosing is compared to what you might see in an addiction pattern where, by the way, the bioavailability of insufflation, which is a fancy word for up the nose, is considerably higher than the buccal.
+
+[2:49:28] Nonetheless, we take this quite seriously. We do a lot of intake screening around history of dependence, both in the written form. The provider asks them as well. There's a PDMP check, which means it's a database check for whether or not they've had other controlled substances on record.
+
+[2:49:48] And if there's anything that triggers any concern, they're probably going to get denied. At least, at the very least, the provider will talk to them about it. We don't do early refills. So if someone has decided to take the entire pack in one day and the absolute highest amount they could receive is 3.6 grams in their pack, well, they're out for the next month.
+
+[2:50:08] We do provide a bulky form factor. As I said, the trochee is uncomfortable to have more than like 3 or 4 in the mouth at one time. That's preventive as well. And if there's any concern, we ask them how many trochees do you have left in their check-ins.
+
+[2:50:28] If we're seeing less than we would have expected, the provider will ask them to show the pack in the next appointment as well. That said, as much as there are risks, we're really hoping that this scalable model of how to reach more people who need help than many other approaches have managed to can make an impact on the population on the whole.
+
+[2:50:55] We create psychoeducation, we create programming, we offer community events and meditations. As I said with the Jishan, I'm going to be honest that it's not nearly as popular as I would love for it to be, but they're on offer. They're on offer.
+
+[2:51:11] And sometimes all the person can do between their two jobs and their three kids is to pop in that trochee in the morning and do their vacuuming. And if it works for them, we're okay with that. It's certainly not the perfect model where we would assign everybody a loving therapist who could be with them on a several times a week basis.
+
+[2:51:34] But it is effective. And so the hope is making a dent in the well-being of individuals on a population scale can have network effects. And that's what we're hoping for. This is the dipping pool. It's not the deep end. But the kind of responses that we get from patients saying I feel like myself for the first time in decades.
+
+[2:52:00] I really am able to make deep contact with my sense of integrity. I feel more open hearted. I can see things gliding off my back like a duck for the first time in a long time. It's very encouraging. So we're going to continue growing and hope that we can reach more of the 20 million, 40 million depressed, anxious individuals in the United States.
+
+[2:52:24] And we're looking for collaborators. We're looking for researchers. I was told to keep this short. And I hope that I did. I don't even know if I've been under 15 minutes. You did. Perfect. Thank you so much, Sharon. Do we have any questions?
+
+[2:52:41] We have time for one question. Thank you. Thank you so much. That was a great presentation. I was curious about the addiction statistics. Is that broken out by origination in a clinical setting versus recreational or street use? Yeah, everything that we're looking at here is all street use.
+
+[2:53:00] There is miniscule evidence of addiction potential in clinical populations. That said, Joyous has on its own and probably Mindbloom as well. But our cost is 129 or 159 a month, depending on whether you're willing to commit to three months or not.
+
+[2:53:16] We have probably like substantially increased the number of Americans who have actually gotten a hold of ketamine. So this is pre Joyous, pre Mindbloom data suggesting that with clinical supervision, addiction potential is really quite negligible.
+
+[2:53:34] So we haven't heard anything. And again, that doesn't mean that's not occurring. Thank you. Cool. Thank you, Sharon. Next up, we have Eliana Baskuda, one of the co-founders of the Greek Psychedelic Society and Epoteca. I hope I'm pronouncing that correctly.
+
+[2:53:59] Epokhtia. Epokhtia, who will be speaking to the Ellucian Mysteries. And why are we so fascinated with them in the West? So I will try to keep this short. And I know this crowd probably is a little bit more accustomed to the tradition of the Ellucian Mysteries.
+
+[2:54:35] So I will not go into much depth or detail. But today I just wanted to ask you to ponder this question. Why is the West so fascinated with the mystery culture? Not only the Ellucian Mysteries, but initiatory rites of passage, as was mentioned earlier.
+
+[2:54:55] And I think we can view it as a diagnosis of a culture that is raptured from the origins of our initiation, our cosmology, the origins of what humanity is, and our connection to the divine. I'm here today representing Epokhtia, the Hellenic Center for Anthogenic Research.
+
+[2:55:21] It's a newly established organization in Greece last year. Our goal is to advance the archaeopharmacology and archaeochemistry and the intellectual heritage of the ancient Greek pharmacopoeia used in the ancient Greek mystery traditions, but also beyond that, and to restore the narrative of Ellucius.
+
+[2:55:44] So some of you might have seen this paper that came out in February 2026 last year. My colleagues and collaborators, Vagelis Dadiotis and Romanos Antonopoulos, pharmacologist and chemist, undertook this journey to answer the question of the pharmacological plausibility of the chemistry of the Kikion.
+
+[2:56:07] So did the priestesses of Ellucius have the means in their hands to do the very simple chemistry today, but very complex at the time, to separate the ergot toxins from the psychoactive ergot archeloids that are present in the fungi that infests the wheat that was used in the Kikion.
+
+[2:56:29] For those of you who don't know, I assume most of you do, there has been this hypothesis for many years that the elixir, the sacred sacrament, the plant medicine, of the Ellucian mysteries was psychoactive in nature, and Albert Hoffman proposed together with Gordon Washington and Karl Rack, who is a classicist who really put this hypothesis forward 30 plus years ago, that it indeed was psychoactive most likely, and that the ergot fungi that was so omnipresent in antiquity and the medieval times,
+
+[2:57:04] we have paintings by Hieronymus both depicting gangrene and limb rotting because of the consumption of ergotized wheat that was used in bread or beer. So they proposed back then this partial hydrolysis hypothesis that my colleagues tested with nuclear magnetic resonance and LC-MS QTOF methodologies that we have at hand today to identify the molecular fingerprints of the psychoactive ergot alkaloids.
+
+[2:57:32] They came up with LSA and ISO-LSA as the derivation of the partial hydrolysis used with a lye solution from burnt ash. So it was a simple process and it worked. We have more questions to answer though, so we'll get to that. So this elusive zeitgeist today has been popularized because the immortality key book was published, and there is general discussion around it.
+
+[2:58:02] Joe Rogan has hosted Brian Moretz with his podcast. I'm seeing a lot of cultural norms around the hyper-agent that elusive sees emerge all around the world. I know that there are groups in the United States that are practicing or re-enacting some version of their understanding of the mysteries, and that's all good and fine, and there is, you know, it's emerge and there's nothing we can do to present that.
+
+[2:58:24] But I think the answering the why now question is important to me. So beneath the fascination that the West has with psychedelics, I think we are looking at the deeper existential question of civilizational search and the search for humanity, and why now?
+
+[2:58:42] Because, you know, we're in the era of technological acceleration, and it was mentioned previously that there is a recognition, there is this scale called the rock stroke scale for planetary boundaries, and we are now, we have now transgressed seven out of nine of them.
+
+[2:59:00] We are experiencing habitat loss, extinction of species, biodiversity loss, climate change. We have lost our collective sense of meaning and identity. We have lost our threats to our ancestral roots collectively, and in general healing is, in this medicalization model of psychedelics, is revolved around the individual.
+
+[2:59:22] The container is about the individual, and that's important, and no one can deny that. But I think the zeitgeist around elusis and collective processing of healing and trauma is because of the scale of elusis, the amount of people that participated, but also the fact that it was a death cult.
+
+[2:59:43] And this has been witnessed all around the world, as we saw previously in Gabon with the weighted tradition and elsewhere. But elusis is really involved around the concept of getting to terms with the existential fear of death and the anxiety of death.
+
+[2:59:58] So, what is unique about elusis is that it did last for longer than Christianity has lasted to this day. Two thousand years, took many forms, it was discontinued in 392, but thousands of participants were initiated every year, and they came from all across the Greek world, including the Roman Empire.
+
+[3:00:23] And I want to talk a little bit about... Previously, Tricia mentioned that we don't know much about elusis, and that's true because you had to take a secrecy, a vow of secrecy, that was punishable by death. However, we have a lot of accounts tangentially and a lot of literature that allow, and the archaeological site itself, and then comparative analysis to other mystical traditions in the Near East,
+
+[3:00:53] and the historical continuity that allows us to establish a framework for elusis. So, why was elusis so omnipresent and lasted for so many years? What worked? There was a very distinct and orchestrated ritual programming around it. And it included everything from sacred officials with different positions, the orchestration around the ritual space of the archaeological site itself, sacred objects and ritual acts and dramaturgy.
+
+[3:01:25] So, I have included a few of them here, but I don't know if I'm going to be able to go into detail, but you can see that we have different priests and sacred officials that hold different positions like the modern-day facilitators, you can think of them as such, the mystagog, who is the facilitator, the hierophant, the one who reveals the sacred, together with his female counterpart, that is embodying the principles of Demeter and Persephone.
+
+[3:01:50] The very word ritual in Greek, you must know the word teleological, right? Telos. Telos means ending, means death. So, the word ceremony for Greek is the container where we process the concept of death collectively. So, other notable things about the ritual architecture of Eleusis, the architecture of the place itself, the way that it's laid out,
+
+[3:02:22] is very evocative in nature. And so, I want you to imagine thousands of initiates progressing from, starting from Athens to reach the Greater Propylia, the doors that led to the entrance of the Great Initiation Hall, having undergone a very specific programming that lasted nine days to mimic the cycles of the human gestation, maybe.
+
+[3:02:49] So, we do know a lot of things about what happened in Eleusis. What we don't know is what happened at the last day where the main ceremony took place in the Telosterion. However, here you have a sequence of ritual programming elements that we can look at as we're thinking about how to design a modern Eleusis today.
+
+[3:03:10] For example, the ceremony began in Athens with a proclamation, the Prodesis, as it's called. So, the Hierarchirix, the official that was selected just because of the voice that he possessed, because he would utter the doctrine of the mysteries clearly for everyone to hear, began with a statement of invitation.
+
+[3:03:29] Everyone is welcome who knows and understands and speaks the Greek language and hasn't committed death. It didn't have to be Greek, it just had to understand the language because linguistic priming is important. You are about to embark on an embodied journey of a myth where every word is decoded and deciphered.
+
+[3:03:49] The second day, I'm realizing I'm running out of time. I don't know if I should walk you through all of this, but it included a procession of 15 kilometers from Athens to Eleusis while having fasted with a pig on your back that you have raised yourself, taken to Faliran Bay where you sacrificed the pig, signifying that you leave an element of your physical body and your attachment to your ego behind.
+
+[3:04:16] My favorite part of the ritual was the jeferismos, the bridging, where before you enter the town of Eleusis under the bridge of Kithisos, the citizens of Eleusis would welcome you with ritual masks on to mock you and strip you of your social persona, whether you are coming from an elite aristocratic background or you are a slave.
+
+[3:04:39] I think for the purpose of the social container that Eleusis provided, this is the most important element, the comedy, the humor. It's even in the myth itself. Not to tire you, all descended in the panichis, the night of initiation where we know very little about it, but we do know three things, that something was said, something was shown, something was enacted.
+
+[3:05:00] We also know what the initiates witnessed and I call this the equivalent of experience vault. And here you can see Plutarch, for example, who was the main priest at Delphi, describing what it feels like, the embodiment of going under initiation.
+
+[3:05:18] In the interest of time, I'm going to move on. One thing I wanted to also talk about here today because I feel like there is a misconception about Eleusis in the way we understand the story in the West is that it didn't originate in Greece.
+
+[3:05:32] Trisha said before it came from Egypt. I argue it came from way more back. So the first version of this myth we have is with Inanna in the epics of Gilgamesh. And this myth has taken so many forms until it reached Greece in 1500 BC, where Demeter took her final form as the goddess and Persephone as the later version of Inanna.
+
+[3:05:53] But needless to say that the patriarchy has stripped this myth from its original context because Inanna was a sovereign feminine that descended on her own accord, where Persephone was abducted and given away by her father. Happy to discuss this myth more with you later.
+
+[3:06:08] But let's just say that the story did not originate in Greece. And why, though, do we portray Eleusis as the origin of Western, the Western civilization of initiation? Well, it was discontinued. The story was eclipsed at times. Physically, one time when Eleusis was shot down by King Theodosius.
+
+[3:06:26] And the second one, when we had the Renaissance in Europe and we need the Eurocentric narrative for the origin myth of Europe itself, the identity of Europe, Greece was used as the hallmark, the origin place for that. And there's a whole body of scholarship to that point.
+
+[3:06:42] I'm not going to target too much. You can go read Winckelman or Edward Said. Orientalism is a good book to start. So I argue here that Eleusis is at risk of being utilized as an artifact, a vehicle of that Eurocentric narrative. So I'm asking this question, is this Renaissance diagnostic?
+
+[3:07:04] As Ternet says, we have dismantled every initiatory structure. There will be nothing in place. This is liminality without structure. And so I'm here to argue today that I care about what's in the Kikion. I care about continuing the scientific inquiry.
+
+[3:07:18] But this is something I don't share with American audiences usually. I think of Eleusis and the Kikion and the psychoactive pharmacological intervention as a Trojan horse. So if that is what gets people interested in initiation as a ritual architecture for collective processing of things that are ineffable, unuttered, mystical, implicit, then let it be.
+
+[3:07:44] Let this be the interest that drives us back to that inquiry. Yeah. The dissolution of social rank is one of the most interesting things to me that this container provides and the divine feminine is in its full range. Because don't forget that when Eleusis took place, women in Athens didn't have a very high place in the social rank.
+
+[3:08:04] But the divine feminine was definitely integrated in the collective psyche in that experience. So, last question to all of you. How do we restore and reimagine Eleusis and mystery rituals in general today? I have five categories here that are in my mind and our mind in the Greek theme.
+
+[3:08:25] Produce the evidence, of course, through epistemological inquiry. Extend the archaeochemistry and archaeopharmacology beyond the Kikion we want to study wine and olive and medicine in ancient Greece in general. We have identified these sites for the archaeochemical residue analysis that is going to take place in the coming next two years.
+
+[3:08:46] So, hold on on that. Restoring the genealogy from the Near Eastern origins. Restoring our bond with nature and the cyclical time of nature, the chronological time that we have disrupted. Safeguard and transmit the intellectual legacy of this pharmaca.
+
+[3:09:04] The Nagoya Protocol was mentioned earlier. I'm referring to it too here. And also, maybe protecting this intangible cultural character under the UNESCO framework is something to consider. And of course, build a container where dramaturgy and orchestration can co-exist with emergence.
+
+[3:09:22] So that the structure can carry the experience with openness to let it live. And let the emergent properties dictate what a modern day elusive looks like. Yeah. And this is the QR code to the Hellenic Center for Anthogenic Research. You can follow our work there.
+
+[3:09:43] We're moving forward in stealth mode right now. But keep in touch and maybe in a year, two years from now, we'll have more evidence about what was in the actual vessels. Although this is not the question to really ask. Thank you. So, as somebody who has been an initiate of a Neo-Eleucinian mystery school here in the United States
+
+[3:10:19] that ran for 15 years back to back and recreated hermeneutically the actual initiation ritual, I'd be highly interested in talking to you more about this. Let's have a chat. Anyone. From a practical level. And it happens to be one of the things that provided some of the deepest forms of initiation, which was enacting the role of Koray into becoming Persephone.
+
+[3:10:49] And literally doing that over the course of five to seven days. I want to hear all about it. Including the big sacrifice. I'm going to say one last thing. Aristotle said about the mysteries. You don't learn. You experience your body. You have to become the myth.
+
+[3:11:08] You have to become Persephone to understand. Exactly. Let's talk. Beautiful. Thank you. Okay. We've made it. We have one more presentation from Matt Gillespie at the Center for Mines. Super excited to have you, Matt. All right. Hey, everyone.
+
+[3:11:30] Thanks for sticking around for the last talk. I have no less than 27 slides and we have about 10 minutes to get through them. So, I hope you... Oh. Just a second. Yeah. Let's pop this over. So, as we're getting started, I'd like you to all look at this.
+
+[3:11:44] I'd like you to all look inside yourselves and imagine the last time you solved a really difficult, hairy problem. Like, where were you? And I have a feeling you may not have been at your office desk. Yep. And the slideshow button. Yeah. What?
+
+[3:12:05] It's not... No. We could roll with this. I think it'd be under view. There we are. All right. So, if you're like many of us, it wasn't in the office itself where you had that problem get solved. It was actually perhaps in the shower.
+
+[3:12:36] Or maybe you're riding a bike or walking your dog. And this is a common occurrence. And what I'm positing during this presentation is that psychedelics might actually be able to help us take control of that experience and to roll those combinatorial dices so you have more of those aha experiences.
+
+[3:12:51] But before I can go deep into that, we need to cover some basic neuroscience around problem-solving as we know it. There are two primary systems for how we solve problems, at least as much of the literature looks at it. This is this primary goal-directed side where we're actually trying to analyze, break things down.
+
+[3:13:11] And that's where we spend the majority of our problem-solving faculties, breaking things down. And then there's these elusive insight moments. They're hard to predict, and you get that aha, that flash, that little bit of lightning. The problem is they're so difficult to predict.
+
+[3:13:28] And the reality is a good creative is straddling those two to find this sweet spot in between where you're going somewhere. But we'll go deeper into that. So the process of insight. So first you have to actually put in the energy, map out the probabilities in the space, become familiar, and you'll eventually get to this place of an impasse.
+
+[3:13:49] You can't really go further, and you're just fixated. And then eventually, after cultivating for a while, you get to a point where the breakthrough hits. It's hard to know when, but it'll eventually happen. And then it's up to you to start forming that insight, start shifting it and validating it into the real world.
+
+[3:14:08] So some things to know about insight. So it's universally quite sudden, it's very pleasurable, and there's this unique quality of a drive to act on it. You know it's meaningful. And you can actually accelerate that incubation period through preparing yourself more or doing contextually rich, or associationally rich, low cognition tasks, or just sleeping.
+
+[3:14:34] And some fascinating qualities is that these insights, by and large, tend to be true. You kind of know it when it hits. The more intense it is, the more accurate it is, but not always, and we'll get into that. So broadly speaking here, psychedelics will increase the number of insights you have, the intensity, and the more you take, and the longer you're tripping, the more likely you are to have insights.
+
+[3:14:58] That's not a surprise to many of us. And fascinatingly, it's highly correlated to positive therapeutic outcomes. So you'll see the change in belief and therapeutic progress tied to the number of insights, as well as a person's progress in their drug addiction.
+
+[3:15:15] But there is an epistemic trap here. We've talked quite a bit about the Rebus, you know, the Rebus, you guys know it. Thank you, Manesh. But there's this heuristic. We have this flow of information, and when we have an insight, that aha moment, it's our brain slowing down to say, there's something here.
+
+[3:15:37] It brings salience to it, and it makes it very memorable. But the catch is, we're using psychedelics, and we're rolling those combinatorial dice, and taking out insights. There's a real epistemic trap here. So, let's see how this pairs out into the real world.
+
+[3:15:52] We all know Steve Jobs, right, using acid to inspire. Apple, Carey Mullis, inventing PCR, inspired by a lot of his LSD work, and Bill Atkinson, creating the progenitor to the internet, HyperCard, after a very explicit LSD journey. But the only real research we have of a naturalistic setting with real creative professionals is all the way back in 66.
+
+[3:16:16] Many of you are probably familiar with this. Right before the feds came down on psychedelic research, about 27 professionals, creatives, technologists were given 200 milligrams of mescaline, and brought in Prime to work on their hardest problem to have the most creative day of their life.
+
+[3:16:36] Lots of great priming. But you know what? It worked! So, some of the big takeaways, mathematical theorems, new model of photon, all stuff beyond me. But clearly, many citations, many publications coming out of this. So, yeah, it makes us creative, right?
+
+[3:16:56] Right? Well, if only we're so simple. So, some of the best research we've had as of late is showing that even though we have all this feeling of insightfulness, the reality is we're somewhat impaired in our convergent thinking, and we're actually having less ideas.
+
+[3:17:11] But fascinatingly, in this first study, a week later, the participants returned and actually had more highly original responses when trying to figure out how to use a brick. And the other study, similar, lots of null effects, but this enhanced novelty, surprise, semantic spread.
+
+[3:17:32] We'll get into like why that's meaningful beyond the test. Because the problem here is that the tests themselves need some reformation. Because the reality is these remote associate are using a brick. Imagine being on a half tab of acid inside a laboratory.
+
+[3:17:48] Someone's asking you how many ways can you use a toothbrush. Like, why am I even here? There's no, like, affect to this. Why do I want to solve this problem? And I think that misses a lot of what we're talking about in these clinical paradigms.
+
+[3:18:03] Because the real world is messy. So, we have like, you know, of course, this exploration mode versus the evaluation and different creative professionals fall differently. You know, the artist has a lot of permission to just explore where the scientist feels the weight of having to evaluate.
+
+[3:18:17] Some answers, like mathematics, there is a definite answer. There is a proof. You can't just kind of wing it or vibe it. Whereas, you know, the designers, like myself, we fall in the middle where artists are on the far extreme, where there's a quite malleable answer to where they're going.
+
+[3:18:34] And finally, there's just the depth of how far you've gone. Are you an undergrad? Are you a professor or doing your postdoc? And sometimes the problem is not the problem. Sometimes maybe it's just your relationship with your work if you don't want to be doing your work.
+
+[3:18:49] Or maybe it's with your collaborators. There's just a block there. How about the, that's a core part of creativity and yet it's missing from our experimental paradigms. And then there's the reality sometimes the problem is the problem. Like if you, if you don't want to be working on this problem and there's an internal resistance, you're not going to have that affect that often keeps things moving in the background of your unconscious.
+
+[3:19:10] So how might psychedelics improve the creative problem solving? So in this enhanced exploration, which we've talked a good about, refinement of values in relation to the problem, enhanced empathy and motivation. I think that's often under, under taken into consideration.
+
+[3:19:26] But do you actually care what you're working on? Are you really thinking about it in the back of your mind? And then this developed metacognition of how to think of it with an ambiguity and paradox. And can you maintain that long enough to get to an answer?
+
+[3:19:39] So how might we design a container to benefit creative thinking and problem solving? So now taking off, I should have acknowledged, I'm the program director at the Center for Minds. I'm a creative myself and a trained industrial designer. And so this, I'm no longer representing Center for Minds here.
+
+[3:19:57] This is just my own, my own personal thoughts. But if I were to put together some studies, these would be some of the directions I would take it. So across the board, you know, we're familiar with set and setting. Well, we also put forward set up.
+
+[3:20:09] So put energy into exploring the problem set and the front end. And then embrace priming. A lot of medical research discourages priming. But if we're here to get a result, it's going to be the most creative day of your life. Like, let's go for it.
+
+[3:20:23] Let's bring those, let's make that a prior. And then put productivity affordances within your creative container so that you're not forcing it. But if somebody wants to produce, they're there and ready to go. So the first container I put forward is the kind of typical high-dose container.
+
+[3:20:41] So what's cool, I feel like this would work well for a well-defined problem in STEM. Bacillocybin, ayahuasca, or 5-MeO could be good tools for this. And it's all about a high entropy, high reward. You're going deep, and then you're going to come out and kind of land those insights.
+
+[3:21:01] But you might end up finding some shifts in your personal value and meaning-making along the way, which is just as valuable. Then there's the low-dose collaborative container. So this could be, you know, if you're with a group of experienced psychonauts, and you have a lot of rapport, you feel comfortable with each other, you could start exploring more early-stage problems.
+
+[3:21:21] So really, in some ways, flipping between mapping out the problem itself and also giving a little space for the insight. And what's also cool here is that you can come out with a deeper sense of rapport and trust within your team, a deeper alignment of values, which I think is also underrated.
+
+[3:21:39] This one I've experienced from personal experience, and it's quite fascinating. So if you use ketamine after stimulants with some sort of dance, you know, EDM works incredibly well, you can get a flood of semantic spread and pseudo-insights.
+
+[3:21:58] Now the key thing here is there needs to be a sense of epistemic humility, because you know you're tricking your system into finding a lot of things salient or exciting that aren't necessarily. And so it's almost like a sense of channeling that as you let the topic sit, and then you just keep it in the back of your mind, and then more pieces will pop up, and just take note, and just keep dancing.
+
+[3:22:20] And I found that to be incredibly productive with design problems in particular. But yes, epistemic humility, very essential here. This one's a fascinating one. So this is the creation of Chris Timmerman and Jeremy Skipper, basically positing that if you can maximize the peaks and valleys of entropy within the system, you can have more of a chance to land that entropy into something solid.
+
+[3:22:49] And so hooked up to IV, you could just squeeze a bolus, blast off, and then you have your notebook or whatever your tools ready, and then as you're coming to, like, you could go deeper or document what's coming through. And then finally, this one as well comes from personal experience.
+
+[3:23:07] I think if you're really excited about a problem, then just like lay out maybe a little low-dose cannabis, and a sound bath, just go deeply parasympathetic, quit working on it. Kind of relates to sleep accelerating the incubation window of insight, and I've found it to be quite helpful.
+
+[3:23:28] So yeah, so choose your adventure. I'm not advocating any of these outside of, you know, legal and safe containers. But I'd love to hear your thoughts, and I hope that was helpful. Yes. This is a great presentation.
+
+[3:24:00] And this is a question kind of inspired by my friend Andrew Smart, who wrote a book about this. But it's basically can you feed super intelligent computers the equivalent of a dose of LSD, and what happens? Or another way to think of it is, like, if you upload code modules to ChatGPT or Claude that simulate the effects of psychedelics, do you get better creative problem solving?
+
+[3:24:24] Oh. Wow, what a question. I think there is a there there, and there was a popular paper that we were promoting, looking at something similar where the weights within a neural network were lowered so that there was more broad associations, and the qualia, at least reported by the LLM, which wasn't primed to think it was on psychedelics, sounded a lot more like a psychedelic state.
+
+[3:24:52] That was Jeremy Skipper and Chris Timmerman. But I don't have a deep personal opinion on it. Thank you for this great presentation. It's very progressive of the Center for Minds to officially recommend all these techniques. So my question is, aren't showers the obvious thing to experiment with?
+
+[3:25:21] They're safe, and if showers help creativity already, shouldn't we study the interaction? How much do you look forward to taking a shower? I think there's, I think sometimes we underplay the importance of affect towards the problem we're working on, and the priming effects here.
+
+[3:25:40] And it's, I think, impossible to reductively piece out every part. So, you know, part of the Harman study's success was that this is going to be the most successful day, bring your hardest problem, and by and large they weren't going into deep internal dialogues.
+
+[3:25:57] I mean, there was a period of time where they were, they had blindfolds, but by and large they were putting energy into their product because that was the expectation. Yeah, yeah, I've heard those are popular. All right, let's give it up for Matt, Center for Minds.
+
+[3:26:12] Thank you, Matt. Okay, that wraps our talks. I don't know how you guys feel. My mind hurts right now in a good way. I need some rest or substances or something. But we have a few quick announcements. Katie, do you want to come up real quick?
+
+[3:26:29] So we've got a film screening tonight from 8 to 10 in the Hub Flex Space. And Katie, you want to share a little bit about that? Sure. So hi, my name is Katie. If we haven't met yet, I'm a neuroscientist and I study predictive processing, meditation, and have a personal interest in psychedelics, which is why I got interested in neuroscience in the first place.
+
+[3:26:51] So tonight at 8, we have a movie called Unraveling the Dream that we're going to show in the Hub. So it's not in this building. If you're only here for the day, the Hub is like diagonally across the street that way. It's 405, it's right next to the restaurant that is called Willy's, W-I-L-L-I-S.
+
+[3:27:12] So you just walk right past there and up the stairs. It'll be a different vibe than this. It's like floor seating and cushions and squish. The movie's about an hour long. It was commissioned by Sam Harris and Waking Up to explain the neuroscience behind the psychedelic experience, some of the cultural history.
+
+[3:27:34] So there's some stuff about Eleusis in there. And then how it relates to awakening or enlightenment. So if you guys heard rebus or entropic brain or predictive processing or precision weighting today and you don't know what that is and you want to have it explained to you with like nice animations in a documentary style, if you prefer to read like 50 academic papers about it, that's on you.
+
+[3:27:58] But your other option is to watch a 50-minute movie about it tonight at 8. So we'll show the movie at 8 and then afterwards there'll be a Q&A, kind of about anything you want. So mainly about the neuroscience in the movie. But last time we went to some pretty interesting places during the Q&A.
+
+[3:28:16] So it's sort of whatever you all want to talk about. So that's tonight at 8. Don't miss it. Thank you so much, Katie. Hope to see you guys there. Thank you, Katie. One more announcement. Hi, guys. Also after the movie. Thank you.

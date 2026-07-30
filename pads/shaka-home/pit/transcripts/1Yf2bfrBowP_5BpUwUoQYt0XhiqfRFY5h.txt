@@ -1,0 +1,333 @@
+# GMT20260623-193824_Recording_avo_640x360
+
+Date: 2026-07-14
+Source video: GMT20260623-193824_Recording_avo_640x360.mp4
+Drive: https://drive.google.com/file/d/1Vvhazt7ckbYfGTlkQXcQs_e57sLlbaAi/view
+Duration: 00:58:13
+Transcribed: 2026-07-17 · whisper large-v3-turbo · language: en
+
+---
+
+[00:00] Anyone who's got awesome conversations, what you mean about the future of EdgeCity, feel free to take this out. I have the pleasure of introducing Orly Friedman. One of the things I really wanted to do for this EdgeFact is to have folks see and think about a lot of different educational models.
+
+[00:25] And think of them especially in what are those capabilities that are going to be really important in a world of AI that we have probably not been paying attention to. So I think that she's actually, she has stories to tell about Redbridge Academy that will both have a good sense of the model, but also the on-the-ground experience and what she's been seeing.
+
+[00:49] So introduce, like, like you mean, Orly and she'll give her talk and then we'll have some questions afterwards. It's a small group, so I figured I would tell you a little bit about myself, tell you about the model of school that we are creating at Redbridge, and then we can take it in what is interesting to all of you.
+
+[01:15] And so I was an urban studies major, which I don't often share, but I feel like this is the one place where it's really relevant. So that's what I majored in in college, and I never worked in urban design, but I do very much see my job at Redbridge as a systems designer.
+
+[01:36] And that's what I enjoy about the work, and that is really what makes Redbridge unique, the way that we redesign the systems of school. But to back up a little bit, I started my education journey as a teacher in Washington, D.C. public schools.
+
+[01:52] I taught elementary school for five years, but always had a dream of opening a school in my own one day, and made my way to California with this goal of opening a school, and ended up joining Sal Khan as one of the founding members of the Khan Lab School in Mountain View, which is a brick and mortar school associated with Khan Academy, which is my learning platform. And when Sal had this idea of opening a brick and mortar school, he said, let's see what happens when we put kids on Khan Academy and let them learn their own pace, and teachers sit in the back of the room and read magazines.
+
+[02:30] And for all of us who had been teachers, we were like, okay, you kind of think, you know, it's going to happen, but let's give it a try. And when we did that, what we saw was that some kids really took off in their learning and could go quite far on their own with this digital tool.
+
+[02:47] Other kids were into it for a little while and then sort of plateaued, and some kids were not into it at all. And what we realized by observing students using Khan Academy was that their success didn't have to do with their academic ability or their intellectual capacity.
+
+[03:04] It had to do with work habits, like, could they stay focused? Did they have a goal for themselves? Did they realize when they didn't understand something, and did they feel comfortable asking for help? And so we figured if students were going to be successful using Khan Academy or any other online learning tool, they really needed to develop those work habits.
+
+[03:25] And for some students, they came naturally, but for a lot of students, they needed to be taught explicitly. And this isn't something that typically gets taught in school. So it was a curriculum that we had to develop. And what we did was we invited the whole parent community into the school for an evening, and we said, what's the non-domain-specific skills that you need to be successful at your job?
+
+[03:47] And then we started categorizing those and thinking about what that meant for our students. And we came up with this curriculum of work habits. And we also realized that some students, you know, already had a lot of them, and some students really didn't.
+
+[03:59] And so we started grouping students by their proficiency in those work habits. And that was the start of how I began thinking about school differently. When I taught elementary school in Washington, D.C., I was in very traditional classrooms.
+
+[04:17] And every year, I'd always have a student who really needed something different. You know, we needed to, like, figure out what their emotional needs were, what their academic needs were. And it would take a few months to build rapport, get to know them, get to understand their profile as a learner.
+
+[04:32] And we'd finally hit a groove, and then it would be June, and I'd have to hand them off to the next teacher and cross my fingers that their next teacher would do the same thing and take time to get to know them and figure out what worked for them. And so much of the student's success was wrapped up in who their teacher was.
+
+[04:51] And it felt like not enough was in the hands of the students. Whereas when I got to Khan Lab School and we started doing things a bit differently and we started teaching these work habits, students began to understand themselves as learners really deeply in a way that meant it didn't matter as much who their teacher was because they knew themselves and what they needed to be successful in this deep way that would allow them to succeed, whether they were in a lecture hall or, you know, learning by themselves in the start.
+
+[05:22] So I left Khan Lab School after four years there. I was really excited about the work we were doing around the agency and a little less interested in centering technology at that. So that was in 2018, and I figured it would take two years to start a school, which would put me in 2020, which sounded so great, Vision 2020.
+
+[05:45] Little did we know what 2020 was going to happen in the store, but we told families that while we were trying to recruit families for the first class of Redbridge, that if we had one student sign up, we would open. And for a little while, we had one student sign up, but fortunately, by the time September rolled around, we had 12 students enrolled, which was the limit for in-person learning in San Francisco at the time.
+
+[06:11] And so we opened the 12 students in 2020, and we started with students in the equivalent of every seventh grade. I say equivalent because we don't group students by grade level, and I'll talk more about that. And we've been aging up with that group ever since, and so next year, we'll have almost 100 students in K through eight.
+
+[06:29] We'll have our first graduating class of students. So that's a little bit of my story, but now let me tell you about Redbridge. So at Redbridge, our mission is to develop a sense of agency in every child as a foundation for academic and life success.
+
+[06:46] And this has been our mission since 2018, before the school launched. We've been talking about agency, and we've been talking about agentic kids, and everyone is like, does that word, like, is that even a real word? And now it's on every billboard.
+
+[07:03] And so I feel like we both are on target with this workaround agency, but also it's such a buzzword that it's really important that we define it clearly. And so our definition of agency is really about student agency, and we define it as the ability to set meaningful goals and have the will and skill to achieve them.
+
+[07:31] And this definition comes from the work of Stanford professor Oliver Endura, who studied the topic of human agency, and he came up with four core properties of human agency. So the first one is forethought, so being able to imagine a different future, set a goal for what that looks like.
+
+[07:54] The second is intentionality, so the ability to make a plan to get you to that goal. The third is self-reactiveness or self-regulation, can you control your behaviors enough to actually follow through on your plan? And then self-reflectiveness, can you, like, analyze what's going well?
+
+[08:10] So those are the four components that we try to incorporate into our definition of agency. So being able to set meaningful goals, intentionality. The will is the self-reactiveness or self-regulation. We'll talk about how we teach that. Self-reflectiveness, the skills, and then to actually achieve them is the four.
+
+[08:33] So that is how we incorporate some of this research into our definition of agency, and then use that definition of agency to design all the systems of our school. So if you think about it, traditional schools are designed to reward and support compliance.
+
+[08:52] Redbridge is designed to reward and support student agency instead. That means instead of passively receiving information, students become active drivers of their own learning, and the result of that is kids who can't wait to get to school at each point.
+
+[09:05] And if you drive by 3rd Street in San Francisco on any given day, you will see kids running to the building because they have such a sense of ownership over their learning. So here are our key design decisions that we made to support developing agency and students, as opposed to compliance.
+
+[09:28] So in traditional schools, students are grouped by grade level. Grade levels are based on age, and they're very passive. You sit in a seat for 180 days. As long as you have pretty good attendance, you move on to the next grade the next year, it really doesn't matter if you learned anything, you can move on to the next grade, it will be.
+
+[09:52] And you show up in September, and you don't really have to think of that. Like, you just show up, you're in the next grade level. You didn't have to really do anything other than be present. So what we wanted to do was develop a system that required students to actually take ownership of this process.
+
+[10:12] So we have a system we call autonomy levels. And autonomy levels are a grouping system not based on age, but based on those work habits that I was talking about earlier. So how independent students can get their work done. To move on to the next autonomy level, it's not something that happens to you.
+
+[10:32] Students have to initiate a conversation about promotion to move on to the next autonomy level. After they initiate that conversation, if a teacher agrees that they might be ready, then they have to prove it by going through a whole promotion process that lasts between three and six weeks.
+
+[10:49] So nothing just happens to you. You can't sit back and be a passive learner education. You have to really think about your own development and take action. To support that, we also had to change the model of teachers that we have. So instead of having one teacher who's responsible for all aspects of a student's education, we split the role up into currently two types of teachers.
+
+[11:18] And I hope in the future we can actually subdivide that even further to have our teachers specialize. Right now, we have learning guides and we have content teachers. So the learning guide is responsible primarily for teaching those work habits, also teaching character habits.
+
+[11:34] Like, you know, interpersonal dynamics and gratitude and all of that. And the learning guide meets one-on-one with every student for 30 minutes. So every student is getting this personal touch point to go over their academic progress, but also these work habits and where the students need to grow in that area.
+
+[11:59] And then we have our content teachers who are more like here, difficulty to teach math, reading, writing, and third subjects. And another piece that is unique about our model because of this staffing system and grouping system is that autonomy levels are completely decoupled from academics.
+
+[12:20] So in a traditional school, your grade level determines what content you are taught. So if you're in third grade, you're going to learn third grade math. You might be in an advanced third grade math group or remedial group, but you're still getting third grade math content.
+
+[12:37] What we've done with our autonomy levels is say your autonomy level doesn't have to determine what academic groups you're in. Your academic groups are purely determined by your ability in that subject area. So when it comes time for a math class or a reading class or a writing class, students leave their autonomy level group and they go to a math group or a reading group based on their ability in that subject, which allows students who have, you know, strengths in one area, weaknesses in another, to really be met exactly where they are.
+
+[13:06] And this is pretty much what every parent wants for their kid. And it actually isn't that hard to make happen, but it does require, you know, changing some of our assumptions about how schools are organized. So that's a little bit about staffing.
+
+[13:24] And then our curriculum is also a little bit different. We have time in the day and we have curriculum around teaching those work habits and character habits that I mentioned. So every morning for 30 minutes, students get, um, some strategies, lessons, reflection time on those work habits or character habits.
+
+[13:45] It's one or the other each day. Um, and then we do teach, you know, traditional subjects. In addition to that, we have a subject that I think is really important in the age of AI, even though, you know, we created this subject back in 2020 and that's called observation.
+
+[14:02] So observation is a class that's all about learning how to look carefully at the world around you. Um, and the reason I think it's so important is because it requires students to slow their thinking down, um, and really take time to look at things again and again, um, and have a pause in their life, which is pretty different from, like, how the rest of their existence is structured.
+
+[14:31] Um, and so observation and practice usually looks like a combination of art and science, but skills that we're teaching are around, um, both looking like zooming in and zooming out something, realizing what perspective we're seeing something from. Um, and then how we report on all of this also looks different.
+
+[14:52] So instead of having a report card, we have a digital portfolio that actually has student work samples in it, um, to report out. Instead of having homework, all students have goals that they are working toward, um, and they decide when and how they're getting those done.
+
+[15:11] Um, and then instead of giving out letter grades, like A, B, C, D, we have a system called learning credits and learning credits work like scout merit badges. So when a student feels that they are ready to be assessed on something, they sign up, um, right now it's fall and long, so they sign up on the clipboard and the teacher will, you know, look at the clipboard each day, see who is ready for assessment and what, um, and then give them that assessment on demand.
+
+[15:43] Um, and then the last part of our, uh, uh, school model, that's a bit different is how we use time. So there are parts of the day that if you came to visit would look very traditional with kids learning in a classroom and a teacher, but there are other parts of the day that are much more open-ended and student-directed.
+
+[16:11] So we have a block called deliberate practice where students are making decisions about what goals they want to work on. Um, some of them come from the classes that they're in, but some are just their personal goals and what they're interested in.
+
+[16:25] Um, so these are all of the components that we have redesigned and I am happy to talk in more depth about many of these. And I can just, like, go through it, but I also thought, um, you can see, like, which areas you're more interested in hearing about.
+
+[16:43] I'm sort of interested in learning more about, uh, what the actual work habits and character habits are, how, what those are based. Okay, great. Um, so, um, I really liked your presentation. Really well, Oregon. Um, so these are the eight categories of work habits that we have.
+
+[17:08] Um, so within each of these eight categories for each autonomy level, we have specific, like, sub points. Um, and I have those standards. So this is an example from autonomy level one. So the categories are on the top and you can see the different habits here.
+
+[17:27] And for the most part, they are not related to academics, but there is a little bit of overlap, um, in comprehension. So students do need to be able to read at a certain level in order to work more independently. So there's, um, between autonomy level one and autonomy level two, there is, like, a cutoff, um, where you need to be able to read at a level to move on.
+
+[17:48] But otherwise, um, they mostly are, you know, different from academics. So, uh, time management, you can see, like, following the learning plan for the day and monitoring progress. Um, focus is a big one for kids this age, usually. So stay engaged in all learning activity up to 10 minutes.
+
+[18:09] Um, listen to and acknowledge the ideas of others by responding. If any of you have young kids, say things to them and they don't know that they need to, like, say something back. Like, got it. Or, thank you. So, um, these are some of the work habits that usually correspond to our youngest group.
+
+[18:29] So in autonomy level one, students are generally between five and seven years old. Um, and even though these groups aren't age-based, the way that the work habits progress does follow a developmental progression. So we know that kids who are five years old can't conceive of what a month feels like.
+
+[18:49] Um, and so when they're planning their goals, um, in goal management, we have them just work on goals for the day. And at most, think about a goal across level four. Um, once they're in autonomy level five, they should be able to set and work toward goals that are, you know, multiple months.
+
+[19:10] Um, and so that's how our work habits, you know, correspond to a student's actual development. So this is autonomy level one. This is autonomy level two. So all the same categories. Um, but now like focus, they need to stay engaged in work and transitioning up to 30 minutes.
+
+[19:31] Um, they need to be able to evaluate when the learning task is easier, challenging. And for each of these habits or skills, we have different ways of measuring them. Um, so when it comes to promotion time, we are having students self-evaluate or teachers are evaluating students on each of these habits.
+
+[19:59] Um, some things in autonomy level three that are different is, um, bringing peers into it more. So resource management, thinking of your peers as resources, asking peers for help. Um, redirecting yourself when you get distracted. Um, quick, quick question on, on like how the promotion works.
+
+[20:30] So, so is it, is it where they need to have all eight of these at a particular threshold? Or is like, are there, are there some times where like, if they are say like really, really proficient at comprehension, but have a hard time with focus that you, that you might like, like mix them in between groups at different times?
+
+[20:51] Or? That's a good question. So, um, when a student is promoted to the next autonomy level, they are in that group and they can't meet them. Um, so there's no like moving kind of between them. Um, your, your autonomy level is really like your home lane.
+
+[21:09] There's a lot of sort of like group identity in it. So, uh, once you're there, you're there, but in terms of the promotion process and what we require, um, we expect students to like make all of those skills you've taught avid, they can have like three that they're still working on.
+
+[21:26] That's sort of the product that we think. So if there are three that, you know, they're not there yet on, they, we still will not learn to move forward. Um, and we'll let like the next learning guide know, like these are the areas that students still need support in.
+
+[21:40] Um, also if we have students with developmental differences who have accommodations within the school there, we allow those accommodations to be part of the process. So that they can still move forward with what we know about. Um, kind of interrelated question with that.
+
+[21:59] You had said that like, like it, it's a big part of group identity. Have you run into any issues with like students who are clearly ready to go to the next group, but like, don't want to advocate for their own promotion because they don't want to leave their friend group behind.
+
+[22:13] Yes, that happens. Um, and it's fine because academics are decoupled from your autonomy level. If a student doesn't move to the next autonomy level exactly when they're ready, they still are going to have academics at the right place for them.
+
+[22:28] So it's really not a big deal. Um, and at some point they always want to move on. Um, and you know, the most common question you get is, how does my five-year-old advocate themselves? But like our youngest students are the ones that wanted to go to the oldest students.
+
+[22:42] Like they're most eager to, um, move on and agree that they're ready. Um, and this is part of the promotion process for the autonomy level one to two, um, groups. And so every student who goes through the promotion process gets a paper like this.
+
+[22:59] It goes on a clipboard and the students are actually in charge of tracking their own behaviors. So, um, you know, these things are pretty simple. Um, they have these, you know, tasks I have to do each day based on, um, the work habit of keeping my materials where they belong.
+
+[23:15] Um, and so they need to like make sure their table space is cleared after each work session. Um, they have to make sure their company is empty today. And so they're checking off whether this is happening. So in any of these three weeks, the student can really say for themselves, like, yeah, it looks or, uh, looks like, um, not quite there yet.
+
+[23:36] Um, and the goal really is for students to make their call at the end of this process. If they aren't able to do that, like the teacher will point out, you know, it looks like a lot of ideas here. Um, but I think every time students are really able to say for themselves whether they did it or not.
+
+[23:55] Um, they can try again. The promotion process happens two or three times during the school year. Um, so it's, they can't just try it whenever. Um, they're like certain dates when they happen and so students kind of prepare for those dates. That is what allows us to have the, that, like, routine feel.
+
+[24:15] Um, and in addition to these, like checking off everyday tasks, um, some of the things that students need to do for promotion are also just like a one time, um, challenge. So one thing they have to do from on top of the level one to two is share talk time and share materials.
+
+[24:36] So to prove that they can do that, they have like a group project that, um, they do it with other students in the promotion process and through it, the teacher is like recording what they're seeing in terms of sharing materials and talk time.
+
+[24:49] And at the end of it, students reflect on like how they think they did. Um, it's sharp. Yeah. I have a question every day. Yeah. Can you talk a bit more about, um, how does the local work sense in the sense of belonging and, yeah, like, I think there would be a community.
+
+[25:23] Yeah, definitely. Um, so in terms of building belonging, we do a lot during the first six weeks of the school year. And then also in the spring when we have that second promotion process to like rebuild cohort identity. Um, and a lot of that happens in our morning meetings.
+
+[25:57] So the first 30 minutes of the day, um, in addition to teaching character and work hours during that time, um, there's always like a greeting, a share, et cetera, to, um, get students like invested in the day and each other, uh, as students progress and autonomy level, more of that morning meetings student run.
+
+[26:17] And we also have community meetings when the whole school gets together on Fridays, um, which is another time that actually like builds that sort of autonomy level, um, identity because autonomy levels will lead those meetings or whatnot. Um, and in terms of teaching like other skills around collaboration, collaboration is part of our work habits, but collaboration is also part of our character.
+
+[26:45] So we think of, um, the collaboration skills that students need to like achieve goals with others on their work habits. And then the collaboration skills of just like being a good team member and community member, um, under our character habits.
+
+[27:00] Um, so I'll, you had asked about, I don't have slides that go into what those are, but I'll tell you about some of them. Um, so we have a learning credit that's called seeing high time and it's like the letter. Okay. And it's about understanding, um, the impact of your actions versus your intent, um, and thinking about other people's intent.
+
+[27:27] And, um, so that is one where like students are really learning about, um, thinking about how they come across to others, how their actions come across to others, how to work well with each other. And to earn that learning credit, students have to, um, do a reflection on like three actions they took with their peers over their course of a couple of weeks and impact that it had on others versus their intent.
+
+[27:54] They have to get feedback from their peers. And then they have to also do some like acting areas. Um, for our autonomy, the whole one students, um, one of the character habits that they work on is, um, around, um, well, one of the neat activities that we do is, um, around self-regulation.
+
+[28:28] And, um, our learning guide, Kristen has this bubble machine and, um, there's a whole song that goes with it, but she, the kids are sitting in a circle and she, um, you know, uses the bubble machine to make bubbles come out. And in round one, students have to sit on their hands and let the bubbles fall.
+
+[28:49] Um, and then in round two, they, um, pop them with their pinkies. And, uh, that is like, just one of the ways that we are able to demonstrate for students what, you know, it looks like and feels like, um, okay. So I have an example of like, where is this involved?
+
+[29:29] So in our second year, um, in our first year, nobody got COVID. We had our 12 students. In our second year, we had 21 students. Nobody got COVID until the spring for our second year. And then like all of our teachers got it at once. Um, and we had two teachers left to run the school for the week.
+
+[29:57] And one of them was like nine months pregnant. Um, and so they, you know, ran the school from the minute the kids got there until they went home. Like no lunch break, no lunch break, um, from Monday to Thursday. And then Thursday they were like, okay, we can't do it.
+
+[30:12] Like tomorrow we just need to like cut off. Um, and since we'd never done, um, like remote learning, you just like treat tomorrow like a snow day, enjoy yourself. And on that Friday that was off for our students, we got emails from two families saying, this is the schedule my kid made for themselves when they were home, um, on this day off.
+
+[30:40] This is an example, um, from one of the families. Um, this is like a seven year old girl who is so used to, um, the habits of like making a plan and checking and following through, um, that she, you know, just did this at home, on her own. And that really is, um, part of like what we're working toward that students, um, gain those habits so that, uh, no matter where they are, whether they're learning by themselves or in school, they can, um, like make a plan and follow through.
+
+[31:11] So, uh, yeah, so as an example, we have another one, um, from a slightly older student who, you know, made her own plan. I think this was for the summer. This was like, I think we got this, uh, email from the parent the first week of summer break last year.
+
+[31:29] Um, like, this is what she made for herself, putting a dumpster block. Um, and this is, you know, just other like initiatives, also like the first day of summer last year. Um, and this was a student that was beautiful to our school. And like, I wouldn't describe her as, you know, particularly academic at all, but like, this is, you know, what she learned about taking initiative.
+
+[31:56] What does it mean to teach? Oh, yeah. To teach a work habit. Um, so one thing like for us, not being able to have focus. Um, so there'll be an actual lesson that is about focus and noticing your thoughts. Um, so our teacher will, uh, teach a lesson where she talks about being plugged in and what it's like to be plugged into something and like uses an analogy of electricity and a lamp.
+
+[32:25] And, um, and talks to the students about like, when you're doing an activity, notice whether you're, you know, you're able to stay focused on this, or if your thoughts are thinking about something else. And she even has like a poster that has like a person's thoughts in a bubble of like what focus would be, and then like unfocused thoughts.
+
+[32:49] Um, and then they talk about strategies. So like, if you are having a hard time staying focused, here are a bunch of things that you can do to help yourself. So maybe it's like moving away from your best friend, or maybe it is grabbing one of these like, you know, dividers and putting it up.
+
+[33:05] So you aren't, you know, visually distracted, or, you know, maybe it's sitting somewhere else in the room, putting on headphones. Um, so teaching skills like that. Yeah. I was more expecting that to be, um, down, maybe it's like, um, from the way that I learned focus.
+
+[33:26] It's not by learning about focus, but by doing it. Totally. And then focus is out. Yeah. So we try to have both on one. So some of it is like explicit instruction. And then we also have this deliberate practice time where students are working on their goals.
+
+[33:44] And that's really where it's like, okay, you learned about this thing, but can you put it in? Um, and so that's the kind of day where it's like, are you getting, and where do you need to go? Uh, sorry. I have a question about the, I have a question about the, um, if the, the, the merit badges approach, right?
+
+[34:12] Those are the care? Learning credits. Learning credits. It's for everything. It's for learning credits. Okay. Okay. Okay. I understand. And so how, can you just help me understand the relationship between learning credits and autonomy levels, or those are totally separate?
+
+[34:26] Yeah. So the learning credit system is still a bit of a work in progress. So I'll tell you what we want, how we want it to connect. Um, ideally we would have learning credits for each of our habits. And then when you've earned all of those, you're ready to go to .
+
+[34:42] So taking that like track review song and like making each of those sections sort of its own learning credit so that, you know, when students have earned it, that's one indication that they're ready. Um, we're in the process of moving toward that, but it's not exactly how it works yet.
+
+[34:59] What was the type of work field for that? What was the type of work field in developing research tool? Oh yeah. Thank you. For working skills, a mix for that. Um, I'm kind of curious in your developing language tool. Knowing that your time is over the country, what made you choose traditional instruction for subjects and compared to some of these more self-led human models for the subject?
+
+[35:38] And knowing everything else you're including here, and that you've had real regular public classroom experience, how similar is your model with teaching the subject to a traditional classroom? How have you evolved that? Yeah, so it was important to me that my perspective on teachers and schooling is that we have a lot to learn from people who have more experience than they have thought about a topic than they have.
+
+[36:16] So I wanted to acknowledge the value of a teacher coming to school, so I always knew, and I visited all different types, that students would still learn from teachers. I think what teachers can do is really, like, good teachers can drive a love of a subject in a way that it's sometimes hard to do if you're just, like, using an online program.
+
+[36:45] If you already love a subject, like, you can go quite far on your own, but, like, learning to be invested in math or reading, if you didn't naturally gravitate toward it, I think, like, good teachers, great teachers can do that for kids. And so we do set up our teaching blocks a little bit differently, but our students still go to those traditional classes.
+
+[37:10] What's also different is that they're working at a level that is appropriate, so, you know, if you are a first grader, but you're writing a third grade math, you're going to be, you know, doing math at that level. And same for reading. And if you need a lower level, you'll also get the support that you need.
+
+[37:31] And in terms of how we structure the block, what we, you know, the instructions we give to our teachers for how to lead those classes, use the first 15 minutes for, like, a mini lesson, some kind of group discussion, try to keep it, like, low or high ceiling in terms of what's going on in those classes. And then the next, you know, 15 minutes or so are for students to work together in some collaborative way, because, you know, what's the point of going to school together if you're not going to take advantage of, you know, being together and working together and thinking together?
+
+[38:09] So we do want students to be able to hear each other's thinking and engage in group discussion, so that's kind of the next 15 minutes. And then the last 15 minutes are sort of dedicated to more independent practice, where our teacher can go around and check in with students individually, so that's what we think about those blocks of time.
+
+[38:27] But we do, and I, you know, believe that teachers still have plenty of questions to play in that situation with kids, so that's why we keep them around. Thank you so much. That's clear. If you would be willing just to speak a little bit to, like, as an example, let's say it's an automatic class, and in a traditional classroom, the teacher is at the classroom.
+
+[38:53] In a classroom, they have their textbooks, the kids have their textbooks, right? Yeah. So is that a similar structure, or do you just do it more like Montessori, or are these other philosophies, pedagogies brought in during that time as well?
+
+[39:08] Yeah. Let me remind you, there's anything else I wanted to say. I think what's important to know about our school is that our goal is to give students agency, but we don't see that as, like, a free-for-all or unstructured. As you can tell, it's, like, highly structured, but with the goal of, like, giving students more and more ownership after they go through the school.
+
+[39:30] So as students progress in their autonomy level, they are taking on more and more of, like, the learning responsibilities. So also, as they get into, like, our more advanced reading and math classes, they are, like, leading the work a bit more, and using those learning credits to, like, drive what they're practicing and working toward.
+
+[39:51] In terms of, like, painting a picture, if you walked into one of our math classes, you would see a teacher, like, kicking off the class, usually with some kind of, like, interesting question, to get students thinking and talking. Um, and then you would probably see the students working in, like, small groups, either, like, at a whiteboard or on a whiteboard table, um, practicing whatever skill it is that they are working on.
+
+[40:21] Um, and there's pretty much, it's pretty much always in, like, small groups at that point, um, and then you would see them working independently, and we don't have textbooks that they are working from. Um, we also try to give our teachers autonomy in terms of, you know, where they're pulling from, you know, there are certain skills that we want all of our students to be exposed to, but it's just figuring out, like, how they're getting those products, um, what resources they're pulling in.
+
+[40:51] Um, yeah. Yeah. I have a question. I'm wondering, is this sort of related to your question? Maybe? What I just, from what you were saying was, I also wonder about, can everyone hear me? I think we'll see more of that for you. Ah, okay, thanks.
+
+[41:10] Um, my question is, how do you decide which academic content to teach? And I wonder about your sort of philosophy in contrast to a place like, um, shoot, I forget their name, but they're in, like, Massachusetts, and it's, it's more of this, uh, open style of learning where if the student is super turned on about creating videos, then, you know, the guide or her teacher is like, yeah, go for it, and how can I support you in doing that?
+
+[41:48] And so, yeah, I wonder about, you know, the basic kind of reading, writing, arithmetic makes a lot of sense, but then do you also have your students go through, I don't know, biology or physics? Yeah, where's the line? Sure. Okay. Um, so this is what gets covered in terms of curriculum.
+
+[42:15] We have our work habits, we have our character habits, habits of mind, um, come into our social studies. We have a block of the day called critical thinking and world studies. It happens every other day, actually. Um, and that's sort of, like, our social studies comes in.
+
+[42:29] Um, our character habits, healthy habits is, like, plus. Um, and then we have our core competencies, communication, that's, like, speaking, observation, which I talked about, and then critical thinking. So, those are, that's, like, what gets covered in our formal curriculum.
+
+[42:48] Um, and then, in addition to all of that, starting in autonomy level three, students have personal goals that they're working on at all times. So, that is really where they can say, like, uh, like, one student recently wanted to build a robotic arm, so that's what he used his personal level time for.
+
+[43:05] Um, we've had other students who, like, one student who wanted to, um, sew her own skirt. So, there's time for both. We usually have time for one, one, a couple more questions, maybe even a little bit more. I'm gonna have a question, like, afterwards.
+
+[43:25] Yeah. If a student's been in this up through eighth grade, like, where do they go afterwards, and how do they fit in with a different system? Yeah. And I know it's way too early, but, like, how do you think about, like, college? At the central, so, like, would life pass up?
+
+[43:41] Yeah. What's your vision for, like, yeah, for students to go as they become a student? So, we haven't had our first graduating class yet. It'll be next year, so we'll probably know where they go. There's not a high school in San Francisco that I feel like is, like, the logical extension of what we do.
+
+[43:58] And even if there was, my goal with Redbridge is for students to go wherever they want. And, like, the idea is that they become, you know, such knowledgeable learners that wherever they go in, they should be successful. Like, that is what we're going to do.
+
+[44:15] That's fine. Not that they go to, like, one certain school or one certain path. Specifically, we don't go through twelfth grade because I am not interested in solving, like, the college admissions syndrome. Because, you know, when you want to ensure that students are going to be eligible for getting to college, your creativity in terms of, like, the structure of things comes back from the biddin.
+
+[44:37] So that's why we end eighth grade. And I say eighth grade, but, like, a student could be a little bit older than eighth grade or younger based on our quantity levels and, you know, personalized academic progression once they're done on that.
+
+[44:49] And, oh, sorry. I'm curious. I'm curious. Do you have a choice to, like, very personalized and not correlate with this? But why have the autonomy levels? I'm sure there's a reason.
+
+[45:22] I'm curious, like, what do they think is there? Because I can also imagine a lot of where, you know, everyone is together or there's some other way to group cohorts based on interest or comfort. Yeah. The autonomy levels determine a few different things about the student's experience.
+
+[45:38] So, first of all, the autonomy level is where students get those work out at lessons, and they're all around the same area in terms of, like, like, that's one thing that is similar about all the students in that group. So, like, they're ready for some more lessons.
+
+[45:53] And then it also determines their deliberate practice experience. So, as students progress in autonomy level, they have more and more deliberate practice time, which is, like, that sort of, like, more open-handed time where they're making decisions about learning.
+
+[46:06] Another part of the experience that I haven't talked about at all is what we call deep dives. So, three times a year, we have deep dives, which is sort of a project-based learning time, where students are studying one thing for two weeks, and that also progresses by autonomy level.
+
+[46:21] So, in autonomy level one, it's a more teacher-driven experience. By autonomy level five, it's, like, a very extensive student-driven process. So, that is, those are pieces of what your autonomy level determines, and it's very helpful to have that moving to kind of help students in their progression to be more successful.
+
+[46:45] Do you have a hand up? Do you have a hand up? I love the question. Thank you. I'm curious, with this other experience, like, if you have, if you wanted to, like, prioritize agency and raise children, but have very little, almost no structure.
+
+[47:14] And so, I'm wondering, if you had to get any takeaways, like, if you wanted to integrate some of this, I hope there's a few homeschool families in here, integrate some of this into our own education philosophy. What, what, what can we be doing to help create an agency with, like, with, uh, so much structure?
+
+[47:34] Well, yeah, I definitely think it is possible. Um, and a book that was really inspiring for me in starting Red Ridge is The Self-Driven Child. Right. Um, and it, it's focused really on high school students, but I think you can take a lot of those lessons and the struggle and the other students if that's relevant.
+
+[47:58] Um, so that is a book that I would recommend to, you know, guide and thinking about how you might be as a parent. The South-Driven Child by Ned Johnson and William Tickstrue. Um, and I would also say, like, we build off a lot of the same values as Montessori.
+
+[48:18] And I would also describe Montessori as highly structured, like giving students choice and ownership. Um, so I think, you know, a lot of those, like, Montessori materials and activities are something that you can incorporate into your home if you're interested.
+
+[48:33] That's more on, like, the learning side of things. Yeah. Um, if you, you know, Yeah. I just wanted to consider that structured because I lay it out. They're kind of like, whatever they're interested in. Yeah. If they do it, if they want to give them a lesson.
+
+[48:48] Well, I would say it's structured in that there's like, you know, specific materials. It's not just like, here's some beads. Um, it's like, these are like very specific materials and they're, um, in just need to teach a specific kind of like skill as it's in and then there's progression in them as well.
+
+[49:08] Um, so yeah, that's, that's how I, that is more structured. But also if you're using at home, you can use Covered Block. Um, and, um, another organization maybe you already know is called Let Grow. Um, so like they have great ideas for, you know, what you can do with your kids at home to build their sense of agency.
+
+[49:30] Yeah, we, I love, I love what you're doing and it feels to me like a massive improvement over like the traditional school structure. Um, my like experience has been in the self-careful learning world and agile learning model, using the agile learning model for self-care in the community.
+
+[49:54] Um, which I think points to some of the questions around like one major difference of that is not assigning like the, the purpose of education to a particular child or the outcome of education around particular skills like that, but more, it's also a very high agency space.
+
+[50:13] Um, and more rooted in like helping the young person understand their own experience of life, their own desires and create a life of meaning by their own definition. Um, rather than like, uh, like learning to learn things that other people think they should learn.
+
+[50:35] Right. Yeah. And, and I have that same thing with, with Montessori that I see that the, it's a, it's a beautiful high agency system for young people. And it still has your outcomes and goals for what an education does. And it's right. And so I guess like for me in, I'm curious about like, where do you see that?
+
+[50:58] Like what, what comes up for you in hearing that? And what's alive for you in that space? How did you learn in, from here, from in this model to really deepen and develop their own understanding of what's meaningful? Um, I mean, like, and I'm not falling into the same, to me, systemic trap of somebody else knows what you should know and they're going to tell you.
+
+[51:22] Um, I guess a couple of things come up. One is that, I think there are many ways to, um, support student agency. And there are many ways to design around it. I think that's why for us, we have this very specific definition and go back to everything.
+
+[51:38] So that, um, like if your agency, like, is this your brand? Like maybe that is fine. Like there are going to be different ways of doing this and different outcomes. Um, I think something that's important about the way we think about agency and our autonomy levels is that, um, as students progress in our autonomy level system, we ask them to do more and more collaborative work, um, as they progress.
+
+[52:04] And I, something that makes me a little bit nervous about asking too much of like, what do you want? Who do you want to be? It's, um, losing, uh, sense of community and responsibility to the community. Um, so that is just something that I guess I think about balancing in all of it.
+
+[52:25] Um, that's the first thing that came to mind. Um, but I know that there are a lot of ways to do this. And a lot of ways it's going to work for different families and kids. And that was just our version. Thank you. One more question. And then I've got one.
+
+[52:42] Luckily we started late. Um, this is interrelated with, uh, with the promotion of the autonomy levels where you said that it happens at like three different times a year and structure blocks. I was wondering that like, is the, is the academic promotion side of things similar, or is that more at the, at the timing and the pacing of the individual students?
+
+[53:04] And then as that academic learning scales up and, and their, their autonomy level to scales up. Like, do they, do they also like within the broader buckets of academics have more, uh, like, like self-directed capacity for, for what the academics mean for them in that, in their particular context.
+
+[53:24] Yeah. Yeah. Um, yes. Uh, so when, um, we have three terms during the school year, um, students can move between academic groups three times as well, but it doesn't, um, and, but it's not about student, uh, like initiated changes. Um, although it could like, if it's given like this stuff isn't for me, I'm ready for
+
+[53:54] the next thing. Like if they can prove it, you know, absolutely we'll move on to the next group. Um, so generally those group changes happen three times a year, but it, it could happen more of a student might go, you know, ready for something different.
+
+[54:08] Um, and yes, once students get to like our. Most advanced academic groups, it definitely is more like a student driven experience than in our, like more teacher driven, um, academic groups for our earlier learners. I wanted to wrap up a question that came out of edge and education last year, which is, um, what's the right school for the right kid?
+
+[54:41] And I'm curious, like, if you were going to describe like, oh, the kids do really well, the kids do really like awesome here. Um, how would you describe them? And how would you tell a parent like, oh, you're a kid. Um, so the first thing is, um, I, it's often not about the kid at all.
+
+[55:00] It's often more about the parent and what they want to get out of the experience and like what they believe. So we say, um, Redbridge is for families that value lifelong learning and share a sense of responsibility for the community. One thing I haven't even talked about at all is higher tuition model, which is individualized for every family.
+
+[55:13] And that's like really important part of what we do. And so you have to be on board with that. That's like very specific language. But more generally, first of all, I think it's about like, are the parents comfortable with the model? Are they excited about it?
+
+[55:21] Like, is this the vision they want for their child and family? Um, and in terms of the students who do well at Redbridge, you know, my hope is to design a model that works better for more kinds of learning. Um, and what we've seen is that we have students who come in, who have been in a traditional
+
+[55:53] school, who have been bored in their classes and just aren't being challenged at the right level. And they come to us and like, that's usually a great fit. Um, we also have students who come to us who, um, are like way behind and they need to be in a place that is going to support them in like meeting them where they are academically and catch them up.
+
+[56:12] Um, so we do great with that. We also have families that come to us where like, my kid just loves cars. They only want compact cars. They are going to design cars. They want to build a car. They know exactly what they want to do. Like, can they do that at your school?
+
+[56:27] And like, those kids do really well. We also have families that have come to us who are like, I don't know if my kid's going to be into this. Like, they actually do really well in traditional school and they're pretty shy. Like, maybe this is for them.
+
+[56:41] And that is actually like my favorite variety because those are the kids that you really see like blossom and change over time and like find their voice and find ways to take on leadership roles at the school. And like, I love watching those transformations.
+
+[56:57] Um, so I think, you know, any of those cases we are well designed for. Um, I think what we've learned over time is that, um, even though we have these words around autonomy and agency, so much of the student experience is collaborative. So students really need to be able to collaborate with others, um, to be successful at Redbridge.
+
+[57:21] So that's a big part of it. Like, can you contribute to a group discussion? Um, and like, be part of a group plan. And we're definitely teaching skills around that. You don't have to, like, feel a little bit when you join, but, um, that's the main thing I would say.
+
+[57:41] Well, hello. Can you do the last one? Oh. Um, well, if you, uh, are interested in all of this and want to actually like, see how it works, um, you are welcome to reach out and visit us in San Francisco. And you can see it all in action. And I recommend it because it's really hard to, you know, imagine a different type of school experience, um, until you, like, see it live and see that.
+
+[58:05] Thank you. Thank you. Thank you.

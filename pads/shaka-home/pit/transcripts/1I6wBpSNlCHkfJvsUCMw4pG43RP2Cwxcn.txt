@@ -1,0 +1,265 @@
+# Closing Fireside with Robert Scoble_ Dave McClure_ and Rich Robinson
+
+Date: 2026-06-19
+Source video: Closing Fireside with Robert Scoble_ Dave McClure_ and Rich Robinson.mp4
+Drive: https://drive.google.com/file/d/1qr8L8WcKBO-_3LIiv1uxqMBomMGfjLAt/view
+Duration: 01:14:37
+Transcribed: 2026-06-21 · whisper large-v3-turbo · language: en
+
+---
+
+[19:39] All right, please grab your seats. We're going to get started here. Okay. Edge Esmeralda, how are we feeling? It's Friday. Welcome, welcome. It's Friday. We are closing out World Building Week with an incredible fireside panel here with Robert Scoble, Dave McClure, and Rich Robinson.
+
+[20:13] I am so excited to have these three individuals here to talk about the future. Well, at least those two. We just had an amazing... I was just at the mid-journey spa. I mean, come on. If you haven't paid attention to that, I was at the front row of that while you were all...
+
+[20:32] We have to hear about it. So this is what we have to... So, yeah, we spent the week learning about how to build new worlds, how to craft compelling stories, how to build AI experiences, AR, VR experiences, what the future of robotics is going to look like, who's dominating that space.
+
+[20:46] Today, these three individuals are going to give you an even further glimpse into the future for all this amazing tech. And also, more practically, what can we all do to build a better future using all the incredible technology that's coming out?
+
+[21:01] So give a round of applause and let's kick it off. Thank you. Give it up for Justin, everybody. I just gave a presentation about robotics and Justin said, Hey, we have these two incredible... Nerds. Robert Scoble, total nerdgasm with these guys.
+
+[21:18] I mean, Robert Scoble, David McCore, been around since the 90s. I hope the multiverse doesn't collapse in on itself. Wow, so awesome. And Justin said, listen, I need a smart, charming, funny moderator. And I can't find... And then we couldn't find one of those.
+
+[21:39] Yeah, so would you do it instead? So thank you. So I'm here. Wow, welcome. Welcome, everybody. I know, Robert, that you opened up earlier this week. Dave's just rolled in from the Valley. I'd love to, like, look at what's on the table here.
+
+[21:57] I'd love for you to double-click on that, please. I brought some old things from the museum. This is an Oakley ski goggle with a computer inside that's, like, 12 years old now, right? Shows that this stuff has been cooking for a while, you know?
+
+[22:12] Maybe the stamp should have made it look like this instead of the glasses, but... And still, how much more do you think needs to be in the oven? How much more cooking do you think the AR, VR... Well, Snap just came out this week at the Augmented World Expo, and they have a pair of glasses with two screens, a 70-degree field of view, which is about this, right?
+
+[22:40] So I could augment you or put a screen... Please don't. A big screen here. Well, it might improve you. I don't know. Dress you up, right? But it has a SLAM map in it, so you can lock things to the real world, right? Like, put a screen over on the wall or something like that, or put something in the air here, which, like Mark Zuckerberg's early glass doesn't let you do it.
+
+[23:07] It's just a 2D screen. Aren't you talking the form factors, like what you're wearing? It's bigger and chunkier than this. It has... You know, people have been making fun of it on X all week long, because it, like, looks dorky still. But it has magic technology in it, and it's setting up the future, right?
+
+[23:27] Because what we want is that, but in a pair of glasses, that look like the Ray-Ban. The Ray-Ban that you get from Meta, most of it is audio only with a camera, right? It doesn't have a display. The Snap ones have two displays, one for each eye, to do 3D augmented reality, so you can have a virtual being walking around the room, right?
+
+[23:49] Or a game, or do things with the wall, or put a screen in the middle of the air, like the Apple Vision Pro, right? Is it powered by your phone, or is it independently? No, it's independent. Like, the Vision Pro, you have a puck, a battery in your pocket with a wire, right?
+
+[24:07] And the Snapchat one has no wire. It's all self-contained, which is a breakthrough, right? It shows we're in. And do you think with the rise of AI and voice, that that's going to potentially disrupt what's happening with these ridiculous rectangles of glass that we keep in our back pocket that break all the time?
+
+[24:26] Yeah, that's where we're heading, is an immersive world we can talk with and interact with, with either our hands or our voice, right? And it's quite exciting. It's just, people put too much expectation on it, because it's going to be for developers or rich people who want a toy for men.
+
+[24:50] It sets up the future. Kind of like that big, clunky cell phone back in the day, and that's just a car phone or something. But then that leads to six billion phones around the world. Snow crash. Snow crash, yeah. It leads to the future. I mean, probably not many people know what snow crash is, right?
+
+[25:08] Anybody have that reference? We're fucking old up here. Hey, all right. Anybody over 50, maybe? How many people have read snow crash? Hey, talk about a reference. I love, you know, Dave grew up in West Virginia, but been in the Valley since the 80s, and two kids.
+
+[25:23] Can you share that anecdote? I think it's so wonderful. You're around Silica Valley, and you see Steve Jobs when you're with your kids, and what happened? I was stalking Steve Jobs in a restaurant near Palo Alto. We were having breakfast one morning, and I think my kids were probably five and seven, something like that.
+
+[25:46] I'm not quite sure when. This was probably the last year before he passed. He was not looking that great. And I went to the restroom, and they came back, and then one of the people I was hanging out with, actually it was Rashmi Sinha, the CEO of SlideShare, she goes like, points like this, and her eyes were like super big, and I was like, what are you talking about?
+
+[26:09] I looked different. Like, Steve Jobs sitting right there. I was like, oh. I was like trying to be cool, like, oh yeah, right. I see him all the time. I don't have to go bother him. But anyway, my kids were playing around with like an iPhone and an iPad, babysitting, I guess.
+
+[26:23] And at the end of the lunch, I went up to him and said, hey, how you doing? And thank you for making these devices. Little did I know that he did not allow his own kids to be using that technology until they were older. But anyway, that was, yeah.
+
+[26:37] I love it. They're putting a dent in the multiverse. I got my career started by meeting Waz. Oh, tell us that story. We had a parking lot at a community college because I was going to West Valley Community College and I saw the license plate Waz on a Jaguar in the parking lot.
+
+[26:53] I was like, what the fuck? Right? I built his Apple II motherboards when I was a kid. And that's what got me in my start. I actually did stalk him because he wasn't there. His car was there. And I woke up the next morning and the car was there again and he wasn't there.
+
+[27:11] And I kept... Robert's been around the valley a little longer than that. Yeah, yeah. I kept showing up until he showed up and he parked in the same spot every morning at the same exact time. We ended up studying together for a semester. What?
+
+[27:25] Talked him out of 40 grand worth of Macintoshens for the journalism department. And he became friends, right? I love it. I love those legendary anecdotes. By the way, I'm sitting in the cafeteria with him for a semester, right? With thousands of people rolling around.
+
+[27:42] Nobody, right? Nobody knows him. Yeah. Because there was no social media. There was no TikTok. There was no YouTube. There was no Twitter or Facebook or Instagram. And he wasn't so much the face as Jobs was as well too, right? And even Jobs back then, and people really didn't know what he looked like back then because they didn't have any visual reference.
+
+[28:02] In fact, I've seen more Steve Jobs videos recently than I saw back then because there was no way to watch videos from a corporation back then. Amazing. I also, if I may, I'm a... So I know Dave once told me, he's like, I'm not much of a star fucker, but hey, Steve Jobs, that's amazing, right?
+
+[28:20] That's like... And then like, Wah's amazing. I met Jobs too in a sushi restaurant. We both stock in Jobs. Maybe that'll be our book title. I'm a fanboy of Tim Ferriss, and I know that Tim Ferriss directly attributes his... He stocked me. Yeah, his rise to you, right?
+
+[28:36] He came to my party at South That CES. Yes, and you and your wife like helped him out and like, yeah, he actually gave him his first... He told the story of South by Southwest. He wrote 40 names on a whiteboard of people he wanted to meet to launch his book at the four-hour workweek, and I was the first.
+
+[28:53] So kids watching at home, like you can, without trying to get some sort of restraining order, you should be... Stalking people. Directly going to people that you admire. This panel could go either a lot of old stories, because David and I...
+
+[29:11] No, no, no, I wanted to just... Or we could go completely... I just wanted to establish that kind of like, you know, wrong side of... Might want to go towards something that the audience wants to hear about. Yes, let's do that. As opposed to us flagellating up here.
+
+[29:25] So tell me about this newfangled telex and fax technology that I... Consumer Electronics Store. What's making you most excited? The big news of the week was the Mid Journey Spa, which has little chips from a company called Butterfly. It has 9,000 ultrasonic transducers on it, and they put a bunch of them around you,
+
+[29:57] and then they sink you in water and use the chips, the ultrasonic, to scan your body and make gigabytes of... Full-body ultrasonic compact technology. Great choice of acronym there. Yes. And that was... I was in the front row of that. Not making it up.
+
+[30:19] That really is the acronym. And that took over X. And then why water and ultrasonic versus, say, like, you know, using video or lasers or something? Well, we've had Prenovo, which is an MRI that you go into and does a full-body MRI scan. It's...
+
+[30:34] You know, my best friend died at the age of 40 from colon cancer, right? Because they missed it. He was too young to get colon cancer, and they didn't look for that. You put somebody in a full-body MRI, you're going to find any tumor or anything like that.
+
+[30:50] That's the thinking. It's a preventative medicine, and this is a big new trend. Prenovo, which I've done twice, I think, three times, two or three times. It's about a 45-minute full-body scan. It's kind of claustrophobic. If you haven't done it before, it's not, like, the greatest experience.
+
+[31:08] Yeah. They do allow you to sort of, like, watch some YouTube videos and or listen to a podcast or something. But it can be kind of terrifying if you're in there for, like, 20 minutes. I was in there for an hour. Because it's a pretty tight space.
+
+[31:20] Yeah, right. And you're locked in a cage, you know? Yeah, so I believe the new tech that they're talking about, you can do that full-body scan in about a minute and a half. Yeah, I'm not sure. So the idea is to be able to scale that up, have people do it very frequently and not have it cost a lot of money.
+
+[31:38] Also, MRI changes your DNA, right? There's some possible risks to having, you know, too frequent MRI scans. I don't know that that's a huge concern. But, yes, there is some. I was talking a little bit earlier about the LEV, the longevity escape velocity, that Ray Kurzweil thinks that is going to happen in 2032.
+
+[31:59] Are you the ice cream man? Pleasant little ringtone there, Rich. And so basically, just don't die and stay alive. And if you're doing these scans, then it helps to really catch things early. And that's... A lot of potential false positives, though, too.
+
+[32:15] Yes, yes. So that's the downside. Yet, there's no other way right now without doing that. But then you actually, if you can deal with the tension and the anxiety around the false positives, then the actual... I think the idea with the new scans that Midjourney was coming out with is you can do them frequently and see if the false positives, you know, probably undo a pre-nive scan once a year.
+
+[32:38] It's for other... It's like $2,000 or $3,000. It takes an hour. But if you could get the cost structure down for doing Midjourney scans or whatever they're calling it, it might be able to detect that. I can tell we're really keeping the audience entertained.
+
+[32:50] So we're talking about... You're not in a preventative medicine? Maybe let's move a little bit... I got a camera on my toilet, too, from a company called Prone Science. That might be entertaining for some folks, Robert, but probably not for the audience.
+
+[33:07] Let's not talk about Japanese social media right now. So we're talking about meat humans. What about... I was just talking about robots, metal humanoids. What's the latest, greatest that you see these days? Your talk is all right. Everybody in San Francisco...
+
+[33:26] There's a whole bunch of companies in San Francisco. There's 1X Tech, which has a Neo, that costs $20,000, is going to start shipping later this year. It's largely autonomous, but largely also teleoperated. So if you wanted to do washing of your dishes or your laundry, there's probably going to have a human jump into that in a VR headset somewhere else, which leads to a whole privacy implication of that.
+
+[33:54] You've got the figures, which are showing one task right now, flipping box... Okay, six tasks in a warehouse, and that'll get better and better over the next year or so. The real gating factor is, one, making it a low cost. China has a huge advantage there.
+
+[34:15] And, two, the world models that are being trained right now to have it do things in your home or in your factory or whatever. And I've been having a lot of meetings with the people building the world models, collecting the data with headsets, with cameras, hats, gloves, on people.
+
+[34:36] And that's a worldwide effort. There's 10 companies that are doing this kind of thing. And I talk to them and go, how long is the world model going to take to get to generalization, to get to where it does a lot of things in our society? And the average answer is about five years.
+
+[34:52] The best answer is 18 months to do a lot. So, over the next 18 months, you're going to see the world models both here and in China really rapidly evolve. I'm going to an AI conference to meet a lot of world model people to understand how fast and what kind of breakthroughs are needed to get the robot to work.
+
+[35:12] What do you see in data? Are you studying robots at all? I am not studying robots. At least not very much. I am. I'm using every robot company I can get into. Well, I know this, that Dave was the, he calls himself the lowest man rung in the totem pole of the PayPal mafia back in the day.
+
+[35:32] So, it was with, you know, Thiel and, you know, so many Macs and Reid Hoffman. It was after Elon had left. But then worked with Peter Thiel on the Founders Fund. And Founders Fund 2 is probably the best performing fund maybe in the history of the world because invested in SpaceX.
+
+[35:51] And, like, what are you seeing as a person who participated? I was not involved in the SpaceX deal. I did work at Founders Fund at the same time they made the early investments there. Luke Nosek and Justin Fishner-Wolfson and Alex were involved in that deal.
+
+[36:10] and kind of a weird situation given that essentially there was a palace coup at PayPal and Elon was sort of notoriously kicked out of the CEO role at PayPal while he was on honeymoon I think visiting the Olympics and Peter came back in and retook over.
+
+[36:32] So, you would think that that would not make for an easy future investing relationship. but strangely Founders Fund was one of the early investors in SpaceX back around 2007 I think was the 2007-8 time frame. So, the first Founders Fund fund was a $50 million fund in 2005 or 2006 I believe and the second fund was a $220 million fund
+
+[37:04] that was started in 2007-8. I got a job working with Sean Parker there who is an interesting and crazy person and working for about a year and a half with Sean I think I may have had five meetings with him so that was an interesting story but anyway Steve Jurvetson who runs used to be part of Vapor Fisher Jurvetson now runs Future Investments has always
+
+[37:34] been a really smart and very technical person and he I believe had met Elon before that I'm not quite sure when and he was one of the early investors as well but yes Founders Fund too was an investor in three really big outcomes Palantir Airbnb and SpaceX amazing wow you gotta really fucking turn that phone off so what are you seeing in space like
+
+[38:04] right now I'm fascinated by what SpaceX has planned for the moon with mass drivers and putting a lot of AI compute in space there's two companies that aren't SpaceX that are building data centers decentralized little data centers that have NVIDIA a Rubin chip in it going up to space has a solar array and they're coming along I'm visiting one of those companies in July
+
+[38:34] so do you think that stuff's going to be usable in the next 24 months though like it seems like people are very optimistic about economics for data centers in space and even if the economics are reasonable the scale is not going to be there right away the one that I know well and I forget their name they're starting in nine months putting them up it's going to take years to get the kind of scale and cost that would actually be relevant and or meaningful for normal data centers 24
+
+[39:04] months seems too soon I've heard like 5 to 10 years is the realistic five years more realistic that there'll be enough so let's assume that maybe it does take longer then what does that mean for all these NVIDIA chips can they be turned on what's going on with energy it seems like that's really a bottleneck communities don't want data centers in their backyards and that's a real problem getting the power to support a data center is a real problem because it sucks I think we'll get past that problem I have a feeling most of the companies will subsidize the costs of those
+
+[39:35] data centers because they can already see that there's going to be a huge backlash if they don't but the constraint is more that there's just not enough power to meet the projections that these companies are trying to scale at like we're going to hit we're already hitting a wall on scale for power usage which is why Elon can charge so goddamn much for unused Colossus compute and why the contracts that they got with recently with Anthropic and Google kind of amazing
+
+[40:05] like this business that everybody thought was complete bullshit XAI was merged into a billion dollars just maybe six months ago and at the time there was like hardly any revenue and a shit ton of losses in CapEx sorry I shouldn't be swearing in a mixed audience don't say CapEx don't say CapEx in front of my 10 year old daughter anyway blame my mother for all that verbal low class stuff so you know
+
+[40:36] we are a space shareholder and we're before that and kind of a lot of people that for merging XAI into SpaceX was a little bit you know incestuous and probably not really worth the money spin forward six months later and you've got like I think a 15 billion dollar year contract with Anthropic and about a 10 to 12 billion dollar year contract with Google 25 billion dollars in revenue on an annualized basis
+
+[41:06] that did not exist like months and so we were talking about where does this 250 billion valuation come from it's kind of crazy to be just laying the railroad tracks in front of them between the time of announcing that merger acquisition and then getting the IPO together which has been for
+
+[41:43] 25 billion dollars in revenue and then it seems astonishing that actually might be justifiable that that company was worth $200 billion and now 10,000 satellites in the sky and they're going to turn Starlink directly in your phone That is the part of the business that is not bullshit I mean really SpaceX really is a pretty amazing company on at least two fronts one is the growing crazy
+
+[42:13] and generating a lot of revenue The rest of the stuff is extremely speculative whether you're talking about data centers in space or even just you know pharmaceutical data center revenue was you know zero like six months ago and now it's $25 billion a year so that's that's an significant businesses
+
+[42:43] maybe not worth one and a half to two trillion dollars a year ago those two businesses were only valued at 300 to 400 billion dollars and that was a 20x multiple in revenue 25x but as a shareholder founders front too you're happy I'm happy as a fucking clam yes anyway sometimes
+
+[43:14] shit happens your way you gotta be happy when it comes your way and not too unhappy when it doesn't anyway life's interesting yes it is indeed it shows how hard it is to predict the future we're in an exponential growing world even for late stage I mean that company is 20 years old and you could argue that it's been you know completely turned upside down in the last 12 months last six really yeah I mean the xai business
+
+[43:44] is now more than half the overall projected revenue for the year and that did not exist a year ago nobody in the audience at the mid journey event knew they were announcing a spot that's yeah that's also weird it's hard to predict what's going to come image generation AI into medical scanning technology although I think that's probably not right around the corner there's still quite a bit of work to be done there but maybe that might be commercial within two to three years yeah and that you've been tracking for
+
+[44:15] decades now looking to maybe you know to divine I think the area of technology that probably we're not paying as much attention to that is really going to hit within the next 24 to 36 months is just advances in medical technology and that's like in multiple different areas drug think we want to start playing with CRISPR or not like that stuff is really taking off and probably accelerating
+
+[44:45] and a whole lot of brain computer interface stuff I met a couple of entrepreneurs who are building a variety of brain computer interface that scares me a little bit yeah does it okay are you scared you're not going to get one Robert I'm going to let you get one and watch what happens I Robert I met when Robert was running a visual
+
+[45:15] basic user group and many of you probably don't even know what that is which at the time was super cutting edge it so anyway Bill this again we're going back in time way too long ago but yeah I think it's
+
+[45:46] really important because that was like the late 80s early 90s was when things started to cook and then now it's really on this exponential curve that is taking you know the OGs even by surprise and it's so difficult I think it's been exponential up until recently we'll see whether it continues to be exponential again we're going to hit power constraints we had a week off because Trump took anthropics table off the table for a week and Mike yeah
+
+[46:16] actually we may be nationalizing AI companies here if Bernie Sanders and Donald Trump have their way I not sure I really think that's the best way to go actually let me rephrase that my first or second or 17th choice what do you think about Dario from Anthropic basically pre-IPO about to go into
+
+[46:46] the six month silent period but saying we have to really all come together and put the brakes on this do you think it's some sort of theater doing that for the benefit of humanity or regulatory capture to slow down competitors yeah he's a brilliant dude he's invented a brilliant technology and built a brilliant company I'm using it as well as many other people in this room are I think
+
+[47:18] the answer is yes to both I was one of the first to tell people that there's an existential threat with AI because I sat next to an AI teacher for 10 hours who laid out how this could go bad certainly and there's and now I've been meeting with companies in the security field who are using mythos to attack things to close holes in those things and it's a very powerful and very scary technology
+
+[47:48] so there's a lot of potential harm that AI could cause in the future so Dario by warning us is right on that path but he does it in such a way that just gets us all riled up and gets the government over indexed and that's caused a huge But do you think those risks are any larger than just the risk of people losing their jobs I think I think so That seems like a more less crazy and more
+
+[48:18] near term You take down the power grid or you take down a raft of companies you cause deep So you're more worried about that I'm more worried about that jobs we can figure out with money and with That seems like a little bit more of Sorry I don't mean to be an asshole but Yeah please do I think that's more of the elitist nightmare That's more of the elitist nightmare not the everyday person's nightmare The everyday person's
+
+[48:48] nightmare is I'm not going to have a job where I'm only going to be making $20 an hour and how do I pay the rent Versus the elitist oh the robots are going to kill us or somebody's going to take down the entire net and yes maybe those things will happen So like job displacement I think a much higher probability issue is that income inequality will be rampant within a very short period of time and that most companies will probably do 30 to 40 percent layoffs in the next 4 or 5
+
+[49:18] years That is a very real concern We can say hey let the market figure it out And we're just talking about the tech industry trucking number one job in America autonomous trucks are coming I think for a lot of people in Silicon Valley this was really a philosophical argument that they were not worried about because they thought the people whose jobs were going to be taken away were blue collar workers and hey guess what turns out that the people whose jobs are going to get taken away fastest are coders and lawyers and marketers content creators
+
+[49:50] and McKinsey consultants But actually if you look at the numbers right now People whose jobs are not as much a threat are plumbers and electricians and electricians or are a lot of those layoffs because people overhired with zero index or zero companies are certainly using the bullshit of AI to do layoffs that's like not at all in question because look at the unemployment numbers right now we are yes but I mean I think we're going to see every company starting with tech and finance
+
+[50:20] companies first cut jobs for efficiencies we're already seeing that in tech we're already seeing that in finance one of the attendees in the room told me he laid off people because AI right customer service call centers are definitely going to see like cutbacks and you know you can say hey that's good and productive and maybe we'll have better customer service but a lot of people are going to lose their jobs but then new jobs being created it's more of a displacement I don't think we'll see enough new jobs created to offset the loss let's say
+
+[50:55] you need to take a truck driver and retrain them you can't do that fast right even to be an electrician how do you take a truck driver and make them an electrician and do your electrical work the type of jobs that will be created probably we're not ready to do at scale maybe some percentage of the population okay so you guys are the school of thought it's not just displacement it's actually unemployment and then you talked about no but he's worried like Skynet's going to take over I'm worried somebody's going to hack every company
+
+[51:26] all in a week and take down our grid take down our companies the guys I met with hacked Y-Combinator companies and this is new software built by smart people who are young using the best tools 40% had critical holes so oh no some Y-C companies might go to shit society will crash come on how many how many other things in our society are run by computers that have holes a lot
+
+[51:56] of them the financial institutions that are not the top four is the risk factor there's about 300 maybe 400 small midsize regional public banks who absolutely have shit for cyber security and they're going to get shut down yes that's a risk they probably should get shut down because they're shitty at cyber security or is it going to come in like mythos fable and like patch everything up put spackle into everything so that's what we need to do and unfortunately
+
+[52:27] that tool before that fully happens well Trump has taken that off of the table for a week right so we're not able to use this is a yes and scenario like yes these things might happen okay I think that would be more likely to be isolated crisis not necessarily I mean yes if we take down the entire net and maybe there's state-sponsored actors or even individual terrorists that might decide to do that well this is why Trump wants to call it a weapon because if
+
+[52:58] China says they could use it against okay so so US-China isolated incident but maybe widespread unemployment now maybe some people don't want data centers the issue we got to start thinking about is what happens if 30% of the population becomes unemployed the next five years and then they're probably not going to be really happy people people are people are booing at commencement speeches they may be not even getting a job is there going to be a tech backlash do you think that that's really going to color and inform or worse because hungry
+
+[53:28] people they burn down cities yeah sure right social unrest right so you know I was making a joke about Bernie Sanders before but like this is the reason that they're trying to like nationalize AI companies is to take a significant amount of ownership and use that for some type of social safety net or re-education or training it's not that crazy in concept not that I want Bernie Sanders being the one implementing it but you know the concepts are not crazy and Sam and Dario and other people have talked about this for the
+
+[53:58] last five years that's not a new topic universal basic income was at least an attempt to start thinking about how to do that the UBI topic do you even want to go in there or is it I don't like UBI at least not soon someday it might be needed my dad escaped poverty from the GI Bill right he got the wealth to go to school and get a PhD and that pulled our
+
+[54:28] family out of the projects in Brooklyn that meant he had the wealth to go to school and learn something for six years that's what it's going to take to get the truck drivers back into something else because if you want a modern GI Bill yeah a retraining program I don't think reeducated truck drivers are going to be doing vibe coding for not vibe coding there's a lot of jobs to do in the world like put your electricity
+
+[54:59] your solar panels on your house that you haven't gotten yet right most people don't have solar let's get let's get a retraining program to get those people into jobs that we still need and they're not going to be done soon by robots I mean we were talking about how soon is the optimist or a humanoid robot coming they're coming but they can't do anything right now right and it's going to be a few years before they can do a lot of things and then it's going to be a few more years before we normal people can afford
+
+[55:29] to have one in their house right so we need a we need a short term program if we had a rational government we would have a jobs retraining program going right now by the way this technology can teach you how to do anything in real time VR I went to reflect in Germany they put me in a headset like this and they taught me how to take apart an electric motor and fix it right in real time on top of the motor because they I can tell you take that screw out take that screw
+
+[55:59] out take that screw out take this out unclip this right and watch you do it with a camera and help you do it it can teach you how to cook dinner this way it can teach you how to do a lot of things in our society we have technology but we're not using that in our education system so we need to rethink education completely thanks to this new AI AI can be used for cheating but it also is the most powerful learning technology we've ever invented and we aren't exploring that nearly enough super
+
+[56:30] I'm not sure that we need VR to do that I mean I think actually a lot of people learn stuff just watching YouTube but if you're using your two hands you can't be holding a phone you gotta have something on your face it's much more efficient if you have something on your face yesterday I was at a startup it's a robot fighting startup called Rek R-E-K and they have completely matte black walls and they had a crew there with VR goggles tracing out graffiti that they were going to spray paint and with the VR goggles they were able
+
+[57:00] to do it in a way that really accelerated it's actually kind of a fascinating use case there haven't been that many practical use cases but I think learning and being able to make things more efficient it's going to Caterpillar used it to teach people how to fix a tractor right using augmented reality you can put things on top of the tractor and teach people a whole lot of new things which is just not easy to do in a phone you can watch a phone and try to do it but then you're not
+
+[57:30] mapping it on top of the task I think the glass half full or two thirds or almost full is that the promise of AI technology to help make our lives better healthcare education all kinds of things is tremendous at the same time the glass half empty or really a lot more than half empty is we're going to see a lot of change really fast and I don't know that companies are ready for that change other than the fact that they're going to try and be efficient and cut jobs and I'm pretty
+
+[58:00] sure the government is not ready to do the retraining necessary I'm not even sure what we would be retraining them to do like that's again you're talking about this is not like you know Tennessee Valley Authority and like build a bunch of highways or like build a bunch of dams like we don't have assembly line yeah there's not a 2030 version of the new deal that's going to work for you know on the other hand I keep talking to factory owners and they can't get enough workers to build the products right they are really struggling getting
+
+[58:31] labor and I don't want my kids doing that kind of job but that job is open and that's one reason we need to develop a robot industry do you think we're going to have jobs for factories that are going to replace the layoffs that we're going to see no we're going to have new jobs anyway I don't think I know we're going to get depressed we've made everybody depressed the world's going to end the infrastructure
+
+[59:01] is going to get shut down by China hacking it and we're all going to lose our jobs so I think the way that I was going to try to bring this back to the current topic in technology is that we're trying to think about how do we rebuild cities and communities and I'm not going to suggest we know how to do that at national scale I think we need to start how can we do that in a neighborhood for between 100 to 500 people maybe I mean that's the thing is that we are going to be freed up to connect
+
+[59:31] collaborate create it's not as if people get so much meaning you might be freed up to collaborate and connect but you know a lot of other people might be freed up to collect unemployment but there's going to be a transition and probably a really fast transition is what I'm saying a fast seismic societal shift okay so let's look at like transition from hunter gatherer to you know farming societies happened over hundreds if not thousands of years steam engine
+
+[1:00:02] you know electrical happened over maybe three four generations a couple hundred years computing revolution maybe one or two generations fifty years but AI revolution going to be less than ten years and half a generation like we're not ready for the amount of change and speed that that's going to happen with like you can't architect government policy when everything fucking changes within like eighteen months and our government's not getting along
+
+[1:00:32] and full of shit but you know I wouldn't trust any government to like help us figure this out we don't have a rational government I've met with senators have you met a senator who can talk about AI with you no I look again my personal politics aside and I'm no fan of Donald Trump I don't think democrats in office are going to like make this work for us either it's got to be done at the local level where we give a fuck in our local community and not like even at the city scale but just
+
+[1:01:03] done within you know a couple hundred people that you want to live and work around like that's the place that you need to start architecting and that's why these these places these experiences are going to increasingly become more the reality that we face even right today in Silicon Valley is people who are you know teachers and policemen and firemen can't afford to live within a two-hour drive of the communities that we live in and conversely
+
+[1:01:34] my stepfather his wife live in a small suburb outside Little Rock Arkansas and all the doctors have moved out of their area my stepfather is in his 70s now and they have to drive 45 minutes to an hour to get even modest medical coverage because nobody wants no really good doctors want to live there and so those are the extreme situations that we're going to have where like people who can be paid but have to drive two hours to service the communities
+
+[1:02:04] or the consumers need to drive an hour or two to find enough urban density or talent to get their needs met those situations are not sustainable we need to figure out how do we have minimum critical mass of people who are teachers and employers and people who do utility work and construction work within our local radius of like I don't know 10 miles and 15 minutes like how do we reconstruct that how do you make that happen how do you have local urban policy how do you have jobs
+
+[1:02:34] how do you have education systems that work within a small you know five to ten mile you know area and I don't have the fucking answers to that but I think that's where you shouldn't be depending on national governments to figure this out can I can I open it up to some questions comments from people please tell your name please my name is Justin and first of all thank you for this it's been wonderful to hear about the tech of the past and the tech of the future and all the camaraderie and the friendships you guys have made except we have no fucking idea
+
+[1:03:05] what's going to happen we have some idea that shit's going to happen we don't know how much shit is going to happen I don't think any of us do but that speaks to my experience here at Edge City this month that I've met old people brought old not old people old friends and new friends and that's what we're working on can you each speak to the founders and the builders that are here for where to get their feet in the door so in 10, 15, 20 years they could be sitting there I wouldn't wait
+
+[1:03:36] 10 to 15 years hopefully it's faster than that you're talking about where they go to get money or what are you talking about yes sure the question was where do you go to get guidance or advice I guess yeah right Paul Graham has written a bunch of essays on how to get started make something people want is one of the essential elements there you know
+
+[1:04:07] time very old problem in Silicon Valley is a bunch of nerds build technical shit that doesn't have a customer that's not a new problem you know lots of us have tried to provide very basic education about like hey build a business where you are a customer or know someone who would be a customer that's kind of the basic elements is find people who have real problems to solve and build to those don't just build technical solutions because you're
+
+[1:04:38] enamored with the technology that's very well tread ground there's a lot of folks out there that have written about that so I won't try and re-architect that story I think the things that I'm probably interested in lately is how do we how do we integrate technical entrepreneurship with normal communities and how do we do that not so that just like hey tech nerd marries some non-tech nerd person and that works out but more
+
+[1:05:08] like can we get out of our own neurodivergent introverted geeky ways and just you know re-engage with normal humanity also who might need a hand with some technical areas but are still people too Nick Nick Smoot up in Idaho has laid down a pattern for that he's built entrepreneurial centers around America with local government and he starts a bunch of different businesses from some technology to some normal
+
+[1:05:38] businesses haircutting businesses and stuff like that in a center and that gets people to meet like this and you know learn how to be an entrepreneur how to raise money how to do networking with rich people in the town to get them to fund their efforts right and how to find a customer because they throw festivals and get the regular people from the town to come and meet them and see what they're doing and that generates a little bit of that kind of
+
+[1:06:09] behavior probably not within the context of the next five or ten minutes but a talk that I might hope to do next week is about how to build both professional and residential communities where it's not just a bunch of nerds or VCs but you're really integrating with other normal people and like what ties those people together how do you structure mortgage finance groups how do you structure venture capital and real estate finance so that you can have a group of technology
+
+[1:06:39] companies or even just normal companies that create jobs like I think the basic concepts that we want to think about is capital is used to create companies companies create jobs jobs create people with paydays who can pay rent and or pay mortgages and those people support other businesses that get started you might need some debt capital to get those other businesses started but can you create an MVP for your professional and residential communities that operate somewhat sustainably
+
+[1:07:10] maybe with like 500 people or so if you're in San Francisco you're blessed because there's events every night there's like four events to go to you can go to hackathons every week and build something with somebody else present it to other people and if they see your thing is really amazing you win some cash maybe but you also are talking to venture capitalists who are like oh that guy's real smart and he's built something really amazing I want to
+
+[1:07:40] invest in him or at least get to know him or her and that helps a lot being in San Francisco Silicon Valley but mostly in a decent neighborhood that costs less than three to five million and how do I put my kids through either private schools or other that cost a couple hundred thousand dollars a year for two or three kids and you find
+
+[1:08:11] that it's not so easy even if you're a successful entrepreneur I mean I know this sounds like a super high class problem but still we have to figure out a way that we can architect societies so that we can live with normal people startup societies like this we're going to wrap up at five we have another question here we have one more I just wanted to make a quick question or maybe a comment it makes me personally think like the blue
+
+[1:08:41] color work color jobs that a lot of people were doing for I don't want to say us for other people like caretaking and maybe that will bring people closer together they will have time to take care of their parents or loved ones rather than hiring someone else or children and maybe one of the directions is bringing
+
+[1:09:11] us closer together as a person in our society hope so yeah that would be great I'll give you the mic here here you go so you guys probably know that open source open weights Chinese models are kind of nipping at the heels of even the flagship American models and a lot of people have this kind of naive take like wow what a wonderful free
+
+[1:09:42] gift from Chinese companies and looks to me though like they're sort of intent on hollowing out the American AI industry in the same way they did to the American manufacturing industry I'm wondering if you guys have any semi-enlightened takes on the geopolitical situation there have you ever been to China no never have you ever had your kids go to school with other people who are Chinese American yeah I mean I did I went to engineering school with Chinese Chinese people aren't like
+
+[1:10:13] evil creatures from other universes and if you think that Chinese governments are bad you might want to take a look at our own leadership lately okay then why do you think they're releasing open source models for free because they want jobs and they're innovating too and there's also builders in China I'm not suggesting that there aren't risks and concerns but like it bugs the fuck out of me that people are like us and China versus like you know yeah but we literally lost almost all manufacturability
+
+[1:10:43] to China I'm not saying they're evil for that smart and they built a lot of infrastructure for manufacturing and we did not right so now they're distilling American models into free open source models and hoping you might want to talk to Rich because he lived in China for I'm not saying they're evil but this is a pretty naive take they're just like oh they're just giving us free models I'm not saying you're saying they're evil either but it certainly sounds like you're saying they're evil and I would encourage you to talk and meet the deeper problem is robots
+
+[1:11:13] are coming and they can make robots 20 times cheaper than we can and way faster and they can make models 20 times cheaper than weekends it has not sailed yet nobody has a humanoid robot in their house whether you're in China or here unless you're a nerd in Shanghai or Shenzhen I'll just give one anecdote which is that how many copyright lawsuits are American AI companies facing like devastating multi-billion dollar copyright lawsuits
+
+[1:11:43] how many copyright lawsuits are Chinese AI companies facing for the same copyright violations almost zero there's only one that's settled and it was for $1,500 so if you think that's an even playing field compared to Anthropic playing multi-billion dollars it's not an even playing field it's not evil but it's not an even playing field just pointing that out I'm just saying you might want to think about working with some of those companies as opposed to like we have to beat them so it's actually the whole concept of like us and them is like you're missing the forest for the Chinese it's actually
+
+[1:12:15] all really interconnected though because Chinese companies what they really care about how many robots can we get off the assembly line how many phones can we get off the assembly line Android open source so it's kind of a move in a way because Jeff Bezos is like your margin is my opportunity for them we can just you know it's not truly open source but what they really care about is not necessarily killing LMS but they want to basically optimize how many widgets of robots can we get off the assembly line so what we
+
+[1:12:46] need to do is there needs to be people competing in the open source open weights as well too and I think yeah yeah probably probably I guarantee you that Chinese companies are not worrying about competing with US companies they're worrying about competing with other Chinese companies and other products that's right the quote the famous there was a famous quote from like the fashion designer where someone was like bitching at this other person and that person said back to them like I don't think about you at all like
+
+[1:13:17] it's not like they're not worried about US companies competing with them robotics or manufacturing or even pharmaceuticals or anything else they're fucking way ahead like in some areas we still have advantages but like Chinese companies are way ahead in a lot of areas gladiatorily competitive indeed so like think about like imagine you're the British and you see the American empire on the rise do you think that you should be thinking about fighting with Americans or maybe how do I like work with Americans for trade purposes
+
+[1:13:48] like the framework is not like how can we win at all cost but like hey we're beings maybe we should learn about the other people engage let's all engage maybe you should talk to some people before you assume what they are supposed are I'm not saying that's a good idea either all right I won't allow space for this to continue but they're
+
+[1:14:27] going to be sticking around so we can oh yeah there we go okay we got them sticking around awesome happy to buy a beer for anybody I just pissed off

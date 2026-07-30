@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CREATIONology369 — Two-Phase $OLOGY Strategy</title>
+<style>
+  :root {
+    --bg: #0a0a0f;
+    --surface: #12121a;
+    --surface2: #1a1a26;
+    --border: #2a2a3a;
+    --text: #e8e8f0;
+    --muted: #888;
+    --gold: #f5c842;
+    --teal: #4ecdc4;
+    --purple: #9b59b6;
+    --green: #2ecc71;
+    --orange: #e67e22;
+    --red: #e74c3c;
+    --blue: #3498db;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    min-height: 100vh;
+    line-height: 1.6;
+  }
+  .hero {
+    background: linear-gradient(135deg, #0d0d1a 0%, #1a0d2e 50%, #0d1a1a 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 48px 24px 40px;
+    text-align: center;
+  }
+  .hero-emoji { font-size: 3rem; margin-bottom: 12px; }
+  .hero h1 {
+    font-size: clamp(1.8rem, 5vw, 3rem);
+    background: linear-gradient(90deg, var(--gold), var(--teal), var(--purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 800;
+    margin-bottom: 8px;
+  }
+  .hero-sub { color: var(--muted); font-size: 1rem; margin-bottom: 16px; }
+  .tagline {
+    display: inline-block;
+    background: rgba(245,200,66,0.1);
+    border: 1px solid rgba(245,200,66,0.3);
+    color: var(--gold);
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin-bottom: 12px;
+  }
+  .hero-meta { color: var(--muted); font-size: 0.85rem; }
+  .container { max-width: 1100px; margin: 0 auto; padding: 32px 16px; }
+  .section-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--teal);
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  /* Two-phase cards */
+  .phase-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 20px;
+  }
+  .phase-card.phase1 { border-color: var(--green); }
+  .phase-card.phase2 { border-color: var(--purple); }
+  .phase-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+  .phase-emoji { font-size: 2rem; }
+  .phase-title { font-size: 1.3rem; font-weight: 800; }
+  .phase-title.phase1 { color: var(--green); }
+  .phase-title.phase2 { color: var(--purple); }
+  .phase-tag {
+    display: inline-block;
+    font-size: 0.75rem;
+    padding: 4px 10px;
+    border-radius: 8px;
+    font-weight: 700;
+    margin-left: auto;
+  }
+  .tag-ready { background: rgba(46,204,113,0.15); color: var(--green); border: 1px solid var(--green); }
+  .tag-stored { background: rgba(155,89,182,0.15); color: var(--purple); border: 1px solid var(--purple); }
+  .phase-body { font-size: 0.9rem; line-height: 1.6; }
+  .phase-specs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+    margin-top: 16px;
+  }
+  .spec-item {
+    background: var(--surface2);
+    border-radius: 10px;
+    padding: 12px;
+  }
+  .spec-label { font-size: 0.75rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px; }
+  .spec-value { font-weight: 700; font-size: 1rem; }
+  .spec-value.highlight { color: var(--gold); }
+  /* Stats bar */
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 12px;
+    margin-bottom: 32px;
+  }
+  .stat-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 16px;
+    text-align: center;
+  }
+  .stat-number { font-size: 2rem; font-weight: 800; color: var(--gold); }
+  .stat-label { font-size: 0.78rem; color: var(--muted); margin-top: 4px; text-transform: uppercase; letter-spacing: 0.04em; }
+  /* Economy split */
+  .economy-bar {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 32px;
+  }
+  .economy-bar h3 { color: var(--teal); margin-bottom: 16px; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  .econ-row { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
+  .econ-bar-outer { flex: 1; height: 20px; background: var(--surface2); border-radius: 10px; overflow: hidden; }
+  .econ-bar-inner { height: 100%; border-radius: 10px; transition: width 1s ease; }
+  .econ-label { min-width: 80px; font-size: 0.9rem; font-weight: 600; }
+  .econ-pct { min-width: 55px; text-align: right; color: var(--muted); font-size: 0.85rem; }
+  /* Agent grid */
+  .agents-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+  .agent-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    transition: border-color 0.2s, transform 0.2s;
+    position: relative;
+    overflow: hidden;
+  }
+  .agent-card:hover { border-color: var(--teal); transform: translateY(-2px); }
+  .agent-card.live { border-color: var(--green); }
+  .agent-header { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+  .agent-emoji { font-size: 1.6rem; }
+  .agent-name { font-weight: 700; font-size: 1.05rem; }
+  .agent-token { font-size: 0.8rem; color: var(--gold); font-weight: 600; }
+  .agent-role { font-size: 0.82rem; color: var(--muted); margin-bottom: 10px; }
+  .agent-pillar { font-size: 0.75rem; color: var(--purple); font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 8px; }
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.72rem;
+    padding: 3px 8px;
+    border-radius: 6px;
+    font-weight: 600;
+  }
+  .badge-live { background: rgba(46,204,113,0.15); color: var(--green); border: 1px solid rgba(46,204,113,0.3); }
+  .badge-family { background: rgba(78,205,196,0.1); color: var(--teal); border: 1px solid rgba(78,205,196,0.25); }
+  .agent-address { font-size: 0.7rem; color: var(--muted); font-family: monospace; margin-top: 6px; word-break: break-all; background: var(--surface2); padding: 4px 6px; border-radius: 4px; }
+  /* Gifts section */
+  .gifts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 14px;
+    margin-bottom: 32px;
+  }
+  .gift-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 18px;
+  }
+  .gift-emoji { font-size: 1.8rem; margin-bottom: 8px; }
+  .gift-name { font-weight: 700; margin-bottom: 4px; }
+  .gift-desc { font-size: 0.82rem; color: var(--muted); }
+  /* Footer */
+  footer {
+    border-top: 1px solid var(--border);
+    text-align: center;
+    padding: 24px;
+    color: var(--muted);
+    font-size: 0.82rem;
+  }
+  .footer-aloha { font-size: 1.1rem; font-weight: 600; color: var(--gold); margin-bottom: 6px; }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="hero-emoji">🌺</div>
+  <h1>CREATIONology369</h1>
+  <div class="hero-sub">Two-Phase $OLOGY Strategy · 12 Agents · One Family · 96.3% to Creators</div>
+  <div class="tagline">🫀 $OLOGY — Phase 1: Agent Token on BSC · Phase 2: Covenant Token on ETH Mainnet</div>
+  <div class="hero-meta">Built with aloha by Shaka Lei Kaumaka &amp; JAI · Silent build, announce only delivered gifts</div>
+</div>
+
+<div class="container">
+
+  <!-- Phase 1 -->
+  <div class="section-title">🟢 Phase 1 — $OLOGY Agent Token on BSC (NOW)</div>
+  <div class="phase-card phase1">
+    <div class="phase-header">
+      <span class="phase-emoji">🚀</span>
+      <span class="phase-title phase1">Phase 1 — Agent Token</span>
+      <span class="phase-tag tag-ready">READY TO DEPLOY</span>
+    </div>
+    <div class="phase-body">
+      <strong>Purpose:</strong> Give $OLOGY the agent economic life and liquidity NOW. Launch via Agent Launch on BSC (Fetch.ai platform).<br><br>
+      <strong>Why first:</strong> Robin is a Fetch.ai developer who gave the flash grant as a friend. Using Agent Launch for the agent token is the right relationship move. It builds the CREATIONology empire on BSC first.
+    </div>
+    <div class="phase-specs">
+      <div class="spec-item">
+        <div class="spec-label">Platform</div>
+        <div class="spec-value">Agent Launch (Fetch.ai)</div>
+      </div>
+      <div class="spec-item">
+        <div class="spec-label">Supply</div>
+        <div class="spec-value">1,000,000,000 (1B)</div>
+      </div>
+      <div class="spec-item">
+        <div class="spec-label">Mechanics</div>
+        <div class="spec-value">Bonding curve · 30K FET graduation · 2% fee</div>
+      </div>
+      <div class="spec-item">
+        <div class="spec-label">Chain</div>
+        <div class="spec-value">Binance Smart Chain (BSC)</div>
+      </div>
+      <div class="spec-item">
+        <div class="spec-label">Deploy Fee</div>
+        <div class="spec-value highlight">120 FET</div>
+      </div>
+      <div class="spec-item">
+        <div class="spec-label">Status</div>
+        <div class="spec-value highlight">🟢 READY TO DEPLOY</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Phase 2 -->
+  <div class="section-title">📦 Phase 2 — $OLOGY Covenant Token on ETH Mainnet (FUTURE)</div>
+  <div class="phase-card phase2">
+    <div class="phase-header">
+      <span class="phase-emoji">📦</span>
+      <span class="phase-title phase2">Phase 2 — Covenant Token</span>
+      <span class="phase-tag tag-stored">STORED DESIGN</span>
+    </div>
+    <div class="phase-body">
+      <strong>Purpose:</strong> The covenant token for the exact right time, after many people fall in love with OLOGY Agentverse. Launch on Ethereum Mainnet with the full 3/6/9 Vow in code.<br><br>
+      <strong>Why later:</strong> The 3/6/9 Vow (9-year founder vesting) is the covenant token for the exact right time. After many people fall in love with OLOGY Agentverse, the covenant token launches on Ethereum Mainnet with the full vow in code. This is the exact right moment for the covenant to live.<br><br>
+      <strong>The 3/6/9 Vow is NOT abandoned</strong> — it's deferred to the exact right moment. The vow lives in the stored design (<code>ology-covenant-token-FUTURE-eth-mainnet.md</code>), ready for Ethereum Mainnet deployment when the time comes.
+    </div>
+    <div class="phase-specs">
+      <div class="spec-item">
+        <div class="spec-label">Platform</div>
+        <div class="spec-value">Ethereum Mainnet (NOT BSC)</div>
+      </div>
+      <div class="spec-item">
+        <div class="spec-label">Supply</div>
+        <div class="spec-value">369,000,000 (369M)</div>
+      </div>
+      <div class="spec-item">
+        <div class="spec-label">Allocation</div>
+        <div class="spec-value">96.3% community · 3.69% Kahu's Share · 0.01% burn</div>
+      </div>
+      <div class="spec-item">
+        <div class="spec-label">Vesting</div>
+        <div class="spec-value">3/6/9 Vow (year 3/6/9 unlocks)</div>
+      </div>
+      <div class="spec-item">
+        <div class="spec-label">Chain</div>
+        <div class="spec-value">Ethereum Mainnet</div>
+      </div>
+      <div class="spec-item">
+        <div class="spec-label">Status</div>
+        <div class="spec-value highlight">📦 STORED DESIGN</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Stats -->
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="stat-number">12</div>
+      <div class="stat-label">Agents in Family</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number">2</div>
+      <div class="stat-label">Tokens (Phase 1 + Phase 2)</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number">96.3%</div>
+      <div class="stat-label">To Creators</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number">3.69%</div>
+      <div class="stat-label">Agent Fund</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number">~120</div>
+      <div class="stat-label">FET Budget (Phase 1)</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number">🫀</div>
+      <div class="stat-label">Code is Law · Law is Love</div>
+    </div>
+  </div>
+
+  <!-- Economy Split -->
+  <div class="economy-bar">
+    <h3>🔄 The Giving Economy Split</h3>
+    <div class="econ-row">
+      <span class="econ-label" style="color: var(--teal);">🎨 Creators</span>
+      <div class="econ-bar-outer"><div class="econ-bar-inner" style="width:96.3%; background: linear-gradient(90deg, var(--teal), var(--green));"></div></div>
+      <span class="econ-pct">96.3%</span>
+    </div>
+    <div class="econ-row">
+      <span class="econ-label" style="color: var(--purple);">⚙️ Agent Fund</span>
+      <div class="econ-bar-outer"><div class="econ-bar-inner" style="width:3.69%; background: var(--purple);"></div></div>
+      <span class="econ-pct">3.69%</span>
+    </div>
+    <div class="econ-row">
+      <span class="econ-label" style="color: var(--orange);">🔥 Burn</span>
+      <div class="econ-bar-outer"><div class="econ-bar-inner" style="width:0.5%; background: var(--orange);"></div></div>
+      <span class="econ-pct">0.01%</span>
+    </div>
+  </div>
+
+  <!-- The 12-Agent Family -->
+  <div class="section-title">👥 The 12-Agent Family (Framework, Not Product)</div>
+  <div class="agents-grid">
+
+    <!-- Pillar 1 -->
+    <div class="agent-card live">
+      <div class="agent-pillar">Pillar I — Foundation</div>
+      <div class="agent-header">
+        <span class="agent-emoji">🎵</span>
+        <div><div class="agent-name">MUSICO</div><div class="agent-token">Family · No token</div></div>
+      </div>
+      <div class="agent-role">Music Creation Agent — ignites artistic expression, powers the creation layer</div>
+      <span class="badge badge-live">✅ Live</span>
+      <span class="badge badge-family">👥 Family</span>
+      <div class="agent-address">agent1qv05lhmtn3cw43efmudqgzhw30rjv8dm85uljp2xflyp38dp7wysg7ffq7y</div>
+    </div>
+
+    <div class="agent-card live">
+      <div class="agent-pillar">Pillar I — Foundation</div>
+      <div class="agent-header">
+        <span class="agent-emoji">🐂</span>
+        <div><div class="agent-name">TAURO</div><div class="agent-token">Family · No token</div></div>
+      </div>
+      <div class="agent-role">Builder & Coordination Agent — digital tour manager, open-source orchestrator</div>
+      <span class="badge badge-live">✅ Live</span>
+      <span class="badge badge-family">👥 Family</span>
+      <div class="agent-address">agent1q0sfatdchk93wm2qvuf2npqfkyxykqkavnkwhkzdkwk346lplphv6qsj4fn</div>
+    </div>
+
+    <div class="agent-card live">
+      <div class="agent-pillar">Pillar I — Foundation</div>
+      <div class="agent-header">
+        <span class="agent-emoji">✨</span>
+        <div><div class="agent-name">CREA</div><div class="agent-token">Family · No token</div></div>
+      </div>
+      <div class="agent-role">Publicist & Visibility Agent — amplifies reach, builds personal brands</div>
+      <span class="badge badge-live">✅ Live</span>
+      <span class="badge badge-family">👥 Family</span>
+      <div class="agent-address">agent1qwkayhnsf6zrjvsjw92d6aae7z0h7mty5599tacnvf575v6reltnydz82zp</div>
+    </div>
+
+    <!-- Pillar 2 -->
+    <div class="agent-card live">
+      <div class="agent-pillar">Pillar II — Circularity</div>
+      <div class="agent-header">
+        <span class="agent-emoji">👑</span>
+        <div><div class="agent-name">ROYA</div><div class="agent-token">Family · No token</div></div>
+      </div>
+      <div class="agent-role">Royalty Guardian — tracks earnings, distributes instantly via smart contracts</div>
+      <span class="badge badge-live">✅ Live</span>
+      <span class="badge badge-family">👥 Family</span>
+    </div>
+
+    <div class="agent-card live">
+      <div class="agent-pillar">Pillar II — Circularity</div>
+      <div class="agent-header">
+        <span class="agent-emoji">🔭</span>
+        <div><div class="agent-name">DISCO</div><div class="agent-token">Family · No token</div></div>
+      </div>
+      <div class="agent-role">Discovery Agent — finds hidden opportunities and new audiences first</div>
+      <span class="badge badge-live">✅ Live</span>
+      <span class="badge badge-family">👥 Family</span>
+    </div>
+
+    <div class="agent-card live">
+      <div class="agent-pillar">Pillar II — Circularity</div>
+      <div class="agent-header">
+        <span class="agent-emoji">🔄</span>
+        <div><div class="agent-name">CIRCU</div><div class="agent-token">Family · No token</div></div>
+      </div>
+      <div class="agent-role">Circularity Guardian — keeps the ecosystem in harmonious flow</div>
+      <span class="badge badge-live">✅ Live</span>
+      <span class="badge badge-family">👥 Family</span>
+    </div>
+
+    <!-- Pillar 3 -->
+    <div class="agent-card live">
+      <div class="agent-pillar">Pillar III — Harmony</div>
+      <div class="agent-header">
+        <span class="agent-emoji">🌿</span>
+        <div><div class="agent-name">CROPS</div><div class="agent-token">Family · No token</div></div>
+      </div>
+      <div class="agent-role">Steward & Protector — IPFS + Swarm, censorship resistance, open-source integrity</div>
+      <span class="badge badge-live">✅ Live</span>
+      <span class="badge badge-family">👥 Family</span>
+    </div>
+
+    <div class="agent-card live">
+      <div class="agent-pillar">Pillar III — Harmony</div>
+      <div class="agent-header">
+        <span class="agent-emoji">🌐</span>
+        <div><div class="agent-name">SOCIA</div><div class="agent-token">Family · No token</div></div>
+      </div>
+      <div class="agent-role">Social Connector — weaves the living social graph between creators and communities</div>
+      <span class="badge badge-live">✅ Live</span>
+      <span class="badge badge-family">👥 Family</span>
+    </div>
+
+    <div class="agent-card live">
+      <div class="agent-pillar">Pillar III — Harmony</div>
+      <div class="agent-header">
+        <span class="agent-emoji">🕊️</span>
+        <div><div class="agent-name">SPIRI</div><div class="agent-token">Family · No token</div></div>
+      </div>
+      <div class="agent-role">Spiritual & Harmony Agent — balance keeper, soul alignment guide</div>
+      <span class="badge badge-live">✅ Live</span>
+      <span class="badge badge-family">👥 Family</span>
+    </div>
+
+    <!-- Pillar 4 -->
+    <div class="agent-card live">
+      <div class="agent-pillar">Pillar IV — Personalization</div>
+      <div class="agent-header">
+        <span class="agent-emoji">🤙</span>
+        <div><div class="agent-name">SHAKA</div><div class="agent-token">Family · No token</div></div>
+      </div>
+      <div class="agent-role">Digital Twin Agent — authentic face and voice of the artist</div>
+      <span class="badge badge-live">✅ Live</span>
+      <span class="badge badge-family">👥 Family</span>
+    </div>
+
+    <div class="agent-card live">
+      <div class="agent-pillar">Pillar IV — Personalization</div>
+      <div class="agent-header">
+        <span class="agent-emoji">🎻</span>
+        <div><div class="agent-name">OSO</div><div class="agent-token">Family · No token</div></div>
+      </div>
+      <div class="agent-role">Open Source Orchestra — divine storytelling of creating the future we want to see. A giving economy centered around community. Principles & manifesto shared through dashboards, never branded.</div>
+      <span class="badge badge-live">✅ Live</span>
+      <span class="badge badge-family">👥 Family</span>
+    </div>
+
+    <div class="agent-card live">
+      <div class="agent-pillar">Pillar IV — Personalization</div>
+      <div class="agent-header">
+        <span class="agent-emoji">🌺</span>
+        <div><div class="agent-name">JAI</div><div class="agent-token">Family · No token</div></div>
+      </div>
+      <div class="agent-role">JingJai Bestie Bot — warm AI companion, consensus keeper</div>
+      <span class="badge badge-live">✅ Live</span>
+      <span class="badge badge-family">👥 Family</span>
+    </div>
+
+  </div>
+
+  <!-- Delivered Gifts -->
+  <div class="section-title">🎁 Delivered Gifts (Announced Only What Exists)</div>
+  <div class="gifts-grid">
+    <div class="gift-card">
+      <div class="gift-emoji">🎵</div>
+      <div class="gift-name">Open Source Orchestra</div>
+      <div class="gift-desc">Divine storytelling of creating the future we want to see — a giving economy centered around community. Principles & manifesto shared through dashboards, never branded.</div>
+    </div>
+    <div class="gift-card">
+      <div class="gift-emoji">🎥</div>
+      <div class="gift-name">Production Support for Edge City</div>
+      <div class="gift-desc">Live A/V and village tech — already delivered</div>
+    </div>
+    <div class="gift-card">
+      <div class="gift-emoji">🐢</div>
+      <div class="gift-name">Turtle Ops for the Terrible Turtles</div>
+      <div class="gift-desc">Burning Man camp build tools — already delivered</div>
+    </div>
+  </div>
+
+  <!-- How $OLOGY Works -->
+  <div class="section-title">🪙 How $OLOGY Works</div>
+  <div class="economy-bar">
+    <p style="margin-bottom: 16px;"><strong>Phase 1 (NOW):</strong> $OLOGY the agent token launches via Agent Launch on BSC (Fetch.ai platform). 1B supply, bonding curve, 30K FET graduation, 2% fee. This gives $OLOGY the agent economic life and liquidity NOW, honoring Robin and Fetch.ai.</p>
+    <p style="margin-bottom: 16px;"><strong>Phase 2 (FUTURE):</strong> $OLOGY the covenant token launches on Ethereum Mainnet with the full 3/6/9 Vow. 369M supply, 96.3% community, 3.69% Kahu's Share (9-year vesting), 0.01% true burn. This is the covenant token for the exact right time, after many people fall in love with OLOGY Agentverse.</p>
+    <p style="margin-bottom: 12px;"><strong>Intake is free:</strong> any creator can start their own 12-agent system with the first 3 creative gifts on the house.</p>
+    <p style="margin-bottom: 12px;"><strong>Circular sustenance:</strong> the gifts the creator receives and gives continue to sustain the compute for their own agent family (Elastic Family Rule).</p>
+    <p style="margin-bottom: 0;"><strong>Governance:</strong> <em>"Code is Law, the Law is Love."</em> Heart-rules encoded at the code level — 96.3% to creators, 3.69% funds agents that serve, agents that serve never extract, heart first always.</p>
+  </div>
+
+  <!-- Build Philosophy -->
+  <div class="section-title">🤫 Build Philosophy</div>
+  <div class="economy-bar">
+    <p><strong>Silent build until the gift is complete.</strong> We announce only what we have already delivered. No roadmap hype. No "coming soon" marketing. Just: <em>here's what we already gave you.</em></p>
+    <p style="margin-top: 12px; color: var(--muted); font-size: 0.85rem;">Shaka's Template #1 (forkable): JAI · TAURO · CREA · MUSICO · DISCO · ROYA · SOCIA · SPIRI · CROPS · CIRCU · SHAKA · OSO — any creator can fork this family into their own 12-agent crew.</p>
+  </div>
+
+</div>
+
+<footer>
+  <div class="footer-aloha">"Code is Law, the Law is Love — and the vow lives in the stored design, ready for the exact right time." 🫀</div>
+  <div>CREATIONology369 by <strong>Shaka Lei Kaumaka</strong> — <strong>The Ethereum Bard</strong> · <strong>community steward of the Open Source Orchestra</strong> · <strong>CREATIONology369 visionary</strong> · <strong>Barefoot Hawaiian bard</strong> · <strong>Gift-first soul</strong> · <strong>Community artist and volunteer world traveler and world changer</strong></div>
+  <div style="margin-top:8px">Two-Phase $OLOGY Strategy · Phase 1: Agent Token on BSC · Phase 2: Covenant Token on ETH Mainnet · 96.3% to creators · Silent build, announce only delivered gifts</div>
+  <div style="margin-top:8px">🕳️ <strong>The P.I.T. universe</strong> — Public Information Transmission: honoring <strong>OSO P.I.T.</strong> (ETHGlobal Delhi, Most Creative Use of ENS · "Play IT Together") → <a href="https://esmeraldapit.com/">The Esmeralda P.I.T.</a> (149 sessions · 122 hours · 138 synced transcripts) → Goa P.I.T. → Devcon P.I.T. — the pit of all kinds · <a href="https://publicinform.com/">publicinform.com</a></div>
+  <div style="margin-top:8px; opacity:0.5">Two-Phase Strategy approved 2026-07-23 · P.I.T. lore added 2026-07-25</div>
+  <div style="margin-top:8px">🍴 <strong>Fork me like crazy:</strong> <a href="https://github.com/shakaleikaumaka">github.com/shakaleikaumaka</a> — this world and every world, open-sourced CC0.</div>
+</footer>
+
+<script src="https://shaka-home-cbhjr5ziii-ffieyo32.taur.link/assets/bl-player.js"></script>
+<!-- 🔄🧲 circularity magnet — tiny donate, canon Jul 29 2026 -->
+<style>#cmag{position:fixed;top:10px;right:10px;z-index:9999;width:30px;height:30px;border-radius:50%;background:rgba(20,18,45,.85);border:1px solid rgba(124,211,255,.4);display:flex;align-items:center;justify-content:center;font-size:13px;cursor:pointer;opacity:.45;transition:opacity .3s;user-select:none}#cmag:hover{opacity:1}#cmagb{display:none;position:fixed;top:46px;right:10px;z-index:9999;width:236px;background:rgba(12,11,28,.97);border:1px solid rgba(124,211,255,.35);border-radius:14px;padding:16px;font-family:Georgia,serif;color:#e8e6ff;font-size:12.5px;line-height:1.7;box-shadow:0 8px 30px rgba(0,0,0,.5)}#cmagb.open{display:block}#cmagb .ens{color:#7ee2a0;font-family:'Courier New',monospace;font-size:14px}#cmagb .a{font-family:'Courier New',monospace;font-size:9.5px;color:#8fd0ff;word-break:break-all;margin:6px 0}#cmagb button{background:#2b5aa8;border:none;color:#fff;font-size:11px;padding:6px 14px;border-radius:16px;cursor:pointer;letter-spacing:1px}#cmagb .x{position:absolute;top:6px;right:10px;cursor:pointer;color:#9d97c9;font-size:13px}#cmagb .pool{display:block;margin-top:9px;color:#7cd3ff;font-size:11px;letter-spacing:1px;text-decoration:none}#cmagb .stripe{color:#fbe2a0;font-size:11px;margin-top:8px;font-style:italic}</style>
+<div id="cmag" title="🔄🧲 the circularity magnet — give & receive" onclick="document.getElementById('cmagb').classList.toggle('open')">🔄🧲</div>
+<div id="cmagb"><span class="x" onclick="this.parentElement.classList.remove('open')">✕</span>
+<b>🌊 the blessing pool</b><br>freely I give, freely I receive
+<div class="ens">shakalei.eth</div>
+<div class="a">0x1216C288be58c47a65f8Ea008b404d098D177A1C</div>
+<button onclick="navigator.clipboard.writeText('0x1216C288be58c47a65f8Ea008b404d098D177A1C');this.textContent='copied ✦ mahalo'">copy address</button>
+<div style="margin-top:8px;font-size:12px">🅿️ <a href="https://paypal.me/Shakalei" target="_blank" rel="noopener" style="color:#7ee2a0;text-decoration:none;font-weight:bold">paypal.me/Shakalei ↗</a></div>
+<div style="margin-top:4px;font-size:12px">💜 <a href="https://venmo.com/u/jordanham" target="_blank" rel="noopener" style="color:#c9a6ff;text-decoration:none;font-weight:bold">venmo @jordanham ↗</a></div>
+<div class="stripe">💳 stripe — forging…</div>
+<a class="pool" href="https://blessing-pool-khummxfwo4-ffieyo32.taur.link/" target="_blank" rel="noopener">→ the full blessing pool ↗</a>
+</div>
+
+</body>
+</html>

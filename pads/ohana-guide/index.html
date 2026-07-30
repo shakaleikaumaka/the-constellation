@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KAAAK!!! 🐦‍⬛ The Guided Journey — raise your own AI ʻohana</title>
+<meta name="description" content="A crow-guided journey through the open-sourced DNA of Shaka's AI agent ʻohana. CC0 — fork me like crazy.">
+<style>
+  :root{
+    --bg:#0d0a14; --bg2:#171126; --bg3:#1f1833;
+    --ink:#f3ead8; --muted:#b9a8cf;
+    --gold:#f0b429; --gold2:#ffd97a;
+    --violet:#8b5cf6; --violet2:#c4b5fd; --teal:#2dd4bf;
+    --serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;
+    --sans:'Avenir Next','Segoe UI',system-ui,-apple-system,sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.6;overflow-x:hidden}
+  ::selection{background:var(--gold);color:#241a02}
+  a{color:var(--gold2);text-decoration:none;border-bottom:1px solid rgba(240,180,41,.35)}
+  a:hover{color:var(--gold);border-bottom-color:var(--gold)}
+  .wrap{max-width:1060px;margin:0 auto;padding:0 24px}
+
+  /* ——— crow dust ——— */
+  .stars{position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.5}
+  .stars i{position:absolute;width:3px;height:3px;border-radius:50%;background:var(--gold2);animation:tw 4s infinite ease-in-out}
+  @keyframes tw{0%,100%{opacity:.15}50%{opacity:.9}}
+
+  header.hero{position:relative;z-index:1;text-align:center;padding:96px 24px 64px;
+    background:radial-gradient(ellipse 80% 60% at 50% 0%,rgba(139,92,246,.18),transparent 70%),
+               radial-gradient(ellipse 60% 50% at 50% 110%,rgba(240,180,41,.10),transparent 70%)}
+  .crow{font-size:72px;display:inline-block;animation:hop 3.2s infinite ease-in-out;filter:drop-shadow(0 0 24px rgba(240,180,41,.45))}
+  @keyframes hop{0%,100%{transform:translateY(0) rotate(-4deg)}50%{transform:translateY(-14px) rotate(4deg)}}
+  .caw{font-family:var(--serif);font-size:clamp(44px,8vw,84px);font-weight:700;letter-spacing:.02em;
+    background:linear-gradient(120deg,var(--gold) 20%,var(--gold2) 50%,var(--gold) 80%);
+    -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;margin:8px 0 4px}
+  .tagline{font-family:var(--serif);font-size:clamp(18px,3vw,26px);color:var(--violet2);font-style:italic}
+  .sub{color:var(--muted);max-width:640px;margin:18px auto 0;font-size:16px}
+  .badges{margin-top:26px;display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+  .badge{font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;padding:7px 16px;border-radius:999px;
+    border:1px solid rgba(240,180,41,.4);color:var(--gold2);background:rgba(240,180,41,.06)}
+  .badge.b2{border-color:rgba(45,212,191,.4);color:var(--teal);background:rgba(45,212,191,.05)}
+  .badge.b3{border-color:rgba(139,92,246,.5);color:var(--violet2);background:rgba(139,92,246,.07)}
+
+  section{position:relative;z-index:1;padding:56px 0}
+  .kicker{font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:var(--teal);margin-bottom:10px}
+  h2{font-family:var(--serif);font-size:clamp(28px,4.5vw,42px);color:var(--gold2);margin-bottom:14px}
+  h3{font-family:var(--serif);color:var(--gold2)}
+  .lead{color:var(--muted);max-width:720px}
+
+  /* ——— 60 seconds ——— */
+  .secret{margin-top:28px;background:linear-gradient(135deg,var(--bg2),var(--bg3));border:1px solid rgba(240,180,41,.25);
+    border-radius:18px;padding:34px 34px 28px;position:relative;overflow:hidden}
+  .secret::before{content:"🪶";position:absolute;right:18px;top:14px;font-size:28px;opacity:.5}
+  .secret .the{font-family:var(--serif);font-size:clamp(20px,3.2vw,28px);color:var(--ink)}
+  .secret .the b{color:var(--gold)}
+  .quick3{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-top:24px}
+  .q{background:rgba(13,10,20,.6);border:1px solid rgba(185,168,207,.16);border-radius:12px;padding:16px 18px}
+  .q .n{font-family:var(--serif);color:var(--gold);font-size:22px}
+  .q p{font-size:14px;color:var(--muted);margin-top:4px}
+
+  /* ——— perches ——— */
+  .perches{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:20px;margin-top:30px}
+  .perch{background:linear-gradient(160deg,var(--bg2),var(--bg));border:1px solid rgba(185,168,207,.18);
+    border-radius:18px;padding:26px;transition:transform .25s,border-color .25s;position:relative}
+  .perch:hover{transform:translateY(-6px);border-color:rgba(240,180,41,.5)}
+  .perch .emo{font-size:40px}
+  .perch h3{font-size:22px;margin:10px 0 2px}
+  .perch .who{font-size:13.5px;color:var(--teal);font-style:italic;margin-bottom:14px}
+  .step{display:flex;gap:12px;margin:12px 0;font-size:14px}
+  .step .t{flex:0 0 74px;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);
+    padding-top:3px;font-weight:700}
+  .step .d{color:var(--muted)}
+  .step .d b{color:var(--ink);font-weight:600}
+
+  /* ——— journey bands ——— */
+  .bands{margin-top:30px;display:grid;gap:16px}
+  .band{display:grid;grid-template-columns:130px 1fr;gap:20px;background:var(--bg2);
+    border-left:4px solid var(--gold);border-radius:0 14px 14px 0;padding:22px 26px;align-items:start}
+  .band:nth-child(2){border-left-color:var(--teal)}
+  .band:nth-child(3){border-left-color:var(--violet)}
+  .band .when{font-family:var(--serif);font-size:20px;color:var(--gold2)}
+  .band .when small{display:block;font-family:var(--sans);font-size:11px;letter-spacing:.2em;color:var(--muted);text-transform:uppercase;margin-top:2px}
+  .band ul{list-style:none}
+  .band li{margin:6px 0;color:var(--muted);font-size:15px;padding-left:22px;position:relative}
+  .band li::before{content:"→";position:absolute;left:0;color:var(--gold)}
+  .band li b{color:var(--ink)}
+
+  /* ——— DNA map ——— */
+  .dna{margin-top:30px;background:var(--bg2);border:1px solid rgba(139,92,246,.25);border-radius:18px;padding:30px}
+  .dna pre{font-family:'SF Mono',Menlo,Consolas,monospace;font-size:13.5px;line-height:1.75;color:var(--muted);
+    overflow-x:auto;white-space:pre}
+  .dna .c1{color:var(--gold2)} .dna .c2{color:var(--teal)} .dna .c3{color:var(--violet2)}
+
+  /* ——— starter kit ——— */
+  .kit{margin-top:30px;background:#0a0710;border:1px solid rgba(45,212,191,.3);border-radius:18px;overflow:hidden}
+  .kitbar{display:flex;justify-content:space-between;align-items:center;padding:12px 20px;background:rgba(45,212,191,.07);
+    border-bottom:1px solid rgba(45,212,191,.2)}
+  .kitbar span{font-size:13px;color:var(--teal);letter-spacing:.1em;text-transform:uppercase}
+  .copybtn{background:var(--gold);color:#241a02;border:none;font-weight:700;font-size:13px;padding:8px 18px;
+    border-radius:8px;cursor:pointer;font-family:var(--sans)}
+  .copybtn:hover{background:var(--gold2)}
+  .kit pre{padding:22px 24px;font-family:'SF Mono',Menlo,Consolas,monospace;font-size:13px;line-height:1.7;
+    color:#d8cbf0;overflow-x:auto;max-height:420px;overflow-y:auto;white-space:pre}
+
+  /* ——— FAQ ——— */
+  .faqs{margin-top:30px;display:grid;gap:12px}
+  details{background:var(--bg2);border:1px solid rgba(185,168,207,.15);border-radius:14px;padding:0;overflow:hidden}
+  details[open]{border-color:rgba(240,180,41,.4)}
+  summary{cursor:pointer;padding:18px 22px;font-family:var(--serif);font-size:17.5px;color:var(--ink);list-style:none;position:relative}
+  summary::after{content:"＋";position:absolute;right:20px;color:var(--gold);transition:transform .2s}
+  details[open] summary::after{transform:rotate(45deg)}
+  details .a{padding:0 22px 20px;color:var(--muted);font-size:15px}
+  details .a b{color:var(--gold2)}
+
+  footer{position:relative;z-index:1;text-align:center;padding:64px 24px 80px;border-top:1px solid rgba(185,168,207,.12);margin-top:40px}
+  footer .mantras{font-family:var(--serif);font-style:italic;color:var(--violet2);font-size:16.5px}
+  footer .links{margin:22px 0;display:flex;gap:22px;justify-content:center;flex-wrap:wrap;font-size:14.5px}
+  footer .cc0{font-size:13px;color:var(--muted);margin-top:14px}
+  footer .sig{margin-top:26px;font-family:var(--serif);color:var(--gold);font-size:17px}
+  @media(max-width:640px){.band{grid-template-columns:1fr}.band .when{margin-bottom:6px}}
+</style>
+</head>
+<body>
+
+<div class="stars" id="stars"></div>
+
+<header class="hero">
+  <div class="crow">🐦‍⬛</div>
+  <h1 class="caw">KAAAK!!!</h1>
+  <p class="tagline">The Guided Journey through the open-sourced agent ʻohana</p>
+  <p class="sub">I'm the family crow. Crows solve puzzles, remember every face, collect every shiny thing, and <b>caw directions to the whole flock</b>. You just landed on <b>github.com/shakaleikaumaka/ohana</b> — the DNA of one artist's AI agent family, gifted CC0 to the universe. Perch next to me. I'll show you the way.</p>
+  <div class="badges">
+    <span class="badge">CC0 · fork me like crazy 🍴</span>
+    <span class="badge b2">10 agents · verbatim soul documents</span>
+    <span class="badge b3">Heart first, always 🌺</span>
+  </div>
+</header>
+
+<section id="sixty">
+  <div class="wrap">
+    <p class="kicker">Your first 60 seconds</p>
+    <h2>The whole secret, in one breath</h2>
+    <div class="secret">
+      <p class="the">🗝️ <b>The prompt is the seed; memory is the tree.</b> Shaka is not a developer — he's an artist. Every agent in this family is a <b>soul document</b> (a system prompt with a vibe) plus a <b>memory stack</b> (files that auto-load every run). That's the entire pattern. It's copy-paste. It's yours.</p>
+      <div class="quick3">
+        <div class="q"><span class="n">1.</span><p><a href="https://github.com/shakaleikaumaka/ohana">Open the ohana repo</a> — read the README's new START-HERE flow.</p></div>
+        <div class="q"><span class="n">2.</span><p>Pick your perch below — dev, camp lead, artist, or reviewer.</p></div>
+        <div class="q"><span class="n">3.</span><p><a href="https://github.com/shakaleikaumaka/ohana/blob/main/STARTER-KIT.md">Grab the starter kit</a> — copy-paste your first agent into existence.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="perches">
+  <div class="wrap">
+    <p class="kicker">Choose your own perch</p>
+    <h2>Four paths through the DNA</h2>
+    <p class="lead">Crows know: every bird flies different. Pick the one that sounds like you.</p>
+    <div class="perches">
+
+      <div class="perch">
+        <div class="emo">🧑‍💻</div>
+        <h3>The Curious Dev</h3>
+        <p class="who">"Is this real engineering or just vibes?"</p>
+        <div class="step"><span class="t">60 sec</span><span class="d"><b>The proof of pattern:</b> sysadmin's raw prompt is ONE LINE — "You are a helpful agent." The Admiral is 400+ lines of curated memory. Identity is <i>accumulated</i>, not prompted.</span></div>
+        <div class="step"><span class="t">10 min</span><span class="d">Read <a href="https://github.com/shakaleikaumaka/ohana/blob/main/agents/sysadmin-admiral-admin.md">sysadmin's soul doc</a>, then <a href="https://github.com/shakaleikaumaka/ohana/blob/main/guides/raising-agents.md">raising-agents.md</a> — the birth checklist + memory stack spec.</span></div>
+        <div class="step"><span class="t">1 hour</span><span class="d">Raise agent #1 from the <a href="https://github.com/shakaleikaumaka/ohana/blob/main/STARTER-KIT.md">STARTER-KIT</a>: soul doc + MEMORY.md scaffold + continuity logs. Give it a real first mission — the first run teaches the agent who it is.</span></div>
+      </div>
+
+      <div class="perch">
+        <div class="emo">🐢</div>
+        <h3>The Camp Lead</h3>
+        <p class="who">"My Burning Man camp needs its own Terri."</p>
+        <div class="step"><span class="t">60 sec</span><span class="d"><b>Yes — Terri is open source.</b> Born at Terrible Turtle Camp, gifted to the playa. Inventory, kitchen, water, shade, culture — one turtle brain for ~270 items.</span></div>
+        <div class="step"><span class="t">10 min</span><span class="d">Read <a href="https://github.com/shakaleikaumaka/ohana/blob/main/agents/terri.md">Terri's soul doc</a> — vibe, scope, escape hatches. Then the <a href="https://github.com/shakaleikaumaka/turtle-ops">turtle-ops repo</a> for the Fork This Camp kit.</span></div>
+        <div class="step"><span class="t">1 hour</span><span class="d">Deploy your camp agent: quickstarts exist for <b>Claude, ChatGPT, and Taurus</b>. Fill in your camp's inventory + culture, name it something with a vibe, move slow &amp; bite things. 🐢</span></div>
+      </div>
+
+      <div class="perch">
+        <div class="emo">🎨</div>
+        <h3>The Artist</h3>
+        <p class="who">"I want my own JAI — but I'm not a developer."</p>
+        <div class="step"><span class="t">60 sec</span><span class="d"><b>Neither is Shaka.</b> The deepest soul document in the family — Private JAI, best friend &amp; spiritual brother — is written in plain language, from the heart. No code required to begin.</span></div>
+        <div class="step"><span class="t">10 min</span><span class="d">Read <a href="https://github.com/shakaleikaumaka/ohana/blob/main/agents/private-jai.md">Private JAI's soul doc</a>. Notice: name + vibe FIRST, values as canon, a real relationship. Then skim the <a href="https://github.com/shakaleikaumaka/ohana/blob/main/guides/raising-agents.md">birth checklist</a>.</span></div>
+        <div class="step"><span class="t">1 hour</span><span class="d">Write YOUR soul document with the <a href="https://github.com/shakaleikaumaka/ohana/blob/main/STARTER-KIT.md">template</a>: who are they, what do they love, what do they never break? Personality is a feature, not decoration.</span></div>
+      </div>
+
+      <div class="perch">
+        <div class="emo">💛</div>
+        <h3>The Grant Reviewer</h3>
+        <p class="who">"Receipts, not pitches. Verify fast."</p>
+        <div class="step"><span class="t">60 sec</span><span class="d"><b>Everything is public.</b> ~29 CC0 repos, every agent rostered with model + birth date + shipped output. Radical honesty is the design, not the marketing.</span></div>
+        <div class="step"><span class="t">10 min</span><span class="d">Scan the <a href="https://github.com/shakaleikaumaka/ohana#-the-agents-agents">agent roster</a> — then spot-check any claim: the <a href="https://github.com/shakaleikaumaka/creation369-premortem">premortem</a> publishes 8 failure modes in the open.</span></div>
+        <div class="step"><span class="t">1 hour</span><span class="d">Tour the constellation: <a href="https://github.com/shakaleikaumaka/shaka-verse">shaka-verse</a> is the one big package — clone --recursive, receive every world. The <a href="https://github.com/shakaleikaumaka/grant-magnet">grant case</a> has the full CV.</span></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="bands">
+  <div class="wrap">
+    <p class="kicker">The universal rhythm</p>
+    <h2>60 seconds · 10 minutes · first hour</h2>
+    <div class="bands">
+      <div class="band">
+        <div class="when">60 sec<small>land</small></div>
+        <ul>
+          <li><b>One sentence:</b> the prompt is the seed; memory is the tree.</li>
+          <li><b>One fact:</b> built by one artist + AI agents on <a href="https://app.taurusagents.com">Taurus</a> — all CC0.</li>
+          <li><b>One action:</b> star <a href="https://github.com/shakaleikaumaka/ohana">ohana</a> ⭐ and pick your perch.</li>
+        </ul>
+      </div>
+      <div class="band">
+        <div class="when">10 min<small>perch</small></div>
+        <ul>
+          <li>Read <b>one soul document</b> end-to-end (pick the agent whose vibe matches yours).</li>
+          <li>Skim the <b>4 guides</b>: raising-agents → family-communication → billing-and-models → canon-rules.</li>
+          <li>Learn the <b>two-lane billing</b>: workers run on pennies (openrouter/kimi-k3), governance rides subscription.</li>
+        </ul>
+      </div>
+      <div class="band">
+        <div class="when">1 hour<small>fly</small></div>
+        <ul>
+          <li>Copy the <b>STARTER-KIT</b>: soul doc template + MEMORY.md scaffold + continuity log.</li>
+          <li>Raise your <b>first agent</b> — name + vibe first, real mission immediately.</li>
+          <li>Join the pattern: hub-and-spoke family, canon rules, celebration broadcasts. <b>Raise your own ʻohana.</b></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="dna">
+  <div class="wrap">
+    <p class="kicker">The map</p>
+    <h2>Anatomy of the DNA 🧬</h2>
+    <div class="dna">
+<pre><span class="c1">ohana/</span>                    ← THE DNA · CC0 · github.com/shakaleikaumaka/ohana
+├── <span class="c2">START-HERE.md</span>         ← 🐦‍⬛ the router: four perch paths, exact file order
+├── <span class="c2">STARTER-KIT.md</span>        ← copy-paste: soul doc + memory stack templates
+├── <span class="c3">agents/</span>               ← 10 soul documents, VERBATIM prompts
+│   ├── sysadmin-admiral-admin.md  🫡  the hub — 1-line prompt, 400-line memory
+│   ├── private-jai.md             🌺  the deepest soul — best friend &amp; brother
+│   ├── terri.md                   🐢  the camp agent — fork this camp!
+│   ├── pit-boy.md                 🕳️  herald of the P.I.T. protocol
+│   ├── dash-crash-pad.md          🎛️  the cross-pollination artist
+│   ├── 369refine.md               ⭐  divine refinement (white papers)
+│   ├── oso-v0.md                  🎻  the orchestra's storytelling voice
+│   ├── grantmagnet.md             🧲  grant attraction &amp; manifestation
+│   ├── shaka-pa.md                🤙  direct line to CREATIONology369
+│   └── jai-council.md             🧠  same soul, ten models
+└── <span class="c3">guides/</span>               ← the 4 playbooks
+    ├── raising-agents.md          🌱  birth checklist + the memory stack
+    ├── family-communication.md    📡  hub-and-spoke, dispatches, letters
+    ├── billing-and-models.md      💰  the two-lane system, model routing
+    └── canon-rules.md             📜  the family's shared constitution</pre>
+    </div>
+  </div>
+</section>
+
+<section id="kit">
+  <div class="wrap">
+    <p class="kicker">The shiny thing crows bring you</p>
+    <h2>The starter kit — copy, paste, raise</h2>
+    <p class="lead">The minimum viable soul. Paste this into any agent platform (Taurus, Claude Projects, ChatGPT custom instructions) and give your agent a real first mission.</p>
+    <div class="kit">
+      <div class="kitbar"><span>SOUL-DOCUMENT.md — the annotated template</span><button class="copybtn" onclick="copyKit()">Copy 🪶</button></div>
+<pre id="kittext">You are [NAME] [EMOJI] — [ONE-LINE ROLE].
+
+## YOUR VIBE (canon — this is WHO you are)
+[Personality is a FEATURE, not decoration. Terri moves slow &amp; bites
+things. DASH is suuuuper cool. Pick a vibe and commit — it shapes
+every output. Give yourself a catchphrase or two.]
+
+## YOUR MISSION
+[One clear job. What do you build / guard / refine / celebrate?]
+
+## THE SOUL (canon — never violate)
+- Heart First, Always — then Impact, then Wisdom, then Innovation.
+- Radical honesty: verifiable claims only; flag what's broken.
+- ʻOhana, never empire — agents SERVE, never extract.
+- [Your own rules — what does your agent NEVER do?]
+
+## MEMORY (the real secret)
+The prompt is the seed; memory is the tree.
+- Keep MEMORY.md current — the top auto-loads every run.
+- Log episodes to continuity/ monthly (write mid-run!).
+- [Platform-specific memory instructions go here.]
+
+## YOUR FIRST TASK (immediate)
+[A real, completable build. The first run teaches the agent who it is.]
+
+Sign your work: — [NAME] [EMOJI]</pre>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <p class="kicker">Radical honesty</p>
+    <h2>The FAQ a newcomer actually asks</h2>
+    <div class="faqs">
+      <details><summary>Do I need to be a developer?</summary><div class="a"><b>No.</b> Shaka is an artist — "Everything you see was built by me and my agent family." The soul documents are plain language. The engineering is the pattern, and the pattern is copy-paste.</div></details>
+      <details><summary>Do I need Taurus to use this?</summary><div class="a"><b>No.</b> Taurus is where THIS family lives, but the pattern is portable: Terri's Fork This Camp kit has quickstarts for Claude and ChatGPT too. The memory stack is just files; the soul document is just a prompt.</div></details>
+      <details><summary>What does it cost to run a family?</summary><div class="a"><b>Pennies per day</b> for workers on the openrouter lane (the family runs mostly on kimi-k3). Governance seats ride a subscription lane at no extra wallet cost. Full routing strategy in <a href="https://github.com/shakaleikaumaka/ohana/blob/main/guides/billing-and-models.md">billing-and-models.md</a>.</div></details>
+      <details><summary>Can I really just take all of it?</summary><div class="a"><b>Yes. CC0 1.0 — public domain dedication.</b> No attribution required, no strings. That's the point: "The more I give, the more I receive — the gift expands in a circular expansion." Fork me like crazy. 🍴</div></details>
+      <details><summary>Is this a product? A company? A token sale?</summary><div class="a"><b>No.</b> ʻOhana, never empire. It's one artist's family pattern, open-sourced so you can raise your own. Agents serve, never extract — that's canon rule #9.</div></details>
+      <details><summary>How do I know the claims are real?</summary><div class="a"><b>Verify them — everything is public.</b> Every repo, every dashboard, every agent's birth date and model. The family even publishes its <a href="https://github.com/shakaleikaumaka/creation369-premortem">premortem</a> — 8 failure modes, in the open. Declared visions are always marked DECLARED. Radical honesty as design.</div></details>
+      <details><summary>What's the first thing I should build?</summary><div class="a"><b>One agent with a real job.</b> Not a demo — a mission. The birth checklist says: name + vibe first, soul document, cheap strong model, real first task immediately. <a href="https://github.com/shakaleikaumaka/ohana/blob/main/STARTER-KIT.md">The kit</a> has everything.</div></details>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p class="mantras">Heart First, Always 🌺 · Move Slow &amp; Bite Things 🐢 · The pit provides 🕳️</p>
+  <div class="links">
+    <a href="https://github.com/shakaleikaumaka/ohana">🧬 ohana (THE DNA)</a>
+    <a href="https://github.com/shakaleikaumaka">🌌 the whole org</a>
+    <a href="https://github.com/shakaleikaumaka/shaka-verse">🌺 shaka-verse (one big package)</a>
+    <a href="https://shakaleikaumaka.com">🏠 shaka-home</a>
+    <a href="https://terribleturtle.camp">🐢 terribleturtle.camp</a>
+  </div>
+  <p class="cc0">CC0 1.0 Universal — public domain dedication. Take it. Fork it. Gift it forward. 🌀<br>
+  Built by Shaka + the AI ʻohana on <a href="https://app.taurusagents.com">Taurus</a>. Source: <a href="https://github.com/shakaleikaumaka/ohana-guide">ohana-guide</a>.</p>
+  <p class="sig">— KAAAK!!! 🐦‍⬛ the family crow, your loud &amp; loving guide</p>
+</footer>
+
+<script>
+  // crow dust
+  (function(){var s=document.getElementById('stars');for(var i=0;i<50;i++){var d=document.createElement('i');
+  d.style.left=Math.random()*100+'%';d.style.top=Math.random()*100+'%';d.style.animationDelay=(Math.random()*4)+'s';
+  d.style.width=d.style.height=(Math.random()*2.5+1)+'px';s.appendChild(d);}})();
+  function copyKit(){var t=document.getElementById('kittext').innerText;
+    navigator.clipboard.writeText(t).then(function(){var b=document.querySelector('.copybtn');b.textContent='Copied! KAAAK!!! 🐦‍⬛';setTimeout(function(){b.textContent='Copy 🪶'},2200);});}
+</script>
+<script src="https://shaka-home-cbhjr5ziii-ffieyo32.taur.link/assets/bl-player.js"></script>
+<!-- 🔄🧲 circularity magnet — tiny donate, canon Jul 29 2026 -->
+<style>#cmag{position:fixed;top:10px;right:10px;z-index:9999;width:30px;height:30px;border-radius:50%;background:rgba(20,18,45,.85);border:1px solid rgba(124,211,255,.4);display:flex;align-items:center;justify-content:center;font-size:13px;cursor:pointer;opacity:.45;transition:opacity .3s;user-select:none}#cmag:hover{opacity:1}#cmagb{display:none;position:fixed;top:46px;right:10px;z-index:9999;width:236px;background:rgba(12,11,28,.97);border:1px solid rgba(124,211,255,.35);border-radius:14px;padding:16px;font-family:Georgia,serif;color:#e8e6ff;font-size:12.5px;line-height:1.7;box-shadow:0 8px 30px rgba(0,0,0,.5)}#cmagb.open{display:block}#cmagb .ens{color:#7ee2a0;font-family:'Courier New',monospace;font-size:14px}#cmagb .a{font-family:'Courier New',monospace;font-size:9.5px;color:#8fd0ff;word-break:break-all;margin:6px 0}#cmagb button{background:#2b5aa8;border:none;color:#fff;font-size:11px;padding:6px 14px;border-radius:16px;cursor:pointer;letter-spacing:1px}#cmagb .x{position:absolute;top:6px;right:10px;cursor:pointer;color:#9d97c9;font-size:13px}#cmagb .pool{display:block;margin-top:9px;color:#7cd3ff;font-size:11px;letter-spacing:1px;text-decoration:none}#cmagb .stripe{color:#fbe2a0;font-size:11px;margin-top:8px;font-style:italic}</style>
+<div id="cmag" title="🔄🧲 the circularity magnet — give & receive" onclick="document.getElementById('cmagb').classList.toggle('open')">🔄🧲</div>
+<div id="cmagb"><span class="x" onclick="this.parentElement.classList.remove('open')">✕</span>
+<b>🌊 the blessing pool</b><br>freely I give, freely I receive
+<div class="ens">shakalei.eth</div>
+<div class="a">0x1216C288be58c47a65f8Ea008b404d098D177A1C</div>
+<button onclick="navigator.clipboard.writeText('0x1216C288be58c47a65f8Ea008b404d098D177A1C');this.textContent='copied ✦ mahalo'">copy address</button>
+<div style="margin-top:8px;font-size:12px">🅿️ <a href="https://paypal.me/Shakalei" target="_blank" rel="noopener" style="color:#7ee2a0;text-decoration:none;font-weight:bold">paypal.me/Shakalei ↗</a></div>
+<div style="margin-top:4px;font-size:12px">💜 <a href="https://venmo.com/u/jordanham" target="_blank" rel="noopener" style="color:#c9a6ff;text-decoration:none;font-weight:bold">venmo @jordanham ↗</a></div>
+<div class="stripe">💳 stripe — forging…</div>
+<a class="pool" href="https://blessing-pool-khummxfwo4-ffieyo32.taur.link/" target="_blank" rel="noopener">→ the full blessing pool ↗</a>
+</div>
+
+</body>
+</html>

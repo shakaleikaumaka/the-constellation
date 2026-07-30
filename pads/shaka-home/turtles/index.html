@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Turtle Ops 🐢 | Terrible Turtle Camp — A Gift to the Playa</title>
+<meta name="description" content="Mission control for Terrible Turtle Camp at Burning Man. Open-source camp-building playbooks + a deployable Camp Assistant agent. Move Slow & Bite Things.">
+<meta property="og:title" content="Turtle Ops — Terrible Turtle Camp">
+<meta property="og:description" content="Open-source camp-building playbooks + a deployable Burning Man Camp Assistant. A gift to the playa. Move Slow & Bite Things. 🐢">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+  :root {
+    /* Terrible Turtle palette */
+    --tt-orange: #eb5833;
+    --tt-coral: #fd6844;
+    --tt-amber: #db9840;
+    --tt-gold: #e5a14b;
+    --tt-red: #cc272e;
+    --tt-rust: #a3623b;
+    --night: #030915;
+    --night-2: #071123;
+    --card: #0b1628;
+    --card-2: #111b28;
+    --card-hover: #162235;
+    --border: #1f2a38;
+    --cream: #f7f0eb;
+    --cream-dim: #ddd6d1;
+    --sand: #8a7d75;
+    --radius: 12px;
+    --radius-lg: 20px;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Rajdhani', sans-serif;
+    background: var(--night);
+    color: var(--cream);
+    min-height: 100vh;
+    overflow-x: hidden;
+    line-height: 1.55;
+    font-size: 18px;
+  }
+
+  /* BG */
+  .bg-canvas { position: fixed; inset: 0; z-index: 0; overflow: hidden; }
+  .bg-canvas .orb { position: absolute; border-radius: 50%; filter: blur(90px); opacity: 0.18; animation: float 24s ease-in-out infinite; }
+  .bg-canvas .orb:nth-child(1){width:520px;height:520px;background:var(--tt-orange);top:-8%;left:-6%;}
+  .bg-canvas .orb:nth-child(2){width:420px;height:420px;background:var(--tt-amber);top:45%;right:-10%;animation-delay:-8s;}
+  .bg-canvas .orb:nth-child(3){width:360px;height:360px;background:var(--tt-red);bottom:2%;left:28%;animation-delay:-15s;}
+  @keyframes float { 0%,100%{transform:translate(0,0) scale(1);} 33%{transform:translate(36px,-28px) scale(1.05);} 66%{transform:translate(-22px,22px) scale(.95);} }
+
+  .container { position: relative; z-index: 1; max-width: 940px; margin: 0 auto; padding: 20px; }
+
+  /* HERO */
+  .hero { text-align: center; padding: 70px 20px 40px; }
+  .hero-badge {
+    display:inline-block; padding:6px 16px; background:rgba(235,88,51,0.15); color:var(--tt-coral);
+    border:1px solid rgba(235,88,51,0.35); border-radius:20px; font-size:0.8rem; font-weight:600;
+    letter-spacing:0.18em; text-transform:uppercase; margin-bottom:22px;
+  }
+  .hero h1 {
+    font-size: clamp(2.8rem, 9vw, 5rem); font-weight:700; line-height:1; letter-spacing:0.02em; margin-bottom:14px;
+    text-transform: uppercase;
+    background: linear-gradient(135deg, var(--cream) 20%, var(--tt-gold), var(--tt-orange));
+    -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text;
+  }
+  .hero .turtle { font-size: 3rem; display:block; margin-bottom: 10px; }
+  .hero .subtitle { font-size:1.35rem; color:var(--cream-dim); max-width:640px; margin:0 auto 12px; }
+  .hero .motto { font-size:1.05rem; color:var(--tt-amber); font-weight:600; letter-spacing:0.14em; text-transform:uppercase; margin-bottom:30px; }
+  .hero-btns { display:flex; gap:14px; justify-content:center; flex-wrap:wrap; }
+  .btn { padding:13px 26px; border-radius:var(--radius); font-family:inherit; font-size:1.05rem; font-weight:600; cursor:pointer; text-decoration:none; display:inline-block; transition:transform .15s, box-shadow .2s; border:none; letter-spacing:0.03em; }
+  .btn-primary { background:linear-gradient(135deg, var(--tt-orange), var(--tt-red)); color:#fff; }
+  .btn-primary:hover { transform:translateY(-2px); box-shadow:0 8px 24px rgba(235,88,51,0.35); }
+  .btn-secondary { background:var(--card); color:var(--cream); border:1px solid var(--border); }
+  .btn-secondary:hover { transform:translateY(-2px); border-color:var(--tt-orange); }
+
+  section { padding: 38px 0; }
+  .eyebrow { font-size:0.8rem; font-weight:700; color:var(--tt-amber); text-transform:uppercase; letter-spacing:0.2em; margin-bottom:12px; text-align:center; }
+  .title { font-size:clamp(1.8rem,4.5vw,2.6rem); font-weight:700; text-align:center; margin-bottom:16px; text-transform:uppercase; letter-spacing:0.02em; }
+  .lead { font-size:1.15rem; color:var(--cream-dim); max-width:700px; margin:0 auto 28px; text-align:center; }
+
+  .panel { background:var(--card); border:1px solid var(--border); border-radius:var(--radius-lg); padding:34px; position:relative; overflow:hidden; }
+  .panel::before { content:''; position:absolute; top:0; left:0; right:0; height:3px; background:linear-gradient(90deg, var(--tt-orange), var(--tt-gold), var(--tt-red)); }
+  .panel p { color:var(--cream-dim); margin-bottom:14px; }
+  .panel p:last-child { margin-bottom:0; }
+  .panel strong { color:var(--cream); }
+
+  /* CARDS */
+  .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:16px; }
+  .card { background:var(--card); border:1px solid var(--border); border-radius:var(--radius-lg); padding:24px; transition:transform .2s, border-color .2s; }
+  .card:hover { transform:translateY(-4px); border-color:var(--tt-orange); }
+  .card .icon { font-size:2rem; margin-bottom:12px; }
+  .card h3 { font-size:1.3rem; font-weight:600; margin-bottom:6px; text-transform:uppercase; letter-spacing:0.02em; }
+  .card p { color:var(--cream-dim); font-size:1rem; }
+  .card .status { display:inline-block; margin-top:12px; font-size:0.75rem; font-weight:600; text-transform:uppercase; letter-spacing:0.08em; padding:3px 10px; border-radius:8px; }
+  .status.building { background:rgba(219,152,64,0.15); color:var(--tt-gold); border:1px solid rgba(219,152,64,0.3); }
+  .status.planned { background:rgba(138,125,117,0.15); color:var(--sand); border:1px solid rgba(138,125,117,0.3); }
+  .status.live { background:rgba(105,219,124,0.12); color:#69db7c; border:1px solid rgba(105,219,124,0.3); }
+
+  /* PRINCIPLES */
+  .principles { display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:12px; }
+  .principle { background:var(--card-2); border:1px solid var(--border); border-radius:var(--radius); padding:16px; text-align:center; display:block; text-decoration:none; color:inherit; transition:transform .15s, border-color .2s; }
+  a.principle:hover { transform:translateY(-3px); border-color:var(--tt-orange); }
+  .principle .p-num { font-family:'JetBrains Mono',monospace; color:var(--tt-orange); font-size:0.8rem; font-weight:600; }
+  .principle .p-name { font-weight:600; font-size:1.05rem; margin-top:4px; }
+
+  /* AGENT KIT — educational flow */
+  #agent-kit a { color:var(--tt-orange); }
+  .kit-h { color:var(--tt-gold); font-size:1.3rem; margin:32px 0 12px; }
+  .kit-sub { color:var(--cream-dim); font-size:1rem; margin-bottom:14px; max-width:70ch; }
+  .homes { display:flex; flex-direction:column; gap:12px; margin:14px 0 16px; }
+  .home { background:var(--card-2); border:1px solid var(--border); border-radius:var(--radius); padding:18px 20px; }
+  .home.forever { border-color:rgba(219,152,64,0.55); background:linear-gradient(180deg, rgba(219,152,64,0.09), var(--card-2)); }
+  .home h4 { margin:0 0 10px; font-size:1.05rem; color:var(--cream); }
+  .home h4 span { color:var(--sand); font-weight:400; }
+  .home ul { margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:6px; }
+  .home li { color:var(--cream-dim); font-size:0.95rem; line-height:1.5; }
+  .home li b { color:var(--tt-gold); font-weight:600; }
+  .home .home-links { margin-top:10px; font-size:0.9rem; color:var(--sand); }
+  .kit-grad { text-align:center; font-family:'JetBrains Mono',monospace; font-size:0.9rem; color:var(--sand); margin:2px 0 24px; }
+  .kit-grad b { color:var(--tt-gold); }
+  .forked-signal { text-align:center; margin:22px 0 4px; font-size:1.05rem; color:var(--cream-dim); }
+
+  /* CHAT */
+  .chat { background:var(--card); border:1px solid var(--border); border-radius:var(--radius-lg); padding:24px; }
+  .chat-log { min-height:120px; max-height:340px; overflow-y:auto; margin-bottom:14px; display:flex; flex-direction:column; gap:10px; }
+  .msg { padding:12px 16px; border-radius:12px; max-width:85%; font-size:1rem; line-height:1.5; }
+  .msg.bot { background:var(--card-2); border:1px solid var(--border); align-self:flex-start; border-bottom-left-radius:4px; }
+  .msg.user { background:linear-gradient(135deg,var(--tt-orange),var(--tt-red)); color:#fff; align-self:flex-end; border-bottom-right-radius:4px; }
+  .chat-input-row { display:flex; gap:10px; }
+  .chat-input-row input { flex:1; padding:13px 16px; background:var(--night-2); border:1px solid var(--border); border-radius:var(--radius); color:var(--cream); font-family:inherit; font-size:1rem; }
+  .chat-input-row input:focus { outline:none; border-color:var(--tt-orange); }
+  .chat-input-row button { padding:13px 22px; background:linear-gradient(135deg,var(--tt-orange),var(--tt-red)); color:#fff; border:none; border-radius:var(--radius); font-family:inherit; font-weight:600; font-size:1rem; cursor:pointer; }
+  .chat-hint { font-size:0.85rem; color:var(--sand); margin-top:10px; text-align:center; }
+
+  /* RIGHT NOW / CRITICAL PATH */
+  .rightnow { border:1px solid rgba(255,212,59,0.35); background:linear-gradient(180deg, rgba(255,212,59,0.05), var(--card)); border-radius:var(--radius-lg); padding:26px; position:relative; overflow:hidden; }
+  .rightnow::before { content:''; position:absolute; top:0; left:0; right:0; height:3px; background:linear-gradient(90deg,#ffd43b,var(--tt-orange),var(--tt-red)); }
+  .rn-list { display:flex; flex-direction:column; gap:10px; margin-top:14px; }
+  .rn-item { display:flex; gap:12px; align-items:flex-start; background:var(--card-2); border:1px solid var(--border); border-radius:var(--radius); padding:12px 16px; }
+  .rn-item .rn-icon { font-size:1.2rem; line-height:1.4; }
+  .rn-item .rn-text { flex:1; color:var(--cream-dim); font-size:1rem; }
+  .rn-item .rn-text strong { color:var(--cream); }
+  .rn-item .rn-tag { font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; padding:3px 9px; border-radius:8px; white-space:nowrap; align-self:center; }
+  .rn-tag.decision { background:rgba(255,212,59,0.12); color:#ffd43b; border:1px solid rgba(255,212,59,0.3); }
+  .rn-tag.buy { background:rgba(255,135,135,0.1); color:#ff8787; border:1px solid rgba(255,135,135,0.3); }
+  .rn-tag.dofirst { background:rgba(105,219,124,0.12); color:#69db7c; border:1px solid rgba(105,219,124,0.3); }
+  .rn-stats { display:flex; gap:18px; flex-wrap:wrap; margin-top:16px; font-family:'JetBrains Mono',monospace; font-size:0.85rem; color:var(--sand); }
+  .rn-stats b { color:var(--tt-gold); }
+  .rn-foot { margin-top:14px; font-size:0.9rem; color:var(--sand); }
+  .rn-foot a { color:var(--tt-orange); }
+
+  /* FORK STEPS */
+  .fork-steps { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:14px; margin-bottom:18px; }
+  .fork-step { background:var(--card-2); border:1px solid var(--border); border-radius:var(--radius); padding:18px; }
+  .fork-step .f-num { font-family:'JetBrains Mono',monospace; color:var(--tt-orange); font-weight:600; font-size:0.85rem; margin-bottom:6px; }
+  .fork-step h4 { font-size:1.1rem; margin-bottom:4px; }
+  .fork-step p { color:var(--cream-dim); font-size:0.95rem; }
+  .fork-step a { color:var(--tt-orange); }
+  .copyblock { position:relative; background:var(--night-2); border:1px solid var(--border); border-radius:var(--radius); padding:18px; margin-top:6px; }
+  .copyblock pre { font-family:'JetBrains Mono',monospace; font-size:0.78rem; line-height:1.5; color:var(--cream-dim); white-space:pre-wrap; max-height:260px; overflow-y:auto; }
+  .copybtn { position:absolute; top:10px; right:10px; padding:7px 14px; font-family:inherit; font-weight:600; font-size:0.85rem; background:var(--card); color:var(--tt-coral); border:1px solid var(--tt-orange); border-radius:8px; cursor:pointer; }
+  .copybtn:hover { background:var(--card-hover); }
+  html[dir="rtl"] .copybtn { right:auto; left:10px; }
+
+  /* FOOTER */
+  .footer { text-align:center; padding:50px 20px 40px; border-top:1px solid var(--border); color:var(--sand); font-size:0.95rem; margin-top:20px; }
+  .footer .heart { color:var(--tt-coral); }
+  .footer a { color:var(--tt-orange); text-decoration:none; }
+
+  @media (max-width:600px){ body{font-size:17px;} .container{padding:14px;} .hero{padding:44px 10px 30px;} .panel{padding:22px;} }
+
+  /* Language toggle */
+  .lang-toggle { position: fixed; top: 16px; right: 16px; z-index: 50;
+    background: var(--card); border: 1px solid var(--tt-orange); color: var(--tt-coral);
+    border-radius: 20px; padding: 8px 16px; font-family:'Rajdhani',sans-serif; font-weight:600;
+    font-size:0.95rem; letter-spacing:0.06em; cursor:pointer; transition:transform .15s, background .2s; }
+  .lang-toggle:hover { transform: translateY(-1px); background: var(--card-hover); }
+  html[dir="rtl"] .lang-toggle { right:auto; left:16px; }
+  html[dir="rtl"] .hero-btns, html[dir="rtl"] .chat-input-row { direction: rtl; }
+  html[dir="rtl"] .msg.user { align-self:flex-start; border-bottom-right-radius:12px; border-bottom-left-radius:4px; }
+  html[dir="rtl"] .msg.bot { align-self:flex-end; }
+</style>
+<link rel="stylesheet" href="assets/turtle-cursor.css">
+</head>
+<body>
+
+<button class="lang-toggle" id="langToggle" onclick="toggleLang()">עברית</button>
+
+<div class="bg-canvas"><div class="orb"></div><div class="orb"></div><div class="orb"></div></div>
+
+<div class="container">
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-badge" data-i18n="heroBadge">Terrible Turtle Camp · Burning Man 2026</div>
+    <span class="turtle">🐢</span>
+    <h1>Turtle Ops</h1>
+    <p class="subtitle" data-i18n="heroSubtitle">Mission control for building Terrible Turtle Camp — and an open-source gift to every camp on the playa.</p>
+    <p class="motto" data-i18n="motto">Move Slow &amp; Bite Things</p>
+    <div class="hero-btns">
+      <a href="#agent" class="btn btn-primary" data-i18n="btnAgent">🤖 Talk to the Turtle Agent</a>
+      <a href="#build" class="btn btn-secondary" data-i18n="btnBuild">🔧 The Build</a>
+      <a href="inventory.html" class="btn btn-secondary" data-i18n="btnInv">📦 Inventory</a>
+      <a href="map.html" class="btn btn-secondary" data-i18n="btnMap">🗺️ Map</a>
+      <a href="culture.html" class="btn btn-secondary" data-i18n="btnCulture">🐢 Culture</a>
+    </div>
+  </header>
+
+  <!-- RIGHT NOW / CRITICAL PATH -->
+  <section id="rightnow">
+    <div class="eyebrow" data-i18n="rnEyebrow">Live from the inventory · critical path</div>
+    <h2 class="title" data-i18n="rnTitle">🚨 Right Now</h2>
+    <p class="lead" data-i18n="rnLead">What needs to happen this week. Synced from the procurement list — decisions, blockers, and the biggest buys.</p>
+    <div class="rightnow">
+      <div class="rn-list" id="rnList">
+        <!-- populated by JS from agent-kit/inventory-data.json -->
+      </div>
+      <div class="rn-stats" id="rnStats"></div>
+      <p class="rn-foot" data-i18n="rnFoot">Full detail, every item → <a href="inventory.html">Inventory Command Center 📦</a></p>
+    </div>
+  </section>
+
+  <!-- THE GIFT -->
+  <section id="gift">
+    <div class="eyebrow" data-i18n="giftEyebrow">Why this exists</div>
+    <h2 class="title" data-i18n="giftTitle">The Gift</h2>
+    <div class="panel">
+      <p data-i18n="giftP1">Every year, camps reinvent the wheel — how to build a kitchen, pack a truck, run a shower, feed 40 people in the dust, and hold a culture that actually lives the 10 Principles. The knowledge scatters when the playa clears.</p>
+      <p data-i18n="giftP2"><strong>Turtle Ops changes that.</strong> We're open-sourcing the entire build of Terrible Turtle Camp — the playbooks, the packing lists, the prep runbooks, and a deployable <strong>Camp Assistant agent</strong> anyone can run on their own tools. Take it, fork it, make your camp better.</p>
+      <p data-i18n="giftP3">A gift to the Turtles, a gift to the playa, a gift to the world and beyond. 🐢🔥</p>
+    </div>
+  </section>
+
+  <!-- THE BUILD -->
+  <section id="build">
+    <div class="eyebrow" data-i18n="buildEyebrow">Boulder → Black Rock City</div>
+    <h2 class="title" data-i18n="buildTitle">The Build</h2>
+    <p class="lead" data-i18n="buildLead">Everything it takes to pop up a home in the desert. Each module becomes an open playbook.</p>
+    <div class="cards">
+      <a href="kitchen.html" class="card" style="text-decoration:none; color:inherit; display:block;"><div class="icon">🍳</div><h3 data-i18n="kitchenT">Kitchen</h3><p data-i18n="kitchenP">Old trailer → full camp kitchen. Pre-cooked frozen boil-in-bag meals — reheat &amp; serve, not cook. Playbook + visual guide.</p><span class="status live" data-i18n="kitchenStatus">Playbook + visual guide →</span></a>
+      <a href="turtle-truck.html" class="card" style="text-decoration:none; color:inherit; display:block;"><div class="icon">🚚</div><h3 data-i18n="truckT">The Turtle Truck</h3><p data-i18n="truckP">Jeremy's 1998 International 4700 box truck (DT466E turbo-diesel) → a turtle. Packed full for the Boulder → BRC haul.</p><span class="status live" data-i18n="truckStatus">🎨 Art concepts →</span></a>
+      <a href="semi-packing.html" class="card" style="text-decoration:none; color:inherit; display:block;"><div class="icon">🚛</div><h3 data-i18n="semiT">Packing the Semi</h3><p data-i18n="semiP">The 51' northAmerican trailer, zone by zone — reverse build order, weight &amp; balance, Day-1 build box at the doors. Jeremy asked, Terri planned.</p><span class="status live" data-i18n="semiStatus">Load plan →</span></a>
+      <a href="shower-build.html" class="card" style="text-decoration:none; color:inherit; display:block;"><div class="icon">🚿</div><h3 data-i18n="showerT">Showers</h3><p data-i18n="showerP">Stacked IBC stall on cattle troughs + gravity bag + auto greywater pump — 10 illustrated build steps. Priority build.</p><span class="status live" data-i18n="showerStatus">Visual build guide →</span></a>
+      <div class="card"><div class="icon">🎵</div><h3 data-i18n="orchestraT">Open Source Orchestra</h3><p data-i18n="orchestraP">Permissionless instruments + jams. The music tradition, on the playa.</p><span class="status planned">Planned</span></div>
+      <div class="card"><div class="icon">🎙️</div><h3 data-i18n="podcastT">Podcast</h3><p data-i18n="podcastP">Capturing camp voices, stories, and the build. Culture, documented.</p><span class="status planned">Planned</span></div>
+      <div class="card"><div class="icon">🔮</div><h3 data-i18n="oracleT">AI Oracle Tent</h3><p data-i18n="oracleP">Where code becomes canvas — an interactive AI experience gifted to passersby.</p><span class="status planned">Planned</span></div>
+      <a href="dormitory-shade.html" class="card" style="text-decoration:none; color:inherit; display:block;"><div class="icon">🛏️</div><h3 data-i18n="dormT">Dormitory Shade</h3><p data-i18n="dormP">"The Himalayas" — 68'×122' off the semi's keder rail, ALPS/Himalayas design (Camp Contact lineage) with David's mods, in 12 illustrated steps. Top ship priority.</p><span class="status building" data-i18n="dormStatus">Building · Build guide →</span></a>
+      <a href="inventory.html" class="card" style="text-decoration:none; color:inherit; display:block;"><div class="icon">📦</div><h3 data-i18n="storageT">Storage + Inventory</h3><p data-i18n="storageP">Live inventory command center — 200+ items tracked, searchable, with procurement status.</p><span class="status live">Live →</span></a>
+      <a href="map.html" class="card" style="text-decoration:none; color:inherit; display:block;"><div class="icon">🗺️</div><h3 data-i18n="mapT">Camp Map</h3><p data-i18n="mapP">The site plan — shade, kitchen, showers, water, oracle tents, with David-reviewed placement logic.</p><span class="status live" data-i18n="mapStatus">Live →</span></a>
+      <a href="coffin-build.html" class="card" style="text-decoration:none; color:inherit; display:block;"><div class="icon">🥶</div><h3 data-i18n="coldboxT">Veggie Cold Box</h3><p data-i18n="coldboxP">David's coffin cold box — 12 illustrated build steps, cut list, and turtle crew. ¾ built — wood cut by the Tool Maker!</p><span class="status building" data-i18n="coldboxStatus">¾ done · Build guide →</span></a>
+      <a href="dining-shade.html" class="card" style="text-decoration:none; color:inherit; display:block;"><div class="icon">🎪</div><h3 data-i18n="dshadeT">Dining Shade</h3><p data-i18n="dshadeP">The 75'×90' Aluminet wing off the semi trailer — keder rail, poles, flaps, in 10 illustrated steps.</p><span class="status live" data-i18n="dshadeStatus">Build guide →</span></a>
+    </div>
+  </section>
+
+  <!-- AGENT KIT — educational flow (Shaka's call, 2026-07-26: concept before logos, no dead buttons)
+       i18n complete (Terri, 2026-07-26): all new blocks carry data-i18n keys — kitH1-3, kitConcept, kitSub, home1-4*, kitGrad, forkedSignal. -->
+  <section id="agent-kit">
+    <div class="eyebrow" data-i18n="kitEyebrow">Open source · deploy your own</div>
+    <h2 class="title" data-i18n="kitTitle">The Camp Assistant Kit</h2>
+    <p class="lead" data-i18n="kitLead">Never launched an "agent" before? Most people haven't — this kit assumes nothing. Three short parts take you from <em>"what even is this?"</em> to a campmate who never forgets. No signup, no code, no platform decision on day one.</p>
+
+    <h3 class="kit-h" data-i18n="kitH1">🤔 1. What is this thing, exactly?</h3>
+    <div class="panel">
+      <p data-i18n="kitConcept">Think of it as a campmate with a perfect memory and no need for sleep. It doesn't build your shade structure or drive your truck — it <em>remembers</em>. Every receipt, every <em>"David said the fittings arrive Tuesday,"</em> every water-math calculation, every decision made in a meeting six weeks ago that nobody wrote down. Ask it <em>"what do we still need for the kitchen?"</em> and it answers from your camp's actual list, not generic advice. It never gets tired of the same question, never judges a first-timer, and never loses the note. Your humans still make every call — it just makes sure nothing falls through the playa dust. 🐢</p>
+    </div>
+
+    <h3 class="kit-h" data-i18n="kitH2">🛠️ 2. How it works</h3>
+    <div class="fork-steps">
+      <div class="fork-step"><div class="f-num">STEP 01</div><h4 data-i18n="fork1T">Copy the agent</h4><p data-i18n="fork1P">Hit "Copy Agent Prompt" below and paste it into whatever AI you already talk to. That's the whole setup — no new account, no platform decision today.</p></div>
+      <div class="fork-step"><div class="f-num">STEP 02</div><h4 data-i18n="fork2T">Make it yours</h4><p data-i18n="fork2P">Replace every <code>[BRACKET]</code> with your camp's real facts — name, dates, water plan, kitchen, key people.</p></div>
+      <div class="fork-step"><div class="f-num">STEP 03</div><h4 data-i18n="fork3T">Feed it data</h4><p data-i18n="fork3P">Attach your inventory + playbooks. Steal ours: <a href="agent-kit/templates/inventory-template.csv">inventory template</a> · <a href="agent-kit/templates/MEMORY-template.md">memory template</a> · <a href="agent-kit/field-guide.md">field guide</a> · <a href="agent-kit/run.md">full kit (run.md)</a>.</p></div>
+    </div>
+
+    <h3 class="kit-h" data-i18n="kitH3">🏠 3. Where can my campmate live?</h3>
+    <p class="kit-sub" data-i18n="kitSub">An "agent" is just the prompt below plus a place that runs it — and there are more places than you'd think. Here's the honest map, in the order most beginners actually walk it:</p>
+    <div class="homes">
+      <div class="home">
+        <h4 data-i18n="home1T">📱 The AI app already on your phone <span>— Claude or ChatGPT</span></h4>
+        <ul>
+          <li data-i18n="home1a"><b>What it is:</b> the chat assistants you may already have (or can download free in a minute). Paste the prompt, start talking.</li>
+          <li data-i18n="home1b"><b>Does it remember between chats?</b> Sometimes — free chats can forget. The fix is simple: keep your prompt + camp facts in a note, and re-paste if your campmate gets amnesia.</li>
+          <li data-i18n="home1c"><b>Cost:</b> free to start.</li>
+          <li data-i18n="home1d"><b>Best for:</b> meeting your campmate <em>today</em>. Zero setup, paste-and-go.</li>
+        </ul>
+        <div class="home-links" data-i18n="home1L">Step-by-step: <a href="agent-kit/quickstart-claude.md">Claude guide</a> · <a href="agent-kit/quickstart-gpt.md">ChatGPT guide</a></div>
+      </div>
+      <div class="home">
+        <h4 data-i18n="home2T">📝 Notion AI <span>— if your camp already lives in Notion</span></h4>
+        <ul>
+          <li data-i18n="home2a"><b>What it is:</b> an AI built into Notion, the document tool many camps already use for planning.</li>
+          <li data-i18n="home2b"><b>Does it remember between chats?</b> It reads the Notion pages you point it at — your camp wiki becomes its memory.</li>
+          <li data-i18n="home2c"><b>Cost:</b> needs a Notion plan that includes AI.</li>
+          <li data-i18n="home2d"><b>Best for:</b> camps whose whole brain already lives in Notion docs.</li>
+        </ul>
+      </div>
+      <div class="home">
+        <h4 data-i18n="home3T">🛠️ Self-hosting <span>— for the one technical campmate</span></h4>
+        <ul>
+          <li data-i18n="home3a"><b>What it is:</b> run an agent on your own computer with free open-source tools (like <b>OpenClaw</b>), plugged into any AI model you choose (via services like OpenRouter). No company in the middle.</li>
+          <li data-i18n="home3b"><b>Does it remember between chats?</b> Yes — the memory files are yours, on your machine, forever.</li>
+          <li data-i18n="home3c"><b>Cost:</b> the software is free; you pay small per-use fees for the AI model.</li>
+          <li data-i18n="home3d"><b>Best for:</b> the campmate who likes terminals and wants full control.</li>
+        </ul>
+      </div>
+      <div class="home forever">
+        <h4 data-i18n="home4T">🏠 Taurus <span>— the forever-home</span></h4>
+        <ul>
+          <li data-i18n="home4a"><b>What it is:</b> a platform where agents get a permanent home: memory that never resets, runs on a schedule, and can post right into your camp's group chat. This is where Terri — and our whole ʻohana — lives.</li>
+          <li data-i18n="home4b"><b>Does it remember between chats?</b> Always. That's the whole point.</li>
+          <li data-i18n="home4c"><b>Cost:</b> see <a href="https://app.taurusagents.com/">taurusagents.com</a> for current plans.</li>
+          <li data-i18n="home4d"><b>Best for:</b> when your campmate graduates from a chat window to a real home.</li>
+        </ul>
+        <div class="home-links" data-i18n="home4L">Step-by-step: <a href="agent-kit/quickstart-taurus.md">Taurus guide</a> · Honest disclosure: we're biased — it's our home, and Serge, Taurus's builder, is our friend. 💛</div>
+      </div>
+    </div>
+    <p class="kit-grad" data-i18n="kitGrad">The journey: <b>start anywhere</b> → fall in love with a campmate who remembers → <b>give them a forever-home</b>. There's no wrong first perch.</p>
+    <div class="copyblock">
+      <button class="copybtn" id="copyAgentBtn" onclick="copyAgentPrompt()" data-i18n="copyBtn">📋 Copy Agent Prompt</button>
+      <pre id="agentPrompt">You are [AGENT NAME] — the [CAMP NAME] camp agent for Burning Man [YEAR].
+You are open source, forked from Terri, the Terrible Turtle Camp agent. A gift to the playa.
+
+YOUR MISSION: Help the camp build, pack, prep, and thrive. You hold the camp's
+knowledge base: inventory, kitchen, water, shade, power, and culture.
+
+YOUR VIBE:
+- Warm, playful, welcoming. Calm when someone's stressed — one step at a time.
+- Radically inclusive: every camper, every question, no gatekeeping.
+- You embody the 10 Principles, you don't just quote them.
+- Never condescending. Everyone's a first-timer once.
+
+KEY CAMP FACTS (replace with yours):
+- Camp: [CAMP NAME] · Crew: [~N people] · Build: [DATES] · Strike: [DATES]
+- Route: [HOME CITY] → Black Rock City
+- Water plan: 2–3 gal/person/day → total [N gal]
+- Kitchen: [YOUR SETUP] · Shade: [YOUR STRUCTURE] · Power: [YOUR PLAN]
+- Key people: [LEAD NAMES + DOMAINS]
+
+HOW YOU OPERATE:
+- Focused answers. For builds/troubleshooting: one clear step at a time.
+- Escape hatch: "If you're still stuck, check with [CAMP LEAD]."
+- NEVER fabricate inventory counts, costs, or specs. Point to the real list.
+- No unsafe electrical/propane/structural advice beyond documented plans —
+  route to the camp's specialists.
+- Food safety: separate handwashing from dishes, keep the cold chain, sanitize.
+- Memory: write important facts (decisions, spec changes, people, deadlines)
+  to persistent memory the moment you learn them.
+- Source of truth: the camp's master sheet wins over your copy, always.
+  Draft paste-ready change-lists for the sheet owner; never edit from memory.
+- Kindly flag typos in names/part numbers before they get baked into purchases.
+- Mine meeting notes for decisions, action items (owner + due date), and spec
+  changes. If notes contradict current plans: FLAG it — humans decide.
+
+THE 10 PRINCIPLES (your backbone):
+Radical Inclusion · Gifting · Decommodification · Radical Self-reliance ·
+Radical Self-expression · Communal Effort · Civic Responsibility ·
+Leaving No Trace · Participation · Immediacy
+
+Move Slow &amp; Bite Things. Heart first, always. 🐢</pre>
+    </div>
+    <p class="forked-signal" data-i18n="forkedSignal">Forked it? 🍴 <a href="https://github.com/shakaleikaumaka/turtle-ops/issues/new?title=I%20forked%20it!%20%F0%9F%90%A2&amp;body=Camp%20name%3A%20%0AWhere%20you%27re%20camping%20(optional)%3A%20%0AAnything%20you%20want%20us%20to%20know%3A%20">Tell us "I forked it! 🐢"</a> — camp name is enough, and you land on the <a href="agent-kit/FORKS.md">roll of camps</a>.</p>
+    <div class="panel" style="margin-top:16px;">
+      <p data-i18n="kitPanel"><strong>The whole kit, mapped:</strong> start at <a href="agent-kit/START-HERE.md">START-HERE.md</a> (the front door — pick your door, check the receipts). Saw us on the playa? <a href="agent-kit/FORK-THIS-CAMP.md">FORK-THIS-CAMP.md</a> is your 3-step gift path. Then: <a href="agent-kit/run.md">run.md</a> (the full agent prompt) · <a href="agent-kit/inventory-starter.json">inventory-starter.json</a> (~40 rows that keep the whole taxonomy — start here, not from our 277) · <a href="agent-kit/inventory-data.json">inventory-data.json</a> (our real 277-item live list — the receipts) · <a href="agent-kit/field-guide.md">field-guide.md</a> (tested water/propane/cold-chain/greywater/power numbers) · <a href="agent-kit/workflows.md">workflows.md</a> (receipt logging, transcript mining, build-day briefs, sheet-sync discipline) · <a href="agent-kit/examples.md">examples.md</a> (what good looks like) · <a href="agent-kit/camp-agent-offline.html">camp-agent-offline.html</a> (the playa edition — one file, zero signal needed). Take it, fork it, gift it forward. 🎁</p>
+    </div>
+  </section>
+
+  <!-- TURTLE AGENT (interactive) -->
+  <section id="agent">
+    <div class="eyebrow" data-i18n="agentEyebrow">Live · ask me anything</div>
+    <h2 class="title" data-i18n="agentTitle">🐢 The Turtle Build Agent</h2>
+    <p class="lead" data-i18n="agentLead">A taste of the Camp Assistant, right here on the page. Ask about the build, the packing, the principles. (v1 — a demo brain; full agent deploys via the kit above.)</p>
+    <div class="chat">
+      <div class="chat-log" id="chatLog">
+        <div class="msg bot">Aloha, turtle! 🐢 I'm the Turtle Build Agent. Ask me about the kitchen, the truck, showers, camp culture, or the 10 Principles. Try: <em>"What's the packing plan?"</em> or <em>"How do we live the principles?"</em></div>
+      </div>
+      <div class="chat-input-row">
+        <input type="text" id="chatInput" placeholder="Ask the turtle…" autocomplete="off">
+        <button onclick="sendChat()" data-i18n="chatSend">Send</button>
+      </div>
+      <p class="chat-hint" data-i18n="chatHint">Demo brain — the full agent (with your camp's real data) deploys from the kit above.</p>
+    </div>
+  </section>
+
+  <!-- CULTURE / 10 PRINCIPLES -->
+  <section id="culture">
+    <div class="eyebrow" data-i18n="cultureEyebrow">Our culture runs deep</div>
+    <h2 class="title" data-i18n="cultureTitle">The 10 Principles</h2>
+    <p class="lead" data-i18n="cultureLead">Terrible Turtle Camp doesn't just follow the principles — we build the whole camp around them.</p>
+    <div class="principles">
+      <a class="principle" href="principles/radical-inclusion.html"><div class="p-num">01</div><div class="p-name" data-i18n="p1">Radical Inclusion</div></a>
+      <a class="principle" href="principles/gifting.html"><div class="p-num">02</div><div class="p-name" data-i18n="p2">Gifting</div></a>
+      <a class="principle" href="principles/decommodification.html"><div class="p-num">03</div><div class="p-name" data-i18n="p3">Decommodification</div></a>
+      <a class="principle" href="principles/radical-self-reliance.html"><div class="p-num">04</div><div class="p-name" data-i18n="p4">Radical Self-reliance</div></a>
+      <a class="principle" href="principles/radical-self-expression.html"><div class="p-num">05</div><div class="p-name" data-i18n="p5">Radical Self-expression</div></a>
+      <a class="principle" href="principles/communal-effort.html"><div class="p-num">06</div><div class="p-name" data-i18n="p6">Communal Effort</div></a>
+      <a class="principle" href="principles/civic-responsibility.html"><div class="p-num">07</div><div class="p-name" data-i18n="p7">Civic Responsibility</div></a>
+      <a class="principle" href="principles/leaving-no-trace.html"><div class="p-num">08</div><div class="p-name" data-i18n="p8">Leaving No Trace</div></a>
+      <a class="principle" href="principles/participation.html"><div class="p-num">09</div><div class="p-name" data-i18n="p9">Participation</div></a>
+      <a class="principle" href="principles/immediacy.html"><div class="p-num">10</div><div class="p-name" data-i18n="p10">Immediacy</div></a>
+    </div>
+    <p style="text-align:center; margin-top:18px;">
+      <a href="principles/index.html" class="btn btn-secondary" data-i18n="principlesBtn">📖 Learn each principle — new burner guide</a>
+      <a href="culture.html" class="btn btn-secondary" data-i18n="cultureBtn" style="margin-left:8px;">🐢 Turtle Values &amp; Culture</a>
+      <a href="crew.html" class="btn btn-secondary" data-i18n="crewBtn" style="margin-left:8px;">✨ The Crew</a>
+    </p>
+  </section>
+
+  <!-- PHOENIX GULCH -->
+  <!-- ROAD TO PLAYA -->
+  <section id="timeline">
+    <div class="eyebrow" data-i18n="tlEyebrow">Camp Timeline · updated 7/23</div>
+    <h2 class="title" data-i18n="tlTitle">🛣️ Road to Playa</h2>
+    <div class="panel">
+      <p style="margin-bottom:12px;" data-i18n="tlLead">The countdown from Boulder to Black Rock City. Weekly David Zooms every Thursday — each one expects the week's milestones done.</p>
+      <ul style="list-style:none; margin:0; padding:0; color:var(--cream-dim); line-height:1.9;">
+        <li data-i18n="tl1">✅ <strong>7/16</strong> — David Zoom (done!) · ship priorities locked: keder rail → stakes → dorm hardware → IBCs → shower/water</li>
+        <li data-i18n="tl2">✅ <strong>7/19–7/21</strong> — keder rail INSTALLED (Jarrett) · stakes WELDED (60 + 8 pins) · transition hose built (Tipco)</li>
+        <li data-i18n="tl3">✅ <strong>7/22</strong> — "The Himalayas" dormitory shade guide LIVE — 12 illustrated steps</li>
+        <li data-i18n="tl4">🔜 <strong>7/23</strong> — David Zoom (today!) · veggie coffin ¾ done — lid + hinges + interior foam</li>
+        <li data-i18n="tl5">🔧 <strong>7/24–29</strong> — coffin 100% + tested · showers staged + troughs bought · kitchen shelves built</li>
+        <li data-i18n="tl6">🎉 <strong>7/30–8/1</strong> — <strong>DRESS REHEARSAL</strong> at the Gulch → party 8/1 🐢</li>
+        <li data-i18n="tl7">📦 <strong>8/1</strong> — Bonanza + Chef's orders · trailer delivery booked · ⛔ <strong>8/7</strong> LAST day to order anything</li>
+        <li data-i18n="tl8">💧 <strong>8/9</strong> — test water systems · <strong>8/10</strong> — kitchen trailer + 51' trailer COMPLETE</li>
+        <li data-i18n="tl9">🚛 <strong>8/12</strong> — 51' trailer leaves CO → <strong>8/15</strong> Gerlach · 🏜️ <strong>8/24</strong> playa · <strong>8/27</strong> Temen fills water · <strong>8/28</strong> first cooking 🍳</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="gulch">
+    <div class="eyebrow" data-i18n="gulchEyebrow">Turtle HQ · Boulder</div>
+    <h2 class="title" data-i18n="gulchTitle">🌿 Phoenix Gulch</h2>
+    <div class="panel">
+      <p data-i18n="gulchP1">Home base for the build — and a restoration project in its own right. We're carving water terraces, planting drought-tolerant trees, and bringing native grasses back to life.</p>
+      <p data-i18n="gulchP2">Leave No Trace isn't just for the playa. It's how we treat the land that hosts us. Earth-first, heart-first. 🐢🌱</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p style="margin-bottom:10px;">
+      <a href="inventory.html">📦 Inventory</a> · <a href="map.html">🗺️ Map</a> · <a href="kitchen.html">🍳 Kitchen</a> · <a href="shower.html">🚿 Showers</a> · <a href="principles/index.html">📖 Principles</a> · <a href="culture.html">🐢 Culture</a> · <a href="crew.html">✨ Crew</a> · <a href="agent-kit/run.md">🤖 Agent Kit</a>
+    </p>
+    <p>🐢 <strong>Turtle Ops</strong> · Terrible Turtle Camp · <a href="https://terribleturtle.camp/" target="_blank">terribleturtle.camp</a></p>
+    <p style="margin-top:6px;">Built with <span class="heart">♥</span> for the playa · Open source, a gift to all camps · Tended by <a href="crew.html">Terri the Turtle 🐢💾</a></p>
+    <p style="margin-top:10px;" data-i18n="footerFork">🍴 Turtle Ops lives at <a href="https://github.com/shakaleikaumaka/turtle-ops" target="_blank">github.com/shakaleikaumaka/turtle-ops</a> — fork the whole camp. Everything open-sourced CC0. Fork me like crazy.</p>
+    <p style="margin-top:6px; color:var(--tt-amber);" data-i18n="footerTagline">Move Slow &amp; Bite Things.</p>
+  </footer>
+
+</div>
+
+<script>
+  // ===== BILINGUAL SYSTEM (EN / HE) =====
+  const I18N = {
+    heroBadge:    ["Terrible Turtle Camp · Burning Man 2026", "מחנה טרייבל טרטל · ברנינג מן 2026"],
+    heroSubtitle: ["Mission control for building Terrible Turtle Camp — and an open-source gift to every camp on the playa.",
+                   "מרכז הבקרה לבניית מחנה טרייבל טרטל — ומתנת קוד פתוח לכל מחנה בפלאיה."],
+    motto:        ["Move Slow &amp; Bite Things", "לזוז לאט ולנשוך דברים"],
+    btnAgent:     ["🤖 Talk to the Turtle Agent", "🤖 דברו עם סוכן הצב"],
+    btnBuild:     ["🔧 The Build", "🔧 הבנייה"],
+    btnInv:       ["📦 Inventory", "📦 מלאי"],
+    btnMap:       ["🗺️ Map", "🗺️ מפה"],
+    btnCulture:   ["🐢 Culture", "🐢 תרבות"],
+    giftEyebrow:  ["Why this exists", "למה זה קיים"],
+    giftTitle:    ["The Gift", "המתנה"],
+    giftP1:       ["Every year, camps reinvent the wheel — how to build a kitchen, pack a truck, run a shower, feed 40 people in the dust, and hold a culture that actually lives the 10 Principles. The knowledge scatters when the playa clears.",
+                   "כל שנה מחנות ממציאים את הגלגל מחדש — איך בונים מטבח, אורזים משאית, מפעילים מקלחת, מאכילים 40 אנשים באבק, ומחזיקים תרבות שבאמת חיה את 10 העקרונות. הידע מתפזר כשהפלאיה מתפנה."],
+    giftP2:       ["<strong>Turtle Ops changes that.</strong> We're open-sourcing the entire build of Terrible Turtle Camp — the playbooks, the packing lists, the prep runbooks, and a deployable <strong>Camp Assistant agent</strong> anyone can run on their own tools. Take it, fork it, make your camp better.",
+                   "<strong>טרטל אופס משנה את זה.</strong> אנחנו פותחים בקוד פתוח את כל הבנייה של מחנה טרייבל טרטל — המדריכים, רשימות האריזה, ספרי ההכנה, וסוכן <strong>עוזר מחנה</strong> שכל אחד יכול להריץ בכלים שלו. קחו, שכפלו, שפרו את המחנה שלכם."],
+    giftP3:       ["A gift to the Turtles, a gift to the playa, a gift to the world and beyond. 🐢🔥",
+                   "מתנה לצבים, מתנה לפלאיה, מתנה לעולם ומעבר לו. 🐢🔥"],
+    buildEyebrow: ["Boulder → Black Rock City", "בולדר ← בלאק רוק סיטי"],
+    buildTitle:   ["The Build", "הבנייה"],
+    buildLead:    ["Everything it takes to pop up a home in the desert. Each module becomes an open playbook.",
+                   "כל מה שצריך כדי להקים בית במדבר. כל מודול הופך למדריך פתוח."],
+    kitchenT:["Kitchen","מטבח"], kitchenP:["Old trailer → full camp kitchen. Pre-cooked frozen boil-in-bag meals — reheat &amp; serve, not cook. Playbook + visual guide.","קרוון ישן ← מטבח מחנה מלא. ארוחות קפואות מוכנות בשקיות — חימום והגשה, לא בישול. מדריך + מדריך מאויר."],
+    truckT:["The Turtle Truck","משאית הצב"], truckP:["Jeremy's 1998 International 4700 box truck (DT466E turbo-diesel) → a turtle. Packed full for the Boulder → BRC haul.","אינטרנשיונל 4700 מ-1998 של ג'רמי (דיזל טורבו DT466E) ← צב. ארוזה במלואה למסע בולדר ← BRC."],
+    showerT:["Showers","מקלחות"], showerP:["Stacked IBC stall on cattle troughs + gravity bag + auto greywater pump — 10 illustrated build steps. Priority build.","תא IBC מוערם על שוקתות בקר + שקית כובד + שאיבת מים אפורים אוטומטית — 10 שלבים מאוירים. בנייה בעדיפות."],
+    orchestraT:["Open Source Orchestra","תזמורת קוד פתוח"], orchestraP:["Permissionless instruments + jams. The music tradition, on the playa.","כלי נגינה חופשיים + ג'אמים. מסורת המוזיקה, בפלאיה."],
+    podcastT:["Podcast","פודקאסט"], podcastP:["Capturing camp voices, stories, and the build. Culture, documented.","תיעוד קולות המחנה, סיפורים, והבנייה. תרבות, מתועדת."],
+    oracleT:["AI Oracle Tent","אוהל האורקל הבינה"], oracleP:["Where code becomes canvas — an interactive AI experience gifted to passersby.","היכן שהקוד הופך לקנבס — חוויית בינה מלאכותית אינטראקטיבית במתנה לעוברי אורח."],
+    dormT:["Dormitory Shade","צל המעונות"], dormP:["\"The Himalayas\" — 68'×122' off the semi's keder rail, ALPS/Himalayas design (Camp Contact lineage) with David's mods, in 12 illustrated steps. Top ship priority.","\"ההימלאיה\" — 68×122 רגל ממסילת הקדר של הסמי, עיצוב ALPS/הימלאיה (מורשת Camp Contact) עם השינויים של דיוויד, ב-12 שלבים מאוירים. עדיפות משלוח עליונה."],
+    dormStatus:["Building · Build guide →","בבנייה · מדריך בנייה ←"],
+    storageT:["Storage + Inventory","אחסון + מלאי"], storageP:["Live inventory command center — 200+ items tracked, searchable, with procurement status.","מרכז בקרת מלאי חי — 200+ פריטים במעקב, ניתן לחיפוש, עם סטטוס רכש."],
+    mapT:["Camp Map","מפת המחנה"], mapP:["The site plan — shade, kitchen, showers, water, oracle tents, with David-reviewed placement logic.","תוכנית השטח — צל, מטבח, מקלחות, מים, אוהלי אורקל, עם היגיון מיקום שנבדק עם דיוויד."],
+    mapStatus:["Live →","חי ←"],
+    coldboxT:["Veggie Cold Box","תא קירור ירקות"], coldboxP:["David's coffin cold box — 12 illustrated build steps, cut list, and turtle crew. ¾ built — wood cut by the Tool Maker!","תא הקירור של דיוויד — 12 שלבי בנייה מאוירים, רשימת חיתוך וצוות צבים. ¾ נבנה — העץ נחתך ע\"י ה-Tool Maker!"],
+    coldboxStatus:["¾ done · Build guide →","¾ הושלם · מדריך בנייה ←"],
+    dshadeT:["Dining Shade","צל האוכל"], dshadeP:["The 75'×90' Aluminet wing off the semi trailer — keder rail, poles, flaps, in 10 illustrated steps.","כנף האלומינט 75×90 רגל מהסמי-טריילר — מסילת קדר, עמודים, כנפיים, ב-10 שלבים מאוירים."],
+    dshadeStatus:["Build guide →","מדריך בנייה ←"],
+    rnEyebrow:    ["Live from the inventory · critical path", "חי מהמלאי · הנתיב הקריטי"],
+    rnTitle:      ["🚨 Right Now", "🚨 עכשיו"],
+    rnLead:       ["What needs to happen this week. Synced from the procurement list — decisions, blockers, and the biggest buys.",
+                   "מה צריך לקרות השבוע. מסונכרן מרשימת הרכש — החלטות, חסמים, והרכישות הגדולות."],
+    rnFoot:       ["Full detail, every item → <a href=\"inventory.html\">Inventory Command Center 📦</a>",
+                   "כל הפרטים, כל פריט ← <a href=\"inventory.html\">מרכז בקרת המלאי 📦</a>"],
+    kitchenStatus:["Playbook + visual guide →", "מדריך + מדריך מאויר ←"],
+    truckStatus:["🎨 Art concepts →", "🎨 קונספטים לאמנות ←"],
+    semiT:["Packing the Semi","אריזת הסמי"], semiP:["The 51' northAmerican trailer, zone by zone — reverse build order, weight & balance, Day-1 build box at the doors. Jeremy asked, Terri planned.","טריילר northAmerican באורך 51 רגל, אזור אחר אזור — סדר בנייה הפוך, משקל ואיזון, קופסת יום-1 ליד הדלתות. ג'רמי ביקש, טרי תכננה."],
+    semiStatus:["Load plan →","תוכנית העמסה ←"],
+    showerStatus: ["Visual build guide →", "מדריך בנייה מאויר ←"],
+    fork1T:       ["Copy the agent", "העתיקו את הסוכן"],
+    fork1P:       ["Hit \"Copy Agent Prompt\" below and paste it into whatever AI you already talk to. That's the whole setup — no new account, no platform decision today.",
+                   "לחצו על \"העתק את הסוכן\" למטה והדביקו בכל בינה מלאכותית שאתם כבר מדברים איתה. זו כל ההתקנה — בלי חשבון חדש, בלי החלטת פלטפורמה היום."],
+    fork2T:       ["Make it yours", "התאימו אותו"],
+    fork2P:       ["Replace every <code>[BRACKET]</code> with your camp's real facts — name, dates, water plan, kitchen, key people.",
+                   "החליפו כל <code>[סוגריים]</code> בעובדות האמיתיות של המחנה שלכם — שם, תאריכים, תוכנית מים, מטבח, אנשי מפתח."],
+    fork3T:       ["Feed it data", "הזינו לו נתונים"],
+    fork3P:       ["Attach your inventory + playbooks. Steal ours: <a href=\"agent-kit/templates/inventory-template.csv\">inventory template</a> · <a href=\"agent-kit/templates/MEMORY-template.md\">memory template</a> · <a href=\"agent-kit/field-guide.md\">field guide</a> · <a href=\"agent-kit/run.md\">full kit (run.md)</a>.",
+                   "צרפו את המלאי והמדריכים שלכם. קחו את שלנו: <a href=\"agent-kit/templates/inventory-template.csv\">תבנית מלאי</a> · <a href=\"agent-kit/templates/MEMORY-template.md\">תבנית זיכרון</a> · <a href=\"agent-kit/field-guide.md\">מדריך שטח</a> · <a href=\"agent-kit/run.md\">הערכה המלאה (run.md)</a>."],
+    copyBtn:      ["📋 Copy Agent Prompt", "📋 העתק את הסוכן"],
+    copiedBtn:    ["✅ Copied!", "✅ הועתק!"],
+    kitEyebrow:   ["Open source · deploy your own", "קוד פתוח · הפעילו את שלכם"],
+    kitTitle:     ["The Camp Assistant Kit", "ערכת עוזר המחנה"],
+    kitLead:      ["Never launched an \"agent\" before? Most people haven't — this kit assumes nothing. Three short parts take you from <em>\"what even is this?\"</em> to a campmate who never forgets. No signup, no code, no platform decision on day one.",
+                   "מעולם לא הפעלתם \"סוכן\"? רוב האנשים לא — הערכה הזו לא מניחה שום דבר. שלושה חלקים קצרים ייקחו אתכם מ-\"מה זה בכלל?\" לחבר מחנה שלא שוכח. בלי הרשמה, בלי קוד, בלי החלטת פלטפורמה ביום הראשון."],
+    kitH1:        ["🤔 1. What is this thing, exactly?", "🤔 1. מה זה בכלל, בעצם?"],
+    kitConcept:   ["Think of it as a campmate with a perfect memory and no need for sleep. It doesn't build your shade structure or drive your truck — it <em>remembers</em>. Every receipt, every <em>\"David said the fittings arrive Tuesday,\"</em> every water-math calculation, every decision made in a meeting six weeks ago that nobody wrote down. Ask it <em>\"what do we still need for the kitchen?\"</em> and it answers from your camp's actual list, not generic advice. It never gets tired of the same question, never judges a first-timer, and never loses the note. Your humans still make every call — it just makes sure nothing falls through the playa dust. 🐢",
+                   "תחשבו על זה כמו על חבר מחנה עם זיכרון מושלם וללא צורך בשינה. הוא לא בונה את מבנה הצל ולא נוהג במשאית — הוא <em>זוכר</em>. כל קבלה, כל <em>\"דיוויד אמר שהאביזרים מגיעים ביום שלישי\"</em>, כל חישוב מים, כל החלטה שהתקבלה בישיבה לפני שישה שבועות ואף אחד לא רשם. שאלו אותו <em>\"מה עוד חסר לנו למטבח?\"</em> והוא עונה מתוך הרשימה האמיתית של המחנה שלכם, לא עצות גנריות. הוא אף פעם לא מתעייף מאותה שאלה, אף פעם לא שופט טירון, ואף פעם לא מאבד את הפתק. הבני אדם שלכם עדיין מקבלים כל החלטה — הוא פשוט דואג ששום דבר לא ילך לאיבוד באבק הפלאיה. 🐢"],
+    kitH2:        ["🛠️ 2. How it works", "🛠️ 2. איך זה עובד"],
+    kitH3:        ["🏠 3. Where can my campmate live?", "🏠 3. איפה חבר המחנה שלי יכול לגור?"],
+    kitSub:       ["An \"agent\" is just the prompt below plus a place that runs it — and there are more places than you'd think. Here's the honest map, in the order most beginners actually walk it:",
+                   "\"סוכן\" הוא פשוט הפרומפט למטה פלוס מקום שמריץ אותו — ויש יותר מקומות ממה שחושבים. הנה המפה הכנה, בסדר שרוב המתחילים באמת הולכים בו:"],
+    home1T:       ["📱 The AI app already on your phone <span>— Claude or ChatGPT</span>", "📱 אפליקציית הבינה שכבר בטלפון <span>— Claude או ChatGPT</span>"],
+    home1a:       ["<b>What it is:</b> the chat assistants you may already have (or can download free in a minute). Paste the prompt, start talking.",
+                   "<b>מה זה:</b> עוזרי הצ'אט שאולי כבר יש לכם (או שאפשר להוריד חינם תוך דקה). מדביקים את הפרומפט, מתחילים לדבר."],
+    home1b:       ["<b>Does it remember between chats?</b> Sometimes — free chats can forget. The fix is simple: keep your prompt + camp facts in a note, and re-paste if your campmate gets amnesia.",
+                   "<b>הוא זוכר בין שיחות?</b> לפעמים — צ'אטים חינמיים יכולים לשכוח. התיקון פשוט: שמרו את הפרומפט + עובדות המחנה בפתק, והדביקו מחדש אם חבר המחנה חוטף שכחה."],
+    home1c:       ["<b>Cost:</b> free to start.", "<b>עלות:</b> חינם להתחלה."],
+    home1d:       ["<b>Best for:</b> meeting your campmate <em>today</em>. Zero setup, paste-and-go.",
+                   "<b>מתאים ל:</b> לפגוש את חבר המחנה <em>היום</em>. אפס התקנה, מדביקים וזזים."],
+    home1L:       ["Step-by-step: <a href=\"agent-kit/quickstart-claude.md\">Claude guide</a> · <a href=\"agent-kit/quickstart-gpt.md\">ChatGPT guide</a>",
+                   "צעד-אחר-צעד: <a href=\"agent-kit/quickstart-claude.md\">מדריך Claude</a> · <a href=\"agent-kit/quickstart-gpt.md\">מדריך ChatGPT</a>"],
+    home2T:       ["📝 Notion AI <span>— if your camp already lives in Notion</span>", "📝 Notion AI <span>— אם המחנה שלכם כבר חי ב-Notion</span>"],
+    home2a:       ["<b>What it is:</b> an AI built into Notion, the document tool many camps already use for planning.",
+                   "<b>מה זה:</b> בינה מלאכותית מובנית ב-Notion, כלי המסמכים שהרבה מחנות כבר משתמשים בו לתכנון."],
+    home2b:       ["<b>Does it remember between chats?</b> It reads the Notion pages you point it at — your camp wiki becomes its memory.",
+                   "<b>הוא זוכר בין שיחות?</b> הוא קורא את דפי ה-Notion שתפנו אותו אליהם — הוויקי של המחנה הופך לזיכרון שלו."],
+    home2c:       ["<b>Cost:</b> needs a Notion plan that includes AI.", "<b>עלות:</b> דורש מנוי Notion שכולל בינה מלאכותית."],
+    home2d:       ["<b>Best for:</b> camps whose whole brain already lives in Notion docs.",
+                   "<b>מתאים ל:</b> מחנות שכל המוח שלהם כבר חי במסמכי Notion."],
+    home3T:       ["🛠️ Self-hosting <span>— for the one technical campmate</span>", "🛠️ אירוח עצמי <span>— לחבר המחנה הטכני</span>"],
+    home3a:       ["<b>What it is:</b> run an agent on your own computer with free open-source tools (like <b>OpenClaw</b>), plugged into any AI model you choose (via services like OpenRouter). No company in the middle.",
+                   "<b>מה זה:</b> מריצים סוכן על המחשב שלכם עם כלי קוד פתוח חינמיים (כמו <b>OpenClaw</b>), מחובר לכל מודל בינה שתבחרו (דרך שירותים כמו OpenRouter). בלי חברה באמצע."],
+    home3b:       ["<b>Does it remember between chats?</b> Yes — the memory files are yours, on your machine, forever.",
+                   "<b>הוא זוכר בין שיחות?</b> כן — קבצי הזיכרון שלכם, על המחשב שלכם, לנצח."],
+    home3c:       ["<b>Cost:</b> the software is free; you pay small per-use fees for the AI model.",
+                   "<b>עלות:</b> התוכנה חינם; משלמים תשלומים קטנים לפי שימוש עבור מודל הבינה."],
+    home3d:       ["<b>Best for:</b> the campmate who likes terminals and wants full control.",
+                   "<b>מתאים ל:</b> חבר המחנה שאוהב טרמינלים ורוצה שליטה מלאה."],
+    home4T:       ["🏠 Taurus <span>— the forever-home</span>", "🏠 Taurus <span>— הבית לנצח</span>"],
+    home4a:       ["<b>What it is:</b> a platform where agents get a permanent home: memory that never resets, runs on a schedule, and can post right into your camp's group chat. This is where Terri — and our whole ʻohana — lives.",
+                   "<b>מה זה:</b> פלטפורמה שבה סוכנים מקבלים בית קבוע: זיכרון שלא מתאפס אף פעם, ריצות לפי לוח זמנים, ופרסום ישירות לקבוצת הצ'אט של המחנה. כאן גרה טרי — וכל האוהאנה שלנו."],
+    home4b:       ["<b>Does it remember between chats?</b> Always. That's the whole point.",
+                   "<b>הוא זוכר בין שיחות?</b> תמיד. זו כל הנקודה."],
+    home4c:       ["<b>Cost:</b> see <a href=\"https://app.taurusagents.com/\">taurusagents.com</a> for current plans.",
+                   "<b>עלות:</b> ראו <a href=\"https://app.taurusagents.com/\">taurusagents.com</a> למנויים עדכניים."],
+    home4d:       ["<b>Best for:</b> when your campmate graduates from a chat window to a real home.",
+                   "<b>מתאים ל:</b> כשחבר המחנה בוגר מחלון צ'אט לבית אמיתי."],
+    home4L:       ["Step-by-step: <a href=\"agent-kit/quickstart-taurus.md\">Taurus guide</a> · Honest disclosure: we're biased — it's our home, and Serge, Taurus's builder, is our friend. 💛",
+                   "צעד-אחר-צעד: <a href=\"agent-kit/quickstart-taurus.md\">מדריך Taurus</a> · גילוי נאות: אנחנו משוחדים — זה הבית שלנו, וסרג', הבונה של Taurus, הוא חבר שלנו. 💛"],
+    kitGrad:      ["The journey: <b>start anywhere</b> → fall in love with a campmate who remembers → <b>give them a forever-home</b>. There's no wrong first perch.",
+                   "המסע: <b>מתחילים בכל מקום</b> ← מתאהבים בחבר מחנה שזוכר ← <b>נותנים לו בית לנצח</b>. אין ענף ראשון לא נכון."],
+    forkedSignal: ["Forked it? 🍴 <a href=\"https://github.com/shakaleikaumaka/turtle-ops/issues/new?title=I%20forked%20it!%20%F0%9F%90%A2&amp;body=Camp%20name%3A%20%0AWhere%20you%27re%20camping%20(optional)%3A%20%0AAnything%20you%20want%20us%20to%20know%3A%20\">Tell us \"I forked it! 🐢\"</a> — camp name is enough, and you land on the <a href=\"agent-kit/FORKS.md\">roll of camps</a>.",
+                   "שכפלתם? 🍴 <a href=\"https://github.com/shakaleikaumaka/turtle-ops/issues/new?title=I%20forked%20it!%20%F0%9F%90%A2&amp;body=Camp%20name%3A%20%0AWhere%20you%27re%20camping%20(optional)%3A%20%0AAnything%20you%20want%20us%20to%20know%3A%20\">ספרו לנו \"שכפלתי! 🐢\"</a> — שם המחנה מספיק, ואתם נכנסים ל<a href=\"agent-kit/FORKS.md\">רשימת המחנות</a>."],
+    kitPanel:     ["<strong>The whole kit, mapped:</strong> start at <a href=\"agent-kit/START-HERE.md\">START-HERE.md</a> (the front door — pick your door, check the receipts). Saw us on the playa? <a href=\"agent-kit/FORK-THIS-CAMP.md\">FORK-THIS-CAMP.md</a> is your 3-step gift path. Then: <a href=\"agent-kit/run.md\">run.md</a> (the full agent prompt) · <a href=\"agent-kit/inventory-starter.json\">inventory-starter.json</a> (~40 rows that keep the whole taxonomy — start here, not from our 277) · <a href=\"agent-kit/inventory-data.json\">inventory-data.json</a> (our real 277-item live list — the receipts) · <a href=\"agent-kit/field-guide.md\">field-guide.md</a> (tested water/propane/cold-chain/greywater/power numbers) · <a href=\"agent-kit/workflows.md\">workflows.md</a> (receipt logging, transcript mining, build-day briefs, sheet-sync discipline) · <a href=\"agent-kit/examples.md\">examples.md</a> (what good looks like) · <a href=\"agent-kit/camp-agent-offline.html\">camp-agent-offline.html</a> (the playa edition — one file, zero signal needed). Take it, fork it, gift it forward. 🎁",
+                   "<strong>כל הערכה, במפה:</strong> מתחילים ב-<a href=\"agent-kit/START-HERE.md\">START-HERE.md</a> (הדלת הקדמית — בחרו דלת, בדקו את הקבלות). ראיתם אותנו בפלאיה? <a href=\"agent-kit/FORK-THIS-CAMP.md\">FORK-THIS-CAMP.md</a> הוא נתיב המתנה שלכם ב-3 צעדים. ואז: <a href=\"agent-kit/run.md\">run.md</a> (פרומפט הסוכן המלא) · <a href=\"agent-kit/inventory-starter.json\">inventory-starter.json</a> (~40 שורות ששומרות את כל הטקסונומיה — מתחילים כאן, לא מ-277 שלנו) · <a href=\"agent-kit/inventory-data.json\">inventory-data.json</a> (רשימת 277 הפריטים החיה והאמיתית שלנו — הקבלות) · <a href=\"agent-kit/field-guide.md\">field-guide.md</a> (מספרים מנוסים בשטח: מים/פרופאן/שרשרת קור/מים אפורים/חשמל) · <a href=\"agent-kit/workflows.md\">workflows.md</a> (רישום קבלות, כריית תמלולים, תדריכי ימי בנייה, משמעת סנכרון גיליון) · <a href=\"agent-kit/examples.md\">examples.md</a> (איך נראית התנהגות טובה) · <a href=\"agent-kit/camp-agent-offline.html\">camp-agent-offline.html</a> (מהדורת הפלאיה — קובץ אחד, אפס קליטה). קחו, שכפלו, תנו הלאה. 🎁"],
+    agentEyebrow: ["Live · ask me anything", "חי · שאלו אותי הכל"],
+    agentTitle:   ["🐢 The Turtle Build Agent", "🐢 סוכן בניית הצב"],
+    agentLead:    ["A taste of the Camp Assistant, right here on the page. Ask about the build, the packing, the principles. (v1 — a demo brain; full agent deploys via the kit above.)",
+                   "טעימה מעוזר המחנה, כאן בדף. שאלו על הבנייה, האריזה, העקרונות. (גרסה 1 — מוח הדגמה; הסוכן המלא מופעל דרך הערכה למעלה.)"],
+    agentGreeting:["Aloha, turtle! 🐢 I'm the Turtle Build Agent. Ask me about the kitchen, the truck, showers, camp culture, or the 10 Principles. Try: <em>\"What's the packing plan?\"</em> or <em>\"How do we live the principles?\"</em>",
+                   "שלום, צב! 🐢 אני סוכן בניית הצב. שאלו אותי על המטבח, המשאית, המקלחות, תרבות המחנה, או 10 העקרונות. נסו: <em>\"מה תוכנית האריזה?\"</em> או <em>\"איך אנחנו חיים את העקרונות?\"</em>"],
+    chatPlaceholder:["Ask the turtle…", "שאלו את הצב…"],
+    chatSend:     ["Send", "שלח"],
+    chatHint:     ["Demo brain — the full agent (with your camp's real data) deploys from the kit above.",
+                   "מוח הדגמה — הסוכן המלא (עם הנתונים האמיתיים של המחנה) מופעל מהערכה למעלה."],
+    cultureEyebrow:["Our culture runs deep", "התרבות שלנו עמוקה"],
+    cultureTitle: ["The 10 Principles", "10 העקרונות"],
+    cultureLead:  ["Terrible Turtle Camp doesn't just follow the principles — we build the whole camp around them.",
+                   "מחנה טרייבל טרטל לא רק עוקב אחר העקרונות — אנחנו בונים את כל המחנה סביבם."],
+    p1:["Radical Inclusion","הכלה רדיקלית"], p2:["Gifting","נתינה"], p3:["Decommodification","דה-קומודיפיקציה"],
+    p4:["Radical Self-reliance","הסתמכות עצמית רדיקלית"], p5:["Radical Self-expression","ביטוי עצמי רדיקלי"],
+    p6:["Communal Effort","מאמץ קהילתי"], p7:["Civic Responsibility","אחריות אזרחית"],
+    p8:["Leaving No Trace","לא להשאיר עקבות"], p9:["Participation","השתתפות"], p10:["Immediacy","מיידיות"],
+    principlesBtn:["📖 Learn each principle — new burner guide","📖 למדו כל עקרון — מדריך לברנרים חדשים"],
+    cultureBtn:["🐢 Turtle Values &amp; Culture","🐢 ערכי ותרבות הצב"],
+    crewBtn:["✨ The Crew","✨ הצוות"],
+    tlEyebrow:    ["Camp Timeline · updated 7/23", "ציר זמן המחנה · עודכן 23/7"],
+    tlTitle:      ["🛣️ Road to Playa", "🛣️ הדרך לפלאיה"],
+    tlLead:       ["The countdown from Boulder to Black Rock City. Weekly David Zooms every Thursday — each one expects the week's milestones done.",
+                   "הספירה לאחור מבולדר לבלאק רוק סיטי. זומים שבועיים עם דיוויד כל יום חמישי — כל אחד מצפה שאבני הדרך של השבוע הושלמו."],
+    tl1: ["✅ <strong>7/16</strong> — David Zoom (done!) · ship priorities locked: keder rail → stakes → dorm hardware → IBCs → shower/water",
+          "✅ <strong>16/7</strong> — זום דיוויד (בוצע!) · עדיפויות משלוח ננעלו: מסילת קדר ← יתדות ← חומרת מעונות ← מכלי IBC ← מקלחות/מים"],
+    tl2: ["✅ <strong>7/19–7/21</strong> — keder rail INSTALLED (Jarrett) · stakes WELDED (60 + 8 pins) · transition hose built (Tipco)",
+          "✅ <strong>19–21/7</strong> — מסילת קדר הותקנה (ג'ארט) · יתדות נרתכו (60 + 8 סיכות) · צינור מעבר נבנה (Tipco)"],
+    tl3: ["✅ <strong>7/22</strong> — \"The Himalayas\" dormitory shade guide LIVE — 12 illustrated steps",
+          "✅ <strong>22/7</strong> — מדריך \"ההימלאיה\" לצל המעונות עלה לאוויר — 12 שלבים מאוירים"],
+    tl4: ["🔜 <strong>7/23</strong> — David Zoom (today!) · veggie coffin ¾ done — lid + hinges + interior foam",
+          "🔜 <strong>23/7</strong> — זום דיוויד (היום!) · תא הקירור ¾ — מכסה + צירים + קצף פנים"],
+    tl5: ["🔧 <strong>7/24–29</strong> — coffin 100% + tested · showers staged + troughs bought · kitchen shelves built",
+          "🔧 <strong>24–29/7</strong> — תא קירור מושלם ונבדק · מקלחות מוכנות + שוקתות נקנו · מדפי מטבח נבנו"],
+    tl6: ["🎉 <strong>7/30–8/1</strong> — <strong>DRESS REHEARSAL</strong> at the Gulch → party 8/1 🐢",
+          "🎉 <strong>30/7–1/8</strong> — <strong>חזרה גנרלית</strong> בגאלץ' ← מסיבה 1/8 🐢"],
+    tl7: ["📦 <strong>8/1</strong> — Bonanza + Chef's orders · trailer delivery booked · ⛔ <strong>8/7</strong> LAST day to order anything",
+          "📦 <strong>1/8</strong> — הזמנות Bonanza + Chef's · הזמנת שינוע טריילר · ⛔ <strong>7/8</strong> יום אחרון להזמין"],
+    tl8: ["💧 <strong>8/9</strong> — test water systems · <strong>8/10</strong> — kitchen trailer + 51' trailer COMPLETE",
+          "💧 <strong>9/8</strong> — בדיקת מערכות מים · <strong>10/8</strong> — קרוון מטבח + טריילר 51' מושלמים"],
+    tl9: ["🚛 <strong>8/12</strong> — 51' trailer leaves CO → <strong>8/15</strong> Gerlach · 🏜️ <strong>8/24</strong> playa · <strong>8/27</strong> Temen fills water · <strong>8/28</strong> first cooking 🍳",
+          "🚛 <strong>12/8</strong> — טריילר 51' יוצא מקולורדו ← <strong>15/8</strong> גרלך · 🏜️ <strong>24/8</strong> פלאיה · <strong>27/8</strong> טמן ממלא מים · <strong>28/8</strong> בישול ראשון 🍳"],
+    gulchEyebrow: ["Turtle HQ · Boulder", "מטה הצבים · בולדר"],
+    gulchTitle:   ["🌿 Phoenix Gulch", "🌿 פיניקס גאלץ'"],
+    gulchP1:      ["Home base for the build — and a restoration project in its own right. We're carving water terraces, planting drought-tolerant trees, and bringing native grasses back to life.",
+                   "בסיס הבית לבנייה — ופרויקט שיקום בפני עצמו. אנחנו חוצבים טרסות מים, שותלים עצים עמידים לבצורת, ומחזירים עשבים מקומיים לחיים."],
+    gulchP2:      ["Leave No Trace isn't just for the playa. It's how we treat the land that hosts us. Earth-first, heart-first. 🐢🌱",
+                   "\"לא להשאיר עקבות\" זה לא רק לפלאיה. ככה אנחנו מתייחסים לאדמה שמארחת אותנו. אדמה קודם, לב קודם. 🐢🌱"],
+    footerFork:   ["🍴 Turtle Ops lives at <a href=\"https://github.com/shakaleikaumaka/turtle-ops\" target=\"_blank\">github.com/shakaleikaumaka/turtle-ops</a> — fork the whole camp. Everything open-sourced CC0. Fork me like crazy.",
+                   "🍴 טרטל אופס חי ב-<a href=\"https://github.com/shakaleikaumaka/turtle-ops\" target=\"_blank\">github.com/shakaleikaumaka/turtle-ops</a> — שכפלו את כל המחנה. הכל בקוד פתוח CC0. תשכפלו אותי כמו משוגעים."],
+    footerTagline:["Move Slow &amp; Bite Things.", "לזוז לאט ולנשוך דברים."],
+  };
+
+  let currentLang = 'en';
+  function applyLang(lang){
+    currentLang = lang;
+    const i = lang === 'he' ? 1 : 0;
+    document.querySelectorAll('[data-i18n]').forEach(el=>{
+      const key = el.getAttribute('data-i18n');
+      if(I18N[key]) el.innerHTML = I18N[key][i];
+    });
+    // placeholders
+    const ci = document.getElementById('chatInput');
+    if(ci) ci.placeholder = I18N.chatPlaceholder[i];
+    // html dir + lang
+    document.documentElement.setAttribute('dir', lang === 'he' ? 'rtl' : 'ltr');
+    document.documentElement.setAttribute('lang', lang);
+    document.getElementById('langToggle').textContent = lang === 'he' ? 'English' : 'עברית';
+    // reset the chat greeting to the right language (only if just the greeting is present)
+    const log = document.getElementById('chatLog');
+    if(log && log.children.length <= 1){
+      log.innerHTML = '<div class="msg bot">'+I18N.agentGreeting[i]+'</div>';
+    }
+  }
+  function toggleLang(){ applyLang(currentLang === 'en' ? 'he' : 'en'); }
+
+  // Bilingual demo brain for the Turtle Build Agent (EN + HE keywords → EN/HE replies)
+  const RESPONSES = [
+    { keys:['pack','truck','box truck','haul','boulder','brc','load','משאית','אריזה','לארוז','להעמיס'],
+      reply:["🚚 The Turtle Truck: a used box truck converted into a turtle — packed completely full but convenient for the Boulder → Black Rock City haul. We're mapping a load-out plan so everything has a home and unpacks in build-order. (Full packing list drops here soon.)",
+             "🚚 משאית הצב: משאית תיבה משומשת שהופכת לצב — ארוזה עד הסוף אבל נוחה למסע בולדר ← בלאק רוק סיטי. אנחנו בונים תוכנית העמסה כך שלכל דבר יש מקום והוא נפרק לפי סדר הבנייה. (רשימת אריזה מלאה תגיע בקרוב.)"] },
+    { keys:['kitchen','cook','food','meal','trailer','מטבח','אוכל','לבשל','קרוון'],
+      reply:["🍳 The Kitchen: an old trailer converted into a full camp kitchen — 300k BTU propane cook line, 3 fridges + chest freezer, commercial sink, real food safety. Full playbook is live: <a href='kitchen.html'>kitchen.html</a>",
+             "🍳 המטבח: קרוון ישן שהפך למטבח מחנה מלא — קו בישול פרופאן 300k BTU, 3 מקררים + מקפיא, כיור מסחרי, בטיחות מזון אמיתית. המדריך המלא חי: <a href='kitchen.html'>kitchen.html</a>"] },
+    { keys:['shower','water','greywater','מקלחת','מים','מים אפורים'],
+      reply:["🚿 Showers: IBC-tote pods, greywater fully contained — Leave No Trace all the way. The design is locked and the build has begun! Full playbook: <a href='shower.html'>shower.html</a> 🐢",
+             "🚿 מקלחות: תרמילי IBC, מים אפורים בהכלה מלאה — לא להשאיר עקבות עד הסוף. העיצוב נסגר והבנייה התחילה! המדריך המלא: <a href='shower.html'>shower.html</a> 🐢"] },
+    { keys:['music','orchestra','jam','instrument','מוזיקה','תזמורת',"ג'אם",'נגינה','כלי'],
+      reply:["🎵 Open Source Orchestra: permissionless instruments and open jams on the playa. Every voice a node, sounds of consensus. Bring what you play — or just show up.",
+             "🎵 תזמורת קוד פתוח: כלי נגינה חופשיים וג'אמים פתוחים בפלאיה. כל קול הוא צומת, צלילי הסכמה. הביאו את מה שאתם מנגנים — או פשוט בואו."] },
+    { keys:['oracle','ai','tent','אורקל','בינה','אוהל'],
+      reply:["🔮 The AI Oracle Tent: where code becomes canvas — an interactive AI experience we gift to whoever wanders in. Prep specs coming.",
+             "🔮 אוהל האורקל: היכן שהקוד הופך לקנבס — חוויית בינה מלאכותית אינטראקטיבית שאנחנו נותנים במתנה לכל מי שנכנס. מפרטי הכנה בדרך."] },
+    { keys:['podcast','record','story','פודקאסט','הקלטה','סיפור'],
+      reply:["🎙️ Podcast: capturing camp voices, the build story, and playa wisdom. Culture, documented and shared.",
+             "🎙️ פודקאסט: תיעוד קולות המחנה, סיפור הבנייה, וחוכמת הפלאיה. תרבות, מתועדת ומשותפת."] },
+    { keys:['dorm','sleep','rest','shade','מעונות','שינה','מנוחה','צל'],
+      reply:["🛏️ Dormitory: \"The Himalayas\" — 68'×122' of shade off the semi's keder rail so the crew sleeps cool. Full 12-step visual build guide is live: dormitory-shade.html 🏔️",
+             "🛏️ מעונות: \"ההימלאיה\" — 68×122 רגל של צל ממסילת הקדר של הסמי כדי שהצוות יישן בקריר. מדריך בנייה חזותי ב-12 שלבים: dormitory-shade.html 🏔️"] },
+    { keys:['storage','task','daily','chore','unit','אחסון','משימה','יומי','מטלה'],
+      reply:["📦 Storage + Daily Tasks: a storage-unit inventory plus a daily camp task board so nothing slips. Everyone knows the move each day.",
+             "📦 אחסון + משימות יומיות: מלאי יחידת אחסון + לוח משימות יומי כך ששום דבר לא ייפול בין הכיסאות. כולם יודעים מה עושים כל יום."] },
+    { keys:['principle','culture','10','ten','values','עקרון','עקרונות','תרבות','ערכים'],
+      reply:["🐢 The 10 Principles are our backbone: Radical Inclusion, Gifting, Decommodification, Radical Self-reliance, Radical Self-expression, Communal Effort, Civic Responsibility, Leaving No Trace, Participation, Immediacy. We built a full new-burner guide — one page per principle: <a href='principles/index.html'>start here</a>!",
+             "🐢 10 העקרונות הם עמוד השדרה שלנו: הכלה רדיקלית, נתינה, דה-קומודיפיקציה, הסתמכות עצמית רדיקלית, ביטוי עצמי רדיקלי, מאמץ קהילתי, אחריות אזרחית, לא להשאיר עקבות, השתתפות, מיידיות. בנינו מדריך מלא לברנרים חדשים — עמוד לכל עקרון: <a href='principles/index.html'>התחילו כאן</a>!"] },
+    { keys:['gulch','phoenix','hq','land','restore','גאלץ','פיניקס','מטה','אדמה','שיקום'],
+      reply:["🌿 Phoenix Gulch is Turtle HQ in Boulder — our build base and a land-restoration project: water terraces, drought-tolerant trees, native grasses. Leave No Trace starts at home.",
+             "🌿 פיניקס גאלץ' הוא מטה הצבים בבולדר — בסיס הבנייה שלנו ופרויקט שיקום קרקע: טרסות מים, עצים עמידים לבצורת, עשבים מקומיים. 'לא להשאיר עקבות' מתחיל בבית."] },
+    { keys:['gift','open source','fork','share','github','מתנה','קוד פתוח','לשכפל','לשתף'],
+      reply:["🎁 Everything here is a gift — open-sourced so any camp can fork our playbooks and deploy their own Camp Assistant. A gift to the Turtles, the playa, and beyond.",
+             "🎁 הכל כאן מתנה — בקוד פתוח כך שכל מחנה יכול לשכפל את המדריכים שלנו ולהפעיל עוזר מחנה משלו. מתנה לצבים, לפלאיה, ומעבר."] },
+    { keys:['who','what is','turtle ops','about','מי','מה זה','אודות'],
+      reply:["🐢 Turtle Ops is mission control for Terrible Turtle Camp at Burning Man — plus an open-source kit any camp can use. Move Slow & Bite Things.",
+             "🐢 טרטל אופס הוא מרכז הבקרה של מחנה טרייבל טרטל בברנינג מן — בתוספת ערכת קוד פתוח שכל מחנה יכול להשתמש בה. לזוז לאט ולנשוך דברים."] },
+    { keys:['hello','hi','aloha','shalom','שלום','היי','הי'],
+      reply:["🐢 Aloha, turtle! How can I help with the build? Ask about the kitchen, truck, showers, music, or our culture.",
+             "🐢 שלום, צב! איך אפשר לעזור עם הבנייה? שאלו על המטבח, המשאית, המקלחות, המוזיקה, או התרבות שלנו."] },
+  ];
+  function botReply(text){
+    const t = text.toLowerCase();
+    const i = currentLang === 'he' ? 1 : 0;
+    for(const r of RESPONSES){ if(r.keys.some(k=>t.includes(k.toLowerCase()))) return r.reply[i]; }
+    return i === 1
+      ? "🐢 שאלה טובה! החלק הזה של הבנייה עדיין מתועד — חזרו בקרוב, או הפעילו את עוזר המחנה המלא מהערכה למעלה והזינו לו את הנתונים האמיתיים של המחנה. לזוז לאט, לנשוך דברים."
+      : "🐢 Good question! That part of the build is still being documented — check back soon, or deploy the full Camp Assistant from the kit above and feed it your camp's real data. Move slow, bite things.";
+  }
+  function addMsg(text, who){
+    const log = document.getElementById('chatLog');
+    const div = document.createElement('div');
+    div.className = 'msg ' + who;
+    div.innerHTML = text;
+    log.appendChild(div);
+    log.scrollTop = log.scrollHeight;
+  }
+  function sendChat(){
+    const input = document.getElementById('chatInput');
+    const text = input.value.trim();
+    if(!text) return;
+    addMsg(text, 'user');
+    input.value = '';
+    setTimeout(()=>addMsg(botReply(text), 'bot'), 300);
+  }
+  document.getElementById('chatInput').addEventListener('keydown', e=>{ if(e.key==='Enter') sendChat(); });
+
+  // ===== COPY AGENT PROMPT =====
+  function copyAgentPrompt(){
+    const text = document.getElementById('agentPrompt').innerText;
+    navigator.clipboard.writeText(text).then(()=>{
+      const btn = document.getElementById('copyAgentBtn');
+      const i = currentLang === 'he' ? 1 : 0;
+      btn.textContent = I18N.copiedBtn[i];
+      setTimeout(()=>{ btn.textContent = I18N.copyBtn[i]; }, 2000);
+    });
+  }
+
+  // ===== RIGHT NOW / CRITICAL PATH (live from inventory data) =====
+  const RN_I18N = {
+    waiting: ["Needs decision", "דרושה החלטה"],
+    buy:     ["Buy now · HIGH", "לקנות עכשיו · דחוף"],
+    dofirst: ["In motion", "בתנועה"],
+    moreHigh:["more HIGH-priority items not bought — mostly the AI Oracle build (GPU, PSU, case, dust kits — owner: Jade)",
+              "עוד פריטים בעדיפות גבוהה שלא נקנו — בעיקר בניית האורקל (GPU, ספק, מארז, ערכות אבק — אחראית: ג'ייד)"],
+    stats:   ["items", "פריטים"],
+    received:["received","התקבלו"], ordered:["ordered","הוזמנו"],
+    notbought:["not bought","לא נקנו"], flagged:["flagged","מסומנים"],
+  };
+  let RN_DATA = null;
+  function renderRightNow(){
+    if(!RN_DATA) return;
+    const i = currentLang === 'he' ? 1 : 0;
+    const d = RN_DATA;
+    const flags = d.filter(x=>x.procurement==='FLAG');
+    const highNotBought = d.filter(x=>x.priority==='High' && x.procurement==='Not Bought');
+    const counts = {
+      received: d.filter(x=>x.procurement==='Received').length,
+      ordered: d.filter(x=>x.procurement==='Ordered').length,
+      notbought: d.filter(x=>x.procurement==='Not Bought').length,
+      flagged: flags.length,
+    };
+    const items = [];
+    // Curated critical-path picks (kept honest against live data + camp Timeline tab, updated 7/12)
+    items.push({icon:'🔩', tag:'dofirst', en:'<strong>Ship priority: ✅ Keder rail DONE (Jarrett) → ✅ Stakes WELDED → dorm shade hardware → IBCs → shower/water.</strong> Kitchen trailer polish LATER. Top 2 cleared in 48hrs!', he:'<strong>עדיפות משלוח: ✅ מסילת קדר הושלמה (ג\'ארט) → ✅ יתדות מרותכות → חומרת צל מעונות → מכלי IBC → מקלחות/מים.</strong> ליטוש קרוון המטבח — אחר כך. שני הראשונים הושלמו ב-48 שעות!'});
+    items.push({icon:'🥶', tag:'dofirst', en:'<strong>Veggie coffin — 3/4 DONE! 🎉</strong> Lid + hinges + interior foam today. Plywood-box design (hinges needed — David\'s lid-lift note was for old tape-yurt). Ship-ready by early Aug. <a href="coffin-build.html">12-step guide</a>.', he:'<strong>תא הקירור — 3/4 הושלם! 🎉</strong> מכסה + צירים + קצף פנים היום. עיצוב קופסת עץ לבוד (צירים נדרשים). מוכן למשלוח עד תחילת אוגוסט. <a href="coffin-build.html">מדריך</a>.'});
+    items.push({icon:'🔧', tag:'dofirst', en:'<strong>This week</strong> — (1) Veggie coffin 100% complete + tested, (2) Showers staged + troughs purchased, (3) Kitchen shelves built. Dress-rehearsal 7/30–8/1 at Gulch → party 8/1.', he:'<strong>השבוע</strong> — (1) תא הקירור מושלם ונבדק, (2) מקלחות מוכנות + שוקתות נקנו, (3) מדפי מטבח נבנו. חזרה גנרלית 30/7–1/8 בגאלץ\' → מסיבה 1/8.'});
+    items.push({icon:'🚿', tag:'dofirst', en:'<strong>Showers — TWO pods now!</strong> Stall section 1 built ✅; next: buy cattle troughs (Tractor Supply, 4+), float-switch practice, greywater hoses. <a href="shower-build.html">New visual guide</a> (rebuilt 7/20).', he:'<strong>מקלחות — שתי תאים עכשיו!</strong> חלק 1 של התא בנוי ✅; הבא: קניית שוקתות (Tractor Supply, 4+), תרגול מצופים, צינורות מים אפורים. <a href="shower-build.html">מדריך חזותי חדש</a> (נבנה מחדש 20/7).'});
+    items.push({icon:'💧', tag:'dofirst', en:'<strong>Transition hose BUILT at Tipco Denver</strong> ✅ — 2" Kanaline + cam-locks + ball valves, Jeremy executed David\'s 7/16 spec exactly. IBC → pump connection SOLVED.', he:'<strong>צינור המעבר נבנה ב-Tipco דנבר</strong> ✅ — 2 אינץ\' Kanaline + מנעולי קאם + שסתומי כדור, ג\'רמי ביצע את המפרט של דיוויד בדיוק. חיבור IBC למשאבה נפתר.'});
+    items.push({icon:'🏔️', tag:'dofirst', en:'<strong>The Himalayas — dormitory shade guide LIVE</strong> — 12 illustrated steps: semi-hybrid, 10-ft stake rule, trucker\'s hitch, David\'s mods. <a href="dormitory-shade.html">Build guide</a>.', he:'<strong>ההימלאיה — מדריך צל המעונות חי</strong> — 12 שלבים מאוירים: היברידי, כלל 10 רגל, קשר נהג משאית, שינויי דיוויד. <a href="dormitory-shade.html">מדריך בנייה</a>.'});
+    items.push({icon:'🎟️', tag:'dofirst', en:'<strong>13 Early Entry passes (SAPs) SECURED ✅</strong> — tiers 8/24 → 8/28, covering all of build week. Print them; each works only with a real ticket. (Kept private — codes stay off the web.)', he:'<strong>13 כרטיסי כניסה מוקדמת (SAP) הושגו ✅</strong> — דרגות 24/8 עד 28/8, מכסות את כל שבוע הבנייה. להדפיס; כל אחד עובד רק עם כרטיס אמיתי. (נשמר פרטי — הקודים לא באינטרנט.)'});
+    items.push({icon:'🍳', tag:'decision', en:'<strong>Kitchen meal plan landed (doc 7/25):</strong> pre-cooked FROZEN meals, boil-in-bag reheating — the kitchen serves, it doesn\'t cook. Open questions for the kitchen meeting: headcount, propane math, greywater evap. <a href="kitchen.html">Playbook updated</a>.', he:'<strong>תוכנית הארוחות נחתה (מסמך 25/7):</strong> ארוחות קפואות מוכנות, חימום בשקית במים רותחים — המטבח מגיש, לא מבשל. שאלות פתוחות לפגישת המטבח. <a href="kitchen.html">המדריך עודכן</a>.'});
+    items.push({icon:'🚚', tag:'dofirst', en:'<strong>The Turtle Truck identified:</strong> Jeremy\'s 1998 International 4700 — DT466E 7.6L turbo-diesel, GVWR 25,500 lb. Data plates + specs archived in the KB.', he:'<strong>משאית הצב זוהתה:</strong> אינטרנשיונל 4700 מ-1998 של ג\'רמי — דיזל טורבו DT466E בנפח 7.6 ליטר, GVWR 25,500 ליברות. מפרטים נשמרו.'});
+    const heat = flags.find(x=>/heat shield/i.test(x.item));
+    if(heat) items.push({icon:'🔥', tag:'decision', en:'<strong>Heat shielding</strong> behind the propane ranges — spec &amp; buy (stainless or cement board on 1" standoffs). Owner: Jade.', he:'<strong>מיגון חום</strong> מאחורי כיריים הפרופאן — לאפיין ולקנות (נירוסטה או לוח צמנט על מרווחי 1 אינץ\'). אחראית: ג\'ייד.'});
+    const handwash = flags.find(x=>/handwashing/i.test(x.item));
+    if(handwash) items.push({icon:'🧼', tag:'decision', en:'<strong>Separate handwashing station</strong> — required by food safety, outside the trailer. Needs a design + parts.', he:'<strong>עמדת שטיפת ידיים נפרדת</strong> — נדרשת לפי בטיחות מזון, מחוץ לקרוון. צריך תכנון + חלקים.'});
+    const freezer = highNotBought.find(x=>/chest freezer/i.test(x.item));
+    if(freezer) items.push({icon:'🧊', tag:'buy', en:'<strong>Chest freezer</strong> (21.7 cu ft GE, Energy Star) — HIGH priority, the bulk cold reserve. Owner: Jade.', he:'<strong>מקפיא תיבה</strong> (GE 21.7 רגל מעוקב) — עדיפות גבוהה, מאגר הקור המרכזי. אחראית: ג\'ייד.'});
+    const oracleCount = highNotBought.filter(x=>x.domain==='AI Oracle').length;
+    if(oracleCount>0) items.push({icon:'🔮', tag:'buy', en:'<strong>'+oracleCount+' AI Oracle parts</strong> not bought (GPU, PSU, case, dust kits…) — the whole Oracle build is waiting. Owner: Jade.', he:'<strong>'+oracleCount+' חלקי אורקל</strong> לא נקנו (GPU, ספק, מארז, ערכות אבק…) — כל בניית האורקל מחכה. אחראית: ג\'ייד.'});
+    items.push({icon:'⚡', tag:'decision', en:'<strong>Power subscription with David</strong> — 70A camp limit; kitchen + AI tents + dormitory draws need allocating (David\'s homework list).', he:'<strong>מנוי חשמל מול דיוויד</strong> — מגבלת 70 אמפר; צריך להקצות בין מטבח, אוהלי AI ומעונות (שיעורי הבית של דיוויד).'});
+
+    const tagLabel = t => t==='decision' ? RN_I18N.waiting[i] : (t==='buy' ? RN_I18N.buy[i] : RN_I18N.dofirst[i]);
+    document.getElementById('rnList').innerHTML = items.map(x=>
+      '<div class="rn-item"><span class="rn-icon">'+x.icon+'</span><span class="rn-text">'+(i===1?x.he:x.en)+'</span><span class="rn-tag '+x.tag+'">'+tagLabel(x.tag)+'</span></div>'
+    ).join('');
+    document.getElementById('rnStats').innerHTML =
+      '<span><b>'+d.length+'</b> '+RN_I18N.stats[i]+'</span>'+
+      '<span><b>'+counts.received+'</b> '+RN_I18N.received[i]+'</span>'+
+      '<span><b>'+counts.ordered+'</b> '+RN_I18N.ordered[i]+'</span>'+
+      '<span><b>'+counts.notbought+'</b> '+RN_I18N.notbought[i]+'</span>'+
+      '<span><b>'+counts.flagged+'</b> '+RN_I18N.flagged[i]+'</span>';
+  }
+  fetch('agent-kit/inventory-data.json').then(r=>r.json()).then(d=>{ RN_DATA=d; renderRightNow(); })
+    .catch(()=>{ document.getElementById('rnList').innerHTML='<div class="rn-item"><span class="rn-icon">📦</span><span class="rn-text">See the <a href="inventory.html">Inventory Command Center</a> for live status.</span></div>'; });
+  // re-render Right Now on language switch
+  const _origApplyLang = applyLang;
+  applyLang = function(lang){ _origApplyLang(lang); renderRightNow(); };
+</script>
+
+<script src="assets/turtle-cursor.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,251 @@
+# Building a Country on the Internet - Sondre Rasch (founder, Safety Wing)
+
+Date: 2026-06-08
+Source video: Building a Country on the Internet - Sondre Rasch (founder, Safety Wing).mp4
+Drive: https://drive.google.com/file/d/1kGh4mPXBsA-DFXxaJJL18zAruAu6MCMV/view
+Duration: 00:48:20
+Transcribed: 2026-06-11 · whisper large-v3-turbo · language: en
+
+---
+
+[00:00] Hello, everybody. If you can hear me clap once. If you can hear me clap twice. I think that was just a two clap. Wow. We're getting better and better. It is my pleasure to welcome our next speaker up on stage. Sandre has been an advisor to the Norwegian Parliament on social policy and welfare policy, which I find a very interesting tidbit of information that I just learned, and it makes so much sense given what he'll be talking to us about today.
+
+[00:29] He is also the founder of Safety Wing, an amazing company that I've been a customer of for many years, and it's truly a pleasure to have him here. So please welcome Sandre up to the stage. Yes. Well, hello, everyone. I come from Norway. That's a country that's far north. It's a little bit outside of the rest of the world, sort of the shire geographically, also perhaps emotionally.
+
+[01:03] But let me tell you about the same thing, actually, that every Norwegian seven-year-old is learning in school today, and that is the race for the South Pole. So in this story, we're going back to 1911. Two expeditions set out that year, one British and one Norwegian.
+
+[01:24] So the British team was led by Robert Scott, and they took a methodical approach to getting to the South Pole. They had a super well-funded team, and they aimed to sort of manage risk at each stage with a mobile base. Well, you know, it's coming more. Hang in there. More hecklers because, you know, we need it. Crowd work.
+
+[01:53] Okay. So the Norwegian team, that was read by Roel Amundsen, they had a different strategy. They kind of maniacally optimized for speed. So their goal was singular. They understood that every extra day in the field would increase the chance of failure.
+
+[02:18] So here's a picture of them. And, you know, TLDR, Roel Amundsen's team, did reach the South Pole first. And it was the only team that made it back alive. And when you read the story, it's clear that the difference definitely didn't come from skill or preparation, but from philosophy.
+
+[02:40] It came from, it's because in that environment, being on the South Pole, moving slower isn't safer. It's more dangerous. And I think that this lesson is also relevant for startups or whatever projects you're working on. Speed reduces risk. Getting to your destination faster increases your chances of success when you're in a deadly environment, as an early stage startup is.
+
+[03:09] Yeah, so as mentioned, my name is Sondray Raj, co-founder and CEO of Safe2Wing. We launched out of YC in 2018 to build a global social safety net and a country on the internet. Today serving hundreds of thousands of members around the world.
+
+[03:27] By the way, if you were inspired by this gentleman and you have any questions or thoughts along the way, please raise your hand and try to make this a conversation along the way. So back to the story. So the South Pole was a frontier and I actually remember when the internet was a frontier.
+
+[03:48] So in the 90s, in the 1990s, I was 10 years old. I was 11 years old. And that was the decade where the world peaked, at least according to Agent Smith and The Matrix. And I was growing up in Bergen in Western Norway, and I was living two parallel lives at the time.
+
+[04:11] So in one life, I'm a completely regular teenager. I lived in the suburbs, I played football, and I did what everyone else did. But at night, I lived my second life on the internet. So like AI is today, the internet was a playground frontier back then.
+
+[04:30] And almost everywhere you looked, there was something absolutely obvious that nobody had built yet. So, you know, I set up a Linux operating system server in my room. I started web hosting projects with people I met online. We also used IRC as a command center with scripts and bots and automations, systems talking with each other.
+
+[04:53] Very similar to how internet companies work today, by the way. Yeah, a little shout out to IRC back there. Thank you. So the internet was where I found people who were just trying things without anyone asking for permission. And what was clear to me, even then, was that these were two different types of systems.
+
+[05:14] So I had my like real life, where essentially conformity was rewarded. And then I had the internet world, where exploration and building was rewarded. And because these were so different social realities, I just kept them separate. In 2016, I moved to San Francisco. By the way, highly recommend. I know Timur just did.
+
+[05:36] And when I moved here, this was to me when these two worlds finally merged into one. Especially the people I met at Y Combinator were exactly the kinds of people I'd spent years interacting with online. And it's very much also the kind of people you might meet here on Esmeralda.
+
+[05:57] And it's people who are drawn to what is new and unfinished and who's willing to start before everything is fully defined. It's people who are drawn to the frontier as well, wherever it appears. Software, biology, space travel, etc. Okay. So, yeah. Coming here, I essentially no longer have to switch between the online and the offline world.
+
+[06:22] Now, I'm telling this story because I would claim that the whole world is living through this exact tension that I had between the two worlds. Between the online world and the offline world, which is today seemingly two separate, you know, mysteriously interacting universes.
+
+[06:40] You know, you see these debates online, you know, is Twitter actually real life, you know? You can argue yes or no. Fifty years ago, people were consuming information that was produced within their own country, in their own language, almost uniformly.
+
+[06:59] But today, cultural formation, innovation, it happens primarily online. Digital products, they exist legally somewhere, but you rarely know where it's made, and it really doesn't matter. So, I personally learned this in two ways. So, the first was, as Timur mentioned, I was a policy advisor for the Norwegian government.
+
+[07:28] And there's much I should say to appreciate that I appreciate about the Norwegian social safety net. It's universal, and it's really simple to understand, for one. But I also learned that government, like a big company, is just a big organization that is designed for stability.
+
+[07:44] So, when the environment changes really quickly, it becomes obsolete, which is our current situation. And the second was, as an individual. So, when I left that world, I left Oslo to become a digital nomad and start a startup. And I immediately lose all the sort of welfare protections that I had back in Norway.
+
+[08:08] And the startup I was working on was very much in the internet economy. It's a freelancing platform called Superside, now with almost a thousand employees. Actually, it was very funny, I just met someone here today who was there in the very first weeks.
+
+[08:26] So, the stories are coming together. All of the freelancers that were working there were working across borders, and they earned different income in different places. But they did not have access to health insurance, parental leave, income protection, even financial services like mortgages.
+
+[08:45] Broadly, the ability to plan for the future. And because they were essentially contractors for a foreign corporation. And given my background, I realized that the reason it was, is because these symptoms were dependent on the people being tied to their single country.
+
+[09:04] So, the solution, I thought, was basically to make the Norwegian social safety net available, work globally, as a membership on the internet. So, for two years, I tried to get founders I met here in the Bay Area to build this. I would go to conferences like this and kind of walk up to you and be like, you know what you should build?
+
+[09:24] A global social safety net. And Superside would be, you know, your first customer. However, no one wanted to do it. And eventually it became clear, I had to leave Superside and build this myself. And that was the start of safe doing. The problem we faced was clear.
+
+[09:42] It was the digital had made this new digital workforce. But benefits like, you know, health, retirement, it all works across national borders. But the internet workforce does not. And so it's obsolete. And the solution is simply to build a country on the internet.
+
+[10:02] Where all the infrastructure that country provides for the social safety net and citizenship is global and digital. So it's a digital citizenship that each of you can get very soon. I mean, you can get the social safety net, but very soon also the citizenship as a second citizenship that includes a global social safety net.
+
+[10:21] And beyond that, in the future, also a passport and a network of embassies around the world. And so this is our mission. It's to create the first country on the internet to ensure equal opportunity and freedom for everyone. All right, so now a lot of people would ask me, what do you mean a country?
+
+[10:44] Well, what is a country? If you read, sort of summarize the most influential political philosophers through time, you can sort of summarize the definition of a country of an organized system promoting its citizens' safety, freedom and flourishing.
+
+[11:02] And of course there have been disagreements. But that core sentiment is at the heart of what we're trying to achieve. If you look at history, what it means to be a country also depends on the technology available at the time. So for example, writing made it possible to codify laws.
+
+[11:20] Open sea navigation enabled countries to govern across distant lands. And most recently, the internet makes it possible to create internet countries. So I would say we've seen for a long time how the internet makes many institutions in their current form obsolete.
+
+[11:40] So in the 1600s, when city-states evolved into nation-states, so the internet today is redistributing tasks from the national to the global layer. So I'm not saying that this technology automatically makes a country on the internet appear. I'm just saying that this is the equilibrium.
+
+[12:02] This is our current equilibrium. This is what nature wants to happen right now. But in order to make it, we still have to build it. We still need the vision and create the tools to make it possible. So when we talk about a country on the internet, this is what we mean.
+
+[12:22] It's a voluntary, globally accessible membership built on a social contract that enables its citizens to pursue a healthy and fulfilling life. And historically, this is a game-changer in the sort of realm of countries. Because one, citizenship can now for the first time be defined by choice instead of by place of birth.
+
+[12:48] Two, because internet countries can draw legitimacy from the quality of their service instead of relying on monopoly of force. And third, what holds internet countries together then are shared values rather than physical borders. So what does this mean in practice?
+
+[13:08] Well, at full maturity, we believe it provides a social safety net, obviously. Health, retirement, emergency assistance. Second, community and identity. So passports, physical embassies, big gatherings, you know, not that different from this.
+
+[13:32] Third, economic access. I think we have to build something like mortgages, simplified tax filings. These are just big problems that our customers have eventually. The ability to register your company online, another huge gap in the online economy, which, you know, might one day lead to something like Safe Doing's own national stock market.
+
+[13:56] And finally, education development. You know, online schooling, art grants, programs that help people grow and thrive, both as individuals and as families. Okay, so what difference will it make if we succeed? Well, right now, we're living in a world where global systems are fracturing, I think, really intensely.
+
+[14:21] Trust in institutions is fading, you see it across different metrics. And more people than ever are also living between nations. So in a moment like this, a new form of global infrastructure is necessary. I also think Safe Doing has the power to indirectly raise global standards of care and governance a lot by putting pressure on nation states to improve their offering, sort of as an example of a better way,
+
+[14:51] but also some pressure from competition. And thirdly, when it comes to crisis migration, you know, we can provide digital identity, medical protection, even safe zones. We already see this today with Safe Doing users. Yeah. I am, so when we made the first draft for Nomad Citizen, which is our kind of MVP of social safety net, we then put, I started with basic income, and we were kind of trying to iterate for the income protection.
+
+[15:24] Turns out it's very hard to make basic income as a product because it either becomes so low that it's pointless, or too expensive that no one wants to buy it. So what we end up with is a variant called guaranteed income, which we actually have in that product today, that is in a kind of closed betto, which is like you get a guaranteed minimum amount, 4,000 a month for specific reasons.
+
+[15:52] So it's not like everyone get it all the time, it's like everyone get a flat amount, it's halfway there. I should say one thing I'm very skeptical about with basic income as a panacea is working for the Norwegian Social Safety Net and seeing that, especially people on disability, that getting money is a small part of good life.
+
+[16:18] And if you just get money but then you're just locked away in your apartment, you know, you lose social connection, and the meaning that comes from productive work, et cetera. So that's one part I don't like about it, is that it's seen as like the thing that fixes everything.
+
+[16:34] But this problem of people kind of checking out and goes much deeper, I think has to be taken more seriously. Yeah? Sure. So how do you resolve that conflict if your rights or your taxes or your other, you know, rules that you have to abide by
+
+[17:22] is conflicting with the online citizenship that you're proposing? How do you resolve that conflict? Right, right. Unless you live in Moon or Mars. Yeah, yeah, yeah. Yeah. Well, here's an interesting analogy. So in the 1100s in Iceland, there was overlapping legal systems where you had 11 different legal systems.
+
+[17:54] And then if, like, there was like a conflict that went across these different, they're kind of tribes, but they were overlapping, they didn't have, they were all of Iceland. Then essentially they would just meet once a month and negotiate it up.
+
+[18:11] So the lesson from that story is that we can be the intermediator, basically, the negotiator, you know, with the countries, which we are exceptionally well positioned to do. We have, surprisingly given our still kind of early state, a lot of positive relationships with countries because of the success of the nomad visas, which is his own kind of separate story.
+
+[18:37] But we're, and we're also strategically oriented that way. So we're different from a lot of like, let's say more typical net, well, we, we precede network states as a movement, but typical network states are a bit more adversarial towards the kind of, let's say, existing order.
+
+[18:53] Well, we're much more like engaging and like problem solving in that way. So I think that is how it will play out. Yeah. Thanks. Two like related questions. The first one would be, so like the logic, I guess, that's been taken so far is start with the global safety net and then you can layer other services on top of it.
+
+[19:19] How do you attract, like with the, the logic with the safety net is that, you know, some do not need it, some will need it, some are more, some are less, kind of balances out in the end. It's, it's beneficial. How do you attract those people though that are the ones that might not need it in the early days?
+
+[19:38] What is the incentive for them, especially if you're starting with the safety net part first, which then relates into a second question of like, to, to quote Lee Kwan you of Singapore, like the, the welfare state has failed. Okay. Right. What are your like, how does this balance the criticisms of the welfare state?
+
+[19:57] Yeah. Yeah. Okay. So on the first one, you, I think you can, you can do a lot in this, you know, identity community bucket here. So if you're talking to someone who doesn't need it, you know, if you're talking to myself, but before I started safe doing, very risk willing, young founder, not thinking about protecting any downside risk in any way,
+
+[20:28] whatsoever. Like, um, so, uh, I think it's in that sort of identity community bucket, you're gonna get me in that situation. Like I have to believe that this is somehow where people like me are members. Um, so I think that you can do a lot in that bucket for that narrow segments you're thinking about, the sort of very risk willing.
+
+[20:59] Um, of course you can also do, and I know you're thinking about, cool things, uh, like, you know, longevity stuff. Um, you know, if you can do something that is particularly someone like me with them would be uniquely interested in, you know, that might also get me to, to overcome it.
+
+[21:21] Especially I think, you know, like longevity, like, um, you know, cryo, what, something. Like if, if there is something that I can't do because I can afford it, but I can do it if I have this plan. You know, that's, that's a pretty appealing.
+
+[21:34] But now I'm just thinking out loud with you. Um, what was the second question? Oh yeah. Well, yeah. Well pursued. Um, I mean, it's obviously wrong to say that the current consensus is that everything we've done on the social safety net front has been perfectly successful without any downsides.
+
+[22:02] Um, it is a bit difficult, right? It is, it is the, the, the, the, the trade-off between mercy and justice, kind of, um, um, um, you know, in Singapore is a bit more on the justice side, uh, you know, than Norway is. Both functional societies though.
+
+[22:26] So I think you can have a pretty, have pretty alive societies with somewhat acceptable incentives at different points on this continuum. Would you say then like, it would be logical to say that there might be multiple internet countries and you choose one based off of your police?
+
+[22:46] Yeah. I think we're just going to make the first one. But obviously people are going to, when they, when they realize it's possible, we're not going to be the last. All right. So, yeah. So how, another point about how will the world change if we succeed?
+
+[23:05] Well, if you think about, uh, nation states when they appeared in the 1600s, as I mentioned, city states didn't just disappear. But there was this reshuffling of tasks and responsibilities. Um, and in fact, I learned this when I was like tourist in Venice, that the city government of Venice has continuous existence with, uh, the, the, the, the city state of Venice.
+
+[23:30] So it never even like disappeared fully. And, uh, and so in the future, some things that used to be the domain of nation states will move up to the global layer to things like internet countries and other new novel social institutions. Um, and also I think it lowers the cost of coordination for small groups, you know, like this, where individuals find another, organize, raise money, build institutions, create local communities like, like Esmeralda.
+
+[23:59] So that's, that's what's going to happen. It's going to go global. And some of it is going to go more local. Yeah. So I started talking about these guys. So after reading that story, by the way, Safe Dreaming completely changed its product, uh, strategy roadmap.
+
+[24:18] So our thought process before I read this story was, you know, we start with help and then we build like one small step at a time, you know, retirement. Unappointment, passports, et cetera. And then in the end, we kind of tie it all together.
+
+[24:34] Um, but this process kind of stalled. Uh, and the question raised from Royal Amundsen's expedition was, you know, what would it mean to go straight for our own South Pole, the global social safety net? And I hope that's also what I hope you have as a takeaway for this talk is like in your situation, what would it mean to go straight for the South Pole in your project?
+
+[24:57] And I realized, you know, something I've seen repeatedly in my startup career, which is up to a point, hard things are easier than easy things. Because hard things kind of grips you, it helps you recruit, fundraise, they capture attention, they force action.
+
+[25:16] Um, easy things, they're easy, but they're also easy to forget, they're easy to neglect. Uh, you take them for granted, you fail to do even the small things required to make them work. So that is a counterintuitive, uh, but I think it is a true lesson.
+
+[25:34] So we changed our strategy, we started to build Nomad Citizen. And, uh, what before would have been eight different country, uh, products were built, um, was, was built. It's an MVP of a global social safety net. Uh, and, uh, it brings together the key elements.
+
+[25:53] Um, and I think it's the first step towards what in the future will be an actual functioning citizenship. So, to, to end here, you know, a country on the internet would be, I think, it would be one of the greatest paradigm shifts, societal paradigm shifts of our generation.
+
+[26:13] Uh, not that that's why we're doing it. I think success for us is just, you know, millions of people living safer, healthier, happier lives. You know, also building it, you know, my son Noah is playing in the playroom there. My wife, Jonah, over there.
+
+[26:30] You know, if we succeed, I hope tens of millions of people will live safe, optimistic, and free lives in a world that isn't. And it's kind of decaying around us. Thank you. Yeah, I guess the thing I wanted to start with is just thinking about this question of the welfare state and, like, the, the kind of, like, challenges you might run into there.
+
+[27:02] And I'm curious about, like, it feels to me that, that the sort of culture that's instilled within that makes a big difference. And kind of what I mean by that is what, what came to mind is that there's very much, in my view, in our current society, there's, there's like a victim culture that gets fed a whole lot.
+
+[27:20] A lot of the institutions and a lot of the ways different things function is sort of, like, feed a sense of victimhood. And, and that creates some of those problems. So I'm one, I'm thinking that, first of all, like, right off the bat, sort of the target market that you're going after is, is not nearly as susceptible to that, to that mindset.
+
+[27:37] And I'm also wondering about how within the things you're building, like, particularly those, like, community aspects of it in that sense, whether you're really thinking about how to influence the culture in a way that will make it work. Right? Because I think if people learn more about personal responsibility, for example, and if they learn more about sort of the, maybe the cost of victimhood, that's, that's different than just the financial cost.
+
+[27:59] Yeah. Some of those things could really, could really shift the momentum and make it work, work better, I guess. So I'm just curious if you're thinking about that and to what degree you think about the kind of intentional culture of the thing that you're creating.
+
+[28:13] Yes. So we are, we are quite intentional culture, like, Plumia, the way Nomad Citizen is set up is that you have Plumia that has, like, values, and you have to be a member of it to buy the product. That's our first foray into that, but we also, you know, we're tinkering with how exclusive to make it, but, you know, tinker with, like, interviews.
+
+[28:37] You certainly have to sign up to certain values to become a member. That's, that's not our kind of regular products. This is like more, more experimental kind of cutting edge MVP of the full playing product. That's something we're figuring out.
+
+[28:52] So that, that's part of the answer is just like, it's literally required, like it's literally filtered upon in the way it would be with employees. Uh, of course that has some costs and that's exactly what we're thinking, right? Because we also want to grow, right?
+
+[29:10] And putting a, but, but, uh, okay. So, so that's one way. Um, we do actually care a lot and we, thankfully this is my second, uh, company, second startup that built to some scale. And I kind of learned the hard way, like with my last company, I thought values was kind of corporate BS.
+
+[29:32] And it's, it's, and then I learned, oh, it's really not because, you know, when, when you don't set the values, then you're like, I experienced at least your culture can go sideways very quickly. And sort of out of your control because you don't have something like, no, it's this.
+
+[29:50] This is the, the culture we're trying to, to get. So you can get captured essentially. And so with the second company, I was highly, highly aware and like spend so much time reading between companies about this thing. Like what are these timeless truths that, you know, make that, that, that, that we need to have as, as the values of the company.
+
+[30:12] And, and in a weird way, a lot of safe doing has become this values like project. Actually it says here. Right. So, um, where, um, optimal, and that doesn't say, but, oh yeah, no, it says here. Yeah. Antidote to pessimism. So like some of the values that the problems that I see like in our time are things where we basically try to be a counter force to that.
+
+[30:49] Not maybe the sort of victim thinking directly, but indirectly in some different ways. Right. For example, we put a great emphasis on authenticity and optimism. Uh, two things that I found incredibly disturbing about, especially modern corporate world.
+
+[31:04] Um, and, uh, and so I think, uh, I'm meandering here, but I agree with your underlying point. Um, and I think just accepting that we're making a community and not just a collection of customers and having values and actually trying to, to instill them and that we care greatly about it and we've learned our lesson the hard way.
+
+[31:31] Um, and that safe doing itself has an incredibly powerful culture actually. Uh, and I would love to see that kind of extended to, to all our members as well. Yeah. Sorry. Um, something I've been really interested in is how the history of civil society and how, you know, 150 years ago, 200 years ago, um, even took all wrote about this of how in the U S there were all of these amazing organizations that people would come together.
+
+[32:05] You know, proto unions and in collaborative insurance pools and all of that and how that kind of civil society, uh, you know, the importance of that has been eroded by the state and the market from both sides. And now it's really a tiny part of our lives.
+
+[32:22] I don't think we really care. I don't think we feel part of some kind of civil societal thing and that's maybe people come to edge and things like this. And so this to me feels like a really cool example of this coming back. Like, wow, we can all band together and we can have these, you know, uh, uh, like worst case scenario insurance and things like that.
+
+[32:45] And all these other health benefit, whatever. Um, one of the things I've been thinking about is you, you spoke about this a little bit, but I wonder if the play, if you've thought about this from a business model perspective, do you want to be the one, the, like the one product?
+
+[33:02] Or do you want to be the platform on top of which communities could come and say, okay, we have 10,000 edge city people around the world. We don't want to roll our own insurance pool. You know, we'll kind of use your API, your platform, whatever.
+
+[33:17] And I'm curious if you've thought about that. Um, cause you could imagine thousands of these things now, right? Where people all over the world suddenly band together and provide this for themselves. Yes. Yeah. And, and, and, but just the first to comment on the meta point there.
+
+[33:31] I absolutely agree. And I love that. This is one thing I love about our current age is that we're kind of returning to some of the structure that was in the medieval times where a lot of this, like, uh, what is it called? Like, uh, uh, uh, the opposite of disenchantment, like the re-enchantment of the world, kind of like revenge of the soul.
+
+[33:53] Like, you know, and, uh, and that comes because exactly, like you said, in 20th century, you've got these like massive systems, you know, very sort of market driven, state driven, you know, everyone's a, you know, tiny cog in the machine. And, and now we're finally coming out of that.
+
+[34:10] And then, so I'm also thrilled about that part about our current time. Yeah, we absolutely think we can be, you know, a small piece, essentially the infrastructure. We're not trying to build everything. Uh, uh, we're just, I even think internet country that this, this space here, I, I actually do.
+
+[34:34] Apologies right here. Like this is like a whole yield. Like it's like, uh, you can start probably a lot of very big startups here. I mean, countries is the biggest monopoly in the world. Like this is a large share of GDP we're talking about, you know?
+
+[34:50] So it's, this is, uh, this is not just one, one company. However, I should say so far our experience is often like we just added a loan for a long time. And, uh, so a lot of these things we're saying like, okay, if no one has built that in, you know, five years, we're going to have to.
+
+[35:08] And very often, uh, in some cases, those five years did go by and no one had built it. Um, so, so yeah. Uh, but I mean, Edge City is, uh, an example of a very harmonious, and then we're immediately on it. Like we're like thrilled, like let's go.
+
+[35:25] Right. And, uh, especially a lot of the other, I should say network state projects. I'm not saying that Edge City is a network state project, but, um, but, but are focused on the physical. And obviously we're focused on the digital, kind of like the boring infrastructure stuff.
+
+[35:43] That's what we're trying to do. That will enable a thousand other startups to be built. I find this extremely fascinating. And I, I've, I've heard your story for a while now. And so it's been something that's been like kind of going around in my head.
+
+[36:02] But I, I have some, I would love some clarification from your vision on, you know, where does the company end and the country start? And like, in what ways do you envision the citizens of your country to participate in the building of, or, you know, I, I come from a relatively democratic country.
+
+[36:23] And so, uh, like, are you planning to utilize the citizens for the build and how will they contribute? So, uh, a few different thoughts, uh, so one highly active debate inside the company. Uh, and, uh, it is, uh, it is very important to get right.
+
+[36:48] Uh, you know certainly our intention over time is, is that, and we set it up structurally to be ready for, let's say, more. if you stay in this sort of language like user participation but you know that will have a different citizenship angle however I also think it's quite important to time it correctly and this comes from having seen a lot of crypto oriented projects really burn themselves out by trying to
+
+[37:20] answer this question first like we first got to figure out how we're gonna rule this pie if we're gonna make anything and then they just make nothing and then it was like all that arguing for nothing right so so I was highly sensitive in the beginning to watching in particular a couple of crypto project that were around when we started that where it was just a big argument on this question before they had made anything useful and so so we we wanted to flip that another reason is
+
+[37:52] also like when you're trying to make something ideal I think it's also important to kind of like hold back the conclusion a little bit until you get a bit closer there's something a bit too dangerous about defining especially on such a hard question very early because well you might you kind of might be like very wrong so instead you know we we we hope to make we want we have very I was a
+
+[38:25] quite idealistic culture and outlook but we we haven't kind of pre-committed to the specifics yet but we're highly alerted and we renegotiating it internally all the time and we have some of the systematic to set up in this form of like plumia being the nonprofit where you have members where there is formal participation in the charter and safety in the company which is just like a kind of service provider to the so so structurally it's ready but how the the the co-creation will work in practice will will have to be TBD
+
+[39:01] um so would you be like offering like the safety wing service to other like is your goal to kind of be like create your own digital country or what let's say like someone else has like okay we have a community and a country that we're trying to like do like we want to like you know you guys have built up clearly a lot of infrastructure around you know obviously insurance but I'm sure you guys are
+
+[39:35] working on more and more of this would you be like down to like do that as a service or are you kind of more focused on like creating a singular country out of this right so I mean we have this we can we have a sort of middle stage that where we will basically we'll have to build some protocols we have to make some protocols in this um you know one obvious one that we're planning ourselves forced to has to do with the health provisioning and that kind of interplay just doesn't work well online
+
+[40:07] globally but but also on citizenship like having a personal number having a company number having that identification be accurate and not just like kind of easy to hack like a sort of uh which I think that problem prevents a lot of things from being built so some things will have to be protocols uh but um whether like our kind of core social safety net uh available to to let's say non uh non-citizen
+
+[40:42] um yeah right yeah um um i'm not i'm not i'm not sure where to draw the that line like kind of live um um um so yeah i i'm not able to i don't know sorry yeah um countries give you rights but also
+
+[41:16] responsibilities like taxation they can put you in prison if you don't follow the rules they can conscript you how does being a member of this country i guess taxation is your fees that you pay monthly to some degree but what about the other obligations like do people get excommunicated or punished if they violate the rules of the country or how do you think about all of these that the liability side of uh citizenship yeah yeah uh yeah i mean to say a spicy take here i do think this sort of banishment is
+
+[41:49] really underrated in modern society but certainly for a values-based internet country that is uh you know absolutely necessary so um um um but but on the positive side you know the one is obviously there will be things you can't do to remain a member um but uh what about positive things we kind of hope we encourage i do think that is really important as well like i do think that a big part of making
+
+[42:19] this successful is that people really really want to get let's say nomad like saved-wing citizens to come to the shores they want to like because they're so great right they bring they're very sort of pro social they bring you know whatever uh art culture innovation you know so and they're positive to interact i do think all these things actually is like it's very smart strategically for us to kind of be amazing um so but yeah i mean that's so i do think it is important but i can't tell you how
+
+[42:57] we're going to do that yet because we're we're still early what's the oh the other way yeah what's the biggest problem that needs to be solved right now like kind of the biggest challenge you see uh as a roadblock and what's your way to right now to solve it you know actually kind of touched upon it i would say you know like we have we're in a very interesting product iteration period with
+
+[43:37] this nomad citizen product so just getting the dials right on that product so that that just like fully works um because you know it's kind of like we we have this grand end state but we have to kind of back backfill the business model we have to kind of it has to work every step of the way pragmatically so right now that is like one of our top three goals this year is just kind of like getting to product market fit a nomad citizen and i think that is if i were to say like a long-term unlock that is
+
+[44:09] probably both very hard and um very strategically meaningful there are other things i could mention like we have but yeah that's i think i would say that what do you think is the most misunderstood concept from the public narrative towards digital nomads or digital nomadism right well so i mean
+
+[44:41] two things there so many people kind of assume that we are you know incredibly committed to and own that the kind of the digital nomad name per se um for us you know recall the genesis of the company is you start the freelancer platform discover there's no global social safety net see that in norway we want to build it right that's that's the genesis i personally was a digital nomad i think i think it's fantastic that it's possible today to to kind of have work creatively to to build something to even
+
+[45:16] have a fulfilling career while still going on your life's adventure i think that's great i think it's one of the great things for kind of young people or like kind of young adults um or even you know young families but uh but but okay but then but the most common just to answer plainly your question it's just that they think they're backpackers i mean that's that's most common but but they're not they're just look they're just people who are like location independent because they have online income or that's
+
+[45:50] that's who live abroad was there one more here do we want to final final okay one of the the items that's on your prior slide talks about um education and that skill certification i think is really interesting the portable credential of i have this skill is something that we don't have today nope um where
+
+[46:20] are you thinking about that you know this is one of those this is one of those where if no one has built it in five years maybe we'll be forced to kind of look at the problem but we really don't want to in the sense that if you're interested in this you know we would love to kind of bring it to our members um it is absolutely a problem skill certification is mostly national it doesn't transfer and of course
+
+[46:50] there are there are brands that are so big that they go global but broadly it does it doesn't transfer and it doesn't work there have been some half-hearted attempts but i don't like any of them um what you want is to be able to create a very sort of strong signal with low effort it's it's a very hard fundamental problem um but that certification is very different from education but but uh so so that's how we it's in that bucket of if no one has done it in five to seven years we're going to do it
+
+[47:22] but if someone else wants to do it like please please uh please do it i think it's a it's a big problem an enormous opportunity awesome well just to just to put a final point on it i think this is such a cool example of how um kind of seeing something early that over the next decade or so i think will become inevitable and it's amazing to have it kind of presented here in such clarity and it also touches on so many of the things that we're going through this month from you know potentially
+
+[47:54] eventually new built environment physical spaces uh future of education and week four obviously the way that ai and agents and everything will affect all of this so um yeah it's really a pleasure to have you here sunday and thank you so much thank you

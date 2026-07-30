@@ -1,0 +1,351 @@
+# Keynote Fireside_ AI x Philanthropy with Tom Kalil
+
+Date: 2026-07-18
+Source video: Keynote Fireside_ AI x Philanthropy with Tom Kalil.mp4
+Drive: https://drive.google.com/file/d/17B3cY4WhBPG1whELu49TKvEA4xuxvYvS/view
+Duration: 01:07:45
+Transcribed: 2026-06-19 · whisper large-v3-turbo · language: en
+
+---
+
+[00:07] All right folks, we're going to get started. If you can grab a seat. All right, I'm going to do the clapping thing. If you can hear me, clap once. If you can hear me, clap twice. If you can hear me,
+
+[02:04] clap three times. All right, welcome everybody. If you're still standing, feel free to come grab a seat. There's some seats near the front here. If you're at the back, I'm going to ask you to bring conversations to a close or feel free to step out for a moment. Amazing. And we have Telamon at the back who's just going to politely bring us to attention. Wonderful. All right, everyone. I am extremely excited for this conversation. I just want to check with Shaka.
+
+[02:39] Are we good to go? Perfect. Great. So as you all know, we at Edge City talk a lot about creating environments where we can imagine brighter futures and then actually gather to start building them. And it is really a privilege to have Tom Khalil with us here, who has been described by some as one of the most impactful policy entrepreneurs in tech and science of our generation. So please give a round of applause and welcome Tom. My father would have been proud
+
+[03:11] and my mother would have believed it. Tom, I'll give you a quick introduction for folks who are not familiar. So Tom has worked in the White House for two presidents under Clinton and Obama. He spearheaded dozens of initiatives in the White House in technology and science. And he is responsible for getting the federal government to start using prizes to solve hard problems. He went on to run innovation at Schmidt Futures, where he created an entirely new type of scientific institution, which we'll talk
+
+[03:45] about. And two years ago, he founded and is now the CEO of Renaissance Philanthropy, who have already mobilized half a billion dollars worth of funding for ambitious science. So we are extremely privileged to have you here, Tom. Thank you. I would love to start with a statistic that actually I believe you shared at the beginning of a blog post that you wrote recently. And it really it was it was astounding to me. You said that there are more than three thousand four hundred billionaires in the
+
+[04:17] world with a collective wealth of twenty trillion dollars. Yet if we look at the US alone, those folks are spending one point two percent of their wealth on philanthropy, despite the fact that many of them have actually committed to giving pledges and giving over half of their wealth towards ambitious causes. So it seems like the intention is there, the capital is there, and there are amazing founders and builders who are ready to put in the work. So what is the gap?
+
+[04:44] And there's no shortage of problems either. Exactly. Right. So I think there's a couple of issues. What I think one is that many people have made their wealth when they're still professionally active. So if they're working full time and they're trying to raise a family, the amount of time that they have to devote to what should they do philanthropically. So that I think that's one thing.
+
+[05:07] And I think a second thing is that many of them have no interest in having to oversee a large team that is devoted to helping them identify projects that are aligned with their philanthropic goals. And one of the things that we know from behavioral science is that if you want someone to do something, you should make it as easy as possible. And that's what renaissance philanthropy is trying to do. So let's talk about some of the the bottlenecks here. Maybe let's start with a solution. You talked in that piece about the power of effective agenda setting. And that
+
+[05:41] surprised me because it didn't seem like the the initial thing I would kind of jump at as a as a potential solution. But I'd love for you to talk about why is that so important? Yeah, so one of the things that I've learned over the years is that if you've met one philanthropist, you've met one philanthropist. So in the world of investing, you have risk adjusted return as a common way of evaluating ideas. But as soon as you move towards the world of philanthropy, there's a lot more diversity in terms of what it is that philanthropists care about. Having said that, if I'm pitching a
+
+[06:17] project to a philanthropist, there's generally four arguments that I'm trying to make. So one is to identify a goal that upon hearing it, the philanthropist should say, wow, I would view that as an important part of my legacy if I were able to contribute to that goal. So ideally, it should be self evidently important. And I think particularly if those people have made their money in business, the other thing they want to know is, how would I know if this team has been successful? So having some sort of
+
+[06:48] quantitative metric relative to the status quo is important. The second is, is there a why now? Has something changed about the world? That means what was previously impossible is now within reach. So I was talking to a philanthropist who cares about ALS. And I told her, there are some variants of ALS that are caused by a single gene, and we know what that gene is. We now have CRISPR so that we can selectively edit that gene. Because of the pandemic, we invested heavily in nanolipids so that we can deliver that
+
+[07:19] CRISPR-based therapy. And some researchers, because they're MD, PhDs, see patients, and those patients say, hey, doc, if I pass, I'm happy to have my body used for science. And so these researchers are able to start the drug discovery process in humans as opposed to in mice. So the combination of the ambitious goal and the why now can sometimes create the basis for a positive self-fulfilling prophecy by serving as a
+
+[07:49] magnet for people and resources. So those are the first two. The third is, if this is such a great idea, then why doesn't venture capital fund it? So explaining what are things that are really important, but that a VC would not write a check for. So a team that both Vitalik and I are excited about is an Indian biotech company called Popvax. They are working on vaccines for three diseases, TB, Strep A, and Hep C, that are responsible for two million deaths a year. But if you went to a VC,
+
+[08:25] they would pass because these are diseases that affect poor people. So there are lots of projects like that that are incredibly impactful. But if you took them to a private investor, they would not be excited about supporting. And then the fourth argument that I'm trying to make is how could I allow that philanthropist to give with confidence? So we have philanthropists that we work with who are excited about the intersection of AI and fundamental math. One of our advisors is Terry Tao,
+
+[08:55] who's a UCLA professor, a fields medalist, has made seminal contributions across multiple fields in math. The press calls him the Mozart of math. And he was getting 760 on his math SAT by the time he was 12. So his participation increases the confidence of philanthropists that we will be good stewards of their funds in this particular area. So the ambitious, compelling goal, the why now, what has changed about
+
+[09:32] the world that makes the previously impossible now within reach, the why is this an important role for philanthropy, broadly defined, and how can I allow that philanthropist to give with confidence are four arguments or points that I'm trying to make. And the reason that the payoff for agenda setting has increased is that there are simply more individuals and organizations that are in a position to support these projects. So traditionally, if we were talking about science,
+
+[10:04] science, and we said, well, this, you know, here's an exciting idea, but we don't think that NIH and NSF are going to support this, then that's sort of the end of the story. Now, there are just many more options for people who are in a position to potentially support these projects.
+
+[10:22] Yeah, that's, that's a really good overview. I really love this idea of a positive self-fulfilling prophecy. What I take that to mean is creating a agenda, setting an ambitious goal, and by virtue of putting it out there and communicating it, it becomes true because it kind of warps reality around it, people start to pay attention, they start to believe it's possible. I'm curious if maybe just to, to land that, you could give some examples from the past.
+
+[10:51] Yeah, so I, I think that if you just said, uh, gee, wouldn't it be nice if we could cure cancer? Uh, I don't think that's like very terribly compelling. Um, but if you can say, um, uh, recently I was able to get, uh, funding for a project, uh, that is also being supported by Estera called the Deliverome.
+
+[11:17] Uh, and what this project is doing is, uh, if you want to develop a targeted cancer therapy as opposed to chemo that sort of indiscriminately kills both healthy cells and, and, and tumor cells, what you need to be able to do is to, uh, uh, take a, either, uh, like a CAR T or an antibody drug conjugate or a radial ligand therapy and it needs to, you need to give it an address.
+
+[11:46] You need to say, where is the therapy going? And what that therapy is going, uh, to is called a cell surface receptor. So these are proteins are that on the outside of a cell and industry has only targeted 0.5% of these cell surface receptors.
+
+[12:02] So two early career researchers said someone should create an atlas of all of them and generate that information and put it in the public domain. And that would lift all boats because then every researcher in industry and academia would have many more potential targets for, uh, targeted cancer therapies and, and other therapies as well.
+
+[12:27] So it's not just like setting the goal. It is identifying a path to achieving that goal in the same way that sometimes when a really world class political organizer says a million people should march on Washington, sometimes that actually happens if that organizer has a plan for getting a million people to go, to go to Washington.
+
+[12:48] Um, the, the thought that comes to mind is Kennedy in the early sixties saying, you know, we will go to the moon in this decade. And that's seeming like a massive unachievable thing, but by planting the flag, you know, proverbial and, um, rallying the resources of an entire nation around it actually made it happen, which is kind of a beautiful, uh, thing that humans can do together.
+
+[13:11] Um, that's right. Yeah. Um, your blog post was titled, um, philanthropy 2.0. And one of the things that you explored is how in the world of, uh, private sector of investing, there are many different types of vehicles, structures, frameworks, et cetera. There are venture funds, PE, hedge funds, prop capital, et cetera.
+
+[13:34] Um, you know, thousands of others. Um, you talk about how philanthropy can also become more flexible and maybe even has a kind of flexibility as a superpower. And I wondered if you could unpack that a bit. Yeah. So, um, one of the challenges of government is that it can prematurely standardize on a relatively small number of ways in which it tries to solve problems.
+
+[14:00] Um, and so if you look at the dominant way in which we fund research, uh, we use peer review committees to allocate small grants to professors at research universities for the purposes of supporting their graduate students and postdocs in areas where they already have preliminary data.
+
+[14:21] And so that is the sort of dominant way in which some of our large science agencies fund research. And I don't want to argue that we should stop doing that. But what I do want to argue is that there's this much larger space of possibilities.
+
+[14:37] And in 2019, when I was working for Eric Schmidt, I got an email from a graduate student, um, uh, and he sent me a chapter of his PhD thesis. And, uh, that, that chapter said there's an important class of scientific and technical problems that is not a good fit for venture because it's too early or you're trying to produce what economists call a public good.
+
+[15:06] But it would also be extraordinarily difficult to do in academia. Um, and, uh, this graduate student, uh, his, his name was Sam Rodriguez. And one of his colleagues, uh, Adam Marblestone, who was at DeepMind at the time, told me, I think this idea is so important so that I am willing to leave DeepMind and devote the next chapter of my career to making it happen.
+
+[15:29] So, uh, I was able to get him a fellowship. He and I interviewed a hundred scientists and we said, if this imaginary funding mechanism existed, uh, is there a bottleneck to scientific and technical progress that this funding mechanism could address?
+
+[15:47] And, and the idea was to create nonprofit startups for science. So they have the unity of purpose of a well-run deep tech startup, but because they're philanthropically funded, uh, have the ability to do things that a venture capitalist would, would not be interested in supporting.
+
+[16:03] So imagine that you went to a VC and said, give me $50 million. I'm going to use that to create a high quality data set. And then I'm going to put the data in the public domain. Uh, that would be a very short meeting because the VC would say, how am I going to get my money back if you're giving away the intellectual property?
+
+[16:20] So, um, we came up with a list of ideas. We briefed Eric Schmidt, uh, and Eric said, pick two. Uh, and so what was exciting about that was the ability to just come up with a new funding mechanism. Uh, and now we've gone from two to 12. Uh, the UK government is actively funding these.
+
+[16:51] These are supporting really important activities like lowering the cost of single cell proteomics by a factor of a hundred. Uh, lowering the cost of mapping the brain, uh, by a factor of a hundred. Um, a project called lean, uh, which is, uh, become the basis for, uh, the formalization of math.
+
+[17:11] And it is, is now being used in, in other fields like, uh, verifiable software. And I think more importantly than the success of any one of the individual focused research organizations is that the existence of the model itself is increasing the level of ambition of the research community.
+
+[17:31] And the reason is prior to this, prior to, uh, Adam and Anastasia working on this, no researcher was asking themselves the question, what would I do as the CEO of a $50 million research nonprofit? Because that seemed like a very unlikely outcome.
+
+[17:48] And now I will be at conferences where I am not speaking. And someone will say, you know what? We really need a focused research organization in this area. So there's sort of the, there's all these exciting opportunities at the intersection of institutional innovation and scientific and technological innovation.
+
+[18:05] Yeah. This concept of froze, I think has really expanded the adjacent possible for many people of realizing, wait, this is something that I can actually have the ambition and the agency to do. Um, this concept of agency shows up a lot in your writing and in your work.
+
+[18:22] I'm curious if you could touch on that kind of expanding agency and the contagion therein. Yeah. So, um, I was very fortunate in that, uh, I got the opportunity to work for two presidents. Um, and one of the perks of my job was that I could send a decision memo to the president and have them check the box that said, yes.
+
+[18:45] Um, so the following sequence of events would occur. Someone would give me a really interesting idea like, Tom, what if we did for neuroscience what the genome project did for genetics? And then I would then vet that idea. And then assuming that I thought it was worth the president knowing about and getting behind, I would send the president a decision memo.
+
+[19:08] And if he liked it, he would talk about it in the state of the union. And then within a relatively short period of time, there would be a hotel full of people working on this. Now imagine that that happens like dozens of times over the course of your career.
+
+[19:21] There is a particular sense of agency that you develop, which is that there are more things in the world that are potentially changeable because of the result of human action or inaction. As opposed to the speed of light and the second law of thermodynamics.
+
+[19:37] So what I'm always interested in doing is talking to someone, um, who has at least the kernel of an idea in response to one of two questions. One is, what are we currently doing that we should stop doing? And the second is, what are we not doing that we should be doing?
+
+[19:55] And the way in which I try to communicate that this is the way I would try to communicate to someone else, this feeling that I had, which is a lot of times people would come visit me. Uh, and they'd say, uh, Tom, you're never going to believe it.
+
+[20:11] But it turns out that the thing that I work on is super important. Uh, and I would say, gosh, I've never heard that before. What, what is it that you want the White House to do? And a shockingly high percentage of the time people did not have a good answer to that question.
+
+[20:24] So the thought experiment that I gave them was, you have a meeting in the Oval Office with President Obama. Um, and he says, if you give me a good idea for whatever you are knowledgeable and passionate about, I will call anyone on the planet.
+
+[20:40] It can be a conference call. So there can be more than one person on the line. If that person works for me, I can direct them to do something. If it's someone outside the government, I can challenge them to do something. Uh, so you have to tell me number one, who would I call?
+
+[20:56] And number two, what would I ask them to do? And the premise of the thought experiment is that many problems require building coalitions. Uh, it's not the type of, there are some problems where, you know, you just have to sit at your desk and like do work and you will solve that problem.
+
+[21:13] But some problems require building coalitions. And it is very difficult to do that if you cannot articulate the members of the coalition and the mutually of the coalition. And the mutually reinforcing steps that you want them to take. So the way that I try to communicate, try to create a sense of shared agency is when I am talking to someone, it will become clear to me that there's something that they view as fixed.
+
+[21:36] And I view as at least potentially changeable. So that's the way that I, I try to serve as a force multiplier for an individual or organization or community that I think has a really interesting idea. That is so cool. I, something we think about a lot at edge is how we can create environments for kind of raising ambition and raising a feeling of agency.
+
+[21:58] And sometimes it can, I've, I've heard a couple of stories of people who come to just something as simple as the community demo day. We run that every week. They see people demo what they've been working on and they realize, wait, this actually applies to the problem that I'm working on.
+
+[22:11] Or, you know, there's a transitive property of agency where actually maybe I could be the one to, you know, do this thing much faster than I originally thought. No, absolutely. And it's not the power, it's not just the power of positive thinking.
+
+[22:24] It's how would you, if you are trying to cause this effect in the world, what is the sort of concrete sequence of events that you would engage in to increase the chances that that happens? Right. So that's what I'm trying to help. So if someone has an idea and they're like, you know, how do I move this forward?
+
+[22:46] I try to give them at least one concrete suggestion for being able to make progress on that. And some of these ideas are very basic, but people don't do them. So one of the members of our team was able to have a big impact on biosecurity by recruiting someone to work for someone else.
+
+[23:09] And most people don't spend a lot of time on that, right? Most people are focused on who should I recruit who's going to work for me? And at Renaissance Philanthropy, we're indifferent as to where someone works as long as they can wind up having a big impact on an important issue.
+
+[23:25] Can you talk about the idea of influence without authority? Sure. I think that, again, most people are focused on those things that are directly in their control. And there are a lot of instances where there's an opportunity to have an impact, but you are not in charge.
+
+[23:53] And one way to think, one way to have a greater influence of that authority is to staff the world. So what do I mean by that? So let's say, for example, that you were trying to influence what the Congress does. So if you are talking to a Hill staffer about a policy idea and that conversation is going well, at some point they will say, do you have any legislative text for me?
+
+[24:28] And what they're asking you to do in that moment, what they're asking is, will you do my homework for me? And so one of the ways in which you can have a lot of influence is to understand what everyone's homework is such that you are able to do that.
+
+[24:45] It's like, you know, if someone asks you, if someone says, I would like you to send me a letter of recommendation and I have prepared a draft for you, you're more likely to send it than, you know, if they haven't done that. So that's an example of one of the ways in which you can have influence without authority.
+
+[25:06] Another is you leverage the convening power of someone else. So you might not be in a position to build one of these coalitions, but you can say, is there someone who shares the goal that I have that is in a position to bring together government and industry and investors and civil society, whatever the sort of coalition of the willing and able that is required in order to make progress.
+
+[25:33] So those are a couple of examples of ways in which you can have influence without authority. Another example, I wonder if you'd agree with this, is maybe sharing information that you have access to that others don't. So I remember you gave an example of the early 90s.
+
+[25:49] You had just kind of understood what was coming with the Internet and realized that no one in Congress actually was fully grokking it yet because they hadn't used, you know, mosaic or whatever it was at the time. And that feels like another example of that.
+
+[26:04] And I'm curious if one, just to hear you comment on that. And two, if there are other aspects of this kind of information arbitrage that you're feeling now. Yeah. So when I worked for President Clinton, starting in 1993, I was one of a handful of staffers who was both working at the White House, but also interacting with DARPA.
+
+[26:28] And one day when I was there, a undergraduate student whose name was Marc Andreessen had just released Mosaic, the first graphical web browser. And DARPA believed in allowing the research community to live in the future. So they had created a network of 2.4 gigabits per second.
+
+[26:54] So I could see that what this was going to allow was everyone was going to be able to have their own newspaper radio station, TV station, that a new application could occur at the periphery of the network, but immediately spread across the entire network. That this was going to enable many-to-many communication, not just the one-to-many communication of traditional broadcast.
+
+[27:25] And so that was very powerful because then I could say, all right, to my colleagues at DARPA, I need you to get a high-speed connection to the internet in the White House so we can start demoing this to the other people so they have some sense for what is coming. When I worked for President Obama, I was interacting with another DARPA program manager and I asked him what he was working on.
+
+[27:58] He said, well, if we have an emerging infectious disease and we have no vaccine or therapy, I want to reduce the time to go from bug to drug from years to months. And then the Ebola outbreak occurred, so I called him up and I said, do you need any additional funding for your program?
+
+[28:17] And over the active opposition of the entire rest of the United States government, I was able to get that done. And he was the program manager who funded Moderna to work on infectious disease in 2013. So that wound up being more important than I recognized at the time.
+
+[28:34] So, you know, one of the things, a useful analogy is that if you think about the relationship between policymakers and scientists and engineers and entrepreneurs, it's like being at a high school and having jocks and nerds and virtually no interaction between jocks and nerds, so very few people who are both jocks and nerds.
+
+[29:00] And so I've been able to create value by hanging out with both policymakers and scientists, engineers, innovators, entrepreneurs, and then every once in a while identifying some area where there are large gains to collaboration between these communities in the same way that when research communities had a compelling vision for why, you know, it was time to do for neuroscience what the genome project did for genetics.
+
+[29:33] I was able to get President Obama to launch something called the Brain Initiative. It's interesting to me because it feels like maybe, and you could push back on this, but compared to 30 years ago, things do feel potentially more integrated communication channels, more fluid.
+
+[29:53] And yet there is still, there are still those bottlenecks. There are still a lot of value to the communication arbitrage information arbitrage. I'm curious why that has kind of maintained. Yeah, because I think that, well, I think there's a couple of reasons.
+
+[30:13] So one is that the world is very complicated. And the way in which people cope with that complexity is they specialize. And so in many cases, people know more and more about less and less. So I think that's one thing. And I think that, you know, there's a difference between a policy maker having this sort of like general sense that AI is important, and really understanding how it works.
+
+[30:45] So, yes, I think people can be sort of generally aware that something is going on and it's important. But that can be quite different from, you know, really understanding its strengths and limitations. Yeah, that makes a lot of sense. It feels like there is quite a natural parallel to that early 90s moment happening currently.
+
+[31:09] And, you know, hopefully people are starting to understand the implications of the technology. And, you know, in terms of LLMs and what's happening with agents. And it's, you know, good in some ways, because there is still value in making gatherings like this that are multidisciplinary, that bring people together, that create communication channels between different fields.
+
+[31:32] So, you know, hopefully. A lot of innovation is combinatorial in nature. Right. So it's the combination of my chocolate and your peanut butter. And that is more likely to occur when you have these sort of multidisciplinary gatherings. And some of it is just serendipity, like you just run into someone.
+
+[31:54] But I also think that you can try to say, well, we know that this problem is not going to be solved by a single sector or a single discipline. And we have to be more intentional about bringing a diverse group of people to talk about this issue.
+
+[32:12] I'm just glad to know I'll still have a job in the next few years. Absolutely. That's great. You will not be replaced by the LLM. Not yet. So I want to talk about some of the mechanics. And one thing I found interesting was that you introduced this concept of grand challenges or prizes into the federal government.
+
+[32:32] And I'm curious, what was the intention there? And how do you feel about prizes now as a framework? Yeah. So when I worked for President Clinton on the way from the White House to my apartment, I would always walk by a bookstore. And one day I just happened to pick up this book called Longitude.
+
+[32:55] And it was about how the UK government in the 18th century supported a 25,000 pound prize back when that was real money for the discovery of Longitude because the British Navy was losing all these ships. And I was like, why doesn't the US government do this?
+
+[33:12] So I was able to help DARPA get prize authority. They used it for a series of self-driving car competitions. The second time they ran it, Stanford team won. Larry Page was at the finish line and he promptly acquired the winning team. So that's where Waymo and Google X and the sort of self-driving, if you talk to people who are involved in the industry, a lot of them got involved in that.
+
+[33:39] Then when I came back into government, I was able to work with the Senate to get every agency prize authority for up to $50 million. But the broader issue that I got interested in was not incentive prizes per se. It was the following observation, which is currently the US government has a widely less mechanism for making financial commitments that are contingent on failure.
+
+[34:00] And those are loan guarantees. So if you were to look at the balance sheet of the federal government, you would see trillions of dollars of these. That is a financial commitment that is contingent on failure. So the government is saying if your business goes bankrupt, the US government will assume the debt obligations.
+
+[34:15] And so what I was interested in was why doesn't the government make financial commitments that are contingent on success rather than failure? So another example of this during the Obama administration was when the US retired the space shuttle, we had to give the Russians $50 million every time we wanted to send an astronaut to the space station.
+
+[34:38] And no one thought this was a particularly good idea. So NASA said to SpaceX, build us a rocket that can go to the International Space Station, deliver and retrieve cargo and crew, and we will buy rides on the rocket, but we'll also give you milestone payments for progress towards that goal.
+
+[34:55] And then during the first Trump administration, during the pandemic, the government said to Moderna and Pfizer, if you develop a COVID vaccine, which is safe and effective, we will buy 300 million doses. So the government is specifying the what but not the how.
+
+[35:11] The government is saying we will bear the demand risk if you bear the performance risk. So if I were king for a day, I would have the US government participate in a marketplace for outcomes that has three participants. The entity that is saying if you do X, then we will buy it or we'll give you a prize or we'll give you a stream of milestone payments.
+
+[35:34] So that's one player. The second is the teams that believe that they can achieve that in the same way that SpaceX was like, yes, we believe that we can build the Falcon 9 and deliver and retrieve cargo and crew to the International Space Station.
+
+[35:49] And Moderna and Pfizer said, yes, we think we can develop a safe and effective COVID vaccine. And then the third is the investors who are backing those teams. And the reason that that is important is that with these mechanisms, you only get paid if you are successful.
+
+[36:06] So you have to have the you have to have either retained earnings if you're a big company like Pfizer, or some investor has to be willing to back you so that you can make the upfront investment that you need to achieve this goal. The other reason why I like this idea is that it forces us to be more specific about what it is that we want.
+
+[36:29] So anyway, that's why I'm a fan of these approaches. Obviously, it doesn't work in every instance. But I think in those areas where you there is a finish line, right? For the self-driving car competition, it was literally a finish line. It was here's the obstacle course in the middle of a desert, you know, get to the end.
+
+[36:48] And for the NASA collaboration with SpaceX, it was cargo and crew to and from the International Space Station. For the Operation Warp Speed, we had a proxy for the which was the FDA. And it was like, if you get something called an emergency use authorization from the FDA, then we will buy it.
+
+[37:09] It feels like in all of these cases, there is a massive market, like a traditional market at the end, ready to pick up and start to invest and kind of put the, you know, financial capital to bear. But initially, there needs to be kind of a backstop almost.
+
+[37:28] Yeah, so for example, the self-driving car competition, that was in 2004. So it's a good reminder of a saying that some futurists have, which is never mistake a clear view for a short distance. So Google, to their credit, you know, made this very long investment that was required to go from a demo to a self-driving car that was reliable enough so that it would not run over grandma.
+
+[38:00] And there were lots of edge cases that they had to deal with. Yeah, that makes so much sense. I'd love to talk about Renaissance Philanthropy, the organization that you started two years ago. And maybe we can start with what is the why now for Renphil?
+
+[38:16] Yeah, so the why now is what we were talking about earlier, which is in the U.S. alone, 2,000 families with half a billion dollars or more in wealth. Many wealthy individuals around the world and a low level of philanthropy. And so the question that we were asking was, is there something that we could do that would increase their both excitement and capacity to engage in philanthropy?
+
+[38:50] And there's two ways in which we do that. So there are some philanthropists who, rather than having a large internal team, they will just tell us what they care about. And then we will help them source and evaluate ideas that are aligned with their philanthropic goals.
+
+[39:05] The second is that we design and launch philanthropic funds. And these have three pillars associated with them. The first is the thesis. That is, what's the problem that we're trying to solve? What would success look like? Why can philanthropy play an important catalytic role?
+
+[39:24] The second is the team that would do a great job of designing, implementing, and advising that initiative. And the third is the philanthropists and foundations that are backing that. So you talked about the Philanthropy 2.0 article that I co-authored along with the leadership of Renaissance Philanthropy.
+
+[39:45] And one of the points we made is that if you're an investor, if you are a limited partner, you are not going to go to a VC and say, Hey, before you make any seed investment, I need to sign off on it. What you're going to do is you're going to say, I have confidence in that venture capitalist.
+
+[40:07] I know how to hold that VC accountable for results. I have confidence in their thesis. And there's some level of decision making that I'm willing to delegate to that individual. And many philanthropists have a significant amount of wealth. And therefore, the only way in which they could, barring them creating a very large organization, which many of them have no interest in doing, the only way that they're going to be able to allocate a significant amount of funding
+
+[40:39] is through the emergence of high-functioning intermediary organizations. And obviously, Renaissance Philanthropy is just one of these. There are others like Climate Lead, which is doing this in climate change. Co-Impact, which is looking at global development.
+
+[40:59] Blue Meridian, which is identifying nonprofit organizations for, you know, at-risk youth. And their families. So, we, you know, this is a bet that there need to be more of these intermediaries. And so, what we have done is to create a DARPA for philanthropy, in essence.
+
+[41:21] So, we have launched initiatives in areas like addressing climate tipping points. We have an initiative called the Arctic Stabilization Initiative, which is trying to address the fact that, as it gets warmer in the Arctic, sea ice melts. That increases warming.
+
+[41:42] That could increase methane emissions from the tundra. So, we need to figure out if there's a way for us to intervene to stop that sort of runaway climate from occurring. We have an effort to lower the cost of a space telescope by a factor of 20.
+
+[42:02] To use AI and the science of learning to double the rate of student learning outcomes in middle school math. To address runaway fires in the Amazon. So, we have dozens of these ideas that Renaissance Philanthropy and a growing number of people who are affiliated with us have for a clear, compelling thesis.
+
+[42:30] And then, we work with philanthropists and foundations to try to identify people that are interested in supporting these initiatives. And regarding those people, you mentioned at the beginning that once you meet one philanthropist, you've met one philanthropist.
+
+[42:46] But, are there general areas you're seeing kind of broad strokes where you feel like maybe there is a confluence of big problem that needs solving and a lot of energy and interest from philanthropy to fund it? Yeah, so, we see philanthropists that are interested in climate change, in education, in biomedical research, in increasing opportunities for economic and social mobility, in some areas of very basic science, like astronomy and astrophysics, at the intersection of AI and fundamental math.
+
+[43:26] So, a number of my colleagues from Renaissance Philanthropy are here and one of the things that they're looking at is how could we use AI tools to improve philanthropy? So, in the same way that we're talking about the 10X software engineer, could you have the 10X program officer because they're able to use AI to just dramatically increase the number of options that we're evaluating to solve a particular challenge or opportunity?
+
+[44:00] Yeah. I'm curious to ask whether you, what is your, what are your thoughts around the role that government can play in kind of addressing these issues? It feels like the current administration has had, I guess, different ways of viewing funding certain initiatives.
+
+[44:20] That's a very polite way of putting it. So, I'm curious to get your take on, on that. And, you know, you've obviously spent time in government, you're now focused on more of the philanthropy side. Are there collaboration opportunities? What can they do better, et cetera?
+
+[44:37] Yeah. So, one thing that we're very excited about is that, I mentioned that the government has prematurely standardized on a relatively small number of ways in which it funds research. And so, there's this idea called MetaScience, which is what if we applied the experimental method to how we fund research.
+
+[45:01] And so, one idea that we're very excited about is a proposal from the National Science Foundation called X-Labs, which is very much building on the focused research organization model. So, that's something that we're excited about. There are a number of things that the current administration is doing that we're less excited about, like making very deep cuts to NSF and NIH.
+
+[45:28] And also, you know, making it a lot more difficult for scientists and engineers to come to the U.S. or for those people who graduated from U.S. universities to stay. So, we have a program called the Talent Mobility Fund, which is trying to educate more people about some of these uncapped visas like the EB-1 or the O-1 visa that would allow more people.
+
+[45:59] You know, my view is if you come and you get a STEM degree from a U.S. university, we should make it as easy as possible for you to stay here, if that's what you want to do. If you want to go back to, you know, your home country, that's great, too.
+
+[46:15] But if you want to come and contribute to the U.S. economy, my view is we should be making that easier rather than more difficult. So, I want to come to an end soon and see if there are any questions in the audience. But one of the things I was curious about is the name Renaissance Philanthropy.
+
+[46:35] I'm curious where that came from and what kind of lineage you're harkening back to. Yeah. So, the analogy is that in the same way that wealthy Italian families supported the Italian Renaissance by backing people like Michelangelo and da Vinci, today's philanthropists are in a position to support a 21st century Renaissance.
+
+[46:57] And one of the things that I think is very powerful is that philanthropists can do at least four things. One is that they can engage in grant making. The second is they can invest but with a longer time horizon or with an impact lens. Third is that they can engage in the type of coalition building that we were talking about.
+
+[47:19] And fourth, they can advocate for policy change. And the reason that that is so powerful is that many institutions are like the individual who has a hammer and is looking for nails to hit. And something that is much more powerful is if you have a hammer and a saw and a tape measure and a screwdriver because you are more likely to have the right combination of tools than if you just have one of those.
+
+[47:47] So, that's why one of the things that we've done is if you're looking for some light reading over the weekend, we have published 11 playbooks on our website, each of which talk about a particular approach to solving problems that we think that more philanthropists and innovators and change makers should know about.
+
+[48:08] So, I'll give you an example. So, if you look at the areas where we've made progress in AI and machine learning, it is often the case that three things are true. One is that we have a well-defined problem that is typically leveraging the ability of machine learning to serve as a universal function approximator between inputs and outputs.
+
+[48:29] So, we give it a lot of examples and we say, learn the function that maps between the input and the output. Second, we have a large high quality diverse data set. And third, we have a benchmark or an eval so that we know whether the model is hill climbing in the right direction or not.
+
+[48:48] Now, that is an idea that DARPA came up with in the 1980s. And the reason they had to do that was that in 1969, someone from Bell Labs had said, the entire field of machine translation is characterized by glamour and deceit. So, AI went into one of those AI winters that you've heard about.
+
+[49:15] And some DARPA program manager sort of resuscitated the field by saying, all right, the problem was everyone had their own ruler. So, what I'm going to do is we're going to have a common task, we're going to have a gold standard data set, and we're going to have a common benchmark for evaluating the performance of everyone's algorithm.
+
+[49:37] And so, the reason that's so powerful is that it was Fei-Fei Li's work in ImageNet that really got everyone to say, oh, my God, all these ideas that people like Yann LeCun and Jeffrey Hinton, people forget that was viewed as an intellectual backwater, right?
+
+[50:00] So, it was really Fei-Fei Li's work to create ImageNet and the large-scale image recognition challenge that led to the AlexNet paper that led to increased private investment in deep learning. Same thing is true for Common Crawl. That's the data set that led to the large language models, reading everything on the internet.
+
+[50:22] For weather prediction, it's a European data set called ERA-5. And for AlphaFold and for the huge advances in protein structure prediction, it's the combination of the Protein Data Bank and CASP, the critical assessment for protein structure prediction.
+
+[50:39] So, one of my favorite questions to ask scientists is, if I could magically create any data set for you, what data set could I create that would do for your field what the PDB has done for protein structure prediction? And the sort of more generalizable point is that in the world of startups, if I say we need the X of Y, like we need the Uber for X or the cursor for Y, a lot of times VCs view that as sort of like a mid-idea, like probably a lot of people have that idea.
+
+[51:10] Well, one of the challenges of the public sector is just because something works, it does not mean that people will do more of it. So, after the success of Operation Warp Speed, one might have hoped that a president would send an executive order to all the agencies saying, that was really, that worked really well.
+
+[51:33] We should do more of that. You all have 90 days to give me your three best ideas for the next version of that. And that has not happened, right? So, there is a lot more juice to squeeze once you identify one of these models, to say, what are all the other instance similarly shaped problems where we could also be applying that model?
+
+[51:57] So, that's why we're publishing these playbooks, because the thing that I told you about the well-defined problem data set benchmark, that is boring conventional wisdom within the machine learning research community. But if you went and talked to funders, many of them would not know that.
+
+[52:16] And many research communities have not organized themselves to do that around some important problem where we could be massively accelerating progress. So, it reminds me of the following joke. Two economists are walking down the street, and one of them says, look, there's a $20 bill on the floor.
+
+[52:36] And the other economist says, nonsense, if that were really a $20 bill, someone would have picked it up already. And Renaissance philanthropy, the types of people that we enjoy working with, are the people who are like, look, there's a trillion dollar bill on the floor, and no one is picking it up.
+
+[52:54] So, literally, one of the people who just joined us has something called the Africa Jobs Fund. And he is building on the work of economists, which has showed that there is trillions of dollars of social value that you could create through ethical, temporary labor mobility.
+
+[53:17] So, developing countries and developed countries have the opposite problem. Developing countries have high levels of youth unemployment. And developed countries have fertility rates of 1.2. I mean, I think South Korea is down to 0.7. And so, they are already in the situation where they are not going to have enough workers to do the things that need to be done just to maintain their economy and our society.
+
+[53:51] So, there are, my strong view is, you know, coming back to the beginning of our conversations, there are many things that we are not doing that we should be doing, and there are many things that we are currently doing that we should stop doing.
+
+[54:07] And what gets Renaissance Philanthropy excited is we find someone who has the kernel of an idea, and there are a bunch of tips and tricks that we have learned about how to serve as a force multiplier for that individual or organization or community to increase the chances that that thing happens.
+
+[54:29] I think that's a wonderful place to end it. Thank you so much, Tom. Round of applause, please. I would love to leave some time for questions, and it looks like we have a few, so we'll have Dawn come around with the microphone. Hello. My name is Patrick, and I have a question regarding this 10X program officer.
+
+[54:51] Yes. And, you know, in the AI intermediated information age, what are the signals that make prospective PIs really patron seekers legible to those 10X PIs, and does this further bias funding towards institutionally legible folks or folks that already have funding?
+
+[55:12] I think it can. So, I think it's, you know, a lot easier for a funder to support someone who's already well-known, and so I think in order, if you want to push back on that, you need to explore other funding mechanisms. So, for example, one of the things we do do on behalf of some philanthropists is we do open calls, and so that gives us the ability to support, you know, projects based on a blind review as opposed to,
+
+[55:47] oh, you know, is this person currently located at an elite research university? But I think that definitely is a problem. For the first FRO that achieves its mission, how are you going to shut it down? Yeah. So, well, let me tell you about one which is called Forest Neurotech, and this is led by a mutual friend of ours, Sumner Norman.
+
+[56:18] So, his idea was, could we develop a minimally invasive brain-computer interface as a way of treating things like treatment-resistant depression? And when we first got that idea, we said, well, gee, I wonder if venture capitalists will fund it.
+
+[56:42] So, we went to VCs, and they were like, we love the team, we love the technology, but this is too early for us, because you're going to have to develop the technology and then you're going to have to demonstrate efficacy in some indication.
+
+[56:56] Eighteen months into the project, someone told Sam Altman about it, and now, as a result, OpenAI has led a over $200 million seed round to commercialize the technology. So, we've already had an instance in which the technology is being commercialized at a more rapid rate than we thought.
+
+[57:24] Oh, yeah, so, it is that we tell that we're very clear with the founders that our goal is to support them for some fixed period of time to achieve some goal, and they can go off and try to get funding from someone else, but that we're not saying, oh, we're going to endow this so that it lives forever.
+
+[57:47] Hi, thank you so much for the talk. I like, I'm very aligned with your ideology and wisdom, and I wonder in the future where initiatives become more quickly emerged and fast-moved, that is there any kinds of like new matrix or proofs or system that can be adopted for funding philanthropy that you can envision?
+
+[58:16] Yeah, so, one idea is microgrants. So, there's a website called experiment.com, which is about delegating decision-making to an individual who has some familiarity with an area. So, I think microgrants is a really interesting area. The other thing that I think is really interesting is unbundling idea generation from execution.
+
+[58:46] So, our current funding mechanisms presume that the same person who has the idea should also be the person to execute the idea, and there are a lot of instances where that is not necessarily true. So, we were able to partner with the UK government to do a competition where we weren't funding the research.
+
+[59:06] We were just funding, we were just motivating them to put down the idea on paper and send it in. So, I think that is a sort of underutilized funding mechanism because it's inexpensive. And because of the environment that we're in, the payoff associated with agenda setting has gone up because there are more people who are in a position to potentially support these projects.
+
+[59:28] Hey, Tom. Good to see you again. How do you think about philanthropy de-risking breakthrough technologies before they reach economies of scale? And then how should frontier tech founders approach fundraising during that stage? So, for instance, for me, I'm building off-grid solar and geothermal-powered data centers.
+
+[59:50] So, it's huge capex, but if it works, then we don't have to take energy from the grid. Yeah. So, one of the members of our team has a finance background. He's from HSBC. And he has an idea that Estera is supporting, which is called the Tertiary Impact Fund.
+
+[1:00:11] And what that is doing is it's using a donor-advised fund to provide a partial loan guarantee. And so, that's an example of a catalytic way in which philanthropy can be used to provide at least some partial de-risking for projects. I think another really interesting mechanism is where you identify, in the same way that we have central banks that serve as the lender of last resort,
+
+[1:00:45] for emerging technologies, someone has to be the buyer of first resort. And an example of how that is happening is that Stripe, Alphabet, Meta, Shopify, and McKinsey created a consortium called Frontier Climate. And they said, we are willing to buy a billion dollars' worth of permanent carbon removal.
+
+[1:01:06] And the reason that's important is that you had these entrepreneurs with ideas for permanent carbon removal, and the VCs would say, where's the customer? And now that entrepreneurs can at least point to Frontier Climate as an effort to jumpstart that market.
+
+[1:01:24] These are AMCs, right? Advanced Market Committance. Advanced Market Committance, yep. Hi. My name is Ryan. I'm an Inflection Fellow here. I'm a really big fan of the concept of monetizing hope. I think like XPRIZE from Peter Diamandis is like a good example of that.
+
+[1:01:41] And then you guys, Smit Futures and whatnot. I was tinkering with an idea of creating like research-based hacker houses. I think like manipulating mimetic desire and increasing the ambition in that way by just kind of making something... We can call it the Girard House.
+
+[1:02:01] Yeah, exactly. I actually did have an idea about that. You just take the most ambitious people and then you put them as like the face of the house, like Terence Tau house, and now all the mathematicians would want to kind of... But like, have you thought about increasing the ambition of researchers by creating like equity-based research housing, like similar to how like there's a new movement of equity-based housing for founders, like a new way of fundraising?
+
+[1:02:24] And have you thought about like new ways of monetizing research that gets shelved because that's a big issue as well? Not that specific idea. But you know, I do think that one of the things that government can do is it already gives out a lot of prizes.
+
+[1:02:47] So for example, we have the, you know, National Medal of Honor. We have the, you know, Presidential Medals of Science and Technology. And I think one of the ways in which we could get a lot more out of them is to have like lists of things that would be medal worthy, right?
+
+[1:03:05] So if you were able to do this, you know, it would be worthy of one of these medals. So I do think that we have to recognize that humans to a greater or lesser extent are status-seeking primates. And if we can figure out ways to channel that in productive ways, I think that's very powerful.
+
+[1:03:30] I want to ask a quick follow-up to that. I think that's a very profound insight and a really good way of motivating people. Touching on Rayan's, the other side of his question, do you see opportunities for kind of physical IRL hubs of innovation and research like the Bell Labs and et cetera examples from history?
+
+[1:03:52] No, I mean, I think one of the things that makes the focused research organizations powerful is that everyone is actually co-located. Now, the lean one, it's, you know, mathematicians and software engineers. So they're, that one is geographically distributed.
+
+[1:04:09] It's a more virtual effort. But a lot of them, like E11, which is the one that is trying to lower the cost of mapping the brain bifactor 100, they're all in Alameda in a single place. And when I was at Schmidt Futures, we were able to provide some seed funding for the person who is leading the neighborhood of the idea of having sort of multiple of these houses with a theme.
+
+[1:04:38] And so I think that would be, I think that's an incredibly powerful philanthropic investment to encourage that type of co-location. Yeah. Yeah. Hi, I'm Lucas. I'm building like the neighborhood, but in Boston. But my question is if you have a short list of hamming problems, like good quests for nonprofits and philanthropy that, you know, you should, people here should embark on.
+
+[1:05:04] Sure. So in addition to being CEO of Renaissance Philanthropy, I'm also chair of Convergent Research. And they put together something called the Gap Map, which has over 100. So that is a good list. If you send me an email, I have a what if list.
+
+[1:05:21] It's a little out of date, but it has a list of problems. And then if you go to our website, you will see, you know, a fraction of the funds, the ones that are public. And you can see some of the goals that they're pursuing. And we can share those links around as well afterwards.
+
+[1:05:42] Yeah. Yeah. Awesome. One more. Yeah. Hi, I'm Lonnie. So I have a school district partnered with some big partners. I wanted to know, so we have nine schools now. I want to know how big does your data set need to be if you want to revolutionize education across the world?
+
+[1:06:03] I don't know that there's like a single answer to that question. I think it's sort of, unfortunately, the answer is it depends. But Fahd, who is, raise your hand. So Fahd is our head of applied AI. And we also have an engineering hub of machine learning engineers that just work with researchers and companies in educational technology.
+
+[1:06:29] So between the two of those teams, I think they can help provide some answers to those questions. Awesome. All right. I think we'll bring this to a close. Thank you again so much, Tom. Thank you. I really enjoyed this. Thank you. We will be sticking around here.
+
+[1:06:50] Is that right, Catherine? Okay, great. So yeah, for the next 45 minutes, 50 minutes, we'll be in this room. We'll play some music. There'll be some drinks. And we can all hang out for a little bit.

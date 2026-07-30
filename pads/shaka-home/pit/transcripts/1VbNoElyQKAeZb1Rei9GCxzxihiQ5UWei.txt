@@ -1,0 +1,197 @@
+# How to tell a good story by Cole _covacut
+
+Date: 2026-06-18
+Source video: How to tell a good story by Cole _covacut.mp4
+Drive: https://drive.google.com/file/d/1IK7deqBvNGw6nwPjvHg9nThmQAIcafda/view
+Duration: 00:31:29
+Transcribed: 2026-06-20 · whisper large-v3-turbo · language: en
+
+---
+
+[00:05] All right, all right. If everyone could please find your seats. Thank you, thank you, thank you. Okay, we are continuing with World Building Week. I am so excited to have an incredible creator and technologist here named Cole. So funny, I actually was scrolling Twitter several weeks ago and on my feed I came across this post where someone was building a Tamagotchi thumb drive
+
+[00:40] and it was Cole's post and I was like, this is the coolest thing and she was explaining how she sourced all the parts, the electronics, she 3D printed the shell and I was just so captivated. I messaged her, I said, you have to come to Edge Esmeralda.
+
+[00:53] Lo and behold, Timur had already reached out to her. And so I'm so thrilled to have her here. So please give a warm welcome to Cole. Thank you so much for the warm welcome, Justin. Hi everyone, I'm Cole. I also go by Kova Online. I am a content creator.
+
+[01:16] I make videos that bridge art and technology. So this will be a presentation on how to tell a good story because I really think that the ingredients are quite simple, but a lot of people don't really know how to communicate like their vision effectively, especially when that vision tends to be a little bit more technical or complicated, which we see a lot in the technology world.
+
+[01:41] So, yeah. At first, could I get a raise of hands? So, who in the room makes videos? Amazing. A good amount. Who in the room writes? Like on Substack or Twitter? Okay, a little less. Okay, very cool. So, why do you want to tell a good story?
+
+[02:02] Because it should be simple. Really, a story is a way of connecting with another human being. And I think I have a framework which I really wanted to share with you all, which kind of is a different approach, which is a simpler approach. But first, a little bit about myself.
+
+[02:19] I am Cole. I go by Kova Online because I wanted a bit of a separation between like the online persona and myself. But I usually go by Cole. And long story short, about a year ago, I was doing my last year of college. And I recently, well, nine months ago, quit my first job ever out of college to go full-time on making videos and on content creation.
+
+[02:44] So, this ended up being a pretty big post on Substack, at least for me. A lot of people saw it and like the corresponding videos because people were like, why did you walk away from engineering to become a content creator? And the reason was I wanted to tell a story.
+
+[03:00] And all my life, I've loved making art. So, I was always like the art kid. I was always drawing in school. And I always thought that this was not really the path I should ever take in my life and ended up studying computer science. I went to Stanford, which is very close by, and I did both my bachelor's and master's before making films and realizing that I loved making films a lot more than I loved engineering.
+
+[03:28] So, specifically, I started making films for the AR VR space and AR VR hackathons. After that, I graduated. And I had been making videos for a couple months now at that point, and a lot of them started to blow up, kind of just out of nowhere.
+
+[03:44] And my entire account started blowing up. I was previously at Windsurf, and I quit. So, this was my first job out of college. And since then, it's just been a crazy ride of nine months. Yeah, worked with a lot of different brands, created a lot of stories, all at this intersection between art and technology.
+
+[04:06] Some of the images here, on the same day I quit my job, the venture firm A16Z, they recreated my dorm room, like as a little booth in New York City. So, that was the first day of quitting my job. And since then, I've had the opportunity to be on Times Square, to be part of a bunch of different fellowships, to speak at a fair amount of conferences, and overall just do what I love, which is telling stories.
+
+[04:35] And just to give like a taster of like the kind of videos that I produce. Just like to have the visuals playing in the background, I tend to choose a lot of bright, poppy visuals, because I wanted to communicate that technology can be thought of in an imaginative and artistic way.
+
+[04:59] Okay, it's buffering, but you can take a look at some of the images instead. So, this is a little snapshot of some of my work. Okay, now onto how do you tell a good story? Well, first, what is a good story? I think we should probably define that first.
+
+[05:18] Really, I think a good story is a bridge. It is a bridge between two people. And it feels like your own story. It comes from perhaps someone else's experience, but when relived by you through reading it or watching it as a video, it feels like you're that hero.
+
+[05:36] Like, their ideas and their perspective becomes your story. A good story is a bridge. But a good story is also this. It's a dish with specific ingredients and a recipe. I really like this presentation because the font and, like, the vibes is very interesting to look at it back.
+
+[06:01] So, in terms of the ingredients, really, a good story just has two things. It's a bridge between two people, but I think it can be reached, like, this bridge can be created in two ways. And you need these two things. You need tension and you need relatability.
+
+[06:18] So, in the context of making a video, for example, I think of every single sentence I say as establishing both of these things. But tension is essentially the difference between just saying something and making it a story. It's that conflict that what is happening, like, what is, like, this implicit question in your head.
+
+[06:43] And that's what tension creates. Relatability is the aspect that what you're describing, what you're creating tension around, is a feeling or an emotion. So, that's a little bit abstract. So, I will give an example. One of my videos is about where my name comes from.
+
+[07:00] So, I go by Cole, which is usually not the name you would expect for someone who looks like me. So, the hook I used for this video, which ended up also going viral across, like, pretty much every platform, is, Hi, I'm Cole. And people always ask, why is your name Cole?
+
+[07:19] So, the tension piece is the why is your name Cole part. And I establish that because I think I present myself front and center. And I also don't look like someone whose name is Cole. I will play it really quickly. Is there a speaker? Hi, my name is Cole.
+
+[07:59] And people are always confused. Why is your name Cole? When you picture a Cole, you probably don't picture someone like me. You see, I've changed my name more than once. My first name is Xingtong. It means, ooh. It means the way the sky looks at dawn.
+
+[08:17] Because I was born in the morning. Like so many of us from different cultures, my parents wanted me to be legible. So, my next name was Nicole. Nicole Kidman was visiting Hong Kong at the time, and they thought she was very beautiful. That's really it.
+
+[08:33] The problem was, I never really felt beautiful. There are years where it was hard to be Nicole. Where I wanted so desperately to be someone else. So, when I got into college, I became Cole. I felt different enough that I could come out of my shell.
+
+[08:52] Unfold. Become somebody. On my own terms. And then, there's Coba. Coba is a version of me you see right now. Putting ideas and stories into the world. Maybe a little bit braver than Cole. So, I've been thinking about names. And why maybe they're the reason I love words so much.
+
+[09:17] Because words and stories are some of the most powerful choices you can make. So, choose your words wisely. Thank you. So, that was one of the videos. And to break down that hook again, let me go back. While it reads a bit natural, I would say that every single line of that video was crafted.
+
+[09:49] With both of those things in mind. Tension and relatability. And to take the hook, for example, why is your name Cole? I presented myself, someone who definitely doesn't look like a Cole, front and center. And asked, why is your name Cole? The tension is having the person wanting to know the answer to this very simple question.
+
+[10:09] Like, why is this person's name Cole? And the relatability part is, there's a lot of people who get questions around their name. And I was right about this thesis. That the relatability part is this, people getting names. Because a lot of the people in the comments was like, oh, I had to explain my name to so many people.
+
+[10:28] Like, thank you, this made me feel seen. Or, I also had to change my name, whether it's to make myself more legible, or to make myself feel more like myself. So, it hit both like the tension and relatability pieces very well. Cool. So, that's basically the ingredient.
+
+[10:55] Those are basically the ingredients you would probably need to think of for every single line of a very well crafted story. At least for short form. It differs between every platform. And it differs depending on how natural or how scripted you want it to be.
+
+[11:09] For myself, I think super clearly about what exactly is the tension and the relatability here of every single line. But it's really up to you and your own style. Those are the two ingredients. And what is the recipe? Like, what is the structure for which you want to develop your story?
+
+[11:26] Again, I have a very simple framework that has never failed me. The only two things you should care about for a structure of any good story, and it can fit within the framework of however way you want to work, is two things. Going from curiosity to context, and back to curiosity.
+
+[11:45] There is no other way than this to develop a good story, and every good storyteller I've observed does it. And this has also been implicitly talked about by a lot of creators, like Cleo Abram, Johnny Harris, Oh My God Adrian, if you guys are chronically online like me.
+
+[12:02] They've talked about this in many different ways. The only core ingredient for a good story structure is curiosity to context. And what do I mean by this? Well, a curiosity is kind of like tension, but it's opening up the door to an answer.
+
+[12:20] Giving the audience a question and having them expect this answer, context is that answer. But with context, you then introduce a new open question. A good story has a lot of loops from a question to an answer that opens up another question and goes back to an answer.
+
+[12:37] That is the only ingredient you would, that is the only like structure you would need for a good storytelling recipe. And to put this in context, I will give another example. This is a little bit more of a technically complex video. So while the other one is a bit more of like a personal story, I can show you how I've implemented this storytelling structure in a more challenging video to grasp your head around.
+
+[13:04] But I will play it as well. These are trajectories.
+
+[13:52] And you can make them by literally drawing where you want reality to move. It's basically something out of inception. Think of it like this. You take a photo, draw paths on that photo. And one, an AI model generates new images, assuming reality moves in those paths.
+
+[14:12] I run this inside a free app called ComfyUI. Under the hood, what's happening is trillions of calculations, every second. And somehow, this little laptop handles it all. That's because inside is an Nvidia 1590 GPU. And yeah, it's powerful. What's happening is AI is becoming personal, owned by you, running on own your devices.
+
+[14:36] We've seen creators build their own tools, and you can too. What will reality look like in a year, I wonder? This is actually a brand deal, as you can tell by the end. But yeah, so it might be a little bit hard to hear, but essentially I was talking about running an AI model called WAN, which is a video generation model locally on my laptop.
+
+[15:00] And yeah, so it was, and I was trying to show it to this kind of like group that isn't necessarily very, very technical. Although like to a fair degree, like curious. So it was trying to break down this complex story into like a simpler one.
+
+[15:18] And so to demonstrate the curiosity to context back to curiosity loop, I've pulled this quote from the script. These show crazy visual, our trajectories, and you can make them by drawing the way you want reality to bend.
+
+[15:49] So what I'm trying to say here is this is a very, this is a very complicated story. But the way I've like chosen to introduce it is by opening up a curiosity loop by showing so-called crazy visuals, where you can see like the shifting trees, the up and down like buildings in the background.
+
+[16:07] And I explain with context, these are called trajectories. But this still makes an open question in the audience's brain because they're like, oh, what are trajectories? I still don't understand what this insane visual is. And then I provide more context by saying, and you can make them by drawing the way you want reality to bend.
+
+[16:28] The end part is also, again, it explains what's happening because you do draw the paths in order to animate them in that direction using the AI model. But it's also not clear exactly how you do that. And it sounds like something out of inception. So people are like, oh, this is very, very interesting.
+
+[16:45] Again, this is targeting a very specific audience. And I was thinking, how do I create the curiosity loop for them? But it was all thinking in the structure. How do you create curiosity to context to create curiosity in any way possible? Whether it's in the same sentence, in two different sentences, this is really the only framework you need.
+
+[17:03] And you can wrap your style around it, which is how I think of frameworks. So, yeah, that's pretty much the ingredients and the recipe I think of for how to tell a good story. And to recap, the ingredients are tension and relatability in every single line.
+
+[17:19] And the structure is really just curiosity loops going from context to curiosity to context to curiosity and so on. So the nuances behind this kind of approach, of course, are that stories are always platform specific. Some stories will perform better on some platforms as opposed to others.
+
+[17:37] So for example, when you create onshore from platforms, my main platform is Instagram. I want my first three seconds to contain a great book cover. That means like an aesthetically pleasing, you have like the title for exactly what you can expect.
+
+[17:51] And you also have probably the most visually striking frame of the entire video. You would do that in three seconds on Instagram. Whereas I think for TikTok, the book cover is not an expected... The book cover is not such an approach you would use for TikTok.
+
+[18:08] TikTok indexes a lot more on relatability rather than having this pristine aesthetic book cover. Whereas YouTube, for example, is an entirely different ballgame because you have effectively one minute to make your pitch. Fifteen seconds as your hook as opposed to three seconds on short form.
+
+[18:25] So stories are always platform specific and there's a bunch of nuances that you end up learning over time. I'm also happy to talk about it if anyone is curious. But everyone should tell stories. I think at the end of the day, I hear a lot of this from my friends.
+
+[18:42] And I've also gone through this personally myself, that you're afraid to put yourself out there by writing or making a video, even though you've always wanted to either try it or you have this idea that you just wanted other people to hear about.
+
+[18:56] I think there's a lot of fear around putting yourself out there and around telling a story. But I really think that this fear is misplaced. And the best reframe that I've had as someone who's kind of picked up and put down a camera for many years.
+
+[19:12] I've been doing film, like half making videos, half not, half writing, half not for many, many years. The best reframe is to create from love and not from fear. When I think about creating a video, I think about creating to serve. This idea when going out in circulation of the world will deeply help, you know, at least one person.
+
+[19:34] And I think it's changed a lot for me because I don't want to create from a place of ego, which is a place of like, I want to create to make myself look really good. And when the numbers don't tell me I look really good, I feel bad about myself.
+
+[19:47] Like that is not the goal at the end of the day, to create from love, from having an idea help the person it needs to help, rather than I want to make myself look good. It's just the best reframe I've ever had. It makes me a lot less insecure, which I think creators can, a lot of creators end up becoming more insecure over time, because of, you know, numbers, analytics being judged by them.
+
+[20:11] This is absolutely the best reframe. If you create in a way where you think you can help another person, it's more, it's worth it. Your story will help someone. I would also say that storytelling has changed, and creators are thinking a lot differently about scale.
+
+[20:30] In the past, what I would say is that creators are always chasing a bigger number, like bigger following, bigger audience, greater numbers. I want to, yeah, just make the numbers go up. Having experienced the past year, content creation has shifted a lot.
+
+[20:48] Scale is no longer as important as ultra-niche. Ultra-niche audiences are not only being sought after by brands, so this is external validation, but I've seen that with my audience, for example, which is a techno-optimistic, artistic audience, very ultra-niche.
+
+[21:05] I've actually had a lot more opportunities, a lot better community that way. It not only feels satisfactory and fulfilling on, like, a deeper level, from an external perspective, brands want to work with people with strong, passionate, ultra-niche communities, and instead of, like, massively, like, diversified audiences.
+
+[21:26] I think creators are thinking differently about virality and about scale, and I think this makes the playing field a lot better for people who want to start making videos, who want to start making content. I really think the focus is now on ultra-niche rather than on massive scale.
+
+[21:41] And I think my last thing that I will leave you with is to tap into your identity. It is more important ever than, I think, at any other point in history, and especially with AI changing the playing field for creatives. People are talking a lot about taste, which is becoming a bit of an outdated word, but style and expression and the way you think and the way you express yourself is becoming just increasingly important.
+
+[22:13] And really, it comes from just the way you've lived your life, like, the things you've loved, the things you've done in all of your years of living. And everyone has it. Everyone has a very specific identity that they can put into their writing or their videos.
+
+[22:26] And I've done very much the same with mine. I think my videos are very stylistic. I think it is more important than ever to really pay attention to the things that draw you towards it, whether that's art, you know, media or just the things in the real world, and create with them.
+
+[22:42] For myself, I think a lot of my life, I've been told that, oh, these interests or this might be a little weird to put out there. And I think, in general, people get told that they have to suppress parts of their identity to make themselves more legible or understandable to others.
+
+[23:02] I really think that this mindset should be entirely overturned. Creativity now is entirely dependent on who you are and how well you're able to express it. And we should tap into our identities more and be more excited to share about them. Because everyone should tell stories.
+
+[23:20] And yeah, thank you so much. This is my handle if you wanted to follow me on any platform, and basically this on every platform. And yeah, I appreciate you coming to my talk. Yeah, questions for sure. How did you find your techno-optimist, like, solar punk, ultra niche?
+
+[23:43] Ooh, that is a great question. Over time, I've discovered this niche. And it wasn't always this way. I started, at first, doing visual effects. And this amassed a great audience amongst video editors, visual effects artists. And then I eventually started doing content about AI.
+
+[24:08] And I had a bunch of backlash, but the audience that stayed with me were the people who also saw this as a way forward. And eventually I started doing more creative coding. And again, it was this intersection of having these, like, creative big ideas and also implementing it with, like, code.
+
+[24:27] As well as, like, by coding. And eventually I moved from software to hardware. So it's really picking, like, the topics you want to talk about that brings in this audience and the way you want to talk about them. Because the audience that ended up staying and really liking me were this, like, techno-optimistic creative audience.
+
+[24:45] But it's also about the vibe of your videos. Like, my videos, they're very cutesy. I have a bigger female audience than usual. I have, like, 60% men, 40% women, which is pretty good for tech. And it's just, my videos are also very artistic, very vibey.
+
+[25:02] I film with, like, the best cameras, mics, et cetera. So the audience that enjoys that kind of content tend to be creatives as opposed to normies. Any other questions? I was wondering if you use AI, like, in your storytelling, like, script building, like, to build these curiosity loops, like you talked about.
+
+[25:28] And if you have any tips about doing that. I do. I do. I use it sparingly and very intentionally because I think telling a story is very much about your own voice. And I never want AI to erase it. But I have definitely, I have, like, this prompt book, which I use.
+
+[25:45] So I would, for example, capture my raw ideas in a script. And I would be, like, this is, like, the direction for my hook. How can I establish it so it meets, like, XXX criteria? And I would, for example, say, the hook should end in two sentences.
+
+[26:02] It should create an open question. And it should also be relatable. Give me 30 alternatives. This is the prompt I would, I tend to feed. But I would always, like, edit or tweak the wording. I always pick the one that feels right. And a lot of the times I end up writing my own.
+
+[26:18] But, yeah, I love using AI for assisting me in every part of the process. That's a great tip. To build on that, what other AI tools do you use as a part of your workflow? And specifically in editing or captions? Yeah. Oh, my gosh. I use so many AI tools.
+
+[26:37] The main one I use is Obsidian with Cloud Code. And the way I would do this is I organize, like, a second brain. So all my files, all my knowledge in this one folder containing all markdown files. And this is just super, super easy for AI to be able to parse quickly and surface information.
+
+[26:54] I would tell AI to, like, operate on this document within my Obsidian. And, yeah, they would do so. So, yeah, Obsidian and Cloud Code. But I use a bunch of others. I don't use any AI tools for video editing. But I use them for generative video.
+
+[27:08] So, yeah, lots of tools. Time for two more questions. Yeah. Hi. I really liked your presentation and especially just your style. I had two questions. And one of them was basically, you know, I see it as you're telling a story, but then you've also got the actual video editing side of it.
+
+[27:36] So, at first I was actually curious if you have a team or other people that help, if it's just you. And then, like, for someone, you know, who isn't experienced with video editing. Now we kind of have AI that can assist as the team with video editing.
+
+[27:52] But, like, what do you suggest when you're telling your story? So that's one side. And then how does that, like, affect actually the videos that you are creating? And how can we, like, benefit ourselves without having the experience as a video editor?
+
+[28:09] That is a great question. I think there's, like, two categories of people. People who, you know, really hate editing and people who really love editing. I'm definitely at the camp that I absolutely love editing. And for someone who is kind of, like, starting out but doesn't have the, like, video production or editing experience, you kind of decide which category you fall into.
+
+[28:36] If you love editing, absolutely learn it. It would make things, even working with an editor down the line, a lot better because you know exactly what you want and you can translate that easily. And I learned Premiere Pro and After Effects for just, like, a single project.
+
+[28:49] I just learned everything. And I think it is entirely possible. But if you're in the camp that, you know, you hate editing but you want to tell good stories, there's two ways. One is, like, AI editing tools. I'm almost entirely certain that this year an absolute, like, killer AI video editing tool will be out.
+
+[29:07] And it will make it extremely accessible. Right now I think promotion is pretty good but you can't, like, edit it very granularly. So I also saw a new one was released today which began with a P but I don't remember. Either you can do that or you can hire an editing team.
+
+[29:24] So I recently started working with an editing team who is helping me with my rough cut and a bit of the end, like, the final edit. But I still want to be involved in the process. And I think there's a lot of editing teams who are very good but you might need to go through a few to find a good fit.
+
+[29:39] So, yeah, AI editing team. I have a question about curiosity loops. I'm curious, like, when your own curiosity loops, like, when you sense that your own curiosity loops don't mirror that at the audience you're trying to reach. And, like, I guess other questions that you ask yourself in order to check that sort of thing or any process.
+
+[29:59] And even, like, I don't know if you want to answer this question, but, like, how good is AI at helping to identify when your own curiosity loops aren't the right ones? That is also a really good question. Yeah, you don't have full transparency into what your audience will think is interesting.
+
+[30:17] And there's, I use a few AI tools. And I think the one that gets it pretty close would be ChatGPT. I think that is the one which would get pretty close to, as a sanity check, asking, like, would a tired person, at the end of their day, be able to understand what I'm saying in this hook?
+
+[30:39] It's generally a sanity check I use for myself as well. Because when you're creating for an audience, you really want to distill your ideas. So that they're as understandable as possible. So that even a tired person could do so. So, yeah, I would say I should check that with yourself.
+
+[30:51] I'd like to use AI, like, as ChatGPT. But I honestly think, to some extent, it's understanding your audience. And creators develop a pulse for that over time. At first, in my first video, I did not understand what my audience would find interesting.
+
+[31:04] But by the 10th, it's very predictable to me. So, it's also reps. Amazing. We actually do have to get to the next talk. But stick around. If you have more questions for Cole, you can reach her afterwards. And everyone here, I highly recommend sticking around for our next talk given by Anna.
+
+[31:21] We're going to get started in just a few minutes. But another round of applause for Cole. Thank you, Cole.

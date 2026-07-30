@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Veggie Coffin — Visual Build Guide 🥶🔨 | Turtle Ops</title>
+<meta name="description" content="Step-by-step visual build guide for David's coffin cold box: 4×8×3 ft plywood + XPS produce cooler with dual AC cooling. 12 illustrated steps.">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+  :root {
+    --tt-orange:#eb5833; --tt-coral:#fd6844; --tt-amber:#db9840; --tt-gold:#e5a14b;
+    --tt-red:#cc272e; --night:#030915; --night-2:#071123; --card:#0b1628; --card-2:#111b28;
+    --border:#1f2a38; --cream:#f7f0eb; --cream-dim:#ddd6d1; --sand:#8a7d75;
+    --radius:12px; --radius-lg:20px; --ok:#69db7c; --warn:#ffd43b; --bad:#ff8787; --ice:#4dd4e8;
+    --ply:#c9a56a; --lum:#a3623b; --foamfill:#123f4c; --foamline:#4dd4e8;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{font-family:'Rajdhani',sans-serif;background:var(--night);color:var(--cream);line-height:1.6;font-size:18px;}
+  .container{max-width:860px;margin:0 auto;padding:20px;}
+  a{color:var(--tt-orange);}
+  .topnav{padding:18px 0;font-weight:600;}
+  .topnav a{text-decoration:none;color:var(--tt-coral);}
+  .hero{text-align:center;padding:26px 10px 20px;}
+  .hero .icon{font-size:3rem;display:block;margin-bottom:8px;}
+  .hero h1{font-size:clamp(1.8rem,6.5vw,3rem);font-weight:700;text-transform:uppercase;letter-spacing:.02em;
+    background:linear-gradient(135deg,var(--cream) 20%,var(--ice),var(--tt-orange));
+    -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:8px;}
+  .hero .sub{color:var(--cream-dim);font-size:1.1rem;max-width:660px;margin:0 auto;}
+  .badge{display:inline-block;padding:4px 14px;background:rgba(105,219,124,.12);color:var(--ok);
+    border:1px solid rgba(105,219,124,.4);border-radius:16px;font-size:.75rem;font-weight:700;
+    letter-spacing:.14em;text-transform:uppercase;margin-top:12px;}
+
+  .specbar{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin:18px 0;}
+  .spec{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:10px 18px;text-align:center;}
+  .spec .n{font-family:'JetBrains Mono',monospace;color:var(--tt-gold);font-weight:600;font-size:1.05rem;}
+  .spec .l{font-size:.75rem;color:var(--sand);text-transform:uppercase;letter-spacing:.1em;}
+
+  .step{background:var(--card);border:1px solid var(--border);border-radius:var(--radius-lg);margin:22px 0;overflow:hidden;}
+  .step-head{display:flex;align-items:center;gap:14px;padding:16px 22px;background:var(--card-2);border-bottom:1px solid var(--border);}
+  .step-num{min-width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,var(--ice),var(--tt-orange));
+    display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1.25rem;color:#fff;}
+  .step-head h2{font-size:1.25rem;text-transform:uppercase;letter-spacing:.03em;}
+  .step-head .time{margin-left:auto;font-family:'JetBrains Mono',monospace;font-size:.75rem;color:var(--sand);white-space:nowrap;}
+  .step-body{padding:20px 22px;}
+  .fig{background:var(--night-2);border:1px solid var(--border);border-radius:var(--radius);padding:10px;margin-bottom:14px;}
+  .fig svg{width:100%;height:auto;display:block;}
+  .step-body ul{color:var(--cream-dim);margin:0 0 10px 22px;}
+  .step-body li{margin-bottom:7px;}
+  .step-body strong{color:var(--cream);}
+  .tip{border-left:3px solid var(--warn);background:rgba(255,212,59,.05);border-radius:0 var(--radius) var(--radius) 0;
+    padding:10px 15px;color:var(--cream-dim);font-size:.95rem;}
+  .tip strong{color:var(--warn);}
+  .tip.danger{border-left-color:var(--bad);}
+  .tip.danger strong{color:var(--bad);}
+
+  /* SVG shared classes */
+  svg .ply{fill:var(--ply);stroke:#8a6b3a;stroke-width:1;}
+  svg .plyd{fill:#a8874f;stroke:#8a6b3a;stroke-width:1;}
+  svg .lum{fill:var(--lum);stroke:#7a4527;stroke-width:1;}
+  svg .foam{fill:var(--foamfill);stroke:var(--foamline);stroke-width:1.2;}
+  svg .ac{fill:#d8dde4;stroke:#9aa3ad;stroke-width:1;}
+  svg .lbl{fill:#f7f0eb;font:600 11px 'Rajdhani',sans-serif;}
+  svg .lbl2{fill:#ddd6d1;font:500 10px 'Rajdhani',sans-serif;}
+  svg .dim{fill:#8a7d75;font:500 10px 'JetBrains Mono',monospace;}
+  svg .dimline{stroke:#8a7d75;stroke-width:1;stroke-dasharray:3 3;fill:none;}
+  svg .arrow{stroke:#4dd4e8;stroke-width:2;fill:none;marker-end:url(#arr);}
+  svg .cut{stroke:#ff8787;stroke-width:2;stroke-dasharray:6 4;fill:none;}
+  svg .tape{fill:none;stroke:#f7f0eb;stroke-width:3;}
+  svg .screw{fill:#4dd4e8;}
+  svg .ground{fill:#241d16;}
+  svg .shade{fill:rgba(219,152,64,.14);stroke:rgba(219,152,64,.5);stroke-width:1;stroke-dasharray:4 3;}
+
+  h3.sect{font-size:1.4rem;text-transform:uppercase;color:var(--tt-gold);margin:30px 0 10px;text-align:center;}
+  .panel{background:var(--card);border:1px solid var(--border);border-radius:var(--radius-lg);padding:22px;margin-bottom:14px;}
+  table.t{width:100%;border-collapse:collapse;font-size:.92rem;margin:8px 0;}
+  table.t th{color:var(--tt-amber);text-transform:uppercase;font-size:.72rem;letter-spacing:.1em;text-align:left;padding:6px;border-bottom:1px solid var(--border);}
+  table.t td{padding:6px;border-bottom:1px solid var(--border);color:var(--cream-dim);}
+  table.t td:first-child{color:var(--cream);font-weight:600;}
+  .footer{text-align:center;padding:36px 20px;border-top:1px solid var(--border);color:var(--sand);font-size:.95rem;margin-top:26px;}
+  .footer a{text-decoration:none;}
+  @media(max-width:640px){body{font-size:16px;}.container{padding:12px;}.step-body{padding:16px;}}
+</style>
+<link rel="stylesheet" href="assets/turtle-cursor.css">
+</head>
+<body>
+<div class="container">
+
+<nav class="topnav"><a href="./">← Turtle Ops</a> · <a href="coldbox.html">🥶 Cold Box Proposal</a> · <a href="kitchen.html">🍳 Kitchen</a></nav>
+
+<header class="hero">
+  <span class="icon">🥶🔨</span>
+  <h1>The Veggie Coffin</h1>
+  <p class="sub">Visual build guide — David's 4×8×3 ft coffin cold box in 12 illustrated steps. Plywood shell, XPS heart, twin AC lungs. A key shelf in keeping the shell fed. 🐢</p>
+  <span class="badge">🔨 ¾ DONE · lid + hinges + interior foam this week · plywood-box design · ship-ready by early Aug 🪚</span>
+</header>
+
+<div class="specbar">
+  <div class="spec"><div class="n">4' × 8' × 3'</div><div class="l">inner box</div></div>
+  <div class="spec"><div class="n">~96 cu ft</div><div class="l">case volume</div></div>
+  <div class="spec"><div class="n">~50°F</div><div class="l">target temp</div></div>
+  <div class="spec"><div class="n">½–1 day</div><div class="l">2–3 turtles</div></div>
+  <div class="spec"><div class="n">~$300</div><div class="l">new spend</div></div>
+</div>
+
+<!-- shared arrowhead marker -->
+<svg width="0" height="0" style="position:absolute"><defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#4dd4e8"/>
+  </marker>
+</defs></svg>
+
+<!-- ============ STEP 1 ============ -->
+<div class="step" id="s1">
+  <div class="step-head"><div class="step-num">1</div><h2>Stage Materials &amp; Tools</h2><span class="time">~30 min</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 420 235">
+      <text x="10" y="16" class="lbl">OWNED ✅</text>
+      <rect x="10" y="24" width="120" height="18" class="foam"/><rect x="14" y="28" width="120" height="18" class="foam"/><rect x="18" y="32" width="120" height="18" class="foam"/><rect x="22" y="36" width="120" height="18" class="foam"/>
+      <text x="26" y="49" class="lbl2">4× XPS 3"×4'×8'</text>
+      <rect x="10" y="72" width="52" height="40" class="ac"/><rect x="16" y="78" width="40" height="20" fill="#5b6672"/><text x="12" y="126" class="lbl2">2× 5k BTU AC</text>
+      <circle cx="105" cy="92" r="17" fill="#111b28" stroke="#4dd4e8"/><text x="93" y="96" class="lbl2">🔥🔪</text><text x="82" y="126" class="lbl2">hot knife</text>
+      <circle cx="152" cy="92" r="17" fill="#111b28" stroke="#4dd4e8"/><text x="143" y="97" class="lbl2">⬜</text><text x="132" y="126" class="lbl2">PT-15 tape</text>
+      <text x="10" y="152" class="lbl">BUY — ONE HOME DEPOT RUN 🛒</text>
+      <rect x="10" y="160" width="120" height="16" class="ply"/><rect x="14" y="164" width="120" height="16" class="ply"/><rect x="18" y="168" width="120" height="16" class="ply"/><rect x="22" y="172" width="120" height="16" class="plyd"/><rect x="26" y="176" width="120" height="16" class="plyd"/>
+      <text x="30" y="188" class="lbl2">4× ½" ply + 1× ¾" ply</text>
+      <rect x="170" y="160" width="90" height="10" class="lum"/><rect x="170" y="174" width="90" height="8" class="lum"/>
+      <text x="170" y="196" class="lbl2">3× 2×4 · 6× 2×2</text>
+      <rect x="285" y="158" width="14" height="30" rx="3" fill="#69db7c"/><rect x="303" y="158" width="14" height="30" rx="3" fill="#69db7c"/>
+      <text x="278" y="200" class="lbl2">PL 300 ×4</text>
+      <circle cx="360" cy="172" r="14" fill="#111b28" stroke="#e5a14b"/><text x="352" y="177" class="lbl2">🔩</text>
+      <text x="336" y="200" class="lbl2">screws+washers</text>
+      <text x="10" y="222" class="lbl2">+ hinges ×2 · handles ×2 · weatherstrip · white paint · min/max thermometer · jigsaw · drill · MOOP bag</text>
+      <text x="272" y="16" class="lbl" fill="#ffd43b">⚠ PL 300 = FOAM-SAFE. Regular glue MELTS XPS.</text>
+      <text x="196" y="52" font-size="26">🐢</text>
+      <text x="226" y="44" class="lbl2">"count it twice,</text>
+      <text x="226" y="57" class="lbl2">cut it once"</text>
+    </svg></div>
+    <ul>
+      <li>Lay everything out and count it — nothing kills momentum like a mid-build store run.</li>
+      <li><strong>Ply:</strong> 4 sheets ½" CDX (walls ×3, lid ×1) + 1 sheet ¾" (floor deck).</li>
+      <li><strong>Lumber:</strong> 3× 2×4×8' (skids), 6× 2×2×8' (corners, AC + lid framing).</li>
+      <li><strong>Glue:</strong> Loctite PL 300 Foamboard ONLY — ordinary construction adhesive dissolves XPS.</li>
+    </ul>
+    <div class="tip"><strong>Visual learner tip:</strong> print this page, tape it to the workbench, cross off each diagram as it becomes real. 📋</div>
+  </div>
+</div>
+
+<!-- ============ STEP 2 ============ -->
+<div class="step" id="s2">
+  <div class="step-head"><div class="step-num">2</div><h2>Build the Skid Base</h2><span class="time">~45 min</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 420 220">
+      <text x="10" y="16" class="lbl">TOP VIEW</text>
+      <rect x="30" y="26" width="240" height="120" fill="none" stroke="#a3623b" stroke-width="6"/>
+      <rect x="30" y="80" width="240" height="8" class="lum"/>
+      <text x="120" y="70" class="lbl2">rim: 2×4 on edge</text>
+      <text x="118" y="102" class="lbl2">center joist</text>
+      <path class="dimline" d="M30 160 L270 160"/><text x="135" y="174" class="dim">8' 0"</text>
+      <path class="dimline" d="M285 26 L285 146"/><text x="291" y="90" class="dim">4' 0"</text>
+      <text x="10" y="200" class="lbl">SIDE VIEW</text>
+      <rect x="300" y="26" width="110" height="14" class="plyd"/>
+      <rect x="308" y="40" width="16" height="14" class="lum"/><rect x="348" y="40" width="16" height="14" class="lum"/><rect x="388" y="40" width="16" height="14" class="lum"/>
+      <rect x="304" y="58" width="24" height="10" fill="#3a3a3a"/><rect x="344" y="58" width="24" height="10" fill="#3a3a3a"/><rect x="384" y="58" width="24" height="10" fill="#3a3a3a"/>
+      <rect x="296" y="68" width="120" height="8" class="ground"/>
+      <path class="arrow" d="M336 52 L344 52"/><text x="300" y="86" class="dim" font-size="9">air gap = no ground heat-soak</text>
+      <text x="300" y="100" class="lbl2">skids on blocks/pavers</text>
+      <text x="150" y="122" font-size="24">🐢</text>
+      <text x="180" y="118" class="lbl2">measuring diagonals</text>
+      <text x="300" y="132" font-size="20">🐢</text><text x="326" y="130" class="lbl2">supervising</text>
+    </svg></div>
+    <ul>
+      <li>Build an 8'×4' rectangle of 2×4s <strong>on edge</strong>, one joist down the center line.</li>
+      <li>Square it: measure both diagonals — equal diagonals = square frame.</li>
+      <li>Set it on blocks or pavers (playa: on stakes-anchored blocks). The <strong>air gap underneath</strong> is free insulation.</li>
+    </ul>
+    <div class="tip"><strong>Pro tip:</strong> screw, don't nail — this box gets moved, and screws let you service it in 2027. 🔩</div>
+  </div>
+</div>
+
+<!-- ============ STEP 3 ============ -->
+<div class="step" id="s3">
+  <div class="step-head"><div class="step-num">3</div><h2>Deck the Floor + Foam Pad</h2><span class="time">~30 min</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 420 190">
+      <text x="10" y="16" class="lbl">CROSS-SECTION (looking down the length)</text>
+      <rect x="60" y="120" width="300" height="16" class="lum"/><text x="368" y="132" class="lbl2">2×4 frame</text>
+      <rect x="50" y="104" width="320" height="16" class="plyd"/><text x="374" y="112" class="lbl2">¾" ply</text>
+      <rect x="60" y="74" width="300" height="30" class="foam"/><text x="368" y="92" class="lbl2">3" XPS</text>
+      <rect x="120" y="34" width="90" height="40" fill="#6b4d2e" stroke="#4a351f"/><line x1="120" y1="47" x2="210" y2="47" stroke="#4a351f"/><line x1="150" y1="34" x2="150" y2="74" stroke="#4a351f"/>
+      <text x="128" y="60" class="lbl2" fill="#f7f0eb">produce case</text>
+      <path class="arrow" d="M250 40 L232 62"/><text x="254" y="38" class="lbl2">cases sit right on foam —</text><text x="254" y="52" class="lbl2">25 psi Scoreboard takes it</text>
+      <rect x="46" y="150" width="330" height="8" class="ground"/>
+      <text x="20" y="146" font-size="26">🐢</text>
+      <text x="10" y="170" class="lbl2">MOOP patrol:</text>
+      <text x="10" y="182" class="lbl2">shavings → bag</text>
+    </svg></div>
+    <ul>
+      <li>Screw the ¾" ply deck to the frame (2½" screws every 12" around the rim + center joist).</li>
+      <li>Cut one XPS sheet to fit <strong>inside</strong> the future wall line (~7'9"×3'9") and lay it on the deck — dry, no glue, so it's replaceable.</li>
+      <li>25 psi Scoreboard handles stacked produce cases directly. No extra wear layer needed.</li>
+    </ul>
+    <div class="tip"><strong>MOOP tip:</strong> hot-knife all XPS cuts over a tarp, shavings straight into a sealed bag. The playa remembers. 🌱</div>
+  </div>
+</div>
+
+<!-- ============ STEP 4 ============ -->
+<div class="step" id="s4">
+  <div class="step-head"><div class="step-num">4</div><h2>Frame the Corners</h2><span class="time">~30 min</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 420 210">
+      <text x="10" y="16" class="lbl">FRONT VIEW (long side)</text>
+      <rect x="40" y="150" width="340" height="14" class="plyd"/>
+      <rect x="48" y="60" width="14" height="90" class="lum"/><rect x="358" y="60" width="14" height="90" class="lum"/>
+      <rect x="200" y="60" width="14" height="90" class="lum" opacity=".55"/>
+      <text x="196" y="52" class="lbl2">optional mid-stud</text>
+      <text x="30" y="52" class="lbl2">2×2 corner uprights ×4 — cut to 36"</text>
+      <path class="dimline" d="M30 60 L30 150"/><text x="8" y="108" class="dim">36"</text>
+      <path class="arrow" d="M90 175 L60 155"/><text x="94" y="182" class="lbl2">screw down through deck into rim (toe-screw)</text>
+      <text x="310" y="130" font-size="26">🐢</text>
+      <text x="300" y="146" class="lbl2">📐 "plumb or</text>
+      <text x="300" y="158" class="lbl2">it's not done"</text>
+    </svg></div>
+    <ul>
+      <li>Cut four 2×2 uprights to <strong>36"</strong>, screw one plumb into each corner of the deck.</li>
+      <li>These are your screw targets — every wall panel lands on wood, never on bare foam.</li>
+      <li>Add a mid-stud on each long wall if your ply feels wobbly (2 more 2×2s).</li>
+    </ul>
+    <div class="tip"><strong>Check twice:</strong> corners plumb with a level now = walls meet cleanly in step 9. 📐</div>
+  </div>
+</div>
+
+<!-- ============ STEP 5 ============ -->
+<div class="step" id="s5">
+  <div class="step-head"><div class="step-num">5</div><h2>Cut Walls — Ply &amp; Foam Together</h2><span class="time">~45 min</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 420 230">
+      <text x="10" y="16" class="lbl">CUTTING MAP — same cuts for ½" ply (saw) and XPS (hot knife)</text>
+      <rect x="10" y="26" width="180" height="90" class="ply"/>
+      <line x1="10" y1="94" x2="190" y2="94" class="cut"/>
+      <text x="18" y="60" class="lbl2">LONG WALL 8' × 3'</text>
+      <text x="18" y="108" class="lbl2" fill="#ff8787">1' strip → SAVE for lid!</text>
+      <text x="10" y="132" class="dim">sheet A (and B same)</text>
+      <rect x="230" y="26" width="180" height="90" class="ply"/>
+      <line x1="320" y1="26" x2="320" y2="116" class="cut"/>
+      <line x1="230" y1="94" x2="410" y2="94" class="cut"/>
+      <text x="238" y="55" class="lbl2">END WALL</text><text x="238" y="68" class="lbl2">4' × 3'</text>
+      <text x="328" y="55" class="lbl2">END WALL</text><text x="328" y="68" class="lbl2">4' × 3'</text>
+      <text x="238" y="108" class="lbl2" fill="#ff8787">strips → lid</text>
+      <text x="230" y="132" class="dim">sheet C</text>
+      <rect x="10" y="150" width="180" height="66" class="foam"/>
+      <text x="18" y="176" class="lbl2">XPS: repeat the exact same map</text>
+      <text x="18" y="192" class="lbl2">2 sheets → long walls · 1 sheet → ends</text>
+      <text x="230" y="164" class="lbl">🧩 THE OFFCUT TRICK:</text>
+      <text x="230" y="182" class="lbl2">the saved 1' strips tile together</text>
+      <text x="230" y="196" class="lbl2">into a full 4×8 layer = FREE lid</text>
+      <text x="230" y="210" class="lbl2">insulation. Zero waste, zero MOOP.</text>
+      <text x="150" y="220" font-size="24">🐢</text><text x="178" y="218" class="lbl2">🔥🔪 slow passes — turtle speed is correct here</text>
+    </svg></div>
+    <ul>
+      <li><strong>Ply:</strong> circular saw/jigsaw. 2 sheets → 8'×3' long walls · 1 sheet → two 4'×3' end walls.</li>
+      <li><strong>XPS:</strong> hot knife + straightedge, identical cuts. Slow steady passes, cut from both faces on 3" foam.</li>
+      <li><strong>Save every 1-foot offcut strip</strong> — they tile into the lid's insulation layer. 🧩</li>
+    </ul>
+    <div class="tip"><strong>Label as you cut:</strong> marker on painter's tape — "LW-1", "LW-2", "EW-A", "EW-B". Future-you says thanks.</div>
+  </div>
+</div>
+
+<!-- ============ STEP 6 ============ -->
+<div class="step" id="s6">
+  <div class="step-head"><div class="step-num">6</div><h2>Cut the AC Openings — One Low, One High</h2><span class="time">~40 min</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 420 210">
+      <text x="10" y="16" class="lbl">END WALL A (4'×3')</text>
+      <rect x="20" y="26" width="160" height="120" class="ply"/>
+      <rect x="50" y="96" width="80" height="42" fill="#071123" stroke="#ff8787" stroke-width="2" stroke-dasharray="6 4"/>
+      <text x="58" y="122" class="lbl2">AC cutout LOW</text>
+      <text x="222" y="16" class="lbl">END WALL B (4'×3')</text>
+      <rect x="240" y="26" width="160" height="120" class="ply"/>
+      <rect x="270" y="36" width="80" height="42" fill="#071123" stroke="#ff8787" stroke-width="2" stroke-dasharray="6 4"/>
+      <text x="278" y="62" class="lbl2">AC cutout HIGH</text>
+      <path class="arrow" d="M130 117 C 200 130, 240 80, 300 60"/>
+      <text x="120" y="176" class="lbl2">cold air sinks → low intake + high exhaust = diagonal loop across all the cases</text>
+      <text x="10" y="200" class="lbl2">📏 Trace the ACTUAL COWSAR chassis + ⅛" clearance. Measure YOUR unit — don't trust the spec sheet.</text>
+      <text x="196" y="112" font-size="24">🐢</text>
+      <text x="188" y="128" class="lbl2">standing in</text>
+      <text x="188" y="140" class="lbl2">the cold loop</text>
+    </svg></div>
+    <ul>
+      <li>One AC sits <strong>LOW</strong> in end wall A, the other <strong>HIGH</strong> in end wall B → diagonal air circulation the full length of the box.</li>
+      <li>Trace the real AC chassis onto the ply, add ⅛" clearance, drill a starter hole, jigsaw the opening.</li>
+      <li>Cut the matching hole in that wall's XPS with the hot knife using the ply as your template.</li>
+      <li>Frame each opening's sides with 2×2 offcuts — the AC's weight bears on wood, never foam.</li>
+    </ul>
+    <div class="tip danger"><strong>⚠ Orientation:</strong> window ACs must sit the way the maker intended (compressor oil). Face the correct side out, and plan a slight outward tilt (step 11).</div>
+  </div>
+</div>
+
+<!-- ============ STEP 7 ============ -->
+<div class="step" id="s7">
+  <div class="step-head"><div class="step-num">7</div><h2>Laminate: Glue + Screw Foam to Ply</h2><span class="time">~1 hr + cure</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 420 200">
+      <text x="10" y="16" class="lbl">EACH WALL PANEL — exploded view</text>
+      <rect x="30" y="40" width="150" height="110" class="ply"/>
+      <path d="M50 60 q20 14 0 28 q-20 14 0 28 M90 60 q20 14 0 28 q-20 14 0 28 M130 60 q20 14 0 28 q-20 14 0 28" stroke="#69db7c" stroke-width="4" fill="none"/>
+      <text x="44" y="168" class="lbl2">PL 300 in S-beads</text>
+      <path class="arrow" d="M195 95 L225 95"/><text x="196" y="86" class="lbl2">press</text>
+      <rect x="240" y="40" width="150" height="110" class="foam"/>
+      <circle class="screw" cx="262" cy="62" r="4"/><circle class="screw" cx="315" cy="62" r="4"/><circle class="screw" cx="368" cy="62" r="4"/>
+      <circle class="screw" cx="262" cy="95" r="4"/><circle class="screw" cx="315" cy="95" r="4"/><circle class="screw" cx="368" cy="95" r="4"/>
+      <circle class="screw" cx="262" cy="128" r="4"/><circle class="screw" cx="315" cy="128" r="4"/><circle class="screw" cx="368" cy="128" r="4"/>
+      <text x="244" y="168" class="lbl2">screws + FENDER WASHERS, ~16" grid</text>
+      <text x="10" y="192" class="lbl2">washer spreads the load so the screw head doesn't pull through the foam · glue = strength, screws = clamps + insurance</text>
+      <text x="198" y="130" font-size="26">🐢</text>
+      <text x="188" y="146" class="lbl2">full-shell press</text>
+    </svg></div>
+    <ul>
+      <li>PL 300 in S-pattern beads on the ply, press the matching XPS on, weight it flat.</li>
+      <li>1¼" screws <strong>with fender washers</strong> through foam into ply on a ~16" grid.</li>
+      <li>Do all 4 walls, leave to cure per tube directions (30–60 min grab) while you prep step 8.</li>
+    </ul>
+    <div class="tip"><strong>Order of operations:</strong> laminate FLAT on sawhorses, then raise. Gluing vertical panels is sadness. 🐢</div>
+  </div>
+</div>
+
+<!-- ============ STEP 8 ============ -->
+<div class="step" id="s8">
+  <div class="step-head"><div class="step-num">8</div><h2>Raise the Walls</h2><span class="time">~1 hr</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 420 220">
+      <text x="10" y="16" class="lbl">TOP VIEW — walls land around the deck, foam faces IN</text>
+      <rect x="60" y="40" width="280" height="130" class="plyd"/>
+      <rect x="60" y="28" width="280" height="12" class="ply"/><rect x="66" y="40" width="268" height="8" class="foam"/>
+      <rect x="60" y="170" width="280" height="12" class="ply"/><rect x="66" y="162" width="268" height="8" class="foam"/>
+      <rect x="48" y="28" width="12" height="154" class="ply"/><rect x="60" y="46" width="8" height="118" class="foam"/>
+      <rect x="340" y="28" width="12" height="154" class="ply"/><rect x="332" y="46" width="8" height="118" class="foam"/>
+      <rect x="62" y="42" width="10" height="10" class="lum"/><rect x="328" y="42" width="10" height="10" class="lum"/>
+      <rect x="62" y="158" width="10" height="10" class="lum"/><rect x="328" y="158" width="10" height="10" class="lum"/>
+      <text x="150" y="105" class="lbl2">← long walls OVERLAP the end walls →</text>
+      <path class="arrow" d="M30 100 L48 100"/><text x="4" y="92" class="lbl2">screw</text><text x="4" y="104" class="lbl2">into 2×2</text>
+      <text x="60" y="204" class="lbl2">2½" screws every 12": down into deck rim + horizontally into the corner 2×2s</text>
+      <text x="368" y="100" font-size="24">🐢</text><text x="360" y="116" class="lbl2">holds</text>
+      <text x="368" y="150" font-size="24">🐢</text><text x="360" y="166" class="lbl2">screws</text>
+    </svg></div>
+    <ul>
+      <li>Stand end walls first (they're lighter), screw into deck rim + corner 2×2s.</li>
+      <li>Long walls go up next, <strong>overlapping the end-wall edges</strong> — hides end grain, strengthens corners.</li>
+      <li>Foam faces inward everywhere. Check the top edges land level all the way around.</li>
+    </ul>
+    <div class="tip"><strong>Two-turtle job:</strong> one holds plumb, one drives screws. Don't hero a 3'×8' panel in wind. 🐢🐢</div>
+  </div>
+</div>
+
+<!-- ============ STEP 9 ============ -->
+<div class="step" id="s9">
+  <div class="step-head"><div class="step-num">9</div><h2>Build the Lid — the Offcut Puzzle</h2><span class="time">~1 hr</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 420 230">
+      <text x="10" y="16" class="lbl">LID CROSS-SECTION</text>
+      <rect x="40" y="40" width="340" height="12" class="ply"/><text x="386" y="50" class="lbl2">½" ply</text>
+      <rect x="52" y="52" width="80" height="26" class="foam"/><rect x="134" y="52" width="80" height="26" class="foam"/><rect x="216" y="52" width="80" height="26" class="foam"/><rect x="298" y="52" width="70" height="26" class="foam"/>
+      <text x="120" y="70" class="lbl2" fill="#f7f0eb">🧩 the saved 1' offcut strips — taped seams</text>
+      <rect x="52" y="78" width="14" height="16" class="lum"/><rect x="354" y="78" width="14" height="16" class="lum"/>
+      <text x="80" y="92" class="lbl2">2×2 lip frame drops INSIDE the box opening = self-locating + draft-stop</text>
+      <text x="10" y="126" class="lbl">TOP VIEW</text>
+      <rect x="40" y="134" width="240" height="70" class="ply"/>
+      <rect x="70" y="128" width="40" height="10" rx="4" class="lum"/><rect x="210" y="128" width="40" height="10" rx="4" class="lum"/>
+      <text x="118" y="172" class="lbl2">2 handles (rope or gate pulls)</text>
+      <text x="300" y="150" class="lbl2">Option: split the lid</text>
+      <text x="300" y="164" class="lbl2">into 2 halves + hinges —</text>
+      <text x="300" y="178" class="lbl2">grab veg without opening</text>
+      <text x="300" y="192" class="lbl2">the whole box 🥬</text>
+      <line x1="160" y1="134" x2="160" y2="204" class="cut"/>
+      <text x="296" y="212" font-size="24">🐢</text>
+      <text x="324" y="210" class="lbl2">puzzle master</text>
+    </svg></div>
+    <ul>
+      <li>Lid = full 4×8 sheet of ½" ply + the <strong>1-foot XPS offcut strips</strong> from step 5 tiled underneath (tape seams with PT-15).</li>
+      <li>Screw a 2×2 lip frame around the underside perimeter, sized to drop <em>just inside</em> the box opening — the lid self-centers and blocks drafts.</li>
+      <li>Stick foam weatherstrip on the wall top edges for the seal.</li>
+      <li><strong>Recommended:</strong> cut the lid into two 4×4 halves, hinge one — daily kitchen grabs only open half the box, keeping the cold in.</li>
+    </ul>
+    <div class="tip"><strong>Wind rule:</strong> an 8-foot lid is a sail. Latch or strap it ALWAYS — even "just for a minute." 💨</div>
+  </div>
+</div>
+
+<!-- ============ STEP 10 ============ -->
+<div class="step" id="s10">
+  <div class="step-head"><div class="step-num">10</div><h2>Mount &amp; Seal the ACs</h2><span class="time">~1 hr</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 420 220">
+      <text x="10" y="16" class="lbl">AC THROUGH END WALL — section view</text>
+      <rect x="60" y="30" width="14" height="150" class="ply"/><rect x="74" y="36" width="26" height="138" class="foam"/>
+      <rect x="20" y="80" width="130" height="52" class="ac"/>
+      <rect x="24" y="88" width="30" height="36" fill="#5b6672"/>
+      <text x="104" y="102" class="lbl2" fill="#333">AC</text>
+      <path class="tape" d="M56 76 L120 76"/><path class="tape" d="M56 136 L120 136"/>
+      <text x="140" y="72" class="lbl2">BOMEI structural collar first,</text>
+      <text x="140" y="86" class="lbl2">then PT-15 full weather-seal —</text>
+      <text x="140" y="100" class="lbl2">inside AND outside faces</text>
+      <path class="dimline" d="M20 150 L150 142"/><text x="156" y="146" class="lbl2">⛰ slight OUTWARD tilt → condensate drips outside, not on veggies</text>
+      <rect x="30" y="180" width="60" height="8" rx="3" fill="#69db7c"/><text x="96" y="188" class="lbl2">GFCI-protected circuit · cord through grommeted hole · drip pan or drain line to greywater</text>
+      <text x="330" y="130" font-size="26">🐢</text>
+      <text x="316" y="148" class="lbl2">tape shaman:</text>
+      <text x="316" y="160" class="lbl2">BOMEI then PT-15</text>
+    </svg></div>
+    <ul>
+      <li>Slide each AC into its framed opening — snug fit on the 2×2 frame from step 6.</li>
+      <li>Seal: <strong>BOMEI reinforced tape</strong> as the structural collar (inside + outside), then <strong>PT-15</strong> over everything as the weather layer. The tapes finally get their moment. 🎉</li>
+      <li>Tilt each unit slightly outward so condensate drips OUTSIDE — catch with a drip pan (greywater rules apply).</li>
+      <li>Cords exit through drilled, grommeted holes — never through the door gap. GFCI on the circuit.</li>
+    </ul>
+    <div class="tip danger"><strong>⚠ David's spec:</strong> these COWSAR units were chosen for MANUAL controls — a power flicker doesn't reset them. Don't swap for digital models.</div>
+  </div>
+</div>
+
+<!-- ============ STEP 10B: AC SUPPORT + TRAVEL MOUNTS (Shaka's design, 7/17) ============ -->
+<div class="step" id="s10b">
+  <div class="step-head"><div class="step-num">10½</div><h2>AC Corner Placement, Support &amp; Travel Mounts</h2><span class="time">~1.5 hr</span></div>
+  <div class="step-body">
+
+    <p style="color:var(--cream-dim);margin-bottom:10px;"><strong>The layout:</strong> LOW unit in the far <strong>left-bottom corner</strong> of end wall A · HIGH unit in the far <strong>right-top corner</strong> of end wall B — a full diagonal both <em>across</em> and <em>along</em> the box. Corners are also the strongest part of the structure (2×2 corner posts right there = free anchoring). Window ACs are heavy, so every pound bears on <strong>wood, never foam</strong> — and everything uninstalls in minutes for travel.</p>
+
+    <div class="fig"><svg viewBox="0 0 420 250">
+      <text x="10" y="16" class="lbl">PLACEMENT — 3D view (corners diagonal both ways)</text>
+      <!-- box isometric-ish -->
+      <path d="M40 190 L40 90 L210 60 L380 90 L380 190 L210 224 Z" fill="none" stroke="#8a6b3a" stroke-width="1.5"/>
+      <path d="M40 90 L210 118 L380 90" fill="none" stroke="#8a6b3a" stroke-width="1"/>
+      <path d="M210 118 L210 224" fill="none" stroke="#8a6b3a" stroke-width="1"/>
+      <path d="M40 90 L40 190 L210 224 L210 118 Z" fill="#c9a56a" opacity="0.25"/>
+      <path d="M210 118 L380 90 L380 190 L210 224 Z" fill="#c9a56a" opacity="0.15"/>
+      <!-- LOW AC left-bottom of end wall A -->
+      <rect x="52" y="150" width="52" height="30" class="ac"/><text x="58" y="169" class="lbl2" fill="#333">AC LOW</text>
+      <text x="30" y="200" class="lbl2">end wall A · far LEFT-BOTTOM corner</text>
+      <!-- HIGH AC right-top of end wall B -->
+      <rect x="312" y="98" width="52" height="30" class="ac"/><text x="318" y="117" class="lbl2" fill="#333">AC HIGH</text>
+      <text x="252" y="86" class="lbl2">end wall B · far RIGHT-TOP corner</text>
+      <!-- diagonal airflow -->
+      <path class="arrow" d="M104 162 C 180 200, 260 170, 330 122" stroke-dasharray="7 5"/>
+      <text x="150" y="210" class="lbl2" fill="#4dd4e8">cold air river: low corner → across + up → high corner return</text>
+      <text x="196" y="158" font-size="22">🐢</text>
+      <text x="182" y="174" class="lbl2">swimming in it</text>
+      <text x="10" y="242" class="lbl2">💡 corners = 2×2 posts already there → strongest anchor points on the whole box</text>
+    </svg></div>
+
+    <div class="fig"><svg viewBox="0 0 420 240">
+      <text x="10" y="16" class="lbl">LOW UNIT — cradle shelf (section view)</text>
+      <!-- wall -->
+      <rect x="180" y="26" width="12" height="170" class="ply"/><rect x="192" y="30" width="24" height="162" class="foam"/>
+      <!-- ground -->
+      <rect x="10" y="196" width="400 " height="6" fill="#3a2b20"/>
+      <!-- exterior cradle legs -->
+      <rect x="96" y="120" width="10" height="76" class="plyd"/><rect x="150" y="120" width="10" height="76" class="plyd"/>
+      <rect x="88" y="108" width="86" height="12" class="plyd"/>
+      <path d="M100 196 L124 150 L106 150 Z" fill="#a8874f" opacity="0.6"/>
+      <text x="60" y="228" class="lbl2">2×4 cradle: legs to GROUND + diagonal brace — weight path goes wall → legs → earth</text>
+      <!-- AC -->
+      <rect x="92" y="66" width="120" height="42" class="ac"/><rect x="98" y="74" width="26" height="26" fill="#5b6672"/>
+      <text x="150" y="92" class="lbl2" fill="#333">AC (low)</text>
+      <!-- interior support cleat -->
+      <rect x="216" y="100" width="34" height="10" class="plyd"/>
+      <text x="254" y="108" class="lbl2">interior 2×2 cleat under sill</text>
+      <!-- retainer batten -->
+      <rect x="86" y="56" width="8" height="58" fill="#69db7c"/>
+      <text x="18" y="52" class="lbl2">retainer batten —</text>
+      <text x="18" y="64" class="lbl2">2 screws, hand-remove</text>
+      <path class="arrow" d="M62 70 L84 78"/>
+    </svg></div>
+
+    <div class="fig"><svg viewBox="0 0 420 260">
+      <text x="10" y="16" class="lbl">HIGH UNIT — Shaka's storage-box stand 📦 (section view)</text>
+      <!-- wall -->
+      <rect x="200" y="26" width="12" height="200" class="ply"/><rect x="212" y="30" width="24" height="192" class="foam"/>
+      <!-- ground -->
+      <rect x="10" y="226" width="400" height="6" fill="#3a2b20"/>
+      <!-- storage box tower -->
+      <rect x="80" y="130" width="110" height="96" class="plyd" rx="3"/>
+      <rect x="86" y="140" width="98" height="20" fill="#111b28" opacity="0.35" rx="2"/>
+      <rect x="86" y="166" width="98" height="20" fill="#111b28" opacity="0.35" rx="2"/>
+      <text x="96" y="155" class="lbl2">spare tapes · filters</text>
+      <text x="96" y="181" class="lbl2">tools · gasket foam</text>
+      <text x="40" y="250" class="lbl2">plywood storage chest OUTSIDE the cooler = the STAND for the high AC — one build, two jobs 🐢</text>
+      <!-- ply top doubler -->
+      <rect x="74" y="118" width="122" height="12" class="ply"/>
+      <text x="18" y="112" class="lbl2">doubled ¾" ply lid</text>
+      <text x="18" y="124" class="lbl2">(load-rated top)</text>
+      <!-- AC on top -->
+      <rect x="92" y="76" width="118" height="42" class="ac"/><rect x="98" y="84" width="26" height="26" fill="#5b6672"/>
+      <text x="148" y="102" class="lbl2" fill="#333">AC (high)</text>
+      <!-- cleat + strap -->
+      <rect x="236" y="110" width="34" height="10" class="plyd"/>
+      <text x="274" y="118" class="lbl2">interior 2×2 cleat</text>
+      <path d="M92 72 C 130 58, 170 58, 210 72" stroke="#eb5833" stroke-width="3" fill="none"/>
+      <text x="240" y="62" class="lbl2">cam strap over chassis →</text>
+      <text x="240" y="74" class="lbl2">anchored to eye screws in box lid</text>
+      <!-- anti-walk cleats -->
+      <rect x="88" y="70" width="6" height="10" fill="#69db7c"/><rect x="208" y="70" width="6" height="10" fill="#69db7c"/>
+      <text x="304" y="94" class="lbl2">1×2 anti-walk cleats</text>
+      <text x="304" y="106" class="lbl2">around AC feet</text>
+    </svg></div>
+
+    <div class="fig"><svg viewBox="0 0 420 175">
+      <text x="10" y="16" class="lbl">TRAVEL MODE — 3-minute uninstall, no tools on the foam</text>
+      <g>
+        <circle cx="38" cy="56" r="17" fill="#111b28" stroke="#4dd4e8"/><text x="32" y="61" class="lbl">1</text>
+        <text x="64" y="48" class="lbl2">pop the cam strap + unscrew retainer batten</text>
+        <text x="64" y="60" class="lbl2">(2 screws — or wingnuts on hanger bolts = zero tools)</text>
+        <circle cx="38" cy="96" r="17" fill="#111b28" stroke="#4dd4e8"/><text x="32" y="101" class="lbl">2</text>
+        <text x="64" y="92" class="lbl2">slide AC straight out — cradle/box stand stays put</text>
+        <circle cx="38" cy="136" r="17" fill="#111b28" stroke="#4dd4e8"/><text x="32" y="141" class="lbl">3</text>
+        <text x="64" y="128" class="lbl2">ACs travel UPRIGHT in the semi · foam port plugs (saved offcuts,</text>
+        <text x="64" y="140" class="lbl2">taped edges) fill the openings · straps + battens live in the storage box</text>
+      </g>
+      <text x="360" y="120" font-size="30">🐢</text>
+      <text x="336" y="146" class="lbl2">move slow, lift with legs</text>
+    </svg></div>
+
+    <ul>
+      <li><strong>Weight path rule:</strong> every pound goes AC → wood → ground. The wall opening only <em>locates</em> the unit; it never carries it. (2×2 opening frames from step 6 stay as the locator.)</li>
+      <li><strong>LOW unit:</strong> exterior 2×4 cradle shelf — two legs to grade + diagonal brace + interior 2×2 cleat under the sill. Deck screws into the corner post, not into foam.</li>
+      <li><strong>HIGH unit (Shaka's build):</strong> the exterior <strong>plywood storage chest doubles as the stand</strong> — double the lid (two layers ¾" ply), sit it flush under the opening, cam-strap the AC chassis to eye screws. Bonus: the chest holds spare tapes, filters, and the travel hardware itself.</li>
+      <li><strong>Easy in/out:</strong> retainer battens on 2 screws (upgrade: hanger bolts + wingnuts = tool-free), cam straps, and NOTHING screwed through foam. Target: one turtle, 3 minutes per unit.</li>
+      <li><strong>Travel mode:</strong> port plugs from saved XPS offcuts (tape the edges) keep dust out of the box in transit; ACs ride upright and padded.</li>
+    </ul>
+    <div class="tip"><strong>💡 Sizing the storage chest:</strong> build it so the AC sill lands at the opening height <em>minus</em> the doubled-lid thickness — measure off the REAL box after the walls are up, not off the plan. Extra wood on hand = perfect for this.</div>
+    <div class="tip danger"><strong>⚠ After 24h upright rest post-travel</strong> before first power-on if a unit tipped in transit (compressor oil). And re-check the outward condensate tilt every re-install.</div>
+  </div>
+</div>
+
+<!-- ============ STEP 11 ============ -->
+<div class="step" id="s11">
+  <div class="step-head"><div class="step-num">11</div><h2>Paint, Shade &amp; Anchor</h2><span class="time">~1 hr + dry</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 420 210">
+      <path class="shade" d="M20 60 L210 14 L400 60 L400 24 L210 2 L20 24 Z"/>
+      <text x="164" y="34" class="lbl2">Aluminet / shade above</text>
+      <rect x="90" y="80" width="240" height="90" fill="#e8e4dc" stroke="#b8b4ac"/>
+      <text x="168" y="130" class="lbl2" fill="#555">painted WHITE</text>
+      <rect x="70" y="96" width="20" height="40" class="ac"/><rect x="330" y="88" width="20" height="40" class="ac"/>
+      <path d="M100 74 C 140 60, 280 60, 320 74" stroke="#eb5833" stroke-width="3" fill="none"/>
+      <text x="150" y="58" class="lbl2" fill="#fd6844">ratchet strap over the lid</text>
+      <rect x="96" y="170" width="30" height="10" fill="#3a3a3a"/><rect x="294" y="170" width="30" height="10" fill="#3a3a3a"/>
+      <path d="M104 180 L96 196 M316 180 L324 196" stroke="#8a7d75" stroke-width="3"/>
+      <text x="60" y="204" class="lbl2">strap ends → concrete stakes (we're welding washer-tops onto 70 of them anyway)</text>
+      <rect x="60" y="182" width="300" height="6" class="ground"/>
+      <text x="34" y="180" font-size="24">🐢</text>
+      <text x="10" y="200" class="lbl2">strap check ×2</text>
+      <text x="368" y="180" font-size="24">🐢</text>
+      <text x="356" y="200" class="lbl2">paint crew</text>
+      <text x="196" y="120" font-size="18">🐢</text>
+    </svg></div>
+    <ul>
+      <li>Paint the whole box <strong>white</strong> (exterior latex) — cheap radiant rejection. Wrap the lid in spare Aluminet if we have offcuts.</li>
+      <li>Site it <strong>under shade, ACs on the shaded side</strong>, near the kitchen trailer but clear of the cook line (XPS + flame = no).</li>
+      <li>Anchor: ratchet strap over the lid to two staked points — 70 mph gusts vs a 300 lb box is a fair fight; don't make it fairer.</li>
+    </ul>
+    <div class="tip"><strong>Playa physics:</strong> white paint + shade + air gap under ≈ the ACs cycle instead of running flat-out. Cheap watts. ⚡</div>
+  </div>
+</div>
+
+<!-- ============ STEP 12 ============ -->
+<div class="step" id="s12">
+  <div class="step-head"><div class="step-num">12</div><h2>Test, Load &amp; Feed the Shell</h2><span class="time">~2 hr test</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 420 220">
+      <text x="10" y="16" class="lbl">CUTAWAY — the working coffin</text>
+      <rect x="40" y="40" width="340" height="120" class="ply"/>
+      <rect x="52" y="52" width="316" height="96" class="foam" opacity=".55"/>
+      <rect x="66" y="96" width="70" height="50" fill="#6b4d2e" stroke="#4a351f"/><rect x="142" y="96" width="70" height="50" fill="#6b4d2e" stroke="#4a351f"/><rect x="218" y="96" width="70" height="50" fill="#6b4d2e" stroke="#4a351f"/><rect x="294" y="96" width="64" height="50" fill="#6b4d2e" stroke="#4a351f"/>
+      <text x="74" y="126" class="lbl2" fill="#f7f0eb">🍎</text><text x="150" y="126" class="lbl2" fill="#f7f0eb">🍌</text><text x="226" y="126" class="lbl2" fill="#f7f0eb">🍊</text><text x="300" y="126" class="lbl2" fill="#f7f0eb">🥬</text>
+      <rect x="150" y="60" width="56" height="26" rx="4" fill="#111b28" stroke="#4dd4e8"/><text x="158" y="78" class="lbl" fill="#4dd4e8">50.2°F</text>
+      <text x="214" y="78" class="lbl2">min/max thermometer, logged at kitchen open</text>
+      <path class="arrow" d="M60 66 C 120 50, 300 50, 366 90"/>
+      <text x="52" y="36" class="lbl2">cold loop: AC low → across cases → AC high</text>
+      <text x="10" y="188" class="lbl2">✅ pull-down test at the Gulch BEFORE the playa: close it up, run both ACs, hit ≤55°F and hold for 2 hours.</text>
+      <text x="10" y="206" class="lbl2">Feel every seam for leaks (or incense-smoke test) → extra PT-15 on anything that whispers.</text>
+      <text x="8" y="120" font-size="24">🐢</text>
+      <text x="386" y="120" font-size="24">🐢</text>
+      <text x="46" y="176" font-size="20">🐢</text><text x="70" y="176" font-size="20">🐢</text><text x="94" y="176" font-size="20">🐢</text>
+      <text x="120" y="174" class="lbl2">the shell is fed 🥬</text>
+    </svg></div>
+    <ul>
+      <li><strong>Pull-down test at the Gulch:</strong> lid on, both ACs running — target ≤55°F within the hour and stable ~50°F after. Fix leaks before the desert, not in it.</li>
+      <li>Mount the min/max thermometer inside, visible from the door end. Kitchen lead logs temp every morning (food-safety protocol).</li>
+      <li>Load discipline: cases off the Bonanza truck straight in — apples/oranges low (they take chill), greens and bananas up top away from AC blast.</li>
+      <li>Then: ~15 cases of fresh produce, cold and crisp, feeding 40 turtles for a week in the desert. <strong>The shell is fed.</strong> 🐢🥬</li>
+    </ul>
+    <div class="tip"><strong>Document it:</strong> photos of every step → this page becomes next year's (and every camp's) playbook. Gift forward. 🎁</div>
+  </div>
+</div>
+
+<!-- ============ TOOL WALL ============ -->
+<h3 class="sect">🧰 The Tool Wall — Dad-Borrow Checklist</h3>
+<div class="panel" style="padding-bottom:8px;">
+  <p style="color:var(--cream-dim);text-align:center;margin-bottom:16px;">Every tool the build needs, drawn so you can spot it on the garage wall. 🐢 = borrow from Dad · 🛒 = buy/own · ✅ = camp already has it. Used-in-step numbers on each card.</p>
+
+  <style>
+    .toolgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:12px;margin-bottom:14px;}
+    .tool{background:var(--card-2);border:1px solid var(--border);border-radius:var(--radius);padding:12px;text-align:center;transition:transform .15s,border-color .2s;}
+    .tool:hover{transform:translateY(-3px);border-color:var(--tt-orange);}
+    .tool svg{width:100%;height:84px;display:block;margin-bottom:6px;}
+    .tool .tname{font-weight:700;font-size:1rem;color:var(--cream);text-transform:uppercase;letter-spacing:.03em;}
+    .tool .tsteps{font-family:'JetBrains Mono',monospace;font-size:.68rem;color:var(--ice);margin-top:2px;}
+    .tool .tnote{font-size:.82rem;color:var(--cream-dim);margin-top:4px;line-height:1.35;}
+    .tool .tsrc{display:inline-block;margin-top:6px;font-size:.7rem;font-weight:700;letter-spacing:.08em;padding:2px 9px;border-radius:8px;text-transform:uppercase;}
+    .tsrc.dad{background:rgba(219,152,64,.15);color:var(--tt-gold);border:1px solid rgba(219,152,64,.4);}
+    .tsrc.buy{background:rgba(255,135,135,.1);color:var(--bad);border:1px solid rgba(255,135,135,.3);}
+    .tsrc.have{background:rgba(105,219,124,.12);color:var(--ok);border:1px solid rgba(105,219,124,.3);}
+    svg .met{fill:#aeb6bf;stroke:#7d8790;stroke-width:1;}
+    svg .met2{fill:#8a939c;stroke:#6a737c;}
+    svg .grip{fill:#eb5833;stroke:#b8432a;stroke-width:1;}
+    svg .grip2{fill:#cc272e;stroke:#9a1e23;}
+    svg .blade{fill:#d8dde4;stroke:#9aa3ad;stroke-width:1;}
+    svg .cord{stroke:#4dd4e8;stroke-width:2;fill:none;}
+    svg .wood2{fill:#c9a56a;stroke:#8a6b3a;}
+  </style>
+
+  <div class="toolgrid">
+
+    <div class="tool"><svg viewBox="0 0 160 84">
+      <circle cx="55" cy="42" r="26" class="blade"/><circle cx="55" cy="42" r="5" class="met2"/>
+      <g stroke="#9aa3ad" stroke-width="1"><line x1="55" y1="16" x2="55" y2="24"/><line x1="55" y1="60" x2="55" y2="68"/><line x1="29" y1="42" x2="37" y2="42"/><line x1="73" y1="42" x2="81" y2="42"/><line x1="37" y1="24" x2="42" y2="29"/><line x1="68" y1="55" x2="73" y2="60"/><line x1="73" y1="24" x2="68" y2="29"/><line x1="42" y1="55" x2="37" y2="60"/></g>
+      <rect x="48" y="8" width="60" height="18" rx="4" class="met"/>
+      <rect x="98" y="12" width="44" height="26" rx="8" class="grip"/>
+      <rect x="106" y="38" width="18" height="12" class="grip2"/>
+      <path class="cord" d="M142 28 q12 6 8 18"/>
+      <text x="8" y="80" font-size="18">🐢</text>
+    </svg>
+      <div class="tname">Circular Saw</div><div class="tsteps">steps 5 · 9</div>
+      <div class="tnote">Rips ply sheets to 8'×3' &amp; 4'×3'. Straight cuts w/ a clamped guide board.</div>
+      <span class="tsrc dad">🐢 borrow</span></div>
+
+    <div class="tool"><svg viewBox="0 0 160 84">
+      <rect x="30" y="30" width="56" height="26" rx="6" class="grip"/>
+      <rect x="82" y="34" width="28" height="16" rx="3" class="met"/>
+      <rect x="110" y="38" width="26" height="6" class="blade"/>
+      <path d="M110 44 l4 3 l-4 3 l4 3 l-4 3" stroke="#9aa3ad" fill="none"/>
+      <rect x="38" y="54" width="16" height="20" class="grip2"/>
+      <text x="120" y="26" class="lbl2">↕ thin blade</text>
+      <text x="8" y="80" font-size="18">🐢</text>
+    </svg>
+      <div class="tname">Jigsaw</div><div class="tsteps">steps 6 · 9</div>
+      <div class="tnote">AC cutouts + curved/inside cuts. Drill a starter hole first.</div>
+      <span class="tsrc dad">🐢 borrow</span></div>
+
+    <div class="tool"><svg viewBox="0 0 160 84">
+      <rect x="28" y="26" width="48" height="30" rx="8" class="grip"/>
+      <rect x="74" y="32" width="22" height="16" class="met"/>
+      <path d="M96 36 L120 38 L120 44 L96 46 Z" class="met2"/>
+      <rect x="34" y="54" width="16" height="22" rx="3" class="grip2"/>
+      <rect x="30" y="74" width="24" height="8" rx="3" fill="#111b28" stroke="#4dd4e8"/>
+      <text x="102" y="26" class="lbl2">🔩 clutch on!</text>
+      <text x="8" y="80" font-size="18">🐢</text>
+    </svg>
+      <div class="tname">Drill / Driver ×2</div><div class="tsteps">steps 2 · 3 · 4 · 6 · 8 · 9 · 10</div>
+      <div class="tnote">The whole build is screws. TWO drills = one drilling, one driving — no bit swaps. Grab Dad's spare battery too.</div>
+      <span class="tsrc dad">🐢 borrow both</span></div>
+
+    <div class="tool"><svg viewBox="0 0 160 84">
+      <rect x="30" y="34" width="70" height="18" rx="4" class="grip"/>
+      <rect x="100" y="30" width="8" height="26" class="met"/>
+      <path d="M108 38 q22 -14 34 -4" stroke="#e5a14b" stroke-width="6" fill="none"/>
+      <path d="M140 32 q6 3 2 8" stroke="#ff8787" stroke-width="3" fill="none" opacity=".8"/>
+      <text x="112" y="66" class="lbl2">🔥 hot wire</text>
+      <text x="8" y="80" font-size="18">✅</text>
+    </svg>
+      <div class="tname">ROMECH Hot Knife</div><div class="tsteps">steps 3 · 5 · 6</div>
+      <div class="tnote">All XPS cuts — clean, MOOP-free. Slow passes, both faces on 3" foam.</div>
+      <span class="tsrc have">✅ camp has it</span></div>
+
+    <div class="tool"><svg viewBox="0 0 160 84">
+      <rect x="24" y="36" width="112" height="14" rx="3" fill="#e5a14b" stroke="#b8813a"/>
+      <g stroke="#6a5320" stroke-width="1"><line x1="34" y1="36" x2="34" y2="43"/><line x1="44" y1="36" x2="44" y2="46"/><line x1="54" y1="36" x2="54" y2="43"/><line x1="64" y1="36" x2="64" y2="46"/><line x1="74" y1="36" x2="74" y2="43"/><line x1="84" y1="36" x2="84" y2="46"/><line x1="94" y1="36" x2="94" y2="43"/><line x1="104" y1="36" x2="104" y2="46"/><line x1="114" y1="36" x2="114" y2="43"/><line x1="124" y1="36" x2="124" y2="46"/></g>
+      <rect x="24" y="20" width="30" height="16" rx="3" class="met"/>
+      <text x="60" y="30" class="lbl2">tape measure + 4' level + straightedge</text>
+      <rect x="24" y="58" width="90" height="8" rx="2" fill="#4dd4e8" opacity=".7"/>
+      <circle cx="69" cy="62" r="3" fill="#111b28"/>
+      <text x="120" y="66" class="lbl2">bubble</text>
+      <text x="8" y="80" font-size="18">🐢</text>
+    </svg>
+      <div class="tname">Measure &amp; Level Kit</div><div class="tsteps">every step</div>
+      <div class="tnote">25' tape, 4' level, chalk line or straight board as a saw guide, speed square.</div>
+      <span class="tsrc dad">🐢 borrow</span></div>
+
+    <div class="tool"><svg viewBox="0 0 160 84">
+      <path d="M40 22 L40 62 L54 62 L54 40 L96 40 L96 62 L110 62 L110 22 Z" fill="none" stroke="#aeb6bf" stroke-width="5"/>
+      <rect x="64" y="18" width="22 " height="14" rx="4" class="grip"/>
+      <text x="116" y="46" class="lbl2">×4+</text>
+      <text x="30" y="78" class="lbl2">clamp the foam while PL 300 grabs</text>
+      <text x="8" y="30" font-size="18">🐢</text>
+    </svg>
+      <div class="tname">Bar/Spring Clamps</div><div class="tsteps">steps 5 · 7</div>
+      <div class="tnote">4+ of any style. Clamp guide boards for saw cuts + hold foam-ply while gluing.</div>
+      <span class="tsrc dad">🐢 borrow all he has</span></div>
+
+    <div class="tool"><svg viewBox="0 0 160 84">
+      <path d="M36 56 L76 22 L86 30 L52 68 Z" class="met"/>
+      <rect x="70" y="14" width="34" height="20" rx="4" class="met2"/>
+      <rect x="36" y="60" width="52" height="10" rx="4" class="grip"/>
+      <text x="108" y="30" class="lbl2">caulk gun</text>
+      <rect x="104" y="38" width="40" height="12" rx="5" fill="#69db7c"/>
+      <path d="M144 44 l10 0" stroke="#69db7c" stroke-width="3"/>
+      <text x="100" y="66" class="lbl2">PL 300 tube ×4</text>
+      <text x="8" y="80" font-size="18">🐢</text>
+    </svg>
+      <div class="tname">Caulk Gun</div><div class="tsteps">step 7</div>
+      <div class="tnote">Standard cradle gun for the PL 300 foamboard tubes. Dad definitely has one.</div>
+      <span class="tsrc dad">🐢 borrow · glue 🛒</span></div>
+
+    <div class="tool"><svg viewBox="0 0 160 84">
+      <path d="M30 30 a18 18 0 1 0 0.1 0" fill="none" stroke="#aeb6bf" stroke-width="7"/>
+      <path d="M44 44 L80 58 L76 66 L40 52 Z" class="met2"/>
+      <text x="92" y="36" class="lbl2">utility knife +</text>
+      <text x="92" y="50" class="lbl2">deburr / sandpaper</text>
+      <rect x="92" y="56" width="44" height="10" fill="#c9a56a" stroke="#8a6b3a"/>
+      <text x="92" y="78" class="lbl2">120-grit block</text>
+      <text x="8" y="80" font-size="18">🐢</text>
+    </svg>
+      <div class="tname">Knife + Sanding Block</div><div class="tsteps">steps 5 · 9 · 10</div>
+      <div class="tnote">Trim foam edges, break sharp ply corners, tune the lid fit.</div>
+      <span class="tsrc dad">🐢 borrow</span></div>
+
+    <div class="tool"><svg viewBox="0 0 160 84">
+      <rect x="36" y="24" width="14" height="44" rx="3" class="met"/>
+      <path d="M50 28 q14 4 0 10 q-14 4 0 10 q-14 4 0 10" stroke="#aeb6bf" stroke-width="2" fill="none"/>
+      <rect x="70" y="24" width="30" height="44" rx="4" fill="#111b28" stroke="#4dd4e8"/>
+      <rect x="76" y="30" width="18" height="12" fill="#071123" stroke="#4dd4e8"/>
+      <text x="74" y="60" class="lbl" fill="#4dd4e8">50°</text>
+      <text x="106" y="40" class="lbl2">drill bits +</text>
+      <text x="106" y="54" class="lbl2">hole saw kit</text>
+      <text x="8" y="80" font-size="18">🐢</text>
+    </svg>
+      <div class="tname">Bits + Thermometer</div><div class="tsteps">steps 6 · 10 · 12</div>
+      <div class="tnote">Twist bits (starter holes, cord pass-through w/ grommet) + min/max thermometer 🛒 (~$12).</div>
+      <span class="tsrc dad">🐢 bits · 🛒 thermo</span></div>
+
+    <div class="tool"><svg viewBox="0 0 160 84">
+      <rect x="26" y="30" width="56" height="34" rx="4" fill="#f7f0eb" stroke="#c9c2bb"/>
+      <ellipse cx="54" cy="47" rx="18" ry="10" fill="none" stroke="#9aa3ad"/>
+      <rect x="92" y="26" width="10" height="42" rx="3" class="grip"/>
+      <path d="M102 32 L134 32 L134 40 L102 40" fill="#d8dde4" stroke="#9aa3ad"/>
+      <text x="104" y="60" class="lbl2">brush + roller</text>
+      <text x="30" y="24" class="lbl2">white exterior latex 1 gal</text>
+      <text x="8" y="80" font-size="18">🐢</text>
+    </svg>
+      <div class="tname">Paint Kit</div><div class="tsteps">step 11</div>
+      <div class="tnote">Roller, tray, brush for edges. Dad's shelf probably has half a gallon of white already.</div>
+      <span class="tsrc dad">🐢 tools · 🛒 paint</span></div>
+
+    <div class="tool"><svg viewBox="0 0 160 84">
+      <path d="M30 40 q20 -18 44 0" fill="none" stroke="#eb5833" stroke-width="5"/>
+      <rect x="66" y="34" width="22" height="14" rx="3" class="met"/>
+      <path d="M88 40 q18 8 34 2" fill="none" stroke="#eb5833" stroke-width="5"/>
+      <path d="M118 34 l14 8 l-14 8" fill="#8a939c"/>
+      <text x="34" y="66" class="lbl2">2 straps + S-hooks — anchor the lid &amp; box</text>
+      <text x="8" y="80" font-size="18">🐢</text>
+    </svg>
+      <div class="tname">Ratchet Straps ×2</div><div class="tsteps">step 11</div>
+      <div class="tnote">Over-lid anchoring vs playa wind. Camp has some — confirm 2 are free for this.</div>
+      <span class="tsrc have">✅ camp (confirm)</span></div>
+
+    <div class="tool"><svg viewBox="0 0 160 84">
+      <circle cx="50" cy="40" r="20" fill="none" stroke="#aeb6bf" stroke-width="6"/>
+      <circle cx="50" cy="40" r="8" fill="#f7f0eb"/>
+      <text x="80" y="34" class="lbl2">PT-15 ✅ + BOMEI ✅</text>
+      <text x="80" y="48" class="lbl2">+ painter's tape 🛒</text>
+      <text x="80" y="62" class="lbl2">(labels + clean paint lines)</text>
+      <text x="8" y="80" font-size="18">✅</text>
+    </svg>
+      <div class="tname">Tape Trio</div><div class="tsteps">steps 5 · 9 · 10 · 11</div>
+      <div class="tnote">Camp's PT-15 + BOMEI do the sealing; painter's tape does labels &amp; paint edges.</div>
+      <span class="tsrc have">✅ mostly have</span></div>
+
+    <div class="tool"><svg viewBox="0 0 160 84">
+      <circle cx="46" cy="34" r="14" fill="none" stroke="#aeb6bf" stroke-width="4"/>
+      <path d="M40 30 a8 8 0 0 1 12 0" fill="none" stroke="#4dd4e8" stroke-width="3"/>
+      <rect x="70" y="22" width="36" height="24" rx="4" fill="#111b28" stroke="#ffd43b"/>
+      <text x="76" y="38" class="lbl2" fill="#ffd43b">👓</text>
+      <rect x="112" y="22" width="30" height="24" rx="4" fill="#111b28" stroke="#69db7c"/>
+      <text x="118" y="38" class="lbl2" fill="#69db7c">🧤</text>
+      <text x="30" y="66" class="lbl2">ears · eyes · hands — hot knife fumes = work outside</text>
+      <text x="8" y="80" font-size="18">🐢</text>
+    </svg>
+      <div class="tname">PPE</div><div class="tsteps">every step</div>
+      <div class="tnote">Safety glasses (saw + jigsaw), gloves, ear pro. Hot-knife XPS outdoors/ventilated only.</div>
+      <span class="tsrc dad">🐢 borrow / 🛒 cheap</span></div>
+
+    <div class="tool"><svg viewBox="0 0 160 84">
+      <path d="M40 58 L58 58 L58 40 L74 40 L74 58 L92 58" fill="none" stroke="#aeb6bf" stroke-width="5"/>
+      <rect x="36" y="58" width="62" height="6" class="wood2"/>
+      <rect x="104" y="30" width="34" height="34" rx="4" fill="#111b28" stroke="#8a7d75"/>
+      <text x="110" y="52" font-size="16">🗑️</text>
+      <text x="26" y="26" class="lbl2">2 sawhorses + sealed MOOP bag/bin</text>
+      <text x="8" y="80" font-size="18">🐢</text>
+    </svg>
+      <div class="tname">Sawhorses + MOOP Bin</div><div class="tsteps">steps 5 · 7</div>
+      <div class="tnote">Cut &amp; laminate flat at working height. Every shaving into the sealed bin — playa rules start at the Gulch.</div>
+      <span class="tsrc dad">🐢 borrow horses</span></div>
+
+  </div>
+
+  <div class="tip" style="margin-bottom:14px;"><strong>🚗 The Dad Raid, summarized:</strong> circular saw · jigsaw · 2 drill/drivers + batteries · clamps (all of them) · caulk gun · tape measure/level/square · sawhorses ×2 · drill bit set · PPE · roller kit. <strong>Buy new:</strong> PL 300 ×4, screws + fender washers, hinges/handles/weatherstrip, white paint, thermometer, painter's tape. <strong>Camp already has:</strong> hot knife, PT-15, BOMEI, ratchet straps. Bring Dad a birthday beer and return everything clean — that's the turtle way. 🐢🍺</div>
+</div>
+
+<!-- CUT LIST + SUMMARY -->
+<h3 class="sect">📋 One-Glance Cut List</h3>
+<div class="panel">
+  <table class="t">
+    <tr><th>Part</th><th>Plywood</th><th>XPS (3")</th><th>Lumber</th></tr>
+    <tr><td>Floor</td><td>1× ¾" full 4×8</td><td>1× cut to ~7'9"×3'9" (loose lay)</td><td>2×4: rim 2×8' + 2×~3'9" + 1 joist</td></tr>
+    <tr><td>Long walls ×2</td><td>2× ½" cut to 8'×3'</td><td>2× cut to 8'×3'</td><td>corner 2×2s ×4 @ 36"</td></tr>
+    <tr><td>End walls ×2</td><td>1× ½" cut to two 4'×3'</td><td>1× cut to two 4'×3'</td><td>AC frames from 2×2 offcuts</td></tr>
+    <tr><td>Lid</td><td>1× ½" full 4×8 (split optional)</td><td>🧩 the saved 1' offcut strips</td><td>2×2 lip frame ~perimeter</td></tr>
+    <tr><td><strong>Totals</strong></td><td><strong>5 sheets (4× ½", 1× ¾")</strong></td><td><strong>4 sheets — exactly what we own ✅</strong></td><td><strong>3× 2×4 · 6× 2×2</strong></td></tr>
+  </table>
+  <p style="color:var(--cream-dim);margin-top:8px;">Build order at a glance: <strong>base → deck → corners → cut → laminate → raise → lid → ACs → paint/anchor → test → load</strong>. Half a day to a day with 2–3 turtles. 🐢</p>
+</div>
+
+<footer class="footer">
+  <p>🐢 <a href="./">Turtle Ops</a> · <a href="coldbox.html">Cold Box Proposal</a> · design by David (Naked Heart), visuals by Terri · <a href="https://terribleturtle.camp/" target="_blank">terribleturtle.camp</a></p>
+  <p style="margin-top:6px;color:var(--tt-amber);">Move Slow &amp; Bite Things.</p>
+</footer>
+
+</div>
+<script src="assets/turtle-cursor.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dining Shade Build Guide 🎪 | Turtle Ops — Terrible Turtle Camp</title>
+<meta name="description" content="Visual build guide for the semi-trailer-anchored dining shade: keder rail, 20-ft poles, 75×90 ft fabric, 60° flaps. From David's design, in 10 illustrated steps.">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+  :root {
+    --tt-orange:#eb5833; --tt-coral:#fd6844; --tt-amber:#db9840; --tt-gold:#e5a14b;
+    --tt-red:#cc272e; --night:#030915; --night-2:#071123; --card:#0b1628; --card-2:#111b28;
+    --border:#1f2a38; --cream:#f7f0eb; --cream-dim:#ddd6d1; --sand:#8a7d75;
+    --radius:12px; --radius-lg:20px; --ok:#69db7c; --warn:#ffd43b; --bad:#ff8787; --ice:#4dd4e8;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{font-family:'Rajdhani',sans-serif;background:var(--night);color:var(--cream);line-height:1.6;font-size:18px;}
+  .container{max-width:860px;margin:0 auto;padding:20px;}
+  a{color:var(--tt-orange);}
+  .topnav{padding:18px 0;font-weight:600;}
+  .topnav a{text-decoration:none;color:var(--tt-coral);}
+  .hero{text-align:center;padding:26px 10px 20px;}
+  .hero .icon{font-size:3rem;display:block;margin-bottom:8px;}
+  .hero h1{font-size:clamp(1.8rem,6.5vw,3rem);font-weight:700;text-transform:uppercase;letter-spacing:.02em;
+    background:linear-gradient(135deg,var(--cream) 20%,var(--tt-gold),var(--tt-orange));
+    -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:8px;}
+  .hero .sub{color:var(--cream-dim);font-size:1.1rem;max-width:660px;margin:0 auto;}
+  .badge{display:inline-block;padding:4px 14px;background:rgba(219,152,64,.15);color:var(--tt-gold);
+    border:1px solid rgba(219,152,64,.4);border-radius:16px;font-size:.75rem;font-weight:700;
+    letter-spacing:.14em;text-transform:uppercase;margin-top:12px;}
+  .specbar{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin:18px 0;}
+  .spec{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:10px 18px;text-align:center;}
+  .spec .n{font-family:'JetBrains Mono',monospace;color:var(--tt-gold);font-weight:600;font-size:1.05rem;}
+  .spec .l{font-size:.75rem;color:var(--sand);text-transform:uppercase;letter-spacing:.1em;}
+  .step{background:var(--card);border:1px solid var(--border);border-radius:var(--radius-lg);margin:22px 0;overflow:hidden;}
+  .step-head{display:flex;align-items:center;gap:14px;padding:16px 22px;background:var(--card-2);border-bottom:1px solid var(--border);}
+  .step-num{min-width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,var(--tt-gold),var(--tt-orange));
+    display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1.25rem;color:#fff;}
+  .step-head h2{font-size:1.25rem;text-transform:uppercase;letter-spacing:.03em;}
+  .step-head .time{margin-left:auto;font-family:'JetBrains Mono',monospace;font-size:.75rem;color:var(--sand);white-space:nowrap;}
+  .step-body{padding:20px 22px;}
+  .fig{background:var(--night-2);border:1px solid var(--border);border-radius:var(--radius);padding:10px;margin-bottom:14px;}
+  .fig svg{width:100%;height:auto;display:block;}
+  .step-body ul{color:var(--cream-dim);margin:0 0 10px 22px;}
+  .step-body li{margin-bottom:7px;}
+  .step-body strong{color:var(--cream);}
+  .tip{border-left:3px solid var(--warn);background:rgba(255,212,59,.05);border-radius:0 var(--radius) var(--radius) 0;
+    padding:10px 15px;color:var(--cream-dim);font-size:.95rem;}
+  .tip strong{color:var(--warn);}
+  .tip.danger{border-left-color:var(--bad);}
+  .tip.danger strong{color:var(--bad);}
+  svg .semi{fill:#8a939c;stroke:#6a737c;stroke-width:1;}
+  svg .fab{fill:rgba(219,152,64,.2);stroke:var(--tt-gold);stroke-width:1.5;}
+  svg .fab2{fill:rgba(219,152,64,.12);stroke:var(--tt-gold);stroke-width:1;stroke-dasharray:5 3;}
+  svg .pole{stroke:#aeb6bf;stroke-width:4;fill:none;}
+  svg .cable{stroke:#4dd4e8;stroke-width:1.5;fill:none;}
+  svg .strap{stroke:#eb5833;stroke-width:2.5;fill:none;}
+  svg .stake{fill:#8a939c;stroke:#6a737c;}
+  svg .lbl{fill:#f7f0eb;font:600 11px 'Rajdhani',sans-serif;}
+  svg .lbl2{fill:#ddd6d1;font:500 10px 'Rajdhani',sans-serif;}
+  svg .dim{fill:#8a7d75;font:500 10px 'JetBrains Mono',monospace;}
+  svg .dimline{stroke:#8a7d75;stroke-width:1;stroke-dasharray:3 3;fill:none;}
+  svg .arrow{stroke:#4dd4e8;stroke-width:2;fill:none;marker-end:url(#arr2);}
+  svg .ground{fill:#241d16;}
+  svg .met{fill:#aeb6bf;stroke:#7d8790;}
+  h3.sect{font-size:1.4rem;text-transform:uppercase;color:var(--tt-gold);margin:30px 0 10px;text-align:center;}
+  .panel{background:var(--card);border:1px solid var(--border);border-radius:var(--radius-lg);padding:22px;margin-bottom:14px;}
+  table.t{width:100%;border-collapse:collapse;font-size:.92rem;margin:8px 0;}
+  table.t th{color:var(--tt-amber);text-transform:uppercase;font-size:.72rem;letter-spacing:.1em;text-align:left;padding:6px;border-bottom:1px solid var(--border);}
+  table.t td{padding:6px;border-bottom:1px solid var(--border);color:var(--cream-dim);}
+  table.t td:first-child{color:var(--cream);font-weight:600;}
+  .footer{text-align:center;padding:36px 20px;border-top:1px solid var(--border);color:var(--sand);font-size:.95rem;margin-top:26px;}
+  .footer a{text-decoration:none;}
+  @media(max-width:640px){body{font-size:16px;}.container{padding:12px;}.step-body{padding:16px;}}
+</style>
+<link rel="stylesheet" href="assets/turtle-cursor.css">
+</head>
+<body>
+<div class="container">
+
+<nav class="topnav"><a href="./">← Turtle Ops</a> · <a href="map.html">🗺️ Camp Map</a> · <a href="coffin-build.html">🥶 Coffin Guide</a> · <a href="kitchen.html">🍳 Kitchen</a></nav>
+
+<header class="hero">
+  <span class="icon">🎪🚛</span>
+  <h1>The Dining Shade</h1>
+  <p class="sub">Visual build guide — the 75'×90' Aluminet wing that flies off the semi trailer and shades the whole dining zone, kitchen trailer included. David's design, 10 illustrated steps. 🐢</p>
+  <span class="badge">Keder rail INSTALLED ✅ (Jarrett, week of 7/20) · hardware staging in progress</span>
+</header>
+
+<div class="specbar">
+  <div class="spec"><div class="n">75' × 90'</div><div class="l">fabric</div></div>
+  <div class="spec"><div class="n">13–13.5'</div><div class="l">keder rail height</div></div>
+  <div class="spec"><div class="n">2× 20'</div><div class="l">poles, 75' downwind</div></div>
+  <div class="spec"><div class="n">60°</div><div class="l">side flap angle</div></div>
+  <div class="spec"><div class="n">4–6 🐢</div><div class="l">raise crew</div></div>
+</div>
+
+<svg width="0" height="0" style="position:absolute"><defs>
+  <marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#4dd4e8"/>
+  </marker>
+</defs></svg>
+
+<!-- STEP 1: THE BIG PICTURE -->
+<div class="step">
+  <div class="step-head"><div class="step-num">1</div><h2>Understand the Shape</h2><span class="time">10 min · everyone</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 420 250">
+      <text x="10" y="16" class="lbl">BIRD'S EYE — the whole structure</text>
+      <rect x="40" y="30" width="14" height="180" class="semi"/>
+      <text x="18" y="120" class="lbl2" transform="rotate(-90 30 120)">SEMI 51' · wall = north anchor</text>
+      <path class="fab" d="M54 45 L330 70 L330 170 L54 195 Z"/>
+      <path class="fab2" d="M54 45 L124 20 L330 70 Z"/>
+      <path class="fab2" d="M54 195 L124 224 L330 170 Z"/>
+      <line x1="330" y1="70" x2="330" y2="170" class="pole"/>
+      <circle cx="330" cy="70" r="6" fill="#e5a14b"/><circle cx="330" cy="170" r="6" fill="#e5a14b"/>
+      <text x="340" y="68" class="lbl2">pole 1 (20')</text>
+      <text x="340" y="176" class="lbl2">pole 2 (20')</text>
+      <path class="dimline" d="M54 226 L330 226"/><text x="168" y="240" class="dim">75' downwind</text>
+      <path class="dimline" d="M356 70 L356 170"/><text x="362" y="124" class="dim">~50'</text>
+      <text x="140" y="128" class="lbl">MAIN BAY — dining + kitchen trailer</text>
+      <text x="120" y="34" class="lbl2">side flap → ground @60°</text>
+      <text x="120" y="216" class="lbl2">side flap → ground @60°</text>
+      <text x="380" y="120" font-size="20">🐢</text>
+      <text x="8" y="246" class="lbl2">wind hits the SEMI side · fabric flies downwind off the top</text>
+    </svg></div>
+    <ul>
+      <li>One piece of Aluminet, <strong>75 ft × 90 ft</strong>. The 90' edge: <strong>50 ft clips into the keder rail</strong> on the semi + a <strong>20 ft flap on each side</strong>.</li>
+      <li>The fabric flies from the semi top (~13–13.5 ft) out to <strong>two 20-ft poles 75 ft downwind</strong>, then 20 more ft of fabric slopes from each pole tip to the ground.</li>
+      <li>The two side flaps anchor to the ground at <strong>~60°</strong>, closing the wings. The pole-side face stays open.</li>
+      <li>Underneath each wing: an <strong>equilateral triangle with 20-ft legs</strong> — big enough to drive the kitchen trailer through (~8×11 ft needed; do the geometry per David).</li>
+    </ul>
+    <div class="tip"><strong>David's mental model:</strong> "your two hands are the lines of poles" — semi is the tall anchor, poles hold the far edge, everything else is tension. 🙌</div>
+  </div>
+</div>
+
+<!-- STEP 2: KEDER RAIL -->
+<div class="step">
+  <div class="step-head"><div class="step-num">2</div><h2>Mount the Keder Rail on the Semi</h2><span class="time">1 day · 2–3 🐢 · DUE 7/15</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 420 230">
+      <text x="10" y="16" class="lbl">SEMI WALL — section</text>
+      <rect x="60" y="30" width="16" height="160" class="semi"/>
+      <rect x="76" y="44" width="12" height="20" fill="#e5a14b" stroke="#b8813a"/>
+      <circle cx="82" cy="54" r="3" fill="#071123"/>
+      <text x="96" y="50" class="lbl2">13mm keder rail, 90° single</text>
+      <text x="96" y="63" class="lbl2">(64 ft total, sections butted)</text>
+      <path class="dimline" d="M40 44 L40 190"/><text x="14" y="120" class="dim">13–13.5'</text>
+      <rect x="30" y="190" width="140" height="8" class="ground"/>
+      <text x="200" y="30" class="lbl">FASTENING — drill &amp; tap</text>
+      <rect x="200" y="42" width="200" height="52" rx="6" fill="#111b28" stroke="#1f2a38"/>
+      <text x="210" y="60" class="lbl2">1. #7 bit (13/64") pilot — fluid always</text>
+      <text x="210" y="74" class="lbl2">2. 1/4-20 tap: ½ turn in, ¼ back</text>
+      <text x="210" y="88" class="lbl2">3. 1/4-20 SS screws + washers, snug</text>
+      <text x="200" y="118" class="lbl">SPACING</text>
+      <rect x="200" y="126" width="200" height="14" fill="#e5a14b" opacity=".5"/>
+      <circle cx="212" cy="133" r="3" fill="#071123"/><circle cx="248" cy="133" r="3" fill="#071123"/><circle cx="284" cy="133" r="3" fill="#071123"/><circle cx="320" cy="133" r="3" fill="#071123"/><circle cx="356" cy="133" r="3" fill="#071123"/><circle cx="392" cy="133" r="3" fill="#071123"/>
+      <text x="200" y="158" class="lbl2">fastener every 12–16" per keder spec</text>
+      <text x="200" y="180" class="lbl2">⚠ practice on scrap steel FIRST —</text>
+      <text x="200" y="194" class="lbl2">a snapped tap at 13 ft = bad day</text>
+      <text x="120" y="210" font-size="20">🐢</text><text x="146" y="208" class="lbl2">on a ladder, spotter below 🐢</text>
+    </svg></div>
+    <ul>
+      <li>Rail: <strong>13mm single keder rail, 90° profile</strong> (Keder Solutions, 64 ft ordered). Mounts as high as the semi's top rail allows — target <strong>13 to 13.5 ft</strong>.</li>
+      <li>Snap a level chalk line the full 50 ft first. Butt rail sections tight, keep the channel opening aligned so the fabric bead feeds through the joints.</li>
+      <li>Drill &amp; tap: <strong>#7 bit → 1/4-20 tap → stainless screws</strong>. Cutting fluid on every hole. Half-turn in, quarter-turn back.</li>
+      <li>Two ladders, one turtle drilling, one spotting/passing tools. Rotate — 40+ holes overhead is real shoulder work.</li>
+    </ul>
+    <div class="tip danger"><strong>⚠ The videos first:</strong> the drill &amp; tap reviews are in the <a href="https://www.youtube.com/watch?v=mwKloqgkgyo">"Never Break Another Tap"</a> homework. Watch before hole #1.</div>
+  </div>
+</div>
+
+<!-- STEP 3: POLE BASES -->
+<div class="step">
+  <div class="step-head"><div class="step-num">3</div><h2>Prep Pole Bases &amp; Welded Stakes</h2><span class="time">½ day · welder needed</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 420 210">
+      <text x="10" y="16" class="lbl">THE STAKE MOD</text>
+      <rect x="40" y="30" width="8" height="90" class="stake"/>
+      <text x="26" y="140" class="lbl2">¾"×18" concrete stake</text>
+      <text x="120" y="60" font-size="18">＋</text>
+      <circle cx="170" cy="60" r="18" fill="none" stroke="#aeb6bf" stroke-width="6"/>
+      <text x="146" y="98" class="lbl2">big washer</text>
+      <text x="212" y="60" font-size="18">→</text>
+      <rect x="250" y="30" width="8" height="90" class="stake"/>
+      <circle cx="254" cy="34" r="14" fill="none" stroke="#aeb6bf" stroke-width="5"/>
+      <path d="M244 40 q10 8 20 0" stroke="#ffd43b" stroke-width="2" fill="none"/>
+      <text x="238" y="140" class="lbl2">welded = giant nail</text>
+      <text x="300" y="40" class="lbl2">×70 with tops</text>
+      <text x="300" y="54" class="lbl2">×10 no tops (locator pins)</text>
+      <text x="10" y="168" class="lbl">POLE BASE (yellow, from David)</text>
+      <path d="M60 200 L100 200 L94 182 L66 182 Z" fill="#e5a14b" stroke="#b8813a"/>
+      <circle cx="72" cy="192" r="2.5" fill="#071123"/><circle cx="88" cy="192" r="2.5" fill="#071123"/>
+      <line x1="80" y1="182" x2="80" y2="150" class="pole"/>
+      <text x="106" y="192" class="lbl2">← welded-washer stakes pin the base through its holes</text>
+      <text x="370" y="200" font-size="20">🐢</text><text x="330" y="188" class="lbl2">grinder+weld</text>
+    </svg></div>
+    <ul>
+      <li>Weld a <strong>big washer onto 70 of the 80 concrete stakes</strong> (4" cut-off wheels + flapper discs: ✅ received). The washer-top turns each stake into a giant nail that pins the yellow pole bases.</li>
+      <li>Leave <strong>10 stakes topless</strong> — they're locator pins under the 4×4 wood posts (other structures).</li>
+      <li>The <strong>big aluminum poles + yellow bases come from David</strong> — count them on arrival: 2 needed here, more for the dormitory shade.</li>
+    </ul>
+    <div class="tip"><strong>Assembly line it:</strong> one turtle grinds mill scale, one welds, one quenches & stacks. 70 stakes ≈ a podcast-length session. 🎙️</div>
+  </div>
+</div>
+
+<!-- STEP 4: LAYOUT -->
+<div class="step">
+  <div class="step-head"><div class="step-num">4</div><h2>Survey the Footprint</h2><span class="time">1 hr · 2 🐢</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 420 230">
+      <text x="10" y="16" class="lbl">MEASURE TWICE, STAKE ONCE</text>
+      <rect x="50" y="30" width="12" height="150" class="semi"/>
+      <path class="dimline" d="M62 55 L330 55"/><text x="170" y="48" class="dim">75' 0" (square to the semi!)</text>
+      <circle cx="330" cy="55" r="7" fill="none" stroke="#ffd43b" stroke-width="2"/>
+      <path class="dimline" d="M62 160 L330 160"/>
+      <circle cx="330" cy="160" r="7" fill="none" stroke="#ffd43b" stroke-width="2"/>
+      <text x="344" y="60" class="lbl2">pole base 1</text>
+      <text x="344" y="164" class="lbl2">pole base 2</text>
+      <path class="dimline" d="M330 62 L330 153"/><text x="300" y="112" class="dim">~50'</text>
+      <path class="cable" d="M62 30 L330 160"/><path class="cable" d="M62 180 L330 55"/>
+      <text x="150" y="122" class="lbl2">check diagonals equal = square</text>
+      <text x="60" y="206" class="lbl2">survey flags at: 2 pole bases · flap anchor lines · guy anchor points (~20' past poles)</text>
+      <text x="380" y="130" font-size="20">🐢</text>
+      <text x="20" y="130" font-size="20">🐢</text>
+    </svg></div>
+    <ul>
+      <li>Pole bases sit <strong>75 ft downwind of the semi wall</strong>, in line with the trailer's ends (~50 ft apart). Two turtles + the 100' tape.</li>
+      <li>Square it by <strong>equal diagonals</strong> from the semi's corners — a skewed layout fights you at tension time.</li>
+      <li>Flag every anchor point with survey flags (on the inventory ✅) before a single stake goes in.</li>
+    </ul>
+    <div class="tip"><strong>Playa note:</strong> at BRC, do this the morning after placement — before neighbors' guy-lines start crossing yours. At the Gulch test-raise, anywhere flat works. 🏜️</div>
+  </div>
+</div>
+
+<!-- STEP 5: FEED THE KEDER -->
+<div class="step">
+  <div class="step-head"><div class="step-num">5</div><h2>Feed the Fabric into the Rail</h2><span class="time">1–2 hr · 3 🐢</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 420 210">
+      <text x="10" y="16" class="lbl">FEEDING THE BEAD</text>
+      <rect x="40" y="40" width="330" height="12" fill="#e5a14b" stroke="#b8813a"/>
+      <path d="M40 52 Q60 46 80 52" stroke="#f7f0eb" stroke-width="2" fill="none"/>
+      <circle cx="46" cy="52" r="5" fill="#db9840" stroke="#b8813a"/>
+      <path class="arrow" d="M110 34 L70 46"/>
+      <text x="116" y="32" class="lbl2">keder bead slides IN from the rail end — never forced sideways</text>
+      <path class="fab" d="M46 57 L350 96 L350 150 L46 120 Z"/>
+      <text x="150" y="120" class="lbl">fabric bundle, accordion-folded on a tarp</text>
+      <text x="30" y="180" font-size="20">🐢</text><text x="54" y="178" class="lbl2">feeds at the rail</text>
+      <text x="180" y="180" font-size="20">🐢</text><text x="204" y="178" class="lbl2">carries slack</text>
+      <text x="310" y="180" font-size="20">🐢</text><text x="334" y="178" class="lbl2">walks the bundle</text>
+    </svg></div>
+    <ul>
+      <li>Accordion-fold the 75×90 fabric on a ground tarp with the <strong>keder bead edge on top</strong>, centered on the semi (20-ft flap overhang each side).</li>
+      <li>Feed the bead into the rail <strong>from one end</strong> and walk it down the 50 ft — one turtle feeding, one managing slack, one walking the bundle along.</li>
+      <li>Wind rule: <strong>dead calm or early morning only.</strong> 6,750 sq ft of Aluminet is a spinnaker.</li>
+    </ul>
+    <div class="tip"><strong>Lube trick:</strong> a spritz of dry silicone in the rail channel makes the bead glide. Never hammer a stuck bead — back up and clear it. 🐢</div>
+  </div>
+</div>
+
+<!-- STEP 6: RAISE THE POLES -->
+<div class="step">
+  <div class="step-head"><div class="step-num">6</div><h2>Raise the Two Big Poles</h2><span class="time">1–2 hr · 4–6 🐢</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 420 240">
+      <text x="10" y="16" class="lbl">THE TIP-UP — per pole</text>
+      <rect x="20" y="196" width="390" height="8" class="ground"/>
+      <path d="M60 200 L100 200 L94 182 L66 182 Z" fill="#e5a14b" stroke="#b8813a"/>
+      <line x1="80" y1="188" x2="230" y2="180" class="pole" opacity=".4"/>
+      <line x1="80" y1="188" x2="180" y2="80" class="pole" opacity=".65"/>
+      <line x1="80" y1="188" x2="80" y2="30" class="pole"/>
+      <path class="arrow" d="M225 172 C 215 120, 150 60, 92 36"/>
+      <circle cx="80" cy="30" r="5" fill="#e5a14b"/>
+      <path class="strap" d="M80 34 L30 196"/>
+      <path class="strap" d="M80 34 L200 196"/>
+      <text x="14" y="176" class="lbl2">guy A</text>
+      <text x="186" y="176" class="lbl2">guy B</text>
+      <text x="240" y="186" font-size="20">🐢</text><text x="240" y="206" class="lbl2">walks it up hand-over-hand</text>
+      <text x="96" y="52" class="lbl2">fabric corner + guy ring on tip BEFORE raising</text>
+      <text x="300" y="60" class="lbl">FOOT = pinned</text>
+      <text x="300" y="76" class="lbl2">base staked w/ welded-</text>
+      <text x="300" y="90" class="lbl2">washer stakes so the</text>
+      <text x="300" y="104" class="lbl2">foot can't kick out</text>
+      <text x="340" y="186" font-size="20">🐢</text><text x="366" y="186" font-size="20">🐢</text>
+      <text x="330" y="216" class="lbl2">on the guy lines, taking up slack</text>
+    </svg></div>
+    <ul>
+      <li>Pin each yellow base with the welded-washer stakes <strong>before</strong> raising — the foot must not kick out.</li>
+      <li>Attach at the tip while the pole is on the ground: <strong>fabric corner, guy ring, 2 guy lines</strong> (ratchet straps or heavy guys to anchors ~20 ft past the pole).</li>
+      <li>Tip-up: one turtle walks the 20-ft pole up hand-over-hand; two on guy lines take slack; one stabilizes the foot. <strong>Nobody under the pole line, ever.</strong></li>
+      <li>Stand it just past vertical (leaning ~5° away from the semi), snug the guys.</li>
+    </ul>
+    <div class="tip danger"><strong>⚠ Crew minimum is 4</strong> for each pole raise. Wind above ~10 mph = wait. The pole always wins the argument. 💨</div>
+  </div>
+</div>
+
+<!-- STEP 7: TENSION -->
+<div class="step">
+  <div class="step-head"><div class="step-num">7</div><h2>Tension the Main Span</h2><span class="time">1 hr · 3–4 🐢</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 420 220">
+      <text x="10" y="16" class="lbl">SIDE PROFILE — the flying wing</text>
+      <rect x="30" y="60" width="14" height="130" class="semi"/>
+      <text x="18" y="54" class="lbl2">semi 14'</text>
+      <path class="fab" d="M44 66 C 150 84, 240 96, 320 100"/>
+      <line x1="320" y1="100" x2="320" y2="190" class="pole"/>
+      <text x="326" y="120" class="lbl2">20' pole</text>
+      <path class="fab" d="M320 100 C 360 130, 390 165, 402 190"/>
+      <text x="332" y="160" class="lbl2">20' of fabric</text>
+      <text x="350" y="205" class="dim">grounds ~20' past pole</text>
+      <path class="strap" d="M320 104 L402 190"/>
+      <rect x="398" y="186" width="10" height="10" class="stake"/>
+      <text x="150" y="70" class="lbl2">gentle catenary sag is CORRECT — drum-tight rips in gusts</text>
+      <path class="dimline" d="M44 200 L320 200"/><text x="160" y="214" class="dim">75'</text>
+      <rect x="20" y="190" width="390" height="8" class="ground"/>
+      <text x="120" y="180" font-size="20">🐢</text><text x="144" y="178" class="lbl2">kitchen trailer drives under here (fabric dips to ~13')</text>
+    </svg></div>
+    <ul>
+      <li>Tension the fabric from the pole tips via the guy lines/ground ratchets — <strong>firm with a gentle sag</strong>, not drum-tight. Fabric needs give for gusts.</li>
+      <li>The tail 20 ft of fabric runs from each pole tip down to ground anchors — <strong>circus stakes (1"×40" double-head)</strong> + 2" ratchet straps.</li>
+      <li>Even tension left/right: sight down the ridge from the semi roof — the fabric edge should run straight between pole tips.</li>
+    </ul>
+    <div class="tip"><strong>David's spec:</strong> fabric dips to ~13 ft mid-span — the kitchen trailer (8'×11' profile) drives under through the triangle wings. "If it touches, loosening the fabric to accommodate is allowed." 🚚</div>
+  </div>
+</div>
+
+<!-- STEP 8: SIDE FLAPS -->
+<div class="step">
+  <div class="step-head"><div class="step-num">8</div><h2>Anchor the 60° Side Flaps</h2><span class="time">1 hr · 2–3 🐢</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 420 220">
+      <text x="10" y="16" class="lbl">END VIEW — one side flap</text>
+      <rect x="60" y="40" width="16" height="150" class="semi"/>
+      <path class="fab" d="M76 46 L260 46"/>
+      <path class="fab" d="M76 46 L160 190"/>
+      <text x="130" y="120" class="lbl2" transform="rotate(60 130 120)">20' flap</text>
+      <path d="M160 190 A 26 26 0 0 0 148 168" fill="none" stroke="#8a7d75"/>
+      <text x="170" y="176" class="dim">60°</text>
+      <rect x="154" y="186" width="12" height="12" class="stake"/>
+      <text x="172" y="196" class="lbl2">paracord loops + stakes pin the edge (per David — metal loop trick)</text>
+      <rect x="20" y="190" width="390" height="8" class="ground"/>
+      <path class="fab2" d="M76 46 L260 46 L160 190 Z"/>
+      <text x="196" y="110" class="lbl">≈ equilateral △, 20' legs</text>
+      <text x="290" y="150" class="lbl2">this triangle is the</text>
+      <text x="290" y="164" class="lbl2">drive-through gate +</text>
+      <text x="290" y="178" class="lbl2">wind-shadow zone</text>
+      <text x="30" y="212" font-size="20">🐢</text><text x="54" y="210" class="lbl2">stakes every ~5' along the grounded edge</text>
+    </svg></div>
+    <ul>
+      <li>Each 20-ft flap folds down and anchors to the ground at <strong>~60°</strong>, rising to meet the semi-top height.</li>
+      <li>Edge fixing: <strong>paracord loops with metal-loop ends</strong> (David's technique) nailed with stakes every ~5 ft along the grounded edge.</li>
+      <li>The wings kill the low sun from the sides and turn the bay into a wind-shadowed room with one open face.</li>
+    </ul>
+    <div class="tip"><strong>Leave a gate:</strong> plan which triangle is the kitchen-trailer driveway BEFORE staking the flap edges — re-staking a 20-ft edge in the afternoon heat builds character you don't need. 🐢</div>
+  </div>
+</div>
+
+<!-- STEP 9: HARDEN -->
+<div class="step">
+  <div class="step-head"><div class="step-num">9</div><h2>Harden for Playa Wind</h2><span class="time">1 hr + daily checks</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 420 200">
+      <text x="10" y="16" class="lbl">THE CHECKLIST, DRAWN</text>
+      <circle cx="46" cy="52" r="16" fill="none" stroke="#69db7c" stroke-width="2"/><text x="40" y="57" class="lbl2">1</text>
+      <text x="70" y="48" class="lbl2">every shackle moused (safety-wired) — .032 wire ✅ on inventory</text>
+      <circle cx="46" cy="92" r="16" fill="none" stroke="#69db7c" stroke-width="2"/><text x="40" y="97" class="lbl2">2</text>
+      <text x="70" y="88" class="lbl2">ratchet handles zip-tied closed — gusts un-crank loose handles</text>
+      <circle cx="46" cy="132" r="16" fill="none" stroke="#69db7c" stroke-width="2"/><text x="40" y="137" class="lbl2">3</text>
+      <text x="70" y="128" class="lbl2">chafe guards (split hose) where cable/strap crosses fabric or edges</text>
+      <circle cx="46" cy="172" r="16" fill="none" stroke="#69db7c" stroke-width="2"/><text x="40" y="177" class="lbl2">4</text>
+      <text x="70" y="168" class="lbl2">morning walk: tug every anchor, re-tension after first night's stretch</text>
+      <text x="360" y="110" font-size="26">🐢</text>
+      <text x="330" y="140" class="lbl2">the daily shade patrol</text>
+    </svg></div>
+    <ul>
+      <li>Aluminet stretches after the first night — <strong>re-tension everything on morning two</strong>, then it settles.</li>
+      <li>Safety-wire (mouse) every shackle pin; zip-tie every ratchet handle closed.</li>
+      <li>Add chafe protection anywhere hardware touches fabric.</li>
+      <li>Assign a rotating <strong>shade patrol</strong> — 5 minutes each morning, tug-test every anchor.</li>
+    </ul>
+    <div class="tip danger"><strong>⚠ Storm protocol:</strong> in a serious blow, the fabric survives by NOT fighting — if a stake pulls, re-set it bigger (longer stake, deadman anchor), don't just pound the same hole. 💨</div>
+  </div>
+</div>
+
+<!-- STEP 10: MOVE IN -->
+<div class="step">
+  <div class="step-head"><div class="step-num">10</div><h2>Move In — the Dining Room</h2><span class="time">the payoff 🎉</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 420 230">
+      <text x="10" y="16" class="lbl">THE FINISHED ROOM</text>
+      <rect x="30" y="40" width="14" height="150" class="semi"/>
+      <path class="fab" d="M44 46 C 150 64, 240 76, 330 80"/>
+      <line x1="330" y1="80" x2="330" y2="190" class="pole"/>
+      <path class="fab" d="M330 80 C 365 115, 392 160, 404 190"/>
+      <rect x="70" y="140" width="90" height="40" fill="#8a5a2e" stroke="#6b4423"/>
+      <text x="82" y="164" class="lbl2" fill="#f7f0eb">kitchen trailer</text>
+      <rect x="190" y="150" width="56" height="10" class="met"/><rect x="196" y="160" width="8" height="20" class="met"/><rect x="232" y="160" width="8" height="20" class="met"/>
+      <rect x="256" y="150" width="56" height="10" class="met"/><rect x="262" y="160" width="8" height="20" class="met"/><rect x="298" y="160" width="8" height="20" class="met"/>
+      <text x="206" y="146" class="lbl2">8' folding tables</text>
+      <text x="180" y="196" font-size="18">🐢</text><text x="205" y="196" font-size="18">🐢</text><text x="230" y="196" font-size="18">🐢</text><text x="255" y="196" font-size="18">🐢</text><text x="280" y="196" font-size="18">🐢</text>
+      <text x="305" y="196" font-size="18">🍽️</text>
+      <rect x="20" y="190" width="390" height="8" class="ground"/>
+      <text x="60" y="216" class="lbl2">patio lights on blanket pins along the fabric edge ✨ · 40 turtles, fed, in the shade</text>
+      <text x="366" y="60" font-size="20">🐢</text>
+    </svg></div>
+    <ul>
+      <li>Drive the kitchen trailer in through its wing triangle, level it, chock it.</li>
+      <li>Set the 8-ft folding tables (×4 ✅ on inventory), serving line by the kitchen trailer door.</li>
+      <li>Hang patio string lights along the fabric edges with <strong>blanket pins</strong> (×10 ✅ received — this is literally what they're for).</li>
+      <li>Then: dinner for 40 in deep shade while the playa cooks outside. <strong>The shell dines.</strong> 🐢🍽️</li>
+    </ul>
+    <div class="tip"><strong>Document the raise:</strong> photos + timing of every step → the playbook improves → next year's turtles (and every camp that forks us) raise it in half the time. 🎁</div>
+  </div>
+</div>
+
+<!-- HARDWARE TABLE -->
+<h3 class="sect">🧰 Hardware at a Glance</h3>
+<div class="panel">
+  <table class="t">
+    <tr><th>Item</th><th>Qty</th><th>Status</th><th>Used in step</th></tr>
+    <tr><td>Aluminet fabric 75'×90'</td><td>1</td><td>Ordered via David</td><td>5–8</td></tr>
+    <tr><td>Keder rail 13mm 90°, + 1/4-20 SS fasteners</td><td>64'</td><td>✅ INSTALLED (Jarrett, week of 7/20)</td><td>2</td></tr>
+    <tr><td>Taps (1/4-20 ×2), #7 bits, tap handle, fluid</td><td>set</td><td>Harbor Freight run ✅</td><td>2</td></tr>
+    <tr><td>Big aluminum poles 20' + yellow bases</td><td>2 (this shade)</td><td>From David</td><td>3, 6</td></tr>
+    <tr><td>Concrete stakes ¾"×18" + welded washers</td><td>80 (70 topped)</td><td>Stakes bought · welding pending</td><td>3, 6</td></tr>
+    <tr><td>Circus stakes 1"×40" double-head</td><td>per parts list</td><td>Shippers supply order ✅ 7/4</td><td>7, 8</td></tr>
+    <tr><td>2" ratchet straps w/ loops · ground ratchets</td><td>per parts list</td><td>Shippers supply order</td><td>6, 7</td></tr>
+    <tr><td>Shackles ½" + thimbles + .032 safety wire</td><td>per parts list</td><td>Ordered</td><td>6, 7, 9</td></tr>
+    <tr><td>Paracord loops w/ metal ends</td><td>~500' roll</td><td>To fabricate (David's homework)</td><td>8</td></tr>
+    <tr><td>Survey flags · 100' tape</td><td>3 bundles · 2</td><td>On inventory</td><td>4</td></tr>
+    <tr><td>Stake puller (Pioneer/big) + lightweight</td><td>1+1</td><td>FLAG — sourcing (David may lend)</td><td>strike</td></tr>
+  </table>
+  <p style="color:var(--cream-dim);margin-top:8px;">Full parts detail lives in the <a href="inventory.html">Inventory Command Center</a> and David's Shade Parts List. Raise order: <strong>rail → stakes → survey → feed → poles → tension → flaps → harden → dine</strong>. 🐢</p>
+</div>
+
+<footer class="footer">
+  <p>🐢 <a href="./">Turtle Ops</a> · design by David (Naked Heart), visuals by Terri · <a href="https://terribleturtle.camp/" target="_blank">terribleturtle.camp</a></p>
+  <p style="margin-top:6px;color:var(--tt-amber);">Move Slow &amp; Bite Things.</p>
+</footer>
+
+</div>
+<script src="assets/turtle-cursor.js" defer></script>
+</body>
+</html>

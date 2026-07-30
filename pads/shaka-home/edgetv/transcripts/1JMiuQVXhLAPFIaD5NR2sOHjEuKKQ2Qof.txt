@@ -1,0 +1,199 @@
+# Microgravity Manufacturing_ 101
+
+Date: 2026-06-25
+Source video: Microgravity Manufacturing_ 101.mp4
+Drive: https://drive.google.com/file/d/1Cm0DIkjUvKP-IWenYXfEDOEHHTJtqyFt/view
+Duration: 00:50:37
+Transcribed: 2026-06-27 · whisper large-v3-turbo · language: en
+
+---
+
+[00:00] Kind of a last-minute booking change. So, Shaka, thank you very much. And again, thank you for the month, for putting in all the effort. So I really appreciate that. And Cam, if we could maybe, yeah, start finding your seats, please, if you're going to stay.
+
+[00:18] If you are planning on listening to Microgravity 101 or manufacturing in Microgravity 101, it'd be great to have you here. Let's get kicked off. Yeah, anyone from the Conscious Residency, if you're interested, I think this will be an incredible talk.
+
+[00:38] Jessica has kindly come up from Mountain View to join us today and give us a little 101 on manufacturing in Microgravity, which is not something that you maybe hear about a lot, but it's something that is extremely cool and there's a lot of interesting implications that can come from it.
+
+[00:55] So, Jessica, take it away. All right. This is very tall. Or I am very short. That's also very...
+
+[01:26] Can you hold it? Oh, yeah, I can hold it for sure. Yeah, thank you so much. Yeah, thanks, guys, for changing around the schedule. Really appreciate it. Super excited to be here. I just learned about Edge last week, so maybe I can participate next year.
+
+[01:42] So, I'm Dr. Jessica Frick, CEO and Co-Founder of Astral Materials. We are an in-space manufacturing company. This talk will be... I'll have a little splash about what we do specifically, but this talk is more teaching you about in-space manufacturing, particularly materials manufacturing.
+
+[02:06] So, I'll go ahead and get started. To really appreciate materials manufacturing in space, I have to first act as a little professor here and teach you about the materials paradigm. And that's where the performance of a material is based on its properties, which is based on its structure, which is based on its process, how you make it.
+
+[02:32] So, for example, a silicon solar cell. This converts solar energy into electricity. But in order for this solar cell to work, you need the property of a PN junction. You have to have the charge separation between the holes and electrons to make, oh, got it.
+
+[03:04] Now, this property relies on the underlying structure of the material. So, the N-type side of the silicon is doped with an N-type dopant. And the P-type is doped with, no, P-type, so phosphorus and boron. Now, in order to get those elements into the silicon structure, you have to use a special process.
+
+[03:31] And that process is a type of crystal growth technique. This is called the Tchaikralski process. And you can, the dopants, yes, they go into the melt. Mm-hmm. Yes, they do. So, I'm going to continue. And when you are, oh, we're having some, yeah, thank you for your input.
+
+[04:07] That's, in some cases, we do do the CVD process. But if we are to get the PNN-type doping for a bulk crystal, it is in the melt. So I'm going to continue. And looking at the process, in order to get the specific process that we are aiming to do, we can use our manufacturing toolbox.
+
+[04:33] So there are specific tools in our toolbox that we use to get a particular type of process going. We can use temperature to manipulate the environment, vacuum, pressure, redox, time, container, etc. But what is really interesting, and what we don't really think about all the time, is that gravity is a tool in our manufacturing toolbox.
+
+[05:03] And so what I mean by gravity is the physical phenomena that manifest under Earth's gravity. So on Earth, we have the physical phenomena of flotation and sedimentation, heavy things sink, light things float, container interactions from the container into a liquid, hydrostatic pressure, and thermal convection.
+
+[05:29] And all of these sometimes are used to benefit our manufacturing processes. So for flotation and sedimentation, for example, this is used in froth flotation for mineral and ore purification. Container interactions, this is used in a slip casting process to make ceramics.
+
+[05:55] Light pressure is used in carbonation for gas liquid solutions. And for thermal convection, float glass production process creates windows that we use. So the question is, what happens if we go to space? Well all of these physical phenomena go away.
+
+[06:23] So in space, there's microgravity, or the lack of gravity. And so these physical phenomena go away. We no longer have flotation and sedimentation, container interaction, hydrostatic pressure, thermal convection. And why is this important? So there are four fundamental forces of nature, strong, weak, nuclear, electromagnetic, and gravitational force.
+
+[06:55] And out of all of the thousands of years of human history, all of our scientific advancements, engineering feats, it has been under these four fundamental forces of nature. So what if we get rid of one of these? And look at using microgravity, or the absence of gravity, as a tool in manufacturing.
+
+[07:27] And so that's kind of the heart of why we formed astral materials. We want to manufacture materials that cannot be made on Earth. So the team was founded, we have origins from Stanford. I did my postdoc with Professor Debbie Sineski, our academic co-founder.
+
+[07:52] She's a professor in the Aero, Astro, and Electrical Engineering Department there. And along with our CTO, Jaya Janowitz, who is an expert in microgravity hardware. We are founded in 2024. Combined we have over 3,000 plus hours of in space R&D, both in LEO and on the International Space Station.
+
+[08:13] We have five microgravity missions booked starting in November of this year, and are supported by various folks at NASA, Activate, Cyclotron Road, which is based in Lawrence Berkeley National Lab, Stardex, SBIRs, et cetera. And so we're applying this concept of microgravity materials manufacturing to crystals.
+
+[08:44] And so if you are to grow a crystal on Earth, you find that these physical phenomena that we already talked about on the top row there, lead to a crystal of lower qualitative properties. Whereas, if you use the microgravity environment of space, you can get a higher quality crystal, a space crystal.
+
+[09:08] So very basically, microgravity equals better crystals. So no foreign impurities, you can get diffusion-driven mixing, you can get controlled dope and distribution, controlled thermal gradients, et cetera. And so our core competency is, actually, that is something that I need to take off for a moment.
+
+[09:36] Apologies, that was like a last minute ad, and then I got distracted by lunch. There we go. So our core competency is we use a proprietary microgravity crystal growth process, which we're coining astral growth, to manufacture and sell advanced material crystal product.
+
+[09:58] So how our process works is we build what's called a microgravity, can you see that? Yeah, a microgravity crystal growth furnace, which we then load up with raw material and we launch to low-earth orbit, we do our manufacturing process in orbit, either on the ISS, a free flyer, space plane, et cetera, and then we down-mass the product, and then the product we can sell either as a raw crystal, or we can process it into wafers, rods, et cetera, to our customers.
+
+[10:34] So what I was going to say in this slide is if you are following SpaceX and the saga that is, you'll find that they have announced this new Starfall mission, which is exactly what we're saying in our manufacturing process. We are a customer to that.
+
+[10:56] So we have the manufacturing process that go into these capsules. We do our process, you can kind of think as this program as a space FedEx or a space UPS, getting us to the environment that we need to do our manufacturing process. So question is, what materials can we grow?
+
+[11:19] And really the possibilities are endless. So anything that is made through a liquid to solid to liquid phase transition, basically, is what our focus is. And that is metallics, ceramics, semiconductors, polymers, and carbon-based materials.
+
+[11:40] And all of these are all the materials that make up a smart village. Any smart technology that you are using right now, which we all are, has some sort of advanced material at its core. Without silicon, for example, these laptops would not exist.
+
+[12:03] Our phones would not exist. These very smart, advanced materials are required for solar cells, data centers, electric vehicles, GPUs, quantum technology, wearables. They all require these advanced materials. And as a company, we are focused on semiconductors as a beachhead market.
+
+[12:26] But if you're interested in what the company is really excited about, please come find me after. But what I want to mention in this talk is the possibility of having materials discovery happen. Because that's kind of the exciting big picture part of all of this.
+
+[12:45] Is if we are able to get rid of one of the four fundamental forces of nature, what are we missing out on? Are there new categories of materials or subcategories of materials that we have yet to discover? And then what are that we can use those materials to form?
+
+[13:07] So it really makes us reimagine what is happening. So, and that kind of begs the question of when we think about the future and the ages of humanity. The ages of humanity have really been defined by the types of materials that humans have access to.
+
+[13:28] So the metal ages, so the bronze age, copper age, iron age, this is based on material. The steel age was based on steel. And being able to build skyscrapers and other infrastructure was a game changer for society. The silicon age, which we are still arguably in right now, is again based on a material.
+
+[13:56] And if you think about it another way, each of these material types were brought about by a new tool, a new manufacturing tool that humans used or humans created or found or discovered or decided to manipulate. In the metal ages, it was generally just temperature, getting things hot enough to melt metals and smelt them together.
+
+[14:24] For the steel age, it was the idea of oxidation. So getting the carbon out of pig ore to get your steel. And then for the silicon age, it is a vacuum. So once you are able to be in a very pure, clean environment, you can use that silicon and manipulate it and make the microchips that we use today.
+
+[14:54] And so what we're saying at Astral Materials is we want to bring about the Astral Age. And we're going to use microgravity as our manufacturing tool. Now, what that material is, we're still not sure, but I'd love to have a conversation on that.
+
+[15:13] But I just want to leave you with that. And this is, you know, a short talk here, but I want to just say thank you again for putting this talk together to Z Prime and Marlo for putting this last minute. And if anyone has any questions, and definitely open to having dialogues and discussions.
+
+[15:35] So thank you. Hi. So do you find that you have any innovations in any materials? I'm particularly very biased towards, like, NV diamonds. So you're talking about nitrogen vacancies in diamonds? Yeah. I mean, the ideal goal would be to have, like, a highly densely populated nitrogen vacant diamond, which is fairly difficult to do on Earth.
+
+[16:11] Right. Yeah. So those come usually naturally. They can be made either by CVD techniques, which was brought up, or by high pressure techniques. So, yes, that's something that is possible because one of the interesting kind of value creation that we can do with this technique is control where the dopants are.
+
+[16:36] And so the dopants include things like nitrogen on those carbon lattices. Yeah. Thanks. This is super cool. Two questions. One, I'm curious, just more examples of the types of crystals that you're growing and thinking of growing. I know you were saying in the semiconductor space.
+
+[17:01] And then the other is, was there like a, this is biased. I, like, just finished reading Project Hail Mary. Oh, yeah. So, like, sci-fi question. But is, was there a cost comparison that you did to kind of creating this gravitational environment on Earth through some type of centrifugal, like, work versus, like, launching it?
+
+[17:20] And I'm kind of curious how you decided where you landed. Yeah. Great book, by the way. Great movie. Yeah. I actually want to, there's a really interesting quote in that book by one of the scientists who was like, we need to either make new hardware to operate in microgravity or we have to have some sort of induced gravitational force on the spaceship.
+
+[17:45] And in that book, they went with the latter. So, it doesn't, unfortunately, work the opposite way. We cannot create a microgravity chamber on Earth. If we could, then we'd be a Earth-based company, for sure. And there's short periods of time in microgravity, so parabolic flights, suborbital flights.
+
+[18:12] Those are, you, for, you know, the parabolic flights, the vomit comet, if you will, you are essentially just free-falling with the plane around you. And so that's what you . So, to your first question, what types of materials we're interested in, we are focused on semiconductors because, again, we have to think about making this a real company and having a product where people are actually seeing
+
+[18:42] seeing the value creation and will pay, you know, the higher cost of processing. And I think, I will say one price is lower than you think. So, we are paying right now for our missions. Just to give you some context, our signed missions are anywhere between 17.5 and 80K per kilogram.
+
+[19:05] And we can sell these materials, once we get up to production level, we can sell them anywhere between 30K to 1.5 million dollars. So, it's really just an optimization problem for us to figure out which ones we want to target. But specifically, anything that's in the high-power electronics regime that's required for, you know, data centers or other quantum materials, that's where we're looking.
+
+[19:39] And slight follow-up on that is, to clarify, are these crystals that you can find on Earth usually? I know you were saying you would expand into discovery, but that just are lower quality on Earth? Or, like, are you mitigating kind of, like, excavation and mining as a result?
+
+[19:53] Yeah, curious. Oh, yeah, no, great question. So, there are, hmm, I'm trying to think of an analogy here. So, what we're growing, it's not just, we can grow the same crystals that can be grown on Earth of just a higher quality. But we're looking for a white space, which we've identified, an area where, again, there is need for something that cannot be done on Earth.
+
+[20:24] And so, it is within the same, so I'll just take, you know, the diamond and the nitrogen vacancy example. You technically can grow diamond crystals with nitrogen vacancies in it, but you can't control or increase the concentration. And that's something that we could theoretically do in space.
+
+[20:44] So, it's not a new material, but it's a new version of that material. Thank you so much. Yeah. Super cool. First of all, I apologize for interrupting you, and thank you for teaching me something. I'm also, it's a pain point for me, because as someone that's focused on mostly CMOS and highly integrated nanofabrication processes.
+
+[21:04] Yeah, yeah, yeah. That actually explains a lot with respect to the refinitive model that I have as far as, you know, how cheap it is to make silicon bulls in that respect. But, to have my question, you know, in thinking about, like, epitaxial templates, like, what do you think about, like, the life cycle of those seed crystal templates, provided that you can, you know, go to a much lower morphological scale, and then, like, you know, do some type of, like, epitaxial fabrication, like, in the fabrication process?
+
+[21:30] Yeah, so... And do you need traditional CMOS to enable that, or is there some type of, like, template process that you can... Yeah, I wish there was a whiteboard in here. So, is there a whiteboard in here? Oh, shit, there is. Okay. Yeah, yeah, I figured. The talk was pretty quick. So, I wanted more time to talk to you guys about this. Okay, I'm gonna draw some things.
+
+[22:03] So, let's say you have... Okay. So, you're talking about seed crystals, and then, once you have the seed crystal, kind of taking it down from space and doing some sort of vapor deposition thereof, once you have your template. Precisely. Great. So, let's say you have a template that you, for some reason...
+
+[22:30] They have a caveat, like, with high specificity morphology, with... Yeah, yeah. With triply periodicity, perhaps. Yeah, okay. So, let's say you have something that is, I don't know, a lattice like this. And you cannot access this on Earth for some reason. And it's only just a symptom of where these atoms want to be when you grow them.
+
+[22:59] We'll just say that's B, C, A, B, etc. This is good for a process if you want to keep the lattice structure the same, but you don't necessarily care about the overall quality. So, it will, once you have the deposition going, you will have the building blocks to continue to create this structure, right? But, if you are still doing this process on Earth, you can keep that morphological structure, but you still have to worry about other impurities, for example, in your, let's say, your CBD system coming in, and maybe there's...
+
+[23:50] Maybe there's a vacancy there. Maybe there is an adventitious carbon that forms. So, I think it is definitely fair to say that you could get different morphological... Different morphologies, different polymorphs. But then growing that, you still are suffering from, again, Earth's gravitational phenomena, where if you want a bulk, pure sample of that, it is best to do it, again, in a microgravity environment. Does that make sense?
+
+[24:26] Yeah, I totally understand that. And, like, how, you know, whether you're trying to nucleate something with, like, some type of domain for, like, spiral dislocations that will become that of the morphology which you're looking for in, like, some type of geometric capacity. Like, do you think there will need to be, like, CMOS-produced, like, templates that are then used in space, or, like, will you be able to create those in your kind of melt process?
+
+[24:55] Yeah. So, I think that it's both, right? Because I think that there are use cases. So, if the future is going to continue to be composed of devices with CMOS devices, those architectures still require thin layer deposition, right? So, bulk crystal growth isn't going to replace that. And so, yes, I think that there is certainly a future for that. And I'm not sure, though, about the value proposition, whether or not that's something that we would do in low Earth orbit now for terrestrial use.
+
+[25:40] But certainly for at point of need use. So, in space to use in space or other planets as we, you know, go further out into the solar system. Yeah. And do you think there is a direction there for CMOS-like capabilities to be able to be done in this environment?
+
+[26:01] Well, that's another question. So, that is completely separate. Can it be done? Because CVD and thin film processes, if you think about the architecture for a moment, it actually is designed to operate under Earth's gravity. It literally uses gravity as a manufacturing subsystem. Because you are, for those who aren't familiar with the technique, there is,
+
+[26:32] either from the side or from the top, there's gas that is distributed down. And yes, there's some at the surface, there's electrostatic forces here that are forming the bond. But ultimately, it is that, it is a pull of gravity that gets those closer. So, you could maybe induce kind of like a vacuum to pull it down.
+
+[26:54] But there's still so much R&D that the commercialization aspect of this is far away. So, we're not going to be making chips in space with this yet? Or we have to- There are, I will- Turn around. Yeah, so there are people who are looking into this. And I think that it's fair, right? Because everything is fair to look into R&D wise.
+
+[27:22] But then when, again, if you're just going to create the artificial gravity to do this process, then why don't you just do it on Earth where there's gravity? So- This is really cool. Thank you. And I understand this is very much of an overview, but I'm curious, like where you guys are with the hardware? Do you have a furnace? You've got like five missions that you're signed up for, so you have hardware already.
+
+[27:49] What's the footprint? What's the power dissipation? Where does the power go? Where does the heat go? You are asking a lot about our IP. But we, I will answer it as best I can. So, yes, if you were to come to our lab in Mountain View, you would see a microgravity crystal growth furnace. It is a prototype. It's in the lab. It has just gone through environmental testing. So, for those of you who are not familiar with in space work, you have to literally put your
+
+[28:24] technology on the technology on a shaker plate and shake the shit out of it because that's what it's going to experience upon launch. And then you also have to bake it out, right? So, you have to make sure that there's no leaks because once you put it into space, it's in a vacuum. And so, you have to make sure everything is bolted together. And so, we are operating for our prototype furnace. You know, the power consumption is definitely a big thing we had to think about because I think a lot of folks in the space industry who provide satellites and other infrastructure to allow our process to work.
+
+[29:07] They, at one point someone offered me 50 watts and I was like, excuse me, that's not going to light my light bulb. But, so, it's around 500 watts and I think we can, again, prototype scale. But that's actually not the biggest problem and we're not concerned about eventually being able to access, you know, one, two kilowatts of power for our processes. Our partners, our partners, our space partners who we're working with, as I call them, our space FedEx, space UPS providers, they are on their way to getting that power for us and it's just a function of getting enough, you know, solar panels on there.
+
+[29:54] The biggest challenge is the heat dissipation, right? Because a lot of us on Earth take heat dissipation for granted because we can just use convective cooling. And you can't do that in space. And so, there has to be very precise conductive cooling mechanisms in order for you to then radiate the heat away. So, our question for providers who we're working with, we get contacted at least weekly with someone who's like, hey, we're a stealth company and we want to do in space manufacturing. And how much power do you need? And, you know, they're the flight providers capsules. And we're like, well, it's not about the power we need, it's just how much can you dissipate?
+
+[30:49] And so that's been the biggest challenge. And structurally, our furnace looks pretty gnarly because of that. Yeah, so it's not about any new scientific discoveries that need to happen. It's just an engineering problem. And what we're doing right now as a company, we have quite a few missions booked. And we're treating them as kind of exploratory missions where essentially we're dating multiple providers.
+
+[31:40] So, our public ones, we're working with a company called Spaceworks Enterprises based out of Atlanta, Georgia. We're also, oh, actually, Redditus is also based out of Georgia. So, we have a flight in November with Redditus Space. Yeah, yeah. With Steph, do you know Steph? Yeah. Really? Okay, we got to talk then. Because I just sent him a payment yesterday. Michael? Oh, at Spaceworks Enterprises. Yeah, yeah, yeah. I don't know that person specifically, but my team does, I'm sure. Oh, Space Ango, yeah. So, our CTO works there.
+
+[32:25] For quite some time. Yeah. So, but yeah, getting back to your question. Right now, for the cooling, it's very much, we have to be pretty cooperative with who we're working with. And so, that's why we're taking on these missions, because we want to see, like, how we work with them, how their engineering team thinks and operates, and how well they can accomplish. And so, that's why we're working with them. And so, that's why we're working with them. And so, that's why we're trying to accommodate us. Because the companies who are treating us as customers, which we are, are very open to being like, okay, what are your needs for cooling? Let's see if we can provide some radiative panels for this, that, and the other. And so, it's working us
+
+[33:25] to have our engineer, Chris handing over our payload to Redidus. And it's just a box. And for that payload, it's very simple. We can just, it's just plug in and go. And eventually, that's what we want to get for our more complicated furnace systems, too. So, that's a very long answer, too. It's a fine problem. And it's just an engineering thing. Yeah. Yeah. Patrick? I think, I think, I think, I think, I think, you know, I think, you know, we are in this area that we talk to customers and they are like, whoa, this is weird. Like, is this? Like, they believe the science, but of course, they're just, you know, it's to them, I think people like us, we might live and breathe kind of the future and sci-fi and embrace it.
+
+[34:29] And so, you know, we're serving in a lot of circumstances. And so, it's really about developing relationships with the customers and being like, look, we can do this. And they're like, no, you can't do that. And I'm like, yes, we can. And they're like, no, we've tried for 20 years at Lawrence Livermore National Lab to make the crystals this way. And I'm like, I know, but I am telling you, this is our data. Here's our, here are our models. Here are our, like, world-renowned consultants who are helping us with these theoretical predictions. And so, to answer your question, yes, it's very collaborative at this point. And we should be having our first samples made in October in our ground facilities. Yeah.
+
+[35:19] Is that kind of NVIDIA? Is that like who you're talking about? So, you're, the supply chain is, so we can sell to a range of different companies. So, for the power electronics industry that I mentioned, we would be selling to large fabs or large foundries.
+
+[35:58] So, for example, so for example, like a TSMC would be, like, amazing, right? Because they buy, so typically, I mean, I don't know, you all are very smart, so maybe you would be able to name companies that actually grow the crystals, but typically when I'm talking to an audience, I'll ask the audience, do any of you know the name of any company who actually grows the silicon? What? Yeah, that's one. Well, they don't, they do, but they're not for, like, the industrial. So, lamb research, they grow really large, like, meter-sized crystals for their instrumentation. But the large, like, silicon ingots, for example, like, those are typically grown in China, Japan, some facilities in Europe. But anyway, getting to the
+
+[36:56] point, those companies either sell their large crystal bulls as is to the foundries, but much more often, they process them into the form factor that their customers, the foundries want, which is a complex way of me saying they slice them into wafers and then sell the wafers to the foundries. And then the foundries will take those as just substrates for the chip designs and do, like, the fabrication and all the thin film deposition, etching, et cetera, et cetera. Now, there are some companies that are wanting to do completely vertically integrated.
+
+[37:47] I mean, Apple, of course, is one of them. So, we could put, you know, that would be, of course, a dream customer in the future. But we really need to prove ourselves in the industry as a reliable supplier before we go after something like that. So, we're going to be primarily providing, I think, to defense first as a first customer, beachhead market, and then entering our way into industrial.
+
+[38:19] Yeah. Sorry, and then just one follow-on question from that. Why? Like, how are you competitive compared to the current income that's already in the market? Is it you kind of like beating them on quality because you're manufacturing in space? Or is it a price drop that you're able to achieve? Yeah.
+
+[38:37] No, great question. And that's, again, something that we're working very closely with our customers on, very collaborative, because we can, right now, we have our theories and our models that tell us, okay, if you use our quality crystal, you're going to be X percent better in this figure of merit that you care about. But they really need to see it to believe it. And so, our agreements are structured in that, you know, the first few products that we're making, we're going to be able to give them to our customers for a fee.
+
+[39:18] And they will then characterize and kind of corroborate our value creation as a third party, because we don't want to just be tooting our own horn. We want real customers to see the real value creation. So, it is very dependent on what, because one crystal could be used for multiple different types of applications. And those applications have their own figures of merit that they care about.
+
+[39:46] Maybe it's electrical conductivity, maybe it's thermal conductivity, et cetera. And they have their own kind of metrics of understanding what is qualitatively and quantitatively better compared to the state of the yard. I feel like I saw the real twinkle in your eye when you were talking about basically the question marks up there.
+
+[40:15] Oh, yes. Do you have any crazy ideas on what those, you know, novel materials or maybe like novel properties that we would maybe get out of new materials might be? Yeah. So, I mean, that is exciting and secretly, it's one of the reasons why I was like, I want to do this. We'll get there step by step. It's the long game, right? What do I think? I think that what I'm excited about is we kind of care, we kind of systematically characterize
+
+[40:56] our different materials based on their properties. So, just as an example, metals, ceramics, semiconductors, those are separate categories, but electrically different, really, right? So, metallics are very conductive, copper. Ceramics are very insulating, alumina. And semiconductors, of course, are semiconducting.
+
+[41:25] And so, what I am excited about is, and it seems like so one dimensional in this way. And possibility of having these, I don't know what you would call them, two or three dimensional materials that can behave in multiple ways depending on what types of inputs you give them. And I think that there are, and I think that there are, you could argue that those kinds of materials do exist. I think maybe topological insulators, for example. But a more prevalence of
+
+[42:04] I think, and just, yeah. I think I quite understand your question. Oh, I see. Oh, well, that's actually an interesting concept, too. Just having multiple direct band gaps. Uh, band gaps. Uh, I don't know. Oh, I see what you're saying. Yeah. Okay. We should have a talk after.
+
+[43:03] I don't know as much about semiconductor manufacturing as you or Patrick. But one of the things I've heard a couple of different places is that the imperfections in the crucibles are a real problem for generating ingots here on Earth. Yes. Well, are you going to start making quartz crucibles? Because that would seem like a really, you know, on the other hand, maybe it's not good for you because you'd rather make the whole lingots out in space, but if we could just make better crucibles, yields would go up in a bunch of places.
+
+[43:37] Well, it's not about better crucibles. It's about no matter how good your crucible is, let's say it is perfect. You have the perfect silicon oxide structure, no defects, et cetera. When you are using that crucible for silicon crystal growth, for example, you are still heating it up to a point where there's going to be some sort of chemical reaction. It's not completely inert.
+
+[44:08] I think that you could definitely improve your yields because the defects are what sort of create the noise and then the eventual deconstruction. They kind of serve as nucleation points for the reactivity. But I think, in my opinion, why would you do that when you could just do it without the crucible in microgravity? Because you don't need a crucible in space.
+
+[44:44] I would have said volume and immediacy because if you get the crystals down here, you can use the existing processes. But, you know, I hear you. What do we got on time? So, yeah, we're using different kinds of heating methods that are more conducive to the space environment, so I'll let you take it from there.
+
+[45:14] I do have kind of an interactive question if the audience is up to it. Okay. I give you a, let's say, okay, does everybody understand generally the process of baking a cookie on Earth? Okay. Okay. So, you start with your dough. You're going to ball it up. You put it on the baking tray. You preheat the oven to like 375. You put the tray in. You put the timer 12 minutes. You let it bake. Okay. Got it, right?
+
+[45:58] Okay. So, I'll let you think about it for a couple minutes, but how would you design a system to bake a cookie in space? So, how would you design your oven, your pan, if you will, your handling to – and the thing is, actually, you know what? I'm not going to give any – I don't want to bias anybody. So, anybody have some ideas? Yeah. I mean, that's one way. I mean, what I would say is, what about pulling out – so, when you're baking a cookie on Earth, there is chemical reactions happening, and you have your gases escaping. And if you're making a spherical cookie, you don't want to
+
+[47:15] a mushy cookie. So, how do you get that moisture out of there? I haven't heard that one yet. That's great. Yeah. Anybody else have any ideas? Yeah. That's – So, in a vacuum, can you have some sort of surface, full finger surface, and it's going to be – you're going to deposit material on the full finger, and then you're going to –
+
+[48:24] Okay. So, layer by layer cookie. Yeah, yeah, yeah. Yeah. No, that's cool. I haven't heard that one either. So, I'm imagining, like, miniature planet formation, where you put it on, like, a very small, like, centrifuge or something. Yeah. Yeah. Yeah. So, you get, like, a spherical cookie in the back. Yeah. No, that's – I think we've gotten that one. That one's a cool idea. I think another one we've gotten is you kind of have a cake pop situation, where you have, like, a heat – you have, like, a metallic stick, metallic sphere, and you kind of put the cookie around that in order to it conductively heat, and then you kind of have two cookie cups.
+
+[49:10] That's what we've settled on in our company. So, what we do is we ask that question every time we get a new hire, and then every – like, once a month, we kind of – as a team building exercise, we kind of take one, like, very kind of mundane human task, like doing laundry or something like that, and we reimagine, like, okay, well, how would you actually build this? that piece of that piece of hardware if gravity didn't exist, if you used microgravity as a subsystem? So, that's – just wanted to give you guys a little insight into that. So –
+
+[49:52] Go for it. Oh, yeah. Go for it. Exotic solutions to Einstein equations. Okay. These are the most expensive cookies I've ever heard. All right. All right. Well, I'll be around the rest of the day, guys. But, you know, feel free to connect with me on LinkedIn or email address is here. So, yeah. This was fun. Thanks, guys.
+
+[50:35] Thanks, guys. Thank you.

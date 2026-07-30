@@ -1,0 +1,387 @@
+# Endgame Jonathan Anomaly, Second Camera
+
+Date: 2026-06-15
+Source video: Endgame Jonathan Anomaly, Second Camera.MOV
+Drive: https://drive.google.com/file/d/1hlkyg99EZCHaxjPsxRqpoVEWLNsFmv7D/view
+Duration: 01:03:02
+Transcribed: 2026-06-22 · whisper large-v3-turbo · language: en
+
+---
+
+[00:00] Two cameras? Perfect. We do need a protester. If there was a protest of any talk, it would be this talk. Hey! Stop that right now! Oh my goodness, should we stop? We have a protester. Wait, we need a second. Sorry about that. Uh-huh. Just say something, just to test it out.
+
+[00:32] Say something. That was such a deep, deep point. That was from fiction. He's asked to say something, he says say something. Say something. Okay. We're good. Let's get started. Jonathan Anomaly, do you believe in nominative determinism, and are you an anomaly?
+
+[00:54] This is a reference to Nick Land, or a general question? It's whatever you want it to be. Yeah, I mean, I did name myself anomaly. I did change my name when I was 18. Down the road, in Berkeley, I liked the connotations from the Greek, aonomos, which is sort of without name, without regularity, until I was told last year by a Greek friend of mine that in modern Greek, anomaly connotes pervert.
+
+[01:20] Which makes sense, because anomalous behavior and that sort of thing. So I want to take it back. I think it's too late. Do you think that you're perverting the genetics of the human race? I hope so, in a positive way. Definitely. All right.
+
+[01:35] All right. All right. On that note, you wrote a paper defending eugenics. It was called defending eugenics. Are you a eugenicist, and what does that word mean? I will proudly claim the mantle of eugenics. I did in that paper, although that was part of the debate.
+
+[01:58] It was supposed to be deliberately provocative. It's the one thing that most people read now, and I don't want them to, not to say you shouldn't, but any time a journalist... I already said. Any time a journalist talks about our company or me, it's always that article that they cite, and that was meant to be a debate article.
+
+[02:19] Yeah, I basically followed the Galtonian tradition, which is he needed a word to basically describe what his cousin, Charles Darwin, had sort of discovered. Not just that species evolve over time, but that there has to be some unit of heredity, something that's explaining differences between animals, plants, people, and that once we understood that thing, whatever it is, it was not coined until 1907, the word gene, that we should harness
+
+[02:50] our power over that to make better combinations of those things, in the same way that chemistry takes atoms, takes molecules, and creates new and better things out of it. I think it's kind of triggering, though, considering that these genes produce real people, this idea that there are better and worse.
+
+[03:10] And you just use this word, better things. There's such a diversity of people, and a diversity of opinions about better ways to be people, or better aspects of people. And there's a fear, especially with this term eugenics, you know, from the 20th century, about centralized groups enforcing their vision of this on people who didn't want it.
+
+[03:33] What of that? What of that? So I do agree there's a diversity of views on it. I am more of an individual eugenicist, although I'll push back on that later. I want to come back to that, because I think there's actually too much emphasis on the individual in the modern world.
+
+[03:48] After all, our welfare is partly a function of the groups that surround us, whether we're in a company, in a family, in a nation. So as Garrett Jones famously says in the subtitle to his book, Hive Mind, Higher Nations IQ Matters so much more than your own, the group does matter, actually.
+
+[04:05] Although how we get to, quote, better groups could be through individual choice. I published a paper in 2018 with another fellow eugenicist, or rather advocate of genetic enhancement, on the value of cognitive diversity. So I think we can get to more diversity and more interest in phenotypes and traits through individual choice.
+
+[04:29] The reason to stick with eugenics, although I don't care about it that much, I tend to use the term genetic enhancement instead, is that there's a kind of euphemism treadmill. And as soon as you use a different term, for example, genetic enhancement, as I've used, journalists, academics who don't like you, who just want to take cheap shots, they'll just say, like, well, you mean eugenics.
+
+[04:49] And it's like, well, yeah, sort of. So I mean eugenics where there's more emphasis on individual choice, less of a sense that people who are, quote, inferior, according to your judgment, should be sterilized or murdered, that sort of thing.
+
+[05:08] So whatever term we want to use, I think it's important to say, what are the values behind it, and what do you specifically stand for? And in this case, it's individual choice. What do you mean by cognitive diversity and different cognitive phenotypes?
+
+[05:22] Good. So a couple of us were talking right before this about the fact that I believe, in the American right anyway, there's actually too much value put on IQ, and on the left, there's not enough value. We've politicized things like intelligence.
+
+[05:38] On the one hand, if you're a progressive, you're supposed to believe it's not even real, or if it is real, it's not very genetic. On the right, often we get, in the IQ discourse, this kind of emphasis that IQ is all that matters or IQ is, I actually really doubt that.
+
+[05:54] I think personality matters a lot. Creativity matters a lot. And there are different cognitive styles. Because even among, you know, when you think about cognitive ability tests, there's verbal reasoning, spatial reasoning, there's all kinds of different dimensions, and probably some that we don't fully capture with IQ tests.
+
+[06:11] And I think a lot of those different traits really matter quite a bit. So do you subscribe to, like, Howard Gardner and the theory of multiple intelligences, and think that that's expressed somehow phenotypically? So, I don't subscribe to his view.
+
+[06:28] I think it's been pretty thoroughly debunked. For example, emotional intelligence isn't real. To the extent that it is, it's really just cognitive empathy. Or affective empathy. So that doesn't explain very much, but I do think that there's something behind it.
+
+[06:44] We all sort of understand when people say something like multiple intelligences or emotional intelligence. There is something to it. It's just really hard to capture. And it's partly because personality traits, the best version of it is the big five, right?
+
+[06:58] Ocean, openness, conscientiousness, extroversion, etc. And, you know, that captures some dimension of human personality, but it does so imperfectly. And even there, it's like 50% heritable. Versus general cognitive ability, which is a little bit higher than that.
+
+[07:13] And so I think part of the problem here is we've misclassified things. And we classify things in ways that are easy to use them as variables in social explanations. So, for example, if we get data on IQ, then we can pair that up with different life outcomes.
+
+[07:30] How long do you live? What kind of job do you have? How much money do you make? How much educational attainment do you end up with? And that's pretty cool as a social scientist, but it doesn't capture the full sort of dimension of everything you care about.
+
+[07:44] And so part of what you mean when you say cognitive diversity is different personality types. Because personality is heritable. Exactly. And you can think about, for example, and this is a little bit controversial, but I think true. Joseph Henrich has this book called The Weirdest People in the World, where he's talking about the weird acronym in social science, Western-educated, industrialized, rich, and democratic.
+
+[08:10] But what that really means is something like high on openness, high on individualism. His explanation for why Europe got that way is through breeding patterns, quite literally, right, because of banning cousin marriage and so on. I don't think that's right.
+
+[08:23] I think the Greeks actually had exactly the same kinds of traits and values that we had, we later Europeans. So I don't think it's because of the Catholic Church, but I do think there's something there and that there are individual and population-level differences in those traits.
+
+[08:38] Wherever the Anglos go, they set up really favorable institutions for markets. Why? Because they have extremely strong individualism, kind of impersonal rules. They apply those rules, et cetera. And when you're talking about contracts and private property, which are the basis for capitalism, those traits are really, really important.
+
+[09:00] That's spicy only to the extent that we know they're partly heritable, and that raises the question, how much of them are genetic versus social? Well, it's also spicy in that it seems to say that one civilization has done a better job than others of breeding, to use your term, to achieve certain outcomes.
+
+[09:19] And I guess I would push back and ask, what about Balaji's view that the locus of economic activity being in Europe is a short-term and fleeting phenomenon compared to it mostly being located in Asia throughout most of human history? Yeah, I mean, these things have come and gone.
+
+[09:39] The East Asian populations have traits in some ways that are similar to Western Europeans and other ways that are different. I think there are different ways to get to the same outcome. But it does look like, and this is more Henrich's thesis than mine, there's something to this idea that Northwestern Europeans do have clusters of traits, and they bring them with them everywhere they go.
+
+[10:01] And if those are even a little bit influenced by genes, that would be interesting to know and understand. And, you know, the interesting thing about what we're doing now is that we're not those of us who are interested in the space and have companies in the space.
+
+[10:18] We do not support governments making these choices for people, but we do think that people will tend to make the right choices, and those choices might be, look, different groups on average have different genetically mediated abilities. I'd like to have some of those for my kids.
+
+[10:35] Every embryo you have is a different distribution of genetically, you know, sort of genetic predispositions or traits, you might say. And ideally, whether through selection or editing eventually, and even creating synthetic chromosomes, you can take the best of all of those worlds and have them for your own kid.
+
+[10:54] So I don't really have strong views about whether Henrich is right or wrong and what the genetic basis of those are, but probably, you know, we're not going to get an exactly identical distribution of all possible traits across all populations.
+
+[11:08] If we did, it would be so shocking and so improbable because we don't see it in other animals, right? We know there are differences between chimpanzees and bonobos. They're almost genetically identical, but those small genetic differences do lead to different kinds of behavior systematically.
+
+[11:24] And it's interesting to study and know the truth of that, partly because it's intrinsically good to know the truth, but also because we can now change the truth. We can change what's possible. You wrote in Psychology Today that a lot of Americans are blanks latest in the streets and hereditarians in the sheets.
+
+[11:48] What do you mean by that? I think it's self-evidence, yes. That's a fun quotation. I think I borrowed that from Claire Lehman of Quillette. That's the first person that I heard it from, anyway. It is a clear view held especially by university faculty, the kinds of people I used to spend time with when I was a professor.
+
+[12:10] They would furiously denounce the idea that things like intelligence, personality, anything that explains individual or group success, they would deny that it has any kind of genetic basis. They would even lobby to get rid of SAT exams and things like this that are obviously meant to gauge intelligence.
+
+[12:27] But then privately, they would always brag about their children's achievements, about their own intelligence, and so on. They would never miss an opportunity to show it off in front of their colleagues. And so, yeah, they had this kind of mental break whereby they clearly were hereditarians implicitly in their behavior, but they knew that they needed to reject it as part of their political ideology.
+
+[12:53] Yeah, so asking you to psychoanalyze those people for a moment, which I think your position has forced you to, what's up with that? Why are they doing that? Why the schismatic personality? I think it's, I mean, this is fairly obvious maybe, but it's a set of views that is part of a package that we call modern progressivism.
+
+[13:16] It arose after the war, and I think when you look at 20th century... A reaction to World War II. A reaction to World War II, but when you look at 20th century progressivism, what's interesting is blank slateism is definitely not inherent in progressivism.
+
+[13:33] Pre-World War II, the progressives were the coercive eugenicists, quite literally. Those were the majority. It was actually the Catholics and a lot of right-wingers who rejected it. And so that all changed after the war, and I think it's really just for, obviously, empirical reasons, and that is kind of playing through in their mind implicitly.
+
+[13:54] If we believe that certain of these traits are heritable, and we think that the government should have the power to do certain things, which we were advocating before the war, and this is the consequence, then either we can sort of argue, well, governments shouldn't behave that way or have that kind of power, or those things aren't real.
+
+[14:14] And we ended up in the second bucket, and I don't think most people think explicitly about it. They just know. It's like taboos are always in the background, and you know when you violate a taboo, and it's to sort of understand there are certain explanations you can't give, and that's where we are now.
+
+[14:31] Yeah, I think to view those people charitably, I think people would like to believe that anyone can achieve anything. I know I can be what I want to be. If I work hard at it, I'll be where I want to be. You know, that's a wonderful song. It's very inspiring, and it feels kind of depressing if I could know that my chest elo, based on my genome, can only be so high or this or that.
+
+[14:56] And so I really see why you would want to believe the opposite of wishful thinking, but unfortunately, you know, not all of us can be an NBA player or whatever. What percent is nature, and what percent is nurture? I mean, you're bringing back genes, but how far can those go?
+
+[15:17] I mean, it depends on the trade, of course. So even with diseases, let's take breast cancer. There are two versions of that. There's the kind caused by BRCA variants, right, which raise the risk of breast cancer to about 70%. If you have one of these single gene variants, you have about a 70% lifetime risk, then there's a polygenic component.
+
+[15:37] So that BRCA genes can comprise about 3% of all breast cancer. If you have that gene, you're very likely to get it, but most breast cancer isn't caused by that. On the polygenic side, it's a much, much lower percentage. So it's more genes causing a slightly elevated risk plus environmental risks, which we don't fully understand.
+
+[15:59] And so even for one disease, how heritable it is kind of depends. You almost have to bracket into the kind caused by one gene versus multiple genes. Or we can take something like type 2 diabetes versus schizophrenia. Schizophrenia, very highly heritable.
+
+[16:15] Type 2 diabetes, it depends a little bit, in part because the concept of heritability measures variation between individuals within a population. But if you take one population and you suddenly introduce massive amounts of carbohydrates to it, let's take modern Mexico, which didn't exist 1,000 years ago, suddenly actually the heritability of that trait changes over time, even if the genes didn't change.
+
+[16:39] So that's not meant to be a rhetorical trick. That's just the way heritability is defined. So how heritable the trait is, yeah, it depends on the trait in question. For something like intelligence, again, 70% roughly in adulthood, height, something like 90%, maybe not surprising.
+
+[16:57] So 70% of intelligence is heritable, 90% of height is heritable. Yeah, meaning that genes explain about 70% of the variation within a particular population, or 90% in the case of height. And then the case of type 2 diabetes is going to be lower, but it's going to depend on the particular group because some groups are more or less susceptible to it.
+
+[17:16] So parasite, which helps to break down the data about given embryos by a bunch of different metrics. So you can learn about your embryo and choose which embryo you want to implant if you've gone through IVF or egg retrieval and it characterizes differently if you like.
+
+[17:37] But it presents itself as helping parents make decisions on the basis of a bunch of factors, but IQ is really a big one. IQ is a big reason. It's a big leading one. People care a lot. But then other people say that IQ isn't really a good measurement of anything, and that it's not a very good metric, and that it's been debunked.
+
+[17:58] Is IQ a real metric that's actually measurable with genes, and does it measure a real thing in the world? Yeah, good question. Yeah, general cognitive ability or IQ, intelligence quotient tests, they've been around for a long time, and they've been refined steadily over time.
+
+[18:16] And they've been studied, even by sociologists who tend to deny the genetics of IQ, they do know and they do study the fact that IQ is correlated with lots of interesting life outcomes. There's one question of what causes IQ, genes versus the environment.
+
+[18:32] The way to settle that is actually not with what we're doing, but with twin studies, really just taking identical twins and non-identical twins and seeing what happens when you raise them in very different environments. By the way, the first person to devise that idea is Francis Galton, the person who coined the term eugenics.
+
+[18:51] He thought here would be a cool way to figure out, he also coined the term nature versus nurture. How would we even know what's nature versus nurture? And he was like, well, let's look around the England for identical twins that just happen to be separated at birth, and especially if we could find them where one is raised by a poor family, another by a rich family, and just see what happens.
+
+[19:11] And by now, we've got tens of thousands of these twin pairs studied throughout their life course, and you can just sort of see how different are they and how different are the environments they're raised in. And if you have enough data, you'll see, like, yeah, basically intelligence height, a lot of these things like this, you're not going to see big differences between identical twins, even when they're raised in very different environments.
+
+[19:33] And that's going to give you the heritability estimate. So interestingly, you can know a fair amount about heritability without knowing anything about the underlying genetic architecture, which we're just now starting to unravel. So yeah, why do we offer it, and why is it even interesting?
+
+[19:50] You know, I think of it in one way as a health trait. Intelligence is correlated with health, with self-reported health, which you can also independently verify by looking at it. Because if you're dumb, you bump into stuff? Like, is that right?
+
+[20:03] Could be it. Or you fail to properly take in lessons about nutrition until you, you know, eat donuts all day? Yeah, I mean, you may make worse decisions because you can't navigate information well, like which doctor you choose. Do you choose to take his advice or look for a second opinion?
+
+[20:18] All of these things that you might call it common sense tells you, well, not everyone has common sense, so to speak. And so there are also correlations between intelligence and self-control and long-term planning. And so, for example, you might think, yeah, we all understand drugs are bad or, you know, smoking is bad or something like this, but...
+
+[20:37] Do we all understand? Do we all understand, yeah. Here we are at Edge as well. Drug, a certain kind of drug, you know, is going to be methamphetamine taken regularly, that sort of thing. And so, yeah, writer people on average do tend to have more self-control, long-term planning, and place more value on the future.
+
+[20:55] And probably it's that more than raw computational power that's explaining why they have lower rates of addiction, even at the same socioeconomic status level. They're incarcerated less often, they live longer, and have higher general metrics of health.
+
+[21:12] There are lots of other things, too, like income and educational attainment. Those are interesting because I think you can easily justify when you're offering health traits and people ask about IQ, I mean, that's one way in which you can justify it, which is to say, it's just a general enabler for helping people get through the world.
+
+[21:29] We can also look at things like, how many friends do writer people have on average? What do their relationships look like? Do their marriages last? Do they get fired from work as often as people who are a little bit lower in IQ? Now, is this casting value judgments on people?
+
+[21:44] It certainly sounds like it, right? Because we all know it's better to, I don't know, have friends or not get fired from work. This is, again, we're in spicy territory. On the one hand, you don't want to say that brighter people are more valuable than less bright people.
+
+[22:01] On the other hand, you could make a really big generalization, which is, John Stuart Mill famously asked, is it better to be a pig satisfied or Socrates dissatisfied? And he said, well, it's fairly obvious, at least to him, Socrates dissatisfied.
+
+[22:16] And one of the things that distinguishes us from other species, which is why we have this term, Homo sapiens, and before that, Homo habilis, is we can invent tools, we can use our minds to coordinate, build, and just do interesting things that other animals can't.
+
+[22:32] Does that make us more valuable? I think the answer is just obviously yes. That doesn't nevertheless mean that if you're 20 points higher than I am in IQ, which you probably are. Thank you. That doesn't mean that you are, in some strict sense, just better, all things considered.
+
+[22:52] I mean, lots of other things matter. That's the point I was about to make. I feel like you're, the fact that I have a high, no, I'm just kidding. No, the point I was going to make was that if you're looking at the full curve, you're really talking about some dummies.
+
+[23:08] Like, if we're talking about people walking into things or who can't kind of basically fathom nutrition and you're comparing them to, you know, really smart people, that's a big range. But the people that are probably customers of Harasite, I don't know, are probably like at least 110 plus, probably, if they've gathered enough resources to pay y'all and also figured out the wherewithal to research you and find you, probably.
+
+[23:37] And so, the differences between one of their embryos versus another in terms of IQ, how big is it really if we're talking about people that are like 110, 120 plus anyway? And where do those IQ benefits actually fade? Yeah, good. The differences are actually invariant with parental IQ.
+
+[23:57] So you get roughly similar spreads for people all along the kind of spectrum. So just to take an example, if you have say 10 embryos, not everyone does, some have more than that, but if you have 10 embryos, I have no idea who you're talking about.
+
+[24:14] If you have 10 embryos, the average spread in actual adult IQ is something like 32 points, which is really huge, more than two standard deviations. We can capture about half of that now in terms of predictive power. And so, you know, you're talking about 15, 16 points between the highest and lowest scoring embryo.
+
+[24:33] 15 points? That's not that big. I mean, there are plenty of people who are more successful, less successful than either of us that are that much up, that much down from us. I agree. This is why personality matters so much. the most important thing that you can choose is your partner or your sperm or egg donor if you don't have a partner, partly because they're going to stack the deck in favor of whatever traits you, you know.
+
+[25:00] I'm not an IQ maxer myself. I would look more for him. You are an IQ maxer. Women, all women. He is an IQ maxer. If you have a high IQ, this guy. I want an empathetic, I want a good mother for my children. You know, whenever I meet a woman who hates animals, I think, oh my god, okay, I do not want to be near this person.
+
+[25:23] I wouldn't want to be even if she's brilliant, even if she's like 170. Absolutely, because the worst possible outcome is a high IQ psychopath or a high IQ sadist. Great point. IQ is an enabler. I don't think it's the end of life. I would love to have a creative, interesting midwit, rather than a kind of high IQ sequence.
+
+[25:47] high IQ monster. So that's, wow, great. I'm really not at all. Okay. Normal, well-adjusted, kind people. Can I say something about a point you made a couple, maybe 10 minutes ago? It got me thinking because in terms of why some people deny that IQ and other related traits, mental traits, are to some extent heritable, I think part of the reason is in the past, as you were saying, I mean, what's the point of even acknowledging this if there's nothing you can do about it, right?
+
+[26:17] So if some people are going to be at the left side of the curve, so to speak, and their kids are too, why would you go on about this? And I actually have two responses to that. One is we do need to understand reality on its own terms because when we deny it, we end up with political ideals that are hopeless.
+
+[26:33] I mean, as E.O. Wilson said of communism, great idea, wrong species. And if you try to imply, because he's studying ants famously, it works for them, but for you social insects, yeah, it's fine because they share all of their genes, right? Bees, ants, et cetera.
+
+[26:48] For us, it's not. If you try to force that on people and you say, look, anything short of equality in terms of outcomes is automatic evidence of some kind of injustice, your society is going to eat itself apart. And so this is why people like Paige Harden, who's very progressive, who also studies IQ, it's really important for people like her to talk about this.
+
+[27:08] So point number one is we do want to acknowledge reality because if we don't, our political ideals are hopeless, but point two, and this is important, for the first time, we can either match our political institutions to our nature, or we can rewrite our nature a little bit to match our political ideals.
+
+[27:26] And here, the socialists and communists might be right after all. Because for the first time, well, if you really hate big differences between groups, and you're in your own religious community, speaking of biology and network states or whatever, you know, I think there are going to be thousands of different kinds of network states.
+
+[27:44] I certainly hope that. There's going to be the libertarian autists, you know, and then there's also going to be religious communities. And when we think of early communism, people like Fourier, they were Christians who wanted to embody their ideals in communes.
+
+[27:58] Cool, fine. And if you want to sort of like genetically, you know, maximize equality or maximize empathy within that group, great. For the first time you can do that, you don't need to deny the reality of the heritability of these traits. We live in an era of maxing.
+
+[28:16] You know, you just said this word, right? There's looks maxing, there's China maxing, there's, you know, retard maxing, there's retard maxing, yep, every kind of maxing. When you max and you get that maxing up into the genome, you risk really changing the shape of the species and you are acting like you know what should be in the species, right?
+
+[28:44] You're the one doing the maxing. And I feel like biology isn't really doing maxing. Biology kind of evens and balances things out. And so I guess, are you worried that people, if they get control over what the next generation looks like and they're maxing in various ways, that that produces an unnatural result?
+
+[29:09] I hate nature, so an unnatural result is great. Everything good in this world is due to us resisting nature. Antibiotics, vaccines, artificial respirators, Neuralink. I think, as you know, I made this point the other day to someone who's a utilitarian.
+
+[29:29] The one thing that John Stuart Mill and Nietzsche agreed on, and they otherwise despised each other, Nietzsche at least despised Mill, is the idea that mankind is judged by its highest specimens and greatest works, both culturally, physically, beauty, all of the above.
+
+[29:45] You know, Mill said that mankind is a kind stagnant pool without our geniuses. And he says these great geniuses have both intrinsic value and they discover new and interesting things and ways of doing things. You know, remember he emphasizes experiments in living and on liberty.
+
+[30:02] These are radical individualists on the one hand, but also sort of recognizes, look, many people are skeptical of people who are very different than us, outliers, maxers, whatever. But if we don't have people trying new and interesting things, we don't have new ideas to learn from, new forms of art, et cetera.
+
+[30:23] Nietzsche, of course, agrees as well. Even the superman, the ubermensch, is mainly cultural, actually, for Nietzsche. The Nazis tried to misuse it and make it sort of the Aryan race or something, but it's really just the overcoming of human limitations.
+
+[30:37] I think there's nothing better than that. So you're a maxing max. I'm a maxing maxer. And you hate nature. I hate nature. It's because everyone pretends to love nature until they get bit by a fucking mosquito and get malaria. That's natural.
+
+[30:52] I'd rather put the spray on my body and not get malaria. Let's talk about dating again. Something is happening. You were talking about maxing and people that are, although you clarified that you're not, optimizing for pure IQ, or other traits, like success, fame, et cetera.
+
+[31:12] I have a couple of pretty famous guy friends who say that they're getting hit up like crazy for their sperm. And Elon is doing whatever he's doing, and the founder of Telegram is doing what he's doing. Do you think that as more women seek positive traits for their offspring as they pursue maxing in
+
+[31:43] whatever way they've determined is their favorite way of maxing? Do you think we're going to lose one-to-one monogamy in terms of our mode of producing offspring? I think we're already losing it because of how sexual selection has created women.
+
+[32:00] Women are a bit more selective than men in terms of long-term partnerships. And as women are better students now, earn more income, and have more independence, many of them want a man who is at least as quote good as them on some dimension, whether it makes more money, has more education, is more successful, and if more women on average are in that category than men, they often will find themselves without the right man.
+
+[32:30] And we have a few of these customers at Parasite right now. They're usually single women, single by choice, in the Bay Area, or in London, places like that, and they choose sperm donors. And I always thought, when I was a student at Berkeley, Berkeley's kind of the capital for gay women, lesbians, right, and then San Francisco for men, I always thought, this group is actually going to save the world, because they have to intentionally choose their donors, and eventually they're going to choose embryos, et cetera, et cetera.
+
+[33:00] There's now this new category, which is straight women who are so successful they can't quote, find a man, or a man that's good enough, and I think more and more of them are going to offer sperm donors. We are looking to work with agencies that offer selected sperm, and in fact, we're going to do this with polygenic scores.
+
+[33:20] So one of the ways that you could verify if someone is telling the truth about their family history, their risks, et cetera, they might not even know their full risks, right? You can test them for single gene disorders, but can you test them for personality, intelligence, all these kinds of things, or a predisposition toward polygenic traits like schizophrenia, they might not have it, but they have a high polygenic score.
+
+[33:41] We want to test sperm donors for this. We also want to potentially do sperm selection and egg selection. Right now, that's really hard because you can't do that, you can't sequence a sperm or egg without destroying it, but there are ways of potentially tagging those sperm or eggs.
+
+[33:58] This is really new. This is brand new. Because right now, the state of the art is still, you're blind combining sperms with eggs, and then you're testing the resulting blastocyst. But this would go way up the stack. Exactly. Crazy. When's that launching?
+
+[34:16] We're working on it, and we're working on a patent for sperm selection. We're not the only ones doing it, so there are other people who are looking into it. So I think this is great. That brings us to a good topic. We've been having this conversation about how is this technology going to change everything?
+
+[34:31] How is society going to be different? How is dating going to be different? As if it works. But let's talk about it for a moment like we don't think it works. People have been pretty skeptical about whether these polygenic scores mean anything.
+
+[34:46] And say it's basically roulette, that it's basically dousing, that you might as well just implant pretty much any euploid embryo that's double-a, triple-a rated. And that's fine. So how are you so sure that this works at all? For those of you who haven't been through IVF, euploid just means sort of healthy, chromosomally healthy, and then double-a, triple-a, yeah that's right.
+
+[35:17] We're not talking about rating government dead. No, but although morphology is a little bit like that. It's a little bit of a beauty contest. Sort of like this one looks a little rounder so it'll probably implant. Maybe, maybe not. I almost feel like they're making expressions out of me.
+
+[35:31] Yeah. So yeah, the way to know whether a polygenic score works, this is actually the most important thing anyone who's watching, listening can do. If you're considering doing this for yourself to get a diagnosis, for example, for a trait, you wonder whether you're predisposed towards something like Alzheimer's disease.
+
+[35:51] You could look for the APOA4 gene, that's well studied, you can look at polygenic scores, or if you're testing embryos, or if you're doing history, like David Reich at Harvard, and uncovering ancient DNA and trying to figure out how tall were these people on average, et cetera.
+
+[36:07] You're using polygenic scores for all of those. How would you know if they work? And the best way to do that is to ask the company, well hopefully they publish papers on this, or at least produce white papers, how well do these predictors work in adult siblings?
+
+[36:22] Why would we use adult siblings? Well first of all, when you think about embryos, they share half of their DNA with each other, about 50%, and similarly about 50% with each parent. Also, when you're talking about adults within families, the siblings grew up with the same parents, roughly same household, and so if your polygenic predictors can, after blindly running the DNA of siblings through your predictors, work for adults, then
+
+[36:52] they also have to work for embryos, how well is going to depend on the particular predictor, and so each company that does this needs to publish their so-called R-squared values, right? How much of the genetic variance can you explain with this predictor, and in some cases it's poor, which is why we don't offer those diseases, there are thousands of genetic diseases, we only offer like 21, we offer very common ones that are important, like various autoimmune diseases, cancer, schizophrenia, but there are many where the R-squared value is so low
+
+[37:22] that we just don't offer it, and then others where actually they're pretty good predictors. So I think that helps answer the question of the degree to which what you're doing works, and then there's the question of, you know, why work with you guys, especially going forward, as opposed to another company or even something open source, and I'm struck by the quality of open source genetics platforms like Prometheus.
+
+[37:51] When I first got my genome sequence and not plugging any of these companies, I used Nebula with George Church because of his privacy commitments, and then I ran everything through Prometheus, and I just looked at the results, and they were pretty interesting, and what it does is it correlates what's in your genome with all publicly available studies correlating various genes to various traits, and it yielded a
+
+[38:22] pretty interesting result. So I guess why work at expense with a private company when you can use public tools? My hope is that in 10 years or 20 years, the public catalog, as it's called, of polygenic scores will be so good that you don't have to come to a company like mine.
+
+[38:43] I'm in this for the reasons that I think this technology is important and useful. I believed in this long before I joined a company, so yeah, I hope to make my own company obsolete in the long run. In the near run, the public catalog of polygenic scores are pretty weak on average.
+
+[39:02] There are some that are decent, but a lot of them don't have high R-squared value, as we were saying, and some companies don't either, and those companies are going to be kind of hiding that stuff. Similarly, how well do they apply across ancestry?
+
+[39:16] And there are some ancestry groups that haven't been well studied, and what we do is we try to validate our scores across different ancestries so that the unique combination that you come in with, maybe you're half Asian, half European on one side, and the other side is South Asian or something like that Indian we're going to calibrate that very precisely.
+
+[39:37] If you just have a random public catalog right now anyway, it's just not going to be well calibrated. Why is it that certain ancestry groups have lots of study and some have fewer? Which ones have more and which have less and why? It's really just historical reasons the rich countries can afford to fund big biobanks, and they also have different cultures so the UK is the first to fund a big biobank, the UKB is the most important one, it's also the most accessible, its mission is to basically help promote the
+
+[40:08] health of humankind, and it didn't originally mean embryo selection per se, it was more studying disease, they could treat it and so on, but this is the big application now, meanwhile in a place like China, and you know, not throwing shade on China, but just descriptively, it wants to better its own population, you know, and similarly for a lot of other newer biobanks around the world, maybe Qatar and so on, and so basically we only have access to those biobanks that we can get access to, now how do we do that?
+
+[40:38] Okay, anyone can get access to the UKB if they have the right credentials, not any of us necessarily, but you have to have a PhD in the right area, you apply for it, you pay FP, you get access, but let's say we just got access to a couple biobanks in East Asia, and what do we have to promise them?
+
+[40:54] Well, we're going to co-author papers with you, our scientists are more famous than you're scientists or something, so you're going to want to do that, etc. So, yeah, basically you have limited data on certain groups either because the data doesn't exist, like Sub-Saharan Africa just doesn't have any good biobanks, they also don't have a good medical system.
+
+[41:13] So, let's say they sequenced half a million people, like the UK has done, well the UK has the benefit of, maybe it's a cost for someone who opposes kind of socialized health care, but the benefit of it is they have all of their medical records, they've opted in of course, and you can trust the medical judgment of most doctors in the UK, but if you're in some random village that has really low income, etc., even if you sequenced all those people, what medical records would you pull, and would you even have reliable kind of
+
+[41:44] phenotype data, like do they really have schizophrenia, have they been cognitively evaluated, and the answer is no and no, and so it's going to take a while before we have good data on all ethnic groups. Let's keep talking about breakthroughs that are going to change the game.
+
+[41:59] I want to hear what you think about IDG, and how close at hand that is, and maybe you can describe what it is, and then artificial looms, happening, not happening, how long? I think all of the above, so I'm here in the Bay Area because there is a conference called Reproductive Frontiers, and this is the second year in which it's happened, and people are going to talk about all of these topics, so IVG, artificial looms, polygenic selection, gene editing, synthetic chromosomes.
+
+[42:29] I don't think I'm missing anything there. So the way I see this happening is we're going to go in stages. First, there's already a company called Comedo, and I'm not promoting them, I've never met them, but that is going to basically shorten the timeline and therefore the cost of IVF.
+
+[42:46] So if you could shorten it from 12 days to 2 days, that's already a big benefit. Sign me up. Exactly. So that will lower the cost and increase the yield, et cetera, and then naturally that will lead to IVG in vitro comediogenesis, and that's basically taking adult cells, turning them into pluripotent stem cells, and if you have a pluripotent stem cell, well then you can create eggs from it, right?
+
+[43:09] So you can imagine creating, as Travis Potter says, babies from a blood drop. And that's IVG. That's IVG. So what is scarce in nature? It's certainly not sperm we're producing during this conversation, I guess I've produced a few hundred thousand.
+
+[43:26] In terms of eggs, that's always what we're short of. And I'm in the middle of an IVF cycle, so I'm producing 60 while we're talking. Exactly. So, but yeah, if you could take a vial of blood and turn that into 10,000 eggs, well suddenly, actually you probably wouldn't even need any gene editing.
+
+[43:46] You might edit for other reasons, etc., but you get so much variation genetically that you could then optimize that way. Now that, of course, will in turn presumably lead to editing. Actually, editing may come first. Let's put a timeline on it.
+
+[44:00] I'm not, you know, I'm not Nostradamus. Well, actually, I'm more like Nostradamus. You probably got most things wrong, so I'll just give you my fake predictions like Nostradamus. Probably in two or three years, something like Gamito is used around the world.
+
+[44:15] Could be a few years longer, probably dependently on the FDA. IVG, I'm guessing on the low end, five years. On the long end, maybe 12 years, 10, 12 years. Certainly before approval. One of the problems with it is when, during this process, you can induce new mutations mutations, and we would want to check if you do IVG, you'd also want to still, you know, at day five after you've got the embryo, biopsy and look if any new mutations are produced.
+
+[44:43] And that's because you're grabbing the stem cell from an adult, so some of the damage that they've done to their DNA as an adult hasn't been like wiped off the way that your natural gamete production wipes off adult damage. Exactly. That's the main source, and then there are other sources of de novo's, but it's mainly the new ones you've gotten.
+
+[44:59] But as you can imagine, I mean, we're all accumulating these de novo mutations in our lifetime. The estimates vary, but let's say between 50 and 150, something like that, on average. And it looks like male gametes can, on average, get like three times the rate of female eggs.
+
+[45:16] I'm not sure why. There may be an evolutionary reason, but the vast majority of those are going to be neutral and sometimes negative, and very few are going to be positive, and so that's why you want to test for that. Okay, so that comes in, let's say, a decade.
+
+[45:31] I think editing, editing of the kind that people are excited about, is actually maybe a long ways away. Single gene editing, that just depends on the efficacy of the tool. We already have successors to CRISPR that are a little bit better, a little more efficient, fewer off- target mutations, and by the way, when you do have an off- target, you can still...
+
+[45:49] Which is like a Jenga block falling out the back when you move something on the front. Yes, unintended kind of mutation. But, you know, if you're just editing one gene, like cystic fibrosis, you only have one embryo left, and this would be the case for CRISPR, okay, why not just edit it and see if you can knock out cystic fibrosis, and I'm all for that.
+
+[46:10] But if you're talking about really changing things dramatically, you're talking about highly polygenic traits, and when I say polygenic, I mean in some cases involving thousands or tens of thousands of genetic variants. And when you're editing on that scale, the probability of mutation off-target goes up pretty dramatically moreover, and I'll just fill in one more detail.
+
+[46:31] I now think that in some ways editing and selection are not necessarily complementary, but maybe in competition. The reason being that if you're doing editing and multiplex editing, hundreds, thousands of edits, you want to do it really early on when the sperm enters the egg, because as soon as that happens, it starts multiplying, and remember, every one of those cells you're going to need to edit in order to have it expressed in the adult.
+
+[46:57] And so now, imagine you're doing 5,000 edits across 200 cells. The probability of an error goes up dramatically. I mean, CRISPR even in bacteria, and remember, it's the bacterial immune system meant to essentially fend off phage virus. That's why it evolved billions of years ago.
+
+[47:16] Even in bacteria, it makes mistakes for the individual bacteria. It doesn't matter very much, but if it's just that one kid that you're going to select, you better make sure that there's not a mistake, and if there is, that you catch it, let's say after day five or six, when you then biopsy the embryo, and then check for the mutation, then check for the genome.
+
+[47:38] So anyway, that's a ways off, and I think actually it's way harder than a lot of people realize. Not the one gene for cystic fibrosis. I mean multiplex, massive editing of the kind that you would need to make really big changes, but if you can make that through IVG anyway, through selection, it's probably just going to be IVG for a long time.
+
+[47:57] Makes sense. I'm going to, as a big pest, make you bat off what I think are probably the frequent objections. First one being, I know you hate nature, but some people like it, and it could be said that you're a lot of people, and there is something protective about true natural selection instead of seizing control over it.
+
+[48:26] Please bat away that argument. Yeah, good. Chesterton is a great thinker, and Chesterton's fence is a wonderful parable for basically being cautious about radical change, whether it's in the genome, or as he meant it, to social policy. So the idea is something like this.
+
+[48:44] He's imagining social reformers, he's a kind of Catholic, conservative, and a lot of the social reformers he's thinking about in the 1920s and 30s are all too willing to destroy the old institutions, not realizing that the new ones will create new and worse problems that are unanticipated.
+
+[49:01] So the idea is not never change anything, but at the very least, ask yourself, what's the opportunity cost, and what are some of the unknown variables that I might be tinkering with that person, as I've argued, also has another metaphor in a different book, and I call it Chesterton's Post, and the idea is he says conservatives, and he's criticizing his own side here, often say that if you just leave things alone, you know, basically they're going to stay as they are now, and if you
+
+[49:32] like them, like you like human nature, right? I mean, humans are pretty good now, like why don't we just keep them where they are now? There's a kind of fallacy, he says, whereby we think that's possible, but it's not, and the post is this metaphor of a white post on a picket fence, whereby if you just leave it alone, the torrent of change that comes from the acidic parts of the rain, or let's say we're on the California coast here, the salty water, my parents have a house on the coast, and they have to repaint it
+
+[50:02] every year just to keep it where it is now. He says, basically, look, I mean, that's the fallacy of a certain version of conservatism, and when you think about genetics, even more than society, right, societies and people that populate them, as they get rich, they get a little bit soft of mind, of body, this is why we have obesity, both mental and physical, I would say, in the West right now, and we have to force ourselves through force of habit to maybe go to the gym and have the right kind of
+
+[50:34] diet and discipline ourselves. Similarly, when it comes to genetics, entropy is the norm. You know, we're basically getting barraged. We just talked about de novo mutations that are constantly hitting us, so even if you wanted to stay where you are now, you would have to try to minimize across time de novo mutations.
+
+[50:53] But similarly, when we think about how civilizations advance, in the early days, there are certain genetically mediated traits that tend to rise, and sometimes that's just raw, brute, physical strength. You think of Sparta versus Athens. They select for different traits.
+
+[51:09] But as a society ages, as it gets rich, as it gets comfortable, it's not clear to me that the traits that we think produce that kind of society, that produce the wealth that enable that, are the ones that are going to end up being favored, quite the opposite.
+
+[51:27] And so, I think Chesterton himself, even though he himself opposed eugenics, and by eugenics he meant state sponsored eugenics of the kind that existed in his time, and even though he himself has this metaphor of defense, and we have to be careful before we move the goalposts genetically, nevertheless, he also says, but be careful not to think that by staying where we are now, we actually are going to preserve human nature.
+
+[51:54] We're actually just going to let it ruin. We're going to let it slowly succumb to the forces of entropy, and that's not good either. What about the argument that parents make, maybe they have a child with Down syndrome or non-speaking autism, and they say it was actually a really beautiful experience that we had this child.
+
+[52:16] We learned something, we had an experience we otherwise wouldn't have, and we're so grateful for that. So that's on one hand, and then the other, those kinds of parents often worry that if there are fewer children born with those traits, either from embryo selection or selective abortion or whatever it is, that there won't be as many services for those types of people, and that it'll be more odd and rare and therefore tragic.
+
+[52:45] Yeah, the second one is a super important one. The first one strikes me as a bit selfish. I mean, the idea that I learned something because my kid had this disease. Well, I mean, you should be thinking about the welfare of the kid when you're a parent, and it is true that people with, for example, Down syndrome can live decent lives, right?
+
+[53:05] It's not nearly as crippling as, say, Tay-Sachs, which is a protein folding disorder that condemns you to literal death and misery by the age of usually three, four, five. You're just going to die, and the way that you die is just horrific.
+
+[53:19] Nobody could say that that's just another way of being or just one kind of life among many. That is a horrible life, and you're a bad person if you deliberately impose a learned trap. Down syndrome is a little different. It's interesting precisely because it's on the margins.
+
+[53:33] We all know people with Down syndrome that have a little bit of independence. They can sometimes have a job. They're not going to work, you know, a really cognitively demanding job, but, you know, they can have a decent life. And in that case, I would certainly not condemn the parents, but when you ask people, you know, or you ask the person even, would you rather have more abilities, whether it be the ability to participate in sports or the ability to think your way out of problems, maybe because you don't have a very good memory, most people would say, yeah, of course I want
+
+[54:03] that. And so I think that is a bit of cope, and I don't mean that in a negative sense. I mean, we all literally cope all the time because we're all dealt hands that are a little bit less perfect than we'd want, but I don't think when you really, when you really prod people, would you prefer to have a kid with a disease that's preventable, or would you prefer not to have one?
+
+[54:25] I think it's fairly clear where they actually stand. What they're really doing is, I think, symbolically expressing the view that we should respect people with disabilities, and I agree. So among the different counter arguments, or people saying that this shouldn't exist or should be illegal or shouldn't be used or whatever, steelmail the opposition, is there any good argument you think in there?
+
+[54:53] Yeah, there are lots of good arguments. I think an argument that's underplayed is the problem of pleiotropy, and this is the idea that when a set of genes encodes for multiple phenotypic traits, it may be that what you're doing is you're selecting against one disease, but there's some other unknown effect.
+
+[55:13] Those genes are correlated with some other trait that you don't fully understand well. Now, as it turns out, that's a partly empirically solvable problem, but not fully solvable. So here's an example. One thing that you could do to try to figure out, is that the case?
+
+[55:28] You know, you've got a customer that has a family history of schizophrenia or breast cancer, and so you wonder, like, by reducing schizophrenia, will I get some other unwanted side effect? One thing you can do is you can just study the genetic correlations across diseases to figure out whether by reducing schizophrenia, you're reducing other diseases or increasing their prevalence.
+
+[55:49] And as it turns out, pleiotropy is common, but nevertheless, it tends to be positive rather than negative. And so this is a really important distinction to make. When we think about multiple phenotypic effects, and here we're making a value judgment because nature doesn't sort of put a kind of valuation on traits, it doesn't sort of say good or bad, other than from the standpoint of the gene, right?
+
+[56:15] Tends to make more copies of genes or something like that. What we really mean is good or bad for human welfare. So it is possible, and I'll give you actually an example of a trait where selecting for more of it does give you some really bad outcomes for other traits.
+
+[56:32] If you select for height above about six foot seven, if you really select the outliers on the right hand side. Maxing. Not all maxing is good. If you height max, you are going to end up with children that have more cardiac problems, right? That makes sense.
+
+[56:47] And exactly. So, and there may be something to this, going back to your earlier question about maxing. You know, if we're picking an embryo at the really outer limits of IQ, where there just aren't very many people in the world that have that, it may be that you're going to get some strange variability that we just don't understand very well right now.
+
+[57:08] Maybe that's actually good. Maybe it's bad. But I have to admit, I mean, we don't know. Nevertheless, what we do know, and we've done the studies, both for our cognitive ability predictor and across all the diseases we offer, we make it known.
+
+[57:23] We have pleiotropy charts just showing very specifically, on average, is it positive, negative, or neutral pleiotropy. And you can just sort of look at that, and basically, it's almost always neutral or positive. And there's an interesting evolutionary rationale for that.
+
+[57:40] A lot of the same genes that cause one disease also cause others, or they're downstream effects. Having one disease will also predispose you to acting in ways that give you other diseases. Here's one example. If you have a problem with your immune system, let's say you have one kind of autoimmune disorder, well, you end up generally getting other autoimmune disorders as well.
+
+[58:03] And so if you select against, let's say, one of those, you're inadvertently selecting against others. If you select against schizophrenia, you also select against bipolar, severe depression, et cetera. There is a kind of general psychological health, some call it the P factor, like the G factor.
+
+[58:22] And that's kind of interesting because that didn't have to be true, and it's not going to always be true. So again, if you have companies that you're going to, including ours, you should hold our feet to the fire, you know, and ask us, are there any negative outcomes associated with selecting on this trade?
+
+[58:38] And a good company should be like, well, either we don't know or no or yes. Super interesting. My very last question. I feel like upstream of a lot of this conversation is this idea that there's new technology available and that people want to buy it, and so there's a market, and so we sell it to them, and that's fine.
+
+[59:02] And so my question to you is, amongst adults, is there anything that you wouldn't subject to the free market, whether that's surrogacy, whether it's sex work, whether it's any aspect of this, is there anything among adults that you would take out of that pool?
+
+[59:21] Yeah. I worry in some ways about the effects of a lot of these things. So Louise Perry has this famous book, The Case Against the Sexual Revolution, discussing the downsides of the contraceptive pill, right? And the effect is not on the individual, it's not about hormones, it's about the family unit and the really big downstream consequences for dating and marriage.
+
+[59:41] I sometimes worry about that for this kind of technology, so it may be that, for example, on average, for a lot of people, something like a two-parent household is other things equal better. It's not for everyone, but maybe we should organize society around that principle.
+
+[59:59] And the more we allow the breakup of that or incentivize it, maybe the worse off we are. On the other hand, I actually think this technology has, apart from the effects on the kids who are born through it, like lower disease risk, maybe a bit brighter, etc., maybe a bit prettier, who knows.
+
+[1:00:16] Apart from those things, I actually think it has a really big and interesting consequence. And that is, as I've said, it breaks the blank slate. The more that we're aware of polygenic scores and the power of genetics and shaping human behavior, the more it breaks this silly and, I think, incredibly destructive dogma that emerged from the Second World War.
+
+[1:00:40] And I understand why it emerged. It emerged for good reasons, in a way. Nevertheless, I think it's one of the stupidest and most harmful doctrines that's existed in Western society. I mean, in a way, Rousseau already introduced it, so it's before the Second World War.
+
+[1:00:57] But I think that this kind of technology is going to make people rethink, actually, how they choose partners, how they go about in the world, how they do medicine, how they diagnose, et cetera. And I think the general consequences of this are huge and good.
+
+[1:01:14] And this is why I call it sort of the polygenic revolution. It's not just about selecting embryos. It's actually the big social implications of this. So there are dangers. Again, the idea that you've reduced everything to a mere choice or a set of traits to mere genes plus some other inputs, you know, it's not a pretty way of seeing the world.
+
+[1:01:35] I'll end by saying, you know, Richard Dawkins wrote this book called Unweaving the Rainbow. And in that book, you know, he's quoting Alexander Pope and this metaphor that after the scientific revolution, we've kind of reduced the beauty and the magic and the divinity of the world.
+
+[1:01:52] Which he helped do. Which he helped do. Nevertheless, I think, and he's right about this, we can look at it in another way. We've revealed the depths of the beauty of the world and we've also gotten these tools whereby we can remake the world and make it even more beautiful.
+
+[1:02:10] In the end, I'm joking when I say I hate nature. Everything we do is part of nature. When we create plastics and cell phones, these are natural. Hating nature is part of nature. That's right. Exactly. So in a way, you know, I say that to be provocative, of course, because people have the silly, this is artificial, this is natural, only the natural is good.
+
+[1:02:31] But actually, when you look at everything we do, since we're part of nature, it is natural. But we can make nature better. I think we should. That's a beautiful place to end. Thank you very much. Thanks for having me. Thank you, guys. Thank you, guys, for coming to our live taping.
+
+[1:02:49] We're going to save the questions, maybe for a conversation outside, if you're open to it. Sure. To keep it going, because we do have a session starting here in a couple minutes. With grace. Awesome. Thank you, guys. Thank you. Thank you. Thank you.
+
+[1:03:02] Thank you. Thank you.

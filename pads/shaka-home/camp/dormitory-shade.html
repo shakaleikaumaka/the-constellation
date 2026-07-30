@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Himalayas — Dormitory Shade Build Guide 🏔️🛏️ | Turtle Ops — Terrible Turtle Camp</title>
+<meta name="description" content="Visual build guide for the 68×122 ft dormitory shade — ALPS/Himalayas design (Eric Schurman / Camp Contact) hybridized onto the semi's keder rail. 12 illustrated steps, safety-first staking, David's mods.">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+  :root {
+    --tt-orange:#eb5833; --tt-coral:#fd6844; --tt-amber:#db9840; --tt-gold:#e5a14b;
+    --tt-red:#cc272e; --night:#030915; --night-2:#071123; --card:#0b1628; --card-2:#111b28;
+    --border:#1f2a38; --cream:#f7f0eb; --cream-dim:#ddd6d1; --sand:#8a7d75;
+    --radius:12px; --radius-lg:20px; --ok:#69db7c; --warn:#ffd43b; --bad:#ff8787; --aqua:#4dd4e8;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{font-family:'Rajdhani',sans-serif;background:var(--night);color:var(--cream);line-height:1.6;font-size:18px;}
+  .container{max-width:860px;margin:0 auto;padding:20px;}
+  a{color:var(--tt-orange);}
+  .topnav{padding:18px 0;font-weight:600;}
+  .topnav a{text-decoration:none;color:var(--tt-coral);}
+  .hero{text-align:center;padding:26px 10px 20px;}
+  .hero .icon{font-size:3rem;display:block;margin-bottom:8px;}
+  .hero h1{font-size:clamp(1.8rem,6.5vw,3rem);font-weight:700;text-transform:uppercase;letter-spacing:.02em;
+    background:linear-gradient(135deg,var(--cream) 20%,var(--aqua),var(--tt-orange));
+    -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:8px;}
+  .hero .sub{color:var(--cream-dim);font-size:1.1rem;max-width:660px;margin:0 auto;}
+  .badge{display:inline-block;padding:4px 14px;background:rgba(255,212,59,.1);color:var(--warn);
+    border:1px solid rgba(255,212,59,.4);border-radius:16px;font-size:.75rem;font-weight:700;
+    letter-spacing:.14em;text-transform:uppercase;margin-top:12px;}
+  .specbar{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin:18px 0;}
+  .spec{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:10px 18px;text-align:center;}
+  .spec .n{font-family:'JetBrains Mono',monospace;color:var(--tt-gold);font-weight:600;font-size:1.05rem;}
+  .spec .l{font-size:.75rem;color:var(--sand);text-transform:uppercase;letter-spacing:.1em;}
+  .step{background:var(--card);border:1px solid var(--border);border-radius:var(--radius-lg);margin:22px 0;overflow:hidden;}
+  .step-head{display:flex;align-items:center;gap:14px;padding:16px 22px;background:var(--card-2);border-bottom:1px solid var(--border);}
+  .step-num{min-width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,var(--aqua),var(--tt-orange));
+    display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1.25rem;color:#fff;}
+  .step-head h2{font-size:1.25rem;text-transform:uppercase;letter-spacing:.03em;}
+  .step-head .time{margin-left:auto;font-family:'JetBrains Mono',monospace;font-size:.75rem;color:var(--sand);white-space:nowrap;}
+  .step-body{padding:20px 22px;}
+  .fig{background:var(--night-2);border:1px solid var(--border);border-radius:var(--radius);padding:10px;margin-bottom:14px;}
+  .fig svg{width:100%;height:auto;display:block;}
+  .fig.herofig svg{max-width:620px;margin:0 auto;}
+  .step-body ul{color:var(--cream-dim);margin:0 0 10px 22px;}
+  .step-body li{margin-bottom:7px;}
+  .step-body strong{color:var(--cream);}
+  .tip{border-left:3px solid var(--warn);background:rgba(255,212,59,.05);border-radius:0 var(--radius) var(--radius) 0;
+    padding:10px 15px;color:var(--cream-dim);font-size:.95rem;}
+  .tip strong{color:var(--warn);}
+  .tip.danger{border-left-color:var(--bad);}
+  .tip.danger strong{color:var(--bad);}
+  .tip.david{border-left-color:var(--tt-gold);}
+  .tip.david strong{color:var(--tt-gold);}
+  .tip + .tip{margin-top:10px;}
+  .sidebar{background:var(--card-2);border:1px solid var(--border);border-radius:var(--radius);padding:14px 18px;margin-top:12px;color:var(--cream-dim);font-size:.95rem;}
+  .sidebar h4{color:var(--aqua);text-transform:uppercase;letter-spacing:.08em;font-size:.85rem;margin-bottom:8px;}
+  .sidebar p{margin-bottom:8px;}
+  .sidebar p:last-child{margin-bottom:0;}
+  /* SVG shared classes */
+  svg .ttl{fill:#8a7d75;font:700 12px 'JetBrains Mono',monospace;letter-spacing:.08em;}
+  svg .lbl{fill:#f7f0eb;font:700 14px 'Rajdhani',sans-serif;}
+  svg .lbl2{fill:#ddd6d1;font:600 12.5px 'Rajdhani',sans-serif;}
+  svg .lblw{fill:#ffd43b;font:700 13px 'Rajdhani',sans-serif;}
+  svg .lblb{fill:#ff8787;font:700 13px 'Rajdhani',sans-serif;}
+  svg .lbla{fill:#4dd4e8;font:700 13px 'Rajdhani',sans-serif;}
+  svg .lblg{fill:#69db7c;font:700 13px 'Rajdhani',sans-serif;}
+  svg .dim{fill:#8a7d75;font:600 11px 'JetBrains Mono',monospace;}
+  svg .dimline{stroke:#8a7d75;stroke-width:1.2;stroke-dasharray:4 3;fill:none;}
+  svg .leader{stroke:#8a7d75;stroke-width:1.4;fill:none;}
+  svg .arrow{stroke:#4dd4e8;stroke-width:2.6;fill:none;marker-end:url(#arr3);}
+  svg .cut{stroke:#ff8787;stroke-width:2.6;stroke-dasharray:7 5;fill:none;}
+  svg .hose{stroke:#69db7c;stroke-width:4;fill:none;stroke-linecap:round;}
+  svg .whose{stroke:#e5a14b;stroke-width:4;fill:none;stroke-linecap:round;}
+  svg .rope{stroke:#e5a14b;stroke-width:2.5;fill:none;stroke-linecap:round;}
+  svg .ground{fill:#241d16;}
+  h3.sect{font-size:1.4rem;text-transform:uppercase;color:var(--tt-gold);margin:30px 0 10px;text-align:center;}
+  .panel{background:var(--card);border:1px solid var(--border);border-radius:var(--radius-lg);padding:22px;margin-bottom:14px;}
+  table.t{width:100%;border-collapse:collapse;font-size:.92rem;margin:8px 0;}
+  table.t th{color:var(--tt-amber);text-transform:uppercase;font-size:.72rem;letter-spacing:.1em;text-align:left;padding:6px;border-bottom:1px solid var(--border);}
+  table.t td{padding:6px;border-bottom:1px solid var(--border);color:var(--cream-dim);}
+  table.t td:first-child{color:var(--cream);font-weight:600;}
+  .footer{text-align:center;padding:36px 20px;border-top:1px solid var(--border);color:var(--sand);font-size:.95rem;margin-top:26px;}
+  .footer a{text-decoration:none;}
+  @media(max-width:640px){body{font-size:16px;}.container{padding:12px;}.step-body{padding:16px;}}
+</style>
+<link rel="stylesheet" href="assets/turtle-cursor.css">
+</head>
+<body>
+<div class="container">
+
+<nav class="topnav"><a href="./">← Turtle Ops</a> · <a href="dining-shade.html">🎪 Dining Shade</a> · <a href="map.html">🗺️ Camp Map</a> · <a href="inventory.html">📦 Inventory</a></nav>
+
+<header class="hero">
+  <span class="icon">🏔️🛏️</span>
+  <h1>The Himalayas — Dormitory Shade</h1>
+  <p class="sub">A 68'×122' shade mountain over the sleeping village. One edge rides the semi's keder rail, the roof flies 75 ft downwind to David's big poles, and ALPS-style cables + guyed 4×4s carry the rest. Camp Contact's legendary design, Turtle-hybridized. 🐢</p>
+  <span class="badge">🔥 top ship priority · keder rail installed ✅ · welded stakes done ✅ · Jarrett's crew on it</span>
+</header>
+
+<div class="specbar">
+  <div class="spec"><div class="n">68×122 ft</div><div class="l">footprint</div></div>
+  <div class="spec"><div class="n">13–13.5 ft</div><div class="l">keder edge</div></div>
+  <div class="spec"><div class="n">2× 20 ft</div><div class="l">aluminum poles</div></div>
+  <div class="spec"><div class="n">~1000</div><div class="l">spring hooks</div></div>
+  <div class="spec"><div class="n">1</div><div class="l">detail-obsessed lead</div></div>
+</div>
+
+<!-- WHAT'S DIFFERENT PANEL -->
+<div class="panel" style="border-color:rgba(229,161,75,.5);">
+  <h4 style="color:var(--tt-gold);text-transform:uppercase;letter-spacing:.08em;font-size:.95rem;margin-bottom:10px;">🐢 What's different for Terrible Turtle (read this first!)</h4>
+  <p style="color:var(--cream-dim);margin-bottom:10px;">The pure ALPS/Himalayas is a free-standing 2×2 grid of nine guyed 4×4 posts (116'×116'). <strong style="color:var(--cream);">Ours is a hybrid:</strong> one whole edge hangs from the <strong style="color:var(--cream);">keder rail on the 53-ft semi</strong> (installed ✅ by Jarrett's crew at ~13–13.5 ft), the roof sweeps <strong style="color:var(--cream);">75 ft downwind to two 20-ft aluminum poles</strong>, and the fabric grounds at 60° about 20 ft past them. ALPS-style guyed posts + steel cables handle the sides and field.</p>
+  <ul style="color:var(--cream-dim);margin:0 0 4px 22px;">
+    <li style="margin-bottom:6px;"><strong style="color:var(--tt-gold);">Petals are DELETED.</strong> David, 7/2: <em>"Petals are not used… replaced by the poles that you bought for me."</em> He brings the poles. Ignore the ALPS doc's petal/spreader appendix entirely for our build.</li>
+    <li style="margin-bottom:6px;"><strong style="color:var(--tt-gold);">No J-stakes, no midspan supports.</strong> David, same call: <em>"We don't use J stakes"</em> and <em>"We don't do midspan supports because our system doesn't require it."</em> Staking loops are one of his non-negotiables, though — loops always, hardware per his spec (steps 10–11 keep the ALPS versions for camps forking this).</li>
+    <li style="margin-bottom:6px;"><strong style="color:var(--tt-gold);">Fabric check:</strong> David runs <strong style="color:var(--cream);">black 90% shade cloth</strong> ("90 is twice as shady as 80"), while classic ALPS is 80% Aluminet. Confirm which fabric ships for the dorm before ordering anything extra.</li>
+    <li><strong style="color:var(--tt-gold);">Pole-top hardware:</strong> the shade parts list still shows Winco mixing-bowl caps — treat that as the interface concept and <strong style="color:var(--cream);">confirm the current pole-top hardware with David</strong>.</li>
+  </ul>
+</div>
+
+<!-- STEP 1 -->
+<section class="step" id="s1">
+  <div class="step-head"><div class="step-num">1</div><h2>The Whole System at a Glance</h2><span class="time">read me first</span></div>
+  <div class="step-body">
+    <div class="fig herofig"><svg viewBox="0 0 920 250" role="img" aria-label="figure">
+<defs>
+<marker id="ar-hero" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4dd4e8"/></marker>
+<marker id="ard-hero" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a7d75"/></marker>
+</defs>
+<rect x="0" y="196" width="920" height="40" fill="#241d16"/>
+<rect x="40.0" y="188" width="48.0" height="8" fill="#1c232c"/>
+<circle cx="54.0" cy="192" r="10" fill="#111a24" stroke="#39424e" stroke-width="3"/>
+<circle cx="74.0" cy="192" r="10" fill="#111a24" stroke="#39424e" stroke-width="3"/>
+<rect x="40.0" y="109.0" width="48.0" height="73.0" rx="3" fill="#39424e" stroke="#4a5563" stroke-width="2"/>
+<line x1="43.0" y1="127" x2="85.0" y2="127" stroke="#2e3641" stroke-width="2"/>
+<line x1="43.0" y1="146" x2="85.0" y2="146" stroke="#2e3641" stroke-width="2"/>
+<line x1="43.0" y1="164" x2="85.0" y2="164" stroke="#2e3641" stroke-width="2"/>
+<text x="64.0" y="139.0" class="lbl2" text-anchor="middle">SEMI</text>
+<text x="64.0" y="155.0" class="dim" text-anchor="middle">8×53 ft</text>
+<circle cx="88.0" cy="115" r="6" fill="#4dd4e8"/>
+<text x="84.0" y="89.0" class="lbla" text-anchor="start">KEDER RAIL</text>
+<text x="84.0" y="103.0" class="lbl2" text-anchor="start">@ 13–13.5 ft · installed ✅</text>
+<line x1="545.0" y1="196" x2="545.0" y2="86.0" stroke="#5a646f" stroke-width="6" stroke-linecap="round"/>
+<line x1="538.0" y1="196" x2="538.0" y2="76.0" stroke="#cfd6dc" stroke-width="7" stroke-linecap="round"/>
+<polygon points="522.0,196 554.0,196 538.0,183" fill="#ffd43b" stroke="#c9a227" stroke-width="1.5"/>
+<line x1="511.0" y1="186.1" x2="512.0" y2="196" stroke="#8b97a3" stroke-width="5" stroke-linecap="round"/><line x1="512.0" y1="196" x2="514.7" y2="221.9" stroke="#8b97a3" stroke-width="5" stroke-linecap="round" stroke-dasharray="5 4" opacity=".65"/><circle cx="511.0" cy="186.1" r="4.4" fill="#eb5833"/>
+<text x="538.0" y="52.0" class="lbl" text-anchor="middle">2× 20-FT ALUMINUM POLES</text>
+<text x="538.0" y="66.0" class="lbl2" text-anchor="middle">(bought from David — he brings them)</text>
+<path d="M 88.0 115 Q 328.0 97 538.0 76.0 L 658 196" fill="none" stroke="#9fb3c8" stroke-width="7" stroke-linecap="round" opacity=".95"/>
+<path d="M 88.0 123 Q 328.0 110 538.0 85.0" fill="none" stroke="#c6d4e2" stroke-width="2" opacity=".5"/>
+<text x="316.0" y="83.0" class="lbl2" text-anchor="middle">shade fabric roof</text>
+<path d="M 658 196 L 624 196 A 34 34 0 0 1 641 167" fill="none" stroke="#ffd43b" stroke-width="2"/>
+<text x="610.0" y="182" class="lblw" text-anchor="middle">60°</text>
+<line x1="670.0" y1="186.0" x2="670.0" y2="196" stroke="#8b97a3" stroke-width="5" stroke-linecap="round"/><line x1="670.0" y1="196" x2="670.0" y2="218.0" stroke="#8b97a3" stroke-width="5" stroke-linecap="round" stroke-dasharray="5 4" opacity=".65"/><circle cx="670.0" cy="186.0" r="4.4" fill="#eb5833"/>
+<text x="702.0" y="222" class="lbl2" text-anchor="middle">fabric grounds ~20 ft past poles</text>
+<rect x="849.0" y="141.0" width="14" height="55.0" rx="2" fill="#a07c50" stroke="#7c5f3c" stroke-width="2"/><circle cx="844.0" cy="144.3" r="5" fill="none" stroke="#cfd6dc" stroke-width="3"/><circle cx="868.0" cy="151.3" r="5" fill="none" stroke="#cfd6dc" stroke-width="3"/>
+<line x1="688" y1="151" x2="844.0" y2="151" stroke="#8b97a3" stroke-width="2.4" stroke-dasharray="8 5"/>
+<line x1="862.0" y1="155.0" x2="918.0" y2="192" stroke="#39424e" stroke-width="5" stroke-linecap="round"/><g transform="translate(902.3,181.6) rotate(33.5)"><rect x="-11" y="-6" width="22" height="12" rx="3" fill="#1c232c" stroke="#8b97a3" stroke-width="1.6"/></g>
+<line x1="917.1" y1="186.0" x2="918.0" y2="196" stroke="#8b97a3" stroke-width="5" stroke-linecap="round"/><line x1="918.0" y1="196" x2="920.3" y2="221.9" stroke="#8b97a3" stroke-width="5" stroke-linecap="round" stroke-dasharray="5 4" opacity=".65"/><circle cx="917.1" cy="186.0" r="4.4" fill="#8b97a3"/>
+<text x="866.0" y="91.0" class="lbl2" text-anchor="middle">ALPS-style guyed</text>
+<text x="866.0" y="105.0" class="lbl2" text-anchor="middle">4×4s + steel cable</text>
+<text x="866.0" y="119.0" class="lbl2" text-anchor="middle">carry the sides</text>
+<path d="M 213.8 196 L 216.59 168.72 L 214.73 158.8 Q 214.42 149.5 218.76 147.01999999999998 L 221.24 147.01999999999998 Q 225.58 149.5 225.27 158.8 L 223.41 168.72 L 226.2 196 L 222.79 196 L 220.0 171.2 L 217.21 196 Z" fill="#e5a14b"/><circle cx="220.0" cy="140.3" r="5.6" fill="#e5a14b"/>
+<text x="234.0" y="156" class="dim" text-anchor="start">you</text>
+<line x1="88.0" y1="228" x2="538.0" y2="228" stroke="#8a7d75" stroke-width="1.4" marker-start="url(#ard-hero)" marker-end="url(#ard-hero)"/><text x="313.0" y="242" class="dim" text-anchor="middle">75 ft downwind</text>
+<text x="452" y="30" class="ttl" text-anchor="middle">THE HIMALAYAS — SEMI-HYBRID PROFILE · dorm footprint 68×122 ft</text>
+</svg></div>
+    <ul>
+      <li><strong>The fabric is a tension membrane</strong> — it's not draped, it's stretched. Every part below exists to hold that tension without anything ripping or walking in the wind.</li>
+      <li><strong>Load path:</strong> fabric → spring hooks → steel cables (and the keder rail) → posts → ratchet straps → stakes → playa. Respect each link and the mountain stands all week.</li>
+      <li><strong>Poles don't hold the roof down — they push it UP</strong> ~15–20 ft so the profile sheds wind and the shade breathes.</li>
+      <li>Raising takes <strong>4–8 hours of main build + 1–2 hours of tweaking</strong>. 2–3 people can do it; 8–12 make it fly.</li>
+    </ul>
+    <div class="tip"><strong>Whole-doc rule:</strong> if you're leading this build, read Eric's full ALPS/Himalayas doc, not just this guide — the theory is what saves you when playa improvisation starts. Credits + contact at the bottom. 🐢</div>
+  </div>
+</section>
+
+<!-- STEP 2 -->
+<section class="step" id="s2">
+  <div class="step-head"><div class="step-num">2</div><h2>Pick a Lead + Learn the Trucker's Hitch</h2><span class="time">before anything else</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 860 264" role="img" aria-label="figure">
+<defs>
+<marker id="ar-hitch" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4dd4e8"/></marker>
+<marker id="ard-hitch" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a7d75"/></marker>
+</defs>
+<rect x="20" y="34" width="260" height="216" rx="12" fill="#071123" stroke="#1f2a38"/>
+<text x="150" y="56" class="ttl" text-anchor="middle">1 · SLIPKNOT</text>
+<rect x="300" y="34" width="260" height="216" rx="12" fill="#071123" stroke="#1f2a38"/>
+<text x="430" y="56" class="ttl" text-anchor="middle">2 · THROUGH & UP</text>
+<rect x="580" y="34" width="260" height="216" rx="12" fill="#071123" stroke="#1f2a38"/>
+<text x="710" y="56" class="ttl" text-anchor="middle">3 · PULL 3:1 + LOCK</text>
+<path d="M 150 66 L 150 118" stroke="#e5a14b" stroke-width="5" stroke-linecap="round"/>
+<circle cx="150" cy="140" r="20" fill="none" stroke="#e5a14b" stroke-width="5"/>
+<path d="M 144 128 Q 120 118 116 140 Q 120 160 142 152" fill="none" stroke="#db9840" stroke-width="5" stroke-linecap="round"/>
+<path d="M 150 160 L 150 232" stroke="#e5a14b" stroke-width="5" stroke-linecap="round"/>
+<text x="106" y="116" class="lblw" text-anchor="end">pull a BIGHT</text>
+<text x="106" y="130" class="lbl2" text-anchor="end">through — not</text>
+<text x="106" y="144" class="lbl2" text-anchor="end">the end (quick</text>
+<text x="106" y="158" class="lbl2" text-anchor="end">release later)</text>
+<path d="M 410 66 L 410 118" stroke="#e5a14b" stroke-width="5" stroke-linecap="round"/>
+<circle cx="410" cy="140" r="18" fill="none" stroke="#e5a14b" stroke-width="5"/>
+<circle cx="384" cy="146" r="12" fill="none" stroke="#db9840" stroke-width="5"/>
+<path d="M 410 158 L 410 226" stroke="#e5a14b" stroke-width="5" stroke-linecap="round"/>
+<circle cx="410" cy="232" r="8" fill="none" stroke="#cfd6dc" stroke-width="4"/>
+<text x="410" y="250" class="lbl2" text-anchor="middle">anchor / stake ring</text>
+<path d="M 404 228 Q 358 210 370 160 Q 372 150 376 148" fill="none" stroke="#e5a14b" stroke-width="4.5" stroke-linecap="round"/>
+<line x1="376" y1="148" x2="390" y2="120" stroke="#4dd4e8" stroke-width="2.4" marker-end="url(#ar-hitch)"/>
+<text x="348" y="120" class="lbla" text-anchor="end">working end UP</text>
+<text x="348" y="134" class="lbla" text-anchor="end">through the bight</text>
+<path d="M 690 66 L 690 118" stroke="#e5a14b" stroke-width="5" stroke-linecap="round"/>
+<circle cx="690" cy="140" r="18" fill="none" stroke="#e5a14b" stroke-width="5"/>
+<circle cx="664" cy="146" r="12" fill="none" stroke="#db9840" stroke-width="5"/>
+<path d="M 690 158 L 690 226" stroke="#e5a14b" stroke-width="5" stroke-linecap="round"/>
+<circle cx="690" cy="232" r="8" fill="none" stroke="#cfd6dc" stroke-width="4"/>
+<path d="M 684 228 Q 638 210 650 160 Q 654 148 660 146" fill="none" stroke="#e5a14b" stroke-width="4.5" stroke-linecap="round"/>
+<line x1="730" y1="150" x2="730" y2="210" stroke="#69db7c" stroke-width="3.2" marker-end="url(#ar-hitch)"/>
+<text x="738" y="182" class="lblg" text-anchor="start">PULL —</text>
+<text x="738" y="196" class="lblg" text-anchor="start">3:1 advantage</text>
+<path d="M 660 146 q -14 -8 -8 -20 q 12 -8 16 4" fill="none" stroke="#ff8787" stroke-width="4" stroke-linecap="round"/>
+<path d="M 666 128 q -12 -10 -4 -20 q 12 -6 14 6" fill="none" stroke="#ff8787" stroke-width="4" stroke-linecap="round"/>
+<text x="650" y="100" class="lblb" text-anchor="end">finish: 2 half-hitches</text>
+</svg></div>
+    <ul>
+      <li><strong>Agree on ONE detail-oriented Lead.</strong> The Lead inspects every area built, owns daily maintenance (~5 min/day, sometimes 30), and owns final packing + inventory. Congrats — it's you now. Check people's work. 🙂</li>
+      <li><strong>The Trucker's Hitch (slipknot variation) is THE knot</strong> for this structure — a 3:1 pulley out of thin air, adjustable, quick to release. Everyone on harness or tiedown duty should be able to tie it half-asleep at dawn in a whiteout.</li>
+      <li>Practice at the Gulch with the actual line. Ten reps and it's in your hands forever.</li>
+    </ul>
+    <div class="tip"><strong>Why the slipknot variation?</strong> Pulling a <em>bight</em> (a folded loop) through — never the free end — means the whole knot falls open with one tug at strike. Leave No Trace includes no abandoned knot-welds. 🐢</div>
+  </div>
+</section>
+
+<!-- STEP 3 -->
+<section class="step" id="s3">
+  <div class="step-head"><div class="step-num">3</div><h2>Stage the Parts</h2><span class="time">✅ in hand · 🛒 to buy · 🎁 David brings</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 1160 276" role="img" aria-label="figure">
+<defs>
+<marker id="ar-parts" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4dd4e8"/></marker>
+<marker id="ard-parts" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a7d75"/></marker>
+</defs>
+<rect x="0" y="196" width="1160" height="72" fill="#241d16"/>
+<rect x="62.5" y="46" width="15" height="150" rx="2" fill="#a07c50" stroke="#7c5f3c" stroke-width="2"/><circle cx="57.5" cy="55.0" r="5" fill="none" stroke="#cfd6dc" stroke-width="3"/><circle cx="82.5" cy="62.0" r="5" fill="none" stroke="#cfd6dc" stroke-width="3"/>
+<text x="70" y="214" class="lbl2" text-anchor="middle">4×4×8 posts</text><text x="70" y="228" class="dim" text-anchor="middle">eye bolts @ 7'6"</text>
+<circle cx="205" cy="158" r="30" fill="none" stroke="#cfd6dc" stroke-width="7"/>
+<circle cx="205" cy="158" r="19" fill="none" stroke="#8b97a3" stroke-width="5"/>
+<text x="205" y="246" class="lbl2" text-anchor="middle">3/16" 7×19 cable</text><text x="205" y="260" class="dim" text-anchor="middle">thimbles + swages</text>
+<path d="M 310 188 q 20 -70 46 -84" fill="none" stroke="#39424e" stroke-width="7" stroke-linecap="round"/>
+<rect x="322" y="144" width="26" height="15" rx="3" fill="#1c232c" stroke="#8b97a3" stroke-width="1.8"/>
+<circle cx="358" cy="102" r="6" fill="none" stroke="#8b97a3" stroke-width="3.5"/>
+<text x="336" y="214" class="lbl2" text-anchor="middle">2" ratchet straps</text><text x="336" y="228" class="dim" text-anchor="middle">w/ loops · 16+</text>
+<line x1="445" y1="100" x2="445" y2="192" stroke="#8b97a3" stroke-width="7" stroke-linecap="round"/>
+<circle cx="445" cy="100" r="6.5" fill="#cfd6dc"/>
+<circle cx="445" cy="114" r="5" fill="#cfd6dc"/>
+<text x="445" y="246" class="lbl2" text-anchor="middle">circus stakes 1"×40"</text><text x="445" y="260" class="dim" text-anchor="middle">2840DH · 30×</text>
+<line x1="560" y1="132" x2="560" y2="192" stroke="#8b97a3" stroke-width="6" stroke-linecap="round"/>
+<circle cx="560" cy="132" r="5.5" fill="#eb5833"/>
+<rect x="546" y="138" width="28" height="5" rx="2" fill="#cfd6dc"/>
+<text x="560" y="118" class="lblg" text-anchor="middle">✅ done 7/21</text>
+<text x="560" y="214" class="lbl2" text-anchor="middle">welded-washer stakes</text><text x="560" y="228" class="dim" text-anchor="middle">60 + ≥8 plain pins</text>
+<path d="M 680 112 a 16 22 0 1 0 0.1 0" fill="none" stroke="#cfd6dc" stroke-width="6"/>
+<line x1="667" y1="122" x2="676" y2="140" stroke="#e5a14b" stroke-width="4"/>
+<text x="680" y="246" class="lbl2" text-anchor="middle">spring hooks 3/16"</text><text x="680" y="260" class="dim" text-anchor="middle">~1000 (!) + 50 big</text>
+<rect x="790" y="150" width="88" height="14" rx="6" fill="#9fb3c8"/>
+<rect x="796" y="164" width="76" height="14" rx="6" fill="#c6d4e2"/>
+<rect x="790" y="178" width="88" height="14" rx="6" fill="#9fb3c8"/>
+<text x="834" y="214" class="lbl2" text-anchor="middle">shade panels 52×52</text><text x="834" y="228" class="dim" text-anchor="middle">roofs + 52×8.5 sides</text>
+<rect x="944" y="118" width="10" height="72" rx="4" fill="#cfd6dc" stroke="#8b97a3" stroke-width="1.6"/>
+<rect x="962" y="122" width="10" height="68" rx="4" fill="#cfd6dc" stroke="#8b97a3" stroke-width="1.6"/>
+<rect x="980" y="126" width="10" height="64" rx="4" fill="#cfd6dc" stroke="#8b97a3" stroke-width="1.6"/>
+<rect x="998" y="130" width="10" height="60" rx="4" fill="#cfd6dc" stroke="#8b97a3" stroke-width="1.6"/>
+<text x="974" y="246" class="lbl2" text-anchor="middle">aluminum poles</text><text x="974" y="260" class="dim" text-anchor="middle">DAVID BRINGS 🎁</text>
+<path d="M 1044 144 q 30 26 60 0 l -8 -18 q -22 16 -44 0 z" fill="#cfd6dc" stroke="#8b97a3" stroke-width="2"/>
+<rect x="1068" y="162" width="12" height="30" rx="3" fill="#8b97a3"/>
+<text x="1074" y="214" class="lbl2" text-anchor="middle">bowl pole-caps</text><text x="1074" y="228" class="dim" text-anchor="middle">confirm w/ David ⚠️</text>
+</svg></div>
+    <ul>
+      <li><strong>4×4×8 posts</strong> — grade 1–2, straightest and least-knotted you can find, <strong>NOT pressure-treated</strong> (PT is weaker — the only 3 posts Eric has seen fail were PT and steep-guyed). Drill for eye bolts at 7'6" one way, ~¾" lower the other.</li>
+      <li><strong>Steel cables</strong> — 3/16" 7×19 galvanized aircraft cable, built with a thimble + 4 swage sleeves (or 3 wire clips) + seizing wire on the tail. 51'7" finished length has worked on recent builds; cables should sit ~2" outside the flat-lying fabric.</li>
+      <li><strong>Ratchet straps</strong> — 2" heavy-duty with loops. 3 per corner post + 1 per side post, plus extras and a couple of temp straps per crew.</li>
+      <li><strong>Stakes</strong> — circus stakes 1"×40" (Pioneer 2840DH, 30×) for structural posts; our welded-washer concrete stakes are <strong>DONE ✅ 7/21</strong> (60 welded, ≥8 left plain as location pins, orange tops). Stake puller: Pioneer 230 class — possibly borrow David's.</li>
+      <li><strong>Spring hooks</strong> — ~1000 of the 3/16" zinc ones + ~50 larger for the stubborn last grommets. Yes, a thousand. They vanish like ice at noon.</li>
+      <li><strong>Poles</strong> — 🎁 David brings them (we bought them from him). If you're forking pure ALPS: aluminum camo-net poles ONLY, never fiberglass ("light duty" WILL fail — one camp lost 5 poles on a calm night).</li>
+    </ul>
+    <div class="tip david"><strong>Pre-build at the Gulch:</strong> cut all harness lines to length, label each with tape, coil separately, bag per-harness in gallon ziplocks. Future-you on a ladder at 9am will weep with gratitude.</div>
+  </div>
+</section>
+
+<!-- STEP 4 -->
+<section class="step" id="s4">
+  <div class="step-head"><div class="step-num">4</div><h2>Survey &amp; Layout</h2><span class="time">1 hr · 2–3 🐢</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 880 450" role="img" aria-label="figure">
+<defs>
+<marker id="ar-layout" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4dd4e8"/></marker>
+<marker id="ard-layout" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a7d75"/></marker>
+</defs>
+<rect x="130" y="70" width="630" height="330" fill="rgba(159,179,200,.07)" stroke="#9fb3c8" stroke-width="2" stroke-dasharray="10 6"/>
+<rect x="305.0" y="36" width="280" height="30" rx="4" fill="#39424e" stroke="#4a5563" stroke-width="2"/>
+<text x="445.0" y="56" class="lbl2" text-anchor="middle">SEMI 8×53 — keder edge</text>
+<line x1="305.0" y1="67" x2="585.0" y2="67" stroke="#4dd4e8" stroke-width="4"/>
+<circle cx="355.0" cy="287.8" r="9" fill="none" stroke="#ffd43b" stroke-width="3"/>
+<line x1="349.0" y1="281.8" x2="361.0" y2="293.8" stroke="#ffd43b" stroke-width="3"/>
+<circle cx="535.0" cy="287.8" r="9" fill="none" stroke="#ffd43b" stroke-width="3"/>
+<line x1="529.0" y1="281.8" x2="541.0" y2="293.8" stroke="#ffd43b" stroke-width="3"/>
+<text x="485.0" y="315.8" class="lblw" text-anchor="middle">pole positions — 75 ft downwind of semi</text>
+<line x1="160" y1="367.0" x2="730" y2="367.0" stroke="#eb5833" stroke-width="2.5" stroke-dasharray="4 6"/>
+<text x="445.0" y="385.0" class="lbl2" text-anchor="middle">fabric-to-ground line (~20 ft past poles) — stake row</text>
+<rect x="123" y="63" width="14" height="14" fill="#a07c50" stroke="#7c5f3c" stroke-width="2"/>
+<rect x="753" y="63" width="14" height="14" fill="#a07c50" stroke="#7c5f3c" stroke-width="2"/>
+<rect x="123" y="280.8" width="14" height="14" fill="#a07c50" stroke="#7c5f3c" stroke-width="2"/>
+<rect x="753" y="280.8" width="14" height="14" fill="#a07c50" stroke="#7c5f3c" stroke-width="2"/>
+<rect x="123" y="171.9" width="14" height="14" fill="#a07c50" stroke="#7c5f3c" stroke-width="2"/>
+<rect x="753" y="171.9" width="14" height="14" fill="#a07c50" stroke="#7c5f3c" stroke-width="2"/>
+<text x="116" y="182.9" class="lbl2" text-anchor="end">guyed 4×4s</text>
+<polygon points="130,70 360,70 360,300 130,300" fill="none" stroke="#e5a14b" stroke-width="2.2"/>
+<line x1="130" y1="70" x2="360" y2="300" stroke="#e5a14b" stroke-width="2.2" stroke-dasharray="7 5"/>
+<line x1="360" y1="70" x2="130" y2="300" stroke="#e5a14b" stroke-width="2.2" stroke-dasharray="7 5"/>
+<text x="245.0" y="175.0" class="lblw" text-anchor="middle">paracord template</text>
+<text x="245.0" y="193.0" class="lbl2" text-anchor="middle">diagonals EQUAL ±inches</text>
+<line x1="130" y1="424" x2="760" y2="424" stroke="#8a7d75" stroke-width="1.4" marker-start="url(#ard-layout)" marker-end="url(#ard-layout)"/><text x="445.0" y="420" class="dim" text-anchor="middle">122 ft</text>
+<line x1="786" y1="70" x2="786" y2="400" stroke="#8a7d75" stroke-width="1.4" marker-start="url(#ard-layout)" marker-end="url(#ard-layout)"/><text x="786" y="63" class="dim" text-anchor="middle"></text>
+<text x="798" y="235.0" class="dim" text-anchor="start">68 ft</text>
+<text x="445" y="30" class="ttl" text-anchor="middle">PLAN VIEW — not to scale · final numbers from David's map on survey day</text>
+</svg></div>
+    <ul>
+      <li><strong>Square everything off the semi.</strong> Park it first (per the camp map), then the keder edge becomes your baseline — every measurement runs off that rail.</li>
+      <li><strong>Paracord template trick:</strong> pre-tie a square of paracord with both diagonals (for a 52' square, diagonals are 73.5'). Lay it taut on the playa and the corners literally point at your post positions.</li>
+      <li>No template? Measure the diagonals between corner marks — <strong>equal within a few inches = square</strong>.</li>
+      <li>Mark every post position, drop a plain (unwelded) location-pin stake at each, and lay the cables out between marks before any post goes up.</li>
+    </ul>
+    <div class="tip"><strong>Numbers honesty:</strong> footprint 68×122, poles 75 ft downwind, grounds ~20 ft past — these come from David's map and don't all reconcile to the inch on paper. The survey answers to the map and to David on build day, not to this drawing. 🐢</div>
+  </div>
+</section>
+
+<!-- STEP 5 -->
+<section class="step" id="s5">
+  <div class="step-head"><div class="step-num">5</div><h2>Set the Posts — the Safety Step</h2><span class="time">the one to get RIGHT</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 920 322" role="img" aria-label="figure">
+<defs>
+<marker id="ar-posts" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4dd4e8"/></marker>
+<marker id="ard-posts" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a7d75"/></marker>
+</defs>
+<rect x="0" y="268" width="920" height="40" fill="#241d16"/>
+<rect x="160" y="268" width="280" height="16" fill="rgba(255,135,135,.28)"/>
+<line x1="160" y1="268" x2="160" y2="284" stroke="#ff8787" stroke-width="3"/>
+<line x1="440" y1="268" x2="440" y2="284" stroke="#ff8787" stroke-width="3"/>
+<text x="300" y="302" class="lblb" text-anchor="middle">🚫 NO STAKES CLOSER THAN 10 FT — a camp at 6 ft CRACKED 3 POSTS</text>
+<rect x="292.0" y="157.39999999999998" width="16" height="110.60000000000001" rx="2" fill="#a07c50" stroke="#7c5f3c" stroke-width="2"/><circle cx="287.0" cy="164.03599999999997" r="5" fill="none" stroke="#cfd6dc" stroke-width="3"/><circle cx="313.0" cy="171.03599999999997" r="5" fill="none" stroke="#cfd6dc" stroke-width="3"/>
+<text x="300" y="147.39999999999998" class="lbl2" text-anchor="middle">4×4 post</text>
+<line x1="292" y1="163.0" x2="132" y2="260" stroke="#39424e" stroke-width="5" stroke-linecap="round"/><g transform="translate(176.8,232.8) rotate(148.8)"><rect x="-11" y="-6" width="22" height="12" rx="3" fill="#1c232c" stroke="#8b97a3" stroke-width="1.6"/></g>
+<line x1="292" y1="169.0" x2="166" y2="262" stroke="#39424e" stroke-width="5" stroke-linecap="round"/><g transform="translate(201.3,236.0) rotate(143.6)"><rect x="-11" y="-6" width="22" height="12" rx="3" fill="#1c232c" stroke="#8b97a3" stroke-width="1.6"/></g>
+<line x1="308" y1="163.0" x2="468" y2="260" stroke="#39424e" stroke-width="5" stroke-linecap="round"/><g transform="translate(423.2,232.8) rotate(31.2)"><rect x="-11" y="-6" width="22" height="12" rx="3" fill="#1c232c" stroke="#8b97a3" stroke-width="1.6"/></g>
+<line x1="131.3" y1="258.0" x2="132" y2="268" stroke="#8b97a3" stroke-width="5" stroke-linecap="round"/><line x1="132" y1="268" x2="134.1" y2="297.9" stroke="#8b97a3" stroke-width="5" stroke-linecap="round" stroke-dasharray="5 4" opacity=".65"/><circle cx="131.3" cy="258.0" r="4.4" fill="#eb5833"/>
+<line x1="165.3" y1="258.0" x2="166" y2="268" stroke="#8b97a3" stroke-width="5" stroke-linecap="round"/><line x1="166" y1="268" x2="168.1" y2="297.9" stroke="#8b97a3" stroke-width="5" stroke-linecap="round" stroke-dasharray="5 4" opacity=".65"/><circle cx="165.3" cy="258.0" r="4.4" fill="#eb5833"/>
+<line x1="468.7" y1="258.0" x2="468" y2="268" stroke="#8b97a3" stroke-width="5" stroke-linecap="round"/><line x1="468" y1="268" x2="465.9" y2="297.9" stroke="#8b97a3" stroke-width="5" stroke-linecap="round" stroke-dasharray="5 4" opacity=".65"/><circle cx="468.7" cy="258.0" r="4.4" fill="#eb5833"/>
+<text x="126" y="224" class="lbl2" text-anchor="end">2 toward the</text>
+<text x="126" y="238" class="lbl2" text-anchor="end">cable lines</text>
+<text x="476" y="232" class="lbl2" text-anchor="start">1 through-post,</text>
+<text x="476" y="246" class="lbl2" text-anchor="start">to square center</text>
+<line x1="300" y1="152" x2="468" y2="152" stroke="#8a7d75" stroke-width="1.4" marker-start="url(#ard-posts)" marker-end="url(#ard-posts)"/><text x="384.0" y="146" class="dim" text-anchor="middle">12 ft</text>
+<text x="300" y="24" class="ttl" text-anchor="middle">3 STRAPS PER CORNER POST · STAKES ≥ 10–12 FT OUT</text>
+<rect x="600" y="60" width="300" height="118" rx="12" fill="#071123" stroke="#1f2a38"/>
+<text x="750" y="82" class="ttl" text-anchor="middle">STAKE ANGLE</text>
+<rect x="610" y="158" width="280" height="8" rx="3" fill="#241d16"/>
+<line x1="650.0" y1="150.0" x2="650" y2="160" stroke="#69db7c" stroke-width="6" stroke-linecap="round"/><line x1="650" y1="160" x2="650.0" y2="200.0" stroke="#69db7c" stroke-width="6" stroke-linecap="round" stroke-dasharray="5 4" opacity=".65"/><circle cx="650.0" cy="150.0" r="4.4" fill="#69db7c"/>
+<text x="650" y="116" class="lblg" text-anchor="middle">✅ vertical</text>
+<line x1="743.6" y1="150.1" x2="745" y2="160" stroke="#ffd43b" stroke-width="6" stroke-linecap="round"/><line x1="745" y1="160" x2="750.6" y2="199.6" stroke="#ffd43b" stroke-width="6" stroke-linecap="round" stroke-dasharray="5 4" opacity=".65"/><circle cx="743.6" cy="150.1" r="4.4" fill="#ffd43b"/>
+<text x="745" y="116" class="lblw" text-anchor="middle">ok ≤5–10°</text>
+<line x1="837.9" y1="152.9" x2="845" y2="160" stroke="#ff8787" stroke-width="6" stroke-linecap="round"/><line x1="845" y1="160" x2="873.3" y2="188.3" stroke="#ff8787" stroke-width="6" stroke-linecap="round" stroke-dasharray="5 4" opacity=".65"/><circle cx="837.9" cy="152.9" r="4.4" fill="#ff8787"/>
+<text x="845" y="116" class="lblb" text-anchor="middle">✗ 45° NO</text>
+<rect x="600" y="192" width="300" height="112" rx="12" fill="#071123" stroke="#1f2a38"/>
+<text x="750" y="214" class="ttl" text-anchor="middle">EYE BOLT @ 7'6"</text>
+<circle cx="634" cy="248" r="11" fill="none" stroke="#cfd6dc" stroke-width="4"/>
+<rect x="646" y="245" width="150" height="6" fill="#8b97a3"/>
+<rect x="662" y="232" width="6" height="32" fill="#cfd6dc"/>
+<rect x="670" y="222" width="72" height="52" rx="3" fill="#a07c50" stroke="#7c5f3c" stroke-width="2"/>
+<rect x="744" y="232" width="6" height="32" fill="#cfd6dc"/>
+<circle cx="808" cy="248" r="11" fill="none" stroke="#cfd6dc" stroke-width="4"/>
+<text x="750" y="284" class="dim" text-anchor="middle">eye – washer – POST – washer – eye nut</text>
+<text x="750" y="297" class="dim" text-anchor="middle">all TIGHT, aligned so load cannot bend the bolt</text>
+</svg></div>
+    <ul>
+      <li><strong>One person holds the post upright</strong> on its location pin. Connect 3 ratchet straps: 2 to the eye bolts, 1 looped over the post (keep looped straps off the bolt threads so they don't fray).</li>
+      <li><strong>Drive the 3 permanent stakes ~12 ft out</strong> — two in the direction of the cable lines, one pointing through the post toward the square's center.</li>
+      <li><strong>Drive stakes vertical.</strong> If your ratchet geometry really wants an angle, 5–10° max. Never 45°, never perpendicular to the strap — angled stakes pull out of soft playa.</li>
+      <li><strong>Temp-strap trick:</strong> loop a temporary strap over the post (above the permanent ones), run it to a temp stake, and the post stands alone — no human statue required. Remove all temps once the square is cabled.</li>
+      <li>Attach the steel cables to the post, then repeat for every post. The center-field posts take less load — medium stakes are fine there.</li>
+      <li>Swinging sledges: try not to hit the ground or set the stake vibrating — both weaken the playa's grip.</li>
+    </ul>
+    <div class="tip danger"><strong>DO NOT GO CLOSER THAN 10 FT.</strong> Close stakes add upward pull-out force AND extra bending load on the post — a camp that staked at 6 ft cracked THREE posts. 10 ft is the floor; ~12 ft is the ALPS standard. This is the line Terri will bite you over. 🐢🦷</div>
+  </div>
+</section>
+
+<!-- STEP 6 -->
+<section class="step" id="s6">
+  <div class="step-head"><div class="step-num">6</div><h2>Cables Up + Square Check</h2><span class="time">2–3 🐢 per square</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 880 420" role="img" aria-label="figure">
+<defs>
+<marker id="ar-square" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4dd4e8"/></marker>
+<marker id="ard-square" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a7d75"/></marker>
+</defs>
+<line x1="170" y1="100" x2="490" y2="100" stroke="#cfd6dc" stroke-width="3.4"/>
+<line x1="490" y1="100" x2="490" y2="320" stroke="#cfd6dc" stroke-width="3.4"/>
+<line x1="490" y1="320" x2="170" y2="320" stroke="#cfd6dc" stroke-width="3.4"/>
+<line x1="170" y1="320" x2="170" y2="100" stroke="#cfd6dc" stroke-width="3.4"/>
+<line x1="170" y1="100" x2="490" y2="320" stroke="#4dd4e8" stroke-width="2.4" stroke-dasharray="8 6" marker-start="url(#ar-square)" marker-end="url(#ar-square)"/>
+<line x1="490" y1="100" x2="170" y2="320" stroke="#4dd4e8" stroke-width="2.4" stroke-dasharray="8 6" marker-start="url(#ar-square)" marker-end="url(#ar-square)"/>
+<text x="330.0" y="196.0" class="lbla" text-anchor="middle">measure BOTH diagonals</text>
+<text x="330.0" y="216.0" class="lbl2" text-anchor="middle">equal within a few inches = square</text>
+<line x1="170" y1="100" x2="112" y2="77" stroke="#39424e" stroke-width="4"/>
+<circle cx="112" cy="77" r="4.5" fill="#eb5833"/>
+<line x1="170" y1="100" x2="147" y2="42" stroke="#39424e" stroke-width="4"/>
+<circle cx="147" cy="42" r="4.5" fill="#eb5833"/>
+<line x1="170" y1="100" x2="126" y2="56" stroke="#39424e" stroke-width="4"/>
+<circle cx="126" cy="56" r="4.5" fill="#eb5833"/>
+<rect x="162" y="92" width="16" height="16" fill="#a07c50" stroke="#7c5f3c" stroke-width="2"/>
+<line x1="490" y1="100" x2="548" y2="77" stroke="#39424e" stroke-width="4"/>
+<circle cx="548" cy="77" r="4.5" fill="#eb5833"/>
+<line x1="490" y1="100" x2="513" y2="42" stroke="#39424e" stroke-width="4"/>
+<circle cx="513" cy="42" r="4.5" fill="#eb5833"/>
+<line x1="490" y1="100" x2="534" y2="56" stroke="#39424e" stroke-width="4"/>
+<circle cx="534" cy="56" r="4.5" fill="#eb5833"/>
+<rect x="482" y="92" width="16" height="16" fill="#a07c50" stroke="#7c5f3c" stroke-width="2"/>
+<line x1="490" y1="320" x2="548" y2="343" stroke="#39424e" stroke-width="4"/>
+<circle cx="548" cy="343" r="4.5" fill="#eb5833"/>
+<line x1="490" y1="320" x2="513" y2="378" stroke="#39424e" stroke-width="4"/>
+<circle cx="513" cy="378" r="4.5" fill="#eb5833"/>
+<line x1="490" y1="320" x2="534" y2="364" stroke="#39424e" stroke-width="4"/>
+<circle cx="534" cy="364" r="4.5" fill="#eb5833"/>
+<rect x="482" y="312" width="16" height="16" fill="#a07c50" stroke="#7c5f3c" stroke-width="2"/>
+<line x1="170" y1="320" x2="112" y2="343" stroke="#39424e" stroke-width="4"/>
+<circle cx="112" cy="343" r="4.5" fill="#eb5833"/>
+<line x1="170" y1="320" x2="147" y2="378" stroke="#39424e" stroke-width="4"/>
+<circle cx="147" cy="378" r="4.5" fill="#eb5833"/>
+<line x1="170" y1="320" x2="126" y2="364" stroke="#39424e" stroke-width="4"/>
+<circle cx="126" cy="364" r="4.5" fill="#eb5833"/>
+<rect x="162" y="312" width="16" height="16" fill="#a07c50" stroke="#7c5f3c" stroke-width="2"/>
+<text x="330.0" y="60" class="lbl2" text-anchor="middle">cables @ 7'6" · 51'7" worked on recent builds</text>
+<text x="390.0" y="398" class="lblw" text-anchor="middle">ratchet until cables are pretty taut — re-check square AFTER tensioning</text>
+<text x="640" y="140" class="lblw" text-anchor="start">our hybrid:</text>
+<text x="640" y="162" class="lbl2" text-anchor="start">the semi's keder edge</text>
+<text x="640" y="180" class="lbl2" text-anchor="start">replaces one whole</text>
+<text x="640" y="198" class="lbl2" text-anchor="start">cable run — square</text>
+<text x="640" y="216" class="lbl2" text-anchor="start">the field off the rail</text>
+</svg></div>
+    <ul>
+      <li>Shackle the cables to the eye bolts/eye nuts (1/2" screw-pin shackles — oversized on purpose, they're easier to work with gloves on).</li>
+      <li>Pull the temporary straps and stakes.</li>
+      <li><strong>Re-measure the diagonals</strong> — tensioning shifts things. Equal within a few inches, or adjust ratchets until it is.</li>
+      <li>Ratchet until the cables are <strong>pretty taut</strong> — firm handshake, not guitar string. Final tension comes after the fabric loads them.</li>
+      <li>Repeat for each square of the field, always working off the keder baseline.</li>
+    </ul>
+    <div class="tip david"><strong>David's hybrid note:</strong> the semi's rail replaces an entire cable run on that edge — fewer posts, fewer stakes, one very large immovable anchor. That's why the semi parks FIRST and parks EXACTLY where the map says.</div>
+  </div>
+</section>
+
+<!-- STEP 7 -->
+<section class="step" id="s7">
+  <div class="step-head"><div class="step-num">7</div><h2>Attach the Roof Panels</h2><span class="time">many hands! 🐢🐢🐢</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 880 240" role="img" aria-label="figure">
+<defs>
+<marker id="ar-hooks" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4dd4e8"/></marker>
+<marker id="ard-hooks" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a7d75"/></marker>
+</defs>
+<line x1="40" y1="84" x2="840" y2="84" stroke="#cfd6dc" stroke-width="4"/>
+<text x="52" y="68" class="lbl2" text-anchor="start">steel cable</text>
+<polygon points="60,110 820,110 800,220 80,220" fill="rgba(159,179,200,.16)" stroke="#9fb3c8" stroke-width="2"/>
+<line x1="120" y1="118" x2="108" y2="212" stroke="#c6d4e2" stroke-width="1" opacity=".4"/>
+<line x1="240" y1="118" x2="228" y2="212" stroke="#c6d4e2" stroke-width="1" opacity=".4"/>
+<line x1="360" y1="118" x2="348" y2="212" stroke="#c6d4e2" stroke-width="1" opacity=".4"/>
+<line x1="480" y1="118" x2="468" y2="212" stroke="#c6d4e2" stroke-width="1" opacity=".4"/>
+<line x1="600" y1="118" x2="588" y2="212" stroke="#c6d4e2" stroke-width="1" opacity=".4"/>
+<line x1="720" y1="118" x2="708" y2="212" stroke="#c6d4e2" stroke-width="1" opacity=".4"/>
+<text x="400" y="196" class="lbl2" text-anchor="middle">52×52 roof panel — spread it out UNDER the square first</text>
+<circle cx="100" cy="114" r="6" fill="none" stroke="#e5a14b" stroke-width="3"/>
+<path d="M 100 108 C 91 96 91 86 100 80 C 109 86 109 96 100 108" fill="none" stroke="#cfd6dc" stroke-width="3.4"/>
+<line x1="95" y1="100" x2="101" y2="106" stroke="#ffd43b" stroke-width="2.6"/>
+<circle cx="168" cy="114" r="6" fill="none" stroke="#e5a14b" stroke-width="3"/>
+<path d="M 168 108 C 159 96 159 86 168 80 C 177 86 177 96 168 108" fill="none" stroke="#cfd6dc" stroke-width="3.4"/>
+<line x1="163" y1="100" x2="169" y2="106" stroke="#ffd43b" stroke-width="2.6"/>
+<circle cx="236" cy="114" r="6" fill="none" stroke="#e5a14b" stroke-width="3"/>
+<path d="M 236 108 C 227 96 227 86 236 80 C 245 86 245 96 236 108" fill="none" stroke="#cfd6dc" stroke-width="3.4"/>
+<line x1="231" y1="100" x2="237" y2="106" stroke="#ffd43b" stroke-width="2.6"/>
+<circle cx="304" cy="114" r="6" fill="none" stroke="#e5a14b" stroke-width="3"/>
+<path d="M 304 108 C 295 96 295 86 304 80 C 313 86 313 96 304 108" fill="none" stroke="#cfd6dc" stroke-width="3.4"/>
+<line x1="299" y1="100" x2="305" y2="106" stroke="#ffd43b" stroke-width="2.6"/>
+<circle cx="372" cy="114" r="6" fill="none" stroke="#e5a14b" stroke-width="3"/>
+<path d="M 372 108 C 363 96 363 86 372 80 C 381 86 381 96 372 108" fill="none" stroke="#cfd6dc" stroke-width="3.4"/>
+<line x1="367" y1="100" x2="373" y2="106" stroke="#ffd43b" stroke-width="2.6"/>
+<circle cx="440" cy="114" r="6" fill="none" stroke="#e5a14b" stroke-width="3"/>
+<path d="M 440 108 C 431 96 431 86 440 80 C 449 86 449 96 440 108" fill="none" stroke="#cfd6dc" stroke-width="3.4"/>
+<line x1="435" y1="100" x2="441" y2="106" stroke="#ffd43b" stroke-width="2.6"/>
+<circle cx="508" cy="114" r="6" fill="none" stroke="#e5a14b" stroke-width="3"/>
+<path d="M 508 108 C 499 96 499 86 508 80 C 517 86 517 96 508 108" fill="none" stroke="#cfd6dc" stroke-width="3.4"/>
+<line x1="503" y1="100" x2="509" y2="106" stroke="#ffd43b" stroke-width="2.6"/>
+<circle cx="576" cy="114" r="6" fill="none" stroke="#e5a14b" stroke-width="3"/>
+<path d="M 576 108 C 567 96 567 86 576 80 C 585 86 585 96 576 108" fill="none" stroke="#cfd6dc" stroke-width="3.4"/>
+<line x1="571" y1="100" x2="577" y2="106" stroke="#ffd43b" stroke-width="2.6"/>
+<circle cx="644" cy="114" r="6" fill="none" stroke="#8b97a3" stroke-width="2.5"/>
+<circle cx="712" cy="114" r="6" fill="none" stroke="#8b97a3" stroke-width="2.5"/>
+<text x="790" y="140" class="lblb" text-anchor="end">✗ skip the cornermost few</text>
+<text x="790" y="156" class="lbl2" text-anchor="end">grommets if too tight —</text>
+<text x="790" y="172" class="lbl2" text-anchor="end">corners carry too much stress</text>
+<text x="240" y="40" class="ttl" text-anchor="middle">ALL HOOKS SAME DIRECTION · OPENING FACING DOWN</text>
+<line x1="168" y1="52" x2="140" y2="96" stroke="#4dd4e8" stroke-width="2.6" marker-end="url(#ar-hooks)"/>
+</svg></div>
+    <ul>
+      <li><strong>Go/no-go check:</strong> only start if there's time today to raise ALL the tops and sides — they support and tension each other. A half-hung roof overnight is a kite, not a shade.</li>
+      <li>Spread each 52×52 panel out <strong>under</strong> its square, spring-hook openings facing the ground.</li>
+      <li>Clip <strong>every grommet</strong> to the cable — small end of the hook through the grommet, <strong>opening facing down</strong>, all hooks the same direction. Uniform hooks = fast strike and no mystery snags.</li>
+      <li>Use the larger spring hooks for the last stubborn foot of each panel.</li>
+      <li><strong>Skip the cornermost few grommets</strong> if they're fighting you — corners carry too much stress anyway (the fabric has no corner hole for exactly this reason).</li>
+    </ul>
+    <div class="tip"><strong>Grommet spec</strong> (for forkers cutting fresh fabric): tape all edges, brass grommets every 12" on tops — none AT the corner, extra hole 6" from each end. Sides: every 1' top, every 2' on the ends, every 1' on the ground edge.</div>
+  </div>
+</section>
+
+<!-- STEP 8 -->
+<section class="step" id="s8">
+  <div class="step-head"><div class="step-num">8</div><h2>Hang the Sides</h2><span class="time">1–8 🐢 · fast</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 640 310" role="img" aria-label="figure">
+<defs>
+<marker id="ar-sides" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4dd4e8"/></marker>
+<marker id="ard-sides" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a7d75"/></marker>
+</defs>
+<rect x="0" y="270" width="640 " height="30" fill="#241d16"/>
+<rect x="132.5" y="110" width="15" height="160" rx="2" fill="#a07c50" stroke="#7c5f3c" stroke-width="2"/><circle cx="127.5" cy="119.6" r="5" fill="none" stroke="#cfd6dc" stroke-width="3"/><circle cx="152.5" cy="126.6" r="5" fill="none" stroke="#cfd6dc" stroke-width="3"/>
+<line x1="140" y1="120" x2="600" y2="120" stroke="#cfd6dc" stroke-width="3.4"/>
+<text x="596" y="108" class="lbl2" text-anchor="end">cable @ 7'6"</text>
+<polygon points="185,126 585,126 545,264 145,264" fill="rgba(159,179,200,.16)" stroke="#9fb3c8" stroke-width="2"/>
+<path d="M 185 128 C 179 180 171 210 147 262" fill="none" stroke="#c6d4e2" stroke-width="1" opacity=".45"/>
+<path d="M 245 128 C 239 180 231 210 207 262" fill="none" stroke="#c6d4e2" stroke-width="1" opacity=".45"/>
+<path d="M 305 128 C 299 180 291 210 267 262" fill="none" stroke="#c6d4e2" stroke-width="1" opacity=".45"/>
+<path d="M 365 128 C 359 180 351 210 327 262" fill="none" stroke="#c6d4e2" stroke-width="1" opacity=".45"/>
+<path d="M 425 128 C 419 180 411 210 387 262" fill="none" stroke="#c6d4e2" stroke-width="1" opacity=".45"/>
+<path d="M 485 128 C 479 180 471 210 447 262" fill="none" stroke="#c6d4e2" stroke-width="1" opacity=".45"/>
+<path d="M 545 128 C 539 180 531 210 507 262" fill="none" stroke="#c6d4e2" stroke-width="1" opacity=".45"/>
+<text x="385" y="195.0" class="lbl2" text-anchor="middle">52 × 8.5 ft side — hangs from cable, slants outward</text>
+<line x1="150" y1="86" x2="183" y2="122" stroke="#4dd4e8" stroke-width="2.6" marker-end="url(#ar-sides)"/>
+<text x="150" y="76" class="lblw" text-anchor="start">start hooks 3" in from each end = a little slack</text>
+<line x1="145" y1="266" x2="545" y2="266" stroke="#ff8787" stroke-width="2.4" stroke-dasharray="6 6"/>
+<text x="345" y="292" class="lblb" text-anchor="middle">bottom edge NOT staked yet — that comes after the roof is up</text>
+</svg></div>
+    <ul>
+      <li>Spread the 52'×8.5' side panels along their edges and hook them to the cables, grommet by grommet, hooks facing down.</li>
+      <li><strong>Start ~3" in from each end</strong> — that tiny slack is what lets the side pull out to its 60° slant later without tearing at the first grommet.</li>
+      <li><strong>Do NOT stake the bottoms yet.</strong> Sides get grounded after the roof is up (step 10), so the whole membrane tensions as one system.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- STEP 9 -->
+<section class="step" id="s9">
+  <div class="step-head"><div class="step-num">9</div><h2>Raise the Roof</h2><span class="time">the big moment 🏔️ · gloves on</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 920 390" role="img" aria-label="figure">
+<defs>
+<marker id="ar-raise" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4dd4e8"/></marker>
+<marker id="ard-raise" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a7d75"/></marker>
+</defs>
+<rect x="0" y="330" width="920" height="36" fill="#241d16"/>
+<path d="M 60 190 Q 430 22 860 190" fill="none" stroke="#9fb3c8" stroke-width="6" opacity=".9"/>
+<text x="760" y="154" class="lbl2" text-anchor="middle">roof pushed up ~15 ft</text>
+<rect x="424" y="268" width="12" height="62" rx="3" fill="#cfd6dc" stroke="#8b97a3" stroke-width="1.6"/>
+<rect x="424" y="205" width="12" height="62" rx="3" fill="#aeb9c4" stroke="#8b97a3" stroke-width="1.6"/>
+<rect x="424" y="142" width="12" height="62" rx="3" fill="#cfd6dc" stroke="#8b97a3" stroke-width="1.6"/>
+<rect x="424" y="80" width="12" height="62" rx="3" fill="#aeb9c4" stroke="#8b97a3" stroke-width="1.6"/>
+<text x="450" y="210" class="lbl2" text-anchor="start">4 segments ≈ 15 ft</text>
+<path d="M 404 74 q 26 20 52 0 l -7 -14 q -19 12 -38 0 z" fill="#cfd6dc" stroke="#8b97a3" stroke-width="2"/>
+<text x="430" y="50" class="lbl2" text-anchor="middle">bowl assembly cap (confirm w/ David)</text>
+<circle cx="430" cy="172" r="12" fill="none" stroke="#e5a14b" stroke-width="4.5"/>
+<text x="410" y="176" class="lblw" text-anchor="end">guy ring</text>
+<line x1="418" y1="172" x2="120" y2="178" stroke="#e5a14b" stroke-width="2.6"/>
+<circle cx="112" cy="178" r="10" fill="none" stroke="#e5a14b" stroke-width="3.5" opacity=".6"/>
+<line x1="112" y1="188" x2="112" y2="330" stroke="#5a646f" stroke-width="7" opacity=".5"/>
+<text x="250" y="162" class="lblw" text-anchor="middle">28' → next pole's ring</text>
+<line x1="440" y1="179" x2="740" y2="225" stroke="#e5a14b" stroke-width="2.6"/>
+<line x1="438" y1="182" x2="660" y2="270" stroke="#e5a14b" stroke-width="2.6"/>
+<line x1="740" y1="225" x2="820" y2="225" stroke="#cfd6dc" stroke-width="3"/>
+<line x1="628" y1="270" x2="700" y2="270" stroke="#cfd6dc" stroke-width="3"/>
+<text x="700" y="202" class="lblw" text-anchor="middle">2× 20' → steel cables</text>
+<line x1="421" y1="181" x2="230" y2="290" stroke="#e5a14b" stroke-width="2.2" stroke-dasharray="6 5"/>
+<text x="240" y="308" class="lbl2" text-anchor="middle">17' corner line — adjust after sides are grounded</text>
+<path d="M 377.8 330 L 380.59 302.72 L 378.73 292.8 Q 378.42 283.5 382.76 281.02 L 385.24 281.02 Q 389.58 283.5 389.27 292.8 L 387.41 302.72 L 390.2 330 L 386.79 330 L 384 305.2 L 381.21 330 Z" fill="#e5a14b"/><circle cx="384" cy="274.3" r="5.6" fill="#e5a14b"/>
+<path d="M 476.2 330 L 478.81 304.48 L 477.07 295.2 Q 476.78 286.5 480.84 284.18 L 483.16 284.18 Q 487.22 286.5 486.93 295.2 L 485.19 304.48 L 487.8 330 L 484.61 330 L 482 306.8 L 479.39 330 Z" fill="#e5a14b"/><circle cx="482" cy="277.9" r="5.2" fill="#e5a14b"/>
+<text x="310" y="354" class="dim" text-anchor="end">lift 5 ft ⬆</text>
+<text x="560" y="354" class="dim" text-anchor="start">buddy slots next segment in</text>
+<text x="560" y="310" class="lblw" text-anchor="start">🧤 GLOVES ON — always</text>
+<rect x="408" y="324" width="44" height="7" rx="3" fill="#5b4a3a"/>
+<text x="430" y="374" class="dim" text-anchor="middle">base: carpet square / wood + rebar (ALPS) · ours: David's yellow bases + welded-washer stake nails</text>
+<text x="430" y="26" class="ttl" text-anchor="middle">THE SPREADER-POLE HARNESS — ONE UPRIGHT UNIT THE WIND CAN'T WALK</text>
+</svg></div>
+    <ul>
+      <li><strong>Gloves for every person handling pole segments.</strong> Non-negotiable. Aluminum edges + tension + dust = playa manicure you don't want.</li>
+      <li>Stage each pole's parts ~13 ft in from the sides. Dry-fit all segments — surplus poles occasionally refuse each other.</li>
+      <li><strong>8+ people (easier/faster):</strong> assemble every pole's top half (cap, segment, guy ring, segment), attach the full harness on the ground, then all crews lift together — one person lifts ~5 ft, buddy slots the next segment in, repeat ×2.</li>
+      <li><strong>2 people (one pole at a time):</strong> raise pole 1, guy it to a cable immediately (an unstabilized pole falls when pole 2 goes up), then work around clockwise, temporarily guying each.</li>
+      <li>If the last segment won't seat, <strong>walk the base ~1 ft diagonally toward the roof center</strong> and try again — geometry gives you the slack.</li>
+      <li>Angle pole tops slightly <strong>outward into the corners</strong> — better wind profile, less fabric stress. Finish the harness from the tall A-frame ladder; trucker's hitches make the lengths adjustable (you'll re-trim the 17' corner lines after step 10).</li>
+      <li><strong>Bases:</strong> ALPS uses carpet squares or wood + rebar so poles don't wander or auger in. Ours: David's yellow bases, nailed down with our welded-washer stakes.</li>
+    </ul>
+    <div class="tip david"><strong>David's mod, one more time:</strong> no petal spreaders — his poles replace them, and he's bringing them. The bowl-style cap shown is the parts-list interface; <strong>confirm the actual pole-top hardware with David before fabricating anything</strong>.</div>
+    <div class="tip"><strong>Harness lengths</strong> (28' pole-to-pole, 2×20' to the side cables, 17' corners) are "pretty flexible" per Eric — ours may differ with the keder hybrid and 20-ft poles. Cut long, label, adjust with hitches.</div>
+  </div>
+</section>
+
+<!-- STEP 10 -->
+<section class="step" id="s10">
+  <div class="step-head"><div class="step-num">10</div><h2>Ground the Sides</h2><span class="time">1–8 🐢 · loops, never grommets</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 880 240" role="img" aria-label="figure">
+<defs>
+<marker id="ar-ground" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4dd4e8"/></marker>
+<marker id="ard-ground" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a7d75"/></marker>
+</defs>
+<rect x="0" y="190" width="880" height="36" fill="#241d16"/>
+<polygon points="40,40 840,40 820,144 60,144" fill="rgba(159,179,200,.16)" stroke="#9fb3c8" stroke-width="2"/>
+<text x="440" y="90" class="lbl2" text-anchor="middle">side panel — bottom edge</text>
+<circle cx="110" cy="140" r="7" fill="none" stroke="#e5a14b" stroke-width="3"/>
+<path d="M 104 144 Q 96 174 110 182 Q 124 174 116 144" fill="none" stroke="#db9840" stroke-width="3.4"/>
+<path d="M 100 176 L 100 206 q 0 8 8 8" fill="none" stroke="#69db7c" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="206" cy="140" r="7" fill="none" stroke="#e5a14b" stroke-width="3"/>
+<path d="M 200 144 Q 192 174 206 182 Q 220 174 212 144" fill="none" stroke="#db9840" stroke-width="3.4"/>
+<path d="M 196 176 L 196 206 q 0 8 8 8" fill="none" stroke="#69db7c" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="302" cy="140" r="7" fill="none" stroke="#e5a14b" stroke-width="3"/>
+<path d="M 296 144 Q 288 174 302 182 Q 316 174 308 144" fill="none" stroke="#db9840" stroke-width="3.4"/>
+<path d="M 292 176 L 292 206 q 0 8 8 8" fill="none" stroke="#69db7c" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="398" cy="140" r="7" fill="none" stroke="#e5a14b" stroke-width="3"/>
+<path d="M 392 144 Q 384 174 398 182 Q 412 174 404 144" fill="none" stroke="#db9840" stroke-width="3.4"/>
+<path d="M 388 176 L 388 206 q 0 8 8 8" fill="none" stroke="#69db7c" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="494" cy="140" r="7" fill="none" stroke="#e5a14b" stroke-width="3"/>
+<line x1="494" y1="132" x2="494" y2="204" stroke="#ff8787" stroke-width="5" stroke-linecap="round"/>
+<text x="494" y="118" class="lblb" text-anchor="middle">✗ NEVER through</text>
+<text x="494" y="132" class="lblb" text-anchor="middle"></text>
+<text x="494" y="222" class="lblb" text-anchor="middle">grommet or fabric</text>
+<circle cx="590" cy="140" r="7" fill="none" stroke="#e5a14b" stroke-width="3"/>
+<path d="M 584 144 Q 576 174 590 182 Q 604 174 596 144" fill="none" stroke="#db9840" stroke-width="3.4"/>
+<path d="M 580 176 L 580 206 q 0 8 8 8" fill="none" stroke="#69db7c" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="686" cy="140" r="7" fill="none" stroke="#e5a14b" stroke-width="3"/>
+<path d="M 680 144 Q 672 174 686 182 Q 700 174 692 144" fill="none" stroke="#db9840" stroke-width="3.4"/>
+<path d="M 676 176 L 676 206 q 0 8 8 8" fill="none" stroke="#69db7c" stroke-width="4.5" stroke-linecap="round"/>
+<circle cx="782" cy="140" r="7" fill="none" stroke="#e5a14b" stroke-width="3"/>
+<path d="M 776 144 Q 768 174 782 182 Q 796 174 788 144" fill="none" stroke="#db9840" stroke-width="3.4"/>
+<path d="M 772 176 L 772 206 q 0 8 8 8" fill="none" stroke="#69db7c" stroke-width="4.5" stroke-linecap="round"/>
+<text x="160" y="224" class="lblg" text-anchor="start">✅ stake through the PARACORD LOOP</text>
+<line x1="302" y1="56" x2="398" y2="56" stroke="#8a7d75" stroke-width="1.4" marker-start="url(#ard-ground)" marker-end="url(#ard-ground)"/><text x="350.0" y="50" class="dim" text-anchor="middle">every 12–18"</text>
+</svg></div>
+    <ul>
+      <li>Start at a corner: pull the side straight out ~8 ft from the cable — a clean 60° slant and a nice entry into the space.</li>
+      <li><strong>Stake through the paracord loops ONLY</strong> — never through a grommet, never through fabric. Loops spread the stress, add a little length, and keep fabric out of the mud.</li>
+      <li>Work down the side, pulling somewhat taut, staking <strong>every 12–18"</strong>. More connections = less stress per point.</li>
+      <li>Shift spring hooks along the cable if a section needs repositioning; at corners you can weave cord through the hooks around the cable to share the load and stop rings tearing out.</li>
+      <li>Loop prep (Gulch homework): ~1 ft of paracord through grommets every ~3', tied off — from a 500–1000 ft spool.</li>
+    </ul>
+    <div class="tip david"><strong>David's hardware call:</strong> he skips J-stakes — his lane is spike nails + tie-down rings through the staking loops (the ALPS doc literally name-checks "Naked Heart" on that option 😄). Staking loops are one of his stated non-negotiables — build them exactly as specced. Forkers: 10" J-stakes or 10" lags through loops work great too.</div>
+  </div>
+</section>
+
+<!-- STEP 11 -->
+<section class="step" id="s11">
+  <div class="step-head"><div class="step-num">11</div><h2>Calm the Cables (Anti-Oscillation)</h2><span class="time">ALPS wisdom · ours: see David note</span></div>
+  <div class="step-body">
+    <div class="fig"><svg viewBox="0 0 900 300" role="img" aria-label="figure">
+<defs>
+<marker id="ar-osc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4dd4e8"/></marker>
+<marker id="ard-osc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a7d75"/></marker>
+</defs>
+<rect x="0" y="250" width="900" height="34" fill="#241d16"/>
+<text x="230" y="34" class="ttl" text-anchor="middle">EXTERIOR MIDSPAN SUPPORT (windward)</text>
+<rect x="73.0" y="90" width="14" height="160" rx="2" fill="#a07c50" stroke="#7c5f3c" stroke-width="2"/><circle cx="68.0" cy="99.6" r="5" fill="none" stroke="#cfd6dc" stroke-width="3"/><circle cx="92.0" cy="106.6" r="5" fill="none" stroke="#cfd6dc" stroke-width="3"/>
+<rect x="383.0" y="90" width="14" height="160" rx="2" fill="#a07c50" stroke="#7c5f3c" stroke-width="2"/><circle cx="378.0" cy="99.6" r="5" fill="none" stroke="#cfd6dc" stroke-width="3"/><circle cx="402.0" cy="106.6" r="5" fill="none" stroke="#cfd6dc" stroke-width="3"/>
+<path d="M 80 100 Q 235 132 390 100" fill="none" stroke="#cfd6dc" stroke-width="3"/>
+<rect x="230" y="108" width="10" height="142" rx="3" fill="#a07c50" stroke="#7c5f3c" stroke-width="2"/>
+<path d="M 226 110 q 9 -12 18 0" fill="none" stroke="#8b97a3" stroke-width="3.5"/>
+<line x1="235" y1="116" x2="287" y2="246" stroke="#e5a14b" stroke-width="2.6"/>
+<line x1="286.1" y1="240.0" x2="287" y2="250" stroke="#8b97a3" stroke-width="5" stroke-linecap="round"/><line x1="287" y1="250" x2="289.1" y2="273.9" stroke="#8b97a3" stroke-width="5" stroke-linecap="round" stroke-dasharray="5 4" opacity=".65"/><circle cx="286.1" cy="240.0" r="4.4" fill="#8b97a3"/>
+<text x="301" y="210" class="lbl2" text-anchor="start">line/ratchet down</text>
+<text x="301" y="224" class="lbl2" text-anchor="start">to 18" J-hook stake</text>
+<text x="235" y="98" class="lblw" text-anchor="middle">2×4 pushes cable UP</text>
+<line x1="195" y1="154" x2="223" y2="122" stroke="#4dd4e8" stroke-width="2.6" marker-end="url(#ar-osc)"/>
+<text x="700" y="34" class="ttl" text-anchor="middle">INTERIOR CABLE TIEDOWN</text>
+<path d="M 560 100 Q 700 126 840 100" fill="none" stroke="#cfd6dc" stroke-width="3"/>
+<line x1="700" y1="122" x2="758" y2="248" stroke="#e5a14b" stroke-width="2.6"/>
+<line x1="757.0" y1="240.1" x2="758" y2="250" stroke="#8b97a3" stroke-width="5" stroke-linecap="round"/><line x1="758" y1="250" x2="760.5" y2="273.9" stroke="#8b97a3" stroke-width="5" stroke-linecap="round" stroke-dasharray="5 4" opacity=".65"/><circle cx="757.0" cy="240.1" r="4.4" fill="#8b97a3"/>
+<line x1="808" y1="154" x2="766" y2="202" stroke="#4dd4e8" stroke-width="2.6" marker-end="url(#ar-osc)"/>
+<text x="892" y="134" class="lbl2" text-anchor="end">OFFSET the stake a few feet —</text>
+<text x="892" y="148" class="lbl2" text-anchor="end">never pull straight up on it</text>
+<text x="700" y="90" class="lbl2" text-anchor="middle">aluminet pulls interior cables UP — tie them down</text>
+<text x="450" y="276" class="lblw" text-anchor="middle">trucker's-hitch everything taut · watch each wall in the first big wind</text>
+</svg></div>
+    <ul>
+      <li><strong>Interior cables get tied DOWN:</strong> the fabric pulls them up, so run a line or light ratchet from cable to an 18" J-hook stake (or playa staple), <strong>offset several feet</strong> so it never pulls straight up on the stake. Trucker's hitch, tighten, done.</li>
+      <li><strong>Windward exterior spans get pushed UP:</strong> a 2×4 (or spare pole/EMT) with hooks at 7'6" traps the cable mid-span, plus a line down to a stake. Usually ~4 sides need it; all sides = peace of mind.</li>
+      <li>If a downwind side is only being lifted (not slammed), a simple stake + cord below its center is enough.</li>
+      <li>Watch every wall during the first real blow — whichever one oscillates is the one asking for support.</li>
+    </ul>
+    <div class="tip david"><strong>David, 7/2: "We don't do midspan supports because our system doesn't require it."</strong> So for Terrible Turtle this step is mostly a knowledge keep — but if a span starts singing in a storm anyway, now you know the ALPS field fix. Ask David before adding hardware to his system.</div>
+  </div>
+</section>
+
+<!-- STEP 12 -->
+<section class="step" id="s12">
+  <div class="step-head"><div class="step-num">12</div><h2>Final Checks + the Week</h2><span class="time">5 min/day · after every storm</span></div>
+  <div class="step-body">
+    <div class="fig herofig"><svg viewBox="0 0 560 250" role="img" aria-label="figure">
+<defs>
+<marker id="ar-check" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4dd4e8"/></marker>
+<marker id="ard-check" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8a7d75"/></marker>
+</defs>
+<rect x="0" y="210" width="560 " height="30" fill="#241d16"/>
+<rect x="142.5" y="50" width="15" height="160" rx="2" fill="#a07c50" stroke="#7c5f3c" stroke-width="2"/><circle cx="137.5" cy="59.6" r="5" fill="none" stroke="#cfd6dc" stroke-width="3"/><circle cx="162.5" cy="66.6" r="5" fill="none" stroke="#cfd6dc" stroke-width="3"/>
+<line x1="150" y1="34" x2="150" y2="218" stroke="#69db7c" stroke-width="1.8" stroke-dasharray="6 5"/>
+<text x="150" y="24" class="lblg" text-anchor="middle">plumb ✅</text>
+<rect x="196" y="90" width="52" height="16" rx="6" fill="#39424e" stroke="#8b97a3" stroke-width="2"/>
+<circle cx="222" cy="98" r="4" fill="#69db7c"/>
+<text x="224" y="80" class="lbl2" text-anchor="middle">level on two faces</text>
+<text x="400" y="80" class="lbl2" text-anchor="middle">posts take load best</text>
+<text x="400" y="98" class="lblw" text-anchor="middle">STRAIGHT up-and-down —</text>
+<text x="400" y="116" class="lbl2" text-anchor="middle">adjust ratchets, or loosen +</text>
+<text x="400" y="134" class="lbl2" text-anchor="middle">tap the base with a sledge</text>
+<text x="280" y="234" class="lblg" text-anchor="middle">5 minutes. every day. and after every blow. 🐢</text>
+</svg></div>
+    <ul>
+      <li><strong>Corner posts vertical</strong> — posts are far stronger straight up-and-down than under eccentric load. Adjust ratchets, or loosen and tap the base sideways with a sledge.</li>
+      <li>Harness taut, all lines singing the same note. If any fabric section looks overloaded, relieve it: cord zigzags, a ratchet beneath, or (Eric's high-wind move) one extra spreader pole angled into the corner.</li>
+      <li><strong>The weekly ritual (Lead's job):</strong>
+        <ul style="margin-top:6px;">
+          <li>No tent poles or pokey bits pressing the fabric — they <strong>WILL</strong> cut it in wind. Domes near the walls, giants in the middle.</li>
+          <li>First few days + during/after every storm: walk the whole structure. Tighten or loosen as needed.</li>
+          <li>Anything close to ripping? Loosen it or spread the load <em>before</em> it rips.</li>
+          <li>Tears happen anyway → <strong>fishing line + upholstery needles</strong>. Every ALPS tear ever (including rat damage in storage!) has been fixed that way.</li>
+        </ul>
+      </li>
+      <li><strong>Move-in:</strong> string-line the walkways before tents land (border path ~8 ft in from the staked sides, corridors toward the kitchen/action). Tents inside don't need staking — never had one blow. Pack all leftover stakes/straps back in their bins and store the bins INSIDE the structure.</li>
+    </ul>
+    <div class="tip"><strong>Light it up:</strong> upward-facing lights make the silver mountain glow at night and bounce soft light down over the whole village. Cheapest magic on the playa. ✨</div>
+  </div>
+</section>
+
+<!-- MATERIALS -->
+<h3 class="sect">📋 Materials at a Glance</h3>
+<div class="panel">
+  <table class="t">
+    <tr><th>Item</th><th>Qty (2×2 ALPS ref)</th><th>Terrible Turtle status</th><th>Step</th></tr>
+    <tr><td>4×4×8 posts, grade 1–2, NOT pressure-treated</td><td>9 + 2 spare</td><td>fewer needed (keder hybrid) — assembling = David homework</td><td>5</td></tr>
+    <tr><td>Forged eye bolts 3/8"×6" + eye nuts + washers</td><td>20 + 20 + 40</td><td>on master list (dorm hardware rows 58–67)</td><td>5</td></tr>
+    <tr><td>Aircraft cable 3/16" 7×19 + thimbles + swages/clips</td><td>660 ft · 28 · 60</td><td>first ~10 dorm-hardware items received ✅</td><td>3, 6</td></tr>
+    <tr><td>Screw-pin shackles 1/2"</td><td>30</td><td>on master list</td><td>6</td></tr>
+    <tr><td>2" HD ratchet straps w/ loops, 20 ft</td><td>20</td><td>shipper-supply order (July 4 sale list)</td><td>5</td></tr>
+    <tr><td>Circus stakes 1"×40" 2840DH</td><td>20</td><td>30× per David · shipper supply</td><td>5</td></tr>
+    <tr><td>Welded-washer concrete stakes (orange tops)</td><td>—</td><td>✅ DONE 7/21 — 60 welded + ≥8 plain pins</td><td>4, 9</td></tr>
+    <tr><td>Stake puller (Pioneer 230 class)</td><td>1</td><td>possibly borrow David's</td><td>strike</td></tr>
+    <tr><td>Spring hooks 3/16" (+ ~50 larger)</td><td>~1500</td><td>on master list</td><td>7, 8</td></tr>
+    <tr><td>Shade fabric: 52×52 roofs + 52×8.5 sides</td><td>4 + 8</td><td>ordered via David — confirm 90% black vs Aluminet</td><td>7, 8</td></tr>
+    <tr><td>Support poles</td><td>72 segments (ALPS)</td><td>🎁 David brings ours (20-ft aluminum + yellow bases)</td><td>9</td></tr>
+    <tr><td>Pole-top caps (Winco MXHV-2000 bowls + HDPE washers)</td><td>18 + 38</td><td>⚠️ confirm current hardware w/ David</td><td>9</td></tr>
+    <tr><td>Guy rings + ¼" nylon/poly line + small hooks</td><td>22 · ~2000 ft · 128</td><td>pre-cut + label at the Gulch</td><td>9</td></tr>
+    <tr><td>Side staking: paracord loops + stakes/nails+rings</td><td>250–400</td><td>loops = David non-negotiable · hardware per his spec</td><td>10</td></tr>
+    <tr><td>18" J-hook stakes (cable tiedowns)</td><td>16</td><td>per David — his system may not need them</td><td>11</td></tr>
+    <tr><td>Sledges (8–10 lb fiberglass) · tall A-frame ladder · gloves</td><td>2 · 1 · many</td><td>in camp tool stock</td><td>5, 9</td></tr>
+    <tr><td>Fishing line + upholstery needles</td><td>1 kit</td><td>on master list (repairs)</td><td>12</td></tr>
+  </table>
+  <p style="color:var(--cream-dim);margin-top:8px;">Ship order (David): <strong>keder rail ✅ → dormitory shade hardware → IBCs → shower/water gear</strong>. The dorm hardware rides the semi in the early-August load — don't let kitchen polish eat its build hours. 🐢</p>
+</div>
+
+<!-- HONEST LIST -->
+<h3 class="sect">🔎 Still Open — Honest List</h3>
+<div class="panel">
+  <ul style="color:var(--cream-dim);margin-left:22px;">
+    <li style="margin-bottom:7px;"><strong style="color:var(--cream);">Pole-top hardware</strong> — bowls are the parts-list answer; David's poles may bring their own. Confirm before fabricating washers/bowls.</li>
+    <li style="margin-bottom:7px;"><strong style="color:var(--cream);">Fabric spec</strong> — David's 90% black vs classic 80% Aluminet. Confirm what's actually shipping for the dorm.</li>
+    <li style="margin-bottom:7px;"><strong style="color:var(--cream);">Pole count for the 122-ft span</strong> — the map says two 20-footers; whether the field wants interior spreaders too is David's call.</li>
+    <li style="margin-bottom:7px;"><strong style="color:var(--cream);">Side-staking hardware</strong> — loops are locked; nails+rings vs lags is per David's spec, not ours to improvise.</li>
+    <li><strong style="color:var(--cream);">Final survey numbers</strong> — 68×122 / 75 ft / 60° come from the map and don't all close on paper. Build day answers to David's tape measure.</li>
+  </ul>
+  <p style="color:var(--cream-dim);margin-top:10px;">Stuck mid-build? One step at a time, breathe, and check with <strong>David, Jarrett, or Shaka</strong> before improvising on structural anything. 🐢</p>
+</div>
+
+<!-- CREDIT -->
+<h3 class="sect">🙏 Lineage &amp; Credit</h3>
+<div class="panel">
+  <p style="color:var(--cream-dim);margin-bottom:8px;">This guide adapts <strong style="color:var(--cream);">The Alps/Himalayas</strong> by <strong style="color:var(--cream);">Eric Schurman of Camp Contact</strong> — 12+ years and 13 structures of hard-won playa engineering, generously shared. It's a living document: reach him at <a href="mailto:ericsc@gmail.com">ericsc@gmail.com</a> (he loves build pics!) and join <a href="mailto:himalayasshade@googlegroups.com">himalayasshade@googlegroups.com</a> for updates and low-traffic discussion.</p>
+  <p style="color:var(--cream-dim);margin-bottom:8px;">Camp-specific modifications here come from David ("Naked Heart"), our infrastructure mentor, via the 7/2–7/16 syncs. Where this page and David disagree, <strong style="color:var(--cream);">David wins</strong> — it's his system.</p>
+  <p style="color:var(--warn);font-size:.95rem;"><strong>In Eric's words (and ours):</strong> if you use these designs you agree not to hold him — or us — responsible for anything that goes wrong. Use your own best judgment and engage your own engineering and building resources as needed. Shade is heavy physics wearing a party dress. 🐢</p>
+</div>
+
+<footer class="footer">
+  <p>🐢 <a href="./">Turtle Ops</a> · design: Eric Schurman / Camp Contact, hybridized by David (Naked Heart) · visuals by Terri · <a href="https://terribleturtle.camp/" target="_blank">terribleturtle.camp</a></p>
+  <p style="margin-top:6px;color:var(--tt-amber);">Move Slow &amp; Bite Things.</p>
+</footer>
+
+</div>
+<script src="assets/turtle-cursor.js" defer></script>
+</body>
+</html>

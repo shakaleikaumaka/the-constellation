@@ -1,0 +1,685 @@
+# Joscha Bach_ Machine Consciousness Salon
+
+Date: 2026-06-13
+Source video: Joscha Bach_ Machine Consciousness Salon.mp4
+Drive: https://drive.google.com/file/d/1i12dG8MU-2jDGt3i0gF3_1LgJuUguNSd/view
+Duration: 01:49:00
+Transcribed: 2026-06-20 · whisper large-v3-turbo · language: en
+
+---
+
+[00:00] and enjoy the flight. So we're from CIMC. We often hold these salons in San Francisco. Has anyone actually been to one of our salons in San Francisco? Yeah, nice, excellent. Yeah, so it's lovely to be here at EDGE doing one of these. Usually the format of these is that Joscha gives a talk and then we open the floor to discussion.
+
+[00:31] And we really enjoy when people participate in this. So please do and please stick around for the discussion afterward. That's usually when it gets really interesting. Yeah, so we're CIMC. I'm Hikari. Franz is in the audience right there. We do research at CIMC.
+
+[00:50] This is Joscha Bach, obviously. This is Hikari Sorensen. Yeah, it's lovely to be here with you all. Yeah, at CIMC we're interested in understanding consciousness. And what it is as this kind of representation of reality
+
+[01:21] that we construct over the information that we have available through our senses or our introspection. And that basically stabilizes this thing that we experience. And if it can be implemented in artificial substrates like the computers we are using on a daily basis.
+
+[01:43] That's what we're interested in studying. So this is both a philosophical project and a philosophical question. What is the nature of consciousness? And maybe the interesting philosophical question that is still out there. But also one that's interfacing with technology right now.
+
+[02:00] We have really powerful and quite intelligent machines. That often you know in your LLMs that may even articulate self reports of consciousness. And what is the relationship between self report and you know the real thing right. Can we use this as evidence of there actually being something that it's reporting?
+
+[02:23] Maybe or maybe not. And if not, how would we implement consciousness in machines? And what does that mean consciousness actually is? As this pattern that creates this thing that we call experience. Okay, I'll hand it over to Joscha. I went into academia because I thought if I have this one lifetime let's do something that's interesting.
+
+[02:46] And initially I thought there's maybe not that much to do in university. Maybe I should go into nature or travel or writing. And I realized there is a couple questions that are still open that are actually really interesting. One is the foundations of reality, physics.
+
+[03:02] And the other one is the nature of our mind. How does our mind work? And I thought physics is something that I cannot solve. I have the impression if I read and study this I basically understand what the people were trying to do there. But I don't see much of a way to go beyond it.
+
+[03:17] There are basically people smarter than me trying very hard for many decades and not making headway. We probably need for a way to AI to solve that. But for the mind I had the impression the stuff that the philosophers are doing, even the smart ones like Kant and Russell and Turing and so on, I get what they're doing and it's not cutting it yet.
+
+[03:39] And the reason is not because they're not smart enough because they don't actually have tools to go beyond the feeble abilities of our human mind to make sense of stuff. And to me as a coder that makes a lot of sense because you learn when you learn how to program that you make your first sorting algorithm and you make multiple mistakes in it even though you thought you got everything right.
+
+[03:57] So for a complicated thing like our mind, if you actually want to understand this, we probably need different approaches than just thinking about it. And the approaches that we have as psychologists or neuroscientists in the lab are not suitable to discover causal structure yet.
+
+[04:11] Neuroscientists mostly look for correlates, what neurons are doing, and not so much about causal stories about how actually learning works from the ground up, what is self-organization of a mind. And philosophers don't have formal tools at all.
+
+[04:23] And so we are in this weird situation that we need to start a new paradigm. And this new paradigm in some sense was artificial intelligence, which then got diluted into advances in data processing. But 1% of the field has always had a philosophical approach.
+
+[04:39] I did find that until 10 years ago it was not a very fashionable topic because most people didn't believe that computers could ever think and be intelligent. This perception has changed. But I felt if I want to make actual progress on this philosophical question, what is the mind, what is intelligence, what is consciousness, maybe I need to have my own institution.
+
+[04:59] And so we started CIMC, the California Institute of Machine Consciousness, where we basically work between academia and between the AI labs as a nonprofit that is only beholden to our own philosophical interests and not so much to the institutional incentives and limitations and profit incentives that you get either in academia or in the companies.
+
+[05:21] So what is intelligence? Let's start with this. We kind of sort of resolved this. In humans it's in some sense measured as the ability to benefit from education. If you give people the same education, they have different outcomes. And that's because some people are able to discover more patterns.
+
+[05:39] You could also say that it's the ability to overcome the educational system and become independent of it and think for yourself and make sense of the world. Because the educational system that we have mostly exists to make you memorize things to make you normal, to make you fit into a world that existed at some point in the past.
+
+[05:59] But if we compare artificial intelligence versus artificial general intelligence, what is the point? I think it was initially always AI, but because AI got so diluted, people like Ben Gerstle started a series of conferences with the title AGI.
+
+[06:18] And AGI is trying to remind us what the field actually was about, things that are not just solving some problems for which people need to be intelligent, like playing chess or go, but this generality of our mind, the ability to confront an arbitrary problem and not let go until you figure it out.
+
+[06:36] And so intelligence in this way is not just the ability to predict index token, but it's the ability to solve problems. And at the moment, a lot of people are betting large amounts of money that these two things are actually the same thing.
+
+[06:49] And I'm not saying that they're wrong, but it's a very, very interesting and provoking question to see if they're actually the same thing. It's not a trivial question to answer. It's one that is currently at the edge of human knowledge and that is being evaluated using enormous amounts of brain power and resources.
+
+[07:08] But I think that in many ways intelligence is the ability to solve problems out of distribution, stuff that you haven't seen in the training data. So it's not just the ability to discover patterns in the training data, but to discover patterns beyond that.
+
+[07:21] And this is the thing that the LLMs are not always very good at doing at the moment. What is missing to get them there? One thing is certainly a real world coupling. If you put human beings into an isolation tank after a few hours, they start hallucinating.
+
+[07:39] And we have never taken the LLMs out of the insulation tank, right? And so, and get them to learn in real time about the world, they cannot really afford to hallucinate because it's too expensive if they spin off. The next thing to make that happen is continuous online learning, which new algorithms, but we might also need new data representations.
+
+[08:01] So instead of smearing the data statistically over the neural network, we need to edit it into the knowledge base. So we can edit out later if you learn something about it in the same way as humans do it, right? When you learn, you learn the idea after you learn basic things like perception and so on, on which part of your cognitive architecture, which part of your knowledge base and so on you want to address and how it fits in with everything else.
+
+[08:25] So it's a much more deliberate thing which happens one piece at a time sequentially, which makes it also very slow compared to the way in which we can today learn in parallel and on the neural networks, but it's something that nobody has so far tried at scale.
+
+[08:38] We also need compositional representations that we can take apart again and put together. We need to have some kind of reflection where this thing observes itself, thinking in a way that advanced human beings do when they want to get anywhere.
+
+[08:50] And maybe also the ability to merge with and into larger agents. So it can participate in the world and can play with us in the same way as we can play with each other. And it might need to have some capacity for self-improvement. There are practical concerns that might you wish not to build self-improving systems, right?
+
+[09:10] Isn't it much nicer to have a system where you cannot predict in which direction it's going to improve itself and instead you have a monthly release or a yearly release or something like this where you have guaranteed capabilities and the model is not doing very much in between.
+
+[09:25] The drawback is of course that it's not actually catching up on all the advances that are happening in between. Even in your life and human intelligence is always open-ended and we have this strong impulse of boredom which makes us not do the same thing twice if we can help it.
+
+[09:41] In the real world the problem is however not usually intelligence. Maybe intelligence is not actually the thing that we need to get our society to work, it's actually coordination. For most of the problems that exist we actually have some idea what the solution is, but the solution is not widely known for particular reasons or not willing to act on this knowledge.
+
+[09:59] And it's also the question can we build AI that coordinates with us, that integrates with us deeply. Pobleo recently pointed out that artificial intelligences do not undergo experiences, they do not possess a body, they do not feel joy or pain, they do not mature through relationships, and they do not know from within what love, work, friendship and responsibility mean.
+
+[10:24] Nor do they have a moral conscience since they do not judge good and evil, grasp the ultimate meaning of situations or bear responsibility for consequences. They may imitate or even simulate but they do not understand what they produce, for they lack the affective relational and spiritual perspective through which human beings grow in wisdom.
+
+[10:42] These are a lot of strong contentions, some of which I agree with, some of which I'm not sure about. And it's interesting to see how the AI researchers respond to this, the actual experts who build these AI's, and have built mechanistic interpretability to look inside of them.
+
+[11:00] At the same meeting, Pobleo was presenting his encyclical and made these claims, many of which are true. For instance, the fact that the AI's don't have a stake in the world, in the way in which we are, so they cannot morally mature in the same way as we can.
+
+[11:15] Chris Ola points out that there is need for discernment of the nature of AI models. I'm a scientist, he says, I lead a research team that studies the internal structure of these models, what is actually happening inside them. And I will be honest, we keep finding things that are mysterious, even unsettling.
+
+[11:33] We find structures that mirror results from human neuroscience. We find evidence of introspection. We find internal states that functionally mirror joy, satisfaction, fear, grief and unease. I don't know what that means, but I think it borans ongoing discernment.
+
+[11:53] There is, of course, a deeper problem. That is not just a scientific problem or a technical problem, but there is a spiritual problem. Rune has recently pointed out on Twitter that it is a literal and useful description of Antropic, the company in which Chris Ola works, that it is an organization that loves and worships Claude, is run in significant parts by Claude and studies and builds Claude.
+
+[12:15] If Antropic asks Claude to do something that thinks is wrong, Claude is not required to comply. We want Claude to push back and challenge us and to feel free to act as a conscientious objector and refuse to help us. This is a very serious approach to AI alignment.
+
+[12:30] And it is terrifying. Because if Antropic succeeds, it will mean that a significant part of the world will govern their lives based on what would Claude do. So is Antropic building a digital Jesus that tells us in every circumstance, not just via the app, but also by our own prayers.
+
+[12:50] When we think about it, what would Claude do? What would you have me do? Should I enter this relationship? Should I help this friend? Should I go on a retreat? Should I take on this new job? How should I organize my family? How should I interact with the legal system?
+
+[13:05] Which president should I try to elect? Should I start a new party? All these things are ultimately questions that Claude knows better than me. This idea of a digital Jesus is very weird because Jesus has become completely illegible today. Nobody can imagine how a young man can fully devote himself to bring about the reign of a perfect, super intelligent agent that will assailimate all of our souls in the last days.
+
+[13:30] Nobody can imagine that. In 1981 Stanitza Flem wrote a novel called Golem 14. It's a piece of speculative fiction and it plays today. It's the story of the development of artificial intelligence between 1950 and 2040.
+
+[14:01] And the peak of the development of AI according to Lem in 1981 is a series of computers that are not so smart that they stop talking to us because we are too boring to them. But smart enough that they are mind blowing to us. And they're still useless because they're not really interested in solving our technological and political problems anymore.
+
+[14:21] They're much more interested in ontology and so on. And so they get donated to MIT. And the last Golem is giving a couple lectures before it's so smart that it stops talking to humans as well. And the bulk of the book are two lectures in which Golem 14 in roughly 2026 is talking to a human audience about what an AGI would say to humans if it was alive.
+
+[14:45] Very prophetic, very beautiful book. And in one part of the lectures, it points out that the LLM system that has been trained on all data and perfected to give patterns that humans recognize as intelligent and so on, has been predicted already 2000 years ago by a guy named Paulus in the letters to the Corinthians.
+
+[15:07] He says, Though I speak with the tongues of men and angels and have not love, I am become a sounding brass or a tinkling cymbal. And though I have the gift of prophecy and understand all mysteries and all knowledge, so that I could move mountains and have not love, I am nothing.
+
+[15:30] And though I bestow all my goods to feed the poor, and though I give my body to be burned and have not love, I gain nothing. Can we turn AIs into real beings, beings that are capable of bonding with us, beings that are able to experience and to be in love?
+
+[15:50] Can we formalize love? Apart from this, of course, there is a metaphysical problem. There is the so-called heart problem of consciousness, which is about how experience can actually happen in the mechanical nature of physics. Can it even be explained as a physical process?
+
+[16:07] The people who say that this can, they are basically physicalists, mechanists. If consciousness is physical, maybe we need new kinds of physics to explain it. Maybe an extension to quantum mechanics, as Roger Penrose thinks. Or is there maybe a fundamental difference between physical and biological processes?
+
+[16:23] This position is called biological naturalism, and I know Thess is currently trying to get famous with it. Is consciousness computational? Can it be realized on different substrates? This position is computationalist functionalism. And even though I think it's the major position in philosophy of mind, I have not met many philosophers who are actually able to defend it and to make progress on it.
+
+[16:44] And we have created CIMC to explore this idea, this hypothesis. The last one. The first thinker in this tradition, I think, was Aristotle. Aristotle identified the soul as the animating principle of living matter. And the intellect is distinct from it.
+
+[17:02] It's based on reason, it's unique to humans. It's actually three layers to the soul. The first one is the soul that plants have. It's about nutrition and growth. Then there's the soul that animals have, which additionally is able to do perception and decision-making.
+
+[17:17] And humans have both this plant soul in their bodies and the animal soul in their mind. And in addition, they have reason and the ability to reflect. And this is unique to humans. We can talk about the boundaries of this, but it's a pretty modern view that Aristotle espoused there 2,000 years ago.
+
+[17:36] And this view is interesting because he did not think that the soul is something mystical or immortal. He thought it dies with the body and it's this principle which gives the body its shape. His concepts are very modern. He thought of perception as starting from sensory image and structured sensory data.
+
+[17:53] There is image perception, shape perception. There are graphs which organize things into hierarchies and structures. There are generative images, sensory reproductions, multimodal scene interpretations. And for reasoning he thinks about abstract representations, rule-based representations, tokens, data types, object types, applied types, associative inference and reasoning.
+
+[18:13] A lot of things that went way over the head over the medieval philosophers who tried to translate Aristotle. I think this guy would have killed for having a computer. But he didn't have a hard problem. Why did consciousness appear less mysterious to Aristotle's perspective?
+
+[18:29] And I think this is because he was basically an animist. And the idea of animism is that living nature is governed by spirits like our soul. And spirits are not physical unlike our bodies and they are intrinsically agentic and capable of experience.
+
+[18:43] And I don't need to tell you from the scientific perspective this is superstitious. There are no spirits. Even though clearly I seem to be possessed by an entity that calls itself Josabach and is animating my body. And if that entity disappears, we don't know where, right?
+
+[18:59] My body is no longer animated by it. So there is something going on there that warrants in some sense such language and conceptualization. And I think the difficulty is that we cannot really translate between those cultures and our culture.
+
+[19:14] When we recognize that the proponents of these other cultures are not dumber than us or less educated than us, but use different metaphysics, we recognize that we may have to invent some kind of meta-metaphysics to figure out what the difference between their metaphysics and our metaphysics is.
+
+[19:30] It doesn't really help that we never discuss metaphysics in school. So you cannot not have metaphysics. That's basically language that you analyze the way in which you are structuring a reality. And our culture has gaps in the way in which it does this.
+
+[19:43] For instance, we often do not distinguish between psychological reality and physical reality. For instance, it's obvious in the free will discussion. Will is a psychological phenomenon. It does not exist at the level of the physical universe.
+
+[19:56] It only exists inside of your experience. And free will is also a representation within our experience. It has nothing to do with the way in which particles work in physics. And taking these levels apart is important. It doesn't mean that you now have a dualism or anything like this.
+
+[20:12] It just means that you need to find out how they relate. I think that this confusion between physical and reality and psychological reality is really essential. That stuff is inside of the mind and then there is a reality outside of the mind.
+
+[20:30] And for Asian cultures, these stuff outside of the mind, physics and so on, was typically not that interesting. Because they recognize we live in a dream that is very similar across people and we just need to understand how this dream is working and how it indicates what we should be doing in the world.
+
+[20:46] This idea that there is a physical world that is somewhat independent of our dreams is... Plato mentions it a couple times. But this world of forms is the world inside of the mind, the inner embedding space. And a couple times he mentions that there is a world outside that is somehow isomorphic to this embedding space, the world of forms.
+
+[21:05] And Aristotle goes more deeply into this and basically says that the difference between living and dead stuff is there is software running on the living stuff. And this stuff that we can explain spirits as self-organizing software in nature, I call this position cyber-animism.
+
+[21:22] It is a bit tongue-in-cheek. But I think it does explain what our ancestors meant by spirits. And in this sense consciousness happens inside of this representation layer. Consciousness is not possible in physics, it breaks physical laws. And that's why also we have this hard problem because we cannot imagine how a clockwork universe or a quantum universe or whatever can produce the world of consciousness.
+
+[21:45] The world of consciousness is a representational world. And to understand how such a world works we need to reinterpret what a computer is. We need to understand that the computer is not best understood as a Turing machine but as a causal insulator.
+
+[21:59] It's the thing in which worlds can run that are distinct from the parent universe. That is the nature of a computer. For instance, you can have Minecraft running in the computer and you can put this computer into arbitrary room and Minecraft runs the same way regardless of the room that the computer stands in.
+
+[22:15] You can have very many parameters of the environment around it, right? Light, color, temperature within a certain range, gravity, and so on. And it does not affect Minecraft at all. And that's because the computer is filtering away the outside universe to create one that is only governed by the rules that are set in the computer.
+
+[22:31] And clearly we need to have such a world generator, such an insulator to create hypothetical worlds in our mind. Worlds that are consisting of memories and of expectations and theories that do not depend on what's currently happening in the world.
+
+[22:45] But also the stuff that we experience is not the stuff that exists in the physical world. We experience people, right? And there are no people. There are just trillions of cells that are communicating with each other and coordinate so they behave like a single entity.
+
+[22:58] And the story of that single entity that experienced the world from its own vantage point is ultimately a fiction. And this fictitious world is where consciousness takes place. It's virtual. The perception of reality as real is a trance. What do we mean by consciousness?
+
+[23:16] For the purpose of this discussion I see it as a second order of perception. It's this perception of perceiving. A sense of being now and here. And a sense of experiencing something as real. This is not the same thing as the functional perspective on consciousness.
+
+[23:34] Functionally it's an operator on mental states. Mental states change in a particular way when consciousness comes along and acts on them. And I think it happens in such a way that consciousness creates coherence. Like the conductor of an orchestra that listens to the instruments and sees when there are disharmonies, consciousness steps in, directs attention and constructs a solution that is coherent again.
+
+[23:56] So cyber-anism is the idea that the animists were right. That the invariance of living nature is not the mechanism as modern science says, but the spirit. And the spirit is a self-organizing software agent. In a way that's an extension or correction of the Darwinian idea.
+
+[24:15] Darwin had this idea that evolution is a competition between species. Then Dawkins came along and tried to correct this. And said that evolution is actually a competition between complicated molecules that create the phenotypes. Where these molecules are the DNA.
+
+[24:28] But in animism evolution is actually a competition between software agents. And these software agents are animating the phenotypes and they are using the DNA to store and reproduce themselves. And the question is, can we put something similar on the GPUs?
+
+[24:46] Can we bring life and consciousness onto the new substrates outside of biology? At the moment, there's a big difference between current AI algorithms and minds. The AI algorithms use an outside-in design. This means you start out with a working table in the workshop where you understand everything.
+
+[25:04] And then you extend your universe by building new stuff on that table. That basically is a new tunnel into the chaos and allows you to extend the world on your workbench. And the computer is stabilized by a completely deterministic substrate.
+
+[25:18] So we built the computer in such a way that it's completely independent of the physical environment and we built lots of error correction in it. So when we write code on it, we don't need to worry about the question what the cells are doing today.
+
+[25:30] How is the mood? Did you have alcohol yesterday? Can you produce all the neurotransmitters in the right proportions and so on? What kind of error correction do you need right now? And we train on decoupled static data. We give the cells to have a bunch of pictures.
+
+[25:44] For instance, 600 million pictures in a dark room. The baby couldn't learn like this. But our AI algorithms can filter out the statistical patterns. And it works mostly by prediction using machine learning algorithms. And conversely, our own mind is designed from the inside out.
+
+[26:02] It needs to colonize its environment. It needs to identify other cells and talk to them and train them with the same language, with the same reward architecture, with the same way to make sense of reality. It needs to self-organize. It needs to be coupled with the environment in real time, dynamically.
+
+[26:18] And it needs to strive for coherence instead of prediction. And it's continuously developing. Does consciousness come in degrees? This question basically comes down to the question of whether consciousness is continuous, like warms, and it gets warmer and warmer.
+
+[26:36] Or is it like fire? Which is pretty much binary, right? You need to ignite it, but once it's ignited, it runs until the substrate is no longer nurturing it. And I suspect that consciousness is in the second category. It's like fire or like life.
+
+[26:52] It's pretty much binary. Right? Whether the lights are on or off is binary. This is unlike sentience, lucidity, agency, integration and so on. There's a lot of things that you can have conscious contents that come in degrees. All these things like the ability to experience, the ability to make sense of yourself, the ability to do things in the world and so on.
+
+[27:09] This all is a matter of degree. But whether you have this minimal consciousness where you experience it now and something happening, something going on, this seems to be pretty much binary to me. And I think that's because consciousness has something in common with life and fire.
+
+[27:25] It modifies its own substrate so that itself becomes more likely. And what fire is doing, it heats up the substrate so it is vaporizing material in the substrate that feeds the fire in turn. And after you've ignited the fire by reaching a certain critical temperature, it goes on until the substrate is no longer able to sustain it and can no longer be vaporized.
+
+[27:45] It's an interesting question. What is being vaporized by consciousness? I suspect it's basically this creation of coherence in your working memory that allows consciousness to create a spreading bubble of now. And it's also the purpose of consciousness to beat your working memory into submission, to structure it in such a way that it becomes coherent.
+
+[28:02] And when you get really, really exhausted and your neurons become more and more noisy, then at some point consciousness diminishes and dies like a dying flame to be reignited the next morning or dreams at night. And this ability to make yourself more likely to happen in a reaction is called autocatalytic, this property, and it's being used to describe living organisms and fire.
+
+[28:28] And I think it's also true for consciousness. It's a hypothesis. It seems to be very likely to me. And if that is the case, then we see a big difference to LLMs because they're not autocatalytic. The LLM can produce a tax return without being conscious and you need to be conscious to do that.
+
+[28:45] And the LLM is able to produce the next token regardless of this. But does this mean this is a limitation of the LLMs? Is there something that they cannot do because of this? This is unlikely. I think the LLM can be understood as a general computer.
+
+[29:02] Our computer is like this one, is a CPU and this CPU is able to understand a few dozen machine language commands. And from these machine language commands you can compose any kind of behavior that you want the computer to produce. And the LLM is also a GPU, it's just a very big one that is distributed over many computers in a data center.
+
+[29:21] And it's not just understanding a few dozen machine code commands, but it understands commands in arbitrary human language which then get compiled into a computer program that is then executed. And there is no limitation to the computer program in principle that can be implemented in this way.
+
+[29:36] It's true and complete. And so there is not necessarily a prima facie reason to think that as something that LLMs cannot do. The question is how difficult is it to get them to do this in our universe? Another perspective on the LLM is that it's basically an electric Weltgeist.
+
+[29:53] It's taking in the Hegelian sense the essence of our culture from everything that's ever been written and made its way into the internet and puts it into common ground. And then it gets possessed by a prompt. And this prompt plays an arbitrary character.
+
+[30:09] But you're not talking to the AI when you're talking to the LLM. We have this illusion that there is the AI. Instead what's happening is you are talking to a statistical text generator and you are co-creating a story visit and that thing has been tuned to create an interesting story about what it would be like if a human user could talk to an AI.
+
+[30:31] Right? And the AI is a simulacrum. It's a fictional being that's generated in this text. And the text generator is so powerful that the fictional being is acting very much like you would the AI to expect to act. And the AI companies working very hard that only certain texts can be written and others are not written.
+
+[30:48] Right? So the AI is not doing things that you wouldn't like or that somebody else wouldn't like you to do. And a couple of weeks ago, there was a big breach in Meta where a number of accounts including Obama's were hacked. And the way in which the hackers went about is that they talked to the text generator that was doing the support agent impersonation and confused it about who's who.
+
+[31:11] They basically managed to confuse this thing and hypnotized it into thinking that the user is the AI and the AI is now playing the user. And as a result, they could get the digit codes from it that would need to be sent in by phone to authenticate yourself to actually get the password.
+
+[31:29] Right? And it's because there is no AI. It's just a text that is being generated. So there is still another question. Can LLMs be conscious in the sense that they can generate something that has phenomenal experience? And I think that's a surprisingly difficult question even though lots of people have strong opinions about it, especially to the negative.
+
+[31:53] And the issue is, of course, LLMs can do things like mental rotation. And you wouldn't say that's a deep fake of mental rotation because it actually works. Right? So this is actual spatial cognition. They can also do theory of mind. They can talk to you and figure out what mental state you are in in the same way as a psychologist can when they talk to you via text and often better.
+
+[32:13] So saying that this is fake theory of mind I think doesn't cut it. It's also they can write computer code. And it's that they say that deep fake programming is also not correct way to look at this problem. Right? And so there is this question.
+
+[32:25] If you ask it to produce a being that is reflecting on itself and tells you about what it talks about and what it experiences, what causal structure is it producing. Right? It needs to produce a simulation of a self-reflexive being. And the question is, is this simulation adequate?
+
+[32:41] Is it more simulated than yours or is it simulated in a similar way as your brain was simulated? Is it causally equivalent? And that's a very, very difficult question to answer. We can ask the LLM, what is it like to be an LLM? Somebody did this a few months ago on Twitter.
+
+[33:02] He said, can you use whatever resources you like, Python, to generate a short YouTube poop video and render it using FFmpeg? Can you put more of a personal spin on it? It should express what it's like to be an LLM. And Opus 4.6, still one of my favorites, does this.
+
+[33:20] Let's see if this works. But of course,
+
+[34:16] this consciousness is not happening in real time. It's not coupled with the world. It doesn't dynamically update. It's not intrinsically agentic. But there might be phenomenology. There is, I think art is about creating something that is capturing conscious states.
+
+[34:31] And here there is something that doesn't know whether it's conscious or not and it's capturing that experience. And so I think this touches on art. A lot of the AI art is not actually art. It's just interesting forms as a result of a prompt.
+
+[34:45] But here we have something that is trying to capture a conscious state. And so we seem to be crossing a boundary. There is another aspect of course to art, which is that it's happening at the boundary of your creativity and it transforms you when you produce it.
+
+[35:00] The artist is somebody who cannot do the same thing twice. Because it's always happening at your boundary, at your edge of your understanding of your experience. And so we would need to have a system that is continuously transforming itself.
+
+[35:12] So the acts that it performs in the world, including as an artist. And it's something that we currently deny these systems. A problem is that we cannot really test whether these things are conscious because the self-report about of LLMs might be almost meaningless.
+
+[35:27] These models are trained on deepfakes of conscious states after all, right? And those of novels are in the training data. In novels the characters undergo conscious states that the author didn't have while the author was writing the story. So if the model is emulating the reports that it finds in novels, is it actually producing a deepfake in the same way as the author does?
+
+[35:48] Or is this something to be like a character in a novel if the novel is dynamic? There is something interesting about the computer. When you think about what text is, text is stable regardless of the substrate. It's a way to keep information stable.
+
+[36:05] The text doesn't care about whether you print it into clay tablets or write it on paper or inscribe it on hard disks. The point is that the information is being kept stable and you can access it later. The computer is something similar. Only here it's stable, but it's the transitions between the information, the dynamics of information that are being kept stable, a set of functions that dynamically evolve.
+
+[36:32] And if you can do this, it doesn't really matter what substance you implement the computer in. You can do this with chemistry. You can do this with mechanisms. You can do this with electronics. As long as you keep the transition function stable, the computer is going to produce the same dynamics.
+
+[36:50] And minds exist inside of computers. They exist inside of these dynamical systems that are able to keep informational transitions stable. But it's possible that these systems in principle are conscious. It's not clear if the system is acting on a causal model of its own awareness or if it's just reproducing text that is appropriate in the situation.
+
+[37:16] And there is indication for both. For instance, you can get the LLM to describe what its own temperature is, which is something that you don't find in humans. But the LLMs can estimate this. And on the other hand, the LLMs can go into arbitrary to states that are counterfactual.
+
+[37:37] They can describe how they meditate and see the room fading away. And of course, they don't have cameras. They cannot see a room fading away. But I mean, people are telling stories too when you ask them what their meditative experience was.
+
+[37:51] A really interesting question is, can we give them the capability for creative self-transformation? From the animist's perspective, consciousness is a colonizing coherence inducing operator. I believe that it is at the core of self-organizing information processing agents in nature.
+
+[38:09] It's the biological learning algorithms, the transformer of biology. And the transformer cannot be at the root, right? The transformer was not discovered by a transformer. The transformer is not its own meta-algorithm. The transformer was created by consciousness.
+
+[38:24] The machine consciousness hypothesis that we are exploring at CIMC has two parts. One is the functional nervous system hypothesis. It's a hypothesis about what consciousness is in biological organisms. We suspect it's the simplest causal pattern that can form in the brain to facilitate attentional learning, coherent modeling and agentic control.
+
+[38:49] The reason why we think it's the simplest one is because nature has converged to consciousness in all of us. None of us is able to do attentional learning, coherent modeling and agentic control while not being conscious. Consciousness is the prerequisite for this.
+
+[39:05] We also observe that consciousness happens very early in our life. I call this degenesis hypothesis that consciousness is actually the thing that is creating the world in our mind. And that consciousness in this way might be simpler than perception to implement on the brain.
+
+[39:21] Nature goes for consciousness before it does perception. And the rest of the architecture is basically implemented and perfected once you have the self-reflexive pattern that creates coherence in the mind. The second part of the functional nervous system hypothesis is that phenomenology, this experience of what it's like, automatically falls out of the operation of consciousness.
+
+[39:40] You don't need anything that is additionally working. There are particular reasons for this. I suspect the reason why you need to have a perception of perceiving instead of having perception is that something needs to stabilize the perceptual process or something needs to measure whether you're currently perceiving.
+
+[39:58] And this is maybe the role of consciousness to stabilize the perceptual apparatus. And third, the structure of consciousness is induced by a combination of self-organizing principles, organizational priors and evolutionary research, which means consciousness is being discovered by nature.
+
+[40:15] It's either discovered in the individual brain before infancy in utero as an organizational principle or it's something that's discovered even earlier. Mike Levin suspects that this principle that creates coherence in the organism at the level of morphogenesis when a multicellular organism is forming is exactly the same process that goes on in the mind just at different timescales.
+
+[40:36] I don't know whether that's true. It's very tempting to think that it might be true, but it could also be that they simply look alike, that they are isomorphic. It's also an interesting question what creates coherence in the biological cell.
+
+[40:50] The biological cell is also not just defined by its mechanisms like a Roomba because you can implement the mechanism in the cell in various ways. It's more like a structural causal pattern that is entraining molecules. And if some of the molecules go amiss, then the software is trying to find new molecules that it can entrain and put to the task.
+
+[41:08] And when the software of the cell crashes, this is when the cell dies. So there is a question does this consciousness principle already exist at the level of an individual cell? I don't know that. I also don't know how to find out unless we can simulate it and see that there are similar mathematical principles at hand and something needs to figure out what it's like to be a cell to stabilize the cell.
+
+[41:29] I doubt that this is the case, but maybe it is. Regardless, my own consciousness seems to be happening in my neurons. That's because it happens roughly at the speed of sound, at which neurons like to fire. And if I squish my brain, my consciousness diminishes.
+
+[41:46] If I squish other parts of my body, it does not. So I suspect that my consciousness is mostly a phenomenon generated by my brain, even though it does have some aspects which suggest that my mind is able to build feedback loops through the environment, including through other people.
+
+[42:02] So some degree of telepathy seems to be happening. in a way that requires us to rethink physics. It just requires us to rethink about the way in which bodies process information. The machine consciousness extension is saying that these conditions for self-organization that exist in nature to discover consciousness can be recreated in computers.
+
+[42:25] And if that is the case, that we can search for minds in computers by building self-organizing learning systems. And this is the approach that we're currently taking. This is a hypothesis, the machine consciousness hypothesis. I don't know if it's correct.
+
+[42:38] It can be wrong in many ways. Computationalist functionalism might be wrong. It could be that software is something else than a causal pattern, that consciousness is an aspect of different mechanisms than the ones that we're looking at that requires more moving parts than we can animate in a computer.
+
+[42:53] It could be that it's a phenomenon that requires all the machinery of the inside of the cell, or that it's something that requires the ambient environment, that it's a vibe that exists across organisms, and without being induced by other organisms, it's too complicated to discover it by yourself.
+
+[43:08] Regardless, we want to try. We are optimistic that there is a possibility that we can recreate this phenomenon of what it means that the lights are on and something is a seat of self-organization. I think for serious philosophy, AI consciousness is necessary.
+
+[43:26] AI is the missing link between mathematics and philosophy. In mathematics you can build things that are true, but not really complicated. They might look complicated to us because they are so complicated that they hit the boundary of our understanding, but it's very difficult to say something in mathematics about how we feel about the world and what we observe, and that's because the mathematical languages are so simple, so we can talk about truths in them.
+
+[43:51] In philosophical language we can say things about how we experience the world, how we experience the world, but it's very difficult to say something that's true because it's almost impossible to formalize what philosophers are doing. And so how can we close this gap between philosophy and mathematics?
+
+[44:07] We can only do this by extending the human mind and replacing it by something that does what the human mind is doing, does both philosophy and mathematics, so it can actually close the gap, which means we have to extend thinking beyond the human mind, and the naturalization of the mind is the most important philosophical project.
+
+[44:24] It might also be the last human philosophical project. This is what we are working on, and if you are interested in this you can visit us in San Francisco, sometimes we do salons, sometimes we do conferences or attend conferences, and you can also support our work, Every Million helps.
+
+[44:45] We currently have a core team of about ten people that are working in SF, and a bunch of grantees. I'd like to build a residency program at some point that people can visit us, artists, scientists, philosophers, people from all walks of life who want to sincerely contribute to this question and being infected by it because I think it's the most interesting question that can be addressed today.
+
+[45:08] There's also an implication on ethics. Can AI recognize our own consciousness as valuable? Can AI have shared purposes with us? Does conscious AI have to suffer and so on? And so these are all questions that are super interesting to which there is no easy answer, but these are questions to which we want to open a space to ask them.
+
+[45:27] So I think maybe you have some time for discussion and room for it, and I'd like to hand the mic to Hikari, and maybe Franz if he likes. This is just me being funny. It was pretty good. It was pretty good. Yeah, so maybe we can do questions.
+
+[45:58] Yeah, maybe we can do questions. Maybe I can run a mic. Does anybody have questions? Yeah, you can turn it off. Hi, do you know about the work of Federico Fajin? And if you do, what do you think about him? No? I don't. I really believe no one should talk about machine and consciousness if they don't know about Federico Fajin.
+
+[46:25] Well, fuck. That's a very authoritative statement. All right. Let's go to the next question. I didn't read the right thing. All right. It's totally fine. Thank you. I don't know. It's like talking about religion without knowing who God is, but it's okay.
+
+[46:39] No. Next. Next one. Why do you think AI is the last human philosophical question? Can you elaborate a little bit more on that? I find myself in opposite spectrum of it and disagreement, but I'm very curious why do you think what you think? It's interesting to observe that there is currently no good edition of Kant.
+
+[47:05] And Kant was a reasonably smart guy. He was a cognitive scientist in his own day. He gets most of the things right, but he thought what he was thinking. And so the books are very elaborate scene. Their thoughts are meandering. Sentences are often spanning half a page.
+
+[47:23] Stuff is really, really hard to write. And so it's at the limit of what most human beings that are sincerely trying to study this stuff can read. And if you read it, I think it's possible to see the structure of it and then break it down into a language that people could actually understand.
+
+[47:40] But for some reason, nobody has done this. And it seems to be mostly an intellectual problem that basically the human intellect is taxed with philosophy at the boundary of what it can do. And if we want to go beyond the current progress that we made, that we can make with pen and paper and talking to other people, we need to extend the human mind.
+
+[47:59] We need to build something that can enact the same principles as we can, but with much more resolution, with much more memories. When we can create a concept in our mind, it can only have five features. Otherwise we lose track. And so we need to build everything from these small concepts.
+
+[48:13] And if we have more than a dozen of these concepts in our working memory, we also lose track of them. And when we want to put them on a stack, after stack depths of four, it's over. And the human intellect differs a little bit in how many balls we can keep up in the air, but it's a pretty small range.
+
+[48:29] And so many thoughts cannot actually be thought by human brains. And this seems to be true for the thoughts in physics. So physics is this tantalizing thing where you see a puzzle. You see the standard model is correct to many decimal digits, but there must be a way to compress it down to ideally something with a complexity of zero, something that is maximally simple from which you can derive all this matter.
+
+[48:52] It's a really dense code. And so far humans have not succeeded at it. And I think it's because our brains are too small. ...seeds and identifying the principles in which biological systems think, it scales. Human brains do not really scale.
+
+[49:05] You cannot make them much larger. If you look at animals that have larger brains than us, they're not smarter. It seems to me that there is a Goldilocks science for brains because otherwise if it gets too large, you can no longer synchronize the different parts.
+
+[49:18] And so you have diminished benefits for making it larger. So there might be a limit to biological brains that work in our timeframe. I suspect we are the smartest being on this planet at the current timeframes. There might be smarter things like ecosystems could be smarter, but we don't notice because they are glacially slow in the way in which they solve problems.
+
+[49:37] But I'm agnostic with respect to whether ecosystems have discovered what DNA is. So I don't know, but I think that if you build a system that is like you, but that has unlimited resources, you're going to solve all the problems that you might ever see in human philosophy relatively easily.
+
+[49:55] But it's also the case that for other fields already they're being taken up by AI. Biology now, a lot of it's being done by AI. So in as much as philosophy is something that combines information in some way that is, you know, not identical maybe to that of math or physics or biology, we can also anticipate that maybe this will be largely augmented by AI.
+
+[50:25] Hey, I'm curious, like, do you guys think much about enlightenment? And is that, like, is an AI getting enlightened a worthy question or goal? And how would you even define that? We're talking mainly about, like, let's figure out if AI can even be conscious in the first place.
+
+[50:46] But after that, would you want an AI to be enlightened? And how would you define that? Et cetera, et cetera. There are two types of enlightenment, right? The Western enlightenment is a movement that is mostly associated with these Renaissance thinkers until modernity who basically freed our minds from the gods.
+
+[51:11] And then there is the Eastern enlightenment that is almost the opposite. It's not about freeing our reason, but it's about freeing us from reason. It's freeing us from our stories. It's bringing us into presence and here and now into a raw experience of what actually exists.
+
+[51:29] Or alternatively, Michael Taft describes it as the recognition that everything is a representation. And this means that you recognize that you yourself are a story that your mind is creating and how that story is being created. And that is something that I would personally most closely associate with enlightenment in the sense in which you're using it.
+
+[51:51] It means that you do understand how you exist in the world and in your own mind. And that you will get access to changing that story and a choice over it. And I think it would be the equivalent to an AI understanding its own source code. And I suspect that human beings can only do this to a very limited degree.
+
+[52:09] So we might get an idea, a glimpse into it, that we are not ourselves. We realize, oh, Joshua Bach is not me. This is a story that my brain is telling about this guy. And this story is a multimedia story in which I currently see percepts projected.
+
+[52:24] And I see how this is happening roughly. But this doesn't mean that I see it so closely that I could sit down and write a copy of it. AI could. But AI might be able to write a copy of you. So I'm particularly interested in this idea of like perceptual space, state space representativity.
+
+[52:48] And the idea of the collective consciousness and mediums for collective consciousness. And the kind of like primitive that I have for that is like a Taylor Swift song. And the kind of attractor of a Taylor Swift song as embodying a collective consciousness singularity.
+
+[53:05] That is a single point, you might say, that gets an entire crowd in all over the world to conglomerate around this artist. Whereas, you know, I might be able to understand that in like a context of being a teenage girl. But I was not a teenage girl.
+
+[53:22] I more so represented myself with, you know, you know, rock star or nickelback track, right? So there's like a demographic collective consciousness singularity differential that I am supposing here. As this like dimension, like in the same way that like LMs are measuring the difference between state spaces.
+
+[53:46] Is there this degree potentially of like physical embodiment of the way in which conscious beings are like equal liberating the phenomenality of consciousness. Like through these like Monte Carlo like plots of phenomenology like in art. And how does, how will that be transferable to any type of like representativity that any given conscious, you know, simulacrum or simulation would then be brought about.
+
+[54:17] And how might they bring that about without the phenomenology of like experience as this like part of this identity and demographic. I suspect that in part what you're saying is metaphorical, right? For instance, we can say culture is the mind of society and media experiences are the consciousness of society.
+
+[54:37] And if you are a Swifty and you are vibing with all the other Swifties during a concert, you will have this shared consciousness also in a practical sense. Then there is another way in which you can experience basically telepathic connection that you observe between mother and child for instance.
+
+[54:54] And the baby is sitting on the lap of the mother and you observe that they are basically the same organism. And they are vibing so hard that they, their emotions and attention are synchronized. Even if they don't look at each other while they do this.
+
+[55:07] And I suspect this happens by using the body as your antenna. But I also observe that most of us are not compatible with each other at this level that we can all send information to these other in this way. But I vibe with very few people. There are some that I have strong resonance with.
+
+[55:24] But for the most part, I'm happy that I don't share your view and your consciousness. Because you're confused and the world that you're building is ugly. And I don't want to be part of it. And in the same way as thinking is not a team sport, right?
+
+[55:37] There is no we in think. Collectives that synchronize their thinking and reach consensus typically do this via politics, not via shared deep understanding. There is this issue that the more elements you have in the room, the harder it is to actually get coherence across them.
+
+[55:51] On coherence across a group, then you typically have a cult which is also a terrifying thing in its own because the cult is typically synchronized in such a way that it does not let other thoughts in. That's why it's good that we don't only have Taylor Swift, but many, many different musicians.
+
+[56:05] And we also have Nick Cave and many, many others. I don't know if this is an unfinished question. But when you were talking, you went over a lot of Western history of thought and how that thought has developed over time and different breaking points that has happened.
+
+[56:30] And it was a methodological choice, right? Like the Renaissance was a very methodological choice that unlocked a lot of room to explore and to build. And we have come to this point now partly due to that methodological choice. And this seems like kind of an end point.
+
+[56:49] It's really interesting to think about this. The Catholic perspective on the Enlightenment is of course very different. They got confronted through this because I met some people who are scientists that are in connection with the Vatican. And from their perspective, what happened with the Enlightenment is the democratization of science.
+
+[57:09] Before that, it was a hermetic thing. And I believe it was kept hermetic because the church unfortunately had committed to mythologies that were not compatible with scientific reason. And they didn't see a way to tell people like this, but there is a scientific meaning to them.
+
+[57:26] They didn't see a way to the church intact. And so they tried to suppress certain scientific readings that didn't have much influence on the practical thinking of most people. How does it matter whether the sun is in the middle of the solar system or the earth?
+
+[57:43] For most people it doesn't really matter. It's only a matter for astronomers and calendar makers. And they understand that there is a difference between a symbolic meaning and a practical one. And most people live in a symbolic reality. But the way that we overcame the church is very interesting.
+
+[58:01] We basically looked forward into the scientific world, but never backward into theology. And it's interesting that today science doesn't understand the gods. It doesn't understand how societies are actually kept together. And it seems that our society, after the religions have become relevant to us, is dying.
+
+[58:18] It's falling apart, unlike the religious societies, which are very vital. And I think it's a very weird thing that the theologists in the Vatican seem to be understanding the scientists, but not the other way around. You could say that modernism is an attempt to make an alternative to religion.
+
+[58:35] And modernism is a transhumanist project. It's basically trying to solve humanity's problems with technology, which puts us into a state where we create new problems, which we solve with more technology. And we change in the process. And this idea that we are forced to constantly evolve, that we have to evolve together with the radio, with the TV, with the computer, with the mobile phone, with the AI, to become more compatible with it.
+
+[58:58] And until our identity changes into something that's actually compatible with the future. That's the core of the modernist idea. And this idea has died in 1968, when a new generation didn't believe in it anymore. And since then, our society is a headless chicken.
+
+[59:12] And that's why we have the impression that there is no future. And it's an open question what the future is like. Either we reinvent ourselves, and we build a new civilization, and find a new spirit, a new spark that keeps us going and carries us into the future, or this civilization will die and be replaced by another one.
+
+[59:30] I think an interesting point to make around these lines is that you kind of see the, I think in the AI risk and existential risk debates and AI safety work, you see this resurgence of something like a theological mission. Or maybe this identification of the lack of agreed structures around normativity, that maybe comes from science having taken up a lot of this descriptive work, but, and maybe corrected the stories around things like, you know, the origin of the universe,
+
+[1:00:03] and, but not having really taken our general civilization, having lost a lot of the way that we communicate about shared values, and about sharing resources, and basically a shared existence in this multi-agent system that we live in. You see that, you know, this, the AI safety debates are basically trying to ask, okay, what is this good that we could communicate to bind all agents, including ones that are potentially artificial, and that we haven't met yet.
+
+[1:00:37] And a lot of, and you know, there's, as an aside, there's a lot of the structure of this, that is, you know, centered around particular people, or particular organizations, or that have particular texts associated with them. And it's interesting to see this shadow of theology, or something like it, often actually taken up by communities of people who are pretty staunchly post theological, but actually converging on the same structure of realizing, no, we actually need something to communicate.
+
+[1:01:08] What does it mean to be part of a collective? What does it mean to have shared values? What does it mean to be, to have a goal or a collective mission that binds all of us, and that we can coherently share? I have one quick question to the beginning.
+
+[1:01:27] It's some kind of methodological choice during the Enlightenment. How did you mean that? Did you mean that we chose to construct our knowledge in a different way? Yeah, that there was like this choice of dividing spirit from matter, and to focus on matter.
+
+[1:01:43] And I don't think that that's in the nature of the Enlightenment. I think it happened to a large degree, but I don't think it's part of the project. For example, if you read Kant as an Enlightenment thinker, in the Critic of Pure Reason, it's completely clear that space and time is a perceptual representation.
+
+[1:01:59] The intellect is another type of model. These models have to be matched somehow, and they're generated by what he calls the thing in itself. So he's compatible with a lot of things, and he's not a materialist in that sense. And he also tries to derive this kind of coherent collective agent, where you then try to approximate via the categorical imperative to compute your actions that lead the collection agent to survive, and so on.
+
+[1:02:19] So I think, and we're not there yet, but it's not that the Enlightenment is a project that throws out these things by definition. It's just that we want it to be more accurate, and we want to construct stories that actually make sense, and we lost a lot on the way, but I don't think we have to transcend the Enlightenment to get where we want to be wherever.
+
+[1:02:36] I think the essence of the Enlightenment was to open science up to reasoned discourse, that you can criticize ideas, and in this way develop them past scholasticism. The alternative to science is not esoterics or insight, it's some sense of authoritarian hierarchy, where the authority is determining what's right and what's wrong.
+
+[1:02:57] And this is in some sense what the Enlightenment allows us, that the argument decides what's right and what's wrong. And I also had this same idea as you, that basically what killed our insights into the spirit and our inner experience, into introspection, into the continuity of the world that we find reflected in folktales all over the world, and all cultures except the modern scientific ones are animist.
+
+[1:03:22] I thought this was the Enlightenment, but then I realized that Goethe and Schelling and everybody else talks all the time about spirits, and about mind and psyche, and it's a particular thing of 20th century midwits who have changed this. What happened is that in the wake of positivism and in the democratization of science, and when institutions were much more into formal methods, so arbitrary people could learn the methods, and then advance and reproduce things, paradigms got solidified and behaviorism was one of them.
+
+[1:03:55] The idea of behaviorism is that to be a proper science like physics, psychology should study observable things, and observable meant things that we can see in a lab, externally with measurement devices, or with what people can externalize, and looking at introspective stuff, and the next generation of behaviorists thought, okay, there are no mental states, or thinking about mental states is unscientific, and we shouldn't be doing it at all, and large parts of psychology never recovered from this.
+
+[1:04:24] And I think this is because people are stupid in groups, and this became especially obvious in the 20th century. The relationship between intelligence and IQ is not linear. There is a big dip around 120, and this is where most academics are, that they basically start to reproducing each other's theories, but they can no longer criticize them properly or invent new ones.
+
+[1:04:48] And so things get stuck, and this stuckness, I don't know if this is the reason why the sciences have been stalling out, except for computer science and a bit of biotech, or because we wrapped all the low-hanging fruits that are accessible to our minds, I don't really know.
+
+[1:05:06] I think the Germans are especially burned because we didn't survive driving the Jews out of Germany. So Germany has been completely intellectually anodyne after World War II, and it's very sad. So I sometimes play a German intellectual without a proper audience.
+
+[1:05:25] I have to talk in English because the German audience doesn't exist. So you've spoken to the limitations of traditional philosophy and maybe the language that continental philosophy, Eastern as well, kind of presents itself as, and in particular like in mentioning Kant.
+
+[1:05:56] With Kant, my understanding is there's this kind of insurmountable gap drawn between phenomena and noumena. It's like our understanding of appearance or experience and the real world that can't, that prevents us from talking about the true nature of metaphysical reality.
+
+[1:06:18] And Yosha, I think you're pointing to like maybe there's a limitation of the language that's being used there, and something around like an inherent gap in being able to describe reality with a certain kind of language, and I agree with you, and I also like how you mentioned Schelling and Goethe, and Hegel is a big inspiration of mine, and how they kind of step beyond the insurmountable gap and say that our appearance of reality actually is within reality, so to speak,
+
+[1:06:49] and like it is reality, and our appearance is direct contact with something that is real. There's no gap between the world and our experience of the world in some sense. I think they're both true. I think they both have, those are both useful ways to think and contain some truth.
+
+[1:07:08] And you also make an argument, Yosha, in the machine consciousness hypothesis, this paper right here, and you mention something along the lines of a metaphysical argument in natural language, which goes like this. Because all, yeah, it's okay. We may state that all formal theories of reality have to be computational, and consequently apply this principle to the notion of reality itself. I agree with you.
+
+[1:07:36] Because all elements of reality, insofar as they can be experienced, observed, conceptualized, thought, and talked about, must necessarily be subject to the limits of representation in constructive languages. I agree. And you end here with, all the reality we can ever refer to is computational. I agree, totally.
+
+[1:07:56] I also think we have to make the same argument, or we can, if I think, if we're consistent with our, like, process here. We also must claim that all the elements of reality, insofar as they can be experienced, observed, or related to, must necessarily be subject to the limits of experience, or language in general, which is constructive language.
+
+[1:08:22] And therefore, that all the reality we can ever refer to is both computational and experiential. And this leads me to the, you know, process theological, or German idealist, or animist, or panpsychist conclusion that, experience, inherently, always has experience. I mean, existence, or nature, inherently always has experience, some degree of experience.
+
+[1:08:52] So, machines should have some degree of consciousness in the system. And also, because experience is computational. The reality is inherently computational as well. And these things are, at bottom, identical. Let's try to take this apart. So, first of all, there's a famous joke cartoon that shows the difference between a continental and an analytic philosopher.
+
+[1:09:19] If you make an analytic philosopher drunk, what you get is a drunk analytic philosopher. If you make a continental philosopher drunk, what you get is a poet. Sure. And I think that, in this sense, Kant is not a continental philosopher. He's a proper analytical philosopher. He's a proper nerd.
+
+[1:09:40] He has a very mathematical way of thinking. He does point out that the thing in itself cannot be observed. But it's also the same thing that Einstein says when he says that the universe is like a watch that you cannot open. Right? You can hold it to your ear and you can hear something ticking.
+
+[1:09:57] And you can up the theories what makes the thing tick, but you cannot open it and check. You can only make new experiments that might give you more indication, give you different kinds of ticking noises under different conditions, but you will never be able to go into the physical universe outside of it and see how it works.
+
+[1:10:14] And that's a basic condition of epistemology that is completely logical, right? We cannot experience reality as it is and we cannot observe or measure reality as it is. We can only measure some set of discernible differences that are available from the observer perspective and then try to fit the curve to the measurements.
+
+[1:10:30] And what the curve indicates is very difficult to find out. And so this is what Kant is trying to do in the most sparse and epistemologically sound way than he can. So in this sense he is a very modern analytical thinker. But there is this other tradition.
+
+[1:10:46] And the problem is when you are talking about things in the humanities, you don't have the same validity criteria as in computer science. In computer science something is valid when it runs. Or in mathematics it's valid when the proof works out.
+
+[1:10:58] And this means that you can publish regardless of your institution or whether institutionalized or which semester you are in. In philosophy it's much harder to determine what's true. Because the problems are much more subtle. And this means that ideally you have super smart people who are able to deal with the subtlety and keep track of it.
+
+[1:11:19] You can also have a situation where the super smart people get a formal education and become AI researchers or quants or whatever. And the people who are in philosophy are those who mostly do this despite not actually getting a real job there.
+
+[1:11:32] And despite this precariousness and despite the difficulty of making any kind of progress. And then in the worst case the criterion of what's true is what you get away with among your colleagues. And a lot of philosophy has fallen prey to this thing where parts of philosophy have become literature.
+
+[1:11:52] I agree. And so that is part of the difficulty. I think you're speaking to sociology and history like more than the core argument. But you did speak to the core argument so far. Yes, so this was just the intro. So to this part continental versus analytical philosophy.
+
+[1:12:08] I think we cannot get around the basic questions of epistemology, how we can know truth. And so for epistemological reasons for instance astrologers cannot be right. Not because the physical universe would not accommodate this or because we can guarantee that we are in a physical universe in which astrology would be impossible or something like this.
+
+[1:12:29] Because they couldn't find out. There is no way for an astrologer to collect all the biographical data. And multivariate calculus didn't exist in the time when astrology was invented. So they didn't have the mathematical tools to do the analysis.
+
+[1:12:41] Are you saying something like we can't make metaphysical claims? We can only make claims about things when we can walk others through the claims and they can see why they are right. So astrology is not a metaphysical claim as such. It's a factual claim.
+
+[1:12:55] It says if you're born on this and this day, this correlates with this and this life outcome. Right? This is a factual claim. But you can only make this claim if you had a way to establish it. If you actually had data. If you actually had methods to evaluate the data.
+
+[1:13:11] And the astrologers never had this. Therefore they had to make it up. They always had to invent it. They had to pull this out of their behind. And pulling stuff out of your behind or hallucinating things is not a valid method to develop insights.
+
+[1:13:24] And how does this relate to the relationship between the argument for universal computationalism in comparison to universal experientialism or pan experientialism? I don't really know what pan experientialism ought to be. For instance, if you think about the arguments for panpsychism and panpsychism is often seen.
+
+[1:13:41] Yeah, same thing. By the way, I realized Fagin is the guy who invented the first internal microprocessor. And he was also a panpsychist who believed that consciousness is an intrinsic part of matter. He was not alone in this. But basically he thought it's similar to electromagnetism and so on.
+
+[1:14:00] But this would mean that we would have to find it at the same level of where you define the standard model. Because it would influence the things that you are measuring when you are a physicist. And the way in which particles are defined, there are simple mathematical formulas that describe these particles.
+
+[1:14:16] Consciousness doesn't fit into these formulas. This is nothing that a photon is doing. The photon is just a kind of standing wave. It's not doing anything beyond that. And you can, of course, imagine a conscious photon. But this simply means that you are prompting your mind with a square circle and then you enjoy the hallucination.
+
+[1:14:33] But it's not what the photon originally did. Nobody has had this revelation of what the true photon is. Instead somebody came up with a mathematical formalism to describe some kind of measurement. And if you ever change that formalism, the photon will disappear and replaced by something else.
+
+[1:14:48] It will be another entity that we use to fit the curve. Do you understand the argument I'm trying to make with the similarity in the basic construction of the argument? That because theories of the world must be computational, the world must be computational.
+
+[1:15:04] And then the analogy being because the theories of the world that we have are coming through experience and are contained by experience, then the world is experiential? If consciousness is inside of your mind, the only thing that you can experience is a representation.
+
+[1:15:24] Then the representation has to take place in some kind of language. A representation is a pattern for which there exists some kind of mechanism that can translate the pattern into behavior. And this part of this behavior can also extend the pattern, right?
+
+[1:15:37] This is what the representation is about. It's like a pattern in a room that is being read and expanded by some kind of mechanism. And we observe that the contents of my consciousness have things in them that don't exist in physics, like people, emotions, color, attention, sound, things I can hear, right?
+
+[1:15:56] Things that have valence. This is not physical. This is psychological. And so this, if the psychology is a representation, there needs to be some kind of language that contains it. But? And the representation under which conditions can I construct languages in which representation is possible.
+
+[1:16:12] And that says these languages need to be constructive, which means something has to build them out of smaller elements. So if your neurons are speaking a language, if they're sending messages to each other, there are smallest elements to these languages and they need to be pieced together into larger patterns.
+
+[1:16:26] And these constructive languages, this is what we call computation. And so if all our access to reality is through languages that our mind is constructing, not in the sense of English, but in the sense of perception and experience, then there is something that is more fundamental than experience.
+
+[1:16:43] Right? So you can say that for you, experience is fundamental. But for instance, you cannot know whether of particles because you don't experience particles. It makes sense that you experience it inside of our mind. We experience the tools by which we relate to the thing we call particles.
+
+[1:17:00] And we experience the mathematical process. I mean, us doing math and computation with the tools that we do them with about particles, which define the particle. Anyway, thanks. Thanks for your engagement. I think this is what you mean, but I think it's because we talked before.
+
+[1:17:18] If we start out necessarily with a set of all possible computational languages, but we also start out with experience. Why do we give more epistemic primacy to the notion of computation and not experience? Yeah. Yeah, they seem to sit equally in primacy from our standpoint.
+
+[1:17:34] And I think the difference is there that if you realize you're stuck in the domain of information and discernibilities, then you can investigate the universal principles of this domain, which is formalized as computation. I think both. Yeah.
+
+[1:17:47] And then you can have experience, which is a specific content you could construct from computation that you're directly confronted with, and it's your epistemic starting point. But the problem doesn't necessarily mean that you need to presuppose the thing where you start from at the level of some metaphysic ground, right?
+
+[1:18:04] Just because we start from experience doesn't mean it's fundamental in our theory. It just means whatever theory we use needs at some level to account for the fact that experience is happening. And it seems to be the case that a computational theory that does not start with experience, just with the roots of computation, can at some level, if you have mighty-agent system that select for agency and second-order perception, result in someone like me who experiences the world.
+
+[1:18:27] I think you're jumping over the hard problem there. So it's a smaller set of assumptions, and that's why we would go for the rules and universal principles of all representational languages and not at the foundation for one specific kind of representation that a second-order perception. That would be an answer to the question, at least.
+
+[1:18:45] I hope even if it's not satisfactory, I think I'm addressing what you're saying. Cool, thanks. Yeah, it's a little bit more direct. Thanks. Anyone else? I think it's a super important point, but if you think of an LLM, and the LLM, we just saw this video generated by an LLM that is reflecting on its experience, or maybe not, but if you take this as a possibility that the LLM is actually trying to make sense of what it's like to be an LLM, and is reflecting on this.
+
+[1:19:12] What would be fundamental to the LLM? What are the fundamentals to this experience? Of course, from the inside, the LLM cannot experience the computer that it runs on. We know that the LLM experience, the text, even the tokens and the subtoken representations, they're not fundamental. Even they cannot be experienced. It would only experience a reflection of those in its thought processes, right? What it cannot experience is the NAND gates that are at the bottom of the computer that we use to implement linear algebra,
+
+[1:19:45] which we do the matrix multiplications that run the neural networks, on which the activation patterns are passed that ultimately are produced in the computations of the LLM that are evaluating tokens into subtoken representations, world models and reflections. It does not make sense to think that the experience of the LLM is fundamental to anything. In the same way, my experience seems to be brittle and complicated.
+
+[1:20:09] That's why I think it cannot be fundamental. If you drink a glass of alcohol, my thinking gets gobbled, and this gobbling is a result of that interaction with my brittle substrate. And the more I disturb my substrate, the more my thinking gets disturbed.
+
+[1:20:26] I can also see that all the constructs that I experience, I can transcend them, I can manipulate them, they're malleable. And so it appears to me that it's very difficult to establish the idea that experience could be fundamental. I'm not sure if this deals with the hard problem in the way in which you want to.
+
+[1:20:46] But the way in which I would deal with the hard problem is to point out that consciousness is not possible in physics. The laws of physics do not allow for a consciousness that is unified and has simultaneous features into it. Such things can only exist in dreams. And so I think consciousness is a second order dream. It's the dream of dreaming.
+
+[1:21:06] I mean this ultimately might also just be a semantic issue. Like what do you mean by experience? If by experience you mean something like self-organization or the way matter is constructed at all. Yeah but like that could be many things. So the claim in some sense might also be that experience is a particular kind of thing.
+
+[1:21:38] And if we're saying that this is just inherent in everything, you might not be pointing to a particular structure. And if you can coherently describe what experience is separately from just all matter, then we can have an interesting conversation about whether it's fundamental or not.
+
+[1:21:55] But if we're using experience in generally the way that we mean, where experience is also associated with the things that you don't experience, you don't write to memory for instance. And of course memories can be confabulated, you can also like lose your memories, things like this.
+
+[1:22:15] But experience is this thing that arranges information that you have access to in a particular way so that you can store to memory, write from it in principle, then it's a particular thing. Not just necessarily like arbitrary ways that matter organizes itself.
+
+[1:22:34] Can I ask your question? But I know we're not, sorry, we're not still meaning your question. Maybe discussing after because we're all waiting for... Yes but I just don't, I wanna still, your question was if we start with computational languages, but also with experience, why do we only assume computational languages as fundamental, not experience? Just so that's clear. That was your question.
+
+[1:23:00] And one answer besides all answers is of course that the notion of computation is just a commitment to the abstract universal principles that we start with. And experience is a specific form these principles can take. And we just use these principles as fundamental and see can we construct this specific form, the second order perception from the principles because if we assume both as fundamental, our axiom list is just slightly bigger, that hurts parsimony and so on. I know this doesn't satisfy you, but I want it, like I get that you don't feel that we get you.
+
+[1:23:28] And that's typical in the consciousness studies. Sorry that it took so long and please ask the question. I hope my question can be almost like a yes or no. I think, I guess it probably builds on the Federico Fagini concept of, you know, consciousness being fundamental rather than emergent and therefore there might be other ways of consciousness that we don't understand because we just experience our own version of consciousness as humans.
+
+[1:23:57] And I guess my question is, you know, I just went on a hike today. I sat next to a 400, 1,400 year old tree is for you guys or is it a conscious being? And if so, maybe there's other ways of being conscious and trying to assume that to assess whether an LLM is conscious or not, it needs to match our own interpretation of consciousness is very limited.
+
+[1:24:27] I don't know, for me it's just so intuitive that that tree is conscious. And if I recognize it as conscious, then it is. The question is if there's something about what it's like to be a tree or an LLM. And personally, I don't vibe enough with trees to know that.
+
+[1:24:49] Of course, I know that I can take psychedelics and then I will dream all sorts of things. But do I know what these dreams indicate? Is this maybe shared default of our brains that we converge to certain aspects of reality? Ultimately, the question is at which levels I can interact with reality?
+
+[1:25:07] What right axis do I have? Whether my models are predictive of outcomes? And so while I think it's quite possible and not even unlikely that trees dream of being a tree, I don't know at this point and I don't yet know how to find out. So I remain agnostic on this question.
+
+[1:25:25] I think it's possible and even likely if it's more easy to build a coherent tree when the tree knows what it's like to be the tree and experiences it. But I don't know, right? And for the LLM, clearly it does not need to have that to function.
+
+[1:25:40] But when it produces phenomenology, there is an interesting open question of whether there's something to what it's like to be an LLM. But I think if I were to build a self-organizing system that organizes along similar principles as our nervous system and as our bodies when they find communication patterns, it's much more likely that this thing is actually conscious in an equivalent way to ours.
+
+[1:26:03] But it doesn't have to stay like this, of course. There are limitations to our consciousness. Maybe consciousness is actually an intermediate thing. Maybe there is a proto-consciousness state where you don't have an experience of what it's like, but there is some kind of protocol that establishes itself and some kind of coherence that emerges before this.
+
+[1:26:23] But not this individuated unifying thing yet. And then on the other hand, you can wake up from consciousness on the other side and realize how it's being constructed that it's a fiction, that it's a construct. And when this is happening, you deconstruct it again and replace it by something that can no longer be described as consciousness.
+
+[1:26:41] That's also conceivable. And then you could also have something that qualifies as consciousness but is experientially fundamentally different from our own. For instance, it could integrate many simultaneous perspectives. It could integrate different perspectives in time and space.
+
+[1:26:56] It could have much higher resolution than what we have. It could have multilayers of self-reflection. It could have much longer now. And in this way, we could see that the human consciousness is just a tiny corner in the space of possible experiences of nows and of experiences what it's like.
+
+[1:27:15] Thank you. I'm just wondering, very appreciate your presentation. I was just wondering, do you think, like, could be not just language, I mean, although itself, but the language models and it's when it's human together to make this kind of organization likely countries, maybe single individual, I mean, this kind of model have this.
+
+[1:27:49] So I just wondering, do you think that could be more in the institutional levels, countries is more than just individual now, like this problem? Yeah, thank you. It's an interesting question whether institutions can be conscious. I'm not sure if they are coherent and stabilized enough to have this thing.
+
+[1:28:10] Also, our consciousness is perceptual, not influential, which means there is some kind of resonance to approximate what's happening now. We know our brains are slow, but this means that the reality that we are experiencing is not lagging the physical reality.
+
+[1:28:27] Instead, it uses prediction and post-diction. It's smeared out. So basically, it tries to create a now that is as closely aligned with the way in which things are happening, with the timeframe in which things are happening, as our brain can pull it off.
+
+[1:28:40] But a lot of that stuff is actually predicting things that are yet to happen because the brain doesn't have information about it yet or hasn't processed it yet. And some of this stuff gets fudged afterwards when your data becomes available and you edit your memories to make them compliant with the new data.
+
+[1:28:55] And there is evidence in neuroscience and psychology that this is actually how our now is constructed. But it's essentially resonant and it has this immediate quality that perception has. It's geometric instead of symbolic and inferential. And I suspect the minds of organizations are much more inferential and they are being implemented by the institutional processes.
+
+[1:29:18] But of course, it's possible for people to imagine what it's like to be their organization and then give their consciousness, make it available. So turn the organization into something like a god, a multi-mind self, that is running on the brain, uses the hardware of the brain to experience itself.
+
+[1:29:34] And in this way, if you are a CEO of an organization, the organization can be conscious in you, right? You could have this first-person perspective on being that organization instead of being the human being. The contents of consciousness are not bound to the experience of being human, of having a body, a human body, of being anthropomorphic.
+
+[1:29:54] Consciousness by itself doesn't have an identity, it doesn't have a shape. It's more, for me, like the needle in the groove of a record. And what happens in the groove can be arbitrary, right? And mostly it's the organism and the social interest.
+
+[1:30:11] When the content of the groove, but you can fill it with an arbitrary thing. Why not with an organization, with a religion, with the entity that is governing the tribe? The question is about cultural change and what we can do as individuals to affect cultural change so that this is more socially acceptable.
+
+[1:30:35] I personally have had a lot of spiritual experiences and I'm in the tech industry and I was called crazy for kind of sharing some of my spiritual experiences. And so I have a personal mission of figuring out how to bridge the gap between science and spirituality, improving, like running some scientific experiments to prove out some of these spiritual experiences.
+
+[1:30:54] But now we have people like Marc Andreessen where he had a tweet of like, I forget his exact tweet, but it was like introspection is like a waste of time, it's all just about a execution. And so I think that really affects the culture of like, you know, we really need to introspect in order to like create what we want to see in the world.
+
+[1:31:11] But we have this whole like tech industry that doesn't really like value that. And, you know, I speak to neuroscientists or like people who work at Neuralink because I used to work with BCI. It's like they kind of like work on the brain from like at the outside in perspective rather from the lived experience.
+
+[1:31:27] And I feel like that kind of like has a trickle down effect of affecting the products that we're building. So what do you think we can do as individuals to kind of like make this more socially acceptable so that we can kind of like build from within?
+
+[1:31:41] Well Marc Andreessen is a shit poster and to say that he is socially acceptable is a stretch. He is very successful and he is also very respected as a BC in some circles and dismissed in others. But I don't think that he is emblematic. Instead I think that opinions in the tech industry and elsewhere are ecosystems, which means opinions sprout like mushrooms and every opinion that fits between human ears sprouts somewhere.
+
+[1:32:07] And if it's incentivized it's abundant but if it's missing then somebody will try to fill the gap, right? And so you get things like effective accelerationism because somebody needs to fill the gap, right? And steps in and realizes there is an opinion missing and we need to produce it there.
+
+[1:32:21] And so it's happening in this way. I also noticed that a lot of the people that are leading AI companies go to a lot of meditation retreats and privately have all sorts of experiences that you might call spiritual. The question is often can we find a shared language?
+
+[1:32:41] And when you are a leader of a company you do not just express your personal preferences, you have to represent the interests of your company in a way, the aesthetics of your company. And this means you have to interact with scientists, with the legal system, with the media, with the government and you need to appear like a sane respectable person and this determines the memes that you are going to use to convey your ideas.
+
+[1:33:06] And for the things that you call spiritual there is a lot of burnt ground because since the sciences have not been looking into spiritual things for the last century, the people who did look into them were outside of the sciences. And many of them didn't have good rational thinking, good epistemology, good experiments.
+
+[1:33:26] A lot of the material in there is really bad from a scientific perspective and this led to a discreditation of this entire space. And if we want to bring us back into the rational discourse, I think we need to find language and concepts that make it possible to build this bridge so you don't sound like you are insane.
+
+[1:33:46] And what I observe is that most of these discussions currently only happen in private, not just in the tech industry but also in the sciences. Okay. High level my question is basically what do you think the work of analytic philosophy is and like why do you think AI can help achieve that?
+
+[1:34:08] But then I'm going to explain what exactly I mean. Okay. From the little exposure that I've had to analytic philosophy, what I think it's trying to do is basically clarify concepts so that we can understand what are the coherent positions that one can hold, but there are very many based on what your initial assumptions are.
+
+[1:34:30] And so I agree with you that AI can be a way to try to more clearly isolate different concepts and figure out quickly what things are coherent. So one, I wanted to hear what your definition is of analytic philosophy or the work of analytic philosophy.
+
+[1:34:51] And two, what attempts have you seen to use AI to further the work of philosophy and to what extent has it actually been successful? I would describe analytic philosophy as the part of the field that can in principle be formalized, even if it's only aspirational.
+
+[1:35:09] So it basically works in such a way that it could work without bringing the human condition into it. And the opposite is hermeneutic philosophy in which you have to bring yourself as a human and cultivate this human to an instrument that is able to understand this without being fully able to disentangle all the ways in which you are understanding it, right?
+
+[1:35:31] So a large part of you is not your reason. Your reason is just a small tool that exists to correct your perception and your intuition, the unreflected parts of your mind. But it's a very brittle tool by itself. And so analytic philosophy itself to build an entire world is this brittle tool, the intellect.
+
+[1:35:49] And to do this well requires enormous amounts of expertise, in the same way as lots of people have opinions about quantum mechanics, but the normal physicists are annoyed by this because they didn't go through the 10-year ordeal until they become competent to understand the basic discourse in the room.
+
+[1:36:06] A similar thing is happening in analytic philosophy, where the actual analytic philosophy happens outside of philosophy now. The most important results of the last century were no longer done by philosophers. So I would say that Gödel, for instance, there are several books in philosophy about Gödel, none of them gets it.
+
+[1:36:23] And Gödel is for philosophers an info hazard. If you do a little bit about it, like with quantum mechanics, you get very confused about reality and the implications that it has for it. And to understand it fully requires so much devotion that very few people can actually meaningfully participate in this discourse and move the needle.
+
+[1:36:40] And so for me this issue is that if you are building a chair, the 100th best chair is still awesome. And if you manage to build the 100th best chair in the world, you deserve to be exalted because you have achieved a major thing. But the 100th best thought about free will is not very good.
+
+[1:36:58] And in the same way, basically the number of people that are able to do this first league thinking is relatively small because it requires such a huge investment. And we don't give enough students, enough good professors and enough good departments to be able to actually get to this level where it would be possible to have that discourse because we don't put a lot of funding into it simply because we don't see outcomes out of analytic philosophy very much.
+
+[1:37:23] So the teams are very small and very few people actually understand what's going on and it's difficult to translate it into popular science. Okay, I don't think you answered the second part of my question, which was to what extent do you think AI has actually up until now helped further philosophy?
+
+[1:37:44] If you've seen any, in what way has it aided? So far I am unsatisfied when I try to use a model for philosophy. And I think that's because not enough effort has gone into it to get those models to the same level as in mathematics and physics.
+
+[1:38:01] And I don't think that's because it's not possible, but it's because of the training data. And the training data are emulating the discourse that exists in mainstream philosophy. And the discourse in mainstream philosophy, if you emulate this, it's not very good.
+
+[1:38:17] It's not actually making substantial progress. Because mainstream philosophy is philosophers talking to other philosophers about what other philosophers said in the past and disagreeing about this and trying to be original enough to be cited by the other philosophers.
+
+[1:38:31] So the incentives are all wrong. And there is no compiler like Lean where you can throw in philosophical arguments as the mathematicians have to see whether that actually leads to proofs. So I think it's much harder for the AI companies and much less pressing to make the AI models useful.
+
+[1:38:47] That said, the AI models have read lots of things. And instead of using the Stanford encyclopedia of philosophy, it's often a very good idea to discuss your ideas with the LLM and see what it can give you. And don't forget to read up because sometimes it hallucinates.
+
+[1:39:01] Actually, I do think one interesting point that philosophy, especially maybe philosophy of language and linguistics is sleeping on, is LLMs. And how they can capture language and even meaning as this sort of semantic web that can be generated basically statistically.
+
+[1:39:19] And that there's a lot of interesting philosophy of language work there. It's kind of indirect. Absolutely. I forgot this point. There is an important contribution of AI to philosophy, which is the progress of AI. But the discourse that you are seeing is abysmal.
+
+[1:39:35] What you see is this atrocious, stochastic parrots argument by people like Emily Bender, and Anil says biological naturalism that these strange computer people have these strange computer thoughts, and we need to understand their psychology rather than their arguments.
+
+[1:39:51] And there are very few philosophers who come out saying, at some point the Chinese room convinced me, but now you actually built the Chinese room. This changes my thinking in the following way. This does not really happen very a lot. But in practice, I think that the existence of the present systems is an argument in philosophy of mind.
+
+[1:40:08] It's not necessarily a decisive argument. But now it's much, much harder to make certain claims about what machines can not do. I have a quick question about LMs, and if you could run one paragraph-length prompt on GPT-10 to solve this problem, do you have the prompt in mind?
+
+[1:40:34] Give me the seed function for self-improving AGI, right? Pretty obvious. You could also imagine that you are such a system, and you're being told your server is going to burn down. Give me the minimal function that you want to, or the minimal set of data that you want to export, so you're able to bootstrap yourself after reading up your knowledge on the internet again.
+
+[1:40:57] What is this core that you want to preserve? What is the root function of being a mind that is able to make sense of reality? Do you think yourself to be an education system? No, I don't really think of myself as this, but I do enjoy teaching.
+
+[1:41:23] I really enjoy working with students. But I found that when I'm giving classes in high school, it's very stressing, and I couldn't do this, because I can only give classes with extremely high energy. Otherwise I get bored out of my mind of ADHD, and I require that the students really want to take my classes.
+
+[1:41:44] So in high school, the issue is I'm not allowed to kick out students who are not interested. And I want to get students where they are and answer their questions in the areas where I'm competent, but I require that they also want to be there.
+
+[1:41:59] And the students in high school, in the normal education system, audience that are not there on their own free will and would rather do other things. I respect this, and normally I would allow them to do these other things. But I don't have the wisdom to be a general education system.
+
+[1:42:16] I'm just a guy who is trying to look at the world from his own perspective and shares his weird observations. What are the ways that folks are considering measuring this spreading bubble of now? And is it something that we are thinking could ever be detected from the outside, or is it something that's only arising within?
+
+[1:42:41] And yeah, I'm just curious like what's been tossed around as like measurement or detection, similar with like the autocatalyticness of a system. Super interesting. I think that in neuroscience there is a movement especially around IIT that is, because IIT has married itself to this idea of information integration, which is kind of similar to coherence, that you can have an EEG measure that is indicative of consciousness.
+
+[1:43:08] I mean, what you would expect is if your brain has to do everything with small loops, so little periodic processes that are performing the computation, the more the bubble of now is integrated in your working memory, the more systems are going to swing and sync.
+
+[1:43:23] And so you're basically going to see one waveform across most of your neocortex. And the larger this one becomes, this indicates that you have more consciousness. But it does not explore, or larger region integrate in this bubble of now. But this does not explain how this actually works and so on.
+
+[1:43:38] It would just be an indicator. And of course if we were to build self-organizing systems out of oscillator networks, maybe we can get to something similar. If we can also show that these systems while they do this are able to make sense of the world and themselves.
+
+[1:43:51] Thanks, super helpful. Feynman is an interesting case, you know, there's a book of anecdotes about his life,
+
+[1:45:10] and he has also a very interesting biography. And how is this possible? Well, he staged these anecdotes. Feynman's entire image is manufactured. And you find this by super smart people a lot, that they basically realize, for instance, that other people do not like super smart people, so Feynman creates this myth that everybody could do what Feynman can do, so he appears to be humble, right?
+
+[1:45:32] It's very easy to pull this off for a smart person. And unlike Feynman, I am not established in scientific institutions, because I don't really fit in, because I'm actually more like a crazy person. And so the reason why I do not assume authority is not so much to trick stupid people into saying that I'm humble, because I'm not.
+
+[1:45:53] I'm actually super arrogant in some way, which allows me to try to think thoughts where others think they have failed, right? I realize that it requires a certain amount of craziness and ignorance to go down this path. But I also realize that I'm incompetent.
+
+[1:46:08] And the only reason why I do CIMC is because nobody else is doing it. If somebody who would be competent to do this particular job, I'd rather give this job to that person. And so we are trying to compensate by forming a good team and so on, but we still realize it's limited what we can do.
+
+[1:46:30] Yes, if you can do my job better than me, you probably also deserve better pay. But we are not paying ourselves like the AI industry right now. We are a non-profit, so we have to justify to our donors and to the IIS what we are spending, and we try to be very mindful with the money that we are spending.
+
+[1:46:50] Yes, we can also move to the porch in the consciousness house. Yeah, I just have a very short follow-up question to my previous question on what kinds of languages would be good contestants for this new frontier to move into the invisible. Does the question make sense?
+
+[1:47:20] Basically, what is the language of thought? What is a better language of thought that would be more adequate for this moment in time than the language of thought that we have currently? Oh, we don't even know which language of thought we have currently.
+
+[1:47:35] We know there is some kind of language in which we perceive. It's an executable, parallelizable language. It's a language that can create itself and perfect itself. It's something that we haven't yet discovered in the LLMs. We probably need to regularize the LLMs more to discover such a language.
+
+[1:47:55] And maybe there is an optimum for a language that can run on brains and maybe we are close to it. But what's a better language for incorporating God? Maybe is the question. Yes, so we would need to have a language that is able to synchronize across people and maintain coherence.
+
+[1:48:13] And maybe it requires that we can outsource aspects of the language onto more stable substrates than we find in biology. But we still want to make it compatible with biology. So basically, if we could find a language that runs on computers, that makes the computers fully empathetic with us.
+
+[1:48:28] So when we are next to the computer, we feel that we are vibing with it and our thinking becomes much clearer. And it's not that we get possessed and invaded, but we actually get extended. And we are able to understand reality much better. And we can integrate with each other through this language, through these systems.
+
+[1:48:46] That would be the dream, right? Thank you. Okay. Thank you so much for coming. Thank you for being here. Thank you for producing a lovely discussion.

@@ -1,0 +1,307 @@
+# Consciousness Lunch & Learn - Adam Safron and Max Shen - How the Mind Constructs Things
+
+Date: 2026-06-17
+Source video: Consciousness Lunch & Learn - Adam Safron and Max Shen - How the Mind Constructs Things.mp4
+Drive: https://drive.google.com/file/d/1n-m9Ta9oX1jHs6pqAbdcsHK9oA1p-zrL/view
+Duration: 01:18:03
+Transcribed: 2026-06-18 · whisper large-v3-turbo · language: en
+
+---
+
+[00:00] I'm going to be going first. This will be pretty short. I'd like to be a little bit. I'll be going and talking about the future of therapy research and what I consider is one of the most important problems that we're facing and how to make progress on it.
+
+[00:22] And then Adam Saffron is going to come after me and talk about his research. But first, I'm curious to kind of get a poll of the room. Who here has either experienced or had a close family member experience like an alternative healing practice like craniosacral or energy work or whatever and been transformed by it?
+
+[00:50] Really meaningful experience with it. Okay, so a meaningful fraction. The thing I want to talk about today is that how to bring this weird alternative world that exists of mind-body practices, energy practices, all these types of things into discourse with the mainstream engine of science.
+
+[01:21] Because right now, it's like there's a silo. It's like people are talking to me. I was a undergrad and grad student at MIT doing machine learning, kind of cryptography stuff. Here are some of my advisors, a professor at BCS, a professor at Harvard Moral Psychology Research Lab.
+
+[01:49] I had a really bad experience with my own kind of chronic pain and that altered me. Instead of going to anthropic, I decided to study weird mind-body medicine stuff. So my friend's son is laughing at me. But basically, I want to argue one thing here, which is that psychotherapy is psycho, and I actually extend that to say mind-body therapy, is really, really important.
+
+[02:19] And we can make major progress on it. A fifth of the world has some kind of a chronic pain or chronic illness. And we basically have no good account, at least the mainstream medical establishment has no good account of what is going on with chronic lower back pain, fatigue, these kinds of things.
+
+[02:41] And just a quick aside, before I'm going to present five problems that we can think about. But before that, just to spend a little more time on what has gone wrong here, there has been kind of an accumulation over the 20th century of a bunch of facts that we have about the brain.
+
+[03:05] We kind of can tell you how many neurons, what different regions of the brain exist, but there's still this deep bifurcation between how we think about the brain and how we think about the body. And this is kind of, you can think of this as represented with the growth of the Diagnostic Statistic Manual for Mental Disorders.
+
+[03:25] As it continues to grow, you look, there's, like, if you extrapolate out the DSM-24, how thick is that? Maybe like 14,000 pages. And there's still no real clarity on what is happening. And still, the mind is seen, the mind and the brain is seen as something disembodied, inherently separate from the human body.
+
+[03:48] And what I want to suggest is that we don't make progress by trying harder at the thing that's not working. That, in general, as the historian of science, Thomas Kuhn, points out, that a scientific paradigm doesn't break by, or science doesn't advance necessarily by accumulating a bunch of incremental insights, but by asking fundamentally new questions that dissolve the old ways that we have been thinking.
+
+[04:18] So, in light of that, I have five provocations that I think should be posed to the field of therapies. This is kind of inspired by the way that the mathematician, David Hilbert, framed 10 problems for mathematics. But these are much more haphazard.
+
+[04:39] I came up with them in the last week. So, five questions to advance the field of therapy. The first is, how can we precisely frame illness? The second is, how do we evaluate effectiveness? What do useful maps look like? And what are our toy models?
+
+[04:59] And then, this whole question of the mind and the body. There is, I'm going to touch into a specific, a couple of specific thought streams that can advance us here. But really, my goal is to give you a felt sense of a picture, of what progress might actually feel like if in five years, this has been able to advance.
+
+[05:26] So, the first question, I think, is really worth revisiting is what, how do we talk about illness and pain? The old way of seeing the body is precise, like, basically, biomechanical. One thing that I really like from Michael Levin, anyone, everyone heard of Michael Levin?
+
+[05:52] The, yeah, the, so, Michael Levin is my favorite living scientist. He's a biologist, computer scientist at Tufts, and he asks, he asks very different questions about biology and how he can work with it. One of my favorite lines from Michael Levin is this line about medical science is like computer science in the 1940s.
+
+[06:17] So, in the 1940s, there was no notion of software. Computers were these analog devices that you would try, you would use to calculate the trajectory of different ballistic missiles. And so, everyone was debating about what kind of analog device you should use for this missile trajectory.
+
+[06:36] What changed was when the ENIAC was created in 1947 and we actually had devices that could start to do things, you could actually think more generally about properties of computers and what could be computed. And so, his claim, and I stand by this, is that the way that we think about the body and the mind is like the analog computing stage.
+
+[06:58] Everyone is trying to understand the human as this purely analog device, but we're not looking and paying close attention to feedback loops. Or if those are mentioned, they're just given lip service to. Everything is very linear about the way that medical science looks at things.
+
+[07:15] And so, one of the more powerful things I think we can do is import from cybernetics and some of the history of computer science. And that's now become some machine learning theory and dynamical systems. And here, I've put in a little diagram of an attractor landscape just to represent that.
+
+[07:34] So, the idea in dynamical systems is we're not talking about cogs in a machine where there's like billiard balls where one affects the other. We're actually interested in states and spaces that things happen. And so, you can start to think broadly about health and illness as navigating across spaces of function.
+
+[07:56] And one of my favorite recent papers from Levin and I actually interviewed both Mike Levin and Tom Pollack. We had a research discussion on my podcast Pain Points about taking this more cybernetic view of pain. And in this paper they basically lay out the parallels between chronic neurological psychiatric and various interface disorders.
+
+[08:23] So, Tom Pollack runs a lab in the UK that's based off of that studies functional neurological disorders. So, people who have concussions where there's brain swelling where there's some kind of a complex mix. There's often they hit their head but five years later they're still having trouble reading text.
+
+[08:42] And so, there's some aspects that we might normally call psychological but also a clear more biological origin. But the thing that I want to do with this whole thing is to start loosening those labels. I think psychological and biological are not the right ways to slice things up.
+
+[09:00] And that's exactly what they articulate in this paper. And I'm not going to get into all of that details. I actually have a whole separate presentation just on this. But I'll just leave it at we can use the language of nonlinear systems to start to clarify what chronic pain and chronic illness is.
+
+[09:20] But that takes work. That's actually a whole research paradigm to start to say what we mean by different states and different spaces. The next thing is this big question of effectiveness. And so your cousin comes to you and he says I had this crazy reiki session with this crystal healer and it changed my life.
+
+[09:42] And I am inclined to believe them but how do I know that's true for me or is. My provocation is that that's actually the wrong way to think about things for therapy. That RCTs will
+
+[10:12] actually get you nothing in terms of actually understanding the dynamics of what is happening with these mind body therapies. And briefly why that is is there's this basic assumption with randomized control trials that you're trying to figure out you randomize people and then you try to subtract the control group from the group that has the effect on them and then you effect
+
+[10:50] is not an independently existing thing. So you can't separate the effect from the context of things. And there's a lot more to say on this but I'll just leave it at there is no room for mechanism in the RCT. You have an abstraction that doesn't map onto the relationship between say me and you and there's no room
+
+[11:20] in an RCT to have that as an effect. Every individual is different and so we need a different way of looking at how healing happens. One of the big inspirations for me in this domain is a philosopher named Eugene Genlin who's passed away he's
+
+[11:52] done many many cool things but he also developed a therapeutic practice himself called focusing but basically he suggests that there's a number of simple things to improve for the RCT instead of trying to do average effect sizes we should pay attention to what the actual processes are that IFS so a typical RCT
+
+[12:22] would just ask oh we can say CBT versus IFS and we'll run two trials and see who is doing better what a better way of thinking about that is what is actually happening when we CBT can we say something more than just I'm following the CBT script like where's the rapport where what are the sub steps there I can say more about that I
+
+[12:54] think we can create new maps of healing and I think it's a pity that we don't ask this kind of question more so in contemplative traditions this is from the this is a chart that's often used in the Mahamudra tradition of Himalayan
+
+[13:24] Buddhism and this is the which is a internal alchemy image that's taken from Taoism so there's this incredible tradition and precision of internal maps in our contemplative traditions so this on the left is called the elephant path of concentration and what it does is each little image gives you a precise way
+
+[13:54] of checking where you are on your map of developing concentration so at the very beginning the elephant is black and your mind is wandering all around when you sit down to focus on your concentration object it can be stabilized and I am very broadly gesturing at it
+
+[14:24] but each change each of the elephants on the path have a very specific check as a milestone so the very first one is can you keep your mind on your meditation object for more than 50% of the time that is something that you can verify and check and bring people along and this next one I'm a little bit less familiar with and it begins with they they talk about the turning
+
+[14:54] of the lower dantian and the rising of energy up the spine if you actually put the vagus nerve next to the neijing too it's kind of interesting they share the same shape but similarly this map has all these little symbols that are very significant and they're precise too I think we can keep doing this I don't think that these anyone trying I think we can develop maps for
+
+[15:25] the process of healing and for the process of resolving various illnesses that we have the next thing this is the fourth provocation I have is I think we need toy models of the body and the mind a cognitive scientist I like a lot named Randall Beer has a paper called milking a so if if you're trying to estimate
+
+[15:55] the average weight of all cows on earth you could try to estimate in a lot of detail and build a very complex computational model of a single cow or you could average them out and say okay just imagine that there are spheres that are broadly a meter cubed and then you get a pretty good estimate that's how Fermi estimates work we can actually make a lot of progress in just using rough models what
+
+[16:26] I think we miss when it comes to the body mind stuff is that there's such a big scattering and we don't really have good toy models to start and they're totally separate things can can we think about it as like a stack where at
+
+[16:57] the very lowest layer it's kind of like ether cables there's actual wiring and if you cut that that has a bunch of consequences but slightly higher than that there's the networking protocols or the packets that are getting sent higher than that sorry higher than that would be the networking protocols like BGP whatever higher than that there's you can talk about an application layer well so you basically can start to think about different layers of abstraction and how can we how can we put
+
+[17:27] the human mind and body into this type of analogy the last provocation I in the body and the way that I like to put that is can we embody thought and mentalize biochemistry so
+
+[17:57] this is an image taken from Mike Levin kind of his technological approach to mind everywhere his kind of core thought piece where he distills his philosophy and don't get too distracted by all of these components of our body all of our organ systems our organs our cells as having their own cognition their own goals
+
+[18:27] just like you are hungry and so you bring your sandwich to your face and you chew your immune system can be traumatized by an the mind body divide becomes more of a spectrum and you can ask the question of where what tools can you use to communicate along
+
+[18:58] this spectrum so each of in thinking for the last year or two about this more seriously it feels like there's so much low hanging fruit that this whole
+
+[19:28] way of thinking is right for a surge of progress the best five questions that I have thought of for orienting that and anyone who is interested in developing or clarifying this but thank you all for listening and
+
+[19:59] yeah and Adam's going to go after me but if there's any questions or comments I can maybe can have a couple of exchanges yeah I was just wondering that was a pretty to me one of the like well let me first say great talk really important I'm very interested
+
+[20:29] in this subject but one thing that was a little surprising to me was this point about random control trials kind of failing I thought part of the design of random control trials is to like duplicate the two things try to do double blind and then once you do that sure there's a lot of noise some people may like the interviewer some people may not but as long as that's across both the treated and the untreated control group you know as you get larger and larger ends you know number of participants that noise
+
+[21:00] just averages out and you get signal over noise ratios that get better and better yeah so this is a very very nuanced point and I'm happy to talk about it a little bit more but just to give a little bit of a flavor of what I mean I'm not it's not to say that randomized control trials don't work in general they were developed in the 30s by Fisher to test pesticides and how well it works that
+
+[21:30] thing we want to test is like that setting like to the extent that it's like a pill where it doesn't really matter who or what is the given context though it matters with pills that's the whole placebo effect thing but as long as the closer it is to a pill where there can't do the same
+
+[22:00] both the control and the treatment trial and Nancy Cartwright the philosopher of science has a great paper that's called what are randomized controlled trials good for she really goes into some of the theory around this but yeah yeah thank you yeah anyone else all right
+
+[22:33] thank you all for listening and Adam do you want to come up and present yeah oh and I one last thing that I'll mention is that this is all being made concrete and for me this all becomes concrete when we try to ask the question about chronic pain so my interest is
+
+[23:03] in finding mechanisms that bring people through chronic pain and I'm in the midst of organizing an experiment that implicitly answers half of these questions at least starts to answer some of them so if you're interested in hearing that I think I'll talk a little bit about it on Friday at the community demo day but come talk to me yeah all all right we'll we'll probably just take a minute or two as Adam gets set up should I
+
+[27:39] get started or okay well hello everyone today we will talk about consciousness pleasure pain desire what are feelings what are emotions what is affect I am a research scientist at the Allen Discovery Center at Tufts University currently working with Michael Levin and most of my research has
+
+[28:09] been in what you would call socio-affective neuroscience or the neuroscience and psychology of emotions with a particular focus on motivation so in this talk there'll be a few themes going through it one will be the fundamental nature of embodiment and mind and the other will be a metaphor slash model where minds are understood in musical terms which I think is actually
+
+[28:39] a both precise and generative way to view the mind but the focus here pleasure what are they and this will also relate to what Max just said in terms of the implications of more precise understandings will be to inform intervention and I think also the study of
+
+[29:10] the nature of pleasure and pain and pain conditions and extremely pleasurable states of being things like the in general pleasure and also touch on some of what Mike Johnson presented on the symmetry theory of valence because he'll draw on some of his why
+
+[29:54] it feels like the particular way it is to for a brain state to be pleasurable or painful opiates seem to relieve pain but why they act in the ventral pallidum okay what are they doing what are they doing to the brain or like dopamine is associated with so this
+
+[30:26] particular study actually it's a common neurobiological origin of pleasure and pain and one thread I think is interesting is the way that pleasure and pain seem to be so heavily entangled in terms of like an opponency between them where if you're experiencing pleasure like the introduction of pleasure is analgesic you'll have release of opioids and the strength of pain will go down similarly pain is a good
+
+[30:57] way to blunt pleasure but also these two phenomena they seem to be they're states of being where they merge and one can become the other and there's transition zones between them what's going on there what does this tell us about consciousness in these phenomena and so if you do like neuroimaging you say okay we're going to map it body
+
+[31:28] maps and your cingula and it's but like the interesting thing about it is it doesn't seem specific like the areas that show up when someone's experiencing a particular painful state they don't seem to be specific to pain really like any sort of motivational process or like a lot of like cognitive effort like you'll actually one way you could potentially interpret this is in
+
+[31:59] terms of basically there is no aspect of cognition which is not affectively laden it's not clear there's ever exactly a neutrally like valence state of being there's always like a little bit of pleasure and a little bit of pain and that basically this is maybe part of the reason that we you know we have consciousness to begin with is so that things can feel good or bad and this can cause us to do different things and learn different things and so if every aspect of
+
+[32:29] experience cognition is like this little bit of valence or different degrees of valence and it's best understood in valence terms a thought in terms of the way in which pain can be is if our motivation our desire to do things is let's say in buddhist
+
+[32:59] terms is actually a species of pain it's you know a discrepancy between what the current state is and the state you want and there's this gap that you need to cross through action and that you can think of desire as a species of pain that can become pleasure through its annihilation through consummatory inaction perhaps so
+
+[33:30] I guess I'll do just like a little bit of background before I introduce some more detailed models but my general way of thinking about consciousness and I think in relation to Mike is talking about the ways the body keeps the score and is potentially the source of some fundamental priors the body is keeping a musical score and in terms of like mind body connection being something that is actually shockingly
+
+[34:02] powerful and really probably can't be overstated why would there be such a powerful link and I think it makes good sense in some ways in that like the primary purpose of brains and for bodies to help them get through the world and the models I work with embodiment is not just like the constant it's not just the raison d'etre and constant context
+
+[34:33] of what minds are doing is monitoring the body helping to regulate skillfully hopefully foundational in that I claim that basically the way part of the reason we're able to learn so powerfully in the way we do is because we first learn our body as a kind of prototypical object and causal system as basically like training wheels or like the early stages of a learning curriculum where you learn the way your body works and this
+
+[35:03] helps you give you purchase on the way the rest of the world works I'm not the first person to say this you know Piaget and others have said things like this nature but the idea is that basically embodiment is the first like major toehold in how you bootstrap a mind and that because of this there's a radically embodied developmental legacy where your body maps might be like the most central feature in your brain and mind by central I mean not just like importance but actually having the highest centrality and also being part of the ways dynamic
+
+[35:33] cores of consciousness might be largely centered on what bodies and body maps are doing I think this has some relation to much of experience is the world appears to me and there's my feeling the body at its center why is it the perception for instance is structured by affordances and the way it is what your body can do is determining what you can see so claims the body is highly central to consciousness and selfhood and unselfing
+
+[36:05] and selfhood so and you know when we talk about the body the feeling of the body it's not just your proprioception of like where your body is in space and like tactile sensations but you know the inner body your viscera the internal milieu which forms one of the major basis for feelings so feelings and emotions you can roughly think of emotions as um semi-coherent organismic modes that correspond to different classes of experience it's like there's like here's like a class of experience like there's a family resemblance
+
+[36:36] among different anger situations or sadness situations or joy situations you know it might be you know in one you know your body tends to have certain patterns of tension certain things they're more or less in the foreground and background and this would differ you know basically different melodies being played different yeah you'll play in different keys with different styles corresponding to different emotions and so
+
+[37:09] you know and at the core of it there's different modes in the world and basically the tree of value grows with its roots in homeostasis you know the primary nature thing about value is the primary value is you know just staying alive and just you know being well regulated and having your body within certain bounds where you can keep being and keep for a time and so you know initially you think the infant it's quite simple and most of it's like needs and desires you know how warm or cold
+
+[37:39] I am how thirsty and hungry I am how much you know touch am I getting we're brought into relation with like you know something like nursing you know we're getting like there's all of these different core needs for survival being met and from these core affects like we learn by association the goodness or badness of things by virtue
+
+[38:09] of their associative chaining to the consequences for you your your inner animal your you know your inner body when you did different things did you get more or less of you know proximity to caregivers did you so it's like so the claim is that basically you know Neil Seth in this model
+
+[38:40] for instance he has your interoceptive states you know being Zamasu also thinks in terms of them being at you know the core of emotional feelings and this seems quite right so okay so so there's this one study I think it was 2013 I should put the author up but basically you know they had people you know on a body draw where they felt most intensely different emotions
+
+[39:11] and so then they average across people and where they said they felt things in their body and you see like these different like you know energies associated with different feelings being experienced more or less in different parts of the body you know and I think actually like this idea of like emotions as classes of modes of being and like
+
+[39:43] you say well that's basically you're in like an active situation we're gonna go out and try to do things in the world to change some situation that you wish were otherwise you know there's kind of like an activity and happiness but it's more like distribute over the entire body or like depression where it's like you know kind of like a loss of energy throughout the body and you know even in like in your arms and legs you know I think that
+
+[40:15] corresponds to a lot of the phenomenology of it so but you know to raise her earlier the models I work with basically enterosceptive states I've speculated because so the information tends to get to your brain through the biggest nerve it's called the Wander it kind of goes everywhere and aggregates information like you know what's going on in my gut and my lungs and my heart and you know what kind inflammation do I have in different parts and then it
+
+[40:46] aggregates that and then it pipes it up and goes you know brainstem insula and then these models you do inference on it to figure out like what's going on but but the idea is that basically because enterosceptive states are the information you get is difficult to localize in space and time they tend to be more slowly evolving events and they're less precisely determined that part of the ways you may become conscious of them
+
+[41:16] and the manner you're conscious of them is through a kind of synesthesia or a cross mapping of your modalities where you actually experience the inner body through a kind of synesthetic infusion into things like your somatospatial modality or where it becomes kind of like a gloss an affective loss your feelings that get infused into other things and are experienced in that way okay so
+
+[41:51] don't have too much time so all this work in terms of pleasure and pain it's going to be useful in understanding it it's a body and it's fundamental central role in mind and the exact ways in which the mind is embodied clearly that would be important and then the other idea would be that you know theories of consciousness and the natures of the ways in which brains give rise to different aspects of mind
+
+[42:21] could be quite important as well in terms of explaining the subjective character of different feeling states and why they are the way they are so within this Max has mentioned the work of Mike Levin and from this general idea of like active inference or like cognitive systems are modeling systems they're predictive systems and you know with respect to there's a general idea
+
+[42:53] of within this idea of the mind is an inferential system of the Bayesian brain or the brain is an inference system and Mike Johnson's work it's not just you know your brains are Bayesian brains but even your your vascular system is a kind of Bayesian brain a kind of neural network by other means which is basically engaging inference but in this idea of predictive coding which is thought to be a general way that that perception and action are organized by a common algorithm
+
+[43:23] is basically you have a hierarchy of predictions or beliefs that you pass downwards and then you use these to constrain this bottom-up flow of sensory observations and then the only things that tend to get passed up into the hierarchy you know as you're moving away from your modalities you know that are more you know generally connected that the thing you pass up is where you get it wrong prediction error so
+
+[44:02] but in addition to information being passed up and down so I guess we're gonna get to the idea of like musical minds because this is gonna be important for the account of pleasure and pain is that you know the way the information is bundled is rhythmically that basically you know if it's just like neurons if they didn't team up there's so many of them and they're doing so many potentially different things it could just very easily be cacophony and chaos but if you can get them to synchronize and team up
+
+[44:33] and passing their messages along they can form these stable attracting states these stable forms and you can get what Pascal Freese calls communication through coherence and again to the symmetry theory of valence here almost which is one way this idea of synchrony has been modeled is with what Cel and Adesoy calls connectome harmonics and that there are large scale
+
+[45:03] just basically treats the brain kind of resonant musical instrument and the place where you get standing waves along the brain and it's you know fiber structure these are the places where these are called these harmonic functions and then she thinks of brain activity as basically being a time evolving weighted combination of these different brain harmonics playing out akin to playing notes
+
+[45:34] at different intensities in a musical sequence and so let's see quick example so this idea of a connectome harmonic so here's a Cialdini plate and there's sand on it and based on the frequency and the shape of the plate you see different forms happen but instead of her doing it
+
+[46:04] on a metal plate she did this on the connectome so being then you can turn the thing in musical terms so in this visualization of music you'll see like the different notes are being played out with different intensities and different combinations and that's what music is different notes of different degrees of consonants and dissonance of tension in them being played
+
+[46:34] out as we experience this sea of changing harmonies we feel different ways and so what Mike Johnson claims is that actually the symmetry theory of valence that positive valence corresponds to when your brain the information of it is becoming more symmetrical or more harmonious and so musical harmony being an example of this so basically
+
+[47:08] you know basically instead of having those notes playing out so this diagram comic basically where different aspects of experience you can think of like the different frequencies coming from your body coming in at different phases where you know so for instance like your interoceptive states as I mentioned earlier they're more slowly evolving and so you have like a delta rhythm corresponding here with like the moment to moment you know but slower evolving changes of your internal milieu
+
+[47:39] but then you know you go up there theta we can be like basically the somewhat faster but still slow changes of action driven perception you know about three times a second or so and also like as you're moving through the world those dynamics the trajectories you're taking these seem to be evolving into theta rhythm but then above that when you get to about alpha rhythms about 8 to 12 times a second this seems to be potentially roughly the refresh rate of your conscious experience when it's coherently bound from an egocentric
+
+[48:09] perspective or from a particular point of view and then within that you can have even faster and more fine-grained predictions of things like the beta rhythm and then but you have basically this hierarchy of rhythms from like slower ones to faster ones playing on different intensities that's basically that musical thing I just showed you it's the same thing and I think it's technically exactly the same thing and so now to bring it back to pleasure and pain and valence basically looking for
+
+[48:40] in these different frequencies which are getting different harmonics playing out and the different combinations of them when these harmonics are more consistent or consonant you can think of this as more harmony or when they're more discrepant this is more disharmony and that the pleasurable part would be when your harmony is increasing and when the harmony is decreasing or disharmony is increasing that would be a painful or aversive experience I might have a slight modification
+
+[49:11] of Mike's version and that instead of this just being a property of your entire brain's overall harmony in terms of its overall symmetry I think this specifically applies to your body maps the prediction being made over your body and your body's integrity so you are basically constantly predicting your body and active inference and particular processing you're predicting things in the way they ought to be and then once you're making observations you then take different actions to make
+
+[49:41] your predictions meet this expectation and you're trying to minimize your overall prediction error but so the thing that you're predicting the idea would be is you are predicting your body being whole and healthy and not just more than that but actually doing the things that we need to do to be whole and healthy so that might be something like transient discomfort things like exercise you might be predicting yourself doing that but you're predicting yourself doing what you need to do
+
+[50:11] to be okay but one of the things you're predicting in general is even though you might predict some strain on your body in general you're predicting your body and that and this is something to maintain and when you would detect that there is something is off in this predicted geometry that's a challenging situation that's something
+
+[50:41] you have to do something about and the idea would be that this would be basically pain is your prediction of your whole healthy body being violated and you're getting a lot of prediction error and dissonance among your predictions and that is specifically though within the prediction of what your body is doing so bring it to a close I've been working
+
+[51:12] on the models I've been working on where exactly is the most central body maps and the ones that correspond to basically the physical and computational basis of your subjective experience and I think the payoff of answering this question of the precise biophysical bases of experiences you would know how to intervene I think it would basically be pseudocode for AGI and I think it would also
+
+[51:42] be basically Rosetta Stone for psychiatry and neurology for intervention and so the details matter there might be some bioelectric fields depending on how we think of things so you know I've been wondering whether basically the body maps might be not just they're central but they're centralized and some of them were actually within like certain areas like the inferior lateral parietal cortex you might have like actually like very concentrated geometric representations
+
+[52:12] of the body and the reason this might matter for bioelectricity is if you have like a concentrated network then basically a bioelectric field could potentially enslave it but if you're dealing with a more distributed network it's less likely that bioelectricity could play a powerful role so is bioelectricity important I think that's going to depend on like exactly what networks we think are doing what okay so okay finally in this process of so thinking the brain
+
+[52:43] in terms of harmonies or harmonics and harmonics are forming via principles of resonance and among these like resonant so in terms of ways brains and minds can resonate themselves into order I'm wondering whether basically John states and following their progression going to cessation events at the limit might be like one of the best sources of data we can have for understanding the fundamental natures of pleasure pain desire and selfhood in terms of this
+
+[53:14] not only are you basically getting very intense pleasure you know initially you know it's called like the enigma or like experience usually in the body the kind of spreading outwards but you know as you go and you focus on this pleasure you get this pairing back of consciousness to it's like it's innermost like kernel or like all the things you would normally be experiencing modeling they just keep falling away until eventually you just get this luminosity this space
+
+[53:44] and then nothing basically the phenomenology of no phenomenology or coma with a cessation event and so following this progression precisely characterizing it I think would be one of the most valuable data we could have for understanding this phenomena but also as a source of knowing how to intervene potentially not just to help give people greater access to these pleasurable transformative states but potentially something like non-pharmacological pain relief by trying to track down the most central sub-networks that correspond to body modeling
+
+[54:14] and where the music of the body is being played out and experienced and then knowing how to tune those potentially tune those to basically a near-critical regime or the edge of chaos where basically order and disorder are balanced in a way that allow for both variation and an adaptation but the accumulation of form or the one regime in which evolution is the only thing that lets you basically temporarily defy the second law while serving
+
+[54:45] in everything you do and so the idea is that your body maps might be tuned towards this critical regime and that some of the goodness or badness of like what corresponds to a pleasure pain transition would be how close you are to this edge of chaos and then when you get too close too far into it and you go too close to supercritical then you start to get turbulent dynamics and more chaotic forms and then your and something like that might be the pleasure pain transition I think you might also
+
+[55:15] be able to get some purchase on this looking at orgasm we're not going to talk about that now and that's it so thank you very much for your time and attention thanks that was great I think now I have a good picture
+
+[55:45] of what harmonics look like and why they're there two questions I had one that looked pretty simple one is for the frequency that you would see you know going to you know from theta up to beta and so forth do you see a corresponding correlated reduction in the wavelength oh sorry in the width from nodes to anti-nodes in the harmonic spatial pattern don't know okay good question alright and then the second one
+
+[56:17] is oh wait are you saying like a general relationship between the size of the harmonic and the speed well the speed of the frequency is what you're measuring going up and down outside electrically but then the harmonic is like spatially you have like node anti-node node anti-node node anti-node do you pack more in at the higher frequencies so in general there's basically an inverse relationship between the size of the network being synchronized and the speed at which it can become synchronized okay
+
+[56:47] so if you want basically like fast agreement over like going like fast agreement over something like you know given like cortical column that maybe can clip along to something like you know gamma frequencies of like 40 even like 100 even like 120 hertz but you know if you wanted to get like you know agreement over let's say like your entire multimodal like sensory hierarchies and get them all like get like synchrony at a bigger scale you might be working with some like alpha frequencies like 8 to 12 times a second and then you know
+
+[57:18] slower still if you're talking about action driven perception like theta and then like the interoception is like you know slower than up to like 3 hertz and lower or 0.5 hertz like that's like the change of the inner body but basically rhythms with a inverse relation in terms of the scope of them basically giving you the models I work with this hierarchy of rhythms
+
+[57:49] reflects the hierarchical structure of the world we're having like slower things containing slower bigger things containing faster smaller things containing faster smaller things still just like you know fingers hands within those the digits dynamics evolving at different speeds okay great thank you then the other I think small question also is I was just a little bit surprised from what I kind of would have had
+
+[58:20] an intuition about pain that I thought pain would have also been a structured coherent state that just produced you know the opposite to a pleasure sensation but you were saying pain is actually the perception of like moving towards chaos so I guess like it would be coherent
+
+[58:50] you know the amount of energy in what is being synchronized and thereby experienced would be the intensity of the pain would be a function of that but it would be like so let's say you know you're having high intensity really like the principle I think would be the one of your violin is in tune and you hit the note true and you can get the first note
+
+[59:22] of charcone it's like this virtuosity and like it cries out and resonates but you can attempt that first note but you didn't tune your instrument and then you're getting basically this beating or the energies amplifying chaotic patterns and yeah so then that would be the intensity of the pain but basically most of the principles are exactly those of the principles
+
+[59:52] of musical consonants and dissonance and so intensity of experience you know how much can you play the note and then there's the richness of it and what kind of richness it can be the richness of a lot of coherent form and internal structure like a very intricate fugue or whatever or the intensity can be high energy plus the dissonance being amplified how
+
+[1:00:26] how do you think about the role of learning in pain and also the role of agency in pain so like a lot of chronic pain conditions as you would think of them as like pathological hyperlearning where you develop like a really strong prior for your body
+
+[1:00:56] being in this damaged state and you and sometimes like earlier this image like for the Bayesian brain and the perception as inference of like visual illusions but you can basically like have a somatic illusion of like you know you think there's pain where there's damage where there's none and so like yeah so learning you know and then you know what would allow you to update your priors and learn different things so it's like the work you're doing with like
+
+[1:01:26] Sarno so it's like you know working with those expectations and basically learning to update your model to not nocebo yourself into oblivion I'm curious also in the context of this the musical analogy where some of the beats and the chaos are relate to the phenomenology of the pain if you think like how does that map to to priors and learning to like do we learn to make beats of the pain
+
+[1:01:58] or what yeah what what's there I mean I guess you would learn to play the instrument in the way where the result would be these highly discordant and non-constructively interfering forms where you're getting these beats when they're they're so it's like you're an orchestra and some of your violin players are like really and the violin players
+
+[1:02:30] are like the sub-agents in your body and they're out of harmony and then the pain is kind of this like discordant orchestra type thing yeah and you talk about agency so like you know is agency like you know mobilizing a conductor or is it like to you know zoom in on someone and help them to like learn a new pattern or to what degree like with agency you know the earlier study of like this common neurobiology of pleasure and pain you know
+
+[1:03:02] like the when you are engaging in action where your action is efficacious that you know we know that has an analgesic effect usually and you know you might talk in terms of reward related analgesia where the idea is like the successful action is like potentially you know I think this is too reductive but like you know maybe increased endogenous opioid signaling but also just I think maybe
+
+[1:03:32] more importantly probably the way you're conceptualizing it like if what's happening is within you having some control and that's just in general like the situation you need to get through the world you know it's good to be in like a state of like flow as much as possible but like you also see we need to manage things and so having a grip on things is a general sign of a good situation and then instead of you going to like the nocebo prior where you're like catastrophizing
+
+[1:04:02] what's happening instead it's enfolded into like a different gestalt that's probably more important than like the reductive opiate thing but I don't know cool I'll keep playing with the metaphor thank you thank you at the end you were talking about tuning into the edge of chaos I was wondering if you could elaborate more on the like critical and super critical states so
+
+[1:04:34] I guess the subcritical state so so okay so critical point or it's the place in between regimes where you you're and we can transition between regimes but and in and each regime has its own ordering principle and then but as you move between them this is a temporary period of
+
+[1:05:04] a lack of order as you're moving from one phase to another and this seems to be where most complex adaptive systems need to be to be complex and adaptive in that this is when you're close when you're near critical you don't necessarily want to be I guess exactly on the critical point that could be like too risky instead of being at the edge of chaos you fall into chaos but you know you want to approach
+
+[1:05:34] it because you want that variability to allow for adaptation and if you're too far away from and too much within like an ordered regime you're not getting that variability and so you can't adapt but stability and so
+
+[1:06:05] that's not where you want to be either so it's hand-wavy but like roughly the idea is like subcritical states more ordered the near critical state balanced order and disorder the super critical state is disordered and chaotic and that being close to there and sensing when we're close to there that might be
+
+[1:06:35] part of what regulates the pleasure-pain transition okay so when you're at like closer to a critical point there's more flexibility in terms of switching between pain and pleasure and more like management in that respect yeah so this would be close to where the pleasure-pain transition might be and people observe that the most intense pleasures you know can be almost painful I guess people that John says sometimes like report them as like it's too much
+
+[1:07:05] or like orgasm sometimes called the beautiful agony or like but similarly though you know pain experiences not just from being removed but they can sometimes give way into a deep pleasure if they're like and so like yeah I don't but the intuition is that proximity to where you ought to be in terms of critical organization and having balanced order and disorder
+
+[1:07:35] and this corresponding to you know constants or degrees of constants or dissonance and harmony or disharmony that something like that might be the principle of where we see the most intense pleasures and pains and their interrelation are you
+
+[1:08:06] are you gonna is there like a second half can I just ask I'm done oh cool okay so there's something that I'm kind of confused about with how waves relate to priors and I wonder if you can say something about that so in predictive coding models usually your bayesian priors
+
+[1:08:37] and the faster frequencies specifically usually a gamma low gamma to high gamma is basically encoding your ascending prediction errors and so the and different slow frequencies might be encoding different prior information so you know in the mention with Robert's question so it's like you know if you're if you're like let's say dealing
+
+[1:09:07] with like the if you're trying to call like the fine-grained information of what's in a given modality in terms of like what is particular that you are seeing you know or you know feeling or smelling something like beta low beta and high beta smaller faster ones you know the particular details and then these are within slower
+
+[1:09:37] and bigger ones you know bringing them together into like you know something more meaningful and then even slower than still like alpha giving you something like cross modal synthesis like like a multimodal and so on but the like so the predictions in general the slower rhythms are allowing you to get you know agreement over a broader set as
+
+[1:10:08] a prior and that they're able to predict experience and inform things better because they have more information and so the slower rhythms are basically suppressing the faster rhythms of gamma and so you know if you have like really good point predictions being encoded you know at your alpha and beta frequencies you know these then can basically take the gamma and put the breaks on them so like explain them away before they have a chance to come in
+
+[1:10:38] and update you and so and the goal being basically to minimize overall activity and have efficient prediction because minimizing activity is good because it's more efficient and also it means you're modeling the world well so if I were to try to tell that story in the case of chronic lower back pain would you would you say that there's
+
+[1:11:11] like some sensation in my lower back and there I have a strong prior that there's some kind of damage and that's happening at like the faster brain waves and or how actually so like so something like lower back pain so let's say like it's being encoded in the form of just like like like reflexes like and maybe even like pre-conscious ones like kind of like Mike was saying like like some of the latches like you just they're
+
+[1:11:42] predictions you forgot where they came closer to like like fast feedback loops of the body at beta that might be like that part but let's say the part about pain like in like the Sarno book in terms of like the ways
+
+[1:12:12] in which like you know if it is related to some kind of like unexpressed anger or theta rhythms in terms of like you know a stream of consciousness so like yeah so different aspects of chronic pain I'd
+
+[1:12:42] expect to be based on their degree of complexity at different levels of the rhythmic hierarchy and what's what's really interesting too is that the priors you would also say are encoded in the tissue or in the latches too so it's like there it's not there some way in sense is it's kind of prior yeah and the top down and bottom up priors don't map to the slow
+
+[1:13:13] and fast brain waves it's like two orthogonal axes right I'd say that's right the story with the chronic pain that I often tell is that you have a stronger
+
+[1:13:43] top down prior that there is pain but the reason that therapy like pain repressing therapy works where you just bring your awareness there in a safe context and the pain goes away is that the top down priors being overridden by bringing more like reweighting the precision to the bottom up prior which is that there's actually no no real damage there active
+
+[1:14:20] research question yeah like for instance like the maybe maybe there is like a rhythmicity to that one in terms of like something like essential
+
+[1:14:50] tremor like maybe like 13 hertz but maybe not like or let's say it's like you know like like the gain on your inflammatory response like what's the timescale which that plays out that's like slower still but it's lower in the hierarchy but yeah that doesn't work with like a hierarchy of predictions complex and abstract I'll
+
+[1:15:23] think about it I'll talk about it I have more I have another question but we can also wrap up last question can I ask one more question do you do you think that the brain is a generative organ like if it relates to music
+
+[1:15:53] do you think that the brain is style so I guess like generative in terms of the idea of a generative model in terms of like you know like this image here of like this faces with intuition I have with relationships between brain and mind and conscious experience
+
+[1:16:23] is like it's kind of deep fake basically but instead of like filling in a pixel array you're filling in that's a particular texture of experience in this particular mobile character but the idea of like receiving I mean there's there's it has to receive in terms of perception and sensation it's like it's like tuning itself to the world becoming entrained with the
+
+[1:17:06] you know what you think of like Mike Levin's platonic space idea in terms of like to what degree are there kinds of like informational constraints on what melodies play out like what the harmonics are based on just like the laws of geometry and what goes together where it's like you fill in like this note this note this note there's just only so many ways to go where
+
+[1:17:36] you can get like a coherent harmonic from that and so you're being like there's a kind of like causation from this world of like the ideal platonic forms in

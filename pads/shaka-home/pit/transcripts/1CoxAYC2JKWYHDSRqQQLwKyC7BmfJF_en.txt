@@ -1,0 +1,311 @@
+# Edge Esmeralda - Building the Intelligence Layer for Human Aging - the Buck Institute - Nathan Price
+
+Date: 2026-06-02
+Source video: Edge Esmeralda - Building the Intelligence Layer for Human Aging - the Buck Institute - Nathan Price.mp4
+Drive: https://drive.google.com/file/d/1JVLBhq5vpL0gKv4qNdNAZSJni14dITFf/view
+Duration: 00:49:20
+Transcribed: 2026-06-09 · whisper large-v3-turbo · language: en
+
+---
+
+[00:02] Thanks everyone for coming. I'm really, really excited about this talk. So for this first talk, and first off, hi, welcome back, Justin, running the Vital Futures kind of Health Week here. For this talk, we're going to have Dr. Nathan Price giving a talk on using AI and the future of HealthSpan.
+
+[00:20] So I will let you kind of self-introduce and talk a little bit about what the Buck Institute is about. But my two cents, like I think that the Buck Institute is one of the most interesting organizations doing research and really driving resources towards the science and study of longevity.
+
+[00:38] And so I'm really, really excited to hear kind of what you're working on and how you and the Buck Institute are thinking about HealthSpan and applying AI. So we're also going to be streaming this online. So I think your followers and some others are going to be tuning in online, which will be great.
+
+[00:55] So without further ado, Nathan. Thank you. All right. It's a pleasure to be with everyone. Can everyone hear me in the back? Is this okay or do we need to? There we go. That's better. Much better. So a pleasure to be here with everyone. As was mentioned, I have a role as a professor and director for the Center for Human HealthSpan at the Buck Institute for Research on Aging.
+
+[01:25] So it's about 45 minutes south of here. If you for those of you who are local, if you're driving down there, you'll see a big white building up on the top of a hill. We just had two baby deer born yesterday. That was big news at the Institute.
+
+[01:37] A lot of animals and such running around. Very interesting place, though. It's been around for 20 years and it came about in sort of an odd way. There was a couple who had left some money in Marin County to the agent of Marin County, like about $10 million or something.
+
+[01:55] And then oil was discovered on the land and that turned into something like $350 million. And so then they felt like they didn't want to just leave that randomly to the richest county in the United States. And so they ended up deciding that they wanted to put that into studying aging for the future of humanity.
+
+[02:11] So that's about the Buck Institute. And then me in particular, I'm also the chief science officer at Thorne. I won't talk about that too much today company that does that works with about 7 million customers and 50,000 physicians. And then I've been very involved in like starting companies and things of that nature.
+
+[02:28] So very much involved in entrepreneurship and some in C suite of larger companies and and a professor at the Buck. OK. So why we're all here, right, is our interest in this moment in history that we're at with the birth of AI. And for me in particular, what I'm mostly interested in and what I'll argue and did in the Wall Street Journal not so long ago, is that the abundance of health would be the greatest application of AI.
+
+[02:55] There's many things that we want to create in terms of abundance. But one of the things that animates a lot of us is to think about what is it that we could do to really be transformative to thinking about how we can leverage the tools of AI.
+
+[03:10] I gave a TED talk in San Francisco at the AI meeting a few months ago. And basically, I will argue today that the best and the biggest opportunities for AI in health are not disease, as great as that those advances will be, but are actually in wellness.
+
+[03:27] The extension of our health for as long as possible and trying to understand what are the processes that drive health in ways that we can preserve it and promote it. This is not just me thinking about this these days. There's a lot of us, obviously. This report, I think, was really an important one though.
+
+[03:47] So if you know this consulting firm Deloitte, a lot of big companies pay attention to what they forecast. And in 2022 they forecasted something that I call the $2 trillion pivot, which is if you look up here currently of the $4 trillion that we spend in the United States on health care, the vast majority of it we spend on late stage disease.
+
+[04:09] This is spent largely in ways that most of us would not like. If you read Atul Gawande's beautiful book called Being Mortal, it goes through that 90% of us will say that we don't want to end our lives institutionalized and kept alive at the very end. It's like kind of gruesome end states and 90% of us will do that. And so when you look at that, there is a mismatch between what we want and what we're actually getting delivered.
+
+[04:38] Now, very favorably from my point of view, they're forecasting an incredible shift in the way that health care dollars will be spent by 2040, in which case that they're predicting about a $2 trillion shift up towards the promotion and restoration of health. So this is something that I think we're already starting to see. A few of us were talking before, you know, I am involved in a number of wellness companies, the biggest one being Thorne, but one of the things that we see are incredible tailwinds in that space and just the rise of interest and spending there is big.
+
+[05:18] And another big area of this I think for us to think about are things like GLP ones, for example, you can think of GLP ones as you know, it's a drug, but it is a much earlier right aiming at obesity rather than late stage disease might be the harbinger of a bunch of new kind of therapeutics that will be coming along that can be applied to a lot of people. And you've probably seen the statistic that if everyone, you know, above the threshold in obesity took GLP ones, at least at the price that they were offered at, that would be larger than the rest of the drug industry combined over history.
+
+[05:52] So it's not small. I also wrote this piece for Scientific American that goes through about 50 or so different startups that have emerged in what I'll call the scientific wellness industry. You'll hear about one of the great companies next up on super power that's doing a lot of work in this space and measurements and making that accessible to people.
+
+[06:12] And there's many, many more of these. So I really came into this space in a big way about 13 years ago, starting with something that Lee Hood and I called scientific wellness. I don't know if people know know Lee. He was a mentor of mine and then became a good partner for for many years.
+
+[06:30] We're together for about 20 years and we started a project together in 2013 called the pioneer 100. And the idea here was to try to gather a lot of really dense data from early on while people were still healthy instead of waiting to do disease cohorts.
+
+[06:48] We wrote a bestselling book about this for Harvard press called the age of scientific wellness that kind of chronicles the 10 or so years that we followed people and made thousands to tens of thousands of measurements. out of the body. I'll tell you about some of the things we learned from that. And the idea here is really about how medicine is framed.
+
+[07:09] So just like we talked about in the with the Deloitte report, modern medicine is very focused on late stage care. And one of the byproducts of that is that when modern medicine or you know when science was really brought into medicine was in the 1900s.
+
+[07:27] And this came about via a gentleman named Abraham Flexner had a report kind of drove the ability to do kind of led to all the science that we did and this had an incredible and dramatic positive effect, especially on infectious disease. So if you think about the early 1900s kind of a morbid statistic, but every third coffin was filled with the body of a child who had died from an infectious disease.
+
+[07:53] So that was the norm. We actually got ourselves out of that incredible advance. But if you fast forward to today and you think about what we're plagued by in terms of chronic diseases, diabetes, Alzheimer's disease, things of this nature, we've never relegated to the dustbin of history, a chronic disease.
+
+[08:12] And so one of the arguments here is that we have to take a much more personalized approach and approach that focuses more upstream and understands health in a deep way as opposed to waiting till late stage disease. And part of the argument is if we wait for late stage disease, kind of the whack a mole kind of idea, we will never actually solve chronic disease.
+
+[08:32] And so if you're going to understand disease, you've got to understand wellness. I did a panel right before the pandemic with the chairman emeritus of Harvard Medical School. And he put this in a way that I really loved, which was health care is the only industry that does not study its own gold standard, which is wellness.
+
+[08:51] And I thought that was really a great way to put it. And he's been actually super helpful for a lot of things we've done. OK, so going back in time then here a little bit, we started by wanting to just gather a lot of data. And this is turning out to be very fortuitous, especially as we enter the era of AI.
+
+[09:08] So we started something, we called it scientific wellness, mostly because we wanted to focus on wellness, but we wanted to signal that we wanted this to be a real science. It was almost a defensive movement in some ways back then, which we could talk about all kinds of interesting stories around that.
+
+[09:26] But Lee Hood and I led this, ended up being the cover of Nature Biotechnology in 2017. But essentially this was just an effort to gather a lot of data on generally all individuals as they went through their lives. So whole genome sequencing.
+
+[09:40] So that gives you millions of bits of differences of information across individuals. Labs. So we were measuring about 1,200 analytes out of the blood proteins, metabolites, clinical labs that your doctor might do. The gut microbiome. We're doing each of these things at the beginning about three times a year and then later on twice a year.
+
+[09:59] And then continual tracking with wearable devices. And then people were having also interactions with human coaches. We employed about 50 health coaches as we were doing this. And so they were involved in what were people's health goals, how were they tracking on a week-to-week or month-to-month basis.
+
+[10:18] And the idea was if we could create actionable possibilities for people to do something that would make a difference in their health in the moment, they would stay with us. And then over time we'd create personal dense dynamic data clouds or deep phenotyping.
+
+[10:32] So just a lot of information to try to monitor what goes on during the course of a person's life from a molecular basis. And so what I'm going to do now is just walk you through some of the science of what we learn by doing that. And then I'm going to talk about kind of the new AI systems that are being developed in order to deploy a lot of this deep science to a much broader population, much easier than we ever could have imagined before.
+
+[10:58] All right. So I'll start by talking a little bit about some of the things that we can learn from economics. So I'll start with this great paper from Science that came out a couple months ago if people saw it. And it estimates that about half of your lifespan is from heritability encoded in your genome.
+
+[11:17] So that's a big fraction obviously. And one thing I think you should contemplate just for a moment is the degree to which that genome is utilized in your healthcare today. And the answer is basically zero. I mean, it's slightly more than zero, but if you want to round, it's basically zero.
+
+[11:34] It's almost not used other than a little bit in cancer. But we should actually interpret a lot of the signals that we see in our body in the context of the genome. So I'll show one. So let's take a very common marker, LDL cholesterol. LDL cholesterol, one of the most common blood biomarkers that is measured.
+
+[11:53] And we typically just analyze it as a population. What's the mean? How do we deviate away from that? And that's the assessment. However, it turns out that we should really care what your genetics say about LDL cholesterol. For one, you can develop something called a polygenic risk score.
+
+[12:11] This just sums up lots of little differences in your genome in terms of point mutations. You sum that up into a model and you can get an estimate of your relative risk. So if you're low, if you're in the low risk category for coronary artery disease, LDL cholesterol, as you can see here, has zero predictive ability in terms of whether or not you're likely to get coronary artery disease.
+
+[12:39] So what that means is that, and I don't remember the exact fraction here, but let's say it's probably 30% or more, of individuals who are getting their LDL cholesterol measured and their doctor is telling them, oh, you know, let's monitor this for your risk.
+
+[12:54] That measure in and of itself for a lot of people based on their genome has no signal. However, if you have moderate to high genetic risk, what you'll see here is that it is, in fact, a marker. So we use averages, but we can actually separate these out very well once we look at a genomic signal.
+
+[13:15] And this is, of course, just one of very many where you can do this. Yeah. You cannot get this from your doctor today. That is true. You can get, you can, I take that back. You can get your genetic risk for coronary artery disease, see where you're at, and then realize that you are not in that range.
+
+[13:47] What hasn't been done, although I'm going to show you where we're doing this now, is to build a system that actually does all the comparisons for you. We'll get to that. But yes, you could find your genetic risk. I do want to make that clear.
+
+[14:00] You could find your genetic risk from a bunch of different places. Yes, that's true. Okay. So, so for example, you can get your polygenic risk score, which is shown here. And we just bucket this into five groups. And so this just says this is the actual level of LDL cholesterol.
+
+[14:15] It's a normalized measure, but of LDL cholesterol for this population. And then you'll see that it increases linearly with the genetic risk. In this case, the genetic risk for having high LDL cholesterol. Okay. So this just shows predictable.
+
+[14:31] Now what we're, what we did in our, in our work was to say, does it matter to how responsive your LDL cholesterol level is if you have genetic risk for it or not? And so we took thousands of people through a wellness program, and we just observed whose LDL cholesterol actually changed.
+
+[14:51] And what we saw was that for those individuals where their genome predicted they would be low, those people changed over the course of the program very significantly. They could lower their LDL cholesterol relative to where they started. So zeros like where they started here.
+
+[15:06] However, for 40% of the population where it was, where they had high predicted LDL cholesterol in thousands and thousands of people. We saw no statistically significant ability to lower it at all in those populations. So what this was, was this was the first demonstration that genetics could predict the outcome of lifestyle intervention.
+
+[15:30] So you could go in, you could say at the baseline, you're likely to change it. You can't, you will, you can't and so forth to a pretty high degree. And so that, that was really interesting. Yeah. Yes. So this is a really good question. And we don't fully know the answer to this, which is to what extent is it when you, when you see that modification and it's associated with the genetics, like how much that is a, a, a change in the risk, in the risk factor.
+
+[16:19] We already saw that for the, just having the lower risk in general, the fact that it is more movable. These individuals, as we said, LDL is actually not, not a powerful marker, you know, for people whose absolute level was predicted. Want to be a little careful with that, because this is saying that the gap was larger.
+
+[16:36] I'm trying not to get too technical, you know, that the gap was larger. So we have to separate out the baseline from the gap. The big thing that I, I think though, which is behind this question, it's a great question, is some markers. If they have, if they're causally bad, right?
+
+[16:53] If like inherently they do something bad in the body, then those things, even if you're genetically predicted to be high, you would just expect that's a problem. You're going to have to hammer that with a drug to get it down, right? Like you can get these people's cholesterol down.
+
+[17:06] We got to hammer the statin or something like this. Now there are other markers. Hemoglobin A1C is a good example. So there is a correlation between your genetics for hemoglobin A1C and residence time. So if you're, so if you, if you know this marker hemoglobin A1C, it's the most common marker for diabetes or prediabetes.
+
+[17:26] And so what it is, is it's a protein hemoglobin. It circulates in your body and it, and what you're measuring are these little sugar molecules that attach to the outside of the protein. And so in some, and so a red blood cell gets created in your body and it circulates in your body for about 120 days.
+
+[17:47] Now for some people though, it might be more like 130 days. Some people it's more like 110 and genetics is correlated to the, that, that residence time. So in that case, for example, so, so if we had the same eight high hemoglobin A1C and let's say my residence time was 110 and yours was 130.
+
+[18:08] So since I had 130 days to accumulate that sugar, it means a high number would be less worrisome for me. Whereas for you at 110 days, you accumulated it in less time, actually much more worrisome. So you can normalize that by genetics. That's an example of where the measure and the genetics would actually tell you, oh, this isn't a big deal because you just have more time.
+
+[18:32] So you normalize it. And that's separate from like a marker that is related to something that's actually bad for you. So you can start to separate those things out. All right. So just to make this a little bit clearer conceptually then, right, you start with two individuals.
+
+[18:48] They both have a clinically concerning range of a biomarker. We can compare them to their genetics here shown in orange. And so then what you're able to do is you're basically separating the amount of that biomarker score that's genetics from how much is environment and lifestyle.
+
+[19:06] And so that tells you then the gap is the degree to which it's modifiable. That's how much is kind of there for you to alter and change. I'll do the caveat that every measurement has error to it. You know, there's of course, you know, things to go through, but at a first approximation, that's what it's telling you.
+
+[19:26] And so you get the non-genetic component. And so the idea is that this creates a modifiable gap. And by the way, this is something that we're actually getting into place in quite a big way. So our group is now working with the Department of Health in the United Arab Emirates.
+
+[19:45] We are, as far as I can tell, the first and only group in the United States that is working with them on the genome sequencing of their entire population, which they've now done. And so one of the things that they really liked was this gap analysis.
+
+[19:59] We're actually developing this with them for that whole population. And so there's a lot that can be done in this. And we already have significant data for here. So we tested this against a bunch of other different biomarkers. This is unpublished research.
+
+[20:15] It will publish it soon. But we saw that for hemoglobin, hematocrit, hemoglobin A1C, CRP, glucose, HDL, and so forth, that there was this relationship between how movable it was for individuals going through lifestyle and that gap. So the gap is predictable across most of the biomarkers that we've tested so far.
+
+[20:35] There was very, very few. We're only a couple down here at the bottom that we didn't really get. Okay. So that tells you a little bit about genetics. We could go on the whole talk on that. There's like many other interesting stories that I'm not getting to.
+
+[20:49] But I wanted to give you a taste for the notion that we can take a genomic signal, and we should utilize this to personalize the interpretation of essentially all clinical biomarkers, or at least the vast majority of them that have genomic signal associated with it.
+
+[21:04] Okay. So the second big area that I want to dive in and tell you a little bit about is how we can leverage really deep data sets in order to understand new kinds of data that are emerging. So I'll use the example of the microbiome. The microbiome are all these bacteria and microbes that live in your gut or on your skin or in your throat or whatever.
+
+[21:25] And you want to be able to take that, and we want to learn what does this do. And there's different companies where you can get a microbiome test and all kinds of things. But what do we really know about it? Okay, so I'll take you through what we learned.
+
+[21:41] So this first one, which was supported by a catalyst award that I got from the National Academy of Medicine for the healthy and healthy longevity. And basically what this was is this was a little bit of an odd score. This is not a clinically useful score, I would say, but it's sort of interesting, which is we noticed that when we looked in the population that starting around age 50, you see this, you know, this kind of starts creeping up.
+
+[22:07] What this is measuring is that your microbiome starts looking less and less like anyone else's microbiome. So we call this microbiome uniqueness for lack of a better term. And so if you stay healthy in particular, your microbiome will just start to drift away from everybody, everybody else's, which is what's shown here.
+
+[22:27] However, even though those species change, there are core metabolic functions that they undertake that are consistent in people that are that are healthy. One of the other things we then looked at is we got a population of in this case of elderly men.
+
+[22:42] This was because of the nature of the NIH grant that was supporting this one called Mr. Oz. And basically what we were able to show was that in those people who are older than 78, that this uniqueness score was associated with high walking speed, ratings of excellent health, composite health being high and so forth.
+
+[23:07] And that for individuals in the in the unhealthy categories, what we saw is that we did not see any evidence of this drift or this microbiome uniqueness, as we called it. And in fact, we used it in the population to predict who would go on to live for the next four years.
+
+[23:23] And this is the the separation that that you see. And so it was predictive of all cause mortality over in the elderly cohort. And this all published in Nature Metabolism mentioned that before. Yeah, not exactly. We actually wrote a different paper for Nature Aging called I forget something like why we shouldn't just turn back the clock, something like that.
+
+[23:58] I forget the exact name of it. It's not just that a healthy microbiome in an older person does not actually look like a healthy microbiome for a younger person. It's not just an aging. And this is something that's worth thinking about because, you know, I'm going to talk a little bit about biological age later.
+
+[24:19] It's an interesting concept, but it's not always true that you want every system in your body to look like it was when it was younger. I mean, maybe if you could move like your entire body younger, you would. But because you would accumulate certain kinds of damage as you get older, whenever you see changes, there's always at least three things that could be related.
+
+[24:40] Let's say we're talking about a disease here or a problem. One is something is causal or some set of things is causal, more likely. Two, there's a downstream cascade of negative consequences from that causal issue. But three are compensatory mechanisms, things that change in the body that are trying to save you from that underlying problem.
+
+[25:04] And so one of the issues that arises in late stage biological studies is all those things are all mixed together. So you can identify like the largest change that you see in a measurement. You're like, oh, that's the difference. That may be the most important aspect of saving you from the, you know, from like.
+
+[25:26] And in one of the more provocative things that are, you know, that we could get into. I think amyloid and Alzheimer's is probably better understood as a compensatory mechanism than a target. That's a controversial statement. We would have to unpack it a little bit and there's a little bit of nuance there.
+
+[25:41] But in general, I think that we have very often undertake thought that certain things that are big changes are necessarily the causal problem. You know, and one evidence for that is that you can you can take drugs that clear amyloid right out of the brain.
+
+[25:58] And you do not get cognition back anyway. If you want to like talk about that, we'll come talk to me about it afterwards or something. We could get into it, but it will take a little too long. So we get into that. OK. But it is an interesting area of research that's emerged lately. OK.
+
+[26:20] So the gut microbiome then also reflects, though, in what shows up in your blood. In fact, one of the best ways, I think, to monitor for the health of the microbiome is in its reflections in the host, right? What gets into you? So even though the microbiome itself might be very different across people, there are certain aspects that are made from it that are generally good for you or bad for you.
+
+[26:41] And those things are more conserved. So is it making indoles, which are good for your health? Is it making butyrate, which is good in general for your health? Is it making something like TMAO? So TMAO, I'll take just a second to talk about.
+
+[26:54] This is a really interesting. So we were just talking about brain health a little bit before. And I'd argue that, you know, one nutrient that's probably quite important for brain health is something called phosphatidylcholine. You know, choline is very well known for being important for the brain.
+
+[27:12] We had done some partner groups before, some really deep digital twin simulations of brain health as you get older. One of the aspects as people fall into dementia, at least by the models, is phosphatidylcholine becomes rate limiting. You run out of it and you can't make enough energy to keep your neurons alive.
+
+[27:28] There's a whole cycle there. But the point I want to make here is that you could be getting phosphatidylcholine in your diet. Eggs is a really good source of it. You could be taking a supplement for phosphatidylcholine saying, OK, I'm going to like, which I do, you know, trying to say like, OK, this is good for my brain long term.
+
+[27:47] But if you have certain bacteria in your gut, there are certain kinds of bacteria that will eat phosphatidylcholine and they will turn it into trimethylamine. Trimethylamine comes into your blood. Your liver oxidizes it into TMAO, which is a risk factor for cardiovascular disease.
+
+[28:06] So this is a really good example of personalization where for 95% of people or whatever the, you know, I'm not, I don't know the exact population numbers here. You know, taking that pill, probably, you know, probably has some potential benefit for, you know, your liver or your brain.
+
+[28:23] But for some people, right, you're actually poisoning your heart unintended consequences. This again is going to come back to where we're at with the new age of AI, because now you don't have to remember all of these things, right, which are a lot.
+
+[28:37] We can build this all into systems that can modulate that and understand, you know, given a gut, you know, a microbiome profile and knowing what you're, what you're taking or what you're eating. Oh, here's the problem. That's an issue. You're going to want to watch for that.
+
+[28:51] It would be hard to monitor that without it. And this comes from two papers, one in Nature Biotechnology and one in Nature Metabolism. Okay. Another thing we looked at at people at baseline, this is, this we published in 2021, was to say, what was predictive of all this data that we had of who would go on to lose weight?
+
+[29:09] So even as people go through and they do all these health changes and we'd see biomarkers get a lot better, weight was pretty stubborn. Weight's a pretty stubborn marker. And so I was kind of surprised by this. So at baseline, we did a lot of machine learning and we tried to say, of all the 700 metabolites that we measured out of, out of a person, could we find a signal about who would go on to lose weight? And we couldn't.
+
+[29:33] We did not find a signal in the, at least at the scale of data in thousands of people, we could not find this. We couldn't find a significant signal. Same in proteins. By the way, this was after we corrected for BMI. Like if you don't correct for BMI, you'll find a signal because you can, you know, you predict that.
+
+[29:50] But once you've, once you've, you've, you know, you've corrected for obvious factors, we didn't find any extra latent signal here. Kind of interesting. This one trended up, but still not significant, was what they told us they were going to eat.
+
+[30:02] That was not significant in terms of whether they would lose weight. But one thing was, which was the microbiome. And so, and it was particularly the genetic contact of the microbiome. And the number one aspect of that was, let's say you go in, you sit down for dinner, you eat a sweet potato, you and someone next to you.
+
+[30:23] So for one of you, you may eat that sweet potato and you have microbiome. The genes in your microbiome will break down complex carbohydrates a little bit more towards simple sugars. While another person will break them more towards short chain fatty acids.
+
+[30:39] If your microbiome breaks them down to simple sugars, harder to lose weight. If it breaks it down more into short chain fatty acids, it's easier to lose weight. One of those short chain fatty acids is butyrate. One thing that butyrate does is it stimulates GLP one production.
+
+[30:56] I went back to my paper in 21 to see if I had noted this important link to GLP one and I did not unfortunately. But we all kind of are familiar with that now. But this is that was the only signal that was stable of like who of predictive like who would go on to lose weight.
+
+[31:17] By the way, we know the microbiome is causally related to weight regain in mice and things like this. So you can actually swap it out in and and and and and manipulate that. So it was a really interesting signal. Yeah, you can just you can to some degree.
+
+[31:31] You can modify your microbiome, but it's challenging. The analogy that I like and it's quite possible that I'm the only person that likes this analogy, but I'll share it anyway. Which is that I think it comes from an old TV show that I that I like.
+
+[31:52] But if you if you're trying to change the microbiome, it's like trying to hit a target by throwing a live B at it. Like you can do it. It is going to move around. It's going to like dance on you. You don't exactly know where you're going, but if you throw it, it is going to it is going to go to adjust a little bit.
+
+[32:08] So so so you can like, you know, there are strains that are used, you know, acromancy is probably useful. Anything that's like helps to do a butyrate producer. There's a number of microbiome companies that now have, you know, they they're marketing them.
+
+[32:23] It's like GLP one analogs important to note that those are not anywhere near as strong as like the drug. But you can get a modest increase in your ability to like make this stable and so forth. So there's some things you can do in the microbiome.
+
+[32:40] But it's it's difficult to reproduce it entirely. Another thing we looked at is something we call biological BMI. So BMI is a measure of metabolic health, right, just height to weight ratio and so forth. And that is that's an OK measure. But obviously if someone is super must, you know, super muscular, they should come up with a high BMI.
+
+[33:07] They're not actually that metabolically unhealthy. And certain people just have differences in kind of the metabolic health that underlies what you would say about a BMI. So we developed this biological BMI score published it in Nature Medicine.
+
+[33:20] And it gives you a little bit better prediction. I'll come back to that in the AI system because it is a deeper way to get at estimates of metabolic health based on lots and lots of measures out of the out of the blood. And then the final thing that I'll say about the microbiome is the microbiome also has a big effect on drugs.
+
+[33:38] So it's estimate first estimates out of this is that the microbiome will eat about 13 percent of drugs, not the same 13 percent. I mean, it depends on your microbiome. But it means there's a what's the exact. Anyway, there's about a 13 percent chance when you're taking taking a pill that your microbiome is eating it and you're on something that's different than what you think you're on.
+
+[34:02] So that was an interesting paper. What we did is we just looked at one drug in particular was just the most common drug in our cohort. So it's the one we had the most statistical power on. So for people on statins and we took the microbiome.
+
+[34:15] We just did unsupervised clustering into four groups. Very basic. So not a lot of machine learning or anything here. But what we noticed was really striking, which was that for one of these groups, we saw what would appear to be a double in the lowering of LDL cholesterol observed if you had this kind of microbiome versus the others.
+
+[34:36] So statins have a very weak but detectable influence on the microbiome. The microbiome seems to have potentially a big impact on on a statin. And this was actually just replicated in China apparently. So the other aspect of a statin though is you get a nearly 10 percent rise in the rate of diabetes among statin users.
+
+[35:03] And so there's some sort of interaction there. And so because this is a cohort where we have tons of measurements of different kinds, we just looked at these same four groups to see if we saw a difference in the, you know, in the change in the diabetes markers.
+
+[35:23] And what we saw is that in two of the microbiome groups, in fact, we saw a very statistical change in the diabetes markers and in the other two we didn't. So suggestive that the microbiome plays a role both in the efficacy of statins and the side effect profile.
+
+[35:39] And this is a space that is very understudied. And it's a space that former companies in general not super interested in. Yeah. Oh, yeah. That's an interesting idea. It could be could be mediated through some sort of behavior, behavior difference.
+
+[36:09] Yeah, I I don't. We have the observation at the moment. So I hadn't thought about that one exactly. But I think it's it's an interesting point. Yeah, maybe maybe. There's definitely going to be a lot of behavior changes tied up in this because behavior modifies your microbiome.
+
+[36:26] You know, so for sure. And and and and I don't think of these actually to your point. We shouldn't think of being in a microbiome group. This is not a. You can definitely switch between these. We have done studies on microbiome shifting over time.
+
+[36:48] I don't have any slides on this, but we did a paper for the PNAS, the Proceedings of the National Academy of Sciences, on like microbiome movements in a high dimensional landscape. So there's kind of certain directions that they can and can't go, but presumably you could map or chart your way from, you know, one of these to another.
+
+[37:06] You know, you kind of probably have to push on it and repeat test and kind of figure out. We have not done a like a an RCT or something on that yet. I think Sean Gibbons at ISP is actually working on that right now, though. So I think he's getting that in place.
+
+[37:21] OK, let's see. We're running low on time here. I think I will jump to the AI to the AI section. So I was just going to say one thing about biological age. People are probably pretty familiar with this. This is like the use of different measures to try to estimate, you know, how old someone is kind of an interesting way to look at data.
+
+[37:46] You can use a particular algorithm that makes it likely for this to take up at a one year per year. We had done an analysis on this and found, you know, for these particular scores, for every single case that we looked at, for every condition for which we got a statistically significant signal, we found that higher biological age was associated with more disease.
+
+[38:09] We didn't see any example of the opposite. And as we took people through this program over a period of up to four years, we saw that as they were going through the health program, what changed to this estimate of biological age, which we're mostly thinking of as a health score, there was a decrease of 0.6 years per year on average for people in the cohort.
+
+[38:31] Women did particularly well at one and a half years per year of benefit. You'd expect this to go up one year per year and women went down 0.5 men. Again, you would expect to go up by one. They went up by 0.2. So we saw some benefit there. OK, but what I want to close with is to really get into what we're building now on the AI side built on this and a lot of other science, including new emerging science.
+
+[38:55] So we're all aware that there's an incredible avalanche of data that's coming together now. 500 billion data points are gathered of health data points are gathered every single day. So there's a lot. And that includes, you know, probably I don't know where we're here at edge.
+
+[39:13] So, you know, 100 million of them are probably room today. So, you know, we're probably doing our part here. So we've launched a new effort at the Buck Institute that I'm co-leading along with Sherry Zhang, my partner in crime here on this project.
+
+[39:28] He's sitting in the middle back there. And this is a project aimed at gathering a lot of this same kind of really deep data that I just showed to help make health span measurable, predictable, and reliably modifiable. And so what we're doing is is inviting people to come in, utilize these AI systems that we're developing, that we'll be deploying publicly in the fall.
+
+[39:53] It will be available for you to demo while you're here if you'd like over the next few days. Peyton, who's here in the front row along with Sherry, will show that and I'll let them get up and introduce themselves at the end here. We are building two AI systems to support this, one called HealthSpan Compass, and I'll show just a video of that in the interest of time here in a moment, which is a personalized HealthSpan guidance system.
+
+[40:20] And so what you're going to see in that and what you experience if you want to sign up with Sherry or Peyton, is you can go through and kind of see how this works and how it pulls information together. And then the other AI that we're building, which we call Synthesizer, is basically a swarm of systems biologists, you know, AI scientists that analyze the data that comes out of this kind of an effort.
+
+[40:47] And so the reason we want people to come in and, like, utilize the system, so, you know, so if you've got your blood measures, you've got some of your genomics, you've got, you know, whatever it is that you're doing kind of in the, you know, consumer health space.
+
+[41:01] What we also will be asking is to get an extra vial of blood from people who come into this program. And then that will go into a biobank where we can then do deeper analyses, proteomics, epigenetics, metabolism, and so forth, and just build what we hope will grow to be one of the great data sets in the world for understanding HealthSpan.
+
+[41:20] And then the program allows individuals that participate in it to, you know, get regular updates, be able to see what's happening in their own data, and kind of learn along as we do this as a big community project. And we may even also make the code open source. We've got to figure out a few things around that, but make code open source. And there's all kinds of things we have to do.
+
+[41:40] I don't want to get too ahead of myself because we're working this out with, you know, the IRB and so forth about what exactly we can do. But this will be a flagship program to try to understand what we can learn from a lot of these data pulled together.
+
+[41:55] So synthesizer will do deep analysis at the population level on de-identified data. Compass will be an end of one deep dive for the individual into their own data. Okay. And then I'm just going to show this video to end, and I'll just let it go.
+
+[42:14] So again, we'll do this if you want a live demo of this and test this out. I'll give you the information to sign up here in just a moment. But what this does is it's not just a chat bot. It has all kinds of agents and analysis behind it. So if you ask, like, where does my health stand today? We'll pop up all your clinical labs, map them against the appropriate reference ranges.
+
+[42:37] Now it's asking for peer comparisons. How do I compare against people like me? It will go into the database. It will then populate, create background distributions. This is a 53-year-old man. So it takes people that are centered on that age, 10 years older, 10 years younger. And you can see, like, okay, how do I compare on any of these?
+
+[42:56] This next one is the genetics piece. And this is the one that I talked about the gap. So this will show what's the gap between my measurements and the genetic prediction of those measurements. What's likely to be movable and what's not. This is something that actually doesn't exist in the world.
+
+[43:11] So this is based on science we did and just got sent out. Biological age measure. There's a lot of variability in biological age measurements. It's going fast. But it will, you can see the variability kind of where you come up on different scores.
+
+[43:28] Biological BMI, right, if you want to see. So in his case, you know, he's a little bit less metabolically unhealthy than even his slight obesity would suggest. You can look at measurements over time, which is what's shown here. You can also look at environmental data. So this is connected into national databases.
+
+[43:49] It will give you your air pollution and things like this based on where you live. We'll also be rolling out later, we're just exploring this right now, but different blood tests for environmental contaminants and things like this. So there'll be a whole bunch of pieces like that that will come out of this.
+
+[44:04] And then at the end of the day, you can have the AI system then just take into account all of the pieces that we just went through. And in this case, create an action plan. And you can see the person going through this right now, which is probably Peyton, who asked the questions as we got it videoed here.
+
+[44:22] And then here, pause it just for a moment, what you'll see this 53-year audit. Then what we're working into the system is the ability to forecast. OK, when do we think there might be some, you know, significant issues says, you know, where are they at?
+
+[44:37] What are the issues that we think might arise? It then recaps for them. So maybe I'll walk you through just a little bit of this. So it will, you know, we'll recap. All right, here's the healthy range. You know, this is where the scale says he's at.
+
+[44:59] But the blood suggests he's even a little bit more metabolically unhealthy. It walks him through, like, why it matters. And what you'll see is that it says, OK, type 2 diabetes. And it immediately tells him why. Heart disease and stroke. Systolic blood pressure persistently above 130.
+
+[45:15] Low HDL and elevated triglycerides, right? So, you know, contextualizes it for him, which, of course, these systems allow us to do. Here's a very unique component, right, where he gets the biggest return based on his genetics, right, where we expect this would be most meaningful.
+
+[45:31] And then he'll get particular recommendations. So here, you know, this replaced refined carbs with legumes, intact grains, and vegetables. Probably good generic advice. But also tells him let his insulin drop from 27.8 to 14.9, a major win.
+
+[45:46] So knows that he's been working. In this case, we had three years of data on him. So he'd been going through the program. But your DNA says it should sit around 9.4. So he actually has a DNA-based target specific to him, goes through remaining gap, and so forth.
+
+[45:59] So the idea is just that these kind of systems then allow us to couple both the powers that have come about because of all the large language models and the things that we're familiar with, but then connecting it with science that can dive in on the data side, right?
+
+[46:13] You can't dump your genome into CHAT-GPT. You can't dump your metabolome into CHAT-GPT. So there's this layer of deep context and analysis. And then you can get the transmission of information in highly personalized ways. So with that, I'll just say a few problems touch every life.
+
+[46:35] Healthspan optimization is one of them. And so very happy to connect with everyone. And then I just want to – there's a QR code here that's specific to Edge if you want to connect and learn more about this. And then Sherry, if you want to stand up in the back, and Peyton, if you too would just want to stand up.
+
+[46:54] And these are going to be around all week to talk and do things. And Sherry, I think you may want to say a couple words about what's available for people. And then we'll be done. Yeah. Incredibly exciting being here. Thank you, Justin, for hosting us for this House Week.
+
+[47:18] Thank you, Catherine. Wonderful team. The Edge is just fabulous. So my name is Sherry Zhang. I'm incredibly honored to work with this brilliant man to bring this vision of reactive aging that everybody is facing, our mothers and fathers. And I mean, I should think about, you know, how do I help them with our science?
+
+[47:43] We – you can help us to change that reality from reactive aging to intelligent aging. We can design our aging processes going forward. And then the key is changing – we're swimming in this house data. How do we drive the decisions for better from today and now, right?
+
+[48:04] So help us to do that. So that will make me incredibly grateful if you scan this code. And then there's a landing page we literally created for this program. And there's a three kind of hot buttons. The first one is to – how to sign up. You know, it's one URL.
+
+[48:23] You'll be able to sign up for campus.horizons.org. Test it out. You are builders, just like myself. Try to break – ask the critical questions, bring the feedback to us. Tomorrow we're hosting an office hour in the boardroom too at the Hub. And Peyton and I have a calendar link so you can use.
+
+[48:48] But just come by. You know, we have tons of time, both Wednesday and Thursday. So thank you for your attention. Sure. If there are any other questions, we can answer that. Otherwise, we'll give people a little break here. All right. I think we can go into break.
+
+[49:12] And then if you have any questions, come up and ask me.

@@ -1,0 +1,159 @@
+# Who Gets the Big Room_ Sharing Value_ Not the Thing _ Matthew Pauly
+
+Date: 2026-06-25
+Source video: Who Gets the Big Room_ Sharing Value_ Not the Thing _ Matthew Pauly.mp4
+Drive: https://drive.google.com/file/d/1vDgB7fknuk9aDfxcDHhoXPcwLPZnE-2Y/view
+Duration: 00:28:05
+Transcribed: 2026-06-26 · whisper large-v3-turbo · language: en
+
+---
+
+[00:03] Okay. Can you hear me? Okay. Welcome, everyone. Welcome. Okay. People in the back. All right. So this talks about who gets the big room, sharing value, not the thing.
+
+[00:38] Let's start with a motivating example. We have three roommates and three very unequal rooms. We can see from the floor plan that there's one very large bedroom with an ensuite bath, a medium sized bedroom, and a very small bedroom. So they're very unequal.
+
+[00:57] How do these roommates decide who gets what room? Well, they can argue about it. They can draw straws. They can let whoever moved in first claim the better room. But none of these options are satisfying. Somebody always feels cheated. By the end of this talk, we'll see how these three can split rent without anybody feeling cheated.
+
+[01:21] I'll see how the mechanism that we're going to use can also price decisions like what restaurant to eat at or what movie to watch, as well as assign chores. First, let's look at how mechanisms can do pricing and allocation. So let's look at a simpler case.
+
+[01:40] Pat is selling her bike and both Nina and Omar want it. Who gets it and at what price? The class of mechanisms that can answer this for us easily are the class of auctions. So we might use an ascending auction here where the price starts low.
+
+[01:59] We'll just set it at $0 to start and rises by a fixed increment each round. And we'll set that to $10. That's another parameter. And the two of them trade bids until one of them drops out. So both of them decide what they want the bike for.
+
+[02:14] What is the maximum that they pay to have it? And they trade bids. So in the first round, they both want to bid for it at $0. Nina gets it arbitrarily. That's random. And then they trade bids back and forth each time they're bidding for $10 more than the current price.
+
+[02:33] And they keep going back and forth until the price gets to $100, at which point Omar drops out. Because he would be bidding for the bike at $110, which is more than he would want to pay for it. So Nina wins the bike, but the price is based on Omar's value.
+
+[02:52] So this is a second price mechanism. It means Nina isn't penalized for valuing the bike more highly. She only has to pay what the next highest bidder would have paid. We can contrast this to a first price mechanism where Nina and Omar put their bids into a sealed envelope and they hand those to Pat and Pat picks the higher one.
+
+[03:15] In this case, Nina now really wants to guess what Omar's bid is going to be because she doesn't want to have to pay her full value. Ideally, she would put in $101, which would just be enough to beat Omar. But this guessing adds risk and inefficiency to the mechanism because if she guesses too low, then she loses the bike at a price that she would have wanted to pay for it.
+
+[03:39] If she guesses too high, then she overpays. So second price mechanisms remove this guessing. And that means that we can more reliably ensure that the bike goes to whoever values it more. Now we can go back to room splitting. So we'll look at a simpler case still where we have two roommates and their friends.
+
+[04:02] They want to do something that's fair. That's not going to leave one person feeling, you know, more well off than the other one. So we'll start with an equal rent split. If the rent was $2,000 each, then that would be $1,000 or $2,000 total, then it would be $1,000 each.
+
+[04:20] And we'll do an auction for the bigger room, an ascending auction. And we'll have one extra step at the end of the auction where we take whatever the proceeds are, payment for the bigger room is, and we'll redistribute it to the community, which in this case is the two people, Alex and Ben.
+
+[04:40] And this extra redistribution, this equalization, makes this a cooperative auction. So knowing they get half of what they would pay back, they bid twice what they would pay the other person to have the room. And we'll see why this is. So let's say Alex values it at $80 more in rent, and Ben values it at $50.
+
+[05:05] So a second price mechanism, if we do the ascending auction, Ben drops out at $50. So Alex wins it at $50. And Alex pays himself $25 and pays Ben $25. So the net position at the end is that Alex is down $25. Minus means this is now an obligation that Alex has for having the larger room.
+
+[05:30] And Ben, you know, gains this $25 credit. And we can say that these bids are, you know, for the monthly rent. And so the way to interpret this is that Alex's net position is $50 less than Ben's because of this redistribution. And that's why the bids are in terms of an equal redistribution to everyone.
+
+[05:52] So in a cooperative auction, your bid is really the wealth gap that you're willing to accept relative to not winning. The alternative here is getting the small room but getting compensated. And so it's this difference between the minus 25 and the plus 25 that you're bidding for.
+
+[06:10] It's not the equal rent split that is the baseline. And this holds no matter how many people there are. So we take the same auction scenario and we add another person. Maybe there's another small bedroom that was worth the same as the other small bedroom.
+
+[06:25] And so there's three people that all have an equal right to the larger bedroom. And Alex still wins out of 50. Then this three-way split means that Alex still ends up with a net position that is $50 less than the people who don't win. Now we can scale this to three rooms.
+
+[06:46] And this is another reason we're using ascending auctions is that they allow people to shift around what they're bidding for during the auction. And this is a really important property. And what you bid on during the auction starts to really matter.
+
+[07:03] So we can introduce the concept of surplus, which is the difference between someone's value for a room and the current price for it. So if you think a room is worth $100 more in rent and the current price is only $20, then that's $80 of surplus.
+
+[07:19] So in other words, surplus being high is something being a good deal. And we'll assume in our modeling here that the bidders are trying to maximize their surplus. That doesn't have to be the case, but it's one way to model bidders. And it's sort of the canonical, rational way of framing things.
+
+[07:43] In the bottom left, we have the bidders' preferences. So the large room, people want it for $150, $110, $60, the medium for $100, $80, and $30. And we can run this auction and see what happens using this modeling. So everybody wants the large room the most, of course.
+
+[08:01] So they all start out bidding for the large room. And this goes on for a while until in round four, the large room has risen to $30. A new bid there would be for $40. And Cam thinks that that only gives him $20 of surplus because the max he'd pay for it is $60.
+
+[08:20] Whereas the medium room is still available for free, which to Cam is $30 of surplus. So Cam switches to bidding for the medium room. In the next round, Ben does the same thing, also switching to the medium room. And the auction proceeds like this, with people chasing whatever has the highest surplus throughout the auction.
+
+[08:44] To explain the diagrams, in the middle, the stair-shaped chart is showing the price progression of the different rooms. The blue being the large room, the orange being the medium room. And on the very bottom, we have a diagram that shows the activity of the bidders and what they're bidding on.
+
+[09:02] And you can see how they sort of jump around between different things. Yes. So the price keeps going up as long as there's bidding activity. And there's bidding activity when there's competition for one of the rooms. So as long as there's somebody that is bidding for the large room or the medium room,
+
+[09:35] or if everybody wanted the small room, they were all bidding for that, then the auction continues. But it stops when everybody, when bidding stops, when people have dropped out, when both Ben and Cam have settled for the medium and the small room, respectively.
+
+[09:51] So the stopping condition for the auction is when nobody is bidding for something because there's something that they still want out of the auction. So our final result for this auction is that Alex gets the big room for $60. Ben gets the medium room for $30.
+
+[10:13] And the total proceeds are 60 plus 30, which is 90. And divided equally, that's 30 per person. And so the net position ends up being that Alex is down 30, Ben stays the same, and then Cam receives a $30 credit. And so our earlier interpretation that your bid value is the wealth gap that you're willing to accept remains true in this scenario as well.
+
+[10:39] So Alex ends up with $60 less than Cam. Ben ends up with $30 less than Cam. And Cam's, you know, small room represents the least desirable baseline. So what we've sort of done here is we've broken this problem down into a kind of commons problem.
+
+[11:00] We're saying that they're eager to figure out who gets what and how much the person that gets the resource has to compensate the rest of the community for having it. And this is a fairly general thing. But it makes a lot of sense in the scenario of rent splitting because it's a case that already has a lot of salience.
+
+[11:22] You have to pay a lot of rent for the place that you live in. And so it makes sense to come up with an efficient system. But we can extend it to a lot of other scenarios. For example, workspaces, you may have a shortage of desks or shortage of offices where people can, you know, have more space, more conference rooms.
+
+[11:49] On shorter timescales, workspaces are allocated like co-working. In the case of co-living, you could have parking or even, or in workspaces, storage units. I don't have to read everything off of these slides. But these are the things that people tend to argue about where there tends to be disagreement within a community about how to manage a scarce resource.
+
+[12:13] Because somebody in the world typically will claim a larger share of it without . And people realize that's unfair. And that creates human conflict. Now one thing that is worth doing is realizing that people's values for things can change. And it's worth bounding possession so that you redo the auction at some point.
+
+[12:44] So if people's values change, like in the case of the rooms, maybe Cam decides that he actually values the larger rooms more than he's being compensated for. And so there needs to be at some point like an opportunity for that change in valuation to be realized.
+
+[13:01] So they might say that this is the room allocation for the next year or the next two years or four years. At which point we're going to do another auction. And the same applies for all these other scarce resources. Okay, so you might be wondering, does this favor the rich, right?
+
+[13:20] We're allowing whoever's paying, willing to pay the most to get the resource. And like I said before, the baseline is that oftentimes somebody has the resource and they don't compensate anybody else. And so compared to that, the compensation is a net gain.
+
+[13:38] But the equality properties are actually stronger here because every settlement pushes balances to equalize. And if people save the distributions that they get for bidding in future auctions, then over time they can always access their equal share of the resource.
+
+[13:57] Unequal use only happens when people choose to take their distributions and spend them somewhere else, which means they preferred that. So nobody is worse off under this system than under ad hoc resource allocation systems. All right, so another interesting use case are decision auctions where we can kind of view the right to have your way, the right to make the decision as a scarce resource.
+
+[14:29] So maybe you have a group of people and you want to decide what restaurant to eat at or what movie to watch, whether or not to host an event on Friday night, when quiet hours should be, and you can auction that decision-making right, in which case the non-winners actually get compensated, which is very different from voting.
+
+[14:51] Voting always ignores the minority's opinion. The majority always gets their way and the minority is completely left out. Whereas in this system, the minority gets compensation that they can save to use in future auctions. So in some ways it's arguably fairer.
+
+[15:14] It's also useful when you have an even number of people that are disagreeing and you want to break ties. Another way we can turn this around is to have the price start high and run the auction backwards so that people are bidding lower and lower values for doing something on behalf of the community.
+
+[15:38] So chores are the classic example. Is doing a service for the whole community or taking out the trash or doing the dishes. And compensation for the chore doers paid by everyone equally. Now everybody drops out. The people that drop out are dropping out at the point where they're like, I'm not willing to get paid any less to do the chore, but I'm willing to pay somebody else to do it.
+
+[16:04] And so this is a system where you can actually have an unequal distribution of chore doing where people do different amounts of the chores. But you're correcting for that inequality through the compensation. So far we're using real money, but that doesn't have to be the case.
+
+[16:28] You can also issue people some internal currency, give everybody equal allowances, and have them use those allowances in the auctions. So going back to workspace allocation, maybe you don't want to use real money. You don't want your employees to pay for access to their desks.
+
+[16:51] You can issue them a monthly currency, call it like 100 credits a month or something, and have regular desk auctions, conference room auctions, office space auctions. And this way you can save up when you don't need to access space to spend more later.
+
+[17:12] Spend at a low level to always be able to access space. That's where you save up to spend big on having valuable space at a rate that isn't sustainable long term. So the big idea is to share the value of things, not necessarily the thing itself, because a lot of scarce resources cannot be split physically into equal pieces.
+
+[17:41] And so you can still get fairness by valuing those resources and redistributing that value to the community. On the big picture, there's basically a small land value tax. And the special thing about land is that it's the ultimate commons. Land was here before all of us, nobody created it.
+
+[18:03] The value that land has is completely defined by what's around the land. The presence of a community, thick job markets, access to services, public goods. And so the rent arguably does not belong to the landowner. It should really belong to the community that creates the value in that land.
+
+[18:27] And capturing and returning that land value to the community rectifies the unequal distribution of land ownership. So this is the large scale scenario. If you want to know more about land value taxes, you should definitely stick around for Greg's talk in half an hour.
+
+[18:50] If you want to do these auctions yourself, I've created a web app called TinyLVT for tiny land value tax, where you can run these auctions yourself. It's got a very generous free tier. Unless you're doing daily auctions, you won't really hit 50 megabytes of storage.
+
+[19:08] And this project actually started over a year ago as something that I wanted to bring to Edge Esmeralda, and that Devon encouraged me to bring. But I didn't have it done at the time, so this is really when I'm finally presenting it to the community.
+
+[19:24] And that's all I've got. Thank you. Questions? Let's see. So this scenario with the house and the three rooms and the three bidders. If I took something similar where I'd say, okay, there's $90 a month total rent,
+
+[19:55] and then I did bidding on who will pay. So everybody starts at 33%. And I said, okay, who will pay 40% of the total rent to get the big room? And maybe two people say that. And I said, okay, who will pay 45% of the total rent to get the big room?
+
+[20:11] And I go up until one person's left. And then I say, okay, let's say they took 50%. So there's $45 left. And then there's two people bidding. And I said, okay, who will pay over 50% of the $45 and increase that? So at the end, you'd have three people in three rooms.
+
+[20:33] Is that fundamentally different than the math you used? Or is it the same result? No. So you get a different result. What you're describing is sequential auctions, where you're doing an auction for the most desirable room first, and then you're doing an auction for the second most desirable one after that.
+
+[20:50] And the trouble with that format is that people don't know if they should show up for the first auction or for the second auction. You might have a lot of competition, a lot of people bidding for the most desirable room at the very beginning.
+
+[21:07] And then the second auction, people have already expressed all their interest, and it goes for a really low price. Whereas a simultaneous ascending auction, which is this format, where you can swap your bidding between different things as the auction progresses.
+
+[21:26] The prices for everything are rising in synchrony. That gives you much greater flexibility to switch to whatever you think is the best deal right now, given the current prices. Thank you. Yeah. Imagine you had, let's say, 300 acres in a town like Cloverdale, and you're interested in building a new town that had unusually high standards compared to what you would normally have available.
+
+[21:58] And so there's great pent-up demand because this market has not been served for a very long period of time. What would your advice be on how you would maximize the value selling that? Well, so one answer is what you can do is constrained by the regulatory environment, and that house sales are kind of like auctions, where you're getting the, you know, the best price that you can for what you've built in your community, in your land development.
+
+[22:31] Perhaps a separate question is, like, how would you want to ensure that the community gets along, and how do they share their scarce resources, and how do they decide, you know, who gets the garden plots? When are they going to host events in the town square?
+
+[22:49] When people want different events, like how are you going to resolve that disagreement? That's when you can use these kinds of mechanisms to resolve the inherent inequality in, you know, what use actually happens. Have you explored doing this in kind of Vickery style, where each of the bidders kind of, like, places their single bid up front, and then you do a bunch of math to figure out the result?
+
+[23:22] Yeah. So the, so Vickery is an auction format where people write sealed bids, and then you just look at what the bid values are, and you say the price is the second highest one, and you give it to the highest bidder. And so that's a one-shot way of doing a second price mechanism.
+
+[23:44] The difficult thing with Vickery is that when you try to generalize it to multiple items, you end up in the ideal case with a combinatorial auction with enormous complexity, and for a lot of, so it's, you can brute force it at small numbers of bidders and small numbers of items, but when you get to, you know, around 10 things, things start to break down, and you can't compute it on modern hardware quickly.
+
+[24:16] And these simultaneous sending auctions emulate those, the, the Vickery results, like the ideal allocation with a couple of caveats. So one of those caveats is that if you want multiple things, like let's say you're doing a desk auction at a workplace, and two people want to sit next to each other, then they might start bidding for two desks, and then the price starts to rise, or they want to switch to something else, but they might only be able to release one of the desks at a time.
+
+[24:47] So that's a challenge with the ascending auction, but the ascending auction doesn't have any computability challenges. It scales very well to any problem size. On your big list of, big list of various things that were interesting related to this, I got interested in grazing rights.
+
+[25:09] I'm kind of curious what are the current allocation mechanisms for grazing rights right now, because that feels like a thing that might be allocated annually or monthly or something like that. That seems like a cool application. Yeah, I can't say I know enough about grazing rights other than it's one of the things that people point to as a commons problem, because you might have overgrazing, sort of like fisheries you can overfish,
+
+[25:39] and then that has a cost to the whole community because you've now damaged the ecosystem in some way. And so the general theory here is you figure out what level of use is sustainable, and then you restrict people to only using it that much and you auction off the rights to do that.
+
+[26:00] Or have some, you know, maybe it's not a direct auction, but some mechanism where you're capturing that value or redistributing that value some way. So I assume that you're saying, hey, you know, people would use these auctions a lot more if they had a simple tool that was in their fingertips.
+
+[26:22] What do you think is the next barrier that you need to fix or simplify in what you've built to make it easier and adopted more, used more? That's a good question. I mean, talking to people, often their first reaction is auctions are great, but everybody hates them.
+
+[26:49] Everybody hates paying for what they use. You know, it's like congestion pricing often comes up. And I feel like that is perhaps one of the big challenges is that people are often willing to incur costs in other forms instead of paying money for the thing that they want.
+
+[27:13] You know, longer commute time in the case of traffic congestion. So as for the app itself, there are some things that are perhaps, you know, more complex, like sort of power user tools that are built into it that, you know, don't really need to be there for the average use case.
+
+[27:33] But yeah, if you look at it and you have any ideas, please do come find me. One last question. Anybody else want it? Have you seen Daniel Conovitz chores? No, I don't think so. Okay. I'll chat afterwards. Okay. Well, thank you so much for the talk.
+
+[27:55] All right. Yeah. Thank you. Let's give him a round of applause.

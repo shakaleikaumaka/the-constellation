@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shaka — CV · The Ethereum Bard</title>
+<meta name="description" content="CV of Shaka — the ethereum bard. Musician, producer, Zuzalu lifer, community steward of the Open Source Orchestra.">
+<style>
+  :root{
+    --bg:#0d0a14; --bg2:#171126; --ink:#f3ead8; --muted:#b9a8cf;
+    --gold:#f0b429; --gold2:#ffd97a; --violet:#8b5cf6; --violet2:#c4b5fd; --teal:#2dd4bf;
+    --serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;
+    --sans:'Avenir Next','Segoe UI',system-ui,-apple-system,sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.65}
+  body::before{content:'';position:fixed;inset:0;pointer-events:none;
+    background:radial-gradient(60% 45% at 15% 0%,rgba(139,92,246,.12),transparent 60%),
+               radial-gradient(50% 40% at 90% 15%,rgba(240,180,41,.08),transparent 60%)}
+  .wrap{max-width:820px;margin:0 auto;padding:60px 24px 90px;position:relative}
+  a{color:var(--gold2);text-decoration:none;border-bottom:1px solid rgba(240,180,41,.3)}
+  a:hover{color:var(--gold)}
+  .back{display:inline-block;margin-bottom:34px;font-size:.9rem;border-bottom:none}
+  header{text-align:center;padding-bottom:34px;border-bottom:1px solid rgba(185,168,207,.2);margin-bottom:40px}
+  .sigil{font-size:2.4rem;margin-bottom:14px}
+  h1{font-family:var(--serif);font-size:clamp(2rem,5vw,3rem)}
+  .sub{color:var(--muted);margin-top:12px;font-size:1.05rem}
+  h2{font-family:var(--serif);font-size:1.5rem;color:var(--gold2);margin:44px 0 16px}
+  .yr{font-family:var(--serif);font-size:1.12rem;color:var(--teal);margin:26px 0 8px;letter-spacing:.04em}
+  ul{list-style:none;margin:0 0 8px}
+  li{padding:5px 0 5px 26px;position:relative;color:var(--muted);font-size:.99rem}
+  li::before{content:'♪';position:absolute;left:0;color:var(--gold);font-size:.85rem;top:7px}
+  li strong{color:var(--ink)}
+  p{color:var(--muted);font-size:1rem;margin-bottom:14px}
+  .note{margin-top:40px;padding:22px 26px;background:var(--bg2);border:1px solid rgba(139,92,246,.3);border-radius:14px;font-size:.92rem}
+  footer{margin-top:50px;text-align:center;color:var(--muted);font-size:.85rem}
+  .foot-sig{font-family:var(--serif);font-style:italic;color:var(--gold2);margin-bottom:10px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="../">← Back to the grant case</a>
+  <header>
+    <div class="sigil">🌺</div>
+    <h1>Shaka</h1>
+    <p class="sub">The Ethereum Bard · Community Steward, Open Source Orchestra<br>
+    <a href="https://x.com/Shakaleikaumaka" target="_blank" rel="noopener">@Shakaleikaumaka</a> · <a href="https://x.com/opensourceorch" target="_blank" rel="noopener">@opensourceorch</a></p>
+  </header>
+
+  <h2>Life Before Ethereum</h2>
+  <div class="yr">2008–2015 · Music &amp; Service</div>
+  <ul>
+    <li><strong>2008</strong> — Graduated high school, Denver Christian</li>
+    <li><strong>2009</strong> — Three semesters at Azusa Pacific University, studying music</li>
+    <li><strong>2010</strong> — Youth With a Mission (YWAM), 6-month program in South Africa</li>
+    <li><strong>2012</strong> — Technical Associates Degree in Guitar, Musicians Institute, Hollywood CA</li>
+    <li><strong>2013–2015</strong> — Kitchen Manager at Cafe 180, nonprofit serving free meals for volunteers</li>
+  </ul>
+  <div class="yr">2015–2020 · On the Road</div>
+  <ul>
+    <li>On-the-ground rep for <strong>Love Light + Melody</strong>, founded by Brad Corrigan of Dispatch</li>
+    <li>Two major US summer tours as intern — production assistant, drum tech &amp; LLM representative. Venues include <strong>Madison Square Garden, Red Rocks</strong>, and many more across the USA</li>
+    <li>Co-founded <strong>Orquestra Amor Luz y Melodia</strong>, a youth orchestra in Managua, Nicaragua — performed 6 times on local news channels</li>
+  </ul>
+  <div class="yr">2018–2021 · The Awakening</div>
+  <ul>
+    <li><strong>2018</strong> — First introduction to Bitcoin in a 1-on-1 backyard conversation with Wences Casares</li>
+    <li><strong>2020</strong> — Began intensive blockchain research during lockdown</li>
+    <li><strong>2021</strong> — Fantom Developer Conference, Abu Dhabi — recorded a music video in the Emirates Palace basement and minted some of the <strong>first mp4 NFTs ever created</strong> (before Bored Apes). Told he "looks like an Ethereum person" — applied to volunteer at ETHGlobal Amsterdam, April 2022</li>
+  </ul>
+
+  <h2>Life in Ethereum · 2022</h2>
+  <ul>
+    <li>ETHGlobal Amsterdam — volunteer + gifted music for community</li>
+    <li>Devconnect closing ceremony — performed with Justin Holmes</li>
+    <li>ETH Prague — volunteer + gifted music · <strong>started the Open Source Orchestra tradition</strong></li>
+    <li>ETHGlobal NYC &amp; Mexico City — volunteer + gifted music</li>
+    <li>ETH Barcelona closing ceremony — performed with Justin Holmes</li>
+    <li>ETH Berlin — <strong>first livestream NFT</strong>, created by Pablo of StreamETH with a music jam</li>
+    <li><strong>Devcon 6 Scholar</strong> — first OSO DIP activated the Music Stage at Devcon 6 Bogotá (<a href="https://www.youtube.com/watch?v=vf3ZitSmXDw" target="_blank" rel="noopener">video</a>)</li>
+    <li>ETHGlobal Bogotá &amp; San Francisco — volunteer + gifted music</li>
+  </ul>
+
+  <h2>2023</h2>
+  <ul>
+    <li>Devfolio ETH For All submission with the Broadcastr team (<a href="https://devfolio.co/projects/broadcastr-3ec3">project</a>)</li>
+    <li>ETH Denver — week-long side event gifting music with Broadcastr</li>
+    <li>ETHGlobal Waterloo, Paris &amp; NYC — volunteer + gifted music</li>
+    <li>Burning Man with Griff Green &amp; Camp Decentral — build and strike team; Blockhaus Art Cart music coordinator</li>
+    <li><strong>ZuConnect scholarship</strong> — first Zuzalu-inspired experience; wrote a Zuzalu Song with the community</li>
+    <li>Hacked in ETH Online (<a href="https://ethglobal.com/showcase/myjam-4w705">MyJam</a>)</li>
+    <li>ETHGlobal Istanbul — volunteer + gifted music; wrote an ETHGlobal Song</li>
+    <li>Devconnect Istanbul — Open Source Orchestra gifted music two days in the main lobby</li>
+    <li>ETH India — volunteer + gifted music; wrote a Devfolio Song with Denver</li>
+    <li>Founders hacker house resident, sponsored by Reclaim Protocol — wrote 3 songs with Push, OKX &amp; Waku</li>
+  </ul>
+
+  <h2>2024</h2>
+  <ul>
+    <li><strong>Vitalia popup city</strong>, Próspera, Honduras — A/V tech lead + gifted music</li>
+    <li>ETH Denver Pragma — volunteer</li>
+    <li>ETHGlobal London — volunteer + gifted music; wrote a Nethermind song with Tomasz</li>
+    <li><strong>ZuBerlin</strong> — co A/V lead + gifted music</li>
+    <li>ETHGlobal Brussels + gifted music</li>
+    <li><strong>ZuKastle</strong> — contributor</li>
+    <li>ETH CC closing party — gifted with the Open Source Orchestra</li>
+    <li><strong>Zu Georgia</strong> — production lead + gifted music</li>
+    <li>Burning Man — Blockhaus Art Cart music coordinator</li>
+    <li>ETHGlobal Singapore — volunteer + gifted music; first performance at the ArtScience Museum</li>
+    <li><strong>Shan Hai Woo, Chiang Mai</strong> — Head of Production + gifted music to the whole Zu popup archipelago</li>
+    <li><strong>2nd edition Devcon Music Stage</strong>, hosted by the Open Source Orchestra</li>
+    <li>Hacked + gifted music at ETHGlobal Bangkok (<a href="https://ethglobal.com/showcase/ethereum-dispatch-dstje">Ethereum Dispatch</a>)</li>
+    <li><strong>ZuThailand scholarship</strong> — gifted music + stage design</li>
+  </ul>
+
+  <h2>2025</h2>
+  <ul>
+    <li><strong>Zugrama</strong> — Head of Production + gifted music (India's first popup village)</li>
+    <li>ETH Denver — gifted music; opening ceremony performance with Jonathan Mann &amp; Justin Holmes</li>
+    <li><strong>ZuAfrique</strong> — gifted music to community</li>
+    <li><strong>Zuitzerland</strong> — Head of A/V &amp; stage design</li>
+    <li>ETH Prague — gifted music workshops</li>
+    <li>ETHGlobal Prague — volunteer + gifted music</li>
+    <li><strong>Zu Berlin</strong> — co-production lead (<a href="https://x.com/ZuBerlinCity/status/1935979865527996509" target="_blank" rel="noopener">receipt</a>)</li>
+    <li>Gifted music &amp; streaming to d/acc day Berlin (<a href="https://x.com/dacc_kitchen/status/1932720358173651022" target="_blank" rel="noopener">receipt</a>)</li>
+    <li>ETH CC — lunch breaks, sponsor dinner &amp; closing party music gifted to the community</li>
+    <li>ETHGlobal Cannes — volunteer + gifted music</li>
+    <li>Iceland IERR Retreat with Protocol Labs</li>
+    <li>Burning Man — build &amp; strike team with Griff Green &amp; Camp Decentral</li>
+    <li><strong>ZuKas</strong> — contributor; gifted music + livestream</li>
+    <li>Hacked + gifted music at ETHGlobal Delhi — <strong>won Most Creative Use of ENS</strong> (<a href="https://ethglobal.com/showcase/opensource-orchestra-y1egw">Open Source Orchestra</a>)</li>
+    <li>Gifted music &amp; streaming to d/acc day Singapore at the ArtScience Museum (<a href="https://x.com/Shakaleikaumaka/status/1972859714892652847" target="_blank" rel="noopener">receipt</a>)</li>
+    <li><strong>Edge City Patagonia</strong> — A/V lead</li>
+    <li>Hacked in ETH Online (<a href="https://ethglobal.com/showcase/tokeofapp-dri79">Tokeofapp</a>)</li>
+    <li>Hosted the Music Stage at Devconnect World Fair</li>
+    <li>ETH Chiang Mai — A/V lead + gifted music</li>
+  </ul>
+
+  <h2>2026 · In Motion</h2>
+  <ul>
+    <li>ETHChiang Mai Hackathon &amp; Summit — lead production tech, broadcast &amp; gifted music (<a href="https://www.youtube.com/watch?v=qLHHM4F7Al4" target="_blank" rel="noopener">video 1</a> · <a href="https://www.youtube.com/watch?v=CRW25Kt6mKA" target="_blank" rel="noopener">video 2</a>)</li>
+    <li>Hacked in ETH Chiang Mai (<a href="https://devfolio.co/projects/vince-d1c9">Vince</a>) and Hackmoney 2026 (<a href="https://ethglobal.com/showcase/aien-by-zaibots-v95qx">AIen</a>)</li>
+    <li>Helping build <strong>Zuzalu Studio</strong> while living in the Zuzalu Library at 4 Seas, Chiang Mai</li>
+    <li><strong>Main hall steward, Edge Esmeralda</strong> — built edgeTV, the village's daily broadcast window</li>
+    <li>OSO performed at ETH Mumbai, ETH CC &amp; ETH Prague</li>
+    <li><strong>Next stops:</strong> Burning Man → ETHGlobal Tokyo → <strong>Devcon 8 Mumbai</strong> (Music Space committee; bringing the Open Source Orchestra to India) → back to Chiang Mai to end the year at 4 Seas</li>
+  </ul>
+
+  <div class="note">
+    📜 <strong>Encrypted original:</strong> this CV is also published on Fileverse dDocs (end-to-end encrypted, self-sovereign):
+    <a href="https://docs.fileverse.io/d/020013180001#k=_dVa_szd6GEGp1qulT0J_tLuG0-NxfSy9H_FxotHMrg">docs.fileverse.io/d/020013180001</a>
+  </div>
+
+  <footer>
+    <div class="foot-sig">"The legend of my actions speaks louder than any false position of authority."</div>
+    <p>Open Source Music · Every voice is a node · Sounds of consensus 🌺</p>
+  </footer>
+</div>
+</body>
+</html>

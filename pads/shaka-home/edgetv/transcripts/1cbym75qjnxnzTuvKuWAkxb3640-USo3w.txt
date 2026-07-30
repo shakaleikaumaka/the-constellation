@@ -1,0 +1,215 @@
+# Building Startup Communities worth Billions
+
+Date: 2026-06-24
+Source video: Building Startup Communities worth Billions.mp4
+Drive: https://drive.google.com/file/d/1l2Q27g64IoxHTk7T8h9okJepyVZt4_nh/view
+Duration: 00:32:11
+Transcribed: 2026-06-25 · whisper large-v3-turbo · language: en
+
+---
+
+[00:54] All right, we're going to get started, so we're going to do the little edge game, which is if you can hear me, clap once, if you can hear me, clap twice, and if you can hear me, clap thrice. Amazing. Thank you all for coming here. Just to indulge me, I want to take a selfie with you guys.
+
+[01:15] This is from one of the Inflection fellows, Jake Digi, and it's a disposable camera with a social network. Let's see if I can do it. Oh, I turned it off. Nice. Thank you. I guess we can do it normally. Cool. So my name is Lucas, and the talk today is on building startup communities, in this case, ones that are worth billions.
+
+[01:47] Earlier, Dave McClure gave a talk on 500 startups. Anyone go to that? Show of hands. Oh, the one person who did. What did you learn from that? Because I'm curious myself. Yeah. Making sure your foundational real estate also contributes. Nice. Yeah.
+
+[02:21] So being mindful of the local environment. Yeah, this is a common issue. So just by a show of hands, who here considers themselves a builder? That's most of you. And who here considers themselves a community builder? Yeah. Different, but a similar set.
+
+[02:41] Also, lots of overlap, actually. Most of the hands were in overlap. And speaking of community and community building, obviously, we wouldn't be here today without Edge. So this has just been a really interesting, fun, I think, also profound experience for me.
+
+[03:00] And I wouldn't obviously be an Inflection Fellowship Manager without a long journey as well. So I wanted to give them a word of appreciation and thanks, I think, what they're doing. Obviously, we're here for that. There's a lot more to come.
+
+[03:14] And I think we all sort of feel like this is the beginning of something that could be much, much greater. And so in, you know, Greek sort of origin culture, they have this idea of like ethos, logos, and pathos. So ethos is like the who, all right, the credibility.
+
+[03:32] So I'm just going to sort of shill myself here, if that's okay. So previously, I studied econ and CS at Harvard. I technically graduated early, but really late, because I took two years off three times. I, like, dropped out, but really with a leave of absence.
+
+[03:50] For those of you that can relate, my mom was not happy with this. You know, she's an Asian mom. And so I did end up graduating. And then after this, I'm going to be running another residency that's funded by the Fulbright, which is very exciting.
+
+[04:03] Stuff that I'm really excited about is hackathons. So I've organized over 30 hackathons, about half of them around AI with, you know, big labs back in the day. And then for those that are builders, previously, you know, founded companies at Co-Founder Matching.
+
+[04:22] It was backed by Mark Cuban, A16Z, most recently HFZero. Just left that company. And then what I'm here today to talk about, really, is the other stuff. Building community, being a founding team member, right? Creating nonprofits, creating organizations.
+
+[04:39] But the interesting thing is, you know, creating communities for for-profits. And so among other things, I ran community for a startup that had over $55 million in profit. And Strugel Valley, Seahouse, Archimedes, a couple SF orgs. So there they have a title founding member.
+
+[04:59] But for the others, I was actually a co-founder for these is more helping them out. But the interesting part is each of these have raised over $100 million. Some of them have raised over $200 million. Some of them, if you include affiliates, have actually raised billions of dollars.
+
+[05:14] And we'll get to that. And so I wanted to talk first about sort of early COVID experiments that I was a part of. So has anyone here heard of Gen Z Mafia? Okay, cool. You know, chat, CPD, this and see what comes up. Simultaneously, I will Google it.
+
+[05:34] And there's this New York Times article about how there's this Gen Z Discord where they're trying to create like their own sort of decentralized Silicon Valley. And it was like invite only. We ended up growing to over 6,000 members. And I use we because I was a moderator there.
+
+[05:57] And it was cool to see something go from like sort of an internet joke of about like 10 people to, you know, thousands of people who were really intent on joining. And now these people have, you know, raised millions and hundreds of millions of dollars out of what was basically just a group chat.
+
+[06:15] Share memes about like the TV show Silicon Valley with each other. But also try to change culture. Something that I was inspiration of, and I can talk about this more later, is Dropout DAO. So who here has been part of a DAO or invested in a DAO?
+
+[06:32] Smaller amount. But the idea is it's a decentralized autonomous organization. One of my startups was literally called DAO HQ. But as part of that, I created this community for dropouts called Dropout DAO. It inspired another dropout DAO that is now called Versi.
+
+[06:49] They're hiring a community manager for those who are in the community. And I'll share more opportunities later. But really what I want to talk about is a Revna and Cerebral Valley. So Revna is a nonprofit. It's 5.1c3 that I founded. We have over a dozen different sort of subsidiary initiatives.
+
+[07:09] It's a federation. It's not really active anymore. It started over COVID. And what it looked like is really the founding story is I was in a group chat. They were like, hey, I have some data from Georgia hospitals. And I would like someone to visualize this.
+
+[07:26] So I didn't know how to do that. I searched up how do you visualize things. I learned about Tableau. I downloaded it. I was like, wow, this is easy. But like someone should do this for every state. And so I created a little Discord and we moved over to Slack.
+
+[07:39] And like every day because, you know, it was COVID, we'd be meeting at midnight. And like I remember we'd have like five people join, 10, 10, 20, 40. It was basically exponential growth until we had over like 3,000 applications. And there's all these people who wanted to do stuff over COVID.
+
+[07:55] And basically I funneled them towards different initiatives. So the biggest one was the coronavirus visualization team, which is what I described. We did a lot of collaborations with universities. So hundreds of students through this were able to do volunteer research with universities that would help them get into college if they were high schoolers or help them, you know, get into grad school if they were in college.
+
+[08:17] And the whole point was for people to do what they wanted to do in the future now, right? And that's also the idea of a lot of these communities. And since I skipped ahead, I'm proud. We contributed research to Opportunity Insights. I was later a research assistant there where they had all this economic data that they wanted to parse.
+
+[08:38] We provided, for instance, unemployment insurance claims. We also looked at COVID numbers. And as a result of this research, as a result of this lab, which was sent to the White House and then the Senate, the Senate proposed and then actually, you know, legislated to reallocate and so therefore save over $20 billion, mainly in March 2021 stimulus policy.
+
+[09:03] So for those that are Americans, who here got a stimulus check out of curiosity? Okay, so just a minority. But for context, money sent out to help out for COVID, we found that richer people were just investing this money instead of spending it, which is the original point.
+
+[09:18] And so we argued for a cap first of $150,000 and then $75,000 household income for the checks to be given out. So if you were above that, sorry, we were partially paying additional $1,400, but in doing so, helped save billions of dollars, really tens of billions of dollars from the government, for the government and therefore also taxpayers.
+
+[09:39] And then there's like hundreds of other research projects that were part of these different initiatives. So we had something called Panel to the People, which is sort of like a TEDx clone because they didn't want to do like TEDx online. We had Policy for the People where we proposed these policy hackathons.
+
+[09:57] And it was really surprising that like hundreds of students, even though they had no experience with doing policy, myself included, were able to write hundreds of different policy briefs, sent them out, actually influence, you know, spending up to tens of billions of dollars, but really local, like they would send it to their principals and be like, hey, you know, we want more time at recess and things like that.
+
+[10:20] I won't go through the rest of the list, but most of them are community-based. So there's something called the Educational Nonprofit Coalition. There were offshoots, even like the University of London had an international community that was part of this.
+
+[10:33] Really just a cool group of people who wanted to do stuff over COVID. And so just as an example of like, I guess, how early we were back then, we were already, you know, this is 2024. And before that, we were talking about trying to do AI policy.
+
+[10:46] So as part of a policy, we had an AI policy-a-thon. This was in 2021. And some of the people who were part of this initiative have become inflection fellows, have, you know, raised tens of millions of dollars, and have become the heads of some of the other communities, which I'll mention briefly.
+
+[11:05] And so who here has heard of Cerebral Valley, either the place or the organization? So for context, I'll just go to the website. So you've heard of Silicon Valley, of course. Cerebral Valley is this idea of, you know, now San Francisco is the hub for AI.
+
+[11:23] In fact, there's a place in SF called Hayes Valley that people were calling Bayes Valley, and other people were dubbing Cerebral Valley. And so I loved hackathons. So when I heard that they were organizing a hackathon, I flew in, and they offered for me to be a co-founder.
+
+[11:38] And since then, I ended up leaving, so I'm no longer a co-founder. But the ecosystem has raised, you know, over $350 million. And they've been able to monetize in interesting ways, which I encourage you guys to take a look at for those running communities as well.
+
+[11:54] Obviously, they, you know, picked this sort of niche of working with the labs to get sponsorships, get, you know, high figures involved such that they'd be able to get access to do other things like sell newsletter spots, help people invest in companies, and do talent scouting referrals, that sort of thing.
+
+[12:18] And this took, like, three years to put together. So community is, you know, long work. Things that are more AI-specific, they do is, like, compute broking market research, and they have a platform for organizing hackathons, which, you know, is becoming more popular.
+
+[12:31] And I really mention that to say that, like, communities are quite early on on different trends, right? So even when Cerebral Valley started, there's, you know, AGI House, there's other, these communities where people were choosing not to become startup founders and build, you know, B2B SaaS, but instead were choosing to organize events for each other, for people to learn about, you know, for instance, we did the launch, like, GPT-4, plugins for Cloud2, and become the first to use these things.
+
+[13:00] And I think as community builders, you have the unique position to be able to be the first to, like, you know, evangelize and capitalize from these, you know, technological innovations. And so after Cerebral Valley, as mentioned, my mom wanted me to graduate, so did I, so I went back to school.
+
+[13:19] I used some severance money, basically, to start C House. So C House is a hacker house. It's right next to Harvard. Canonically, it's been, like, one-third Harvard, MIT, other, and in terms of values, we were looking for cracked-based and wholesome people.
+
+[13:38] Around the house for a while, so huge shout-out to her. And we have had alumni since raised over $200 million. Most recently, Leon, who was part of the house for two years, had a $30 million round led by Sequoia and ABC, and the reason I mention him, and he's given me permission to share some of his stories, he was literally at this point of, like, intervening for McDonald's and Wendy's and getting rejected from them because he, you know, needed to get money to pay rent.
+
+[14:06] And because we were a hacker house, we were like, it's okay if you pay rent late. And, you know, in that month, he decided to go all-in and on his startup. A month later, he raised his first round, which is, you know, getting to Sequoia Arc, getting $6 million.
+
+[14:18] So literally going from, like, zero bank account, not being able to pay rent, to, you know, having a tier one VC, having, you know, plenty of funds to be able to accomplish his vision. And I think that's the really fun part of being, you know, a community builder, being able to sort of further people's dreams.
+
+[14:36] In this case, it's sort of like the American dream, the new, like, AI American dream of, like, you know, rags to riches. And also being able to host people. So as part of being able to have a house, we've been able to host, you know, unhoused students who were kicked out of their homes, whether because that's, like, of homophobia or, you know, religious reasons.
+
+[14:56] We've hosted both, like, Ukrainians and Russians, Buddhists and Christians, Israelis and Palestinians, researchers from OpenAI and Anthropic, all sorts of different people. One story I want to highlight is Naila. She's one of the refugees that stayed at Seattle.
+
+[15:11] So she came from Haiti, which, you know, currently in a state of quasi-anarchy. And her and her partner, Vladimir, they left. And literally a day later, gangs assaulted their village and ended up kidnapping their mother at their home. So had they been there, they would have been potentially caused, you know, in the crossfire.
+
+[15:33] And luckily, they were able to rescue their mom, bring over their family members. And they're one of the first COS marriages. So they actually married in the church right next to the house. And they've had kids as well and now have, you know, their own house and jobs as well.
+
+[15:48] And as a result of having this house, there's been a lot of children. I expect the same for, like, EDGE and other, your own communities. So we kind of were alphabetical. We had, like, an A house, a borough house, cyber work, C++ house, which was two floors above C house.
+
+[16:04] We were partnered with a house called Dunster House in the sense of, like, people were able to eat dinner there. And most of the people who lived in these houses now have their own houses, which some have even superseded our house. And I also wanted to give a shout-out to the houses that inspired me, in particular Genesis House, if you've heard of that, as well as Arcadia House, which is in Berkeley.
+
+[16:31] And so since I like houses so much, I decided to start another house in SF. And it's really just, like, let's just take people who want to say yes, literally accepted everyone, and people ended up doing great things. So I think there's something about, you know, co-housing that just works.
+
+[16:46] Now that, you know, someone at the house has their own funds, someone has their own, like, data-brokering business, and, again, going from, like, not being able to pay rent to raising millions of dollars for not just startups. And we've done a bunch of different experiments.
+
+[17:00] I'm happy to chat about this later, from, like, trying to do a think tank to, like, playing around with Neolabs to a new VC fund. Oh, something that you guys are semi-invited to. So we're trying to do a house cooling party. So this is happening in SF in July.
+
+[17:17] So basically, someone created this party idea of doing it for the money, where whoever has the most monopoly money at the end wins the prize pool. But other things I wanted to mention is now we're starting a new house. So looking for housing.
+
+[17:32] We also want to help other people start houses. I've had a couple conversations with people here. I've helped. Well, I've personally started about a dozen house programs and helped with a couple others. So really, you know, passionate about this.
+
+[17:44] I think it's great. It's a new way of, like, getting friends and building together. And I think it could also be a new form of business, which I wanted to talk about. Just for the sake of time, I'm kind of going to breeze through, I think, examples of good startups because you've probably – or good startup communities because you've probably heard of them already.
+
+[18:03] So, of course, there's the PayPal Mafia. Out of that, you know, Teal was part of it. You had the Teal Fellowship. If you would just invest in these two, you'd be one of the best investors of all time. Does anyone recognize any of the people here?
+
+[18:16] Chase? Yeah. So this is the – do you have an idea? Yeah. So, yeah, a lot of these are RSI, which is a research program at MIT. But this is Hudson River Trading's first quant intern class. And the people here have created companies worth over $80 billion.
+
+[18:40] I think it's now actually over $100 billion. So this general idea of, like, okay, find smart kids and support them. Again, if you had invested, you'd do amazingly anything from, you know, hyperliquid to, I think, Surge AI and modal. So, and, yeah, cognition, of course, as well.
+
+[18:59] I was a classmate with Walden who, with Scott and Neil, just raised crazy $1 billion to further Devin. So I recommend checking that out if you haven't already. And then sort of a descendant of all of these is called PROD. It's a sort of secret organization at Harvard-MIT.
+
+[19:18] They host these retreats, which I recommend you hosting yourself as well, over winter break for, you know, top Harvard-MIT students. And at, like, the first retreat at Mexico City, Cursor was founded. It's part of the story is, like, they all got food poisoning and they were tired of, like, founding themselves.
+
+[19:39] So they decided to join forces to create any sphere. Walden was there, ended up creating cognition, as mentioned. And second retreat was in Brazil, I believe, and Mercor was founded there. Third retreat, I believe, was in Rome. Etched had already been founded, but, you know, really got co-founded then.
+
+[19:58] That's a $5 billion semiconductor. Point is, it's a cool community. And, you know, somehow they had figured out how to repeatedly create decacorns, not just unicorns. And I think part of that is selection, right, being very exclusive, like, at a place like, you know, Harvard-MIT.
+
+[20:14] And be like, first, we just want the best MIT seniors, then MIT Harvard seniors, then MIT Harvard engineers. And then you just expand outwards. And I think the secrecy and exclusivity in this case actually helped. And the one thing that you can take away is consider doing, again, these residential programs, these retreats, retreats, where you get people who otherwise were just going to be maybe quants, maybe, you know, engineers, and be like, just go build what you want to build, and, you know, continuously hold them to a very high bar.
+
+[20:46] This works in many contexts. By the way of background, you know, I was at H10, and H10 is a residency. It's also a residential program, and it has worked really well by creating a good cultural container based on their values, which, you know, are, I believe, publicly valuable.
+
+[21:04] I'm happy to talk about that later. But in the remaining minutes, I want to talk about residencies. So I helped some start a residency called Lightyear, and it didn't actually offer any money. It was not an accelerator. It was just here's a house.
+
+[21:17] We'll cover your hotel. We'll cover, you know, your food. Yet, you know, three of the startups are raising $100 million valuations, and I don't think it's all selection. I do think having a residency actually accelerates people. So this is something you could even do yourself.
+
+[21:33] Naturally, it is selection, but the cool part about this is we did not run any applications. Same thing for Seahouse for the first two years. It's all just word of mouth. It's based on, like, bottoms-up trying to find the best people, convincing them to join because there's other great people who are joining.
+
+[21:46] In our case, we already had a company that raised $45 million that joined, and so it was, like, an easy sort of sell to the other companies to be, like, hey, are you, you know, better than this company? If not, you know, you're a good company.
+
+[21:59] And we had some amazing outcomes, like one company going from not being incorporated to 700K MRR shortly after one of the co-founders climbed Mount Everest with a robot. Which I wish I'd put in a deck, but very cool. And another went to $15 million and contracted AR, and those are the three companies raising.
+
+[22:17] And I'll breeze through this, but one idea I had, had meaning, like, now I'm happy to share it, is this idea of, like, how do you have more residencies? How do you have more of these communities that can improve the world? You can ignore, like, you can replace Harvard with whatever institution or exclusive thing that you think is actually good in the world.
+
+[22:36] But, you know, it's this structure where it's sort of a fellowship of people who want to do great work, people who want to be with other people who want to do great work. And you, as a community organizer, can actually, if you're able to do a good program, charge equity for it.
+
+[22:53] And so this is the idea of residencies. This is something that I'm passionate about. I think that they'll, you know, eat venture capital. You know, I'm saying this because I think this would be, like, very generative for the world. In a way, I might be creating my own competition, but I think that's actually a great thing.
+
+[23:09] And it's something where I want, you know, a lot of flowers to bloom just because I've seen how this has, you know, changed people's lives. And I wouldn't just say it's a hacker house, but these are, like, containers. These are residencies.
+
+[23:21] They, you know, they don't charge centrally managed by someone who doesn't live in the house, who's not working on their own startup. They're focused on subtraction. And they also, you know, try to bring together a small group of people for a limited amount of time.
+
+[23:36] And so this is something that, you know, the best institutions from hospitals to the military to others have done. And so, you know, here at the Inflection Fellowship, I think this is also, you know, a great example of the power of residencies and startup communities.
+
+[23:53] You know, these are all fellows under 25. Sebastian's not 200. And for those of you who were at the demo day, you just, you saw how much they were able to get done, you know, in just a limited time here from writing 100 pages, you know, like Sebastian wrote, like, 100 pages in the first few days.
+
+[24:11] I haven't written that probably. You know, being able to get fundraising commitments to Jake totally, like, pivoted his strategy. You know, the cameras are now, like, basically half the cost. And onwards, like, prototyping new interfaces. So I think what I'm trying to convey here is you can do a lot of young people.
+
+[24:31] You can do a lot with not a lot of funding as well. You can do a lot of just bringing people together. And this actually is really thanks to Catherine, who's in the back, because originally I was going to propose to run my own residency. And I thought it would be better to do something, you know, with the community instead of, you know, just at the community.
+
+[24:49] And I think that that's something you can do at many other venues. For instance, next, I'm going to Canada, to Waterloo, and there's a house there called Akato's House that's over here. So you can think of things like that, right? Like, oh, you can have a house next to OpenAI, next to the Vatican, next to, you know, Oxford, next to these different institutions where people need to live.
+
+[25:13] And you can provide some of the community, some of the glue, some of the support that they might want. And so I also just want to mention there's a lot of opportunities out there if you want to do this sort of thing. For instance, Akato House was funded by Emergent Ventures Grants.
+
+[25:28] I have a list of grants that 1517 put together. I put in the telegram. There's, let me just show you, there's like 60-plus grants there, anything from the Magnificent Grants run by Hummingbird to, you can see here, the Edge City Fellowship, to Reflection Grants, to New Science, who lived in my house, to, you know, Schmitt's programs.
+
+[25:51] And there's quite a lot in here and could be actually a lot of funding for what you guys are doing. And I also want to give a shout-out to Nan from, I think, Renfell, who wrote this article called The Third Wave of American Philanthropy, because, you know, SpaceX won public, Anthropik, and OpenAI are falling, and there are not just billions, but tens of billions and hundreds of billions of dollars of philanthropic money that are being pledged.
+
+[26:16] And they have nowhere really to go, so if you're trying to do something that's not necessarily for profit, for profit obviously works as well, but you have an ability to be able to get that. There's also a lot of different accelerators. You know, I mentioned there's HF0, there's Neo, there's Speedrun, there's obviously YC, there's things that are like YC.
+
+[26:36] And I'm joining one particular called Cyberfund, but the idea between these are just to do different, you know, styles of incubators, right? So, like, HF0 is like a monastery, which Cyberfund is trying to do as well. YC originally was the Summer Founders Program, which was, you know, actually, again, Harvard and then moved to SF.
+
+[26:56] But, you know, is that scale, where Speedrun is part of, like, A16Z's portfolio, and Neo is more for, you know, these technical builders who end up spending two weeks in Oregon. Yeah, so that's, well, what I wanted to talk about, about building startup communities.
+
+[27:14] Thank you for listening. Any questions? Yeah. Hey, really cool stuff. You talked a lot about, like, what you've been doing and a lot of, like, what has come out of it. But I'm curious, like, what's the sauce? Like, what, like, beyond being, like, very exclusive and being affiliated with certain institutions, like, yeah, what's the magic that, I guess, surprised you that led to these outcomes?
+
+[27:47] Yeah, I mean, I think part of it is this idea of scenius. Who here is familiar with that? So it's basically a scene plus genius. Oh, yeah, you are. So, like, if you bring the right people together, great things will follow. So this is, like, bottoms up.
+
+[28:02] You can also do it top down in a way that is bottoms up, which is confusing. But I think this is what Pratt did, where it's like, hey, there's this guy, Richard DeHaan. He's this MIT super angel. He's like, why isn't there a good startup society at these institutions?
+
+[28:13] And he's like, I'm going to do it myself. So I think a lot of the time it's just someone deciding, like, you know, I'm going to do it myself. You know, obviously Elon is a great example of that. In terms of values, because I think those are important, actually I have something I can talk about more.
+
+[28:28] So it was Crack-based and Wholesome. So this is, like, really just Gen Z lingo for, like, if you're cracked, you're, you know, you're excellent. If you're based, you're for what you believe in. And if you're wholesome, you're, like, good. For lack of better words.
+
+[28:44] These words can also be turned into, like, anthropic speak, right? Like, if you're helpful, you're, like, harmless, and you're, like, honest. But, yeah, there's, like, different mappings of, like, what work well. Other mappings, you could also look at types of people, right?
+
+[29:01] So, like, you can think of, like, hippies that can hold a calendar. You can think of fierce nerds, right? Like, academics, PhDs that could win a bar fight. And these are just, like, in the top 1%, what is something that makes them contrarian and different?
+
+[29:13] I think a lot of founders, you know, have some thing that inspires them, a strong why that helps them do it. You can get through any what. And, you know, you can just try to identify that based on, like, what is the fire in their eyes? What is the fire in their soul?
+
+[29:27] As opposed to, like, pattern matching. But, in my experience, pattern matching, you know, could help just, you know, get them through the door. Any other questions? Do you want one? Yeah, Chase. I would imagine that a lot of the work here is very relational.
+
+[29:51] How do you keep in contact with the people that you feel like you need to keep in contact with? And how do you decide who you think you need to keep in contact with? Yeah. I would say that, like, as a community builder, you might, like, be friends with, like, 99% of people.
+
+[30:05] But there will be, like, 1% of people that aren't friends. And that's something you kind of just have to deal with, maybe as, like, the cost of doing, quote, community. In terms of, like, how to stay in touch, I've just tried to be really good at text.
+
+[30:18] I found, like, iMessage is better than, like, email. I also find group chats are a really easy way to keep everyone abreast of what you're doing without having to use, like, social media. I know some people use social media really well. But I found for, like, the communities I'm talking about, which tend to be in person, it works less well.
+
+[30:35] Because then, you know, everyone can see that. But in-person touch points, obviously, are great. Answer the question. Cool. Anyone else? Yeah. Do you think most of what you've learned here is translatable to different types of communities? Or is this entrepreneurial and tech-based communities only?
+
+[31:00] I think it's definitely transferable, right? Like, I talked about Revena. It's a nonprofit. We've had, you know, hundreds of people become, you know, med students and researchers out of it. And, you know, try to find their own success out of that.
+
+[31:12] And what worked there is, you know, what Mike talked about, which, you know, was, like, the story of, from Marshall Ganz, story of, like, self, us, and now. Like, now is really good for Revena. It's like COVID. Everyone's at home. They have time.
+
+[31:25] Now is good for Gen Z Mafia. Everyone, you know, has time on Discord. Now is good for Cerebral Valley, right? It's, like, the start of a new technological, you know, renaissance. And I think that is still true now, right? Like, anything that can sort of use improving models to improve, you know, that's a tide that lifts all boats.
+
+[31:43] And other things that are transferable is just, like, you're looking for the top people, right? And so, like, sometimes you might have to talk to hundreds of people just to find your one collaborator, do sort of co-founder matching, and, you know, figure it out along the way.
+
+[31:56] Okay. Last question? Anyone? Cool. Well, thanks again for listening. See you later.

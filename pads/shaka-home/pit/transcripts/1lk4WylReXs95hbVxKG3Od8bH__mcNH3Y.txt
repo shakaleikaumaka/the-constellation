@@ -1,0 +1,199 @@
+# Agentic Apps for Real Humans - World AgentKit_ by dcbuilder_eth
+
+Date: 2026-06-15
+Source video: Agentic Apps for Real Humans - World AgentKit_ by dcbuilder_eth.mp4
+Drive: https://drive.google.com/file/d/1yBbk17JwUS8oSEoxoYDgrm2ErUOIDluk/view
+Duration: 00:31:26
+Transcribed: 2026-06-16 · whisper large-v3-turbo · language: en
+
+---
+
+[00:00] Some seats right here, and we're gonna get started. I'm going to introduce DC from World, previously WorldCoin as some of you might know it as. They've been doing some epic work, they've been a great part with us across many villages. DC will give you full background on World itself, but especially this will be interesting for people who are partaking in the World Agent Village, as this is a great extra tool we're gonna be building into the agent flow.
+
+[00:28] And yeah, no further ado, please welcome DC. Hello everyone, so I go by DCBuilder, feel free to call me DC or Dominic. I'm a research engineer at the World Foundation. I mostly work on applied cryptography, so zero-knowledge proofs, anything blockchain-facing for World's products.
+
+[00:54] Maybe just to get acquainted with the audience, who here has heard of World, WorldCoin before? Okay, that's most of you, that's awesome. But I'll give a brief introduction about what I'm gonna be talking about and what World is, sort of to contextualize everything.
+
+[01:12] So I'm gonna be talking about agentic apps for real humans. There's been a movement recently in the last year where a lot of the interfaces that you're used to interacting with, like traditional websites, for like the services you're used to for like ordering food, transportation, anything.
+
+[01:32] A lot of these interfaces are turning agentic, as in like you can now chat with them and interact with them through natural language. And so this has made it really hard for these websites to also tell apart like what is sort of real, like real traction, real usage on the website versus what is a bot.
+
+[01:52] And so I'm gonna be talking about one of the tools that we built internally called agent kit and a sort of MCP server around it called tool router, which sort of allow your agents sort of interface with websites and services and prove to them that there is a real human behind it all, essentially.
+
+[02:12] So without further ado, let me skip to the next slide. So world ID, world ID is the protocol that we built for proving that you're a real and unique human. For that, we developed this custom device called the orb, which you can see here on the right.
+
+[02:32] The orb is a hardware device which has custom imaging, camera, GPU, there's like a lot of different tools on it, but its intent and purpose is to prove that there is a real and unique human present and it does that with multiple ways that the way that it proves uniqueness is by essentially measuring the randomness that there is encoded in each person's RSCs and then you can make that fully private by leveraging like state-of-the-art cryptography, namely multi-party computation.
+
+[03:01] So you can check fully privately and anonymously that each person is unique and then the orb also checks that you have like a continuous heat map of your face, that you have a 3D face, that you don't look like a child for consent, like that you're not wearing contact lenses or glasses and so this is how it asserts liveness, that there's a real person in front of it.
+
+[03:20] And once you have liveness and uniqueness, you get issued a world ID into your wallet. And then with your world ID, you can create proofs of personhood using zero knowledge proofs. So essentially I proof that I'm in the set of verified users without revealing which sort of member of the set I am.
+
+[03:38] And so world ID is a protocol that we've been developing over the last four or five years. When it comes to partnerships and use cases that we announced recently, some of them are like Tinder. So you can verify your Tinder profile in the US and now starting to roll out globally with your world ID.
+
+[03:54] So you can verify that your Tinder profile like belongs to real humans, you're not talking to a bot. Zoom, so now when you're talking to people, this is currently only available for Zoom enterprise, but you can essentially verify that the person you're talking to on the other end is a real human.
+
+[04:09] And the image feed that you see, or like the video feed you see, matches the sort of picture that was taken by the orb. And this is a fully client side, like zero knowledge, a private check that happens. We also do a partnership with DocuSign, BrowserBase, Exa, Razer for gaming.
+
+[04:26] Yeah, like the whole goal is to prove that you're human and to have that in a fully private preserving way, privacy preserving way. And so to get to the next slide, who here has heard of X402? Okay, less people. So X402 is a sort of a payment standard for agents that was developed by Coinbase and Cloudflare, or co-developed, and it's like an open ecosystem protocol.
+
+[04:57] What X402 allows you to do is, back in the day that HTTP was developed, the hypertext transfer protocol for the internet, one of the codes was 402, which was payment required, which sort of gate kept an action by requiring a payment. The problem was like during the time that the internet was developed originally for HTTP, there is no like ubiquitous or global like payments, or just like money protocol.
+
+[05:24] And so it was abandoned and it wasn't really implemented. And so recently, now that we have stable coins and blockchains, we have instant settlement, we have native money rails to the internet, the sort of Coinbase and Cloudflare teams picked the sort of 402 like code back up from HTTP and built the X402 standard, which allows you to sort of now, any API request, whether it's like a get request, a post request, a put request, you can, the API can request a payment for the agent interacting with the website.
+
+[05:54] So for example, if there's some kind of action, like submitting a query, like searching for something, and you want to gate keep that with money, you can do that with X402. And you can enable essentially micropayments on the internet for like querying a database, like some API data.
+
+[06:08] It essentially gets rid of like API queries, sort of like if you have like API charging, you have like a billing thing, it sort of replaces sort of like what Stripe does these days. There's also an another open protocol that's called MPP from Stripe, maybe if you've heard that one, but X402 is sort of like the one that is currently more well known.
+
+[06:27] So to recapitulate, it allows you to like an agent or a website can request payment from an agent and then give them access to some content or to interact with the website in some way. Next slide. What X402 allowed us to do is that we built an extension on top of X402 which is called agent kit.
+
+[06:52] And so now the API can request payment, but it can also alternatively request a proof of human to interact with the website or see specific data. This is useful because as you've seen right now, like there's a lot of like bots that try and scrape data on the websites and agents are sort of like bypassing the captchas that you're traditionally used to.
+
+[07:13] Like captchas of like selecting, this is an image of a dog or a fire hydrant or you know, like specific puzzles. Agents these days, they can, they're quite sophisticated so they can bypass these things. And so if you still wanna allow agents to interact with your website, but you don't want to allow spam on the other side, this is sort of like a really good solution for you.
+
+[07:34] So if you're using agent kit, what it allows you to do is to register your agent in a thing called the agent book registry. And so now any website or on chain smart contract even knows that this agent interacting with it is acting on the behalf of a real human.
+
+[07:49] And not only that, but you can also enforce a cyber resistance. So like one person, one action, and one person X amount of actions. So let's say you have like a ticketing website. Like I am on Ticketmaster and there's like a concert for, I don't know, like some artists.
+
+[08:06] The artists can restrict that each agent can only buy like five tickets on the behalf of a human. And like it scales on like per human basis. So you cannot just buy a thousand tickets, which is a current problem where there's like these scalpers that try and log on to the auction as soon as possible, buy every ticket that they can get their hands on, and then resell at a market, like a higher market price on a secondary market by just pocketing the sort of arbitrage and extracting value from fans.
+
+[08:33] So that's agent kits. Yeah, this is sort of like what I mentioned. We launched a few like early integrations at the very beginning. One is Exa, Exa is sort of like an AI agentic search, sort of like a better Google in a way, like more AI native version of Google and it has an API that you can query for search.
+
+[08:57] So now if you verify your world ID and you use agent kit, you can have your agent use the Exa MCP and you can get like free credits every month. And we also did the same for browser base, which is a browser agentic tool that allows you to navigate to a website, extract data and so on and so forth.
+
+[09:16] So this is really good if you're like any application, if you're building an application or if you're building an on-chain smart contract and you want to allow like agentic use for that specific service you're building, but at the same time you want to make sure it's not abused and so you can actually like expand your user base and not be spammed.
+
+[09:34] So this is sort of shows the same thing. So one thing that we built is called tool router. So the agent kit on its own would allow your agent to like set it up and like interact on its behalf, but tool router is an MCP that stands in the middle and can sort of proxy your identity to all the different other MCPs that you might use.
+
+[10:04] So essentially you tell your agent in this case, I mentioned Hermes since there's a lot of you are using Hermes for the edge residency, the AI residency. The way that it worked is that you would go to the tool router website, you would register an API key and you would verify also your world ID profile on tool router and now you're connected to your Hermes agent and your Hermes agent would be able to then use this MCP to sort of proxy all the services that support this sort of proof of human service.
+
+[10:34] So like you wouldn't have to manually configure browser base, EXA and everything. It would automatically provision all these things for you and you can interact with all of these APIs natively with Hermes. So this is a list of current API endpoints that are supported by tool router.
+
+[10:51] The three ones that sort of give you some extra access currently are browser base, EXA and Manus APIs. So you can essentially get like free access to these things if your world ID verified and your agent can then interact with, interact with, your Hermes agent can interact with these services using tool router.
+
+[11:10] And there's plenty of others but those currently don't support agent kit but you can still like interact with those services through the tool router API. You can have like traditional billing, top it up with money and do all these actions as well.
+
+[11:22] This is explaining the same thing. So yeah, like a general setup as I explained, you just go to tool router, you can set up your world ID on there, generate an API key, you set up the MCP, you can connect it not to just Hermes but any traditional agent that you're used to using whether it's clock code, codex, cursor, Hermes, OpenClaw, any of the other ones.
+
+[11:50] So here is a QR code if anybody is interested for how to use tool router. This is like the tool router website. So yeah, you can log in. We will also have an orb here in the coming days. You can contact Josh who is in the audience. He will bring an orb to Edge City in the coming days so you can get verified and try it out.
+
+[12:13] Yeah, that's the general content of my talk. So if anybody has any questions, I'm happy to answer. Sure. I was just wondering if you could talk about
+
+[12:47] the decentralization roadmap for world. Totally. So world ID on its own and like all the components are already open source. So like the Orbs hardware, the Orbs firmware, the biometrics pipeline stuff, the cryptography, the world ID on chain smart contracts.
+
+[13:05] World ID on its own. The latest upgrade that we did which is world ID 4.0 is already a big step in terms of decentralization because it allows any client to build like a client for world ID. Before we had world app. World app is like the default client for world ID.
+
+[13:21] And now anyone can build a client for world ID. So that's already like one big step. Essentially we built like account abstraction for world ID. So anybody can recover your account. Like you can recover your account whenever you go to the Orbs again.
+
+[13:36] You can transfer your account between clients. A lot of these like quality of life services that make it so that any component that we've ever built is no longer like a critical thing. Like any critical component can be essentially replaced.
+
+[13:50] And all the components are open source. You can contribute to any of those parts. The hardest part when it comes to decentralization would be like Orb stuff. Like hardware stuff. Because essentially you would have to find a party that is sufficiently economically incentivized to build alternative hardware.
+
+[14:06] And so there's already one party that is interested in doing this. It's called Boop. They're doing like a palm vein scanner. So essentially it's like a different modality for proving uniqueness. You can measure uniqueness to your iris patterns.
+
+[14:18] Like your randomness in your iris. But you can also use like the randomness of like how your veins are laid out in your hand. And so there's different people that can eventually essentially start building different modalities. Different devices.
+
+[14:31] All these sorts of things. And WorldID on its own it's an open protocol. So you can create your own sort of like group of verified humans. And you can use WorldID in different ways. Yeah. So that's sort of like general like decentralization roadmap.
+
+[14:44] Right. Like for us all of the core components like the protocol itself. Is permissionless. Decentralized. You can like use it. Interact with it. Sort of. Essentially the goal is so that if Tools for Humanity. Which is the labs entity behind World.
+
+[14:57] Dies. The protocol would keep functioning. If any other party were to build their own hardware for verifying liveness etc. Yeah. Does that answer your question or. Okay. I'm really. I'm really excited about the tool router. And I'm excited to integrate that.
+
+[15:17] I guess it's something that I can just tell my agent in the chat. Yeah. Okay. Yeah. You can literally in on tool router you can just copy a prompt. And it will set it up for you. That's awesome. It's really cool. These like router based things like we're using open router for inference.
+
+[15:30] And I really love the look of tool router and just makes a ton of sense. One thing I was wondering is that when you do the proof of humanity. When my agent is accessing a service. Is it. Telling the service that my agent is backed by a real human.
+
+[15:48] Or is it. Checking whether I the human I'm driving in that particular moment. And I guess there are scenarios where both would. I want. Yeah. I would want both. You know. That's a great question. And it's a feature that we also have. So what you're doing is that you register your agent on agent book.
+
+[16:05] Which is like. It can be an off chain registry. There's this ERC eight zero zero four. Which is like a. Agent registry smart contract standard. So you can do that for either or. And then the website knows that this agent is registered in some registry essentially.
+
+[16:19] And now you know that. For this specific application. I can restrict this agent. On a per human basis essentially. Like there's one human acting on their behalf. But agent kit. Which is the tool that powers tool router. Agent kit also has this feature called human in the loop.
+
+[16:34] Where for a specific agentic action. You can request a human approval. So a human needs to approve a specific agentic action within an API. And for that we partnered with Vercel. So Vercel has this API called. I think it's. No it's not. Durable workflows.
+
+[16:51] Yeah. So it's called the durable workflows. And what allows you to do is essentially. It measures like a trace of the entire interaction with a website. So let's say when you open like. Uber.com. It. You hit the uber.com API. And then you click.
+
+[17:03] Like book ride. And then you click. Book ride with specific parameters. Whatever. So this is like a trace. And you have like a timeline. Of like when. You do each action. And. The problem is now. That if you turn. Interfaces agentic. And you have an agent interacting with a specific service on your behalf.
+
+[17:19] There might be specific actions. Where the application might want to record. That these applications. This specific action was approved by a human. So a really important one. Would be for example. Like booking a trip. Or like a hotel. Or a flight.
+
+[17:32] You want to know. That the agent. Paid for the thing. With your card. But also that you approved it. Because then. I can say that like. Hey my agent did it. Can I get a refund. Right. Like payment providers. And like. There's no way to actually prove that.
+
+[17:47] Right. Because the agent interact with something. So human in the loop. Is exactly that. Is like. Agent kid requests. For this specific API endpoint. A human in the loop. Proof. With world ID. And then once you. Approve that. Action. You provide the proof.
+
+[18:01] With your world app. Or world ID. And then. What Vercel does. With your workflows. Is that will store. The entire timeline. And associate it. With each API call. And for the human actions. It will also record. The proof. In perpetuity. So these service providers.
+
+[18:15] No longer have to figure out. Like. Oh I need to store. This piece. Like a log. Of every single. API interaction. From an agent. And. Each proof. That was associated. With that. If there's like. A human in the loop. Kind of request. Yep. Yep.
+
+[18:38] Yeah. Totally. That was. That was. Yeah. Yeah. Yeah. The final image camera. And it will match. The facial embedding. From your phone. Matches the facial embedding. From the image. That the orb. Once saw. Because. When you go. To the orb. You get this thing.
+
+[18:57] Back. Called a personal data. Custody package. Which is. Essentially. Signed images. for your frontal face camera. Also you can, we're also working on passports, you can like verify like multi-factor authentication, right? Like facial embeddings of your passport matches that one of your face from your camera, matches the one from your orbs that the orbs saw at some point.
+
+[19:20] And all of this is client-side, right? So you're doing a client-side zero-knowledge proof that these facial embeddings match. You're never, like this data is never leaving to a third party. This is like where like magic cryptography thingies like happen.
+
+[19:32] One of the things that we've been working on recently is this thing called Proofkit, which is like a zero-knowledge proving library so that these really like hard things to do on mobile devices, like really expensive zero-knowledge stuff can actually run on mobile devices.
+
+[19:45] This has like been a core focus of the team, yeah. My question is what is the state of governance right now within a world and then like who are the stakeholders that are usually involved and do they have a say in terms of like the privacy primitives that they're engaging with?
+
+[20:12] Like are they working with the foundation? Yeah, I mean the foundation is sort of the team that governs the sort of decentralization side of things. Tools for Humanity is the entity that like manufactures the orbs, operates them, builds the app, does all of these sorts of things.
+
+[20:28] When it comes to like governance as in like traditional governance, we don't really have a framework where like third parties can vote on like direction just yet. And of course it's a goal of ours, we've been working on this for a long time, but it's hard to decentralize things like manufacturing, production, things like this, because also it's like tied to the for-profit side of things.
+
+[20:48] When it comes to the protocols direction, we are recently started working on like world improvement proposals. So you have like a WIP page, WIP, work in progress, world improvement proposals. Yeah, so you technically can propose improvements and you can also like all the code that we actually run in production is open source, right, for protocol and things like this.
+
+[21:10] So people can contribute, they can propose ideas, but I think it's gonna become much more important to decentralize and give away ownership to external stakeholders once there are more external users of the protocol than just like world app, for example, right?
+
+[21:28] Like, and the problem is like a chicken and egg problem, right, for Ethereum, people care about Ethereum because anybody can use Ethereum because they have a computer and internet. For us, we cannot use existing computers to distribute, we actually have to manufacture orbs, we have to get people to download an app and verify.
+
+[21:44] So the network effect is slower to propagate because you have this like proof of human thing that you care about, but once you bootstrap that network, which is the hard part, many more people will care about it because now it's sort of more credibly neutral, right?
+
+[21:56] Like now we have like 19 million verified users with the orb. Once you get to like 100 million, 200 million, it becomes more ubiquitous. And once it becomes more ubiquitous and external third parties want to use this protocol for proof of human, more people will care about like all the governance of it, you know, like where, in which direction should the thing go?
+
+[22:15] So right now we're really focused on utility and growing that network effect so that you build something valuable enough and then once credible neutrality becomes like really, really important, you can progressively decentralize with like how we've been, we try to decentralize essentially prematurely to the point where like not many people care and there's not really a big economic incentive for people to care as there were in Ethereum like with Ethereum validator and stake and either the asset sort of incentivizing people to join.
+
+[22:41] So yeah, that's in general like the TLDR on that. Thank you. Not, not yet, but it will be here soon. I guess Josh when, tomorrow probably, yeah. Robert. This is, this is a little bit, you know, often left field, but I'll just ask it. This world ID, have you guys spoken about a position on, you know, sentient conscious, really independent AI agents
+
+[23:12] and you know, how you're gonna think about those in contrast with proof of humanity? Obviously they wouldn't be attached to a human at that point. Like if it's fully independent acting like in a slash loop doing things on its own with some goal that you set it with or?
+
+[23:27] Yeah, I mean, it's an edge kind of thing. There's been a lot of tracks on consciousness and you know, what happens when we cross over to that point? I mean, depends, right? Like you, eventually you'll be able to give it access to some tools and if you give it access to some tools, you can use them on your behalf sort of thing.
+
+[23:46] The whole point isn't necessarily to prove that something is generated by an agent or generated by a human. Like that's much harder to prove. The whole goal is that if it's an agent, you at least know that there's a human behind the wheel, somewhere in the loop, or at least it was approved by a human.
+
+[24:04] And it solves a lot of the current problems of the internet. It doesn't solve like, okay, this was generated by a human, this was generated by an agent, because that's much harder to prove. Like how do I prove that I typed some, like that actually like I had an idea and that idea I put into words, versus like it was a bot, like an AI bot that like used my, like even like a robot, you know, like a robot can type on my keyboard.
+
+[24:25] There's no like actual sort of root of trust for something that I was, that I thought of, or like the robot thought of. For agents is like easier, because you can prove like a TE trace, right? Like a TE executed some AI inference. Yeah, we don't really have answers for like that sort of question, but we provide tools for things around it.
+
+[25:42] Also for context, W, managing the director of the World Foundation. So yeah. I'm just so busy, yeah. Uh-huh, yeah, yeah, totally. I mean, utility as in like, do I need the token for something? So the original reason for why WorldCoin was created, like WorldCoin the asset, is because we wanted to do an experiment in UBI,
+
+[26:13] as in like, if you create a real human network, like how do, so the original premise, like 2019 era is when Sam and Alex and the founding team were thinking of like creating World, was we imagine a world in the future where AIs are gonna be able to create text, video images, that is indistinguishable from a human.
+
+[26:34] You pass the Turing test across every vertical. So you need to create a proof of human, sort of to distinguish what is a human, what is not a human. But on the economic side, if agents are able, or AIs are able to actually interact with the real world, as humans do, they'll actually start doing things that are economically valuable.
+
+[26:52] And they'll like take share of the, like part, part, part, they will partake in the economy and create value. So how do you distribute said value fairly, right? Like one human, one share of the thing. So originally like WorldCoin was like an experiment in UBI, in the sense that for every human that joined the network, you incentivize them with WorldCoin tokens to join, so that they have an economic incentive, and everyone can like own this asset.
+
+[27:16] And it's like fairly distributed, because each human only gets a fair, like a proportional allotment to like their share of the network, and people who joined earlier get more. And when it comes to like the far future, one of the ideas would be that like, if there is like revenue generated by AIs, you would distribute it to like either WorldCoin holders or to like the network itself.
+
+[27:37] But when it comes to like the utility of WorldCoin, it's mostly an economic bootstrapping mechanism for the network itself. There is no like value accrual to it, like revenue within that kind of sense. Yeah. Question, if we have to go to the workshop on more of the technical side of things and how to integrate the agents, we will be dropping also the agent kits.
+
+[28:02] There's one more question, the very back. The question is like, obviously there's a lot of privacy risk and centralization risk when you're trying to deal with humans and agents. And of course, there are clever ways around this. But I'm wondering for you in particular, like how did you think about mitigating the information leaks
+
+[28:33] and what are some vectors of attack that you think are still, you know, still design things to be solved? Information leaks in what context? Sorry. I mean, I guess I just don't want people to know what I'm doing, you know, like I kind of hate it.
+
+[28:48] Yeah, okay, okay, yeah, okay. So then I'll just introduce you like about the privacy features that WorldID has on its own already. So the way that WorldID works is that each WorldID action is represented with this thing called the nullifier hash.
+
+[29:02] A nullifier hash is just a hash of some WorldID private key, like which is unique to each user, a public action ID and a public app ID. And this hash, of course, is like random data, right? Like a hash is, you cannot go from the hash back to the original thing that created the hash, like the preimage.
+
+[29:20] And so each application only stores this nullifier hash to tell apart whether they're human did an action or not. So essentially what this means is that no action that you ever do is linked with each other unless you leak your private key, right?
+
+[29:34] And WorldID also allows you to rotate your private key. So you can essentially keep rotating your secrets and every action for every time that you've rotated that secret, even if you leak that secret in the future, none of these actions like can be tied to each other essentially.
+
+[29:48] If you were to leak your private key, all nullifier hashes that were derived from your private key can be traced back to you. But even the nullifier hashes themselves are not even stored them like just as a regular hash. They're also stored in an MPC database.
+
+[30:02] So there's like, I can go into the details of the cryptography, but there's like multiple layers of privacy. When it comes to the entire surface area, there's like security surface area on the hardware side, on the firmware side, on the biometrics pipeline, on the cryptography protocol side.
+
+[30:16] So if I was a really sophisticated attacker, I'd probably be able to snoop around some information, but there's like a lot of security mechanisms in like each place, and it's always gonna be like a game of cat and mouse. You know, like you improve the hardware, you improve the firmware, you improve this, you improve that, so that eventually you have even higher security and privacy guarantees.
+
+[30:33] And I think WorldID is honestly like the most privacy-preserving digital identity protocol out there. If you compare with anything remotely closed, there's just nothing that comes close to it. for this specific use case. So it definitely sets a new bar, and I hope that at least it will have a positive impact on other identity solutions out there, yeah.
+
+[30:51] Awesome, thank you. Thank you, DC. Again, reminder, we will be sharing how to integrate the agent kit into your Hermes agent for the WorldVillages experiment. The all will be here probably from tomorrow, or at least the next 10 days at the coping space, more or less every day, Josh, so you can get verified, and then there'll be another workshop, a technical workshop with DC on how to integrate if you have any issues and how to make the most out of it.
+
+[31:20] We're gonna do a five minute break, and then we're gonna launch the WorldBuilding week. Thanks, guys. Thanks, guys.

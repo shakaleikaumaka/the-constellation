@@ -1,0 +1,131 @@
+# A Better Metaphor for Cities_ Beyond the Single Machine _ Julie Ann Nepomucenov
+
+Date: 2026-06-23
+Source video: A Better Metaphor for Cities_ Beyond the Single Machine _ Julie Ann Nepomucenov.mp4
+Drive: https://drive.google.com/file/d/1RKRtPlqUWT7NnGkef8Mf7nV5VJlV2btO/view
+Duration: 00:26:19
+Transcribed: 2026-06-24 · whisper large-v3-turbo · language: en
+
+---
+
+[00:06] Okay, thank you for that introduction. Okay, yes, thank you for the introduction. Okay, I think one of the things, thank you, sorry. I also wanted to say a little bit more about myself. So I did practice as an architect for six years,
+
+[00:40] doing traditional architecture with offices and on the peninsula and also here in Healdsburg. And then from there, I, perfect, yay. Okay, so much more comfortable. Yeah, a lot of my guiding principles for my career has been to design and enable environments to thrive in, as well as constantly wondering what is enough,
+
+[01:16] what is luck versus resilience, integrity versus survival, and also staying grounded by remembering that experience is evergreen. And I have to say this all because this is all stuff, I just can't separate my life experiences from all of these other professional expertises.
+
+[01:42] And so, to transition to the main point of this talk, it was called a better metaphor for cities. And I think that conversation started about 30 years ago when, oops, oh no, when Chris Alexander, who's an architect and mathematician, gave the keynote speech at the Object-Oriented Programming Systems, Languages, and Applications Conference.
+
+[02:14] And he was there because two decades before that conference in 1977, he wrote a paradigm-shifting book, a pattern language, and it described hundreds of problems and likely solutions in the built environment, but it also situated each project, each pattern alongside other patterns, so that the solutions could unfold like in a coherent manner, much like a language or even like nature.
+
+[02:44] The guiding principle of that language was to create, revive, and protect the quality without a name, something that we might call aliveness or flourishing. And so, most architects did not know what to do with him. His ideas were serious and spiritual in the same breath.
+
+[03:06] His view of the built world as generative and whole with nature seemed a long way off from the postmodern buildings concerned with self-referential aesthetics of his time. And so, some people did take him seriously, and they've been trying ever since to implement his ideas through new urbanists in groups like Congress for New Urbanism, the former Form-Based Code Institute, which is now the Center for Zoning Solutions
+
+[03:37] under the direction of Smart Growth America. And meanwhile, software engineers were deeply inspired by Chris Alexander's pattern language, and you all might understand his influence more than me, but he planted the seed that would become design patterns in object-oriented programming.
+
+[03:57] And so, up here is a quote, something that he said at that conference 30 years ago, and he suggested that software packages acting in society could be the equivalent of the genes that act in organisms. Programming would become the genetic infrastructure of a living world, which could then have the result that a living structure in our towns, houses, workplaces, cities become an attainable thing.
+
+[04:23] And I see what happens here at Edge Esmeralda is that happening right now. More technical difficulties. Oh, okay, okay, sorry. Thanks, okay. But the thing is, is that I'm not sure if our fields have been talking to each other, practitioner to practitioner, since then.
+
+[04:53] Like, maybe there's blips here and there, but the engagement is really rudimentary. It's like really more like code switching than full-on translation. And so, I think we're doing a disservice when architects, designers, technologists, engineers, placemakers, developers, new town builders, when we all opt to code switch rather than linger at the nexus of the nexus of our fields and do the hard work of faithfully translating our work to each other.
+
+[05:24] Yeah, all while staying engaged with the core practices of our fields. And so, I think Edge Esmeralda is a really great environment to actually do that. And so, last year, I heard a lot of people, including Devon, saying good software can't run on bad hardware.
+
+[05:48] And so, I wanted to flesh out that metaphor. And so, according to Claude, and my brain trust at my neighborhood fourth place in San Francisco, the commons, good software can't run on bad hardware is about a single machine. And when applied to cities, it means that the best social software, like neighbors to watch your cat, sharing freshly baked cookies instead of eating it all yourself,
+
+[06:20] running into a friend at your favorite coffee shop, that doesn't happen in the bad hardware that is the suburbs. I will say that it's a great visual and we've gotten so much mileage out of it, out of that metaphor, but the built environment is much more complicated than a single machine.
+
+[06:39] And so, since then, I've been craving a better metaphor that encapsulates the complexity without sacrificing clarity. And so, often what happens in my job, I will explain the urban planner toolbox to other people. And, or actually, I actually explained our toolbox to my brain trust and they said, that sounds a lot like abstraction layers and that I should go learn how the internet works.
+
+[07:16] And so, this may seem like a very basic thing, but I admittedly took a functioning internet for granted, despite knowing how dial-up sounds. And so, by learning about that, the internet, its protocols, TCP, IP, the idea of abstraction layers, I realized that there is already a validated schema on which to hang the many processes that lead to a better built environment.
+
+[07:43] And so, like I was saying, in my work, I see a lot of people, all kinds of people lighting up when I tell them I work in housing and city planning. And I can, I see the hope in their eyes when I tell them all the good things happening in form-based codes, pre-approved housing plans, objective design standards, cul-de-sac tempe, and then, at some point, I hit a ceiling and it just gets really complicated really fast.
+
+[08:10] Their brain sort of like runs out of RAM. And if they haven't drank the new urbanist Kool-Aid, all the warm, fizzy feelings are gone. And so, all the bad experience with stalled permits, Main Street visions that just led to more vacancies, soulless green spaces, that all creeps back in.
+
+[08:34] And it feels really bleak, realizing all the ways a good built environment could be derailed. And I wish we could say we figured out the roadmap to ending all housing problems everywhere. That's magical thinking. But I do think we have a very large toolbox.
+
+[08:50] And I'm hoping that by presenting today, that toolbox becomes a lot easier to explain. And so, the case study of the internet. And so, what I learned by looking at the internet, or what I'll call the network stack, stake of alliteration later on, is that the internet works because machines built by different manufacturers,
+
+[09:21] running different operating systems, connected through different physical infrastructure, all agree on a common set of standards. And then those standards are organized into layers. Each layer encapsulates its own complexity. And by the time a user interacts with the application, the complexity of the network itself is invisible.
+
+[09:43] Similarly, through my work at OptiCoast, and through my studies, I see a layered system of standards that allow many independent actors to produce coherent human-scale urbanism at scale. And so, this is what I'm calling the neighborhood stack.
+
+[10:03] Unfortunately, most of us experience a dysfunctional neighborhood stack. When it's not working, the complexity keeps bleeding downstream. So, cities lack a coherent vision. The planners make inconsistent decisions. And then developers spend months and years in entitlement limbo.
+
+[10:23] And then residents are left feeling like nothing's happening and everything's just unresolved. And so, what might it look like if we had a cleaner stack? And so, I know I'm throwing a lot at you, but in the network stack, we start with hardware standards.
+
+[10:41] And then the internet protocol, TCB, and finally the application itself. And so, what I'm seeing in that is that those layers establish a shared taxonomy for many different actors. Data is then routed towards destinations, and then it transforms at the point of arrival so it could resolve in an application and orderly information to interface with.
+
+[11:11] And so, in the neighborhood stack, I'm proposing that the urban to rural transect is our shared taxonomy. Model form-based codes, route development towards its destination, entitlements and permits are that transformative point of arrival. And then the resulting built environment is that resolution that we've all been waiting for.
+
+[11:34] And so, I'll unpack that one layer at a time. So, we start with the shared taxonomy in the urban to rural transect. And so, this is an idea that originates from ecology. It's a method of observing interactions within the many habitats across an ecosystem.
+
+[11:58] And so, similarly, humans can exist and thrive in varying habitats from urban to rural. And so, transactions range from T1 natural to T6 urban core. And then, even within each zone, there could be a few variations in response to the context such as T5 historic core versus the T5 main street and urban corridor.
+
+[12:25] And so, here is another example of the transect applied. This is an example from Beaufort County. And then, in another area, this is how it might look in an actual planning document. So, the legend shows T1 through T6 as well as civic. And that is applied to the parcels.
+
+[12:50] So, that's what you're seeing there. The next layer up in the stack is the routing system. And so, if the urban to rural transect is our destination, then form-based codes are how we get there. And so, form-based coding focuses primarily on the intended character and type of place.
+
+[13:14] And so, this differs from conventional or Euclidean zoning which focuses on use. And so, in practice, what a form-based code does is it maps the transects to the existing built environment as well as the envisioned built environment. And so, ideally, there is community and stakeholder engagement and economic studies to assess capacity for change, feasibility to actually deliver these projects,
+
+[13:49] and then to also protect vulnerable populations from displacement. And so, here's just a couple of examples. This one is Columbus, Ohio, where there was an analysis of corridors. So, 140 miles across all parts of Columbus. The initial analysis, you can see there is nearly a thousand variances, almost 11,000 parcels, 50 base zoning districts.
+
+[14:24] So, it was a lot to go through. And part of the work was to simplify the approach. And so, we see different kinds of places, place types at the bottom. And then this resulted in a code that was seeking to enable more walking, more walkable neighborhoods by directing the building form, the massing and articulation,
+
+[14:58] and then as well as starting to make suggestions on large site standards. The next step up is entitlements and permits. And so, this is when information transforms at an arrival point. And, or to quote Jonathan Hillis from earlier, this is when you go from the iceberg to the circus.
+
+[15:25] This is when we can lock in all of the work of the past and create a new slate for moving forward. Once you get approval with planning, you're able to go talk to other departments, that kind of stuff. And so, at this stage, planning is verifying your project that it fits the vision of the city, while building departments are verifying that your construction documents comply with building codes.
+
+[15:54] But what we realize is that there's a lot of discretion. You know, most, a lot of projects don't get to that stage. And it'll take years to find out that you can't actually get approval. And I would say that this is because of discretionary processes.
+
+[16:22] You know, it's often said in building code that the building code is written in blood. And meanwhile, planning codes are written in values or more often the lack of. And so, we resolve the high stakes and lack of direction through highly discretionary processes.
+
+[16:42] And so, some of that complexity is inevitable when you're working with the material world. But, let's see. And looking back at our network and neighborhood metaphor, this level of discretion makes the routing layer extremely bumpy. And the neighborhood stack lacks both the best effort, delivery of IP, and the tidy resolution of TCP.
+
+[17:09] And so, reducing discretion is the goal of many placemakers. How? It's through governance. I think. This is a new word that's kind of new to me. But I know that probably most people in this room would associate that term with blockchain. But I think it also has a place in more conventional spheres.
+
+[17:32] And so, some of the levers that we can push on is authority. Who has the right to decide? Accountability. Who answers when things go wrong? Legitimacy. Whether those affected accept the process. Transparency. Whether the rules and decisions are visible.
+
+[17:49] And code. So, those are the rules written in advance for situations that haven't happened yet. And so, as a practitioner, there are some things that we're able to do. As citizens, you know, like Daryl said, there's a little bit less that you guys can do to influence these things.
+
+[18:10] But there are movements like Strong Towns that's really great at enabling citizen activists. And so, as a practitioner, what we're looking to do is front load as much governance as possible into the process for writing codes. That we also look to expanding the capacity of jurisdictions.
+
+[18:36] You know, enabling them to approve more projects, such as through things like pre-approved plans. To explore opportunities to identify gaps and refine their vision through general plans, specific plans. And then also to learn from each other through things like regional peer networks.
+
+[18:59] And, you know, if all things go well, we get to, the project gets realized. And we all get to experience this wonderful place. And, you know, here's some examples. You know, this is cul-de-sac Tempe. A car-free community in Tempe, Arizona. I think the developer of this will be here later this week.
+
+[19:28] For me personally, this is my favorite space. It's a community space, a fourth place, in their own words. And this feels like what we're trying to aim for. I will admit that policy isn't always enough. So when land costs are high, only luxury development pencils out.
+
+[19:56] And entitlement reform isn't enough on its own. Same on a different end. When construction costs have risen beyond what any rent-restricted projects can support. The gap must be closed by creative solutions. Maybe it's community land trusts.
+
+[20:15] Maybe it's subsidies. But that's ultimately a policy intervention, not a planning intervention. And so the question I have for you all is, what is the destination of each stack? You know, in a network, you're trying to get from point A to point B.
+
+[20:35] But what is the destination of our neighborhood stack? What are we oriented towards? And I think this is where it's good to come full circle to what Chris Alexander was saying to a group of software engineers 30 years ago. He said that a patterned language rests on a moral foundation.
+
+[20:56] The question of whether the thing being made is actually good for human life. Not efficient, not compliant, good. And so, thank you. Do we have any questions? Okay. Yes. You guys can always test me to ask a question.
+
+[21:31] Yes. There's a layer that I've heard a lot of cities worry about. And I'm wondering where you would put that. And that's the infrastructure and maybe something about the topology. Yeah. Yeah. Yeah. Where does that go? I also have my colleague Nick here.
+
+[21:53] He's on our architecture team. And so he wants to hop in too. He is totally welcome to. And I think, you know, in my work I'm also looking at how we can describe our services to other people. And what we've been finding is that we need to divide groups up into context and then client types.
+
+[22:17] And I would say that, like, what you're talking about with infrastructure. That's part of the context bucket that we need to adapt to. Yeah. And then we're also bringing in people who have more expertise in the infrastructure. Yeah. Yeah. The consultant teams can get really big.
+
+[22:40] There was one in the yellow shirt or, oh, no. I guess, like, what's your favorite project you've done? Like, what makes you the most exciting that you've seen come to fruition? You mean, like, in my entire career or at OptiCoast? I guess OptiCoast, but you could mention anything.
+
+[23:09] Okay. OptiCoast project that I actually really liked was Hercules, California. We did their Bayshore plan and architectural standards. And I think most people would associate Hercules with, like, traffic jams and suburbs. But if you actually exit and go to their Bayshore front, there is an adorable little, well, multiple towns, because it has multiple developers.
+
+[23:39] And it's executed with a high degree of architectural excellence. It honestly feels like Disneyland. Yeah. And then my personal lead, something that I've worked on personally, is a high school gym design. It was for my own high school. Yeah.
+
+[24:01] And it's in construction now. Yeah. One question. The title of the presentation was another, a new metaphor for the city, or words to that effect. There were many metaphors for the steps along the way. I'm wondering if maybe that title implying a single metaphor might go back all the way to Alexander's book,
+
+[24:35] The City is Not a Tree, or something like that, that makes it really, really clear in just one statement what the overall view is. And I would say that would be something to work toward. Uh-huh. I'm curious for you, like, what you feel like is, you know, if there's a way to just create this plug and play, you know,
+
+[25:09] this, like, full stack for urban design. Like, what would that look like? And how would you make it accessible to those of us who are, like, this space is very new to us? You know, how are you kind of translating it, communicating it to the rest of us?
+
+[25:22] Yeah. Urban design nerds that are not full urban. Design nerds. I mean, I feel like I'm trying to do that now. Like, finding venues to engage in this way, I feel, is a little bit difficult. That's why I love being at EDGE, and I love being at the Commons, because these are people, I feel like a common thread there are, these are people who are extremely smart, very passionate, grounded in a sense of humanity while also trying to be on the cutting edge of whatever their field of expertise is.
+
+[26:00] And so, yeah, I'm having this conversation here, but I'm also having that all the time in San Francisco. Awesome. Any other questions? Cool. Well, thank you so much, Julie. Yeah, round of applause. Absolutely. Round of applause. This is awesome.
+
+[26:15] I also really love you. Thank you for letting us, guys. Absolutely. Round of applause. This is awesome.

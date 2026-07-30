@@ -1,0 +1,313 @@
+# Keynote Fireside_ Where Is the Future Going and What_s the Endgame_ with Amanda Cassatt
+
+Date: 2026-06-15
+Source video: Keynote Fireside_ Where Is the Future Going and What_s the Endgame_ with Amanda Cassatt.mp4
+Drive: https://drive.google.com/file/d/1eBm6oCVQ-sPfrbtQJrW2MU5ZLduNjJ5d/view
+Duration: 00:51:08
+Transcribed: 2026-06-19 · whisper large-v3-turbo · language: en
+
+---
+
+[00:00] We're ready to go, Shaka? Awesome. All right, well, Amanda, welcome. It's really good to have you here. Thank you for having me, it's wonderful here. I am very excited about this conversation. As all of you know here, we at EDGE think a lot about the futures that we're building, how to make them better, and what roles we have as builders and as people that will experience those futures.
+
+[00:25] And Amanda is someone that has been thinking about this for a long time. She has built a career around making frontier tech legible to the rest of us. I kind of think of you as almost the CMO of Ethereum, or at least were back in the day. And more recently, she has built an amazing company called Serotonin and is the host of the Endgame podcast.
+
+[00:46] So what I'd love to start with is this concept of Endgame. I'm curious how this idea came to be, why it's interesting to you, and what you're exploring in this project. There are so many podcasts, but so few that I enjoy listening to. It's this funny, it's this funny thing, right?
+
+[01:09] And I just thought I would create the podcast I wish to see in the world, where I ask the questions about what I'm actually curious about, without worrying what anyone's going to think. And it's like being a good dinner party guest. If you're sat next to someone and you don't really know them, you've got to figure out what's actually interesting that they could say and make them say it, even if you're sometimes going to have a tense time,
+
+[01:40] because you want to make that time be wonderful. And that's kind of my theory behind it. Inviting people on that are building interesting things, thinking interesting thoughts, and asking them questions that might surprise them, that sometimes are on the edge of what's normal to talk about.
+
+[02:00] That's a really good motivation for creating more content in the, you know, torrent of audio content out there. But I'm curious why this topic in particular, like why is the, what does end game mean to you? And why is that the kind of crux of what you're exploring with these folks?
+
+[02:19] There's this funny thing. So my company, Serotonin, we work with a lot of founders on telling their story and doing, bringing their products to market. And funnily enough, a lot of the time, and this happens more with kind of corporate type clients, but they'll come to me and they'll want me to retroactively create for them, their raison d'etre, which is a bizarre position to be thrust into.
+
+[02:48] The conversation goes like, we're building this thing. The thing is like this, but we need like a mission and we need a reason why we're doing this in order to make this charismatic, in order to make it compelling. And so I wanted to bring people onto end game to ask them or try to ask them why they're really doing what they're doing, like what their goal really is, how they really think about it.
+
+[03:19] If you've been running a company for long enough, you have some cashed answers about who you are and what you're doing and why. And it gets kind of hard to break you out of them. But you can, if you try to get into someone's actual motives and the actual thing that they want to see in the world.
+
+[03:39] And this happens sometimes on end game where we'll have a guest and we get under there and we discover sometimes without putting such a fine point on it, that their deep motives and what they think is good and what they wish to see in the world are actually at odds to some degree with what they've created.
+
+[04:02] And it's interesting to bring out those schisms and divergences in real time because we do contain multitudes. Something I find in a lot of your content is that we, you know, you're talking with folks like Brian Johnson, Balajri Srinivasan and many other interesting thinkers.
+
+[04:24] I've had the pleasure of being on the podcast. My friend Toby Shorin has recently as well. And it all seems to kind of center around this idea of like, what is this actually all for? Right? And very quickly you get below just, okay, what you're building is interesting, but why?
+
+[04:40] What are you actually doing? And I'm curious if there has been, is that the question? Maybe other questions that you want to get your guests to answer that they haven't yet or, you know, what's actually happening there underneath? So when I interviewed Brian, I was in conversation with him.
+
+[04:57] It actually wasn't on the podcast. It was, it was, it was before, but my first question to him, there were maybe five or six people in the room was, would you lay down your life for that person? If I had a gun to the head of that person and I was going to kill them, if you didn't lay down your life, would, would you do it?
+
+[05:15] And then, well, what about your son over here? What about him? Would you die for him? Oh, what about her? Would you die for her? What about everyone? And I just did this like, very annoying, what if, that I could never have gotten away with if it wasn't being recorded.
+
+[05:31] Because it's just, it's so annoying, right? But it was interesting. And the answer, which maybe has changed now that he's in love, I'd love to hear how it's changed. But the answer was that he wouldn't, not for anyone. And that's pretty interesting, because I feel differently.
+
+[05:55] So those are the kinds of questions. And somehow having a podcast or having a camera, it changes behavior so that you can actually kind of ask something like that, whereas at a dinner party, I mean, that person would probably go away. One of the things that comes out to me when I listen to your content and read your blogs is there is a constant questioning of the purpose
+
+[06:25] of technology and what is it all actually for? What are we doing this all for? And I think there's an interesting concept here of human agency. This is something that you find very important, increasing agency or maintaining it, maintaining our ability to have agency and freedom.
+
+[06:42] And we had an interesting exchange in DMs a few months ago. I don't know if you remember this, but we were talking about progress. And I think I was playing the role of progress being good, technological progress being good. And you framed Ted Kaczynski, the Unabomber, as a reference.
+
+[07:01] And I think first started to respond, this is what Ted would say. But eventually, I feel like it kind of became your own views as well. So I want to just play that out because I find this fascinating, right? There is a general sense probably here and the kinds of people that come to events like this that technological progress is good, it expands human agency.
+
+[07:21] I think you told me you see that otherwise, that technological progress stops us from having the agency to not use the technology. So let's unpack that a little bit. Yeah, so upstream of all this, I rediscovered black coffee recently and have become a big...
+
+[07:38] The beverage? The beverage. Okay. I've become a big text message responder. And so, like, you open some can of worms, and then I bet I was responding to you, like, in one second with extremely long messages. I also have a very fast, like, words per minute typing speed.
+
+[07:53] And so, like, that's probably where that came from, and sorry. But the, like, Kaczynski Unabomber thing, like, I'm not a violent person. So, moving all that aside, but just his idea about how, like, the invention of the car. They drove urban planners to design cities such that you had to use a car.
+
+[08:17] And so you don't get to just come into the world and decide, oh, do I want this car, do I not want this car? Because the world has conformed to the figure of the car. The world today has conformed to the iPhone. You can't do so many things if you don't have an iPhone, but a smartphone.
+
+[08:36] There are so many things you now can't do. You can't do because society has conformed to the shape of that phone. And so I think that technology can give people agency and enable people to exit, and that's what originally got me into the Ethereum movement.
+
+[08:53] And whether we succeeded or failed at that is anybody's guess. And I have a lot of thoughts and feelings about where that succeeded and failed. But I think technology can do both. And pretending that it can only give agency I think is false, right?
+
+[09:09] Because something like an iPhone, it's a menu, and it's the thing setting the menu. And then you get to choose from what's on the menu, which gives you this illusion of agency and freedom. But what set the menu? And like who here has an iPhone?
+
+[09:26] Who here identifies as owning that iPhone? You don't have root access to that iPhone. It's rented. It's a rented phone. It really belongs to somebody else because they're controlling what's on it in the menu, and they can kick something off it if they don't like it, right?
+
+[09:41] And so what does it mean to own something versus rent something? Root ownership is very interesting to me, but it comes with real perils. And in crypto, people can get physically attacked and forced to hand over their crypto. You want instant finality?
+
+[09:58] You get the $5 wrench attack. And so there's tradeoffs for everything, right? But I would definitely pay attention to where we have root and where we don't as something deeply enmeshed with this question of whether we have agency. And I would ask, who's writing the menu?
+
+[10:17] It feels that there are maybe, maybe necessary, well, not necessary, there are so many benefits from the last couple centuries of progress. We gave the example in our coffee-fueled DMs about declining fertility rates, declining birth rates, but also matched with declining infant mortality.
+
+[10:43] And I, you know, made a claim that that's a net benefit because although we are seeing decline birth rates, at least we live in a world where, you know, 50% of children don't die before the age of, you know, two or three. And I guess in some sense, it's true that we don't have the agency to choose to live in a world where that's not the case.
+
+[11:05] But wouldn't that be a good thing? So you want me here to defend infant mortality, which I will do because I once won Model UN as North Korea, you know, you've come to the right place. Are there recordings of that? Because that would be a good, good content.
+
+[11:23] You don't have to, but just take the idea where you want it to. Yeah. So we get used to things really fast. And so, and we accept things. We learn to accept things. And so in our world, we still have illness and we have pain and we have death and loss and grief.
+
+[11:41] And I think some of those things are changing. Like the number of people here who've lost a parent is much less than it would have been 100 years, 200 years, 500 years ago. And maybe we'll get to a point in 100 years, 200 years, where very few people in the room will have been close to someone who died and will have had to go through that.
+
+[12:04] And as a result, people become more sensitive to smaller things, smaller bumps in the road. And this isn't to say, oh, the kids these days are so sensitive. This isn't to say that at all, because it's really genuinely felt, right? And so we have this calibration where we expect and we feel a certain amount of pain, a certain amount of hurt, a certain amount of joy, and we reset to the circumstances we're in.
+
+[12:32] And we tell stories based on what's actually available to us about what's normal. And right now, we haven't solved death. And so we have a story about how death is part of life. Childbirth is still very painful. So we have a story about how it's painful, but it's worth it.
+
+[12:48] And as technology changes, our stories change too. But our internal calibration, how much pain we experience, how much joy we experience, I don't know that it's actually that different in one time versus another. And so you can say that bringing down this rate of illness is good.
+
+[13:07] Bringing up, you know, lifespan is good, absolutely. But does it make a person happier on net? Yeah, that's debatable. I would probably say people are about as happy now as they used to be because you get used to it. Which makes me think that maybe it just doesn't matter because we'll get used to anything.
+
+[13:26] Well, the goal isn't being happy, obviously. The goal is something else. So like you look at studies of amputees. So let's say an amputee before they have the amputation is a seven out of 10 happy. They have the amputation and it goes down to a two.
+
+[13:40] Then after a while, it comes back to a seven. And that's how we are. We get used to stuff. And so obviously our motive for building all this technology isn't actually making ourselves or others happy. It's something else. And so I think that's an interesting thing to pay attention to.
+
+[13:59] Yeah. You've talked about the concept of infinite games and finite games and how there's almost like ethics around prioritizing infinite games and making those the things that we're trying to build or be a part of. Can you talk about that concept?
+
+[14:15] Like what does that mean and why is it important? It's a really good book. If you're going to read a short, good book, this is a good one. If you haven't, finite and infinite games. But basically it advocates for a morality. It derives a morality around whether you're offering to others the opportunity to play in an unbounded field versus let's say choose off a menu, play a game that you control.
+
+[14:47] You're putting a box around people and you're limiting the options of what they can create and take things in their own direction as opposed, you know, I did a paint ceramics thing the other day with a friend, which is fun. But, you know, all the ceramics are pre-made and you can paint whatever you want on it.
+
+[15:07] But like they've just given you these options and there's this kind of illusion of freedom. Not that it's immoral at the paint ceramics studio, but you see what I mean? Like with some technologies, with some substrates, you genuinely have an accelerated ability to create what you want, which isn't delineated by the person that made the substrate.
+
+[15:26] The person that made the substrate isn't saying you can use this for A, B or C. You can use it in unbounded ways that they can't have anticipated. So I generally agree with this, but I do think that creative constraints can sometimes lead to more creativity. And so, for example, I guess you could call an LLM a finite game in the sense that we have received this technology that kind of has a very extensible menu of options of what we can do with it, but people have been making incredible things
+
+[15:56] just in the last couple of years of vibe coding and et cetera. So do you see AI as a finite game? Well, I don't want to conflate AI with LLMs. I hope we can un-conflate that. Say more about that. Well, there's a really great series called The Alchemist.
+
+[16:18] It's an anime series where they have these monsters called the Homunculus that basically eats up human souls and then churns them back at you. Yeah. So there's that aspect of it. You know, it's sucking up all these stories and all the experiences and sort of giving you like the median.
+
+[16:40] And that's really interesting if the information you had was kind of below the median. You know, I got this rash on my arm. I don't know what it is. I just want the median answer about what it is. That's so super useful and wonderful. LLMs are so wonderful where they've made things, made information easier to ascertain than Google search used to.
+
+[17:01] It's a wonderful replacement for and improvement upon Google. The thing that really worries me about LLMs, and I'm not talking about economics because I think some of that stuff is boring and we can go into why it's boring, but the same way that every shopping street in every major city has all the same stores now because of frictionless global trade.
+
+[17:28] That same thing could happen to our minds as a result of LLMs because the LLMs are converging. And you can see this in the data. The LLMs themselves, they kind of mate with each other. Actually mate is the wrong word because that would produce something further and greater.
+
+[17:47] They just become homogenized and the more that we communicate with them in a frictionless marketplace for answers and where we're all talking to the same creature all day. It does that same thing to us internally as to that shopping street in those cities.
+
+[18:06] And so much of what makes life magical are the funny little nooks and crannies in each of our thinking. The sort of kintsugi of each of our thinking, if you will, the place where there are tears and bandages and we risk homogenizing ourselves and reducing what it is about us that makes everything so cool and interesting.
+
+[18:29] And that that seems like a bummer. So whether LLMs are whether LLMs are a finite or infinite game. I mean, I do think that some of the creators I've seen that are making things using AI are making things that the LLM companies, the model companies couldn't have imagined.
+
+[18:50] Right. And if you look at previous movements like social media, some of the greatest phenomena of social media aren't really or in value capture from social media aren't by the social media company. So I think there's a potential for some infinite games with the LLMs.
+
+[19:08] But I think there's also some real risks to us inside. I some another theme that I think comes up again and again in your work is this concept of homogenization versus almost like a constructive balkanization of like if we were able to create smaller pockets that couldn't interact, then that would actually be beneficial.
+
+[19:33] There's also a concept of like the idea of exit is very much internal into that. I think you or Curtis Yavin in your conversation with him talked about how it would actually be beneficial for the world if every country or every continent just closed down its doors and didn't talk at all to every other country for 50 years and then came back together.
+
+[19:54] Can you kind of motivate that hypothetical? Like why would that be a good thing? Yeah, totally. So imagine if Pangea imagine if we all split split off from each other again and everyone had to kind of go off in their corner with like let's say like Dunbar's number of people for a thousand years and then we came back.
+
+[20:15] Would the world be richer or poorer in terms of ideas, stories, cultural artifacts, maybe even technology is probably richer. And this homogenizing and streamlining makes us net poorer because it creates these kind of tournament economies where there are like five seats for a winner and then everything else can't participate in that game.
+
+[20:38] And so you get a loss of diversity. I feel that I have a different perspective on this because I do think that although I almost think about diversity within the cluster versus diversity of clusters. This is actually kind of an interesting, it's like the libertarian idea of we're all just going to exit to our little islands and have our own perfect societies and there's going to be thousands of those and we can exit between them if you don't like one you go to the other.
+
+[21:07] Whereas I think edge and I would actually say more ethereum as well is a bit more like no we are interdependent there is mutuality mutualism and there is a beauty in that and maybe there is kind of a concept of cosmo localism where there are local pockets of innovation and community and you know people spending time together but we are tapped into the cosmic or the global infrastructure. You know, that's why the Curtis thing is a thought experiment not a recommendation.
+
+[21:35] It's it's it's a it's a thought experiment that says is it making us net richer or poorer to be so frictionlessly interconnected. That is the thought experiment. That makes sense. And so the question there is by exploring that thought experiment like how much how far on the dial do we want to go in terms of yeah.
+
+[21:53] Yeah, so reduction of friction in a system leads to a loss of diversity in the system. Because it accelerates Pareto dynamics in that system or winner take all dynamics. Yeah, that I actually completely agree with and I think there is a new cohort of builders like Yancy Strickler who founded Kickstarter and is now building the dark forest operating system.
+
+[22:17] And then a few others who are thinking about how do we create pockets of community or you know synthesis on the internet that allow us to have our own little nooks, you know neighborhoods. So yeah, I think that's that's great. I want to talk briefly.
+
+[22:37] We don't have to dwell on this, but just crypto Ethereum. Where is it at? And where is it going? Like you've you've spent, you know, a long time in the space. I feel like you probably understand it more than anyone, especially in the context of how it's becoming a mainstream thing.
+
+[22:52] And I'm curious for just your thoughts like where in 2026 in June, you know, where is crypto at and what's going to happen? In the year of our Lord 2026. Where lies the crypto? In the year of Vitalik 2026. Well, as someone who's fairly happily sacrificed all of my 20s and half of my 30s on the altar of crypto, I think that it's cyclic.
+
+[23:22] So when I started working on crypto, there's already Bitcoin and Bitcoin and Ethereum did two really important things to the world. And if we think about this time in 50 years, 100 years, 500 years, we will not look back at this company or that company putting crypto on the balance sheet.
+
+[23:45] We will look back and think what changed fundamentally about the world? What's what what's different about it? And what Bitcoin did, which no one had done before, is create a secure, decentralized money system that wasn't issued by the government.
+
+[24:02] And the government can't prevent you from sending value to anybody on that system. They can try, but they can't do it. And so it's a bulwark against complete authoritarian control. It doesn't prevent it, but it's a little wedge in that door that can't be fully shut.
+
+[24:20] And then Ethereum came along and expanded that capability by making that value more useful through smart contracts, through programmability, because there's more stuff you can do once you've put some value into that system. So it's not just moving it around so it sits there.
+
+[24:41] And those two things are really powerful. And one happened in 2008 and one happened in 2015, 2016. And since then, I don't think there's been anything historically relevant. Those were the main things when we look from a hundred year, thousand year timeline.
+
+[25:02] And so I think among the people that are really in it for the technology, there's some frustration because the big benefits, they've been around for a while. I think the next breakthrough that I'm excited about as someone who's interested in the technology that accelerates this potential for exit, that accelerates the ability to have an adjacent system that people can live and work in outside the system is privacy, is financial privacy.
+
+[25:31] So the ability to configurably have any transaction be private, and I don't just mean private from your peers, I mean private from the system itself upon which that transaction is occurring. And that's another that advances that that grows this wedge, you know, it's really another bulwark against total authoritarian control.
+
+[25:54] And we want as many bulwarks against that as possible. So that's the view of someone who cares about, you know, the technology for an ideological, philosophical reason. In terms of like the industry, there's all kinds of stuff happening, right?
+
+[26:09] Like institutions are finally adopting crypto. They're putting it on the balance sheet. They're playing around in DeFi. We call this in my company the DeFi TradFi singularity. Because companies, traders, are now pretty agnostic about whether they're finding returns or yield on chain or off chain.
+
+[26:31] And so there's no hesitation to put funds on chain if that's where the opportunities are. And all of the super high ways for value to come live in this on chain world are now open and very useful. And there are some very great ways to earn three, four percent on your stable coins at this point.
+
+[26:53] And it's become pretty hardened. And you hear about like hacks and this and that. But those are almost always newer, smaller protocols. The biggest, most battle-tested protocols in the space have now been around a long time and have gotten very anti-fragile by virtue of the fact that they're open source.
+
+[27:13] And in a world where AI is generating a lot of, it's pointing. So AI is being used to surface a lot of bugs and vulnerabilities in a lot of code bases. And if your code base has been open source for a long time and it's been, there have been bounties, right?
+
+[27:37] Because if you hack that, you get a lot of money. So people try to, and so that like hardens your whole system that everyone's always trying. And so some of the highest quality code out there and some of the most resistant to new vulnerabilities being surfaced is actually the most battle-tested crypto protocols.
+
+[27:55] And so that's pretty exciting. And then there's also this huge dynamic around stable coins. It's basically the digital Marshall Plan. It's exporting the US dollar to everybody. Satoshi is like rolling in his grave because it's not really like the use case for crypto that he probably imagined, right?
+
+[28:15] That decentralized rails would function as a transport layer for the US dollar to be bought and sold everywhere that would rather use the US dollar than their own currency. And so it's accelerating a Pareto stratification. It's accelerating a winner take all game around global currencies such that we'll probably have fewer global currencies in the future.
+
+[28:42] And if that's a diversity, a type of diversity that you care about, I mean, currencies are going to be like endangered species. And if there's stories and information embedded in those currencies, those are going to go away. I don't know whether I think of that as a bad thing because fiat currencies are controlled by people.
+
+[29:00] And I think one of the most powerful goods of Internet native currencies is being a hedge and a bulwark that is that's open. You can see the emission schedule for a new Bitcoin. You can understand openly program programedly, you know, how a new ETH token comes into the world.
+
+[29:24] And so it's a hedge and a bulwark against the subjective group of decision makers in closed rooms that put their finger on the button and emit more currency, right? Like every single fiat currency has eventually inflated itself to death because if you have your finger on the printer, then you eventually, you know, you got that project.
+
+[29:43] You got that, you know, that war, that that social good, that that voting block that would really like a little bit of a, you know, and eventually you do it. So it's nice to have that bulwark. I like the concept of a hedge and a bulwark a lot.
+
+[29:58] This is initially what attracted me to Ethereum early on. And then over time, I think Vitalik and other thinkers have really crystallized that idea and the concept of DIAC or what he now calls sanctuary technologies. It strikes me that crypto blockchain based technologies can be a sanctuary in the case of authoritarian overtake, etc.
+
+[30:21] And that there's kind of an interesting balance between AI and crypto as they both develop together where crypto offers like a different side of the coin to what's happening in AI. I'm curious if you have thoughts on that as these two technologies are, you know, maturing together, how the interplay between them will, will happen.
+
+[30:39] Well, my fear is that crypto inherent like what got me into crypto is the potential to change how the economy works and change who's at the table a bit by getting rid of gatekeepers and enabling the same way that the internet let anyone who wants become a creator. Crypto lets anyone who wants start a business by giving permissionless access to a financial system.
+
+[31:07] And that does potentially change who wins around the table. Some existing winner types will keep winning, but some new people really can come into the game and have done that way. My fear with AI is that it entrenches and that it crystallizes, that it preserves in amber existing hierarchies and existing winners rather than making the system more nimble and fluid.
+
+[31:36] And that's my fear with it. And I think the more centralized, the fewer models there are, the fewer winners there are, the more of that is likely to happen. But the more different models there are, the more different players, the less likely that is to happen.
+
+[31:55] I mean, I like to see an expensive training run done by a proprietary AI company and then have some open source AI come along and be 85% as good for like no money in a training run. Right? Like if you want to just burn a bunch of cash, do one of these training runs.
+
+[32:11] Because there's a, people like to use the best frontier model. But behind that, they don't love using the number two or the number three. And they're happy to go into like the 85% as good like Kimmy, Quinn, open source stuff. Right? And so I like that.
+
+[32:27] That gives me hope. Because I think if just a couple companies have all the control, then they're going to play this finite game. And that's everyone's fear, right? I can feel it so much here in SF. I can feel it from people. And here is better.
+
+[32:45] But it is in general. Like people have this feeling and it's from AI. It's giving them the feeling, a story. It's a story. There's a story giving them a feeling and the story goes, there's just going to be a couple of winners. And the big frontier model companies, the proprietary ones, a couple of winners.
+
+[33:06] And you're in this game of musical chairs in whatever you're doing. And chairs keep on disappearing. Chairs keep on disappearing. Or you're in a tank and the water level keeps rising, keeps rising. And you're trying to keep your head up. But the, and that's a terrifying story for everyone to believe.
+
+[33:22] Absolutely terrifying. And everyone really feels that way. And people don't want to admit it. It's like a, people have a schismatic, you know, personality. Where they're feeling this so powerfully. But they don't want to articulate it. Because that would involve admitting that they think that they're vulnerable.
+
+[33:41] And that they think maybe they're not so different and special. That they're able to produce something even under these threats and these conditions, right? Or that maybe they're using it wrong. And maybe other people will, oh you're using it wrong, okay.
+
+[33:55] You know? And so if everyone is hiding this fear from this story. And is secretly kind of a Hobbesian in this way. But has to pretend to be confident and kind and generous in this other way. Whoa, that's so weird. You just get a group of people like with really different revealed and, and seen preferences.
+
+[34:20] You get a lot of, you get people basically with a double, double life. You make it hard for people to be close with each other. Um, because they're, they're, they're distanced. Um, from the, from this fear and this narrative. And, you know, ultimately like this is just a story.
+
+[34:37] It really is just a story. And it, it's, it's become so unshakably, um, it's become so unshakably congruous with reality here. Like it's a frame that's pretending not to be a frame. And, you know, here it's very fixed. It, it, but it's not the same in other places.
+
+[34:56] People don't feel it as much. I've noticed that too. This feels like a very SF phenomenon where people genuinely believe in this kind of permanent underclass potential thing that's going to happen. And they are afraid of it. Whereas, you know, I, I, for a few years recently lived in Europe and no one is thinking that way.
+
+[35:14] Maybe they should be. Maybe, maybe we actually need to get people a bit more aware of what's happening so that we can at least do something, you know. Okay, but okay. So let's say there is a permanent underclass. Okay. You know what I mean?
+
+[35:28] It's like, like there's a frame in, there's a frame outside of that. Which is that the goal of life is to move up in some kind of like social class hierarchy. So like even, even this idea of permanent underclass, like that thing has a frame around it.
+
+[35:44] Which is that this goal of life is this very specific thing that exists in this like very narrow band. And that, you know, you have to be full of fear and that you have to be full of pain. If you're not, you know, doing some kind of Marxist class story in reverse to yourself at all times.
+
+[36:01] It's so specific. I think that's actually true. And I think you could make the case that we already have a system like that. Like Ray Dalio published an essay essentially saying capitalism doesn't work. And this is Ray Dalio speaking. And he was saying, well, it doesn't work for 50% of the population because there is, there is no social mobility in the US.
+
+[36:20] It's actually kind of a myth, or at least that's what the data shows. So, but again, I totally get your frame of like, why is that the thing that we need to care about? But at the same time, you wrote an essay talking about the real thing. And you have this like front of plane, back of plane metaphor where people at the front of the plane are experiencing the real thing.
+
+[36:39] They're in real relationships. They have meaningful work. They can eat organic food, et cetera. And people on the quote unquote back of the plane are scrolling TikTok. There is AI genius algorithms trying to get them addicted to the tech and et cetera.
+
+[36:54] So maybe it does matter. Like maybe this is something we really need to focus on. But it's not the rich people in the front of this proverbial plane. And it's not the poor people in the back. So like, if you think about this plane, it's actually a lot of like wealthier.
+
+[37:08] Like we're talking about San Francisco having this brain, this mind virus, right? And so those are some pretty well off people. And so like, let's call the back of the plane where you're having pseudo experiences, where if you're a kid, you're watching unboxing videos rather than playing with your own people.
+
+[37:25] Playing with a toy as opposed to watching an unboxing video isn't a huge price difference. Like you can just have like one toy or the toy can be a stick or a block or my favorite toy as a child packing peanuts, which are free. You can have those, right?
+
+[37:46] And then you're in the front of the plane. And so I think getting sold on and then you look at, you know, very wealthy people that are addicted to. You know, pornography or unhealthy food or, you know, this or that pseudo experiences. Or addicted to entertainment, addicted to dopamine, social media, dopamine loops, right?
+
+[38:08] Are those people in the front of the plane or the back of the plane? And I think in this era, there's, it's inward, it's mental. Like the last era was about exploring the world and understanding everything that was out there and converging on that frontier.
+
+[38:25] And when there was no more frontier to conquer, then the companies needed to go for the inside. And that's the era we're in right now. And I would say like the way to get to the front of the plane is to have the experience directly in the present.
+
+[38:42] Well, it's definitely informing the, the way that we approach building edge and kind of creating containers for authentic experience, connection, et cetera. And tying this back to what we were talking about earlier, I think it's fair to say that you care a lot about people having the freedom to choose their own lives and, and not be co-opted by, you know, these things like, I don't know, TikTok or whatever.
+
+[39:10] But what happens when the thing that is doing the co-opting is something that people are free to choose? Or let me just phrase it much more succinctly, which is, should we regulate and ban TikTok and things like it? Well, those are two different questions.
+
+[39:26] So I think it's hard to like ban stuff because who's doing the banning? Who decides what gets banned? Okay. Who's paying the banners? Who's paying the un-banners? And then we get into that world. So you can't, you can't have it be like that.
+
+[39:41] There's just stuff and you have to try to try to stay away from it and you have to strengthen from the inside, right? Like you don't ban social media. You teach kids about the cool stuff going on in the outdoors. You teach them about themselves and what it means to be a person so that they're not just lost in a trance of comparison to others that's immiserating.
+
+[40:04] So you strengthen from the inside. I'm not a banning things person because it doesn't really work because you always want the thing that's banned too. I think you could make the case that there are counterpoints to that. Like very serious drugs that have a hundred percent addiction rate that maybe we should just like not have on the streets, you know?
+
+[40:24] Yeah. Yeah. Yeah. Yeah. I think we should try to not have like terrible poison on the streets for sure. Okay. So it's a question of what is, what falls into the bucket of terrible poison? Is TikTok eventually going to be that or? I think that's too confusing.
+
+[40:40] I mean, so I was reading a, I was reading like a scroll that had been found from an ancient priest in ancient Egypt. And you can look this up. But it's translated as things aren't like what they used to be. The kids are all doing it wrong. They're doing the hieroglyphics like this and that.
+
+[40:59] And they don't really get how to do it for real anymore. And so people have just always felt like that toward the thing that, you know, it's always kind of this generation's yuck is the next generation's yum. And with something like TikTok, as opposed to like cyanide, like that's no one's yum.
+
+[41:19] But like TikTok is someone's yum. And so I don't think you can just go in, ban it. I think you get some cool creations through these platforms. So like, for example, I saw this movie, Obsession, that was really good. And it was written by a 26 year old YouTuber.
+
+[41:37] And that YouTube platform helped educate this person about how to write a good story. And now this person is replacing Hollywood. Because Hollywood got too gatekeeper-y. They got too into banning things centrally, letting things through, who's paying the banner.
+
+[41:57] And so they're getting outcompeted by this 26 year old YouTuber. So we're so happy that we have this YouTube format training people in storytelling. And I think there's something like that to be said about TikTok. But you don't just get to not educate people with internal strength and bulwarks against addictive things that come through.
+
+[42:17] And I mean, there have been studies on this with like opioids, right? A lot of like whether you get addicted to something has to do with what you have to do the next day. And whether there's other stuff going on that you've got to wake up and go to.
+
+[42:31] Which isn't to blame anyone for anything. It's just, you know, that's how it goes. Strengthen from the inside rather than regulate and ban from the outside. I got carpal tunnel recently. And the doctor wanted me to get a surgery which would go in and cut, cut, cut from the outside.
+
+[42:48] But instead I had sort of a PT friend who gave me these, you know, like grip strength bands. Have you seen these? They're so great. Rock climbers use them. But people that type a lot use them. And I type a lot in order to exchange lots of messages.
+
+[43:02] But you just strengthen from the inside. And I didn't have to get the surgery. And I was thinking what a great metaphor for everything, right? Yeah, I'm actually in complete agreement with you. I find these platforms that create ground up creativity incredibly interesting and important.
+
+[43:21] And the way that memes can flourish through these systems is really beautiful to see. And it's very creative and interesting. And so hopefully there are ways to maintain that without having the mind numbing downsides. I want to touch on kind of nearing the end here.
+
+[43:38] The idea of purpose as we enter this brave new world. You wrote about how you've also sometimes had not a crisis but just kind of questions around purpose. And you've had local purpose around the business you're building or maybe a friendship or whatever.
+
+[43:56] But not the concept of like general purpose. And I was wondering if you could touch on that a bit. Yeah, I actually feel like I've gotten somewhere with my thinking around this and crises around it. And where I've gotten is this. My sense of purpose isn't available to be told to me or not told to me by some group of people or some company.
+
+[44:17] Like, ew, as if, you know. Like, there's no company or no group of people that could take away my sense of purpose. Or could give me a sense of purpose. And it's not someone else's responsibility to, oh no, they're gonna. That whole frame is like downstream of some really weird stuff that needs to get cleared out.
+
+[44:38] That's downstream of this idea that life needs to be justified in any way, right? That if I don't have this like specific story, I don't deserve to exist. But I deserve to exist. Actually I don't. You know, I just do. You know what I mean? So this whole thing about like guilt.
+
+[45:02] Do I deserve this? Do I deserve that? How do I justify this? I mean, all of that stuff is just so much story. And the fact that you exist. That you're alive. That you're present. That's just, that is self-justifying. It completely just is what it is.
+
+[45:17] And all this stuff about purpose is a story. And the story isn't useful necessarily. And you can say, you can talk about where the story came from. Like there's a Judeo-Christian, you know, the culture I come from. There's a story about, you know, the Garden of Eden and the fall.
+
+[45:35] And we did something wrong a long time ago. And we should feel bad. And we should feel really grateful that someone came and fixed it a little bit. And, you know, that's why someone deserves our thanks or our, you know, this. And we need to explain, you know, why we're here.
+
+[45:49] I just don't think that that's the right frame necessarily, increasingly. And this question about like purpose and finding it and meaning. Like the idea that there's meaning points to the idea that there's something else. So if we're talking about like the meaning of something.
+
+[46:03] Like let's say the meaning of like that piece of art. The one with the tree. Like what's its meaning? That implies that there's something separate from it that is necessary in order to give it value. But what if there isn't? This idea that there's some other thing that needs to be pointed to in order for the first thing to be valuable.
+
+[46:26] Like where did we get that frame? We got that frame from living in a world of abstraction and of story instead of actually just inhabiting the thing that you're in directly. Like I was thinking about constellations and how there aren't constellations, right?
+
+[46:46] There aren't any. They're just a bunch of stars. And we've decided that we're going to like link them all up in this way so that we can talk about them so that we can. Which is great because then we can refer to them. And it's fun because it shapes.
+
+[47:00] But they're not really there. And so you got to remember it's just stars under there. Yeah, it's an interesting, again, a concept I see you coming back to again and again is the stories that we're telling ourselves and that are bestowed upon us by central powers or, you know, society at large.
+
+[47:20] Yeah, it's very interesting. My final or maybe penultimate question, depending how long your answer is, is what is your end game? What are you working towards here? And what's the vision that you're trying to build towards? I'm actually just not doing it that way.
+
+[47:39] Love that. Can you say more? Yeah, like I really think if you have a goal or if you have a protocol, then you are co-optable. In that exact moment, because you're a machine and you're too similar to the things being built to be meaningfully differentiated and you're hijackable.
+
+[48:01] The moment that you're pointing all of your energies toward, you know, narrowing, narrowing in toward just like achieving one thing and you'll line up all the things retroactively in order to achieve that thing, right? Like that's how they get you.
+
+[48:15] That's how that's how like algorithmic we're going to entertain ourselves to death. Like eventually you're going to be looking at one of these things and it'll say, you know, chew off your finger. You can't look away and you'll do it. And how it'll get in your mind, the hooks that will use to get in your mind are your protocol, are your algorithm, the things you're optimizing for.
+
+[48:38] And so if you work backward from like the effect you want to have all the time or like what you want someone to think, and then you act in order to get that thing done. To the degree that you do that, and of course you can do it a little way locally, but to the degree that you point everything at that is the degree that you're kind of like hijackable by these things because you've made yourself pretty similar to them.
+
+[49:02] Does that resonate? Yeah, there's almost kind of like a reject modernity, embrace tradition thing here where it's like reject goals and embrace just being. Is that what you're trying to get at? Well, a little bit, but it's also just like, what is the thing in the moment that's the right thing to do?
+
+[49:20] What's the thing that we want? It's not zero planning. It's planning for sure. What do we want to create? Like, what should we create? What would be cool? What would be fun starting there? How do we make it? What's the next step to make it rather than starting from the outcome and saying, I want everyone to feel that I'm a nice person.
+
+[49:42] What do I need to? I want to feel a sense of belonging from these people. What do I need to say in order to feel that sense of belonging, right? Like that kind of thing is where you have problems and where things can come get you, but saying, let's make a plan together because there's something that we want to create or there's something we want to achieve or there's something we want to change.
+
+[50:05] Okay. What's step one? What's step two? What's step three? I think from like making a plan from the inside out is great, but having like a goals based life that's optimizing towards specific outcomes starting from the outcome and moving in. That's when you start becoming like kind of an algorithm. There's this great, like this is Alan Watts. He had there once was a man who said, damn, it would really seem that I am a creature that moves in determinate grooves.
+
+[50:34] I'm not even a bus. I'm a tram. Right? You don't want to be that. That was beautiful. You want to be a bus. I do want to be a bus. I don't want to be a tram. Maybe just to end in this, you know, take it or leave it. But do you want to share a poem? Is this the right time? Or is later the right time?
+
+[50:55] I think Toby and I are going to share some poems later. Okay. All right. There's something to look forward to. Perfect. Amazing. Well, Amanda, thank you so much for being here. Thanks for having me. Bye. Bye. Bye. Bye. Bye. Bye. Bye.

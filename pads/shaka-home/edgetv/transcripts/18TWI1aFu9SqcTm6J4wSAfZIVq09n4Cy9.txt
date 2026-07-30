@@ -1,0 +1,345 @@
+# The Starfish and the Spider_ 20 Years On _ Ori Brafman on Leaderless Organizations
+
+Date: 2026-06-22
+Source video: The Starfish and the Spider_ 20 Years On _ Ori Brafman on Leaderless Organizations.mp4
+Drive: https://drive.google.com/file/d/11fDXsJdyeQvVwAKWHjiuXDyOtxRVnwxW/view
+Duration: 00:58:54
+Transcribed: 2026-06-24 · whisper large-v3-turbo · language: en
+
+---
+
+[05:49] I think after three weeks being here, I just started off with not ladies and gentlemen, but just friends. I've seen half of you a few times now, and I'm just grateful that you come here to enjoy the next hour with me and these three friends that we have in the first row.
+
+[06:13] Well, it's an absolute honor that I can introduce Ori Brafman, who is the author of a book that I and maybe you too have not only read but really learned to love. The book is The Starfish and the Spider, The Power of Leaderless Organizations.
+
+[06:32] When I started in the journey of thinking about decentralized organizations and building DAOs, that was one of the first books that I read. I looked at Amazon, every book that I can read about that topic, and that was the book that came up, and it really did inspire me.
+
+[06:48] So in that sense, I am, again, I'm unbelievably proud, but also joyous that I can share this experience and that I, through my friend Rasmus, can bring Ori here. And without further ado, Ori, the stage is yours, and lots of applause for your Ori Brafman.
+
+[07:18] So we'll do a little brief background, and then I think do a panel. So I want to start by talking about this guy, whose name was Jacob Van Zanten, and he was in charge of safety for KLM Airlines. And he just finished running a 30-day course on safety when he was back in the cockpit at the 747 en route from the Netherlands to the Canary Islands.
+
+[07:54] And this guy was literally the poster child for the airlines, and he was known for two things, for being safe and for getting people there on time. And when he is midway inside the cockpit, he gets a message from air traffic control saying that his destination airport was under a terrorist threat, so he needed to divert.
+
+[08:18] And the flight would have to land in this tiny little airport in Santa Cruz, and he lands there, and when he lands there, this is, again, a tiny airport. There's a bunch of other diverted flights that are cross-continental, and minutes turn into hours, and delays get longer and longer and longer.
+
+[08:39] And he starts stressing out about getting people back in the air, because he knows that if too much time will pass, then there will be mandated rest periods, and everyone will have to be stuck there in this tiny little island. And finally, the terrorist threat is released, and he does everything he can to rush.
+
+[09:00] By the time he makes it to the runway, a thick fog descends on the airport. And that's when Van Zanten, the head of safety for the airlines, who's so worried about getting there on time, and being known for being a head of safety, does the unthinkable.
+
+[09:17] He's at the edge of the runway, and he takes off without ATC clearance. We have 700 meters visibility here now. Wait a minute. We don't have ATC clearance. We're going. Captain Van Zanten, highly stressed, knowing that he has to take off or abandon the flight.
+
+[09:41] His crew, aware that he's done wrong, but frightened to tell him, disaster is now inevitable. Van Zanten takes off without clearance, creating the biggest accidental loss of life in aviation history. And we can sit here, and we can talk about Van Zanten, and say, like, oh, he was being reckless, he was doing this, he was doing that.
+
+[10:18] And the fact of the matter is that he was actually a great guy, and treated his crew really well. The interesting point is going to be, why didn't the crew speak up? There were two other people in the cockpit. One with their hands on the throttle, the other one the navigator.
+
+[10:37] How do you create an environment where if one person makes a mistake, you empower everyone else to actually correct for that? And to think about that, and to think about other aviation histories which followed almost identical patterns, what happened in D.C. a year ago, right?
+
+[10:53] There was a crew member who was in the wrong place. Two other crew members weren't speaking enough to say, like, hey, you need to get in the way of an incoming flight. And in order to understand what happened, we're going to go back in history.
+
+[11:07] I'm going to go to the new world and meet this guy, Hernan Cortes, who showed up with 80 men and 80 horses in modern-day Mexico City, the Aztec capital of Tunichitlan. And when he shows up, he wanders about the diversity and the strength of the population.
+
+[11:29] There's roads, there's pyramids, but he's really there for one reason, right? He's there to get gold. So he says, hey, take him to your leader, and they take him to Montezuma the second, and he gives him an ultimatum. He says, give me all your gold, or I'm going to kill you.
+
+[11:43] And Montezuma the second says, fine, fine, fine, take my gold. Cortes is not a man of his word. He kills Montezuma, he blockades the Aztec capital, and what happens next is horrible. Within two weeks, 200,000 people die, and within two years, the entire Aztec civilization is conquered.
+
+[12:02] They got the leader, controlled the population, eliminated. They did the exact same thing, the Spanish, with the Incas. And it's at the end of the century, with the winds of victory in their back, that the Spanish show up in modern-day Southwest, and encounter a different tribe called the Apache.
+
+[12:22] Unlike the Aztecs, the Apache didn't have any roads, they didn't have pyramids, they also didn't have any gold. So the Spanish say, well, do the next best thing, adapt to our own lifestyle. The other difference between the Aztecs and the Apache was that the Apaches had different types of leadership.
+
+[12:40] Rather than top-down leaders, they had folks called the Nantons. If you want to follow Nantons, you can. If you don't want to follow Nantons, you don't have to. The Spanish start taking out the Nantons, the most famous one is Geronimo, and this is where it gets interesting.
+
+[12:55] The harder that the Spanish fought against the Apache, the stronger the Apache became. A new Nanton would just take over the tribe and become more and more decentralized. And we think about this with the metaphor of biology, of a spider. You take a spider, you cut off the head of a spider, it dies.
+
+[13:16] You cut off the arm of a starfish, it grows a new one. Because unlike the spider, the starfish does not have a central brain. This is not photoshopped. This is an arm of a starfish growing an entirely new creature. Because each one of the arms contained the organs in order to replicate.
+
+[13:34] And you think about that as a metaphor for business and society. And you think about that from the Apaches to modern day examples. Everything from music sharing, to blockchain, to all these technologies that depend on starfish to become so effective.
+
+[13:59] And the harder that you fight these technologies, the stronger they become. And it's for two specific reasons that we're going to look at today. One is the power of human networks. And specifically, the idea of circles. So, after the book came out, there was this guy who reached out to me.
+
+[14:15] And his name was Neil Cole. And Neil Cole is part of something called the Home Church Movement. As the name suggests, instead of meeting in churches, big, huge churches, it means instead of people's houses. And I don't know how many people can fit inside a house.
+
+[14:32] Like maybe 15 or so. And when they grow beyond that, they grow an entirely new home church. And then when they grow beyond that, they grow an entire church. And they said, hey, can you come and speak to us? And it was a room kind of like this.
+
+[14:43] And the room had a couple hundred people. And I asked them, how many members does the home church have? If you guys had to guess, how many members do you think they'd have? Just throw it out. Yeah? A million? A million? What's yours? Ten what?
+
+[14:57] Ten. Ten members. So, my guess was 200,000. I was way off. The conservative estimate, the conservative estimate is 200 million. Wow. This is the biggest religious movement that no one has heard. None of us has heard about. They're especially powerful in China where you're not allowed to meet inside of physical churches.
+
+[15:17] And we don't see this coming until it's obviously too late. One of the more prominent home church movement adherents is this guy. Yep. And he talks about the home church. And we didn't see it coming. We didn't see it coming. And all of a sudden, it's in the very top levels of the U.S. government.
+
+[15:37] The second element, and this is what we can take on in terms of as we run our companies, is the idea of being a catalyst rather than a CEO. Rather than controlling something, you do it, and then you get out of the way. And you think about modern-day non-tons.
+
+[15:53] We talked about Geronimo. We're going to talk about... Whoops. I'm going to show this video. It's a very boring video, but an important video. All right. So here we are, one of the elephants. Cool thing about these guys is that they have really, really, really long fronts.
+
+[16:13] And that's cool. And that's pretty much all there is to say. Why is this so important? So, I showed this video, and I don't want to say the name of the company, but it ends with Crowsoft. And it was their innovation unit. I was like, hey, you guys should really pay attention to YouTube.
+
+[16:35] And they're like, yeah, just a bunch of cat videos. They didn't see it coming until it was too late. They had the same reaction that you guys had when I told you guys about the home church movement. We don't see the power of these networks.
+
+[16:47] You don't see the power of Elizabeth Cady Stanton, who started the first circles for women's suffrage. You don't see the power of someone like Jamie Wales, who wanted to create a resource for kids who didn't have money to hire editors and created Wikipedia.
+
+[17:06] For the longest time, people were like, Wikipedia is not going to go anywhere. What about Britannica? You're just smoking crack. These technological changes enable more decentralization. People on the side say like, yeah, yeah, yeah, this is just smoking crack.
+
+[17:20] And then all of a sudden it takes over the world. And we're like, what happened? The moral of the story here is that we need to become more agile as individuals, right? Well, I don't know. Raise your hand if you've ever heard of anyone who's very rigid, goes to a conference like this and comes out agile.
+
+[17:37] Does that happen? I've never seen it happen. Instead of thinking about an agile leader as an individual, think about a network. Depending on the context of the situation, different aspects of the network, different people that you've met here at the conference, different people from where you are in your industry can be activated depending on the context of the situation.
+
+[18:05] And I can't predict what is the right context where we're going to have the right talent. The idea, though, is that the talent is here in the room and that it's our job to enable them and think about going all the way back to the cockpit with Van Zanten.
+
+[18:23] The answer was in the room. You don't take off into a foggy runway without getting permission. But how do you actually listen to people? And listening to people is more than just being willing to listen. It's about drawing that information from them.
+
+[18:36] So I'd like to leave with three specific takeaways and then let's have a panel. The first one is that you need to recognize that there's a cost to control. A lot of my work over the last 20 years has been with very, very large organizations, including the U.S. military.
+
+[18:51] One of the questions I've asked in the U.S. military, and I'll ask this now, how do you, it's 1941, and you're fighting Nazis. What do you do? Seriously, like, what do you guys do? 1941. Yeah, what else? Like, you're fighting Nazis. What do you do?
+
+[19:10] You go after them, right? You attack Europe. You, right, invasion of Normandy, right? It's 2026. You're fighting Nazis, real Nazis online. What do you do? They became decentralized. Like, who are you going to attack? Even if you wanted to attack, there are Nazis in New Zealand that are doing attacks.
+
+[19:32] And I don't want to go dark, but you can't just use force. There's economic costs to trying to control the entire world. How do you take a different approach? So one is you have to recognize in your company, in the levels that you're exerting control, what is the cost of that control?
+
+[19:50] I'm not saying that control is always bad. If you're trying to manufacture something, you need to have pretty clear protocols, but you need that control. And think about starfish as a more economically efficient way of oftentimes solving solutions.
+
+[20:04] The second one is very specific, is that you need to concentrate, make a spider in terms of the what. We spend way too much time in organizations, having too many people have too many, too much time deciding what we're going to do. What we're going to do should be very clear.
+
+[20:21] I'm not talking about KPIs here. I'm talking about something that's even bigger in terms of a P&L or a strategic imperative. Concentrate the what, but distribute the how. Get out of the way in terms of how do we actually get towards this goal.
+
+[20:37] The third one is how do you foster, I think Simon, you're going to talk about this. How do you foster a sense of dissent that is ruthless, but at the same time, how do you have the emotional and spiritual closeness that isn't just emotive, but it's gushing?
+
+[20:58] And why did I put the word gushing in there? Because it needs to be so, as a leader, it's our jobs to be so gushing and so supportive of folks that they know that we always have their backs. Why have there not been accidents like with Van Zanten?
+
+[21:12] Because that's exactly what the aviation industry has started to implement. To create this environment where everyone has a voice, where you're still creating close emotional bonds, but you know that you can speak up. In the book, we talk about the ideal organization is a hybrid organization.
+
+[21:31] You're a spider and you maybe create starfish within spiders. If I had to do it over again, I know it sounds a little weird, but I would say that we need to have a quantum model. That you need to be both incredibly spider and incredibly starfish at the same time.
+
+[21:50] And that depending on the context of the situation, we take off our hats and we're either, hey, this is a very clear thing that you need to do right now and give very direct orders and control. And at the same time, how do I leverage the power of the network that is around me?
+
+[22:04] So I'm going to bring up Simon and Ross, my co-founder, and I will bring it up there. Yep. First of all, test, test, test. First of all, thank you for that great speech and I hope it inspires some of you in the audience. When I read your book the first time, it definitely inspired me.
+
+[22:26] I work in crypto, so when you know something about crypto, obviously we have DAOs, we have decentralized organization. It's very obvious that it matters. And I think I had the same experience as our entire industry, that actually executing it is really hard.
+
+[22:42] And most of us, and that includes me, have at least sometimes failed pretty miserably in living that. And I think that is one of the things that I kind of want to talk about with you today is why is it so hard for us if we know, if we know what is the right approach, if we know the benefits, economically wise, it avoids catastrophe, why are we still failing in executing it?
+
+[23:08] It's a broad question about what's the most common failure that you see. I'll say three reasons. The first reason is a large organization or any organization is going to try to spider things up because that's what our culture has taught us to do.
+
+[23:23] Even with the best of intentions, we're going to start making things. Someone's in charge of this room, I assume. This wasn't like, tell us about it. What happened? It's probably more economically efficient. And you're living your life as a gift.
+
+[23:52] So how many people have gone to Burning Man? Right? So Burning Man is the ultimate starfish. Like, do we really need the Burning Man org? Do we not? Are they spidering out of the starfishing yet? You think about that and you think about that as a, on a bigger scope in terms of, we have a mentality of trying to spider things, even if our intent is originally to be starfish.
+
+[24:20] The second reason is that you need to have the same level of beliefs, that if the leaders of the organization do not actually believe in the starfish approach, then it's, and I've been to organizations where a big fortune 500 companies, they're like, yeah, we're starfish.
+
+[24:38] And then you talk to the person in charge, they're like, yeah, you're not so much. So we really need to all believe in this. And the third one is that it's going to be fluid. We get stuck in this mindset, like maybe this entire thing shouldn't be starfish.
+
+[24:52] Like using the Burning Man analogy, you kind of need people to create roads so people don't die. That's probably a pretty good idea. So we need to kind of, we think about it in a very either or, but we really need to think about it as a quantum element and we're like, wait a second, that's not starfish.
+
+[25:07] So let's go fully spider and we need to do a bit of both. Let me zoom in first because what I heard out of it, it's, it's often a challenge of the psychology of the leader. And I agree with that. And at least I would think about myself that, that I really tried to, to implement it, but I would like, like you to ask, what do you think is the psychology of a leader who is able to enact these changes versus the leader who can't, from your observations?
+
+[25:37] I'd say two, two elements. One is buying the religion and believing this from a philosophical perspective. Or two is believing this from economic perspective. We have this myth that we need control for everything. It, it, it, it, it's just not true.
+
+[25:57] You, you can argue about this, but how much, for, for example, how much control do we need in our society as opposed to being self-policing? Should we have zero police? I'm not saying that, no. Should we have a police that, should there be a security guard right there standing in the corner?
+
+[26:16] Probably not. I don't know. But that we have to kind of get over either the economic myth or the belief myth. And realize that you're paying a price for it. I'm not saying you shouldn't pay a price, but you're always paying a price for control.
+
+[26:30] So making conscious that there is actually a price to control and there's probably limits to the control that you have and becoming aware of, of that, that you have to give up control. And there's a price for the inefficiencies associated with making a completely starfish as well.
+
+[26:43] Yeah. And probably less of a money cost, but more of a time cost. Okay, I have a question that we didn't even mention in our pre-conversation, but I know that it might be interesting to some people in the audience. There are decentralized organizations, but there are also decentralized products, right?
+
+[27:00] Like you showed YouTube in a way, right? Like with all of these creators in a way. Have you, like do you think there's a giving and taking that organizations that build decentralized products tend to be more decentralized? Or is there, or do you think you can be, you can be a total spider organization and build an absolute decentralized product?
+
+[27:21] Or is there any kind of like giving and taking between these two units? I think these products eventually, my assumption is that these products, let's talk about some very highly decentralized products, social media, YouTube, let's categorize them together, as well as music apps.
+
+[27:43] They want to become decentralized. They want to become free. I think there's going to be ways of monetizing them for the time being. I think that they're quickly going to be moving towards more and more decentralization. It's going to be more economically efficient for a band to release their album on a fully decentralized platform and only monetize in-person events.
+
+[28:06] If there's a disintermediate, if there's an intermediary in the middle taking cuts for ad revenue or something like that, eventually there should be a platform that is ad-free, that is peer-to-peer, that just gets the music out there, and then if I'm the artist, I no longer care about monetizing my money online, then I'm like, hey, let me gift this, and that the gift economy basically starts circling around.
+
+[28:33] Okay. Wonderful. I want to zoom in again on belief systems. I think that in my experience, when I ever tried to build a starfish organization, I felt that it really matters that people in my circle and in the sets of circles share core beliefs with me, or like with the organization, right, as a founder, it's of course, it's a founder belief first, and then you try to get on board other people in the same beliefs.
+
+[28:58] And I know, I would assume that they're Apaches as well, right, like they probably had a belief system around their, the way that their tribe is organized and about the Na'ans, and again, a broad question, but I'm curious if you thought about that.
+
+[29:11] What makes for a good belief system in a decentralized organization? What is a good belief? What are bad beliefs? What are, like, how could you design it? Let me ask, answer your question in a slightly roundabout way. Yeah. About 150 years ago, the first camera was invented, right?
+
+[29:34] And let's go back in time, if I tell you the first camera, there's a camera now, I can capture this room exactly, right? Snap, I took a picture. How is the future going to be? I would have bet you that the future is going to be, wait a second, we'll no longer argue about what happened, because we have specific evidence of documenting everything.
+
+[29:55] This is now on video, we have the audio. The opposite has happened. Because everyone has a camera and everyone can manipulate, the image is like, we no longer know or believe what happened down the street, right? Yeah. It's kind of strange, where we have every tool there is to document things exactly, and you can go down the route of saying, like, okay, we're going to blockchain every frame and authenticate it, and it's going to be a competition of technology about whether or not you can fake information.
+
+[30:24] The way I now start understanding information is by trust. Do I know someone who's, I talked to a friend about a conference that made the news, and the news painted it out as being X, Y, and Z, and I was like, no, I was actually there in the room, and the news, God bless them, they got it wrong.
+
+[30:49] And my friend can either trust me or they can trust the news, whichever one they want to do is fine, but that it's basically based on the shared trust of what actually happens on the ground. And we're seeing that more and more and more and more.
+
+[31:02] So when you're asking in terms of the core beliefs, yes, you can believe in the goal of the company, but it's also the core idea of, are we living in an age of pure data and quote-unquote truth, or are we moving to an age of, I call it the age of belief, and how do you believe people?
+
+[31:27] I would argue that we believe the people that we're the most emotionally connected to, and that the emotional connection comes first, and the belief comes second. Well, that's actually a wonderful answer. I wouldn't have expected it, and it makes me think about my own company right now.
+
+[31:45] Okay, while I keep processing that message, so you already said, right, it's not always about maximum decentralization, right, it's about this quantum model that you described. Now, I want to zoom in a bit again in this question. So if I imagine a star searcher, I imagine each of these legs has basically their own circle, right, and these circles are fairly decentralized, right, they cooperate because they share belief, they follow a decentralized leader.
+
+[32:11] Vitalik puts out a blog post, Danan puts out a blog post, but what about within these teams? Within these teams, so there are these models like holacracy that have a lot of bureaucracy, how a team should work. What are your beliefs or convictions, how a circle or a team should be organized within a decentralized organization?
+
+[32:30] Is there a good recipe? For me, it comes down to the what and how. I think we spend way too much time on the what. Like, we make a lot of decisions in our lives, whether a lot of professional lives or personal lives, there are 60-40. And what we undervalue is how adaptable human beings are.
+
+[32:48] And if you make the wrong decision, so what? Make the decision, move on. And then our ability to move on, even if it's the wrong decision, is fine. And that we get stuck in being like, I don't know, it's 45, 50, 55, doesn't matter. Move fast, move fast, move fast, adapt.
+
+[33:02] Move fast, move fast, move fast, adapt. And that to think about, my challenge I think with holacracy is like, hey, we're all sitting about like, okay, so what are we doing today? What are we doing today? And I think that is wasteful. We need to just act.
+
+[33:17] And you can either act as 20 or 30 individual actors, which I don't think is efficient. Or you can just decide we're going to act, we're going to do this today. Everyone that wants to follows, and then we decentralize the how. And it's much easier said than done.
+
+[33:34] It's much easier to say like, okay, what should we do? Let's have a poll. Everyone pulls and everyone raises a hand and knocks down ideas or speaks their mind. It's much harder to say like, no, this is what we're doing, and get that done efficiently.
+
+[33:50] Terror networks are unfortunately very, very effective at that. What makes them so effective? The core belief. They have a shared core belief. This is what we're going to do. And then how very creative, unfortunately, very violent ways of being able to be effective.
+
+[34:10] But you think about that from a non-terror perspective. If you think about the Ukrainian response just a week ago, right? With essentially a very decentralized approach with drones that are achieving war goals that Moscow is not able to achieve because of distributed the how.
+
+[34:28] How do you defeat arguably a hegemon? Okay, it's not going to be through missiles. It's not going to be through tanks. Oh, great. Okay, we can use drones. If you would develop a framework to measure the success or the probability of a successful decentralized organization, like kind of imagine a radar chart, then one axis would be intensity of internal belief.
+
+[34:52] Yep. What would be other axis? I think there's only one other axis, feet. Yeah. Are people in the room, is the network going to keep on, keep on happening? Like if we're having a conversation now and half the people are walking away, and feel free to walk away if you want to.
+
+[35:11] But if half the people are walking away, then it might not be the most effective conversation. But we don't do that. We're like, oh, let me measure it by every other measure. We're like, let me measure how many people are actually working on this and how excited they are.
+
+[35:26] It makes me very hopeful because there's one cryptocurrency called Ethereum, which is currently a lot under pressure from external people, whereas people want to have a stronger leadership. And the leadership in Ethereum is really arguing for, no, we don't need a stronger leadership.
+
+[35:41] The network is organizing itself. Would you say this is a, as a decentralized organization, it sounds to me like we would approve of that type of strategy to kind of resist the desire from the community to become more of a spider and say, no, no, we are a starfish, and you have to make your own decisions, and you have to make your own projects?
+
+[35:58] I would say so, yes. I don't know enough about the internal workings to effectively comment. I would say, though, that all cryptocurrencies are dependent on fiat currencies and that the two need to exist in conjunction with one another. Yeah, I think.
+
+[36:16] So it doesn't really answer the question, but it answers it on a macro level. Yeah. Okay. I want to kind of slowly transition over to Rasmus, but first I want to ask you one kind of transition question. How can we, you know, we have a circle and we want to build a starfish organization.
+
+[36:30] How do we can work on our team building? What are ways that we can kind of have a nice team building? And then I give the word to Rasmus. Let me tell you a quick story about how I met Rasmus, because I think Rasmus answered this. Rasmus was working in Berlin.
+
+[36:47] My wife and I visit Berlin a couple times a year with another colleague. His name is Heiko. And he was like, oh, you come to Berlin, and I will show you the future of publishing. And I'm like, okay. And they're like, hey, like, I don't think that people are going to read books anymore.
+
+[37:05] And I'm like, yeah, yeah, yeah, okay, I'm an author. And the argument was that instead of being instead of books, people will play multiplayer games. I'm not a gamer. I'm not huge into VR. And I was put into this VR simulation. And all of a sudden, my eyes kind of – I saw the future in the same way that I saw the future with YouTube.
+
+[37:30] And I started following into the same traps that we wrote about with Van Zanten. And I was like, I didn't know whether to believe it, so I brought my brother, my older brother, who I write with, who's a psychologist. And he came kicking and screaming and put him into the simulation.
+
+[37:51] And all of a sudden, he fell into the same traps that he's written about and that he talks to clients about. And I recognized, wow, this is actually the future. And the way I think about it is think about the cockpit. Imagine you get into a plane.
+
+[38:06] The pilot says, hey, I've never been in a cockpit before, but I've read every book there is to read about aviation. Would you get into that plane? And yet that's what we do in businesses. We're like, oh, here's a book. Read my book. Starfish, this is how you do it.
+
+[38:20] You actually have to experience it directly. And I believe that the way we're going to experience it moving forward, both because of the effects of AI and people not reading anymore, but also within needing to practice that it's going to be in multiplayer environments.
+
+[38:36] So, Rasmus, why don't you? Yeah, so that's the question we were asking. I mean, we were working with clients on a theoretical level. We got the buy-in, well, it's not the slide anymore, for the quantum method. Leaders who want to be in control when they need to be, but who want the power of the network when they need it as well.
+
+[38:54] And we got buy-in on theory. People understood it. But what we saw every single time is that when there was a chaotic situation, when there was lack of clarity, leaders would fall back into their spider approach, regain controls, and you'd have the KLM situation happen on a corporate level.
+
+[39:12] So, we thought about how can we give people a practical experience where they can put things into practice and then get the feedback straight away. They can see the consequences of their own actions. They can see the economic cost of control and all those nice things.
+
+[39:29] And we went with games, games because in a very short space of time, we can create pressure, we can set rules, and we can have things play out in the way that they do naturally. Specifically, we used BridgeSim as a game mechanic or as a game style.
+
+[39:48] BridgeSim, to go very quickly, it's a multiplayer simulation where we hard-code player roles. So, we put people into a hierarchical situation. In BridgeSim, there's multiple roles controlling one vessel to complete missions. We hard-code a captain, there's a pilot, there's a navigator, there's an engineer.
+
+[40:09] They're different roles. But it is hierarchical by rules. But without the power of the network, you cannot win. So, in any scenario with the best captain, if you go in and it's a command-control environment where the captain says what the rest of the crew do, you fail.
+
+[40:29] And you will not be able to complete the mission. So, we set people up for failure. We put them in. They fail. They come back out. And then they want to hear the theory again because they realize that they couldn't put it into practice. And it's a wonderful thing to see that leaders can see it within 45 minutes.
+
+[40:51] One of the reasons Ori mentioned VR, we do do it in virtual reality. We found that the most effective way for people not to check their emails during the 45 minutes that we have them. But it is the environment that we've seen where people, as I said, have that experience and they come out and they want to hear more and then basically go back in again and try again.
+
+[41:12] And you see, within the second iteration, the leader is ready to let go because I actually don't have all the information to be quick enough to have all the people make their decisions through me. Rasmus, from all the time seeing people in bridge systems and executive teams, what is the most common failure mode?
+
+[41:31] What is like the, if you see a young leader coming up, like gut feeling what he's doing wrong, like what is the thing that we all can learn from this? So, it's this understand, it's this idea that leaders have all the information required for the team to be successful.
+
+[41:49] I mean, we can control that very well. So, one thing we do is we give, purposefully give misleading information or unclear priorities. And as soon as there's unclarity and there's actually a missing chunk of information, that the leader doesn't have, but it's sitting with the tactical officer, then everything goes out the window.
+
+[42:08] And this is really nice to see when you're doing sessions with corporates and then sessions with startups because you see how the corporates struggle the most. We have this one feature that I'll talk about just very quickly. We have this feature where the commander can teleport the position.
+
+[42:26] It's a seated game, but can move the chair between any of the other stations, which is kind of like a micromanagement feature. There's not much to do there besides watch exactly what the other people are doing. And commanders love it. Like corporate captains love it.
+
+[42:39] As soon as they get into the game, they don't worry about their own station. They go and watch what everyone else is doing. And the more corporate or the more, yeah, the more corporate the audience, the more those commanders also feel that they have the idea of knowing exactly what their colleagues are meant to be doing at that point.
+
+[42:59] And they just don't. I want to tell an anecdote that this reminds me of because I played once with Rasmus and many, many years ago I was working for a banking kind of conglomerate and I ended up, we had a team event with, in an escape room.
+
+[43:15] You guys know what an escape room is. You all sit together. I ended up with the C level and we're like, you know, small team. It was just, just managers and CEOs and like really like the top level. Everybody said, of course, we're going to win.
+
+[43:26] We lost. We were the least, the last team that won and the first team was the interns. Rasmus, explain me that. Like why did the intern beat the CEOs and the management team so, so easily? Probably because when they sat down or in our experience, when we have a CEO, so this is important, even in a corporate audience, you take four people that work at the same level, you put them into the simulation.
+
+[43:49] They spend the first 10, 15 minutes deciding together how they want to do the what. When you put the captain in there, everyone's quiet. If you put the CEO in there, everyone's quiet and waits for the CEO to tell them. You don't have that with the interns.
+
+[44:07] And nobody wants to say anything because nobody wants to be the idiot in front of the CEO. That's what I learned because I remember sitting there with like, I'm not saying something wrong here. It's not just wanting to be the idiot and this is where it becomes interesting.
+
+[44:20] I'll draw from the cockpit and from the Burning Man for us Burners here. At Burning Man, if I'm seeing someone completely, let's say, in another world or not doing okay, I'm going to stop. And I'm going to take care of them and make sure that they find home because we're collectively and probably, I don't know how many people have been in that situation of other, the person is in another world or the person helping the person or both, right?
+
+[44:46] And then I get out of Burning Man and I live in San Francisco and there's people who are equally lost and I'm like, not my problem anymore. And it's, think about that as an element of agency. The people in the cockpit basically didn't feel that they had agency to stop the captain from going inside onto the fog.
+
+[45:05] And you don't understand that I can talk about it all day long until I put you in that situation and you too will lose your agency. In the same way that my brother, who's a psychologist, I say that he figuratively lights a cigarette every time he's at the game.
+
+[45:17] And he's like, oh yeah. And I was like, you do that? And then it becomes very tactile and we can actually talk about it as opposed to, in theory, none of us would ever, would all speak up if the captain is about to take off. But in reality, we don't.
+
+[45:38] So Edge City as an experiment is all about building this better society and like giving people agency. And I think everybody in this room would agree that this is about giving people agency and creating a high agency, the environment, the society.
+
+[45:51] So what is the, maybe Rasmus, to you, like this game that you're developing, how can it help you and can people in Edge like participate? Is it real? Yes. Yeah. So I think when you say it is real, we've just done our alpha release. We've got a QR code up here for anyone who's interested, so we're going to be organizing sessions soon.
+
+[46:15] I think importantly, just for this group as well, what we want to do is to make all this theory practical. And there's no, I always say every session is different. We have four people coming in and behaving differently to the different group.
+
+[46:34] But what you see with every group is that there are blind spots. There are, we spoke about earlier about the psychology of leaders. There's also the psychology of the contributors, of the colleagues. And it is so much easier to talk about those practically with behaviors shown with real consequences, I mean, virtual real consequences.
+
+[46:56] It is a game, but people want to be successful, whether it's a game or not. I remember when you and I played, the first thing you asked is how much better did we do than the other games, than the other groups. So that happens every time. And, yeah, that's the fascinating part for me.
+
+[47:15] The fascinating part for me, the fascinating part for us is what comes afterwards. Talking to leaders, talking to groups, talking about their behaviors and talking about how can we implement this quantum approach based on those specific behaviors shown.
+
+[47:30] Rasmus, I want to get something clear for the audience. So the audience can try out this game while they're here in the next week. Or how does it... We can try that. It is an alpha release. So we schedule sessions. Practically, the best thing to do, goes for all audience members as well, is to go with functional teams.
+
+[47:51] So whilst it's super interesting to bring four different people together, where it really becomes fascinating is in the functional teams where you want to adopt a specific way of working. Okay, guys, you hear that? If you have a functional team and you want to embarrass your CEO or want him to learn something, that's your QR code.
+
+[48:12] Okay, we have about 10 minutes left. And I think that I really want to open it up if there are questions in the audience. I'll go around and give the mic. So, Justin, we'll start with you. So, I really love this idea of catalysts versus controllers.
+
+[48:29] But it also seemed to me to be two different modes of relating to the world. And so my question is, is it really feasible to try and get, let's say, the majority of leaders to fluidly move between both perspectives? Feasible, yes. Easy, no.
+
+[48:47] So, again, I mentioned some of them work in the military. Talk about hierarchical organizations. It's very clear who has the ultimate say. The most effective approach I've seen is say, like, I'm going to put on this hat, I'm going to put on this hat.
+
+[49:04] And to be very clear with the people that you're communicating with, that they know which one you're doing. And then otherwise, it's very kind of too sharp of turns. And the first step is recognizing yourself in the situation, what is going to be more effective or what's going to be more efficient.
+
+[49:28] Just quote, like, is it going to be a surface situation or a spider situation? Oh, okay, it's a spider situation. Got it. How am I acting right now? And then three, communicate that very, very clearly to your team. Hey, we're in a spider situation, we're doing this.
+
+[49:41] And then two seconds later, you're like, okay, now we're in a surface situation. Yeah, more questions? Raise your hand and I can come to you. Staying on the control paradigm. So, when I think about why I often exert control within the team, it's not because I want to, I actually don't want to control.
+
+[50:05] I actually want to do work instead of trying to control. But more often than not, it's the question of context, which is if I have 10 people and each one is doing something, I become the shared context. And because I have that, that allows me to make that better decision.
+
+[50:22] When I delegate that off in the Starfish setup, I find over and over again that the people doing the work don't have that context, even if I try to provide it in some form because they're just too focused on the task at hand. So, how do you think about that problem?
+
+[50:36] I think you nail it with context. I think what we don't do enough within organizations is we need to artificially create environments where we're decontextualized from work and we're connecting. And it's more than just having beers once a month.
+
+[50:53] It's really investing in the circles and the connections, whether the emotional connections, spiritual connections, really, the ones that work repeat that over and over and over again. And yet, when we go into, it works both in religious context, it works in political context.
+
+[51:13] And yet, when we take it to a business context, we're like, yeah, yeah, yeah, yeah, you should all believe the same thing, you should trust each other, but go work on your own individual computers. And we need to decontextualize that. So, how do you, that was another point that resonated.
+
+[51:25] I fully agree that trust and emotional connection is critical in a decentralized, remote team where most of us don't actually meet physically. What are some of the techniques or tools you see that you can still develop that when the nervous systems are, you know, different parts of the world?
+
+[51:46] I'll have two answers. One is somewhat self-serving, one is not. One is that virtual reality and the reason we did that is as close as you can get to actually put someone in and not talk about work and have a player in Asia and a person in Europe and actually, quote, unquote, be in the same room, but not discuss a P&L thing, engage around a game.
+
+[52:08] One, I think option two is if it's, and these are complimentary, we need to invest in, okay, you know, one day, a quarter or two days, a quarter, we get together, but this is not a, we're going to catch up on all the work and find out whether Rossmus has been doing his homework or not in front of the people. It's like, no, this is actually pure fun and connective and be, again, in the same way that we need to be clear about spider versus starfish, we need to be clear about this is fun time and make fun time kind of sacred.
+
+[52:36] And we tend to impede upon fun time more than we should. Thank you. I have to interject a question, then I give it. Would be good to have fun time enabled for decentralized teams, like for remote teams, because it's very hard to have fun time as a remote team.
+
+[52:54] I love your questions, by the way. Try it our game. It's fun. And by the way, we've been going back and forth forever about saying, like, do we call it a game? Do we not? And it is a real game. And when corporates have attempted this, it's usually gamified, and I want to be super clear about it.
+
+[53:13] It's usually like, you're going into a meeting. Do you, A, blow up the room? B, do you yell at people? Or see, do you send a lesson to them very kindly? Okay, see. And I'm, this is not what we're talking about. This is a real game where you're playing towards a common goal, but it's actually fun and engaging in the way that, like, you know, I think 10% of people 18 and younger consider themselves addicted to video games.
+
+[53:40] The reason they're addicted is because it's fun. And then we're like, oh, we're like, oh, my God, there's this thing happening. People are addicted to it. So let me make something that's completely not fun and force them to sit and read a book.
+
+[53:50] I'm like, I don't think it's going to work anymore. So a lot of the topics that you guys have been talking about today have been landing extra heavy because I'm involved in a lot of these decentralized organizations on top of Ethereum. And a lot of the tokens that started as this sort of large project where we wanted to create a decentralized network and we give away ownership, you know, that have sort of amassed and, like, billions of dollars of valuation that are now held by these different actors.
+
+[54:15] And what's happening today and, you know, over the past couple of months, you know, in a number of different projects is this sort of re-centralization where, you know, what was like a purely distributed DAO, you know, technology where everyone had a vote or every token holder had a vote, you know, is now moving into this back to a foundation model where sort of the leadership team want to take full control of, like, you know, hundreds of millions of dollars worth of assets, you know, all sort of decisions over the protocol themselves. And this is now, like, you know, the founders of these projects are making these decisions and sort of as the community member or, you know, a large delegate inside of this, I'm sort of left voiceless as to, you know, what is that next step?
+
+[54:51] And so I wonder if there's any, you know, sort of insight that you have. Obviously, it's specific, but even more generally, you know, if a founder's going down this path, you know, too far. Sure, I'll give you a historical and a crazy. Historical is what happened to the Apache?
+
+[55:03] Why are the Apache not running? They, they, basically, they fought the Spanish, then the Mexicans, then the Americans for 200 years. They kept on expanding. Ultimately, they're not running the Southwest. What happened is the Americans, after they put them in reservations, started giving the Nantons cows.
+
+[55:20] And the cows would be distributed in the specific tribe. And all of a sudden, the Nantons started having top-down authority because they could decide who the cow goes to. And they became CEOs. The way to kill a decentralized network is by creating, by giving them limited assets, by centralizing their leaders.
+
+[55:46] And it's actually been a strategy for some of the counterterrorism work. I would argue that's what's happening somewhat in the blockchain community. Like, yeah, yeah, yeah, yeah, I believe in this, but I have a few billion dollars, so piss off.
+
+[56:03] The question becomes, we're in a world today, and this is me totally speculating, I'm no expert in this. Are we really in a finite world today? Yes, there's millions of dollars of, hundreds of millions, hundreds of billions of dollars of assets in the leading players.
+
+[56:21] Is there a world where a more decentralized version can exist? And will that ultimately be more economically efficient? And is that world a world that doesn't make billionaires? Because the world that will make billionaires, they're going to go to extremes in order to protect their assets.
+
+[56:37] So I have a home in San Francisco. I'll tell you an example. I write about starfish, blah, blah, blah, blah, blah. I have a home in San Francisco. Our home has an alarm. If someone breaks into the alarm, the police will show up, and they'll make sure that someone's in.
+
+[56:48] So even me, the starfish guy, I'm going to protect my assets. And if there are hundreds of billions of assets, it'd probably be more spider in order to protect them. And that's just inherent to the network. But the network is going to have to then adapt.
+
+[57:00] If it becomes too centralized, it's going to become not nimble enough, which will mean that another entrant has a potential. I have one comment to kind of wrap it up, to also follow up on your example of using this room. And also to introduce Janine, who just walked in the room.
+
+[57:19] She's about to give a great interview following up now at the hour. And anyways, this room, I think, is a great example because it's been nonstop, just running. And I'm just like only like a single point of failure of making sure the mics and the recording tarns on.
+
+[57:34] Like that's it. That's why I just like have a little manual there. But other than that, like there's not a leader of this room. The community is leading this room. Like Simon had the permissionless opportunity to kind of self-organize this talk that we're having right now.
+
+[57:47] And it's actually the whole thing is kind of unconference. There's a joy safari going on where people aren't using their cell phones walking around town right now. There was yoga and meditation in the morning. So like, and all of these are like kind of people taking that activation that you're kind of talking about.
+
+[58:03] And so I think this is, Edge City is just like a beautiful example of how you kind of like give people that agency and that ability to be active and just like kind of step into that. So like, thank you, Simon, for organizing this. I have his book just sitting here serendipitously.
+
+[58:17] I put it on my desk and brought it here. And yeah, so like thank you for being here. And we'll, I guess, wrap it up to get ready for Janine. Thank you so much. Thank you very much, Ori, for coming and taking the time for us in the community.
+
+[58:36] And yeah, you have any last words before we end the session? Go forth and starfish. Fantastic.

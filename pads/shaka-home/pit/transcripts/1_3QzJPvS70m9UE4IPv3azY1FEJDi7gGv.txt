@@ -1,0 +1,253 @@
+# Financing Startup Communities - Dave McClure
+
+Date: 2026-06-22
+Source video: Financing Startup Communities - Dave McClure.mp4
+Drive: https://drive.google.com/file/d/1-6C0ZVC2J9e4AQULCoGx6K5fVJl_ZtoO/view
+Duration: 00:39:57
+Transcribed: 2026-06-23 · whisper large-v3-turbo · language: en
+
+---
+
+[00:44] All right, we're gonna get going with the next talk here. All right, if everyone wants to come forward, that would be amazing. And I know this was a later add to the schedule,
+
+[01:14] so we might have to go and collect some people from the hub because this is a really special talk. Dave from 500 Startups, which is a very famous incubator slash accelerator. Is it an incubator or an accelerator? I see it as both. Floor wax, it's a dessert topic.
+
+[01:32] Amazing. Dave is gonna speak to you about kind of financing these startup communities that everyone is building. So just kind of what I was speaking to earlier where I wasn't speaking about too much of the finance side and more of just like the fun side of it all.
+
+[01:47] I think this is gonna be much more grounded and super interesting as he's done a lot of thinking about how this can be created and a lot of writing about it. So if you haven't read any of his pieces around startup communities, I highly recommend that.
+
+[02:01] And I'm just very excited to have you here, Dave. So welcome you to the stage. Thank you very much. Seeing as that we don't have a whole bunch of people, if you guys wanna ask questions or heckle, feel free to jump in. I'm gonna talk a little bit about some experience as I had running 500 startups, which were mostly commercial investment focus.
+
+[02:23] But we did have a little bit of a cult going on. And I'll try to talk a little bit about some ideas for residential communities as well. But maybe just a few things, if I can get this working. So I'm a nerd and hillbilly from West Virginia.
+
+[02:42] I spent most of my early years growing up on the East Coast, but for the last 30, 40 years, I've been on the West Coast. I guess the reasons that I came out here were tech and frisbee. If anybody's an ultimate frisbee fan, I'm a definite fan.
+
+[02:57] I've been playing for 40 years and still try and get around now that I have some new knees. I spent my early years here as a software developer and entrepreneur, but for the last 20 years or so, I've been mostly on the investing side. As Janine mentioned, I founded a company called 500 Startups, which did a lot of early stage investing.
+
+[03:17] I now run a company called Practical VC, which is a bit of a joke because it's not practical. And we mostly do later stage investment. And along the way, I've done some other fun stuff. We take entrepreneurs investors through a program called 42 Geeks to about different places around the world.
+
+[03:33] We're taking a group of folks to China in October, if any of you are interested in checking out Shanghai or Shenzhen. In general, I'm pretty much an optimist. And although humanity does fuck up occasionally, I still believe in the general goodness of people.
+
+[03:51] I want to generally be a believer in capitalism, although that can go south on people sometimes. And I want to work and live with fun and smart people, hopefully from all over the world, if that's possible. I think that if we trade and interact with people, we're much less likely to kill each other.
+
+[04:10] So hopefully you do some of that. So what I'm going to talk about is how to build kind of an MVP for a sustainable community. This is kind of on the building or neighborhood level. It's not at the city or the country level. And although these numbers may seem a little daunting, they're really not that large.
+
+[04:31] A lot of commercial real estate involves far bigger numbers. But I'm going to talk about a way that you can use venture capital, real estate and traditional debt to try and build minimum critical mass of companies which provide jobs. With those jobs, people pay for housing and they also pay for services.
+
+[04:49] And I'll talk a little bit about the community side, but this is mostly going to be about how the numbers work. That said, there's probably some unique set of interests that we all have. And it's really important that if you're working together or living together, you probably pick people who share some of those interests.
+
+[05:12] I will maybe go through a few examples of where I've lived, where we haven't had that set of shared examples. And sometimes that can create a lot of problems. But the basic ideas here are around helping companies get started. Probably some number of those companies are going to fail, but hopefully a few will succeed.
+
+[05:32] Those companies, if they get to a reasonable size, let's say maybe 100 people and 10 million in revenue, they might be sustainable and they might continue to grow beyond that. But what we're trying to figure out is, can you get to maybe five to 10 of those companies that eventually employ about 50 to 100, perhaps 200 people each?
+
+[05:51] And if you can do that, and if they stick around in the same location, you start to have the foundations for the jobs and income necessary to support the rest of that community. So I'll talk about three different types of investment. Venture capital, which is kind of what I've spent a lot of my time doing.
+
+[06:11] FOF stands for Fund of Funds. And those are investors who put money into other funds. Venture capital, as you guys may be familiar, highly asymmetric outcomes. Generally speaking, most things fail. A few things succeed. And if you're lucky, maybe one or two percent succeed wildly.
+
+[06:30] But it does take a fair amount of time. From a traditional investment perspective, probably 10 to 15 years. It may even be eight to 10 years before you see 1x on your money back. That doesn't sound too great. It can be a pain in the ass waiting a long time.
+
+[06:47] Personally, I was an investor in a company called Canva back around 2012. I'm still waiting it to go public. Hopefully that will happen sometime soon. On the other hand, real estate is probably a lower risk investment. Usually, this is not highly asymmetric in outcome.
+
+[07:04] Most of the times, real estate investments generally appreciate, hopefully they appreciate five percent plus or minus per year, maybe more or less, depending on conditions. But the interesting thing about real estate is it's kind of a local bet on the people and the companies that are nearby you.
+
+[07:20] So the value of your real estate is generally determined by the other real estate that's around you, the other companies and people that work around you, and also how much occupancy that building has. If you've lived in the San Francisco area in the last five or six years, it's been a real pain in the ass.
+
+[07:37] For commercial real estate post-COVID, a lot of occupancy rates dropped dramatically below 70 percent. That's 70, 80 percent is usually what people think of as being sustainable. Hopefully more like 80 to 90 percent in many cases. So where you can drive occupancy in a real estate building, you can create a sustainable environment, hopefully increase the value of that real estate.
+
+[08:00] And then we'll talk a little bit about traditional debt. And, you know, although we're going to focus mainly on startup companies, we still have other companies that will be helpful and necessary for people to live and support themselves. And if you get a critical mass of people, sorry.
+
+[08:17] Somebody else's computer here, hopefully I can figure this out. Maybe I should just keep switching gears a lot. So lending to small businesses isn't necessarily a walk in the park. There is some risk there, but hopefully most of those investments work.
+
+[08:44] They're not going to generate huge returns, at least in most cases, but hopefully they do pay back the money fairly, you know, quickly within, say, two to five years. So these three types of investment are kind of different, and I'll try and explain how I think they can be used to fit together.
+
+[09:02] Okay, so let me talk briefly about my personal experience. And so I ran the first four funds at 500 Startups, but the first three, I'll just kind of give you some numbers. The first one was about $30 million. The second was about $45 million.
+
+[09:17] The third was $85 million. Overall, about $160 million that we invested in a little over 1,000 companies, so roughly about $125,000 each. That's not, you know, the same for all of those, but most of those companies we did an initial investment of $50,000 to $125,000.
+
+[09:33] And like I said, most of them failed. Probably half of them fail quickly within the first year or two, but some of them take a long time to fail. And I'm not trying to rail on anybody. It's just that is how things work. Maybe 20% of them turn into decent-sized small companies that employ about 20 people.
+
+[09:55] Those may continue forever. They may last for three to five years. Somewhere around 10% turn into the investments that win. And by winning, what we're looking for is a return on investment. Probably for some of those companies, we're getting 5 to 10x back.
+
+[10:12] Maybe if we get lucky and get an IPO, we might get a 50 to 100x kind of return. But I'm not so much focused on the returns from these investments, although, you know, we were fortunate to have successful funds. What I'm really trying to focus on is the number of people and jobs that are created from these companies.
+
+[10:30] Notice that even the failed companies and the companies that don't work out do employ people for some period of time. Rough estimate out of those three funds, out of, you know, maybe 1,200 companies, I think we probably created about 50,000 jobs.
+
+[10:45] And roughly speaking, maybe $500 million to $1 billion worth of real estate utilization. That's kind of a rough estimate of what people spend on real estate on an annual basis. Turns out people spend a lot of their income on either rent or ownership of buildings.
+
+[11:04] So probably for a lot of employees in San Francisco, they're spending a minimum of 20%, maybe even up to 50% or more of their income on housing. So the kind of experiment that I'm talking about here, again, this may sound like a lot of money for a minimum viable product experiment.
+
+[11:33] You'd like to be able to do this as cheaply as possible. But the challenge is to get critical mass, you really need enough companies to be sure that you're going to get some winners out of it. And so from at least my experience investing in companies over the last 15, 20 years, you really need to invest in about 100 early stage companies to get two or three that turn into big wins and maybe five to 10 that turn into medium-sized wins.
+
+[11:59] So I probably wouldn't want to do an experiment of much less than 50 to 100 companies, and I'd feel a lot better about it if we're doing 200 to 500 companies. So the concept that I had when we were running 500, we were generally taking about 30 companies every six months into two different buildings, so one in Mountain View and one in San Francisco.
+
+[12:20] We would invest about $100,000, $125,000 in each of those companies. We would charge them about $25,000 to cover overhead for expenses. For our expenses and headcount. That allowed us to run the accelerator program pretty much break-even, and we didn't have to worry about whether the investments were going to generate returns in the short term.
+
+[12:46] Not saying that you shouldn't worry about returns as an investor. That's pretty important. But if you've had any experience working with accelerators and incubators, I would say most of the time they are not engineered to survive longer than two to five years.
+
+[13:01] A lot of people are raising money for accelerators as grants or experiments. They're not really designing for their own environment to be sustainable, which kind of is kind of shitty if you're trying to teach people how to grow and run businesses and you're not actually creating a sustainable one yourself.
+
+[13:18] That's a bit of a hypocritical scenario. So we were able to run these programs. Again, we were probably investing in a little over 100 companies per year in the two different locations. We were probably deploying about $10 million a year, but we were bringing back at least two to four million.
+
+[13:36] This is going to get annoying, but I keep having to hit this so I don't lose the context here. It keeps going back to Screen Saver. So one thing that happened was we had a really great environment in Mountain View and in San Francisco. People really enjoyed working at those locations.
+
+[13:53] Starting around 2010, we were kind of coming out of a downturn in the market. We were able to get those places pretty cheaply for rent when we first signed up. We signed a five-year lease. Then we ran several hundred companies through the location in Mountain View.
+
+[14:11] At the end of those five years, the landlord raised our prices by 2x. And I thought to myself, shit, I should have owned this property or bought some property before I started pouring all this money into companies because I was kind of doing economic development, but the people who were benefiting from it were the landlords.
+
+[14:30] And I thought to myself, hey, it would be really helpful if I could find a building and find an investor who needed some help trying to drive occupancy. So when I was first thinking about this problem, I was really thinking about how to make venture capital work better and, hey, maybe if I built a fund where half of it was in real estate and half of it was in venture, I could generate some returns on the real estate side, maybe sell that building back to somebody else within five years while I'm waiting for the returns
+
+[15:02] to come in for the venture capital fund. That kind of sounds like a good idea, but what I realized later was probably I should just focus on making the real estate successful, and the venture capital is kind of gravy. And so although my focus was on venture capital at the time, if you wanted to redesign this better, what you would think about is maybe if I got each floor of a building to be run by a VC fund, signed a long-term lease, get them to sign a five-year lease, I would invest money as a fund to fund into each of those venture capital funds, maybe three to five million,
+
+[15:34] get them to sign a lease for a half a million to a million a year, and then they would act as master tenants for each floor of this building with their startups. And they probably are not going to sign the startups for five-year leases. They would probably sign the startups up for six to 12-month leases, depending on how successful they might be.
+
+[15:51] One of the things that we would do every six months, we would bring in a new batch of companies. That was kind of not great because if you're trying to build community, you'd like to have some people who will put down roots and stay there for a longer period of time.
+
+[16:04] At the same time, you don't necessarily want to try and build that around companies that are not successful or not able to either raise money or get to break even. So you kind of have to plan for some amount of breakage, some amount of companies that are not going to be successful.
+
+[16:19] And as those companies gradually get to larger amounts of either raising financials or getting customer revenue, you can start to identify which ones are going to be sustainable, which ones are growing, and which ones you want to try and build your community around.
+
+[16:31] So rough idea here is with a $50 to $100 million budget over a period of five years, each of these funds is investing in probably at least 10 to 20 companies. You'll have several hundred companies over that period of time of five years. My guess is you could probably get at least five to 10 large companies out of that experiment.
+
+[16:59] Any of you guys want to start heckling or commenting or questioning, feel free. Again, the goal for this is not so much return on investment for the companies, although that is the goal of the venture capital funds. But the goal of the person running this overall story is to find successful, sustainable companies that are going to create jobs and utilize real estate.
+
+[17:20] And if you want to be a little bit more creative about that, you could also think about providing the residential real estate for the employees who are going to be working in. They may not all want to shack up in the same building together, but some percentage of them probably would want to be proximate to the place where they're working.
+
+[17:37] So if you think about the stakeholders for this experiment, it's kind of different than traditional investors in venture capital who are looking for probably pure financial return or company successes that they can work with. In this case, the stakeholders are really the real estate developers and the property owners, both for the commercial and residential real estate, possibly the banks that would be helping hold money for these startups and potentially lending capital to them, local government who's going to be interested in people creating jobs, and the community itself.
+
+[18:10] And this could be other small business owners who serve that community. And I didn't quite get it. By the way, whoever's screensaver this is, it's super cool. I love the juxtaposition of how to eat a soul and how to be kind. If you learn how to do both of those, you probably can conquer the world.
+
+[18:33] Okay. So here's some rough numbers. And again, these are kind of out of my ass, somewhat based on the experiments that we did at 500, but also some guesswork. If you think about Angel Accelerator, this is sort of bootstrapping companies, pre-seed and seed, these are the things that you kind of have to fund to get off the ground as experiments.
+
+[18:54] And then as you get a little further into series A, B, and C companies, you might get to some sustainability, meaning these companies either can continue to raise money or can continue to support themselves. But even those early stage small companies provide some number of jobs.
+
+[19:09] Now, you know, a failed company might only provide two or three jobs for six months, but if you start off with a lot of them, that's still going to provide money for those people who will then spend it in other areas, and those small companies might still need to rent.
+
+[19:23] So to get those companies off the ground, roughly speaking, $50 to $100 million maybe to make those experiments. Now, not necessarily that that has to come from one single investor, but you might expect in the early stages, you're going to be a more substantial portion of their investment as you get to later stages.
+
+[19:40] Hopefully, there's other investors that are coming in the door. This is a spreadsheet that's spreading across two screens, so it might be a little bit hard to understand here. But as these companies get further along, they don't just generate revenue.
+
+[19:56] They also generate jobs. People who are at those jobs will be spending money on residential housing. The companies themselves will be spending money on commercial housing. Some number of these companies might not continue to raise venture capital.
+
+[20:09] They might raise debt. In the early years, that's probably not going to happen until they get to a point where maybe there are at least large seed companies or Series A companies. But as they start to get later stages, some of them may not ever get to an IPO.
+
+[20:24] They may just become $5, $10, $20 million sustainable companies, and they may be more likely to use traditional debt than venture capital at that point. So if you look at these numbers, really the expectations are that for a dollar in in venture capital, you're probably going to get more like $3 out in a combination of commercial, residential, real estate, and also in traditional lending from banks.
+
+[20:52] So the people who own property, both commercial and residential, and the people who run banks, should be very interested in the success stories that come out of venture capital, and sometimes even the not-quite-successful stories that come out of venture capital, where those companies may not become IPOs, but they might just be running, you know, 20 to 200-person companies that are sustainable and providing jobs.
+
+[21:15] Okay, so that's the basic concept. I don't know if people have questions about that, which is invest in funds, which invest in companies, which create jobs, which creates utilization for commercial and residential real estate. Yes? It's on?
+
+[21:43] Yeah. Yep. Are you imagining you're creating a company? Where are you going to get this real estate to build all this housing and to build all this commercial? Well, initially, probably not going to build it, probably just going to buy it. And so if we look at what the experiment might be to get start, for a commercial building, you're probably going to want to put $10 to $20 million down.
+
+[22:04] You might spend an equivalent amount in renovations, but you're probably borrowing some of that. If you're lucky, you might have an existing building owner who wants help with providing utilization in their building, and they might either give you or, you know, give you a portion of that building as an investment.
+
+[22:21] And is your thought this is going to take place only in San Francisco or New York, or is this going to be further out from currently where tech likes to invest? The roadmap should be replicable in many places, but I would say probably to start, you want to start in a place where you're reducing risk, so a place where there is existing tech talent and investors, probably San Francisco, maybe New York, maybe, you know, L.A., Boston, Seattle, Austin, et cetera.
+
+[22:48] I did this talk down in Prospera about two years ago, and people were like, great, when are you coming to Prospera? And I was like, well, probably not right away. If you're doing it for pharmaceutical companies, you know, yes, there's a legit reason to move to Honduras, but enough of this experiment is already challenging.
+
+[23:08] You don't want to create unnecessary risks where you don't have to. So I would say start in the places where there already are, you know, successful startups and investments. And at least two or three years ago, empty commercial real estate in San Francisco.
+
+[23:22] That's maybe not quite the case just in the last year, but it has been the case for a while. Yes, sorry. It's an interesting model, but of course, we are now mid-singularity. And we are mid-singularity. Mid-singularity, yes. All bets are off if, you know, machines of loving grace decide to become our landlords in the next three years.
+
+[23:45] Yeah, well, I'm just thinking about, like, the, I don't know, if a huge number of white-collar jobs or, you know, whatever, automated away, and people are leaving the cities. Right now, I'm expecting, like, a massive devaluation in, like, you know, like, downtown real estate.
+
+[23:59] Towns may literally be on fire. People are going to be mad that the broligarchs stole their job and their children's future and they're part of the permanent underclass. Pitch forks and fire, bonfires, yeah. Yeah, so does this change things at all?
+
+[24:12] Well, I'll talk about two things there. So one is, if we do have systematic upheaval across certain places, and let's talk about the low-end version of that, which is just maybe there's not as much real estate utilization because people are, you know, remote working.
+
+[24:29] They're probably going to want to work somewhere. And so at least on the residential side, but I still think on the commercial side, if you are investing in companies and investing in companies that, you know, want to be around other companies that are doing innovative work, you're probably going to be a more attractive place for people to live than places that don't have that going on.
+
+[24:50] So the old phrase, I don't have to outrun the bear. I just have to outrun you. I just have to create a more compelling commercial real estate opportunity than everybody else around there who's not investing in funds and companies and doing other education and conferences and events.
+
+[25:06] On the community side, I'll talk about this in just a second, but I think there's a parallel model that you can do for the residential side. I don't want to try and solve both problems at the exact same time. It's already a little bit of a complicated experiment.
+
+[25:23] But, you know, again, the thing that we were doing with 500 was when we were investing in companies, we knew that a significant amount of the money they were going to be spending was on rent, and that's both at the company level and on the person level.
+
+[25:37] And so if you're making an investment and you know some portion of that's going to be failing, it's great if you can recapture as much of that that's going to go to, you know, potential other service providers. Particularly where, like, most of the companies and most of the people that you're investing in need housing and need commercial real estate, why not provide that?
+
+[25:57] So, yeah, I don't know what the fuck's going to happen either if Singularity hits, but, you know, I'm trying to plan for an environment where at least there's some semblance of humanity that still wants to hang out and play Frisbee with each other and have babies and want to live in fun places that don't look like downtown Market Street in San Francisco right now, which is not so happy a place.
+
+[26:18] Shit. Oh, goddammit. Sorry, how am I doing on time? Okay. Let me switch gears for a second and just talk about the community housing stack. And let me talk about this for just a second. Before I do this, about 25 years ago, I bought a condo in San Francisco.
+
+[26:54] It was my first significant housing purchase. I didn't know what the hell that was going to be all about. It wasn't, you know, super expensive at the time. It was about $250,000. It was about a thousand square foot, one-bedroom apartment with my wife at the time.
+
+[27:11] And I figured, hey, I should learn something about the condo, so I decided to go attend the condominium association's board meeting. Guess how many people were in a board meeting? Sorry, this was a condominium association of 250 units, roughly speaking, about eight buildings, Diamond Heights neighborhood of San Francisco.
+
+[27:29] Guess how many people were at the board meetings? Eight people. Four people on the board, four people in the audience. The first year, I was in the audience. The second year, I was on the board. The third year, we had roofing and siding and a big project that we had to do.
+
+[27:47] And all of a sudden, our board meetings turned into about 80 people all screaming at us for, like, where's our money? And what are you doing with our money? And oh my gosh, why are we spending all this money on windows and roofing and housing?
+
+[27:58] And this cured me of ever wanting to run for political office. But I wrote an eight-page FAQ on why we had gotten into this issue, how we need to, you know, solve it. Not to get into too much of this, but a lot of condos were built in the 70s.
+
+[28:15] They all started failing. I mean, the windows and siding started failing in the 90s and 2000s. Most people don't reserve enough capital to do the budget maintenance for those things. And so people end up doing special assessments. That means you basically tax the community to pay for the repairs.
+
+[28:32] That can cost 15 to 20% of the entire cost of the building. Unless you have everybody who is in good credit and can do that, it can be a pain in the ass to get a community of 200 different people to do a financing together. So how many of you are students of mortgage finance?
+
+[28:51] Anybody know how mortgages got created, when that all happened? Generally speaking, Fannie Mae, Ginnie Mae, government-sponsored entities that got created in the 40s, 50s, and 60s. The GI Bill that happened after World War II. Huge number of people came back to the U.S.
+
+[29:08] Huge number of them had babies. We had a huge population. And there were a lot of middle-class jobs. And so, generally speaking, we weren't worried about machines taking away our jobs. We were happy that machines were helping us create jobs.
+
+[29:22] And the creation of 20- and 30-year mortgages was kind of new at the time. Now we live in a country where almost half the country owns a home. However, most other places around the world, with the exception of Western Europe and maybe Eastern Asia, most people don't have access to mortgages.
+
+[29:44] In fact, even very large countries like Brazil and Mexico and people who have equivalent to $20,000, $30,000 of U.S. GDP don't have access to mortgages. It's kind of hard. It's not such a great investment vehicle when you're providing, you know, 5- to 10x leverage for someone over a 20- to 30-year period and whether they're likely to keep their job.
+
+[30:06] That's really, really difficult to underwrite. We have managed to create a system where we do underwrite that. We actually provide lots of incentives for people to own homes. But that's not so easy and doesn't exist in probably most of the world at the moment.
+
+[30:21] What is a lot easier is short-term business credit. And people can underwrite that where there's not a lot of leverage and you're basically lending people for only a five-year time horizon. If you look at where countries around the world went through extreme challenges, post-World War II, Japan and Germany, post-Korean War, Korea, those countries went through really, really devastating, like 50% loss of GDP.
+
+[30:47] In the case of Japan and Germany, destruction of major cities like the firebombing of Tokyo and many cities in Germany were pretty devastating. In fact, the firebombing of Tokyo was actually more devastating loss of life than the atomic bombs that were dropped on Hiroshima and Nagasaki.
+
+[31:07] What's crazy about that is in less than five to ten years, those cities entirely rebuilt themselves. And I was trying to find some research on what actually happened. You had a lot of government intervention initially. The Marshall Plan in Europe, the U.S. military helped set up a similar system in Japan.
+
+[31:29] But really what happened was business credit lending immediately after the initial reconstruction helped companies get started. Those companies created jobs, and that's what really helped those economies get back off the ground. So I'm not trying to figure out how to do mortgage finance globally, but a different model for financing mortgages is where you might lend people a little less money.
+
+[31:56] They wouldn't buy the entire house. They'd just buy a piece of the house, but they'd also buy a piece of that house with other people together. So a lot of people are up in arms because private equity firms have been theoretically buying houses across the U.S. and raising prices for everybody.
+
+[32:12] I'm not going to get into the pros or cons of that, but the reality is that at least some large institutional investors have decided that investing in homes, either to own them or to rent them, is a good idea. You might think about a different type of capital stack for community housing where only a portion of that is owned by the individual, and a portion is owned by a group of people together, maybe for a five to ten year period.
+
+[32:36] And then there's a shared set of stack investors that might happen from government or private investors. What's different about this is if you have a group of people, let's say anywhere from 25 to 100 people, owning property together, if five of them lose their jobs, maybe even ten of them lose their jobs, they don't necessarily have to get evicted right away.
+
+[32:57] There's a little bit of a cushion and a stack in that pool of finance. So you don't want to completely have free riders in that situation forever. They will have to eventually find another job. But if they can be productive for some period of time, maybe if they lose their job, that's not the end of the world for that overall community or even for them individually.
+
+[33:20] So the idea here is that I, let's say previously I put down in San Francisco half a million dollars to buy a two and a half million dollar home, and then I have to get a mortgage for two million dollars. That's probably not so easy even for, you know, two engineers who make $250,000 a year.
+
+[33:38] You still have to spend some time saving up a half a million dollars. A different model might be what if you only bought or owned, let's say 500,000 of that two and a half million dollar building, and you bought another 500,000 to a million dollars with a pool of people, and then maybe you had a private equity investor or another institutional investor buy half that stack.
+
+[33:58] You only are maybe financing for a shorter period of time, but you're also buying into that community together. So to get back to your point, like why are people going to live together? Well, probably they don't want to live together unless they share some set of values or interests.
+
+[34:15] So that might be, hey, we all have kids, or we all have, you know, elder family members, or maybe we're all into rock climbing. Maybe we are all into building new cities or tech. But it could be almost anything that you decide is what's going to tie your community together.
+
+[34:34] Okay, so that's kind of the basic concept. I know I'm not really, you know, going to try and tell people about how to do community real estate housing, but the essential element here is that you are buying into property together with other people for at least a period of five years.
+
+[34:49] And that is an incentive, whether you feel like that's a good or bad incentive, to not fuck up the community that you're part of. But I will say that there's probably got to be some shared interests of people that you're, you know, wanting to build that around, not just a random person.
+
+[35:06] And so choose the people that you would want to build that home with well. All right. That's my half-assed talk. It's not fully formed, and it's not complete, but that's the basic concepts. Thank you, Dave. Are there any more questions? Sorry.
+
+[35:33] I think I followed most of it, but can you talk through the, so there's a landlord that is struggling with occupancy, and, like, how that conversation would go and where you might be looking in SF. I know a little bit about Frontier Tower, for example.
+
+[35:48] Yes. I've been in that area. Pretty rough. I felt like I was in a video game. That was actually crazy. But, yeah. Okay. I'll talk briefly about that for a second. I actually just got a message from Jakob about what they're doing. My understanding was they bought the building for, I believe I heard two different numbers, one, six million, one, 13 million.
+
+[36:09] But I think there was some amount of debt that they got for that. It's pretty low cost. I mean, that's a huge building. I think it's certainly more than 50,000 square feet. I think it's closer to 100,000 square feet. It's in a pretty fucking rough neighborhood.
+
+[36:25] I don't really feel that comfortable or safe going there, or at least walking outside. I can't imagine other people also feel that way. But, you know, there's a ton of arbitrage in what they bought that building for and if they drive occupancy up to what it could be worth.
+
+[36:44] So from a pure real estate perspective, that's probably a win. I think, you know, generally speaking, if you can drive occupancy up to 80, 90%, you're going to have a successful real estate, you know, business. Now, it depends on what price you get in at and what price you decide you want to sell.
+
+[37:05] But let's just suggest that if you do a good job, the model that I'm trying to show here is that you can dial up occupancy with the amount of investment that you're making, right? And so we almost had 100% occupancy in the floor of the building that we managed at 500 for five years or more because we were investing in companies every six months.
+
+[37:24] The model that they have right now, I believe, for Frontier Tower is a subscription model for individual consumers. So they're not, their tenants are not necessarily VC funds, although they're trying to get a few to live there. I think they're more individuals.
+
+[37:39] I was just talking with another friend of mine, Duncan Logan, who runs something called Nine Zone or Zone Nine. It's a climate-focused community that's a little further in downtown San Francisco. He says they have over 900 paying members. I know this is more like a WeWork, almost like a gym model membership.
+
+[38:00] I think it would be better if you're getting the VC funds to be the master tenants for each floor and getting a long-term lease commitment from them. The quid pro quo here is if I'm running a fund of funds and I'm investing in those VC funds, they're more likely to sign, you know, if I put $5 million into your fund, you're more likely to sign a five-year lease where you pay $1 million a year in rent.
+
+[38:23] So trying to solve the occupancy utilization problem at the individual company level or person level is a lot of work. I think if you did that across five to ten VC funds, although it's more capital investment, you're probably going to let them help you with the individual occupancy problems for each floor.
+
+[38:46] Good question. Yeah. Well, I'm not sure I'm planning to do this right away, but having been an investor in San Francisco for the last 20 years, it's probably a little easier to do that. The challenge is when I talk to real estate folks, they know I'm credible as a venture capital investor.
+
+[39:03] They think I'm full of shit as a real estate investor, which is possibly true. But the basic idea is that you're using the investment capital to drive occupancy. And hopefully if you get 100% occupancy or at least close to 80%, 90% in occupancy, these buildings are more valuable.
+
+[39:19] And if you can drive occupancy from, say, 60% to 80%, you can probably double, maybe even triple the value of that building within a short period of time. Can I get a few other people? But I'm happy to hang out and answer more questions. If we can have a hangout or someone else take over the mic for me, that would be great.
+
+[39:37] But that was awesome. Thank you, Dave. And it sounds like there will be a discussion that continues as there is nothing in the space after this, so you could actually create a bit of a working group and talking. Yeah. Thank you, Dave. Yeah, let's just make it casual.
+
+[39:54] Yeah.

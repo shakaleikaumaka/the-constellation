@@ -1,0 +1,225 @@
+# The Reverse Pitch
+
+Date: 2026-06-16
+Source video: The Reverse Pitch.mp4
+Drive: https://drive.google.com/file/d/1nlRJErPcP1amLyS1x2Fgq3cKyR0fLtho/view
+Duration: 00:53:41
+Transcribed: 2026-06-18 · whisper large-v3-turbo · language: en
+
+---
+
+[00:00] First this, this, okay, okay guys, I'm Kim, this is Rishabh, we are Build a Native, it is infrastructure for global businesses, we work with startup founders that are going from zero to operational, and the idea of what we're doing here is really to bring together founders to help them with the, you know, ground zero of before they even get started, which is how to like communicate the
+
+[00:35] thing that they're doing. You know, we get so close to everything that we're building, it's our baby, we have 30 things that are the features of it, and sometimes like it really doesn't matter, and the only way to realize that is just to get someone else to talk about what you're doing, and so that's the idea of this, but ultimately we want you to use our platform, which is Native, essentially allows you to help set up companies, help get global banking, automate taxes, and help with Visa stuff,
+
+[01:09] you can, the website is native.com, and if you have any questions at the end, we're happy, we're happy to help you, the more users, obviously, the better, and the goal is really just to help founders get things going. So, with that being said, let's kick it off, I will just randomly select a startup, we'll go with Shaka, who just did, someone else will pitch you, someone else will pitch you.
+
+[01:46] Okay, so. You can scan this, and you will see all these pitches on your mobile as well, so until you could see which code you want to pitch, just scan this to your code. Yeah, just kind of scroll the deck.
+
+[02:17] You can scroll and see all the decks and all the websites and all content, and if you guys have submitted any Google Drive links, so please give access to all for this event, just in case. Yeah, okay, I think everyone has scanned it, okay, then we won't start with Shaka, let's start with um, the trade and up game by Lucy, and I volunteer, okay, who am I gonna choose, who wants to, who wants
+
+[02:47] to present Lucy's trade and up game? Lucy, do not run away! Okay, uh, and is there? We can start with Cassandra. Okay, okay, okay, so Cassandra, who would like to pitch Cassandra.FYI, and if you don't
+
+[03:22] volunteer, I will randomly choose you, guys? Yeah, sure, sure, I think, T-O dot, okay, this one, okay, um, I nominate Ayo to pitch Cassandra. Let's go.
+
+[03:54] This one works. Hi, everyone. My name is Ayo, and for the next four minutes, I am now the founder of Cassandra. Two? Okay, two. So, I'm sure we're all on Twitter, we're all consuming content daily, and sometimes there's some ridiculously outrageous things, and more and more so these days, and that leads me to the conclusion that all news has an agenda, all news is biased, and all news is fake.
+
+[04:27] And I think I'm on a mission to change that. For passive reader, we want to keep everyone accountable, which means when you see something online, we want you to be able to look at it and be sure that what it's saying is true, and if not, you can dismiss it. Like, if you guys on Twitter, you see something you don't like, you know, say, not interested in this post, we'd love to be able to give you that kind of filter to be able to screen out the things you don't, the things that aren't true, basically. So, the idea is that you can, like, look at a web page, look at someone speaking, a tweet, artifact of any sort, and check if they've been historically accurate,
+
+[04:58] or this is, like, this is a fake news channel, and can engage in discourse around that. Following on from this, I would love to kind of show you what this looks like. So, this is, like, an example of, like, a news website called the Meridian, and, you know, we give you, like, a stamp that indicates whether this is authentic, genuine, or not, giving you confidence so that you're not, you know, peddling fake news. I don't know, I don't know how many of you, like, read something on Twitter, and, like, go do your research. So, rather than, I don't do my research as often, so this is, like, doing that research for you in the background. I want to bring truth to, more truth to society, and that's why I'm building
+
+[05:31] Cassandra. Questions? Wow, that was, that was incredible. So, shout out to Ayo, and shout out to Yuston for having a clear pitch that someone could regurgitate. Um, okay,
+
+[06:02] so is Neura-Afika. Did I pronounce that right? Neura-Afika. Neura-Afika, okay, all right. The second, which is this one. All right. Okay, so Neura-Afika is a biological computer for energy efficient AI. Um, I nominate you to pitch this. Oh yeah.
+
+[07:05] The summary states, uh, Neura-Afika, uh, we are taking AI compute and you putting it onto human cells. It's like think matrix, but we're doing it for real. All right, so AI is expensive and limited in the supply chain. We all know that Nvidia has cornered the market and is taking over
+
+[07:38] the development of CPU chips. Biological compute is significantly cheaper and can be grown. So, we have 10% of all electricity is consumed by AI today in the U.S. Uh, 650 billion dollars and got in hyperscalers are spent on AI infrastructure. This is not sliding for me at all.
+
+[08:00] Uh, do I still think this? I don't know, they have to be next. I'm not an Apple guy. All right. Um, so, biological computing is engineered for evolution-optimized computation. Uh, Nvidia has been around for decades. We've been around for a lot longer. Our brains are already there.
+
+[08:26] So, all right. So, biological computing is significantly cheaper and when able to be grown. Yeah, I appreciate that. Um, so, neurons are a million times more efficient than silicon based on first principles and can be connected to computer systems at this point.
+
+[08:49] Let me keep going. Biological difficulties, the sweaty fingers. So, 30% of AI will rely on alternative computing methods such as AI optimization, inference, and AI training. This would limit hallucinations and be a hundred times more efficient.
+
+[09:17] One Berkeley scientist, one Google engineer, they're both AI experts with 17 years of trust. Thank you. Okay. Um, okay. So, basically the, uh, for those who have just joined, the concept is
+
+[10:29] there will be a slide presentation on the, on, on the screen. Anyone from the audience can just pick up and raise their hands and can pitch this startup instead of the founder. And the founder just have to perceive and understand how the community and people that are going to use their product is using, is looking at it. So, that's the whole idea. So, if, now, if, for the next, if you want to come, you can, uh, come on stage. Yeah? Let's give it up for us.
+
+[11:17] So, the problem with life is, is that it's just not fun enough. And I think that we should have more fun. And I think that one thing that makes America great is this idea of inculcating this adventurous spirit in people. And so, what I claim is that we can do this all at the same time. Okay? So, uh, people want a good story, right? So, the spa hotel didn't donate $250, uh, $250 of services because it was financially rational. It's because it was trying to create a narrative. Absurdity disarms
+
+[11:48] people. If we can start to disarm more people, we can start to access their true selves. And access is mostly a numbers game. And if we encourage generosity, I think that society will just have ripple effects that will be fantastic. Okay. But actually, go play it. Oh, okay. There are only two slides. Okay.
+
+[12:05] Let me keep going. Um, yeah. Okay. So, I think that what we want is a society that's far more generous, far more absurd, and far more talky to each other. Oh, that makes more sense. Uh, okay. So, this is trading up the game where a Tupperware box becomes a luxury spa day.
+
+[12:31] Let's go. What is the game? So, start with anything. You were given a humble paper clip here in Edge, but you can start with a sock, a Tupperware box, whatever. And trade it. Keep on trading. Trade, trade, trade, trade, trade. Make these asymmetric trades where your value increases, and someone else's value increases. You positive sum everything, and oh my god, suddenly you have something amazing, right? So, here's a true story. A true story where you start with a Tupperware box, and you get a bar of chocolate. And then you call used car dealers, you go to Las Vegas hotels, and suddenly you have a $250 luxury spa in 90 minutes. This is real. This could
+
+[13:05] happen to you. This has happened before. I've seen it on the office. Okay. Uh, the skills you'll actually develop. Cold calling without dying. A lot of people need, need a little bit more, um, what do you call it? Sensitivity, rejection, rejection, sensitivity, disarming. Uh, creative reframing. Let's have a lot of fun and figure out what people actually think and what they want. Reading the room, right? Like, get better at reading people. This is just going to help you in life. Using humor as a superpower, strategic thinking on the fly, and honestly just resilience. Get rejected.
+
+[13:35] Like, it's fine. Go for it. Ask people things. You'll be surprised how often you get. Uh, and I guess the rest have already said, and this is the paperclip trading up game, how it'll make you a better person, how it'll improve society, and how it'll give you a luxury spa. Thank you.
+
+[13:49] Who's next? All right. So, is Rose, Rose Glass here? Yeah. Oh, wait. Okay. Okay. Perfect. All right. So, data and network, um, meta-analysis. Who would like to pitch Rose Glass data? I nominate Lucy.
+
+[14:29] Hi guys. So, I have no idea what this is actually. So, I'm gonna, um, this is gonna be information. What does your data believe by the world measures? Um, what, uh, well, what do, what do we believe because it's kind of, okay, what does the data believe by the world measures?
+
+[14:53] That's a very heavy question. Um, can data really believe things? Can this data alive? Is data personified? I don't know, but we're gonna find out. Um, so, every day it says something. So, the Rose Glass data is gonna provide you information based on what you have done, what you know. So, uh, basically it's gonna know, um, everything about you, and, um, that's very scary.
+
+[15:23] Um, Rose Glass means that I'll see the best of you, hopefully, so I'll hopefully see the best of you. And with Rose Glass, maybe AI won't, you know, try to kill you because it knows the best of you. Um, that's the hope. Maybe it'll love you. Who knows? Um, AIs do that nowadays. Um, okay, so, uh, the problem no one talks about. I feel like really, yeah, I've never heard this issue where, um, a column has 12 percent null values. Um, uh, I mean, effective altruists, this is not an agenda, um, but I feel like, uh, you know, effective altruists should care about whether nulls are not collected,
+
+[15:55] not applicable, or suppressed for proxy. I'm actually gonna raise that up to the local, um, chapter. Um, your model card flags proxy risk. Um, uh, so, um, great terminology, um, a very big issue, very serious. Um, if I could possibly pull out, like, a Donald Trump impression right now, I'd just be, like, super hardcore about, like, how big this problem is. But, um, yeah, we're gonna go on.
+
+[16:21] Um, okay, so, how it works. Um, okay, so, you're gonna, you're gonna connect, and, um, connect CSB, and, uh, do a whole bunch of techie things. Um, let me see. Yeah, um, uh, so, so, I think, I think, I think the point is that, um, you're supposed to, uh, talk with the AI agent in a way that is, um, good for both you and it. I think I saw something that was, like, Rose Glass makes you see
+
+[16:53] AI better, and AISC makes you see yourself better. Um, and if that's the case, um, maybe the point is that we all want to be understood, and we all want to be loved, and, um, if you're really lonely, Rose Glass can help you find a partner in AI. Um, and with, um, um, with, with AGI coming on the front, you know, it's, it's good, um, probably not good for the fertility crisis, but maybe with eugenics, as we saw in the past two weeks, um, we can probably figure something out about it. Um, so, yeah, um, interrogate. Interrogate is a part of relationships, um, anyone who has been a part of,
+
+[17:27] um, a serious relationship, um, interrogation is, like, a huge part, especially when you're coming home late at night and no one knows where you are. Um, so, what? Yeah. I'm not an official representative of Rose Glass. I should clarify that. Yeah.
+
+[18:29] Okay. I guess that's, that's the point of the pitch. Yes. Um, all right. So, let's go to Combiner, um, which is the local first agentic control plane, uh, by Justin. Who nominates themselves to pitch Combiner? Okay. All right. Let's go. Okay. Um, so, we have a, we have an issue here that we're trying to solve, and that's that
+
+[19:15] we're sending all our data, all our thoughts and our proprietary data into the cloud where these mega companies can look at it. And so, Combiner, we are proposing, uh, local first governance and execution infrastructure. Um, so, tier one, 90% of your tasks we want to see happen on your machine. Um, those are your sensitive documents, transcripts, and agentic workflows run entirely on your device.
+
+[19:43] Um, you can govern around audits. Uh, you can cloud frontier advisor. So, conflict reasoning escalated to frontier models only after the semantic firewall scrubs. Okay. So, it seems here that Combiner is going to help you to do all of these things that Microsoft Copilot and ChatGPT Enterprise can't really do, which does, makes a lot of sense to me because those are the two worst AI companies. So, um,
+
+[20:14] Combiner will help you. And, um, we are seeking design partners in legal, medical, and finance. Uh, we're seeking developers. You can find us on GitHub. And we're open to early conversations for seed rounds. The company that wins the next decade of AI is not the one building the smartest models.
+
+[20:36] Nope, not at all. The smart models don't mean anything, actually. It's a company building infrastructure that decides when, where, and how those models are allowed to touch our data. Because data is the new moat. Thank you. Okay. Who would like to pitch Mantis Hack?
+
+[21:18] I think Taras would like to do that. Taras? Taras, let's go. So, uh, during these days probably everyone knows how it is hard to make your website secure, and how many problems people face, how many security programmers cost, and how much money you need to,
+
+[21:53] to, to guard your website, actually. That's why I came with Mantis. Uh, I'm using many AI tools to analyze your website and make a report on that. And usually those bugs that I find are critical, because with those bugs you can hack my, probably a lot of websites starting from university's gmails, ending, uh, I don't know, random Shopify shops probably.
+
+[22:26] So that's why you need my product. It's like, uh, you need to, uh, save your product from vulnerabilities, actually. And, yeah, uh, that's a big problem during these days. You probably know that Claude, uh, uh, had many updates, uh, uh, and with that you can, uh, probably hack your prop, uh, hack your product.
+
+[22:54] And, uh, most recent event is Zcash encryption product. Uh, it's like, it was, uh, it was pretty old project, uh, and a month ago someone, uh, hacked, uh, this product and, uh, yeah, but it was, uh, white hacker guy, so they fixed that bug. But the conclusion is that, uh, the product is live for probably 10 years.
+
+[23:18] And that guy with zero knowledge of programming, uh, found a way to mint unlimited amount of tokens. So that's why you need my product and you need it to secure your website. Thank you. No one scrolls down. Okay, the abundance company. All right. Who would like to pitch the abundance company?
+
+[24:06] All right. What's your name? Offman. Okay. All right. So hello everyone. Uh, I am the interim CEO of the abundance company. This is the agentic operating system for power grids. So as you know, there's an opportunity here. There are 2.3 terawatts of clean
+
+[24:43] energy stuck in a long queue waiting to connect to the grid. So oftentimes people think that the bottleneck is building power, but it's actually the paperwork to plug that in. Um, it's not very efficient because it's one engineer going through tons of pages by hand, very mechanical and wrote, um, dealing with the rules that constantly change over time. What we built is an AI engine that connects all these
+
+[25:24] applications in the same way this individual engineer would. So now we are fast tracking all these days and hours worth of manual review into a very short time of supervised, um, connection through these applications. How it works. We ingest all the documents, check with a source of truth, triage into pass, judge, or fail, and then the human in the loop assesses and accepts or rejects these changes.
+
+[26:03] Now, every distribution network operator in Great Britain has agreed to be a design partner. So we have motion. Um, we have six operators that are in a regulated book and tons of funds and partnerships. So I'm sure you guys are interested in the business model. What we do is we charge per kilowatt. Um, so you don't have to change your existing workflows. It's the same, um, unit that the grid is already
+
+[26:40] invoiced on. So yes, um, at one terawatt. You, you see the, um, US RTO. I don't know what that is, but you see big numbers. Um, but yeah, the ask is we would like to raise 3 million to ship the first pilots within the UK, uh, and operators and cross into the American market. It's three of us and we've
+
+[27:15] all shipped together before. So, you know, there's harmony and, um, chemistry there. And yes, um, thank you. If you would like to optimize your power grids and be more efficient with the engineers that are operating your power grids, tap in with us. Eric is doing it. Yeah. This will be fun. My name is
+
+[28:38] not Shaka. I'm the interim CEO, Eric. And it's taken over. Um, I want to introduce, uh, creationology three, three 69, um, because there are more days in the year. Um, um, um, so just to, to introduce myself, I'm not Shaka, um, but, uh, we have people who are really into music and community and harmony
+
+[29:11] and the blockchain, specifically Ethereum. Um, um, so let me introduce the problem here. I mean, the creator economy is obviously broken. People complain about Spotify. Um, you know, it's a good example of how an evil middleman takes 85 to 88% of the revenue and then, you know, artists, you know, they just, they want to focus on making music and to do it, they need, they need money to do it and, um,
+
+[29:42] trying to solve that problem. Um, and so the vision here is a world where creators can keep 96.3% of their earnings and have infinite reach. And this is all going to be powered by open source protocols and AI. Um, AI agents enable this by removing the middle men. Um, our architecture is based on four pillars. That's, um, I don't know what these are, but different agents. Okay. Different agents. Yeah.
+
+[30:19] Um, and the foundational pillars here are these agents that have been specifically crafted to help artists, um, coordinate opportunities and enable them to reach their audiences. Um, Okay. Uh, yeah, there's some great agents that we have and they have all their, they have these
+
+[30:51] fantastic personalities that will enable, uh, them to operate on this, this, this platform that realizes this vision, um, together they live in harmony, um, like, you know, harmony and music. And, um, they'll be enabling, um, a solution where fair royalties will be able to be distributed people will be able to intelligently discover music, communities will grow around that music and, um, the appropriate social connection and stewardship and, um, um,
+
+[31:27] all the things we love in music. Um, there are a lot of other agents that just help this further along. It's fantastic. Um, we have a whole entire team dedicated to making these agents, bringing them, bringing them, bringing them to life. The personalization pillar here is that the entire ecosystem, um, oh, this is, I'm confused.
+
+[31:56] Um, oh, this is, okay. I see. Oh, okay. Yeah. Um, yeah. And so, uh, when, when, when, when, when, um, um, artists have connection with personalized agents operating on this platform, they can enable, um, um, artists to have a direct say and communicate directly into the audience, audiences creating the kind of communities that they specifically want to communicate or cultivate rather than evil middlemen like Spotify. And there's a lot of other agents.
+
+[32:32] And, um, so yeah, this is the vision here of how a, um, entire ecosystem can be built around AI and how artists can enable, um, um, and thrive in an ecosystem that is fair and has a bunch of awesome blockchain stuff to enable that. Okay. Wow. There are a lot of slides.
+
+[33:00] Um, okay. I think we're good. Okay. Great. Thank you. Thank you. Thank you.
+
+[33:30] Thank you. Thank you. Well, so I actually was presenting this to Binance and that's AI because they're doing a launch on Binance so it's like you can lock the token and then do the bond for it. So the idea was that, you know, like you would have to like buy the token
+
+[34:02] to get access to the agent to do it on the Binance. I guess operating system of the agent to do it on the firm. And then also I just went on to the top of AGI
+
+[34:34] with kind of giving that triad of three pairs to make sure that you can get access to the agent to do it on the basis of the agent. Okay, so next. Cool. I think we are a little bit close. We have, we'll do one more
+
+[35:06] and then we'll get Luca to come up and actually help us. But let's go to Case Academy. Do we have Case Academy? Is Case Academy here? If not, then. Okay. Pardon? But she can pitch, but. But they aren't here so it's not really useful. Do you want Case Academy?
+
+[35:28] Okay. Someone is going to pitch Case Academy. Okay. Martha. Let's go. All right. Beautiful Martha. Okay. So we all are trying to build companies, right? Bigger companies, smaller companies. And when you are pitching to the investors, you need to be the expert.
+
+[35:56] You need to be more an expert than the person you will take the money and investment is an expert, right? And we are playing this game over and over again. But I will tell you a secret. We are, need some help here. And this is where we are coming as a consulting company that can help you avoid the mistakes, get insights into the markets and have a crash course
+
+[36:27] over whatever you need to build and learn in your industry. And the biggest selling point is that if you are ready, will be big. Like Zach or Sundar and you made a mistake and you need to do a difficult decision, then you can hire us and we will sort it out for you.
+
+[36:51] That's my pitch. Tak-tas. So now, would anyone like to pitch Native? Okay. Okay, Dion. Yo!
+
+[37:35] I have to pitch. Yeah. Hello. Hi, guys. I'm interim CEO of Native. Native is a platform for almost everything a founder needs. From immigration to incorporation, we do everything with the power of AI. You can just get started by... If you're in here for immigration, you need a visa, you're from outside of the country and you want to work here,
+
+[38:07] you can just put in your LinkedIn. Can I show a demo? Okay, I'll just close the demo. You can just put in your LinkedIn and you basically get like the status. Like, if you can get in for the O1 visa, for the B1, B2 visa, it can give you an entire, you know, report out of just your LinkedIn.
+
+[38:31] Then you can put documents on top of it. It makes it very easy for you guys to basically do all of this as a founder. It's very hard. Me, myself, as a founder, have gone through so many complications and problems. Native is a platform which, yeah, which makes, which gives you a good, yeah, a good support system.
+
+[38:56] And, do you have a pitch deck or something? Yeah. So you put in your LinkedIn here and you basically get, yeah, which visa you are applicable for. And, yeah, it's a pretty easy platform. Just try it out for yourself and looking forward for you guys to be a native.
+
+[39:33] I feel, it was good, but I feel his same pain. It was like, it just doesn't do it justice. All right. So, we'd like to invite Luca up to chat about actual pitching. So, I met Luca at one of the Long Journey events and in 10 minutes he helped me to just like get what I'm doing very clearly and he had no previous contacts about everything that we're doing.
+
+[40:02] So, please welcome Luca. No, no, no. You don't have to. This is... Okay, you want to keep this up for... We just want marketing purposes. Yeah. Hey, everyone. So, I'm Luca Del Deo. I was working at Athos and AI Innovation Hub in Boston where I was mentoring startups.
+
+[40:28] I actually started out there as a startup in residence, decided I hated my startup, stopped doing that startup and just started helping other startups. I was also, maybe for one month, the highest earning canvasser for the Nature Conservancy in the United States.
+
+[40:46] The Nature Conservancy is the largest environmental non-profit in the world and so I just, I needed like, you know, some money on the side, a side hustle. So, I got this job canvassing for them and I would go out on the street with a tablet with a bunch of other people and just have people sign up within five minutes to donate $25 a month to a non-profit they didn't even know about, they didn't care about.
+
+[41:11] I mean, presumably, if they were donating, they care about animals and saving animals and stuff, right? But in five minutes, you get someone from having no context to putting money on the line, putting parts of their identity on the line for something they now care about.
+
+[41:25] I was so good at that that in two weeks, I was director of that entire canvassing campaign in Boston and I'm going to teach you guys the same strategy that I used for that canvassing campaign and then I also taught to startup founders in Boston at the Cambridge Innovation Hub.
+
+[41:44] So, for this, I'll need a volunteer and I also do, I do want a whiteboard or something if we can have that as well. Who's the, who's the most enthusiastic volunteer? Maybe I'll ask Z, I'll ask Kim to pick someone because I feel like I'm not going to, yeah, like there's politics at play here, who knows.
+
+[42:10] But really, we can do it with anyone and you're all going to benefit from it from watching this. Oh, wait, we were talking at a party, what's your, I can't remember your name, man. Yes, yes. Okay, awesome. Okay, so I do know a little bit about Yes's startup but I've also forgotten everything he said.
+
+[42:26] So, yeah. Okay, great, great, social work. Do you prefer like an actual? If I can type, if I can type, that works. Yeah, okay. Oh, this is Rishabh's. Rishabh, do you have Figma on your? Yeah,
+
+[42:57] I saw you, you seem pretty enthusiastic back there but also because I know you, I didn't want to be like too biased. No, no, no, this is great. Kim took the bias out of my hand. Yeah. Yeah. Okay, so there, is this fine? This is fine. I just need to make three columns.
+
+[43:14] So, okay, so Yost is going to tell us about his startup and disclaimer, he's going to tell us about it wrong first. I'm just guessing. Everyone does and that's fine because we care a lot about what we're doing and it's great that we care a lot.
+
+[43:37] that's a feature, not a bug but what we're going to do is take what is often a very complicated idea and we're going to turn it into something much simpler. Maybe I don't need to do that. Well, we'll see. We'll see how much. Okay, so, is it y'all else or Yost?
+
+[44:03] Yes. Yes. I'm having such a hard time with your name. I'm so sorry. So, Yost. So, first, do you want to give a little introduction? I don't know if you want the microphone. Just, like, what's your name? What are you building? And then we'll go from there.
+
+[44:20] Yeah, sure. So, I'm Yost. I'm trying to figure out how to route social trust better to the right people. Should I say the problem and solution and stuff? So, we'll start with this. Yeah. So, Yost, you're trying to say that again? Look, my fundamental goal is I think that if in the next couple of years we don't bake in incentives to get people to trust the right people as a species, we're screwed.
+
+[44:45] And so, the problem that I'm solving is that. How do I get people to trust the right people? Okay, great. Okay. So, what we already started to get is the problem. How to get people to trust the right people? I want to not do that. Okay. That's a little abstract.
+
+[45:06] Can you tell me a little bit more about that problem? What else? What are you actually solving? Like, what is really the startup here? Yeah, so, the startup is tricking people into improving who they believe on the internet. So, if they're reading an article, what should they believe and what should they not believe?
+
+[45:25] Okay, that sounds like a solution. Okay. So, we've got tricking people into, wait, what? Getting better at knowing what to believe. Getting better at knowing what to believe. Yeah. What's that? Multiple levels of lying. Of lying. Yes. Yes. Yes, yes, yes.
+
+[45:54] Makes it fun for me. So, let me give a little overview because I've got to make sense of this. What we do with this approach is we first outline the problem, solution, and then victory structure. Victory is also known as traction. But, one of the reasons why we don't want to frame it as traction, even though all of you know to use this language and you're going to have investors who respond to that language, is because what we're doing right now is we're finding
+
+[46:24] a way to make this incredibly exciting. That's the goal. So, right now we've got this introduction. Yes? YUS. YUS. What kind of company is this? I don't really get it. You're building a... Social network. A social network. Where the status game is based on epistemic.
+
+[46:47] Epistemic status game. Okay, so this is going to be a fun one because this is pretty complicated. Yeah. So, if we can do this for us, we can do this for anyone. get people to trust the right people. That's not really a problem. Like, there's a problem right now that's happening.
+
+[47:00] You're looking out at the world. What do you actually see people doing that they need... They have a pain and you're trying to solve that pain. I think people are suffering because they have information overload and they go into these delusive groups of polarization and that this causes them mental anguish as well as bad life outcomes.
+
+[47:19] Who is the... Who cares about this enough they're going to pay for it? They don't care about this problem enough that they pay for it directly. Okay. So, what is the problem that you are solving that people are paying for? That when you read a lot of information on the internet, you don't know what to trust.
+
+[47:39] Okay. Don't know the information to trust. People are paying for this product. They would. I think so. Okay. And so, let's say... Let's start with this. Don't know the information to trust on the internet. Yeah. How do you solve that? Just shove an LLM at it and get it to verify whether or not it's true.
+
+[48:00] Verification? Yeah. Okay. Let's start with this. And now, what have you already done to show that this works? Any kind of victory whatsoever? I showed the prototype to a couple of people and it seems like it's engaging enough. But it's early.
+
+[48:20] Prototype demos. So you have a working MVP? Yeah. Okay. You have investors? Not yet. Kind of. Somebody gave me $30,000. Hey, that's great. So you got $30,000. Angel? Yeah. It was kind of like you can just have the money I don't care kind of thing.
+
+[48:42] Sounds like Angel. Yeah. Yeah. A great one. Any other traction that you've had? Do you have any users even if they're non-paying users? Do you have anyone who has made a really strong vocal commitment or a non-vocal commitment but they're trying to pre-order, they're on a wait list?
+
+[49:08] So I made the MVP yesterday. Two people have been telling me they want to invest as well and have committed, I think it's small amounts though. We'll say two incoming investors. Yeah. That sounds nice. Okay. So what you do with this framework, we can continue to hone this as we go and I think we're still actually, it sounds like this is a really recent product for us.
+
+[49:32] So this is much harder when it's something that you're still clarifying but what you can do, you can use this to even start to clarify it for yourself. So let's see what this looks like now. So I'm going to try to the way this pitch strategy works is essentially it gives you a quick elevator pitch that you should get something that in less than 60 seconds you can have someone go on an emotional rollercoaster and fall in love with your product.
+
+[50:01] So hey everyone, I'm Yus, I'm building a social network. We're going to figure that out. I'm building a social network platform. Here's the problem I see in the world. People don't know which information to trust. So I'm solving this. I've built an LLM verification system that helps people know whether or not they should trust that information.
+
+[50:26] This product is working so well, I've already received $3,000 in funding. I've got a working MVP and multiple investors are ready to get on my data table. So cap table, thank you. So this is how you can quickly pitch a structure like this. Then what you do is you want to think, let's imagine you're doing this at a party, right?
+
+[50:52] Because honestly, a lot of the relationships that you build, if you're already in that Zoom call, if you're already in the accelerator and you're pitching, whether it's an investor or someone else in person, you've gone past the stage. They're already interested enough that they want to learn more and that's where more advanced pitching strategies get involved.
+
+[51:12] But when you're meeting someone just on the street, literally in the airplane seat next to you, I sat next to a YC founder on my flight in here, very San Francisco, you want to be able to convey something like this in as little time as possible.
+
+[51:26] And then you have, we all know this, your call to action. So yes, if someone wanted, if you had an ideal outcome from telling someone about this right now, let's say you're at Edge City, you're at the plaza, there's like a community dinner and you're telling someone like, yeah, I'm building the social network platform, people don't know what to trust, I use LLMs to help them figure out who to trust, I've already raised 30K, I've got a working MVP, get on board, what do they
+
+[51:56] get on board with? Yeah, what's the call to action, what do they do? What do you need right now? Just pay attention to me, watch in a week, see how fast I move and then if you like it, I was going to say join my wait list but. We're at time?
+
+[52:22] Okay, so, Yus, actually to wrap it up, do you want to let Yus just pitch from this? Yeah, so try that out, do the, don't know the information trust, LLM verification, pick one or two angles from the victory? Yeah, so I'm Yus, I'm making a social network that tricks people into believing the right things, the problem that I'm trying to fix is people don't know what to trust although they consume a lot of information and so the solution is to get LLMs to
+
+[52:52] check what's going on on the pages that they're looking at and then create a social game out of that and so I've already got a prototype, I've got a demo, I've got two people who have told me that they've committed to investing, one person already gave me 30K and the call to action is use my app, check it out, see if it's fun and hit me up if anything breaks, hit me up if you want to invest for anything like that.
+
+[53:15] Yeah. Cool. Nice. Better. Yes. Okay. Thank you so much Luca and thank you so much Yastin for volunteering. We are at time but this was very fun and I hope we took away something very valuable. That's it, right? Yeah, that's it. All right, guys, have a good one.
+
+[53:39] Bye-bye. All right.

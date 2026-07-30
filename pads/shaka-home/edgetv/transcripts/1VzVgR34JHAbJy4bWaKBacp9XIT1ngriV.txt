@@ -1,0 +1,247 @@
+# Building Together_ The Client-Architect Relationship in Mission-Aligned Work
+
+Date: 2026-06-24
+Source video: Building Together_ The Client-Architect Relationship in Mission-Aligned Work.mp4
+Drive: https://drive.google.com/file/d/1vnylImG3AGPkhe0UJPN_6ciHwsi1wpH9/view
+Duration: 00:38:50
+Transcribed: 2026-06-26 · whisper large-v3-turbo · language: en
+
+---
+
+[00:02] All right, well, thank you all for joining, for coming out, Edge Esmeralda, oh yeah, perfect, thank you. Thank you all for joining. My name is Nick Thorsrud, I'm an architect at Opticos Design, I want to give a huge shout out to the Edge team, thanks for providing this platform for folks to come together and share ideas.
+
+[00:34] On ideas, today I'm going to be talking a little bit about the relationship between client and architect, and the exciting things that can happen when there's shared mission alignment between the two. I think that's really where you can get some kind of creative and impactful projects.
+
+[00:49] So this is a case study in Florence, Alabama. Just as kind of a show of hands, do we have any other architects or urban designers in the group? Steve back there, Julianne. Any developers or future developers, excellent, aspiring city builders, very cool, or other folks that are just interested in urban design, love it.
+
+[01:15] I think regardless of our background, we can probably all agree that what we're currently doing in the built environment is not really serving us as far as human flourishing goes. We're building a lot of large roads, things that are not conducive to human connection or pedestrian infrastructure.
+
+[01:30] And there's probably a bit of frustration if you feel the same way that I do. In a nation as wealthy as the U.S.'s inability to produce quality public infrastructure or private infrastructure in general. So we're all here to connect, to innovate, to find ways to connect resource to need.
+
+[01:50] So that we can create more places like this. I would love if everyone would just take like two seconds to think of a place in the built environment or something that they found really great, like a place they were in or a time of your life when you felt really supported by the built environment.
+
+[02:07] You know, maybe it was like a vacation where they had really great public transit. Maybe it was a college campus where you could walk to your friend's dorm. And if anyone's willing to share, I know we're a small group, so I want to share what that place that comes to mind is.
+
+[02:24] Any volunteers? Totally fine. Everyone has? Yeah. Go ahead. Very cool.
+
+[02:55] Oh, yeah. Sure. All right. How's that looking? Nope. Sure.
+
+[03:32] Is there a way to do it without the... Okay.
+
+[04:18] Sorry about that. All right. Back into it. So, I really love hearing non-architects perspectives when I go into the world. I think it's really important for architects to listen to folks that aren't involved in the building design industry.
+
+[04:33] And beyond just listening to folks, it's actually a huge part of my job to take the ideas of folks that are not in the building design industry and have this idea and translate it into something physical. So where that usually takes place is between the architect and the client.
+
+[04:47] So the architect can bring design expertise, project knowledge, professional know-how, and a creative thinking. And then the client comes in with something new, a new perspective, an idea, something they want to build. And ideally some kind of really clear project vision that the two can work off of.
+
+[05:06] But what I'm really interested in is when there's overlap between the client and the architect. And that overlap can be a shared mission, shared values, and mutual trust. And I think when there's the combination of an architect who's excited and willing to do something innovative and new, and a client who's willing to take those ideas and create ideas of their own and add on to it.
+
+[05:29] And there's this overlap of shared trust. Something really impactful and exciting can happen. And that's what I'm going to talk about today. I thought this was a funny graphic. You all have probably seen it. But what can happen when there's misalignment between architect and client or architect and the rest of the team or client and the rest of the team?
+
+[05:49] The sliding scale of we design everything as the architect and you don't get a say is the quote unquote cheapest way to do it. And then it exponentially increases as there's more kind of hands-on involvement or control from client or design or other design consultants.
+
+[06:06] So when there's kind of this misalignment, you can get mistrust and micromanaging. So ideally, you're going to find something in the middle. I'll say none of this actually happens in a vacuum. So beyond the architect and the client, there's a whole team of consultants, and it's really important to make sure your consultant teams are kind of aligned on that mission too.
+
+[06:25] So I wanted to give a shout out to the rest of the folks that were on the team. You know, everything from civil engineers to the construction folks, the landscape designers, and the structural engineers. So it's a whole team effort. But today I'm going to be focusing a little bit more on the architect and the client.
+
+[06:43] So what's this overall structure? There's usually kind of a shared project vision that's brought to the project by the client, and the architect kind of helps refine it and craft it. So you have something to refer back to throughout the project.
+
+[06:59] And then from that project vision, you've got these strategic pillars. And the pillars are what are kind of holding up the project. They're kind of the foundation of the project vision, like what's actually going to make the vision happen. And then underneath each strategic pillar is a specific design solution that's contributing to that pillar to make the vision happen.
+
+[07:19] So it's breaking things down from kind of an overall intangible vision to something really tangible and something that exists in the built environment. And then overall, you've got this shared core mission that kind of binds the architect and the client together towards something larger than even just this project.
+
+[07:36] And I'll talk about shared vision first. So I work for a company called OptiCoast Design, my coworker Julianne's here too. We're an architecture and urban design group focused on creating walkable communities. If you all have seen this diagram, the missing middle transect diagram, that's us, we're the missing middle people.
+
+[07:57] But beyond that, we're also urban designers and architects. And we're really focused on creating people-centric, beautiful, walkable places. And we're really interested when a client brings something unique to us. Try to solve the nut and crack the nut and solve something that is a little bit different than a conventional developer.
+
+[08:16] One example being called the SAC Tempi. This was another pretty innovative client that we had a few years back. He'll actually be giving a speaker on Saturday, a speech on Saturday. But this is the nation's first car-free community. And it speaks to the design philosophy of people first that we hold really dearly.
+
+[08:37] Where the spaces are just as, if not more important, than the architecture itself. So the architecture can fade away. But what's really important is the spaces where people interact, spaces where people collide. And you can kind of think of the urban design, right?
+
+[08:56] So you're carving away these pedestrian paseos and you're carving away these courtyards. And what's left is the fabric buildings. So you're really focusing on the public space. This is our client. His name is Joel Anderson. He's from Florence, Alabama.
+
+[09:13] You can see her on the slide. The small downtown. He's really proud of being from Alabama. He's really excited to make a change in his community. He's not a traditional developer by background. He would describe himself as an entrepreneur. He comes from a family of innovators and got really interested in urban design.
+
+[09:33] His wife is Dutch. So they took a lot of trips to Amsterdam, to the Netherlands, a lot of family trips to East Asia. Specifically, he was really inspired by Tokyo. So he developed this and his wife's perspective. And started to wonder, why can't we have this in the US?
+
+[09:53] Why are we building so much of those large stroads and some of the images that you saw at the beginning of the presentation? So he has this really mission-driven alignment on people-centric and walkable communities. Like I mentioned, he's locally based.
+
+[10:10] So it gives him a personal stake in the project. And it also means that he has a lot of relationships and local connections that a developer who's not based in the community might not have. So he's really plugged into the ground-level work of folks in the community and wanting to make a difference in that community.
+
+[10:26] He's got a mission beyond just profit. And then, like I said, he's got this first-hand experience in the area. So he really knows what the community is needing, what's lacking, and how we can start to improve things in Florence. I think another interesting thing about Joel is he's not an industry developer.
+
+[10:43] He doesn't come from a real estate background. He's not a trained architect. Which I think gives him this kind of valuable when we're starting to craft that project vision. He can pursue more creative financing, not being a traditional developer, going after traditional financing methods.
+
+[11:00] He has a little bit of a higher tolerance for risk because this is something really personal to him and he really wants to make a difference. And going along with that, he's able to resist what he usually called the inertia of standard development.
+
+[11:15] So there's this constant kind of inertia pulling all projects back to what's easiest, which is typically some of these front-loaded garages, suburban areas that we see pretty common throughout the US. So he's able to ground it in his mission alignment and resist that inertia to water down the project.
+
+[11:37] So that being said, he came to us with this really great project vision to create a complete neighborhood where residents and visitors can build relationships, live their lives, and pursue whatever ends they find meaningful. And what he really wanted to stress was that it's a neighborhood designed and built for residents.
+
+[11:55] It's not for investors. It's not for cars, for landlords. It's really about the people that are living in the community. And this was the project vision that we were able to stick to throughout the whole process and kind of refer back to when we were making decisions.
+
+[12:09] So I mentioned the strategic pillars. So these are the things that are holding up the project vision. A few of those being stitching back the urban fabric. So physically start to heal the urban fabric in Florence. Create third spaces for people to interact.
+
+[12:23] Work spaces for people to collide and facilitate planned and unplanned interaction. Another one that's specific to Florence was providing pathways to ownership. So rather than creating a community where he's going to extract wealth, it's really about distributing wealth.
+
+[12:41] So creating a project where folks can feel ownership and feel ownership in their community. And then the final one that's really core aligned with Optico's is this ensure walkability for all. So focusing on a pedestrian safe human experience on the project.
+
+[12:58] So now I'll go into a couple of those specific design factors that relate to each of these pillars. So starting with stitching back the urban fabric, starting to heal historical physical barriers and economic racial divides that exist in Florence.
+
+[13:12] So for some context, this is Florence, Alabama. It's on the northwest side of the state. You can see the historic downtown. It's home to the University of Northern Alabama. And our site is about a 15 minute walk outside the historic downtown, outlined in that orange.
+
+[13:27] You can see the 15 minute pedestrian walk shed. This is from the US census, showing some of those racial divides, like a lot of cities in the south. Florence has a pretty heavy history of segregation. So the light yellowish area is the predominantly black community, historically disinvested.
+
+[13:49] The darker green is the historically white community, much more wealth in those locations. And our site is that orange dotted line that kind of bridges those two neighborhoods. So it was this really interesting opportunity for a site that sits on the edge of these two historically very separated communities.
+
+[14:10] So here's a zoom in on the site. This was pre-2019. It was a former hospital site. You can see it's not a very friendly neighbor. It's enormous. There's not a lot of porosity through the site. It's heavily parked, probably beyond capacity. There's not a lot of connection between north south.
+
+[14:28] And it historically served the wealthier community to the south of the site. Come 2019, the hospital went out of business. A few of the offices moved to a new facility and the whole thing was demolished, which created this really interesting infill site, like a true infill site, to do something different on the property.
+
+[14:48] And our client saw that opportunity in his own backyard and wanted to take advantage of it. So around the area, there are a couple of existing offices and medical offices. There's an existing school just across College Street. And then on the east side, there's this adaptive reuse project that's going in that's a new innovation and entrepreneurial hub.
+
+[15:09] So the site wanted to address not only the barriers that previously existed between north and south, but also using all these as. And that being said, here's the proposed plan that we were able to come up with, with the consultants and with Joel.
+
+[15:29] So starting off, like I said, it's really meant to be a new crossroads between north and south, east and west, and a connection to the historic downtown. So you've got a new main street that goes north-south from College, the community to the north, through the site, and then also connecting to the neighborhood to the south through these pedestrian connections.
+
+[15:53] Unlike the hospital, it's facing the neighbors, it's inviting folks to come in, it's trying to be a part of the community, it's not trying to turn its back to the community. So around the perimeter of the site, we have these lots that actually face outward to invite folks to come in.
+
+[16:13] And here's that proposed plan, just as a really early conceptual massing. So the new main street with mixed-use apartments, that new main street goes north-south to connect that northern community with the southern community, and really encourage flow between the two, as a gathering place for all people, and then beyond that, connecting to the residential neighborhoods with pedestrian connections.
+
+[16:39] So the next one is to provide pathways for ownership. So this is really about investing in the local community, and like I said, distributing, not extracting value from the community, which was something that our client was really invested in.
+
+[16:53] First strategy there was to provide a variety of unit sizes and types. So starting off with the mixed-use apartments, these are all for rent as kind of the lowest barrier of entry for folks to come into the community to provide housing at that level for rent, above retail spaces, so the second and third floors.
+
+[17:15] There are these unique kind of courtyard housing developments that were based on a Frank Lloyd Wright courtyard precedent that we found, one of his old sketches. And these are all on pedestrian connections, and they're all single-family units that are faced inward around these semi-public courts.
+
+[17:35] And these are all for sale. And then townhouses for sale, these are a little bit larger. These have a detached or a tuck-under garage. So these are on the other end of the spectrum from attainability, but still trying to be attainable for the community.
+
+[17:52] But the idea is to provide the widest number of lifestyles and ranges as possible. So you can have families, you have single folks, and you provide housing for all of them to live in the community. And then the single-family detached is what lines the perimeter of the site.
+
+[18:07] And this is what faces the rest of the neighborhood. Kind of like-facing-like across the way. It's all historically single-family detached. So it's providing that transition between the site and the rest of the community. So starting with the mixed-use Main Street, we took a lot of historic precedent from Florence and the detailing that's in those mixed-use buildings downtown, paying homage to that.
+
+[18:33] So we did a lot of iterations, a lot of sketches, seeing how these buildings might look. And you can see a few of those sketches and then kind of a photorealistic rendering of what those buildings are going to start to look like. Mixed-use can sometimes get a bad rep.
+
+[18:49] And I think that's, there are a lot of reasons why it fails. But one of the main reasons is these spaces are designed to be too big. So there are these really large spaces that are inflexible and really only attainable to big-box tenants, which may or may not end up showing in a new development.
+
+[19:08] So oftentimes, the storefronts go empty and these kind of eyesores in the community. So we wanted to avoid that. And one of the ways we did that was to look back at the historic Main Street buildings in Florence. And these buildings are all 26-foot on center bays, flexible retail spaces that can be or made smaller depending on an individual's need.
+
+[19:35] So an incubating business, a small business might only need 525 square feet, which means a lower rent price, which means it's much more attainable for that small business to start incubating. And then growing as the space can grow as the business grows.
+
+[19:52] Something on the back end that Joel was implementing is this kind of unique rent-to-own model. And that's the idea of once these businesses that are attracted from the local community start to rent the spaces, after seven years, they'll have the option to purchase their space and really have a vested interest and ownership of the space.
+
+[20:13] He saw what was going on in downtown Florence, which like a lot of other downtown areas, rent is increasing and a lot of folks are getting priced out of their legacy businesses are getting priced out of their spaces. So he wanted to provide a way for legacy businesses to come and actually have ownership in the community.
+
+[20:32] So it really keeps the value in the community. These courtyard units Julianne's passed around, we've got a 3D printed model of these, but this was something that was really exciting for us as kind of a new model of home ownership. So they're all detached units, but they share this common court, the semi-public court, and they were able to decide kind of the programming that they want inside of it.
+
+[20:54] The units range in size from one bed attached ADUs and all the way up to three bedroom homes. So again, trying to create the widest aperture possible for tenants to or folks to actually purchase these and live and create community in the development.
+
+[21:14] We were really careful about layering privacy. So the layering of public space to private space. We've got these shared courtyards, but then each unit also has a more private outdoor space for their own individual use. So these were really intended to be starter home options, which doesn't really exist in Florence.
+
+[21:32] And that was attained by just the size of the units. The next one, creating third spaces. So this was a radical focus on public space coming from Joel's inspiration from Amsterdam and how really integrated into everyday life in a lot of other countries.
+
+[21:52] And the planned interaction and spontaneous interaction that comes as a result of that. So it was really designed as a series of spaces. You've got the main street and then you've got plazas off of it. A main plaza that kind of acts as the hinge between north and south.
+
+[22:06] So you're directed from the north to the main plaza. You see the plaza from the south as you're coming through the site. And that's where kind of all the energy in the hub is going to be. And then you've got secondary plazas that are a little bit smaller, may have different uses or a little bit more intimate, maybe more for sitting or small groups as opposed to some of the larger farmers market events or something that can take place in the main plaza.
+
+[22:29] And then a small park on the south side of the site. And that's to serve the community to the south. And also encourage folks to flow through the site from north to south. And you can see a couple of renderings here. The plazas were meant to be flexible.
+
+[22:44] So there's a band shell for concerts, outdoor movies, farmers market setups, small artisan markets for locals, food trucks. We took all this into consideration when we were sizing the plaza. As well as trying to compare it to plazas that we visited and plazas that Joel has visited in the past that he found really inspiring.
+
+[23:04] And then on the other side, we've got the secondary plazas. So one of them has a splash pad that's more focused on families and children. So having a variety of plaza sizes and uses was a big part of the site design. Downtown Florence doesn't have a lot of open space.
+
+[23:23] It's got main streets. But there's not a lot of space for people to hang out and linger. And that's what Joel wanted to do here, was create really great spaces that people felt good being in and wanted to linger in, which benefits the project economically.
+
+[23:38] Mentioned this pedestrian-only Paseo. But this is the green spine that goes east-west on the site, connecting all the courtyard units up to the main commercial plaza. You've got these semi-public courts that the courtyard units face. And then you've got those connections that branch out to the neighborhood.
+
+[23:57] So these are pedestrian connections specifically intended to bring folks from the neighborhood into the site. It really is kind of a community asset. You can see a couple of renderings of what those courtyards are starting to look like. So they're inspired by some of the prairie style.
+
+[24:14] There's a nearby Frank Lloyd Wright house. So we took inspiration from that in designing some of these units. And then the public greenway that you see in the other rendering where folks can come from the commercial space down to the more residential area.
+
+[24:29] That's kind of that transition. This next one, ensuring walkability for all. So this is really about prioritizing the pedestrian and the human experience. So again, I'll go back to the pedestrian shed. The whole site is about a five-minute walk.
+
+[24:44] You can walk end-to-end in 10 minutes. So it's about providing as much of your daily needs as possible within this five-minute walk. So restaurants, coffee shops, there'll be a future grocery store on the site. There's a school just to the north.
+
+[25:00] You have a park. So it's trying to encourage folks to use the resources they have around them and make those resources as convenient as possible. A big part of that is how we design the streets. So street trees, making sure our travel lane widths are appropriately sized for pedestrian safety.
+
+[25:19] A big part of what we do is not only architecture, but site design and coordinating with civil engineers to make sure we're doing the best possible pedestrian best practices as we can. Another one that's pretty common is parking in the rear, an alley system as opposed to a street.
+
+[25:38] Making sure the cars are on the alleys and people are focused on the streets and in the pedestrian greenways. Parking is in the rear. Decentralizing the car. And then we also introduced these raised plazas. So these are bridges between the north side and the south side of the different plazas.
+
+[25:57] And really all it is is a six-inch curb. There's a ramp. And then there's a change of paving that goes across to both slow down cars and also for different events, extend the activity of the plaza into the street. So it's really about creating these spaces where cars and people can coexist, but obviously prioritizing the pedestrian.
+
+[26:20] And then there's this pedestrian-only network that cars actually can't even come into. So it really is people-centered. You can see a couple of those here. Multimodal transit options, so really focused on bikeability, e-bike charging stations, bike storage.
+
+[26:35] There's going to be a bike shop on site for folks to be able to repair their bikes. He's looking at different shared car services. He's considering doing a shuttle between here and downtown Florence for folks that might not have the ability to walk or take a bike to just keep that connection back and forth.
+
+[26:54] And then the other one is, the other rendering here is an example of a festival street where we had those raised connections. So where folks can spill out into the street on festival days or for certain events. So really this project, the goal is to have a lasting impact.
+
+[27:11] So in Florence, it's going to create new third spaces for folks. There's going to be more housing, which the community really needs, promoting walkability in a place that's traditionally pretty car dependent. And then really give ownership to the locals.
+
+[27:27] And then beyond Florence, we hope that this project can serve as kind of a further proof of concept and raise awareness about these kind of urban best practices. And then looking back, giving us lessons learned on this project that we can take forward in our design.
+
+[27:41] And really challenge the norms of conventional development. One of the stories that I really appreciate, one of my favorite stories about this is we had a civil engineer on board. He's a local guy in Florence. Fantastic. He was a little bit skeptical about some of these strategies we were trying to implement.
+
+[27:58] Wasn't quite familiar with what it means to be pedestrian centric. We were trying to push different apron details on it at the alleys to make sure we were centering the pedestrian. And you could kind of see hesitation at first. But then as the project progressed, you can see like, oh, I'm starting to get this.
+
+[28:16] I see what the client's trying to do. I see what you all are trying to do. And now as the head of civil engineering for a nearby city. And he is the biggest fan and promoting walkable details and design. So not only was this project able to create a walkable community, but it's actually advocating for walkability beyond just the built environment.
+
+[28:39] It's like inspiring folks to carry that mission forward, which I think is really, really special. So back to the structure that I talked about before. There's the project vision that you're always referring back to. The strategic pillars that are making that vision successful, and then what are the solutions specifically for each pillar that you're doing to support everything.
+
+[29:02] And then that umbrella term of the shared core mission, so the walkability, the focus on people, is what you can always come back to when evaluating decisions. So just in conclusion, like seeking mission alignment on the team is really important.
+
+[29:18] Establishing a strong project vision from the get-go gives you something to refer back to the whole time. And then breaking that vision down into different philosophies. So strategic pillars to achieve that vision. And then even further, how are those pillars physically manifesting in the world?
+
+[29:34] What are the specific design strategies that we can implement to bring those pillars into reality? And excited to say this is the site today. So you can start to see it take place. You can see the main streets, some of the alleys going in, and the courtyard units starting to be graded.
+
+[29:53] So we're really excited. Vertical construction is going to start soon. All the horizontal work is done. So we can't wait to see this one come out of the ground. And thank you all so much for listening. I'd love to keep chatting or take any questions if folks have them.
+
+[30:11] Yeah. Curious your lessons on third spaces. Some of the stuff I see in here feels like a lot of pavement, grills, locked, fixed furniture. I'm thinking about like Bryant Park and lush, soft green movability. Like what have you learned about third spaces that really work?
+
+[30:33] Yeah, actually Bryant Park was one of the big inspirations for our plaza. The plaza is going to have movable furniture like they have in Bryant Park. So people can shape the spaces how they want. You can drag a chair over. You can drag a table over to amass a group together.
+
+[30:48] So it really is about creating flexibility. The pavers, it's employing a lot of permeable pavers as well. So not just asphalt. It's about creating a paving that feels pedestrian friendly and a little bit softer than something like a full asphalt would.
+
+[31:12] You mentioned a unique rent to buy, rent to own situation. Yeah. Could you say more about what's unique about that, how does that work? Yeah. So this was about Joel's vision to make sure that local businesses were able to maintain ownership in the community.
+
+[31:32] So he's got a model that he worked on in his pro forma where businesses can come in and the money that they're applying to rent each month after seven years, they're able to apply that to a down payment and actually purchase the space. So that's his model.
+
+[31:47] And he said he hasn't really heard of, it's common for residential, but for this kind of commercial development is where he's trying to be more innovative about it. So rather than just buying a home, you're actually able to purchase your working space or your commercial space.
+
+[32:02] Hope that answered it. Appreciate you putting up the slide on the challenges of retail on the first level because that happens all over as we've all seen. There was one project years ago where I finally realized, hey, if we only considered the first 12 feet of that space as a liner suite and do just many storage behind it in the shell of the building, eventually those liner suites will grow and take up all of that and indeed
+
+[32:37] they did. But you have to realize, hey, that's not a winner in the beginning, but it can be a winner in the end. So thank you. Yeah. Thanks, Steve. I'm curious about any pushback from the current residents, you know, this new thing coming in and there's always people that feel threatened and so what have you seen of that and how have
+
+[33:12] you managed it? Yeah, that's a great question and something that we often come up with in different projects depending on the community. I think for this particular project, that's where having someone like Joel who's local plugged into the community, like he was having conversations with everyone from the get-go.
+
+[33:28] This didn't come in and just appear one day, right? So it all came as a result of him collecting data, of us talking to folks in the community, of understanding what the community really needs so that it wasn't to the point where this plan was plopped in the middle of their neighborhood and they had no idea what was going on.
+
+[33:45] It was really kind of a Joel facilitating that on his end and being a local advocate for it. So I just wanted to throw in, as a builder, the importance of the alignment and communication and really that basically for every RFI that you get, the builder makes a hundred decisions
+
+[34:17] without talking to you and so selecting the builder has got to be huge. And then also having, expressing the vision. I've started asking more for people to express their vision. Like not just what do you want to build, but why and so, yeah, how do you, how do you communicate that to the builder and what goes into the selection process so that they're on board?
+
+[34:46] And then also I guess kind of related to this, before anyone moves in, all the neighbors know are the contractor and if they don't like the contractor, they don't like the project. Yeah. So yeah. Yeah. No, thanks for that. And I think that really gets to the core of what, what this project was about was making sure everyone was mission aligned.
+
+[35:11] So we're not just trying to build something to build it. We're trying to build something because it's a larger mission and making sure everyone's building toward that mission was really important. So we actually have the contractor on from the very beginning, talking with a contractor and then involving them in these really early conversations to make sure that they understood what we were trying to do.
+
+[35:31] It's also about finding a contractor who's familiar with this kind of work. Similar to when you're trying to find a civil engineer or another consultant, it's always best to find someone who is familiar with the type of innovative work you're trying to do.
+
+[35:45] So you're not having to also convince them that what you're doing is worthwhile. So finding the right mission aligned contractor was really important. Who's used to doing these small scale mixed use buildings, someone who can build IRC, the residential code and the building code and provide all that, all those services was really important.
+
+[36:04] So thanks for asking about mission in your, in your projects. I think that's really important. Yeah. Well, Nick, we talked about this before, but can you say a little bit about the vision statement that Joel came to OptiCoast with? Yeah. So I'll go back to that slide here.
+
+[36:32] So this was Joel's vision statement. It really was about creating a complete neighborhood built for residents. And this is the vision statement that we always went back to. So how can both residents and visitors build relationships and truly flourish in a space?
+
+[36:47] So this is what he came to us and that's what really resonated with us and got us excited that this guy wants to build something special and, and we're, we're excited and mission aligned to help him achieve that mission. Any other questions?
+
+[37:09] Just a quick one. Um, so you, you have some groundbreaking going on and things are happening. Uh, what's the projected timeframe to be complete? Yeah. Uh, timeframe. I mean, we're going to be starting vertical construction here, um, in the next, next few months.
+
+[37:27] Um, all the horizontal work is done, um, and then probably a, uh, it'll be a three or four year build out on, on everything, um, starting with some of the mixed use buildings and then moving into the courtyard buildings. Sounds great. Just, excuse me, the construction method, anything, um, exciting or different or just normal stick and frame, stick frame housing?
+
+[37:50] Yeah, that's a really great question. We, we actually explored the possibility of modular construction with the mixed use buildings. Um, it was something that, that we wanted to see if it was feasible, um, and also Joel was really interested in doing something modular.
+
+[38:03] So we did a study on how we may conform the floor plans, uh, and the, the, um, configuration of the mixed use buildings to be modularly constructed and brought and assembled onsite. Um, at the time, the modular approach actually ended up being more expensive because of the transportation, um, required to get everything to the site.
+
+[38:23] I'll say since then there've been a lot of innovations in modular, um, and it's something we're really excited to continue exploring. But that's one example of what we, what we tried to do, um, a little bit different than your standard stick build.
+
+[38:40] Okay, last question. Well, thank you so much for the talk. Thank you. Thank you all. Let's give him a round of applause. Thank you all. Thank you.

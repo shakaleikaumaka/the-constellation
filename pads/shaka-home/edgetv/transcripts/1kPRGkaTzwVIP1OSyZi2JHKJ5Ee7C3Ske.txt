@@ -1,0 +1,245 @@
+# After Bureaucracy_Network Sovereignty _ 1_ Opening Panel
+
+Date: 2026-06-12
+Source video: After Bureaucracy_Network Sovereignty _ 1_ Opening Panel.mp4
+Drive: https://drive.google.com/file/d/1MfjcwMkTpMHW_ZaM9fcbino4Q6OBBP-i/view
+Duration: 00:47:50
+Transcribed: 2026-06-13 · whisper large-v3-turbo · language: en
+
+---
+
+[00:00] A second, Lovisa and Federico are going to be framing the next bit of programming that we'll be having on network sovereignty and all the experiments that have been happening there across AI institutions, network states, pop-up villages just like Edge, and so on.
+
+[00:36] Okay, thank you. Thank you. Apologies for the slight delay. And welcome. We're going to spend the afternoon, it's a bad idea, we're going to spend the afternoon together going over everything network sovereignty, which is, in my opinion, one of the most interesting parts of the whole Edge City experience, because we're going to talk about what political forms
+
+[01:07] make sense for us as we go through our network reality. And we have like two, three hours today, and one session tomorrow afternoon together. So we're going to start with like a quick five, ten minute framing of what network sovereignty is, where it comes from, what kind of political forms it currently entails, and what kind of political forms it could entail.
+
+[01:30] And then we have a panel together with Jackson, Federico, and Emilio, who is over here, where we go over the emerging landscape of network sovereignty. And all of us have like a different kind of expertise in this field, so we'll be able to have a pretty illustrative discussion on like where the current landscape actually lies, and like what the status is.
+
+[01:55] Then we have a baby masterclass in network sovereignty, which is just a double click on the first keynote framing. And after this, we're going to zoom in much harder and really go into how we can design network native institutions in practice, and what kind of prototypes are already emerging.
+
+[02:16] And then in the afternoon, I think we'll do it right behind here, we're going to have a jam session talking about the tech. So let's, it's organized by these three institutions, Intelligent Institutions, Blockchain, Gov, and the Network Nations Alliance, and that are all doing really important work in this current field.
+
+[02:44] And this is us, we're organizing it for you. My name is Lovisa Bjarna, I work at Blockchain Gov, and Federico is the founder of Intelligent Institutions. So, short overarching framing. We're living through this moment of big, big, big institutional decay, and it has consequences all across the board, right?
+
+[03:08] And there's no, like, we currently don't have any political form that is adequately equipped to deal with the issues at hand. And this has a lot of different names, and it has consequences in a lot of different ways. It's like the polycrisis, the metacrisis, et cetera.
+
+[03:25] This is not, like, of course, it's uncomfortable to live through, but it's not as bad as it might seem, because this happens once in a while throughout our civilizations that we have a moment of collapse, and then we have to just re-imagine it, right?
+
+[03:39] Which are the good news, right? And we are in this moment now where the search of the political forms is already well underway, and especially in the realm of network sovereignty. This is an oversimplified experience, but I think it's useful because I just want to point out that we are in this bottom-right corner.
+
+[03:59] That technology is constantly shifting how our societies are able to coordinate at scale, and that we are in this specific moment now where network technologies has gotten to the degree where they are actually breaking and improving how we are able to coordinate at scale in a way that has not been done before.
+
+[04:19] Like, we've never been able to self-host coordination mechanisms on a global scale before, and this is actually quite revolutionary. So, what are they? Basically, it's a new form that is made possible with the new technology and with the new culture that we have of organizing collectively at scale.
+
+[04:43] It's like, what happens when you put one-on-one together and start exploring? There's a really good symposium that was released by the European Research Institute on networks of urbanities that has a lot of different essays on the topic from Vitalik and Primavera De Filippi, Nathan Schneider, Jonathan Hillis from Cabin that are exploring this concept in depth.
+
+[05:08] It's a good download read if you haven't read it already, and it's made possible by both economic and technological factors that we've already spoken about, and social, political, and cultural factors. So, part of it is that we have access to better technology, more people, we're more mobile than we historically ever have been.
+
+[05:30] The other one is that we also believe that we are capable and want to coordinate in this way, and are gathering in places like Edge, increasingly. And this opens the design space. So, right now we're in this territorial, like Westphalian sovereignty box, and now we're in the mushy merge, and afterwards we will figure out what our new institutions will look like, right?
+
+[05:57] And this is what we're trying to do today. The umbrella term is networked sovereignty, because it's all of the political forms that are forming with the help of these two movements. And underneath, the network state is the most famous, and the one that has the most, like, mimetic punch, and the one that opened the design space in many ways, but from this, there's also, like, a network nation, which is more focused on the nationhood than the statehood, so they don't think about sovereignty in the same way, and network cities, which is what we are in right now, and a lot more.
+
+[06:31] And these, all of them are in proto form, like, we do not have a full form of network sovereignty yet, and we have split them up in two levels. So, one of them is, like, world building level, which is the most ambitious kind of proto form, and that has underneath it the network states and the network nations, which is, like, they really have a full stack and a full vision of what this could become.
+
+[06:56] The second category is more like on a functional level, so it's areas, communities, technologies, that are focusing on specific governance functions without necessarily wanting to or claiming to be a whole political form. And these, like, and these include, like, the DAO communities, the charters to these pop-up cities are, like, floating around here, bioregional networks, AI native governance experiments, like, agents forming kind of nations, et cetera.
+
+[07:27] And the terminology of network sovereignty is, like, we don't want to discuss it too much. The main thing is that it's part of this design space of letting a thousand societies bloom. It's the same, it's the same movement, right? So, let's explore it.
+
+[07:46] This is the design space we will explore in the panel. And I want to introduce our panelists. We have Emiliano Pelasquez. What's your name? And Jackson Steger, myself, and Federico Apestegui. So, to start, I'm going to ask you all to actually introduce yourself properly.
+
+[08:05] So, I want to, like, get a background of... Hello. What field you are coming from. What kind of work you are currently doing. And how that relates to the wider concept of network sovereignty. And let's start with Jackson and then move. Hey, everyone.
+
+[08:25] My name is Jackson Steger. I'm on the founding team of the Network School. The Network School is started by Mr. Balaji Srinivasan, who wrote the book, The Network State. And I believe coined the phrase. And, yeah, we've been in this island next to Singapore called Forest City.
+
+[08:42] It's actually in Malaysia. Some of you in the audience have been there. And we've been building a campus there. And campus has grown. There's about 450 people there right now. And we've grown every month this year. So, excited to see what happens in the future.
+
+[08:59] Thank you. Federico. Hi, everybody. My name is Federico. And I founded and run a governance technology lab called Intelligence Institutions. Our focus is the institutional form itself, right? So, trying to understand what will replace actually bureaucracies under hierarchical form.
+
+[09:15] I will make the caveat, because I know we're at edge, that when I say governance technology lab, I don't actually mean DAOs. It's a governance technology gap, but we're thinking about it and working with public institutions, right? I think DAOs were an amazing experiment.
+
+[09:32] There's a lot of mechanisms, technologies, and tools that were pioneered there. Our role is to help bring them to real-world institutions and use them to reimagine them as intelligent institutions, rather than hierarchical and bureaucratic ones.
+
+[09:49] Emiliano. Hi, everyone. My name is Emi. I'm basically, I've been in crypto for many, many years. I started in 2013. And I'm just saying that because it makes sense for my conversation, which is I had to relearn the concept of money at the time.
+
+[10:04] And then I had to relearn the concept of why we live in legal and social contracts and so many things that is very interesting. And now that you were saying, like, figuring out the nomenclature, or how do you define this concept, I love it that as a community, we're just, like, discovering things that are new and developing terms for it.
+
+[10:26] And then a few years afterwards, people say, no, no, it shouldn't be called that way. It should be called that way. It's like, I was there when it was invented. It doesn't matter. So, me, personally, I'm one of the co-founders for the Crescimiento movement in Argentina, like, around 2024.
+
+[10:42] It was a lovely group of people between, like, Juan Bennett from Protocol Labs, Janine, and some of the other people from Telemann, from the team of Edge City, that came to Argentina and helped us create this amazing movement. And in, like, three months, we did a massive pop-up city that there was over 4,000 people coming.
+
+[11:01] In a way, Crescimiento was very different because it didn't start looking to be a network state or a global community of any sorts. Mostly it was trying to explore the idea that we have had and have the first libertarian president, or at least declared libertarian president, which set up a time frame of saying, okay, this is a place where we can do a lot of experimentation and push the idea of crypto and the successful tools that we can build with that.
+
+[11:30] Like, DAOs are an example. Last week, Argentina, the executive presented the legislation to approve, sorry, I'll make it short, but to approve the idea of AI agents having personhood and also DAOs to be legally accepted in the country. Which is probably 100% going to pass soon, which I think a lot of the problems faced with the designing of DAOs at the beginning was also that we didn't have the tools to be able to, like, transact.
+
+[12:01] And in general, I think crypto has been trying to find hacks to do the things that we want to do, and those hacks don't work out. That doesn't mean that the thing didn't work out. It's just that the sort of small hack that we tried to do in terms of governance and using tokens to vote and how many things weren't the correct things.
+
+[12:19] I'm going to stop you there because it's a perfect bridge into the next question, which is, like, what is the actual new thing here? And, like, you said that crypto is doing all of these experiments and is constantly exploring the loopholes and the hacks, and that is that kind of a legal innovation.
+
+[12:34] But what is the actual innovation on the topic of network sovereignty? Is it, like, technological? Is it community? Is it cultural? Is it legal? Like, where does the actual innovation, where's its home? Jackson. I think there's a ton of different social, environmental, technological things, macro trends hitting together at the same time.
+
+[13:02] You mentioned design space, Lovisa, and the, like, remote work has really changed the design space for how we live. If we think about how cities have evolved over time, places like Phoenix or Houston or Dallas or Los Angeles are all built around the car and how the car can transport you to and from work to your home.
+
+[13:24] But because of remote work, people can work anywhere. We could live next to waterfalls or on islands or wherever we may choose. And this also means we don't need to design homes necessarily specifically for, like, a very nuclear family. We can think with, like, a broader community ethos in mind.
+
+[13:44] So that's just one of, like, 1,100 different things we could talk about, right? Like, there's this whole off-grid movement motivated by the fact that now we have, like, really good solar and Starlink. There's self-driving where we can have communities away from cities because it's easier to get to and from.
+
+[14:04] So I'd say there's a bunch of those. I also think just, like, for us very practically, the internal tooling that we're building, we're replicating all of this software that would have taken us ages to do before AI. We cloned Luma in a day and just integrated it into our app.
+
+[14:24] I mean, we tested it for a bit first. But more and more so, we can just start integrating all of these tools into, like, a broader back end that helps us do all kinds of different things. So it's the intersection of so many things. Yeah, this is what makes it so interesting to try to hone in on, like, the actual innovation space because it's clear there is, like, it's clear that something is happening, but where exactly?
+
+[14:47] And I don't know if we are actually able to yet, but does anybody else want to try where exactly it is happening? Yeah, I like to think about what is it that's happening, right, the different layers. You have, like, a layer that's more political, I guess, right?
+
+[14:59] The political design space that has opened up, right? That, in a way, all of the Trumps of the world have actually been a catalyst for, right? We all know our institutions are, in a way, collapsing. They've reached the limits of what they can do.
+
+[15:13] That opens a political state to reimagine statehood, to reimagine what that looks like. But if you go, start going, another layer is the one that you mentioned, how we live and how we live in societies and how technologies have enabled a new area of opportunity there.
+
+[15:26] But then you also have the operational level and the structural level, right? It's how do our coordination architecture actually looks, right? Like, the institutions that serve the role of metabolizing our society, how are they structured? And how do they operate, which is the other layer.
+
+[15:43] So that's the space that I spend most of my time in. And for me, what's really new there, again, is AI, because, and this is probably what's new from even six months ago when we last met in Patagonia. During the last six months, the world has realized that we're in the middle of the largest transform, and quickest transformation in the way our organizations are structured.
+
+[16:05] And we've really had to think about what that actually looks like, right? And now people are starting to think they understand workflows, they understand all the layers required to make those workflows work. They're starting to reconfigure the role that humans play as part of work.
+
+[16:18] And that's opened a new design space, which is the space of the institutional or the organizational form itself. Yeah, exactly. I totally agree. And I think that, importantly, realizing that the technology is now 100% ungovernable. Before we were pretending that it was maybe able to with some of the institutional forms that we have, like maybe we could get there, but now it's very clear that there is no chance.
+
+[16:48] So then it's like who is stepping up, and the ones that are experimenting with stepping up are these kind of networked communities that are self-governing the technology that they are using to a certain extent, which is why also Crescimiento is such an interesting case study because they were doing self-governing technology but always embedded in like a legal structure, constantly playing with the legal framework at the time and how to leverage that but still stay on the good side.
+
+[17:18] It was like embedding by design. Do you want to speak a bit about how working with this kind of crazy new technology in a legal framework played out for you? Yeah. Yeah, I guess just to put an example, like when we organized the first pop-up, there was going to come like 4,000 people was going to come and there was really no way of doing a control like place where people could eat in a restaurant and to have that experience, right?
+
+[17:45] Because it's a lot of people. So we decided as an experiment to give everyone a morphe. Morphe means like eat in a cute way in Argentina, in Argentina, in Spanish. And we gave everyone those tokens. But we gave it in a decentralized platform.
+
+[18:00] Like we didn't put it on a database. And then it was really funny because people started creating like pools on Uniswap and it started shorting the like lunch menu. And I was like, there's this sort of amazing thing that happens when you give people freedom and they create innovation in ways that you don't expect it to.
+
+[18:17] So I think, I don't want to keep talking about Argentina specifically, but like I think there's all of my friends are like people that are willing, that they're good people willing to break the rules a little bit or bend them, especially when they're not like set in stone yet.
+
+[18:33] And I think that creates super interesting outcomes, right? But then like, then the next question is, can we actually build it? And if we can build it, then what functions are the lowest hanging fruit to start? Like is it identity? Is it like resource allocation?
+
+[18:57] Like what are the functions that we need to start to actually be able to build it? So I'll give you my quick thesis, but it's like, so we had internet communications first that allow people to know how other people were living. Then internet value with crypto.
+
+[19:11] And then now identity is like the main thing because it allows you to have control and to be able to take that identity out of silos that other people have that give you reputation and many things. So like you can't really get a direct loan.
+
+[19:26] If you have to go to like five intermediaries in order to get a direct loan from anywhere else in any part of the world. And that's your identity and it should be like your thing. So I think that's going to be the biggest battle. Do I see it?
+
+[19:40] First of all, is that nothing is a given. Like network states are not necessarily going to happen unless we make them happen. Then you have the bracket of should we? But I think we should. So I very much agree with Balaji that we're in a world where it's like internet versus China.
+
+[19:56] I was just in China last week. So I don't think it's so much versus but that's another conversation. So I think it's very important to create the tools like Simplify for example as doing with Edge City together to be able to create infrastructure from bottom-up communities and at the same time create infrastructure for governments to be able to implement the stuff and have this jurisdiction competition between them where some offer some other thing
+
+[20:27] that the other one doesn't want to. So it's a two-sided sort of product development. And I think the article by Tomas Cuello which talks about the fall of the nation state is a must-read for everyone. And I'll shut up now. Yeah, I'm not sure what should be first.
+
+[20:49] I think it really depends on the nature of the project and how they're approaching it. Like for us, we do our core product is society as a service. So we do everything, housing, food, all these like kind of table stakes things that you have to get right.
+
+[21:03] And so those things for us had to come first. But I think for the broader movement, the ability to write visas is functional sovereignty. Regardless of where you are, at a certain amount of point, once you've gone past the duration of a pop-up and you've gone closer to a year, like visa runs stop being a reasonable approach that you can take.
+
+[21:26] And you have to have the ability to work with a host government to either create a net new visa or plug into an existing nomad visa program that they have and be able to help administer those quite quickly. I want to jump in because like from the concept of, from the point of view of a network nation versus a network state, like the main differentiation is how they define sovereignty.
+
+[21:50] And the goal of the network state is to crowdfund territory and eventually get legal recognition. Like, diplomatic recognition from other states to be able to play on an even playing field, right? But then the other, like the other angle of this is on functional sovereignty, which is that territorial sovereignty is not only the most, like interesting or powerful form of sovereignty, you also can have the opportunity of like govern things that your community needs in a way that nobody can mess with them.
+
+[22:23] It's like if you have an identity system or like if you have like a distributed finance that is unstoppable that you can govern yourself as a community, then that actually grants you a certain degree of sovereignty that doesn't need territorial sovereignty to still maintain its like sovereign status.
+
+[22:43] And this is where it gets really interesting because then it's like do we really need, like how much do we need, and it depends as you say on the project, because like how much do we really need because the network school obviously needs to deal with a lot of like business that is hyper-local and embedded in the country that you happen, like in the host country.
+
+[23:05] But if you are not a territorially bounded community, but you still have functionally sovereign like services, then you don't need to do that. So then you need another thing. And it's like you can play, suddenly you can play with the concept of sovereignty and which areas your community need to be sovereign over to function, and that's kind of enough.
+
+[23:29] Yeah, I think that sovereignty is somewhat of a spectrum, right? Like for us, it starts with just domain over the hotel where we started. Now we're also in like 100 apartments, but just the ability to install new fiber internet or to change the furniture, like really basic stuff.
+
+[23:47] You have to have the ability to do that as permissioned to you by the hotel. And then like maybe the next layer and not necessarily this is our explicit plan, but like we're on this island. Can we control to an extent the security of the island?
+
+[24:04] You know, one of the, well, maybe I'll save this for later, but there's the island and then, you know, like the whole broader presence in Malaysia. So one thing that, you know, regardless of what kind of project you are is I think all of our different communities can work together to form like a network union and have some degree of negotiating capacity.
+
+[24:28] So like a really simple example for this might be health insurance where I think a common trend across these communities is there's like a healthy living component and I would wager that a bunch of younger nomads who eat Brian Johnson food and go to the sauna are on, in general, more healthy than like the median population.
+
+[24:51] And so might we be able to negotiate really good travel insurance on behalf of all of those people? Yeah, I'd be curious to hear your thoughts. Yeah, I mean, I agree with everything that you've said. I think the, for me, what to prioritize and what to build first, it's really, it's impossible because it depends on what the function of the network that you're trying to build is, right?
+
+[25:20] In my case, I'm very interested and I love when you said the analogy of, you know, we built an internet for communications, then we built an internet for value and transactions in the form of crypto, right? We definitely build and have forever built networks and an internet of communities, right?
+
+[25:37] I'm really interested in the internet of rules, right? How rules interoperate across jurisdictions. I remember when I left, I'm Costa Rican, and when I first left, no, many years ago, 17 years ago, it took me like a month, at least, a month and a half, and many lawyers on both Costa Rica and Spain to homologize my certificate and my student grades, right?
+
+[26:02] It's insane, right? So how do you make sure that all those rules and the decisions behind them become also interoperable? For me, it's a key unlock for the full functional stack, right? Yeah, yeah, I agree. I agree. Identity is very important.
+
+[26:17] I think digital borders are going to be very important even though it might sound like wrong. But it's like you were saying, you know, I have an Italian passport because my great-grandfather was Italian, but I don't speak Italian. But when I received it, suddenly I was allowed to get into Europe because I was a trustworthy person.
+
+[26:38] And I have a lot more trustworthy friends than I know of Italian. And then this, like the bracelet that we have now, this sort of form of digital border. And as the community expands, we can expand this sort of compliance between groups of what are you able to participate on or not.
+
+[26:59] It's like if we bought a land, I made a website the other day that showcases the pieces of property in Argentina that are for sale. And if you put $3,000 between 500 people, you get like 40 hectares in a town. And you can set up a Uniswap hook that allows only the people that are part of EdCity, for example, to be the ones that can buy and sell that piece of property.
+
+[27:23] So anyway, it's just a lot of experiments. I do agree that like sovereignty and how to defend it is super important. The way that, for example, from Crescimiento, one of the main works that has been happening is the creation of a special economic zone in Argentina that just got an initial approval in Mendoza.
+
+[27:44] That's where I'm from. And I'm not involved in that project, but they're doing a great job. And now, what they're working on is the opening a different zone in a different country. So the companies that get set up in the Mendoza economic zone is basically a bilateral agreement that says if something bad were to happen to the Argentine one, they can easily move to the other one.
+
+[28:10] So you gain resilience by just connecting as much as possible to that infrastructure instead of having drones. I think this is really interesting because we've focused a lot in BlockchainGov on the concept of functional gateways. So basically, it has proven to be inherently difficult for like a DAO to get legal recognition, right?
+
+[28:32] So you need some sort of functional gateway to make sure that it still can operate but not compromise on its inherent values and it will be a very similar thing but much more complex with these kind of networks of amenities because they are just more like they cover more ground and the special economic zones is like one of these but then also the health insurance to get that qualified like this is I think this is a key area that needs to be focused on quite hard and it belongs under this like functional forms of network sovereignty
+
+[29:03] because you will need service providers who will like offer functional gateway expertise expertise to be able to integrate or to coexist. Any thoughts? I agree. All those services it's like when you think about like okay I'm building a network state let's say I put myself in the egomaniac position of like what am I going to offer for my citizens and all of those services that you described
+
+[29:33] are basically what the new communities and the new people that travel around the world need. I don't know if you if you haven't seen the project by Kim Kim Adams that's here which is in the native native with a Y she's doing a great job with visas it's going to grow a lot yeah Kim she's great she should be here instead of me but yeah yeah like I told them the other day to a group of people
+
+[30:04] because the idea of the passport you know it was implemented in the Montevideo convention in Uruguay in like 1940 I think I don't remember the date and I said we should do our own version of that because the Montevideo convention asks that you have to have physical land in order to have a passport and we can probably between all of the network society communities around the world do our own convention just saying a new thing
+
+[30:34] that you don't actually need the land that's fun let's do that can I will ask you all for like a closing statement or do you have a last comment and then well I was just going to say on this passport thing like I think there's all sorts of coordination primitives that we should talk through like one that's become more top of mind for me is safety we've had about well I want to say numbers but we've had you know so many people come through here through NS over the last
+
+[31:05] two years and there's like a very very very small portion that we've had to remove for various reasons and I think it makes sense that we ought to have some kind of blacklist mechanism at this point just for like a safety standpoint not even that like we all have to abide by like if we blacklist someone and you're still welcome to admit them but we should be sharing some of this information purely for the like sake of the project's mutual progress to protect ourselves from bad actors and there's so many
+
+[31:36] other examples of this beyond just safety's kind of a boring one but an important one first take I will ask you for one to two minute closing statements and then I will take questions from the audience yeah I think for me the biggest value in the meme of the network sovereignty however you understand it is really it's potential to help you rethink
+
+[32:06] all of the networks that you are already using be it how you think about life insurance and insurance in general finance education healthcare your passions your projects in a way that decouples them from jurisdictions right of course it's the most obvious meme I guess but once you really internalize that you really start seeing the organization around it the operations around it
+
+[32:36] the tech stack that's needed right identity all the layers of the stack start to become visible and once they become visible you can be much more efficient in your ability to build and test and experiment and build new networks yeah well first thanks to the three of you for the amazing work that you're doing the first term
+
+[33:11] of Malay next year elections it's very likely that he's going to win everything points to it and really in his mind like in the index of the freest nations in the world he really wants Argentina to be the number one and the deregulation and the deregulation is happening very strong and next year if they win they're going to have a lot more power to deregulate a lot faster so it's a massive experiment but all of this things that experiments
+
+[33:42] that we want to do it's a very interesting place to go and do it without having shackles of having to find workarounds for the things that you're trying to do I sat in on a conversation between Balaji and Ben Horowitz from A16Z and one of the things from that conversation that I thought was really interesting is that Ben talked about how with Netscape back in the late 90s early 2000s so much of Netscape's success was integrating all of these
+
+[34:12] primitives and I think so much of what our startup societies will be doing is integrating a bunch of primitives you know really simple stuff protocolized nutrition or peptide stacks or whatever it is with PoApps and you know encrypted messaging platforms and so really I think these are all fun experiments in reimagining how we live how we work together how we coordinate and I mean obviously you guys are all here checking it out so you're in the right spot thanks for hosting
+
+[34:43] my pleasure thank you so much for coming on the three of you it was a pleasure we have time for some questions for sure I will use this mic let's start in the front hello y'all thanks for taking the time out of your day to you know speak to us a question I had was besides like technology and finance what do you guys think that the catalyst
+
+[35:13] to changing these institutions and societies and governments would be to start transitioning the current state of them to more network based institutions and then how like what are your predictions in terms of like how fast it would be I think the biggest catalyst is AI but not for the sake of what
+
+[35:43] the technology offers yes of course but for me it's more because of the organizational transformation that is forcing in firms and in institutions and firms are you know going to go way way way way faster for sure right I've been working with all the digital government teams some of the most advanced digital government teams around the world and they are just they just cannot move and that's generating a two-speed transition which is going to lead to an acceleration in the governability gap which eventually
+
+[36:14] is going to lead to an even faster collapse of those existing institutions right and so I think it is the organizational the structural change in the organizations are composed and being engineered as they try to become AI native and the inability of governments to match those yeah I'm not sure about the best ways to transition for existing institutions but I do think that there will be a crop of parallel institutions and parallel societies growing really fast
+
+[36:44] and that's you know to their benefit and that's their opportunity yeah the one thing that puts a wheel on my train of thought for the next few years is like AI and having to have like actual physical servers in places and how that changes geopolitically the structure of do we actually go for a feudal state where you have a lot of like micro cities around the world and they're all independent I mean Praxis is going to
+
+[37:14] Argentina now and they want to open a place there so are they going to start popping up in different places or are we going to a very bipolar situation between worlds I think for me possibly robots like actual physical labor being super cheap and being able to stand up structures around the world at a very low cost could be the deciding factor I'm not sure Can you have a short
+
+[37:47] framing from activist theory of like different ways to change the world it's a very classic framework from the 70s but I still think it's really neat and it's that there are three actors insiders outsiders and beyonders like there are the people that try to change it from the inside the kind of people that try to change it from the outside like kind of lobbying pushing in and then there are the beyonders who are just building something over there and I think that this is all clearly existing in the beyonders category but we need the translation
+
+[38:18] to grow My understanding of the network sovereignty idea is that you will have a lot of geographically dispersed people collectivizing in some way whether that's in the very formal network state full diplomatic sovereignty way or kind of in other ways through network nations my question for you all is how do you all imagine people will associate
+
+[38:48] form close bonds and a shared sense of identity within those communities across geographics Nice question I can go first so I'm sort of working on something related to this I think network states and pop-up cities are in a way representations of digital communities needing a physical anchor in the space because you
+
+[39:20] used to be very close to the people that would live around you and then you became friends with actually the group of people that does comic books and tech and the problem that we have now is that all of these events are awesome and all my friends I come to see them but it's super expensive and not everyone can travel to the other place in the world so if we grab something like the tech from Simplify or Soliday or all of those infrastructures and they're in place that you can be able
+
+[39:51] to be part of this digital neighborhood but in cities that are closer to you and I think that's going to change how we move if not right now I don't think the experiment is going to collapse I feel that it's so expensive for all of the teams to actually put on these events that it might collapse just because we haven't come up with a solution that allows us to otherwise Just on that I think it's so important for the space to find
+
+[40:21] a startup society that is high ROI I think that unlocking institutional capital to invest in all sorts of experiments is dependent on a few examples having great unit economics and proving out that this is an investable thesis so that's top of mind your question reminded me was how do you keep
+
+[40:52] the culture yeah it's a great question and we'll see I think even before thinking about multiple places just in one place we're well past Dunbar's number now not everyone at NS knows everyone at NS so we rely on our long term members people who have signed for 12 months to be the bastions of that culture to be the through line as different folks come in each month and so they and we spend more time
+
+[41:23] with them we have weekly lunches we share all of the updates like we're a bit more transparent and rugged and you know not polished with them because we're building it with them they're a huge part like the network school is about the network that's you know the people are such an integral part so you know if and when we expand to a second campus I imagine that we would bring a lot of those long termers first to establish the culture there thank you let's do the last question and I want to add
+
+[41:54] quickly that I don't think that you need to reinvent culture like there's a lot of communities that have very strong inherent entanglements and if you just give them network technologies they can leverage their coordination like there's diasporic communities there's like other forms of I don't know religious like there's communities that are already a unity and you can you can also go from that direction yeah maybe I'm pushing back on the comment she just she just made but I'm curious if are there
+
+[42:25] any established culture societies that are standing for anything more than doing cool things to technology and making more money is that pushing to me or to him any of you three in general well I'll say that Crescimiento not toot our own horn but Crescimiento was a bit different in the sense that it was really trying to push infrastructure like ground infrastructure
+
+[42:55] in Argentina to be built that said I don't think Crescimiento is really a network state project so I understand your point I guess like when you go down and I'm gonna let the other guys reply but like it makes sense that you know crossing the chasm like the first 13% of the people that are innovators are gonna want to be doing technology and cool stuff and then it gets to a point where the tools get cheap enough that it actually permeates I was talking the other day and more to your
+
+[43:26] point with a friend of mine from the UK that has a lot of he's a musician and has like a lot of musician friends across the world and what they're seeing is that the cities where they become expensive and then there's no more musicians then the price of the real estate actually collapses because what made it cool was the musicians being there and like if we can provide infrastructure for the groups of musicians to be able to like invest and get their own establishments and like get a percentage of their revenue and all of this like we're not allowed to because the SEC doesn't like
+
+[43:56] offering like investment unless you're an accredited investor and you make more than a million dollars a year and that's insane and I hate that and it's my passion to destroy that so that's ridiculous it's like I can go to the casino and I can buy cigarettes but I can't like invest in my friend's project because I'm not an accredited investor that's ridiculous so so yeah infrastructure needs to be a little bit more to arrive I think when you post your question I think the assumption
+
+[44:27] there is that or the samples that you're looking for they're all networks the functional objective of that network is around the people and the community right but I'll tell you a different example that I actually love which was this project started by Pramod Varna who I don't know if you guys know him but he's the guy that designed India's digital identity system now they have this protocol called the back-end protocol which tries to basically gave a protocol so that you can if you are any sort of person in this case I'll give you the example which is one of the successful use cases
+
+[44:57] a driver you have a car or a motorcycle and you have value that you can offer you encode your value offering in a way that makes it interoperable so you are not locked to Uber to offer your car and yourself as a driver the information is there and there's thousands of apps and it appears everywhere it turns out this was so useful that then started without them planning it all the value offering people offering their transport started popping all over the world in Brazil
+
+[45:27] in Indonesia in Thailand that for me is an example never sovereignty for the community of practice of drivers that want a new way and a new stack to provide that service it's called Becken B-E-C-K-E-N Becken and his work I mean his work is just unbelievable it's like networks for humanity that's the foundation that hosts it yeah just on the idea that these communities only care about making money
+
+[45:58] or the people there only care about making money I don't think that's true for any of the projects for us we care about peace I think internationalism the very like intentional decision to have people from over 100 countries to share best practices in trade in peace and also just be a place that's dedicated to being positive sum like for us our moral innovation is to win and help win and to be collaborative with how we level up as a community professionally physically spiritually
+
+[46:28] so and yeah I can't agree more with what you said about when the artists leave the price collapses I have a quick example of I think a very illustrative one which is the region network that is a very good example of a network sovereignty that is very focused on something else like really guarding and maintaining the bioregional like in the health of their local areas and they have also
+
+[46:59] identified that if they connect in this networked way as a political form they get more leverage so like there's a lot of different ways that you can that you can use it and I also think musicians are cool shout out we should have a short the end of panel thank you so much for coming on Jackson, Federico and Emil thank you thank you and we're going to zoom through the deep dive sessions
+
+[47:31] should we take a short break before let's take a five minute break and then we go into the baby master class and then into the institutional innovation session which will be here thank you thank you

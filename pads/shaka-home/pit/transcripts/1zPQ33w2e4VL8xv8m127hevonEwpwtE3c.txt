@@ -1,0 +1,165 @@
+# Stop Developing Drugs - RJ Tevonian
+
+Date: 2026-06-03
+Source video: Stop Developing Drugs - RJ Tevonian.mp4
+Drive: https://drive.google.com/file/d/1ug5QiRGXpoU6oFUBIyk22IPSH9IK2enr/view
+Duration: 00:26:11
+Transcribed: 2026-06-10 · whisper large-v3-turbo · language: en
+
+---
+
+[00:00] We'll probably know here, Dario. Oh, there's no audio. Well, sorry. Okay. You know, in Machines of Loving Grace, I said, look, I think we might get this powerful AI, this country of geniuses in the data center. That description you gave comes from the Machines of Loving Grace.
+
+[00:22] I said, well, get that 2026, maybe 2027 again. That is my hunch. Wouldn't be surprised if I'm off by a year or two, but, like, that is my hunch. Let's say that happens. That's the starting gun. How long does it take to cure all the diseases, right?
+
+[00:36] That's one of the ways that, like, drives a huge amount of economic value, right? Like, you cure every disease. You know, there's a question of how much of that goes to the pharmaceutical company, to the AI company, but there's an enormous consumer surplus because everyone, you know, assuming we can get access for everyone, which I care about greatly.
+
+[00:53] We, you know, we cure all of these diseases. How long does it take? You have to do the biological discovery. You have to, you know, you have to, you know, manufacture the new drug. You have to, you know, go through the regulatory process. I mean, we saw this with, like, vaccines and COVID, right?
+
+[01:08] Like, there's just this, we got the vaccine out to everyone, but it took a year and a half, right? And so my question is, how long does it take to get the cure for everything, which AI is the genius that can, in theory, invent out to everyone?
+
+[01:24] How long from when that AI first exists in the lab to when diseases have actually been cured for everyone, right? Yeah, so, yeah, Dario here, you know, he acknowledges the problem correctly, I think, where he's saying, oh, even after we have this, like, super intelligence that knows everything about everything and can basically solve every disease, it's still going to take, like, years to develop these drugs.
+
+[01:55] And then it's going to, we're going to have to, like, manufacture the drug, go through, like, the regulatory process. And basically every other AI leader kind of thinks like this, that, you know, the only path forward is that AI is going to be super intelligent at making drugs, and we're just going to have, like, a bunch of better drugs.
+
+[02:10] And then eventually every disease is going to be cured, but you're going to have to take, like, 400 pills a day because, you know, you have 400 different diseases of aging eventually. And I really think that, like, we've gone wrong somewhere because this is not what sci-fi has shown us, like, the ideal form factor for medicine is.
+
+[02:26] I just think it's, like, boring because, you know, like, there's no movies about someone just taking, like, 400 pills, except maybe, like, the Brian Johnson documentary. So let's, like, look at what sci-fi actually gives you here. So this is Elysium.
+
+[02:40] So they have a med bed that just cures everything. Then Star Trek.
+
+[03:18] They will whip out his or her medical tricorder, point it at someone who is ill, and say. Her heart and lungs are seriously compromised. The creature is also secreting some kind of paralyzing agent into her bloodstream. Hold on. All of the systems in her body have elevated readings.
+
+[03:35] Take her to sickbay. So, like, the sci-fi conceptions of the future of medicine are these things that basically have, like, perfect measurement over you. It's a bed that you lay in, can scan you, knows that you have a cancer that just immediately fixes you.
+
+[03:47] Or in Star Trek, it's, like, a tricorder that, you know, you scan over the body. It tells you exactly what's wrong and gives you, like, basically a protocol to fix it. And then, you know, with other ones like Star Wars or, like, at least in the Dune movie, there was this, like, healing bath.
+
+[04:00] There's, like, a fluid that you lay in and it just, like, fixes things that are wrong with you. So, none of these are drugs. Like, all of them are this pairing between basically perfect measurement and then autonomous outcome. My favorite version of this is, like, not from a movie but from a book by Quantum.
+
+[04:17] I don't know if any of you all have read. There is no anti-memetics division, but this is where he got famous. My favorite book by his is Raw. And in Raw, not to spoil it too much, but there are these things called, like, listener particles where there's some super intelligence.
+
+[04:30] And then all around, and everyone's body and all, even outer space, there are these particles everywhere that are these, like, little nanotechnology bots that are sensors that perfectly measure everything in the body and everything everywhere. And then they send the data to some super intelligence, which can basically arbitrarily move matter around and then, like, invisible and it makes you immortal.
+
+[04:52] It's, like, the final frontier of medicine where somebody could just, like, shoot you and before the bullet, like, leaves the other side of you, you've already healed on the, you know, front side of your body. So, I think, like, medicine needs to go to this.
+
+[05:02] Like, no one wants to just, like, have to, you know, go to a doctor's appointment or take a bunch of pills and have to manage all of your pills by yourself and, like, spend a lot of time in your day, like, doing this stuff. Like, it needs to go to something where you barely even notice it's happening to you and you're just healthy.
+
+[05:16] But this is just, like, sci-fi. So, how close are we, like, actually to this? You know, like, I'm saying stop developing drugs, but, like, maybe this is just the best thing we have now and we should and then eventually we can do the sci-fi thing.
+
+[05:26] So, you know, are we close to this? And the answer is, like, no, we're not. So, you know, the best thing we have right now, we have, like, some wearables. You could, like, wear your Oura Ring or your Whoop. Maybe you could get, like, a CAT scan or a DEXA scan or an MRI every once in a while.
+
+[05:41] But this is kind of, like, you know, takes time out of your day and kind of expensive. And even if you have, like, all of these measurements, the only way that people can really sell these things, like Oura or Whoop, is if they're not actually, you know, unless you go through the FDA regulatory process, like, they don't actually tell you what to do.
+
+[05:58] They just give you, like, a score. They're not, like, a diagnostic that just, you know, does some intervention on you. And then on the other side of this, you have, like, drugs and then doctor's appointments. You have to go to a doctor and they prescribe something and try to micromanage everything.
+
+[06:10] So, like, your wearables and your measurements are totally decoupled from the interventions. And the interventions are very slow. There's just, like, nothing even close to a med bed right now. So, it doesn't exist. But is it possible? Like, what is possible with current tech?
+
+[06:22] And I'm basically here to argue that we almost have the tech for this. Like, we totally can do it. But there's, like, some ingredients that I should lay out here. So, the first thing is, you know, with the med bed, you want, like, the scan, the perfect picture of all of your health.
+
+[06:35] You want to know exactly what's going on. And I really think, like, MRI is basically here. Like, we already have this. So, MRI, it's, like, not just structure. People think that, you know, if you're imaging with MRI, all you see is just, like, the structure, kind of like an x-ray.
+
+[06:49] But, in reality, it gives you all of this, like, super rich biophysical information. So, then you can know kind of everything about the body. You could, like, look at the metabolism. You can predict biological age. You can predict the voltage of tissues.
+
+[07:02] You can, like, look at almost, like, neural activity in some proxies. And it really gives you, like, a super rich picture where I think, like, this is the way that the literature is moving, where there's papers coming out, like, every year where it's, like, oh, we trained a model on MRI images to predict if this disease is present or not.
+
+[07:19] And eventually, you'll be able to do this with every disease and, like, classify, like, what, you know, what's happening inside of every entire body. But the problem is, like, you know, we have this already. So, like, why isn't it a med bed?
+
+[07:34] You know, it's the form factor that exists is something you go into a hospital. There's, like, super much faster.
+
+[12:08] They've created and reversed cancer with a purely electrical means, where they've taken cells, brought them to the cancer voltage. They behave like cancer cells. They form tumors. Then they reverse that. And then they stop forming tumors. They've done, like, all these crazy things.
+
+[12:22] It's, like, totally editing the body. But the only way that they've done it is with drugs, because they use these drugs that essentially change the voltage of the cell by opening ion channels. So then if I did this in the body with drugs, it just totally would not work.
+
+[12:36] So if I wanted to, say, you know, my liver's totally destroyed. I drank way too much for the last 20 years. I need to, like, regrow my liver by changing the voltage of it. If I take a drug, then the drug is going to distribute it all across my body.
+
+[12:50] And maybe I needed to change my liver's voltage by 5 millivolts. But then if that drug gets to my heart, I immediately get a heart attack and die, because my heart needs a very specific voltage to function. Or I get a seizure, because my brain needs a specific voltage to function.
+
+[13:04] So then you basically have to do this without drugs if you want any control over it. And then, you know, my argument here is that, you know, all these things are possible by electricity. You can edit the body in whatever way you want. But the only way to do it in, like, this medbed format is to, like, write to different organ systems precisely.
+
+[13:24] And you have to do this with external fields, because it's really the only modality that could work. You have to use, like, magnetic fields, ultrasound, to write to the electricity of the body to be able to edit it, because it's just impossible for drugs.
+
+[13:37] So then the core scientific unlock in front of the medbed, you know, we have imaging. We know that we can edit the body if we do this very specific thing, but we just don't know yet if we can do it with these external fields. These external fields, like ultrasound and magnetic fields.
+
+[13:51] So then this is where I divulged that, you know, I'm so convicted in this direction that I'm working on this, and we've generated some data in this direction. This is from our lab, where we use ultrasound to induce these calcium flows inside of some skin cells.
+
+[14:05] And then we also remotely change the voltage. These are some kidney cells, but over time, you can see they just, like, become very dark. These are indicators that tell me the voltage of cells. So any disease in which I need cells to divide or, like, regrow, this can be useful in.
+
+[14:33] So this is one of the first things that we're going after. So the thymus is this immune organ, piggybacking off of, like, the last immune talk. You know, when you're basically one, your thymus is, like, as big as it will ever be. And then over time, it just shrinks.
+
+[14:48] The thymus is, like, the main immune organ, and it creates T cells. So by the time that you're, like, 25, you have, like, half of it, and by the time that you're 70, you have, like, basically none of it. And if you could just regrow this thymus again, like this organ that just goes away immediately, then your immune system could come back when you're old.
+
+[15:03] Whereas right now, your immune system is basically gone by the time that you're 80 or 90. So, and like I said before, this intervention we had where I can change the voltage of these cells, this can induce cells to divide. So the very trivial version of this is, say, we can use some fields to be applied to the thymus, which is in your chest here, and then make the thymic cells divide, and then you can have a bigger thymus, and then your immune system comes back.
+
+[15:30] So, you know, we've made some progress towards this, this full-body ultrasound scanner when we were exploring the space. And, you know, we're moving into thinking of some pig studies to try and regrow the pig's thymuses pretty soon with ultrasound.
+
+[15:44] And then long-term, I mean, we're starting with these, like, patches and these things that are, like, very clear to the FDA, like, what it is and, you know, how to get it through a pathway. But, like, long-term, you know, we think that we can have basically, like, a mattress that's an MRI and has ultrasound and has these other fields that can just go and, like, look at every other organ and be like, oh, it's not just your thymus that's gone, it's also your liver that's, like, messed up.
+
+[16:04] Let's, you know, your liver's fatty. Let's get rid of the fat in your liver. Or your kidneys aren't working, so let's, like, try to accelerate the metabolic rate of your liver using fields. And eventually, you should be able to basically control every organ system in the body and their bioelectric states.
+
+[16:18] Just, you know, sidestepping the entire problem of, oh, my wearable doesn't tell me what to do. I have to go to the doctor. I have to wait two months for my doctor appointment because it's all booked up. Like, medicine happens to you just every night, all the time, and you don't even think about it, and you just wake up healthy every day.
+
+[16:33] So I just want to zoom out a little bit. You know, like, I think that the way that I think about this is that, you know, if I was, like, Brian Johnson, I would want basically, like, this NASA command center of people, like, looking at my body at all times.
+
+[16:48] I would have measurements of myself, like, scans, like, all the time. I would have a thousand different PhD scientists or engineers looking at me and, you know, knowing the immediate second that I start to get a cancer, like, if I want to be immortal, right, start to get a cancer or I start to, my blood markers start to slip out.
+
+[17:05] And if you just, like, imagine this, basically everything that you could do that could improve, like, could be done in this format pretty efficiently. Like, if I see a cancer, all I have to do is, like, I look at that, I'm like, okay, I can deliver energy to the cancer and delete it, or my, like, liver starts to accumulate fat, and then I get notified immediately, and then I start to, like, metabolize the fat faster.
+
+[17:25] So then I think that this is, like, a much better bet for all of, like, the AI leaders, because, like, right now, the reason why we don't have, like, NASA command centers following us around and, like, monitor everyone's health is, that's just, like, way too expensive.
+
+[17:37] I mean, maybe if I was a trillionaire, I could hire everybody to work on that, like, all the time. But in the future, I mean, I could just, like, ask Claude, hey, if I had a cancer and you have ultrasound, what do you do to the cancer? And then it tells me, and then, you know, if it was paired to some system where it could just press a button and do it, it would do it, right?
+
+[17:53] So, like, I think that, you know, like, the AI leaders being, like, basically drug-pilled is, like, somewhat of a misallocation of resources, because this is just, like, a much better direction for people. For AI, where you can dedicate all of the computes to understanding images better, understanding how to intervene on the body better, and you have, like, no delay in data at all, really.
+
+[18:16] So then, my closing thoughts are basically that the ideal user experience of medicine is nothing. Like, you should not notice that medicine is happening to you at all. You shouldn't have to go to the doctor's appointment. You shouldn't have to take any drugs.
+
+[18:28] You should just wake up healthy and feel healthy every day, and then you can do things that feel more meaningful to you than having to survive, basically. Yeah, so that's my thought. The company we're working on this at is called Ion, and those are my contact info.
+
+[19:03] If the whole, like, voltage theory is truly super effective for curing a lot of these diseases, why not get to market faster by just injecting the drug that changes voltage directly into the organ? Yeah, so, yeah, like, if you're saying that maybe you can get organ specificity by, like, hyper-localizing it.
+
+[19:19] Yeah, there are a couple companies, like, working on this. There's, like, morphosuticals, like, phase labs. Like, there are people doing this. I think that, like, delivery is just, like, really tough in general, and, like, you also want really good, like, temporal control.
+
+[19:33] Like, if I want to just, say, like, change 10 millivolts for, like, one day, and then that will be enough. It's like, well, then I have to engineer some gene circuit that, like, turns it off after one day, or I can excise it. And then there's, like, some interesting ideas that cells are, like, very adaptive to these changes where, you know, like, if, say, like, magnetic fields could induce some changes in voltage over time, right, we would see that, like, magnetic fields, like, being around power lines would be toxic.
+
+[19:58] But we don't, like, we see, you know, there's, like, not, like, that much data around this, but we don't see, like, people just dying, you know, when you walk up to a power line. So, like, one of the ideas is that, like, if you have a repeated exposure for, like, a long time, where, say, I have, like, a 60 hertz magnetic signal for forever, your cells just, like, adapt to it and stop responding to it.
+
+[20:16] And there's, like, some data behind this with, like, one of our collaborators. So then if you just, like, give somebody, like, a voltage intervention, the tissue may just, like, revert back to the original state. So you have to, like, make these more complicated patterns over time that, like, basically trick the cell into not adapting.
+
+[20:33] Hey, thanks for that. What's your view on some of the devices that were implanted? I don't know if you know Galvani, like, GSK's bioelectricity company that were used for immunomodulation. They kind of scrapped it for, I don't know why. Do you have a view on what's worked and what hasn't in the past?
+
+[21:00] Yeah, I'm surprised. Like, I don't know that company. Do you know any more details about the? We can talk about it after. I don't know. Okay. Yeah, I mean, I think there's, like, really interesting things with, like, the immune system where if you could, like, just change the voltage of some cells, even with drugs, and you just, like, take them out of the body and then use voltage to, like, change things about them and then put them back in the body.
+
+[21:19] Like, this is a drug path to this working. But, yeah, like, I don't know that company, so I can't really, like, comment on why. But I'll entertain the idea that you could, like, you know, create some type of hyper-localized synthetic field with a, you know, an array of phase-array optics to be able to, like, localize individual ion channels.
+
+[21:50] Now, I'll pass it to you. Do you have any, you know, did you have any back-in-the-envelope calculations with respect to, like, how much compute that would require in order to, like, you know, perturbate a array of pixels to get that? So, you don't actually need to do that.
+
+[22:02] The, yeah, one of, like, the cool things about organs, like, especially not the brain, right? So, like, the brain is much harder for this. But the rest of your organs are, like, the structures in them are, like, pretty big. And they're all, like, electrically coherent.
+
+[22:14] So, cells have, like, gap junctions with, like, other cells and, like, share their electric state. One of the interesting things about, like, the Picasso tadpoles where, like, the eye was moved around was they tracked the cells that they changed the voltage in.
+
+[22:25] And they changed the voltage in, like, only a few cells. And then they, and this is, like, a different study, actually, but, like, the same kind of model. They tracked the cells. The cells recruited other cells that had their voltage, like, unmodified and then used them around them to create an entire eye.
+
+[22:40] So, then my argument is, like, you don't need to individually activate, like, ion channels and, like, very, like, small things. All you need to do is be able to just, like, target energy to a single organ, which makes the size of the field that you need to shape, like, much bigger.
+
+[22:53] You need, like, centimeter-level voxels for this to be useful for, like, every organ, not, like, you know, nanoscale. So, then the compute isn't that terrible because, like, the worst organs are basically, like, the thymus for this because it's, like, behind the sternum.
+
+[23:07] And then the sternum, like, attenuates, like, a lot of ultrasound, for example. So, if I wanted to target the thymus, I have to, like, make, like, this big multi-element phased array and then try and, like, deliver enough energy at deep tissue.
+
+[23:16] But we've done, like, simulations and it's, like, totally possible within the pressure ranges and, like, sizes that we've been targeting. Great. Thanks. I was wondering, you mentioned about the size of the, impacting size of the thymus because it will shrink with the age.
+
+[23:39] How about people who take medication to suppress the immune system? Is it also possible to work with that? Yes. Are you saying, is it possible to regenerate the thymus in people who have taken agents that suppress the immune system? Yes. Yes.
+
+[23:55] Yeah, that's exactly what we're doing. So, the first market we're going after is people who have had chemotherapy and their thymus has shrunk because of that and then we want to regrow it after they had chemo because it's, like, much faster than, say, like, you know, reversing, like, an aged thymus.
+
+[24:08] Like, you have, like, a thing that suppresses it and it starts to come back, like, naturally on itself and we're just, like, making that faster as, like, the very first indication. So, we're doing that exactly. Hey. Yeah, that was a great talk.
+
+[24:26] Thank you. Do you have any, just, like, speculative reasons why the thymus would shrink gradually if it is, like, causally related to reduced immune system function? Why would we not have just evolved if it's just a simple bioelectric modification, the capacity to regrow it like we do with other organs?
+
+[24:44] Or is it age-related, do you think? Yeah. I mean, this might be, like, somewhat, I mean, there's, like, this is, like, a very deep rabbit hole because, like, everyone has different theories of aging, like, that aging is programmed, you know, that, like, as, as somebody gets to 80 or 90, like, their disease burden, for example, goes up a lot.
+
+[25:00] So, then it is, like, like, as, like, a whole group, you would actually want, like, 90-year-olds to die because you don't want them to, like, spread, like, a latent virus that they have for, like, 40 years. Otherwise, your group dies because you just have too much, too much disease that accumulates over time.
+
+[25:15] So, yeah, like, I mean, this is, like, the first thing that I would reach, reach for. And then, like, I think, I really think that, so, okay, there was actually a paper where they have, like, regrown the thymus, like, somewhat in animals, and they literally did it by, like, taking, like, thymus cells and just, like, injecting them into the animal, and they lived longer.
+
+[25:36] So, like, I don't think that, like, I could see, I could see that, like, maybe there's some adaptive, like, benefit in, like, some narrative that, like, you don't want it when you're old because you're, you know, your thymus will start to attack your old body too much and then might kill you.
+
+[25:51] But I think that the evidence points to it being beneficial mostly. So.

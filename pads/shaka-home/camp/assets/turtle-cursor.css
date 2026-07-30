@@ -1,0 +1,47 @@
+/* 🐢 Terri's Tiny Turtle Cursor — Move Slow & Bite Things
+   The pointer is a turtle. Click = turtle tucks into its shell (a bite).
+   Drop-in: <link rel="stylesheet" href="assets/turtle-cursor.css"> */
+
+/* NOTE: paths are relative to THIS css file (assets/), so they work
+   from both root pages and principles/ subpages. */
+html {
+  cursor: url("turtle-cursor.svg") 6 6, auto;
+}
+
+/* BITE! Turtle tucks into shell while the mouse is pressed */
+html:active {
+  cursor: url("turtle-cursor-shell.svg") 16 16, auto;
+}
+
+/* Keep the turtle on interactive elements too (fallbacks preserved) */
+a, button, select, label, summary, [role="button"],
+input[type="checkbox"], input[type="radio"], input[type="submit"],
+input[type="button"], .card, .tcard, .fork-step, .turtle-card {
+  cursor: url("turtle-cursor.svg") 6 6, pointer;
+}
+
+a:active, button:active, select:active, label:active, summary:active,
+[role="button"]:active, .card:active, .tcard:active, .fork-step:active {
+  cursor: url("turtle-cursor-shell.svg") 16 16, pointer;
+}
+
+/* Text fields keep the turtle but fall back to an I-beam */
+input[type="text"], input[type="search"], input[type="email"],
+input[type="number"], textarea {
+  cursor: url("turtle-cursor.svg") 6 6, text;
+}
+
+/* 🌫️ Click dust-poof (spawned by turtle-cursor.js) */
+.turtle-poof {
+  position: fixed;
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #e8d5a8 0%, rgba(232,213,168,0) 70%);
+  pointer-events: none;
+  z-index: 99999;
+  animation: turtle-poof 0.55s ease-out forwards;
+}
+@keyframes turtle-poof {
+  0%   { transform: translate(0,0) scale(0.4); opacity: 0.95; }
+  100% { transform: translate(var(--dx), var(--dy)) scale(1.6); opacity: 0; }
+}

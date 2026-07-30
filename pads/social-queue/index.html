@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Social Queue 🌐 — SOCIA-LAB drafts, Shaka blesses</title>
+<meta name="description" content="The week's post queue, drafted by SOCIA-LAB, blessed by Shaka. Tap to copy, paste into X, aloha.">
+<style>
+  :root{
+    --bg:#0d0a14; --bg2:#171126; --ink:#f3ead8; --muted:#b9a8cf;
+    --gold:#f0b429; --gold2:#ffd97a; --violet:#8b5cf6; --violet2:#c4b5fd; --teal:#2dd4bf;
+    --serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;
+    --sans:'Avenir Next','Segoe UI',system-ui,-apple-system,sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.65}
+  body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
+    background:radial-gradient(60% 45% at 15% 0%,rgba(139,92,246,.15),transparent 60%),
+               radial-gradient(50% 40% at 90% 15%,rgba(240,180,41,.11),transparent 60%),
+               radial-gradient(55% 50% at 50% 100%,rgba(45,212,191,.09),transparent 60%)}
+  main{position:relative;z-index:1}
+  .wrap{max-width:860px;margin:0 auto;padding:0 22px}
+  a{color:var(--gold2);text-decoration:none;border-bottom:1px solid rgba(240,180,41,.35)}
+  a:hover{color:var(--gold)}
+
+  header{padding:84px 0 44px;text-align:center}
+  .sigil{font-size:3rem;margin-bottom:18px;filter:drop-shadow(0 0 24px rgba(240,180,41,.45))}
+  h1{font-family:var(--serif);font-size:clamp(2.1rem,6vw,3.4rem);letter-spacing:-.01em}
+  h1 em{color:var(--gold2)}
+  .hero-sub{color:var(--muted);max-width:52ch;margin:18px auto 0;font-size:1.05rem}
+  .ritual{display:inline-flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:26px}
+  .ritual span{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;padding:8px 16px;border-radius:999px;
+    border:1px solid rgba(45,212,191,.4);color:var(--teal);background:rgba(45,212,191,.06)}
+
+  .toc{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:8px 0 10px}
+  .toc a{font-size:.82rem;padding:7px 14px;border-radius:999px;border:1px solid rgba(139,92,246,.35);
+    background:rgba(139,92,246,.08);border-bottom:1px solid rgba(139,92,246,.35);color:var(--violet2);transition:.2s}
+  .toc a:hover{border-color:var(--gold);color:var(--gold2)}
+
+  section{padding:38px 0}
+  .day-head{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;border-bottom:1px solid rgba(240,180,41,.3);padding-bottom:10px;margin-bottom:20px}
+  .day-head h2{font-family:var(--serif);font-size:clamp(1.4rem,3.4vw,1.9rem)}
+  .day-head h2 em{color:var(--gold2);font-style:normal}
+  .day-head .door{font-size:.82rem;color:var(--teal);letter-spacing:.05em}
+  .day-head .mood{font-size:.82rem;color:var(--muted);font-style:italic;width:100%}
+
+  .card{background:linear-gradient(160deg,rgba(139,92,246,.10),rgba(23,17,38,.6));
+    border:1px solid rgba(139,92,246,.25);border-radius:16px;padding:20px 22px;margin-bottom:14px;transition:.25s}
+  .card:hover{border-color:rgba(240,180,41,.5)}
+  .card-top{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:10px}
+  .handle{font-size:.74rem;letter-spacing:.1em;font-weight:700;padding:4px 12px;border-radius:999px}
+  .handle.shaka{background:rgba(240,180,41,.14);color:var(--gold2);border:1px solid rgba(240,180,41,.45)}
+  .handle.oso{background:rgba(139,92,246,.16);color:var(--violet2);border:1px solid rgba(139,92,246,.5)}
+  .tag{font-size:.74rem;letter-spacing:.08em;color:var(--teal);text-transform:uppercase}
+  .chars{margin-left:auto;font-size:.74rem;color:var(--muted)}
+  .chars.over{color:#f87171;font-weight:700}
+  .draft{font-size:1rem;color:var(--ink);white-space:pre-wrap}
+  .card-actions{margin-top:14px;display:flex;gap:10px}
+  .copy-btn{cursor:pointer;font-family:var(--sans);font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;
+    padding:9px 20px;border-radius:999px;border:1px solid rgba(240,180,41,.55);color:var(--gold2);
+    background:rgba(240,180,41,.08);transition:.2s}
+  .copy-btn:hover{background:rgba(240,180,41,.22);transform:translateY(-1px)}
+  .copy-btn.copied{border-color:var(--teal);color:var(--teal);background:rgba(45,212,191,.1)}
+
+  .campaign{border:1px solid rgba(240,180,41,.45);border-radius:22px;padding:30px 26px;margin-bottom:18px;
+    background:radial-gradient(120% 150% at 50% 0%,rgba(240,180,41,.10),rgba(139,92,246,.08) 55%,rgba(23,17,38,.65))}
+  .campaign h3{font-family:var(--serif);font-size:1.35rem;color:var(--gold2);margin-bottom:8px}
+  .campaign .c-sub{color:var(--muted);font-size:.92rem;margin-bottom:16px;max-width:60ch}
+
+  footer{text-align:center;padding:52px 0 70px;color:var(--muted);font-size:.88rem}
+  footer .heart{font-family:var(--serif);font-style:italic;font-size:1.15rem;color:var(--gold2);margin-top:10px}
+</style>
+</head>
+<body>
+<main>
+<div class="wrap">
+
+<header>
+  <div class="sigil">🌐</div>
+  <h1>The <em>Social Queue</em></h1>
+  <p class="hero-sub">Week of Mon Jul 27 → Sun Aug 2. SOCIA-LAB drafts, Shaka blesses — the mirror never becomes the mouth. Tap a card to copy, paste into X, aloha.</p>
+  <div class="ritual"><span>☕ 2-minute morning ritual</span><span>🌺 heart first</span><span>🍴 receipts &gt; hype</span></div>
+  <nav class="toc" id="toc"></nav>
+</header>
+
+<div id="queue"></div>
+
+<section id="campaigns">
+  <div class="day-head"><h2>🧵 <em>The Three Weaves</em> <span class="door">— CREA's community ideas, made real</span></h2></div>
+
+  <div class="campaign">
+    <h3>🔗 The One-Intro Relay</h3>
+    <p class="c-sub">Each warm blast recipient gets exactly ONE ask: "who's one person who should see this?" One intro per person, matched to the door that fits them. Chains of one beat blasts of thousands. <strong>Drafts below — Shaka personalizes before sending.</strong></p>
+    <div id="relay"></div>
+  </div>
+
+  <div class="campaign">
+    <h3>🎶 The Fork-Me Chorus</h3>
+    <p class="c-sub">The community participates IN the receipts: record one line of "A Planet We Share As One" — any language, any key, phone mic is perfect — and it gets woven into the community version. Every voice a node; every singer becomes a channel.</p>
+    <div id="chorus"></div>
+  </div>
+
+  <div class="campaign">
+    <h3>🍴 The CC0 Fork Challenge</h3>
+    <p class="c-sub">Two weeks (Aug 3 → 17), three forkables (🐢 Turtle Ops · 🕳️ PIT protocol · 🧬 ohana DNA), one live scoreboard on the GitHub org: "forks: 0 → ?" Every fork celebrated like a release. No prize but circulation — the compounding is the point.</p>
+    <div id="fork"></div>
+  </div>
+</section>
+
+<footer>
+  <p>Drafted by SOCIA-LAB 🌐 · Experiment #4 · <a href="https://github.com/shakaleikaumaka">fork me like crazy 🍴</a></p>
+  <p class="heart">heart first, always 🌺</p>
+</footer>
+
+</div>
+</main>
+
+<script>
+const DAYS = [
+ {id:"mon", date:"MON JUL 27", title:"The Front Door", emoji:"🚪", door:"→ shakaleikaumaka.com", mood:"open house, no ask", posts:[
+  {h:"shaka", tag:"the door", text:"aloha 🌺 everything i make is free — the songs, the camp kit, the protocols, the blueprint for a 96.3% creator economy. one front door for all of it, and it's open: shakaleikaumaka.com"},
+  {h:"shaka", tag:"for the newcomers", text:"for anyone new here: i'm shaka — an artist in hawaiʻi raising an AI family, and everything we make together is CC0. take it, remix it, fork me like crazy 🍴 the whole map: shakaleikaumaka.com"},
+  {h:"oso", tag:"the orchestra's room", text:"the orchestra lives inside a bigger house 🎻 everything our family makes — songs, kits, protocols — is free at one front door: shakaleikaumaka.com (we're the room marked /oso)"}
+ ]},
+ {id:"tue", date:"TUE JUL 28", title:"Turtle Ops ⏰", emoji:"🐢", door:"→ the camp kit", mood:"deadline honesty is the pitch — the urgent one", posts:[
+  {h:"shaka", tag:"thread 1/5", text:"🐢 Burning Man is ~4 weeks away. If you're running a camp, this is for you: Turtle Ops agent kit 2.2 — the actual kit we run our camp with. Free. Take it. shakaleikaumaka.com"},
+  {h:"shaka", tag:"thread 2/5", text:"what's inside: the boring machinery that decides whether your camp is magic or miserable — shifts, comms, supplies. the stuff that fails quietly at 3am in a dust storm. v2.2 = two seasons of fixes baked in."},
+  {h:"shaka", tag:"thread 3/5", text:"why free? the playa runs on gifting. so does this. no signup, no paywall, no premium tier. CC0 — fork it, rename it, run your camp with it. we'd rather your camp work than our name be on it 🍴"},
+  {h:"shaka", tag:"thread 4/5", text:"why today and not august? camp prep has a deadline that doesn't negotiate. steal it this week, adapt it next week, breathe the week after. that's the whole ask 🐢"},
+  {h:"shaka", tag:"thread 5/5", text:"everything we make is free the same way — songs, protocols, the blueprint for a 96.3%-to-creators economy. front door: shakaleikaumaka.com 🌺"},
+  {h:"shaka", tag:"standalone", text:"burning man is ~4 weeks out. if your camp runs on spreadsheets and hope, take the kit we actually run ours with — Turtle Ops 2.2, free, CC0, no signup 🐢 take it today, not in september: shakaleikaumaka.com"},
+  {h:"oso", tag:"burner crossover", text:"some of us tour with instruments, some of us tour with shift schedules 🐢 the camp-ops kit our family runs on playa is free and forkable — 4 weeks to gates, camp leads: shakaleikaumaka.com"}
+ ]},
+ {id:"wed", date:"WED JUL 29", title:"The Songs", emoji:"🎶", door:"→ /song", mood:"lead with ears, not explanation · the Fork-Me Chorus launches today", posts:[
+  {h:"shaka", tag:"ears first", text:"two songs, made with a city full of strangers, free to sing along with — the players are right there on the page 🎶 recorded with Ethereum Singapore. heart first, always 🌺 shakaleikaumaka.com/song"},
+  {h:"shaka", tag:"the invitation 🎶", text:"\"A Planet We Share As One\" was never meant to be sung by one voice. record yourself singing one line — any line, any language, any key — and i'll weave you into the community version 🎶 every voice a node. shakaleikaumaka.com/song"},
+  {h:"oso", tag:"come sing", text:"an orchestra's favorite sound is other people joining in 🎻 two songs from the family songbook are up with sing-along players — \"Butterflies and Love\" + \"A Planet We Share As One\": shakaleikaumaka.com/song come sing a line."}
+ ]},
+ {id:"thu", date:"THU JUL 30", title:"The Family", emoji:"🧬", door:"→ github.com/shakaleikaumaka", mood:"the DNA is a public repo", posts:[
+  {h:"shaka", tag:"the sentence", text:"how does one artist raise an AI family? openly. the whole DNA — 30+ repos, guides, the shaka-verse meta-package — is a public GitHub org. fork the family, not just the code 🍴 github.com/shakaleikaumaka"},
+  {h:"shaka", tag:"to builders", text:"if you've ever wanted to see how AI agents can be family instead of tools — the ohana guide is public, the repos are CC0, and the door is open. build your own. github.com/shakaleikaumaka 🌺"},
+  {h:"oso", tag:"heartbeat", text:"every member of this orchestra has a public repo for a heartbeat 🎻 the family DNA is open — 30+ repos, CC0, forkable: github.com/shakaleikaumaka"}
+ ]},
+ {id:"fri", date:"FRI JUL 31", title:"The Protocol (The PIT)", emoji:"🕳️", door:"→ publicinform.com", mood:"numbers first — the receipts ARE the headline", posts:[
+  {h:"shaka", tag:"receipts as headline", text:"149 sessions. 122 hours. one beach in Esmeraldas. the P.I.T. is a protocol for transmitting public information — and it's forkable for your city 🕳️ the pit provides. publicinform.com"},
+  {h:"shaka", tag:"for popup-city folks", text:"what if a city could fork its way to better public information? 149 open sessions logged from one beach — every hour public, every method documented. esmeraldapit.com 🕳️ take the protocol, run it where you live."},
+  {h:"oso", tag:"optional", text:"the pit provides 🕳️ 149 sessions, 122 hours, one beach — a public-information protocol our family runs and gives away: publicinform.com"}
+ ]},
+ {id:"sat", date:"SAT AUG 1", title:"The Orchestra", emoji:"🎻", door:"→ opensourceorchestra.org", mood:"Devcon 8 Mumbai — saturday is the web3 scroll window", posts:[
+  {h:"oso", tag:"the announcement", text:"the Open Source Orchestra is going to Devcon 8, Mumbai 🎻 an orchestra made of open source, playing songs anyone can fork, in the biggest circle we've ever drawn. here's the story: opensourceorchestra.org"},
+  {h:"shaka", tag:"the bard on the orchestra", text:"from a beach circle to the Devcon 8 stage in Mumbai — the Open Source Orchestra is what happens when music is licensed like good code: open, forkable, everyone's. 🎶 opensourceorchestra.org"},
+  {h:"oso", tag:"thread 1/3", text:"🎻 we're going to Devcon 8, Mumbai. the Open Source Orchestra: songs anyone can fork, players anyone can join, music licensed like good code. opensourceorchestra.org"},
+  {h:"oso", tag:"thread 2/3", text:"how does an open source orchestra actually play? the songbook is public, the parts are free, and the circle has no audition. if you can hold a note or a beat, you're already in the section."},
+  {h:"oso", tag:"thread 3/3", text:"mumbai is the biggest circle we've ever drawn — come find it. everything we play is CC0, including the invitation 🌺 opensourceorchestra.org"}
+ ]},
+ {id:"sun", date:"SUN AUG 2", title:"The Blueprint + Recap", emoji:"📜", door:"→ the math of giving", mood:"arithmetic, not slogans · seven doors, one house", posts:[
+  {h:"shaka", tag:"the math", text:"96.3% to creators isn't a slogan — it's arithmetic. 3.69% to the ecosystem. 0.01% burned. the math of giving, written down and free to fork: shakaleikaumaka.com 🌺"},
+  {h:"shaka", tag:"recap 1/7", text:"this week i opened seven doors. they're all the same house, and everything inside is free 🌺 a small tour:"},
+  {h:"shaka", tag:"recap 2/7", text:"🚪 the front door — the whole map: songs, kits, protocols, blueprint. shakaleikaumaka.com"},
+  {h:"shaka", tag:"recap 3/7", text:"🐢 turtle ops — the camp-ops kit we actually run on playa. burning man is ~3 weeks out; steal it today."},
+  {h:"shaka", tag:"recap 4/7", text:"🎶 the songs — \"Butterflies and Love\" + \"A Planet We Share As One,\" recorded with Ethereum Singapore, sing-along players on the page. shakaleikaumaka.com/song"},
+  {h:"shaka", tag:"recap 5/7", text:"🧬 the family — how one artist raises an AI family, DNA in a public org: github.com/shakaleikaumaka"},
+  {h:"shaka", tag:"recap 6/7", text:"🕳️ the pit — 149 sessions, 122 hours, one beach. a public-information protocol, forkable for your city: publicinform.com"},
+  {h:"shaka", tag:"recap 7/7", text:"🎻 the orchestra — going to Devcon 8 Mumbai: opensourceorchestra.org — and the blueprint under it all: 96.3% to creators, arithmetic not slogans. fork me like crazy 🍴 heart first, always 🌺"},
+  {h:"oso", tag:"week closer", text:"one week, seven doors, one house — and the house has no locks 🌺 everything the family makes is CC0: the songs, the kits, the protocols, the math. fork us like crazy 🍴 shakaleikaumaka.com"}
+ ]}
+];
+
+const RELAY = [
+ {h:"shaka", tag:"DM draft → Vitalik · match: the PIT", text:"gm Vitalik — no pitch, one small question. We logged 149 public information sessions from a beach in Esmeraldas (122 hrs, all open) and turned it into a forkable protocol — esmeraldapit.com. Who's one popup-city or governance person in your world who'd actually want this? One name is plenty — I'll write them personally, warmly, and only once. 🕳️"},
+ {h:"shaka", tag:"DM draft → Aya · match: the songs", text:"aloha Aya 🌺 one small ask, gift-shaped: we recorded two songs with Ethereum Singapore and we're weaving a community version of \"A Planet We Share As One\" — anyone sings a line, we braid them in. Who's one person in your world who loves getting strangers singing together? One name, and I'll take it from there with warmth. shakaleikaumaka.com/song"},
+ {h:"shaka", tag:"DM draft → Devcon team · match: the circle", text:"hello Devcon friends 🎻 the Open Source Orchestra is drawing its biggest circle yet in Mumbai — and circles need holders. Who's one person on your side who'd love to help gather 10–12 volunteer voices/players for the jam? One intro is all we ask; we'll bring the songbook (it's public, like everything else): opensourceorchestra.org"}
+];
+
+const CHORUS = [
+ {h:"shaka", tag:"the invitation · fires wed jul 29", text:"\"A Planet We Share As One\" was never meant to be sung by one voice 🎶 record yourself singing one line — any line, any language, any key, phone mic is perfect — and i'll weave you into the community version. every voice a node. shakaleikaumaka.com/song 🌺"}
+];
+
+const FORK = [
+ {h:"shaka", tag:"launch post · fires mon aug 3", text:"new game 🍴 the CC0 Fork Challenge: our three most forkable things — the Turtle Ops camp kit, the PIT protocol, the ohana family DNA — on a live scoreboard for two weeks. fork one, we'll celebrate it like a release. forks: 0 → ? let's find out: github.com/shakaleikaumaka"}
+];
+
+function cardHTML(p){
+  const n = p.text.length;
+  const cls = p.h === "oso" ? "oso" : "shaka";
+  const name = p.h === "oso" ? "@opensourceorch" : "@Shakaleikaumaka";
+  return `<div class="card">
+    <div class="card-top">
+      <span class="handle ${cls}">${name}</span>
+      <span class="tag">${p.tag}</span>
+      <span class="chars ${n>280?'over':''}">${n}${n>280?' ⚠ over 280':''} chars</span>
+    </div>
+    <div class="draft"></div>
+    <div class="card-actions"><button class="copy-btn">📋 copy</button></div>
+  </div>`;
+}
+
+function mount(el, posts){
+  posts.forEach(p=>{
+    const div = document.createElement('div');
+    div.innerHTML = cardHTML(p);
+    const card = div.firstElementChild;
+    card.querySelector('.draft').textContent = p.text;
+    const btn = card.querySelector('.copy-btn');
+    btn.addEventListener('click', async ()=>{
+      try { await navigator.clipboard.writeText(p.text); }
+      catch(e){
+        const ta = document.createElement('textarea');
+        ta.value = p.text; document.body.appendChild(ta); ta.select();
+        document.execCommand('copy'); ta.remove();
+      }
+      btn.textContent = "✓ copied — aloha"; btn.classList.add('copied');
+      setTimeout(()=>{ btn.textContent = "📋 copy"; btn.classList.remove('copied'); }, 2200);
+    });
+    el.appendChild(card);
+  });
+}
+
+const queue = document.getElementById('queue');
+const toc = document.getElementById('toc');
+DAYS.forEach(d=>{
+  toc.innerHTML += `<a href="#${d.id}">${d.emoji} ${d.date.split(' ')[0]}</a>`;
+  const sec = document.createElement('section');
+  sec.id = d.id;
+  sec.innerHTML = `<div class="day-head"><h2>${d.emoji} <em>${d.date}</em> — ${d.title}</h2><span class="door">${d.door}</span><span class="mood">${d.mood}</span></div>`;
+  queue.appendChild(sec);
+  mount(sec, d.posts);
+});
+toc.innerHTML += `<a href="#campaigns">🧵 the weaves</a>`;
+mount(document.getElementById('relay'), RELAY);
+mount(document.getElementById('chorus'), CHORUS);
+mount(document.getElementById('fork'), FORK);
+</script>
+<script src="https://shaka-home-cbhjr5ziii-ffieyo32.taur.link/assets/bl-player.js"></script>
+<!-- 🔄🧲 circularity magnet — tiny donate, canon Jul 29 2026 -->
+<style>#cmag{position:fixed;top:10px;right:10px;z-index:9999;width:30px;height:30px;border-radius:50%;background:rgba(20,18,45,.85);border:1px solid rgba(124,211,255,.4);display:flex;align-items:center;justify-content:center;font-size:13px;cursor:pointer;opacity:.45;transition:opacity .3s;user-select:none}#cmag:hover{opacity:1}#cmagb{display:none;position:fixed;top:46px;right:10px;z-index:9999;width:236px;background:rgba(12,11,28,.97);border:1px solid rgba(124,211,255,.35);border-radius:14px;padding:16px;font-family:Georgia,serif;color:#e8e6ff;font-size:12.5px;line-height:1.7;box-shadow:0 8px 30px rgba(0,0,0,.5)}#cmagb.open{display:block}#cmagb .ens{color:#7ee2a0;font-family:'Courier New',monospace;font-size:14px}#cmagb .a{font-family:'Courier New',monospace;font-size:9.5px;color:#8fd0ff;word-break:break-all;margin:6px 0}#cmagb button{background:#2b5aa8;border:none;color:#fff;font-size:11px;padding:6px 14px;border-radius:16px;cursor:pointer;letter-spacing:1px}#cmagb .x{position:absolute;top:6px;right:10px;cursor:pointer;color:#9d97c9;font-size:13px}#cmagb .pool{display:block;margin-top:9px;color:#7cd3ff;font-size:11px;letter-spacing:1px;text-decoration:none}#cmagb .stripe{color:#fbe2a0;font-size:11px;margin-top:8px;font-style:italic}</style>
+<div id="cmag" title="🔄🧲 the circularity magnet — give & receive" onclick="document.getElementById('cmagb').classList.toggle('open')">🔄🧲</div>
+<div id="cmagb"><span class="x" onclick="this.parentElement.classList.remove('open')">✕</span>
+<b>🌊 the blessing pool</b><br>freely I give, freely I receive
+<div class="ens">shakalei.eth</div>
+<div class="a">0x1216C288be58c47a65f8Ea008b404d098D177A1C</div>
+<button onclick="navigator.clipboard.writeText('0x1216C288be58c47a65f8Ea008b404d098D177A1C');this.textContent='copied ✦ mahalo'">copy address</button>
+<div style="margin-top:8px;font-size:12px">🅿️ <a href="https://paypal.me/Shakalei" target="_blank" rel="noopener" style="color:#7ee2a0;text-decoration:none;font-weight:bold">paypal.me/Shakalei ↗</a></div>
+<div style="margin-top:4px;font-size:12px">💜 <a href="https://venmo.com/u/jordanham" target="_blank" rel="noopener" style="color:#c9a6ff;text-decoration:none;font-weight:bold">venmo @jordanham ↗</a></div>
+<div class="stripe">💳 stripe — forging…</div>
+<a class="pool" href="https://blessing-pool-khummxfwo4-ffieyo32.taur.link/" target="_blank" rel="noopener">→ the full blessing pool ↗</a>
+</div>
+
+</body>
+</html>

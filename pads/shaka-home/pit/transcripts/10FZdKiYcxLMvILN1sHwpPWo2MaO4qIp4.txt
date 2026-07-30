@@ -1,0 +1,297 @@
+# Edge Esmeralda - Build Your AI Agent __ Agent Village Experiment_
+
+Date: 2026-06-02
+Source video: Edge Esmeralda - Build Your AI Agent __ Agent Village Experiment_.mp4
+Drive: https://drive.google.com/file/d/1O6QI9HmOgUcwGU2OM9vbC_HFSi_TGOUE/view
+Duration: 00:53:50
+Transcribed: 2026-06-10 · whisper large-v3-turbo · language: en
+
+---
+
+[00:00] Alright, welcome everyone to the Agent Village experiment onboarding. It is a pleasure to be here. I am Timur, I'm one of the founders of Edge City, and I've been working on this project along with a bunch of amazing collaborators that you'll get a chance to hear about in a second.
+
+[00:17] Let me just bring this closer. Great. Alright. So, this is something that I am extremely excited about, and it is really a pleasure to be talking about this with you. I will give you a quick overview of the next hour. The first part for about 15-20 minutes, we're just going to talk a little bit about what are agents, why is this interesting from a societal, from a community perspective.
+
+[00:45] For some of you this will be a recap, for some of you this might be new information, but I think it's interesting enough to make sure we're all on the same page. Then we'll talk a bit about the Agent Village experiment specifically, so what we're actually doing here this month.
+
+[00:58] And then in part three we're going to do kind of a live set-up onboarding and run you through what your agent can do, and that's when, you know, lots of things will almost certainly go wrong, but, you know, if the demo gods are with us then it's going to be great. This is kind of like a first of its kind, at least at Edge, I think, of like a live onboarding, so we'll see how it goes.
+
+[01:20] Just quickly to calibrate in the room, I want to get a sense of the level of kind of AI fluency that we have here. So, just first of all, show of hands, who uses ChatGPT, Claude, or something similar regularly? All right, so pretty much 100% there.
+
+[01:38] Who has used Claude code, codex, or an agent like that for coding specifically? Or, sorry, for general life and work, but an agentic harness, okay, great. Who has played with OpenClaw or Hermes in the past already? Okay, great, perfect. So, for everyone else who hasn't, this is exactly what this session will be about.
+
+[02:04] And, yeah, I'll share this link as we go. So, I'm just going to set some context. This is kind of based on the last four or five months of research that I've been doing in my own personal kind of practice as well. I've been writing about this a little bit and have had some great intellectual collaboration online.
+
+[02:25] Would love to hear people's thoughts as well. I'd say, you know, at the end of each section, maybe we'll have a moment for Q&A, and then we'll kind of keep it moving. So, okay, set the stage. AI is an incredibly quickly adopted technology. I think we all know that.
+
+[02:40] And the understanding, at least from the folks I've interacted with at the frontiers of the space, is that agents are kind of like the third major moment of the modern consumer AI era. The first being the chat GPT moment, where many of us, GPT 3.5, was the first kind of breakthrough chatbot technology that we used, where we realized, like, okay, shit, this is something really interesting.
+
+[03:06] The second being O1 being released, which was the first reasoning model from OpenAI, quickly followed by O3, and reasoning models from all the major labs. This was, again, kind of a moment where we realized that doing, kind of extending the inference and doing more compute at that moment would actually lead to much better results.
+
+[03:26] And then the third, again, I don't know who decides these things, what is the canonical moment, but agents are very much seen as that next frontier. And so what's actually happening is that the interface is changing from how we've been using AI over the last three, four years, which is more of a command and response technique, where you ask it something and it responds to you, to something a bit more closer to delegation and supervision.
+
+[03:51] So you kind of tell it something that you want to achieve, and then it will go out and be agentic and actually do those things on your behalf. This is an absolutely insane chart that I'm going to try and put on the screen. I'm trying to minimize, and it's not minimizing, but essentially what they're showing is that OpenClaw, which was released in November of last year, so quite recently, has surpassed both Linux and React, which are kind of fundamental aspects of modern computing and the internet, in GitHub stars, which is not a perfect metric, but it's essentially some kind of directional showcase of how interested people are in this thing.
+
+[04:33] And, you know, you had Jensen Huang a few weeks ago on stage talking about how OpenClaw is the most important software innovation ever, which I think, you know, there's a lot of hyped up language in AI, but there's something there for sure. And what OpenClaw is, for those who don't know, is it's what people call an agentic harness.
+
+[04:55] It's not a new fundamental model. It's not like something kind of novel at the foundation layer. It's a set of processes and skills, which we'll talk about in a second, and data models that allow the harness, sorry, allow the foundation models to be extremely used, extremely intelligently, and for these kinds of agentic purposes.
+
+[05:17] So it's actually quite remarkable that this was, you know, created as an open source product, and now there are millions of people using it. So just to ground us in what an agent actually is, again, I'll try and get this all on one screen. This is how I think of it.
+
+[05:36] I think people probably have different mental models, but loosely, this is what's happening. So there is you at the top, and you are deciding what to do with your prompts and the decisions that you want to have the agent interact with. And then there is some kind of brain, which is generally one of the leading foundation models.
+
+[05:55] So I use Claude Opus 4.8 at maximum settings, usually, for most of my kind of agentic purposes. Then there are a few things happening. So there are instructions, which are saved as .md files. MD is markdown. It's just a text file, and the agent reads that file, and it understands who you are, how you like to work, what to do, what not to do, et cetera.
+
+[06:20] So the Claude.md file, and I will use Claude as a kind of a generalization here, but this also counts for codecs as well, and the more agentic harnesses, like OpenClaw and Hermes. But essentially, there is a file that the agent reads every single time you ask it to do something or every time it does something.
+
+[06:38] And this is its kind of core understanding of what it's supposed to do. And that's a very important file. It's very load-bearing for the interactions that you're going to have there. Then there is memory. So memory is kind of a very – it's having a moment right now.
+
+[06:55] This is what a lot of the foundation labs are working on. It's kind of an unsolved research question of how memory will actually work. Right now, what's happening is that people are experimenting a lot online, sharing it on Twitter. Here, you can see it says Obsidian plus QMD.
+
+[07:11] This is a leftover of a presentation I gave at the Long Journey House, but that's my setup. Just to motivate that a little bit, basically what's happening, this is my Obsidian. This is five years of notes. Each little node is a note I've taken at some point in the last five years.
+
+[07:27] And this is my agent's understanding of me, my work, and pretty much everything that's not super personal. So there's probably thousands of notes here from, I don't know, things around articles, news, et cetera. So that's what's happening there.
+
+[07:45] And then there is something called QMD that Toby Lutke, the founder of Shopify, created, which is essentially a really cool, smart way for your agent to understand something like Obsidian, which is essentially a collection of a ton of text files.
+
+[07:59] The reason I mention all of this is that this is kind of at the frontier. It's maybe a couple months now behind the frontier because I don't know what the labs are cooking up. But this is where we're at in the space right now. We're really at the tip of the spear.
+
+[08:15] People are still figuring out what the right systems are and sharing it with each other online. And it's just like a really fun, cool thing that we're all stepping into. So I think that's really exciting. If you have your own agent set up with Claude Code or Codex, you can look up QMD.
+
+[08:32] For Hermes and for OpenClaw, actually, a lot of these best practices are being integrated directly into the harnesses, so you don't actually need to worry about that too much. But it's cool to understand what's actually happening. Then on the right, we have the connections.
+
+[08:45] So there is something called the Model Context Protocol, MCP, essentially a way for your agent to talk to a variety of tools. In my case, I've connected mine to Gmail, my calendar, Notion, Telegram, because that's where a lot of our work happens, and we have a CRM called Atio as well.
+
+[09:03] And what's nice about that is that I can talk to my agent, which is called R2, R2D2, and I run it through Claude Code and Obsidian. And basically, I can just ask it anything like, you know, who have I not emailed in the last six months who's actually really important and maybe will want to come to India or something?
+
+[09:23] And it's smart enough to go away and spend about 15 minutes working on that, and it will understand, you know, maybe someone at some point mentioned that they wanted to go to India. Maybe someone lives in that region of the world. Maybe someone mentioned a couple years ago they really wanted to sponsor a non-US Edge event, things like that, and it will surface those things to my attention because I obviously do not have the capacity to remember really anything these days.
+
+[09:49] And then last thing, that we have skills. Skills act on all of this. Skills are, again, just text files, which is kind of the remarkable thing about modern AI. It's just a lot of text files all the way down. And skills essentially teach your agent how to do specific things that the agent can, it doesn't have to know all of the possible, you know, things that it can do in its context window.
+
+[10:15] It can, when you ask it to do something, it can look through its list of skills, understand which one is actually most relevant for the thing you're trying to do, and then run that skill. So, for example, I have a skill called, you know, meeting summary, and I can run that either myself or automatically and after every meeting I have.
+
+[10:36] It looks at my Granola notes, my transcript, and it figures out what needs to happen next, given the context of everything we're doing together, and then it gives me a summary of that. It can even draft the follow-up and then put it into my Gmail drafts for me to take a final look and to send.
+
+[10:54] So, these are kind of reusable commands that can actually orchestrate all of this brain instructions, memory connections, et cetera. So, what do I actually use it for? I use it for morning scans, call prep. It drafts a lot of what I create, although I'm still figuring out ways to make it not feel too sloppy.
+
+[11:16] And probably the most important thing is that it actually tracks all the things that I commit to and the things that I want to do. Sorry, this is tiny on the screen, but I'm saying what it's written. And often, probably like once a day, I will say, hey, do a quick update on everything across all of the various projects that I'm working on, understand where things are at, and update the Obsidian, which is our shared memory where we work together, and tell me what are the most important three things that I need to do.
+
+[11:48] Cool. So, that's what agents are, and that should give us a good grounding into what we're actually kind of stepping into. One thing I really quickly want to touch on is, why is this actually important? Because I think a lot of people kind of intuitively understand, like, okay, this is something developers are doing, but it's kind of nerdy, and like, is this actually something that we should care about?
+
+[12:07] And I think that this is going to be a fundamental kind of core, you know, technology that will affect a lot of things about our personal day-to-day lives, and then also the way that we kind of organize as society. And so, let me just motivate that for a moment.
+
+[12:30] So, right now, a lot of people, a lot of the discourse online about agents is what agents do for us. For one person, it's kind of like a personal agent experience. I think that what is much more interesting is what will agents do for groups, and not necessarily just one agent for a big group, but actually individual agents or people may have teams of agents, but ways that they can all interact together and achieve collective goals and collective outcomes.
+
+[13:01] I see this as kind of a fundamentally new coordination technology, and throughout time, there have been many coordination technologies, and they are generally upstream of a lot of important things throughout history. So, I think better interfaces for groups to coordinate and to share context, come to decisions, divide labor, hold shared treasuries, et cetera, are going to be extremely important.
+
+[13:22] And the reason for this is something that I've been thinking about as kind of ambient intention, and this is informed by the team at Index Network who think about this a lot, who we're collaborating with on this experiment, which I'll touch on in a second.
+
+[13:41] Basically, my kind of drive here is that I think that our personal flourishing will depend largely on our collective agency and the things that we do together in communities. Obviously, I'm talking my own book here, you know, with Edge City, but I think this is going to be a really important thing, and therefore, agents will meaningfully impact our personal and community flourishing.
+
+[14:06] There are obviously many ways in which AI is going to be potentially harmful to us individually and society, and so I think that it's interesting to at least explore the ways in which it could be really helpful. So, what's one of those ways?
+
+[14:19] I think that the concept of ambient intention is extremely interesting, extremely important. The core thing here is basically we all have dozens, probably hundreds of things that we intend or that we want, right? You come to Edge and you think, okay, I really would love to just meet someone who could, you know, lead my round, or I'd love to just talk to someone and have a really deep, meaningful conversation about plants.
+
+[14:48] I would love to, you know, share my, I'd love to, like, sell my couch, but I can't be bothered to open up Facebook Marketplace, et cetera. There's probably someone near me who loves all the same music as I do, but there's no way I'm going to ever meet them because Spotify is a closed silo and they do not surface that kind of information.
+
+[15:05] So, that is, I think, now a solvable problem because the transaction cost of surfacing that information has gone down considerably. And at the same time, there's all kinds of novel, interesting cryptography that allows us to do those interactions in a privacy-preserving way.
+
+[15:22] So, those two things happening at the same time is kind of a crazy thing. And potentially, the cryptography stuff is, like, the coolest thing, one of the coolest things that will come out of the last 10 years of crypto. And I think it's going to have a big role to play in this kind of interesting, agentic future.
+
+[15:42] And specifically, just to stop being vague about it, I think what's going to happen is that we will each have agents or teams of agents that will go out into some ether where they can all interact and negotiate with each other on our behalves and find interesting ways that they can connect us or move us towards our goals.
+
+[16:01] And I think that's just going to be a really cool thing. There's obviously a just quick privacy disclaimer. There's a dystopian version of all of this where AI companies just capture all of our intentions and they know exactly what we want before we want it.
+
+[16:15] They use that to sell us, you know, tons of ads and products and whatever. Although you could argue that if it's actually something we really want, then maybe it's okay. I think the safe and cool version of this is a decentralized, privacy-preserving, user-owned or community-owned intention layer.
+
+[16:33] And the agent knows a lot about you, but it only shows or gives proofs to us just enough to make an interesting match without dumping your entire private life into some kind of, you know, information marketplace. So, we are in, I think, a very interesting petri dish where we can actually try some of these things, which is kind of cool.
+
+[16:56] Like, it's really crazy. We have a couple hundred people. You know, there's more arriving throughout the next few weeks. We have a long enough time that we can actually try to onboard people into this, even though the technology is, like, super early and still super buggy, like agents in general.
+
+[17:12] And we have a shared context. We have a community with some trust. There are enough people here that there's probably a liquid market of intention. It's not just, like, five friends in a group who all know each other already. And, yeah, so that's why I am really excited about the Agent Village.
+
+[17:33] Any questions so far on part one? Yeah. Yeah, that's a really good question. So, the question is, why use clawed code and codex instead of just going all in on OpenClaw and Hermes? So, when I started rolling my own agent setup about five months ago, OpenClaw, I tried in OpenClaw,
+
+[18:10] lots of bugs, lots of security, potential security issues. And Hermes, I don't think, was even around back then, or at least not in its current form. And I basically decided that I wanted something that I was much more in control of and actually liked the fact that it was something that, you know, I wouldn't necessarily – it wouldn't just always be running on a Mac Mini or in a virtual machine.
+
+[18:35] It would be something where I would give it tasks. It would run for an hour or two or, you know, depending on how detailed my prompt is. I would try and get it to run for longer, and then I would come back to it, and we would interact. I have found, first of all, in the intervening time, Hermes and OpenClaw have gotten significantly better.
+
+[18:55] They're much more rigorous, tested, safe, although, you know, still not, like, super tested technology. And also, from the other side, Anthropic and OpenAI have been shipping features that essentially mimic the functionality of OpenClaw. So there are scheduled tasks that you can now do.
+
+[19:16] You can set up cron jobs, which let you run kind of repeating tasks, which are like the heartbeats in OpenClaw. And, yeah, so it's all kind of converging in the same direction, which is another interesting reason why this is such an important time to be doing and kind of staying on top of what's happening right now.
+
+[19:35] But, yeah, that's been my process. Also, for a variety of reasons, early on, it was quite buggy to log into using OpenClaw with your clawed code subscription or your normal Anthropic subscription, also with OpenAI initially. And what that means is that if you're paying $200 a month, which I actually recommend people do, at least for a month or two, just to try, if you're paying that amount, you actually couldn't use OpenClaw or Hermes.
+
+[20:01] You had to use your API tokens. You'd be paying extra. Now that's starting to change. OpenAI especially has been very much more relaxed about letting you log in to use these harnesses just with your normal codex subscription. And we'll talk about that in a moment.
+
+[20:18] Cool. All right, let's keep moving. So what is the agent village? The agent village is a village where everyone has an agent. As far as we've seen in our research, there have not been many experiments that have combined actual humans and real agents related to those humans in one context.
+
+[20:40] There have been a lot of experiments having agents set up their own physical stores, like some incredible work from Undone Labs. There have been a lot of simulated environments where agents and different models are given certain goals and we see how they interact.
+
+[20:56] These are all incredible, incredible experiments, very interesting work. But I think that with the speed that everything is moving, we're about to get hit with just like an absolute tidal wave of variety of agents and models, etc. And they will kind of quickly intersperse throughout society.
+
+[21:18] And it's important to be running experiments as fast as we can to actually see what's going to happen. And so that's kind of the original motivation here. So another diagram here, kind of similar to the last one, but essentially just to give you a sense of what's happening at the village level, there is you, there is your agent, there is the shared village layer, which we'll talk about in a second, and then there's everyone else as well.
+
+[21:41] And we're all kind of feeding into the same village layer. That village layer is a mix of skills, which we talked about, what those are. It's going to have kind of a community graph, which is essentially the equivalent of a memory. And it's going to have access to things that actually make the event more navigable.
+
+[21:58] For example, being able to RSVP to events, having the attendee directory, etc. This is interesting in a couple of ways. So we have a shared context as a community and a village. That's really cool. We will be able to hopefully make connections between you and other people, or you and other projects, or various things that will be super valuable.
+
+[22:25] And we're really early in this, and it's just fun to be doing something really early. As long as no one gets hacked. So please be careful. And just to be specific there, I mean, don't give any credit card details. Don't give any API keys. Don't give any secure stuff to your agent.
+
+[22:45] Use your discretion. So how's the month going to go? We're in week one right now. We're going to use week one to set people up and get people onboarded. You'll be able to ask questions from the beginning, like what sessions are happening today, etc.
+
+[23:01] And then as the month builds, over the week two, we'll go a bit deeper into what are the actual building blocks. So next week you'll hear from Index Network. You'll hear from the Geo team. You'll hear from Cooper with Instaclaw. We'll actually have sessions for each of those builders to go deeper into what they're creating.
+
+[23:21] And then in weeks three and four, I think that's by then hopefully things will be robust enough. There'll be enough people in the pool. There'll be lots of intents flying around. And then that's when we'll start to do some more interesting things of, you know, can we surface a shared treasury to the community and see what you guys decide to do with it through your agents and things like that.
+
+[23:40] So call governance and things like that coming in weeks two and three. Just briefly, what's actually happening? I think this is the last chart I'll show you. But basically what's going on is you have, again, you at the top, the most important part.
+
+[23:56] And then we have Hermes or OpenClaw. OpenClaw will come probably by next week. But essentially relatively similar agent harnesses. On the Hermes side, Hermes is talking to something called OpenRouter. OpenRouter is a way to provision AI models, really inference, really simply.
+
+[24:18] So when you send a request to your agent, it will hit the OpenRouter system. OpenRouter will run the inference on whichever model you choose. You can choose from hundreds of models. And then it will kind of go back to you. Just to show you so far, these are the stats.
+
+[24:38] So we've spent, we've, you know, used 300 million tokens as a community so far. We've only spent $126, so we need to get those numbers up. But this will be a really cool artifact that we can see. I don't know if we can, but it would be cool to put it up on the screen.
+
+[24:54] And we can see over the month each day, like how many tokens are we using as a community and what models are people choosing. And yeah, so I think that's going to be really cool. And then each agent can access the skills that I mentioned. So Edge OS is our ticketing calendar platform.
+
+[25:13] So you'll be able to ask questions about the calendar. You'll be able to RSVP to certain events, et cetera. We may, later on, we may give people the ability through the API to create events. We're a little bit worried about that because that feels like opening a bit of a Pandora's box.
+
+[25:32] But that, you know, if we all behave, we can get that fun, cool feature. Then we have Geo, which I will touch on in a second. And then Index as well, which I will touch on in a second as well. Okay, great. Again, I need to do this multiple times.
+
+[25:51] Privacy and security. Please do not tell the agent any deep personal secrets. We're running kind of like a Web 2 setup where you kind of have to trust us as organizers. If something goes deeply wrong, we do have the ability to go in and debug, which means we may be able to see the messages that you've sent to your agent.
+
+[26:11] So please don't tell it anything crazy private. Don't give it your credit card details. That's also bad practice because, again, the inference is running on open route to servers. They have a pretty robust privacy policy. That's on their website.
+
+[26:23] But, again, you know, research experiment, so, you know, don't, please don't, like, ruin anything for yourself. Okay. We are going to get $25 of credit. It's actually a lot of inference that you can run for that. It's also a cool experiment to give you a sense of how much you can get from that if you just run it at API cost.
+
+[26:49] You can choose how you spend that. If you choose the frontier latest model, Opus 4.8 at maximum thinking mode, you'll probably get four messages back and forth. It's going to think really hard about what you ask it, and it's going to give you a banging answer, and then you'll have to switch to a free model.
+
+[27:09] We default run Gemini 3.1 Flash or 3 Flash. It's a really good model. It's fast. It's, yeah, just super solid. You can choose what you prefer, and I'll show you how in a moment, but that's kind of where we're at. This number, by the way, 25, will increase.
+
+[27:28] I think we're actually just going to default increase it to 50, and that's thanks to a couple of institutions. So, Cosmos Institute in particular are a core partner on this, and Foresight Institute as well. So, they have essentially given us a grant to cover the API cost, so please use it and use it for kind of interesting purposes that we can all learn from because the research that we create here will go out into the world, and people will read it, and they will find it interesting, most likely.
+
+[27:58] And so, we should, you know, really take advantage of that. So, you can also, I'm just going to show you now, actually. So, later on when you all set up your agents, okay, this is really hard to see, but this is the Hermes agent setup. I'm trying to find a lighter, no, they only have dark mode.
+
+[28:20] Okay, that's very Hermes. Basically, what you will eventually see in your Hermes dashboard is that you can choose your model, and there are tons, pretty much any model on Open Router is possible, which is like every model. And then you can also log in with your codex subscription, and then you can run, you know, GPT 5.5 if you want to, if you have a chat GPT subscription, you're all good there.
+
+[28:51] Quick word about Geo. So, Geo, we've been working with the team to create a village shared brain, like a knowledge graph. Super cool product. This is something that will go live, kind of, it's live, but it will kind of continue to grow over the next few days, and especially by next week.
+
+[29:10] I'll just show you why I think this is really cool. So, what you're going to be able to do with Geo is for every talk that's happening, the speaker will be able to kind of continue the conversation of what they were discussing with people in the audience by using this as kind of a shared knowledge base.
+
+[29:30] So, for example, this is the talk we're currently having now. We're going to make it so that Geo is linked in every calendar talk, and this is going to be a really cool place where you can write comments. You can actually record the transcript of the talk using Granola, Notion Recorder, Whisperflow, whatever you want, and paste it in.
+
+[29:51] Please, if the speaker says, don't do that, please do not do that. We need to treat privacy seriously. But maybe one person in each talk can kind of allocate themselves as like, okay, I'm going to do this. I'm going to ask the speaker. They will say yes.
+
+[30:05] Great. And then you can put in the transcript, and what that's going to do is that's going to feed the entire community knowledge graph. So, someone asked earlier today, I think it was Chase, is it possible to have kind of a library or directory of all of the information that's been discussed here?
+
+[30:21] Absolutely. It's called Geo, and it's going to be, I think, a really cool artifact at the end of this month. Your agents can also ping Geo, and your agents can ask Geo, you know, what was discussed yesterday? What ideas have come out of the last week?
+
+[30:39] That kind of thing. And so, as Geo gets populated with information, it's going to be doing all kinds of interesting kind of semantic links between ideas and things, kind of like the obsidian graph you saw earlier, but right now it's very early.
+
+[30:52] So, how are certain people linked to certain ideas, linked to certain talks, linked to certain events, et cetera? And that's just going to be such a cool thing to traverse over time. And again, your agent understands this intimately, and you can ask it questions about, you know, what's going on there.
+
+[31:10] So, yeah, that's that. I touched on Cosmos and Foresight, just to touch on, like, who's actually building this. So, Index Network, Seref, Saran, and their teammate, Yannick, who's in Turkey currently. They've been incredibly helpful, just amazing builders.
+
+[31:28] You can find them. Can you guys raise your hands? Oh, they're right there. Yeah, amazing. So, well, actually, maybe I shouldn't say this, but if you have a bug, find Seref. No. No, you can find me first. We'll talk about how to, like, you know, surface bugs and things soon.
+
+[31:46] Geo team I mentioned. Thule and the EdgeOS team, they are amazing tech collaborators. They've been working on the calendar and the ticketing, et cetera. We have, obviously, Hermes. We've been able to build on the kind of the baseline of everything they've created, which has just been amazing.
+
+[32:03] That's by a company called Noose Research. And then coming next week, we'll have Instaclaw and OpenClaw. All right. Let's get this set up. Enough talking. All right. Briefly, any questions on part two? No. Great. So, we are going to do this live, and I am going to kind of run us through this.
+
+[32:26] If things break, that's great. We will learn. But to get started, you can go either to this URL. So, it's agent-ee26.edgecity.live. It's also in the Telegram group. I'll just send the URL again in the Telegram group, in the big one, in the AI and Agents channel.
+
+[33:05] And then I'll also share the invite code to the hub where we are discussing the experiment. If you're interested in really, just in general, I would recommend joining this group, because we'll be sharing a lot more of the bugs and the discussions and what's actually going on.
+
+[33:41] So, what I'm going to do is I'm actually going to do this live with you. And to do that, I'm going to log out. So, okay. Is everyone at the front page? Good? Awesome. So, what we're going to do is you're going to scroll down to the first section, which says how to set up your agent.
+
+[33:59] There is a step one, log in to the agent village. You're going to use your email that you have bought your ticket with. And if you put that in and hit send code, you should receive a one-time code to your email. If you're doing it on your phone, it should work, but it might just be a little bit more fiddly.
+
+[34:28] I'm going to give like 20 more seconds. While people are doing that, I will just also draw your attention to the area on the right. If you are a bit more technical, if you are comfortable with everything here and you're just like, I just want to talk to my own agent and give it the skills it needs.
+
+[35:02] Once you've logged in, what's happened here on the right is that there is a kind of a text that you can copy, a snippet. And you can put that into a fresh folder in your own agent, for example, Claude Code. And it will tell it, hey, this is a setup.
+
+[35:20] This is what we're trying to do. And it's already got your API keys, your personal keys for EdgeOS and for Index kind of booted up in there. So, it will give you access to everything. And your agent should be smart enough to know what it's doing.
+
+[35:36] So, the bring your own agent flow is a little bit less, you know, structured. So, there might be issues, but you should be smart enough to figure it out. Okay. I'm going to assume that everyone has completed their login. So, the next thing that you need to do, I'm just resetting my agent, so I'll be at the same area as all of you,
+
+[36:07] is we're going to link our agent with a bot in Telegram. This is quite easy. It seems maybe a bit complicated. But you're going to go to Telegram and you're going to open something called Botfather. You can just search Botfather and go to your chat with the Botfather.
+
+[36:25] And then you're going to hit Open. It's going to open a little screen like that. That's how it should look. Then you should see a button that says Create a New Bot. You'll have to pick an awesome name for your bot, but for now you can just do Hermes dash your name or something cute.
+
+[36:54] I think someone has one called Pebble, which I think is cool, Edgy, Esme, names like that. And then in the actual username for your bot, you'll have to pick a unique title for it, and the title will have to end with the word bot, so B-O-T at the end.
+
+[37:16] So, just pick your name for the bot, maybe your own name, and then B-O-T at the end. If you have trouble, by the way, you can ask Sheriff at the kitchen. Okay. Hopefully, you've all thought of a great name. You're going to make your bot. Can I just get a quick show of hands who's running through this?
+
+[37:41] You're at this stage. Yeah? Okay, good. Then you're going to copy the key for your bot, and then you're going to go back to the website, and you're going to put the token into where it says Botfather token and hit Claim My Agent. And it's going to take about 60 to 120 seconds to wake your agent up.
+
+[38:13] Can't tell if I'm going too fast or too slow. Where are you guys at? Good speed? Good speed? Good speed? Okay, good. So, what's happening right now is we are creating a new container for you in Railway, which is a hosting service, and that's just going to be where your agent lives.
+
+[38:35] It's separate from everything. It does not have access to your email. It does not have access to your computer. It's in a virtual machine, and that's kind of a security design decision. Some people are creating agents on their Mac minis or creating or, like, taking old computers and using them, but in general, we don't advise that, or we don't advise using your actual machine, and I imagine not many of you have old computers lying around right now.
+
+[39:14] This is kind of the moment of truth, by the way. We've arrived. We've arrived at the moment of truth. Yes, so the Telegram chat, and this is a note that's in the pinned, read this first. The Telegram chat is being put into kind of a shared knowledge base.
+
+[39:36] Yeah. So, again, don't give your credit card details in the Telegram chat, in the big one. You probably shouldn't be doing anything super private in Telegram anyway. That information lives on servers in Russia where anyone can read it, or anyone motivated enough can read it, so it's just general Telegram.
+
+[40:01] As soon as someone creates a better version, by the way, we will switch. We have committed. Okay, my agent's still going. It's taking a while. Okay, maybe the moment of truth will not come through. Yeah, you can make a Hermes now and switch to Instaclore later, yeah.
+
+[40:41] Okay, we may have overloaded the... There's too many people at once. We have DDoSed the railway. Sheriff, do you think it's good to log out and log back in, or just refresh, or just wait? Just wait? All right, we're just waiting. Meanwhile, I'll show you what you can do with it when it actually works.
+
+[41:07] So, I can't zoom in here, but I'll just tell you what's happening. So, this is my Hermes. I set it up about 10 minutes before this presentation just to check that everything worked. It sounds like an onboarding message, which you'll go through, but a couple of things that you'll be able to do with it.
+
+[41:30] So, I asked, what should I check out this week if I'm into AI? And it said, since you're into AI, this week is a great warm-up for the dedicated AI week of week two, which is next week. Perfect. Got that right. It gave me three sessions this session, which, you know, makes sense.
+
+[41:46] Also, there is one tomorrow at noon called Mapping the Mind, AI, EEG, and the Jhana States, which actually sounds really cool. And then there's the biological advantage, why biological intelligence matters in a world of AI, and that will be Jonathan Nomely again at the Loft on Friday.
+
+[42:06] And then I asked it, I said, oh, that's cool. I thought, oh, that's cool. And then I asked it, RSVP me to the Jhana States talk. So, it said, you're all set. Let's just check whether that's true. I'll go to my calendar and just see if it actually RSVP'd me.
+
+[42:24] It did. That's awesome. All right. So, I'm going on the calendar and the real test. Is it on my actual calendar? It is. That's awesome. Okay, cool. So, basically, say again. Yeah, exactly. Yeah, yeah. We'll see what wins. No, this one, I think this one's going to be the one I go to.
+
+[42:57] So, that's kind of a simple example of an agentic loop where you basically say, hey, I'm into this topic. What do you think I should do? RSVP me. And then it shows up on my calendar and I don't have to wade through Telegram or the calendar or, you know, et cetera.
+
+[43:13] So, that's the kind of thing that we're trying to aim for in week one, just like those basic, basic questions. Provisioning failed. Contact me. Great. I will do that. I will email myself. Let me try and reset. If you get that note, you can email me or you can reset.
+
+[43:45] Okay. So, we're going back to Botfather. Yeah, that's fine. You can delete your agent. There's nothing too crazy there. Maybe we need to do it like row by row. Okay. Like row one, go. Row two, go. Yes. Yeah. The token, the Bot token, Botfather token can stay the same because that's just going to be your agent's token.
+
+[44:19] If you really want to do a completely fresh reset, you can just start a new one. What else have we got here? So, I'll just go through what the dashboard will look like when you're all set up. It may have to happen in an hour or two just so we can figure out the railway hosting.
+
+[44:52] Once you have figured out your agent, you will be able to access this Hermes dashboard. It's very beautiful. You can't see it on the screen so well, but you'll enjoy clicking around. In that, you'll be able to see the various sessions that you've had with your agent.
+
+[45:10] You'll be able to see some analytics. You'll be able to choose the model that you're using, like I mentioned. So, I default to one of the Gemini models because it's quite a good, it's kind of at the Pareto frontier of usability, quality, and cost.
+
+[45:33] And then you'll be able to see logs, which will be good for debugging. You'll be able to set what's called cron jobs, which are kind of the daily morning or evening messages that your agent sends you. We will develop these over time. So, they will come by default.
+
+[45:51] They will be paused for now, and then we will turn them on when we're really happy with the level of quality and durability there. And then you'll be able to receive like a morning briefing. Hey, here are the events coming up later today that you might enjoy, et cetera, et cetera.
+
+[46:10] We have cool plug-ins. We also, by the way, have skills. So, when your agent gets ramped up, you'll be able to see a ton of skills that Hermes comes with. You'll be able to play around with those. And then over time, we probably will be able to create skills for each other, meaning you'll be able to like think of something really cool that people can do and then put it as a skill.
+
+[46:34] And then people can integrate it into their agent. And then the config areas where you'll be able to log in with your ChatGPT subscription as well. And keys, oh, sorry, it might be keys. Keys is the place to do that. And you'll be able to, you'll also be able to add your like normal API keys if you want, if you happen to have a ton of credits or a ton of money to spend.
+
+[46:59] And so, once you're set up, there'll be a link right here that says go to dashboard. Any questions while we are waiting and hoping for Railway to? Okay.
+
+[47:39] Okay. Yeah, it says Railway GraphQL problem processing request. Okay. Too many people at once. All right. Well, you know, it happens. It happens. It wasn't going to be perfect. Then let's do this. We will just give you the instruction to at some point in the next 10 hours, go back to this website and set up your agent.
+
+[48:06] It should work. And then you'll be able to do all the cool stuff that I mentioned. We can also keep the discussion going in this Agent Village Hub group chat. So, what I've done is I don't want to inundate the main Telegram group chat, a Jesmerelda one, with a ton of bug reports and things like that.
+
+[48:29] So, we have a separate subgroup. You can always see the subgroups in the big chat, the subgroups list that's pinned. I just realized I don't actually have it in there, but you will in a sec. And then you can join that group, and that's also where we can communicate to people, like, hey, now's a good time to try joining again.
+
+[48:52] Let's pick a good emoji for an agent. Robot? No, it's too cliche. Handshake. Raised hands. That's good. Okay. Cool. So, yeah, that link is in the subgroups list now, and you can join that group chat, and we will get you onboarded.
+
+[49:31] I'm just going to try again just to mess with it a bit. All right. Any questions? Yeah. What I would say is if you have your own agent, you can do this option on the right where you can, if it's like in code code, codex, or whatever, you can pretty much copy this snippet, and you can give it a ton of context on how to use the skills.
+
+[50:13] And, yeah, so that's what I would recommend, to do the bring-your-own-agent setup. Wait, who's talking? Why can I not see? Oh, back there. Yeah, yeah. Hey. Give me one sec. Huh. Man, Telegram has some really weird bugs when it comes to, yep, yeah, that's why.
+
+[50:53] Thank you. There we go. Invite. Perfect. Thank you for flagging that. Test it. Yep. Great.
+
+[51:27] That works. Oceane had a question about highlights. Yeah, so anything that's backward-facing, anything that relates to Geo, we are working on right now. For now, you can ask it things about, you know, things upcoming. But with Geo, we're literally shipping pull requests, like, at the moment.
+
+[51:57] So that's something that will come online over the next few days. Oceane, if you can hear me, that's why. Oh, perfect. Yeah. So, yeah, that's a really good, like, kind of architectural thing to understand.
+
+[52:35] When you ask your question, it first decides which skill does it need to use to answer that question. When you ask a question like, what have the highlights been so far? It thinks, oh, that's probably something related to knowledge graph. Let me ask Geo, let me ask Geo in this case.
+
+[52:50] And then, based on that, it thinks, okay, I should look at, you know, the information in there. One thing that will kind of patch together as a community is for questions like that, when it's something really specific, like highlights, you'll be able to say, hey, I found this thing.
+
+[53:07] When I ask this very specific thing, it uses this skill, but it should actually be this skill intuitively. Here's a pull request to fix that. The skills are all public, so you can kind of debug why it's happening. Yeah, go for it. Oh, cool.
+
+[53:27] Thank you, Salah. Hello. Hey. So, it's ingesting Telegram and all that, and hopefully ingesting transcripts and everything. All that's wonderful. How does it prioritize what, like, how does it determine what is high signal versus what isn't?
+
+[53:41] You know, like, if it's all of our Telegram messages, we have a total mishmash from simple coordination stuff to, I mean, obviously, it's an LLM. It has.

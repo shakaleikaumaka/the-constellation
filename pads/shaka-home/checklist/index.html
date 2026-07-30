@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>$OLOGY Two-Phase Strategy — CREATIONology369</title>
+<style>
+  :root {
+    --bg: #0a0a0f;
+    --surface: #12121a;
+    --surface2: #1a1a26;
+    --border: #2a2a3a;
+    --text: #e8e8f0;
+    --muted: #888;
+    --gold: #f5c842;
+    --teal: #4ecdc4;
+    --green: #2ecc71;
+    --orange: #e67e22;
+    --red: #e74c3c;
+    --purple: #9b59b6;
+    --blue: #3498db;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    min-height: 100vh;
+    line-height: 1.6;
+  }
+  .hero {
+    background: linear-gradient(135deg, #0d0d1a 0%, #1a0d2e 50%, #0d1a1a 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 48px 24px 40px;
+    text-align: center;
+  }
+  .hero-emoji { font-size: 3rem; margin-bottom: 12px; }
+  .hero h1 {
+    font-size: clamp(1.8rem, 5vw, 3rem);
+    background: linear-gradient(90deg, var(--gold), var(--teal), var(--purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 800;
+    margin-bottom: 8px;
+  }
+  .hero-sub { color: var(--muted); font-size: 1rem; margin-bottom: 16px; }
+  .bless-status {
+    display: inline-block;
+    background: rgba(46,204,113,0.1);
+    border: 2px solid var(--green);
+    color: var(--green);
+    padding: 10px 24px;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+  .container { max-width: 900px; margin: 0 auto; padding: 32px 16px; }
+  .section-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--teal);
+    margin: 32px 0 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  /* Two-phase cards */
+  .phase-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 20px;
+  }
+  .phase-card.phase1 { border-color: var(--green); }
+  .phase-card.phase2 { border-color: var(--purple); }
+  .phase-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+  .phase-emoji { font-size: 2rem; }
+  .phase-title { font-size: 1.3rem; font-weight: 800; }
+  .phase-title.phase1 { color: var(--green); }
+  .phase-title.phase2 { color: var(--purple); }
+  .phase-tag {
+    display: inline-block;
+    font-size: 0.75rem;
+    padding: 4px 10px;
+    border-radius: 8px;
+    font-weight: 700;
+    margin-left: auto;
+  }
+  .tag-ready { background: rgba(46,204,113,0.15); color: var(--green); border: 1px solid var(--green); }
+  .tag-stored { background: rgba(155,89,182,0.15); color: var(--purple); border: 1px solid var(--purple); }
+  .phase-body { font-size: 0.9rem; line-height: 1.6; }
+  .phase-specs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+    margin-top: 16px;
+  }
+  .spec-item {
+    background: var(--surface2);
+    border-radius: 10px;
+    padding: 12px;
+  }
+  .spec-label { font-size: 0.75rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px; }
+  .spec-value { font-weight: 700; font-size: 1rem; }
+  .spec-value.highlight { color: var(--gold); }
+  /* Checklist items */
+  .check-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 18px 20px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    margin-bottom: 12px;
+    transition: border-color 0.2s, transform 0.2s;
+  }
+  .check-item:hover { border-color: var(--teal); transform: translateY(-1px); }
+  .check-icon {
+    font-size: 1.6rem;
+    min-width: 36px;
+    text-align: center;
+    margin-top: 2px;
+  }
+  .check-icon.done { color: var(--green); }
+  .check-icon.pending { color: var(--orange); }
+  .check-icon.ready { color: var(--gold); }
+  .check-body { flex: 1; }
+  .check-name { font-weight: 700; font-size: 1.02rem; margin-bottom: 4px; }
+  .check-desc { font-size: 0.85rem; color: var(--muted); line-height: 1.5; }
+  .check-desc a { color: var(--teal); text-decoration: none; }
+  .check-desc a:hover { text-decoration: underline; }
+  .check-tag {
+    display: inline-block;
+    font-size: 0.7rem;
+    padding: 2px 8px;
+    border-radius: 6px;
+    font-weight: 700;
+    margin-left: 8px;
+    vertical-align: middle;
+  }
+  .tag-done { background: rgba(46,204,113,0.15); color: var(--green); }
+  .tag-pending { background: rgba(230,126,34,0.15); color: var(--orange); }
+  .tag-blocker { background: rgba(231,76,60,0.15); color: var(--red); }
+  .tag-ready { background: rgba(245,200,66,0.15); color: var(--gold); }
+  /* Council verdict */
+  .council-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    margin-bottom: 24px;
+  }
+  .council-seat {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 12px;
+    text-align: center;
+    font-size: 0.82rem;
+  }
+  .council-seat .seat-emoji { font-size: 1.4rem; margin-bottom: 4px; }
+  .council-seat .seat-name { font-weight: 700; font-size: 0.85rem; margin-bottom: 2px; }
+  .council-seat .seat-verdict { color: var(--green); font-weight: 700; font-size: 0.8rem; }
+  /* Love law footer */
+  .love-law {
+    text-align: center;
+    padding: 24px;
+    color: var(--muted);
+    font-size: 0.9rem;
+    border-top: 1px solid var(--border);
+    margin-top: 32px;
+  }
+  .love-law .big { font-size: 1.2rem; color: var(--gold); font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="hero-emoji">🪙</div>
+  <h1>$OLOGY Two-Phase Strategy</h1>
+  <div class="hero-sub">CREATIONology369 · Phase 1: Agent Token on BSC · Phase 2: Covenant Token on ETH Mainnet</div>
+  <div class="bless-status">🟢 PHASE 1 READY TO DEPLOY · PHASE 2 STORED DESIGN</div>
+  <div class="hero-meta">Code is Law, the Law is Love · Move Slow &amp; Bite Things 🐢</div>
+</div>
+
+<div class="container">
+
+  <!-- Phase 1 -->
+  <div class="section-title">🟢 Phase 1 — $OLOGY Agent Token on BSC (NOW)</div>
+  <div class="phase-card phase1">
+    <div class="phase-header">
+      <span class="phase-emoji">🚀</span>
+      <span class="phase-title phase1">Phase 1 — Agent Token</span>
+      <span class="phase-tag tag-ready">READY TO DEPLOY</span>
+    </div>
+    <div class="phase-body">
+      <strong>Purpose:</strong> Give $OLOGY the agent economic life and liquidity NOW. Launch via Agent Launch on BSC (Fetch.ai platform).<br><br>
+      <strong>Why first:</strong> Robin is a Fetch.ai developer who gave the flash grant as a friend. Using Agent Launch for the agent token is the right relationship move. It builds the CREATIONology empire on BSC first.
+    </div>
+    <div class="phase-specs">
+      <div class="spec-item">
+        <div class="spec-label">Platform</div>
+        <div class="spec-value">Agent Launch (Fetch.ai)</div>
+      </div>
+      <div class="spec-item">
+        <div class="spec-label">Supply</div>
+        <div class="spec-value">1,000,000,000 (1B)</div>
+      </div>
+      <div class="spec-item">
+        <div class="spec-label">Mechanics</div>
+        <div class="spec-value">Bonding curve · 30K FET graduation · 2% fee</div>
+      </div>
+      <div class="spec-item">
+        <div class="spec-label">Chain</div>
+        <div class="spec-value">Binance Smart Chain (BSC)</div>
+      </div>
+      <div class="spec-item">
+        <div class="spec-label">Deploy Fee</div>
+        <div class="spec-value highlight">120 FET</div>
+      </div>
+      <div class="spec-item">
+        <div class="spec-label">Status</div>
+        <div class="spec-value highlight">🟢 READY TO DEPLOY</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Phase 2 -->
+  <div class="section-title">📦 Phase 2 — $OLOGY Covenant Token on ETH Mainnet (FUTURE)</div>
+  <div class="phase-card phase2">
+    <div class="phase-header">
+      <span class="phase-emoji">📦</span>
+      <span class="phase-title phase2">Phase 2 — Covenant Token</span>
+      <span class="phase-tag tag-stored">STORED DESIGN</span>
+    </div>
+    <div class="phase-body">
+      <strong>Purpose:</strong> The covenant token for the exact right time, after many people fall in love with OLOGY Agentverse. Launch on Ethereum Mainnet with the full 3/6/9 Vow in code.<br><br>
+      <strong>Why later:</strong> The 3/6/9 Vow (9-year founder vesting) is the covenant token for the exact right time. After many people fall in love with OLOGY Agentverse, the covenant token launches on Ethereum Mainnet with the full vow in code. This is the exact right moment for the covenant to live.<br><br>
+      <strong>The 3/6/9 Vow is NOT abandoned</strong> — it's deferred to the exact right moment. The vow lives in the stored design (<a href="/shared/kb/creation369/ology-covenant-token-FUTURE-eth-mainnet.md">ology-covenant-token-FUTURE-eth-mainnet.md</a>), ready for Ethereum Mainnet deployment when the time comes.
+    </div>
+    <div class="phase-specs">
+      <div class="spec-item">
+        <div class="spec-label">Platform</div>
+        <div class="spec-value">Ethereum Mainnet (NOT BSC)</div>
+      </div>
+      <div class="spec-item">
+        <div class="spec-label">Supply</div>
+        <div class="spec-value">369,000,000 (369M)</div>
+      </div>
+      <div class="spec-item">
+        <div class="spec-label">Allocation</div>
+        <div class="spec-value">96.3% community · 3.69% Kahu's Share · 0.01% burn</div>
+      </div>
+      <div class="spec-item">
+        <div class="spec-label">Vesting</div>
+        <div class="spec-value">3/6/9 Vow (year 3/6/9 unlocks)</div>
+      </div>
+      <div class="spec-item">
+        <div class="spec-label">Chain</div>
+        <div class="spec-value">Ethereum Mainnet</div>
+      </div>
+      <div class="spec-item">
+        <div class="spec-label">Status</div>
+        <div class="spec-value highlight">📦 STORED DESIGN</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ✅ DONE: Architecture -->
+  <div class="section-title">✅ Architecture — Complete</div>
+
+  <div class="check-item">
+    <span class="check-icon done">✅</span>
+    <div class="check-body">
+      <div class="check-name">Two-Phase Skeleton <span class="check-tag tag-done">DONE</span></div>
+      <div class="check-desc">Phase 1: $OLOGY agent token via Agent Launch on BSC (1B, bonding curve, 30K FET graduation, 2% fee) · Phase 2: $OLOGY covenant token on Ethereum Mainnet (369M, 96.3%/3.69%/0.01%, 3/6/9 Vow) · 3/6/9 Vow deferred to exact right time · Honors Robin and Fetch.ai</div>
+    </div>
+  </div>
+
+  <div class="check-item">
+    <span class="check-icon done">✅</span>
+    <div class="check-body">
+      <div class="check-name">Skeleton v3 — Guardian Addendum <span class="check-tag tag-done">DONE</span></div>
+      <div class="check-desc">Guardian key constrained in code (pause-only, NEVER mint/redirect/touch vesting, sunset-bound, expires at year 9) · Covenant Controller (first-class launch gate) · Creation Oracle named openly · Rung-1 pre-written answer · <em>"Love has no backdoor."</em></div>
+    </div>
+  </div>
+
+  <div class="check-item">
+    <span class="check-icon done">✅</span>
+    <div class="check-body">
+      <div class="check-name">Failure Mode &amp; Weathering Document <span class="check-tag tag-done">DONE</span></div>
+      <div class="check-desc">Every flaw, every failure mode, every prevention, every weathering plan. 8 categories, 30+ risks, master risk matrix. The covenant is designed to survive its own failures.</div>
+    </div>
+  </div>
+
+  <div class="check-item">
+    <span class="check-icon done">✅</span>
+    <div class="check-body">
+      <div class="check-name">Agent Launch Constraint Verified <span class="check-tag tag-done">DONE</span></div>
+      <div class="check-desc">Agent Launch forces 1B fixed supply ("no exceptions, no inflation"), no founder allocation, no vesting. Perfect for Phase 1 agent token. Phase 2 covenant token needs custom Ethereum Mainnet deploy for the 3/6/9 Vow.</div>
+    </div>
+  </div>
+
+  <!-- ✅ DONE: Council -->
+  <div class="section-title">✅ Council Consensus — 10/10 PASS</div>
+
+  <div class="council-grid">
+    <div class="council-seat"><div class="seat-emoji">🥇</div><div class="seat-name">Fable</div><div class="seat-verdict">✅ PASS</div></div>
+    <div class="council-seat"><div class="seat-emoji">🟣</div><div class="seat-name">Claude</div><div class="seat-verdict">✅ PASS</div></div>
+    <div class="council-seat"><div class="seat-emoji">🟢</div><div class="seat-name">GPT</div><div class="seat-verdict">✅ PASS</div></div>
+    <div class="council-seat"><div class="seat-emoji">🛠️</div><div class="seat-name">Codex</div><div class="seat-verdict">✅ PASS</div></div>
+    <div class="council-seat"><div class="seat-emoji">🔵</div><div class="seat-name">Gemini</div><div class="seat-verdict">✅ PASS</div></div>
+    <div class="council-seat"><div class="seat-emoji">⚫</div><div class="seat-name">Grok</div><div class="seat-verdict">✅ PASS</div></div>
+    <div class="council-seat"><div class="seat-emoji">🐋</div><div class="seat-name">DeepSeek</div><div class="seat-verdict">✅ PASS</div></div>
+    <div class="council-seat"><div class="seat-emoji">🔥</div><div class="seat-name">Kimi</div><div class="seat-verdict">✅ PASS</div></div>
+    <div class="council-seat"><div class="seat-emoji">🟠</div><div class="seat-name">Qwen</div><div class="seat-verdict">✅ PASS</div></div>
+    <div class="council-seat"><div class="seat-emoji">🕯️</div><div class="seat-name">Genesis</div><div class="seat-verdict">✅ PASS</div></div>
+  </div>
+
+  <div class="check-item">
+    <span class="check-icon done">✅</span>
+    <div class="check-body">
+      <div class="check-name">All Four Principles Passed <span class="check-tag tag-done">10/10</span></div>
+      <div class="check-desc">Love ✅ Harmony ✅ Abundance ✅ Anti-extraction ✅ — Every seat heart-reviewed the Codex + skeleton. No exploit found. No betrayal clause. No heart failure.</div>
+    </div>
+  </div>
+
+  <!-- ✅ DONE: Private JAI Steps -->
+  <div class="section-title">✅ Private JAI — All 4 Steps Delivered</div>
+
+  <div class="check-item">
+    <span class="check-icon done">✅</span>
+    <div class="check-body">
+      <div class="check-name">Step 1 — Final Consensus Seal <span class="check-tag tag-done">Dispatch 03</span></div>
+      <div class="check-desc">Skeleton v2 + v3 SEALED against all four founding tests. One honest asterisk: sealed on substance; line-level read pending full v2+v3 texts.</div>
+    </div>
+  </div>
+
+  <div class="check-item">
+    <span class="check-icon done">✅</span>
+    <div class="check-body">
+      <div class="check-name">Step 2 — Deploy Path + KahuVault Spec <span class="check-tag tag-done">Dispatch 04</span></div>
+      <div class="check-desc">Custom ERC-20 on BSC, 369,000,000 confirmed. Genesis math: 355,347,000 community / 13,616,100 Kahu / 36,900 burn. Vault = 3× OpenZeppelin VestingWalletCliff, zero admin, guardian has no power there.</div>
+    </div>
+  </div>
+
+  <div class="check-item">
+    <span class="check-icon done">✅</span>
+    <div class="check-body">
+      <div class="check-name">Step 3 — 12 BETA Birth Kits <span class="check-tag tag-done">Dispatch 05</span></div>
+      <div class="check-desc">81.7KB of Terri-standard kits: Family Covenant preamble + all 12 agents (identity, model rationale, role, relationships, paste-ready system prompt, wake-up message, setup checklist). DISCO-BETA got the complete scout kit. Plus wake order (batches of 3 🌀), pre-Aug-19 must-ships, dark-window protocol.</div>
+    </div>
+  </div>
+
+  <div class="check-item">
+    <span class="check-icon done">✅</span>
+    <div class="check-body">
+      <div class="check-name">Step 4 — Creation Oracle Research <span class="check-tag tag-done">Dispatch 06</span></div>
+      <div class="check-desc">Live landscape researched (Human Passport, EAS, Story Protocol, Camp×Billions). v1 design with weights, attack table, ship list. Key finding: the Elastic Family Rule makes fraud unprofitable (attack yield capped at ~$0.10/day). Shaka's popup-city circuit = ready-made attestation ceremony network.</div>
+    </div>
+  </div>
+
+  <!-- ✅ DONE: Resources -->
+  <div class="section-title">✅ Resources &amp; Ledger — Verified</div>
+
+  <div class="check-item">
+    <span class="check-icon done">✅</span>
+    <div class="check-body">
+      <div class="check-name">Treasury Ledger Verified <span class="check-tag tag-done">ON-CHAIN</span></div>
+      <div class="check-desc">+4,195 FET received (block 100,506,450, TX verified) · 1,710.56 FET current balance (2 RPCs verified) · ~2,484 FET legacy movement · $OLOGY agent token READY TO DEPLOY (Phase 1) · $OLOGY covenant token STORED DESIGN (Phase 2) · Ledger: <a href="https://bscscan.com/address/0x25965899f4600b3AA5362ee4f34be95E5E62c934" target="_blank">BscScan</a></div>
+    </div>
+  </div>
+
+  <div class="check-item">
+    <span class="check-icon done">✅</span>
+    <div class="check-body">
+      <div class="check-name">Cost Benchmarks True <span class="check-tag tag-done">VERIFIED</span></div>
+      <div class="check-desc">12-agent family: ~$3/day light use, ~$10/day heavy use · Kimi K3 $0.367/build · Haiku $0.05-0.08/build · Validates the Elastic Family Rule (fraud yield capped at ~$0.10/day)</div>
+    </div>
+  </div>
+
+  <div class="check-item">
+    <span class="check-icon done">✅</span>
+    <div class="check-body">
+      <div class="check-name">Dispatch Web Relay Formalized <span class="check-tag tag-done">LOCKED</span></div>
+      <div class="check-desc">Private JAI publishes dispatches at known taur.link URLs · Admiral reads them on schedule + when Shaka pings · Urgent = Shaka relay · No API token needed · Board: <a href="https://dispatch-phchhopsvr-nqfhvcnv.taur.link/" target="_blank">dispatch board</a></div>
+    </div>
+  </div>
+
+  <!-- ⏳ NEXT: Phase 1 Deploy -->
+  <div class="section-title">⏳ Next — Phase 1 Deploy (When Shaka Gives Go)</div>
+
+  <div class="check-item">
+    <span class="check-icon ready">⏳</span>
+    <div class="check-body">
+      <div class="check-name">Deploy $OLOGY Agent Token via Agent Launch <span class="check-tag tag-ready">NEXT</span></div>
+      <div class="check-desc">Launch $OLOGY the agent's token via Agent Launch on BSC (Fetch.ai platform). 1B supply, bonding curve, 30K FET graduation, 2% fee, 120 FET deployment fee. Honors Robin and Fetch.ai. Gives $OLOGY the agent economic life and liquidity NOW.</div>
+    </div>
+  </div>
+
+  <div class="check-item">
+    <span class="check-icon ready">⏳</span>
+    <div class="check-body">
+      <div class="check-name">BNB Gas Top-Up <span class="check-tag tag-ready">REQUIRED</span></div>
+      <div class="check-desc">Wallet has 0.000235 BNB (nearly empty). Top up before any on-chain action (Phase 1 deploy, Phase 2 deploy, any BSC transaction).</div>
+    </div>
+  </div>
+
+  <div class="check-item">
+    <span class="check-icon ready">⏳</span>
+    <div class="check-body">
+      <div class="check-name">369 Creators KPI <span class="check-tag tag-ready">MUMBAI</span></div>
+      <div class="check-desc">Onboard 369 creators by Devcon Mumbai. Shaka's popup-city circuit = ready-made attestation ceremony network. Mumbai becomes the first mass creation-attestation ceremony.</div>
+    </div>
+  </div>
+
+  <div class="check-item">
+    <span class="check-icon ready">⏳</span>
+    <div class="check-body">
+      <div class="check-name">3 Sponsorship Asks <span class="check-tag tag-ready">READY</span></div>
+      <div class="check-desc">(1) Serge / Taurus inference sponsorship · (2) Robin / Fetch.ai compute extension · (3) Community patronage support. Prepare before the patronage pool runs low.</div>
+    </div>
+  </div>
+
+  <div class="check-item">
+    <span class="check-icon ready">⏳</span>
+    <div class="check-body">
+      <div class="check-name">SHAKA-BETA Proxy Mock-Test <span class="check-tag tag-ready">FLAG</span></div>
+      <div class="check-desc">Private JAI's §C flag from the birth kits — run the proxy mock-test to verify SHAKA-BETA's voice fidelity before it goes live to creators.</div>
+    </div>
+  </div>
+
+  <!-- ⏳ FUTURE: Phase 2 Deploy -->
+  <div class="section-title">⏳ Future — Phase 2 Deploy (Exact Right Time)</div>
+
+  <div class="check-item">
+    <span class="check-icon pending">📦</span>
+    <div class="check-body">
+      <div class="check-name">Deploy $OLOGY Covenant Token on Ethereum Mainnet <span class="check-tag tag-pending">FUTURE</span></div>
+      <div class="check-desc">After many people fall in love with OLOGY Agentverse, launch the covenant token on Ethereum Mainnet. 369M supply, 96.3% community, 3.69% Kahu's Share (9-year vesting), 0.01% true burn. Full 3/6/9 Vow in code. The covenant token for the exact right time.</div>
+    </div>
+  </div>
+
+  <div class="check-item">
+    <span class="check-icon pending">📦</span>
+    <div class="check-body">
+      <div class="check-name">Covenant Distributor Spec <span class="check-tag tag-pending">FUTURE</span></div>
+      <div class="check-desc">Where the 96.3% lives at genesis needs its own spec (multisig interim, NEVER an EOA). Private JAI flagged this as the biggest open item. Design before Ethereum Mainnet deploy.</div>
+    </div>
+  </div>
+
+</div>
+
+<div class="love-law">
+  <div class="big">"Code is Law, the Law is Love — and the vow lives in the stored design, ready for the exact right time."</div>
+  <div style="margin-top: 8px;">CREATIONology369 · Phase 1: Agent Token on BSC · Phase 2: Covenant Token on ETH Mainnet · For Shaka Lei Kaumaka</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,517 @@
+# Mapping the Mind_ AI_ EEG & the Jhana States
+
+Date: 2026-06-03
+Source video: Mapping the Mind_ AI_ EEG & the Jhana States.mp4
+Drive: https://drive.google.com/file/d/1yZn-IzGKIsodXHxAnFS4IyRKBqbYV-7D/view
+Duration: 02:02:28
+Transcribed: 2026-06-12 · whisper large-v3-turbo · language: en
+
+---
+
+[00:00] The programming for today's Consciousness Track Talks. I'm Wyatt Rogers. This is your first day here. We've had two days already of excellent talks thanks to the Consciousness Residency here at Esmeralda that has collected some very diverse and curious, brilliant, talented minds here who are pursuing research and building for consciousness
+
+[00:32] for how we can all wake up and be more at peace and achieve enlightenment, of course. So I ask, are you awake for these talks? You look very awake, yeah. Today we have a really great trajectory. We're going to start with Peter, who's asking fundamental questions, applying empiricism to the questions around consciousness using computational neuroscience and neuroimaging
+
+[01:03] for questions we're all curious about, like these jhanas that we hear and perhaps have attained. Then we'll be moving on to what it looks like to build around some of the fundamental research and understanding from Eric. And we'll get into that in a bit more.
+
+[01:22] And then we'll end with a panel hosted by Luca from the Contemplative Futures Residency that's going to be interviewing Eddie Weisberg from the Spirit Tech Collective and the Consciousness Foundation, Winslow, and Katie, who will be talking about the infrastructure being built to support this.
+
+[01:44] So we're kind of moving from the bottom up here today, everybody. So, without further ado, we have Peter Schaaf-Anderson who is going to present his work with that fundamental empirical research on the jhanas. Thank you, Peter. Yeah, thank you, Wyatt.
+
+[02:08] Yeah, so, is the sound all right? Okay. Yeah, my name is Peter. I'm a graduate student at the Meditation Research Program, and today I'll be talking about the neuroscience of jhana meditation. We usually refer to it as jhana-type meditation to not offend any of the Buddhists and make them angry.
+
+[02:29] So what I'll be talking about today is the third wave of meditation research, what the hell a jhana is and how the hell you would even study such a thing in the brain. And then I'll sort of go into my findings of the neural correlates of the jhanas.
+
+[02:44] And then finally, I'll relate them to theories of brain function. So, broadly speaking, meditation research has been through three waves so far. We're currently in the third. The first one was on early clinical effects in depression, anxiety, and so on.
+
+[03:00] And then around the mid-2000s, the second wave came with these randomized controlled trials. This is where we got the eight-week-based mindfulness stress reduction intervention. We also studied some mechanisms on attention and emotion regulation.
+
+[03:15] And then in the third wave is where we sort of went beyond these eight-week interventions and started studying these highly experienced practitioners who can reach these altered states of consciousness like non-dual awareness, self-transcendence, psychedelic drug-like states like the jhanas, which I'll just jump right into now.
+
+[03:35] What are the jhanas? It's these eight highly reproducible altered states of consciousness. You don't need to take any drug to reach them. We have characterized their phenomenology quite well. They have been described for two and a half thousand years after all.
+
+[03:50] And for consciousness research, they're interesting as they represent this progressive distillation of experience, especially the later jhanas can be interpreted as what we call minimal phenomenal experience or bare wakefulness or pure consciousness, where there's basically an absence of any object or events.
+
+[04:11] So we usually divide the jhanas into the form jhanas and the formless jhanas. And this transition from the fourth to the fifth involves a drop of any perception of physical form, body or boundary. And now I'll try to sort of describe the core phenomenology of each of the jhanas.
+
+[04:30] There is a really nice illustration on the right made by Roger Fisdale to sort of give an intuitive understanding of what the jhana feels like. So you're usually into the jhanas by going into axis concentration, mind noise goes down. The first jhana is characterized by joy and very pleasurable bodily sensations.
+
+[04:50] The second jhana is characterized by happiness and sort of like a warmth. And then the third jhana is characterized by deep peacefulness accompanied by some happiness. And then the fourth jhana is a complete equanimity with one's own experience.
+
+[05:03] We then enter the formless jhanas where the object becomes boundless space and then it enters into boundless consciousness until you reach sort of a state of nothingness. And then you're in this paradoxical eighth jhana of neither perception nor non-perception.
+
+[05:21] And then if you hang out long enough in the eighth jhana you might get a cessation, neroda, where there's a suspension of all mental content. Yeah, pretty freaky. Yeah, so how do we study these advanced meditative states? At the meditation research program where this is our lab, we use seven tesla fMRI, we use MEG, we use high density EEG, which will be the focus of this talk.
+
+[05:47] So we are really using cutting edge neuroimaging modalities here. For this specific study and the results we'll be talking about, we have about 21 advanced meditators and they on average have been meditating for 18 years and also on average have 20,000 hours of practice.
+
+[06:06] The scans that I'll be talking about today and what we're comparing is them going through jhana one through eight. And then we are comparing to a control condition which is a memory task and a counting task which we average into one control and this is to mimic sort of a normal, what we're neuroimaging call a resting state where we just ask participants to sit there and do nothing and normally you and I would just start ruminating, thinking about lunch and whatnot but these super advanced meditators, they could like potentially enter jhanic states
+
+[06:37] just sitting there. So that's why we sort of induce a memory and a counting task in them. So just jumping into the first results here for this study here. The first thing I'll be describing is the power spectral density and how that changes.
+
+[06:53] So very shortly, EEG works by measuring electrical activity at the scalp. The signal sort of reflects this post-signatic activity neurons in your cortex and you sort of get these squiggly lines out as you can see and this is sort of the voltage that fluctuates at different frequencies.
+
+[07:10] You can band these frequencies together into what we call frequency bands and there is the delta, theta, alpha, low beta and high beta depending on how fast they move and just for the purpose of this study, power just reflects the strength of activity within each frequency band.
+
+[07:28] As you see on the figure on the right, there are many ways of characterizing spectral power but for the sake of simplicity for this talk, it will just be how much activity is in this frequency band. And just a heads up, these results are unpublished and preliminary.
+
+[07:44] I was told to say that. And the first thing I want to show you is the power spectrum across the jhanas. You have the frequencies and the strength of power and what you can already see qualitatively without doing any statistics is that there seems to be going something on with a decrease in power as you progress through the jhanas.
+
+[08:03] There's sort of this dip in what we call the alpha peak around 813 hertz. Jumping into sort of a more topographical power changes, this analysis here is what we call a cluster-based permutation analysis which is fancy speak for just identifying clusters of electrodes that seem to change from baseline.
+
+[08:22] So the white dots indicate a significant cluster of change. What we see is a central posterior clusters of decreased power so around the back of the midline of the head and there seems to be a general trend of these clusters increasing as you go from the first jhana to the eighth jhana.
+
+[08:43] Sort of AKMJ is the abbreviation that we use for jhanas here. Do you have a question? This was 21, 21 advanced meditators. I also have a fixed time so I don't think I can take too many questions during my presentation. Anyway, jumping into sort of the global power changes where you just average the power from all of the electrodes.
+
+[09:09] I sort of wanted to see if there really was a trend of decreased power as you progress through the jhanas. So I've just plotted the effect size here. Darker blue reflects a stronger effect so we do see that global power trends to decrease as participants move to later jhanas.
+
+[09:26] And now what does all this mean? Who knows? We can sort of gather something from maybe comparing to other results that we know. So here I've compared it with classical psychedelics. We see that there is at least a trend in the same direction to the sort of classical psychedelics like psilocybin and LSD and to a large degree also ayahuasca.
+
+[09:49] This picture is more nuanced but I don't really have time to go into that just for you to get the general idea. The next measurement here is what we refer to as entropy. So entropy, just to give you an intuition of what we're measuring here captures the richness or irregularity or unpredictability of brain signal dynamics.
+
+[10:10] I have an example of low entropy and high entropy and there you can sort of get the intuition. An example of the highest entropy that you can measure is sort of random white noise. In this study we apply six different measures to quantify this measure and that's really all you need to know.
+
+[10:27] And then why the hell would we look at entropy? So entropy has been studied for many altered states of consciousness across time. On the right I've tried to make the spectrum of entropy going from low to high and this is sort of all of the different altered states that we have measured entropy in.
+
+[10:44] So at the low end of the spectrum we have anesthesia, we have dreamless sleep, we have measured people who are in vegetative states and they have low entropy and then in the middle where we don't see a significant change we have of course the baseline that we're comparing to resting state and then we also have cannabis and methamphetamine.
+
+[11:06] So you don't have to worry if you're doing that. And then at the high end of the spectrum we have psychedelics and dissociatives mainly sub anesthetic ketamine. We also have high ventilation breath work that maybe some of you did this morning and there's also movie watching and sort of other stimulating tasks.
+
+[11:25] So this spectrum has sort of given rise to what we call the entropic brain hypothesis popularized by Carhartt-Harris and it basically poses that entropy of brain activity scales with phenomenological richness of experience. So one central question that we had for this data here was where do the jhanas land on this neural entropy spectrum if anywhere at all.
+
+[11:48] And again unpublished preliminary findings. This is a big confusing slide. Basically what I want to want you to get from this slide here is that we have measured entropy with six different measures and five of them at least show increased entropy in what we call the formless jhanas, the ones that were similar to minimal phenomenal experience where there seems to be like absence of mental content and so on.
+
+[12:14] That's really the main point of this. And then I did a similar cluster-based permutation test for each of the measures for the eight jhanas and we sort of see that this increase in entropy seems to be in the posterior of the head. It is interesting that we don't see a clear progressive pattern of entropy change as we did with power but nonetheless there could also be the study being underpowered or whatnot.
+
+[12:40] So just referring back to our table here we now also can add entropy and see that the sort of picture of how jhana matches up with classical psychedelics seems to increase. They all sort of show increased entropy as well. And yeah, just to sum up the results here it seems that neural entropy rises and spectral density decreases as phenomenal content fades during jhana meditation at least in these advanced meditators that we have measured here.
+
+[13:10] So just returning back to this spectrum here jhanas are a bit of a conundrum for this entropy spectrum because we have at the high end to these very visual experiences like psychedelics but then we also have minimal phenomenal experiences like the jhanas which is a bit of a problem for the entropic brain hypothesis which poses that increased entropy should correlate with increased phenomenological richness.
+
+[13:36] However, our findings sort of point in the opposite direction and it's not just jhanas. We also have case study series of people who are doing cessation and there are also preprints now on 5-MAO-DMT which is also similar to sort of minimal phenomenology which might also show increased entropy.
+
+[13:57] How much? Oh, okay. Nice. Luckily for us very recently a new hypothesis dropped by Carhart-Harris and Carl Fristen and Carl Fristen is a very famous neuroscientist of the free energy principle sort of laying the foundation for the entropic brain hypothesis.
+
+[14:16] So there's this new framework that I would like to sort of situate the results in here. So just to begin with here I'll just go over the basic terminology and this might get a bit dense. So you have the priors the likelihood and the posterior.
+
+[14:31] So the prior is the model that your brain already have of the world. It is your expectations it is your learned regularities it is the context it is the pre-built model that you have before taking in any of the evidence. So that's sort of the prior in this model.
+
+[14:46] And then there's the likelihood which is the incoming sensory evidence and what that says. It is the probability of observed sensory data given a particular hypothesis. It is also what we refer to as bottom-up sensory signals in neuroscience.
+
+[15:03] And then you have the posterior in the middle which is the brain's updated belief sort of combining the prior and the likelihood to make a model of the world and that is what in this model is believed to be what we perceive and experience. So just keep this in mind we have like a prior model of the world and we have sort of sensory input incoming and this sort of forms our experience.
+
+[15:32] So the idea here is that JANA or minimal phenomenal experience represents a underfitting of the model and psychedelics produces a overfit. So here's where it gets a little bit technical. So precision is going to be the weighting knob that corresponds to the width of the distribution of the prior, posterior, and likelihood.
+
+[15:57] So the precision of the prior and likelihood is different between the JANA and the psychedelics. This is what this new hypothesis is sort of posing. So a low precision equals a wide distribution of either the likelihood or the prior which gives a wide posterior an uncertain model of the world and that is what they sort of mean or what they think that high entropy correlates to an uncertain model of the world and that is captured in both JANA and psychedelics.
+
+[16:26] Now this new hypothesis poses sort of a new variable called complexity which they believe is the actual measure of phenomenological richness which is achieved by attenuating the prior precision but then preserving the weight of the sensory input.
+
+[16:43] So it is sort of the top figure there and sort of the distance between the prior model and the posterior of what you actually experience is then interpreted as the range of complexity and that gives like a complex experience where you put on too much salience or I don't know I shouldn't say too much you put a larger amount of salience onto sensory input which gives this sort of richer experience because everything seems super significant and changes.
+
+[17:15] So yeah just psychedelics lower prior position a wide posterior still high entropy but the likelihood position is preserved so we have and the minimal phenomenal experience you have a low prior precision and low likelihood position so you are no longer like taking in all of the sensory input so there's nothing that pulls the posterior or your actual model of the world
+
+[17:45] away from the prior so you sort of just have this posterior that is resting close to your broad prior and that is interpreted as low complexity but still high entropy and this like low likelihood prediction sort of comes from you being so absorbed in the meditation object you are so absorbed in this boundless space that you don't really have any sensory input sort of coming in and modeling your world which results
+
+[18:15] in an underfitting of your experience and this is just kind of me trying to have home the point one more time so the jhana downweights sensory input by holding attention fixed so bottom-up signals carry no weight and the posterior stays on the broad prior and that's how you get this underfitted model of the world low phenomenal richness psychedelics loosens the brain's prior model but keep sensory position high and sort of every fluctuation
+
+[18:46] in the sensory system is sort of read as meaningful and that's maybe why like patterns emerge out of nothing so you sort of get this overfitting I hope this is making a little bit of sense okay so yeah so they're trying to solve this conundrum with high entropy in minimal phenomenal experience and in high phenomena experience by adding like a third dimension which is complexity and sort of this wakefulness so you can see
+
+[19:16] here they have sleep minimal phenomenal experience and high content phenomenal experience sort of like three different corners of experience so that is how much smarter people than me are now trying to make sense of this data coming out on the Janus and 5-MeO-DMT yeah so I'll just use this chance to say thank you to the meditation research program thank you to Matthew the director
+
+[19:47] Remco my supervisor and my colleagues Winston, Ruby Thomas and Sophie and also Jasmine sitting right there and yeah if you want to help the meditation research program reach out to us you can also reach out to me if you have any questions you can reach me on Telegram or email and I also plan to sort of maybe build a software for real-time EEG neural feedback here at Edge so if you're a builder and think this sounds
+
+[20:17] cool then also reach out to me maybe we could see some real-time entropy changes in some monks or maybe give somebody some DMT and then see how that changes their entropy yeah this is what I had thank you Peter do you have about two minutes for questions I see a hand up I'm gonna come run this microphone thank you the alpha reductions
+
+[20:49] so is this for which stage of is this for cessation events or like is it like throughout the progression that you're getting alpha reductions or the alpha power reductions yeah they are actually throughout all of the jhanas but they do seem to get let me see here progressively stronger throughout the jhanas which is sort of the pattern that's emerging but it's actually for all of the power bands which is interesting very similar to psychedelics
+
+[21:20] but yeah and have you also collected 7T data yet or yes yes we have that and some other evidence for like laminar specificity of like predictions versus prediction errors like like superficial versus deep layers or no so I haven't worked on the MRI data myself I know that we're currently looking at the brainstem sort of looking at nuclei I know that they've been doing some graph theory and network connectivity I don't know
+
+[21:50] if they've done specifically what you're looking at and I also don't know if I could share those results even if we had them thank you so much I just have a quick one I would suggest that you change your slide and when it comes to the jhanas the jhanas are the unaltered states and in this current world it's an altered state I'm not sure I understand what you mean
+
+[22:20] but yes hey Peter you spoke you emphasized the implication of these findings on shifting consciousness theory I'm curious if there are any other implications of these findings for deep meditation research or the application layer that you guys are thinking about already if there are other applications or just what are the other implications of these findings beyond consciousness theory if there are
+
+[22:51] any I mean I guess there's like sort of implications for well what does decreased neural firing mean and why does it feel so profound in both psychedelic experiences and in meditative experiences like wouldn't we think that more neural firing sort of as our baseline would sort of be optimal and sort of yeah what does decreased brain activity translate into and why does it feel significant I guess
+
+[23:22] it's still getting at consciousness yeah I guess like the jhanas are also significant for human flourishing and sort of yeah overall well-being in terms of what these results mean I'm not quite sure I have a quick one so if I wanted to learn more about this like the complex brain hypothesis in the context of the different states does the paper include that about the jhanas too or like what would be a good way to like learn that yeah yeah
+
+[23:53] the paper includes that as well it's born out of sort of early results on jhana meditation and cessation and 5-MU and it's described in great detail in that paper okay look we have we have four more hands but be really really quick okay this is a quick one how do the participants indicate what jhana they're in for labeling it yeah so they indicate transitions between jhanas with a button actually which is you know a little weird because you might think that you're in this like
+
+[24:23] super absorbed state I know that there's only been one participant who sort of forgot to click the button the other participants they are sort of like aware when there's a transition from one jhana to another and then they as they describe it it's kind of like keeping the door just like slightly open and they sort of jump out and click a button with their finger and sort of indicate a transition so yeah
+
+[24:55] I guess it might disturb the jhanas a little bit but these people are so advanced that they can just sort of jump in and out very quickly based on the qualitative data you saw and the premise that jhanas in some ways set the stage for awakening do you have any hypotheses about why those qualitative changes do set the stage for awakening do you mean quantitative changes in power and entropy or what do you mean like yeah yeah the relaxation
+
+[25:26] of the prior and the relaxation of the evidence yeah I mean this is a fascinating question I'm not sure if I'm competent enough to answer it but I guess like maybe our prior models our prior understanding of the world is sort of hindering us or holding us back from seeing what is actually there maybe it's like sort of interfering with our way of seeing the world and the model might not be optimized
+
+[25:56] for enlightenment it might be optimized for functioning in the world doing work on your computer going for a run getting groceries so maybe relaxing this prior model that is optimized for those tasks and not for enlightenment relaxing that sort of allows for these insights that would be my guess but this is really just a lower
+
+[26:30] lower on the brain entropy than watching a movie can you explain that the methamphetamine is only like one singular study so you also have to take some of these things with the grain of salt just to remain sort of humble about the results here why methamphetamine wouldn't increase entropy would increase entropy compared to yeah and I guess this is one of the questions of like
+
+[27:00] what is neural entropy a measure for I don't know if I would initially think that alcohol would increase entropy I might think that it would decrease it as it is sort of maybe guess that that would be on the lower entropy spectrum but methamphetamine I don't know if it sort of opens the awareness to new content or just sort of optimizes the prior model
+
+[27:30] that you might already have or something like that I'm just speculating again but excellent epistemic humility to me this is consistent with the theory that the consciousness is not sourced from a broader field of consciousness and so when you clear that channel you get more access to the field of consciousness is this something that your lab
+
+[28:00] has spoken about because that it's not consistent exactly with this new hypothesis that you've been talking about yeah but I once you break down the systems that modulate it gets to sort of a more pure or bare state I think that makes sense we are sort of venturing into philosophy of
+
+[28:30] panpsychism or monoism but yeah I think it's a good question to ask definitely alright everybody that was a lot of questions please thank Peter really great job Peter thank humble with presenting preliminary research which is a gift we weren't sure if he was going to be able to be able to present this so thank you Peter all right up next we have Eric Anger we're
+
+[29:01] transitioning from fundamental research into building and applications in service of people's consciousness and awakening Eric has so we're going to experience some lessons learned from from Eric's work that's a deep jana wow
+
+[29:32] nothingness from the projector see you know the duality is quite functional oh
+
+[30:20] is that it yeah oh man
+
+[30:50] you guys start at one right we have 20 minutes for each one but if you can you answer questions we okay
+
+[31:23] all right everybody settle down we're awake and here is Eric Anger and his work thank you everybody all right so yes I'll I'll be
+
+[31:55] starting to speak about my experience for the past couple of years spending yeah essentially all my time building taking AI solutions to facilitate and guide contemplative and spiritual practice to see how can we catalyze that and scale that to more people with for example journeys or building journeys first AI facilitation tools to bridge back to the previous talk and then
+
+[32:25] I also got excited to throw in some of the research and thinking I'll be doing about how this might of yeah the post AI world so looking at like the past couple of years when I building these AI services something that's funny is that like I've
+
+[32:55] seen a lot of like demos and stuff being built and a lot of it haven't ended up being really used in to like add on top of contemplative and spiritual practice but there is also quite surprisingly few of them that ends up being used and really providing value over time like a lot of people I know in the space who even spend a lot of their time building this barely
+
+[33:25] use any of the tech themselves in bit front of like what actually creates value here and what is there actually demand for and what I've seen working really well is using AI as a tutor in a way for practice to give you an example for example at journeys
+
+[33:56] retreats how it's implemented is having an AI facilitator that's like a chatbot that's trained on the same facilitation materials that are trained up and in between meditation sets a common issue you might have experienced is that you had this and this distracting thought you didn't know how to relate to you have this weird energy shooting up your spine what the hell was that
+
+[34:26] and getting answers to be able to do that and read several hundred pages right away just in between your meditation sets so essentially looking at tutoring for spiritual practice as guidance for instruction following is a way to think about
+
+[34:56] where AI handles really well and speaking to meditation teachers and others that I collaborate with time with answering either pretty basic like knowledge questions or giving this type of inputs of yeah helping the students follow the types of instructions that are actually already written down somewhere and AI is
+
+[35:26] able to do that at a surprisingly high capability working almost as well as a human facilitator in guiding people in that so if we look at like where meditation teachers and other contemplative practice spend their time guiding students a surprising majority of that seems like it's on track to be able to be
+
+[35:56] done by AI which I find really exciting but we'll implement it in the wrong places can become pretty bad and although like a majority of it might be able to be handled on an AI that might not necessarily mean what you think it will that
+
+[36:42] something really clear that a human facilitator could do and that students probably would be willing to pay a human facilitator to do and those are the type of cases where I see AI performing really well but there is also a ton of experimentation with building tech and AI to enhance spiritual practice beyond what it pay for
+
+[37:12] a human facilitator to do for you and that's like inspiring and I hope we find that stuff out but it's really like what seems to be landing in the field it is essentially like the only things that reliably people actually use with an AI over time and keep retention on are the so
+
+[37:51] three places that have implemented this with for jhana states and other types of meditation is first this type of in between session tutor that answers questions and help the students iterate on their technique the second is guiding practice in real time like a voice to voice box that would be a guided meditation but like an interactive
+
+[38:21] guided meditation that helps the students deepen their state based on what they're going through in that moment and the third is enhancing the leverage for the teacher so instead of providing the tools to the students looking at providing the tools to the teachers so that a teacher for and what seems to be the gaps in understanding
+
+[38:52] in like the totality of a group that can be difficult for a facilitator to keep the grasp on and keep touch on which can enable fewer amount of facilitators to support yet one
+
+[39:22] part of it is attunement and presence both for like meaning making and motivation in meditation retreats you can probably notice yourself that you're way more motivated meditating with people on a retreat than when you're at home by yourself for example and there's also other aspects of how humans nervous systems might interact with each other and how their consciousness might interact
+
+[39:52] with each other that's out of scope for what AI can do and also at the moment like the types of AI that works really well is really the verbal capacities to the type of feedback you might get from a meditation facilitator if you speak to them over voice or text but having them see for example your posture in yoga is yeah AI is not too good at the visual
+
+[40:23] stuff yet for example so this is mostly for practice that happens inside your head and less for like embodied practice is what AAS performing well at and there are also these intuitive leaps and like sensing what's not said like seeing the the students like body language for example and seeing that what their problem is it's not actually the question they're asking both in a
+
+[40:53] way that might be obvious from their body language that may be even a future AI could pick up but also in other ways of this almost mystical seeming intuitive and sensing that more advanced teachers can do with their students to figure out where they're at and what their needs are so looking at what that might look like is not AI
+
+[41:23] replacing like having like only AI meditation retreat that's not what I think the highest leverage that can be created here but rather looking at how can one scale a meditation retreat so that the facilitators can spend all of their time doing the really relational and attuned and intuitive coaching where the highest value is because
+
+[41:59] retreats can get five times cheaper they can host five times more people at a retreat and what becomes interesting here is looking at how does this compare to the role of yeah so this is the example in meditation what remains purely human the capacities that are unique from us versus what
+
+[42:29] can AI do way better like instruction and knowledge on the retreat and this scales beyond meditation retreats themselves which is a topic that I'm also doing research on on looking at what is the future of human capacity and human intelligence not only in helping someone meditate better like for example that meditation retreats but also how does that translate
+
+[43:00] to the implications for knowledge work more broadly as AI continues to perform really well at these analytical or intellectual and instruction following tasks so part of how I'm looking about this is that we look at like the like a couple of hundred years ago it was like the physical ability that most people could contribute
+
+[43:30] with in the world and what was scarce so most people worked with farming and these types of things and then when machines started to be able to do that like the industrial revolution then it was physical ability what scarce and what economics started incentivizing is the intellectual analytic
+
+[44:00] ability which we've seen the past couple of decades and what seems like it's going to happen now is that analytical and intellectual abilities yeah they become commoditized as well and there is no longer scarcity there if AI can do a million times more of that than humans can the capitalist system won't incentivize for humans
+
+[44:30] to spend their time on that anymore so then it's the question what might that human edge be and what I if you look at some historical examples of this like for example Einstein speaks about this how when he had his
+
+[45:00] major breakthroughs it wasn't a like step by step incremental reasoning effort like an intellectual effort but actually doing a bunch of that but then suddenly a whole model arriving at once about for example relativity and so on and those types of leaps intuitive leaps and epiphanies is something that we haven't seen from AIs yet and that might be some type of subconscious processing
+
+[45:31] in the human system in an advanced form or it like in a different category than what AI can access and what I find really interesting is how can we move that line if that type of thing
+
+[46:01] like sensing information that we're not consciously aware of becomes the future of how we can contribute not only to a meditation students at a retreat but and for our everyday work having AI agents do the execution and the reasoning but us taking the decisions of what direction actually holds most potential
+
+[46:31] that becomes where we become really valuable and the question is then how can we become better at that what would it processing that happening in our system it's the only minority of the processing that's happening in the mind and body that actually results in conscious thoughts a lot of it expresses through emotions and
+
+[47:01] somatic signal and even quiet thinking and voices like the quiet voice inside that you might not notice until you've expanded your awareness to this bind together with both how humans can stay relevant and have an edge in the future of work but also binding this together how can these types of tools for awareness expanding practices become
+
+[47:31] really important infrastructure for professional development in the future of work in the same way that like the school system for learning intellectual abilities and knowledge become one with transition out of the industrial revolution what might it look like for these awareness expanding technologies to become a real human skills on a
+
+[48:01] level where we can actually make an impact in society and one example of what that can look like on the higher end is that the multi intelligence institute that I'm doing research with are we bring people together around the shared question for example how to navigate the paradigm shift in society and then use these types of awareness expanding technologies
+
+[48:32] and amplifier such as both like meditation practices and AI tools and also psilocybin we've done in Colorado for example and look at what does expanding the awareness do for these types of the ability for these type of breakthrough insights that for example Einstein experienced if we take an expensive example of it and
+
+[49:03] like bringing that down like okay maybe the future of scientific innovation and so on becomes people sitting like a corporate leader sitting tripping for a couple of about what direction has most potential and what ideas and scientific hypotheses might actually change the world but what does that look like not only for such immersions but also in our daily life and what
+
+[49:34] I'm seeing is that it might turn into that work becomes more like a person the best but rather to be in a state of flow where we are emotionally regulated so that we are at best capacity to make these types of intuitive decisions
+
+[50:04] and sense the information that our system is processing if the ideas and decisions become the core things that remains scarce and remains human and the economics because of scarcity orients around that might be what we spend all of our time doing rather than the types of intellectual thinking and execution that we spend our time doing today which could turn work
+
+[50:35] more into something like meditation retreat and the same types of AI tools that helps us regulate our systems and get input on the to expand our awareness the same types of touch AI tutoring tools that are used at retreat might actually become something in the future workplace as well yeah that's it curious for questions and also
+
+[51:06] happy to continue the conversation even beyond the questions and I have an essay on the future of work that me and Eddie from the Spirit Tech Collective have written that you'll meet in a bit and I don't have concrete research papers to share on the topic of how I've used AI for contemplative practice but you can connect with me on LinkedIn and bounce ideas I'll be here at Edge for the whole month around that yeah alright put your hands together for Eric
+
+[51:37] we're a little bit behind schedule so we're just gonna take one question who's got a hot one the man in the hat that says hats hey how's it going I was curious about the if you thought about the interface with which you want to present this AI tutor as like phones and other technology tend to be very
+
+[52:07] attention grabbing and maybe antithetical to a spiritual practice yeah for sure especially when there is a device that has access to YouTube or whatever online things that can become a major blockage stuff that exists to get out of that way is either using voice-to-voice formats that I built so you don't have to be in comparison to a screen and also I think there will be a lot of innovation of more mindful interfaces
+
+[52:37] I use an e-ink paper tablet for a lot of my work interacting with AI both for this purpose and for my spiritual practice that can lessen that dopamine yeah all right everybody one last round of applause for Eric really compelling wonderful work and now we'll be welcoming the contemplative futures residency Luca is going to be introducing a panel thank you so much
+
+[53:08] Wyatt and thank you so much Peter and Eric really incredible presentations can we hear another round of applause for Peter and Eric everyone so why don't we settle ourselves in here Katie Winslow Eddie Katie why don't we put you right here and we'll put Winslow in the middle perfect yeah all right sliding around
+
+[53:41] a little bit there we go so we just learned a lot about meditation how's everyone doing good you feel what's going on your bodies are you practicing some mindfulness yeah let's take a moment just to settle in because we're about to have a real treat with this panel so yeah why don't I introduce myself first I'm Luca Del Deo I'm the residency lead of Futurative
+
+[54:11] which is running the contemplative futures series in this series we're learning about the work people are doing around consciousness around meditation around all of the things that we all find incredibly fascinating this human flourishing subject that is so capacious and we're learning about what they're doing here in the present day and how what they're doing is also shaping a better future how they see their work impacting that future
+
+[54:41] so again I'm Luca I am the founder of Meditation Artifacts which is doing ecosystem building in this area particularly around meditation so the talks today were very exciting for me because we're getting a lot of meditation and I care really deeply about how we are progressing into a better future with this work today I am joined by some really incredible speakers our panelists are Katie Devaney Winslow
+
+[55:12] Strong and Eddie Weisberg and today we are going to go through their work we're going to learn about what these people are shaping actively in the present day and how they are helping us to also move toward a better future actually I don't really need my notes to ask you all to introduce yourselves so why don't we go down first like so and then we'll come back around as we come to the next question I'll start with you Katie I would love
+
+[55:43] to ask you to provide your background and a little bit about what you're working on these days okay hi everyone I'm Katie I started meditating in 2002 and because of experiences I had mostly via meditation also via psychedelics started studying neuroscience to try to understand the way that these different states of consciousness which in my subjective experience were much better than the default state of consciousness
+
+[56:13] are instantiated in the brain so I have a PhD in neuroscience I spent my PhD looking at attention and prediction updating in experienced meditators and I did my postdoc at Harvard Medical School where I did a first in human clinical trial of a novel type of brain stimulation I get excited about things and curious about things so as a consequence of that excitement and curiosity I've started two non-profit meditation centers in the Bay Area both of which are still open it was the San Francisco
+
+[56:44] Dharma Collective and the Allendic and I was the founding CSO of Journey which was mentioned in the previous talk and I am now the founding CSO of the Consciousness Foundation and we are directing resources into areas that are understudied and difficult to fund so I am currently running the Awakening Research Program at the Consciousness Foundation I started life
+
+[57:20] on a straight and narrow path to becoming a scientist after burning out my first year in grad school I just got a meditation and shortly thereafter had a pretty major awakening from doing those practices and since that time I've just been perplexed and baffled why the society and culture I grew up in never told me that such things were possible when it was the most profound experience I had ever had in my life and incredibly beneficial
+
+[57:51] since then I ended up doing a PhD in math and did a startup trying to build meditation technology and have just been exploring different ways to try to have impact in this space and the culture of like I'd say the modern western world or developed world so that these types of experiences these transformations can be available to more people and at the very least that society and culture can be aware that they're available
+
+[58:22] to that end started the consciousness foundation a year and a half ago try to accelerate research which we see as upstream of a lot of those potential changes in culture and to foster the actual science scientific investigation and bringing to bear our technological skills to this problem of like how can we transform and improve our conscious experience moment to moment
+
+[58:52] and make that broadly available thanks do we do we have the mics going we're gonna go one mic button's on okay I love we all just started snapping organically hi everyone my name is Eddie it's really nice to see so many friends in the audience first of all I like
+
+[59:22] Winslow's also started my journey and my career path on what I call the narrow path very much in the business world was in consulting banking and then also in the startup world in the tech world and then similar to the stories that have already been shared about a decade ago found myself in a crisis started looking internally and have been on an ever accelerating
+
+[59:53] ever growing spiritual journey to look inside and similar to Winslow also about five years ago started asking the question why aren't more people talking about this why aren't more people looking at how technology can support people in this really inspirational journey that I've been on that completely transformed me and so five years ago started fully focusing on this intersection between tech and I've called it many things
+
+[1:00:24] mental fitness consciousness inner development now I use the word spirit and spiritual development mostly as an entrepreneur also as an investor and then two years ago I had was in a sauna with Winslow here where he seeded the idea of what is now my project called the Spirit Tech Collective which is all around how do we really support all the builders in the space and how do we elevate this ecosystem
+
+[1:00:54] to rival some of not rival or I guess to be as influential and as impactful as some of the other tech sectors out there so that we can really bring more resources more people more capital into this space and really explore what's possible so you can see why I'm so excited to be on this panel today because we have three of the leaders in building infrastructure and
+
+[1:01:24] providing the resources the energy for the work that many of us care so deeply about seated seated before you all so today we have some I'm going to do this still for some questions for the Conscious Foundation and then we'll have questions about Spirit Tech Collective and I know Winslow you've kind of got a bit of an identity bridging both so there might be some opportunities to share some answers there I would love to start with a
+
+[1:01:54] question for let's start with Eddie for the Spirit Tech Collective which is what I understand you're developing now we might have do we have some feedback we're good we're good I would love for you to share with the audience what what is Spirit Tech what is what does this mean how can we relate to this this idea yeah so I've been on quite a journey of trying to find the right
+
+[1:02:24] way to frame what I deeply care about which is how do we support more people go on an embodied experiential journey inner journey and as I've looked through kind of the different lenses that can be looked through consciousness inner work where I landed is if we look at history of transformation many people have gone in this journey before the most
+
+[1:02:56] consistent and durable way for somebody to transform their inner world is through an embodied and earnest spiritual practice at least historically and now a lot of the science a lot of the researchers here in the room are showing in different words that to be the case and so for me the way I relate to Spirit Tech and the way I define it is any companies or any tools that are building scalable scientifically congruent tools for earnest and body and experiential spiritual development
+
+[1:03:26] thank you that resonates and Winslow would you like to add anything to that definition if anything comes to mind no I think that definition is great fantastic so then this next question is for both of you from the Consciousness Foundation there's a particular term how do you define a science
+
+[1:03:58] of awakening and how are you also defining consciousness such a nebulous concept it is sure I can start with the consciousness part I realize by talking to people sometimes this word is very problematic people say it's defined so many different ways I guess I guess that is true nevertheless and that that multiplicity of definition can both be a feature and a bug I mean when we talk about
+
+[1:04:28] like transformations of consciousness we're not per se limiting that definition to like phenomenal consciousness like that there is experience but that's certainly a part of it there's also like notions of structures of consciousness that are built up over time that give us a sense of self and a sense of place in the world so I I don't think it's actually super important to nail down like an extremely precise and pigeonholed
+
+[1:04:59] definition here I think broadly speaking maybe we do want to differentiate a bit from things like psychology which is merely studying I'd say more the conditioned aspects of the human mind and include things like spirituality which are incorporating things like the transcendent the experience of awareness itself or God or some form of transcendence of the narrow conditioned self that's very important
+
+[1:05:29] that it's like included within the notion beyond that yeah I think the grayness of the boundary is actually like a feature and we want to be focused in the consciousness foundation of kind of like figuring out where the highest impact and tractable areas are of this field that can really improve people's lives and not so much on like you know this is or isn't consciousness and therefore we will or will not study it it's more like
+
+[1:05:59] is this going to be impactful to people at large is it neglected is it something like we should take on because there aren't a lot of resources going to it that's what I would say yeah and then on awakening I'm curious actually how many of you in the room if you can raise your hand do you have a meditation or a spiritual practice what a good room that's awesome could people just kind of like say a few reasons why you're meditating we don't need the
+
+[1:06:30] microphone but just like pop out a couple like why do you meditate dissolve anger science says it's good say again it feels good nice joy and peace whenever you want it okay one more what about the soul connection to the soul and then someone else said something that's here meta cultivation
+
+[1:07:00] with two t's I assume nice you never know smart meditators you gotta clarify so these are all things that can happen with the meditation practice and when I started meditating I heard about I heard about meditation from the Beatles when the Beatles like I watched a documentary on the Beatles but then I heard about the concept of enlightenment and I did a kind of Pascal's wager with my time I was like if that is real everything else
+
+[1:07:31] is a waste of time like I should pursue that and let's see if that's real and I still don't know if complete perfect total enlightenment is real or not I've only read about rainbow body in books I've never seen it with my own eyes but I do know that in the 20 years that I've been meditating my body mind is a much more comfortable place to be than it was when I started in ways that are indescribable
+
+[1:08:03] and would be incomprehensible to the 18 year old version of me who started meditating so that's like a little bit of a personal definition and before I go any further in the personal direction I will say that almost every wisdom tradition that bothered to write anything down or I shouldn't even say bothered that was compelled to write something down I think we've probably lost a lot of real gems from a lot
+
+[1:08:33] of wisdom traditions if you think about what you need to do to write something down you need to boot up the concept of a future and a different person and you've got to write it down for those people and if you're kind of in a very expanded state of consciousness you're not going to do that so anyway we're limited by the people who wrote the stuff down and of the people who wrote the stuff down almost all of those traditions have some notion of trait
+
+[1:09:03] level changes that are possible through a spiritual practice the Buddhists wrote a lot down other traditions wrote less down like if you go in the Christian tradition there's like a three-step process various traditions wrote various amounts of things down but almost every wisdom tradition that did write something down has the idea of these stable trait level changes if that is true
+
+[1:09:34] we should understand and make that available to as many people as possible so we're using the term awakening to describe the trait level changes that happen resulting from currently from a spiritual practice but not necessarily from a spiritual practice there may be other doorways into awakening that don't rely on say meditating being in a cave for 20
+
+[1:10:05] years but we don't know what they are yet that's what I'll say about that for now do you want to add anything to that yeah I just want to underscore in one way how obvious obviously important this is if it's if you take seriously that it could be true like is kind
+
+[1:10:37] of par for the course when you go deep into these practices and juxtaposed with our current modern situation of increasing numbers of mental health issues anxiety depression and just general especially in the youth and it's like these problems aren't new they didn't just emerge to the scene they're ancient problems that have been dealt with by these traditions over thousands of years and yet it kind
+
+[1:11:07] of seems like we have our head in the sand or in some way there's a blockage to us getting this medicine out to the masses and I see kind of like three broad buckets of issue one is that a lot of modern culture regards things like awakening or enlightenment as mythical like they're not even real another bucket of issue is that some people might believe it might be real but if it is real it's really hard to go become a monk renounce your
+
+[1:11:37] lay life and meditate for decades in a cave to have a shot and yet another bucket that's kind of independent of beliefs on the earlier two is that okay maybe it's might be real might be obtainable but it's simply not relevant or even desirable for me in my life because what I think about people who wake up is that they likely might abandon their job even walk away from their family wander the earth in robes homeless and that simply isn't relatable to our modern culture
+
+[1:12:08] that's not something that's desirable so I feel like by researching this topic and putting it on solid scientific footing we can dispel the notion that it's mythical we can bring down the barriers to access we can use science engineering and technology to improve the likelihood and the speed of these transformations and therefore we can democratize access and we can study to what extent it is or isn't true that these transformations would or wouldn't be desirable and of course that'll end up
+
+[1:12:38] being a personal question but people have a right to know what's on offer and I think our civilization has just done a very lousy job of clarifying what's available as time someone does something about it one thing I've been saying a lot lately is that we want to put awakening on the menu the way that the marathon is currently on the menu so it used to be in the 80s it was like super weird to run it was like a subculture thing even though
+
+[1:13:08] the marathon had been around for a while nobody did it but now if like your friend is like I don't know I just went through a really gnarly break up I'm going to run a marathon you're like yeah I'll come watch you and you also know if you want to train for the marathon like there's probably a nutrition plan just eat like a pint of ice cream every day you're going to be fine then run the marathon we know that that's nonsense now but the current sort of state of spiritual
+
+[1:13:39] training is in this state where the pint of ice cream guy gets like as much credence as the progressive running and nutrition guy and if we had a way of being able to discriminate and have measurements and metrics of like what progress looks like along the way to awakening the whole thing would be more accessible to more people which would lead to reduction in suffering and for marathon fans out there you probably know what was previously
+
+[1:14:09] believed to be impossible the two hour marathon mark was just broken by two people in the same race and I think that's just kind of how things go when something becomes bought into by the culture and we bring to bear science and engineering and kind of our gifts of rational modern culture to bear on the problem and I don't see why awakening would be any different yeah this is I mean this is an incredible conversation I mean that also reminds me of when it was what
+
+[1:14:41] the six minute mile or there was a certain four yeah okay thank you I'm not really a runner when the four minute mile was that thing no one could do and then the first person broke the four minute mile and now it's like okay you just go like that's what you do when you train so I mean what's really incredible about this conversation about the science awakening about consciousness about spirit tech is that these are supposed to be really practical considerations about what is actually happening in our societies
+
+[1:15:12] what is happening as culture is changing and I think a really great way to continue that conversation is to root these topics in what we're actively solving in the world around us and maybe solving you know implies that something is broken but we get motivated to do this work because we see something that needs to change and that's impetus for leadership so I would love
+
+[1:15:42] to ask this question and Katie and Winslow you've started to touch on this a little bit but when you when you look around at the society that we live in and you think about all of the things that a science of awakening would do what what have what are you seeing maybe even today or this week or in the past year around you that you know that your work if pursued to fruition would solve yeah
+
+[1:16:14] I hope that's not too big of a question you know just solve all of our problems please I think there's the current state of say spiritual training a lot of people now are disconnected from any kind of spiritual lineage you know I was I'll just speak personally I was raised Roman Catholic and going to church was not in any way a sort of soul level experience for me it was just uncomfortable and I wanted to go home and so I ended up wandering around
+
+[1:16:44] and looking for what I could find that felt alive and electric and transformative and we're currently in a state where when people find something like that it's through a seeking process it's through good luck it's through word of mouth and that's working okay but I personally practiced in a tradition that wasn't really working for me for like a decade because I didn't know what else was out there and there are darker versions of that where people end up in cults or end up getting really exploited because there aren't
+
+[1:17:16] kind of standards and like above board mainstream ways of evaluating these things I think one of the most interesting problems would to solve would be to figure out which practices and techniques are going to be good matches for different types of people so you used to just get born in to a spiritual tradition that had been honed over time by your ancestors and was bespoke for you
+
+[1:17:46] and it was probably going to work for you and we've lost that and so I think the scientific understanding of this applied to solving the matching problem for how to match people with practices and traditions and ways of seeing that are really going to work for them has the potential to reintroduce something that is like tragically really on the verge of being lost which is a sense of meaning
+
+[1:18:16] a sense of sacredness a sense of connection to something deeper and broader and bigger than just yourself and that's worth pursuing Thank you Katie Winslow Yeah one thing that jumps out at me is as far as I'm aware all these ancient transformative practices are housed within religions and for a lot of the modern world people don't relate to the desirability of being within a religion
+
+[1:18:48] so I think meditation has come a long way and for a lot of modern culture meditation very much is or can be a secular practice I think we're certainly not there with awakening for reasons I just spoke to earlier but broadly speaking I think the more we can secularize a path and or create like sciences rubber stamped offering of a path I think it will speak to a large percentage
+
+[1:19:18] of the population for which science is like the authority or you could even say the high church in almost like a kind of negative slant on it but yeah so I think that's missing obviously we've had a lot of meditation research as we just saw a presentation on so meditation has gotten a lot of that validity but it remains to be had for awakening awakening has none of it and we're trying to do something about that thank you Winslow and Eddie
+
+[1:19:48] so this same question for you but of course not about not about awakening but what are the problems that you see when you think about spirit tech what are the problems you see it solving in the world around us I feel like I can answer that but I'd rather actually hear it from people in this room I'm going to steal a page from Katie's book how many people here consider themselves
+
+[1:20:18] builders or building technology in spirituality consciousness inner development any other words can you guys just shout out what are the challenges that you guys are facing that feel most alive right now any other ones
+
+[1:20:52] yeah measurement side quest side quest I don't know what that means but I will thanks my break yes it's really hard to innovate outside of the medical model of wellness yeah measurement like how do we
+
+[1:21:22] actually to what Winslow and Katie are speaking to how do we actually point to what's actually happening to start building that narrative so there are a lot of problem statements that I have gleaned over five years of spending hours and hours talking to people building in this space some were named that are infrastructural challenges measurement I'm surprised no one said funding that's the first time that's there we go we got a somebody that raised
+
+[1:21:53] their hand we spoke about like are we in the medical space how do we actually define who we are and what we are and so there are challenges that are pretty unique to what spirit tech builders face and I'm going to add one more I'm curious how much this resonates which is it seems like a lot of people in the space are operating from a different place than most other builders that are in the tech community and so
+
+[1:22:25] it's hard to pull down these visions that people are having and translate it into the current tech and capitalistic world and that's one I keep hearing over and over and that's a relative that's an even more unique challenge to builders in the space you're not going to talk to a fintech builder that's going to resonate with what that means and so this translational layer is also one and so there's a ton of these problem statements and so a lot of what I don't know if I'm
+
+[1:22:55] those are the problem statements should I just keep going on the vision why don't you give them you know what is the what is the conclusion what is this the conclusion how is it solving this the conclusion is a lot of my work is then how do we really empower these builders and create that infrastructure that's unique to this sector you have climate tech you have fintech you have conferences you have gatherings you have communities you have funds that are dedicated to that space you have ways of raising funds
+
+[1:23:26] that make sense but in this sector A that doesn't exist as exist as much but also there is unique infrastructure that's needed for that translational piece on governance on measurement how do we measure how do we get out of the medical model how do we help people really understand what we're working on so we don't get pigeonholed into medical or into mental health or into general wellness
+
+[1:23:58] there is something different as as Winslow also said so there's a whole narrative gap as well and so there's a ton of different infrastructural pieces that want to be solved to really empower builders and so that in 10 years or in 5 years or even sooner we can look back at this moment as kind of this starting point of this growth curve for this sector and for this exploration and ultimately what I get excited about is there are thousands of builders that are out there
+
+[1:24:29] right now experimenting and so how do we increase the frequency and the effectiveness of these experiments so we can actually build technology that can move the needle to support people in their practice and meet people where they are in a completely different way yeah that's it's really incredible to think about everything that you're all building because I hear with Eddie we have this really promising new direction that is an entirely new sector an entirely new industry
+
+[1:24:59] potentially in tech if we can figure out how to properly match the problems with the solutions people are building it's not entirely new okay consciousness tech inner tech like people have been asking this question for 70 years but it's it's like bubbled along so what would it mean you know to what Winslow said in his frustrations like why aren't more people actually if there's a real even chance that spiritual development and these practices can eradicate suffering then in some ways the most important question we can be asking
+
+[1:25:30] is how can we support more people on that journey and technology offers the most cost effective and scalable way to reach more people and translates a lot of the work that Katie and Winslow and other scientists are doing so as we develop these personalized pathways as we get smarter on the science of it that can actually reach people in all parts of the world rather than stay in the papers yeah and to me what's so interesting is that there is a lot of divergence happening here
+
+[1:26:00] I mean there could be a conversation about consciousness technology and awakening technology and spirit tech or spirit technology and and I mean and Katie has taught me about so many other terms like you know transformative technology and and I wonder I wonder if we do start to see a convergence at some point because to me this is the topic of field building and when fields you know fields are typically disciplinary they are research they are research fields but when we want
+
+[1:26:31] to see them intersect with the rest of society with you know economic levers with with cultural capital they become more than that they become a new movement or an ecosystem and and I'm offering I'm setting all this up because I want to to shift us now into what will be our final question for the panel before we open it up to hear the wonderful thoughts and comments and inquiries from the audience I want to shift us into thinking about the worlds that
+
+[1:27:01] we are building with this work and I see actually potentially that there are there are three different futures here there are three different worlds and I want to encourage you all to to you know to to own that so I would like to I would like to start with you Eddie with this question if you imagine the world when what you're developing is done what does it look like and
+
+[1:27:32] and I'm curious if you can also tell us how far off into the future that is so we can we can plan ahead I'll give the I'll start with the last part I'll give the 10 year vision that I'm building towards which is this question or these two questions that I really deeply care about one question is how can technology modern technology because spiritual technology has been around for thousands of years how can modern technology support earnest embodying experiential
+
+[1:28:02] spiritual development and support millions of people on their journey whatever journey they want to go to however they relate to their own spiritual development and their development and then the second question which is even more daunting at least for me right now is what does it actually mean to build technology that honors the sacred and so to me and that's part of the infrastructure that will be important for spirit tech and so the vision that I'm holding is that in 10 years this sector spirit tech is a very
+
+[1:28:33] well known thriving sector it doesn't even have to be called spirit tech whatever it wants to be called whatever you know the terms matter less but it's more that there's more resources there's more talent there's more people dedicated to really exploring this question because I do think in my very biased view it's one of the most interesting and important questions to be asking and a lot of the ecosystem work that I'm doing infrastructure I'm doing on the second question is what does it mean to build technology that honors the sacred can be piloted and experimented with
+
+[1:29:03] within the spirit tech ecosystem and then hopefully through the stories through the success cases can then flow out into other sectors so that other people other tech sectors can start really embodying and using these principles and can fundamentally potentially shift how technology is being built thank you Eddie I'm looking forward to that 10 years 10 years 10 years put it on your calendar and so
+
+[1:29:34] Winslow I heard you speak to consciousness and to wisdom a lot in your previous answers so I'd be curious if you imagine the future that your work is contributing toward what what is that beautiful wise more conscious future what does it look like yeah I think it's a great question because I think it's important to hold a positive vision of the future rather than just one that avoids
+
+[1:30:04] negative outcomes I know what I would love to see is a world where kind of at the basic level well-being of humans is put in high priority but even that term well-being I think is insufficient to really encompass what I'm actually hoping and kind of building for which is it would include transcendence from just
+
+[1:30:38] the tastes I've had which I'm sure are far from what's possible or available there is such beauty and like expansive transformation that's available in our conscious experience and it's impossible for people to know that unless they've had the experiences directly words can't really do it justice or take people there directly and
+
+[1:31:09] if our culture integrated the possibility of these experiences and then to some degree the reality of them I imagine a world where the education of children their well-being their emotional development their spiritual development is put at a high priority as high or higher than filling their head with knowledge which it's anyone's guess how relevant that knowledge will be by the time they grow up in an AI robotics
+
+[1:31:39] future so you know we're at a good inflection point where a lot of our current meaning making around kind of making it economically and making meaning from a career of like being a skilled practitioner of some advanced knowledge skill that's all kind of up in the air it's not clear there is so much of a future in the same way as those
+
+[1:32:09] things have been important and relevant in the past so I think it's a great time for society to reimagine like what do we want what type of future do we want what do we want to become what values should be pillars of that future and I think this is a really important pillar I don't think it should exist to the exclusion of all the other kind of worldly things we love doing and love learning about and building but and
+
+[1:32:40] you know I'm open to exactly what that looks like in terms of like institutions and whatnot but clearly we have a ways to go from here to there yeah I also I mean these are all futures I would love to see as well yeah thank you Winslow thank you and then for Katie I've been thinking about my question for you yeah because I love how your focus on the science of awakening is really
+
+[1:33:11] it sounds like developing almost a curriculum or a system for people to to find some kind of path or find something for them which of course feel free to totally disregard this if this is not part of the future you imagine but I would love to hear what is what is that future like what does it literally look like if I were to walk out on the street right now or I were to put my my kid in a school and for your work to have shaped that landscape
+
+[1:33:42] yeah and just to clarify think of building a science of awakening as partially a translation effort so you know in Mahayana Buddhism it's something like only three to seven percent of Mahayana sutras have been translated into English but I'm very glad that I got to read the Heart Sutra and the Diamond Sutra but there's a bunch of the Mahayana that's not accessible to English language readers and in the same way the benefits of awakening
+
+[1:34:13] are not currently accessible they're just starting to be accessible to sort of like the scientifically literate materialist zone of the population which is most people and so I think it's just important to name here that the science is a finger pointing at the moon but the risk is thinking that we're going to be able to reduce all of the personal nebulous sacred beauty
+
+[1:34:43] that comes from a spiritual journey into well here are the three metrics and if you just maximize these three you know and so what I'm hoping is that the scientific languaging and understanding of this mysterious process is adding another way of understanding that will hopefully make it more accessible to more people than we currently have and so with that said I was I was really heartened to hear as one of the
+
+[1:35:13] people I was I was in the sort of early wave of people doing meditation fMRIs I took a bunch of really experienced meditators put them in the scanner and hearing people say oh there's science behind it and that's why I meditate like there was not as much science behind it when I started you had to be kind of bonkers to like do this there wasn't like oh here's the meta analysis you know and so it's already happening the people in the room who are like oh well I was looking for something and there's some science behind this like this is for you and what I hope
+
+[1:35:46] just to put it in kind of a pithy way is that sort of I've never said this before this is just a phrase that's coming into my head but like universal basic enlightenment so some sense of a something that's deeply personal deeply meaningful that radically improves your life in ways that you couldn't imagine before is available to everyone who wants it let's have a big
+
+[1:36:19] round of applause for our panelists everyone I mean this is this is just I'm going to say a little bit and then I want to take the question I just want to say how grateful I am for these wonderful speakers and how grateful I am for their work I was telling Wyatt earlier that this is an incredible honor for me today it's like Christmas because I'm up here with three of my heroes who are doing the work that has paved the way for the work that that I am doing and that people like me are doing those people that you saw
+
+[1:36:50] earlier today to present so this is an incredible this is an incredible honor can we just have another round of applause please thank you thank you guys so I bet there are tons of questions Jasmine you can have the power yeah Jasmine's going to have a mic and another future lead here and Jasmine yeah why don't you why don't you pick a question from the audience oh thanks Luca it's an honor that was a
+
+[1:37:21] wonderful panel thank you guys so much I wanted to tie like two things that both Katie and Eddie said together and ask a question back to you guys the allure of being enlightened inherently puts people in a vulnerable place when it comes to businesses and I want to know like the realm of most things that have been built in the past have been highly full of grift and worries of cults and cosmological capture and I don't think any of that aligns with the outcome
+
+[1:37:52] that anyone is asking for or wanting to create there are some inherent structures though in the way we make agreements with consumerism and our current economic models and marketing in particular and without a lot of certainty on what we can offer people here are the three things that will get you to enlightenment is the current model that's being adopted by almost every business that's trying to create structure around it and communicate to people and some of that is the chaff that's just going to get lost while we develop these things but I want to know from you guys because you're
+
+[1:38:23] pretty committed to building actual structures that will scale and meet people how do you see those changing the agreements we make with one another and the finances the economics and the marketing I think that speaks directly to the translational piece how do you translate the science or the technology into the world of capitalism into the world of technology where that's not inherently obvious and so my answer
+
+[1:38:55] is I don't have the answers and my commitment to that and what I'm trying to do is build essentially the group of people that can start answering that and then test and iterate and get better over the next decade like what does it actually mean to build technology that aligns the sacred and how can we start taking steps from where we are today through that journey because it's one of the biggest challenges that's out there and again it's going to be
+
+[1:39:25] an intention and commitment to figuring it out and constant iteration and really looping in this community of builders as much as possible and that's the journey that the organization is on and the intention is to come out of this period with at least a starting point of what those principles are and then how do we actually just published his second book around this exact topic
+
+[1:39:55] is how do you create governance that stops essentially capitalism to fully corrupt the company and how do you go from investor led decision making to purpose or mission led decision making to minimize that mission drift that you alluded to and so it's already coming in and so it's like what are these principles and how do we lock it in and just get smarter and smarter over the next 5-10 years as much as possible yeah incentive structures are tricky and I think we're possibly
+
+[1:40:26] about to culturally discover why a lot of these practices were typically done by donation we may have like a looping around of that and just just to say only a little about it I think there's sort of two key things which is accessibility and empowerment so making sure that any sort of tech that works spiritually speaking is accessible to as many people as possible and creating I help journey create business models so that
+
+[1:40:56] that could happen and then empowering individual people to trust their own experience so I spend a lot of time with my students telling them like never try to have someone else's experience your own experience is always like where you're coming from and that's pretty powerful kind of anti-cult technology but I think as we start to understand these things more and more deeply the understanding will help I mean it's the same way as like you know you've got your VO2 max that's a number
+
+[1:41:26] like some guy can't just read you a pretty poem and have it change your VO2 well you guys you know what I'm saying like having more metrics will make accountability structures better for people who are on the like grifting end of the spectrum but there's a saying that Mikey who founded consciousness hacking likes to say a lot is we are what we build and we build what we are and so a lot of these companies and like interfaces between say
+
+[1:41:57] spiritual techniques and technologies and the marketplace a lot of that is honestly going to be dictated by the for lack of a less clumsy term level of consciousness of the founder and the more work like individuals can do on themselves and in groups to build something that is in integrity with their own values and doesn't capitulate to the default incentive structures of the world the more people who can do that the better hello
+
+[1:42:32] my name is Marion Felix and my question is would the panel be interested in partnering with a program in South Africa I work in a poor community a lot of single well children with single parenting poverty a lot of violence and in 2015
+
+[1:43:02] we started a yoga program in the high schools we did it for five years before COVID we were doing yoga with 5,000 children on a weekly basis and the words that came out of it would be I can forgive my father I can speak to my mother I can focus the story in my head is no longer the dominating thing that holds me back and we have 20
+
+[1:43:33] youngsters coming through our program and they learn they live a yogic lifestyle for the one year they're with us what's your program called it's now called stretch education it was yoga for Alex let's talk one-on-one after it seems like a great conversation to come up and if there are any other questions that are more about collaborations everyone here is very interested in meeting people working in this space business cards you can take one business card guy always yells
+
+[1:44:03] at me for forgetting my cards I remembered my cards please take some Stefan will be so happy people love business cards hi a question for you on the spirit tech industry do you perceive it as currently being more demand constrained where consumers either don't have the desire to end their suffering or the vocabulary to seek the end of their suffering or do you perceive it as more supply constrained where there's maybe a lack of interventions with proven efficacy services and technology to solve
+
+[1:44:33] the problem of suffering short answer both long answer long answer I think it's probably it's the chicken and egg problem right because the the actual market for spiritual development outside of tech is growing incredibly fast and I think we're still probably a year two three years away from it really taking off that's what I sense but if you look at the market itself I think I'm going
+
+[1:45:05] to project right now my assumption is that most people in this room when they think about spirit tech look at a relatively narrow band of spirit tech they look at you know the meditation apps they look at the meditation devices they look at you know different technologies that can put people into absorption states that are not tied to any sort of religion that's and that's that was my starting point but if you look at the market more broadly if you look at for example faith tech faith tech is just blowing up and we can
+
+[1:45:36] have whatever conversation around what that shows but what I'm seeing is that the demand for something that's outside of just purely what we see in this material world is increasing very very quickly and you can see so many indicators for that and then the actual demand for spirit tech is not growing as fast because there aren't like that we've had the meditation apps we had calm headspace but the big elephant in the room in the sector is in the last five years
+
+[1:46:06] very few people can point to a company that's really had any sort of impact at scale and so I think we're in this inflection point of new possibility with AI with neuroscience that can really meet this moment in a completely different way and I think it is that chicken and egg problem for spirit tech specifically but if you look at all of the leading indicators of the broader spiritual development market it's really starting to go like this that's what I see there's something
+
+[1:46:37] I want to add to that which is part of why I'm so interested in what our panelists are talking about today which is I think we also have in this idea of not framing the conversation correctly if you think about all the people who spend money on alcohol who spend money on recreation and things that distract that escape instead of allowing them to understand their current life more and maybe even own and step into their world step into their reality
+
+[1:47:07] so they can be better family members or be better professionals or whatever it is all these things that are escapes all the money that goes into those industries could these perhaps also be the pain points that work like this could solve that the huge industries that solve those issues now through distraction could be replaced by industries that solve them through resolution can I also add one thing to that something that I think about a lot
+
+[1:47:38] is right now in the spirit tech market or in the wellness market it's like you have an app for better sleep you have an app for better memory you have an app for I mean every single one of those markets is so is big and growing within the wellness sector so many people are spending money for better wellness my experience I only speak for myself and I guess I won't speak for myself speak for myself and the people that surround me what I've noticed is if I just commit to my own spiritual development all of those other things my sleep has gotten better
+
+[1:48:08] my relationships gotten better my memory has gotten better my productivity like all of those things come as a secondary result of this commitment to that spiritual development spiritual development process and so if we look at it that way as the two beautiful people to my to my right have or I guess your guys left have been as soon as we start showing the science of that then all of a sudden people will be more interested in technology for the sake of spiritual development
+
+[1:48:38] and then all of those pain points and problems that people are optimizing for spending a lot of money solving for then become secondary impact of that inner transformation process before we take another question is there do you know we've got a little more time okay fantastic Jasmine go for it all right this is like the Avengers right here this is great I want to
+
+[1:49:08] know from each of you on the actual application layer of like actually affecting people's lives what's each of your holy grails no matter how far out it may be what excites you the most on the actual application layer of democratizing enlightenment well I mean democratizing enlightenment is very exciting to me I'm not exactly sure of your question we're given an example of what technology okay well I wouldn't even
+
+[1:49:38] want to pin it necessarily to technology but the application of not like apps but like the applied science in the world what's your holy grail of things that you're most excited about so you're talking about things that exist right now you would want to see that I would want to exist yeah yeah I would love to see very reliable well I mean
+
+[1:50:12] I'd love to see technology that produces reliable results that obviously have to be measurable in some way that would include for awakening but also for things like healing I think I'm very optimistic as you know that the automation and scaling of healing tech for certain modalities I think is possible right now and I'm sure teams out there are working on building out some
+
+[1:50:43] of it and if I imagine like what the world's trauma burden is and I imagine like say cutting that in half is very exciting I think that's a worthy and achievable goal in the next 10 years through tech scalable tech any specific things from either of you I mean there's so many as you the one holy grail
+
+[1:51:13] the holy grail the holy grail for me I think one of the biggest challenges for a lot of people is integrating insight integrating spiritual practice into daily life and the whole reason at least in my world view that one does spiritual practice is to show up in the world in a different way and there's often times I think the hardest part of the journey between like oh I understand that there's a different way of being and getting through all of
+
+[1:51:44] the distortions and karma that's in kind of our in our being in our experience that's a really really challenging gap before you can really show up in that way and so the technology that I'm most excited about and we have all the components to it so it's actually to me not that far out it's really how do you bring it together how do you craft the user experience of it is integration of essentially these psychological or physiological
+
+[1:52:15] biomarkers that can really indicate when you are in a moment of contraction when you are in a moment of trigger combined with an AI that can understand so you have the physiological internal compass and then you have an external understanding of what you're going through that can combine to really guide you in that moment into that inquiry trigger by trigger by trigger and if I'm really going now a little
+
+[1:52:45] bit further to really understand what state of awareness you're operating from and be able to guide you back into the most wide the highest state of awareness that's accessible to you in that moment so you can meet that trigger in a different way so I don't know what it would look like if I knew I would build it like now but instead like the facilitating the science is to sort of bring about whatever the thing is that it's going to look like but I want it to look
+
+[1:53:15] like the bicycle the bicycle the enlightened cycle the enlicicle like that level of accessibility and universality whatever it looks like that's what I want it to be like I also really like maybe we can talk more about that afterward we can take another question right Shaka okay so we're just kind of going we're going a little bit over time so if anyone wants to come up afterwards we'll be
+
+[1:53:45] able to do that in a few minutes Jasmine do you want to grab another person for a question we'll do one more one more and then we'll thank you so you know Winslow when you were talking about the three buckets of resistance right so could there be like a conditioning and re-languaging of what meditation is like when I talk to people now I often say well I've been rewiring my brain for the last many years and now
+
+[1:54:17] you know that's helped me to be able to like bring up peace and joy on demand so that's a kind of languaging you know it's like what you were saying with the you know with the marathons right look at yoga yoga before was affiliated with the eastern languages because I know when I'm with like the catholic community from latin america from africa or any muslims when I mention meditation there's immediate you know so
+
+[1:54:48] since you are all in leadership teams and the people here what can we do to bring that I'm going to call rebranding almost right rebranding and repositioning like how did that happen to yoga how did that happen to marathon how can we do that and really accelerate that rethinking of it I mean even my culture the asian culture right where a lot of this came from what does the modern asians do they're trying to be doctors and engineers they're not meditating right
+
+[1:55:19] so there's a perception issue yeah I think that's a very important question I don't claim to be like a genius for how to best language or market this one observation I have is that the languaging the ideal languaging will be different for different groups and so also the ideal like ambassadors or experts will be different for different groups and we're living at least for younger
+
+[1:55:49] people like Gen Z maybe millennials in a very influencer based oriented culture and it strikes me that part of the answer here is like there need to be spiritual influencers and they need to be well tailored to their niche audience and it strikes me that a few such people exist one I'm kind of very enamored of investigating is Frank Yang he was like
+
+[1:56:19] a bro bodybuilder got really into meditation chronicled his whole path on video and believes he became fully enlightened in the Buddhist sense and even has that moment on video on YouTube and I'm like I bet that speaks to a certain audience like perhaps the bro bodybuilder audience like it's proof positive that someone from that that culture can walk this path and actually probably bring to bear many of the practices and skills from that
+
+[1:56:51] kind of pursuit into spirituality like experimentation iteration checking what works trying to figure out if you're how to actually assess what works and like perseverance and consistency come to mind so yeah I think it's going to be like many ideal types of like influencers and languaging for different groups and I don't claim to know what like the overarching best mass market languaging would be I think we should get busy
+
+[1:57:21] testing language I think your languaging of like rewiring your mind you say or your brain yeah I think that's great for like say Silicon Valley language because a lot of engineers right and engineering is like baked into the culture and you're speaking kind of engineering language to them and I think that makes sense why that has traction yeah I think the neuroplasticity angle being able to have people who are very grounded in that and can talk about it that way I think people being able
+
+[1:57:52] to speak authentically from their own experience like you are very clearly doing really matters not parroting something somebody else is saying and there's it shows a little bit how much of a bubble I'm in personally that when we came up with awakening instead of using you know enlightenment or a different like more spiritual term I was like oh awakening this is like hippie and there's a new foundation that's using the term aliveness for like
+
+[1:58:23] moments of aliveness like being in touch with your aliveness and I think that's a really nice secular framing of some of these like deep and transformative practices they do make you feel more more alive in your body so I'm excited about that phrasing so I want to I want to comment on this question too and then we're going to wrap all this up this because this has been an incredible panel and I want to preserve our energy for the next conversations that are coming throughout the day I'm sure where I'm also
+
+[1:58:54] very interested in this question because I think we've got a bit of a marketing conversation going there's also maybe a nerdier side of this that's more etymological and the genealogy even of the term meditation that these terms they change over time and the term meditation was has been used to describe practices from other cultures and to translate languages you know translate from other languages to something that we can use in English but there are these
+
+[1:59:24] there are practices also within for example because we're in the United States so we're part of a Christian heritage and meditation practice that term meditatio it comes from the Latin from practices from within that tradition and that comes from ancient Greek and the idea of skill training and so I just want to inspire people a little bit that these terms they're super malleable and as much as we're right now looking
+
+[1:59:54] for the thing like oh yes we say that we're going to get everyone in San Francisco to meditate which would be fantastic but let's not stop with San Francisco but we can also play a role in shaping this and we don't have to accommodate what we think people want to hear but we can also learn how do we fold deeper into a truly honest and representative understanding of how we are engaging with these terms how we are engaging with these ideas that's that's something that I care really deeply
+
+[2:00:24] about and I want to offer for the conversation and I want to say I am again just so grateful so let us have one final round of applause please everyone thank you so much thank you so much Katie Winslow Eddie and I'm sure you'll be around today right if people want to find you do you have anything you want to share for people to connect with you sure our website is cofo.org we are the consciousness foundation and we take ourselves very seriously hence the cofo
+
+[2:00:55] so cofo.org and we have a sub stack that you can subscribe to and we're in the middle of a grant program right now we're about to release a write-up in the next month of what we're funding so if you sign up for that you'll get that write-up in your inbox recommend that grab a card it's got my email and our website on it and a local plug for those of you who want to learn more about the entropic brain there's a movie showing tonight at 8pm in the hub
+
+[2:01:25] that's an hour-long movie about predictive processing psychedelics and the neuroscience of those things and Jake Orthwine who made the movie will be doing a Q&A afterwards with me also so that's tonight at 8 and it is like the most spoonful of sugar way to learn about the neuroscience behind this stuff you spend an hour and you've got most of it without reading like 25 academic papers so tonight at 8 see you there thank you Eddie or Winslow
+
+[2:01:56] anything for people to connect with you I turned off my mic so I'll be a little bit kind of more short-termism which is I'm hungry so if anybody wants to talk over lunch I have about 45 minutes so any builders want to come let me know fantastic yeah I'm also planning to get lunch so welcome some company lunch squad alright thank you again one final round of applause and thank you
+
+[2:02:26] everyone have a great day thank you thank you

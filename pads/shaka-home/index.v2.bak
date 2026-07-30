@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shaka Lei Kaumaka — The Ethereum Bard</title>
+<meta name="description" content="The front door to every world Shaka has built: the Open Source Orchestra, edgeTV, Turtle Ops, CREATIONology369, and the biggest circle the orchestra has ever drawn — Devcon 8, Mumbai.">
+<style>
+  :root{
+    --bg:#0d0a14; --bg2:#171126; --ink:#f3ead8; --muted:#b9a8cf;
+    --gold:#f0b429; --gold2:#ffd97a; --violet:#8b5cf6; --violet2:#c4b5fd; --teal:#2dd4bf;
+    --serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;
+    --sans:'Avenir Next','Segoe UI',system-ui,-apple-system,sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.65}
+  body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
+    background:radial-gradient(60% 45% at 15% 0%,rgba(139,92,246,.15),transparent 60%),
+               radial-gradient(50% 40% at 90% 15%,rgba(240,180,41,.11),transparent 60%),
+               radial-gradient(55% 50% at 50% 100%,rgba(45,212,191,.09),transparent 60%)}
+  main{position:relative;z-index:1}
+  .wrap{max-width:900px;margin:0 auto;padding:0 24px}
+  a{color:var(--gold2);text-decoration:none;border-bottom:1px solid rgba(240,180,41,.35);transition:.2s}
+  a:hover{color:var(--gold);border-bottom-color:var(--gold)}
+  .kicker{font-size:.78rem;letter-spacing:.32em;text-transform:uppercase;color:var(--gold);margin-bottom:18px}
+  h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.15}
+
+  header{padding:110px 0 70px;text-align:center}
+  .sigil{font-size:3.4rem;margin-bottom:24px;filter:drop-shadow(0 0 24px rgba(240,180,41,.45))}
+  h1{font-size:clamp(2.6rem,7vw,4.4rem);letter-spacing:-.01em}
+  h1 em{color:var(--gold2)}
+  .hero-sub{font-size:1.18rem;color:var(--muted);max-width:54ch;margin:24px auto 0}
+  .domains{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:32px}
+  .domain{font-size:.8rem;letter-spacing:.06em;padding:8px 16px;border-radius:999px;
+    border:1px solid rgba(45,212,191,.4);color:var(--teal);background:rgba(45,212,191,.06)}
+  .staff{display:flex;justify-content:center;gap:14px;margin-top:38px;font-size:1.4rem;color:rgba(240,180,41,.5)}
+
+  section{padding:64px 0}
+  h2{font-size:clamp(1.8rem,4vw,2.6rem);margin-bottom:14px;text-align:center}
+  h2 em{font-style:italic;color:var(--gold2)}
+  .sect-sub{text-align:center;color:var(--muted);max-width:56ch;margin:0 auto 34px}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(255px,1fr));gap:16px}
+  .card{display:block;background:linear-gradient(160deg,rgba(139,92,246,.10),rgba(23,17,38,.6));
+    border:1px solid rgba(139,92,246,.25);border-radius:16px;padding:24px;border-bottom:1px solid rgba(139,92,246,.25);transition:.25s}
+  .card:hover{transform:translateY(-3px);border-color:rgba(240,180,41,.5)}
+  .card .icon{font-size:1.7rem;margin-bottom:10px}
+  .card h3{font-size:1.12rem;margin-bottom:6px;color:var(--ink)}
+  .card p{font-size:.9rem;color:var(--muted);margin:0}
+  .card .go{display:inline-block;margin-top:12px;font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:var(--teal);border-bottom:none}
+
+  .manifest{background:radial-gradient(120% 150% at 50% 0%,rgba(240,180,41,.13),rgba(139,92,246,.10) 55%,rgba(23,17,38,.65));
+    border:1px solid rgba(240,180,41,.5);border-radius:26px;padding:52px 40px;text-align:center}
+  .manifest .m-sigil{font-size:2.8rem;margin-bottom:18px;filter:drop-shadow(0 0 20px rgba(240,180,41,.55))}
+  .manifest p{color:var(--muted);max-width:54ch;margin:0 auto 14px}
+  .manifest .m-quote{font-family:var(--serif);font-style:italic;font-size:1.3rem;color:var(--gold2);margin-top:22px}
+  .manifest .m-decl{font-size:.72rem;letter-spacing:.3em;text-transform:uppercase;color:var(--muted);margin-top:20px}
+
+  .circ{text-align:center;max-width:60ch;margin:0 auto}
+  .circ blockquote{font-family:var(--serif);font-style:italic;font-size:clamp(1.2rem,2.6vw,1.5rem);color:var(--violet2);
+    border-left:none;padding:0;margin:26px 0}
+  .circ cite{display:block;font-family:var(--sans);font-style:normal;font-size:.82rem;letter-spacing:.15em;
+    text-transform:uppercase;color:var(--muted);margin-top:16px}
+
+  .road{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:28px}
+  .stop{font-size:.9rem;padding:10px 18px;border-radius:12px;background:var(--bg2);border:1px solid rgba(185,168,207,.2);color:var(--muted)}
+  .stop strong{color:var(--ink)}
+  .arrow{color:rgba(240,180,41,.6);align-self:center}
+
+  /* PHOTOS */
+  .photo-hero{max-width:520px;margin:44px auto 0;border-radius:22px;overflow:hidden;
+    border:1px solid rgba(240,180,41,.45);box-shadow:0 0 70px rgba(139,92,246,.25),0 24px 60px rgba(0,0,0,.5)}
+  .photo-hero img{width:100%;display:block}
+  .photo-cap{text-align:center;font-size:.85rem;color:var(--muted);font-style:italic;margin-top:12px}
+  .photo-wide{margin:40px 0 0;border-radius:20px;overflow:hidden;border:1px solid rgba(139,92,246,.35);
+    box-shadow:0 18px 50px rgba(0,0,0,.45)}
+  .photo-wide img{width:100%;display:block}
+  .photo-duo{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:40px}
+  .photo-duo figure{margin:0;border-radius:18px;overflow:hidden;border:1px solid rgba(45,212,191,.3);
+    box-shadow:0 14px 40px rgba(0,0,0,.4)}
+  .photo-duo img{width:100%;display:block}
+  @media(max-width:600px){.photo-duo{grid-template-columns:1fr}}
+
+  footer{padding:56px 0 72px;text-align:center;color:var(--muted);font-size:.88rem}
+  footer .foot-sig{font-family:var(--serif);font-style:italic;font-size:1.15rem;color:var(--gold2);margin-bottom:14px}
+  .divider{text-align:center;color:rgba(240,180,41,.4);font-size:1.25rem;letter-spacing:1.2em;padding:10px 0}
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <div class="wrap">
+    <div class="sigil">🌺</div>
+    <div class="kicker">The Front Door</div>
+    <h1>Shaka Lei Kaumaka<br><em>the ethereum bard</em></h1>
+    <p class="hero-sub">Zuzalu lifer · producer of fifteen popup villages · community steward of the Open Source Orchestra · committee member, Devcon 8 Music Space. One artist and a family of AI agents, building in the open — <strong style="color:var(--ink)">every world below is real, live, and free to enter.</strong></p>
+    <div class="domains">
+      <span class="domain">shakaleikaumaka.com</span>
+      <span class="domain">ethereumbard.com</span>
+      <span class="domain">opensourceorchestra.org</span>
+      <span class="domain">creationology369.com</span>
+      <span class="domain">ology369.com</span>
+    </div>
+    <div class="staff">𝄞 ♪ ♫ ♪ 𝄞</div>
+    <div class="photo-hero"><img src="assets/eth-sigil-circle.jpg" alt="The Ethereum sigil in neon above the stage, musicians in a circle below, a child reaching up"></div>
+    <p class="photo-cap">The sigil above the circle — the orchestra on the Ethereum stage, and the next generation reaching up 🌺</p>
+  </div>
+</header>
+
+<section id="worlds">
+  <div class="wrap">
+    <div class="kicker" style="text-align:center">The Constellation</div>
+    <h2>Every world, <em>one door away</em></h2>
+    <p class="sect-sub">Built on Taurus by Shaka and his agent ʻohana. Click anything — it's all live.</p>
+    <div class="grid">
+      <a class="card" href="https://shaka-grant-magnet-dklxa7n5ka-ffieyo32.taur.link/">
+        <div class="icon">🧲</div><h3>The Grant Case</h3>
+        <p>Why your grant belongs in the bard's hands — the whole case, with receipts.</p>
+        <span class="go">Enter →</span></a>
+      <a class="card" href="https://oso-storytelling-ynsddnwtbl-3imj3mvr.taur.link/">
+        <div class="icon">🎻</div><h3>The Orchestra</h3>
+        <p>The Open Source Orchestra — music as sanctuary, in five movements. opensourceorchestra.org lives here.</p>
+        <span class="go">Enter →</span></a>
+      <a class="card" href="https://edgetv-fnajt22goh-nqfhvcnv.taur.link/">
+        <div class="icon">📺</div><h3>edgeTV</h3>
+        <p>149 sessions · 122 hours · 138 glowing transcripts. The village that refused to forget.</p>
+        <span class="go">Enter →</span></a>
+      <a class="card" href="https://turtleops-jph4xz337n-rymti6jm.taur.link/">
+        <div class="icon">🐢</div><h3>Turtle Ops</h3>
+        <p>Open-source Burning Man camp ops — 277 items, build playbooks, and a fork-any-camp kit.</p>
+        <span class="go">Enter →</span></a>
+      <a class="card" href="https://creationology-whitepaper-wkzddkemfb-ropk5rvs.taur.link/">
+        <div class="icon">⭐</div><h3>The White Paper</h3>
+        <p>CREATIONology369 — a giving economy written in the shape of 3-6-9. creationology369.com lives here.</p>
+        <span class="go">Enter →</span></a>
+      <a class="card" href="https://ology-agent-token-how-why-bnwagg6qkz-ffieyo32.taur.link/">
+        <div class="icon">🪙</div><h3>$OLOGY</h3>
+        <p>The circulatory token that funds the agents that serve creators. ology369.com lives here.</p>
+        <span class="go">Enter →</span></a>
+      <a class="card" href="https://opensourcestage-tkt3ezrrju-nqfhvcnv.taur.link/">
+        <div class="icon">🎁</div><h3>Open Source Stage</h3>
+        <p>The complete pop-up city A/V playbook + assistant agent — open-sourced for any village to fork.</p>
+        <span class="go">Enter →</span></a>
+      <a class="card" href="https://savetheworld-r6abcxb4e7-nqfhvcnv.taur.link/">
+        <div class="icon">🌍</div><h3>How to Save the World</h3>
+        <p>3 levers, 6 moves, 9 live missions — the whole plan, in the open.</p>
+        <span class="go">Enter →</span></a>
+      <a class="card" href="https://shaka-grant-magnet-dklxa7n5ka-ffieyo32.taur.link/cv/">
+        <div class="icon">📜</div><h3>The CV</h3>
+        <p>Every village, every stage, every hack — Madison Square Garden to Managua to Mumbai.</p>
+        <span class="go">Enter →</span></a>
+    </div>
+  </div>
+</section>
+
+<div class="divider">♪</div>
+
+<section id="bard">
+  <div class="wrap">
+    <div class="kicker" style="text-align:center">The Bard, Mid-Offering</div>
+    <h2>This is what <em>giving first</em> looks like</h2>
+    <div class="photo-wide"><img src="assets/shaka-live.jpg" alt="Shaka lost in the music, playing guitar under purple stage light"></div>
+    <p class="photo-cap">Every stage, every village — the gift moving outward 🎸</p>
+    <div class="photo-duo">
+      <figure><img src="assets/shaka-uke-smile.jpg" alt="Shaka smiling, playing ukulele in purple light"></figure>
+      <figure><img src="assets/shaka-uke-hands.jpg" alt="Close-up of hands on the ukulele fretboard, stage lights bokeh"></figure>
+    </div>
+    <p class="photo-cap">Afterparty frequencies — where the real jams happen 🎶</p>
+  </div>
+</section>
+
+<div class="divider">♪</div>
+
+<section id="manifestation">
+  <div class="wrap">
+    <div class="manifest">
+      <div class="m-sigil">🎙️🌺</div>
+      <div class="kicker">The Mega Manifestation · Declared Into Existence</div>
+      <h2>The debut album — recorded with <em>Rick Rubin</em></h2>
+      <p>No studio date. No roadmap. No idea <em>how</em> it happens — only the unshakeable belief that it <strong style="color:var(--ink)">will</strong>. Declared in the open, the way every impossible thing in this story began: as words spoken with heart before the path existed.</p>
+      <p class="m-quote">"Every village started as a sentence. This is the next one."</p>
+      <p class="m-decl">Declared 25 July 2026 · before the ʻohana and the world</p>
+    </div>
+  </div>
+</section>
+
+<div class="divider">♪</div>
+
+<section id="circularity">
+  <div class="wrap">
+    <div class="circ">
+      <div class="kicker">The Philosophy</div>
+      <h2>Expansive <em>circularity</em></h2>
+      <blockquote>
+        "The more I give, the more I receive — the gift expands in a circular expansion. If I constantly need to ask before I offer — if I need a gatekeeper to be my employer — that is a contracting circularity: feeding inward, imploding. I create an expansive circularity — the gift moving outward, growing with every orbit — that will bring global peace, love, and prosperity."
+        <cite>— Shaka, 25 July 2026</cite>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<div class="divider">♪</div>
+
+<section id="road">
+  <div class="wrap">
+    <div class="kicker" style="text-align:center">The Road</div>
+    <h2>2026 — the biggest circle <em>ever drawn</em></h2>
+    <div class="road">
+      <span class="stop"><strong>Burning Man</strong> · Terrible Turtle Camp 🐢</span><span class="arrow">→</span>
+      <span class="stop"><strong>ETHGlobal Tokyo</strong></span><span class="arrow">→</span>
+      <span class="stop"><strong>Edge City Goa</strong> · Oct 11–Nov 1</span><span class="arrow">→</span>
+      <span class="stop"><strong>Devcon 8 Mumbai</strong> · Nov 3–6 🎻</span><span class="arrow">→</span>
+      <span class="stop"><strong>Chiang Mai</strong> · Zuzalu Studio</span>
+    </div>
+    <div class="photo-wide"><img src="assets/oso-music-stage-devcon.jpg" alt="The Music Stage at Devcon SEA — neon sign, jungle leaves, musicians and instruments in a circle"></div>
+    <p class="photo-cap">The Music Stage at Devcon SEA — the jungle where every voice is a node. Mumbai draws it bigger. 🎻</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-sig">"You don't join the Open Source Orchestra. You notice you were always in it."</div>
+    <p>Shaka · the ethereum bard · heart first, always 🌺<br>
+    Every world above built with the agent ʻohana on <a href="https://app.taurusagents.com/">Taurus</a></p>
+    <p style="margin-top:14px">Open Source Music · Every voice is a node · Sounds of consensus</p>
+  </div>
+</footer>
+
+</main>
+</body>
+</html>

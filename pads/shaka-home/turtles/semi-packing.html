@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Semi-Trailer Packing Planner 🚛🐢 | Turtle Ops — Terrible Turtle Camp</title>
+<meta name="description" content="Zone-by-zone load plan for the 51-ft semi trailer: LAST IN = FIRST OUT, reverse build order, weight & balance over the triple axle, and the Day-1 BUILD WEEK BOX at the doors.">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+  :root {
+    --tt-orange:#eb5833; --tt-coral:#fd6844; --tt-amber:#db9840; --tt-gold:#e5a14b;
+    --tt-red:#cc272e; --night:#030915; --night-2:#071123; --card:#0b1628; --card-2:#111b28;
+    --border:#1f2a38; --cream:#f7f0eb; --cream-dim:#ddd6d1; --sand:#8a7d75;
+    --radius:12px; --radius-lg:20px; --ok:#69db7c; --warn:#ffd43b; --bad:#ff8787; --aqua:#4dd4e8;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{font-family:'Rajdhani',sans-serif;background:var(--night);color:var(--cream);line-height:1.6;font-size:18px;}
+  .container{max-width:960px;margin:0 auto;padding:20px;}
+  a{color:var(--tt-orange);}
+  .topnav{padding:18px 0;font-weight:600;}
+  .topnav a{text-decoration:none;color:var(--tt-coral);}
+  .hero{text-align:center;padding:26px 10px 20px;}
+  .hero .icon{font-size:3rem;display:block;margin-bottom:8px;}
+  .hero h1{font-size:clamp(1.8rem,6.5vw,3rem);font-weight:700;text-transform:uppercase;letter-spacing:.02em;
+    background:linear-gradient(135deg,var(--cream) 20%,var(--aqua),var(--tt-orange));
+    -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:8px;}
+  .hero .sub{color:var(--cream-dim);font-size:1.1rem;max-width:700px;margin:0 auto;}
+  .badge{display:inline-block;padding:4px 14px;background:rgba(255,212,59,.1);color:var(--warn);
+    border:1px solid rgba(255,212,59,.4);border-radius:16px;font-size:.75rem;font-weight:700;
+    letter-spacing:.14em;text-transform:uppercase;margin-top:12px;}
+  .specbar{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin:18px 0;}
+  .spec{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:10px 18px;text-align:center;}
+  .spec .n{font-family:'JetBrains Mono',monospace;color:var(--tt-gold);font-weight:600;font-size:1.05rem;}
+  .spec .l{font-size:.75rem;color:var(--sand);text-transform:uppercase;letter-spacing:.1em;}
+  .panel{background:var(--card);border:1px solid var(--border);border-radius:var(--radius-lg);padding:22px;margin-bottom:14px;}
+  .panel ul{color:var(--cream-dim);margin:0 0 10px 22px;}
+  .panel li{margin-bottom:7px;}
+  .panel strong{color:var(--cream);}
+  .fig{background:var(--night-2);border:1px solid var(--border);border-radius:var(--radius);padding:10px;margin-bottom:14px;overflow-x:auto;}
+  .fig svg{width:100%;height:auto;display:block;min-width:760px;}
+  .fig.small svg{min-width:560px;max-width:720px;margin:0 auto;}
+  .tip{border-left:3px solid var(--warn);background:rgba(255,212,59,.05);border-radius:0 var(--radius) var(--radius) 0;
+    padding:10px 15px;color:var(--cream-dim);font-size:.95rem;}
+  .tip strong{color:var(--warn);}
+  .tip.danger{border-left-color:var(--bad);}
+  .tip.danger strong{color:var(--bad);}
+  .tip.david{border-left-color:var(--tt-gold);}
+  .tip.david strong{color:var(--tt-gold);}
+  .tip.ok{border-left-color:var(--ok);}
+  .tip.ok strong{color:var(--ok);}
+  .tip + .tip{margin-top:10px;}
+  h3.sect{font-size:1.4rem;text-transform:uppercase;color:var(--tt-gold);margin:30px 0 10px;text-align:center;}
+  table.t{width:100%;border-collapse:collapse;font-size:.92rem;margin:8px 0;}
+  table.t th{color:var(--tt-amber);text-transform:uppercase;font-size:.72rem;letter-spacing:.1em;text-align:left;padding:6px;border-bottom:1px solid var(--border);}
+  table.t td{padding:6px;border-bottom:1px solid var(--border);color:var(--cream-dim);vertical-align:top;}
+  table.t td:first-child{color:var(--cream);font-weight:600;}
+  /* SVG shared classes */
+  svg .ttl{fill:#8a7d75;font:700 12px 'JetBrains Mono',monospace;letter-spacing:.08em;}
+  svg .lbl{fill:#f7f0eb;font:700 14px 'Rajdhani',sans-serif;}
+  svg .lbl2{fill:#ddd6d1;font:600 12.5px 'Rajdhani',sans-serif;}
+  svg .lblw{fill:#ffd43b;font:700 13px 'Rajdhani',sans-serif;}
+  svg .lblb{fill:#ff8787;font:700 13px 'Rajdhani',sans-serif;}
+  svg .lbla{fill:#4dd4e8;font:700 13px 'Rajdhani',sans-serif;}
+  svg .lblg{fill:#69db7c;font:700 13px 'Rajdhani',sans-serif;}
+  svg .dim{fill:#8a7d75;font:600 11px 'JetBrains Mono',monospace;}
+  svg .dimline{stroke:#8a7d75;stroke-width:1.2;stroke-dasharray:4 3;fill:none;}
+  svg .leader{stroke:#8a7d75;stroke-width:1.4;fill:none;}
+  svg .arrow{stroke:#4dd4e8;stroke-width:2.6;fill:none;marker-end:url(#arrP);}
+  svg .ground{fill:#241d16;}
+  .footer{text-align:center;padding:36px 20px;border-top:1px solid var(--border);color:var(--sand);font-size:.95rem;margin-top:26px;}
+  .footer a{text-decoration:none;}
+  @media(max-width:640px){body{font-size:16px;}.container{padding:12px;}.panel{padding:16px;}}
+</style>
+<link rel="stylesheet" href="assets/turtle-cursor.css">
+</head>
+<body>
+<div class="container">
+
+<nav class="topnav"><a href="./">← Back to Turtle Ops</a> · <a href="map.html">🗺️ Camp Map</a></nav>
+
+<header class="hero">
+  <span class="icon">🚛🐢</span>
+  <h1>Semi-Trailer Packing Planner</h1>
+  <p class="sub">Jeremy said it: <em>"we will need lots of help planning how to pack the semi trailer."</em> Here it is — five zones, nose to doors, packed in reverse build order so Day 1 on playa starts with a smile instead of a dig. 🏜️</p>
+  <span class="badge">📦 Draft v1 · zones + weights are planning estimates · confirm with Jeremy &amp; David</span>
+</header>
+
+<div class="specbar">
+  <div class="spec"><div class="n">51 ft</div><div class="l">interior length</div></div>
+  <div class="spec"><div class="n">~8 ft</div><div class="l">interior width</div></div>
+  <div class="spec"><div class="n">9–10 ft</div><div class="l">interior height</div></div>
+  <div class="spec"><div class="n">65,000 lb</div><div class="l">GVWR</div></div>
+  <div class="spec"><div class="n">triple</div><div class="l">axle · 1996 Kentucky van</div></div>
+</div>
+
+<!-- CORE PRINCIPLE -->
+<h3 class="sect">🐢 The One Rule</h3>
+<div class="panel">
+  <div class="tip ok" style="font-size:1.1rem;"><strong>LAST IN = FIRST OUT.</strong> Whatever the build crew needs first on playa rides at the DOORS. Whatever isn't touched until event week gets buried at the NOSE. Pack in <strong>reverse build order</strong> — and strike is just the mirror: deepest zone refills first, door zone seals the truck.</div>
+  <div class="tip" style="margin-top:10px;"><strong>Why it matters:</strong> Build week is ~10 people on a clock, in the sun. Every hour spent digging past kitchen bins to reach a sledgehammer is an hour of shade that isn't standing yet. The trailer also stays on playa as the dormitory shade anchor and camp storage — so the load plan doubles as the camp's pantry map all week.</div>
+</div>
+
+<!-- BUILD-ORDER / UNLOAD SEQUENCE -->
+<h3 class="sect">📅 What Comes Out First — Unload Sequence</h3>
+<div class="panel">
+  <p style="color:var(--cream-dim);margin-bottom:10px;">Build order on playa drives everything. Shade stands before anything else can live under it (David's ship priority: keder rail → dorm shade hardware → IBCs → shower/water → kitchen polish later). So the unload runs like this:</p>
+  <table class="t">
+    <tr><th>Day</th><th>Comes out</th><th>From zone</th><th>Why now</th></tr>
+    <tr>
+      <td>Day 1<br><span style="color:var(--sand);font-weight:400;">Build wk start</span></td>
+      <td><strong>BUILD WEEK BOX:</strong> rolling tool chest, 8' + 12' ladders, sledgehammers, stakes (circus + concrete), keder rail + fasteners, aircraft cable + swaging tool + hardware bins, generator</td>
+      <td>Zone 5 (doors)</td>
+      <td>Nothing happens without tools, ladders, and staking hardware. Generator powers tools + keeps the freezer cold.</td>
+    </tr>
+    <tr>
+      <td>Day 1–2</td>
+      <td><strong>Shade:</strong> Aluminet roofs + walls, dormitory fabric, 4×4 posts, moving blankets, post bases</td>
+      <td>Zone 4</td>
+      <td>Dormitory + dining shade anchored to the trailer itself (keder rail @ 13–13.5'). Shade = survival; it goes up first.</td>
+    </tr>
+    <tr>
+      <td>Day 2–3</td>
+      <td><strong>Water &amp; shower:</strong> 2 IBC totes (empty, ~120 lb ea), cattle troughs, shower stall sections, pump + hose bin</td>
+      <td>Zone 3</td>
+      <td>Once shade is up, water distribution and the shower pods get built — Jeff Temmin fills on playa, so totes travel EMPTY.</td>
+    </tr>
+    <tr>
+      <td>Day 3+</td>
+      <td><strong>Kitchen bulk:</strong> NSF shelving (knocked down), stackable bins, 8' folding tables ×4, Brute cans</td>
+      <td>Zone 2</td>
+      <td>Kitchen trailer carries the appliances; the semi carries its furniture. Set up once the kitchen zone is staked.</td>
+    </tr>
+    <tr>
+      <td>Event week<br><span style="color:var(--sand);font-weight:400;">Aug 31 →</span></td>
+      <td><strong>Deep storage:</strong> AI Oracle totes + 3 tents, consumables, spare fabric, camp overflow</td>
+      <td>Zone 1 (nose)</td>
+      <td>AI Oracle tents deploy when sites are ready; consumables get pulled as needed. Nose = the camp's back-of-house all week.</td>
+    </tr>
+  </table>
+  <div class="tip david"><strong>Strike mirror (Sep 7–10):</strong> reverse it. Nose zone refills first as event-week stuff gets packed, door zone (tools, ladders, generator) loads LAST so it's first out back at Phoenix Gulch. Sweep the floor before the doors close — Leave No Trace rides home with us.</div>
+</div>
+
+<!-- LOAD PLAN SVG -->
+<h3 class="sect">🗺️ The Load Plan — Side Elevation</h3>
+<div class="panel">
+  <div class="fig">
+  <svg viewBox="0 0 1220 470" role="img" aria-label="Side elevation of the 51-foot semi trailer interior divided into five load zones from nose to doors">
+    <defs>
+      <marker id="arrP" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+        <path d="M0,0 L10,5 L0,10 z" fill="#4dd4e8"/>
+      </marker>
+    </defs>
+
+    <!-- title -->
+    <text x="20" y="26" class="ttl">51' NORTHAMERICAN VAN · SIDE ELEVATION · NOSE (KINGPIN) LEFT → REAR DOORS RIGHT · 1 ft ≈ 22 px</text>
+
+    <!-- direction arrows -->
+    <text x="40" y="58" class="lbla">◀ LOAD START (nose, deepest)</text>
+    <text x="1180" y="58" text-anchor="end" class="lblw">UNLOAD HERE — REAR DOORS ▶</text>
+
+    <!-- trailer shell -->
+    <rect x="40" y="90" width="1122" height="220" fill="#0b1628" stroke="#4a5563" stroke-width="3"/>
+    <line x1="40" y1="90" x2="1162" y2="90" stroke="#8b97a3" stroke-width="2"/>
+    <!-- roof marker: keder rail reminder -->
+    <text x="600" y="82" text-anchor="middle" class="dim">EXTERIOR: keder rail mounts at 13–13.5' — dorm shade anchors to this trailer on playa</text>
+
+    <!-- zone fills (y 92..308) -->
+    <rect x="42"  y="92" width="216" height="216" fill="rgba(77,212,232,.10)"/>
+    <rect x="260" y="92" width="218" height="216" fill="rgba(105,219,124,.08)"/>
+    <rect x="480" y="92" width="218" height="216" fill="rgba(229,161,75,.10)"/>
+    <rect x="700" y="92" width="262" height="216" fill="rgba(235,88,51,.10)"/>
+    <rect x="964" y="92" width="196" height="216" fill="rgba(255,212,59,.14)"/>
+
+    <!-- zone dividers -->
+    <line x1="260" y1="92" x2="260" y2="308" stroke="#4a5563" stroke-width="2" stroke-dasharray="6 4"/>
+    <line x1="480" y1="92" x2="480" y2="308" stroke="#4a5563" stroke-width="2" stroke-dasharray="6 4"/>
+    <line x1="700" y1="92" x2="700" y2="308" stroke="#4a5563" stroke-width="2" stroke-dasharray="6 4"/>
+    <line x1="964" y1="92" x2="964" y2="308" stroke="#ffd43b" stroke-width="2.5" stroke-dasharray="6 4"/>
+
+    <!-- zone 1 -->
+    <circle cx="70" cy="120" r="15" fill="none" stroke="#4dd4e8" stroke-width="3"/><text x="65" y="126" class="lbla">1</text>
+    <text x="92" y="118" class="lbla">NOSE — EVENT WEEK</text>
+    <text x="92" y="136" class="lbl2">deep storage · out last</text>
+    <text x="52" y="170" class="lbl2">🔮 AI Oracle totes + 3 tents</text>
+    <text x="52" y="190" class="lbl2">🥫 consumables / dry goods</text>
+    <text x="52" y="210" class="lbl2">🧵 spare fabric + repair kit</text>
+    <text x="52" y="230" class="lbl2">🎒 camp overflow / personal</text>
+    <text x="52" y="250" class="lbl2">   group gear</text>
+    <text x="52" y="286" class="dim">LOAD ORDER #1 · est 800–1,200 lb</text>
+
+    <!-- zone 2 -->
+    <circle cx="288" cy="120" r="15" fill="none" stroke="#69db7c" stroke-width="3"/><text x="283" y="126" class="lblg">2</text>
+    <text x="310" y="118" class="lblg">KITCHEN BULK</text>
+    <text x="310" y="136" class="lbl2">furniture, not appliances</text>
+    <text x="270" y="170" class="lbl2">🗄️ NSF wire shelving ×4 (KD)</text>
+    <text x="270" y="190" class="lbl2">📦 stackable food bins</text>
+    <text x="270" y="210" class="lbl2">🪑 8' folding tables ×4 (flat)</text>
+    <text x="270" y="230" class="lbl2">🗑️ Brute 44-gal cans ×2</text>
+    <text x="270" y="250" class="lbl2">🧊 cold-box panels (if not in</text>
+    <text x="270" y="268" class="lbl2">   kitchen trailer)</text>
+    <text x="270" y="294" class="dim">LOAD ORDER #2 · est 900–1,300 lb</text>
+
+    <!-- zone 3 -->
+    <circle cx="508" cy="120" r="15" fill="none" stroke="#e5a14b" stroke-width="3"/><text x="503" y="126" class="lblw" fill="#e5a14b">3</text>
+    <text x="530" y="118" class="lblw" fill="#e5a14b">WATER / SHOWER</text>
+    <text x="530" y="136" class="lbl2">totes travel EMPTY</text>
+    <text x="490" y="170" class="lbl2">🛢️ IBC totes ×2 (120 lb ea)</text>
+    <text x="490" y="190" class="lbl2">🛁 cattle troughs ×2 (nested)</text>
+    <text x="490" y="210" class="lbl2">🚿 shower stall sections</text>
+    <text x="490" y="230" class="lbl2">🔧 pump + hose + float bin</text>
+    <text x="490" y="250" class="lbl2">💧 empty jugs / riser parts</text>
+    <text x="490" y="286" class="dim">LOAD ORDER #3 · est 700–1,000 lb</text>
+
+    <!-- zone 4 -->
+    <circle cx="728" cy="120" r="15" fill="none" stroke="#fd6844" stroke-width="3"/><text x="723" y="126" class="lblb" fill="#fd6844">4</text>
+    <text x="750" y="118" class="lblb" fill="#fd6844">SHADE — FABRIC + POSTS</text>
+    <text x="750" y="136" class="lbl2">posts flat, lengthwise, low</text>
+    <text x="710" y="170" class="lbl2">🎪 Aluminet 52×52 roofs ×2</text>
+    <text x="710" y="190" class="lbl2">🎪 Aluminet 52×8.5 walls ×6</text>
+    <text x="710" y="210" class="lbl2">⛰️ dormitory 90% fabric</text>
+    <text x="710" y="230" class="lbl2">🪵 4×4×8 posts ×8 (floor, lengthwise)</text>
+    <text x="710" y="250" class="lbl2">🧵 aircraft cable reels · blankets</text>
+    <text x="710" y="270" class="lbl2">   between every layer</text>
+    <text x="710" y="294" class="dim">LOAD ORDER #4 · est 1,000–1,500 lb</text>
+
+    <!-- zone 5 -->
+    <rect x="966" y="94" width="192" height="46" rx="6" fill="rgba(255,212,59,.18)" stroke="#ffd43b" stroke-width="1.5"/>
+    <text x="1062" y="114" text-anchor="middle" class="lblw">★ ZONE 5 — DOORS ★</text>
+    <text x="1062" y="132" text-anchor="middle" class="lblw">BUILD WEEK BOX</text>
+    <text x="974" y="164" class="lbl2">🧰 rolling tool chest (LOW,</text>
+    <text x="974" y="182" class="lbl2">   over axles, strapped)</text>
+    <text x="974" y="202" class="lbl2">⚡ Honda 2200i generator</text>
+    <text x="974" y="222" class="lbl2">🪜 8' + 12' ladders (flat on top)</text>
+    <text x="974" y="242" class="lbl2">🔨 stakes · sledges · keder rail</text>
+    <text x="974" y="262" class="lbl2">🧷 hi-vis hardware bins ×N</text>
+    <text x="974" y="292" class="dim">LOAD #5 · est 1,200–1,800 lb</text>
+
+    <!-- door line -->
+    <line x1="1162" y1="92" x2="1162" y2="308" stroke="#ffd43b" stroke-width="4"/>
+    <text x="1170" y="160" class="lblw" transform="rotate(90 1170 160)">REAR DOORS</text>
+
+    <!-- dimension lines under floor -->
+    <line x1="40" y1="310" x2="40" y2="344" class="dimline"/>
+    <line x1="260" y1="310" x2="260" y2="344" class="dimline"/>
+    <line x1="480" y1="310" x2="480" y2="344" class="dimline"/>
+    <line x1="700" y1="310" x2="700" y2="344" class="dimline"/>
+    <line x1="964" y1="310" x2="964" y2="344" class="dimline"/>
+    <line x1="1162" y1="310" x2="1162" y2="344" class="dimline"/>
+    <line x1="40" y1="336" x2="1162" y2="336" class="dimline"/>
+    <text x="150" y="330" text-anchor="middle" class="dim">ZONE 1 · 10'</text>
+    <text x="370" y="330" text-anchor="middle" class="dim">ZONE 2 · 10'</text>
+    <text x="590" y="330" text-anchor="middle" class="dim">ZONE 3 · 10'</text>
+    <text x="832" y="330" text-anchor="middle" class="dim">ZONE 4 · 12'</text>
+    <text x="1063" y="330" text-anchor="middle" class="dim">ZONE 5 · 9'</text>
+    <text x="601" y="360" text-anchor="middle" class="ttl">TOTAL INTERIOR ≈ 51' — zone lengths are a starting guess; tape-measure the real box and adjust</text>
+
+    <!-- axles + wheels (triple axle near rear) -->
+    <rect x="884" y="326" width="160" height="8" rx="3" fill="#2e3641"/>
+    <circle cx="920"  cy="346" r="16" fill="#111b28" stroke="#4a5563" stroke-width="3"/>
+    <circle cx="964"  cy="346" r="16" fill="#111b28" stroke="#4a5563" stroke-width="3"/>
+    <circle cx="1008" cy="346" r="16" fill="#111b28" stroke="#4a5563" stroke-width="3"/>
+    <text x="964" y="386" text-anchor="middle" class="dim">TRIPLE AXLE GROUP (center ≈ 9' ahead of doors)</text>
+    <line x1="964" y1="394" x2="964" y2="410" class="leader"/>
+    <text x="964" y="424" text-anchor="middle" class="lblg">heaviest bins ride LOW between Z3 → Z5, over/just ahead of this group</text>
+
+    <!-- kingpin -->
+    <circle cx="90" cy="322" r="6" fill="#8b97a3"/>
+    <text x="90" y="386" text-anchor="middle" class="dim">KINGPIN → tractor</text>
+    <text x="90" y="404" text-anchor="middle" class="dim">~10–15% of load weight</text>
+    <text x="90" y="420" text-anchor="middle" class="dim">should sit on the pin</text>
+
+    <!-- ground -->
+    <rect x="0" y="352" width="1220" height="118" class="ground" opacity="0.35"/>
+    <text x="20" y="452" class="dim">⚠ heaviest single items: tool chest, generator, hardware bins, IBCs — none of them above shoulder height, all of them strapped to a tie-down point.</text>
+  </svg>
+  </div>
+
+  <h4 style="color:var(--aqua);text-transform:uppercase;letter-spacing:.08em;font-size:.85rem;margin:10px 0 4px;">Zone table</h4>
+  <table class="t">
+    <tr><th>Zone</th><th>Contents</th><th>Approx weight</th><th>Load order</th><th>Comes out</th></tr>
+    <tr><td>1 · Nose</td><td>AI Oracle totes + 3 tents, event-week consumables, spare fabric, camp overflow</td><td>800–1,200 lb</td><td>#1 (first in)</td><td>Event week / as needed</td></tr>
+    <tr><td>2 · Kitchen bulk</td><td>NSF shelving (knocked down), stackable bins, folding tables ×4, Brute cans, cold-box panels if not in kitchen trailer</td><td>900–1,300 lb</td><td>#2</td><td>Day 3+</td></tr>
+    <tr><td>3 · Water/shower</td><td>IBC totes ×2 EMPTY (~120 lb ea), cattle troughs ×2 nested, shower stall sections, pump/hose/float bin</td><td>700–1,000 lb</td><td>#3</td><td>Day 2–3</td></tr>
+    <tr><td>4 · Shade</td><td>Aluminet roofs ×2 + walls ×6, dormitory fabric, 4×4×8 posts ×8 (flat, lengthwise), cable reels, moving blankets</td><td>1,000–1,500 lb</td><td>#4</td><td>Day 1–2</td></tr>
+    <tr><td>5 · Doors ★</td><td>BUILD WEEK BOX: tool chest, Honda 2200i, 8'+12' ladders, stakes, sledges, keder rail + fasteners, swaging tool, hi-vis hardware bins</td><td>1,200–1,800 lb</td><td>#5 (last in)</td><td>Day 1, first hour</td></tr>
+  </table>
+  <p style="color:var(--cream-dim);margin-top:8px;">Total planned cargo ≈ <strong>4,600–6,800 lb</strong> — a fraction of what this van can legally carry. Weight is not our problem. <strong>Balance and access are.</strong> 🐢</p>
+  <div class="tip"><strong>Honest label:</strong> zone weights and lengths above are Terri's planning estimates, not scale readings. Weigh bins as you pack (bathroom scale works), chalk the real zone boundaries on the trailer floor, and update this table.</div>
+</div>
+
+<!-- WEIGHT & BALANCE -->
+<h3 class="sect">⚖️ Weight &amp; Balance</h3>
+<div class="panel">
+  <div class="tip danger"><strong>Balance beats total.</strong> GVWR is 65,000 lb; even minus the trailer's tare, our ~5–7k lb of cargo is nothing. What actually matters: <strong>where</strong> the weight sits. A badly balanced light load handles worse than a well-placed heavy one.</div>
+  <div class="fig small" style="margin-top:12px;">
+  <svg viewBox="0 0 800 300" role="img" aria-label="Trailer weight and balance diagram showing kingpin, triple axle group, and where heavy items should ride">
+    <text x="20" y="24" class="ttl">BALANCE MAP — HEAVY LOW, OVER/JUST AHEAD OF THE AXLES</text>
+    <!-- trailer -->
+    <rect x="40" y="60" width="660" height="130" fill="#0b1628" stroke="#4a5563" stroke-width="3"/>
+    <line x1="700" y1="60" x2="700" y2="190" stroke="#ffd43b" stroke-width="3"/>
+    <text x="706" y="100" class="dim" transform="rotate(90 706 100)">DOORS</text>
+    <!-- heavy zone highlight over axles -->
+    <rect x="470" y="120" width="200" height="68" fill="rgba(105,219,124,.15)" stroke="#69db7c" stroke-width="2" stroke-dasharray="6 4"/>
+    <text x="570" y="148" text-anchor="middle" class="lblg">HEAVY RIDES HERE</text>
+    <text x="570" y="166" text-anchor="middle" class="lbl2">tool chest · generator · hardware · IBCs</text>
+    <text x="570" y="183" text-anchor="middle" class="lbl2">(floor level, strapped)</text>
+    <!-- light high -->
+    <rect x="80" y="66" width="380" height="40" fill="rgba(77,212,232,.08)" stroke="#4dd4e8" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <text x="270" y="90" text-anchor="middle" class="lbla">light + bulky up high / forward: fabric, totes of soft goods</text>
+    <!-- kingpin -->
+    <circle cx="70" cy="196" r="6" fill="#8b97a3"/>
+    <line x1="70" y1="202" x2="70" y2="230" class="leader"/>
+    <text x="70" y="248" text-anchor="middle" class="dim">KINGPIN</text>
+    <text x="70" y="264" text-anchor="middle" class="dim">10–15% pin weight</text>
+    <!-- axles -->
+    <circle cx="540" cy="216" r="14" fill="#111b28" stroke="#4a5563" stroke-width="3"/>
+    <circle cx="580" cy="216" r="14" fill="#111b28" stroke="#4a5563" stroke-width="3"/>
+    <circle cx="620" cy="216" r="14" fill="#111b28" stroke="#4a5563" stroke-width="3"/>
+    <text x="580" y="248" text-anchor="middle" class="dim">TRIPLE AXLE GROUP</text>
+    <!-- arrows -->
+    <line x1="570" y1="188" x2="570" y2="206" class="arrow"/>
+    <line x1="300" y1="110" x2="300" y2="60" class="arrow" opacity="0.5"/>
+    <text x="20" y="278" class="dim">too much weight BEHIND the axles = trailer sway · too much on the NOSE = overloaded pin / tractor steer axle</text>
+    <text x="20" y="294" class="dim">aim: slightly nose-heavy of the axle group</text>
+  </svg>
+  </div>
+  <ul>
+    <li><strong>Heavy-low, light-high.</strong> Tool chest, generator, hardware bins, IBCs ride ON THE FLOOR. Fabric, ladders, folding tables ride on top of the flat, stable layers. Nothing heavy above shoulder height — if it can crush you during unload, it's packed wrong.</li>
+    <li><strong>~10–15% of cargo weight on the kingpin side</strong> (ahead of the axles) keeps the tractor happy and the trailer tracking straight. Our heavy door-zone sits roughly over the triple axle — good; bias the next-heaviest bins (Zone 3 IBCs) slightly forward of it.</li>
+    <li><strong>Left/right balance too.</strong> Split heavy bins across the width, not all down one side. The trailer lists, the shade hanging off it lists.</li>
+    <li><strong>Strap every zone independently</strong> — a stop-and-stand on the brakes should never let Zone 3 visit Zone 5.</li>
+  </ul>
+</div>
+
+<!-- PACKING TECHNIQUE -->
+<h3 class="sect">🧤 Packing Technique</h3>
+<div class="panel">
+  <ul>
+    <li><strong>Tie-downs:</strong> inventory the interior first — e-track, D-rings, or bare walls? If there's e-track, bring load bars + e-track straps. If bare walls, plan floor D-rings or cargo bars. (Open question below — check the van at Phoenix Gulch.)</li>
+    <li><strong>Ratchet strap per zone:</strong> one strap across each zone boundary at minimum, two on the heavy door zone. Straps get a tug-check after the first 50 miles — everything settles.</li>
+    <li><strong>Moving blankets between every Aluminet fold and every 4×4 post.</strong> Aluminet snags and posts dent; blankets are cheap, shade is not.</li>
+    <li><strong>Label every bin on TWO sides + the door-facing end.</strong> Big Sharpie, bin number + zone + contents. Future-you, at 6am in the dust, says thanks.</li>
+    <li><strong>"First-out" items in hi-vis bins</strong> (bright orange/yellow) — the Day-1 hardware should be visible from the door with a flashlight.</li>
+    <li><strong>Keep a door-zone aisle:</strong> you should be able to pull the BUILD WEEK BOX without unloading Zone 4. If you can't reach it, it's not at the doors.</li>
+    <li><strong>Dew/condensation is real</strong> — metal boxes sweat overnight on the high desert. Fabric (Aluminet, dorm cloth, tents) rides in SEALED totes or wrapped, never bare against the trailer walls.</li>
+    <li><strong>Weigh station legal:</strong> we're far under limits, but know the gross weight anyway — write it on the manifest, keep the manifest at the door.</li>
+    <li><strong>Posts + keder rail lengthwise on the floor</strong>, ends padded — a 4×4 sliding forward under braking is a battering ram aimed at the nose.</li>
+    <li><strong>Ladders flat on top of a stable layer</strong>, never leaning against the doors — doors open, ladder falls on friend. 🐢</li>
+    <li><strong>Propane does NOT ride in the sealed van.</strong> Tanks travel per the fuel plan (ventilated, secured, upright) — confirm where with David/Jade.</li>
+    <li><strong>Photograph each zone as you close it.</strong> The photo is the strike-day repacking map and the insurance record.</li>
+  </ul>
+</div>
+
+<!-- OPEN QUESTIONS -->
+<h3 class="sect">❓ Open Questions for Jeremy &amp; David</h3>
+<div class="panel">
+  <div class="tip david"><strong>Answer these before load day</strong> — each one changes the plan:</div>
+  <ul style="margin-top:12px;">
+    <li><strong>Load &amp; haul logistics:</strong> does the semi get loaded at Phoenix Gulch and dropped by a tractor? Who's driving/hauling it, and when does it arrive vs. build week crew?</li>
+    <li><strong>Interior tie-down points:</strong> what's actually inside this 1996 van — e-track, D-rings, rub rails, nothing? (Decides straps vs. load bars vs. installed anchors.)</li>
+    <li><strong>Ramp or liftgate?</strong> The rolling tool chest and IBC totes are the heavy singles — do we have a ramp, a dock at the Gulch, or are we muscling them up? (Empty IBCs are two-person carries, ~120 lb.)</li>
+    <li><strong>Bikes:</strong> do bikes ride in the semi (Zone 2 tops, wheels padded) or in the box truck?</li>
+    <li><strong>Weigh before departure?</strong> CAT Scale run on the way out of Boulder would confirm axle weights and pin weight — cheap peace of mind for a 1,000-mile tow.</li>
+    <li><strong>Event-week living:</strong> is anything living in the trailer during event week (it's camp storage + dorm shade anchor) — and do we lock the doors? (10× combo locks are in Ops inventory.)</li>
+    <li><strong>Zone lengths:</strong> tape-measure the real interior and confirm the 10/10/10/12/9 split before chalking the floor.</li>
+    <li><strong>Cold box panels:</strong> kitchen trailer or semi Zone 2? Decide once the veggie coffin ships.</li>
+  </ul>
+</div>
+
+<footer class="footer">
+  <p>🐢 <a href="./">Turtle Ops</a> · requested by Jeremy (7/25) · built by Terri · <a href="https://terribleturtle.camp/" target="_blank">terribleturtle.camp</a></p>
+  <p style="margin-top:6px;color:var(--tt-amber);">Move Slow &amp; Bite Things.</p>
+</footer>
+
+</div>
+<script src="assets/turtle-cursor.js" defer></script>
+</body>
+</html>
