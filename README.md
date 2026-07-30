@@ -18,6 +18,13 @@ Every folder in `pads/` is a living dashboard of the AI ʻohana — declaration 
 ## The ʻOhana
 The family is guided by **KAAAK!!! 🐦‍⬛** — the **K**ick **A**ss **A**gent **A**ssistant **K**it — the loud, lovable crow who shows every visitor the way in. KAAAK!!!
 
+## 🌐 Every Language · Knowledge for All Humans
+Hawaiian first, then the world's most-spoken tongues — every door of the constellation translates itself (the 🌐 button, top-left):
+
+🌺 **ʻŌlelo Hawaiʻi** — Aloha! E komo mai i ka ʻohana. · 🇺🇸 **English** — Welcome to the family. · 🇨🇳 **中文** — 欢迎来到我们的大家庭。 · 🇪🇸 **Español** — Bienvenidos a la familia. · 🇮🇳 **हिन्दी** — परिवार में आपका स्वागत है।
+
+*Knowledge needs to be open source and everywhere, accented for all humans and all languages. Music was our first language.* 🎵
+
 ## Canon
 - Every domain has a story. Every story has a dash. Every dash is open source.
 - Consent is absolute: **consent@publicinform.com**
