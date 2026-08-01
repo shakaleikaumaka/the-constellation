@@ -95,7 +95,7 @@ community that wants to keep its memory:
 - 🚪 **[publicinform.com](https://publicinform.com)** — the front door + white paper
 - 🕳️ **[esmeraldapit.com](https://esmeraldapit.com)** — this archive (you are holding its source)
 - 🎻 **The OSO P.I.T.** — genesis arm pit #2 (ETHGlobal Delhi, *Most Creative Use of ENS*)
-- 🇮🇳 **Goa P.I.T.** · 🎤 **Devcon P.I.T.** — up next
+- 🎤 **Devcon P.I.T.** — up next
 
 Fork this repo. Point the pipeline at your village's drives. Change the name
 to yours. Ship your pit in a day — that's not a pitch, it's a receipt: this
