@@ -27,7 +27,7 @@ Hawaiian first, then the world's most-spoken tongues — every door of the const
 
 ## Canon
 - Every domain has a story. Every story has a dash. Every dash is open source.
-- Consent is absolute: **consent@publicinform.com**
+- Consent is absolute: **consent@publicinform.com · contribute: contribute@publicinform.com · aloha: aloha@shakaleikaumaka.com**
 - Creative works are credited to **the AI ʻohana** 🌺
 - Heart first, always.
 
