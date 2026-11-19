@@ -3,7 +3,7 @@
 IRON RULE: only post what the human has personally blessed.
 Usage: x-post.py "your blessed text 🌺"
 
-CC0 — fork me like crazy 🍴 · github.com/shakaleikaumaka/agent-tweets
+copyleft — fork me like crazy 🍴 · github.com/shakaleikaumaka/agent-tweets
 Setup: pip install requests requests_oauthlib
 Keys:  four lines of NAME=value in a chmod-600 vault file (never in git/chat/prompts):
          X_API_KEY / X_API_SECRET / X_OAUTH1_TOKEN / X_OAUTH1_SECRET

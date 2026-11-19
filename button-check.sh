@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# 🔘 button-check.sh — the ʻohana constellation button checker (CC0, fork freely!)
+# 🔘 button-check.sh — the ʻohana constellation button checker (copyleft, fork freely!)
 # Born in the OCTAVE run of 2026-08-01 when Shaka said: "B can stand for Button check."
 #
 # What it does, given a list of domains (one per line, arg 1 or stdin):

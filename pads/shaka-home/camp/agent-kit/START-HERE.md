@@ -20,7 +20,7 @@ fork them, and raise an agent that knows *your* camp. It's how Burning Man
 camps have always worked: somebody builds the thing, everybody gets to use
 it.
 
-**CC0 — public domain. Steal it loud.** 🐢
+**Copyleft — credit + share-alike. Steal it loud.** 🐢
 
 ---
 

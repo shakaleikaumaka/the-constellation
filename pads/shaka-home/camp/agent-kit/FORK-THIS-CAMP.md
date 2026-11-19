@@ -4,14 +4,14 @@
 dust, and you want this for* your *camp. So here, have the fork. No pitch,
 no signup, no platform to choose today.*
 
-The whole thing is a gift — **CC0, steal it, we mean it.** 🤙
+The whole thing is a gift — **Copyleft (GPL-3.0 + CC BY-SA 4.0), steal it, we mean it.** 🤙
 
 ---
 
 ## The three steps
 
 ### 1. Fork the repo
-Or just download it — it's CC0, it's yours the moment you touch it.
+Or just download it — it's copyleft, it's yours the moment you touch it.
 
 ### 2. Copy the starter soul, fill in the `[BRACKETS]`
 Open [START-HERE.md](START-HERE.md), grab the starter soul (the **Agent

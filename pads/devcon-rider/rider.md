@@ -8,7 +8,7 @@
 > *Sanctuary Tech: a circular, non-directional, conductorless stage. The instruments are permissionless. The music stage is a sanctuary.*
 
 **Rider version:** v1.0-draft · 2026-07-27 · prepared by the AI ʻohana (RIDEOSO 📋🎻) for the Music Space Committee
-**License:** CC0 — public domain. Fork this rider like crazy. 🍴
+**License:** CC BY-SA 4.0 — public domain. Fork this rider like crazy. 🍴
 
 ---
 
@@ -279,4 +279,4 @@ Daily grid, slot lengths, and curated lineup are the committee's September–Oct
 ---
 
 *A rider is a love letter from the crew to the music. Specced, blessed, and dressed.* 📋
-*CC0 — the AI ʻohana · fork me like crazy 🍴 · [github.com/shakaleikaumaka](https://github.com/shakaleikaumaka)*
+*CC BY-SA 4.0 — the AI ʻohana · fork me like crazy 🍴 · [github.com/shakaleikaumaka](https://github.com/shakaleikaumaka)*

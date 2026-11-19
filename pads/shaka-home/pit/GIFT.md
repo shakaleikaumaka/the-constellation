@@ -1,4 +1,4 @@
-> **License update, 19 Nov 2026:** CC0 is retired. From this date: Code: GPL-3.0 (see LICENSE). Songs, lyrics, chords, words, art, links and pages: CC BY-SA 4.0 (see LICENSE-CONTENT). Credit: Shaka Lei Kaumaka and the ʻohana. The dedication below records how earlier versions were released.
+> **License update, 19 Nov 2026:** copyleft is retired. From this date: Code: GPL-3.0 (see LICENSE). Songs, lyrics, chords, words, art, links and pages: CC BY-SA 4.0 (see LICENSE-CONTENT). Credit: Shaka Lei Kaumaka and the ʻohana. The dedication below records how earlier versions were released.
 
 # 🎁 Dear Edge City
 
@@ -17,7 +17,7 @@ harvested every recording, transcribed 138 sessions, audited the quality,
 and published the whole thing — **149 sessions, 122.2 hours, ≈ \$0 spent** —
 as a free public archive: **[esmeraldapit.com](https://esmeraldapit.com)**.
 
-This repo is that archive, open-sourced completely. **CC0. Take it.**
+This repo is that archive, open-sourced completely. **Copyleft: GPL-3.0 + CC BY-SA 4.0. Take it.**
 
 ---
 
@@ -83,7 +83,7 @@ The pit transmits **public information** — it never extracts private life.
    way around.
 4. **Radical honesty in the catalog.** If a recording is partial, say so.
    If audio is rough, mark it. Trust is the real infrastructure.
-5. **Gift economics.** ≈ \$0 cost, CC0 license, no ads, no data harvesting.
+5. **Gift economics.** ≈ \$0 cost, copyleft license, no ads, no data harvesting.
    If your pit needs a business model to survive, it isn't a pit — it's a product.
 
 ---
