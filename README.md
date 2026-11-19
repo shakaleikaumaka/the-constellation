@@ -44,7 +44,7 @@ One self-contained HTML block — drop it before `</body>` on ANY page and you g
 - 🌺 the ohana flower (directory of all doors + agents + live concierge chat)
 - 🌐 the world button (Google Translate, Hawaiian first, 90+ languages, mobile-safe)
 - 🧲 the circularity magnet (gift lanes)
-CC0. No build step, no dependencies. Take it. Leave it prettier. 💋
+Copyleft (GPL-3.0 + CC BY-SA 4.0). No build step, no dependencies. Take it. Leave it prettier. 💋
 
 ## License
 
